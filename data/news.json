@@ -1,0 +1,105 @@
+{
+  "lastReviewed": "2026-10-20",
+  "windowStart": "2026-10-13",
+  "windowEnd": "2026-10-20",
+  "schedule": {
+    "status": "active",
+    "description": "Ogni lunedì alle 09:00 · Europe/Rome · richiede Mac e app desktop attivi",
+    "automationId": "pharma-novit-farmacologiche-settimanali",
+    "configured": "2026-10-20"
+  },
+  "method": "Rassegna selettiva di fonti primarie, con sintesi originali, risultati e limiti separati. Non è una revisione sistematica. Un trial non modifica automaticamente una linea guida o un’autorizzazione.",
+  "screened": [
+    {
+      "name": "JAMA",
+      "url": "https://jamanetwork.com/journals/jama/issue/336/14",
+      "outcome": "Due studi farmacologici del 14 ottobre inclusi; letti abstract, risultati e limiti accessibili."
+    },
+    {
+      "name": "EMA",
+      "url": "https://www.ema.europa.eu/en/news",
+      "outcome": "Incluse due raccomandazioni CHMP di ottobre; stato distinto dalla decisione della Commissione europea."
+    },
+    {
+      "name": "AIFA",
+      "url": "https://www.aifa.gov.it/",
+      "outcome": "Consultati portale e dati aperti; nessuna notizia clinica inserita senza verifica del documento primario."
+    },
+    {
+      "name": "FDA",
+      "url": "https://www.fda.gov/drugs/development-approval-process-drugs/drug-approvals-and-databases",
+      "outcome": "Ricerca delle novità e importazione del registro; nessuna novità inserita sulla sola base di fonti secondarie."
+    }
+  ],
+  "items": [
+    {
+      "id": "jama-2026-21322",
+      "date": "2026-10-14",
+      "kind": "Trial randomizzato",
+      "publisher": "JAMA",
+      "title": "Dobutamina e noradrenalina: esito renale nello shock settico chirurgico",
+      "molecules": [
+        "DOBUTAMINE",
+        "NOREPINEPHRINE"
+      ],
+      "summary": "In 584 adulti sottoposti a controllo chirurgico del focolaio settico, l’aggiunta intraoperatoria di dobutamina alla noradrenalina è stata associata a meno danno renale acuto nuovo o aggravato entro 7 giorni.",
+      "result": "22,8% contro 34,7%; rapporto di rischio aggiustato 0,64 (IC 95% 0,49–0,83).",
+      "limitations": "Studio in aperto e intervento limitato alla fase intraoperatoria. Tachicardia più frequente; nessuna differenza significativa dimostrata per mortalità, terapia renale sostitutiva o durata della degenza. Il risultato non giustifica l’estensione automatica a tutti i pazienti con shock settico.",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2855463",
+      "doi": "10.1001/jama.2026.21322",
+      "trial": "NCT06462313",
+      "access": "Abstract, risultati e limiti consultati",
+      "reviewed": "2026-10-20"
+    },
+    {
+      "id": "jama-2026-18471",
+      "date": "2026-10-14",
+      "kind": "Trial randomizzato",
+      "publisher": "JAMA",
+      "title": "SAVE-ICU: la sedazione inalatoria non riduce la mortalità ospedaliera",
+      "molecules": [
+        "ISOFLURANE"
+      ],
+      "summary": "Studio pragmatico in aperto in 14 terapie intensive canadesi: 780 pazienti nell’analisi primaria, con insufficienza respiratoria ipossiemica acuta e ventilazione meccanica. Confronto tra strategia prevalentemente basata su isoflurano, con farmaci EV aggiuntivi se necessari, e sedazione EV usuale.",
+      "result": "Mortalità ospedaliera 42,5% contro 43,8%; RR 0,98 (IC 95% 0,84–1,14). Non dimostrata una riduzione della mortalità.",
+      "limitations": "Strategie di sedazione, non confronto isolato tra due molecole. Frequenti sedativi EV concomitanti nel gruppo inalatorio; disegno in aperto. Assenza di superiorità non dimostra equivalenza. Meno giorni liberi da delirium/coma nel gruppo inalatorio: esito secondario da interpretare nel contesto della molteplicità dei confronti.",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2855464",
+      "doi": "10.1001/jama.2026.18471",
+      "trial": "NCT04415060",
+      "access": "Abstract, risultati e metodi consultati",
+      "reviewed": "2026-10-20"
+    },
+    {
+      "id": "ema-chmp-2026-10-orforglipron",
+      "date": "2026-10-16",
+      "kind": "Parere regolatorio",
+      "publisher": "EMA · CHMP",
+      "title": "Orforglipron: parere favorevole per un agonista GLP-1 orale",
+      "molecules": [
+        "ORFORGLIPRON"
+      ],
+      "summary": "Nel resoconto della riunione del 12–15 ottobre, il CHMP raccomanda l’autorizzazione di Foundayo (orforglipron) per la gestione del peso e il trattamento del diabete tipo 2 negli adulti.",
+      "result": "Parere positivo del CHMP; formulazione orale giornaliera.",
+      "limitations": "Il parere non coincide con la decisione finale della Commissione europea. Disponibilità, rimborsabilità italiana, indicazioni e condizioni d’uso devono essere verificate nei successivi documenti ufficiali. Il resoconto non è un confronto diretto di efficacia con altri GLP-1.",
+      "url": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-12-15-october-2026",
+      "access": "Resoconto regolatorio integrale consultato",
+      "reviewed": "2026-10-20"
+    },
+    {
+      "id": "ema-chmp-2026-10-daraxonrasib",
+      "date": "2026-10-16",
+      "kind": "Parere regolatorio",
+      "publisher": "EMA · CHMP",
+      "title": "Daraxonrasib: raccomandazione CHMP nel tumore pancreatico metastatico",
+      "molecules": [
+        "DARAXONRASIB"
+      ],
+      "summary": "Il CHMP ha espresso parere positivo per Rasonque (daraxonrasib) negli adulti con adenocarcinoma pancreatico metastatico già sottoposti ad almeno un trattamento precedente.",
+      "result": "Valutazione condotta con revisione per fasi nell’ambito del progetto Cancer Medicines Pathfinder.",
+      "limitations": "Raccomandazione del comitato, non attestazione di disponibilità in Italia. Il resoconto non fornisce qui una stima comparativa di sopravvivenza: nessun beneficio numerico viene attribuito senza il relativo studio.",
+      "url": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-12-15-october-2026",
+      "access": "Resoconto regolatorio integrale consultato",
+      "reviewed": "2026-10-20"
+    }
+  ]
+}

@@ -1,0 +1,998 @@
+{
+  "checked": "2026-10-20",
+  "drugs": [
+    {
+      "id": "bisoprololo",
+      "name": "Bisoprololo",
+      "family": "Beta-bloccanti",
+      "subgroup": "β1-selettivo",
+      "atc": "C07AB07",
+      "targets": [
+        "ADRB1"
+      ],
+      "mechanism": "Antagonismo competitivo preferenziale dei recettori β1 adrenergici: attenua la risposta cardiaca alle catecolamine.",
+      "clinical": "Ipertensione, angina e insufficienza cardiaca cronica stabile in contesti appropriati.",
+      "critical": "Bradicardia, blocco atrioventricolare e peggioramento acuto di condizioni emodinamiche instabili. La selettività β1 non è assoluta.",
+      "pk": "La cinetica dipende da funzione renale ed epatica.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL645",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "9–12 h",
+        "bioavailability": "≈80% (10 mg orale)",
+        "binding": "Non sintetizzato",
+        "context": "Orale; emivita aumentata nella riduzione della funzione renale.",
+        "sourceLabel": "bisoprololo",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "metoprololo",
+      "name": "Metoprololo",
+      "family": "Beta-bloccanti",
+      "subgroup": "β1-selettivo",
+      "atc": "C07AB02",
+      "targets": [
+        "ADRB1"
+      ],
+      "mechanism": "Riduce la stimolazione dei recettori β1 e gli effetti cronotropi e inotropi delle catecolamine.",
+      "clinical": "Ipertensione, angina, controllo della frequenza e alcune forme di insufficienza cardiaca (in base alla formulazione).",
+      "critical": "Bradicardia, disturbi di conduzione; non sospendere bruscamente senza indicazione clinica.",
+      "pk": "Metabolismo prevalentemente epatico; importante variabilità individuale.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL13",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "3–7 h",
+        "bioavailability": "77% relativa alla formulazione convenzionale",
+        "binding": "Non sintetizzato",
+        "context": "Succinato a rilascio prolungato; 77% NON è biodisponibilità assoluta.",
+        "sourceLabel": "metoprololo",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "nebivololo",
+      "name": "Nebivololo",
+      "family": "Beta-bloccanti",
+      "subgroup": "β1-selettivo e NO",
+      "atc": "C07AB12",
+      "targets": [
+        "ADRB1"
+      ],
+      "mechanism": "Antagonismo β1 con proprietà vasodilatatrici legate alla via dell’ossido nitrico.",
+      "clinical": "Ipertensione e specifici contesti di insufficienza cardiaca.",
+      "critical": "Bradicardia e ipotensione; il profilo dei metabolizzatori può alterare l’esposizione.",
+      "pk": "Metabolismo con coinvolgimento di CYP2D6.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL434394",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "≈12 h / 19 h",
+        "bioavailability": "Non determinata nella label",
+        "binding": "≈98%",
+        "context": "d-nebivololo: metabolizzatori CYP2D6 estensivi / lenti.",
+        "sourceLabel": "nebivololo",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "carvedilolo",
+      "name": "Carvedilolo",
+      "family": "Beta-bloccanti",
+      "subgroup": "β1/β2 + α1",
+      "atc": "C07AG02",
+      "targets": [
+        "ADRB1",
+        "ADRB2",
+        "ADRA1"
+      ],
+      "mechanism": "Antagonismo dei recettori β1/β2 e α1; diminuisce gli effetti simpatici cardiaci e la resistenza vascolare.",
+      "clinical": "Insufficienza cardiaca stabile, ipertensione e altri contesti cardiovascolari.",
+      "critical": "Il blocco β2 può essere problematico nelle patologie broncospastiche; attenzione a bradicardia e ipotensione.",
+      "pk": "Ampio metabolismo epatico.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL723",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "7–10 h",
+        "bioavailability": "25–35%",
+        "binding": ">98%",
+        "context": "Compresse orali; primo passaggio epatico.",
+        "sourceLabel": "carvedilolo",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "propranololo",
+      "name": "Propranololo",
+      "family": "Beta-bloccanti",
+      "subgroup": "β1/β2 non selettivo",
+      "atc": "C07AA05",
+      "targets": [
+        "ADRB1",
+        "ADRB2"
+      ],
+      "mechanism": "Antagonista non selettivo dei recettori β-adrenergici; riduce la stimolazione β1 cardiaca e β2 periferica.",
+      "clinical": "Alcune aritmie, tremore essenziale, profilassi dell’emicrania e altre indicazioni specifiche.",
+      "critical": "Può provocare broncospasmo nei soggetti suscettibili; attenzione a ipoglicemia, bradicardia e blocchi di conduzione.",
+      "pk": "Importante effetto di primo passaggio epatico.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL27",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "≈10 h",
+        "bioavailability": "Non sintetizzata",
+        "binding": "≈90%",
+        "context": "Capsule a rilascio prolungato: emivita apparente della formulazione selezionata.",
+        "sourceLabel": "propranololo",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "atenololo",
+      "name": "Atenololo",
+      "family": "Beta-bloccanti",
+      "subgroup": "β1-selettivo",
+      "atc": "C07AB03",
+      "targets": [
+        "ADRB1"
+      ],
+      "mechanism": "Antagonismo β1, con diminuzione di frequenza cardiaca e secrezione reninica.",
+      "clinical": "Ipertensione, angina e controllo di alcune tachiaritmie.",
+      "critical": "La selettività diminuisce a concentrazioni elevate; attenzione a bradicardia.",
+      "pk": "Eliminazione in parte significativa renale.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL24",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "6–7 h",
+        "bioavailability": "Non sintetizzata",
+        "binding": "6–16%",
+        "context": "Orale; emivita prolungata negli anziani e nell’insufficienza renale.",
+        "sourceLabel": "atenololo",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "ramipril",
+      "name": "Ramipril",
+      "family": "ACE-inibitori",
+      "subgroup": "Inibitore dell’ACE",
+      "atc": "C09AA05",
+      "targets": [
+        "ACE"
+      ],
+      "mechanism": "Inibisce l’enzima di conversione dell’angiotensina, riducendo angiotensina II e degradazione della bradichinina.",
+      "clinical": "Ipertensione, insufficienza cardiaca e riduzione del rischio cardiovascolare in specifici pazienti.",
+      "critical": "Tosse, angioedema, iperkaliemia, alterazioni della funzione renale; controindicato in gravidanza.",
+      "pk": "Profarmaco convertito a ramiprilato.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL1168",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "13–17 h (ramiprilato)",
+        "bioavailability": "Non sintetizzata",
+        "binding": "Ramipril ≈73%; ramiprilato ≈56%",
+        "context": "Concentrazioni terapeutiche del metabolita dopo dosi ripetute 5–10 mg; la fase terminale legata ad ACE supera 50 h.",
+        "sourceLabel": "ramipril",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "enalapril",
+      "name": "Enalapril",
+      "family": "ACE-inibitori",
+      "subgroup": "Inibitore dell’ACE",
+      "atc": "C09AA02",
+      "targets": [
+        "ACE"
+      ],
+      "mechanism": "Riduce la conversione di angiotensina I in angiotensina II, attenuando vasocostrizione e aldosterone.",
+      "clinical": "Ipertensione e insufficienza cardiaca in contesti appropriati.",
+      "critical": "Monitorare potassio e funzione renale; possibile tosse e angioedema; evitare in gravidanza.",
+      "pk": "Profarmaco convertito in enalaprilato.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL578",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "11 h (enalaprilato)",
+        "bioavailability": "Non sintetizzata",
+        "binding": "Non sintetizzato",
+        "context": "Emivita effettiva di accumulo del metabolita dopo dosi multiple di enalapril maleato.",
+        "sourceLabel": "enalapril",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "losartan",
+      "name": "Losartan",
+      "family": "Sartani (ARB)",
+      "subgroup": "Antagonista AT1",
+      "atc": "C09CA01",
+      "targets": [
+        "AGTR1"
+      ],
+      "mechanism": "Blocca il recettore AT1 dell’angiotensina II, riducendo vasocostrizione e segnalazione pro-aldosterone.",
+      "clinical": "Ipertensione e alcune condizioni renali/cardiovascolari selezionate.",
+      "critical": "Iperkaliemia e alterazioni della funzione renale; controindicato in gravidanza.",
+      "pk": "Un metabolita attivo contribuisce all’effetto.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL191",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "≈2 h; metabolita 6–9 h",
+        "bioavailability": "≈33%",
+        "binding": "Frazione libera 1,3%; metabolita 0,2%",
+        "context": "Emivite terminali distinte per principio attivo e metabolita. Dati del prodotto orale.",
+        "sourceLabel": "losartan",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "valsartan",
+      "name": "Valsartan",
+      "family": "Sartani (ARB)",
+      "subgroup": "Antagonista AT1",
+      "atc": "C09CA03",
+      "targets": [
+        "AGTR1"
+      ],
+      "mechanism": "Antagonismo del recettore AT1: limita le azioni cardiovascolari dell’angiotensina II.",
+      "clinical": "Ipertensione, insufficienza cardiaca e altre indicazioni secondo prodotto/contesto.",
+      "critical": "Iperkaliemia, ipotensione, monitoraggio renale; controindicato in gravidanza.",
+      "pk": "Esposizione e clearance dipendono da caratteristiche del paziente.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL1069",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "≈6 h",
+        "bioavailability": "≈25% (10–35%)",
+        "binding": "≈95%",
+        "context": "La label riporta emivita media dopo EV; biodisponibilità riferita alla formulazione orale. La sospensione ha esposizione diversa dalla compressa.",
+        "sourceLabel": "valsartan",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "amlodipina",
+      "name": "Amlodipina",
+      "family": "Calcio-antagonisti",
+      "subgroup": "Diidropiridinico",
+      "atc": "C08CA01",
+      "targets": [
+        "CACNA1C"
+      ],
+      "mechanism": "Blocca preferenzialmente i canali del calcio di tipo L nella muscolatura liscia vascolare, inducendo vasodilatazione.",
+      "clinical": "Ipertensione e angina.",
+      "critical": "Edema periferico, cefalea, vampate; non è un beta-bloccante.",
+      "pk": "Emivita relativamente lunga; metabolismo epatico.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL1491",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "30–50 h",
+        "bioavailability": "64–90%",
+        "binding": "≈93%",
+        "context": "Orale; emivita terminale.",
+        "sourceLabel": "amlodipina",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "verapamil",
+      "name": "Verapamil",
+      "family": "Calcio-antagonisti",
+      "subgroup": "Non diidropiridinico",
+      "atc": "C08DA01",
+      "targets": [
+        "CACNA1C"
+      ],
+      "mechanism": "Blocca canali del calcio L con importanti effetti su nodo AV, frequenza e contrattilità.",
+      "clinical": "Aritmie sopraventricolari selezionate, angina e ipertensione.",
+      "critical": "Possibile bradicardia, blocco AV, stipsi; problematico in alcune forme di disfunzione sistolica.",
+      "pk": "Metabolismo epatico e interazioni farmacologiche significative.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL6966",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "2–5 h",
+        "bioavailability": "EV: non applicabile al confronto orale",
+        "binding": "Non sintetizzato",
+        "context": "Prodotto INIETTABILE: fase terminale, distinta dalla fase distributiva di ≈4 minuti.",
+        "sourceLabel": "verapamil",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "diltiazem",
+      "name": "Diltiazem",
+      "family": "Calcio-antagonisti",
+      "subgroup": "Non diidropiridinico",
+      "atc": "C08DB01",
+      "targets": [
+        "CACNA1C"
+      ],
+      "mechanism": "Inibisce i canali L, con effetti vasodilatatori e di rallentamento della conduzione nodale.",
+      "clinical": "Ipertensione, angina e alcune tachiaritmie.",
+      "critical": "Bradicardia e blocco AV; valutare interazioni e funzione ventricolare.",
+      "pk": "Metabolismo epatico con interazioni.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL23",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "5–8 h",
+        "bioavailability": "≈40% nella farmacologia del prodotto",
+        "binding": "70–80%",
+        "context": "Capsule a rilascio prolungato: emivita apparente; la stessa fonte distingue dati delle formulazioni convenzionali.",
+        "sourceLabel": "diltiazem",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "furosemide",
+      "name": "Furosemide",
+      "family": "Diuretici",
+      "subgroup": "Dell’ansa",
+      "atc": "C03CA01",
+      "targets": [
+        "SLC12A1"
+      ],
+      "mechanism": "Inibisce NKCC2 nel tratto ascendente spesso dell’ansa di Henle, aumentando escrezione di sodio, cloro e acqua.",
+      "clinical": "Gestione di congestione ed edemi in diversi contesti clinici.",
+      "critical": "Ipovolemia, ipokaliemia, alcalosi metabolica e alterazioni della funzione renale.",
+      "pk": "Risposta dipendente dalla disponibilità del farmaco nel lume tubulare.",
+      "tag": "Nefrologia",
+      "chembl": "CHEMBL35",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "≈2 h",
+        "bioavailability": "Compresse ≈64%; soluzione ≈60%",
+        "binding": "Elevato, soprattutto albumina",
+        "context": "Emivita terminale. Biodisponibilità misurata in uomini sani a digiuno rispetto alla dose EV.",
+        "sourceLabel": "furosemide",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "idroclorotiazide",
+      "name": "Idroclorotiazide",
+      "family": "Diuretici",
+      "subgroup": "Tiazidico",
+      "atc": "C03AA03",
+      "targets": [
+        "SLC12A3"
+      ],
+      "mechanism": "Inibisce il cotrasportatore NaCl NCC nel tubulo contorto distale.",
+      "clinical": "Ipertensione ed edema in contesti selezionati.",
+      "critical": "Ipokaliemia, iponatriemia, iperuricemia e possibili alterazioni metaboliche.",
+      "pk": "Efficacia diuretica dipendente dalla funzione renale.",
+      "tag": "Nefrologia",
+      "chembl": "CHEMBL435",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "5,6–14,8 h",
+        "bioavailability": "Non sintetizzata",
+        "binding": "Non sintetizzato",
+        "context": "Intervallo osservato seguendo le concentrazioni per almeno 24 h; eliminazione renale senza metabolismo.",
+        "sourceLabel": "idroclorotiazide",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "spironolattone",
+      "name": "Spironolattone",
+      "family": "Antialdosteronici",
+      "subgroup": "Antagonista MR",
+      "atc": "C03DA01",
+      "targets": [
+        "NR3C2"
+      ],
+      "mechanism": "Antagonizza il recettore mineralcorticoide, limitando il riassorbimento distale di sodio e la perdita di potassio.",
+      "clinical": "Insufficienza cardiaca con frazione di eiezione ridotta, iperaldosteronismo e altri contesti appropriati.",
+      "critical": "Iperkaliemia e effetti endocrini; controllare potassio e funzione renale.",
+      "pk": "Presenta metaboliti attivi.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL1393",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "1,4 h; canrenone 16,5 h",
+        "bioavailability": "Non sintetizzata",
+        "binding": ">90% (farmaco e metaboliti)",
+        "context": "Metaboliti attivi: TMS 13,8 h e HTMS 15 h. Il dato del solo spironolattone non descrive la durata complessiva.",
+        "sourceLabel": "spironolattone",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "eplerenone",
+      "name": "Eplerenone",
+      "family": "Antialdosteronici",
+      "subgroup": "Antagonista MR",
+      "atc": "C03DA04",
+      "targets": [
+        "NR3C2"
+      ],
+      "mechanism": "Blocca il recettore mineralcorticoide con maggiore selettività recettoriale rispetto allo spironolattone.",
+      "clinical": "Insufficienza cardiaca in pazienti selezionati.",
+      "critical": "Iperkaliemia, alterazioni renali e interazioni metaboliche.",
+      "pk": "Metabolismo principalmente CYP3A4.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL1095097",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "3–6 h",
+        "bioavailability": "69% (compressa 100 mg)",
+        "binding": "≈50%",
+        "context": "Metabolismo prevalentemente CYP3A4; emivita di eliminazione.",
+        "sourceLabel": "eplerenone",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "atorvastatina",
+      "name": "Atorvastatina",
+      "family": "Statine",
+      "subgroup": "Inibitore HMG-CoA reduttasi",
+      "atc": "C10AA05",
+      "targets": [
+        "HMGCR"
+      ],
+      "mechanism": "Inibisce HMG-CoA reduttasi, riducendo la sintesi epatica di colesterolo e aumentando l’espressione dei recettori LDL.",
+      "clinical": "Riduzione del colesterolo LDL e prevenzione cardiovascolare in base al rischio.",
+      "critical": "Possibili effetti muscolari e interazioni; valutare alterazioni epatiche.",
+      "pk": "Metabolismo epatico, con ruolo di CYP3A4.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL1487",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "≈14 h; attività 20–30 h",
+        "bioavailability": "≈14% del farmaco parent",
+        "binding": "≥98%",
+        "context": "L’emivita dell’attività inibitoria HMG-CoA reduttasi include il contributo dei metaboliti.",
+        "sourceLabel": "atorvastatina",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "asa",
+      "name": "Acido acetilsalicilico",
+      "family": "Antiaggreganti",
+      "subgroup": "Inibitore COX",
+      "atc": "B01AC06",
+      "targets": [
+        "PTGS1"
+      ],
+      "mechanism": "Acetila irreversibilmente COX-1 nelle piastrine, riducendo la produzione di trombossano A2.",
+      "clinical": "Prevenzione di eventi aterotrombotici in indicazioni appropriate.",
+      "critical": "Sanguinamento e tossicità gastrointestinale; non equivale a un anticoagulante.",
+      "pk": "L’effetto antiaggregante persiste per la vita della piastrina interessata.",
+      "tag": "Emostasi",
+      "chembl": "CHEMBL25",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare."
+    },
+    {
+      "id": "clopidogrel",
+      "name": "Clopidogrel",
+      "family": "Antiaggreganti",
+      "subgroup": "Antagonista P2Y12",
+      "atc": "B01AC04",
+      "targets": [
+        "P2RY12"
+      ],
+      "mechanism": "Metabolita attivo antagonizza irreversibilmente il recettore piastrinico P2Y12.",
+      "clinical": "Sindromi coronariche e prevenzione aterotrombotica in indicazioni specifiche.",
+      "critical": "Rischio di sanguinamento; variabilità di attivazione metabolica.",
+      "pk": "Profarmaco con metabolismo epatico, incluso CYP2C19.",
+      "tag": "Emostasi",
+      "chembl": "CHEMBL1771",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "≈6 h; metabolita ≈30 min",
+        "bioavailability": "Non sintetizzata",
+        "binding": "Non sintetizzato",
+        "context": "Farmaco parent dopo 75 mg orali. Il blocco irreversibile P2Y12 persiste oltre la breve emivita del metabolita attivo.",
+        "sourceLabel": "clopidogrel",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "apixaban",
+      "name": "Apixaban",
+      "family": "Anticoagulanti",
+      "subgroup": "Inibitore diretto Xa",
+      "atc": "B01AF02",
+      "targets": [
+        "F10"
+      ],
+      "mechanism": "Inibisce direttamente il fattore Xa nella cascata della coagulazione.",
+      "clinical": "Prevenzione dell’ictus nella fibrillazione atriale non valvolare e trattamento/prevenzione TEV in specifiche condizioni.",
+      "critical": "Rischio emorragico; non sostituisce antagonisti della vitamina K nelle protesi valvolari meccaniche.",
+      "pk": "Eliminazione multimodale e interazioni P-gp/CYP3A4.",
+      "tag": "Emostasi",
+      "chembl": "CHEMBL231779",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "≈12 h",
+        "bioavailability": "≈50% (dosi ≤10 mg)",
+        "binding": "≈87%",
+        "context": "Orale; emivita apparente; escrezione renale ≈27% della clearance totale.",
+        "sourceLabel": "apixaban",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "warfarin",
+      "name": "Warfarin",
+      "family": "Anticoagulanti",
+      "subgroup": "Antagonista vitamina K",
+      "atc": "B01AA03",
+      "targets": [
+        "VKORC1"
+      ],
+      "mechanism": "Inibisce VKORC1 e riduce la rigenerazione della vitamina K necessaria alla γ-carbossilazione di fattori della coagulazione.",
+      "clinical": "Prevenzione tromboembolica in indicazioni selezionate, incluse protesi valvolari meccaniche.",
+      "critical": "Range terapeutico ristretto; monitoraggio INR e numerose interazioni.",
+      "pk": "Inizio e cessazione dell’effetto non coincidono con la sola concentrazione plasmatica.",
+      "tag": "Emostasi",
+      "chembl": "CHEMBL1464",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "20–60 h (media ≈40)",
+        "bioavailability": "Non sintetizzata",
+        "binding": "≈99%",
+        "context": "Emivita EFFETTIVA; fase terminale dopo dose singola ≈1 settimana. Effetto dipendente anche dal turnover dei fattori.",
+        "sourceLabel": "warfarin",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "digossina",
+      "name": "Digossina",
+      "family": "Glicosidi cardiaci",
+      "subgroup": "Na⁺/K⁺ ATPasi",
+      "atc": "C01AA05",
+      "targets": [
+        "ATP1A1"
+      ],
+      "mechanism": "Inibisce la Na⁺/K⁺ ATPasi: aumenta indirettamente Ca²⁺ intracellulare nei cardiomiociti; incrementa il tono vagale.",
+      "clinical": "Contesti selezionati di insufficienza cardiaca e controllo della frequenza.",
+      "critical": "Indice terapeutico ristretto; tossicità favorita da ipokaliemia e ridotta funzione renale.",
+      "pk": "Eliminazione prevalentemente renale.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL1751",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "1,5–2 giorni",
+        "bioavailability": "60–80% (compresse)",
+        "binding": "≈25%",
+        "context": "Volontari con funzione renale normale; nei pazienti anurici la fonte riporta 3,5–5 giorni.",
+        "sourceLabel": "digossina",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "amiodarone",
+      "name": "Amiodarone",
+      "family": "Antiaritmici",
+      "subgroup": "Classe III (multicanale)",
+      "atc": "C01BD01",
+      "targets": [
+        "KCNH2",
+        "SCN5A",
+        "CACNA1C"
+      ],
+      "mechanism": "Prolunga la ripolarizzazione con effetti su diversi canali ionici e vie adrenergiche.",
+      "clinical": "Trattamento di aritmie selezionate sotto controllo specialistico.",
+      "critical": "Possibili tossicità tiroidea, polmonare, epatica e oculari; numerose interazioni.",
+      "pk": "Emivita estremamente lunga e notevole accumulo tissutale.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL633",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "Media 58 giorni (15–142)",
+        "bioavailability": "≈50%",
+        "binding": "Non sintetizzato",
+        "context": "Fase terminale apparente dopo dose singola in 12 soggetti sani; farmacocinetica multicompartimentale e accumulo. Metabolita DEA: media 36 giorni nello stesso studio.",
+        "sourceLabel": "amiodarone",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "noradrenalina",
+      "name": "Noradrenalina",
+      "family": "Catecolamine",
+      "subgroup": "Agonista adrenergico",
+      "atc": "C01CA03",
+      "targets": [
+        "ADRA1",
+        "ADRB1"
+      ],
+      "mechanism": "Agonista prevalente α1 con azione anche β1: favorisce vasocostrizione e supporto pressorio.",
+      "clinical": "Vasopressore in contesti critici monitorati.",
+      "critical": "Richiede titolazione e monitoraggio intensivo; rischio ischemico ed extravasazione.",
+      "pk": "Azione rapida con degradazione enzimatica.",
+      "tag": "Emergenze",
+      "chembl": "CHEMBL1437",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "≈2,4 min",
+        "bioavailability": "EV: non applicabile al confronto orale",
+        "binding": "≈25%",
+        "context": "Emivita media della noradrenalina nella label della soluzione endovenosa.",
+        "sourceLabel": "noradrenalina",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "dobutamina",
+      "name": "Dobutamina",
+      "family": "Catecolamine",
+      "subgroup": "Agonista β prevalente",
+      "atc": "C01CA07",
+      "targets": [
+        "ADRB1",
+        "ADRB2"
+      ],
+      "mechanism": "Attivazione adrenergica principalmente β1 con effetti inotropi positivi.",
+      "clinical": "Supporto inotropo in contesti ospedalieri selezionati.",
+      "critical": "Tachiaritmie, ischemia e necessità di monitoraggio.",
+      "pk": "Emivita molto breve.",
+      "tag": "Emergenze",
+      "chembl": "CHEMBL926",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "2 min",
+        "bioavailability": "EV: non applicabile al confronto orale",
+        "binding": "Non sintetizzato",
+        "context": "Emivita plasmatica nell’uomo; prodotto endovenoso in destrosio.",
+        "sourceLabel": "dobutamina",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "nitroglicerina",
+      "name": "Nitroglicerina",
+      "family": "Nitrati organici",
+      "subgroup": "Donatore NO",
+      "atc": "C01DA02",
+      "targets": [
+        "GUCY1A1"
+      ],
+      "mechanism": "Aumenta la segnalazione NO–guanilato ciclasi solubile–cGMP, promuovendo rilassamento vascolare.",
+      "clinical": "Trattamento sintomatico di alcuni quadri anginosi e congestizi in contesti specifici.",
+      "critical": "Rischio ipotensione marcata con inibitori PDE5; cefalea e tolleranza.",
+      "pk": "Marcato primo passaggio; formulazioni diverse.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL730",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "Media 2–3 min",
+        "bioavailability": "≈40%, variabile (sublinguale)",
+        "binding": "Non sintetizzato",
+        "context": "Nitroglicerina parent; metaboliti 1,2- e 1,3-dinitro con emivite rispettivamente 36 e 32 minuti.",
+        "sourceLabel": "nitroglicerina",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "ivabradina",
+      "name": "Ivabradina",
+      "family": "Modulatori cardiaci",
+      "subgroup": "Inibitore corrente If",
+      "atc": "C01EB17",
+      "targets": [
+        "HCN4"
+      ],
+      "mechanism": "Inibisce la corrente pacemaker If del nodo senoatriale riducendo la frequenza in ritmo sinusale.",
+      "clinical": "Indicazioni cardiache selezionate con requisiti specifici di ritmo/frequenza.",
+      "critical": "Bradicardia, fosfeni e interazioni; non funziona come controllo della frequenza in fibrillazione atriale.",
+      "pk": "Metabolismo CYP3A4.",
+      "tag": "Cardiologia",
+      "chembl": "CHEMBL471737",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "≈6 h effettiva",
+        "bioavailability": "≈40%",
+        "binding": "Non sintetizzato",
+        "context": "Definizione di emivita EFFETTIVA nella label USA selezionata, distinta dalla distribuzione di 2 h.",
+        "sourceLabel": "ivabradina",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "dapagliflozin",
+      "name": "Dapagliflozin",
+      "family": "Gliflozine",
+      "subgroup": "Inibitore SGLT2",
+      "atc": "A10BK01",
+      "targets": [
+        "SLC5A2"
+      ],
+      "mechanism": "Inibisce SGLT2 nel tubulo prossimale, aumentando l’escrezione urinaria di glucosio e sodio.",
+      "clinical": "Diabete tipo 2, insufficienza cardiaca e malattia renale cronica secondo indicazioni specifiche.",
+      "critical": "Deplezione di volume, infezioni genitali ed eventuale chetoacidosi euglicemica; considerare stato clinico.",
+      "pk": "Attività renale dipendente dalla filtrazione; metabolismo prevalentemente UGT.",
+      "tag": "Cardiometabolismo",
+      "chembl": "CHEMBL429910",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "≈12,9 h",
+        "bioavailability": "78% (10 mg)",
+        "binding": "Non sintetizzato",
+        "context": "Emivita terminale dopo singola dose orale da 10 mg.",
+        "sourceLabel": "dapagliflozin",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "salbutamolo",
+      "name": "Salbutamolo",
+      "family": "Broncodilatatori",
+      "subgroup": "Agonista β2",
+      "atc": "R03AC02",
+      "targets": [
+        "ADRB2"
+      ],
+      "mechanism": "Agonista β2: stimola Gs, aumenta cAMP e favorisce il rilassamento della muscolatura liscia bronchiale.",
+      "clinical": "Sollievo dal broncospasmo in specifici schemi terapeutici.",
+      "critical": "Tremore, tachicardia e ipokaliemia a dosi elevate; il solo uso frequente può indicare scarso controllo dell’asma.",
+      "pk": "Formulazioni inalatorie con effetto prevalentemente locale.",
+      "tag": "Pneumologia",
+      "chembl": "CHEMBL714",
+      "review": "Sintesi didattica Alpha 0.3; fonti ufficiali collegate, revisione integrale ancora da completare.",
+      "comparison": {
+        "halfLife": "≈6 h",
+        "bioavailability": "Non sintetizzata per aerosol",
+        "binding": "Non sintetizzato",
+        "context": "Emivita terminale dopo aerosol inalatorio nello studio della label; nello studio pediatrico 4–11 anni è riportata separatamente una media di 166 minuti.",
+        "sourceLabel": "salbutamolo",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "eparina",
+      "name": "Eparina non frazionata",
+      "family": "Anticoagulanti",
+      "subgroup": "Antitrombina → IIa e Xa",
+      "mechanism": "Potenzia l’inibizione dei fattori della coagulazione mediata dall’antitrombina. L’attività anticoagulante e la clearance dipendono dalla dose. La preparazione comprende catene polisaccaridiche eterogenee.",
+      "clinical": "Terapia e profilassi di eventi tromboembolici e impieghi procedurali secondo prodotto e via.",
+      "critical": "Emorragia e trombocitopenia indotta da eparina (HIT); monitoraggio della coagulazione e delle piastrine secondo contesto. Non confondere unità di attività con massa.",
+      "chembl": "CHEMBL4650299",
+      "atc": "B01AB01",
+      "targets": [],
+      "review": "Sintesi dalla label USA collegata; non è una monografia clinica esaustiva.",
+      "comparison": {
+        "halfLife": "0,5–2 h",
+        "bioavailability": "Dipende dalla via",
+        "binding": "Legame multiplo",
+        "context": "Plasmatica e dose-dipendente; preparazione non frazionata.",
+        "sourceLabel": "eparina",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "enoxaparina",
+      "name": "Enoxaparina",
+      "family": "Anticoagulanti",
+      "subgroup": "Eparina a basso peso molecolare",
+      "mechanism": "Potenzia l’attività dell’antitrombina, con attività anti-Xa relativamente maggiore dell’attività anti-IIa. È una miscela di frammenti polisaccaridici, non una singola molecola a formula unica.",
+      "clinical": "Profilassi e trattamento tromboembolico; indicazioni coronariche previste dal prodotto.",
+      "critical": "Emorragia, HIT e accumulo in insufficienza renale. Non intercambiabile unità per unità con eparina non frazionata o altre EBPM.",
+      "chembl": "CHEMBL1201476",
+      "atc": "B01AB05",
+      "targets": [],
+      "review": "Sintesi dalla label USA collegata; non è una monografia clinica esaustiva.",
+      "comparison": {
+        "halfLife": "4,5 h → ≈7 h",
+        "bioavailability": "≈100% SC, su attività anti-Xa",
+        "binding": "Non sintetizzato",
+        "context": "Emivita dell’ATTIVITÀ anti-Xa: dose singola → dosi ripetute. Non confrontabile direttamente con un’emivita di concentrazione.",
+        "sourceLabel": "enoxaparina",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "fondaparinux",
+      "name": "Fondaparinux",
+      "family": "Anticoagulanti",
+      "subgroup": "Pentasaccaride sintetico",
+      "mechanism": "Si lega all’antitrombina e potenzia selettivamente l’inibizione del fattore Xa. La molecola è troppo corta per il ponte necessario all’inibizione della trombina mediata dall’eparina.",
+      "clinical": "Prevenzione e trattamento del tromboembolismo in indicazioni e popolazioni specifiche.",
+      "critical": "Eliminazione renale e rischio emorragico: verificare limiti di funzione renale, peso e indicazione nel RCP.",
+      "chembl": "CHEMBL1201202",
+      "atc": "B01AX05",
+      "targets": [],
+      "review": "Sintesi dalla label USA collegata; non è una monografia clinica esaustiva.",
+      "comparison": {
+        "halfLife": "17–21 h",
+        "bioavailability": "100% SC",
+        "binding": "≥94% con antitrombina",
+        "context": "Eliminazione renale; valori del fondaparinux sodico.",
+        "sourceLabel": "fondaparinux",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "rivaroxaban",
+      "name": "Rivaroxaban",
+      "family": "Anticoagulanti",
+      "subgroup": "Inibitore diretto Xa",
+      "mechanism": "Inibisce direttamente il fattore Xa libero e associato al complesso protrombinasi, riducendo la generazione di trombina senza richiedere antitrombina.",
+      "clinical": "Fibrillazione atriale e tromboembolismo; altre indicazioni dipendono da dose, associazioni e prodotto.",
+      "critical": "Sanguinamento e interazioni P-gp/CYP3A. L’assorbimento delle dosi da 15 e 20 mg richiede attenzione al pasto; non trasferire schemi tra indicazioni.",
+      "chembl": "CHEMBL198362",
+      "atc": "B01AF01",
+      "targets": [],
+      "review": "Sintesi dalla label USA collegata; non è una monografia clinica esaustiva.",
+      "comparison": {
+        "halfLife": "5–9 h / 11–13 h",
+        "bioavailability": "Dose e pasto dipendenti",
+        "binding": "92–95%",
+        "context": "Adulti sani 20–45 anni / anziani 60–76 anni; 20 mg a digiuno ≈66%, il cibo aumenta l’esposizione.",
+        "sourceLabel": "rivaroxaban",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "edoxaban",
+      "name": "Edoxaban",
+      "family": "Anticoagulanti",
+      "subgroup": "Inibitore diretto Xa",
+      "mechanism": "Inibitore diretto del fattore Xa: riduce la generazione di trombina.",
+      "clinical": "Prevenzione tromboembolica nella fibrillazione atriale e trattamento del TEV secondo scheda del prodotto.",
+      "critical": "Sanguinamento, interazioni P-gp e dipendenza dalla funzione renale. La label USA contiene una limitazione specifica per CrCl >95 mL/min nella fibrillazione atriale non valvolare; verificare la giurisdizione.",
+      "chembl": "CHEMBL1269025",
+      "atc": "B01AF03",
+      "targets": [],
+      "review": "Sintesi dalla label USA collegata; non è una monografia clinica esaustiva.",
+      "comparison": {
+        "halfLife": "10–14 h",
+        "bioavailability": "62%",
+        "binding": "≈55%",
+        "context": "Orale; clearance renale ≈50% del totale.",
+        "sourceLabel": "edoxaban",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "dabigatran",
+      "name": "Dabigatran etexilato",
+      "family": "Anticoagulanti",
+      "subgroup": "Profarmaco → inibitore diretto IIa",
+      "mechanism": "Il profarmaco etexilato viene convertito a dabigatran, inibitore diretto della trombina. La formula visualizzata qui è del profarmaco, non del metabolita attivo.",
+      "clinical": "Prevenzione e trattamento tromboembolico secondo indicazione, età e formulazione.",
+      "critical": "Sanguinamento, funzione renale e interazioni P-gp. Le formulazioni orali non sono intercambiabili mg per mg; aprire la capsula altera l’esposizione.",
+      "chembl": "CHEMBL539697",
+      "atc": "B01AE07",
+      "targets": [],
+      "review": "Sintesi dalla label USA collegata; non è una monografia clinica esaustiva.",
+      "comparison": {
+        "halfLife": "12–17 h",
+        "bioavailability": "3–7% (capsula integra)",
+        "binding": "≈35%",
+        "context": "Emivita del DABIGATRAN attivo in adulti sani; clearance renale ≈80% del totale dopo somministrazione EV.",
+        "sourceLabel": "dabigatran",
+        "checked": "2026-10-20"
+      }
+    },
+    {
+      "id": "empagliflozin",
+      "name": "Empagliflozin",
+      "family": "Gliflozine",
+      "subgroup": "Inibitore SGLT2",
+      "mechanism": "Inibisce il cotrasportatore sodio-glucosio SGLT2 nel tubulo prossimale, riducendo il riassorbimento di glucosio e sodio.",
+      "clinical": "Diabete tipo 2, scompenso cardiaco e malattia renale cronica nelle popolazioni definite dal prodotto.",
+      "critical": "Chetoacidosi anche senza iperglicemia marcata, deplezione di volume e infezioni genitali; rivalutare nei contesti di digiuno, malattia acuta o chirurgia.",
+      "chembl": "CHEMBL2107830",
+      "atc": "A10BK03",
+      "targets": [],
+      "review": "Sintesi dalla label USA collegata; non è una monografia clinica esaustiva.",
+      "comparison": {
+        "halfLife": "≈12,4 h",
+        "bioavailability": "Non sintetizzata",
+        "binding": "86,2%",
+        "context": "Emivita terminale apparente stimata nell’analisi farmacocinetica di popolazione.",
+        "sourceLabel": "empagliflozin",
+        "checked": "2026-10-20"
+      }
+    }
+  ],
+  "classes": [
+    {
+      "id": "anticoagulanti",
+      "name": "Anticoagulanti",
+      "family": "Anticoagulanti",
+      "sections": [
+        [
+          "Dove agiscono",
+          "La classe comprende meccanismi diversi: eparine e fondaparinux richiedono antitrombina; apixaban, rivaroxaban ed edoxaban inibiscono direttamente Xa; dabigatran inibisce IIa; warfarin interferisce con la rigenerazione della vitamina K. Il bersaglio comune è la formazione di fibrina, ma cinetica, monitoraggio e indicazioni non sono sovrapponibili."
+        ],
+        [
+          "Struttura e funzione",
+          "L’eparina non frazionata è una distribuzione di catene. Le EBPM sono miscele prodotte con processi specifici. Fondaparinux è un pentasaccaride definito: la sua formula non può essere usata come formula dell’eparina. I farmaci diretti orali sono strutture discrete; per dabigatran distinguere profarmaco etexilato e molecola attiva."
+        ],
+        [
+          "Confronto clinico",
+          "La scelta dipende da indicazione, funzione renale, rischio emorragico, interazioni, aderenza e condizioni valvolari. Le linee guida ESC 2024 per la fibrillazione atriale preferiscono i DOAC ai VKA nei pazienti eleggibili, con eccezioni come protesi meccaniche e stenosi mitralica. La preferenza di classe non rende i singoli farmaci intercambiabili."
+        ],
+        [
+          "Come leggere la tabella",
+          "I numeri sono legati alla formulazione e alla popolazione della fonte. L’emivita anti-Xa dell’enoxaparina e l’emivita effettiva del warfarin misurano fenomeni diversi. Un’emivita più breve non dimostra maggiore sicurezza o superiorità clinica."
+        ],
+        [
+          "Sicurezza e monitoraggio",
+          "Il sanguinamento è un rischio comune. Eparine: attenzione alla HIT; warfarin: monitoraggio INR; farmaci diretti: funzione renale e interazioni. Le sezioni controindicazioni, avvertenze, popolazioni speciali e studi clinici sono disponibili nella label del prodotto collegato."
+        ]
+      ],
+      "labels": [
+        "eparina",
+        "enoxaparina",
+        "fondaparinux",
+        "apixaban",
+        "rivaroxaban",
+        "edoxaban",
+        "dabigatran",
+        "warfarin"
+      ],
+      "references": [
+        {
+          "title": "ESC 2024 — fibrillazione atriale",
+          "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/atrial-fibrillation/"
+        }
+      ]
+    },
+    {
+      "id": "beta-bloccanti",
+      "name": "Beta-bloccanti",
+      "family": "Beta-bloccanti",
+      "sections": [
+        [
+          "Recettori e selettività",
+          "L’antagonismo β1 riduce la risposta cardiaca e reninica alle catecolamine. La selettività è relativa e dipende dall’esposizione. Propranololo blocca anche β2; carvedilolo aggiunge il blocco α1. Non estendere automaticamente a tutta la classe proprietà vascolari o indicazioni di un singolo composto."
+        ],
+        [
+          "Perché la formulazione conta",
+          "Metoprololo succinato a rilascio prolungato e propranololo a rilascio prolungato sono le formulazioni delle label selezionate. La durata di rilascio, l’emivita plasmatica e la durata dell’effetto sono concetti distinti. Le formulazioni convenzionali possono presentare valori diversi."
+        ],
+        [
+          "Variabilità e sicurezza",
+          "CYP2D6 contribuisce alla variabilità di metoprololo e nebivololo. L’eliminazione renale è rilevante per atenololo e bisoprololo. Bradicardia, disturbi di conduzione e broncospasmo richiedono attenzione al singolo farmaco e al paziente; il trattamento non va modificato sulla sola selettività nominale."
+        ]
+      ],
+      "labels": [
+        "bisoprololo",
+        "metoprololo",
+        "nebivololo",
+        "carvedilolo",
+        "propranololo",
+        "atenololo"
+      ],
+      "references": []
+    },
+    {
+      "id": "gliflozine",
+      "name": "Gliflozine · SGLT2",
+      "family": "Gliflozine",
+      "sections": [
+        [
+          "Dal rene agli esiti clinici",
+          "L’inibizione di SGLT2 nel tubulo prossimale riduce il riassorbimento di glucosio e sodio. Un meccanismo comune non autorizza a trasferire automaticamente risultati di un trial a tutti i farmaci, dosaggi o gruppi di pazienti. Le label collegano le indicazioni ai rispettivi studi."
+        ],
+        [
+          "Popolazioni e rischi",
+          "Le indicazioni comprendono contesti diabetologici, cardiaci e renali, con criteri differenti per prodotto. Valutare funzione renale, stato volemico e circostanze che favoriscono chetoacidosi, inclusa quella euglicemica. Le indicazioni cardiorenali non equivalgono alla sola efficacia ipoglicemizzante."
+        ],
+        [
+          "Confronto",
+          "Dapagliflozin ed empagliflozin hanno emivite terminali intorno alle 12 ore nelle rispettive fonti. Questo dato non prova equivalenza terapeutica; i confronti di esito richiedono studi comparabili o confronti diretti."
+        ]
+      ],
+      "labels": [
+        "dapagliflozin",
+        "empagliflozin"
+      ],
+      "references": []
+    }
+  ]
+}

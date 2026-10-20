@@ -1,6 +1,6 @@
 /* PHARMA • servizio offline e aggiornamenti delle versioni pubblicate */
-const CACHE = 'pharma-alpha-0.3.2';
-const FILES = ['./', './index.html', './styles.css', './app.js', './manifest.webmanifest', './assets/icon-192.png', './assets/icon-512.png'];
+const CACHE = 'pharma-alpha-0.4.0';
+const FILES = ['./', './index.html', './styles.css', './app.js', './evidence-atlas.js', './evidence-atlas.css', './data/catalog.json', './data/registry.json', './data/editorial.json', './data/labels-index.json', './data/news.json', './assets/heparin-subunits.jpg', './manifest.webmanifest', './assets/icon-192.png', './assets/icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES)));
   self.skipWaiting();

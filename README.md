@@ -1,43 +1,47 @@
-# PHARMA — Interactive Pharmacology Atlas · Alpha 0.3
+# PHARMA — Atlante internazionale · Alpha 0.4
 
-**App made by Eliseo Peirano · 2026.**
+**App made by Eliseo Peirano · 2026**
 
-Questa versione parte direttamente dalla Alpha 0.2 e preserva atlante, laboratory pathway, ADME, quiz e casi. Il restyling è stato sviluppato dopo aver consultato il repository ISOELETTRICA (branch `main`, `index.html`, `app.js`, `atlas-theme.css`; 20 ottobre 2026): https://github.com/eliseopeirano79-droid/Isoelettrica
+Sito: https://eliseopeirano79-droid.github.io/PHARMA/
 
-## Aprire
+Estensione del progetto recuperato da `PHARMA-Alpha03-pronta-per-Dock-e-GitHub-Pages.zip`. I laboratori, il simulatore ADME, i casi e il quiz originali restano disponibili. ISOELETTRICA e la copia separata ELIX non sono coinvolte in questa pubblicazione.
 
-- **Sito:** https://eliseopeirano79-droid.github.io/PHARMA/
-- **Progetto PWA:** esegui `python3 -m http.server 8080` nella cartella del progetto, quindi apri http://localhost:8080. Installazione su HTTPS o localhost, non file://.
-- **Origine:** pacchetto originale `PHARMA-Alpha03-pronta-per-Dock-e-GitHub-Pages.zip`. La versione standalone e i checkpoint precedenti sono allegati separati della conversazione originaria, non inclusi in questo repository.
+## Copertura al 20 ottobre 2026
 
-## Modifiche Alpha 0.3
+- 4.225 identità ChEMBL_37 con max_phase=4: molecole, sali, biologici e record storici, inclusi ritiri e uso veterinario. Non sono 4.225 principi attivi unici attualmente autorizzati, né tutti i farmaci esistenti.
+- Formule, SMILES, immagini 2D e meccanismi documentati dove presenti. Eparina: subunità rappresentative dalla label DailyMed; nessuna formula unica attribuita alla miscela.
+- 37 sintesi didattiche, 36 label USA versionate consultabili per sezioni, 36 righe farmacocinetiche controllate sulla fonte e 3 approfondimenti di classe (anticoagulanti, beta-bloccanti, gliflozine).
+- Indice ATC e confronti per tutte le classi presenti. Valori mancanti e capitoli editoriali incompleti sono indicati.
+- AIFA, EMA e Drugs@FDA: abbinamenti per nomi/sinonimi esatti non ambigui, parent/sali secondo ChEMBL, prodotti monocomponente. Le traduzioni ATC servono alla ricerca, non provano identità chimica. Gli stati si riferiscono ai prodotti e alla data dello snapshot. Assenza di abbinamento non significa assenza di autorizzazione. EMA non copre tutte le autorizzazioni nazionali UE.
+- Prima rassegna: 4 novità verificate (2 trial JAMA e 2 pareri CHMP), con risultati, limiti e fonti primarie. Non è una revisione sistematica.
 
-- Nuova interfaccia con barra di navigazione orizzontale, breadcrumbs, pannelli coerenti, temi salvia/petrolio e verde/grigio; titoli editoriali e impostazioni responsive in stile ISOELETTRICA.
-- Comando chiaro/scuro sempre accessibile nell'intestazione, etichetta accessibile, preferenza persistente nel browser. Prima apertura rispetta le preferenze di sistema quando nessuna scelta è salvata.
-- Firma **App made by Eliseo Peirano · 2026** in piè di pagina, intestazione larga e menu mobile.
-- Non sono state sostituite le schede, le regole del caso clinico o il motore della curva PK/PD.
+Una sintesi, importazione o collegamento non equivale a revisione clinica integrale. Monografie italiane complete, revisione specialistica e copertura di ogni farmaco e formulazione restano da realizzare. Il simulatore ADME conserva parametri ipotetici, separati dalle tabelle.
 
-## Stato scientifico
+## Provenienza
 
-- 30 principi attivi redatti manualmente (demo), 3 modelli recettoriali qualitativi, 5 casi di cui un caso ramificato, 10 quiz. Non validati clinicamente.
-- Il percorso propranololo → β1/β2 → decisione nel caso con asma rimane didattico, con monitoraggio qualitativo e debrief.
-- AIFA/EMA non sincronizzate; classi, condizioni di prescrizione, AIC, Note, confezioni, RCP e FI **non importati**.
-- La fonte USA DailyMed è separata dai riferimenti italiani.
-- Le animazioni delle cascate non sono modelli fisiologici quantitativi. Il simulatore PK/PD usa parametri ipotetici, non dati clinici.
+- ChEMBL: https://www.ebi.ac.uk/chembl/ — dati derivati, classificazioni e immagini, **CC BY-SA 3.0**, attribuzione EMBL-EBI/ChEMBL. https://creativecommons.org/licenses/by-sa/3.0/ . Selezione, compattazione e collegamenti editoriali sono modifiche; i dati derivati ChEMBL restano sotto la stessa licenza.
+- AIFA: https://drive.aifa.gov.it/farmaci/confezioni_fornitura.csv e atc.csv. Dati provvisori descrittivi; URL degli RCP conservati, testo degli RCP italiani non importato.
+- EMA: https://www.ema.europa.eu/en/medicines/download-medicine-data — snapshot JSON del 20 ottobre 2026.
+- FDA: https://open.fda.gov/apis/drug/drugsfda/ — export del 16 ottobre 2026. Label per prodotto con query e versione in data/labels-index.json; non attestano lo stato italiano.
+- Eparina: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a120bdfd-21e1-4024-82a7-13cfeed290c1 — immagine assets/heparin-subunits.jpg.
+- Sintesi JAMA originali, senza riproduzione degli articoli. DOI e registri in data/news.json. Fonti e date delle classi in data/editorial.json.
 
-## Fonti disponibili nel prodotto
+I materiali di terzi mantengono attribuzioni e condizioni delle rispettive fonti; la licenza ChEMBL non si estende automaticamente a tutti gli altri contenuti.
 
-- https://www.guidetopharmacology.org/ (bersagli, riferimento generale)
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC4718210/ (β-adrenorecettori)
-- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1791ef4d-b609-41c8-b4ef-15bff752ddd7 (propranololo, etichetta USA)
-- https://medicinali.aifa.gov.it/ (AIFA, consultazione esterna; non importata)
-- https://plm-portal.ema.europa.eu/Guidance/article/KA-02917/en-us (EMA, annuncio API beta; non integrata)
-- https://reactome.org/license (licenze pathway, nessuna figura copiata)
+## Esecuzione e verifica
 
-## Verifica
+Sito statico, senza dipendenze runtime. Avvia `python3 -m http.server 8080` e apri http://localhost:8080. Richiede HTTP(S), non file://.
 
-`VERIFICA-INTERAZIONI.json` e `VERIFICA-PUBBLICAZIONE.json` conservano i risultati storici inclusi nel pacchetto originale; non attestano la successiva pubblicazione HTTPS.
+`node scripts/validate-data.mjs` controlla identità, provenienza, date, integrità delle label, fonti PK, notizie duplicate e rendering di tutte le molecole. I controlli software non attestano validazione clinica.
 
-## Distribuzione e aggiornamenti dal Dock
+Gli importatori sono in scripts/. Le grandi fonti originali sono nella cartella adiacente evidence-cache/, fuori dal repository. Non aggiornare automaticamente i valori editoriali senza controllarli sulle nuove fonti.
 
-Vedi `COME_PUBBLICARE.txt`. Il service worker usa strategia network-first, così le versioni pubblicate sono preferite alle copie offline; i risultati di quiz e preferenze del tema restano nel browser utilizzato.
+## Rassegna settimanale
+
+Attività desktop pharma-novit-farmacologiche-settimanali: lunedì alle 09:00 Europe/Rome. Comando in WEEKLY_NEWS_PROMPT.txt. Ricerca, verifica, aggiorna data/news.json, prova l'app e pubblica con controllo finale di GitHub Pages. Richiede Mac e app desktop attivi; la data nell'app indica l'ultima rassegna completata, non una garanzia di esecuzione futura.
+
+## PWA e cronologia
+
+Service worker network-first: conserva il catalogo e la rassegna; le label vengono memorizzate quando richieste. Le strutture ChEMBL esterne richiedono rete. Non è garantita la disponibilità offline di tutte le fonti. Tema e progressi didattici rimangono nel browser.
+
+VERIFICA-INTERAZIONI.json e VERIFICA-PUBBLICAZIONE.json sono risultati storici del pacchetto Alpha 0.3, non della versione corrente. La pubblicazione corrente è attestata dal commit e dal workflow Pages concluso.
