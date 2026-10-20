@@ -1,5 +1,5 @@
 /* PHARMA • servizio offline e aggiornamenti delle versioni pubblicate */
-const CACHE = 'pharma-alpha-0.3.1';
+const CACHE = 'pharma-alpha-0.3.2';
 const FILES = ['./', './index.html', './styles.css', './app.js', './manifest.webmanifest', './assets/icon-192.png', './assets/icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES)));
