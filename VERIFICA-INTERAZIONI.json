@@ -1,0 +1,44 @@
+{
+  "pass": 9,
+  "fail": 0,
+  "checks": [
+    [
+      "home, firma autore, navigazione superiore",
+      "PASS"
+    ],
+    [
+      "tema scuro/chiaro",
+      "PASS"
+    ],
+    [
+      "ricerca → farmaco → recettore",
+      "PASS"
+    ],
+    [
+      "via β2 animata: step, pausa, reset",
+      "PASS"
+    ],
+    [
+      "caso ramificato: decisioni e debrief",
+      "PASS"
+    ],
+    [
+      "caso: reset",
+      "PASS"
+    ],
+    [
+      "atlante e quiz",
+      "PASS"
+    ],
+    [
+      "mobile: menu e tema",
+      "PASS"
+    ],
+    [
+      "no JavaScript uncaught exceptions",
+      "PASS"
+    ]
+  ],
+  "pageerrors": [],
+  "method": "Playwright Chromium su HTML standalone caricato via set_content; navigazioni file:// e localhost impedite da policy del browser"
+}

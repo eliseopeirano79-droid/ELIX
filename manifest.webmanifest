@@ -1,0 +1,25 @@
+{
+  "name": "PHARMA — Interactive Pharmacology Atlas",
+  "short_name": "PHARMA",
+  "description": "PHARMA, app made by Eliseo Peirano · 2026. Atlante didattico interattivo di farmacologia.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d151b",
+  "theme_color": "#0d151b",
+  "lang": "it",
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

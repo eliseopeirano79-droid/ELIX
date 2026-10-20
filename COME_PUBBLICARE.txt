@@ -1,0 +1,16 @@
+PHARMA — Prima pubblicazione su GitHub Pages
+
+1) Su GitHub crea un repository pubblico chiamato PHARMA (se desideri un indirizzo gratuito con GitHub Pages). Non contiene dati personali clinici, ma sarà accessibile pubblicamente.
+2) Carica nella radice del repository tutti i file e la cartella assets/ presenti in questo ZIP. Puoi anche usare il connettore GitHub di ChatGPT per caricarli dopo aver creato il repository.
+3) Nel repository: Settings → Pages → Build and deployment → Deploy from a branch → main → /(root) → Save.
+4) Verifica in Settings → Pages il link effettivo 'Visit site'. L’indirizzo standard, se non viene configurato un dominio personalizzato, sarà:
+   https://eliseopeirano79-droid.github.io/PHARMA/
+   QUESTO INDIRIZZO NON È ANCORA STATO VERIFICATO COME PUBBLICATO.
+
+Dock su Mac (macOS Sonoma 14 o successivo):
+- Apri l’indirizzo PUBBLICATO in Safari.
+- File → Aggiungi al Dock…
+- Assegna il nome PHARMA e conferma.
+- L’app avrà una sua finestra e l’icona nel Dock. Aggiornando i file nel repository, il sito pubblicato manterrà lo stesso URL (può essere necessario riaprire o ricaricare la finestra dopo il deploy).
+
+Nota: si tratta di un’app didattica sperimentale, non di un sistema di prescrizione clinica. AIFA/EMA non importati. Non usare dati di pazienti veri nei casi.

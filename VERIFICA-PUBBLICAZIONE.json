@@ -1,0 +1,18 @@
+{
+  "tests": {
+    "file_complete": true,
+    "js_syntax": true,
+    "service_worker_syntax": true,
+    "manifest_standalone": true,
+    "author_credit": true,
+    "theme_persistent": true,
+    "clinical_case": true,
+    "atlas_and_lab": true,
+    "pwa_resources": true,
+    "network_update": true
+  },
+  "static_tests_passed": 10,
+  "total_static_tests": 10,
+  "browser_e2e_in_this_turn": "unavailable: Chromium net::ERR_BLOCKED_BY_ADMINISTRATOR for file:// and localhost",
+  "deployment": "not yet published"
+}
