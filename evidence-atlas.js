@@ -1,6 +1,7 @@
-import {loadVerifiedIndex,verifiedRecord,verifiedBadges,verifiedOverview,renderVerifiedData,verifiedMarketSummary,verifiedPublicPrice,hasVerifiedData} from './elix-verified.js';
+import {loadVerifiedIndex,verifiedRecord,verifiedBadges,verifiedOverview,renderVerifiedData,renderVerifiedByArea,verifiedMarketSummary,verifiedPublicPrice,hasVerifiedData} from './elix-verified.js';
 import {italianDrugName, hasReviewedItalianName, internationalDrugName} from './italian-names.js';
 import {renderDeepDrug,renderTrialEvidence,firstTrialMetric} from './elix-rich-reader.js';
+import {schematicStructure} from './elix-structure-visuals.js';
 import {GUIDELINES_09} from './elix-09-content.js';
 /* Source-aware expansion of the recovered Alpha 0.3. No patient-specific decisions. */
 const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -24,6 +25,7 @@ const sectionNames={description:'Composizione e descrizione',mechanism_of_action
 export function createEvidenceAtlas({refresh,legacyDrugs}){
  let db=null,error='',loading=false;
  const state={query:'',group:'',type:'',country:'',page:0,news:'',classesQuery:'',dataKind:'',order:'name'};
+ const expandedSections=new Set();
  const labels=new Map();
  const byId=new Map(),byLegacy=new Map(),editorial=new Map();
  let searchable=[];
@@ -50,12 +52,18 @@ export function createEvidenceAtlas({refresh,legacyDrugs}){
  function title(kicker,t,lead){return `<div class="ev-heading"><span class="eyebrow">${esc(kicker)}</span><h1>${esc(t)}</h1><p>${esc(lead)}</p></div>`;}
  function loadingPage(){return `${nav()}${card(error?'Catalogo non disponibile':'Caricamento del catalogo',`<p role="status">${esc(error||'Sto aprendo molecole, fonti e registri ufficiali…')}</p>${error?'<button class="btn" data-ev="retry">Riprova</button>':''}`)}`;}
  function chemistry(m,mini=false){
-  const heparin=m.id==='CHEMBL4650299'||/^HEPARIN( |$)/.test(m.name);
-  const source=heparin?'https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a120bdfd-21e1-4024-82a7-13cfeed290c1':`https://www.ebi.ac.uk/chembl/explore/compound/${m.id}`;
-  const image=heparin?'./assets/heparin-subunits.jpg':m.smiles?`https://www.ebi.ac.uk/chembl/api/data/image/${m.id}.svg`:null;
-  const note=heparin?'Eparina: miscela di catene. Subunità rappresentative dalla label; non esiste una formula molecolare unica della preparazione.':m.name.includes('ENOXAPARIN')?'Miscela di frammenti di eparina: formula unica non applicabile.':!m.smiles?'Struttura 2D non disponibile in questo record. Per biologici, vaccini e miscele, una formula unica può non descrivere il prodotto.':'Struttura del record chimico indicato; distinguere base, sale, stereoisomero e formulazione commerciale.';
-  return `<figure class="ev-chem ${mini?'mini':''}">${image?`<img src="${esc(image)}" alt="${heparin?'Subunità rappresentative dell’eparina':`Struttura 2D di ${esc(name(m))}`}" loading="lazy" referrerpolicy="no-referrer"/>`:'<div class="ev-no-structure">Struttura non univoca<br>o non disponibile</div>'}<figcaption>${m.formula?`<span class="ev-formula">${formula(m.formula)}</span>`:mini?'Formula non univoca / non disponibile':'<strong>Formula unica non disponibile</strong>'}${mini?'':`<p>${esc(note)}</p>${m.mass?`<p>Massa del record: ${esc(m.mass)} g/mol</p>`:''}${external(source,heparin?'Fonte della rappresentazione: DailyMed':'Identità e struttura: ChEMBL')}<small>${esc(m.id)}${m.inchiKey?' · '+esc(m.inchiKey):''}</small>`}</figcaption></figure>`;
- }
+ const heparin=m.id==="CHEMBL4650299"||/^HEPARIN( |$)/.test(m.name);
+ const source=heparin?"https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a120bdfd-21e1-4024-82a7-13cfeed290c1":`https://www.ebi.ac.uk/chembl/explore/compound/${m.id}`;
+ const image=heparin?"./assets/heparin-subunits.jpg":m.smiles?`https://www.ebi.ac.uk/chembl/api/data/image/${m.id}.svg`:null;
+ const note=heparin?"Eparina: miscela di catene. Le subunità sono rappresentative, non una molecola unica.":
+   m.name.includes("ENOXAPARIN")?"Miscela di catene a massa diversa: nessuna formula unica della preparazione.":
+   !m.smiles?"Non è disponibile una rappresentazione 2D univoca in questo record. Il modello mostrato è un'illustrazione tridimensionale di categoria, non la struttura reale del farmaco.":
+   "Rappresentazione 2D dal record chimico ChEMBL; forma parent, sale e stereoisomero possono essere differenti.";
+ const content=image?
+ `<div class="ev-chem-stage ev-chem-stage-source"><img src="${esc(image)}" data-ev-image="${esc(m.id)}" alt="${heparin?"Frammenti rappresentativi dell'eparina":`Rappresentazione 2D di ${name(m)}`}" loading="lazy" referrerpolicy="no-referrer"/><span class="ev-chem-source-badge">${heparin?"Frammento illustrativo":"Struttura 2D · ChEMBL"}</span></div>`:
+ `<div class="ev-chem-stage ev-chem-stage-concept">${schematicStructure(m,mini)}</div>`;
+ return `<figure class="ev-chem ${mini?"mini":""} ${image?"has-depiction":"has-concept"}">${content}<figcaption>${m.formula?`<span class="ev-formula">${formula(m.formula)}</span>`:mini?'<span class="ev-formula-missing">Formula non univoca</span>':'<strong>Formula unica non disponibile</strong>'}${mini?'':`<p>${esc(note)}</p>${m.mass?`<p>Massa del record: ${esc(m.mass)} g/mol</p>`:""}${external(source,heparin?"Documento DailyMed":"Identità e struttura · ChEMBL")}<small>${esc(m.id)}${m.inchiKey?" · "+esc(m.inchiKey):""}</small>`}</figcaption></figure>`;
+}
  function status(m,c){
   const r=registry(m),rows=r[c]||[];
   if(!rows.length)return 'Non verificato';
@@ -121,20 +129,51 @@ export function createEvidenceAtlas({refresh,legacyDrugs}){
  return card("Prezzo, disponibilità e consumi",`<p><strong>Prezzo italiano:</strong> non presente come dato verificato nello snapshot importato. Non possiamo ricavarlo dal solo principio attivo, perché dipende da confezione, modalità di acquisto e periodo.</p><p><strong>Stato dei registri:</strong> Italia · ${esc(status(m,"IT"))}; UE · ${esc(status(m,"EU"))}; USA · ${esc(status(m,"US"))}.</p><p>Costi di terapia, DDD, volumi di prescrizione e serie storiche OsMed verranno collegati dopo importazione e verifica dei dati pertinenti.</p>`);
 }
  function molecule(id){
-  const m=byId.get(id);if(!m)return `${nav()}${card('Molecola non trovata','<a href="#/atlas">Torna al catalogo</a>')}`;
-  const d=info(m),own=d?.chembl===m.id,l=db.labelIndex[d?.id];
-  const refs=m.mechanisms.length?m.mechanisms:(byId.get(m.parent)?.mechanisms||[]);
-  const chemicalLinks=m.name==='HEPARIN'?'<p class="ev-note">Prodotti delle forme correlate: <a href="#/molecule/CHEMBL1201657">eparina sodica</a> · <a href="#/molecule/CHEMBL1201513">eparina calcica</a>. Apri il record specifico per lo stato regolatorio.</p>':'';
-  const newsNames=new Set([m.name,byId.get(m.parent)?.name,d?.name,...m.aliases].filter(Boolean).map(normalize));
-  const relatedNews=db.news.items.filter(n=>n.molecules.some(nm=>newsNames.has(normalize(nm))));
-  return `${nav()}<div class="ev-drug-hero"><div>${title(italianType(m.type),name(m),'Nome internazionale (EN): '+english(m))}<div class="ev-tags">${m.atc.map(a=>pill(a)).join('')}${m.withdrawn?pill('Ritiro segnalato in ChEMBL: verificare il Paese','amber'):''}${m.veterinary?pill('Uso veterinario registrato'):''}${m.parent!==m.id?pill('Forma collegata al parent '+m.parent):''}${d?pill('Sintesi didattica disponibile','green'):pill('Approfondimento editoriale da completare','amber')}</div>${m.atc.length?`<p class="ev-class-links">${[...new Set(m.atc.map(a=>a.slice(0,5)))].map(a=>`<a href="#/class/${a}">${esc(db.catalog.classes[a]||a)} →</a>`).join('')}</p>`:''}<details><summary>Sinonimi e identità</summary><p><strong>Nome internazionale (EN):</strong> <span lang="en">${esc(english(m))}</span></p><p><strong>Altri sinonimi:</strong> ${esc(m.aliases.join(' · ')||'Non presenti nel record')}</p>${m.parent!==m.id?`<a href="#/molecule/${m.parent}">Apri la molecola parent</a>`:''}${m.smiles?`<p class="ev-smiles">SMILES: ${esc(m.smiles)}</p>`:''}</details></div>${chemistry(m)}</div>${drugSummary(m,d,l)}${renderVerifiedData(m)}
-  <h2 class='ev-section-title'>Farmacologia e meccanismo</h2>${d?card('Teoria della molecola',`${!own?'<p class="ev-note">Sintesi riferita alla base/forma parent. La struttura sopra rappresenta invece il record selezionato.</p>':''}<div class="ev-theory"><article><h3>Meccanismo</h3><p>${esc(d.mechanism)}</p></article><article><h3>Contesti d’impiego</h3><p>${esc(d.clinical)}</p></article><article><h3>Rischi e differenze</h3><p>${esc(d.critical)}</p></article></div><p class="ev-note">${esc(d.review)} ${l?external(l.url,'Fonte del prodotto per approfondimento'):''}</p>${db.ed.classes.some(c=>c.family===d.family)?`<a class="btn" href="#/class/${db.ed.classes.find(c=>c.family===d.family).id}">Teoria e confronto di classe →</a>`:''}${legacyDrugs.some(x=>x.id===d.id)?` <a class="btn" href="#/learning-drug/${d.id}">Percorso didattico originale →</a>`:''}`):''}
-  ${renderDeepDrug(d)}
-   <h2 class='ev-section-title'>Cinetica, dosi e sicurezza</h2>${d?.comparison?card('Farmacocinetica documentata',pkTable([d])):card('Farmacocinetica','<p>Emivita, biodisponibilità e legame proteico non sono ancora stati sintetizzati in modo verificato per questo record.</p>')}${drugPosology(m,d,l)}${guidelineLinks09(m,d)}
-  ${labelPanel(d)}
-  <h2 class='ev-section-title'>Bersagli e riferimenti sperimentali</h2>${card('Meccanismi e riferimenti sperimentali',refs.length?`<p>Annotazioni ChEMBL in lingua originale. Non rappresentano da sole una monografia clinica o una linea guida.</p>${refs.map(r=>`<article class="ev-mechanism"><h3 lang="en">${esc(r.text)}</h3><p>${esc(r.action)}${r.target?' · '+external(`https://www.ebi.ac.uk/chembl/explore/target/${r.target}`,r.target):''}</p><div class="ev-ref-list">${r.references.map(x=>external(x.url,x.title)).join('')}</div></article>`).join('')}`:'<p>Meccanismo non annotato nel record importato. Nessun meccanismo è stato dedotto dal solo nome o dalla classe.</p>')}
-  ${chemicalLinks}${drugEvidence(m,relatedNews)}<h2 class='ev-section-title'>Prodotti, documenti e mercato</h2>${drugMarket(m)}${regulator(m)}`;
- }
+ const m=byId.get(id);
+ if(!m)return `${nav()}${card("Molecola non trovata",'<a href="#/atlas">Torna al catalogo</a>')}`;
+ const d=info(m),own=d?.chembl===m.id,l=db.labelIndex[d?.id];
+ const refs=m.mechanisms.length?m.mechanisms:(byId.get(m.parent)?.mechanisms||[]);
+ const verified=verifiedRecord(m);
+ const relatedNames=new Set([m.name,byId.get(m.parent)?.name,d?.name,...m.aliases].filter(Boolean).map(normalize));
+ const relatedNews=db.news.items.filter(n=>n.molecules.some(nm=>relatedNames.has(normalize(nm))));
+ const qualityNote=d?"Monografia originale disponibile":"Dati scientifici non ancora sintetizzati";
+ const maybeParent=!own&&d?'<p class="ev-identity-note">La sintesi didattica riguarda la molecola parent; il record chimico selezionato può rappresentare una forma o un sale differente.</p>':"";
+ const targets=d?.targets?.length?`<div class="ev-inline-dots">${d.targets.map(t=>`<a class="ev-tag" href="#/receptors/${encodeURIComponent(t)}">${esc(t)} · bersaglio →</a>`).join("")}</div>`:"";
+ const directTheory=d?card("Teoria farmacologica",`${maybeParent}<div class="ev-theory"><article><h3>Meccanismo</h3><p>${esc(d.mechanism)}</p></article><article><h3>Impieghi descritti</h3><p>${esc(d.clinical)}</p></article><article><h3>Rischi</h3><p>${esc(d.critical)}</p></article></div><p class="ev-note">${esc(d.review)}</p>${db.ed.classes.some(c=>c.family===d.family)?`<a class="ev-link" href="#/class/${db.ed.classes.find(c=>c.family===d.family).id}">Approfondisci la classe →</a>`:""}`):
+ card("Meccanismo da approfondire",'<p>Non è ancora disponibile una monografia editoriale per questa identità. Non deduciamo indicazioni o rischi dal solo nome della sostanza.</p>');
+ const theory=directTheory+renderDeepDrug(d);
+ const kinetic=(d?.comparison?card("Dati PK della sintesi verificata",pkTable([d])):"")+renderVerifiedByArea(m,"adme");
+ const doses=renderVerifiedByArea(m,"dosage")+drugPosology(m,d,l)+guidelineLinks09(m,d)+(l?`<details class="ev-more"><summary>Consulta le altre sezioni complete della label USA</summary>${labelPanel(d)}</details>`:"");
+ const annotated=refs.length?card("Meccanismi annotati in ChEMBL",`<p>Testo sperimentale in lingua originale, con bersaglio e riferimenti. Non è necessariamente una indicazione clinica.</p>${refs.map(r=>`<article class="ev-mechanism"><h3 lang="en">${esc(r.text)}</h3><p>${esc(r.action)}${r.target?" · "+external("https://www.ebi.ac.uk/chembl/explore/target/"+r.target,r.target):""}</p><div class="ev-ref-list">${(r.references||[]).map(x=>external(x.url,x.title)).join("")}</div></article>`).join("")}`):"";
+ const experiments=targets+renderVerifiedByArea(m,"activity")+annotated;
+ const studies=drugEvidence(m,relatedNews);
+ const market=renderVerifiedByArea(m,"market")+drugMarket(m)+regulator(m);
+ const sections=[
+  {id:"mechanism",title:"Come agisce e quali effetti produce",description:"Farmacodinamica, fisiologia, effetti avversi spiegati",status:d?"Teoria presente":"Da completare",body:theory},
+  {id:"adme",title:"Assorbimento, metabolismo ed eliminazione",description:"Biodisponibilità, emivita, primo passaggio, metaboliti attivi",status:verified.label?"Fonte originale disponibile":d?.comparison?"Sintesi disponibile":"Da documentare",body:kinetic},
+  {id:"dosage",title:"Dosi, indicazioni e sicurezza",description:"Posologia per prodotto, modalità di somministrazione, RCP",status:verified.label?"Label di prodotto":"RCP da verificare",body:doses},
+  {id:"targets",title:"Recettori, bersagli e misure sperimentali",description:"Target molecolari, Ki/Kd, EC50, IC50 e curve",status:verified.activity?`${verified.activity.count} misure`:refs.length?`${refs.length} meccanismi`:"Da integrare",body:experiments},
+  {id:"evidence",title:"Studi clinici ed evidenze",description:"Trial, endpoint, NNT/NNH e pubblicazioni",status:relatedNews.length?`${relatedNews.length} aggiornamenti`:"Evidenze contestuali",body:studies},
+  {id:"market",title:"Medicinali, confezioni e prezzi",description:"AIC, prezzo SSN, rimborsabilità, documenti regolatori",status:verified.market?`${verified.market.packages} confezioni`:"Prezzi non importati",body:market}
+ ];
+ const accordion=sections.map((sec,i)=>{
+  const key=m.id+":"+sec.id,opened=expandedSections.has(key);
+  return `<details class="ev-topic" data-ev-section="${esc(key)}" ${opened?"open":""}>
+   <summary><span class="ev-topic-number">${String(i+1).padStart(2,"0")}</span><span class="ev-topic-title"><strong>${esc(sec.title)}</strong><small>${esc(sec.description)}</small></span><span class="ev-topic-status">${esc(sec.status)}</span><span class="ev-topic-chevron" aria-hidden="true">⌄</span></summary>
+   <div class="ev-topic-body">${sec.body}</div></details>`;
+ }).join("");
+ const identityDetail=`<details class="ev-identity-disclosure"><summary>Identità chimica e sinonimi</summary><p><strong>Nome internazionale (EN):</strong> <span lang="en">${esc(english(m))}</span></p><p><strong>Altri sinonimi:</strong> ${esc(m.aliases.join(" · ")||"Non presenti nel record")}</p>${m.parent!==m.id?`<p><a href="#/molecule/${encodeURIComponent(m.parent)}">Apri la molecola parent →</a></p>`:""}${m.smiles?`<p class="ev-smiles">SMILES: ${esc(m.smiles)}</p>`:""}</details>`;
+ return `${nav()}<div class="ev-drug-sheet"><a class="rx-back" href="#/atlas">← Torna ai farmaci</a>
+ <header class="ev-drug-hero"><div class="ev-drug-intro">${title(italianType(m.type),name(m),"Nome internazionale (EN): "+english(m))}
+  <div class="ev-tags">${m.atc.map(a=>pill(a)).join("")}${m.withdrawn?pill("Ritiro storico segnalato · verificare il Paese","amber"):""}${m.veterinary?pill("Uso veterinario"):""}${m.parent!==m.id?pill("Forma chimica correlata"):""}</div>
+  <div class="ev-intro-state"><span class="ev-intro-dot" aria-hidden="true"></span>${esc(qualityNote)}</div>
+  ${identityDetail}
+  </div>${chemistry(m)}</header>
+ ${drugSummary(m,d,l)}
+ <div class="ev-reading-head"><div><span class="eyebrow">ATLANTE FARMACOLOGICO</span><h2>Esplora la scheda</h2><p>Le informazioni sono organizzate per argomento. Apri quello che ti interessa, senza dover scorrere tutte le fonti.</p></div><span class="ev-reading-count">${sections.length} sezioni</span></div>
+ <div class="ev-topics">${accordion}</div>
+ <p class="ev-sheet-foot">Contenuti per studio e ricerca, non decisioni terapeutiche individuali. Fonte, prodotto, specie e contesto determinano la validità di ogni valore.</p></div>`;
+}
  function classCards(){
   const counts={};for(const m of db.catalog.molecules)for(const a of new Set(m.atc.map(a=>a.slice(0,5))))counts[a]=(counts[a]||0)+1;
   return Object.entries(counts).filter(([k])=>normalize(k+' '+db.catalog.classes[k]).includes(normalize(state.classesQuery))).sort((a,b)=>a[0].localeCompare(b[0])).map(([k,n])=>`<a class="ev-class-card" href="#/class/${k}"><span class="eyebrow">${k}</span><h3>${esc(db.catalog.classes[k]||k)}</h3><p>${n} record · meccanismi e fonti disponibili</p></a>`).join('');
@@ -159,7 +198,22 @@ export function createEvidenceAtlas({refresh,legacyDrugs}){
  document.addEventListener('change',e=>{const x=e.target;if(['ev-group','ev-type','ev-country'].includes(x.id)){state[x.id.replace('ev-','')]=x.value;state.page=0;updateResults();}if(x.id==='ev-compare')location.hash='#/compare/'+encodeURIComponent(x.value);if(x.id==='ev-news-kind'){state.news=x.value;document.getElementById('ev-news-results').innerHTML=newsResults();}});
  document.addEventListener('click',async e=>{const el=e.target.closest('[data-ev]');if(!el)return;const act=el.dataset.ev;if(act==='jump'){document.getElementById(el.dataset.target)?.scrollIntoView({block:'start',behavior:'smooth'});return;}if(act==='retry'){load();refresh();}if(act==='next'||act==='previous'){state.page+=act==='next'?1:-1;updateResults();document.getElementById('ev-results')?.scrollIntoView({block:'start'});}if(act==='label'){const id=el.dataset.id,box=document.getElementById('ev-label-'+id);if(!db.labelIndex[id])return;el.disabled=true;el.textContent='Caricamento della fonte…';try{labels.set(id,await json('data/labels/'+id+'.json'));}catch{labels.set(id,{error:true});}if(box?.isConnected)box.innerHTML=labelContent(id);}});
  // Failed remote depictions leave an explicit, accessible fallback, never a fabricated image.
- document.addEventListener('error',e=>{if(e.target.matches?.('.ev-chem img')){const p=document.createElement('p');p.className='ev-no-structure';p.textContent='Immagine non disponibile. Apri la fonte chimica.';e.target.replaceWith(p);}},true);
+ document.addEventListener('error',e=>{
+  const img=e.target;
+  if(img?.tagName!=='IMG'||!img.dataset?.evImage)return;
+  const record=byId.get(img.dataset.evImage),container=img.closest('.ev-chem-stage');
+  if(!record||!container)return;
+  const compact=Boolean(img.closest('.ev-chem.mini'));
+  container.classList.remove('ev-chem-stage-source');
+  container.classList.add('ev-chem-stage-concept');
+  container.innerHTML=schematicStructure(record,compact);
+ },true);
+ document.addEventListener('toggle',e=>{
+  const el=e.target;
+  if(!el?.matches?.('details[data-ev-section]'))return;
+  const key=el.dataset.evSection;
+  if(el.open)expandedSections.add(key);else expandedSections.delete(key);
+ },true);
  document.addEventListener("change",e=>{if(e.target.id==="vd-data-kind"){state.dataKind=e.target.value;state.page=0;updateResults();}if(e.target.id==="vd-order"){state.order=e.target.value;state.page=0;updateResults();}});
  load();
  return {route, search(query){if(!db||!query.trim())return [];const q=normalize(query);return searchable.filter(x=>x.text.includes(q)).sort((a,b)=>Number(normalize(name(b.m)).startsWith(q))-Number(normalize(name(a.m)).startsWith(q))).slice(0,12).map(({m})=>({type:'Molecola',name:name(m),sub:m.atc.join(' · ')||m.type,link:'#/molecule/'+m.id,ic:'pill'}));}};
