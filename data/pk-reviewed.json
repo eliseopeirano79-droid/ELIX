@@ -281,10 +281,9 @@
         "metoprolol-tartrate-ir-us"
       ],
       "teaching": {
-        "title": "Rilascio ed eliminazione sono processi diversi",
-        "body": "La compressa a rilascio prolungato distribuisce l’ingresso del metoprololo nel tempo; CYP2D6 regola la sua trasformazione dopo l’assorbimento. Per interpretare un valore di emivita occorre quindi distinguere la formulazione dal metabolismo. La quota escreta nelle urine comprende soprattutto metaboliti: non equivale alla quota di molecola attiva eliminata dal rene.",
+        "title": "Primo passaggio e variabilità individuale",
+        "body": "Dopo l’assunzione delle compresse a rilascio immediato, una parte del metoprololo viene metabolizzata prima di raggiungere la circolazione sistemica. La biodisponibilità orale indica la frazione della dose che vi arriva immodificata; non va confusa con la biodisponibilità relativa, che confronta due formulazioni. L’attività di CYP2D6 modifica l’eliminazione: nei metabolizzatori lenti l’emivita può essere più lunga. Anche la quota urinaria totale, che comprende i metaboliti, va distinta dalla quota di farmaco immodificato.",
         "sourceIds": [
-          "metoprolol-succinate-er-us",
           "metoprolol-tartrate-ir-us"
         ]
       },
