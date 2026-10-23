@@ -25,7 +25,7 @@ assert.throws(()=>recordCount('Nessun risultato'));
    await page.setViewportSize({width,height:1000});await page.goto(base+'#/molecule/'+drug.chembl);
    await page.waitForSelector('[data-pk-context="essential-'+drug.id+'"]');
    if(await page.locator('body').getAttribute('data-theme')!==theme)await page.locator('[data-act="theme"]').click();
-   assert.equal(await page.locator('.topnav-link').count(),5);
+   assert.equal(await page.locator('.topnav-link').count(),7);
    assert.equal(await page.locator('details[data-ev-section]').count(),6);
    assert.equal(await page.locator('.ev-heading h1').innerText(),drug.name);
    await page.locator('[data-ev="expand-all"]').click();await page.waitForSelector('[data-reviewed-pk]');

@@ -10,7 +10,7 @@ import {reviewedProfiles,renderReviewedPK,PK_FIELDS} from '../elix-pk-reviewed.j
 const root=new URL('../',import.meta.url),read=p=>JSON.parse(fs.readFileSync(new URL(p,root),'utf8'));
 const catalog=read('data/catalog.json'),editorial=read('data/editorial.json'),pk=read('data/pk-reviewed.json'),index=read('data/verified/index.json');
 appendContentBatches(editorial,pk);
-for(const b of ADDITIONAL_CONTENT_BATCHES.filter(b=>b!==batch))appendContentBatches(editorial,pk,b);
+for(const b of ADDITIONAL_CONTENT_BATCHES.slice(0,ADDITIONAL_CONTENT_BATCHES.indexOf(batch)))appendContentBatches(editorial,pk,b);
 const before=buildCatalogCoverage({catalog,editorial,pk,index}),original=structuredClone({editorial,pk});
 appendContentBatches(editorial,pk,batch);
 const after=buildCatalogCoverage({catalog,editorial,pk,index});

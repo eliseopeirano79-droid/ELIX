@@ -13,7 +13,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs');
    const profile=batch.profiles.find(p=>p.applicableMoleculeIds.includes(drug.chembl));
    await page.setViewportSize({width,height:1000});await page.goto(base+'#/molecule/'+drug.chembl);await page.waitForSelector('[data-pk-context="'+profile.id+'"]');
    if(await page.locator('body').getAttribute('data-theme')!==theme)await page.locator('[data-act="theme"]').click();
-   assert.equal(await page.locator('.topnav-link').count(),5);assert.equal(await page.locator('details[data-ev-section]').count(),6);
+   assert.equal(await page.locator('.topnav-link').count(),7);assert.equal(await page.locator('details[data-ev-section]').count(),6);
    assert.equal(await page.locator('.ev-heading h1').innerText(),drug.name);await page.locator('[data-ev="expand-all"]').click();
    await page.waitForSelector('[data-reviewed-pk="'+profile.id+'"]');assert.equal(await page.locator('[data-pk-metric]').count(),6);
    assert.equal(await page.locator('[data-batch-pharmacology="'+drug.id+'"]').count(),1);
