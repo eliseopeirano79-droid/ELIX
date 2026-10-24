@@ -38,7 +38,7 @@ const profiles=[
  proteinBinding:metric('Non legata alle proteine plasmatiche','','Piridostigmina','Legame plasmatico'),
  metabolism:metric('Limitato · idrolisi da colinesterasi plasmatiche','','Piridostigmina','Biotrasformazione'),
  metabolites:metric('3-idrossi-N-metilpiridinio','Principale prodotto di idrolisi descritto.','Metabolita principale','Identità chimica'),
- excretion:metric('5–15% della dose orale: parent nelle urine','Dato dipendente dalla dose; non confondere con il recupero renale dopo EV.','Piridostigmina immodificata','Recupero urinario dopo via orale',[range(5,15,'%',{denominator:'dose orale',route:'urine',substance:'parent immodificato'})])}}
+ excretion:metric('5–15% della dose orale: farmaco immodificato nelle urine','Dato dipendente dalla dose; non confondere con il recupero renale dopo EV.','Piridostigmina immodificata','Recupero urinario dopo via orale',[range(5,15,'%',{denominator:'dose orale',route:'urine',substance:'parent immodificato'})])}}
 ];
 for(const d of drugs)Object.assign(d,{quizAvailable:false,tag:'Trasmissione colinergica',checkedAt,review:'Sintesi didattica selettiva controllata sulle fonti, non revisione clinica indipendente.'});
 for(const p of profiles){Object.assign(p,{sourceIds:[p.id],checkedAt,reviewStatus:'source-checked',scopeNote:'Contesto del prodotto selezionato; nessuna estensione automatica a sali, altre vie, formulazioni o popolazioni.'});for(const m of Object.values(p.metrics))Object.assign(m,{sourceIds:[p.id],context:p.population+' '+p.formulation});}
