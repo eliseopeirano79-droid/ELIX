@@ -27,7 +27,7 @@ const tio=batch.profiles.find(p=>p.id==='resp-tiotropio');assert.equal(tio.metri
 assert.equal(batch.profiles.find(p=>p.id==='resp-montelukast').metrics.halfLife.values.length,0);
 assert.equal(batch.profiles.find(p=>p.id==='resp-formoterolo').metrics.bioavailability.values[0].denominator,'dose erogata');
 const report=buildCatalogCoverage({catalog,editorial:ed,pk,index:read('data/verified/index.json')});
-assert.deepEqual([report.counts.editorial,report.counts.profileContexts,report.counts.pkFields,report.counts.labelWithoutEditorial],[89,59,354,93]);
+assert.deepEqual([report.counts.editorial,report.counts.profileContexts,report.counts.pkFields,report.counts.labelWithoutEditorial],[91,61,366,93]);
 const chapter=ELIX_CHAPTERS.find(c=>c.id==='asma-e-broncodilatatori');assert.ok(chapter.sources.includes('gold-2026'));assert.ok(chapter.targets.includes('CYSLTR1'));
 globalThis.document={addEventListener(){},getElementById(){return null}};
 const {createReceptorAtlas}=await import('../receptors.js');const atlas=createReceptorAtlas({drugs:[],refresh(){}});
