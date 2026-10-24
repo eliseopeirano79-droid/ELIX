@@ -1,45 +1,44 @@
 {
   "updatedAt": "2026-10-24",
-  "batch": "s1p-trafficking-lab",
+  "batch": "siponimod-comparison",
   "status": "verified_locally_pending_publication",
-  "release": "0.21.0",
-  "branch": "feat/s1p-traffic-lab",
-  "baseCommit": "a4d13b12a41fa54f1afca3080a4020d75abef375",
+  "release": "0.22.0",
+  "branch": "feat/siponimod-comparison",
+  "baseCommit": "f75fcc7dc40fc6ed63d29142386fefa7c991e973",
   "previousBatch": {
-    "batch": "axon-conduction-lab",
+    "batch": "s1p-trafficking-lab",
     "status": "published_and_live_verified",
-    "commit": "a4d13b12a41fa54f1afca3080a4020d75abef375",
-    "receipt": "../../outputs/ELIX-axon-2026-10-24/release-verification.json"
+    "commit": "f75fcc7dc40fc6ed63d29142386fefa7c991e973",
+    "receipt": "../../outputs/ELIX-s1p-2026-10-24/release-verification.json"
   },
   "scope": [
-    "Original five-stage lab: parent drug, active phosphate, agonism, internalization and persistence after interruption",
-    "Existing fingolimod identity enriched with one EU oral product PK context and six documented fields",
-    "Expanded receptor-response chapter and bidirectional links to drug and axon lab"
+    "Original three-view comparison: receptor activation, metabolism and distinct EU disease indications",
+    "Existing siponimod identity enriched with one EU oral product PK context and six documented fields",
+    "CYP2C9 metabolic profile, expanded pharmacogenomics chapter and bidirectional links to drug and S1P1 lab"
   ],
   "completed": [
-    "24 data validators passed; five model states and invalid inputs checked",
+    "25 data validators passed; three model states and invalid inputs checked",
     "Eight lab and eight drug viewport/theme configurations passed, including 320 px",
     "Name/synonym search, references, chapter/gallery and bidirectional links passed",
-    "Delayed catalog and theme redraw preserve state and keyboard focus",
-    "Pause and reduced motion checked; lab and new PK work offline",
-    "Real 0.20.0 to 0.21.0 upgrade preserves favorites and quiz progress",
+    "Delayed catalog and theme redraw preserve state; keyboard focus and keyboard control verified",
+    "Static diagrams respect reduced motion; lab and new PK work offline",
+    "Real 0.21.0 to 0.22.0 upgrade preserves favorites and quiz progress",
     "16 branding configurations passed; legacy redirect, destination failure fallback, offline and local data preserved",
-    "Desktop dark/mobile light diagrams including internalized state and mobile header visually inspected",
-    "Mobile PK cards and quantitative qualifiers visually inspected"
+    "Desktop dark/mobile light diagrams, mobile header and PK cards visually inspected"
   ],
   "remaining": [
     "PR and main CI",
     "Deployment and online verification",
     "Public-file hashes and final receipt"
   ],
-  "readingManifest": "data/s1p-reading.json",
+  "readingManifest": "data/siponimod-reading.json",
   "counts": {
     "identities": 4225,
-    "editorial": 94,
-    "productPKContexts": 64,
-    "pkFields": 384,
+    "editorial": 95,
+    "productPKContexts": 65,
+    "pkFields": 390,
     "importedLabelsWithoutEditorial": 93,
-    "targetProfiles": 33
+    "targetProfiles": 34
   },
   "changes": {
     "newIdentities": 0,
@@ -55,14 +54,14 @@
   },
   "limits": [
     "Selective educational synthesis, not independent clinical review or complete contraindication list.",
-    "Only recorded pages/sections read; no whole-book, full product-document or full-guideline claim.",
-    "No doses, cell counts, receptor percentages, recovery time, clinical efficacy or rebound probability simulated.",
-    "Internalization, degradation and signaling are distinct; preclinical findings not transferred to patients.",
-    "Focus on S1P1 does not assert exclusive fingolimod selectivity.",
+    "Only recorded pages/sections read; no whole-book, full product-document, full research-paper or full-guideline claim.",
+    "No doses, concentrations, recovery time, clinical efficacy or genetic risk predictions calculated.",
+    "CYP2C9 is a metabolic enzyme, not the pharmacodynamic receptor of siponimod; S1P1/5 selectivity does not abolish cardiac precautions.",
+    "Current EMA 2026 CYP2C9 contribution qualified for *1/*1; historical CYP3A4 fractions and interaction rules not imported.",
     "NICE context and EU product distinct; no Italian reimbursement claim.",
-    "Parent, active phosphate and salts remain distinct. Bioavailability confidence interval is statistical; urinary fraction concerns inactive metabolites.",
+    "Parent and fumarate remain distinct. Half-life does not predict immunologic recovery.",
     "Original sources, legacy repos and catalog snapshots unchanged.",
     "Imported-label backlog remains 93: this identity lacked an imported label in that index."
   ],
-  "nextBatch": "Siponimod CHEMBL2336071: identità presente, sintesi e PK assenti al 24/10/2026. Verificare prodotto UE, differenze di recettori e metabolismo rispetto a fingolimod e contesto della SM secondariamente progressiva attiva. Leggere soltanto un intervallo mirato e registrare le lacune. Iniziare nel ciclo successivo alla consegna 0.21 verificata."
+  "nextBatch": "Ozanimod CHEMBL3707247: identità presente ma sintesi e PK assenti al 24/10/2026; cloridrato CHEMBL3707246 separato. Verificare RCP UE corrente, recettori S1P e ruolo dei metaboliti attivi con contesto delle indicazioni. Leggere un intervallo mirato, senza estendere automaticamente dati fra formulazioni o sali. Avviare nel ciclo successivo alla consegna 0.22 verificata."
 }
