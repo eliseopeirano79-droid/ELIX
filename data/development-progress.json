@@ -1,89 +1,55 @@
 {
   "updatedAt": "2026-10-24",
-  "batch": "respiratory-receptor-atlas",
+  "batch": "neuro-receptor-labs",
   "status": "verified_locally_pending_publication",
-  "branch": "feat/respiratory-receptor-atlas",
-  "baseCommit": "3c9c2d243de2fa3fa4d7b38dec00a56bb6389bbb",
+  "release": "0.15.0",
+  "branch": "feat/neuro-receptor-labs",
+  "baseCommit": "84b1313f078eec9d2e2b393b69c1d365181bbd23",
+  "previousBatch": {
+    "batch": "respiratory-receptor-atlas",
+    "status": "published_and_live_verified",
+    "receipt": "../../outputs/ELIX-latest-verification.json",
+    "commit": "84b1313f078eec9d2e2b393b69c1d365181bbd23"
+  },
   "scope": [
-    "ADRB2",
-    "CHRM3",
-    "CYSLTR1",
-    "formoterolo",
-    "tiotropio",
-    "ipratropio",
-    "montelukast"
+    "GABAA",
+    "NMDAR",
+    "4 bidirectional links to existing drug summaries",
+    "2 existing chapters expanded"
   ],
   "completed": [
-    "Source reading recorded for this batch",
-    "3 original interactive receptor pathways",
-    "4 additive drug summaries and 4 product PK contexts",
-    "All 17 data validators passed",
-    "24 receptor viewport/theme checks passed",
-    "16 branding viewport/theme checks passed",
-    "Play/pause/reset, keyboard focus, product source links and offline checks passed",
-    "Legacy redirects, local fallback and stored data checks passed"
+    "Eight textbook PDF pages read; exact scope recorded in data/neuro-reading.json",
+    "Two original interactive ion-channel diagrams",
+    "Mechanism checks on official product pages",
+    "No catalog, PK or identity additions",
+    "All 18 data validators passed; 20 channel-state combinations verified",
+    "16 receptor viewport/theme configurations passed, including 320 px",
+    "Four bidirectional drug links and two expanded chapters verified",
+    "Keyboard focus, animation pause and reduced motion passed",
+    "16 branding viewport/theme checks, legacy redirects and offline fallbacks passed",
+    "Real 0.14.0 to 0.15.0 service-worker upgrade preserved favorites and quiz data",
+    "Both new labs verified offline"
   ],
   "remaining": [
-    "Pull request CI",
-    "Publication",
-    "Live verification"
+    "PR and main CI",
+    "Deployment",
+    "Live desktop/mobile, legacy links and published-file readback"
   ],
-  "reading": [
-    {
-      "source": "Rang & Dale, Farmacologia, 8ª edizione italiana, 2016",
-      "chapter": 28,
-      "pdfPages": [
-        539,
-        540,
-        545,
-        548,
-        549
-      ],
-      "mode": "text read; PDF page 540 visually inspected",
-      "fullBookRead": false
-    },
-    {
-      "source": "GINA 2026 Strategy Report",
-      "pdfPages": [
-        81,
-        85
-      ],
-      "printedPages": [
-        80,
-        84
-      ],
-      "mode": "text read",
-      "fullDocumentRead": false
-    },
-    {
-      "source": "GOLD 2026 Pocket Guide v1.1",
-      "pdfPages": [
-        24,
-        30,
-        31,
-        32
-      ],
-      "printedPages": [
-        21,
-        27,
-        28,
-        29
-      ],
-      "mode": "page 24 text; figures 3.8–3.10 visually read",
-      "fullDocumentRead": false
-    }
-  ],
-  "limits": [
-    "Full textbook reading has not been completed.",
-    "This batch adds teaching summaries to existing chemical identities."
-  ],
-  "nextBatch": "GABA-A/NMDA: define scope after respiratory delivery verification",
-  "release": "0.14.0",
+  "readingManifest": "data/neuro-reading.json",
   "counts": {
     "identities": 4225,
     "editorial": 85,
     "productPKContexts": 55,
     "pkFields": 330,
-    "importedLabelsWithoutEditorial": 93
-  }
+    "importedLabelsWithoutEditorial": 93,
+    "targetProfiles": 28
+  },
+  "limits": [
+    "No independent clinical review; no new prescribing or treatment recommendation.",
+    "Product snapshots, PK values and prior source version metadata unchanged. Only family-level target annotations enriched.",
+    "Rang full text, Katzung, Farmacologia generale e molecolare and supplied slides remain incompletely read; none of those other texts or slides read in this batch.",
+    "Drawings original, qualitative and not based on atomic coordinates. Five existing PDB assignments remain unchanged.",
+    "Memantine and flumazenil product summaries reserved for a subsequent bounded batch after this delivery."
+  ],
+  "nextBatch": "Flumazenil (CHEMBL407) and memantine (CHEMBL807): identities present, own summaries and PK absent as of 2026-10-24; read source documents before additions."
 }

@@ -4,7 +4,9 @@ Procedere con un solo lotto alla volta. Riprendere il lavoro incompleto prima di
 
 ## Consegna corrente
 
-Atlante respiratorio: percorsi originali interattivi β₂, M₃ e CysLT₁; sintesi di formoterolo, tiotropio, ipratropio e montelukast senza duplicare le identità già nel catalogo. Collegare teoria effettivamente letta, documenti dei prodotti e raccomandazioni GINA/GOLD 2026.
+Laboratori GABA-A e NMDA: due visualizzazioni originali e interattive dei canali, quattro collegamenti bidirezionali con diazepam, lorazepam, midazolam e ketamina già presenti, e approfondimenti in due capitoli esistenti. Nessuna nuova identità, sintesi di farmaco o scheda farmacocinetica in questo lotto. Edizione e pagine lette sono registrate in `data/neuro-reading.json`.
+
+Il lotto respiratorio 0.14.0 è stato pubblicato e verificato al commit `84b1313f078eec9d2e2b393b69c1d365181bbd23`. La ricevuta in `../../outputs/ELIX-latest-verification.json` prevale sul checkpoint prepubblicazione solo quando batch e versione coincidono. Per il nuovo lotto controllare Git, checkpoint e ricevuta prima di riprendere.
 
 ## Regole di completamento
 
@@ -15,6 +17,6 @@ Atlante respiratorio: percorsi originali interattivi β₂, M₃ e CysLT₁; sin
 - Verificare commit remoto, deploy concluso e app online. Conservare il funzionamento dei vecchi indirizzi.
 - Registrare i risultati reali e le lacune. Poi avviare il lotto successivo nel ciclo programmato; non avviare lavori duplicati.
 
-## Coda dopo il lotto respiratorio
+## Coda dopo il lotto dei canali
 
-Completare prima eventuali difetti residui. Successivamente espandere i bersagli GABA-A/NMDA e i collegamenti alle schede già presenti, leggendo le sezioni dei testi corrispondenti; definire il perimetro dopo una verifica delle lacune correnti.
+Completare prima ogni controllo o difetto residuo. Dopo pubblicazione e verifica, valutare flumazenil e memantina: controllare identità già presenti, assenza di sintesi propria e documenti ufficiali della formulazione. Leggere un nuovo intervallo pertinente dei testi; non attribuire a questo lotto letture o nuovi farmaci non effettuati.
