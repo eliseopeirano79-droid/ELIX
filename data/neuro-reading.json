@@ -1,0 +1,108 @@
+{
+  "batch": "neuro-receptor-labs",
+  "checkedAt": "2026-10-24",
+  "textbooks": [
+    {
+      "title": "Rang & Dale — Farmacologia",
+      "edition": "8ª edizione italiana, 2016",
+      "fileName": "Rang & Dale - Farmacologia (8ª ed 2016).pdf",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "chapters": [
+        38,
+        44
+      ],
+      "pdfPages": [
+        709,
+        710,
+        711,
+        712,
+        719,
+        720,
+        826,
+        827
+      ],
+      "pageNumbering": "One-based PDF page indices, not printed page numbers",
+      "readMode": "Text read on all listed pages; PDF page 719 also visually inspected. Table image on page 710 not read.",
+      "scope": "Receptor architecture; NMDA coagonists and Mg block; GABA-A modulation and chloride gradients. No clinical recommendation imported from the historical text.",
+      "fullBookRead": false,
+      "additionalInspection": {
+        "pdfPages": [
+          724,
+          726
+        ],
+        "mode": "Partial text inspection during source navigation; bibliography/next chapter, not used for this content"
+      }
+    }
+  ],
+  "primaryLiterature": [
+    {
+      "doi": "10.1038/s41586-018-0832-5",
+      "authors": "Masiulis et al.",
+      "year": 2019,
+      "read": "Abstract and figure descriptions on publisher page; full article not read",
+      "supports": "GABA-A ionotropic channel, GABA and diazepam complexes"
+    },
+    {
+      "doi": "10.1038/s41586-021-03769-9",
+      "authors": "Zhang et al.",
+      "year": 2021,
+      "read": "Indexed publisher abstract; direct full page unavailable",
+      "supports": "Ketamine binding in channel vestibule, distinct from glutamate site"
+    },
+    {
+      "doi": "10.1038/s41586-021-04038-5",
+      "year": 2021,
+      "read": "Publisher correction preview; not full correction",
+      "supports": "Avoid attributing greater antidepressant efficacy solely to S-ketamine affinity"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37659408/",
+      "title": "Active cortical networks promote shunting fast synaptic inhibition in vivo",
+      "year": 2023,
+      "read": "Indexed PubMed abstract only",
+      "supports": "Shunting versus hyperpolarization depends on cellular context; in vivo mouse cortex, not a clinical outcome study"
+    }
+  ],
+  "officialProductChecks": [
+    {
+      "drug": "diazepam",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1a8bcc90-68fa-474d-832c-0df01e825f39",
+      "readSection": "12.1 Mechanism of Action",
+      "target": "GABAA"
+    },
+    {
+      "drug": "lorazepam",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a02c97d-637d-43f7-803c-afe4381ccc59",
+      "readSection": "Clinical Pharmacology; GABA-benzodiazepine complex",
+      "target": "GABAA"
+    },
+    {
+      "drug": "midazolam",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1abda8b8-48a8-4995-af86-39220d1aa240",
+      "readSection": "Drug interactions; benzodiazepine GABA-A site",
+      "target": "GABAA"
+    },
+    {
+      "drug": "ketamina",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=58c86d9b-8694-4bd8-8254-f19ee3ad60b0",
+      "readSection": "12.1 Mechanism of Action",
+      "target": "NMDAR"
+    }
+  ],
+  "coverage": {
+    "newTargetFamilies": 2,
+    "interactiveLabs": 2,
+    "linkedExistingDrugs": 4,
+    "expandedExistingChapters": 2,
+    "newIdentities": 0,
+    "newDrugSummaries": 0,
+    "newPKProfiles": 0
+  },
+  "limitations": [
+    "No independent clinical review; no new prescribing or treatment recommendation.",
+    "Product snapshots, PK values and prior source version metadata unchanged. Only family-level target annotations enriched.",
+    "Rang full text, Katzung, Farmacologia generale e molecolare and supplied slides remain incompletely read; none of those other texts or slides read in this batch.",
+    "Drawings original, qualitative and not based on atomic coordinates. Five existing PDB assignments remain unchanged.",
+    "Memantine and flumazenil product summaries reserved for a subsequent bounded batch after this delivery."
+  ]
+}

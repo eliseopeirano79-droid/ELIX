@@ -1,5 +1,42 @@
 /* Original target explanations. Metabolic relationships remain distinct from pharmacodynamic targets. */
 export const ADDITIONAL_TARGETS = {
+"GABAA":{
+  "id": "GABAA",
+  "name": "Recettori GABA-A · famiglia",
+  "kind": "Canale ionico · pentamero",
+  "tissue": "Sinapsi e membrane extrasinaptiche del sistema nervoso centrale",
+  "signal": [
+    "GABA",
+    "GABA-A",
+    "Conduttanza anionica ↑",
+    "Potenziale verso il potenziale di inversione",
+    "Eccitabilità modulata"
+  ],
+  "mechanism": "I recettori GABA-A sono canali pentamerici permeabili agli anioni, soprattutto Cl⁻. Le benzodiazepine potenziano la risposta al GABA nei sottotipi sensibili attraverso un sito allosterico. Il loro effetto non equivale a un agonismo diretto del sito del GABA.",
+  "insight": "Il flusso ionico dipende dal gradiente elettrochimico. In molti neuroni adulti prevale l’inibizione, anche per shunt: non è corretto disegnare sempre iperpolarizzazione. GABAA indica una famiglia, non un singolo gene.",
+  "chapter": "benzodiazepine",
+  "source": "https://doi.org/10.1038/s41586-018-0832-5",
+  "reference": "Masiulis et al., Nature 2019 · abstract e figure descritte; Rang & Dale 8ª ed., capitoli 38 e 44"
+},
+"NMDAR":{
+  "id": "NMDAR",
+  "name": "Recettori NMDA · famiglia",
+  "kind": "Canale ionico · tetramero",
+  "tissue": "Sistema nervoso centrale · trasmissione glutamatergica",
+  "signal": [
+    "Glutammato + coagonista",
+    "NMDA convenzionale GluN1/GluN2",
+    "Depolarizzazione → blocco da Mg²⁺ attenuato",
+    "Flusso di cationi",
+    "Segnalazione Ca²⁺-dipendente"
+  ],
+  "mechanism": "Nei recettori NMDA convenzionali, due subunità GluN1 e due GluN2 formano un canale cationico. Glutammato e glicina o D-serina sono coagonisti necessari. La depolarizzazione attenua il blocco da Mg²⁺ e permette un maggiore flusso, incluso Ca²⁺.",
+  "insight": "La ketamina blocca il canale: non compete con il glutammato per lo stesso sito. Questa pagina descrive la famiglia e un modello GluN1/GluN2; le varianti con GluN3 e la farmacologia delle singole isoforme richiedono approfondimenti distinti.",
+  "chapter": "canali-ionici",
+  "source": "https://doi.org/10.1038/s41586-021-03769-9",
+  "reference": "Zhang et al., Nature 2021 · abstract e correzione; Rang & Dale 8ª ed., capitolo 38"
+},
+
   "CHRM3": {
     "id":"CHRM3","name":"Recettore muscarinico M₃","kind":"GPCR · Gq/11","tissue":"Muscolatura liscia bronchiale e ghiandole; altri distretti",
     "signal":["Acetilcolina","M₃","Gq/11 → PLCβ","IP₃ → Ca²⁺","Contrazione bronchiale"],

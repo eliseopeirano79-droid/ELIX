@@ -129,7 +129,7 @@ export const EXPANDED_CHAPTERS=[
     "id": "canali-ionici",
     "volume": 4,
     "title": "Canali ionici e farmacologia dell'eccitabilità",
-    "lead": "Canali Na⁺, K⁺, Ca²⁺ e HCN come bersagli.",
+    "lead": "Dal voltaggio ai ligandi: come cambia il passaggio degli ioni.",
     "sections": [
       {
         "title": "Voltage-gated e ligand-gated",
@@ -146,19 +146,33 @@ export const EXPANDED_CHAPTERS=[
       {
         "title": "HCN e automatismo sinusale",
         "text": "La corrente If contribuisce alla depolarizzazione diastolica del nodo senoatriale; ivabradina ne riduce l'attività. Non è un antagonista β1 e non controlla la frequenza ventricolare durante fibrillazione atriale secondo lo stesso meccanismo."
+      },
+      {
+        "title": "NMDA: ligandi e voltaggio si incontrano",
+        "text": "Nel modello convenzionale GluN1/GluN2 il glutammato si lega alle subunità GluN2 e glicina o D-serina alle GluN1. Entrambi i coagonisti sono necessari; a potenziali negativi il magnesio ostacola il poro. La depolarizzazione attenua questo blocco. Legame del ligando e conduzione ionica sono quindi passaggi distinti."
+      },
+      {
+        "title": "Un bersaglio, siti farmacologici differenti",
+        "text": "La ketamina può ostacolare il flusso nel canale NMDA senza occupare il sito del glutammato. Il laboratorio illustra un blocco del canale aperto, senza stimare percentuali di blocco o confrontare potenze. Non descrive tutte le azioni della ketamina né permette di estendere le indicazioni della formulazione iniettabile all’esketamina nasale."
+      },
+      {
+        "title": "Lettura del modello NMDA",
+        "text": "Il nuovo approfondimento deriva da Rang & Dale, Farmacologia, 8ª edizione italiana (2016), capitolo 38, pagine PDF 709–712, lette per sottotipi, coagonisti, permeabilità e blocco da magnesio. Il disegno è originale e qualitativo. Non sono state riprodotte figure del testo né attribuite strutture atomiche a un’intera famiglia recettoriale."
       }
     ],
     "drugs": [
       "ivabradina",
       "amlodipina",
       "verapamil",
-      "amiodarone"
+      "amiodarone",
+      "ketamina"
     ],
     "targets": [
       "HCN4",
       "CACNA1C",
       "KCNH2",
-      "SCN5A"
+      "SCN5A",
+      "NMDAR"
     ],
     "review": "Sintesi originale a scopo didattico; indicazioni e dati quantitativi richiedono consultazione della fonte versionata."
   },
@@ -441,7 +455,7 @@ export const EXPANDED_CHAPTERS=[
     "sections": [
       {
         "title": "Recettore GABA-A",
-        "text": "GABA-A è un canale del cloruro attivato dal ligando; la sua apertura modifica la conduttanza di membrana e la probabilità di generare potenziali d'azione. L'effetto dipende dal gradiente del cloruro e dalla maturità della cellula."
+        "text": "I recettori GABA-A sono canali pentamerici permeabili agli anioni, soprattutto Cl⁻. Le benzodiazepine potenziano la risposta al GABA nei sottotipi sensibili attraverso un sito allosterico. Il loro effetto non equivale a un agonismo diretto del sito del GABA. La composizione α/β/γ rappresentata nel laboratorio è un esempio, non tutte le combinazioni possibili."
       },
       {
         "title": "Modulatori allosterici positivi",
@@ -454,10 +468,24 @@ export const EXPANDED_CHAPTERS=[
       {
         "title": "Metabolismo e durata dell'effetto",
         "text": "Metaboliti attivi e lipofilia possono far differire durata clinica ed emivita del parent. La scelta della molecola non si basa semplicemente sul numero di ore riportato su una scheda."
+      },
+      {
+        "title": "Dal poro alla risposta elettrica",
+        "text": "L’apertura del canale aumenta la conduttanza e porta il potenziale di membrana verso il potenziale di inversione della corrente anionica. Nel neurone adulto può ridurre la risposta a correnti eccitatorie anche senza una grande iperpolarizzazione: è l’inibizione per shunt. Gradienti diversi possono produrre risposte differenti."
+      },
+      {
+        "title": "Lettura e limiti di questo approfondimento",
+        "text": "Sintesi originale da Rang & Dale, Farmacologia, 8ª edizione italiana (2016), capitolo 38, pagine PDF 719–720, e capitolo 44, pagine PDF 826–827. Sono numeri del file, non pagine a stampa. Il laboratorio distingue GABA e modulazione benzodiazepinica; non simula dosi o risposta del paziente. Le schede collegate conservano le fonti dei rispettivi prodotti."
       }
     ],
-    "drugs": [],
-    "targets": [],
+    "drugs": [
+      "diazepam",
+      "lorazepam",
+      "midazolam"
+    ],
+    "targets": [
+      "GABAA"
+    ],
     "review": "Sintesi originale a scopo didattico; indicazioni e dati quantitativi richiedono consultazione della fonte versionata."
   },
   {
