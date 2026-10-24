@@ -1,0 +1,90 @@
+{
+  "batch": "neuromuscular-lab",
+  "checkedAt": "2026-10-24",
+  "books": [
+    {
+      "title": "Rang & Dale, Farmacologia",
+      "edition": "8ª edizione italiana, 2016",
+      "file": "Rang & Dale - Farmacologia (8ª ed 2016).pdf",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "chapter": 13,
+      "pdfPages": [
+        253,
+        254,
+        268,
+        269,
+        270,
+        271
+      ],
+      "pageNumbering": "One-based PDF indices, not printed pages",
+      "readMode": "Text read on six pages. Figures and tables not visually inspected or used to extract data.",
+      "scope": "Adult muscle pentamer, competitive block, paralysis distinct from consciousness and pain, plasma sequestration by sugammadex. Historical clinical claims not imported as current guidance.",
+      "fullBookRead": false
+    }
+  ],
+  "officialSources": [
+    {
+      "drug": "rocuronio",
+      "url": "https://www.medicines.org.uk/emc/product/13173/smpc",
+      "jurisdiction": "UK",
+      "textRevision": "2026-04-02",
+      "pageUpdated": "2026-10-07",
+      "sectionsRead": [
+        "4.1",
+        "4.2 selected adult/pediatric and monitoring passages",
+        "4.3",
+        "4.4",
+        "4.5",
+        "5.1 mechanism",
+        "5.2",
+        "10"
+      ],
+      "scope": "Kalceks 10 mg/ml; single IV bolus adult normal PK, not prolonged ICU infusion."
+    },
+    {
+      "drug": "sugammadex",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/bridion-epar-product-information_en.pdf",
+      "jurisdiction": "EU",
+      "pageUpdated": "2025-11-06",
+      "pdfPagesRead": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        13,
+        14
+      ],
+      "language": "en",
+      "sha256": "c678da8df4e0f062258fc41e9097613813dcaaecc8e8156e47a2d8252e6efd4e",
+      "scope": "Product sections read selectively; remainder of 41-page PDF not read. PK parameters based on total free plus complex-bound concentrations."
+    },
+    {
+      "guideline": "ASA 2023",
+      "url": "https://doi.org/10.1097/ALN.0000000000004379",
+      "scope": "Publisher-indexed Highlights and selected recommendations: quantitative monitoring at adductor pollicis, TOF ratio >=0.9 before extubation. Full text and publisher summary returned HTTP 402; not read and access controls not bypassed.",
+      "fullTextRead": false
+    }
+  ],
+  "changes": {
+    "newIdentities": 0,
+    "newDrugSummaries": 2,
+    "newProductPKContexts": 2,
+    "newPKFields": 12,
+    "documentedFields": 8,
+    "explicitSourceGaps": 4,
+    "numericFields": 4,
+    "newInteractiveLabs": 1,
+    "newTargetProfiles": 1,
+    "expandedExistingChapters": 1
+  },
+  "limitations": [
+    "Selective educational synthesis, no independent clinical review.",
+    "No complete textbook or slide reading. Other books and slides not read in this batch.",
+    "Five illustrative states do not simulate doses, timing, occupancy, TOF or guaranteed clinical recovery.",
+    "Sugammadex is contextually linked, not assigned a nicotinic receptor target.",
+    "Original catalog and source snapshots unchanged."
+  ]
+}

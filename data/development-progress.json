@@ -1,62 +1,66 @@
 {
   "updatedAt": "2026-10-24",
-  "batch": "neuro-drug-profiles",
+  "batch": "neuromuscular-lab",
   "status": "verified_locally_pending_publication",
-  "release": "0.16.0",
-  "branch": "feat/neuro-drug-profiles",
-  "baseCommit": "56756b9180c3489ac6971e097533d14cadc2c645",
+  "release": "0.17.0",
+  "branch": "feat/neuromuscular-lab",
+  "baseCommit": "30a139502b688822fa40eefaeec9f0eb0af42ea5",
   "previousBatch": {
-    "batch": "neuro-receptor-labs",
+    "batch": "neuro-drug-profiles",
     "status": "published_and_live_verified",
-    "commit": "56756b9180c3489ac6971e097533d14cadc2c645",
-    "receipt": "../../outputs/ELIX-neuro-2026-10-24/release-verification.json"
+    "commit": "30a139502b688822fa40eefaeec9f0eb0af42ea5",
+    "receipt": "../../outputs/ELIX-neuro-drugs-2026-10-24/release-verification.json"
   },
   "scope": [
-    "Flumazenil CHEMBL407: product summary and IV PK",
-    "Memantine CHEMBL807: product summary and oral tablet PK",
-    "Two interactive receptor comparisons and two existing chapter extensions"
+    "Adult muscle nicotinic receptor: original interactive five-scene lab",
+    "Rocuronium and sugammadex: two existing identities enriched, 12 product-specific PK fields",
+    "One existing cholinergic chapter: mechanism, myasthenia and monitoring context"
   ],
   "completed": [
-    "Two existing catalog identities enriched without duplicates",
-    "Five Rang PDF pages read as specified in reading manifest",
-    "Official product sections and NICE NG97 PDF pages 23–24 checked",
-    "19 data validators passed; 40 channel-state combinations checked",
-    "16 receptor and 16 new-product viewport/theme configurations passed",
-    "Six bidirectional receptor/drug links and bilingual discovery passed",
-    "Delayed catalog, theme redraw, keyboard focus, animation and reduced motion passed",
-    "Both labs and both new product PK contexts work offline",
-    "Real 0.15.1 to 0.16.0 service-worker upgrade preserved favorites and quiz progress",
-    "16 branding configurations, legacy redirects, offline and unavailable-target fallbacks passed"
+    "20 data validators passed; 10 NMJ stage/ligand combinations checked",
+    "8 lab viewport/theme configurations and 16 drug configurations passed",
+    "Two bidirectional functional drug/lab links, bilingual search, source links and chapter checked",
+    "Delayed catalog and theme redraw preserve lab state and keyboard focus",
+    "Animation pause and reduced-motion preference checked",
+    "Lab and both new PK profiles work offline",
+    "Real 0.16.0 to 0.17.0 PWA upgrade preserved favorites and quiz progress",
+    "16 branding configurations passed, with legacy redirects and offline/unavailable-target fallback",
+    "Desktop dark and mobile light diagrams visually inspected; original transparent SVG uses existing app palette"
   ],
   "remaining": [
     "PR and main CI",
-    "Deployment and live verification",
+    "Deployment and online verification",
     "Published-file hashes and final receipt"
   ],
-  "readingManifest": "data/neuro-drugs-reading.json",
+  "readingManifest": "data/nmj-reading.json",
   "counts": {
     "identities": 4225,
-    "editorial": 87,
-    "productPKContexts": 57,
-    "pkFields": 342,
+    "editorial": 89,
+    "productPKContexts": 59,
+    "pkFields": 354,
     "importedLabelsWithoutEditorial": 93,
-    "targetProfiles": 28
+    "targetProfiles": 29
   },
   "changes": {
     "newIdentities": 0,
     "newDrugSummaries": 2,
     "newProductPKContexts": 2,
     "newPKFields": 12,
-    "documentedFields": 11,
-    "explicitSourceGaps": 1,
-    "numericFields": 8
+    "documentedFields": 8,
+    "explicitSourceGaps": 4,
+    "numericFields": 4,
+    "newInteractiveLabs": 1,
+    "newTargetProfiles": 1,
+    "expandedExistingChapters": 1
   },
   "limits": [
-    "Selective educational synthesis, not independent clinical review.",
-    "Textbooks and slides remain incompletely read; this batch read only the recorded Rang pages.",
-    "Qualitative receptor scenarios do not simulate dose, kinetics or clinical response. NMDA blockers are alternatives, not a recommended association.",
-    "Imported document backlog remains 93: these two identities did not have an imported label in that index.",
-    "Legacy repositories remain unchanged; their fallback copies are earlier releases."
+    "Selective educational synthesis, no independent clinical review.",
+    "No complete textbook or slide reading. Other books and slides not read in this batch.",
+    "Five illustrative states do not simulate doses, timing, occupancy, TOF or guaranteed clinical recovery.",
+    "Sugammadex is contextually linked, not assigned a nicotinic receptor target.",
+    "Original catalog and source snapshots unchanged.",
+    "Imported-label backlog remains 93; these two identities had no imported label in that index.",
+    "Legacy repositories remain unchanged; fallback copies retain their previous release."
   ],
-  "nextBatch": "Neuromuscular nicotinic receptor and rocuronium (CHEMBL1201244) / sugammadex (CHEMBL2111107): identities present, own summaries and PK absent. Verify official products and read a bounded relevant textbook interval; distinguish receptor antagonism from sequestration by sugammadex."
+  "nextBatch": "Acetilcolinesterasi, neostigmina CHEMBL278020 e piridostigmina CHEMBL1115: identità presenti, sintesi proprie e profili PK assenti al 24/10/2026. Verificare prodotti e fonti attuali; distinguere aumento di ACh, effetti muscarinici e contesto della miastenia. Leggere un intervallo mirato prima di integrare."
 }

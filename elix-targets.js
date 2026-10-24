@@ -1,5 +1,23 @@
 /* Original target explanations. Metabolic relationships remain distinct from pharmacodynamic targets. */
 export const ADDITIONAL_TARGETS = {
+"NACHR_MUSCLE":{
+  "id": "NACHR_MUSCLE",
+  "name": "Recettore nicotinico muscolare · adulto",
+  "kind": "Canale ionico · pentamero",
+  "tissue": "Placca motrice del muscolo scheletrico · non recettori muscarinici o gangliari",
+  "signal": [
+    "ACh dal motoneurone",
+    "Due siti del recettore nicotinico",
+    "Apertura del canale cationico",
+    "Depolarizzazione della placca",
+    "Possibile potenziale d’azione muscolare"
+  ],
+  "mechanism": "Il recettore muscolare adulto comprende due subunità α1, una β1, una δ e una ε. Il legame di ACh favorisce la conduzione cationica. Rocuronio compete al sito del ligando; sugammadex agisce invece sul bloccante libero nel plasma, favorendone il riequilibrio.",
+  "insight": "Il blocco neuromuscolare non produce di per sé analgesia o sedazione. NACHR_MUSCLE identifica qui un complesso recettoriale adulto, non un singolo gene né tutti i recettori nicotinici.",
+  "chapter": "parasimpatico-e-colinergici",
+  "source": "https://www.medicines.org.uk/emc/product/13173/smpc",
+  "reference": "Rocuronio Kalceks, SmPC § 5.1; Rang & Dale 8ª ed. italiana, cap. 13, pagine PDF 253–254 e 268–271"
+},
 "GABAA":{
   "id": "GABAA",
   "name": "Recettori GABA-A · famiglia",

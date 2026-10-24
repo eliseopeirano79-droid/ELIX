@@ -229,12 +229,30 @@ export const EXPANDED_CHAPTERS=[
       {
         "title": "Giunzione neuromuscolare",
         "text": "La trasmissione nicotinica della placca è ionotropica: depolarizza la membrana muscolare tramite canali recettoriali. Farmaci bloccanti neuromuscolari non vanno confusi con antagonisti muscarinici o con inibitori delle colinesterasi."
+      },
+      {
+        "title": "Antagonismo alla placca e cattura nel plasma",
+        "text": "Il recettore nicotinico muscolare adulto è un pentamero α1₂β1δε, con due siti per ACh. Rocuronio compete all’interfaccia extracellulare, senza essere un bloccante del poro. Sugammadex forma invece un complesso con il bloccante libero nel plasma: la minore disponibilità favorisce il riequilibrio e la dissociazione dal recettore. La cattura è un passaggio distinto dal recupero funzionale."
+      },
+      {
+        "title": "Miastenia, blocco residuo e monitoraggio",
+        "text": "La riserva della trasmissione non è uguale in tutte le condizioni. Lo SmPC di rocuronio avverte che nella miastenia gravis o nella sindrome di Lambert–Eaton anche piccole dosi possono avere effetti profondi. Il blocco residuo può compromettere la respirazione. ASA 2023 raccomanda monitoraggio quantitativo all’adduttore del pollice e rapporto TOF ≥0,9 prima dell’estubazione: il laboratorio non simula questo criterio né sostituisce il monitoraggio."
+      },
+      {
+        "title": "Lettura di questo ampliamento",
+        "text": "Rang & Dale, Farmacologia, 8ª edizione italiana (2016), capitolo 13: testo delle pagine PDF 253–254 e 268–271. La numerazione è quella del PDF; figure e tabelle non sono riprodotte. Dati clinici confrontati con rocuronio Kalceks UK e Bridion EMA il 24/10/2026. Per ASA 2023 sono state lette soltanto raccomandazioni e Highlights indicizzati dall’editore: il testo integrale non era accessibile. Lettura parziale, non revisione clinica indipendente."
       }
     ],
-    "drugs": [],
-    "targets": [],
-    "review": "Sintesi originale a scopo didattico; indicazioni e dati quantitativi richiedono consultazione della fonte versionata."
+    "drugs": [
+      "rocuronio",
+      "sugammadex"
+    ],
+    "targets": [
+      "NACHR_MUSCLE"
+    ],
+    "review": "Ampliamento selettivo 24/10/2026. Fonti versionate nelle due schede; letture e limiti in data/nmj-reading.json."
   },
+
   {
     "id": "ipertensione",
     "volume": 6,
