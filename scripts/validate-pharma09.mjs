@@ -54,7 +54,7 @@ assert.equal(CHAPTERS_09.length,12);
 assert.equal(new Set(ELIX_CHAPTERS.map(x=>x.id)).size,54);
 assert.equal(new Set(ELIX_CHAPTERS.map(x=>x.volume)).size,18);
 assert.ok(CHAPTERS_09.every(x=>x.sections.length===4&&x.sections.every(s=>s.text.length>170)));
-assert.equal(GUIDELINES_09.length,6);
+assert.equal(GUIDELINES_09.length,7);
 assert.ok(GUIDELINES_09.every(x=>x.url.startsWith("https://")&&x.year>=2022));
 const kdigo=GUIDELINES_09.find(x=>x.id==="kdigo-2024");
 assert.ok(/consultazione/i.test(kdigo.status),"Draft KDIGO 2027 must not be represented as final");

@@ -433,6 +433,7 @@ export const CHAPTERS_09=[
   }
 ];
 export const GUIDELINES_09=[
+  {"id":"gold-2026","name":"GOLD · Pocket Guide 2026","year":2026,"type":"Linee guida BPCO","status":"Sezioni consultate il 24/10/2026","url":"https://goldcopd.org/wp-content/uploads/2026/01/GOLD-Pocket-Guide-2026-v1.1-20Nov2025_WMV2.pdf#page=30","note":"Pagine 27–29 a stampa (PDF 30–32), figure 3.8–3.10: terapia iniziale, follow-up e fattori per ICS. Sintesi selettiva, non lettura integrale.","drugs":["formoterolo","tiotropio","ipratropio"]},
   {
     "id": "aifa-rcp",
     "name": "AIFA Medicinali · Banca dati farmaci",
@@ -464,9 +465,9 @@ export const GUIDELINES_09=[
     "name": "GINA · Global Strategy for Asthma Management and Prevention",
     "year": 2026,
     "type": "Linee guida per asma",
-    "status": "versione 2026 pubblicata",
-    "url": "https://ginasthma.org/2026-gina-strategy-report/",
-    "note": "Indicazioni generali e aggiornamenti per controllo dell'asma e strategie farmacologiche; il farmaco specifico va confrontato con indicazioni autorizzate locali.",
+    "status": "Sezioni consultate il 24/10/2026",
+    "url": "https://ginasthma.org/wp-content/uploads/2026/05/GINA-2026-Strategy-Report-WMS.pdf#page=81",
+    "note": "Pagine 80 e 84 a stampa (PDF 81 e 85): percorsi terapeutici per adulti e adolescenti. Sintesi selettiva, non lettura integrale; verificare indicazioni locali dei prodotti.",
     "drugs": [
       "salbutamolo",
       "propranololo"

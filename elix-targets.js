@@ -1,5 +1,19 @@
 /* Original target explanations. Metabolic relationships remain distinct from pharmacodynamic targets. */
 export const ADDITIONAL_TARGETS = {
+  "CHRM3": {
+    "id":"CHRM3","name":"Recettore muscarinico M₃","kind":"GPCR · Gq/11","tissue":"Muscolatura liscia bronchiale e ghiandole; altri distretti",
+    "signal":["Acetilcolina","M₃","Gq/11 → PLCβ","IP₃ → Ca²⁺","Contrazione bronchiale"],
+    "mechanism":"L’attivazione di M₃ favorisce la segnalazione Gq/11–PLC e la mobilizzazione del calcio. Nelle vie aeree contribuisce al tono contrattile e alla secrezione ghiandolare. Gli antimuscarinici ostacolano questa via.",
+    "insight":"Tiotropio e ipratropio agiscono anche su altri sottotipi muscarinici. Per tiotropio, la dissociazione più lenta da M₃ rispetto a M₂ contribuisce alla selettività cinetica: non equivale ad affinità esclusiva per M₃.",
+    "chapter":"asma-e-broncodilatatori","source":"https://www.medicines.org.uk/emc/product/407/smpc","reference":"Spiriva Respimat, SmPC UK § 5.1; revisione 12/2024, consultato 24/10/2026"
+  },
+  "CYSLTR1": {
+    "id":"CYSLTR1","name":"Recettore dei leucotrieni CysLT₁","kind":"GPCR · via Gq/11 illustrata","tissue":"Vie aeree e cellule coinvolte nell’infiammazione",
+    "signal":["LTD₄","CysLT₁","Gq/11 → PLC","Ca²⁺ intracellulare","Componente broncocostrittrice"],
+    "mechanism":"CysLT₁ risponde ai cisteinil-leucotrieni; LTD₄ è il ligando endogeno preferito. Montelukast ne antagonizza gli effetti. L’accoppiamento e le risposte dipendono dalla cellula: qui si illustra un percorso semplificato verso la contrazione bronchiale.",
+    "insight":"Antagonizzare CysLT₁ non equivale a inibire la sintesi di tutti i leucotrieni. Il blocco di questa via non rende montelukast un farmaco per risolvere un attacco acuto di asma.",
+    "chapter":"asma-e-broncodilatatori","source":"https://www.medicines.org.uk/emc/product/198/smpc","reference":"Singulair, SmPC UK §§ 4.4 e 5.1; revisione 31/08/2026, consultato 24/10/2026"
+  },
   "ACE": {
     "id": "ACE",
     "name": "Enzima di conversione dell'angiotensina",

@@ -1,0 +1,133 @@
+{
+  "checkedAt": "2026-10-24",
+  "booksAndGuidelines": [
+    {
+      "source": "Rang & Dale, Farmacologia, 8ª edizione italiana, 2016",
+      "chapter": 28,
+      "pdfPages": [
+        539,
+        540,
+        545,
+        548,
+        549
+      ],
+      "mode": "text read; PDF page 540 visually inspected",
+      "fullBookRead": false
+    },
+    {
+      "source": "GINA 2026 Strategy Report",
+      "pdfPages": [
+        81,
+        85
+      ],
+      "printedPages": [
+        80,
+        84
+      ],
+      "mode": "text read",
+      "fullDocumentRead": false
+    },
+    {
+      "source": "GOLD 2026 Pocket Guide v1.1",
+      "pdfPages": [
+        24,
+        30,
+        31,
+        32
+      ],
+      "printedPages": [
+        21,
+        27,
+        28,
+        29
+      ],
+      "mode": "page 24 text; figures 3.8–3.10 visually read",
+      "fullDocumentRead": false
+    }
+  ],
+  "productDocuments": [
+    {
+      "drug": "formoterolo",
+      "url": "https://www.medicines.org.uk/emc/product/878/smpc",
+      "revision": "2023-03-27",
+      "accessedAt": "2026-10-24",
+      "sectionsRead": [
+        "4.1",
+        "4.4",
+        "4.5",
+        "5.1",
+        "5.2"
+      ],
+      "readTextSHA256": "27f987f20ee5f93f9a929912a056b83f471c557bd310f0bd11308593106c1123",
+      "jurisdiction": "UK",
+      "fullSourceRepublished": false
+    },
+    {
+      "drug": "tiotropio",
+      "url": "https://www.medicines.org.uk/emc/product/407/smpc",
+      "revision": "2024-12",
+      "accessedAt": "2026-10-24",
+      "sectionsRead": [
+        "4.1",
+        "4.4",
+        "4.5",
+        "5.1",
+        "5.2"
+      ],
+      "readTextSHA256": "724de15a79104b882f047b0f60cc2773a4f43b065ec37419fad2646dd44ddd7f",
+      "jurisdiction": "UK",
+      "fullSourceRepublished": false
+    },
+    {
+      "drug": "ipratropio",
+      "url": "https://www.medicines.org.uk/emc/product/61/smpc",
+      "revision": "2021-03-22",
+      "accessedAt": "2026-10-24",
+      "sectionsRead": [
+        "4.1",
+        "4.4",
+        "4.5",
+        "5.1",
+        "5.2"
+      ],
+      "readTextSHA256": "079b54e2c37b7cf1d90eb7b64c761557aa7d1fac1749a4e1ae80ca2357d6cd14",
+      "jurisdiction": "UK",
+      "fullSourceRepublished": false
+    },
+    {
+      "drug": "montelukast",
+      "url": "https://www.medicines.org.uk/emc/product/198/smpc",
+      "revision": "2026-08-31",
+      "accessedAt": "2026-10-24",
+      "sectionsRead": [
+        "4.1",
+        "4.4",
+        "4.5",
+        "5.1",
+        "5.2"
+      ],
+      "readTextSHA256": "afb3783b10b7c1ddf1bf94d47b0ef354a0347251876af79244a77e6cdebb9d31",
+      "jurisdiction": "UK",
+      "fullSourceRepublished": false
+    }
+  ],
+  "diagramBasis": [
+    {
+      "url": "https://doi.org/10.1111/bph.12445",
+      "scope": "Selected GPCR nomenclature and transduction tables for muscarinic and leukotriene receptors; not a full-article reading."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-019-13348-2",
+      "scope": "Abstract/introduction and bibliographic metadata; no atomic structure assigned from this paper."
+    }
+  ],
+  "remainingBooks": [
+    "Katzung: respiratory sections not yet read in this batch",
+    "Farmacologia generale e molecolare: respiratory sections not yet read in this batch"
+  ],
+  "limits": [
+    "No textbook has been read in full.",
+    "No independent clinical review.",
+    "Receptor figures are original qualitative diagrams, not experimental molecular simulations."
+  ]
+}
