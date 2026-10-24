@@ -4,9 +4,9 @@ Procedere con un solo lotto alla volta. Riprendere il lavoro incompleto prima di
 
 ## Consegna corrente
 
-Lotto `acetylcholinesterase-lab`, versione 0.18.0: un laboratorio originale in cinque scenari distingue degradazione di ACh, inibizione dell’enzima e antagonismo muscarinico. Neostigmina e piridostigmina erano già identità nel catalogo; ricevono due sintesi, due contesti PK e dodici campi (nove documentati, tre lacune esplicite). Le vie parenterale e orale mantengono i propri riferimenti. Letture e limiti sono in `data/ache-reading.json`.
+Lotto `presynaptic-release-lab`, versione 0.19.0: un laboratorio originale in cinque scenari distingue il potenziale d’azione, il blocco K⁺, i canali Ca²⁺ e il rilascio evocato di ACh. Amifampridina era già un’identità nel catalogo; riceve una sintesi, un contesto PK orale UE e sei campi (cinque documentati, una lacuna esplicita). Il farmaco non viene attribuito ai canali Ca²⁺ colpiti dall’autoimmunità. Letture e limiti sono in `data/lems-reading.json`.
 
-Il precedente lotto 0.17.0 è pubblicato e verificato al commit `314767aab52517c6d1b250e6041d284e2d0f5dc6`; non ripeterlo.
+Il precedente lotto 0.18.0 è pubblicato e verificato al commit `f16c81178efde1b48bd4881016b360a4837c2f76`; non ripeterlo.
 
 Il checkpoint è preparato prima della pubblicazione. La ricevuta in `../../outputs/ELIX-latest-verification.json` prevale solo quando batch e versione coincidono e certifica deploy e verifica online conclusi. Se non coincide, completare gli elementi residui del checkpoint.
 
@@ -21,4 +21,4 @@ Il checkpoint è preparato prima della pubblicazione. La ricevuta in `../../outp
 
 ## Coda dopo questo lotto
 
-Solo dopo pubblicazione e verifica: Amifampridina CHEMBL354077 e trasmissione presinaptica nella sindrome di Lambert–Eaton: identità presente, sintesi propria e profilo PK assenti al 24/10/2026. Verificare prodotto e linee guida attuali, distinguere rilascio di ACh, degradazione del trasmettitore e bersagli postsinaptici; leggere un intervallo mirato e sviluppare una visualizzazione originale. Il sale CHEMBL3301611 è distinto: evitare doppioni e trasferimenti PK automatici.
+Solo dopo pubblicazione e verifica: Fampridina/dalfampridina CHEMBL284348: identità DALFAMPRIDINE presente, sintesi propria e profilo PK assenti al 24/10/2026. Verificare il prodotto orale a rilascio prolungato e le fonti attuali sulla sclerosi multipla; distinguere conduzione nell’assone demielinizzato da rilascio presinaptico e da trattamento modificante la malattia. Leggere un intervallo mirato e progettare una visualizzazione originale, senza trasferire i dati dell’amifampridina.
