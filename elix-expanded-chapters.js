@@ -241,16 +241,31 @@ export const EXPANDED_CHAPTERS=[
       {
         "title": "Lettura di questo ampliamento",
         "text": "Rang & Dale, Farmacologia, 8ª edizione italiana (2016), capitolo 13: testo delle pagine PDF 253–254 e 268–271. La numerazione è quella del PDF; figure e tabelle non sono riprodotte. Dati clinici confrontati con rocuronio Kalceks UK e Bridion EMA il 24/10/2026. Per ASA 2023 sono state lette soltanto raccomandazioni e Highlights indicizzati dall’editore: il testo integrale non era accessibile. Lettura parziale, non revisione clinica indipendente."
+      },
+      {
+        "title": "Carbamilazione e reversibilità",
+        "text": "AChE termina il segnale idrolizzando ACh in colina e acetato. Neostigmina e piridostigmina trasferiscono un gruppo carbamilico all’enzima, il cui recupero per idrolisi è più lento del normale ciclo con ACh. Reversibile non significa distacco immediato del farmaco intatto. L’aumento della disponibilità di ACh coinvolge recettori nicotinici e muscarinici; atropina antagonizza il secondo ramo senza riattivare l’enzima."
+      },
+      {
+        "title": "Beneficio sintomatico nella miastenia",
+        "text": "La trasmissione compromessa nella miastenia autoimmune può beneficiare della maggiore persistenza di ACh, ma questo non ricostruisce direttamente i recettori e non rimuove gli autoanticorpi. ABN 2025 colloca piridostigmina nella gestione iniziale delle forme oculari e generalizzate lievi–moderate; segnala possibile minore risposta o tollerabilità nelle forme MuSK. Il beneficio insufficiente richiede rivalutazione della strategia terapeutica, non una semplice escalation indefinita. Una crisi colinergica può a sua volta produrre debolezza: il solo sintomo non distingue le cause."
+      },
+      {
+        "title": "Testo storico e guida attuale",
+        "text": "Nel Rang del 2016 l’edrofonio compare come test della miastenia. ABN 2025 non lo raccomanda più, per le possibili complicazioni: il riferimento storico non diventa una raccomandazione attuale. In questo ampliamento sono state lette le pagine PDF 275–280 di Rang & Dale, 8ª edizione italiana; osservata la pagina PDF 119 (slide interna 117) della raccolta Farmaco I Serpe 2025–26; lette le pagine a stampa 423–425 (PDF 2–4) di ABN 2025. Il resto dei materiali rimane da integrare. Le figure sono originali, senza riproduzioni delle fonti."
       }
     ],
     "drugs": [
       "rocuronio",
-      "sugammadex"
+      "sugammadex",
+      "neostigmina",
+      "piridostigmina"
     ],
     "targets": [
-      "NACHR_MUSCLE"
+      "NACHR_MUSCLE",
+      "ACHE"
     ],
-    "review": "Ampliamento selettivo 24/10/2026. Fonti versionate nelle due schede; letture e limiti in data/nmj-reading.json."
+    "review": "Ampliamenti selettivi 24/10/2026. Fonti versionate nelle schede; letture e limiti in data/nmj-reading.json e data/ache-reading.json. Nessuna revisione clinica indipendente."
   },
 
   {

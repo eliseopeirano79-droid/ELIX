@@ -4,9 +4,9 @@ Procedere con un solo lotto alla volta. Riprendere il lavoro incompleto prima di
 
 ## Consegna corrente
 
-Lotto `neuromuscular-lab`, versione 0.17.0: un laboratorio originale in cinque scene distingue il blocco nicotinico dalla cattura plasmatica del rocuronio. Rocuronio e sugammadex erano già identità nel catalogo; ricevono due sintesi, due contesti PK e dodici campi (otto documentati, quattro lacune esplicite). Sugammadex ha un collegamento funzionale al laboratorio, non un falso bersaglio nicotinico. Letture e limiti sono in `data/nmj-reading.json`.
+Lotto `acetylcholinesterase-lab`, versione 0.18.0: un laboratorio originale in cinque scenari distingue degradazione di ACh, inibizione dell’enzima e antagonismo muscarinico. Neostigmina e piridostigmina erano già identità nel catalogo; ricevono due sintesi, due contesti PK e dodici campi (nove documentati, tre lacune esplicite). Le vie parenterale e orale mantengono i propri riferimenti. Letture e limiti sono in `data/ache-reading.json`.
 
-Il precedente lotto 0.16.0 è pubblicato e verificato al commit `30a139502b688822fa40eefaeec9f0eb0af42ea5`; non ripeterlo.
+Il precedente lotto 0.17.0 è pubblicato e verificato al commit `314767aab52517c6d1b250e6041d284e2d0f5dc6`; non ripeterlo.
 
 Il checkpoint è preparato prima della pubblicazione. La ricevuta in `../../outputs/ELIX-latest-verification.json` prevale solo quando batch e versione coincidono e certifica deploy e verifica online conclusi. Se non coincide, completare gli elementi residui del checkpoint.
 
@@ -21,4 +21,4 @@ Il checkpoint è preparato prima della pubblicazione. La ricevuta in `../../outp
 
 ## Coda dopo questo lotto
 
-Solo dopo pubblicazione e verifica: Acetilcolinesterasi, neostigmina CHEMBL278020 e piridostigmina CHEMBL1115: identità presenti, sintesi proprie e profili PK assenti al 24/10/2026. Verificare prodotti e fonti attuali; distinguere aumento di ACh, effetti muscarinici e contesto della miastenia. Leggere un intervallo mirato prima di integrare.
+Solo dopo pubblicazione e verifica: Amifampridina CHEMBL354077 e trasmissione presinaptica nella sindrome di Lambert–Eaton: identità presente, sintesi propria e profilo PK assenti al 24/10/2026. Verificare prodotto e linee guida attuali, distinguere rilascio di ACh, degradazione del trasmettitore e bersagli postsinaptici; leggere un intervallo mirato e sviluppare una visualizzazione originale. Il sale CHEMBL3301611 è distinto: evitare doppioni e trasferimenti PK automatici.

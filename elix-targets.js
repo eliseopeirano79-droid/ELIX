@@ -1,5 +1,23 @@
 /* Original target explanations. Metabolic relationships remain distinct from pharmacodynamic targets. */
 export const ADDITIONAL_TARGETS = {
+"ACHE":{
+  "id": "ACHE",
+  "name": "Acetilcolinesterasi · AChE",
+  "kind": "Enzima · serina idrolasi",
+  "tissue": "Sinapsi colinergiche, compresa la giunzione neuromuscolare",
+  "signal": [
+    "Acetilcolina disponibile",
+    "AChE: idrolisi del trasmettitore",
+    "Colina e acetato",
+    "Termine del segnale",
+    "Carbamilazione: recupero enzimatico più lento"
+  ],
+  "mechanism": "L’acetilcolinesterasi idrolizza ACh. Neostigmina e piridostigmina, carbamati reversibili, rallentano il recupero dell’enzima dopo carbamilazione. ACh può quindi persistere più a lungo: aumentano sia gli effetti nicotinici sia quelli muscarinici.",
+  "insight": "AChE è un enzima, non un recettore. Atropina limita gli effetti muscarinici senza riattivare AChE. La butirrilcolinesterasi è un enzima distinto: i farmaci illustrati non vengono dichiarati selettivi soltanto per AChE.",
+  "chapter": "parasimpatico-e-colinergici",
+  "source": "https://www.medicines.org.uk/emc/product/6268/smpc",
+  "reference": "Neostigmina hameln, SmPC § 5.1; Rang & Dale 8ª ed. italiana, cap. 13, pagine PDF 275–280"
+},
 "NACHR_MUSCLE":{
   "id": "NACHR_MUSCLE",
   "name": "Recettore nicotinico muscolare · adulto",
