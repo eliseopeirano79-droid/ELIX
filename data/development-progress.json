@@ -1,66 +1,66 @@
 {
   "updatedAt": "2026-10-24",
-  "batch": "presynaptic-release-lab",
+  "batch": "axon-conduction-lab",
   "status": "verified_locally_pending_publication",
-  "release": "0.19.0",
-  "branch": "feat/presynaptic-release-lab",
-  "baseCommit": "f16c81178efde1b48bd4881016b360a4837c2f76",
+  "release": "0.20.0",
+  "branch": "feat/axon-conduction-lab",
+  "baseCommit": "649125735f49443a10e6aaea4ee7ef6f664ce603",
   "previousBatch": {
-    "batch": "acetylcholinesterase-lab",
+    "batch": "presynaptic-release-lab",
     "status": "published_and_live_verified",
-    "commit": "f16c81178efde1b48bd4881016b360a4837c2f76",
-    "receipt": "../../outputs/ELIX-ache-2026-10-24/release-verification.json"
+    "commit": "649125735f49443a10e6aaea4ee7ef6f664ce603",
+    "receipt": "../../outputs/ELIX-lems-2026-10-24/release-verification.json"
   },
   "scope": [
-    "Original presynaptic release lab: five scenarios distinguish K channels, calcium channels and evoked vesicular release",
-    "Amifampridine: one existing identity enriched, one EU oral product context, six PK fields",
-    "Existing cholinergic chapter expanded; links connect presynaptic release, AChE and muscle nicotinic receptor"
+    "Original axon/myelin and potassium-channel lab with four presets, three independent toggles and qualitative limits",
+    "Fampridine/dalfampridine: one existing identity, one EU prolonged-release oral PK context, six documented fields",
+    "One existing ion-channel chapter expanded; bidirectional drug and presynaptic-lab links; editorial aliases searchable without editing catalog"
   ],
   "completed": [
-    "22 data validators passed; 16 combinations of impulse, calcium, disease state and drug checked",
+    "23 data validators passed; 8 state combinations checked",
     "8 lab viewport/theme configurations and 8 drug configurations passed",
-    "Bidirectional drug link and two bidirectional lab links, bilingual search and sources checked",
-    "Catalog arrival and theme redraw preserve lab state and keyboard focus",
-    "Animation pause and reduced-motion preference checked",
-    "Lab and new product profile work offline",
-    "Real 0.18.0 to 0.19.0 PWA upgrade preserves favorites and quiz progress",
-    "16 branding configurations passed; legacy fallback and redirects preserved",
-    "Desktop dark and mobile light diagrams and mobile header visually inspected; labels enlarged"
+    "Drug and lab links, chapter/gallery, Italian/English/synonym search and source links passed",
+    "Delayed catalog and theme redraw preserve state; keyboard focus maintained",
+    "Animation pause and reduced motion checked",
+    "Lab and new drug profile work offline",
+    "Real 0.19.0 to 0.20.0 upgrade preserves favorites and quiz progress",
+    "16 branding configurations passed; redirects/fallback/offline and local data preserved",
+    "Desktop dark and mobile light diagrams, mobile header visually inspected"
   ],
   "remaining": [
     "PR and main CI",
     "Deployment and online verification",
     "Published-file hashes and final receipt"
   ],
-  "readingManifest": "data/lems-reading.json",
+  "readingManifest": "data/axon-reading.json",
   "counts": {
     "identities": 4225,
-    "editorial": 92,
-    "productPKContexts": 62,
-    "pkFields": 372,
+    "editorial": 93,
+    "productPKContexts": 63,
+    "pkFields": 378,
     "importedLabelsWithoutEditorial": 93,
-    "targetProfiles": 31
+    "targetProfiles": 32
   },
   "changes": {
     "newIdentities": 0,
     "newDrugSummaries": 1,
     "newProductPKContexts": 1,
     "newPKFields": 6,
-    "documentedFields": 5,
-    "explicitSourceGaps": 1,
-    "numericFields": 3,
+    "documentedFields": 6,
+    "explicitSourceGaps": 0,
+    "numericFields": 4,
     "newInteractiveLabs": 1,
     "newTargetProfiles": 1,
     "expandedExistingChapters": 1
   },
   "limits": [
     "Selective educational synthesis, not independent clinical review.",
-    "Only recorded textbook pages and one slide read; previous intervals remain recorded separately.",
-    "The model shows evoked release only; spontaneous release, doses, kinetic constants, severity and strength are not simulated.",
-    "KV_PRESYNAPTIC denotes a functional group; no unsupported single-channel selectivity or atomic model.",
-    "Legacy repositories, original catalog and source snapshots unchanged.",
-    "DGN 2024 main LEMS recommendation read as indexed text; complete PDF inaccessible.",
-    "Imported-label backlog remains 93; amifampridine had no imported label in that index."
+    "Relative bioavailability is documented; absolute bioavailability explicitly not assessed.",
+    "Only recorded pages read; no whole-book or full-guideline claim.",
+    "No myelin repair, conduction speed, individual response, doses or channel-subtype selectivity predicted.",
+    "NICE and NHS source scopes/jurisdictions distinct; no Italian reimbursement claim.",
+    "Original sources, legacy repos and catalog snapshots unchanged.",
+    "Imported-label backlog unchanged at 93; fampridine had no imported label in that index."
   ],
-  "nextBatch": "Fampridina/dalfampridina CHEMBL284348: identità DALFAMPRIDINE presente, sintesi propria e profilo PK assenti al 24/10/2026. Verificare il prodotto orale a rilascio prolungato e le fonti attuali sulla sclerosi multipla; distinguere conduzione nell’assone demielinizzato da rilascio presinaptico e da trattamento modificante la malattia. Leggere un intervallo mirato e progettare una visualizzazione originale, senza trasferire i dati dell’amifampridina."
+  "nextBatch": "Fingolimod CHEMBL314854: identità presente, sintesi propria e profilo PK assenti al 24/10/2026. Verificare il prodotto UE, fosforilazione al metabolita attivo e recettori S1P; distinguere sequestro linfocitario e controllo della malattia dal beneficio sintomatico della fampridina. Prima leggere un intervallo mirato e fonti attuali; non iniziare prima della consegna 0.20 verificata."
 }

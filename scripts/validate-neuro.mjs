@@ -13,7 +13,7 @@ assert.equal(neuroState('unknown',{}),null);
 globalThis.document={addEventListener(){},getElementById(){return null}};
 const {createReceptorAtlas}=await import('../receptors.js');const rx=createReceptorAtlas({drugs:[],refresh(){}});
 const ed=read('data/editorial.json'),pk=read('data/pk-reviewed.json');appendAllContentBatches(ed,pk);
-assert.equal(ed.drugs.length,92);assert.equal(pk.profiles.length,62);assert.equal(new Set(ed.drugs.map(d=>d.chembl)).size,92);
+assert.equal(ed.drugs.length,93);assert.equal(pk.profiles.length,63);assert.equal(new Set(ed.drugs.map(d=>d.chembl)).size,93);
 for(const [id,target] of [['diazepam','GABAA'],['lorazepam','GABAA'],['midazolam','GABAA'],['ketamina','NMDAR']]){
  assert.ok(ed.drugs.find(d=>d.id===id).targets.includes(target));
  assert.match(rx.route('receptors',target),new RegExp('#/drug/'+id));

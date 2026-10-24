@@ -48,7 +48,7 @@ export function createEvidenceAtlas({refresh,legacyDrugs}){
    db.coverageById=new Map(db.coverage.rows.map(row=>[row.id,row]));
    for(const d of ed.drugs){byLegacy.set(d.id,d);editorial.set(d.chembl,d);}
    for(const m of catalog.molecules)byId.set(m.id,m);
-   searchable=catalog.molecules.map(m=>({m,text:normalize([name(m),m.name,m.id,m.atcItalianLabel,...m.aliases,...m.atc,...m.atc.map(a=>catalog.classes[a.slice(0,5)]||''),...m.mechanisms.map(a=>a.text),editorial.get(m.id)?.name].join(' '))}));
+   searchable=catalog.molecules.map(m=>({m,text:normalize([name(m),m.name,m.id,m.atcItalianLabel,...m.aliases,...m.atc,...m.atc.map(a=>catalog.classes[a.slice(0,5)]||''),...m.mechanisms.map(a=>a.text),editorial.get(m.id)?.name,...(editorial.get(m.id)?.aliases||[])].join(' '))}));
    searchable.sort((a,b)=>name(a.m).localeCompare(name(b.m),'it'));
   }catch(e){error='Non riesco a caricare il catalogo. I laboratori originali restano disponibili. Controlla la connessione e riprova.';console.warn('PHARMA catalog',e);}
   loading=false;refresh();
@@ -256,7 +256,7 @@ export function createEvidenceAtlas({refresh,legacyDrugs}){
  },true);
  document.addEventListener("change",e=>{if(e.target.id==="vd-data-kind"){state.dataKind=e.target.value;state.page=0;updateResults();}if(e.target.id==="vd-order"){state.order=e.target.value;state.page=0;updateResults();}});
  function searchScore(m,q){
-  const primary=[name(m),m.name,m.id].map(normalize),aliases=(m.aliases||[]).map(normalize);
+  const primary=[name(m),m.name,m.id].map(normalize),aliases=[...(m.aliases||[]),...(editorial.get(m.id)?.aliases||[])].map(normalize);
   if(primary.includes(q))return 4;
   if(aliases.includes(q))return 3;
   if(primary.some(value=>value.startsWith(q)))return 2;

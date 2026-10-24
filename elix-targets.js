@@ -1,5 +1,23 @@
 /* Original target explanations. Metabolic relationships remain distinct from pharmacodynamic targets. */
 export const ADDITIONAL_TARGETS = {
+"KV_AXON":{
+  "id": "KV_AXON",
+  "name": "Canali K⁺ · assone demielinizzato",
+  "kind": "Canali voltaggio-dipendenti · gruppo funzionale",
+  "tissue": "Membrana assonale nel sistema nervoso centrale",
+  "signal": [
+    "Demielinizzazione",
+    "Conduzione compromessa",
+    "Blocco dei canali K⁺",
+    "Formazione di potenziali d’azione facilitabile",
+    "Beneficio sintomatico da verificare"
+  ],
+  "mechanism": "La fampridina riduce il passaggio di K⁺ attraverso i canali e può favorire la formazione di potenziali d’azione negli assoni demielinizzati. Il modello non calcola la probabilità di conduzione né la risposta della marcia.",
+  "insight": "KV_AXON identifica un contesto funzionale, non un singolo gene o una selettività molecolare. Mielina, infiammazione e conduzione sono aspetti distinti; non viene rappresentata una rimielinizzazione farmacologica.",
+  "chapter": "canali-ionici",
+  "source": "https://www.ema.europa.eu/en/documents/product-information/fampyra-epar-product-information_en.pdf",
+  "reference": "Fampyra · RCP EMA § 5.1; Rang & Dale 8ª ed. italiana, PDF 102–103 e 280"
+},
 "KV_PRESYNAPTIC":{
   "id": "KV_PRESYNAPTIC",
   "name": "Canali K⁺ · terminale presinaptico",
