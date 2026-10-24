@@ -20,10 +20,16 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
    if(await page.locator('body').getAttribute('data-theme')!==theme)await page.locator('[data-act="theme"]').click();
    const lab=page.locator('elix-neuro-lab');
    assert.equal(await lab.getAttribute('data-state'),'closed');assert.equal(await lab.locator('[data-subunit]').count(),id==='GABAA'?5:4);
-   for(let i=0;i<4;i++){
-    await lab.locator(`[data-nl-preset="${i}"]`).click();assert.equal(await lab.getAttribute('data-state'),(id==='GABAA'?['closed','open','potentiated','closed']:['closed','magnesium','open','ketamine'])[i]);
+   for(let i=0;i<5;i++){
+    await lab.locator(`[data-nl-preset="${i}"]`).click();assert.equal(await lab.getAttribute('data-state'),(id==='GABAA'?['closed','open','potentiated','closed','antagonized']:['closed','magnesium','open','ketamine','memantine'])[i]);
     assert.equal(await lab.locator(`[data-nl-preset="${i}"]`).evaluate(e=>document.activeElement===e),true);
    }
+   if(id==='NMDAR'){
+    assert.equal(await lab.locator('[data-nl-toggle="ketamine"]').getAttribute('aria-pressed'),'false');
+    await lab.locator('[data-nl-toggle="ketamine"]').click();assert.equal(await lab.getAttribute('data-state'),'ketamine');assert.equal(await lab.locator('[data-nl-toggle="memantine"]').getAttribute('aria-pressed'),'false');
+    await lab.locator('[data-nl-toggle="memantine"]').click();assert.equal(await lab.getAttribute('data-state'),'memantine');assert.match(await lab.locator('[data-nl-ring]').innerText(),/MEM/);assert.equal(await lab.locator('[data-nl-toggle="ketamine"]').getAttribute('aria-pressed'),'false');
+   }else{assert.ok(await lab.locator('.nl-ion').count()>0);assert.ok(await lab.locator('.nl-antagonist').count()>0);}
+   await lab.locator('[data-nl-preset="3"]').click();
    if(id==='GABAA'){
     assert.equal(await lab.locator('.nl-ion').count(),0);await lab.locator('[data-nl-toggle="gaba"]').click();assert.equal(await lab.getAttribute('data-state'),'potentiated');await lab.locator('[data-nl-toggle="benzodiazepine"]').click();assert.equal(await lab.getAttribute('data-state'),'open');
    }else{
@@ -37,13 +43,13 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`Page overflow ${width}/${theme}/${id}`);
    for(const b of await lab.locator('button').all())assert.ok(await b.evaluate(e=>e.scrollWidth<=e.clientWidth+1),`Button label overflow ${width}/${theme}/${id}: ${await b.innerText()}`);
    await lab.locator('.nl-reading summary').last().click();assert.match(await lab.locator('.nl-reading').last().innerText(),/8ª edizione italiana/);
-   if([1440,390].includes(width)){await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:out+`/${id}-${width}-${theme}.png`,fullPage:true});}
+   if([1440,390].includes(width)){await lab.locator('[data-nl-preset="4"]').click();await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:out+`/${id}-${width}-${theme}.png`,fullPage:true});}
    await lab.locator('[data-nl-reset]').click();assert.equal(await lab.getAttribute('data-state'),'closed');assert.equal(await lab.locator('[data-nl-motion]').getAttribute('aria-pressed'),'false');
    matrix.push({width,theme,id});
   }
   await page.emulateMedia({reducedMotion:'no-preference'});await page.locator('[data-nl-preset="2"]').click();await page.locator('[data-nl-motion]').click();assert.equal(await page.locator('.nl-ion').first().evaluate(e=>getComputedStyle(e).animationName),'nl-stream');await page.locator('[data-nl-motion]').click();assert.equal(await page.locator('.nl-ion').first().evaluate(e=>getComputedStyle(e).animationName),'none');
   await page.goto(base+'#/receptors');await page.waitForSelector('.nl-gallery');await page.locator('#rx-search').fill('GABA-A');assert.equal(await page.locator('#rx-results .rx-result').count(),1);await page.locator('#rx-results .rx-result').click();await page.waitForSelector('elix-neuro-lab[target="GABAA"]');
-  for(const [drug,id,target] of [['diazepam','CHEMBL12','GABAA'],['lorazepam','CHEMBL580','GABAA'],['midazolam','CHEMBL655','GABAA'],['ketamina','CHEMBL742','NMDAR']]){
+  for(const [drug,id,target] of [['diazepam','CHEMBL12','GABAA'],['lorazepam','CHEMBL580','GABAA'],['midazolam','CHEMBL655','GABAA'],['ketamina','CHEMBL742','NMDAR'],['flumazenil','CHEMBL407','GABAA'],['memantina','CHEMBL807','NMDAR']]){
    await page.goto(base+'#/receptors/'+target);await page.waitForSelector('.nl-lab');await page.locator(`.rx-drugs a[href="#/drug/${drug}"]`).click();await page.waitForSelector('[data-ev-section]');assert.match(await page.locator('.content h1').innerText(),new RegExp(drug,'i'));
    assert.ok(await page.locator(`a[href="#/receptors/${target}"]`).count()>0);const adme=page.locator(`[data-ev-section="${id}:adme"]`);if(!await adme.evaluate(e=>e.open))await adme.locator('summary').click();await page.waitForSelector('[data-pk-metric]');assert.equal(await page.locator('[data-pk-metric]').count(),6);await page.locator(`a[href="#/receptors/${target}"]`).first().click();await page.waitForSelector('.nl-lab');
   }
@@ -51,6 +57,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
   await context.close();
   const offline=await browser.newContext(),tab=await offline.newPage();tab.on('pageerror',e=>errors.push(e.message));await tab.goto(base+'#/receptors/NMDAR');await tab.waitForSelector('.nl-lab');await tab.waitForFunction(()=>!!navigator.serviceWorker.controller);await offline.setOffline(true);
   for(const target of ['GABAA','NMDAR']){await tab.goto(base+'#/receptors/'+target);await tab.reload();await tab.waitForSelector('.nl-lab');await tab.locator('[data-nl-preset="2"]').click();assert.ok(['potentiated','open'].includes(await tab.locator('elix-neuro-lab').getAttribute('data-state')));}
-  await offline.close();assert.deepEqual(errors,[]);const report={passed:true,base,matrix,allScenarios:true,slowCatalogPreservesState:true,themePreservesState:true,keyboardFocus:true,reducedMotion:true,animationPause:true,bidirectionalDrugLinks:4,chapters:2,offline:true,errors};fs.writeFileSync(out+'/report.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));
+  for(const [drug,id] of [['flumazenil','CHEMBL407'],['memantina','CHEMBL807']]){await tab.goto(base+'#/drug/'+drug);await tab.reload();await tab.waitForSelector('[data-ev-section]');const adme=tab.locator(`[data-ev-section="${id}:adme"]`);if(!await adme.evaluate(e=>e.open))await adme.locator('summary').click();await tab.waitForSelector('[data-pk-metric]');assert.equal(await tab.locator('[data-pk-metric]').count(),6);}
+  await offline.close();assert.deepEqual(errors,[]);const report={passed:true,base,matrix,allScenarios:true,slowCatalogPreservesState:true,themePreservesState:true,keyboardFocus:true,reducedMotion:true,animationPause:true,bidirectionalDrugLinks:6,alternativeBlockers:true,chapters:2,offline:true,offlineNewDrugProfiles:2,errors};fs.writeFileSync(out+'/report.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1});

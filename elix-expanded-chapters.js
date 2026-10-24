@@ -156,6 +156,10 @@ export const EXPANDED_CHAPTERS=[
         "text": "La ketamina può ostacolare il flusso nel canale NMDA senza occupare il sito del glutammato. Il laboratorio illustra un blocco del canale aperto, senza stimare percentuali di blocco o confrontare potenze. Non descrive tutte le azioni della ketamina né permette di estendere le indicazioni della formulazione iniettabile all’esketamina nasale."
       },
       {
+        "title": "Memantina: dal canale al contesto Alzheimer",
+        "text": "Un bloccante del canale non deve spiazzare il glutammato. Memantina è un antagonista incompetitivo e voltaggio-dipendente: lo schema mostra la sede del blocco, non il suo grado o la sua cinetica. Il libro Rang & Dale, 8ª edizione italiana (2016), pagine PDF 716–717 e 757, collega questo meccanismo all’Alzheimer; gli impieghi attuali derivano dal RCP UE e il contesto di scelta da NICE NG97, consultabili nella scheda collegata. Un miglioramento sintomatico non dimostra di per sé neuroprotezione."
+      },
+      {
         "title": "Lettura del modello NMDA",
         "text": "Il nuovo approfondimento deriva da Rang & Dale, Farmacologia, 8ª edizione italiana (2016), capitolo 38, pagine PDF 709–712, lette per sottotipi, coagonisti, permeabilità e blocco da magnesio. Il disegno è originale e qualitativo. Non sono state riprodotte figure del testo né attribuite strutture atomiche a un’intera famiglia recettoriale."
       }
@@ -165,7 +169,8 @@ export const EXPANDED_CHAPTERS=[
       "amlodipina",
       "verapamil",
       "amiodarone",
-      "ketamina"
+      "ketamina",
+      "memantina"
     ],
     "targets": [
       "HCN4",
@@ -474,6 +479,10 @@ export const EXPANDED_CHAPTERS=[
         "text": "L’apertura del canale aumenta la conduttanza e porta il potenziale di membrana verso il potenziale di inversione della corrente anionica. Nel neurone adulto può ridurre la risposta a correnti eccitatorie anche senza una grande iperpolarizzazione: è l’inibizione per shunt. Gradienti diversi possono produrre risposte differenti."
       },
       {
+        "title": "Flumazenil: antagonista del modulatore",
+        "text": "Il sito benzodiazepinico è distinto da quello del GABA. Occupandolo, flumazenil può contrastare il potenziamento senza essere un bloccante del poro. Questo spiega il confronto del laboratorio, ma non rende universale il suo impiego: risedazione, dipendenza e intossicazioni miste cambiano il rischio. Rang & Dale, 8ª edizione italiana (2016), pagine PDF 828–829, segnala anche limiti dell’antagonismo idealmente neutro. Sicurezza attuale e formulazione sono nella scheda del prodotto collegata."
+      },
+      {
         "title": "Lettura e limiti di questo approfondimento",
         "text": "Sintesi originale da Rang & Dale, Farmacologia, 8ª edizione italiana (2016), capitolo 38, pagine PDF 719–720, e capitolo 44, pagine PDF 826–827. Sono numeri del file, non pagine a stampa. Il laboratorio distingue GABA e modulazione benzodiazepinica; non simula dosi o risposta del paziente. Le schede collegate conservano le fonti dei rispettivi prodotti."
       }
@@ -481,7 +490,8 @@ export const EXPANDED_CHAPTERS=[
     "drugs": [
       "diazepam",
       "lorazepam",
-      "midazolam"
+      "midazolam",
+      "flumazenil"
     ],
     "targets": [
       "GABAA"

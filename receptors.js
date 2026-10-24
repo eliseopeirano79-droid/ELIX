@@ -1,3 +1,4 @@
+import {NEURO_DRUG_BATCH} from './elix-neuro-drugs.js';
 import {ADDITIONAL_TARGETS} from './elix-targets.js';
 import {ELI_CLINICAL_BATCH} from './eli-clinical-batch.js';
 import {neuroGallery,renderNeuroLab} from './elix-neuro-visuals.js';
@@ -117,7 +118,7 @@ const RECEPTORS=[
   }
 ];
 export function createReceptorAtlas({drugs,refresh}){
-  drugs=[...drugs,...[...RESPIRATORY_BATCH.drugs,...ELI_CLINICAL_BATCH.drugs.filter(d=>d.targets.length)].filter(d=>!drugs.some(old=>old.id===d.id))];
+  drugs=[...drugs,...[...NEURO_DRUG_BATCH.drugs,...RESPIRATORY_BATCH.drugs,...ELI_CLINICAL_BATCH.drugs.filter(d=>d.targets.length)].filter(d=>!drugs.some(old=>old.id===d.id))];
   const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const state={query:"",viewer:null};
   const searchNorm=value=>String(value||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/β/g,'beta').replace(/α/g,'alfa').replace(/[-_\s]/g,'');
