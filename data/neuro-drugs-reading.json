@@ -1,0 +1,108 @@
+{
+  "batch": "neuro-drug-profiles",
+  "checkedAt": "2026-10-24",
+  "textbooks": [
+    {
+      "title": "Rang & Dale — Farmacologia",
+      "edition": "8ª edizione italiana, 2016",
+      "fileName": "Rang & Dale - Farmacologia (8ª ed 2016).pdf",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "chapters": [
+        38,
+        40,
+        44
+      ],
+      "pdfPages": [
+        716,
+        717,
+        757,
+        828,
+        829
+      ],
+      "pageNumbering": "One-based PDF indices, not printed page numbers",
+      "readMode": "Text read on all five pages; page 828 also visually inspected. Table 44.2 not used to assign subtype selectivity.",
+      "scope": "Channel versus ligand-site antagonism, memantine and symptomatic benefit, flumazenil and limits of ideal neutral antagonism. Historical treatment claims not treated as current guidance.",
+      "fullBookRead": false
+    }
+  ],
+  "officialSources": [
+    {
+      "drug": "flumazenil",
+      "url": "https://www.medicines.org.uk/emc/product/6300/smpc",
+      "product": "hameln 100 micrograms/ml injection/infusion",
+      "jurisdiction": "UK",
+      "textRevision": "2022-09-02",
+      "pageUpdated": "2023-03-01",
+      "sectionsRead": [
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5",
+        "4.8",
+        "5.1",
+        "5.2",
+        "10"
+      ],
+      "scope": "Adult product summary and six PK fields; no oral bioavailability estimate assigned."
+    },
+    {
+      "drug": "memantina",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/ebixa-epar-product-information_en.pdf",
+      "product": "Ebixa 10/20 mg film-coated tablets",
+      "jurisdiction": "EU",
+      "language": "en",
+      "pageUpdateDate": "2026-07-08",
+      "pdfPagesRead": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "visualPagesRead": [
+        8
+      ],
+      "sha256": "fb703506cb848cecf2e6b0e6b12a70b0eed07252984425ca4decbb1c1cda36ff",
+      "scope": "Tablet section only. Oral solution and remainder of 88-page product information not read. Requested Italian URL returned English PDF; source linked and labelled in English."
+    },
+    {
+      "guideline": "NICE NG97",
+      "url": "https://www.nice.org.uk/guidance/ng97/resources/dementia-assessment-management-and-support-for-people-living-with-dementia-and-their-carers-pdf-1837760199109",
+      "published": "2018-06-20",
+      "pdfCopyright": 2025,
+      "pdfPagesRead": [
+        1,
+        23,
+        24
+      ],
+      "recommendationsIntegrated": [
+        "1.5.3",
+        "1.5.4",
+        "1.5.5"
+      ],
+      "sha256": "f6fbfd68b0f58941a690ac45d580e2df0d5f03642ae20a896184ed81f3147195",
+      "scope": "Official PDF read after HTML returned 403. Copyright is not presented as clinical revision date. Rest of guideline not reviewed."
+    }
+  ],
+  "changes": {
+    "newIdentities": 0,
+    "newDrugSummaries": 2,
+    "newProductPKContexts": 2,
+    "newPKFields": 12,
+    "documentedFields": 11,
+    "explicitSourceGaps": 1,
+    "numericFields": 8,
+    "extendedInteractiveLabs": 2,
+    "expandedExistingChapters": 2
+  },
+  "limitations": [
+    "No independent clinical review; selective educational summaries, not prescribing algorithms.",
+    "No complete textbook or slide reading. Katzung, Farmacologia generale e molecolare and slides not read in this batch.",
+    "Boolean receptor scenarios do not estimate occupancy, concentrations, block kinetics or clinical efficacy. Flumazenil illustrates the classical BZD site, not every subtype.",
+    "The two NMDA blockers are alternative comparisons, not a simulated combination.",
+    "Catalog identities, original source snapshots and historical PK records remain unchanged."
+  ]
+}

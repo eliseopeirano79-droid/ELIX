@@ -1,59 +1,62 @@
 {
   "updatedAt": "2026-10-24",
-  "batch": "neuro-receptor-labs",
-  "status": "verified_locally_pending_corrective_publication",
-  "release": "0.15.1",
-  "branch": "fix/neuro-state-refresh",
-  "baseCommit": "f641ca61e8b5d5ddc8aed5658bd62bfb00c5047a",
+  "batch": "neuro-drug-profiles",
+  "status": "verified_locally_pending_publication",
+  "release": "0.16.0",
+  "branch": "feat/neuro-drug-profiles",
+  "baseCommit": "56756b9180c3489ac6971e097533d14cadc2c645",
   "previousBatch": {
-    "batch": "respiratory-receptor-atlas",
+    "batch": "neuro-receptor-labs",
     "status": "published_and_live_verified",
-    "receipt": "../../outputs/ELIX-latest-verification.json",
-    "commit": "84b1313f078eec9d2e2b393b69c1d365181bbd23"
+    "commit": "56756b9180c3489ac6971e097533d14cadc2c645",
+    "receipt": "../../outputs/ELIX-neuro-2026-10-24/release-verification.json"
   },
   "scope": [
-    "GABAA",
-    "NMDAR",
-    "4 bidirectional links to existing drug summaries",
-    "2 existing chapters expanded"
+    "Flumazenil CHEMBL407: product summary and IV PK",
+    "Memantine CHEMBL807: product summary and oral tablet PK",
+    "Two interactive receptor comparisons and two existing chapter extensions"
   ],
   "completed": [
-    "Eight textbook PDF pages read; exact scope recorded in data/neuro-reading.json",
-    "Two original interactive ion-channel diagrams",
-    "Mechanism checks on official product pages",
-    "No catalog, PK or identity additions",
-    "All 18 data validators passed; 20 channel-state combinations verified",
-    "16 receptor viewport/theme configurations passed, including 320 px",
-    "Four bidirectional drug links and two expanded chapters verified",
-    "Keyboard focus, animation pause and reduced motion passed",
-    "16 branding viewport/theme checks, legacy redirects and offline fallbacks passed",
-    "Real 0.14.0 to 0.15.0 service-worker upgrade preserved favorites and quiz data",
-    "Both new labs verified offline",
-    "Regression with delayed catalog passed: selected state, animation and keyboard focus preserved",
-    "Theme redraw preserves selected channel state",
-    "Real upgrades from both 0.14.0 and 0.15.0 to 0.15.1 passed"
+    "Two existing catalog identities enriched without duplicates",
+    "Five Rang PDF pages read as specified in reading manifest",
+    "Official product sections and NICE NG97 PDF pages 23–24 checked",
+    "19 data validators passed; 40 channel-state combinations checked",
+    "16 receptor and 16 new-product viewport/theme configurations passed",
+    "Six bidirectional receptor/drug links and bilingual discovery passed",
+    "Delayed catalog, theme redraw, keyboard focus, animation and reduced motion passed",
+    "Both labs and both new product PK contexts work offline",
+    "Real 0.15.1 to 0.16.0 service-worker upgrade preserved favorites and quiz progress",
+    "16 branding configurations, legacy redirects, offline and unavailable-target fallbacks passed"
   ],
   "remaining": [
-    "Corrective PR and main CI",
-    "0.15.1 deployment",
-    "Repeat complete live lab, legacy links and published-file verification"
+    "PR and main CI",
+    "Deployment and live verification",
+    "Published-file hashes and final receipt"
   ],
-  "readingManifest": "data/neuro-reading.json",
+  "readingManifest": "data/neuro-drugs-reading.json",
   "counts": {
     "identities": 4225,
-    "editorial": 85,
-    "productPKContexts": 55,
-    "pkFields": 330,
+    "editorial": 87,
+    "productPKContexts": 57,
+    "pkFields": 342,
     "importedLabelsWithoutEditorial": 93,
     "targetProfiles": 28
   },
+  "changes": {
+    "newIdentities": 0,
+    "newDrugSummaries": 2,
+    "newProductPKContexts": 2,
+    "newPKFields": 12,
+    "documentedFields": 11,
+    "explicitSourceGaps": 1,
+    "numericFields": 8
+  },
   "limits": [
-    "No independent clinical review; no new prescribing or treatment recommendation.",
-    "Product snapshots, PK values and prior source version metadata unchanged. Only family-level target annotations enriched.",
-    "Rang full text, Katzung, Farmacologia generale e molecolare and supplied slides remain incompletely read; none of those other texts or slides read in this batch.",
-    "Drawings original, qualitative and not based on atomic coordinates. Five existing PDB assignments remain unchanged.",
-    "Memantine and flumazenil product summaries reserved for a subsequent bounded batch after this delivery."
+    "Selective educational synthesis, not independent clinical review.",
+    "Textbooks and slides remain incompletely read; this batch read only the recorded Rang pages.",
+    "Qualitative receptor scenarios do not simulate dose, kinetics or clinical response. NMDA blockers are alternatives, not a recommended association.",
+    "Imported document backlog remains 93: these two identities did not have an imported label in that index.",
+    "Legacy repositories remain unchanged; their fallback copies are earlier releases."
   ],
-  "nextBatch": "Flumazenil (CHEMBL407) and memantine (CHEMBL807): identities present, own summaries and PK absent as of 2026-10-24; read source documents before additions.",
-  "liveFinding": "The live 0.15.0 check exposed a state reset when the delayed catalog refresh replaced the custom element. No successful delivery receipt was issued."
+  "nextBatch": "Neuromuscular nicotinic receptor and rocuronium (CHEMBL1201244) / sugammadex (CHEMBL2111107): identities present, own summaries and PK absent. Verify official products and read a bounded relevant textbook interval; distinguish receptor antagonism from sequestration by sugammadex."
 }
