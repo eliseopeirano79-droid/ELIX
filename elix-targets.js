@@ -1,5 +1,23 @@
 /* Original target explanations. Metabolic relationships remain distinct from pharmacodynamic targets. */
 export const ADDITIONAL_TARGETS = {
+"S1PR1":{
+  "id": "S1PR1",
+  "name": "S1P₁ · traffico linfocitario",
+  "kind": "GPCR · recettore per la sfingosina-1-fosfato",
+  "tissue": "Linfociti e altri tessuti; laboratorio focalizzato sull’uscita dai linfonodi",
+  "signal": [
+    "Fingolimod parentale",
+    "Fosforilazione al metabolita attivo",
+    "Agonismo su S1P₁",
+    "Ridotta disponibilità del recettore in superficie",
+    "Uscita linfocitaria ostacolata"
+  ],
+  "mechanism": "Fingolimod fosfato attiva S1P₁ e ne altera il traffico. La minore disponibilità in membrana ostacola la risposta del linfocita al segnale di uscita: antagonismo funzionale, distinto da un blocco competitivo immediato.",
+  "insight": "Il recettore esiste anche in altri tessuti. Un laboratorio focalizzato su S1P₁ non dimostra selettività esclusiva del farmaco, perdita di tutte le funzioni immunitarie o morte dei linfociti.",
+  "chapter": "curve-recettoriali",
+  "source": "https://www.ema.europa.eu/en/documents/product-information/gilenya-epar-product-information_en.pdf",
+  "reference": "Gilenya · RCP EMA § 5.1; Oo et al., JCI 2011; Rang & Dale 8ª ed. italiana, PDF 78–80"
+},
 "KV_AXON":{
   "id": "KV_AXON",
   "name": "Canali K⁺ · assone demielinizzato",

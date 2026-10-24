@@ -49,16 +49,30 @@ export const EXPANDED_CHAPTERS=[
       {
         "title": "Indice terapeutico e risposta quantale",
         "text": "Curve quantali di efficacia ed eventi avversi descrivono la proporzione di individui che raggiungono una soglia definita, e non equivalgono alle curve graduali di un singolo sistema. Il margine terapeutico dipende dal tipo di endpoint, dall'esposizione, dal paziente e dal contesto."
+      },
+      {
+        "title": "Disponibilità del recettore e antagonismo funzionale",
+        "text": "La risposta dipende anche da quanti recettori sono accessibili in membrana. Un agonista può favorirne l’internalizzazione: fingolimod fosfato offre un esempio di antagonismo funzionale su S1P₁. Il farmaco parentale deve prima essere fosforilato; questa reazione non coincide con la fosforilazione del recettore che regola il suo traffico."
+      },
+      {
+        "title": "Riciclare, degradare, continuare a segnalare",
+        "text": "L’internalizzazione dei GPCR può essere seguita da riciclo o degradazione; non implica necessariamente l’interruzione di tutte le vie di segnale. Gli studi preclinici su S1P₁ distinguono l’internalizzazione dalla degradazione e non rendono quest’ultima un requisito universale della linfopenia. Il laboratorio segue la disponibilità superficiale, senza una scala temporale clinica."
+      },
+      {
+        "title": "Sclerosi multipla: processi e obiettivi distinti",
+        "text": "Fingolimod modifica il traffico linfocitario ed è una terapia modificante la malattia in specifiche forme altamente attive di SM recidivante-remittente. Fampridina mira invece a migliorare la marcia in una popolazione definita. Collegare le due schede aiuta a distinguere controllo della malattia e trattamento sintomatico, senza dedurre equivalenza, rimielinizzazione o scelta terapeutica individuale."
       }
     ],
     "drugs": [
       "salbutamolo",
-      "propranololo"
+      "propranololo",
+      "fingolimod"
     ],
     "targets": [
-      "ADRB2"
+      "ADRB2",
+      "S1PR1"
     ],
-    "review": "Sintesi originale a scopo didattico; indicazioni e dati quantitativi richiedono consultazione della fonte versionata."
+    "review": "Sintesi originale a scopo didattico; indicazioni e dati quantitativi richiedono consultazione della fonte versionata. Approfondimento S1P: Rang & Dale 8ª ed. italiana, PDF 78–80; Serpe 2025–26, PDF 151; RCP EMA Gilenya §§ 5.1–5.2 e Oo et al., JCI 2011, DOI 10.1172/JCI45403, sezioni selezionate. Consultazione 24/10/2026."
   },
   {
     "id": "assorbimento-distribuzione",
