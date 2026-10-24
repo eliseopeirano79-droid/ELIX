@@ -253,9 +253,22 @@ export const EXPANDED_CHAPTERS=[
       {
         "title": "Testo storico e guida attuale",
         "text": "Nel Rang del 2016 l’edrofonio compare come test della miastenia. ABN 2025 non lo raccomanda più, per le possibili complicazioni: il riferimento storico non diventa una raccomandazione attuale. In questo ampliamento sono state lette le pagine PDF 275–280 di Rang & Dale, 8ª edizione italiana; osservata la pagina PDF 119 (slide interna 117) della raccolta Farmaco I Serpe 2025–26; lette le pagine a stampa 423–425 (PDF 2–4) di ABN 2025. Il resto dei materiali rimane da integrare. Le figure sono originali, senza riproduzioni delle fonti."
+      },
+      {
+        "title": "Rilascio, degradazione e recettore: tre punti distinti",
+        "text": "Il potenziale d’azione presinaptico apre canali del calcio: l’ingresso locale di Ca²⁺ favorisce la fusione vescicolare. Modulare la ripolarizzazione tramite canali K⁺ può favorire questo passaggio. L’inibizione di AChE riguarda invece la degradazione dopo il rilascio; il recettore nicotinico muscolare risponde sul versante postsinaptico. I tre laboratori permettono di confrontare i meccanismi senza equipararne le indicazioni."
+      },
+      {
+        "title": "Lambert–Eaton: il bersaglio autoimmune e quello farmacologico",
+        "text": "Nel LEMS è compromesso il versante presinaptico, con autoanticorpi contro canali Ca²⁺ P/Q. Amifampridina modula canali K⁺ e può facilitare il rilascio di ACh: non elimina il difetto autoimmune. La raccomandazione DGN 2024 distingue la terapia sintomatica dalla gestione immunitaria e dal trattamento del tumore nelle forme paraneoplastiche. Qui non vengono proposti protocolli terapeutici né previsioni della forza muscolare."
+      },
+      {
+        "title": "Letture di questo ampliamento presinaptico",
+        "text": "Rang & Dale, Farmacologia, 8ª edizione italiana (2016), testo PDF 113–114 e rilettura di 279–280; pagina 114 vista anche come immagine. Serpe, Farmaco I 2025–26, PDF 118 (slide 116): canali attivati dal voltaggio e dal ligando, non una figura specifica del bersaglio farmacologico. RCP EMA Firdapse e raccomandazione DGN 2024 sul LEMS consultati il 24/10/2026; quest’ultima tramite testo indicizzato, senza accesso al PDF integrale. Sintesi e disegni originali, letture parziali."
       }
     ],
     "drugs": [
+      "amifampridina",
       "rocuronio",
       "sugammadex",
       "neostigmina",
@@ -263,9 +276,10 @@ export const EXPANDED_CHAPTERS=[
     ],
     "targets": [
       "NACHR_MUSCLE",
-      "ACHE"
+      "ACHE",
+      "KV_PRESYNAPTIC"
     ],
-    "review": "Ampliamenti selettivi 24/10/2026. Fonti versionate nelle schede; letture e limiti in data/nmj-reading.json e data/ache-reading.json. Nessuna revisione clinica indipendente."
+    "review": "Ampliamenti selettivi 24/10/2026. Fonti versionate nelle schede; letture e limiti in data/nmj-reading.json, data/ache-reading.json e data/lems-reading.json. Nessuna revisione clinica indipendente."
   },
 
   {

@@ -1,0 +1,132 @@
+{
+  "batch": "presynaptic-release-lab",
+  "checkedAt": "2026-10-24",
+  "books": [
+    {
+      "title": "Rang & Dale, Farmacologia",
+      "edition": "8ª edizione italiana, 2016",
+      "file": "Rang & Dale - Farmacologia (8ª ed 2016).pdf",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "chapter": [
+        4,
+        13
+      ],
+      "pdfPages": [
+        113,
+        114,
+        279,
+        280
+      ],
+      "pageNumbering": "One-based PDF indices, not printed pages",
+      "readMode": "Text of four recorded pages read; 279–280 reread from prior batch. Page 114 and its figure visually inspected, not reproduced. Handwritten notes excluded.",
+      "scope": "Calcium-dependent vesicular release, active zones, aminopyridines and distinction from AChE inhibition. No complete book reading.",
+      "fullBookRead": false,
+      "newlyReadPdfPages": [
+        113,
+        114
+      ],
+      "rereadPdfPages": [
+        279,
+        280
+      ],
+      "visualPagesRead": [
+        114
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "author": "Loredana Serpe",
+      "file": "FarmacoI-Serpe-2025-26.pdf",
+      "courseYear": "2025–26, from supplied filename; no edition printed on selected slide",
+      "pdfPages": [
+        118
+      ],
+      "printedSlideNumbers": [
+        116
+      ],
+      "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
+      "readMode": "Visually inspected complete slide: voltage-gated sodium channel versus ligand-gated channel. Neighbouring extracted headings inspected only for discovery.",
+      "scope": "Voltage versus ligand gating only; not treated as a picture of presynaptic K or Ca channels. No source figure reproduced.",
+      "fullDeckRead": false
+    }
+  ],
+  "officialSources": [
+    {
+      "drug": "amifampridina",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/firdapse-epar-product-information_en.pdf",
+      "jurisdiction": "EU",
+      "emaFileUpdated": "2022-05-25",
+      "textRevision": "Section 10 left blank; no text revision date inferred",
+      "sectionsRead": [
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5",
+        "4.6",
+        "4.7",
+        "4.8",
+        "4.9",
+        "5.1",
+        "5.2",
+        "10"
+      ],
+      "pdfPagesTextConsulted": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "visualPagesRead": [
+        9
+      ],
+      "sha256": "92cbbf47b9125cbf72b4c63d78ca50f05a820bbcbe9f450c757171186f057752",
+      "scope": "Oral 10 mg EU product. Half-life food-study table checked visually; parent/metabolite separated. Protein binding absent, urine-based bioavailability qualified. Efficacy tables read, not converted into independent clinical evidence review.",
+      "fullDocumentRead": false,
+      "unreadScope": "Annexes II–III and leaflet, PDF 14–27, not read for this batch."
+    },
+    {
+      "guideline": "DGN S2k 2024",
+      "url": "https://www.dgn.org/leitlinie/diagnostik-und-therapie-myasthener-syndrome",
+      "version": "2024-11-12",
+      "publishedOnline": "2024-11-28",
+      "validUntil": "2029-11-11",
+      "scope": "Indexed main recommendation on LEMS read; full PDF blocked by AWMF access control. No PDF page-reading claim; no dosing protocol integrated.",
+      "fullTextRead": false
+    },
+    {
+      "guideline": "Wiendl et al. 2023",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10752078/",
+      "scope": "Indexed text of Diagnosis and therapy of LEMS (3), recommendation and Disease definition and etiology. Current treatment scope cross-checked with DGN 2024.",
+      "fullTextRead": false
+    }
+  ],
+  "changes": {
+    "newIdentities": 0,
+    "newDrugSummaries": 1,
+    "newProductPKContexts": 1,
+    "newPKFields": 6,
+    "documentedFields": 5,
+    "explicitSourceGaps": 1,
+    "numericFields": 3,
+    "newInteractiveLabs": 1,
+    "newTargetProfiles": 1,
+    "expandedExistingChapters": 1
+  },
+  "limitations": [
+    "Selective educational synthesis, not independent clinical review.",
+    "Only recorded textbook pages and one slide read; previous intervals remain recorded separately.",
+    "The model shows evoked release only; spontaneous release, doses, kinetic constants, severity and strength are not simulated.",
+    "KV_PRESYNAPTIC denotes a functional group; no unsupported single-channel selectivity or atomic model.",
+    "Legacy repositories, original catalog and source snapshots unchanged."
+  ]
+}

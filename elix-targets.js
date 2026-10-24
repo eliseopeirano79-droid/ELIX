@@ -1,5 +1,23 @@
 /* Original target explanations. Metabolic relationships remain distinct from pharmacodynamic targets. */
 export const ADDITIONAL_TARGETS = {
+"KV_PRESYNAPTIC":{
+  "id": "KV_PRESYNAPTIC",
+  "name": "Canali K⁺ · terminale presinaptico",
+  "kind": "Canali voltaggio-dipendenti · gruppo funzionale",
+  "tissue": "Terminazione nervosa della giunzione neuromuscolare",
+  "signal": [
+    "Potenziale d’azione presinaptico",
+    "Canali K⁺: contributo alla ripolarizzazione",
+    "Blocco K⁺: depolarizzazione prolungata",
+    "Ingresso di Ca²⁺ attraverso canali distinti",
+    "Esocitosi di vescicole con ACh"
+  ],
+  "mechanism": "Il blocco dei canali K⁺ può prolungare il potenziale d’azione e favorire il rilascio vescicolare. La figura distingue i canali K⁺ modulati dall’amifampridina dai canali Ca²⁺ P/Q coinvolti nel LEMS.",
+  "insight": "È un gruppo funzionale, non un singolo gene o una struttura atomica. Il beneficio sintomatico non equivale a rimuovere gli autoanticorpi.",
+  "chapter": "parasimpatico-e-colinergici",
+  "source": "https://www.ema.europa.eu/en/documents/product-information/firdapse-epar-product-information_en.pdf",
+  "reference": "Firdapse · RCP EMA § 5.1; Rang & Dale 8ª ed. italiana, PDF 113–114 e 280"
+},
 "ACHE":{
   "id": "ACHE",
   "name": "Acetilcolinesterasi · AChE",
