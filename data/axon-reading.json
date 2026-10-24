@@ -1,0 +1,132 @@
+{
+  "batch": "axon-conduction-lab",
+  "checkedAt": "2026-10-24",
+  "books": [
+    {
+      "title": "Rang & Dale, Farmacologia",
+      "edition": "8ª edizione italiana, 2016",
+      "file": "Rang & Dale - Farmacologia (8ª ed 2016).pdf",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "chapter": [
+        4,
+        13
+      ],
+      "pdfPages": [
+        102,
+        103,
+        280
+      ],
+      "pageNumbering": "One-based PDF indices, not printed pages",
+      "readMode": "Full extracted text of PDF 102–103 and reread 280; full image of 103 including figure 4.5 inspected, not copied.",
+      "scope": "Sodium/potassium roles in action potential and paragraph on fampridine. No full-book reading. Other pages remain unread except separately recorded prior batches.",
+      "fullBookRead": false,
+      "newlyReadPdfPages": [
+        102,
+        103
+      ],
+      "rereadPdfPages": [
+        280
+      ],
+      "visualPagesRead": [
+        103
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "author": "Loredana Serpe",
+      "file": "FarmacoI-Serpe-2025-26.pdf",
+      "courseYear": "2025–26, from supplied filename; no edition printed on selected slide",
+      "pdfPages": [
+        118
+      ],
+      "printedSlideNumbers": [
+        116
+      ],
+      "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
+      "readMode": "Complete slide reread visually; prior batch already read it.",
+      "scope": "Voltage versus ligand gating only; not a picture of the fampridine K-channel target. No copied figure.",
+      "fullDeckRead": false,
+      "rereadPdfPages": [
+        118
+      ],
+      "newlyReadPdfPages": []
+    }
+  ],
+  "officialSources": [
+    {
+      "drug": "fampridina",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/fampyra-epar-product-information_en.pdf",
+      "jurisdiction": "EU",
+      "emaFileUpdated": "2025-08-21",
+      "textRevision": "Section 10 has no date; no revision date inferred",
+      "sectionsRead": [
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5",
+        "4.6",
+        "4.7",
+        "4.8",
+        "5.1",
+        "5.2",
+        "10"
+      ],
+      "pdfPagesTextConsulted": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "visualPagesRead": [
+        10
+      ],
+      "sha256": "6b1c569f97c0d64fb05b1fbf79a364d26b495f50374a291d2e13abe546b06f2c",
+      "scope": "Selected clinical/PK sections; page 6 through adverse-event reporting, not overdose. Pages 11–12 pharmaceutical text also viewed, not integrated. Trials read as SmPC summary, not independent review. English document, not Italian RCP.",
+      "fullDocumentRead": false,
+      "unreadScope": "Section 4.9 and Annexes II–III/leaflet not read in this batch."
+    },
+    {
+      "guideline": "NICE NG220",
+      "url": "https://www.nice.org.uk/guidance/ng220/chapter/Recommendations",
+      "scope": "Indexed recommendation 1.5.18 (2022) and rationale on cost effectiveness read. Direct recommendations HTML returned 403. Not treated as current English commissioning policy without considering NHS 2026.",
+      "fullTextRead": false
+    },
+    {
+      "policy": "NHS England fampridine",
+      "url": "https://www.england.nhs.uk/publication/clinical-commissioning-policy-prolonged-released-pr-fampridine-as-a-treatment-of-adults-with-multiple-sclerosis-and-associated-walking-impairment/",
+      "published": "2026-07-16",
+      "pageUpdated": "2026-08-26",
+      "scope": "Indexed official page summary read: routine commissioning within defined criteria. Direct page requires access verification; full PDF not read and no detailed eligibility criteria reproduced. No access controls bypassed.",
+      "fullTextRead": false
+    }
+  ],
+  "changes": {
+    "newIdentities": 0,
+    "newDrugSummaries": 1,
+    "newProductPKContexts": 1,
+    "newPKFields": 6,
+    "documentedFields": 6,
+    "explicitSourceGaps": 0,
+    "numericFields": 4,
+    "newInteractiveLabs": 1,
+    "newTargetProfiles": 1,
+    "expandedExistingChapters": 1
+  },
+  "limitations": [
+    "Selective educational synthesis, not independent clinical review.",
+    "Relative bioavailability is documented; absolute bioavailability explicitly not assessed.",
+    "Only recorded pages read; no whole-book or full-guideline claim.",
+    "No myelin repair, conduction speed, individual response, doses or channel-subtype selectivity predicted.",
+    "NICE and NHS source scopes/jurisdictions distinct; no Italian reimbursement claim.",
+    "Original sources, legacy repos and catalog snapshots unchanged."
+  ]
+}

@@ -1,12 +1,12 @@
 # Sviluppo continuativo ELIX
 
-Procedere con un solo lotto alla volta. Riprendere il lavoro incompleto prima di aprirne un altro. Consultare `data/development-progress.json`, Git e l'ultimo risultato della chat; non sovrapporre modifiche a una consegna in corso.
+Procedere con un solo lotto alla volta. Riprendere il lavoro incompleto prima di aprirne un altro. Consultare `data/development-progress.json`, Git e l’ultimo risultato della chat; non sovrapporre modifiche a una consegna in corso.
 
 ## Consegna corrente
 
-Lotto `presynaptic-release-lab`, versione 0.19.0: un laboratorio originale in cinque scenari distingue il potenziale d’azione, il blocco K⁺, i canali Ca²⁺ e il rilascio evocato di ACh. Amifampridina era già un’identità nel catalogo; riceve una sintesi, un contesto PK orale UE e sei campi (cinque documentati, una lacuna esplicita). Il farmaco non viene attribuito ai canali Ca²⁺ colpiti dall’autoimmunità. Letture e limiti sono in `data/lems-reading.json`.
+Lotto `axon-conduction-lab`, versione 0.20.0: laboratorio originale in quattro scenari sulla conduzione nell’assone, con mielina e canali K⁺ distinti. Fampridina/dalfampridina era già un’identità del catalogo; riceve una sintesi, un contesto PK UE orale a rilascio prolungato e sei campi documentati. La biodisponibilità assoluta resta esplicitamente non valutata. Il modello non predice recupero individuale o riparazione della mielina. Letture, riletture e limiti sono in `data/axon-reading.json`.
 
-Il precedente lotto 0.18.0 è pubblicato e verificato al commit `f16c81178efde1b48bd4881016b360a4837c2f76`; non ripeterlo.
+Il precedente lotto 0.19.0 è pubblicato e verificato al commit `649125735f49443a10e6aaea4ee7ef6f664ce603`; non ripeterlo.
 
 Il checkpoint è preparato prima della pubblicazione. La ricevuta in `../../outputs/ELIX-latest-verification.json` prevale solo quando batch e versione coincidono e certifica deploy e verifica online conclusi. Se non coincide, completare gli elementi residui del checkpoint.
 
@@ -21,4 +21,4 @@ Il checkpoint è preparato prima della pubblicazione. La ricevuta in `../../outp
 
 ## Coda dopo questo lotto
 
-Solo dopo pubblicazione e verifica: Fampridina/dalfampridina CHEMBL284348: identità DALFAMPRIDINE presente, sintesi propria e profilo PK assenti al 24/10/2026. Verificare il prodotto orale a rilascio prolungato e le fonti attuali sulla sclerosi multipla; distinguere conduzione nell’assone demielinizzato da rilascio presinaptico e da trattamento modificante la malattia. Leggere un intervallo mirato e progettare una visualizzazione originale, senza trasferire i dati dell’amifampridina.
+Solo dopo pubblicazione e verifica: Fingolimod CHEMBL314854: identità presente, sintesi propria e profilo PK assenti al 24/10/2026. Verificare il prodotto UE, fosforilazione al metabolita attivo e recettori S1P; distinguere sequestro linfocitario e controllo della malattia dal beneficio sintomatico della fampridina. Prima leggere un intervallo mirato e fonti attuali; non iniziare prima della consegna 0.20 verificata.

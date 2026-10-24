@@ -162,6 +162,18 @@ export const EXPANDED_CHAPTERS=[
       {
         "title": "Lettura del modello NMDA",
         "text": "Il nuovo approfondimento deriva da Rang & Dale, Farmacologia, 8ª edizione italiana (2016), capitolo 38, pagine PDF 709–712, lette per sottotipi, coagonisti, permeabilità e blocco da magnesio. Il disegno è originale e qualitativo. Non sono state riprodotte figure del testo né attribuite strutture atomiche a un’intera famiglia recettoriale."
+      },
+      {
+        "title": "Mielina, conduzione e fampridina",
+        "text": "La perdita di mielina può ostacolare la conduzione assonale. La fampridina blocca canali K⁺ e può facilitare la formazione di potenziali d’azione negli assoni demielinizzati: un possibile beneficio sintomatico non prova riparazione della mielina o controllo della malattia. Amifampridina e fampridina sono molecole distinte, con prodotti e contesti terapeutici propri."
+      },
+      {
+        "title": "Formulazione ed eliminazione contano",
+        "text": "Fampyra è un prodotto orale a rilascio prolungato: la biodisponibilità del 95% è relativa a una soluzione orale, mentre quella assoluta non è stata valutata. Il recupero urinario di circa il 90% entro 24 ore riguarda la fampridina immodificata. La funzione renale e il trasportatore OCT2 collegano esposizione, interazioni e rischio neurologico; non si ricavano dosi dal modello."
+      },
+      {
+        "title": "Letture e contesto della SM",
+        "text": "Rang & Dale, Farmacologia, 8ª edizione italiana (2016): PDF 102–103 lette, pagina 103 anche visivamente; PDF 280 riletta. Serpe, Farmaco I 2025–26: rilettura della slide 116 (PDF 118), sulla distinzione voltaggio/ligando. RCP EMA Fampyra consultato il 24/10/2026. La scheda distingue la raccomandazione economica NICE 2022 dalla successiva policy NHS England 2026, letta nella sola sintesi indicizzata. Nessuna revisione integrale delle linee guida o conclusione sulla rimborsabilità italiana."
       }
     ],
     "drugs": [
@@ -170,14 +182,16 @@ export const EXPANDED_CHAPTERS=[
       "verapamil",
       "amiodarone",
       "ketamina",
-      "memantina"
+      "memantina",
+      "fampridina"
     ],
     "targets": [
       "HCN4",
       "CACNA1C",
       "KCNH2",
       "SCN5A",
-      "NMDAR"
+      "NMDAR",
+      "KV_AXON"
     ],
     "review": "Sintesi originale a scopo didattico; indicazioni e dati quantitativi richiedono consultazione della fonte versionata."
   },

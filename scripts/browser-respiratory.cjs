@@ -26,7 +26,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
   await page.locator('[data-aw="play"]').click();const stopped=await page.locator('.aw-step-count').innerText();await page.waitForTimeout(3800);assert.equal(await page.locator('.aw-step-count').innerText(),stopped);
   await page.locator('[data-aw="reset"]').click();assert.match(await page.locator('.aw-step-count').innerText(),/1 \/ 4/);
   await page.locator('[data-aw="play"]').click();await page.goto(base+'#/home');await page.waitForSelector('.eli-coverage dd');await page.waitForTimeout(2000);assert.equal(await page.locator('elix-airway-lab').count(),0);
-  assert.deepEqual(await page.locator('.eli-coverage dd').allTextContents(),['4.225','92','62','93']);
+  assert.deepEqual(await page.locator('.eli-coverage dd').allTextContents(),['4.225','93','63','93']);
   for(const [name,id,target] of [['Formoterolo','CHEMBL1256786','ADRB2'],['Tiotropio','CHEMBL1900528','CHRM3'],['Ipratropio','CHEMBL1621597','CHRM3'],['Montelukast','CHEMBL787','CYSLTR1']]){
    await page.goto(base+'#/molecule/'+id);await page.waitForSelector('[data-ev-section]');assert.match(await page.locator('.content h1').innerText(),new RegExp(name,'i'));
    for(const key of ['mechanism','adme','dosage']){const detail=page.locator(`[data-ev-section="${id}:${key}"]`);if(!await detail.evaluate(e=>e.open))await detail.locator('summary').click();}
