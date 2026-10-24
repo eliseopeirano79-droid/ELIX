@@ -4,6 +4,15 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
  const base=process.env.ELIX_BASE_URL||'http://127.0.0.1:8765/',out=process.env.ELIX_NEURO_OUTPUT||'/tmp/elix-audit/neuro';fs.mkdirSync(out,{recursive:true});
  const browser=await chromium.launch({headless:true}),errors=[],matrix=[];
  try{
+  // A slow catalog must not reset a learner's already selected receptor state.
+  const slow=await browser.newContext({serviceWorkers:'block',reducedMotion:'reduce'}),slowPage=await slow.newPage();slowPage.on('pageerror',e=>errors.push(e.message));
+  let releaseCatalog;const gate=new Promise(r=>releaseCatalog=r);
+  await slowPage.route('**/data/catalog.json',async route=>{const response=await route.fetch();await gate;await route.fulfill({response});});
+  await slowPage.goto(base+'#/receptors/GABAA');await slowPage.waitForSelector('.nl-lab');await slowPage.locator('[data-nl-preset="2"]').click();await slowPage.locator('[data-nl-motion]').click();
+  await slowPage.evaluate(()=>window.beforeCatalogLab=document.querySelector('elix-neuro-lab'));releaseCatalog();
+  await slowPage.waitForFunction(()=>!window.beforeCatalogLab.isConnected);assert.equal(await slowPage.locator('elix-neuro-lab').getAttribute('data-state'),'potentiated');assert.equal(await slowPage.locator('[data-nl-motion]').getAttribute('aria-pressed'),'true');
+  assert.equal(await slowPage.locator('[data-nl-motion]').evaluate(e=>document.activeElement===e),true,'Focus survives delayed catalog refresh');
+  await slowPage.locator('[data-act="theme"]').click();assert.equal(await slowPage.locator('elix-neuro-lab').getAttribute('data-state'),'potentiated');await slow.close();
   const context=await browser.newContext({serviceWorkers:'block',reducedMotion:'reduce'}),page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
   await page.route('**/*',r=>r.request().url().startsWith(new URL(base).origin)?r.continue():r.abort());
   for(const width of [1440,768,390,320])for(const theme of ['dark','light'])for(const id of ['GABAA','NMDAR']){
@@ -42,6 +51,6 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
   await context.close();
   const offline=await browser.newContext(),tab=await offline.newPage();tab.on('pageerror',e=>errors.push(e.message));await tab.goto(base+'#/receptors/NMDAR');await tab.waitForSelector('.nl-lab');await tab.waitForFunction(()=>!!navigator.serviceWorker.controller);await offline.setOffline(true);
   for(const target of ['GABAA','NMDAR']){await tab.goto(base+'#/receptors/'+target);await tab.reload();await tab.waitForSelector('.nl-lab');await tab.locator('[data-nl-preset="2"]').click();assert.ok(['potentiated','open'].includes(await tab.locator('elix-neuro-lab').getAttribute('data-state')));}
-  await offline.close();assert.deepEqual(errors,[]);const report={passed:true,base,matrix,allScenarios:true,keyboardFocus:true,reducedMotion:true,animationPause:true,bidirectionalDrugLinks:4,chapters:2,offline:true,errors};fs.writeFileSync(out+'/report.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));
+  await offline.close();assert.deepEqual(errors,[]);const report={passed:true,base,matrix,allScenarios:true,slowCatalogPreservesState:true,themePreservesState:true,keyboardFocus:true,reducedMotion:true,animationPause:true,bidirectionalDrugLinks:4,chapters:2,offline:true,errors};fs.writeFileSync(out+'/report.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1});

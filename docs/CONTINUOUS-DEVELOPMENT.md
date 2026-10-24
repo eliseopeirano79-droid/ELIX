@@ -8,6 +8,8 @@ Laboratori GABA-A e NMDA: due visualizzazioni originali e interattive dei canali
 
 Il lotto respiratorio 0.14.0 è stato pubblicato e verificato al commit `84b1313f078eec9d2e2b393b69c1d365181bbd23`. La ricevuta in `../../outputs/ELIX-latest-verification.json` prevale sul checkpoint prepubblicazione solo quando batch e versione coincidono. Per il nuovo lotto controllare Git, checkpoint e ricevuta prima di riprendere.
 
+La prima verifica online della 0.15.0 ha rilevato un reset delle scelte quando il catalogo terminava il caricamento. La correzione 0.15.1 mantiene lo stato dei laboratori durante il ridisegno della pagina; prima di considerare consegnato questo lotto va verificata anche con caricamento rallentato.
+
 ## Regole di completamento
 
 - Conservare ELIX, grafica Isoelettrica, testata, firma e dati locali. Non modificare ISOELETTRICA né materiali sincronizzati o PDF originali.

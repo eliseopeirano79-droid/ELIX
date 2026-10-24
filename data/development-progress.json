@@ -1,10 +1,10 @@
 {
   "updatedAt": "2026-10-24",
   "batch": "neuro-receptor-labs",
-  "status": "verified_locally_pending_publication",
-  "release": "0.15.0",
-  "branch": "feat/neuro-receptor-labs",
-  "baseCommit": "84b1313f078eec9d2e2b393b69c1d365181bbd23",
+  "status": "verified_locally_pending_corrective_publication",
+  "release": "0.15.1",
+  "branch": "fix/neuro-state-refresh",
+  "baseCommit": "f641ca61e8b5d5ddc8aed5658bd62bfb00c5047a",
   "previousBatch": {
     "batch": "respiratory-receptor-atlas",
     "status": "published_and_live_verified",
@@ -28,12 +28,15 @@
     "Keyboard focus, animation pause and reduced motion passed",
     "16 branding viewport/theme checks, legacy redirects and offline fallbacks passed",
     "Real 0.14.0 to 0.15.0 service-worker upgrade preserved favorites and quiz data",
-    "Both new labs verified offline"
+    "Both new labs verified offline",
+    "Regression with delayed catalog passed: selected state, animation and keyboard focus preserved",
+    "Theme redraw preserves selected channel state",
+    "Real upgrades from both 0.14.0 and 0.15.0 to 0.15.1 passed"
   ],
   "remaining": [
-    "PR and main CI",
-    "Deployment",
-    "Live desktop/mobile, legacy links and published-file readback"
+    "Corrective PR and main CI",
+    "0.15.1 deployment",
+    "Repeat complete live lab, legacy links and published-file verification"
   ],
   "readingManifest": "data/neuro-reading.json",
   "counts": {
@@ -51,5 +54,6 @@
     "Drawings original, qualitative and not based on atomic coordinates. Five existing PDB assignments remain unchanged.",
     "Memantine and flumazenil product summaries reserved for a subsequent bounded batch after this delivery."
   ],
-  "nextBatch": "Flumazenil (CHEMBL407) and memantine (CHEMBL807): identities present, own summaries and PK absent as of 2026-10-24; read source documents before additions."
+  "nextBatch": "Flumazenil (CHEMBL407) and memantine (CHEMBL807): identities present, own summaries and PK absent as of 2026-10-24; read source documents before additions.",
+  "liveFinding": "The live 0.15.0 check exposed a state reset when the delayed catalog refresh replaced the custom element. No successful delivery receipt was issued."
 }
