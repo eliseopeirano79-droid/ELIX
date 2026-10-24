@@ -1,3 +1,4 @@
+import {S1P_BATCH} from './elix-s1p-batch.js';
 import {AXON_BATCH} from './elix-axon-batch.js';
 import {LEMS_BATCH} from './elix-lems-batch.js';
 import {ACHE_BATCH} from './elix-ache-batch.js';
@@ -10,7 +11,7 @@ import {ESSENTIAL_BATCH} from './elix-essential-batch.js';
 import {ALPHABET_A_BATCH} from './elix-alphabet-a.js';
 import {ABC_CONTINUATION_BATCH} from './elix-abc-continuation.js';
 import {RESPIRATORY_BATCH} from './elix-respiratory-batch.js';
-export const ADDITIONAL_CONTENT_BATCHES=[ESSENTIAL_BATCH,ALPHABET_A_BATCH,ABC_CONTINUATION_BATCH,ELI_CLINICAL_BATCH,RESPIRATORY_BATCH,NEURO_DRUG_BATCH,NMJ_BATCH,ACHE_BATCH,LEMS_BATCH,AXON_BATCH];
+export const ADDITIONAL_CONTENT_BATCHES=[ESSENTIAL_BATCH,ALPHABET_A_BATCH,ABC_CONTINUATION_BATCH,ELI_CLINICAL_BATCH,RESPIRATORY_BATCH,NEURO_DRUG_BATCH,NMJ_BATCH,ACHE_BATCH,LEMS_BATCH,AXON_BATCH,S1P_BATCH];
 export function appendAllContentBatches(editorial,pk){
  appendContentBatches(editorial,pk);
  for(const batch of ADDITIONAL_CONTENT_BATCHES)appendContentBatches(editorial,pk,batch);

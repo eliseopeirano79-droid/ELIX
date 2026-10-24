@@ -1,0 +1,120 @@
+{
+  "batch": "s1p-trafficking-lab",
+  "checkedAt": "2026-10-24",
+  "books": [
+    {
+      "title": "Rang & Dale, Farmacologia",
+      "edition": "8ª edizione italiana, 2016",
+      "file": "Rang & Dale - Farmacologia (8ª ed 2016).pdf",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "chapter": 3,
+      "pdfPages": [
+        78,
+        79,
+        80
+      ],
+      "newlyReadPdfPages": [
+        78,
+        79,
+        80
+      ],
+      "visualPagesRead": [
+        79
+      ],
+      "pageNumbering": "One-based PDF indices, not printed pages",
+      "readMode": "Complete extracted text of three pages; page 79 and figure 3.16 visually inspected. Handwritten notes excluded. No figure reproduced.",
+      "scope": "General GPCR regulation, recycling, internalization and signaling; not a fingolimod-specific book passage. Remaining pages unread except earlier recorded batches.",
+      "fullBookRead": false
+    }
+  ],
+  "slides": [
+    {
+      "author": "Loredana Serpe",
+      "file": "FarmacoI-Serpe-2025-26.pdf",
+      "courseYear": "2025–26 from supplied filename; no edition printed on selected slide",
+      "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
+      "pdfPages": [
+        151
+      ],
+      "printedSlideNumbers": [
+        149
+      ],
+      "newlyReadPdfPages": [
+        151
+      ],
+      "visualPagesRead": [
+        151
+      ],
+      "readMode": "Complete extracted text and slide image inspected",
+      "scope": "General response regulation only; remaining slides unread except prior recorded batches.",
+      "fullDocumentRead": false
+    }
+  ],
+  "officialSources": [
+    {
+      "id": "s1p-fingolimod",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/gilenya-epar-product-information_en.pdf",
+      "productPage": "https://www.ema.europa.eu/en/medicines/human/EPAR/gilenya",
+      "fileUpdated": "2026-09-29",
+      "revisionDate": "Section 10 blank; no inferred text revision date",
+      "sha256": "14535f3eca03884aa2cdac6745c9ca3473c671171833be03bbc450e2d1533438",
+      "pdfPages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        19,
+        20,
+        24,
+        25,
+        28
+      ],
+      "visualPagesRead": [
+        24
+      ],
+      "scope": "Selected RCP clinical/mechanism/PK sections. Efficacy tables pages 21–23, intervening unlisted safety pages and annexes not read. No full SmPC/annex reading claim.",
+      "fullDocumentRead": false
+    },
+    {
+      "id": "s1p-nice-ng220",
+      "url": "https://www.nice.org.uk/guidance/ng220/chapter/Recommendations",
+      "updated": "2026-06-03",
+      "sections": [
+        "1.8.4"
+      ],
+      "readMode": "Official indexed text; only selected DMT context integrated",
+      "fullTextRead": false,
+      "limits": "TA254 recommendations direct page returned 403; no full appraisal reading. An old draft surfaced in search but was not used as final guidance. NHS full algorithm not read."
+    }
+  ],
+  "primaryResearch": [
+    {
+      "id": "s1p-oo-2011",
+      "url": "https://www.jci.org/articles/view/45403",
+      "doi": "10.1172/JCI45403",
+      "citation": "Oo et al. J Clin Invest. 2011;121(6):2290–2300",
+      "readSections": [
+        "Abstract",
+        "Introduction",
+        "Results: receptor modifications, internalization vs ubiquitination, WWP2 and opening in vivo paragraph"
+      ],
+      "readMode": "Publisher HTML text; no source figures copied; no complete methods/supplement read",
+      "fullTextRead": false,
+      "scope": "Preclinical cells/mice. Degradation not a universal requirement for lymphopenia; no transfer of vascular leakage probabilities to patients."
+    }
+  ],
+  "accessLimits": [
+    "IUPHAR ligand 2407 and family 135 indexed summaries consulted; direct family page required login. No login bypass, no quantitative potency imported.",
+    "PMC direct full-text request showed recaptcha; publisher JCI openly accessible version used."
+  ],
+  "publication": [
+    "Only original summaries and SVG diagrams published; no PDF, source page image, book figure or source text extraction.",
+    "No whole-book or independent clinical review claim."
+  ]
+}

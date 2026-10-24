@@ -4,9 +4,9 @@ Procedere con un solo lotto alla volta. Riprendere il lavoro incompleto prima di
 
 ## Consegna corrente
 
-Lotto `axon-conduction-lab`, versione 0.20.0: laboratorio originale in quattro scenari sulla conduzione nell’assone, con mielina e canali K⁺ distinti. Fampridina/dalfampridina era già un’identità del catalogo; riceve una sintesi, un contesto PK UE orale a rilascio prolungato e sei campi documentati. La biodisponibilità assoluta resta esplicitamente non valutata. Il modello non predice recupero individuale o riparazione della mielina. Letture, riletture e limiti sono in `data/axon-reading.json`.
+Lotto `s1p-trafficking-lab`, versione 0.21.0: laboratorio originale in cinque passaggi sul traffico di S1P₁ e dei linfociti. Distingue fingolimod, metabolita fosfato, agonismo, internalizzazione e persistenza dopo l’interruzione. Una sintesi e un contesto PK orale UE per un’identità già presente, sei campi documentati; nessuna identità duplicata. Capitolo sull’agonismo ampliato e collegamenti al laboratorio assonale. Letture effettive e limiti in `data/s1p-reading.json`.
 
-Il precedente lotto 0.19.0 è pubblicato e verificato al commit `649125735f49443a10e6aaea4ee7ef6f664ce603`; non ripeterlo.
+Il precedente lotto 0.20.0 è pubblicato e verificato al commit `a4d13b12a41fa54f1afca3080a4020d75abef375`; non ripeterlo.
 
 Il checkpoint è preparato prima della pubblicazione. La ricevuta in `../../outputs/ELIX-latest-verification.json` prevale solo quando batch e versione coincidono e certifica deploy e verifica online conclusi. Se non coincide, completare gli elementi residui del checkpoint.
 
@@ -21,4 +21,4 @@ Il checkpoint è preparato prima della pubblicazione. La ricevuta in `../../outp
 
 ## Coda dopo questo lotto
 
-Solo dopo pubblicazione e verifica: Fingolimod CHEMBL314854: identità presente, sintesi propria e profilo PK assenti al 24/10/2026. Verificare il prodotto UE, fosforilazione al metabolita attivo e recettori S1P; distinguere sequestro linfocitario e controllo della malattia dal beneficio sintomatico della fampridina. Prima leggere un intervallo mirato e fonti attuali; non iniziare prima della consegna 0.20 verificata.
+Solo dopo pubblicazione e verifica: Siponimod CHEMBL2336071: identità presente, sintesi e PK assenti al 24/10/2026. Verificare prodotto UE, differenze di recettori e metabolismo rispetto a fingolimod e contesto della SM secondariamente progressiva attiva. Leggere soltanto un intervallo mirato e registrare le lacune. Iniziare nel ciclo successivo alla consegna 0.21 verificata.

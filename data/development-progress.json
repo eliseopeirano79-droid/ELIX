@@ -1,45 +1,45 @@
 {
   "updatedAt": "2026-10-24",
-  "batch": "axon-conduction-lab",
+  "batch": "s1p-trafficking-lab",
   "status": "verified_locally_pending_publication",
-  "release": "0.20.0",
-  "branch": "feat/axon-conduction-lab",
-  "baseCommit": "649125735f49443a10e6aaea4ee7ef6f664ce603",
+  "release": "0.21.0",
+  "branch": "feat/s1p-traffic-lab",
+  "baseCommit": "a4d13b12a41fa54f1afca3080a4020d75abef375",
   "previousBatch": {
-    "batch": "presynaptic-release-lab",
+    "batch": "axon-conduction-lab",
     "status": "published_and_live_verified",
-    "commit": "649125735f49443a10e6aaea4ee7ef6f664ce603",
-    "receipt": "../../outputs/ELIX-lems-2026-10-24/release-verification.json"
+    "commit": "a4d13b12a41fa54f1afca3080a4020d75abef375",
+    "receipt": "../../outputs/ELIX-axon-2026-10-24/release-verification.json"
   },
   "scope": [
-    "Original axon/myelin and potassium-channel lab with four presets, three independent toggles and qualitative limits",
-    "Fampridine/dalfampridine: one existing identity, one EU prolonged-release oral PK context, six documented fields",
-    "One existing ion-channel chapter expanded; bidirectional drug and presynaptic-lab links; editorial aliases searchable without editing catalog"
+    "Original five-stage lab: parent drug, active phosphate, agonism, internalization and persistence after interruption",
+    "Existing fingolimod identity enriched with one EU oral product PK context and six documented fields",
+    "Expanded receptor-response chapter and bidirectional links to drug and axon lab"
   ],
   "completed": [
-    "23 data validators passed; 8 state combinations checked",
-    "8 lab viewport/theme configurations and 8 drug configurations passed",
-    "Drug and lab links, chapter/gallery, Italian/English/synonym search and source links passed",
-    "Delayed catalog and theme redraw preserve state; keyboard focus maintained",
-    "Animation pause and reduced motion checked",
-    "Lab and new drug profile work offline",
-    "Real 0.19.0 to 0.20.0 upgrade preserves favorites and quiz progress",
-    "16 branding configurations passed; redirects/fallback/offline and local data preserved",
-    "Desktop dark and mobile light diagrams, mobile header visually inspected"
+    "24 data validators passed; five model states and invalid inputs checked",
+    "Eight lab and eight drug viewport/theme configurations passed, including 320 px",
+    "Name/synonym search, references, chapter/gallery and bidirectional links passed",
+    "Delayed catalog and theme redraw preserve state and keyboard focus",
+    "Pause and reduced motion checked; lab and new PK work offline",
+    "Real 0.20.0 to 0.21.0 upgrade preserves favorites and quiz progress",
+    "16 branding configurations passed; legacy redirect, destination failure fallback, offline and local data preserved",
+    "Desktop dark/mobile light diagrams including internalized state and mobile header visually inspected",
+    "Mobile PK cards and quantitative qualifiers visually inspected"
   ],
   "remaining": [
     "PR and main CI",
     "Deployment and online verification",
-    "Published-file hashes and final receipt"
+    "Public-file hashes and final receipt"
   ],
-  "readingManifest": "data/axon-reading.json",
+  "readingManifest": "data/s1p-reading.json",
   "counts": {
     "identities": 4225,
-    "editorial": 93,
-    "productPKContexts": 63,
-    "pkFields": 378,
+    "editorial": 94,
+    "productPKContexts": 64,
+    "pkFields": 384,
     "importedLabelsWithoutEditorial": 93,
-    "targetProfiles": 32
+    "targetProfiles": 33
   },
   "changes": {
     "newIdentities": 0,
@@ -54,13 +54,15 @@
     "expandedExistingChapters": 1
   },
   "limits": [
-    "Selective educational synthesis, not independent clinical review.",
-    "Relative bioavailability is documented; absolute bioavailability explicitly not assessed.",
-    "Only recorded pages read; no whole-book or full-guideline claim.",
-    "No myelin repair, conduction speed, individual response, doses or channel-subtype selectivity predicted.",
-    "NICE and NHS source scopes/jurisdictions distinct; no Italian reimbursement claim.",
+    "Selective educational synthesis, not independent clinical review or complete contraindication list.",
+    "Only recorded pages/sections read; no whole-book, full product-document or full-guideline claim.",
+    "No doses, cell counts, receptor percentages, recovery time, clinical efficacy or rebound probability simulated.",
+    "Internalization, degradation and signaling are distinct; preclinical findings not transferred to patients.",
+    "Focus on S1P1 does not assert exclusive fingolimod selectivity.",
+    "NICE context and EU product distinct; no Italian reimbursement claim.",
+    "Parent, active phosphate and salts remain distinct. Bioavailability confidence interval is statistical; urinary fraction concerns inactive metabolites.",
     "Original sources, legacy repos and catalog snapshots unchanged.",
-    "Imported-label backlog unchanged at 93; fampridine had no imported label in that index."
+    "Imported-label backlog remains 93: this identity lacked an imported label in that index."
   ],
-  "nextBatch": "Fingolimod CHEMBL314854: identità presente, sintesi propria e profilo PK assenti al 24/10/2026. Verificare il prodotto UE, fosforilazione al metabolita attivo e recettori S1P; distinguere sequestro linfocitario e controllo della malattia dal beneficio sintomatico della fampridina. Prima leggere un intervallo mirato e fonti attuali; non iniziare prima della consegna 0.20 verificata."
+  "nextBatch": "Siponimod CHEMBL2336071: identità presente, sintesi e PK assenti al 24/10/2026. Verificare prodotto UE, differenze di recettori e metabolismo rispetto a fingolimod e contesto della SM secondariamente progressiva attiva. Leggere soltanto un intervallo mirato e registrare le lacune. Iniziare nel ciclo successivo alla consegna 0.21 verificata."
 }
