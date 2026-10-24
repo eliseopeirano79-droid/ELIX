@@ -1,4 +1,6 @@
 import {ADDITIONAL_TARGETS} from './elix-targets.js';
+import {RESPIRATORY_BATCH} from './elix-respiratory-batch.js';
+import {airwayGallery,renderAirwayLab} from './elix-respiratory-visuals.js';
 /* ELIX 0.7 · extended target atlas. PDB structures are assigned only when experimentally sourced. */
 const RECEPTORS=[
   {
@@ -113,6 +115,7 @@ const RECEPTORS=[
   }
 ];
 export function createReceptorAtlas({drugs,refresh}){
+  drugs=[...drugs,...RESPIRATORY_BATCH.drugs.filter(d=>!drugs.some(old=>old.id===d.id))];
   const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const state={query:"",viewer:null};
   const searchNorm=value=>String(value||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/β/g,'beta').replace(/α/g,'alfa');
@@ -133,12 +136,13 @@ export function createReceptorAtlas({drugs,refresh}){
     return `<div class="rx-wrap"><header class="rx-heading"><span class="eyebrow">ELIX · Strutture e fisiologia</span><h1>Recettori e bersagli</h1><p>Un'unica scheda per struttura atomica 3D, fisiologia, segnalazione e farmaci che interagiscono con il bersaglio.</p></header>
       <p class="rx-summary"><strong>${RECEPTORS.length} modelli PDB · ${Object.keys(ADDITIONAL_TARGETS).length} altri bersagli approfonditi</strong><span>Primo nucleo editoriale. Il catalogo dei recettori non è ancora esaustivo.</span></p>
       <label class="rx-search">Cerca per nome, gene o via di segnalazione<input id="rx-search" type="search" value="${esc(state.query)}" placeholder="β₂, ADRB1, Gq, muscolatura…" autocomplete="off"></label>
+      ${airwayGallery()}
       <div class="rx-results" id="rx-results">${listHTML()}</div>
       <section class="rx-secondary"><h2>Altri bersagli del catalogo didattico</h2><p>Non tutti i bersagli sono recettori: qui compaiono anche enzimi, canali e trasportatori. Le schede incomplete non mostrano modelli 3D attribuiti per analogia.</p><div class="rx-cloud">${targets.filter(id=>!known.has(id)&&!ADDITIONAL_TARGETS[id]).map(id=>`<a href="#/receptors/${encodeURIComponent(id)}">${esc(id)}</a>`).join("")}</div></section>
       </div>`;
   }
   function extraDetail(item){
- return `<div class="rx-wrap"><a href="#/receptors" class="rx-back">← Recettori e bersagli</a><header class="rx-heading"><span class="eyebrow">${esc(item.kind)} · ${esc(item.id)}</span><h1>${esc(item.name)}</h1><p>${esc(item.tissue)}</p></header><div class="rx-two"><section class="rx-panel"><h2>Funzione e farmacologia</h2><p class="rx-theory">${esc(item.mechanism)}</p><h3>Perché è importante</h3><p>${esc(item.insight)}</p>${item.source?`<p class="rx-source"><a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">${esc(item.reference)} ↗</a></p>`:""}</section><section class="rx-panel"><h2>Struttura tridimensionale</h2><div class="rx-missing-structure"><strong>Modello atomico non ancora associato</strong><p>Non assegniamo strutture per semplice somiglianza. Servono identificatore PDB, stato conformazionale e fonte bibliografica verificati.</p><a href="https://www.rcsb.org/" target="_blank" rel="noopener noreferrer">Cerca nel Protein Data Bank ↗</a></div></section></div><section class="rx-panel"><div class="rx-panel-head"><h2>Via fisiologica e farmacologica</h2><a class="rx-primary" href="#/textbook/${encodeURIComponent(item.chapter)}">Capitolo collegato →</a></div><div class="rx-cascade">${item.signal.map((step,i)=>`<span><small>${String(i+1).padStart(2,"0")}</small>${esc(step)}</span>`).join("<b aria-hidden='true'>→</b>")}</div><p class="rx-muted">Schema meccanicistico didattico; non equivale a dinamica molecolare sperimentale o a una previsione clinica.</p></section><section class="rx-panel"><h2>${item.metabolizes?"Farmaci collegati al metabolismo (non ligandi del recettore)":"Farmaci collegati al bersaglio"}</h2><div class="rx-drugs">${drugLinks(item.id)}</div></section></div>`;
+ return `<div class="rx-wrap"><a href="#/receptors" class="rx-back">← Recettori e bersagli</a><header class="rx-heading"><span class="eyebrow">${esc(item.kind)} · ${esc(item.id)}</span><h1>${esc(item.name)}</h1><p>${esc(item.tissue)}</p></header>${renderAirwayLab(item.id)}<div class="rx-two"><section class="rx-panel"><h2>Funzione e farmacologia</h2><p class="rx-theory">${esc(item.mechanism)}</p><h3>Perché è importante</h3><p>${esc(item.insight)}</p>${item.source?`<p class="rx-source"><a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">${esc(item.reference)} ↗</a></p>`:""}</section><section class="rx-panel"><h2>Struttura tridimensionale</h2><div class="rx-missing-structure"><strong>Modello atomico non ancora associato</strong><p>Non assegniamo strutture per semplice somiglianza. Servono identificatore PDB, stato conformazionale e fonte bibliografica verificati.</p><a href="https://www.rcsb.org/" target="_blank" rel="noopener noreferrer">Cerca nel Protein Data Bank ↗</a></div></section></div><section class="rx-panel"><div class="rx-panel-head"><h2>Via fisiologica e farmacologica</h2><a class="rx-primary" href="#/textbook/${encodeURIComponent(item.chapter)}">Capitolo collegato →</a></div><div class="rx-cascade">${item.signal.map((step,i)=>`<span><small>${String(i+1).padStart(2,"0")}</small>${esc(step)}</span>`).join("<b aria-hidden='true'>→</b>")}</div><p class="rx-muted">Schema meccanicistico didattico; non equivale a dinamica molecolare sperimentale o a una previsione clinica.</p></section><section class="rx-panel"><h2>${item.metabolizes?"Farmaci collegati al metabolismo (non ligandi del recettore)":"Farmaci collegati al bersaglio"}</h2><div class="rx-drugs">${drugLinks(item.id)}</div></section></div>`;
 }
   function detail(id){
     const x=known.get(id);
@@ -150,6 +154,7 @@ export function createReceptorAtlas({drugs,refresh}){
     const open=state.viewer===id;
     return `<div class="rx-wrap"><a href="#/receptors" class="rx-back">← Tutti i recettori</a>
       <header class="rx-heading"><span class="eyebrow">${esc(x.id)} · GPCR</span><h1>${esc(x.name)}</h1><p>${esc(x.organ)}</p><div class="rx-tags"><span>${esc(x.coupling)}</span><span>PDB ${x.pdb} verificato</span></div></header>
+      ${renderAirwayLab(id)}
       <div class="rx-two">
       <section class="rx-panel"><div class="rx-panel-head"><h2>Struttura sperimentale 3D</h2><span>PDB ${x.pdb}</span></div>
       ${open?`<iframe class="rx-molstar" loading="lazy" title="Viewer 3D del recettore ${esc(x.id)}" src="https://molstar.org/viewer/?pdb=${x.pdb}&amp;hide-controls=1" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`:`<div class="rx-viewer-poster"><span>3D</span><strong>${esc(x.name)}</strong><p>Il modello viene caricato solo quando lo apri.</p><button type="button" data-rx="viewer" data-id="${x.id}">Carica struttura 3D ↗</button></div>`}

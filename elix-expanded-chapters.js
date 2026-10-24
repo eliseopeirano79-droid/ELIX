@@ -625,16 +625,28 @@ export const EXPANDED_CHAPTERS=[
       {
         "title": "Infiammazione e terapia di fondo",
         "text": "Corticosteroidi inalatori e altri antiinfiammatori agiscono su processi diversi dalla contrazione bronchiale acuta. Una necessità crescente di farmaco di sollievo deve essere valutata come possibile segno di controllo insufficiente, non semplicemente compensata aumentando indiscriminatamente dosi."
+      },
+      {
+        "title":"CysLT₁ e antagonismo dei leucotrieni",
+        "text":"Montelukast antagonizza CysLT₁ e contrasta gli effetti di LTD₄. Non blocca direttamente M₃ o β₂ e non inibisce la sintesi di tutti i leucotrieni. Confrontare i tre percorsi aiuta a distinguere bersaglio, trasduzione ed effetto d’organo; non determina da solo la scelta terapeutica."
+      },
+      {
+        "title":"Asma: il confronto con GINA 2026",
+        "text":"Negli adulti e adolescenti il percorso preferito GINA usa ICS-formoterolo come sollievo antinfiammatorio, con mantenimento secondo lo stadio. ICS indica il corticosteroide inalatorio: formoterolo da solo non rappresenta questa strategia. Età, dispositivo e indicazioni autorizzate richiedono valutazione specifica."
+      },
+      {
+        "title":"BPCO: il confronto con GOLD 2026",
+        "text":"Per l’inizio del mantenimento GOLD distingue gruppi secondo sintomi e riacutizzazioni: un broncodilatatore nel gruppo A, LABA + LAMA nei gruppi B ed E. L’aggiunta di ICS dipende dal contesto clinico, con ruolo di eosinofili e riacutizzazioni; il rischio di polmonite entra nella valutazione. Il follow-up usa un percorso distinto."
+      },
+      {
+        "title":"Che cosa è stato letto",
+        "text":"Rang & Dale, Farmacologia, 8ª edizione italiana (2016), capitolo 28: pagine PDF 539–540, 545, 548–549. La teoria è integrata con SmPC dei prodotti e GINA/GOLD 2026 per le scelte cliniche. La numerazione è quella del file; questa lettura circoscritta non equivale alla lettura integrale del manuale."
       }
     ],
-    "drugs": [
-      "salbutamolo",
-      "propranololo"
-    ],
-    "targets": [
-      "ADRB2"
-    ],
-    "review": "Sintesi originale a scopo didattico; indicazioni e dati quantitativi richiedono consultazione della fonte versionata."
+    "drugs": ["salbutamolo","formoterolo","tiotropio","ipratropio","montelukast"],
+    "targets": ["ADRB2","CHRM3","CYSLTR1"],
+    "sources": ["gina-2026","gold-2026"],
+    "review": "Sintesi originale controllata sulle sezioni dichiarate il 24/10/2026; revisione clinica indipendente non completata."
   },
   {
     "id": "acidita-gastrica",

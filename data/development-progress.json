@@ -1,0 +1,89 @@
+{
+  "updatedAt": "2026-10-24",
+  "batch": "respiratory-receptor-atlas",
+  "status": "verified_locally_pending_publication",
+  "branch": "feat/respiratory-receptor-atlas",
+  "baseCommit": "3c9c2d243de2fa3fa4d7b38dec00a56bb6389bbb",
+  "scope": [
+    "ADRB2",
+    "CHRM3",
+    "CYSLTR1",
+    "formoterolo",
+    "tiotropio",
+    "ipratropio",
+    "montelukast"
+  ],
+  "completed": [
+    "Source reading recorded for this batch",
+    "3 original interactive receptor pathways",
+    "4 additive drug summaries and 4 product PK contexts",
+    "All 17 data validators passed",
+    "24 receptor viewport/theme checks passed",
+    "16 branding viewport/theme checks passed",
+    "Play/pause/reset, keyboard focus, product source links and offline checks passed",
+    "Legacy redirects, local fallback and stored data checks passed"
+  ],
+  "remaining": [
+    "Pull request CI",
+    "Publication",
+    "Live verification"
+  ],
+  "reading": [
+    {
+      "source": "Rang & Dale, Farmacologia, 8ª edizione italiana, 2016",
+      "chapter": 28,
+      "pdfPages": [
+        539,
+        540,
+        545,
+        548,
+        549
+      ],
+      "mode": "text read; PDF page 540 visually inspected",
+      "fullBookRead": false
+    },
+    {
+      "source": "GINA 2026 Strategy Report",
+      "pdfPages": [
+        81,
+        85
+      ],
+      "printedPages": [
+        80,
+        84
+      ],
+      "mode": "text read",
+      "fullDocumentRead": false
+    },
+    {
+      "source": "GOLD 2026 Pocket Guide v1.1",
+      "pdfPages": [
+        24,
+        30,
+        31,
+        32
+      ],
+      "printedPages": [
+        21,
+        27,
+        28,
+        29
+      ],
+      "mode": "page 24 text; figures 3.8–3.10 visually read",
+      "fullDocumentRead": false
+    }
+  ],
+  "limits": [
+    "Full textbook reading has not been completed.",
+    "This batch adds teaching summaries to existing chemical identities."
+  ],
+  "nextBatch": "GABA-A/NMDA: define scope after respiratory delivery verification",
+  "release": "0.14.0",
+  "counts": {
+    "identities": 4225,
+    "editorial": 85,
+    "productPKContexts": 55,
+    "pkFields": 330,
+    "importedLabelsWithoutEditorial": 93
+  }
+}
