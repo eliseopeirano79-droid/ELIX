@@ -1011,6 +1011,18 @@ export const EXPANDED_CHAPTERS=[
     "lead": "CYP, trasportatori, bersagli e raccomandazioni contestuali.",
     "sections": [
       {
+        "title": "Una risposta varia per più ragioni",
+        "text": "La variabilità farmacocinetica cambia la concentrazione che raggiunge il bersaglio; quella farmacodinamica cambia la risposta a una data concentrazione. Genetica, età, funzione d’organo, interazioni e patologia concorrono: un risultato genetico non descrive da solo l’intero paziente."
+      },
+      {
+        "title": "Siponimod: metabolismo e recettore sono distinti",
+        "text": "Siponimod è già attivo e agisce su S1P₁/S1P₅; CYP2C9 contribuisce soprattutto al suo metabolismo. Il RCP UE richiede la determinazione del genotipo prima dell’avvio e controindica *3/*3. Questi criteri sono specifici del prodotto e non costituiscono un algoritmo di dose generale per tutti i substrati di CYP2C9."
+      },
+      {
+        "title": "Una differenza di genotipo non è una graduatoria di efficacia",
+        "text": "Esposizione, rischio e beneficio non si ricavano da una sola variante. Mayzent riguarda la SM secondariamente progressiva attiva dell’adulto; Gilenya ha criteri differenti nella SM recidivante-remittente altamente attiva. Il confronto fra molecole richiede popolazione, esito e fonti appropriate, senza dedurre intercambiabilità dal recettore condiviso."
+      },
+      {
         "title": "Genotipo, fenotipo e attività enzimatica",
         "text": "Alleli di geni metabolici possono influenzare attività e produzione di metaboliti. La categorizzazione in fenotipi come metabolizzatore lento, intermedio o normale è specifica del gene e della combinazione allelica."
       },
@@ -1030,11 +1042,15 @@ export const EXPANDED_CHAPTERS=[
     "drugs": [
       "clopidogrel",
       "metoprololo",
-      "nebivololo"
+      "nebivololo",
+      "siponimod"
     ],
-    "targets": [],
-    "review": "Sintesi originale a scopo didattico; indicazioni e dati quantitativi richiedono consultazione della fonte versionata."
+    "targets": [
+      "CYP2C9"
+    ],
+    "review": "Sintesi selettiva: Rang & Dale 8ª ed. italiana 2016, PDF 217–218, e Serpe 2025–26, PDF 71 e 198, per principi generali. Caso siponimod: RCP EMA Mayzent, file 30/07/2026, §§ 4.1–4.5 e 5.2, consultato 24/10/2026. Letture parziali registrate in data/siponimod-reading.json; non revisione clinica indipendente."
   },
+
   {
     "id": "popolazioni-speciali",
     "volume": 17,

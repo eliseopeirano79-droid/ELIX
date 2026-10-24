@@ -453,5 +453,25 @@ export const ADDITIONAL_TARGETS = {
     ],
     "source": "https://pubmed.ncbi.nlm.nih.gov/38951961/",
     "reference": "CPIC, genotipi e terapia con beta-bloccanti, 2024"
+  },
+  "CYP2C9": {
+    "id": "CYP2C9",
+    "name": "CYP2C9 · citocromo P450",
+    "kind": "Enzima del metabolismo · non recettore",
+    "tissue": "Metabolismo epatico · esposizione a siponimod",
+    "signal": [
+      "Siponimod già attivo",
+      "Metabolismo prevalentemente CYP2C9-dipendente",
+      "Genotipo e interazioni modificano l’esposizione",
+      "Azione farmacodinamica su S1P₁/S1P₅"
+    ],
+    "mechanism": "CYP2C9 è una via predominante del metabolismo di siponimod. Varianti dell’enzima possono ridurre la clearance e aumentare l’esposizione al farmaco già attivo. Non è il recettore che media il traffico linfocitario e non serve ad attivare siponimod per fosforilazione.",
+    "insight": "Il RCP UE di Mayzent richiede il genotipo prima dell’avvio e controindica *3/*3. Le indicazioni non si estendono automaticamente ad altri substrati di CYP2C9: metabolismo, interazioni e popolazione devono essere verificati per ciascun prodotto.",
+    "chapter": "farmacogenomica",
+    "metabolizes": [
+      "siponimod"
+    ],
+    "source": "https://www.ema.europa.eu/en/documents/product-information/mayzent-epar-product-information_en.pdf",
+    "reference": "Mayzent, RCP EMA, file aggiornato 30/07/2026; §§ 4.2–4.5 e 5.2"
   }
 };

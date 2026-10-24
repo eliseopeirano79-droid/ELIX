@@ -1,0 +1,135 @@
+{
+  "batch": "siponimod-comparison",
+  "checkedAt": "2026-10-24",
+  "books": [
+    {
+      "title": "Rang & Dale, Farmacologia",
+      "edition": "8ª edizione italiana, 2016",
+      "file": "Rang & Dale - Farmacologia (8ª ed 2016).pdf",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "chapter": 11,
+      "pdfPages": [
+        217,
+        218
+      ],
+      "newlyReadPdfPages": [
+        217,
+        218
+      ],
+      "visualPagesRead": [
+        217
+      ],
+      "pageNumbering": "One-based PDF indices, not printed pages",
+      "readMode": "Complete extracted text of both pages; page 217 image inspected. Handwritten notes excluded. No figure reproduced.",
+      "scope": "General PK vs PD variability and combined determinants. Historical drug recommendations and ancestry-based statements not integrated; no siponimod-specific claim. Remaining book pages unread except prior recorded batches.",
+      "fullBookRead": false
+    }
+  ],
+  "slides": [
+    {
+      "author": "Loredana Serpe",
+      "file": "FarmacoI-Serpe-2025-26.pdf",
+      "courseYear": "2025–26 from supplied filename; no edition printed on selected slides",
+      "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
+      "pdfPages": [
+        71,
+        198
+      ],
+      "printedSlideNumbers": [
+        69,
+        196
+      ],
+      "newlyReadPdfPages": [
+        71,
+        198
+      ],
+      "visualPagesRead": [
+        198
+      ],
+      "readMode": "Complete extracted text of both slides; slide at PDF 198 visually inspected",
+      "scope": "Variability determinants and pharmacogenetics/pharmacogenomics concepts only. Remaining slides unread except prior recorded batches.",
+      "fullDocumentRead": false
+    }
+  ],
+  "officialSources": [
+    {
+      "id": "sip-mayzent",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/mayzent-epar-product-information_en.pdf",
+      "productPage": "https://www.ema.europa.eu/en/medicines/human/EPAR/mayzent",
+      "fileUpdated": "2026-07-30",
+      "revisionDate": "Section 10 blank; no inferred text revision date",
+      "sha256": "b62239a9c4a22d1f94cd1536a5e3508a96429fc578f584f957a09a5d7c9c030b",
+      "pdfPages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        16,
+        21,
+        22,
+        23,
+        27
+      ],
+      "visualPagesRead": [
+        21
+      ],
+      "readMode": "Pages 2–5 complete web PDF text; remaining listed pages complete local extraction. Page 21 image inspected.",
+      "scope": "Selected indication/safety/interactions, mechanism and PK sections. Unlisted efficacy and annex pages not read. Extension results at opening page 21 and preclinical material page 23 not integrated.",
+      "fullDocumentRead": false,
+      "currentVersionDistinctions": [
+        "CYP2C9 contribution 79.5% qualified for extensive metabolizer *1/*1; other CYPs including CYP3A4 minor.",
+        "Moderate or strong CYP2C9 inhibitors not recommended. Old CYP3A4 contribution and interaction rules not imported.",
+        "Apparent half-life approximately 30 h is not a prediction of immunologic recovery."
+      ]
+    },
+    {
+      "id": "sip-nice",
+      "url": "https://www.nice.org.uk/guidance/ta656/resources/siponimod-for-treating-secondary-progressive-multiple-sclerosis-pdf-82609202014405",
+      "guideline": "https://www.nice.org.uk/guidance/ng220/chapter/Recommendations",
+      "updated": "NG220 2026-06-03; TA656 published and last reviewed 2020-11-18",
+      "sections": [
+        "NG220 1.8.8",
+        "TA656 final 1.1, PDF page 4"
+      ],
+      "readMode": "Official indexed recommendation text and overview metadata only",
+      "fullTextRead": false,
+      "limits": "Direct TA656 recommendations page returned 403. No full appraisal reading. Older negative consultation draft not used. PDF copyright year is not a revision date. No Italian reimbursement claim."
+    }
+  ],
+  "primaryResearch": [
+    {
+      "id": "sip-glaenzel",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29735753/",
+      "doi": "10.1124/dmd.117.079574",
+      "citation": "Glaenzel et al. Drug Metab Dispos. 2018;46(7):1001–1013",
+      "readSections": [
+        "Full indexed PubMed abstract",
+        "Indexed publisher introduction: no phosphorylation required for activation"
+      ],
+      "readMode": "Indexed official primary-source text; publisher metadata. Direct old PDF URL did not load.",
+      "fullTextRead": false,
+      "scope": "Activation distinction supported; single 10 mg radiolabeled study in four healthy men not pooled with current product PK. No full methods/results/figures reading claim."
+    }
+  ],
+  "previousSourcesReused": [
+    {
+      "manifest": "data/s1p-reading.json",
+      "sourceId": "s1p-fingolimod",
+      "scope": "Prior verified current Gilenya RCP for activation, oxidation and EU indication; not counted as newly read pages."
+    }
+  ],
+  "accessLimits": [
+    "PMC research request showed recaptcha; not bypassed. Gergely 2012 metadata and partial abstract inspected for discovery, not used as read full paper or primary support.",
+    "Only listed pages and sections read. No complete textbook, full guideline or independent clinical review claim."
+  ],
+  "publication": [
+    "Original summaries and SVG diagrams only. No PDFs, extracted source text, book figures or page images published."
+  ]
+}
