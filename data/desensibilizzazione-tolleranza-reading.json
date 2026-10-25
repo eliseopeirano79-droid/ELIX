@@ -1,0 +1,231 @@
+{
+  "chapterId": "desensibilizzazione-tolleranza",
+  "date": "2026-10-25",
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "status": "editorial_review_completed_integration_recorded",
+  "editorialReview": "./desensibilizzazione-tolleranza-review.json",
+  "note": "Registro delle letture dell’autore, seguito da controllo editoriale mirato di un secondo agente. Gli stati originari nel record autore descrivono quel momento; il rapporto separato attesta il controllo successivo. Percorsi locali omessi. Non è una revisione clinica specialistica.",
+  "originalReadingSha256": "180840c344d225ec3650f03ef6ae5bce09c43f201b705feb0ed3934bc3a4878d",
+  "authorReading": {
+    "chapterId": "desensibilizzazione-tolleranza",
+    "date": "2026-10-25",
+    "skillUsed": "pdf:pdf",
+    "method": "Poppler text extraction of bounded pages; selected pages rendered to PNG and visually inspected. Screening by headings/keyword snippets distinguished from full reading.",
+    "pageIndexConvention": "PDF indices are 1-based; printed numbers recorded only when verified. No constant offset assumed.",
+    "books": [
+      {
+        "title": "Clementi e Fumagalli, Farmacologia generale e molecolare, 4ª ed., 2012",
+        "path": "Farmacologia generale e molecolare.pdf",
+        "textPagesFullyRead": [
+          99,
+          100,
+          157,
+          164,
+          165,
+          166,
+          688,
+          689,
+          690,
+          695,
+          696,
+          703,
+          704,
+          705,
+          706
+        ],
+        "textPagesReadAsPassages": [
+          94,
+          95,
+          98
+        ],
+        "imagesInspected": [
+          95,
+          99,
+          164,
+          165,
+          692,
+          703,
+          704
+        ],
+        "screenedPageRanges": [
+          [
+            85,
+            96
+          ],
+          [
+            97,
+            104
+          ],
+          [
+            688,
+            719
+          ]
+        ],
+        "figureChecks": [
+          {
+            "figure": "13.5",
+            "pdfPage": 165,
+            "printedPage": 144,
+            "checked": "Visual: arrestin-linked internalization and signaling; not copied."
+          },
+          {
+            "figure": "54.2 and 54.3",
+            "pdfPage": 692,
+            "printedPage": 699,
+            "checked": "Visual: parent versus metabolite and prodrug activation; no numbers/doses copied."
+          },
+          {
+            "figure": "55.2 and 55.3",
+            "pdfPage": 703,
+            "printedPage": 710,
+            "checked": "Visual: metabolic modulation; not treated as universal effect for all prodrugs."
+          }
+        ],
+        "notes": [
+          "PDF 708 onward is the index, not chapter 55 narrative.",
+          "Chapter 54 printed pages differ from PDF index by a different offset than early chapters.",
+          "Table 55.4/55.5 screened visually but excluded as current drug-interaction catalogs.",
+          "Additional narrow readings of chapters 7 and 13 supplied adaptation and GRK/arrestin content missing from the originally suggested chapter 6 scope."
+        ]
+      },
+      {
+        "title": "Rang & Dale, Farmacologia, 8ª ed. italiana, 2016",
+        "path": "Rang & Dale - Farmacologia (8ª ed 2016).pdf",
+        "textPagesFullyRead": [
+          49,
+          50,
+          51,
+          78,
+          79,
+          196,
+          197,
+          219,
+          220,
+          221,
+          222,
+          223
+        ],
+        "imagesInspected": [
+          220,
+          221
+        ],
+        "screenedPageRanges": [
+          [
+            190,
+            203
+          ],
+          [
+            217,
+            232
+          ]
+        ],
+        "figureChecks": [
+          {
+            "figure": "11.1",
+            "pdfPage": 220,
+            "checked": "Visual: renal-function association; historical dataset not turned into an individual rule."
+          },
+          {
+            "figure": "11.2",
+            "pdfPage": 221,
+            "checked": "Visual: age-associated variability; no historical numeric prediction imported."
+          },
+          {
+            "figure": "2.12",
+            "pdfPage": 50,
+            "checked": "Caption and extracted text only; not visual."
+          },
+          {
+            "figure": "3.16",
+            "pdfPage": 79,
+            "checked": "Caption and extracted text only; not visual."
+          },
+          {
+            "figure": "9.5",
+            "pdfPage": 197,
+            "checked": "Caption only; not visual."
+          }
+        ],
+        "notes": [
+          "Reflowed PDF: printed-pagination equivalence not claimed.",
+          "Historical pediatric, geriatric and pregnancy prescriptions excluded."
+        ]
+      },
+      {
+        "title": "Katzung, IX edizione italiana 2014 su XII americana 2012",
+        "path": "Katsung - Farmacologia generale e clinica.pdf",
+        "textPagesFullyRead": [
+          85
+        ],
+        "imagesInspected": [
+          85
+        ],
+        "screenedPageRanges": [
+          [
+            78,
+            96
+          ]
+        ],
+        "printedPageVerified": {
+          "85": 65
+        },
+        "notes": [
+          "Used the inhibition mechanism paragraph; no historical drug tables or prescriptions imported."
+        ]
+      }
+    ],
+    "officialWebSources": [
+      {
+        "referenceId": "fda-genetica",
+        "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+        "readScope": "Consultata il 25/10/2026: About the Table e distinzione fra sezioni 1, 2 e 3; associazione genetica, evidenze su esiti e limiti alla raccomandazione automatica di test. Nessun dosaggio trasferito."
+      },
+      {
+        "referenceId": "fda-interazioni",
+        "url": "https://www.fda.gov/drugs/drug-interactions-labeling/drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers",
+        "readScope": "Consultata il 25/10/2026: evidenze in vitro/cliniche e nota della tabella 1-2 sulla dipendenza dalle condizioni del saggio. Non catalogo completo delle interazioni."
+      },
+      {
+        "referenceId": "fda-dipendenza",
+        "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-requiring-boxed-warning-updated-improve-safe-use-benzodiazepine-drug-class",
+        "readScope": "Pagina ufficiale aperta il 25/10/2026: definizione di physical dependence e rischio da associazione di depressori del SNC. Documento datato esplicitamente, senza schemi di trattamento/sospensione trasferiti."
+      },
+      {
+        "referenceId": "fda-qt",
+        "url": "https://www.fda.gov/media/161198/download",
+        "readScope": "Pagina FDA e allegato ufficiale aperti il 25/10/2026: Q16, passaggi nelle pagine PDF 18–19 (stampate 14–15), distinzione fra QT e rischio di torsade, esposizione, comorbilità e ipokaliemia. Letti questi passaggi, non l’intero documento; nessuno schema terapeutico trasferito.",
+        "textPassagesReadPdfPages": [
+          18,
+          19
+        ],
+        "imagesInspected": []
+      },
+      {
+        "referenceId": "nih-disturbo-uso",
+        "url": "https://health.nih.gov/health-topics-a-z/substance-use-disorder",
+        "readScope": "Pagina ufficiale aperta il 25/10/2026: definizione iniziale, Overview e Diagnosis; uso compulsivo o persistente nonostante danni e difficoltà a interrompere nel quadro di una valutazione complessiva. Nessun criterio diagnostico automatico, schema terapeutico o materiale di prevenzione trasferito.",
+        "passagesRead": [
+          "Definizione introduttiva",
+          "Overview: primo paragrafo",
+          "Diagnosis: definizione, criteri esemplificati e valutazione complessiva"
+        ],
+        "notUsed": "Non importate sezioni terapeutiche, numeri, criteri diagnostici automatici o raccomandazioni cliniche."
+      }
+    ],
+    "notUsedAfterAccessFailure": [
+      {
+        "url": "https://nida.nih.gov/sites/default/files/rxreportfinalprint.pdf",
+        "reason": "Direct open returned JavaScript anti-bot page. Search excerpt not used as a cited source."
+      }
+    ],
+    "auditLimits": [
+      "No claim of integral book reading.",
+      "No independent clinical review yet.",
+      "Figures checked to understand sources, not reproduced.",
+      "FDA QT allegato: letti passaggi Q16 nelle pagine PDF 18–19, non lettura integrale e non ispezione visiva."
+    ],
+    "chapterSha256": "2e60aeeef7064d1a6357da3bff89fbc134be15ed48d700667059282e268acc40",
+    "reviewProcess": "Revisione editoriale mirata fra agenti, non revisione clinica specialistica."
+  }
+}

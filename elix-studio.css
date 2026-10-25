@@ -190,3 +190,8 @@ box-shadow:0 0 55px rgba(46,215,174,.16),inset 0 0 30px rgba(97,221,176,.12)}
 @media(max-width:780px){.ex-chapter-index{padding:18px}.ex-chapter-index>h3,.ex-chapter-index>p:not(.ex-mini){display:none}.ex-toc .ex-index-list{max-height:50vh;overflow:auto}.ex-reading section{scroll-margin-top:110px}.ex-formula{font-size:14px}.ex-reading h3{font-size:19px}}
 .ex-toc .ex-index-list{max-height:55vh;overflow-y:auto}.ex-toc .ex-index-list button{font-size:12px}
 @media(max-width:780px){.ex-binding svg text{font-size:21px}.ex-toc .ex-index-list{max-height:50vh}}
+
+.ex-theory-related{display:grid;gap:12px}.ex-theory-related a{color:var(--accent);line-height:1.6;overflow-wrap:anywhere}
+
+.ex-book-layout>*{min-width:0}.ex-reading,.ex-chapter-index{overflow-wrap:anywhere}
+@media(max-width:780px){.ex-book-layout{grid-template-columns:minmax(0,1fr)}}

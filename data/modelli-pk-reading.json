@@ -1,0 +1,291 @@
+{
+  "chapterId": "modelli-pk",
+  "date": "2026-10-25",
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "status": "editorial_review_completed_integration_recorded",
+  "editorialReview": "./modelli-pk-review.json",
+  "note": "Registro delle letture dell’autore, seguito da controllo editoriale mirato di un secondo agente. Gli stati originari nel record autore descrivono quel momento; il rapporto separato attesta il controllo successivo. Percorsi locali omessi. Non è una revisione clinica specialistica.",
+  "originalReadingSha256": "59d8115b0000317078e52c1e6b6606a3a77127c8f18e5b4655550e60160fa13d",
+  "authorReading": {
+    "date": "2026-10-25",
+    "chapterId": "modelli-pk",
+    "method": "Lettura del testo completo restituito da pypdf sulle pagine elencate; ricerca di intestazioni nel layout Rang per localizzare; Poppler e ispezione delle immagini per le formule.",
+    "pdfPageNumbering": "Indice1; prima pagina del file=PDF1.",
+    "books": [
+      {
+        "id": "katzung-2014",
+        "edition": "IX italiana2014, XII americana2012",
+        "path": "Katsung - Farmacologia generale e clinica.pdf",
+        "chapter": 3,
+        "assignedPdfRange": [
+          60,
+          77
+        ],
+        "pdfPagesTextRead": [
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ],
+        "pdfPagesRenderedAndViewed": [
+          63,
+          64,
+          65,
+          66,
+          67,
+          72,
+          73
+        ],
+        "printedPagesVisuallyConfirmed": {
+          "63": 43,
+          "64": 44,
+          "65": 45,
+          "66": 46,
+          "67": 47,
+          "72": 52,
+          "73": 53
+        },
+        "pdfPagesNotReadInAssignedRange": [
+          76,
+          77
+        ],
+        "wholeChapterRead": false,
+        "notes": [
+          "PDF74 riletta dopo il troncamento del primo output.",
+          "TabellePDF61–62 lette come contesto ma non validate o importate; formule OCR controllate sulle immagini.",
+          "Nessun caso, procedura, dose o range terapeutico degli esempi trasferito."
+        ]
+      },
+      {
+        "id": "rang-2016",
+        "edition": "8ª italiana2016, originale2015",
+        "path": "Rang & Dale - Farmacologia (8ª ed 2016).pdf",
+        "chapters": [
+          8,
+          9,
+          10
+        ],
+        "assignedPdfRange": [
+          166,
+          216
+        ],
+        "pdfPagesTextRead": [
+          166,
+          167,
+          174,
+          175,
+          176,
+          183,
+          184,
+          190,
+          199,
+          200,
+          201,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216
+        ],
+        "pdfPagesScreenedByKeywordOrHeading": [
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216
+        ],
+        "screeningNote": "L’intervallo vagliato comprende anche pagine poi lette; non equivale a lettura delle pagine rimanenti.",
+        "pdfPagesRenderedAndViewed": [
+          206,
+          207,
+          208,
+          209,
+          211
+        ],
+        "printedPagesVerified": [],
+        "wholeChaptersRead": false,
+        "chapter10TextPagesRead": [
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216
+        ],
+        "allChapter10FiguresReviewed": false,
+        "notes": [
+          "Testo estratto di tutto l’intervallo del cap.10 letto, incluse note/bibliografia; non attestata revisione completa di tutte le figure.",
+          "Capitoli8–9 consultati selettivamente.",
+          "Le opere secondarie in bibliografia non sono state aperte e non sono presentate come consultate."
+        ]
+      },
+      {
+        "id": "molecolare-2012",
+        "path": "Farmacologia generale e molecolare.pdf",
+        "usedForThisChapter": false,
+        "pdfPagesTextRead": [],
+        "wholeChapterRead": false
+      }
+    ],
+    "formulaAudit": [
+      {
+        "formula": "Vd=A/Cp",
+        "status": "vista",
+        "source": "KatzungPDF63 formula1; RangPDF208 formula10.5 riscritta"
+      },
+      {
+        "formula": "CL=R_elim/Cp; R_elim=CL*Cp",
+        "status": "vista",
+        "source": "KatzungPDF64 formule2,4; RangPDF206 formula10.1"
+      },
+      {
+        "formula": "AUC_EV=D_EV/CL",
+        "status": "riarrangiamento_di_formula_vista",
+        "source": "RangPDF207 formula10.4; unità PDF216nota4"
+      },
+      {
+        "formula": "AUC_nonEV=F*D_nonEV/CL; rapporto di aree normalizzate per ricavareF",
+        "status": "derivazione_editoriale",
+        "source": "KatzungPDF66 definizioneF; RangPDF207 e211"
+      },
+      {
+        "formula": "k=CL/Vd; Cp(t)=Cp(0)*exp(-k*t)",
+        "status": "vista",
+        "source": "RangPDF208–209 formule10.6–10.7 e testo"
+      },
+      {
+        "formula": "t_half=ln(2)/k=ln(2)*Vd/CL",
+        "status": "vista_e_confrontata_dimensionalmente",
+        "source": "KatzungPDF65 formula6 e ln2; RangPDF209 valore0.693/kel",
+        "sourceAnomaly": "RangPDF209 presenta ln(2/kel) accanto a0.693/kel: scrittura ambigua non riprodotta."
+      },
+      {
+        "formula": "R_elim=Vmax*Cp/(Km+Cp)",
+        "status": "vista",
+        "source": "KatzungPDF64 formula5; limiti RangPDF213"
+      },
+      {
+        "formula": "Css=Rin/CL",
+        "status": "riarrangiamento_di_formula_vista",
+        "source": "RangPDF206 formule10.2–10.3"
+      },
+      {
+        "formula": "Cp(t)=Css*(1-exp(-k*t)) partendo dazero",
+        "status": "soluzione_editoriale_del_bilancio_lineare",
+        "source": "RangPDF209 descrive andamento e percentuali; KatzungPDF65 figura3-3 vista"
+      },
+      {
+        "formula": "Cmedia_ss=F*D/(CL*tau)",
+        "status": "derivazione_editoriale_del_bilancio_dei_flussi",
+        "source": "KatzungPDF72 formule9–11; RangPDF210"
+      },
+      {
+        "formula": "A_target=Vd*C_target; Rin_mantenimento=CL*C_target; Rnominale=Rin/F; D_mantenimento=Rnominale*tau",
+        "status": "formule_viste_riscritte_con_notazione_coerente",
+        "source": "KatzungPDF72–73 formule9–12, esempi clinici esclusi"
+      }
+    ],
+    "originality": "Sintesi originale; nessuna trascrizione estesa, figura o tabella copiata. Non è stato prodotto un nuovo asset visuale.",
+    "reviewStatus": "bozza_fontata_da_revisionare; controllo_indipendente_non_avviato",
+    "clinicalValidation": false,
+    "published": false,
+    "appEdited": false,
+    "artifacts": {
+      "chapterJsonSha256": "3ef49a16ce02a92647c93be4666deea917c595a31c6174eb657bf5e714853379",
+      "chapterTxtSha256": "e1d410fe2864fcc50352a669589a539122e1e367c170bc7c29823501bcded333",
+      "mainTextWordCount": 3081,
+      "sectionWordCounts": {
+        "pk-01": 164,
+        "pk-02": 184,
+        "pk-03": 182,
+        "pk-04": 181,
+        "pk-05": 190,
+        "pk-06": 198,
+        "pk-07": 187,
+        "pk-08": 166,
+        "pk-09": 191,
+        "pk-10": 179,
+        "pk-11": 182,
+        "pk-12": 184,
+        "pk-13": 185,
+        "pk-14": 187,
+        "pk-15": 189,
+        "pk-16": 262
+      }
+    }
+  }
+}

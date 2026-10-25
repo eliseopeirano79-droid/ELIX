@@ -1,0 +1,161 @@
+{
+  "chapterId": "modelli-pk",
+  "chapterSha256": "33db05cd7e00271481d37fe10ff63ac5df727af159a1d1817d63df4142814ab9",
+  "reviewedOn": "2026-10-25",
+  "reviewer": "dati_ufficiali",
+  "outcome": "pass",
+  "scope": "Revisione editoriale mirata fra agenti: lettura integrale del capitolo e delle domande, coerenza concettuale e dimensionale, confronto con pagine selezionate dei testi originali. Non costituisce revisione clinica specialistica o validazione scientifica indipendente.",
+  "checks": [
+    {
+      "topic": "Clearance e velocità di eliminazione",
+      "outcome": "pass",
+      "detail": "CL = R_elim/Cp ha dimensioni volume/tempo; R_elim è quantità/tempo. Le sezioni pk-09 e pk-10 mantengono la distinzione e richiedono concentrazioni coerenti per sommare le clearance."
+    },
+    {
+      "topic": "Volume apparente e riferimento alla concentrazione",
+      "outcome": "pass",
+      "detail": "Vd = A/Cp è descritto come rapporto apparente, anche superiore ai volumi anatomici. Plasma totale, frazione libera e sangue non sono intercambiati; la distribuzione iniziale e i limiti dei modelli sono espliciti."
+    },
+    {
+      "topic": "Biodisponibilità e AUC",
+      "outcome": "pass",
+      "detail": "F è la frazione immodificata sistemica e nelle equazioni è una frazione adimensionale. Le relazioni AUC_EV = D/CL e AUC_nonEV = F*D/CL sono limitate a eliminazione lineare con CL costante e AUC completa. Confronti di F richiedono dosi normalizzate e CL comparabile; AUC non è confusa con quantità o percentuale."
+    },
+    {
+      "topic": "Primo ordine, emivita e compartimenti",
+      "outcome": "pass",
+      "detail": "k = CL/Vd e t_half = ln(2)*Vd/CL sono delimitate al modello monocompartimentale lineare. La fase terminale multicompartimentale non è equiparata a un compartimento anatomico o a durata dell’effetto. La scrittura ambigua ln(2/kel) presente in Rang PDF209 non è stata riprodotta."
+    },
+    {
+      "topic": "Stato stazionario e somministrazioni ripetute",
+      "outcome": "pass",
+      "detail": "Con ingresso costante partendo da zero, dopo 4 emivite si raggiunge 93,75% e dopo 5 il 96,875% del plateau, correttamente arrotondati a circa 94–97%. Il plateau è asintotico; non coincide per definizione con massimo effetto clinico. Il regime ripetuto distingue concentrazione media da picchi e valli."
+    },
+    {
+      "topic": "Carico, mantenimento e dimensioni",
+      "outcome": "pass",
+      "detail": "A_target = Vd*C_target è esplicitamente una quantità già sistemica, non una dose nominale. Rin = CL*C_target è quantità/tempo; Rnominale = Rin/F conserva queste dimensioni; D_mantenimento = Rnominale*tau è quantità. La correzione per F e i limiti da distribuzione iniziale sono espliciti; nessuna posologia è proposta."
+    },
+    {
+      "topic": "Saturazione e condizioni di applicabilità",
+      "outcome": "pass",
+      "detail": "Vmax ha dimensioni quantità/tempo; Km e Cp sono concentrazioni. Il modello riguarda una singola via saturabile e non viene esteso a ogni via di eliminazione. Il caso Rin superiore a Vmax è delimitato al modello ideale senza altre vie."
+    },
+    {
+      "topic": "Funzione renale e dati storici",
+      "outcome": "pass",
+      "detail": "Il testo distingue filtrazione, secrezione e riassorbimento e non equipara eGFR alla clearance di un medicinale. Non trasferisce dosi o concentrazioni terapeutiche storiche dai testi come guida attuale."
+    },
+    {
+      "topic": "Tracciabilità editoriale",
+      "outcome": "pass",
+      "detail": "Tutte le 16 sezioni hanno riferimenti presenti nel registro; esaminati anche gli 8 quesiti e le relative risposte. Le letture dell’autore e le mie riletture selettive non sono presentate come lettura integrale dei libri."
+    }
+  ],
+  "sourceChecks": [
+    {
+      "book": "Katzung, Masters, Trevor — Farmacologia generale e clinica, IX ed. italiana 2014 (XII americana 2012), cap. 3",
+      "sourcePath": "Katsung - Farmacologia generale e clinica.pdf",
+      "pdfPagesTextReread": [
+        63,
+        64,
+        65,
+        66,
+        72,
+        73
+      ],
+      "pdfPagesRenderedAndViewed": [
+        63,
+        64,
+        65,
+        66,
+        72,
+        73
+      ],
+      "printedPageMapping": {
+        "63": 43,
+        "64": 44,
+        "65": 45,
+        "66": 46,
+        "72": 52,
+        "73": 53
+      },
+      "checkedPoints": [
+        "Vd e formula 1; CL e formule 2–5",
+        "Emivita e formula 6; accumulo; distinzione da effetto clinico",
+        "Biodisponibilità e figura 3-4: entità rispetto a velocità di ingresso",
+        "Mantenimento e correzione per F, formule 9–11",
+        "Carico e formula 12; figura 3-6: media, picchi e valli"
+      ],
+      "imagesDirectory": "pharma-pk-editorial-review",
+      "limits": "Le tabelle e gli esempi con dosi medicinali reali non sono stati recepiti come indicazioni terapeutiche. La formulazione della didascalia storica 3-3 sul massimo effetto non è stata generalizzata."
+    },
+    {
+      "book": "Rang & Dale — Farmacologia, 8ª ed. italiana 2016, cap. 10",
+      "sourcePath": "Rang & Dale - Farmacologia (8ª ed 2016).pdf",
+      "pdfPagesTextReread": [
+        206,
+        207,
+        208,
+        209
+      ],
+      "pdfPagesRenderedAndViewed": [
+        207,
+        209
+      ],
+      "printedPageMapping": null,
+      "checkedPoints": [
+        "Definizione CL e bilancio dell’infusione",
+        "Figura 10.1 e formula 10.4 CL=Q/AUC dopo bolo EV",
+        "Modello monocompartimentale, Vd apparente e decadimento",
+        "Figura 10.3; emivita e 94/97% del plateau",
+        "Confronto della notazione ambigua ln(2/kel) con 0.693/kel sulla stessa pagina e Katzung formula 6"
+      ],
+      "imagesDirectory": "pharma-pk-editorial-review",
+      "limits": "Il PDF è reimpaginato: non assegno numeri di pagina stampata. Sono state viste solo le due pagine di figure indicate, non tutte le figure del capitolo."
+    }
+  ],
+  "issues": [],
+  "limits": [
+    "La verifica editoriale non sostituisce un revisore clinico specialista e non autorizza impiego prescrittivo.",
+    "Rilettura selettiva delle pagine indicate, non controllo integrale dei due libri, di ogni riferimento o di tutte le figure.",
+    "Non ho collaudato un simulatore né un percorso dell’app: questo esito riguarda soltanto il capitolo congelato identificato dall’hash.",
+    "Non è una ricognizione di linee guida aggiornate o raccomandazioni terapeutiche; il testo mantiene perimetro teorico."
+  ],
+  "chapterFilesModified": false,
+  "reviewHistory": [
+    {
+      "chapterSha256": "3ef49a16ce02a92647c93be4666deea917c595a31c6174eb657bf5e714853379",
+      "outcome": "pass",
+      "detail": "Controllo editoriale completo descritto nel presente rapporto; unica nota non bloccante: due spazi nel quesito 6."
+    },
+    {
+      "chapterSha256": "33db05cd7e00271481d37fe10ff63ac5df727af159a1d1817d63df4142814ab9",
+      "outcome": "pass",
+      "detail": "Confronto finale: le sole differenze sono l’inserimento dei due spazi nel quesito 6. Eliminando esclusivamente questi spazi dal nuovo file si ricostruisce byte per byte il contenuto con hash della prima revisione. Nessuna variazione concettuale."
+    }
+  ],
+  "resolvedNonBlockingNotes": [
+    {
+      "location": "checks[5].answer",
+      "detail": "Due spazi tipografici mancanti in «raggiunge1−» e «cioè93,75%». Non alterano contenuto né esito; possono essere corretti durante l’impaginazione."
+    }
+  ],
+  "nonBlockingNotes": [],
+  "postReviewChanges": {
+    "location": "checks[5].answer",
+    "changes": [
+      {
+        "before": "raggiunge1−",
+        "after": "raggiunge 1−"
+      },
+      {
+        "before": "cioè93,75%",
+        "after": "cioè 93,75%"
+      }
+    ],
+    "comparisonMethod": "Ricostruzione inversa dei soli due spazi e verifica SHA256 della versione originale.",
+    "sourceRereadRepeated": false,
+    "reason": "Nessun cambiamento concettuale o di fonti; la revisione precedente resta applicabile."
+  }
+}
