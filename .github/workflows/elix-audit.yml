@@ -56,6 +56,8 @@ jobs:
           PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-s1p-drugs.cjs
           PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-siponimod.cjs
           PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-siponimod-drugs.cjs
+          PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-ozanimod.cjs
+          PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-ozanimod-drugs.cjs
           PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-update-banner.cjs
           python3 -c 'import json; assert json.load(open("/tmp/elix-audit/update-banner-report.json"))["passed"] is True'
           PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-eli-release.cjs

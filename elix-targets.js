@@ -473,5 +473,22 @@ export const ADDITIONAL_TARGETS = {
     ],
     "source": "https://www.ema.europa.eu/en/documents/product-information/mayzent-epar-product-information_en.pdf",
     "reference": "Mayzent, RCP EMA, file aggiornato 30/07/2026; §§ 4.2–4.5 e 5.2"
+  },
+  "S1PR5": {
+    "id": "S1PR5",
+    "name": "S1P₅ · recettore della sfingosina-1-fosfato",
+    "kind": "GPCR · recettore di membrana",
+    "tissue": "Espresso nel sistema nervoso, in particolare nella sostanza bianca, e in tessuti periferici, inclusi leucociti",
+    "signal": [
+      "Sfingosina-1-fosfato (S1P)",
+      "Legame al recettore S1P₅",
+      "Segnalazione attraverso proteine G",
+      "Risposta dipendente dal contesto cellulare"
+    ],
+    "mechanism": "S1P₅ è un recettore di membrana della famiglia S1P. Ozanimod e i suoi principali metaboliti attivi condividono attività e selettività per S1P₁/S1P₅ in vitro. Il legame a S1P₅ va distinto dalla regolazione del traffico linfocitario via S1P₁ e non dimostra da solo il meccanismo completo del beneficio clinico.",
+    "insight": "L’espressione nel sistema nervoso non prova rimielinizzazione nell’uomo. Le annotazioni UniProt di accoppiamento a specifiche proteine G includono evidenze per omologia: qui non vengono trasformate in esperimenti clinici o in un modello atomico.",
+    "chapter": "metabolismo-trasportatori",
+    "source": "https://www.uniprot.org/uniprotkb/Q9H228/entry",
+    "reference": "UniProtKB Q9H228, identità, localizzazione ed espressione; consultato 24/10/2026. Farmacologia di ozanimod: RCP EMA nel laboratorio."
   }
 };
