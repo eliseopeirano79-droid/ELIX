@@ -4,7 +4,7 @@ export const EXPANDED_CHAPTERS=[
 {
   "id": "vescica-autonomo",
   "volume": 5,
-  "title": "Vescica: controllo autonomo e mirabegron",
+  "title": "Vescica: controllo autonomo e agonisti β₃",
   "lead": "Riempimento, minzione e trattamento dei sintomi sono livelli collegati ma distinti.",
   "sections": [
     {
@@ -24,18 +24,31 @@ export const EXPANDED_CHAPTERS=[
       "text": "Biodisponibilità, legame proteico e radioattività recuperata rispondono a domande differenti. Nel profilo del mirabegron il recupero urinario del materiale radiomarcato è distinto dalla quota di parentale nella radioattività urinaria. Non trasformare percentuali con denominatori diversi in una singola misura di eliminazione."
     },
     {
+      "title": "Vibegron: una seconda scheda sullo stesso bersaglio",
+      "text": "Obgemsa UE è indicato nell’adulto con vescica iperattiva. NICE TA999 lo propone quando gli antimuscarinici non sono adatti, insufficienti o non tollerati. Il RCP richiama ritenzione urinaria e interazioni con digossina/P-gp: il bersaglio β₃ comune non trasferisce tutte le precauzioni da un prodotto all’altro."
+    },
+    {
+      "title": "Due emivite e una lacuna esplicita",
+      "text": "Il RCP Obgemsa distingue emivita effettiva di circa 31 ore ed emivita terminale di 59–94 ore. La cinetica multicompartimentale non si ricostruisce con un solo tempo. Il recupero del 59% della dose radiomarcata nelle feci e del 20% nelle urine dopo 100 mg non misura la biodisponibilità assoluta, che il documento non quantifica. Katzung IX italiana 2014, PDF 65–66 (stampate 45–46), fornisce il quadro generale su emivita, accumulo e biodisponibilità; PDF 65 osservato anche visivamente. Nessuna curva del testo è riprodotta."
+    },
+    {
+      "title": "Fonti del collegamento a vibegron",
+      "text": "RCP EMA Obgemsa, file 08/07/2025, §§ 4.1–4.6, 4.8 e 5.1–5.2, pagine selezionate; NICE TA999 del 04/09/2024, raccomandazioni 1.1–1.3 lette come testo della pubblicazione NICE archiviata in NCBI e indicizzata. Consultazione 25/10/2026. Nessuna analisi economica autonoma o revisione clinica indipendente; dettagli in data/vibegron-reading.json."
+    },
+    {
       "title": "Letture e limiti",
       "text": "Katzung, IX edizione italiana 2014 sulla XII americana 2012: PDF 168–169 e 178–179 (stampate 148–149 e 158–159); PDF 179 letto anche visivamente. RCP Betmiga corrente, file EMA 27/08/2025, pagine selezionate; EAU §§ 4.1.4.b.2–4.1.4.b.2.a e 4.1.5.a, NICE TA290 §§ 1.1–1.2 consultati il 25/10/2026 tramite estratti ufficiali indicizzati. Edizione EAU 2026 ristampa 2025. Sono sintesi originali con letture parziali."
     }
   ],
   "drugs": [
-    "mirabegron"
+    "mirabegron",
+    "vibegron"
   ],
   "targets": [
     "ADRB3",
     "CHRM3"
   ],
-  "review": "Sintesi didattica selettiva; letture, edizioni e limiti registrati in data/mirabegron-reading.json. Non revisione clinica indipendente."
+  "review": "Sintesi didattica selettiva; letture, edizioni e limiti registrati in data/mirabegron-reading.json e data/vibegron-reading.json. Non revisione clinica indipendente."
 },
   {
     "id": "dalla-molecola-al-medicinale",

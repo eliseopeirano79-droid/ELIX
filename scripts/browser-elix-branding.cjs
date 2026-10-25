@@ -43,7 +43,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
    const rows=Map.groupBy(header.links,x=>Math.round(x.top));for(const row of rows.values()){const left=Math.min(...row.map(x=>x.left)),right=Math.max(...row.map(x=>x.right));assert.ok(Math.abs((left+right-header.nav.left-header.nav.right)/2)<2,'Every selector row is centered inside its frame');}
    for(const a of [header.brand,header.actions,header.credit])assert.ok(a.right<=header.nav.left||a.left>=header.nav.right||a.bottom<=header.nav.top||a.top>=header.nav.bottom,'Navigation does not overlap the logo or controls');
    assert.match(await page.locator('.header-credit').innerText(),/^App made by Eliseo Peirano · 2026$/);
-   assert.deepEqual(await page.locator('.eli-coverage dd').allTextContents(),['4.225','98','68','93']);
+   assert.deepEqual(await page.locator('.eli-coverage dd').allTextContents(),['4.225','99','69','93']);
    await page.screenshot({path:out+`/ELIX-${width}-${theme}.png`,fullPage:true});
    if([1440,390].includes(width))await page.screenshot({path:out+`/ELIX-header-${width}-${theme}.png`});
    for(const route of ['atlas','receptors','textbook','quiz','pk','cinema/ADRB2']){await page.goto(base+'#/'+route);await page.waitForSelector('.content h1');assert.doesNotMatch(await page.locator('body').innerText(),/\beli\b/i);assert.match(await page.title(),/ELIX/);}
@@ -64,7 +64,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
   assert.ok(await tab.evaluate(async()=>!!await caches.match('/unrelated')),'Unrelated app cache preserved');
   await context.setOffline(true);await tab.reload();await tab.waitForSelector('.eli-coverage dd');assert.ok(tab.url().includes('/PHARMA/'));assert.match(await tab.locator('.header-brand').innerText(),/ELIX/);
   await context.setOffline(false);down=false;await tab.goto(origin+'/ELIX/#/home');await tab.waitForSelector('.eli-coverage dd');
-  await context.setOffline(true);await tab.reload();await tab.waitForSelector('.eli-coverage dd');assert.deepEqual(await tab.locator('.eli-coverage dd').allTextContents(),['4.225','98','68','93']);
+  await context.setOffline(true);await tab.reload();await tab.waitForSelector('.eli-coverage dd');assert.deepEqual(await tab.locator('.eli-coverage dd').allTextContents(),['4.225','99','69','93']);
   assert.ok(await tab.evaluate(async()=>!!await caches.match('/unrelated')));
   await context.close();assert.deepEqual(errors,[]);
   const report={passed:true,base,matrix,upgradeFromPreviousRelease:upgrade,sourceImageSHA256:require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join(root,'assets/elix-reference.png'))).digest('hex'),routes:6,redirects:['PHARMA','eli'],queryAndHashPreserved:true,storagePreserved:true,failedTargetFallback:true,offlineCanonical:true,offlineLegacy:true,unrelatedCachePreserved:true,errors};
