@@ -1,0 +1,120 @@
+{
+  "batch": "mirabegron-bladder",
+  "checkedAt": "2026-10-25",
+  "books": [
+    {
+      "title": "Katzung, Farmacologia generale e clinica",
+      "edition": "IX italiana, Piccin 2014, condotta sulla XII americana (2012)",
+      "file": "Katsung - Farmacologia generale e clinica.pdf",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "editionEvidencePdfPages": [
+        2,
+        3
+      ],
+      "editionEvidenceMode": "Front matter text and saved page images inspected; ISBN 978-88-299-2651-0",
+      "chapter": 9,
+      "pdfPages": [
+        168,
+        169,
+        178,
+        179
+      ],
+      "printedPages": [
+        148,
+        149,
+        158,
+        159
+      ],
+      "visualPagesRead": [
+        179
+      ],
+      "readMode": "Complete extracted text of all four listed pages; PDF179 visually inspected",
+      "scope": "Beta-adrenoceptor canonical signalling, relative selectivity and Italian editorial note on mirabegron. Other adrenergic drugs and historical regulatory statements on these pages not integrated as current recommendations. All remaining pages unread in this batch; prior readings remain separately recorded.",
+      "fullBookRead": false
+    }
+  ],
+  "slides": [],
+  "navigationOnly": [
+    {
+      "file": "FarmacoI-Collino-2025-26.pdf",
+      "mode": "Text searched for mirabegron/detrusor/bladder; short hits at PDF261,273,277,282 are navigation only, not page readings or integrated content. No new slide-reading claim."
+    }
+  ],
+  "officialSources": [
+    {
+      "id": "mir-betmiga",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/betmiga-epar-product-information_en.pdf",
+      "productPage": "https://www.ema.europa.eu/en/medicines/human/EPAR/betmiga",
+      "fileUpdated": "2025-08-27",
+      "latestProcedure": "VR/0000249016, 2025-07-17; distinct from file date",
+      "revisionDate": "Section10 contains no date; not inferred",
+      "sha256": "558bb9d8a6fe7ed39b4c0f0949d9a92ad4ac9abd83d84e765873084c7eafe957",
+      "documentPages": 87,
+      "pdfPages": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "visualPagesRead": [
+        22
+      ],
+      "readMode": "Complete local extracted text of each listed page; PDF22 image inspected. Product-page metadata checked online.",
+      "scope": "Adult tablet indication, selected risks/interactions, mechanism and PK. Pediatric efficacy tables on19–20 and trial text21 read but not used for efficacy predictions or dosing; separate NDO indication distinguished from unestablished pediatric OAB use. Unlisted pages and remaining annexes unread.",
+      "fullDocumentRead": false,
+      "keyDistinctions": [
+        "Adult OAB and pediatric NDO are distinct indications; no adult PK transfer to pediatric suspension.",
+        "Bioavailability29% at25mg and35% at50mg; dose-dependent exposure.",
+        "Terminal half-life50h is not a dosing interval or stopping rule.",
+        "71% is protein binding.",
+        "Two principal circulating glucuronides pharmacologically inactive.",
+        "55% urinary/34% faecal radiolabel recovery after160mg is not the unchanged parent fraction.",
+        "45% parent refers to urinary radioactivity, not administered dose.",
+        "Moderate CYP2D6 inhibition can matter despite limited CYP2D6 contribution to overall elimination."
+      ]
+    },
+    {
+      "id": "mir-eau",
+      "url": "https://uroweb.org/guidelines/non-neurogenic-female-luts/chapter/disease-management",
+      "edition": "2026 reprint of2025 with minor formatting updates",
+      "editionSource": "https://uroweb.org/guidelines/non-neurogenic-female-luts/summary-of-changes/2026",
+      "sections": [
+        "4.1.4.b.2",
+        "4.1.4.b.2.a",
+        "4.1.5.a"
+      ],
+      "readMode": "Official indexed excerpts including beta3 recommendations and early follow-up; edition statement read on official summary-of-changes",
+      "scope": "Women with non-neurogenic LUTS/OAB; beta3 after unsuccessful conservative management. Do not apply as universal treatment algorithm. Other sections of the long result not claimed fully reviewed.",
+      "fullTextRead": false
+    },
+    {
+      "id": "mir-nice",
+      "url": "https://www.nice.org.uk/guidance/ta290/resources/mirabegron-for-treating-symptoms-of-overactive-bladder-pdf-82600726672069",
+      "published": "2013-06-26",
+      "pdfPages": [
+        4
+      ],
+      "sections": [
+        "1.1",
+        "1.2"
+      ],
+      "readMode": "Complete official indexed recommendations. Direct HTML returned403; no access workaround. Overview date read.",
+      "scope": "UK appraisal recommendation and continuity clause; copyright2025 not a revision date. No full appraisal/evidence review or Italian reimbursement claim.",
+      "fullTextRead": false
+    }
+  ],
+  "publication": [
+    "Original summaries and native SVG only; no book/slide/source PDF or figures published.",
+    "Three qualitative states, no dose, occupancy, bladder pressure, capacity or residual urine simulation."
+  ]
+}

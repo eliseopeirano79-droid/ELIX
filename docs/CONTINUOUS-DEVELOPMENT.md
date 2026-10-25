@@ -4,9 +4,9 @@ Procedere con un solo lotto alla volta. Riprendere il lavoro incompleto prima di
 
 ## Consegna corrente
 
-Lotto `ponesimod-selectivity`, versione 0.24.0: laboratorio originale in tre viste su selettività, linfociti e precauzioni cardiache. Una sintesi e un contesto PK orale UE per l’identità ponesimod già presente, sei campi documentati; nessun duplicato. Il selettore dei laboratori S1PR1 e il collegamento diretto al tema ponesimod conservano il precedente laboratorio fingolimod. Capitolo curve recettoriali ampliato; letture effettive in `data/ponesimod-reading.json`.
+Lotto `mirabegron-bladder`, versione 0.25.0: laboratorio originale in tre viste su riempimento, minzione e mirabegron; nuovo profilo ADRB3 e capitolo sul controllo autonomo della vescica. Una sintesi e un contesto PK orale UE nell’adulto per l’identità mirabegron già presente, sei campi documentati; nessun duplicato. Letture effettive in `data/mirabegron-reading.json`.
 
-Il precedente lotto 0.23.0 è pubblicato e verificato al commit `528f10eba5960c1d2f4e86f6540ffda90fc2a941`; non ripeterlo.
+Il precedente lotto 0.24.0 è pubblicato e verificato al commit `df7cd8bd00b6133b0661edb18f9dec1924f0068d`; non ripeterlo.
 
 Il checkpoint è preparato prima della pubblicazione. La ricevuta in `../../outputs/ELIX-latest-verification.json` prevale solo quando batch e versione coincidono e certifica deploy e verifica online conclusi. Se non coincide, completare gli elementi residui del checkpoint.
 
@@ -21,4 +21,4 @@ Il checkpoint è preparato prima della pubblicazione. La ricevuta in `../../outp
 
 ## Coda dopo questo lotto
 
-Solo dopo pubblicazione e verifica: Mirabegron CHEMBL2095212: identità presente ma sintesi e PK assenti al 25/10/2026; profilo ADRB3 non ancora presente. Verificare RCP UE corrente e linee guida per vescica iperattiva, collegare β3 e fisiologia del detrusore con una grafica originale. Selezionare un intervallo pertinente di Katzung, verificandone prima edizione e pagine. Avviare nel ciclo successivo alla consegna 0.24 pubblicata e verificata.
+Vibegron CHEMBL2107826: identità presente, sintesi e PK assenti al 25/10/2026. Verificare RCP UE corrente e raccomandazioni prima di confrontare i due agonisti β3; nessuna equivalenza automatica di interazioni o formulazioni. Proseguire letture per intervalli limitati registrate. Avviare solo nel ciclo successivo alla consegna 0.25 pubblicata e verificata.
