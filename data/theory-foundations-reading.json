@@ -1,0 +1,231 @@
+{
+  "batch": "theory-foundations",
+  "checkedAt": "2026-10-25",
+  "fullCorpusRead": false,
+  "clinicalReview": "Not independently clinically reviewed",
+  "sources": [
+    {
+      "id": "K",
+      "title": "Katzung, Farmacologia generale e clinica",
+      "edition": "IX italiana, Piccin2014; XII americana2012",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "totalPdfPages": 1579,
+      "textPagesRead": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        54,
+        55
+      ],
+      "visualPagesRead": [
+        37,
+        40,
+        54,
+        55
+      ],
+      "printedPages": {
+        "35-42": "15-22",
+        "54": "32, anomalous sequence in supplied scan",
+        "55": "35"
+      },
+      "usedForChapter": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        54,
+        55
+      ],
+      "navigationOnly": "Search snippets in PDF50–57; other pages of this interval not fully read.",
+      "scope": "Mechanisms, equations, response curves and their limitations. Historical treatment examples not imported.",
+      "fullBookRead": false
+    },
+    {
+      "id": "S",
+      "title": "Farmacologia I Definitivo.pdf",
+      "edition": "AA2025–26, combined course transcript; pharmacodynamics lesson Serpe10/10/2025",
+      "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+      "totalPdfPages": 344,
+      "textPagesRead": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "printedPages": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "visualPagesRead": [
+        74
+      ],
+      "navigationOnly": "Cover text and index snippets PDF1–5; not full study of those pages.",
+      "fullDocumentRead": false,
+      "scope": "One20-page pharmacodynamics lesson read as text. No claim to other lessons, FarmacoII, Collino or D’Avolio."
+    },
+    {
+      "id": "SL",
+      "title": "FarmacoI-Serpe-2025-26.pdf",
+      "edition": "2025–26",
+      "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
+      "textPagesRead": [
+        125,
+        126,
+        130
+      ],
+      "printedSlides": [
+        123,
+        124,
+        128
+      ],
+      "visualPagesRead": [],
+      "fullDocumentRead": false
+    }
+  ],
+  "recoveredDrafts": [
+    {
+      "id": "T02",
+      "date": "2026-10-20",
+      "sha256": "54574439949faef2fd9592d69f9e6688ed526659c2d75f38a250df8c19f3da2e",
+      "originalWords": 724,
+      "review": "Previous editorial source audit verified, not clinical review or current review of all new prose",
+      "previousReading": {
+        "Clementi-Fumagalli4ed2012": [
+          71,
+          72,
+          73,
+          75,
+          76,
+          77,
+          81
+        ],
+        "Rang8ed2016": [
+          37,
+          38,
+          39,
+          43,
+          44,
+          51,
+          52,
+          53
+        ]
+      },
+      "rereadTheseBooksThisBatch": false
+    },
+    {
+      "id": "T03",
+      "status": "Draft recovered; Katzung41–42 reread for new original chapter, no claim of completed independent T03 review"
+    }
+  ],
+  "officialSources": [
+    {
+      "id": "EMA",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kineret",
+      "read": "How does Kineret work?",
+      "purpose": "Anakinra receptor antagonist vs decoy correction; no new indications or doses",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "IUPHAR",
+      "url": "https://pharmacologyeducation.org/glossary/",
+      "read": [
+        "affinity",
+        "agonist",
+        "allosteric modulator",
+        "IC50",
+        "KB",
+        "Kd",
+        "Ki",
+        "therapeutic index"
+      ],
+      "purpose": "Terminology cross-check, not all entries or an entire guideline",
+      "checkedAt": "2026-10-25"
+    }
+  ],
+  "sourceReconciliation": [
+    {
+      "page": "S PDF74/printed69",
+      "issue": "Prose reverses association/dissociation ratio; its figure has correct ratio.",
+      "resolution": "Kd=k_off/k_on; checked image and recovered audited T02."
+    },
+    {
+      "page": "S PDF72/printed67",
+      "issue": "Anakinra described as decoy receptor.",
+      "resolution": "Corrected using current EMA mechanism; only receptor antagonism described."
+    },
+    {
+      "page": "S PDF75,78",
+      "issue": "Occupancy/effect and allosteric/noncompetitive simplifications.",
+      "resolution": "State model assumptions and separate site, reversibility, efficacy and reserve."
+    },
+    {
+      "page": "S PDF81–83",
+      "issue": "Potency/safety conflation and LD50/TD50 confusion.",
+      "resolution": "Separate potency, maximum effect, specified toxicity and lethality; Katzung54–55 cross-check."
+    },
+    {
+      "page": "S PDF85–86",
+      "issue": "Tolerance examples and treatment assertions not sufficiently supported.",
+      "resolution": "Not imported as clinical advice. Future dedicated adaptation chapter needs further reading."
+    }
+  ],
+  "remaining": [
+    "All books are partial readings;3401 available PDF pages are not3401 reviewed pages.",
+    "FarmacoI remaining lessons and full slide reconciliation, including Collino.",
+    "FarmacoII slide and transcript inventory, deduplication and topic-by-topic reading, including D’Avolio/Collino/Serpe.",
+    "Independent specialist review; remaining54 short theory units need expansion.",
+    "Rang chapter2/7 and Clementi chapter5 comparison beyond recovered T02 intervals."
+  ],
+  "newContent": {
+    "expandedChapter": "recettori-e-legame",
+    "sections": 13,
+    "mainTextWords": 2356,
+    "selfChecks": 4,
+    "interactiveBindingModels": 1,
+    "newIdentities": 0,
+    "newSummaries": 0,
+    "newPKProfiles": 0
+  }
+}

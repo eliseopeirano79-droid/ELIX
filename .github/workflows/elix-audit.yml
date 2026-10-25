@@ -64,6 +64,7 @@ jobs:
           PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-mirabegron-drugs.cjs
           PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-vibegron.cjs
           PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-vibegron-drugs.cjs
+          PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-theory-foundations.cjs
           PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-solifenacin.cjs
           PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-solifenacin-drugs.cjs
           PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-update-banner.cjs
