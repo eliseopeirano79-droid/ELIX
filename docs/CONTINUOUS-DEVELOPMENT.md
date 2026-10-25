@@ -4,9 +4,9 @@ Procedere con un solo lotto alla volta. Riprendere il lavoro incompleto prima di
 
 ## Consegna corrente
 
-Lotto `vibegron-kinetics`, versione 0.26.0: laboratorio originale in tre viste su bersaglio β₃, emivita effettiva/terminale e recupero della radioattività. Una sintesi e un profilo PK per vibegron già presente: cinque campi documentati e una lacuna esplicita sulla biodisponibilità assoluta. Nessuna nuova identità o nuovo bersaglio. Capitolo sulla vescica ampliato; letture in `data/vibegron-reading.json`.
+Lotto `solifenacin-muscarinic`, versione 0.27.0: laboratorio originale in tre viste su segnale dell’acetilcolina, antagonismo competitivo M₃ e altri tessuti. Una sintesi e un profilo PK per solifenacina già presente: sei campi documentati, parentale e sale succinato distinti. Nessuna nuova identità o nuovo bersaglio. Il percorso M₃ delle vie aeree resta disponibile. Capitolo sulla vescica ampliato; letture in `data/solifenacin-reading.json`.
 
-Il precedente lotto 0.25.0 è pubblicato e verificato al commit `33f7033216a46d44f047fb123c5a19e0472eb705`; non ripeterlo.
+Il precedente lotto 0.26.0 è pubblicato e verificato al commit `c94642328f8d604cbc8431c89504c3fac00bd422`; non ripeterlo.
 
 Il checkpoint è preparato prima della pubblicazione. La ricevuta in `../../outputs/ELIX-latest-verification.json` prevale solo quando batch e versione coincidono e certifica deploy e verifica online conclusi. Se non coincide, completare gli elementi residui del checkpoint.
 
@@ -21,4 +21,4 @@ Il checkpoint è preparato prima della pubblicazione. La ricevuta in `../../outp
 
 ## Coda dopo questo lotto
 
-Solifenacina CHEMBL1734: identità presente, sintesi e PK assenti al 25/10/2026. Verificare RCP corrente e linee guida prima di collegare antagonismo muscarinico, vescica e rischi; distinguere parentale, sale e formulazioni. Proseguire letture per intervalli registrati. Avviare solo nel ciclo successivo alla consegna 0.26 pubblicata e verificata.
+Tolterodina CHEMBL1382: identità presente, sintesi e PK assenti al 25/10/2026; sale tartrato CHEMBL1722209 distinto. Verificare RCP corrente e linee guida, formulazione immediata/prolungata e parentale/metabolita prima di integrare. Leggere i testi per intervalli registrati. Avviare solo nel ciclo successivo alla consegna 0.27 pubblicata e verificata.

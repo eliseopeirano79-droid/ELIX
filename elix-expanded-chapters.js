@@ -4,9 +4,13 @@ export const EXPANDED_CHAPTERS=[
 {
   "id": "vescica-autonomo",
   "volume": 5,
-  "title": "Vescica: controllo autonomo e agonisti β₃",
+  "title": "Vescica: controllo autonomo, β₃ e muscarinici",
   "lead": "Riempimento, minzione e trattamento dei sintomi sono livelli collegati ma distinti.",
   "sections": [
+    {"title": "Solifenacina: attenuare il segnale colinergico", "text": "L’acetilcolina promuove la contrazione del detrusore, soprattutto attraverso M₃. Solifenacina è un antagonista competitivo muscarinico: occupazione del recettore e distruzione del recettore sono fenomeni diversi. Il laboratorio mostra tre viste qualitative, senza stimare occupazione, dose o beneficio individuale."},
+    {"title": "Un bersaglio non identifica un solo organo", "text": "La preferenza per M₃ non rende l’azione esclusiva della vescica. Secchezza orale, stipsi e visione offuscata collegano gli effetti antimuscarinici a secrezioni, motilità e accomodazione. EAU 2026 considera gli anticolinergici nelle donne con OAB dopo insuccesso conservativo, con decisione condivisa e rivalutazione precoce; nell’anziano richiama carico anticolinergico e cautela a lungo termine. Non è una misura individuale del rischio cognitivo."},
+    {"title": "Sale, parentale e metaboliti della solifenacina", "text": "Vesitirim 10 mg contiene 10 mg di solifenacina succinato, equivalenti a 7,5 mg di solifenacina: la distinzione descrive la composizione, non una conversione prescrittiva. Il profilo adulto orale riporta emivita terminale 45–68 ore, biodisponibilità circa 90% e legame proteico circa 98%. Il recupero di radioattività nelle urine e nelle feci include parentale e metaboliti e non quantifica da solo l’eliminazione renale del farmaco immodificato."},
+    {"title": "Letture per il percorso muscarinico", "text": "Katzung IX italiana 2014, capitolo 8, PDF 157–158 (stampate 137–138); PDF 158 anche visivo. Slide Serpe 2025–26, PDF 136 e 138 (numerate 134 e 136), PDF 138 anche visivo: antagonismo competitivo reversibile, senza riproduzione delle figure. RCP irlandese Vesitirim 10 mg, tutte le 11 pagine lette in testo, PDF 9 anche visivo: §10 dicembre 2022 distinto dall’aggiornamento della pagina del 25/09/2026. EAU 2026 §§ 4.1.4.b.1.d e 4.1.4.b.3.a–c; dettagli e limiti in data/solifenacin-reading.json. Non è una revisione clinica indipendente."},
     {
       "title": "Un muscolo, due compiti",
       "text": "Il detrusore deve accogliere l’urina e poi contribuire alla sua espulsione. Nel riempimento il segnale simpatico favorisce il rilassamento; la minzione richiede il controllo parasimpatico e la coordinazione con le vie di uscita. Il laboratorio isola il muscolo e non ricostruisce l’intero circuito neurologico."
@@ -42,7 +46,8 @@ export const EXPANDED_CHAPTERS=[
   ],
   "drugs": [
     "mirabegron",
-    "vibegron"
+    "vibegron",
+    "solifenacina"
   ],
   "targets": [
     "ADRB3",

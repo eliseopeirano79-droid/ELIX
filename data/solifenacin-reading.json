@@ -1,0 +1,115 @@
+{
+  "batch": "solifenacin-muscarinic",
+  "checkedAt": "2026-10-25",
+  "books": [
+    {
+      "title": "Katzung, Farmacologia generale e clinica",
+      "edition": "IX italiana, Piccin 2014, condotta sulla XII americana (2012)",
+      "file": "Katsung - Farmacologia generale e clinica.pdf",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "editionEvidencePdfPages": [
+        2,
+        3
+      ],
+      "editionEvidenceMode": "Previously verified in mirabegron-reading.json; not reread this batch.",
+      "chapter": 8,
+      "pdfPages": [
+        157,
+        158
+      ],
+      "printedPages": [
+        137,
+        138
+      ],
+      "visualPagesRead": [
+        158
+      ],
+      "readMode": "Complete extracted text of both pages; PDF158 also visually inspected.",
+      "scope": "Urinary muscarinic signalling, relative selectivity and antagonism. Historical regulatory statements, poisoning treatments and doses not imported; current RCP governs product claims. All other pages unread this batch.",
+      "fullBookRead": false
+    }
+  ],
+  "slides": [
+    {
+      "title": "Farmacologia I · Loredana Serpe",
+      "file": "FarmacoI-Serpe-2025-26.pdf",
+      "edition": "Course year 2025–26 from supplied filename; no further edition inferred.",
+      "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
+      "pdfPages": [
+        136,
+        138
+      ],
+      "printedSlides": [
+        134,
+        136
+      ],
+      "visualPagesRead": [
+        138
+      ],
+      "readMode": "Complete extracted text of both pages; PDF138 also visually inspected.",
+      "scope": "Competitive reversible antagonism and qualitative response. No copied curve or inferred dose/EC50; the simplified noncompetitive/allosteric statement on136 is not generalized.",
+      "fullDocumentRead": false
+    }
+  ],
+  "navigationOnly": [
+    "Katzung search hits162–163 not read; slide search hits139,140,142,143 not read.",
+    "UK Vesicare and HPRA pages consulted for navigation; not the source of this Irish product PK profile."
+  ],
+  "officialSources": [
+    {
+      "id": "sol-vesitirim",
+      "url": "https://medicines.ie/medicines/vesitirim-10-mg-film-coated-tablet~A0000331/spc",
+      "downloadUrl": "https://medicines.ie/medicines/vesitirim-10-mg-film-coated-tablet~A0000331/document/spc/025264/file?download=1",
+      "licence": "PA1241/009/002",
+      "jurisdiction": "Ireland",
+      "pageUpdated": "2026-09-25",
+      "revisionDate": "December 2022, section10",
+      "sha256": "9164970746f9e50dd3f727844e42f09bec8e9888127c6e3bdf163fcef3a1bf7a",
+      "documentPages": 11,
+      "pdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "visualPagesRead": [
+        9
+      ],
+      "readMode": "All11 PDF pages read as extracted text; page9 visually inspected. Web page update date verified separately from section10 revision.",
+      "fullDocumentRead": true,
+      "scope": "Selected adult indications, contraindications/precautions, interactions, mechanism and PK. Efficacy tables, overdose and preclinical sections read but not converted into predictions or regimens. Not independent clinical review or Italian authorization assessment.",
+      "keyDistinctions": [
+        "10mg succinate corresponds to7.5mg parent; profile applies only to CHEMBL1734.",
+        "45–68h terminal half-life; 90% absolute bioavailability;98% bound.",
+        "4R-hydroxy active metabolite separate from three inactive metabolites and parent half-life.",
+        "70% urinary and23% faecal radiolabel recovery over26days after10mg; no unchanged urinary fraction imported with ambiguous denominator."
+      ]
+    },
+    {
+      "id": "sol-eau",
+      "url": "https://uroweb.org/guidelines/non-neurogenic-female-luts/chapter/disease-management",
+      "editionPage": "https://uroweb.org/guidelines/non-neurogenic-female-luts/summary-of-changes/2026",
+      "edition": "2026 reprint of2025 with minor formatting changes",
+      "sections": [
+        "4.1.4.b.1.d",
+        "4.1.4.b.3.a",
+        "4.1.4.b.3.b",
+        "4.1.4.b.3.c"
+      ],
+      "readMode": "Listed sections read in official indexed/full-page text extracts; not whole guideline.",
+      "fullTextRead": false,
+      "scope": "Female non-neurogenic OAB after failed conservative treatment, shared decisions, early review and anticholinergic burden/cognitive caution in older women. No causal dementia risk estimate or assertion of long-term cognitive safety."
+    }
+  ],
+  "publication": [
+    "Only original summaries and SVG; no PDFs or textbook/slide figures published.",
+    "Three qualitative views of signal, competitive blockade and other tissues; no occupancy or clinical risk estimates."
+  ]
+}
