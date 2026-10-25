@@ -1,0 +1,571 @@
+{
+  "schemaVersion": 1,
+  "batch": "theory-anticorpi-biologici",
+  "chapterId": "anticorpi-biologici",
+  "updatedAt": "2026-10-25T17:18:59.028408+00:00",
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "automaticOnly": [
+    {
+      "source": "S9",
+      "wholeFileTextExtracted": true,
+      "fullNewPagesRead": []
+    },
+    {
+      "source": "SL1",
+      "wholeFileTextExtracted": true,
+      "fullNewPagesRead": []
+    }
+  ],
+  "limits": [
+    "Testo estraibile consultato su93pagine, delle quali9pagine di Farmaco I fuori dall’argomento e non integrate. Non equivale a93pagine con tutte le figure lette.",
+    "Solo9pagine controllate visivamente; figure e testi incorporati nelle altre immagini restano da leggere.",
+    "Libri e corsi non letti integralmente; restano anche PDF104–114 della lezione5 di Farmaco I.",
+    "Collino e D’Avolio inventariati e deduplicati, non integrati in questo lotto.",
+    "Controllo editoriale dell’integratore, non revisione clinica indipendente. Nessun algoritmo terapeutico o dosaggio."
+  ],
+  "onlineSourceScope": [
+    {
+      "id": "WHO",
+      "title": "WHO · nomenclatura INN degli anticorpi",
+      "detail": "Schema2022: pagina introduttiva ed estratto indicizzato della classificazione. Non lettura completa del documento.",
+      "url": "https://www.who.int/publications/m/item/inn-22-542"
+    },
+    {
+      "id": "EMA-KINERET",
+      "title": "EMA · Kineret",
+      "detail": "Overview, sezione sul meccanismo letta25/10/2026. PDF del RCP non recuperato; impiegata la descrizione ufficiale accessibile.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kineret"
+    },
+    {
+      "id": "EMA-ROACTEMRA",
+      "title": "EMA · RoActemra",
+      "detail": "Consultazione25/10/2026: estratti §4.5 (PDF12) e §5.1 (PDF21), interazioni indirette e IL-6R Non lettura integrale del documento.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/roactemra-epar-product-information_en.pdf"
+    },
+    {
+      "id": "EMA-STELARA",
+      "title": "EMA · Stelara",
+      "detail": "Consultazione25/10/2026: estratto indicizzato §5.1 sul riconoscimento di p40; apertura del PDF non riuscita Non lettura integrale del documento.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/stelara-epar-product-information_en.pdf"
+    },
+    {
+      "id": "EMA-ENBREL",
+      "title": "EMA · Enbrel",
+      "detail": "Consultazione25/10/2026: estratti §2 e §5.1, recettore p75–Fc dimerico Non lettura integrale del documento.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/enbrel-epar-product-information_en.pdf"
+    },
+    {
+      "id": "EMA-CIMZIA",
+      "title": "EMA · Cimzia",
+      "detail": "Consultazione25/10/2026: estratti §2 e §5.1; Fab′ PEGilato e risultati ADCC/CDC in vitro; passaggio §5.2 sulla PEGilazione Non lettura integrale del documento.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/cimzia-epar-product-information_en.pdf"
+    },
+    {
+      "id": "EMA-BLINCYTO",
+      "title": "EMA · Blincyto",
+      "detail": "Consultazione25/10/2026: estratti §§4.1,4.2,4.4 e5.1, CD19/CD3, contesto LLA e rischi selezionati Non lettura integrale del documento.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/blincyto-epar-product-information_en.pdf"
+    },
+    {
+      "id": "EMA-KADCYLA",
+      "title": "EMA · Kadcyla",
+      "detail": "Consultazione25/10/2026: estratti §§2,4.1,4.2 e5.1, DM1, internalizzazione e distinzione dai prodotti correlati Non lettura integrale del documento.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/kadcyla-epar-product-information_en.pdf"
+    },
+    {
+      "id": "EMA-HUMIRA",
+      "title": "EMA · Humira",
+      "detail": "Overview consultata25/10/2026: meccanismo, via sottocutanea e rischi selezionati; non intero RCP.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/humira"
+    },
+    {
+      "id": "EMA-TMDD",
+      "title": "EMA · biosimilari monoclonali, aspetti farmacocinetici",
+      "detail": "Linea guida2012: estratto indicizzato della sezione PK (PDF9) letto25/10/2026; usato per TMDD, non per requisiti regolatori clinici aggiornati.",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-similar-biological-medicinal-products-containing-monoclonal-antibodies-non-clinical_en.pdf"
+    },
+    {
+      "id": "EMA-ADA",
+      "title": "EMA · immunogenicità delle proteine terapeutiche",
+      "detail": "Revisione1, efficace dal1/12/2017. Consultati25/10/2026 estratti §§5,7 e8: conseguenze, metodi e interpretazione ADA; non tutte le24pagine.",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-immunogenicity-assessment-therapeutic-proteins-revision-1_en.pdf"
+    },
+    {
+      "id": "EMA-BIOSIM",
+      "title": "EMA · biosimilari, quadro europeo",
+      "detail": "Pagina di sintesi consultata25/10/2026: definizione, sviluppo e intercambiabilità. Il contesto italiano è documentato separatamente.",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/biosimilar-medicines-overview"
+    },
+    {
+      "id": "EMA-GUIDE",
+      "title": "EMA/HMA · guida ai biosimilari",
+      "detail": "Guida2023, estratti PDF24–25 sull’estrapolazione consultati25/10/2026. Non lettura integrale delle40pagine.",
+      "url": "https://www.ema.europa.eu/en/documents/leaflet/biosimilars-eu-information-guide-healthcare-professionals_en.pdf"
+    },
+    {
+      "id": "EMA-TAILORED",
+      "title": "EMA · approccio clinico adattato ai biosimilari",
+      "detail": "Documento adottato e pubblicato27/03/2026; letti §§3.2–3.3 (PDF12–13) e passaggi §3.1.7 (PDF10–11) il25/10/2026. Non il precedente testo in consultazione.",
+      "url": "https://www.ema.europa.eu/en/documents/other/reflection-paper-tailored-clinical-approach-biosimilar-development_en.pdf-0"
+    },
+    {
+      "id": "AIFA-SWITCH",
+      "title": "AIFA · Terzo Position Paper sui biosimilari",
+      "detail": "Comunicazione29/04/2026 e relativi estratti del Position Paper (comparabilità, farmacovigilanza e switch informato) consultati25/10/2026. Non lettura integrale né istruzione terapeutica individuale.",
+      "url": "https://www.aifa.gov.it/-/aifa-pubblica-terzo-position-paper-farmaci-biosimilari-focus-intercambiabilita-switch-informato-sostenibilita-del-ssn"
+    },
+    {
+      "id": "EMA-MYLOTARG",
+      "title": "EMA Mylotarg",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/mylotarg",
+      "detail": "Overview letta25/10/2026 solo per confronto storico; nessun nuovo impiego integrato."
+    }
+  ],
+  "reconciliations": [
+    {
+      "source": "S1 PDF17",
+      "issue": "Anakinra presentato come trappola del ligando",
+      "resolution": "Meccanismo corretto nel capitolo, sezione6.",
+      "support": [
+        "EMA-KINERET"
+      ]
+    },
+    {
+      "source": "S1 PDF16",
+      "issue": "Subunità IL-12/23 trascritta B40",
+      "resolution": "Denominazione verificata, sezione6.",
+      "support": [
+        "EMA-STELARA"
+      ]
+    },
+    {
+      "source": "SFI PDF93; R PDF1072",
+      "issue": "Fab interamente murino nel chimerico; adalimumab classificato umanizzato",
+      "resolution": "Architettura e categorie distinte nelle sezioni3,5,17.",
+      "support": [
+        "K",
+        "R",
+        "C"
+      ]
+    },
+    {
+      "source": "SFI PDF94; FI PDF173",
+      "issue": "Cmax e AUC assegnate rigidamente a piccole molecole e biologici",
+      "resolution": "Parametro di esposizione distinto dal tipo di molecola, sezione14.",
+      "support": [
+        "FI",
+        "SFI",
+        "C"
+      ]
+    },
+    {
+      "source": "SFI PDF95–98; FI PDF181",
+      "issue": "Vd interpretato come sola permanenza nel plasma; cinetica lineare/di membrana universale",
+      "resolution": "Regole assolute escluse nelle sezioni12–14.",
+      "support": [
+        "EMA-TMDD",
+        "FI"
+      ]
+    },
+    {
+      "source": "SFI PDF92,97–98",
+      "issue": "Emivita confusa con durata dell’effetto o predetta dalla percentuale umana",
+      "resolution": "Distinzioni strutturali e temporali nelle sezioni5,11,14.",
+      "support": [
+        "FI",
+        "R"
+      ]
+    },
+    {
+      "source": "SFI PDF99",
+      "issue": "Adalimumab descritto intramuscolare",
+      "resolution": "Via verificata e corretta nella sezione17; nessuna dose importata.",
+      "support": [
+        "EMA-HUMIRA"
+      ]
+    },
+    {
+      "source": "SFI PDF100",
+      "issue": "Fc attribuita alla cellula; meccanismi effettori sovrapposti",
+      "resolution": "Soggetti molecolari distinti nella sezione7.",
+      "support": [
+        "K",
+        "R"
+      ]
+    },
+    {
+      "source": "SFI PDF101",
+      "issue": "Assenza di metabolismo CYP trattata come assenza di interazioni",
+      "resolution": "Controesempio documentato nella sezione16.",
+      "support": [
+        "EMA-ROACTEMRA"
+      ]
+    },
+    {
+      "source": "SFI PDF102–103; R PDF1073",
+      "issue": "Rischi di classe, immunogenicità e switch generalizzati",
+      "resolution": "Sezioni15–16 e19–21 limitate a prodotti o contesti definiti.",
+      "support": [
+        "EMA-ADA",
+        "AIFA-SWITCH",
+        "EMA-BIOSIM"
+      ]
+    },
+    {
+      "source": "SFI PDF88",
+      "issue": "Mylotarg descritto come attualmente ritirato",
+      "resolution": "Non importato; overview EMA attuale controllata. Non aggiunta una scheda di prodotto.",
+      "support": [
+        "EMA-MYLOTARG"
+      ]
+    },
+    {
+      "source": "FI PDF171; SFI PDF93",
+      "issue": "Nomenclatura storica presentata come unica attuale",
+      "resolution": "Sezione5 confrontata con schema WHO2022.",
+      "support": [
+        "WHO"
+      ]
+    },
+    {
+      "source": "SL9 PDF41",
+      "issue": "Formato bispecifico generalizzato a tutti i costrutti",
+      "resolution": "Modello specifico distinto dalla categoria nelle sezioni8–9.",
+      "support": [
+        "EMA-BLINCYTO"
+      ]
+    },
+    {
+      "source": "SL9 PDF40",
+      "issue": "Payload ADC abbreviato senza distinguere DM1 e molecola progenitrice",
+      "resolution": "Componenti e processamento distinti nella sezione10.",
+      "support": [
+        "EMA-KADCYLA"
+      ]
+    },
+    {
+      "source": "C PDF207",
+      "issue": "Didascalia confonde segnalazione classica e trans",
+      "resolution": "Distinzione ricostruita nel testo; nessuna figura copiata.",
+      "support": [
+        "C",
+        "EMA-ROACTEMRA"
+      ]
+    },
+    {
+      "source": "K PDF1139–1144",
+      "issue": "Tabelle storiche, classificazioni e regimi di prodotto non uniformi",
+      "resolution": "Nessun regime importato; esempi molecolari verificati separatamente.",
+      "support": [
+        "EMA-ENBREL",
+        "EMA-KINERET"
+      ]
+    },
+    {
+      "source": "R PDF1069–1073; FI PDF159–193",
+      "issue": "Dimensioni e caratteristiche dei biologici presentate come regole assolute",
+      "resolution": "Definizioni contestualizzate; soglie universali escluse.",
+      "support": [
+        "R",
+        "C"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "K",
+      "title": "Katzung, Farmacologia generale e clinica",
+      "edition": "IX italiana2014 / XII americana2012",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "pageCount": 1579,
+      "extractedTextReadPages": [
+        1139,
+        1140,
+        1141,
+        1142,
+        1143,
+        1144
+      ],
+      "visuallyCheckedPdfPages": [
+        1143
+      ],
+      "previouslyFullyReadPages": [],
+      "allContentsRead": false,
+      "printedPageConfirmed": {
+        "1143": 1123
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "id": "R",
+      "title": "Rang & Dale, Farmacologia",
+      "edition": "8ª italiana2016 / originale2015",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "pageCount": 1102,
+      "extractedTextReadPages": [
+        1069,
+        1070,
+        1071,
+        1072,
+        1073
+      ],
+      "visuallyCheckedPdfPages": [
+        1072
+      ],
+      "previouslyFullyReadPages": [],
+      "allContentsRead": false,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "C",
+      "title": "Clementi e Fumagalli, Farmacologia generale e molecolare",
+      "edition": "4ª2012",
+      "sha256": "b5969a60702c4ea97a484e5fa2acb11b7a8712b8e958843213cdce8d08128b79",
+      "pageCount": 720,
+      "extractedTextReadPages": [
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "visuallyCheckedPdfPages": [
+        207
+      ],
+      "previouslyFullyReadPages": [],
+      "allContentsRead": false,
+      "printedPageConfirmed": {
+        "207": 186
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "id": "FI",
+      "title": "Slide Farmaco I, Loredana Serpe",
+      "edition": "AA2025–26",
+      "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
+      "pageCount": 567,
+      "extractedTextReadPages": [
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202
+      ],
+      "visuallyCheckedPdfPages": [
+        169,
+        171,
+        175,
+        181,
+        188
+      ],
+      "previouslyFullyReadPages": [],
+      "allContentsRead": false,
+      "outsideChapterScopePages": [
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202
+      ],
+      "limit": "Image-only pages have only their extracted captions/headings read except explicitly visually checked pages. No all-slide-content claim.",
+      "sourceUnchanged": true
+    },
+    {
+      "id": "SFI",
+      "title": "Farmacologia I Definitivo, lezione5 Serpe13/10/2025",
+      "edition": "AA2025–26",
+      "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+      "pageCount": 344,
+      "extractedTextReadPages": [
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103
+      ],
+      "visuallyCheckedPdfPages": [],
+      "previouslyFullyReadPages": [],
+      "allContentsRead": false,
+      "lessonPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "compiledPrintedPages": [
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "remainingInLesson": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "sourceUnchanged": true
+    },
+    {
+      "id": "S1",
+      "title": "Farmaco II, lezione1 Serpe27/10/2025",
+      "edition": "AA2025–26",
+      "sha256": "f868f51aaf7bf901b4bb2b29bf8cb36b53d366b5d22524d9c193e4fd2ea69d3d",
+      "pageCount": 26,
+      "extractedTextReadPages": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "visuallyCheckedPdfPages": [],
+      "previouslyFullyReadPages": [],
+      "allContentsRead": false,
+      "compiledCourseEquivalentPages": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "deduplication": "Compiled counterpart is same lesson text; counted once.",
+      "sourceUnchanged": true
+    },
+    {
+      "id": "SL9",
+      "title": "Farmaco II, Antitumorali mirati, Serpe",
+      "edition": "AA2025–26",
+      "sha256": "5e922fa9c80f7400377a3fddba54e803bed59df65b91d6b744662547bc88d635",
+      "pageCount": 48,
+      "extractedTextReadPages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "visuallyCheckedPdfPages": [
+        41
+      ],
+      "previouslyFullyReadPages": [],
+      "allContentsRead": false,
+      "sourceUnchanged": true
+    }
+  ],
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "newChapters": 0,
+  "expandedChapters": 1,
+  "onlineAccessLimits": [
+    {
+      "id": "EMA-KINERET",
+      "limit": "RCP non recuperato (HTTP429); usata overview ufficiale."
+    },
+    {
+      "id": "EMA-STELARA",
+      "limit": "Apertura del PDF non riuscita; letto estratto indicizzato §5.1."
+    },
+    {
+      "id": "WHO",
+      "limit": "Pagina introduttiva ed estratto del documento; non lettura integrale."
+    }
+  ],
+  "deduplication": "Hash e intervalli confrontati con i registri precedenti. Raccolta e singola lezione Farmaco II contate una volta. Nessun PDF o percorso privato pubblicato."
+}
