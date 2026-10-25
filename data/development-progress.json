@@ -2,8 +2,8 @@
   "updatedAt": "2026-10-25",
   "batch": "theory-anticorpi-biologici",
   "status": "verified_locally_pending_publication",
-  "release": "0.31.0",
-  "branch": "feat/theory-antibodies",
+  "release": "0.31.1",
+  "branch": "fix/antibody-format-retention",
   "baseCommit": "227590580d023c8868f42169cc4aec650ed7f46a",
   "previousBatch": {
     "batch": "theory-tirosinchinasi",
@@ -23,12 +23,13 @@
     "Previous five extended chapters preserved and browser regressions passed.",
     "16branding configurations; legacy paths, query/hash/storage/fallback/offline passed.",
     "Real0.30to0.31upgrade passed, preserving favorites, academy progress and theme; new chapter works offline.",
-    "Eight representative chapter/model screenshots inspected, covering all five formats, desktop/mobile and both themes; seven original source hashes unchanged."
+    "Eight representative chapter/model screenshots inspected, covering all five formats, desktop/mobile and both themes; seven original source hashes unchanged.",
+    "Postdeploy0.31.0check found format reset on late catalog refresh; fixed in0.31.1with delayed-response and theme regression."
   ],
   "remaining": [
-    "PR and main CI",
-    "Completed deploy and online verification",
-    "Public asset hashes and final receipt"
+    "Follow-up PR and main CI for0.31.1",
+    "Completed0.31.1deploy and online verification",
+    "Final receipt after all checks"
   ],
   "counts": {
     "identities": 4225,
