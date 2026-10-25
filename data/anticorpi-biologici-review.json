@@ -1,0 +1,20 @@
+{
+  "chapterId": "anticorpi-biologici",
+  "checkedAt": "2026-10-25",
+  "outcome": "pass",
+  "reviewer": "integrator_editorial_check",
+  "independentClinicalReview": false,
+  "moduleSha256": "b509a2a29e01460a8d969621788fac5e04e190d659a3d8992505a4ca58371825",
+  "checks": [
+    "Readback of22original sections and10answers for mechanism, boundaries and source attribution.",
+    "Fab/Fc, specificity/valency, FcRn/FcγR, receptor trap/antagonist, ADC/bispecific separated.",
+    "No blanket human-sequence, linear-kinetics, no-interaction or safety claims.",
+    "Selected official product sections and2026biosimilar regulatory context distinguished from older textbooks.",
+    "No doses, new identities, new drug summaries or PK profiles; existing chapter reused.",
+    "Source-page text reading separated from nine visual page checks; no whole-book claim."
+  ],
+  "limits": [
+    "Single integrator editorial review, not independent specialist validation.",
+    "Browser, offline, update and deployment remain separate checks."
+  ]
+}
