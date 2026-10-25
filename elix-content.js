@@ -1,3 +1,4 @@
+import {THEORY_FOUNDATIONS} from './elix-theory-foundations.js';
 import {EXPANDED_CHAPTERS} from './elix-expanded-chapters.js';
 import {EXPANDED_QUESTIONS} from './elix-expanded-questions.js';
 import {CHAPTERS_09} from './elix-09-content.js';
@@ -924,5 +925,5 @@ const BASE_QUESTIONS = [
   }
 ];
 
-export const ELIX_CHAPTERS = Object.freeze([...BASE_CHAPTERS,...EXPANDED_CHAPTERS,...CHAPTERS_09]);
+export const ELIX_CHAPTERS = Object.freeze([...BASE_CHAPTERS,...EXPANDED_CHAPTERS,...CHAPTERS_09].map(c=>c.id===THEORY_FOUNDATIONS.id?THEORY_FOUNDATIONS:c));
 export const ELIX_QUESTIONS = Object.freeze([...BASE_QUESTIONS,...EXPANDED_QUESTIONS]);

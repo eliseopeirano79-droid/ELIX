@@ -1,40 +1,36 @@
 {
   "updatedAt": "2026-10-25",
-  "batch": "solifenacin-muscarinic",
+  "batch": "theory-foundations",
   "status": "verified_locally_pending_publication",
-  "release": "0.27.0",
-  "branch": "feat/solifenacin-muscarinic",
-  "baseCommit": "c94642328f8d604cbc8431c89504c3fac00bd422",
+  "release": "0.28.0",
+  "branch": "feat/theory-foundations",
+  "baseCommit": "4fea153a3ffd0b871d619beac3ffae0d3e97953e",
   "previousBatch": {
-    "batch": "vibegron-kinetics",
+    "batch": "solifenacin-muscarinic",
     "status": "published_and_live_verified",
-    "commit": "c94642328f8d604cbc8431c89504c3fac00bd422",
-    "receipt": "../../outputs/ELIX-vibegron-2026-10-25/release-verification.json"
+    "commit": "4fea153a3ffd0b871d619beac3ffae0d3e97953e",
+    "receipt": "../../outputs/ELIX-solifenacin-2026-10-25/release-verification.json"
   },
   "scope": [
-    "Original three-view M3 lab: acetylcholine signal, competitive antagonism, other tissues",
-    "One existing parent identity enriched with Irish adult tablet PK; six documented fields",
-    "Existing CHRM3 gains topic navigation preserving the airway lab; bladder chapter expanded"
+    "Expand existing receptor chapter with2356 original words/13sections; no duplicate chapter.",
+    "Original binding explorer; source links, explanations and mobile collapsible index.",
+    "One integrator; four completed read-only coordination reports; historical drafts recovered selectively."
   ],
   "completed": [
-    "30 data validators passed; existing parent enriched without duplicates or transfer to succinate salt",
-    "Eight lab and eight profile viewport/theme configurations passed including320px",
-    "Three qualitative states preserve receptor presence and separate signal/blockade/other tissues",
-    "Keyboard focus, delayed-catalog and theme state, bidirectional links, gallery, chapter and search passed",
-    "Default CHRM3 airway and ADRB3 mirabegron labs preserved",
-    "Lab and six PK fields work offline",
-    "Real0.26.0→0.27.0 update preserves favorites/quiz and removes obsolete cache",
-    "16 branding configurations and six routes passed; native logo, credit, centered controls, current version",
-    "Legacy redirects, query/hash, storage, failure fallback and offline access passed",
-    "Desktop/mobile diagrams, header and mobile PK visually inspected"
+    "31 data validators passed; existing55chapters and drug/PK counts preserved.",
+    "Eight width/theme combinations including320px;39paragraphs,13sections,4selfchecks,source focus and search passed.",
+    "Original binding explorer uses equilibrium model, keyboard and0/1/9Kd examples; no dose or effect prediction.",
+    "Offline chapter, interaction and reading ledger passed.",
+    "Real0.27→0.28 update preserves favorites and quiz progress and removes old cache.",
+    "16 branding configurations, six routes and legacy redirects/query/hash/storage/fallback/offline passed.",
+    "Desktop/mobile screenshots visually inspected in dark and light themes."
   ],
   "remaining": [
     "PR and main CI",
-    "Deployment and online verification",
+    "Completed deploy and online verification",
     "Public-file hashes and final receipt"
   ],
-  "readingManifest": "data/solifenacin-reading.json",
-  "nextBatch": "Tolterodina CHEMBL1382: identità presente, sintesi e PK assenti al 25/10/2026; sale tartrato CHEMBL1722209 distinto. Verificare RCP corrente e linee guida, formulazione immediata/prolungata e parentale/metabolita prima di integrare. Leggere i testi per intervalli registrati. Avviare solo nel ciclo successivo alla consegna 0.27 pubblicata e verificata.",
+  "readingManifest": "data/theory-foundations-reading.json",
   "counts": {
     "identities": 4225,
     "editorial": 100,
@@ -46,26 +42,19 @@
   },
   "changes": {
     "newIdentities": 0,
-    "newDrugSummaries": 1,
-    "newProductPKContexts": 1,
-    "newPKFields": 6,
-    "documentedFields": 6,
-    "explicitSourceGaps": 0,
-    "numericFields": 4,
-    "newInteractiveLabs": 1,
-    "newTargetProfiles": 0,
+    "newDrugSummaries": 0,
+    "newProductPKContexts": 0,
+    "newPKFields": 0,
     "newChapters": 0,
-    "expandedChapters": 1
+    "expandedChapters": 1,
+    "newInteractiveLabs": 1
   },
+  "nextBatch": "Integrate complementary theory only after receiving and reviewing separate artifacts from Avanza la super app di farmacologia: pharmacokinetics, receptor signalling, adaptations/interactions. That chat owns those three production streams; current chat alone integrates/publishes. Continue deduplicated FarmacoII transcript inventory and source reconciliation without claiming whole-corpus completion. Tolterodine remains queued.",
   "limits": [
-    "Selective educational synthesis, not independent clinical review or complete contraindication list.",
-    "Katzung PDF157–158 and Serpe PDF136,138 only this batch; all11 pages of the selected RCP read. No whole-book or full-guideline claim.",
-    "Irish Vesitirim10mg succinate tablet equals7.5mg parent. Adult oral context only, no pediatric/suspension/combination or Italian authorization transfer.",
-    "RCP text revision December2022 differs from medicine.ie page update25/09/2026.",
-    "45–68h terminal half-life belongs to parent, not active metabolite. No dosing interval or effect prediction.",
-    "70%urine/23%faeces are radiolabel recovery over26days after10mg. No ambiguous unchanged urinary fraction imported.",
-    "Other-tissue effects are qualitative; no absolute M3 specificity, occupancy, individual cognitive risk or long-term safety claim.",
-    "EAU2026 reprint2025; only recorded female LUTS sections read.",
-    "Original sources and legacy repositories unchanged; imported-label backlog remains93."
+    "All books are partial readings;3401 available PDF pages are not3401 reviewed pages.",
+    "FarmacoI remaining lessons and full slide reconciliation, including Collino.",
+    "FarmacoII slide and transcript inventory, deduplication and topic-by-topic reading, including D’Avolio/Collino/Serpe.",
+    "Independent specialist review; remaining54 short theory units need expansion.",
+    "Rang chapter2/7 and Clementi chapter5 comparison beyond recovered T02 intervals."
   ]
 }

@@ -1,24 +1,25 @@
 # Sviluppo continuativo ELIX
 
-Procedere con un solo lotto alla volta. Riprendere il lavoro incompleto prima di aprirne un altro. Consultare `data/development-progress.json`, Git e l’ultimo risultato della chat; non sovrapporre modifiche a una consegna in corso.
+Un solo lotto e un solo integratore alla volta. Questa chat coordina e pubblica; le altre chat del progetto hanno svolto ricognizioni in sola lettura su richiesta esplicita del25/10. Non ripristinare il vecchio checkout work/ELIX né riattivarne gli aggiornatori. La ricognizione ha recuperato T02/T03 senza sovrascrivere progressi.
 
-## Consegna corrente
+## Lotto corrente
 
-Lotto `solifenacin-muscarinic`, versione 0.27.0: laboratorio originale in tre viste su segnale dell’acetilcolina, antagonismo competitivo M₃ e altri tessuti. Una sintesi e un profilo PK per solifenacina già presente: sei campi documentati, parentale e sale succinato distinti. Nessuna nuova identità o nuovo bersaglio. Il percorso M₃ delle vie aeree resta disponibile. Capitolo sulla vescica ampliato; letture in `data/solifenacin-reading.json`.
+`theory-foundations`,0.28.0: ampliamento del capitolo esistente recettori-e-legame,13sezioni originali, esercizio interattivo di occupazione,4domande ragionate, fonti e indice mobile. Nessuna nuova identità, sintesi farmacologica o PK. Le altre54unità restano da ampliare. Nessuna lettura integrale dei libri/corsi dichiarata. Registro: data/theory-foundations-reading.json.
 
-Il precedente lotto 0.26.0 è pubblicato e verificato al commit `c94642328f8d604cbc8431c89504c3fac00bd422`; non ripeterlo.
+La0.27.0 solifenacina è pubblicata e verificata: commit4fea153a3ffd0b871d619beac3ffae0d3e97953e. Ricevuta outputs/ELIX-solifenacin-2026-10-25/release-verification.json fuori dal checkout.
 
-Il checkpoint è preparato prima della pubblicazione. La ricevuta in `../../outputs/ELIX-latest-verification.json` prevale solo quando batch e versione coincidono e certifica deploy e verifica online conclusi. Se non coincide, completare gli elementi residui del checkpoint.
+Il checkpoint precede la pubblicazione. La ricevuta ../../outputs/ELIX-latest-verification.json prevale solo se batch/versione coincidono e attesta deploy e verifica online conclusi. Altrimenti riprendere il lotto corrente.
 
-## Regole di completamento
+## Regole
 
-- Conservare ELIX, grafica Isoelettrica, testata, firma e dati locali. Non modificare ISOELETTRICA né materiali sincronizzati o PDF originali.
-- Registrare edizione e pagine effettivamente lette. Nessun libro è dichiarato letto integralmente. Pubblicare soltanto sintesi e disegni originali.
-- Distinguere meccanismi, indicazioni autorizzate del prodotto e linee guida. Ogni dato farmacocinetico mantiene via, popolazione e riferimento.
-- Verificare dati, collegamenti, controlli interattivi, desktop/mobile e temi. Pubblicare solo dopo i controlli pertinenti.
-- Verificare commit remoto, deploy concluso e app online. Conservare il funzionamento dei vecchi indirizzi.
-- Registrare i risultati reali e le lacune. Poi avviare il lotto successivo nel ciclo programmato; non avviare lavori duplicati.
+- Conservare ELIX, stile Isoelettrica, testata, firma, dati locali e vecchi percorsi. Non modificare ISOELETTRICA, PDF, fonti sincronizzate o originali.
+- Leggere per intervalli, registrando edizione, pagine PDF/stampate, testo e controllo visuale separati. Inventario non significa lettura. Pubblicare solo sintesi e figure originali.
+- Riconciliare criticamente lezioni, slide e libri. Controllare fonti ufficiali attuali per raccomandazioni cliniche. Revisione editoriale non equivale a revisione clinica indipendente.
+- Verificare dati, navigazione, desktop/mobile, temi, accessibilità delle interazioni, offline e aggiornamento; poi CI, commit, deploy e contenuti online.
+- Un solo lotto alla volta; nessuna nuova automazione. Le ricognizioni già concluse non sono inviti a pubblicare da altri checkout.
 
-## Coda dopo questo lotto
+## Prossimo lotto e coordinamento
 
-Tolterodina CHEMBL1382: identità presente, sintesi e PK assenti al 25/10/2026; sale tartrato CHEMBL1722209 distinto. Verificare RCP corrente e linee guida, formulazione immediata/prolungata e parentale/metabolita prima di integrare. Leggere i testi per intervalli registrati. Avviare solo nel ciclo successivo alla consegna 0.27 pubblicata e verificata.
+La chat «Avanza la super app di farmacologia», su nuova richiesta diretta dell’utente, sta producendo capitoli complementari su farmacocinetica generale, recettori/segnalazione e adattamenti/interazioni. I file restano separati in outputs/ELIX-teoria-complementare-2026-10-25. Non duplicare questi tre incarichi. Questa chat integra e pubblica solo dopo lettura, revisione e controlli dei risultati.
+
+Continuare inventario e deduplicazione delle sbobine Farmaco II (D’Avolio, Collino, Serpe), quindi letture tematiche con collegamenti a classi e patologie. Le 3.401 pagine disponibili nei tre libri non sono tutte lette. Tolterodina resta nel backlog, subordinata alla priorità esplicita sulla teoria.

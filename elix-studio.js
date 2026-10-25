@@ -1,3 +1,4 @@
+import {renderTheorySection,renderTheoryExtras} from "./elix-theory-reader.js";
 import { ELIX_VOLUMES, ELIX_CHAPTERS, ELIX_QUESTIONS } from "./elix-content.js";
 import {GUIDELINES_09} from "./elix-09-content.js";
 
@@ -111,15 +112,15 @@ export function createElixStudio({refresh}) {
       const query=state.bookQuery.trim().normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
       const list=ELIX_CHAPTERS.filter(c=>c.volume===v.id&&(!query||[c.title,c.lead,...c.sections.map(x=>x.title+" "+x.text)].join(" ").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().includes(query)));
       if(query&&!list.length)return "";
-      return "<article class='ex-volume'><div class='ex-volume-meta'>VOLUME "+String(v.id).padStart(2,"0")+"</div><h3>"+esc(v.title)+"</h3><p>"+(list.length?list.length+" capitoli originali disponibili":"Indice programmato; stesura ancora da avviare")+"</p>"+list.map(c=>"<a href='#/textbook/"+esc(c.id)+"' class='ex-chapter-link'>"+esc(c.title)+" <span aria-hidden='true'>↗</span></a>").join("")+"</article>";
+      return "<article class='ex-volume'><div class='ex-volume-meta'>VOLUME "+String(v.id).padStart(2,"0")+"</div><h3>"+esc(v.title)+"</h3><p>"+(list.length?list.length+" capitoli originali disponibili":"Indice programmato; stesura ancora da avviare")+"</p>"+list.map(c=>"<a href='#/textbook/"+esc(c.id)+"' class='ex-chapter-link'>"+esc(c.title)+" <small class='ex-chapter-status'>"+(c.format==='extended'?'Stesura estesa':'Sintesi da ampliare')+"</small> <span aria-hidden='true'>↗</span></a>").join("")+"</article>";
     }).join("");
-    const intro=heading("ELIX TEXTBOOK","La Bibbia dei Farmaci","Biblioteca originale strutturata in 18 volumi: testo, recettori, molecole, studi, casi e quiz collegati.",
-      badge(ELIX_CHAPTERS.length+" capitoli disponibili","accent"));
+    const intro=heading("ELIX TEXTBOOK","Teoria della farmacologia","18 volumi in sviluppo: capitoli estesi e sintesi introduttive, con approfondimenti collegati.",
+      badge(ELIX_CHAPTERS.length+" unità disponibili","accent"));
     if(chapter) {
       const bibliography=(chapter.sources||[]).map(id=>GUIDELINES_09.find(g=>g.id===id)).filter(Boolean);
-      return tabs()+intro+"<div class='ex-book-layout'><aside class='ex-chapter-index'><a class='ex-back' href='#/textbook'>← Tutti i capitoli</a><p class='ex-mini'>VOLUME "+chapter.volume+"</p><h3>"+esc(chapter.title)+"</h3><p>"+esc(chapter.lead)+"</p><div class='ex-index-list'>"+chapter.sections.map((section,i)=>"<button type='button' data-elix='chapter-jump' data-index='"+i+"'>"+String(i+1).padStart(2,"0")+" · "+esc(section.title)+"</button>").join("")+"</div></aside><article class='ex-reading'><div class='ex-reading-meta'>Contenuto didattico originale • revisione specialistica in corso</div><h2>"+esc(chapter.title)+"</h2><p class='ex-intro'>"+esc(chapter.lead)+"</p>"+chapter.sections.map((section,i)=>"<section id='part-"+i+"'><h3>"+esc(section.title)+"</h3><p>"+esc(section.text)+"</p></section>").join("")+"<div class='ex-related'>"+(chapter.drugs?.length?"<div><strong>Farmaci collegati</strong><div>"+chapter.drugs.map(id=>"<a href='#/drug/"+encodeURIComponent(id)+"'>"+esc(id)+" ↗</a>").join("")+"</div></div>":"")+(chapter.targets?.length?"<div><strong>Bersagli da esplorare</strong><div>"+chapter.targets.map(id=>"<a href='#/receptors/"+encodeURIComponent(id)+"'>"+esc(id)+" ↗</a>").join("")+"</div></div>":"")+"</div>"+(bibliography.length?"<section class='ex-guides'><h3>Fonti e linee guida collegate</h3>"+bibliography.map(g=>"<a href='"+esc(g.url)+"' target='_blank' rel='noopener noreferrer'><strong>"+esc(g.name)+" · "+g.year+"</strong><small>"+esc(g.status)+"</small><span>"+esc(g.note)+"</span></a>").join("")+"</section>":"")+"<div class='ex-footer-links'><a href='#/quiz'>Verifica la comprensione →</a><a href='#/receptors'>Esplora recettori e bersagli →</a></div><p class='ex-disclaimer'>Questi capitoli non riproducono manuali commerciali. Sono prime unità editoriali originali e non costituiscono ancora un trattato completo, né raccomandazioni cliniche.</p></article></div>";
+      return tabs()+intro+"<div class='ex-book-layout'><aside class='ex-chapter-index'><a class='ex-back' href='#/textbook'>← Tutti i capitoli</a><p class='ex-mini'>VOLUME "+chapter.volume+"</p><h3>"+esc(chapter.title)+"</h3><p>"+esc(chapter.lead)+"</p><details class='ex-toc' "+(window.matchMedia?.('(max-width:780px)')?.matches?'':'open')+"><summary>Indice del capitolo</summary><div class='ex-index-list'>"+chapter.sections.map((section,i)=>"<button type='button' data-elix='chapter-jump' data-index='"+i+"'>"+String(i+1).padStart(2,"0")+" · "+esc(section.title.replace(/^\d+\.\s*/,''))+"</button>").join("")+"</div></details></aside><article class='ex-reading'><div class='ex-reading-meta'>"+esc(chapter.reviewStatus||'Sintesi introduttiva · revisione specialistica non completata')+"</div><h2>"+esc(chapter.title)+"</h2><p class='ex-intro'>"+esc(chapter.lead)+"</p>"+chapter.sections.map(renderTheorySection).join("")+renderTheoryExtras(chapter)+"<div class='ex-related'>"+(chapter.drugs?.length?"<div><strong>Farmaci collegati</strong><div>"+chapter.drugs.map(id=>"<a href='#/drug/"+encodeURIComponent(id)+"'>"+esc(id)+" ↗</a>").join("")+"</div></div>":"")+(chapter.targets?.length?"<div><strong>Bersagli da esplorare</strong><div>"+chapter.targets.map(id=>"<a href='#/receptors/"+encodeURIComponent(id)+"'>"+esc(id)+" ↗</a>").join("")+"</div></div>":"")+"</div>"+(bibliography.length?"<section class='ex-guides'><h3>Fonti e linee guida collegate</h3>"+bibliography.map(g=>"<a href='"+esc(g.url)+"' target='_blank' rel='noopener noreferrer'><strong>"+esc(g.name)+" · "+g.year+"</strong><small>"+esc(g.status)+"</small><span>"+esc(g.note)+"</span></a>").join("")+"</section>":"")+"<div class='ex-footer-links'><a href='#/quiz'>Verifica la comprensione →</a><a href='#/receptors'>Esplora recettori e bersagli →</a></div><p class='ex-disclaimer'>Questi capitoli non riproducono manuali commerciali. Sono prime unità editoriali originali e non costituiscono ancora un trattato completo, né raccomandazioni cliniche.</p></article></div>";
     }
-    return tabs()+intro+"<label class='ex-book-search'>Cerca nei titoli e nei concetti<input id='ex-book-search' type='search' value='"+esc(state.bookQuery)+"' placeholder='Primo passaggio, agonista, CYP, anticoagulanti…'></label><div class='ex-toolbar'><label>Volume da esplorare<select id='ex-volume'><option value='all'>Tutti i 18 volumi</option>"+ELIX_VOLUMES.map(v=>"<option value='"+v.id+"' "+(state.volume===String(v.id)?"selected":"")+">"+v.id+" · "+esc(v.title)+"</option>").join("")+"</select></label><span class='ex-muted'>"+ELIX_CHAPTERS.length+" capitoli scritti · "+ELIX_VOLUMES.length+" volumi in indice</span></div><div class='ex-volume-grid'>"+(chapterList||"<div class='ex-card'><h2>Nessun capitolo trovato</h2><p>Prova un sinonimo o rimuovi il filtro del volume.</p></div>")+"</div>";
+    return tabs()+intro+"<label class='ex-book-search'>Cerca nei titoli e nei concetti<input id='ex-book-search' type='search' value='"+esc(state.bookQuery)+"' placeholder='Primo passaggio, agonista, CYP, anticoagulanti…'></label><div class='ex-toolbar'><label>Volume da esplorare<select id='ex-volume'><option value='all'>Tutti i 18 volumi</option>"+ELIX_VOLUMES.map(v=>"<option value='"+v.id+"' "+(state.volume===String(v.id)?"selected":"")+">"+v.id+" · "+esc(v.title)+"</option>").join("")+"</select></label><span class='ex-muted'>"+ELIX_CHAPTERS.length+" unità · "+ELIX_CHAPTERS.filter(c=>c.format==='extended').length+" estese · "+ELIX_VOLUMES.length+" volumi in indice</span></div><div class='ex-volume-grid'>"+(chapterList||"<div class='ex-card'><h2>Nessun capitolo trovato</h2><p>Prova un sinonimo o rimuovi il filtro del volume.</p></div>")+"</div>";
   }
 
   function modelValues(dose=state.dose) {
@@ -299,7 +300,7 @@ export function createElixStudio({refresh}) {
     const el=event.target.closest("[data-elix]");if(!el)return;
     event.preventDefault();
     const a=el.dataset.elix;
-    if(a==="chapter-jump"){const target=document.getElementById('part-'+el.dataset.index);if(target)target.scrollIntoView({behavior:'smooth',block:'start'});return;}
+    if(a==="chapter-jump"){const target=document.getElementById('part-'+el.dataset.index);if(target){target.querySelector('h3')?.focus({preventScroll:true});target.scrollIntoView({behavior:window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches?'auto':'smooth',block:'start'});}return;}
     if(a==="quiz-errors"){const candidate=new Set(filteredQuestions().map(q=>q.id));const deck=shuffle(Object.keys(state.progress.wrong||{}).filter(id=>candidate.has(id)));if(!deck.length)return;launchQuiz(deck);return;}
     if(a==="quiz-start"){
       const deck=shuffle(filteredQuestions().map(q=>q.id));
@@ -351,6 +352,13 @@ export function createElixStudio({refresh}) {
       if(state.cinemaPlaying)playCinema();else updateCinema();
     }
   });
+  document.addEventListener("click",event=>{
+    const link=event.target.closest?.('[data-theory-source]');
+    if(!link)return;
+    event.preventDefault();
+    const target=document.getElementById('source-'+link.dataset.theorySource);
+    if(target){target.focus({preventScroll:true});target.scrollIntoView({block:'start'});}
+  });
   document.addEventListener("input",event=>{
     if(event.target.id==="ex-book-search"){state.bookQuery=event.target.value;refresh();return;}
     if(event.target.id==="ex-dose"){
@@ -365,5 +373,5 @@ export function createElixStudio({refresh}) {
   window.addEventListener("hashchange",()=>{
     if(!location.hash.startsWith("#/cinema"))stopCinema();
   });
-  return {route,search(query){const q=String(query||'').trim().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();if(!q)return [];return ELIX_CHAPTERS.filter(c=>[c.title,c.lead,...c.sections.map(x=>x.title)].join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(q)).slice(0,5).map(c=>({type:'Capitolo',name:c.title,sub:'Teoria · Volume '+c.volume,link:'#/textbook/'+c.id,ic:'books'}));},stats:()=>({chapters:ELIX_CHAPTERS.length,questions:ELIX_QUESTIONS.length,volumes:ELIX_VOLUMES.length})};
+  return {route,search(query){const q=String(query||'').trim().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();if(!q)return [];return ELIX_CHAPTERS.filter(c=>[c.title,c.lead,...c.sections.map(x=>x.title+" "+x.text)].join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(q)).slice(0,5).map(c=>({type:'Capitolo',name:c.title,sub:'Teoria · Volume '+c.volume,link:'#/textbook/'+c.id,ic:'books'}));},stats:()=>({chapters:ELIX_CHAPTERS.length,questions:ELIX_QUESTIONS.length,volumes:ELIX_VOLUMES.length})};
 }
