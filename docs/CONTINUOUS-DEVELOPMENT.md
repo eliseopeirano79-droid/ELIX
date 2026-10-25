@@ -4,9 +4,9 @@ Procedere con un solo lotto alla volta. Riprendere il lavoro incompleto prima di
 
 ## Consegna corrente
 
-Lotto `ozanimod-metabolites`, versione 0.23.0: laboratorio originale in tre viste su parentale, metaboliti attivi e due emivite contestualizzate. Una sintesi e un contesto PK orale UE per l’identità ozanimod già presente: cinque campi documentati e una lacuna esplicita sulla biodisponibilità assoluta. Profilo S1PR5 e capitolo metabolismo ampliato, collegamenti bidirezionali. Nessun duplicato. Letture effettive del 24/10/2026 e limiti in `data/ozanimod-reading.json`.
+Lotto `ponesimod-selectivity`, versione 0.24.0: laboratorio originale in tre viste su selettività, linfociti e precauzioni cardiache. Una sintesi e un contesto PK orale UE per l’identità ponesimod già presente, sei campi documentati; nessun duplicato. Il selettore dei laboratori S1PR1 e il collegamento diretto al tema ponesimod conservano il precedente laboratorio fingolimod. Capitolo curve recettoriali ampliato; letture effettive in `data/ponesimod-reading.json`.
 
-Il precedente lotto 0.22.0 è pubblicato e verificato al commit `6b1332ccdada0186a0975ce87554b2359358dafc`; non ripeterlo.
+Il precedente lotto 0.23.0 è pubblicato e verificato al commit `528f10eba5960c1d2f4e86f6540ffda90fc2a941`; non ripeterlo.
 
 Il checkpoint è preparato prima della pubblicazione. La ricevuta in `../../outputs/ELIX-latest-verification.json` prevale solo quando batch e versione coincidono e certifica deploy e verifica online conclusi. Se non coincide, completare gli elementi residui del checkpoint.
 
@@ -21,4 +21,4 @@ Il checkpoint è preparato prima della pubblicazione. La ricevuta in `../../outp
 
 ## Coda dopo questo lotto
 
-Solo dopo pubblicazione e verifica: Ponesimod CHEMBL1096146: identità già presente, senza sintesi né profilo PK al 25/10/2026. Verificare RCP UE corrente, selettività recettoriale e contesto della SM; individuare un intervallo mirato di lettura per collegare recettori e farmacocinetica. Avviare soltanto nel ciclo successivo alla consegna 0.23 pubblicata e verificata.
+Solo dopo pubblicazione e verifica: Mirabegron CHEMBL2095212: identità presente ma sintesi e PK assenti al 25/10/2026; profilo ADRB3 non ancora presente. Verificare RCP UE corrente e linee guida per vescica iperattiva, collegare β3 e fisiologia del detrusore con una grafica originale. Selezionare un intervallo pertinente di Katzung, verificandone prima edizione e pagine. Avviare nel ciclo successivo alla consegna 0.24 pubblicata e verificata.
