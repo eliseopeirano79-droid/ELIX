@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-25",
+  "batch": "theory-complementary",
+  "release": "0.29.0",
+  "baseCommit": "a504200dccc71703a7327b831b88c2a23fbd14d3",
+  "packageSha256": "e1dd987d32508d5b9e5ef1c58daba9dab2b6ee32c107798252ad897d3282265e",
+  "chapters": [
+    {
+      "id": "modelli-pk",
+      "packageChapterSha256": "df9d6d9c02079e77e118efd2b3acde69a728ff0c94eade331c6cfb79179358c9",
+      "reviewedSourceSha256": "33db05cd7e00271481d37fe10ff63ac5df727af159a1d1817d63df4142814ab9",
+      "reviewedContentPreserved": true,
+      "sections": 16,
+      "bodyWords": 3011,
+      "selfChecks": 8,
+      "readingManifest": "./data/modelli-pk-reading.json"
+    },
+    {
+      "id": "gpcr",
+      "packageChapterSha256": "cd2841d81bab763204ad41378684b4377fc9b81a5ece5e2297c52e8114340aff",
+      "reviewedSourceSha256": "a4986855fea6b8e1a8b920125cf518f64544c3d07552faddaf56351e18265173",
+      "reviewedContentPreserved": true,
+      "sections": 15,
+      "bodyWords": 2866,
+      "selfChecks": 8,
+      "readingManifest": "./data/gpcr-reading.json"
+    },
+    {
+      "id": "desensibilizzazione-tolleranza",
+      "packageChapterSha256": "ed0e58daef380804e9a19065042ed037e10a92d2b50ec2ff3054c22ef9b8e96e",
+      "reviewedSourceSha256": "2e60aeeef7064d1a6357da3bff89fbc134be15ed48d700667059282e268acc40",
+      "reviewedContentPreserved": true,
+      "sections": 16,
+      "bodyWords": 2539,
+      "selfChecks": 8,
+      "readingManifest": "./data/desensibilizzazione-tolleranza-reading.json"
+    }
+  ],
+  "integrationReview": "Read all47sections and24questions; verified package hashes and exact section/question/reference equality to reviewed author files. No new textbook reading claimed by integrator. Official FDA/NIH sources and Reactome summaries rechecked for relevant passages.",
+  "limits": [
+    "No whole-book or whole-course reading claimed.",
+    "Editorial checks are not specialist clinical validation.",
+    "No new animation, drug identity, summary or product PK profile."
+  ],
+  "files": [
+    "elix-theory-complementary.js",
+    "data/modelli-pk-reading.json",
+    "data/modelli-pk-review.json",
+    "data/gpcr-reading.json",
+    "data/gpcr-review.json",
+    "data/desensibilizzazione-tolleranza-reading.json",
+    "data/desensibilizzazione-tolleranza-review.json"
+  ],
+  "integrationOfficialChecks": {
+    "FDA": [
+      "Pharmacogenetic table introduction and three evidence categories",
+      "Interaction tables in vitro versus clinical and table 1-2 note",
+      "Benzodiazepines 2020 physical dependence and CNS depressants",
+      "E14/S7B 2022 Q16 text, PDF18-19 only"
+    ],
+    "NIH": [
+      "Substance use disorder definition and Overview"
+    ],
+    "Reactome": [
+      "R-HSA-392154 summary and event list",
+      "R-HSA-392143 summary and inference from rat"
+    ],
+    "unconfirmedOnIntegratorRetry": [
+      "R-HSA-418457 body fetch returned an error; producer and second reviewer documented earlier successful reading. No claim of integrator rereading that page."
+    ],
+    "newTextbookPagesReadByIntegrator": []
+  }
+}

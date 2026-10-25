@@ -1,6 +1,7 @@
 // Original educational prose. Source coverage: data/theory-foundations-reading.json.
 export const THEORY_FOUNDATIONS = {
   "id": "recettori-e-legame",
+  "readingManifest": "./data/theory-foundations-reading.json",
   "volume": 2,
   "title": "Recettori, affinità ed efficacia",
   "lead": "Dal legame alla risposta: una spiegazione progressiva di occupazione, potenza, agonismo e antagonismo.",

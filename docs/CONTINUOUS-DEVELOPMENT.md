@@ -4,11 +4,11 @@ Un solo lotto e un solo integratore alla volta. Questa chat coordina e pubblica;
 
 ## Lotto corrente
 
-`theory-foundations`,0.28.0: ampliamento del capitolo esistente recettori-e-legame,13sezioni originali, esercizio interattivo di occupazione,4domande ragionate, fonti e indice mobile. Nessuna nuova identità, sintesi farmacologica o PK. Le altre54unità restano da ampliare. Nessuna lettura integrale dei libri/corsi dichiarata. Registro: data/theory-foundations-reading.json.
+`theory-complementary`, 0.29.0: integrazione dei tre capitoli prodotti e controllati nella chat «Avanza la super app di farmacologia»: modelli-pk, gpcr, desensibilizzazione-tolleranza. 47 sezioni, 8.416 parole di corpo, 24 domande. Testi, domande e riferimenti preservati rispetto agli originali sottoposti a controllo editoriale. Registri e rapporti per capitolo in data/; audit di integrazione in data/theory-complementary-integration.json. Nessuna nuova identità, sintesi di farmaco, PK o animazione. Quattro capitoli estesi su 55; non è il completamento del trattato o della lettura dei corsi.
 
-La0.27.0 solifenacina è pubblicata e verificata: commit4fea153a3ffd0b871d619beac3ffae0d3e97953e. Ricevuta outputs/ELIX-solifenacin-2026-10-25/release-verification.json fuori dal checkout.
+La 0.28.0 è pubblicata e verificata al commit a504200dccc71703a7327b831b88c2a23fbd14d3. Il capitolo recettori-e-legame e il suo esercizio restano presenti. Ricevuta: ../../outputs/ELIX-theory-2026-10-25/release-verification.json.
 
-Il checkpoint precede la pubblicazione. La ricevuta ../../outputs/ELIX-latest-verification.json prevale solo se batch/versione coincidono e attesta deploy e verifica online conclusi. Altrimenti riprendere il lotto corrente.
+Il checkpoint precede la pubblicazione. La ricevuta ../../outputs/ELIX-latest-verification.json prevale solo se batch/versione coincidono e attesta deploy e verifica online conclusi. Altrimenti riprendere il lotto corrente. Prove correnti: ../../outputs/ELIX-complementary-release-2026-10-25/.
 
 ## Regole
 
@@ -20,6 +20,6 @@ Il checkpoint precede la pubblicazione. La ricevuta ../../outputs/ELIX-latest-ve
 
 ## Prossimo lotto e coordinamento
 
-La chat «Avanza la super app di farmacologia», su nuova richiesta diretta dell’utente, sta producendo capitoli complementari su farmacocinetica generale, recettori/segnalazione e adattamenti/interazioni. I file restano separati in outputs/ELIX-teoria-complementare-2026-10-25. Non duplicare questi tre incarichi. Questa chat integra e pubblica solo dopo lettura, revisione e controlli dei risultati.
+La produzione complementare è stata consegnata il 25/10 con tre controlli editoriali mirati passati. Nessuna validazione clinica specialistica dichiarata. Il pacchetto originale resta separato in outputs/ELIX-teoria-complementare-2026-10-25; non riscrivere o riassegnare questi tre capitoli. Questa chat integra e pubblica. Nessun altro checkout è autorizzato dal coordinamento a pubblicare aggiornamenti concorrenti.
 
-Continuare inventario e deduplicazione delle sbobine Farmaco II (D’Avolio, Collino, Serpe), quindi letture tematiche con collegamenti a classi e patologie. Le 3.401 pagine disponibili nei tre libri non sono tutte lette. Tolterodina resta nel backlog, subordinata alla priorità esplicita sulla teoria.
+Continuare inventario e deduplicazione delle sbobine Farmaco II (D’Avolio, Collino, Serpe), quindi letture tematiche per ampliare le restanti 51 unità con collegamenti a classi e patologie. Consultare anche gli indici e i registri delle altre chat prima di scegliere il lotto, senza avviare incarichi duplicati. Le 3.401 pagine disponibili nei tre libri non sono tutte lette. Tolterodina resta nel backlog, subordinata alla priorità esplicita sulla teoria.

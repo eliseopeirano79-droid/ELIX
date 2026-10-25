@@ -1,0 +1,205 @@
+{
+  "chapterId": "desensibilizzazione-tolleranza",
+  "chapterSha256": "2e60aeeef7064d1a6357da3bff89fbc134be15ed48d700667059282e268acc40",
+  "readingSha256": "180840c344d225ec3650f03ef6ae5bce09c43f201b705feb0ed3934bc3a4878d",
+  "reviewDate": "2026-10-25",
+  "reviewerAgent": "atlante_vie",
+  "outcome": "pass",
+  "scope": "Revisione editoriale mirata delle fonti e della coerenza didattica, svolta da un secondo agente. Non costituisce revisione clinica specialistica, validazione medica o verifica esaustiva di ogni via o applicazione terapeutica.",
+  "artifactsRead": [
+    {
+      "file": "adattamenti/chapter.json",
+      "scope": "Letti lead, tutte le 16 sezioni, tutte le 8 domande e risposte, riferimenti e coverage."
+    },
+    {
+      "file": "adattamenti/reading.json",
+      "scope": "Letto audit; confrontati locatori, limiti e hash con la versione congelata."
+    }
+  ],
+  "sourceChecks": [
+    {
+      "referenceIds": [
+        "rang-adattamento"
+      ],
+      "source": "Rang & Dale, Farmacologia, 8ª ed. italiana 2016",
+      "pdfPages": [
+        49,
+        50,
+        51
+      ],
+      "method": "Lettura integrale del testo estratto delle pagine pertinenti; nessuna immagine di queste pagine ispezionata dal revisore.",
+      "verified": "La perdita di risposta non richiede una perdita numerica di recettori; sono distinti accoppiamento, traslocazione, deplezione di mediatori, metabolismo e adattamento fisiologico. La tachifilassi è definita in base alla rapidità, senza identificare un solo meccanismo."
+    },
+    {
+      "referenceIds": [
+        "rang-gpcr"
+      ],
+      "source": "Rang & Dale, Farmacologia, 8ª ed. italiana 2016",
+      "pdfPages": [
+        78,
+        79
+      ],
+      "method": "Lettura del testo estratto e delle didascalie pertinenti; non conteggiate come figure visionate.",
+      "verified": "Omologa circoscritta al recettore stimolato ed eterologa tramite componenti condivisi; GRK, arrestina e internalizzazione non equivalgono universalmente a distruzione o spegnimento di ogni segnale. Riciclo e degradazione sono destini differenti."
+    },
+    {
+      "referenceIds": [
+        "mol-desensibilizzazione",
+        "mol-adattamento"
+      ],
+      "source": "Clementi e Fumagalli, Farmacologia generale e molecolare, 4ª ed. 2012",
+      "pdfPages": [
+        95,
+        99,
+        100
+      ],
+      "method": "Lettura del testo estratto delle pagine.",
+      "verified": "Distinzioni omologa/eterologa, adattamento effetto-specifico, sensibilizzazione, sospensione e rebound compatibili con il testo. La dipendenza fisica non basta a identificare addiction/disturbo da uso. Non trasferiti dal manuale criteri diagnostici storici o schemi di trattamento."
+    },
+    {
+      "referenceIds": [
+        "mol-gpcr-traffico"
+      ],
+      "source": "Clementi e Fumagalli, Farmacologia generale e molecolare, 4ª ed. 2012",
+      "pdfPages": [
+        164,
+        165
+      ],
+      "printedPages": [
+        143,
+        144
+      ],
+      "method": "Testo estratto di entrambe le pagine; pagina PDF 165 e figura 13.5 ispezionate anche visivamente.",
+      "verified": "Partner recettoriali, traffico e funzione multifunzionale delle arrestine; alcune piattaforme intracellulari sostengono segnali. La formulazione del capitolo mantiene il contesto e non universalizza il destino del recettore."
+    },
+    {
+      "referenceIds": [
+        "mol-genetica-base",
+        "mol-profarmaci"
+      ],
+      "source": "Clementi e Fumagalli, Farmacologia generale e molecolare, 4ª ed. 2012",
+      "pdfPages": [
+        689,
+        692
+      ],
+      "printedPages": [
+        696,
+        699
+      ],
+      "method": "Testo estratto di entrambe le pagine; pagina PDF 692, figura 54.2 e figura 54.3 ispezionate anche visivamente.",
+      "verified": "Varianti possono modificare sequenza, espressione o numero di copie; numero di copie non viene equiparato automaticamente a funzione. Distinta l’eliminazione della sostanza attiva dalla sua bioattivazione. Curve e esempi storici non diventano regole terapeutiche universali."
+    },
+    {
+      "referenceIds": [
+        "katz-inibizione"
+      ],
+      "source": "Katzung, Farmacologia generale e clinica, IX ed. italiana 2014",
+      "pdfPages": [
+        85
+      ],
+      "printedPages": [
+        65
+      ],
+      "method": "Lettura del testo estratto del passaggio di inibizione enzimatica.",
+      "verified": "Distinte inibizione reversibile e inattivazione dipendente dal meccanismo; la formulazione temporale del capitolo resta condizionale."
+    },
+    {
+      "referenceIds": [
+        "rang-induzione",
+        "mol-interazioni-metaboliche"
+      ],
+      "source": "Rang & Dale 2016; Clementi e Fumagalli 2012",
+      "pdfPagesByBook": {
+        "Rang2016": [
+          196,
+          197
+        ],
+        "Molecolare2012": [
+          703,
+          704
+        ]
+      },
+      "method": "Lettura dei passaggi estratti su induzione/inibizione e metaboliti; tabelle di farmaci storiche non adottate come attuali.",
+      "verified": "Insorgenza e regressione dell’induzione dipendono anche dal turnover enzimatico. Induzione e inibizione non determinano la stessa direzione dell’effetto per ogni sostanza: importano formazione, eliminazione e attività dei metaboliti."
+    },
+    {
+      "referenceIds": [
+        "fda-dipendenza"
+      ],
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-requiring-boxed-warning-updated-improve-safe-use-benzodiazepine-drug-class",
+      "accessed": "2026-10-25",
+      "sourceDate": "2020-09-23",
+      "readScope": "Passaggi su physical dependence, uso conforme alla prescrizione, sospensione/riduzione brusca e associazione con altri depressori del SNC.",
+      "verified": "Dipendenza fisica possibile durante uso terapeutico; sostegno corretto alla separazione dal quadro più ampio del disturbo da uso. Nessun regime di sospensione ricavato dalla pagina."
+    },
+    {
+      "referenceIds": [
+        "nih-disturbo-uso"
+      ],
+      "url": "https://health.nih.gov/health-topics-a-z/substance-use-disorder",
+      "accessed": "2026-10-25",
+      "readScope": "Definizione introduttiva, Related Terms, primo paragrafo Overview e sezione Diagnosis.",
+      "verified": "Uso persistente/compulsivo nonostante danni e difficoltà a interrompere sono componenti del quadro complessivo. La sola tolleranza o astinenza non viene convertita nel capitolo in una diagnosi automatica."
+    },
+    {
+      "referenceIds": [
+        "fda-genetica"
+      ],
+      "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+      "accessed": "2026-10-25",
+      "readScope": "About the Table e differenze dichiarate fra sezioni 1, 2 e 3.",
+      "verified": "Un’associazione farmacogenetica non equivale a raccomandazione universale di eseguire un test; la genetica è uno dei fattori della risposta e i livelli di evidenza differiscono."
+    },
+    {
+      "referenceIds": [
+        "fda-interazioni"
+      ],
+      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers",
+      "accessed": "2026-10-25",
+      "readScope": "Tabella 1-2 e relativa nota; avvertenze di non esaustività dei cataloghi di esempi.",
+      "verified": "Selettività e potenza dipendono anche dalle condizioni sperimentali e dai substrati di prova. Nessuna importazione del catalogo di esempi come elenco completo di interazioni."
+    },
+    {
+      "referenceIds": [
+        "fda-qt"
+      ],
+      "url": "https://www.fda.gov/media/161198/download",
+      "accessed": "2026-10-25",
+      "sourceDate": "2022-08",
+      "pdfPages": [
+        18,
+        19
+      ],
+      "printedPages": [
+        14,
+        15
+      ],
+      "readScope": "Passaggi testuali della risposta Q16 sul rapporto fra QT, esposizione, rischio di torsade e fattori contestuali. Non letto integralmente il documento e non visionate queste pagine come immagini.",
+      "verified": "La caratterizzazione del QT non misura da sola il rischio individuale di torsade. Esposizione e fattori concomitanti rendono corretta la formulazione non deterministica del capitolo."
+    }
+  ],
+  "checks": {
+    "allSectionReferenceIdsResolve": true,
+    "allEightQuestionsRead": true,
+    "questionAmbiguitiesRequiringChange": [],
+    "metadataReviewTerminology": "Adeguata: fonti_lette_revisione_editoriale_mirata_pendente; esplicitata assenza di revisione clinica specialistica.",
+    "noPosologyOrIndividualTreatmentAlgorithm": true,
+    "noExhaustiveCoverageClaim": "Il capitolo delimita principi e approfondimenti mancanti; non dichiara catalogo completo o animazioni già prodotte."
+  },
+  "issues": [],
+  "resolvedDuringReview": [
+    {
+      "topic": "Provenienza della definizione moderna del disturbo da uso",
+      "initialObservation": "Il nucleo comportamentale della definizione meritava una fonte ufficiale diretta oltre al manuale storico e al warning FDA sulla dipendenza fisica.",
+      "resolution": "Autore ha aggiunto nih-disturbo-uso alla sezione dipendenza-rebound e all’audit dopo propria lettura. Collegamento e passaggi ricontrollati indipendentemente; corpo del capitolo invariato.",
+      "status": "resolved"
+    }
+  ],
+  "limits": [
+    "Controllo editoriale mirato e campionato delle fonti; non rilettura integrale dei tre libri né di ogni pagina citata.",
+    "Le altre pagine dei riferimenti bibliografici restano entro il perimetro di lettura dichiarato dall’autore, senza essere qui dichiarate tutte ricontrollate.",
+    "Edizioni 2012/2014/2016 impiegate per principi e meccanismi, non per validare terapia, dosi, frequenze genetiche, cataloghi di interazioni o raccomandazioni attuali.",
+    "Nessuna validazione clinica specialistica, farmacogenetica applicativa, diagnosi o valutazione individuale del rischio.",
+    "Nessuna verifica della resa nell’app, del collegamento operativo delle citazioni o di animazioni: integrazione non eseguita in questo controllo."
+  ]
+}

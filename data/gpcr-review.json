@@ -1,0 +1,380 @@
+{
+  "chapterId": "gpcr",
+  "chapterTitle": "Famiglie recettoriali e segnalazione",
+  "chapterPath": "chapter.json",
+  "chapterSha256": "a4986855fea6b8e1a8b920125cf518f64544c3d07552faddaf56351e18265173",
+  "readingPath": "reading.json",
+  "readingSha256": "7d8b87b3e1bd8fc742383905a904bb44aa0f164e40102d47664fa99d325edfde",
+  "reviewedOn": "2026-10-25",
+  "reviewer": "architettura_contenuti, agente diverso dall’autore del capitolo",
+  "outcome": "pass",
+  "scope": "Revisione editoriale delle fonti: confronto indipendente del testo e delle otto domande con le pagine citate, controllo dei passaggi molecolari richiesti e delle delimitazioni del contesto. Non è una validazione clinica, una revisione professionale o una certificazione dell’intera letteratura.",
+  "authorStatusPreserved": "bozza_fontata_da_revisionare",
+  "decision": "Non sono emersi errori sostanziali o citazioni mancanti nel perimetro controllato. L’esito si riferisce esclusivamente all’hash indicato, con le limitazioni elencate; il capitolo dell’autore non è stato modificato.",
+  "structuralChecks": {
+    "sections": 15,
+    "reasonedQuestions": 8,
+    "references": 24,
+    "wordCountLeadAndSectionText": 2950,
+    "allSectionAndQuestionRefsResolve": true,
+    "duplicateReferenceIds": false,
+    "allSectionsHaveReferences": true,
+    "animationsOrPublicationClaimed": false,
+    "clinicalDosesPresent": false
+  },
+  "checkedSections": [
+    {
+      "sectionIds": [
+        "segnale-risposta",
+        "architetture"
+      ],
+      "claims": [
+        "Recettore, trasduttore ed effettore descrivono livelli diversi della catena causale.",
+        "Recettori ionotropici, GPCR, chinasi intrinseche/associate e nucleari hanno architetture differenti.",
+        "Non ogni bersaglio farmacologico è un recettore."
+      ],
+      "refsChecked": [
+        "R-arch",
+        "R-famiglie",
+        "M-integrazione"
+      ],
+      "result": "supportato nel perimetro didattico"
+    },
+    {
+      "sectionIds": [
+        "ionotropici"
+      ],
+      "claims": [
+        "Il poro permette un flusso secondo condizioni elettrochimiche; apertura e blocco del poro sono distinti.",
+        "Cys-loop pentamerici, glutammato ionotropico tetramerico e P2X trimerico.",
+        "La rapidità del gating non richiede una cascata biochimica obbligatoria fra ligando e poro."
+      ],
+      "refsChecked": [
+        "R-ionotropici",
+        "R-arch"
+      ],
+      "result": "supportato; non estesa la composizione nicotinica embrionale dell’esempio a tutti i recettori"
+    },
+    {
+      "sectionIds": [
+        "ciclo-gpcr"
+      ],
+      "claims": [
+        "Il GPCR favorisce il rilascio del GDP e il legame di un’altra molecola di GTP, senza fosforilare il GDP.",
+        "Gα e Gβγ regolano effettori; Ras è una piccola GTPasi distinta dall’eterotrimero.",
+        "Idrolisi del GTP e accelerazione da RGS limitano il ciclo."
+      ],
+      "refsChecked": [
+        "R-G",
+        "M-chemochine"
+      ],
+      "visualCheck": "Rang PDF 70, figura 3.9",
+      "result": "supportato; corretta distinzione fra scambio e reazione di fosforilazione"
+    },
+    {
+      "sectionIds": [
+        "gs-camp",
+        "gi-betagamma"
+      ],
+      "claims": [
+        "Gs stimola e Gi può inibire adenilato ciclasi; ATP è il precursore del cAMP.",
+        "PKA è un bersaglio importante, non l’unico; PDE e AKAP organizzano persistenza e sede.",
+        "Gβγ di Gi/o può regolare GIRK e canali del calcio senza imporre che ogni effetto sia letto nel cAMP."
+      ],
+      "refsChecked": [
+        "R-camp",
+        "R-betagamma",
+        "M-akap"
+      ],
+      "visualCheck": "Molecolare PDF 162, testo AKAP e figura 13.4",
+      "result": "supportato; nessuna equivalenza Gi = spegnimento generico della cellula"
+    },
+    {
+      "sectionIds": [
+        "gq-plc",
+        "pi3k-akt"
+      ],
+      "claims": [
+        "Gαq attiva PLCβ; PLC idrolizza PIP2 in IP3 e DAG.",
+        "IP3 diffonde nel citosol e favorisce il rilascio dal reticolo, DAG resta in membrana.",
+        "PLCγ dipende da un sistema di attivazione distinto, associabile agli RTK.",
+        "PI3K aggiunge un fosfato alla posizione 3: nel circuito descritto PIP2 diviene PIP3; non è una scissione.",
+        "Il PIP3 favorisce incontri in membrana e AKT richiede fosforilazione; mTOR opera in complessi distinti."
+      ],
+      "refsChecked": [
+        "R-plc",
+        "M-plc",
+        "R-chinasi",
+        "M-akt"
+      ],
+      "visualCheck": "Molecolare PDF 162, figura 13.4",
+      "result": "supportato; il dettaglio storico TSC/mTOR non è trasferito come rete universale"
+    },
+    {
+      "sectionIds": [
+        "calcio-contesto",
+        "rete-spaziotempo"
+      ],
+      "claims": [
+        "Calcio libero e totale sono misure distinte; tamponi e organelli condizionano la disponibilità e i microterritori.",
+        "Ingresso, rilascio, estrusione e ricaptazione sono processi distinti.",
+        "L’effetto del cAMP/PKA differisce fra cuore e muscolatura liscia per i substrati presenti.",
+        "Amplificazione, feedback, fosfatasi e degradazione dei messaggeri non implicano crescita illimitata del segnale."
+      ],
+      "refsChecked": [
+        "M-calcio",
+        "M-calcio-spazio",
+        "R-camp",
+        "M-akap",
+        "M-integrazione",
+        "R-G",
+        "R-chinasi"
+      ],
+      "result": "supportato; esempi cardiaco, presinaptico e vascolare esplicitamente contestualizzati"
+    },
+    {
+      "sectionIds": [
+        "rtk",
+        "ras-mapk"
+      ],
+      "claims": [
+        "L’RTK possiede il dominio chinasico; fosfotirosine e domini SH2 organizzano il reclutamento.",
+        "Grb2/SOS collega il recettore allo scambio di nucleotide di Ras; Raf, MEK ed ERK costituiscono il ramo descritto.",
+        "MAPK non è sinonimo esclusivo di ERK; le PC12 illustrano che un nodo condiviso non determina da solo proliferazione."
+      ],
+      "refsChecked": [
+        "R-rtk",
+        "R-chinasi",
+        "M-plc",
+        "M-mapk",
+        "M-integrazione"
+      ],
+      "visualCheck": "Rang PDF 82, figura 3.17A",
+      "result": "supportato; esclusa l’inclusione anomala dei Toll-like nel paragrafo RTK del libro"
+    },
+    {
+      "sectionIds": [
+        "jak-stat"
+      ],
+      "claims": [
+        "I recettori citochinici ematopoietinici di classe I/II qui descritti mancano di attività chinasica intrinseca e si associano a JAK.",
+        "STAT viene reclutata tramite fosfotirosine, fosforilata e partecipa a complessi trascrizionali.",
+        "I complessi possono essere preassemblati; JAK-STAT non è attribuita a tutte le citochine."
+      ],
+      "refsChecked": [
+        "M-citochine",
+        "R-jak",
+        "M-chemochine"
+      ],
+      "visualCheck": "Rang PDF 82, figura 3.17B; Molecolare PDF 183, tabella 15.1 e testo",
+      "result": "supportato; la formulazione del capitolo evita la semplificazione universale di reclutamento tardivo di JAK"
+    },
+    {
+      "sectionIds": [
+        "nucleari"
+      ],
+      "claims": [
+        "Localizzazione e traslocazione variano fra recettori nucleari.",
+        "Coregolatori e cromatina contribuiscono a espressione aumentata o ridotta.",
+        "Sono riconosciute azioni non genomiche, senza ricondurre ogni effetto rapido alla via nucleare."
+      ],
+      "refsChecked": [
+        "R-nucleari",
+        "M-nucleari"
+      ],
+      "result": "supportato; non trasferite le classificazioni e percentuali storiche problematiche"
+    },
+    {
+      "sectionIds": [
+        "no-cgmp"
+      ],
+      "claims": [
+        "NO lega la guanilato ciclasi solubile contenente eme; questa produce cGMP da GTP.",
+        "PKG, canali e PDE sono bersagli del cGMP; il rilassamento è riferito alla muscolatura liscia vascolare.",
+        "La guanilato ciclasi di membrana attivata dai peptidi natriuretici è distinta dalla sGC sensibile a NO."
+      ],
+      "refsChecked": [
+        "RT-NO",
+        "RT-NObinding",
+        "RT-cgmp",
+        "R-chinasi"
+      ],
+      "result": "supportato dalle pagine Reactome aperte e dal Rang PDF 83; conservata la nota di inferenza animale della reazione annotata umana"
+    }
+  ],
+  "sourceChecks": [
+    {
+      "source": "Rang & Dale - Farmacologia (8ª ed 2016).pdf",
+      "path": "Rang & Dale - Farmacologia (8ª ed 2016).pdf",
+      "pdfPageNumbering": "base 1; non applicato offset per pagine stampate",
+      "extractedTextActuallyRereadPdfPages": [
+        58,
+        59,
+        60,
+        62,
+        64,
+        65,
+        67,
+        69,
+        70,
+        71,
+        72,
+        73,
+        75,
+        76,
+        77,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "renderedAndActuallyViewedPdfPages": [
+        70,
+        82
+      ],
+      "visualChecks": [
+        {
+          "pdfPage": 70,
+          "figure": "3.9",
+          "focus": "GDP rilasciato, GTP legato; Gα/Gβγ e idrolisi."
+        },
+        {
+          "pdfPage": 82,
+          "figure": "3.17",
+          "focus": "Confronto RTK-Ras/MAPK e recettore/JAK-STAT; nota sui dimeri preesistenti."
+        }
+      ],
+      "sourceAnomaliesNotTransferred": [
+        "PDF 60: accostamento errato di Na/K-ATPasi ai trasportatori ABC.",
+        "PDF 73: attribuzioni cliniche/PDE escluse dal capitolo.",
+        "PDF 81: inclusione anomala dei Toll-like nel paragrafo RTK.",
+        "PDF 85-86: formulazioni storiche e classificazioni nucleari non assunte come universali."
+      ],
+      "wholeChapterRead": false
+    },
+    {
+      "source": "Farmacologia generale e molecolare, quarta edizione 2012",
+      "path": "Farmacologia generale e molecolare.pdf",
+      "pdfPageNumbering": "base 1; stampate 141 per PDF 162 e 162 per PDF 183 verificate direttamente soltanto in queste pagine",
+      "extractedTextActuallyRereadPdfPages": [
+        117,
+        118,
+        123,
+        127,
+        133,
+        134,
+        135,
+        136,
+        162,
+        163,
+        183,
+        186,
+        244,
+        245
+      ],
+      "renderedAndActuallyViewedPdfPages": [
+        162,
+        183
+      ],
+      "visualChecks": [
+        {
+          "pdfPage": 162,
+          "printedPage": 141,
+          "figure": "13.4",
+          "focus": "PLCβ, Gαq/Gβγ, PIP2, DAG/IP3 e deposito intracellulare; testo AKAP."
+        },
+        {
+          "pdfPage": 183,
+          "printedPage": 162,
+          "table": "15.1",
+          "focus": "Classi I/II senza chinasi intrinseca, RTK con chinasi, IL-1/TNF/chemochine distinti; testo JAK."
+        }
+      ],
+      "sourceAnomaliesNotTransferred": [
+        "PDF 135-136: schema storico TSC/mTOR e prospettive terapeutiche non usati come rete universale o terapia attuale."
+      ],
+      "wholeChaptersRead": false
+    },
+    {
+      "source": "Reactome",
+      "actuallyOpenedAndRead": [
+        {
+          "url": "https://reactome.org/content/detail/R-HSA-392154",
+          "stableId": "R-HSA-392154",
+          "readParts": "Sommario, specie/compartimento e lista eventi NO-sGC-cGMP.",
+          "result": "Supporta l’ingresso NO e la guanilato ciclasi solubile."
+        },
+        {
+          "url": "https://reactome.org/content/detail/R-HSA-392143",
+          "stableId": "R-HSA-392143",
+          "readParts": "Sommario, partecipanti e provenienza della reazione.",
+          "result": "Supporta sGC emoproteina e bersagli cGMP; evento annotato umano con inferenza da Rattus norvegicus."
+        },
+        {
+          "url": "https://reactome.org/content/detail/R-HSA-418457",
+          "stableId": "R-HSA-418457",
+          "readParts": "Sommario ed eventi PKG/PDE/canali.",
+          "result": "Supporta effettori e rilasciamento vascolare nel contesto indicato."
+        }
+      ],
+      "readDate": "2026-10-25",
+      "searchResultOnlyUsedAsEvidence": false,
+      "wholeDatabaseReviewed": false
+    }
+  ],
+  "questionChecks": [
+    {
+      "number": 1,
+      "topic": "cAMP medio e microdomini",
+      "result": "pass; la risposta nega un’inferenza universale ed esplicita substrati e durata."
+    },
+    {
+      "number": 2,
+      "topic": "scambio GDP/GTP",
+      "result": "pass; distingue esplicitamente scambio da fosforilazione."
+    },
+    {
+      "number": 3,
+      "topic": "Gi/o e corrente di potassio",
+      "result": "pass; possibilità di ramo Gβγ senza dedurne una causalità dimostrata dal solo dato."
+    },
+    {
+      "number": 4,
+      "topic": "Gq con ingresso extracellulare limitato",
+      "result": "pass; considera il deposito preesistente e distingue avvio da mantenimento del segnale."
+    },
+    {
+      "number": 5,
+      "topic": "PLC e PI3K",
+      "result": "pass; prodotti e localizzazione differenti correttamente identificati."
+    },
+    {
+      "number": 6,
+      "topic": "JAK associata vs dominio intrinseco",
+      "result": "pass; delimita classi I/II e non tutte le citochine."
+    },
+    {
+      "number": 7,
+      "topic": "ERK e proliferazione",
+      "result": "pass; non conclude il fenotipo dal solo nodo attivato."
+    },
+    {
+      "number": 8,
+      "topic": "cGMP e origine NO",
+      "result": "pass; riconosce ingresso alternativo da guanilato ciclasi di membrana."
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Esito editoriale ottenuto da un agente, senza attestazione di qualifica medica, revisione professionale o validazione clinica.",
+    "Sono stati confrontati tutti i paragrafi e le otto domande con le pagine specifiche dichiarate. Non sono stati letti integralmente i capitoli, i tre libri, tutte le figure o la letteratura primaria sottostante.",
+    "La lettura indipendente qui documentata è distinta dal più ampio screening dell’autore in reading.json: pagine vagliate non sono promosse a pagine integralmente lette.",
+    "Solo quattro pagine sono state anche renderizzate e viste; per le altre la verifica si basa sul testo estratto pypdf, soggetto a imperfezioni OCR.",
+    "I libri sono edizioni 2012 e 2016, usate per fondamenti. Non è stato svolto un aggiornamento sistematico di isoforme, strutture, tutte le vie o farmacoterapia corrente.",
+    "Le tre pagine Reactome sono state aperte e lette: non sono sole evidenze indicizzate. Resta esplicita la provenienza per inferenza animale della reazione R-HSA-392143.",
+    "Il timeout IUPHAR PEP annotato dall’autore non viene usato come fonte del capitolo né della presente approvazione.",
+    "Non è stata controllata o modificata l’app, né verificata integrazione, navigazione, animazioni o pubblicazione. L’outcome pass non cambia lo stato della bozza dell’autore e non attesta un rilascio."
+  ]
+}

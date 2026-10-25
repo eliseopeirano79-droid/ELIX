@@ -1,36 +1,39 @@
 {
   "updatedAt": "2026-10-25",
-  "batch": "theory-foundations",
+  "batch": "theory-complementary",
   "status": "verified_locally_pending_publication",
-  "release": "0.28.0",
-  "branch": "feat/theory-foundations",
-  "baseCommit": "4fea153a3ffd0b871d619beac3ffae0d3e97953e",
+  "release": "0.29.0",
+  "branch": "feat/theory-complementary",
+  "baseCommit": "a504200dccc71703a7327b831b88c2a23fbd14d3",
   "previousBatch": {
-    "batch": "solifenacin-muscarinic",
+    "batch": "theory-foundations",
     "status": "published_and_live_verified",
-    "commit": "4fea153a3ffd0b871d619beac3ffae0d3e97953e",
-    "receipt": "../../outputs/ELIX-solifenacin-2026-10-25/release-verification.json"
+    "release": "0.28.0",
+    "commit": "a504200dccc71703a7327b831b88c2a23fbd14d3",
+    "receipt": "../../outputs/ELIX-theory-2026-10-25/release-verification.json"
   },
   "scope": [
-    "Expand existing receptor chapter with2356 original words/13sections; no duplicate chapter.",
-    "Original binding explorer; source links, explanations and mobile collapsible index.",
-    "One integrator; four completed read-only coordination reports; historical drafts recovered selectively."
+    "Integrate three reviewed existing chapters without duplicating or rewriting their prose: modelli-pk, gpcr, desensibilizzazione-tolleranza.",
+    "47 sections, 8416 body words and 24 reasoned self-checks. Preserve recettori-e-legame.",
+    "Per-chapter source ledgers, related chapter links, offline availability and narrow mobile layout."
   ],
   "completed": [
-    "31 data validators passed; existing55chapters and drug/PK counts preserved.",
-    "Eight width/theme combinations including320px;39paragraphs,13sections,4selfchecks,source focus and search passed.",
-    "Original binding explorer uses equilibrium model, keyboard and0/1/9Kd examples; no dose or effect prediction.",
-    "Offline chapter, interaction and reading ledger passed.",
-    "Real0.27→0.28 update preserves favorites and quiz progress and removes old cache.",
-    "16 branding configurations, six routes and legacy redirects/query/hash/storage/fallback/offline passed.",
-    "Desktop/mobile screenshots visually inspected in dark and light themes."
+    "Package hashes and exact equality of sections, questions and references to reviewed author sources verified.",
+    "Integrator read all 47 sections and 24 questions; no new book readings claimed.",
+    "32 data validators passed.",
+    "Real 0.28 to 0.29 upgrade preserves favorites and progress.",
+    "24 chapter/viewport/theme configurations passed: 1440, 768, 390 and 320 pixels in both themes.",
+    "Chapter/source navigation, all 24 explanations with keyboard, library and global full-text search passed.",
+    "All three chapters and individual reading/review records work offline.",
+    "Existing foundation chapter passed eight viewport/theme configurations after the shared mobile layout fix.",
+    "16 branding configurations, six routes, legacy redirects/query/hash/saved data and failure fallback passed.",
+    "Desktop/mobile screenshots inspected in dark and light themes."
   ],
   "remaining": [
     "PR and main CI",
     "Completed deploy and online verification",
-    "Public-file hashes and final receipt"
+    "Public asset hashes and final receipt"
   ],
-  "readingManifest": "data/theory-foundations-reading.json",
   "counts": {
     "identities": 4225,
     "editorial": 100,
@@ -46,15 +49,19 @@
     "newProductPKContexts": 0,
     "newPKFields": 0,
     "newChapters": 0,
-    "expandedChapters": 1,
-    "newInteractiveLabs": 1
+    "expandedChapters": 3,
+    "newInteractiveLabs": 0
   },
-  "nextBatch": "Integrate complementary theory only after receiving and reviewing separate artifacts from Avanza la super app di farmacologia: pharmacokinetics, receptor signalling, adaptations/interactions. That chat owns those three production streams; current chat alone integrates/publishes. Continue deduplicated FarmacoII transcript inventory and source reconciliation without claiming whole-corpus completion. Tolterodine remains queued.",
+  "readingManifests": [
+    "data/modelli-pk-reading.json",
+    "data/gpcr-reading.json",
+    "data/desensibilizzazione-tolleranza-reading.json"
+  ],
   "limits": [
-    "All books are partial readings;3401 available PDF pages are not3401 reviewed pages.",
-    "FarmacoI remaining lessons and full slide reconciliation, including Collino.",
-    "FarmacoII slide and transcript inventory, deduplication and topic-by-topic reading, including D’Avolio/Collino/Serpe.",
-    "Independent specialist review; remaining54 short theory units need expansion.",
-    "Rang chapter2/7 and Clementi chapter5 comparison beyond recovered T02 intervals."
-  ]
+    "Four chapters extended out of 55 existing units; remaining 51 still need expansion.",
+    "Full books, Farmaco I/II slides and transcripts not fully read. Inventoried files are not reviewed content.",
+    "Editorial checks by agents are not specialist clinical validation.",
+    "This batch adds no new drug profiles or animations."
+  ],
+  "nextBatch": "Continue deduplicated Farmaco II transcript inventory and topic-based reconciliation with slides/books for the remaining short theory units. Read shared coordination state first; one integrator, no new duplicate assignments. Tolterodine remains in backlog."
 }
