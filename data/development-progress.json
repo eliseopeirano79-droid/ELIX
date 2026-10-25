@@ -1,67 +1,68 @@
 {
-  "updatedAt": "2026-10-24",
-  "batch": "siponimod-comparison",
+  "updatedAt": "2026-10-25",
+  "batch": "ozanimod-metabolites",
   "status": "verified_locally_pending_publication",
-  "release": "0.22.0",
-  "branch": "feat/siponimod-comparison",
-  "baseCommit": "f75fcc7dc40fc6ed63d29142386fefa7c991e973",
+  "release": "0.23.0",
+  "branch": "feat/ozanimod-metabolites",
+  "baseCommit": "6b1332ccdada0186a0975ce87554b2359358dafc",
   "previousBatch": {
-    "batch": "s1p-trafficking-lab",
+    "batch": "siponimod-comparison",
     "status": "published_and_live_verified",
-    "commit": "f75fcc7dc40fc6ed63d29142386fefa7c991e973",
-    "receipt": "../../outputs/ELIX-s1p-2026-10-24/release-verification.json"
+    "commit": "6b1332ccdada0186a0975ce87554b2359358dafc",
+    "receipt": "../../outputs/ELIX-siponimod-2026-10-24/release-verification.json"
   },
   "scope": [
-    "Original three-view comparison: receptor activation, metabolism and distinct EU disease indications",
-    "Existing siponimod identity enriched with one EU oral product PK context and six documented fields",
-    "CYP2C9 metabolic profile, expanded pharmacogenomics chapter and bidirectional links to drug and S1P1 lab"
+    "Original three-view lab: active parent, interconverting active metabolites and distinct half-lives",
+    "Existing ozanimod parent enriched with one EU oral product PK context: five documented fields and one explicit source gap",
+    "S1PR5 profile, metabolism chapter expansion and bidirectional links to drug, S1PR1 and CYP2C9 labs"
   ],
   "completed": [
-    "25 data validators passed; three model states and invalid inputs checked",
+    "26 data validators passed; three model states and invalid inputs checked",
     "Eight lab and eight drug viewport/theme configurations passed, including 320 px",
-    "Name/synonym search, references, chapter/gallery and bidirectional links passed",
+    "Name/brand search, references, chapter/gallery and bidirectional links passed",
     "Delayed catalog and theme redraw preserve state; keyboard focus and keyboard control verified",
-    "Static diagrams respect reduced motion; lab and new PK work offline",
-    "Real 0.21.0 to 0.22.0 upgrade preserves favorites and quiz progress",
+    "Static diagrams respect reduced motion; lab and six new PK fields work offline",
+    "Real 0.22.0 to 0.23.0 upgrade preserves favorites and quiz progress",
     "16 branding configurations passed; legacy redirect, destination failure fallback, offline and local data preserved",
-    "Desktop dark/mobile light diagrams, mobile header and PK cards visually inspected"
+    "Desktop and mobile diagrams in dark/light themes, mobile header and PK cards visually inspected"
   ],
   "remaining": [
     "PR and main CI",
     "Deployment and online verification",
     "Public-file hashes and final receipt"
   ],
-  "readingManifest": "data/siponimod-reading.json",
+  "readingManifest": "data/ozanimod-reading.json",
   "counts": {
     "identities": 4225,
-    "editorial": 95,
-    "productPKContexts": 65,
-    "pkFields": 390,
+    "editorial": 96,
+    "productPKContexts": 66,
+    "pkFields": 396,
     "importedLabelsWithoutEditorial": 93,
-    "targetProfiles": 34
+    "targetProfiles": 35
   },
   "changes": {
     "newIdentities": 0,
     "newDrugSummaries": 1,
     "newProductPKContexts": 1,
     "newPKFields": 6,
-    "documentedFields": 6,
-    "explicitSourceGaps": 0,
-    "numericFields": 4,
+    "documentedFields": 5,
+    "explicitSourceGaps": 1,
+    "numericFields": 3,
     "newInteractiveLabs": 1,
     "newTargetProfiles": 1,
     "expandedExistingChapters": 1
   },
   "limits": [
     "Selective educational synthesis, not independent clinical review or complete contraindication list.",
-    "Only recorded pages/sections read; no whole-book, full product-document, full research-paper or full-guideline claim.",
-    "No doses, concentrations, recovery time, clinical efficacy or genetic risk predictions calculated.",
-    "CYP2C9 is a metabolic enzyme, not the pharmacodynamic receptor of siponimod; S1P1/5 selectivity does not abolish cardiac precautions.",
-    "Current EMA 2026 CYP2C9 contribution qualified for *1/*1; historical CYP3A4 fractions and interaction rules not imported.",
-    "NICE context and EU product distinct; no Italian reimbursement claim.",
-    "Parent and fumarate remain distinct. Half-life does not predict immunologic recovery.",
+    "Only recorded pages/sections read; no whole-book, full product-document or full-guideline claim.",
+    "No doses, concentrations, immune recovery, clinical efficacy or risk predictions calculated.",
+    "Active parent and active metabolites distinguished; 21 h parent plasma half-life and 11 d model-based effective metabolite half-life are not interchangeable.",
+    "Absolute bioavailability not quantified by the RCP; radioactivity recovery not unchanged-drug excretion.",
+    "S1P5 expression and receptor binding do not establish remyelination or the complete therapeutic mechanism.",
+    "ECCO and NICE recommendations remain in their disease and jurisdiction context; no Italian reimbursement claim.",
+    "Parent and hydrochloride remain distinct; no automatic salt inheritance.",
     "Original sources, legacy repos and catalog snapshots unchanged.",
-    "Imported-label backlog remains 93: this identity lacked an imported label in that index."
+    "Imported-label backlog remains 93: ozanimod lacked an imported label in that index."
   ],
-  "nextBatch": "Ozanimod CHEMBL3707247: identità presente ma sintesi e PK assenti al 24/10/2026; cloridrato CHEMBL3707246 separato. Verificare RCP UE corrente, recettori S1P e ruolo dei metaboliti attivi con contesto delle indicazioni. Leggere un intervallo mirato, senza estendere automaticamente dati fra formulazioni o sali. Avviare nel ciclo successivo alla consegna 0.22 verificata."
+  "nextBatch": "Ponesimod CHEMBL1096146: identità già presente, senza sintesi né profilo PK al 25/10/2026. Verificare RCP UE corrente, selettività recettoriale e contesto della SM; individuare un intervallo mirato di lettura per collegare recettori e farmacocinetica. Avviare soltanto nel ciclo successivo alla consegna 0.23 pubblicata e verificata."
 }

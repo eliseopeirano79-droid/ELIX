@@ -28,7 +28,7 @@ let states=0;for(let stage=0;stage<5;stage++)for(const ach of [false,true]){cons
 assert.equal(nmjState(3,true).code,'capture-blocked');assert.equal(nmjState(4,false).flow,false);
 globalThis.document={addEventListener(){},getElementById(){return null}};const {createReceptorAtlas}=await import('../receptors.js');const rx=createReceptorAtlas({drugs:[],refresh(){}});
 assert.match(rx.route('receptors','NACHR_MUSCLE'),/elix-nmj-lab/);assert.match(rx.route('receptors','NACHR_MUSCLE'),/#\/drug\/rocuronio/);assert.doesNotMatch(rx.route('receptors','NACHR_MUSCLE'),/#\/drug\/sugammadex/);
-const report=buildCatalogCoverage({catalog,editorial:ed,pk,index:read('data/verified/index.json')});assert.deepEqual([report.counts.records,report.counts.editorial,report.counts.profileContexts,report.counts.pkFields,report.counts.labelWithoutEditorial],[4225,95,65,390,93]);
+const report=buildCatalogCoverage({catalog,editorial:ed,pk,index:read('data/verified/index.json')});assert.deepEqual([report.counts.records,report.counts.editorial,report.counts.profileContexts,report.counts.pkFields,report.counts.labelWithoutEditorial],[4225,96,66,396,93]);
 const manifest=read('data/nmj-reading.json');assert.deepEqual(manifest.books[0].pdfPages,[253,254,268,269,270,271]);assert.equal(manifest.officialSources[2].fullTextRead,false);
 const sw=fs.readFileSync(new URL('../sw.js',import.meta.url),'utf8');for(const f of ['elix-nmj-batch.js','elix-nmj-visuals.js','elix-nmj.css'])assert.ok(sw.includes(f));
 console.log('NMJ_PASS',JSON.stringify({states,fields,gaps,numeric,newIdentities:0,newSummaries:2,newProfiles:2,counts:report.counts}));

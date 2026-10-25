@@ -4,9 +4,9 @@ Procedere con un solo lotto alla volta. Riprendere il lavoro incompleto prima di
 
 ## Consegna corrente
 
-Lotto `siponimod-comparison`, versione 0.22.0: confronto originale in tre viste fra siponimod e fingolimod, con bersagli, metabolismo e indicazioni UE distinti. Una sintesi e un contesto PK orale UE per l’identità siponimod già presente, sei campi documentati; nessun duplicato. Profilo metabolico CYP2C9 e capitolo sulla farmacogenomica ampliato. Letture effettive e limiti in `data/siponimod-reading.json`.
+Lotto `ozanimod-metabolites`, versione 0.23.0: laboratorio originale in tre viste su parentale, metaboliti attivi e due emivite contestualizzate. Una sintesi e un contesto PK orale UE per l’identità ozanimod già presente: cinque campi documentati e una lacuna esplicita sulla biodisponibilità assoluta. Profilo S1PR5 e capitolo metabolismo ampliato, collegamenti bidirezionali. Nessun duplicato. Letture effettive del 24/10/2026 e limiti in `data/ozanimod-reading.json`.
 
-Il precedente lotto 0.21.0 è pubblicato e verificato al commit `f75fcc7dc40fc6ed63d29142386fefa7c991e973`; non ripeterlo.
+Il precedente lotto 0.22.0 è pubblicato e verificato al commit `6b1332ccdada0186a0975ce87554b2359358dafc`; non ripeterlo.
 
 Il checkpoint è preparato prima della pubblicazione. La ricevuta in `../../outputs/ELIX-latest-verification.json` prevale solo quando batch e versione coincidono e certifica deploy e verifica online conclusi. Se non coincide, completare gli elementi residui del checkpoint.
 
@@ -21,4 +21,4 @@ Il checkpoint è preparato prima della pubblicazione. La ricevuta in `../../outp
 
 ## Coda dopo questo lotto
 
-Solo dopo pubblicazione e verifica: Ozanimod CHEMBL3707247: identità presente ma sintesi e PK assenti al 24/10/2026; cloridrato CHEMBL3707246 separato. Verificare RCP UE corrente, recettori S1P e ruolo dei metaboliti attivi con contesto delle indicazioni. Leggere un intervallo mirato, senza estendere automaticamente dati fra formulazioni o sali. Avviare nel ciclo successivo alla consegna 0.22 verificata.
+Solo dopo pubblicazione e verifica: Ponesimod CHEMBL1096146: identità già presente, senza sintesi né profilo PK al 25/10/2026. Verificare RCP UE corrente, selettività recettoriale e contesto della SM; individuare un intervallo mirato di lettura per collegare recettori e farmacocinetica. Avviare soltanto nel ciclo successivo alla consegna 0.23 pubblicata e verificata.

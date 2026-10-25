@@ -126,19 +126,34 @@ export const EXPANDED_CHAPTERS=[
       {
         "title": "Varianti genetiche e pro-farmaci",
         "text": "Un polimorfismo che riduce il metabolismo può aumentare l'esposizione al principio attivo, ma per i profarmaci talvolta riduce l'attivazione. Clopidogrel e metoprololo aiutano a distinguere le due situazioni: il segno dell'effetto cambia secondo la reazione interessata."
+      },
+      {
+        "title": "Metabolita attivo non significa necessariamente profarmaco",
+        "text": "Un farmaco può essere già attivo e generare altre sostanze attive, oppure richiedere una trasformazione per acquisire l’attività. Ozanimod appartiene al primo caso: il parentale e i principali metaboliti CC112273 e CC1084037 condividono attività S1P₁/S1P₅. Non basta sapere che esiste un metabolita attivo per classificare una sostanza come profarmaco."
+      },
+      {
+        "title": "Formazione ed eliminazione possono cambiare in modi differenti",
+        "text": "L’effetto di un’interazione dipende dal passaggio coinvolto: formare un metabolita attivo è diverso dall’eliminarlo. Il RCP di ozanimod sconsiglia MAO-inibitori e induttori CYP2C8, ma richiede cautela con forti inibitori CYP2C8. Le vie multiple impediscono di ridurre tutta la molecola a una sola coppia farmaco–enzima."
+      },
+      {
+        "title": "L’emivita richiede il nome della sostanza e del modello",
+        "text": "Il RCP riporta circa 21 ore per l’emivita plasmatica media di ozanimod e circa 11 giorni per l’emivita efficace di CC112273, stimata da modello in SM recidivante e molto variabile. Non sono due stime intercambiabili della stessa quantità: la persistenza del metabolita aiuta a capire perché il parentale da solo non descrive tutta l’esposizione attiva, senza predire il recupero clinico."
       }
     ],
     "drugs": [
       "clopidogrel",
       "metoprololo",
-      "eplerenone"
+      "eplerenone",
+      "ozanimod"
     ],
     "targets": [
       "CYP2C19",
-      "CYP2D6"
+      "CYP2D6",
+      "S1PR5"
     ],
-    "review": "Sintesi originale a scopo didattico; indicazioni e dati quantitativi richiedono consultazione della fonte versionata."
+    "review": "Sintesi selettiva: Rang & Dale, 8ª ed. italiana 2016, PDF 195–196, e Serpe 2025–26, PDF 239, per principi generali. Caso ozanimod: RCP EMA Zeposia, file 03/03/2026, sezioni selezionate consultate 24/10/2026. Letture e limiti in data/ozanimod-reading.json; non revisione clinica indipendente."
   },
+
   {
     "id": "canali-ionici",
     "volume": 4,
