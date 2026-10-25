@@ -27,5 +27,5 @@ let states=0;
 for(let n=0;n<8;n++){const s=Object.fromEntries(['gaba','benzodiazepine','flumazenil'].map((k,i)=>[k,!!(n&1<<i)]));const x=neuroState('GABAA',s);assert.equal(x.flow,s.gaba);assert.equal(x.code==='potentiated',s.gaba&&s.benzodiazepine&&!s.flumazenil);states++;}
 for(let n=0;n<32;n++){const s=Object.fromEntries(['glutamate','coagonist','depolarized','ketamine','memantine'].map((k,i)=>[k,!!(n&1<<i)]));const x=neuroState('NMDAR',s);assert.equal(x.flow,s.glutamate&&s.coagonist&&s.depolarized&&!s.ketamine&&!s.memantine);states++;}
 const report=buildCatalogCoverage({catalog,editorial:ed,pk,index:read('data/verified/index.json')});
-assert.deepEqual([report.counts.records,report.counts.editorial,report.counts.profileContexts,report.counts.pkFields,report.counts.labelWithoutEditorial],[4225,96,66,396,93]);
+assert.deepEqual([report.counts.records,report.counts.editorial,report.counts.profileContexts,report.counts.pkFields,report.counts.labelWithoutEditorial],[4225,97,67,402,93]);
 console.log('NEURO_DRUGS_PASS',JSON.stringify({newIdentities:0,newSummaries:2,newProfiles:2,fields,gaps,numeric,states,counts:report.counts}));

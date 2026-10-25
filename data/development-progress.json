@@ -1,42 +1,43 @@
 {
   "updatedAt": "2026-10-25",
-  "batch": "ozanimod-metabolites",
+  "batch": "ponesimod-selectivity",
   "status": "verified_locally_pending_publication",
-  "release": "0.23.0",
-  "branch": "feat/ozanimod-metabolites",
-  "baseCommit": "6b1332ccdada0186a0975ce87554b2359358dafc",
+  "release": "0.24.0",
+  "branch": "feat/ponesimod-selectivity",
+  "baseCommit": "528f10eba5960c1d2f4e86f6540ffda90fc2a941",
   "previousBatch": {
-    "batch": "siponimod-comparison",
+    "batch": "ozanimod-metabolites",
     "status": "published_and_live_verified",
-    "commit": "6b1332ccdada0186a0975ce87554b2359358dafc",
-    "receipt": "../../outputs/ELIX-siponimod-2026-10-24/release-verification.json"
+    "commit": "528f10eba5960c1d2f4e86f6540ffda90fc2a941",
+    "receipt": "../../outputs/ELIX-ozanimod-2026-10-25/release-verification.json"
   },
   "scope": [
-    "Original three-view lab: active parent, interconverting active metabolites and distinct half-lives",
-    "Existing ozanimod parent enriched with one EU oral product PK context: five documented fields and one explicit source gap",
-    "S1PR5 profile, metabolism chapter expansion and bidirectional links to drug, S1PR1 and CYP2C9 labs"
+    "Original three-view lab on selectivity, lymphocyte redistribution and cardiac precautions",
+    "One existing ponesimod identity enriched with EU oral product PK: six documented fields",
+    "S1PR1 topic selector and deep link preserve the existing fingolimod lab; receptor-response chapter expanded"
   ],
   "completed": [
-    "26 data validators passed; three model states and invalid inputs checked",
+    "27 data validators passed; three reading views and invalid inputs checked",
     "Eight lab and eight drug viewport/theme configurations passed, including 320 px",
     "Name/brand search, references, chapter/gallery and bidirectional links passed",
-    "Delayed catalog and theme redraw preserve state; keyboard focus and keyboard control verified",
-    "Static diagrams respect reduced motion; lab and six new PK fields work offline",
-    "Real 0.22.0 to 0.23.0 upgrade preserves favorites and quiz progress",
+    "New deep link and centered S1PR1 topic selector preserve the original fingolimod lab",
+    "Delayed catalog and theme redraw preserve state and keyboard focus",
+    "Static diagrams respect reduced motion; lab and six PK fields work offline",
+    "Real 0.23.0 to 0.24.0 update preserves favorites and quiz progress",
     "16 branding configurations passed; legacy redirect, destination failure fallback, offline and local data preserved",
-    "Desktop and mobile diagrams in dark/light themes, mobile header and PK cards visually inspected"
+    "Desktop/mobile diagrams, topic selector, header and PK cards visually inspected"
   ],
   "remaining": [
     "PR and main CI",
     "Deployment and online verification",
     "Public-file hashes and final receipt"
   ],
-  "readingManifest": "data/ozanimod-reading.json",
+  "readingManifest": "data/ponesimod-reading.json",
   "counts": {
     "identities": 4225,
-    "editorial": 96,
-    "productPKContexts": 66,
-    "pkFields": 396,
+    "editorial": 97,
+    "productPKContexts": 67,
+    "pkFields": 402,
     "importedLabelsWithoutEditorial": 93,
     "targetProfiles": 35
   },
@@ -45,24 +46,24 @@
     "newDrugSummaries": 1,
     "newProductPKContexts": 1,
     "newPKFields": 6,
-    "documentedFields": 5,
-    "explicitSourceGaps": 1,
-    "numericFields": 3,
+    "documentedFields": 6,
+    "explicitSourceGaps": 0,
+    "numericFields": 4,
     "newInteractiveLabs": 1,
-    "newTargetProfiles": 1,
+    "newTargetProfiles": 0,
     "expandedExistingChapters": 1
   },
   "limits": [
     "Selective educational synthesis, not independent clinical review or complete contraindication list.",
     "Only recorded pages/sections read; no whole-book, full product-document or full-guideline claim.",
-    "No doses, concentrations, immune recovery, clinical efficacy or risk predictions calculated.",
-    "Active parent and active metabolites distinguished; 21 h parent plasma half-life and 11 d model-based effective metabolite half-life are not interchangeable.",
-    "Absolute bioavailability not quantified by the RCP; radioactivity recovery not unchanged-drug excretion.",
-    "S1P5 expression and receptor binding do not establish remyelination or the complete therapeutic mechanism.",
-    "ECCO and NICE recommendations remain in their disease and jurisdiction context; no Italian reimbursement claim.",
-    "Parent and hydrochloride remain distinct; no automatic salt inheritance.",
-    "Original sources, legacy repos and catalog snapshots unchanged.",
-    "Imported-label backlog remains 93: ozanimod lacked an imported label in that index."
+    "No doses, receptor occupancy, heart traces, clinical risks or immune recovery times predicted.",
+    "S1P1 focus does not mean absolute absence of activity at other receptor subtypes; no quantitative assay values or clinical contribution inferred from IUPHAR.",
+    "Cardiac icon illustrates documented RCP effects and precautions, not a complete cardiac molecular pathway.",
+    "33 h half-life distinct from clinical recovery; 83.8% absolute oral bioavailability qualified by 10 mg studied dose.",
+    "M12/M13 inactive at S1P receptors at concentrations reached with therapeutic doses; no automatic inheritance from ozanimod metabolites.",
+    "Dose recovery, unchanged faecal parent and protein binding retain distinct denominators.",
+    "EU RMS indication and NICE RRMS recommendation distinguished; no Italian reimbursement claim.",
+    "Original sources, legacy repositories and catalog snapshots unchanged; imported-label backlog remains 93."
   ],
-  "nextBatch": "Ponesimod CHEMBL1096146: identità già presente, senza sintesi né profilo PK al 25/10/2026. Verificare RCP UE corrente, selettività recettoriale e contesto della SM; individuare un intervallo mirato di lettura per collegare recettori e farmacocinetica. Avviare soltanto nel ciclo successivo alla consegna 0.23 pubblicata e verificata."
+  "nextBatch": "Mirabegron CHEMBL2095212: identità presente ma sintesi e PK assenti al 25/10/2026; profilo ADRB3 non ancora presente. Verificare RCP UE corrente e linee guida per vescica iperattiva, collegare β3 e fisiologia del detrusore con una grafica originale. Selezionare un intervallo pertinente di Katzung, verificandone prima edizione e pagine. Avviare nel ciclo successivo alla consegna 0.24 pubblicata e verificata."
 }

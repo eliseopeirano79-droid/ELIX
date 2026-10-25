@@ -1,0 +1,137 @@
+{
+  "batch": "ponesimod-selectivity",
+  "checkedAt": "2026-10-25",
+  "books": [
+    {
+      "title": "Rang & Dale, Farmacologia",
+      "edition": "8ª edizione italiana, 2016",
+      "file": "Rang & Dale - Farmacologia (8ª ed 2016).pdf",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "chapter": 2,
+      "pdfPages": [
+        35,
+        36,
+        37
+      ],
+      "newlyReadPdfPages": [
+        35,
+        36,
+        37
+      ],
+      "visualPagesRead": [
+        36
+      ],
+      "pageNumbering": "One-based PDF indices, not printed pages",
+      "readMode": "Complete extracted text on all three pages; page 36 visually inspected",
+      "scope": "Targets, specificity, classification, binding and response. General principles only; no ponesimod-specific textbook passage claimed. Remaining pages unread except prior recorded batches.",
+      "fullBookRead": false
+    }
+  ],
+  "slides": [
+    {
+      "author": "Loredana Serpe",
+      "file": "FarmacoI-Serpe-2025-26.pdf",
+      "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
+      "courseYear": "2025–26 from supplied filename",
+      "pdfPages": [
+        149
+      ],
+      "newlyReadPdfPages": [
+        149
+      ],
+      "printedSlideNumbers": [
+        147
+      ],
+      "visualPagesRead": [
+        149
+      ],
+      "readMode": "Entire slide visually read; embedded figure credits Clark, Le basi della farmacologia, without an edition number",
+      "scope": "General therapeutic-window illustration only. No curves, therapeutic index or safety interval inferred for ponesimod; no figure reproduced. Remaining slides unread except prior recorded batches.",
+      "fullDocumentRead": false
+    }
+  ],
+  "officialSources": [
+    {
+      "id": "pon-ponvory",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/ponvory-epar-product-information_en.pdf",
+      "productPage": "https://www.ema.europa.eu/en/medicines/human/EPAR/ponvory",
+      "fileUpdated": "2026-03-10",
+      "revisionDate": "Section 10 blank; no text revision date inferred. Latest procedure R/0000292277 dated 2026-02-12 is distinct from file update.",
+      "sha256": "22aeeb9332cb21ba49be6dac5aee38e9c86e8cc3c44811970b33408e3fed5e74",
+      "pdfPages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        16,
+        17,
+        20,
+        21,
+        24
+      ],
+      "visualPagesRead": [
+        20
+      ],
+      "readMode": "Complete local text of every listed page; page 20 image inspected. Product page metadata checked online.",
+      "scope": "Indication, selected safety/interactions, mechanism and six PK fields. Opening adverse-event and overdose text on page 16 and trial description on page 17 read but not used for dosing, efficacy rankings or emergency algorithms. Preclinical text at end of page 21 not integrated. Unlisted pages, annexes and efficacy tables unread.",
+      "fullDocumentRead": false,
+      "keyDistinctions": [
+        "RMS EU indication kept distinct from RRMS in NICE TA767.",
+        "33 h oral elimination half-life is not immune recovery time.",
+        "83.8% absolute oral bioavailability refers to the 10 mg dose studied.",
+        "Protein binding >99% is not plasma/whole-blood partition 78.5%.",
+        "M12/M13 inactive at S1P receptors at concentrations reached with therapeutic doses.",
+        "Dose recovery ranges and 16% unchanged parent in faeces are not renal clearance.",
+        "Current CYP3A4/UGT1A1 inducer guidance read directly; older class assumptions not inherited."
+      ]
+    },
+    {
+      "id": "pon-nice",
+      "url": "https://www.nice.org.uk/guidance/ta767/resources/ponesimod-for-treating-relapsingremitting-multiple-sclerosis-pdf-82611440942533",
+      "published": "2022-02-02",
+      "pdfPages": [
+        4
+      ],
+      "sections": [
+        "1.1",
+        "1.2",
+        "Why the committee made these recommendations"
+      ],
+      "readMode": "Full official indexed recommendations and rationale; direct HTML returned 403. NG220 1.8.1 and 1.8.4 cross-references also read.",
+      "fullTextRead": false,
+      "limits": "Full appraisal and evidence review not read. Copyright date not a revision date; no Italian reimbursement inference."
+    }
+  ],
+  "targetSources": [
+    {
+      "id": "pon-iuphar",
+      "url": "https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=9320&tab=biology",
+      "readSections": [
+        "Identity/synonyms",
+        "Comment",
+        "Bioactivity comments and indexed selectivity entries"
+      ],
+      "readMode": "Official page and indexed text",
+      "fullRecordRead": false,
+      "limits": "No numeric potency or efficacy values imported. Original cited preclinical article not read. Partial activity at other subtypes does not establish their clinical contribution."
+    },
+    {
+      "id": "pon-nci",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/ponesimod",
+      "readSections": [
+        "Complete pharmacological definition"
+      ],
+      "fullRecordRead": false,
+      "limits": "Supports functional antagonism; not an oncology indication or an independent clinical review."
+    }
+  ],
+  "publication": [
+    "Only original summaries and vector diagrams; no textbook pages, source PDFs or figures published.",
+    "Reading views do not simulate doses, occupancy, heart traces, probabilities or recovery times."
+  ]
+}

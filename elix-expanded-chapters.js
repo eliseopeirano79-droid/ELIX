@@ -61,18 +61,27 @@ export const EXPANDED_CHAPTERS=[
       {
         "title": "Sclerosi multipla: processi e obiettivi distinti",
         "text": "Fingolimod modifica il traffico linfocitario ed è una terapia modificante la malattia in specifiche forme altamente attive di SM recidivante-remittente. Fampridina mira invece a migliorare la marcia in una popolazione definita. Collegare le due schede aiuta a distinguere controllo della malattia e trattamento sintomatico, senza dedurre equivalenza, rimielinizzazione o scelta terapeutica individuale."
+      },
+      {
+        "title": "Selettività, sistema sperimentale e precauzioni",
+        "text": "La preferenza per un sottotipo dipende dal saggio e dalle concentrazioni: non dimostra assenza assoluta di altre attività. Ponesimod è descritto dal RCP come modulatore S1P₁, mentre IUPHAR documenta attività sperimentali anche su altri sottotipi. Il profilo di laboratorio non sostituisce l’osservazione della persona: il RCP mantiene precauzioni per frequenza e conduzione cardiaca all’avvio."
+      },
+      {
+        "title": "Margine terapeutico e beneficio richiedono un contesto",
+        "text": "Legame al bersaglio, risposta cellulare e rapporto fra beneficio e rischio sono livelli distinti. Un intervallo fra effetti desiderati e indesiderati non si ricava dal nome del recettore. Nel caso di ponesimod, NICE distingue la riduzione delle ricadute dall’incertezza sulla progressione della disabilità; il laboratorio non assegna una dose sicura o una previsione individuale."
       }
     ],
     "drugs": [
       "salbutamolo",
       "propranololo",
-      "fingolimod"
+      "fingolimod",
+      "ponesimod"
     ],
     "targets": [
       "ADRB2",
       "S1PR1"
     ],
-    "review": "Sintesi originale a scopo didattico; indicazioni e dati quantitativi richiedono consultazione della fonte versionata. Approfondimento S1P: Rang & Dale 8ª ed. italiana, PDF 78–80; Serpe 2025–26, PDF 151; RCP EMA Gilenya §§ 5.1–5.2 e Oo et al., JCI 2011, DOI 10.1172/JCI45403, sezioni selezionate. Consultazione 24/10/2026."
+    "review": "Sintesi originale a scopo didattico; indicazioni e dati quantitativi richiedono consultazione della fonte versionata. Approfondimento S1P: Rang & Dale 8ª ed. italiana, PDF 78–80; Serpe 2025–26, PDF 151; RCP EMA Gilenya §§ 5.1–5.2 e Oo et al., JCI 2011, DOI 10.1172/JCI45403, sezioni selezionate. Consultazione 24/10/2026. Approfondimento ponesimod: Rang & Dale PDF 35–37; Serpe 2025–26 PDF 149 (slide 147); RCP EMA Ponvory file 10/03/2026, IUPHAR ligando 9320 e NICE TA767 §§ 1.1–1.2 e motivazione, sezioni selezionate consultate 25/10/2026. Letture in data/ponesimod-reading.json."
   },
   {
     "id": "assorbimento-distribuzione",
