@@ -1,25 +1,27 @@
 # Sviluppo continuativo ELIX
 
-Un solo lotto e un solo integratore alla volta. Questa chat coordina e pubblica; le altre chat del progetto hanno svolto ricognizioni in sola lettura su richiesta esplicita del25/10. Non ripristinare il vecchio checkout work/ELIX né riattivarne gli aggiornatori. La ricognizione ha recuperato T02/T03 senza sovrascrivere progressi.
+Un solo lotto e un solo integratore alla volta. Questa chat integra e pubblica. Le ricognizioni delle altre chat sono concluse: non riattivare vecchi checkout o aggiornatori e non assegnare capitoli già consegnati. Conservare i progressi esistenti.
 
 ## Lotto corrente
 
-`theory-complementary`, 0.29.0: integrazione dei tre capitoli prodotti e controllati nella chat «Avanza la super app di farmacologia»: modelli-pk, gpcr, desensibilizzazione-tolleranza. 47 sezioni, 8.416 parole di corpo, 24 domande. Testi, domande e riferimenti preservati rispetto agli originali sottoposti a controllo editoriale. Registri e rapporti per capitolo in data/; audit di integrazione in data/theory-complementary-integration.json. Nessuna nuova identità, sintesi di farmaco, PK o animazione. Quattro capitoli estesi su 55; non è il completamento del trattato o della lettura dei corsi.
+`theory-tirosinchinasi`, versione 0.30.0: ampliamento del capitolo esistente `tirosinchinasi`, con 18 sezioni, 3.352 parole di corpo e otto domande ragionate. Nuovo circuito originale RTK–RAS–MAPK con cinque scenari qualitativi, collegamenti a quattro identità già nel catalogo e registro di letture separato dal controllo editoriale.
 
-La 0.28.0 è pubblicata e verificata al commit a504200dccc71703a7327b831b88c2a23fbd14d3. Il capitolo recettori-e-legame e il suo esercizio restano presenti. Ricevuta: ../../outputs/ELIX-theory-2026-10-25/release-verification.json.
+Letture di questo intervallo: Katzung IX italiana 2014/XII americana 2012 PDF43–47; Rang & Dale 8ª italiana 2016 PDF81–83 (81 e83 riletture); Clementi/Fumagalli 4ª2012 PDF168–178; sbobina Serpe Farmaco II lezione9 del17/11/2025 PDF1–6, equivalenti alla raccolta142–147; slide Antitumorali mirati2025–26 PDF1–12. Figure controllate soltanto alle pagine dichiarate in `data/tirosinchinasi-reading.json`. Non dichiarare la lettura integrale di libri o corsi. Le fonti originali restano in sola lettura.
 
-Il checkpoint precede la pubblicazione. La ricevuta ../../outputs/ELIX-latest-verification.json prevale solo se batch/versione coincidono e attesta deploy e verifica online conclusi. Altrimenti riprendere il lotto corrente. Prove correnti: ../../outputs/ELIX-complementary-release-2026-10-25/.
+Sono stati riconciliati BCR–ABL non recettoriale, HER2 distinto da EGFR, reversibilità dei TKI e limiti della generalizzazione su KRAS. Esempi selettivi da documenti EMA/FDA e fonti molecolari; nessun algoritmo terapeutico o validazione clinica indipendente. Non sono state aggiunte identità, sintesi di farmaco o PK. Cinque capitoli estesi su 55; cinquanta restano da ampliare.
+
+La precedente 0.29.0 è pubblicata e verificata al commit `0ff7aa63d511c59bed065985df661a75c7317f1b`. I quattro capitoli già ampliati sono preservati: recettori-e-legame, modelli-pk, gpcr e desensibilizzazione-tolleranza.
+
+Il checkpoint corrente precede la pubblicazione. La ricevuta `../../outputs/ELIX-latest-verification.json` prevale soltanto quando batch e versione coincidono e attesta deploy e verifica online conclusi. Prove del lotto in `../../outputs/ELIX-rtk-2026-10-25/`. Riprendere un'eventuale pubblicazione incompleta prima di iniziare altro.
 
 ## Regole
 
-- Conservare ELIX, stile Isoelettrica, testata, firma, dati locali e vecchi percorsi. Non modificare ISOELETTRICA, PDF, fonti sincronizzate o originali.
-- Leggere per intervalli, registrando edizione, pagine PDF/stampate, testo e controllo visuale separati. Inventario non significa lettura. Pubblicare solo sintesi e figure originali.
-- Riconciliare criticamente lezioni, slide e libri. Controllare fonti ufficiali attuali per raccomandazioni cliniche. Revisione editoriale non equivale a revisione clinica indipendente.
-- Verificare dati, navigazione, desktop/mobile, temi, accessibilità delle interazioni, offline e aggiornamento; poi CI, commit, deploy e contenuti online.
-- Un solo lotto alla volta; nessuna nuova automazione. Le ricognizioni già concluse non sono inviti a pubblicare da altri checkout.
+- Conservare ELIX, stile Isoelettrica, testata, logo trasparente, firma, funzionalità, dati locali e accessi /PHARMA/ e /eli/. Non modificare ISOELETTRICA, PDF o fonti sincronizzate.
+- Leggere per intervalli: inventario, estrazione, lettura del testo e controllo delle figure sono stati distinti. Deduplicare file e pagine prima di contare nuova copertura.
+- Riconciliare criticamente libri, slide e sbobine. I vecchi dati terapeutici non diventano automaticamente raccomandazioni attuali. Pubblicare soltanto sintesi e visualizzazioni originali.
+- Verificare dati, navigazione, desktop/mobile, temi, tastiera, offline e aggiornamento; poi CI, commit, deploy e contenuti online. Aggiornare la ricevuta soltanto dopo i controlli successivi al deploy.
+- Nessun nuovo incarico ad altre chat o altra automazione. Stato delle chat pertinenti in sola lettura quando necessario.
 
-## Prossimo lotto e coordinamento
+## Prossimo intervallo
 
-La produzione complementare è stata consegnata il 25/10 con tre controlli editoriali mirati passati. Nessuna validazione clinica specialistica dichiarata. Il pacchetto originale resta separato in outputs/ELIX-teoria-complementare-2026-10-25; non riscrivere o riassegnare questi tre capitoli. Questa chat integra e pubblica. Nessun altro checkout è autorizzato dal coordinamento a pubblicare aggiornamenti concorrenti.
-
-Continuare inventario e deduplicazione delle sbobine Farmaco II (D’Avolio, Collino, Serpe), quindi letture tematiche per ampliare le restanti 51 unità con collegamenti a classi e patologie. Consultare anche gli indici e i registri delle altre chat prima di scegliere il lotto, senza avviare incarichi duplicati. Le 3.401 pagine disponibili nei tre libri non sono tutte lette. Tolterodina resta nel backlog, subordinata alla priorità esplicita sulla teoria.
+Dopo la ricevuta della 0.30, proseguire la teoria per argomento. Candidato: `anticorpi-biologici`, localizzando prima i passaggi pertinenti di Farmaco I e II, distinguendo i materiali già letti da quelli nuovi. Non ripetere l'inventario Farmaco II già concluso; consultare `../../outputs/ELIX-source-work-current.json` e la mappa dei temi. Collino e D'Avolio non sono ancora interamente letti o integrati. Visualizzazioni aggiuntive, farmaci mancanti e tolterodina rimangono nel backlog, subordinati al capitolo in corso.

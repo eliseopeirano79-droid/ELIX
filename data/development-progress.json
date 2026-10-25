@@ -1,33 +1,29 @@
 {
   "updatedAt": "2026-10-25",
-  "batch": "theory-complementary",
+  "batch": "theory-tirosinchinasi",
   "status": "verified_locally_pending_publication",
-  "release": "0.29.0",
-  "branch": "feat/theory-complementary",
-  "baseCommit": "a504200dccc71703a7327b831b88c2a23fbd14d3",
+  "release": "0.30.0",
+  "branch": "feat/theory-rtk",
+  "baseCommit": "0ff7aa63d511c59bed065985df661a75c7317f1b",
   "previousBatch": {
-    "batch": "theory-foundations",
+    "batch": "theory-complementary",
     "status": "published_and_live_verified",
-    "release": "0.28.0",
-    "commit": "a504200dccc71703a7327b831b88c2a23fbd14d3",
-    "receipt": "../../outputs/ELIX-theory-2026-10-25/release-verification.json"
+    "release": "0.29.0",
+    "commit": "0ff7aa63d511c59bed065985df661a75c7317f1b",
+    "receipt": "../../outputs/ELIX-complementary-release-2026-10-25/release-verification.json"
   },
   "scope": [
-    "Integrate three reviewed existing chapters without duplicating or rewriting their prose: modelli-pk, gpcr, desensibilizzazione-tolleranza.",
-    "47 sections, 8416 body words and 24 reasoned self-checks. Preserve recettori-e-legame.",
-    "Per-chapter source ledgers, related chapter links, offline availability and narrow mobile layout."
+    "Expand existing tirosinchinasi chapter to 18 sections, 3352 body words and 8 self-checks.",
+    "Original qualitative RTK–RAS–MAPK circuit with five interactive scenarios.",
+    "Reconcile bounded textbook, transcript and slide readings with official molecular/clinical sources."
   ],
   "completed": [
-    "Package hashes and exact equality of sections, questions and references to reviewed author sources verified.",
-    "Integrator read all 47 sections and 24 questions; no new book readings claimed.",
-    "32 data validators passed.",
-    "Real 0.28 to 0.29 upgrade preserves favorites and progress.",
-    "24 chapter/viewport/theme configurations passed: 1440, 768, 390 and 320 pixels in both themes.",
-    "Chapter/source navigation, all 24 explanations with keyboard, library and global full-text search passed.",
-    "All three chapters and individual reading/review records work offline.",
-    "Existing foundation chapter passed eight viewport/theme configurations after the shared mobile layout fix.",
-    "16 branding configurations, six routes, legacy redirects/query/hash/saved data and failure fallback passed.",
-    "Desktop/mobile screenshots inspected in dark and light themes."
+    "33 data validators passed.",
+    "40 RTK viewport/theme/scenario combinations passed, including keyboard, source navigation, catalog links and both searches.",
+    "24 complementary-chapter and 8 foundation-chapter configurations passed with offline records.",
+    "16 branding configurations, six routes, legacy redirects, query/hash/storage/fallback and offline checks passed.",
+    "Real 0.29 to 0.30 update preserves favorites, academy progress and theme; new chapter/model work offline after upgrade.",
+    "Desktop/mobile screenshots inspected in both themes; original source files rehashed unchanged."
   ],
   "remaining": [
     "PR and main CI",
@@ -49,19 +45,17 @@
     "newProductPKContexts": 0,
     "newPKFields": 0,
     "newChapters": 0,
-    "expandedChapters": 3,
-    "newInteractiveLabs": 0
+    "expandedChapters": 1,
+    "newInteractiveLabs": 1
   },
   "readingManifests": [
-    "data/modelli-pk-reading.json",
-    "data/gpcr-reading.json",
-    "data/desensibilizzazione-tolleranza-reading.json"
+    "data/tirosinchinasi-reading.json"
   ],
   "limits": [
-    "Four chapters extended out of 55 existing units; remaining 51 still need expansion.",
-    "Full books, Farmaco I/II slides and transcripts not fully read. Inventoried files are not reviewed content.",
-    "Editorial checks by agents are not specialist clinical validation.",
-    "This batch adds no new drug profiles or animations."
+    "Five chapters extended out of 55; remaining 50 still need expansion.",
+    "All books and Farmaco I/II courses not fully read; declared text intervals and figure checks are separate.",
+    "Single integrator editorial check, not independent clinical validation.",
+    "No new drug monographs, pharmacokinetic profiles or treatment guidelines."
   ],
-  "nextBatch": "Continue deduplicated Farmaco II transcript inventory and topic-based reconciliation with slides/books for the remaining short theory units. Read shared coordination state first; one integrator, no new duplicate assignments. Tolterodine remains in backlog."
+  "nextBatch": "Continue the bounded theory programme after this release is verified. Plan anticorpi-biologici: locate relevant Farmaco I and II passages first, reuse already-read pages without double counting. Do not reassign delivered chapters or reactivate other publishers."
 }
