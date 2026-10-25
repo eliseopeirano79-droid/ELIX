@@ -24,9 +24,12 @@ export function antibodyScene(id){
  const f=antibodyFormat(id);
  return `<div class="ab-layout"><figure>${diagram(f.id)}<figcaption>Architettura schematica · non in scala</figcaption></figure><div class="ab-explanation"><h4>${f.title}</h4><p>${f.text}</p><dl><div><dt>Riconoscimento</dt><dd>${f.recognition}</dd></div><div><dt>Regione Fc</dt><dd>${f.fc}</dd></div><div><dt>Elemento distintivo</dt><dd>${f.extra}</dd></div></dl></div></div>`;
 }
+let lastFormat='igg';
 if(typeof customElements!=='undefined'&&!customElements.get('elix-antibody-explorer'))customElements.define('elix-antibody-explorer',class extends HTMLElement{
  connectedCallback(){
   this.innerHTML=`<div class="ab-lab"><span class="ex-kicker">Struttura e funzione</span><h4>Cambia formato, segui le differenze</h4><div class="ab-controls" role="group" aria-label="Formato della proteina">${ANTIBODY_FORMATS.map((f,i)=>`<button type="button" data-antibody-format="${f.id}" aria-pressed="${i===0}">${f.label}</button>`).join('')}</div><div data-antibody-scene aria-live="polite" aria-atomic="true">${antibodyScene('igg')}</div><p class="ab-limits">Modelli qualitativi: nessun confronto di potenza, efficacia, dose o sicurezza. Colori e geometrie servono a distinguere le parti.</p></div>`;
-  this.querySelectorAll('[data-antibody-format]').forEach(b=>b.addEventListener('click',()=>{this.querySelectorAll('[data-antibody-format]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));this.querySelector('[data-antibody-scene]').innerHTML=antibodyScene(b.dataset.antibodyFormat);}));
+  const update=id=>{lastFormat=antibodyFormat(id).id;this.querySelectorAll('[data-antibody-format]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.antibodyFormat===lastFormat)));this.querySelector('[data-antibody-scene]').innerHTML=antibodyScene(lastFormat);};
+  this.querySelectorAll('[data-antibody-format]').forEach(b=>b.addEventListener('click',()=>update(b.dataset.antibodyFormat)));
+  update(lastFormat);
  }
 });
