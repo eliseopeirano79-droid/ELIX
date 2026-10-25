@@ -1,45 +1,47 @@
 {
   "updatedAt": "2026-10-25",
-  "batch": "ponesimod-selectivity",
+  "batch": "mirabegron-bladder",
   "status": "verified_locally_pending_publication",
-  "release": "0.24.0",
-  "branch": "feat/ponesimod-selectivity",
-  "baseCommit": "528f10eba5960c1d2f4e86f6540ffda90fc2a941",
+  "release": "0.25.0",
+  "branch": "feat/mirabegron-bladder",
+  "baseCommit": "df7cd8bd00b6133b0661edb18f9dec1924f0068d",
   "previousBatch": {
-    "batch": "ozanimod-metabolites",
+    "batch": "ponesimod-selectivity",
     "status": "published_and_live_verified",
-    "commit": "528f10eba5960c1d2f4e86f6540ffda90fc2a941",
-    "receipt": "../../outputs/ELIX-ozanimod-2026-10-25/release-verification.json"
+    "commit": "df7cd8bd00b6133b0661edb18f9dec1924f0068d",
+    "receipt": "../../outputs/ELIX-ponesimod-2026-10-25/release-verification.json"
   },
   "scope": [
-    "Original three-view lab on selectivity, lymphocyte redistribution and cardiac precautions",
-    "One existing ponesimod identity enriched with EU oral product PK: six documented fields",
-    "S1PR1 topic selector and deep link preserve the existing fingolimod lab; receptor-response chapter expanded"
+    "Original three-view bladder lab: storage, voiding, mirabegron",
+    "One existing mirabegron identity enriched with adult EU prolonged-release tablet PK: six documented fields",
+    "New ADRB3 target profile and linked original chapter on autonomic bladder control"
   ],
   "completed": [
-    "27 data validators passed; three reading views and invalid inputs checked",
-    "Eight lab and eight drug viewport/theme configurations passed, including 320 px",
-    "Name/brand search, references, chapter/gallery and bidirectional links passed",
-    "New deep link and centered S1PR1 topic selector preserve the original fingolimod lab",
-    "Delayed catalog and theme redraw preserve state and keyboard focus",
-    "Static diagrams respect reduced motion; lab and six PK fields work offline",
-    "Real 0.23.0 to 0.24.0 update preserves favorites and quiz progress",
-    "16 branding configurations passed; legacy redirect, destination failure fallback, offline and local data preserved",
-    "Desktop/mobile diagrams, topic selector, header and PK cards visually inspected"
+    "28 data validators passed; identity deduplication and distinct PK denominators checked",
+    "Eight lab and eight drug viewport/theme configurations passed, including320 px",
+    "Three qualitative states; keyboard focus and delayed-catalog/theme redraw preserve state",
+    "Name/brand and target search, sources, gallery/chapter and bidirectional drug link passed",
+    "Lab and six PK fields work offline",
+    "Real 0.24.0 to 0.25.0 update preserves favorites/quiz; obsolete cache removed",
+    "16 branding configurations passed; displayed version matches release metadata",
+    "Legacy redirects, destination failure fallback, query/hash, offline and local data preserved",
+    "Desktop/mobile diagrams and mobile PK visually inspected; initial stale header label corrected and upgrade rerun successfully"
   ],
   "remaining": [
     "PR and main CI",
     "Deployment and online verification",
     "Public-file hashes and final receipt"
   ],
-  "readingManifest": "data/ponesimod-reading.json",
+  "readingManifest": "data/mirabegron-reading.json",
+  "nextBatch": "Vibegron CHEMBL2107826: identità presente, sintesi e PK assenti al 25/10/2026. Verificare RCP UE corrente e raccomandazioni prima di confrontare i due agonisti β3; nessuna equivalenza automatica di interazioni o formulazioni. Proseguire letture per intervalli limitati registrate. Avviare solo nel ciclo successivo alla consegna 0.25 pubblicata e verificata.",
   "counts": {
     "identities": 4225,
-    "editorial": 97,
-    "productPKContexts": 67,
-    "pkFields": 402,
+    "editorial": 98,
+    "productPKContexts": 68,
+    "pkFields": 408,
     "importedLabelsWithoutEditorial": 93,
-    "targetProfiles": 35
+    "targetProfiles": 36,
+    "chapters": 55
   },
   "changes": {
     "newIdentities": 0,
@@ -50,20 +52,18 @@
     "explicitSourceGaps": 0,
     "numericFields": 4,
     "newInteractiveLabs": 1,
-    "newTargetProfiles": 0,
-    "expandedExistingChapters": 1
+    "newTargetProfiles": 1,
+    "newChapters": 1
   },
   "limits": [
     "Selective educational synthesis, not independent clinical review or complete contraindication list.",
-    "Only recorded pages/sections read; no whole-book, full product-document or full-guideline claim.",
-    "No doses, receptor occupancy, heart traces, clinical risks or immune recovery times predicted.",
-    "S1P1 focus does not mean absolute absence of activity at other receptor subtypes; no quantitative assay values or clinical contribution inferred from IUPHAR.",
-    "Cardiac icon illustrates documented RCP effects and precautions, not a complete cardiac molecular pathway.",
-    "33 h half-life distinct from clinical recovery; 83.8% absolute oral bioavailability qualified by 10 mg studied dose.",
-    "M12/M13 inactive at S1P receptors at concentrations reached with therapeutic doses; no automatic inheritance from ozanimod metabolites.",
-    "Dose recovery, unchanged faecal parent and protein binding retain distinct denominators.",
-    "EU RMS indication and NICE RRMS recommendation distinguished; no Italian reimbursement claim.",
-    "Original sources, legacy repositories and catalog snapshots unchanged; imported-label backlog remains 93."
-  ],
-  "nextBatch": "Mirabegron CHEMBL2095212: identità presente ma sintesi e PK assenti al 25/10/2026; profilo ADRB3 non ancora presente. Verificare RCP UE corrente e linee guida per vescica iperattiva, collegare β3 e fisiologia del detrusore con una grafica originale. Selezionare un intervallo pertinente di Katzung, verificandone prima edizione e pagine. Avviare nel ciclo successivo alla consegna 0.24 pubblicata e verificata."
+    "Only recorded pages/sections read; no whole-book or full-guideline claim. No new slide pages read this batch.",
+    "Qualitative bladder shapes and signalling, no dose, capacity, pressure, residual urine or probability simulation.",
+    "Gs/cAMP is a canonical pathway; human detrusor mechanisms are not fully reconstructed.",
+    "Adult OAB indication and pediatric NDO indication remain distinct; no adult tablet PK transfer to suspension/pediatric populations.",
+    "Terminal half-life is not a dosing interval; absolute bioavailability qualified by 25 mg and 50 mg doses.",
+    "55%/34% radiolabel recovery after 160 mg and 45% parent in urinary radioactivity retain different denominators.",
+    "EAU female non-neurogenic context distinct from NICE UK appraisal; no Italian reimbursement claim.",
+    "Original sources and legacy repositories unchanged; imported-label backlog remains 93."
+  ]
 }

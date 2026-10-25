@@ -1,6 +1,42 @@
 /* ELIX Textbook expansion: original chapters; not copied from proprietary textbooks.
    All sections educational; clinical recommendations require current official guidelines. */
 export const EXPANDED_CHAPTERS=[
+{
+  "id": "vescica-autonomo",
+  "volume": 5,
+  "title": "Vescica: controllo autonomo e mirabegron",
+  "lead": "Riempimento, minzione e trattamento dei sintomi sono livelli collegati ma distinti.",
+  "sections": [
+    {
+      "title": "Un muscolo, due compiti",
+      "text": "Il detrusore deve accogliere l’urina e poi contribuire alla sua espulsione. Nel riempimento il segnale simpatico favorisce il rilassamento; la minzione richiede il controllo parasimpatico e la coordinazione con le vie di uscita. Il laboratorio isola il muscolo e non ricostruisce l’intero circuito neurologico."
+    },
+    {
+      "title": "Attivazione non significa sempre contrazione",
+      "text": "La famiglia β-adrenergica si collega alla via Gs–adenilato ciclasi–cAMP. La risposta dipende dal tessuto e dai suoi effettori: nel detrusore l’agonismo β₃ favorisce il rilassamento. Mirabegron non è rappresentato come antagonista muscarinico o come stimolante della minzione."
+    },
+    {
+      "title": "Dal sintomo al contesto della raccomandazione",
+      "text": "EAU 2026 considera β₃-agonisti dopo insuccesso delle misure conservative nelle donne con OAB non neurogena. NICE TA290 raccomanda mirabegron quando gli antimuscarinici sono controindicati, inefficaci o non tollerati. Popolazione e ambito della raccomandazione devono restare visibili; nessuna equivalenza automatica con la rimborsabilità italiana."
+    },
+    {
+      "title": "Un dato richiede il suo denominatore",
+      "text": "Biodisponibilità, legame proteico e radioattività recuperata rispondono a domande differenti. Nel profilo del mirabegron il recupero urinario del materiale radiomarcato è distinto dalla quota di parentale nella radioattività urinaria. Non trasformare percentuali con denominatori diversi in una singola misura di eliminazione."
+    },
+    {
+      "title": "Letture e limiti",
+      "text": "Katzung, IX edizione italiana 2014 sulla XII americana 2012: PDF 168–169 e 178–179 (stampate 148–149 e 158–159); PDF 179 letto anche visivamente. RCP Betmiga corrente, file EMA 27/08/2025, pagine selezionate; EAU §§ 4.1.4.b.2–4.1.4.b.2.a e 4.1.5.a, NICE TA290 §§ 1.1–1.2 consultati il 25/10/2026 tramite estratti ufficiali indicizzati. Edizione EAU 2026 ristampa 2025. Sono sintesi originali con letture parziali."
+    }
+  ],
+  "drugs": [
+    "mirabegron"
+  ],
+  "targets": [
+    "ADRB3",
+    "CHRM3"
+  ],
+  "review": "Sintesi didattica selettiva; letture, edizioni e limiti registrati in data/mirabegron-reading.json. Non revisione clinica indipendente."
+},
   {
     "id": "dalla-molecola-al-medicinale",
     "volume": 1,

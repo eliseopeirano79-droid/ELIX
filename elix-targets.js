@@ -1,5 +1,23 @@
 /* Original target explanations. Metabolic relationships remain distinct from pharmacodynamic targets. */
 export const ADDITIONAL_TARGETS = {
+"ADRB3":{
+  "id": "ADRB3",
+  "name": "β₃ · riempimento della vescica",
+  "kind": "GPCR · recettore adrenergico",
+  "tissue": "Detrusore: confronto tra accumulo e svuotamento",
+  "signal": [
+    "Agonista β₃",
+    "ADRB3",
+    "Gs · via canonica",
+    "Adenilato ciclasi e cAMP",
+    "Rilassamento del detrusore"
+  ],
+  "mechanism": "Mirabegron attiva β₃ e favorisce la funzione di accumulo. La via β–Gs–cAMP è una rappresentazione canonica; non esaurisce il controllo autonomo della vescica.",
+  "insight": "Nella minzione prevale il segnale parasimpatico muscarinico. Una diversa fase fisiologica non è un effetto del mirabegron: le precauzioni per ritenzione e pressione restano necessarie.",
+  "chapter": "vescica-autonomo",
+  "source": "https://www.ema.europa.eu/en/documents/product-information/betmiga-epar-product-information_en.pdf",
+  "reference": "Betmiga RCP EMA §§ 4.4 e 5.1; Katzung IX ed. italiana 2014, PDF 168–169 e 178–179"
+},
 "S1PR1":{
   "id": "S1PR1",
   "name": "S1P₁ · traffico linfocitario",
