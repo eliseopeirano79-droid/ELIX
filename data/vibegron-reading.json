@@ -1,0 +1,91 @@
+{
+  "batch": "vibegron-kinetics",
+  "checkedAt": "2026-10-25",
+  "books": [
+    {
+      "title": "Katzung, Farmacologia generale e clinica",
+      "edition": "IX italiana, Piccin 2014, condotta sulla XII americana (2012)",
+      "file": "Katsung - Farmacologia generale e clinica.pdf",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "editionEvidencePdfPages": [
+        2,
+        3
+      ],
+      "editionEvidenceMode": "Previously verified, see data/mirabegron-reading.json; not reread this batch.",
+      "chapter": 3,
+      "pdfPages": [
+        65,
+        66
+      ],
+      "printedPages": [
+        45,
+        46
+      ],
+      "visualPagesRead": [
+        65
+      ],
+      "readMode": "Complete extracted text of both pages; PDF65 visually inspected. Edition metadata previously verified in mirabegron-reading.json.",
+      "scope": "Half-life, multicompartment kinetics, accumulation and absolute bioavailability. No vibegron facts attributed to this historical book; no clinical dosing formula or copied curves. All other pages unread this batch.",
+      "fullBookRead": false
+    }
+  ],
+  "slides": [],
+  "navigationOnly": [
+    "Katzung extracted text pages within first150 searched for half-life and accumulation; only PDF65–66 read. No new slide pages read."
+  ],
+  "officialSources": [
+    {
+      "id": "vib-obgemsa",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/obgemsa-epar-product-information_en.pdf",
+      "productPage": "https://www.ema.europa.eu/en/medicines/human/EPAR/obgemsa",
+      "fileUpdated": "2025-07-08",
+      "revisionDate": "Section10 blank; not inferred",
+      "sha256": "df310f591275c537a3c2a522bb31336e43ca3b41cc731d8dc728b9774b7d96f5",
+      "documentPages": 25,
+      "pdfPages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "visualPagesRead": [
+        9
+      ],
+      "readMode": "Local extracted text of listed pages; PDF9 image inspected. Product-page metadata checked online.",
+      "fullDocumentRead": false,
+      "scope": "Adult indication, selected safety/interactions, mechanism and PK. Trial tables/text encountered on6 and8 are read but not used for superiority or benefit predictions. Other annexes/unlisted pages unread.",
+      "keyDistinctions": [
+        "Effective half-life31h distinct from terminal59–94h.",
+        "Absolute bioavailability not quantified in selected RCP; no inference from faecal recovery.",
+        "50% bound plasma fraction distinct from50% urinary parent of absorbed drug.",
+        "Glucuronide12–14% of total exposure; pharmacological activity not specified in the paragraph.",
+        "59% faecal/20% urinary radiolabel recovery after100mg distinct from50% urinary unchanged drug of absorbed substance.",
+        "No automatic transfer of mirabegron CYP2D6 interactions or pediatric indication."
+      ]
+    },
+    {
+      "id": "vib-nice",
+      "url": "https://www.nice.org.uk/guidance/ta999",
+      "archivedPublication": "https://www.ncbi.nlm.nih.gov/books/NBK610813/pdf/Bookshelf_NBK610813.pdf",
+      "published": "2024-09-04",
+      "sections": [
+        "1.1",
+        "1.2",
+        "1.3"
+      ],
+      "readMode": "Full recommendations1.1–1.3 from indexed NICE publication archived in NCBI. Direct NICE HTML403 and NCBI direct web-open cache miss; no workaround or full PDF read claim. Publication date confirmed by NICE information chapter.",
+      "fullTextRead": false,
+      "scope": "UK appraisal recommendation. No full evidence/economic review or Italian reimbursement claim."
+    }
+  ],
+  "publication": [
+    "Only original summaries and SVG; no original PDF/book/slide figures published.",
+    "Three selectable factual views, no concentration, dose, withdrawal or efficacy prediction."
+  ]
+}
