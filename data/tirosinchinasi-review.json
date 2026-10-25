@@ -1,0 +1,22 @@
+{
+  "chapterId": "tirosinchinasi",
+  "checkedAt": "2026-10-25",
+  "outcome": "pass",
+  "reviewer": "integrator_editorial_check",
+  "independentClinicalReview": false,
+  "moduleSha256": "a430db24ce9dcb74b592f4222e46dd36ca4dc653e3f8a4aca093b7ae9761624f",
+  "checks": [
+    "All 18 original sections and 8 answers reviewed for internal consistency and bounded source attribution.",
+    "RTK, cytokine-associated JAK and BCR-ABL separated.",
+    "RAS exchange distinguished from kinase phosphorylation; MEK specificity stated.",
+    "HER2 not shown binding EGF; no blanket TKI irreversibility.",
+    "KRAS clinical example limited to FDA indication and combination.",
+    "No dose, universal efficacy percentage or treatment recommendation.",
+    "Source text/figure checks and unreviewed intervals explicit.",
+    "Four previously expanded chapters preserved; existing chapter ID reused."
+  ],
+  "limits": [
+    "Single integrator editorial check, not independent specialist review.",
+    "Browser, offline, update and deployment checks recorded separately."
+  ]
+}

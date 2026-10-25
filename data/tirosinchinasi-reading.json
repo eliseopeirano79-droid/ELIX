@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "batch": "theory-tirosinchinasi",
+  "chapterId": "tirosinchinasi",
+  "checkedAt": "2026-10-25",
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "readingMethod": "Full extracted text for listed pages; figures inspected separately only at the listed page numbers. Truncated Katzung46 and Clementi170 outputs reread in full. No whole-book/course reading claim.",
+  "sources": [
+    {
+      "id": "FII-04052fb1de6a",
+      "title": "Lezione 9: antitumorali mirati",
+      "sha256": "04052fb1de6a3d40922a207e8b3de198a1b693c3e2a6475a87c8b7c1f1cc6993",
+      "edition": "2025-26",
+      "lecturer": "Serpe",
+      "pdfPageCount": 26,
+      "extractedTextReadPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "figuresVisuallyCheckedPages": [],
+      "allContentsRead": false,
+      "compiledCourseEquivalentPdfPages": [
+        142,
+        143,
+        144,
+        145,
+        146,
+        147
+      ],
+      "deduplication": "Single lesson pages count once; compiled-course copies add no reading coverage.",
+      "sourceUnchanged": true
+    },
+    {
+      "id": "FII-5e922fa9c80f",
+      "title": "Antitumorali mirati",
+      "sha256": "5e922fa9c80f7400377a3fddba54e803bed59df65b91d6b744662547bc88d635",
+      "edition": "2025-26",
+      "lecturer": "Serpe",
+      "pdfPageCount": 48,
+      "extractedTextReadPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "figuresVisuallyCheckedPages": [
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "allContentsRead": false,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "K-RTK",
+      "title": "Katsung - Farmacologia generale e clinica.pdf",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "edition": "IX italiana Piccin 2014 / XII americana 2012",
+      "extractedTextReadPages": [
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "figuresVisuallyCheckedPages": [
+        45
+      ],
+      "previouslyFullyReadPages": [],
+      "allContentsRead": false,
+      "printedPages": "23–27; printed 25 visually confirmed on PDF45.",
+      "sourceUnchanged": true,
+      "pdfPageCount": 1579
+    },
+    {
+      "id": "R-RTK",
+      "title": "Rang & Dale - Farmacologia (8ª ed 2016).pdf",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "edition": "8ª italiana 2016 / originale 2015",
+      "extractedTextReadPages": [
+        81,
+        82,
+        83
+      ],
+      "figuresVisuallyCheckedPages": [
+        82
+      ],
+      "previouslyFullyReadPages": [
+        81,
+        83
+      ],
+      "allContentsRead": false,
+      "deduplication": "PDF81 and83 reread; PDF82 now full extracted text read (previously partial text plus figure check). No three-new-page claim.",
+      "sourceUnchanged": true,
+      "pdfPageCount": 1102
+    },
+    {
+      "id": "C-RTK",
+      "title": "Farmacologia generale e molecolare.pdf",
+      "sha256": "b5969a60702c4ea97a484e5fa2acb11b7a8712b8e958843213cdce8d08128b79",
+      "edition": "Clementi e Fumagalli, 4ª edizione, 2012",
+      "extractedTextReadPages": [
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178
+      ],
+      "figuresVisuallyCheckedPages": [
+        172,
+        176
+      ],
+      "previouslyFullyReadPages": [],
+      "allContentsRead": false,
+      "printedPagesVisuallyConfirmed": {
+        "172": 151,
+        "176": 155
+      },
+      "sourceUnchanged": true,
+      "pdfPageCount": 720
+    }
+  ],
+  "onlineSourceScope": [
+    {
+      "id": "RX-AKT",
+      "title": "Reactome · attivazione di AKT",
+      "detail": "Evento umano R-HSA-198270: fosforilazione di AKT da parte di PDPK1. Consultazione25/10/2026, descrizione del singolo evento; non lettura dell'intera banca dati.",
+      "url": "https://reactome.org/content/detail/R-HSA-198270"
+    },
+    {
+      "id": "RX-MTOR",
+      "title": "Reactome · mTORC2 e AKT",
+      "detail": "Evento umano R-HSA-198640: descrizione letta, ruolo di mTORC2 su AKT e distinzione da mTORC1. Consultazione25/10/2026; la data di accesso non modifica la data della letteratura citata.",
+      "url": "https://reactome.org/content/detail/R-HSA-198640"
+    },
+    {
+      "id": "GTP-ERBB",
+      "title": "IUPHAR/BPS · recettori catalitici, famiglia ErbB",
+      "detail": "Concise Guide2023/24: sezione Type I RTKs/ErbB consultata il25/10/2026. HER2 come partner senza attivazione da un proprio ligando cognato. Non revisione dell'intera guida.",
+      "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bph.16180"
+    },
+    {
+      "id": "EMA-GLIVEC",
+      "title": "EMA · Glivec · informazioni di prodotto UE",
+      "detail": "Consultazione25/10/2026: estratti §4.1 e §5.1; distinzione BCR–ABL/KIT/PDGFR e contesti autorizzati. Non lettura integrale del documento né nuova scheda farmacocinetica.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/glivec-epar-product-information_en.pdf"
+    },
+    {
+      "id": "EMA-TAGRISSO",
+      "title": "EMA · Tagrisso · informazioni di prodotto UE",
+      "detail": "Consultazione25/10/2026: estratti §§4.1,4.4,4.8 e5.1 su EGFR, test, irreversibilità, rischio polmonare e QTc. Sintesi selettiva; non copre tutti gli impieghi o i rischi e non propone una sequenza terapeutica.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/tagrisso-epar-product-information_en.pdf"
+    },
+    {
+      "id": "EMA-HERCEPTIN",
+      "title": "EMA · Herceptin · informazioni di prodotto UE",
+      "detail": "Consultazione25/10/2026: estratti §§4.1,4.4 e5.1, versione endovenosa: HER2, dominio extracellulare, ADCC e disfunzione cardiaca. Non estensione automatica a coniugati o altre formulazioni.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/herceptin-epar-product-information_en.pdf"
+    },
+    {
+      "id": "FDA-IRESSA",
+      "title": "FDA · Iressa · meccanismo d'azione",
+      "detail": "Documento2021, §12.1 consultato il25/10/2026 solo per il carattere reversibile dell'inibizione di EGFR. Non presentato come ultimo aggiornamento clinico o fonte delle autorizzazioni italiane.",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/206995s004lbl.pdf"
+    },
+    {
+      "id": "FDA-KRAS",
+      "title": "FDA · sotorasib con panitumumab, KRAS G12C",
+      "detail": "Comunicazione16/01/2025, letta il25/10/2026: carcinoma colorettale metastatico dopo le terapie specificate; confronto tra PFS e OS. ContestoUSA, non autorizzazione o rimborsabilità italiana.",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sotorasib-panitumumab-kras-g12c-mutated-colorectal-cancer"
+    }
+  ],
+  "reconciliations": [
+    {
+      "source": "FII-S9 PDF2",
+      "issue": "BCR–ABL descritto come recettore",
+      "resolution": "Distinto come chinasi di fusione non recettoriale; confronto con JAK e RTK.",
+      "support": [
+        "C-RTK",
+        "EMA-GLIVEC"
+      ]
+    },
+    {
+      "source": "FII-S9 PDF3–5",
+      "issue": "Percentuali generiche di successo o risposta senza contesto trasferibile",
+      "resolution": "Non importate. Distinti risposta radiologica, PFS e OS.",
+      "support": [
+        "FDA-KRAS"
+      ]
+    },
+    {
+      "source": "FII-S9 PDF4",
+      "issue": "Selettività assoluta degli ADC per le cellule tumorali",
+      "resolution": "Eliminata l'assolutezza: bersaglio, internalizzazione e carico sono aspetti distinti; nessuna promessa di assenza di tossicità.",
+      "support": [
+        "FII-SL",
+        "K-RTK"
+      ]
+    },
+    {
+      "source": "FII-S9 PDF5",
+      "issue": "Generalizzazione KRAS mutato/inefficacia di ogni anti-EGFR",
+      "resolution": "Conservato il modello del segnale a valle, aggiunto controesempio FDA2025 specifico per associazione, variante, patologia e terapie pregresse.",
+      "support": [
+        "FDA-KRAS"
+      ]
+    },
+    {
+      "source": "FII-S9 PDF6 e FII-SL PDF11",
+      "issue": "HER2 trattato come recettore direttamente attivato da EGF o sempre attivo",
+      "resolution": "HER2 distinto da EGFR; ruolo di partner senza un proprio ligando cognato. Trastuzumab non presentato come semplice competitore di EGF.",
+      "support": [
+        "GTP-ERBB",
+        "EMA-HERCEPTIN"
+      ]
+    },
+    {
+      "source": "FII-SL PDF12",
+      "issue": "Irreversibilità attribuita all'intera classe degli inibitori tirosin-chinasici",
+      "resolution": "Separate conformazione, covalenza e reversibilità, con gefitinib reversibile e osimertinib irreversibile.",
+      "support": [
+        "FDA-IRESSA",
+        "EMA-TAGRISSO"
+      ]
+    },
+    {
+      "source": "FII-SL PDF4,8,10–11",
+      "issue": "Schemi storici comprimono categorie e passaggi: ligando/recettore, TGF-beta/RTK, MEK/ERK",
+      "resolution": "Nessun riuso delle figure. Nuovo schema originale di un solo ramo con categorie distinte e limiti espliciti.",
+      "support": [
+        "K-RTK",
+        "C-RTK"
+      ]
+    },
+    {
+      "source": "R-RTK PDF81–83",
+      "issue": "Classificazione dei recettori e schema abbreviato GRB2/RAS possono suggerire equivalenze errate",
+      "resolution": "Non classificati TLR come RTK; esplicitato GRB2/SOS, scambio GDP/GTP e specificità duplice di MEK.",
+      "support": [
+        "K-RTK",
+        "C-RTK"
+      ]
+    },
+    {
+      "source": "C-RTK PDF172",
+      "issue": "Modello monomero-dimero non universale",
+      "resolution": "Preservata l'eccezione del recettore insulinico preassemblato e il ruolo della configurazione.",
+      "support": [
+        "C-RTK"
+      ]
+    },
+    {
+      "source": "C-RTK PDF176",
+      "issue": "Schema storico abbreviato PIP3/AKT/mTOR",
+      "resolution": "Distinti reclutamento lipidico e fosforilazione da PDK1/mTORC2; separati mTORC1 e mTORC2.",
+      "support": [
+        "RX-AKT",
+        "RX-MTOR"
+      ]
+    },
+    {
+      "source": "FII-S9 PDF6",
+      "issue": "BRCA/PARP e altri temi eccedono l'intervallo RTK selezionato",
+      "resolution": "Non trasferiti nel capitolo; da riconciliare in un successivo lotto oncologico.",
+      "support": []
+    }
+  ],
+  "automaticOnly": [
+    {
+      "source": "FarmacoI-Serpe-2025-26.pdf",
+      "operation": "whole-file text extraction and keyword hit screening",
+      "fullNewPagesRead": [],
+      "note": "No new reading coverage; no new Farmaco I claim in this chapter."
+    },
+    {
+      "source": "Clementi",
+      "pdfPages": [
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186
+      ],
+      "operation": "keyword/header screening only",
+      "fullNewPagesRead": []
+    }
+  ],
+  "limits": [
+    "No full review of Serpe lesson9 PDF7–26 or slide13–48.",
+    "Collino and D’Avolio course files inventoried and deduplicated, not read for this bounded RTK chapter.",
+    "No new full Farmaco I reading this batch.",
+    "All figures of the listed books/transcript have not been inspected.",
+    "No independent clinical or specialist review; clinical examples are bounded official product-information checks, not a treatment guideline."
+  ],
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "newChapters": 0,
+  "expandedChapters": 1,
+  "referenceIdMapping": {
+    "FII-04052fb1de6a": "FII-S9",
+    "FII-5e922fa9c80f": "FII-SL",
+    "K-RTK": "K-RTK",
+    "R-RTK": "R-RTK",
+    "C-RTK": "C-RTK"
+  },
+  "onlineAccessLimits": [
+    {
+      "referenceId": "GTP-ERBB",
+      "method": "Read the indexed ErbB section excerpt; full article open timed out. Not a whole-article reading claim. HER2 description also compared with NCBI Gene2064 RefSeq summary."
+    }
+  ]
+}
