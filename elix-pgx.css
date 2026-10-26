@@ -1,0 +1,19 @@
+elix-pgx-explorer{display:block;min-width:0;margin:26px 0}
+.pgx-lab{min-width:0;border:1px solid var(--line);border-radius:20px;padding:22px;background:linear-gradient(140deg,var(--glow),var(--panel2) 55%)}
+.pgx-lab h4{font-size:22px;line-height:1.3;letter-spacing:-.025em;margin:8px 0 18px}
+.pgx-lab fieldset{border:0;padding:0;margin:22px 0;min-width:0}.pgx-lab legend{font-size:13px;color:var(--muted);padding:0;text-align:center;width:100%}
+.pgx-controls{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:12px}
+.pgx-controls button{min-height:44px;flex:1 1 100px;display:flex;align-items:center;justify-content:center;padding:10px;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--text);font:inherit;font-size:13px;text-align:center;cursor:pointer}
+.pgx-controls button[aria-pressed=true]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent);background:var(--glow)}
+.pgx-controls button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.pgx-scene{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;align-items:center}
+.pgx-scene figure{margin:0;border:1px solid var(--line);border-radius:18px;background:var(--panel);min-width:0;padding:12px}
+.pgx-scene svg{display:block;width:100%;max-width:440px;height:auto;margin:auto;color:var(--text)}
+.pgx-scene svg text{fill:currentColor;text-anchor:middle;font-family:inherit;font-size:19px;font-weight:700}.pgx-scene svg .pgx-caption{font-size:14px;font-weight:400}
+.pgx-active{fill:none;stroke:var(--accent);stroke-width:5}.pgx-node{fill:var(--panel2);stroke:var(--line);stroke-width:2}.pgx-arrow{fill:none;stroke:var(--text);stroke-width:2.5;stroke-linejoin:round}.pgx-key{fill:var(--accent)}
+.pgx-scene figcaption{text-align:center;font-size:11px;color:var(--muted);margin:10px 0}
+.ex-reading .pgx-explanation p{font-size:14px;line-height:1.75}.pgx-explanation{min-width:0}.pgx-explanation h4{color:var(--accent);font-size:28px;margin-top:12px}.ex-reading .pgx-explanation .pgx-result-label{font-size:12px;color:var(--muted);margin-top:-8px}
+.pgx-explanation dl{margin:18px 0}.pgx-explanation dl>div{padding:12px 0;border-bottom:1px solid var(--line);font-size:13px}.pgx-explanation dt{color:var(--muted)}.pgx-explanation dd{font-weight:700;margin:6px 0 0;overflow-wrap:anywhere}
+.ex-reading p.pgx-limits{font-size:12px;color:var(--muted);margin:20px 0 0}
+@media(max-width:1100px){.pgx-scene{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:480px){.pgx-lab{padding:12px;border-radius:14px}.pgx-controls{gap:6px}.pgx-controls button{flex-basis:114px;min-width:min(114px,100%);overflow-wrap:normal;word-break:normal}.pgx-lab h4{font-size:20px}.pgx-scene figure{padding:6px}}

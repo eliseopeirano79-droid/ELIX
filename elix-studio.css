@@ -195,3 +195,5 @@ box-shadow:0 0 55px rgba(46,215,174,.16),inset 0 0 30px rgba(97,221,176,.12)}
 
 .ex-book-layout>*{min-width:0}.ex-reading,.ex-chapter-index{overflow-wrap:anywhere}
 @media(max-width:780px){.ex-book-layout{grid-template-columns:minmax(0,1fr)}}
+/* Keep a long chapter introduction and its final index entries reachable. */
+@media(min-width:781px){.ex-chapter-index{max-height:calc(100dvh - 160px);overflow-y:auto}}

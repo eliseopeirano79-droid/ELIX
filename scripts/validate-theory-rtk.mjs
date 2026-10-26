@@ -6,7 +6,7 @@ import {THEORY_RTK as c} from '../elix-theory-rtk.js';
 import {RTK_MODES,rtkState} from '../elix-rtk-explorer.js';
 import {renderTheorySection,renderTheoryExtras} from '../elix-theory-reader.js';
 const read=f=>readFileSync(new URL('../'+f,import.meta.url),'utf8');
-assert.equal(ELIX_CHAPTERS.length,55);assert.equal(ELIX_CHAPTERS.filter(x=>x.id===c.id).length,1);assert.equal(ELIX_CHAPTERS.filter(x=>x.format==='extended').length,6);
+assert.equal(ELIX_CHAPTERS.length,55);assert.equal(ELIX_CHAPTERS.filter(x=>x.id===c.id).length,1);assert.equal(ELIX_CHAPTERS.filter(x=>x.format==='extended').length,7);
 assert.equal(c.sections.length,18);assert.equal(c.checks.length,8);assert.equal(c.wordCount,c.sections.map(s=>s.text).join(' ').split(/\s+/).length);assert.ok(c.wordCount>3000);
 const refs=new Set(c.references.map(r=>r.id));assert.equal(refs.size,c.references.length);
 for(const s of c.sections){assert.ok(s.text.length>700);assert.ok(s.refs.length);s.refs.forEach(id=>assert.ok(refs.has(id),id));}

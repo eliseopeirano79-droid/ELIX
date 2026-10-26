@@ -1,0 +1,25 @@
+{
+  "chapterId": "farmacogenomica",
+  "checkedAt": "2026-10-26",
+  "outcome": "pass",
+  "reviewer": "integrator_editorial_check",
+  "independentClinicalReview": false,
+  "moduleSha256": "c6c0e136e639aedb6f139bb9d0383ca1cb9be279d4161b235f4b47975ea3aecf",
+  "checks": [
+    "PK versus PD; active-drug inactivation versus prodrug activation.",
+    "Star allele is not a severity rank; copy count does not establish functional copies.",
+    "Phenoconversion does not alter DNA; no blanket CYP2D6 induction claim.",
+    "CPIC thiopurine2025 update published2026 includes TPMT and NUDT15.",
+    "DPYD gene distinct from DPD enzyme; systemic/topical and renal uracil context preserved.",
+    "ABCB1 substrate is not a therapeutic target; SLCO1B1 uptake distinguished.",
+    "HLA risk distinct from metabolism; no historical hapten diagram adopted.",
+    "Host germline, tumor somatic and pathogen genomes separated; biologics undergo proteolysis.",
+    "Siponimod CYP2C9 case retained with current EMA context.",
+    "No doses, universal screening mandate, ethnicity-as-genotype, or whole-corpus claim."
+  ],
+  "limits": [
+    "Editorial source reconciliation by the integrator, not independent clinical validation.",
+    "Official sources consulted in selected passages, not full guidelines.",
+    "Browser, offline, update and publication checks recorded separately."
+  ]
+}
