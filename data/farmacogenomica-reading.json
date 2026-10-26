@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "batch": "theory-farmacogenomica",
+  "chapterId": "farmacogenomica",
+  "updatedAt": "2026-10-26T09:23:33.950709+00:00",
+  "status": "bounded_reading_and_editorial_reconciliation_completed",
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "sources": [
+    {
+      "id": "K",
+      "title": "Katzung, Farmacologia generale e clinica",
+      "edition": "IX italiana2014 / XII americana2012",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "pageCount": 1579,
+      "extractedTextReadPages": [
+        90,
+        91,
+        92,
+        93
+      ],
+      "visuallyCheckedPdfPages": [
+        90,
+        92
+      ],
+      "previouslyFullyReadPages": [],
+      "allContentsRead": false,
+      "originalSha256After": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "sourceUnchanged": true,
+      "limit": "OCR and table defects on PDF90 and92 checked against rendered pages; historical clinical recommendations not adopted."
+    },
+    {
+      "id": "R",
+      "title": "Rang & Dale, Farmacologia",
+      "edition": "8ª italiana2016 / originale2015",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "pageCount": 1102,
+      "extractedTextReadPages": [
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230
+      ],
+      "visuallyCheckedPdfPages": [
+        228
+      ],
+      "previouslyFullyReadPages": [],
+      "allContentsRead": false,
+      "originalSha256After": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "sourceUnchanged": true
+    },
+    {
+      "id": "C",
+      "title": "Clementi e Fumagalli, Farmacologia generale e molecolare",
+      "edition": "4ª2012",
+      "sha256": "b5969a60702c4ea97a484e5fa2acb11b7a8712b8e958843213cdce8d08128b79",
+      "pageCount": 720,
+      "extractedTextReadPages": [
+        688,
+        689,
+        690
+      ],
+      "visuallyCheckedPdfPages": [
+        689
+      ],
+      "previouslyFullyReadPages": [],
+      "allContentsRead": false,
+      "originalSha256After": "b5969a60702c4ea97a484e5fa2acb11b7a8712b8e958843213cdce8d08128b79",
+      "sourceUnchanged": true
+    },
+    {
+      "id": "FI",
+      "title": "Slide Farmaco I, Loredana Serpe",
+      "edition": "AA2025–26",
+      "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
+      "pageCount": 567,
+      "extractedTextReadPages": [
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220
+      ],
+      "visuallyCheckedPdfPages": [
+        204,
+        208,
+        211,
+        213,
+        215,
+        217
+      ],
+      "previouslyFullyReadPages": [],
+      "allContentsRead": false,
+      "originalSha256After": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
+      "limit": "All listed extracted text read; only six listed pages visually inspected. Other image content remains unchecked.",
+      "sourceUnchanged": true
+    },
+    {
+      "id": "SFI",
+      "title": "Farmacologia I Definitivo, lezione5 Serpe13/10/2025",
+      "edition": "AA2025–26",
+      "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+      "pageCount": 344,
+      "extractedTextReadPages": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "visuallyCheckedPdfPages": [
+        111
+      ],
+      "previouslyFullyReadPages": [],
+      "allContentsRead": false,
+      "originalSha256After": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+      "sourceUnchanged": true,
+      "lessonPdfPages": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "compiledPrintedPages": [
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109
+      ],
+      "remainingInLessonText": [],
+      "outsideChapterScopePages": [
+        104
+      ]
+    },
+    {
+      "id": "FII-C",
+      "title": "Scompenso, antiaggreganti e anticoagulanti",
+      "lecturer": "Collino",
+      "edition": "AA2025–26",
+      "lessonNumber": 6,
+      "lessonDate": "06/11/2025",
+      "sha256": "076f0acf7d69ac4ea14bf068219e8fa2421d74e4f1396a5126e8fc36cd48286e",
+      "pageCount": 16,
+      "extractedTextReadPages": [
+        13,
+        14
+      ],
+      "visuallyCheckedPdfPages": [],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "originalSha256After": "076f0acf7d69ac4ea14bf068219e8fa2421d74e4f1396a5126e8fc36cd48286e",
+      "collectionEquivalentPdfPages": [
+        112,
+        113
+      ],
+      "deduplication": "Same pages in combined Farmaco II collection counted once; source identity established by prior inventory and first-page header."
+    },
+    {
+      "id": "FII-D",
+      "title": "Lezione 15: chemioterapia antivirale",
+      "lecturer": "D’Avolio",
+      "edition": "AA2025–26",
+      "lessonNumber": 15,
+      "lessonDate": "15/01/2026",
+      "sha256": "16c847198f3166af3b0c477f6c57ade56f1662f0d75c711a63451b47244bdeae",
+      "pageCount": 20,
+      "extractedTextReadPages": [
+        6
+      ],
+      "visuallyCheckedPdfPages": [],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "originalSha256After": "16c847198f3166af3b0c477f6c57ade56f1662f0d75c711a63451b47244bdeae",
+      "collectionEquivalentPdfPages": [
+        289
+      ],
+      "deduplication": "Same pages in combined Farmaco II collection counted once; source identity established by prior inventory and first-page header."
+    }
+  ],
+  "priorReadingReuse": [
+    {
+      "source": "FI",
+      "pages": [
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202
+      ],
+      "receipt": "data/anticorpi-biologici-reading.json",
+      "newReadPagesThisBatch": []
+    }
+  ],
+  "automaticExtraction": "Reused existing extracted text without modifying original files. No full-book reading.",
+  "remaining": [
+    "Whole books and courses not read",
+    "Source figure pages not explicitly listed remain unchecked",
+    "Independent clinical review not completed"
+  ],
+  "newExtractedTextPages": 46,
+  "visuallyCheckedPageCount": 11,
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "expandedChapters": 1,
+  "reconciliation": [
+    "PK versus PD; active-drug inactivation versus prodrug activation.",
+    "Star allele is not a severity rank; copy count does not establish functional copies.",
+    "Phenoconversion does not alter DNA; no blanket CYP2D6 induction claim.",
+    "CPIC thiopurine2025 update published2026 includes TPMT and NUDT15.",
+    "DPYD gene distinct from DPD enzyme; systemic/topical and renal uracil context preserved.",
+    "ABCB1 substrate is not a therapeutic target; SLCO1B1 uptake distinguished.",
+    "HLA risk distinct from metabolism; no historical hapten diagram adopted.",
+    "Host germline, tumor somatic and pathogen genomes separated; biologics undergo proteolysis.",
+    "Siponimod CYP2C9 case retained with current EMA context.",
+    "No doses, universal screening mandate, ethnicity-as-genotype, or whole-corpus claim."
+  ],
+  "officialSources": [
+    {
+      "id": "CPIC-OP",
+      "title": "CPIC · CYP2D6 e oppioidi, 2021",
+      "detail": "Crews et al., doi10.1002/cpt.2149. Consultati abstract, raccomandazioni codeina e passaggi su inibitori e limiti del test; non dichiarata lettura integrale. Accesso26/10/2026.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8249478/",
+      "accessedAt": "2026-10-26",
+      "scope": "Selected passages only; details in record."
+    },
+    {
+      "id": "CPIC-BB",
+      "title": "CPIC · Beta-bloccanti, 2024",
+      "detail": "Duarte et al., doi10.1002/cpt.3351. Passaggi selezionati su CYP2D6 e metoprololo; non tutta la linea guida. Accesso26/10/2026.",
+      "url": "https://files.cpicpgx.org/data/guideline/publication/beta_blockers/2024/38951961.pdf",
+      "accessedAt": "2026-10-26",
+      "scope": "Selected passages only; details in record."
+    },
+    {
+      "id": "CPIC-CLO",
+      "title": "CPIC · CYP2C19 e clopidogrel, aggiornamento2022",
+      "detail": "Lee et al., doi10.1002/cpt.2526. Abstract e passaggi selezionati sulle raccomandazioni e sul contesto neurovascolare; accesso completo non ottenuto in questa sessione. Accesso26/10/2026.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9287492/",
+      "accessedAt": "2026-10-26",
+      "scope": "Selected passages only; details in record."
+    },
+    {
+      "id": "CPIC-TP",
+      "title": "CPIC · TPMT, NUDT15 e tiopurine, aggiornamento2025",
+      "detail": "Maillard et al., pubblicato2026, doi10.1002/cpt.70209. Abstract e passaggi selezionati su funzione, fenotipi combinati, scopo e limiti. Non lettura integrale. Accesso26/10/2026.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12997511/",
+      "accessedAt": "2026-10-26",
+      "scope": "Selected passages only; details in record."
+    },
+    {
+      "id": "HPRA-IRI",
+      "title": "HPRA · Irinotecan, riassunto delle caratteristiche del prodotto",
+      "detail": "Documento09/01/2025, passaggi selezionati UGT1A1 e SN-38 in§5.2. Contesto regolatorio irlandese, non una raccomandazione italiana universale. Accesso26/10/2026.",
+      "url": "https://assets.hpra.ie/products/Human/22106/Licence_PA0822-212-001_09012025155108.pdf",
+      "accessedAt": "2026-10-26",
+      "scope": "Selected passages only; details in record."
+    },
+    {
+      "id": "EMA-DPD",
+      "title": "EMA · Fluoropirimidine e deficit di DPD",
+      "detail": "Procedura2020: panoramica e informazioni per professionisti, distinguendo uso sistemico, topico e altri prodotti. Accesso26/10/2026.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/fluorouracil-fluorouracil-related-substances-capecitabine-tegafur-flucytosine-containing-medicinal-products",
+      "accessedAt": "2026-10-26",
+      "scope": "Selected passages only; details in record."
+    },
+    {
+      "id": "EMA-URACIL",
+      "title": "EMA · 5-fluorouracile, comunicazione24/10/2024",
+      "detail": "Sintesi della comunicazione su funzione renale e interpretazione dell’uracile nel fenotipo DPD. Accesso26/10/2026.",
+      "url": "https://www.ema.europa.eu/en/medicines/dhpc/5-fluorouracil",
+      "accessedAt": "2026-10-26",
+      "scope": "Selected passages only; details in record."
+    },
+    {
+      "id": "CPIC-STAT",
+      "title": "CPIC · SLCO1B1, ABCG2, CYP2C9 e statine",
+      "detail": "Cooper-DeHoff et al.,2022, doi10.1002/cpt.2557. Abstract, introduzione e passaggi selezionati delle tabelle2/5. Aggiornamenti allelici online settembre2025 distinti dalla pubblicazione. Accesso26/10/2026.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9035072/",
+      "accessedAt": "2026-10-26",
+      "scope": "Selected passages only; details in record."
+    },
+    {
+      "id": "EMA-ABA",
+      "title": "EMA · Ziagen, abacavir",
+      "detail": "Panoramica ufficiale e passaggi del foglio illustrativo, informazioni di prodotto aggiornate19/01/2026: screening HLA-B*57:01 e limiti del risultato negativo. Non lettura integrale del RCP. Accesso26/10/2026.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ziagen",
+      "accessedAt": "2026-10-26",
+      "scope": "Selected passages only; details in record."
+    },
+    {
+      "id": "EMA-SIP",
+      "title": "EMA · Mayzent, siponimod",
+      "detail": "Informazioni di prodotto aggiornate30/07/2026: sezioni4.1,4.2 e passaggi4.4/5.2. Genotipo CYP2C9 distinto dal bersaglio S1P. Accesso26/10/2026.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/mayzent-epar-product-information_en.pdf",
+      "accessedAt": "2026-10-26",
+      "scope": "Selected passages only; details in record."
+    }
+  ]
+}

@@ -1,35 +1,36 @@
 {
-  "updatedAt": "2026-10-25",
-  "batch": "theory-anticorpi-biologici",
+  "updatedAt": "2026-10-26T13:04:27.563252+00:00",
+  "batch": "theory-farmacogenomica",
   "status": "verified_locally_pending_publication",
-  "release": "0.31.1",
-  "branch": "fix/antibody-format-retention",
-  "baseCommit": "227590580d023c8868f42169cc4aec650ed7f46a",
+  "release": "0.32.0",
+  "branch": "feat/theory-pharmacogenomics",
+  "baseCommit": "49fafbe5721a9f92b536f9fe98bd70ca0b5f5cd1",
   "previousBatch": {
-    "batch": "theory-tirosinchinasi",
+    "batch": "theory-anticorpi-biologici",
     "status": "published_and_live_verified",
-    "release": "0.30.0",
-    "commit": "227590580d023c8868f42169cc4aec650ed7f46a",
-    "receipt": "../../outputs/ELIX-rtk-2026-10-25/release-verification.json"
+    "release": "0.31.1",
+    "commit": "49fafbe5721a9f92b536f9fe98bd70ca0b5f5cd1",
+    "receipt": "../../outputs/ELIX-antibodies-2026-10-25/release-verification.json"
   },
   "scope": [
-    "Expand existing anticorpi-biologici to22sections,3932body words and10reasoned questions.",
-    "Original interactive comparison of5protein formats.",
-    "Reconcile bounded textbook, Farmaco I/II and official-source readings."
+    "Expand existing farmacogenomica to22sections,3786body words and10reasoned questions.",
+    "Original qualitative pathway model with6states: inactivation/activation by3activity levels.",
+    "Reconcile bounded books, Farmaco I/II and selected official-source passages.",
+    "Constrain sticky chapter index to viewport so final entries remain reachable."
   ],
   "completed": [
-    "34data validators passed.",
-    "40new chapter viewport/theme/format combinations passed; keyboard, both searches, source and seven catalog links.",
-    "Previous five extended chapters preserved and browser regressions passed.",
-    "16branding configurations; legacy paths, query/hash/storage/fallback/offline passed.",
-    "Real0.30to0.31upgrade passed, preserving favorites, academy progress and theme; new chapter works offline.",
-    "Eight representative chapter/model screenshots inspected, covering all five formats, desktop/mobile and both themes; seven original source hashes unchanged.",
-    "Postdeploy0.31.0check found format reset on late catalog refresh; fixed in0.31.1with delayed-response and theme regression."
+    "35data validators passed.",
+    "48new chapter viewport/theme/model combinations passed, keyboard, both searches,10catalog links and6legacy/target links.",
+    "Six previous extended chapters passed112browser configurations.",
+    "16branding configurations and aliases/query/hash/storage/fallback/offline checks passed.",
+    "Real0.31.1to0.32.0update preserves favorites, study progress and theme; chapter/model work offline.",
+    "Six representative chapter/model screenshots inspected, desktop/mobile and both themes; all7original source hashes unchanged.",
+    "Fixed wrapped mobile activity label and sticky index clipping; specific short-desktop regression passed."
   ],
   "remaining": [
-    "Follow-up PR and main CI for0.31.1",
-    "Completed0.31.1deploy and online verification",
-    "Final receipt after all checks"
+    "PR CI and merge",
+    "Main CI and concluded deployment",
+    "Live checks and postdeploy receipt"
   ],
   "counts": {
     "identities": 4225,
@@ -50,13 +51,13 @@
     "newInteractiveLabs": 1
   },
   "readingManifests": [
-    "data/anticorpi-biologici-reading.json"
+    "data/farmacogenomica-reading.json"
   ],
   "limits": [
-    "Six extended chapters of55;49remain to expand.",
-    "No whole-book or whole-course reading:93extracted-text pages include9outside-topic pages; only9source pages visually checked.",
-    "Single integrator editorial check; not independent clinical review.",
-    "No new identities, drug summaries, PK profiles or clinical algorithms."
+    "Seven extended chapters of55;48remain to expand.",
+    "46newextracted-text pages include1outside-topic page;11source pages visually checked. No whole-book or whole-course claim.",
+    "Single integrator editorial check, not independent clinical validation.",
+    "No new identities, drug summaries or PK profiles; no dose/genotype calculator."
   ],
-  "nextBatch": "After verified publication, resume bounded theory reading in Farmaco I lesson5 PDF104–114, distinguishing remaining figures and already-read text. Select the next topic against source map before editing. Do not reassign delivered chapters or revive old publishers."
+  "nextBatch": "After verified publication, reconcile the first unread Farmaco I transcript interval after PDF114 (candidate PDF115–124) against existing ledgers before reading. Identify topic and matched textbook/slide interval, then expand one existing chapter. Do not reread or reassign delivered chapters; keep extra visuals, missing drug summaries and tolterodine in backlog."
 }
