@@ -4,7 +4,7 @@
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "422984f9588f7f7c58a70c5f4e0b0b633b079c52c968a16ddfcccb2959a0b1e9",
+  "moduleSha256": "afe41b543ee57900c1cc01f885cdd46f05a0cc794a6d807fc894216e12462d4b",
   "checks": [
     "24 original explanatory sections and10questions with per-section attribution.",
     "Salt mass, stereochemistry, dissolution, absorption and exposure separated.",
@@ -18,7 +18,12 @@
   "limits": [
     "Single integrator editorial review; no independent clinical validation.",
     "48 extracted-text pages,45new,7visual checks; courses/books incomplete.",
-    "Four Collino antidepressant pages read but not integrated here.",
+    "Four course-note pages on antidepressants read but not integrated here.",
     "Browser and live verification recorded separately."
-  ]
+  ],
+  "publicLabelUpdate": {
+    "date": "2026-10-27",
+    "previousModuleSha256": "422984f9588f7f7c58a70c5f4e0b0b633b079c52c968a16ddfcccb2959a0b1e9",
+    "scope": "Denominazioni dei materiali del corso rese generiche; contenuti scientifici, intervalli di lettura e limiti conservati. Non è una nuova revisione clinica."
+  }
 }

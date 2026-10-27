@@ -36,8 +36,6 @@
   ],
   "slides": [
     {
-      "author": "Loredana Serpe",
-      "file": "FarmacoI-Serpe-2025-26.pdf",
       "courseYear": "2025–26, from supplied filename; no edition printed on selected slide",
       "pdfPages": [
         118
@@ -48,7 +46,8 @@
       "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
       "readMode": "Visually inspected complete slide: voltage-gated sodium channel versus ligand-gated channel. Neighbouring extracted headings inspected only for discovery.",
       "scope": "Voltage versus ligand gating only; not treated as a picture of presynaptic K or Ca channels. No source figure reproduced.",
-      "fullDeckRead": false
+      "fullDeckRead": false,
+      "sourceLabel": "Diapositive del corso di Farmacologia I · 2025–26"
     }
   ],
   "officialSources": [

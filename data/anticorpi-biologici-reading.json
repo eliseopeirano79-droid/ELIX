@@ -21,7 +21,7 @@
     "Testo estraibile consultato su93pagine, delle quali9pagine di Farmaco I fuori dall’argomento e non integrate. Non equivale a93pagine con tutte le figure lette.",
     "Solo9pagine controllate visivamente; figure e testi incorporati nelle altre immagini restano da leggere.",
     "Libri e corsi non letti integralmente; restano anche PDF104–114 della lezione5 di Farmaco I.",
-    "Collino e D’Avolio inventariati e deduplicati, non integrati in questo lotto.",
+    "Altri materiali del corso di Farmacologia inventariati e deduplicati, non integrati in questo lotto.",
     "Controllo editoriale dell’integratore, non revisione clinica indipendente. Nessun algoritmo terapeutico o dosaggio."
   ],
   "onlineSourceScope": [
@@ -343,7 +343,7 @@
     },
     {
       "id": "FI",
-      "title": "Slide Farmaco I, Loredana Serpe",
+      "title": "Diapositive del corso di Farmacologia I",
       "edition": "AA2025–26",
       "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
       "pageCount": 567,
@@ -418,7 +418,7 @@
     },
     {
       "id": "SFI",
-      "title": "Farmacologia I Definitivo, lezione5 Serpe13/10/2025",
+      "title": "Appunti del corso di Farmacologia I · lezione 5 del 13/10/2025",
       "edition": "AA2025–26",
       "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
       "pageCount": 344,
@@ -499,7 +499,7 @@
     },
     {
       "id": "S1",
-      "title": "Farmaco II, lezione1 Serpe27/10/2025",
+      "title": "Appunti del corso di Farmacologia II · lezione 1 del 27/10/2025",
       "edition": "AA2025–26",
       "sha256": "f868f51aaf7bf901b4bb2b29bf8cb36b53d366b5d22524d9c193e4fd2ea69d3d",
       "pageCount": 26,
@@ -523,7 +523,7 @@
     },
     {
       "id": "SL9",
-      "title": "Farmaco II, Antitumorali mirati, Serpe",
+      "title": "Diapositive del corso di Farmacologia II · Antitumorali mirati",
       "edition": "AA2025–26",
       "sha256": "5e922fa9c80f7400377a3fddba54e803bed59df65b91d6b744662547bc88d635",
       "pageCount": 48,

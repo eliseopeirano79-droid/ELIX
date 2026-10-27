@@ -290,22 +290,22 @@ export const THEORY_INTERACTIONS = Object.freeze({
     },
     {
       "id": "FI",
-      "title": "Farmaco I · Slide di Loredana Serpe",
+      "title": "Diapositive del corso di Farmacologia I",
       "detail": "AA 2025–26, testo estraibile PDF 221–261; 239 già letta. Controllate visivamente 230,234,238,243,244. Le altre figure restano non verificate; nessuna lettura integrale del corso."
     },
     {
       "id": "SFI",
-      "title": "Farmaco I · Sbobina della lezione 6 di Loredana Serpe",
+      "title": "Appunti del corso di Farmacologia I · lezione 6",
       "detail": "Raccolta PDF 115–130, pagine interne 1–16 e stampate 110–125; 115 controllata visivamente. Data stampata 10/10/2025, cronologia discordante con la lezione 5: conservata senza correzioni congetturali.128–130 comprendono equivalenti e biosimilari, fuori dall’ampliamento presente."
     },
     {
       "id": "COL",
-      "title": "Farmaco II · Collino, lezione 8 del 14/11/2025",
+      "title": "Appunti del corso di Farmacologia II · lezione 8 del 14/11/2025",
       "detail": "Testo PDF 2–3, equivalenti a raccolta 132–133, contati una volta. Differenze farmacocinetiche delle statine; tabelle non controllate visivamente e raccomandazioni cliniche non trasferite."
     },
     {
       "id": "DAV",
-      "title": "Farmaco II · D’Avolio, lezione 15 del 15/01/2026",
+      "title": "Appunti del corso di Farmacologia II · lezione 15 del 15/01/2026",
       "detail": "Testo PDF 3–4, equivalenti a raccolta 286–287, contati una volta. Concetto di potenziamento metabolico riconciliato con EMA. Affermazioni su TAF/TDF, altri antivirali e intervalli long-acting escluse: richiedono revisione dedicata."
     },
     {
@@ -347,7 +347,7 @@ export const THEORY_INTERACTIONS = Object.freeze({
     {
       "id": "OZA-PRIOR",
       "title": "Caso ozanimod · Contenuto già pubblicato",
-      "detail": "Conservate le tre sezioni del lotto precedente e i relativi dati. Sintesi selettiva: Rang & Dale, 8ª ed. italiana 2016, PDF 195–196, e Serpe 2025–26, PDF 239, per principi generali. Caso ozanimod: RCP EMA Zeposia, file 03/03/2026, sezioni selezionate consultate 24/10/2026. Letture e limiti in data/ozanimod-reading.json; non revisione clinica indipendente. Nessuna nuova lettura del RCP di ozanimod dichiarata in questo lotto."
+      "detail": "Conservate le tre sezioni del lotto precedente e i relativi dati. Sintesi selettiva: Rang & Dale, 8ª ed. italiana 2016, PDF 195–196, e diapositive del corso di Farmacologia I 2025–26, PDF 239, per principi generali. Caso ozanimod: RCP EMA Zeposia, file 03/03/2026, sezioni selezionate consultate 24/10/2026. Letture e limiti in data/ozanimod-reading.json; non revisione clinica indipendente. Nessuna nuova lettura del RCP di ozanimod dichiarata in questo lotto."
     }
   ],
   "drugs": [

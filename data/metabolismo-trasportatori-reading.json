@@ -106,7 +106,7 @@
     },
     {
       "id": "FI",
-      "title": "Slide Farmaco I, Loredana Serpe",
+      "title": "Diapositive del corso di Farmacologia I",
       "edition": "AA2025–26",
       "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
       "pageCount": 567,
@@ -211,7 +211,7 @@
     },
     {
       "id": "SFI",
-      "title": "Farmacologia I Definitivo, lezione6 Serpe, data stampata10/10/2025",
+      "title": "Appunti del corso di Farmacologia I · lezione 6, data stampata 10/10/2025",
       "edition": "AA2025–26",
       "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
       "pageCount": 344,
@@ -303,7 +303,6 @@
     {
       "id": "DAV",
       "title": "Lezione 15: chemioterapia antivirale",
-      "lecturer": "D’Avolio",
       "edition": "AA2025–26",
       "sha256": "16c847198f3166af3b0c477f6c57ade56f1662f0d75c711a63451b47244bdeae",
       "pageCount": 20,
@@ -328,7 +327,6 @@
     {
       "id": "COL",
       "title": "Dislipidemie",
-      "lecturer": "Collino",
       "edition": "AA2025–26",
       "sha256": "2650286971ef688992c4cce1786e2bb80844fddd9dbca5c106c1c9b38a247cdc",
       "pageCount": 11,

@@ -4,7 +4,7 @@
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "c6c0e136e639aedb6f139bb9d0383ca1cb9be279d4161b235f4b47975ea3aecf",
+  "moduleSha256": "65e41fa872a97c976855b70f4722c8d0cec33a422fc7bc291b0932b8ca5c6521",
   "checks": [
     "PK versus PD; active-drug inactivation versus prodrug activation.",
     "Star allele is not a severity rank; copy count does not establish functional copies.",
@@ -21,5 +21,10 @@
     "Editorial source reconciliation by the integrator, not independent clinical validation.",
     "Official sources consulted in selected passages, not full guidelines.",
     "Browser, offline, update and publication checks recorded separately."
-  ]
+  ],
+  "publicLabelUpdate": {
+    "date": "2026-10-27",
+    "previousModuleSha256": "c6c0e136e639aedb6f139bb9d0383ca1cb9be279d4161b235f4b47975ea3aecf",
+    "scope": "Denominazioni dei materiali del corso rese generiche; contenuti scientifici, intervalli di lettura e limiti conservati. Non è una nuova revisione clinica."
+  }
 }

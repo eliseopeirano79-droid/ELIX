@@ -73,7 +73,7 @@
     },
     {
       "id": "FI",
-      "title": "Slide Farmaco I, Loredana Serpe",
+      "title": "Diapositive del corso di Farmacologia I",
       "edition": "AA2025–26",
       "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
       "pageCount": 567,
@@ -113,7 +113,7 @@
     },
     {
       "id": "SFI",
-      "title": "Farmacologia I Definitivo, lezione5 Serpe13/10/2025",
+      "title": "Appunti del corso di Farmacologia I · lezione 5 del 13/10/2025",
       "edition": "AA2025–26",
       "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
       "pageCount": 344,
@@ -171,7 +171,6 @@
     {
       "id": "FII-C",
       "title": "Scompenso, antiaggreganti e anticoagulanti",
-      "lecturer": "Collino",
       "edition": "AA2025–26",
       "lessonNumber": 6,
       "lessonDate": "06/11/2025",
@@ -194,7 +193,6 @@
     {
       "id": "FII-D",
       "title": "Lezione 15: chemioterapia antivirale",
-      "lecturer": "D’Avolio",
       "edition": "AA2025–26",
       "lessonNumber": 15,
       "lessonDate": "15/01/2026",

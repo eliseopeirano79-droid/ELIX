@@ -4,7 +4,7 @@
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "b509a2a29e01460a8d969621788fac5e04e190d659a3d8992505a4ca58371825",
+  "moduleSha256": "759a3df91f60c8847d6ca775b1717f3c0c50593fa5f987486ce9586a41e4b045",
   "checks": [
     "Readback of22original sections and10answers for mechanism, boundaries and source attribution.",
     "Fab/Fc, specificity/valency, FcRn/FcγR, receptor trap/antagonist, ADC/bispecific separated.",
@@ -16,5 +16,10 @@
   "limits": [
     "Single integrator editorial review, not independent specialist validation.",
     "Browser, offline, update and deployment remain separate checks."
-  ]
+  ],
+  "publicLabelUpdate": {
+    "date": "2026-10-27",
+    "previousModuleSha256": "b509a2a29e01460a8d969621788fac5e04e190d659a3d8992505a4ca58371825",
+    "scope": "Denominazioni dei materiali del corso rese generiche; contenuti scientifici, intervalli di lettura e limiti conservati. Non è una nuova revisione clinica."
+  }
 }

@@ -1,30 +1,29 @@
 {
-  "updatedAt": "2026-10-27T08:12:00.882101+00:00",
-  "batch": "theory-formulazioni-bioequivalenza",
+  "updatedAt": "2026-10-27T09:07:28.906152+00:00",
+  "batch": "course-material-labels",
   "status": "verified_locally_pending_publication",
-  "release": "0.34.0",
-  "branch": "feat/theory-bioequivalence",
-  "baseCommit": "64693066966f278caa44915c2a45bc981d96205e",
+  "release": "0.34.1",
+  "branch": "fix/course-material-labels",
+  "baseCommit": "ced696e827144392fb3f4500bd79ed71093a6bb0",
   "previousBatch": {
-    "batch": "theory-metabolismo-trasportatori",
+    "batch": "theory-formulazioni-bioequivalenza",
     "status": "published_and_live_verified",
-    "release": "0.33.0",
-    "commit": "64693066966f278caa44915c2a45bc981d96205e",
-    "receipt": "../../outputs/ELIX-interactions-2026-10-26/release-verification.json"
+    "release": "0.34.0",
+    "commit": "ced696e827144392fb3f4500bd79ed71093a6bb0",
+    "receipt": "../../outputs/ELIX-bioequivalence-2026-10-27/release-verification.json"
   },
   "scope": [
-    "Expand existing formulations and bioequivalence chapter:24sections,3413body words,10reasoned questions.",
-    "Original five-case confidence-interval model, logarithmic ratio axis.",
-    "Reconcile bounded books and FarmacoI with six official sources; preserve all54other chapters."
+    "Generic course-material labels in existing chapters, visual notes and public reading records.",
+    "Preserve detailed provenance privately, all reading ranges, source hashes and scientific content."
   ],
   "completed": [
-    "37data validators passed.",
-    "40new-chapter configurations:four widths,two themes,five synthetic CI cases;keyboard,search,5catalog links,3legacy links and offline records.",
-    "208configurations across eight previous extended chapters passed.",
-    "16branding configurations passed,including redirects,query/hash,storage,fallback and offline.",
-    "Real0.33.0→0.34.0update preserved favorites,progress and theme;new chapter/model available offline.",
-    "Four representative desktop/mobile and light/dark screenshots inspected.",
-    "54other chapter objects and allpreviously published data unchanged;5original source hashes unchanged."
+    "37 existing data validators passed.",
+    "126 page configurations:55chapters and8visual pages in desktop/dark and mobile/light; no prohibited course labels, no horizontal overflow.",
+    "31 public reading/review records checked, including offline chapter and record.",
+    "16 branding configurations passed, including old routes and local data preservation.",
+    "Real0.34.0→0.34.1update preserved favorites, progress and theme; corrected labels available offline.",
+    "15 reading records preserve every numeric value, boolean and source hash; catalog, clinical data, registry and PK unchanged.",
+    "Desktop and mobile source-reference screenshots visually inspected."
   ],
   "remaining": [
     "PR CI and merge",
@@ -46,18 +45,14 @@
     "newProductPKContexts": 0,
     "newPKFields": 0,
     "newChapters": 0,
-    "expandedChapters": 1,
-    "newInteractiveLabs": 1
+    "expandedChapters": 0,
+    "newInteractiveLabs": 0
   },
-  "readingManifests": [
-    "data/formulazioni-sali-bioequivalenza-reading.json"
-  ],
+  "readingManifests": [],
   "limits": [
+    "Wording-only correction; no new reading or clinical review.",
     "Nine extended chapters of55;46remain to expand.",
-    "48extracted-text pages read,45new;7visual checks;4Collino antidepressant pages read but outside this chapter scope.",
-    "No whole-book/course claim or independent clinical validation.",
-    "No new identities,drug summaries or product PK contexts.",
-    "Chromium viewport checks,not physical devices or cross-browser validation."
+    "Antidepressant chapter draft preserved and not included in this patch."
   ],
-  "nextBatch": "After verified0.34.0publication, resume already-read Collino FarmacoI PDF131–134 and deduplicate candidate135–140 before reading. Identify matching book/slide passages and extend one existing relevant theory unit; do not reassign delivered chapters. FarmacoII inventory complete,reading incomplete. Other visuals,missing drugs and tolterodine remain in backlog."
+  "nextBatch": "Resume the existing antidepressant chapter draft, private reading ledger and interactive model; do not repeat already recorded readings."
 }

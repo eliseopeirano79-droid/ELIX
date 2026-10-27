@@ -4,7 +4,7 @@
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "a430db24ce9dcb74b592f4222e46dd36ca4dc653e3f8a4aca093b7ae9761624f",
+  "moduleSha256": "7fb5f49e4a6850feddd4719beece4fca0cfc05d235e365e89e8bab4521411918",
   "checks": [
     "All 18 original sections and 8 answers reviewed for internal consistency and bounded source attribution.",
     "RTK, cytokine-associated JAK and BCR-ABL separated.",
@@ -18,5 +18,10 @@
   "limits": [
     "Single integrator editorial check, not independent specialist review.",
     "Browser, offline, update and deployment checks recorded separately."
-  ]
+  ],
+  "publicLabelUpdate": {
+    "date": "2026-10-27",
+    "previousModuleSha256": "a430db24ce9dcb74b592f4222e46dd36ca4dc653e3f8a4aca093b7ae9761624f",
+    "scope": "Denominazioni dei materiali del corso rese generiche; contenuti scientifici, intervalli di lettura e limiti conservati. Non è una nuova revisione clinica."
+  }
 }

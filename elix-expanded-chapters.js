@@ -10,7 +10,7 @@ export const EXPANDED_CHAPTERS=[
     {"title": "Solifenacina: attenuare il segnale colinergico", "text": "L’acetilcolina promuove la contrazione del detrusore, soprattutto attraverso M₃. Solifenacina è un antagonista competitivo muscarinico: occupazione del recettore e distruzione del recettore sono fenomeni diversi. Il laboratorio mostra tre viste qualitative, senza stimare occupazione, dose o beneficio individuale."},
     {"title": "Un bersaglio non identifica un solo organo", "text": "La preferenza per M₃ non rende l’azione esclusiva della vescica. Secchezza orale, stipsi e visione offuscata collegano gli effetti antimuscarinici a secrezioni, motilità e accomodazione. EAU 2026 considera gli anticolinergici nelle donne con OAB dopo insuccesso conservativo, con decisione condivisa e rivalutazione precoce; nell’anziano richiama carico anticolinergico e cautela a lungo termine. Non è una misura individuale del rischio cognitivo."},
     {"title": "Sale, parentale e metaboliti della solifenacina", "text": "Vesitirim 10 mg contiene 10 mg di solifenacina succinato, equivalenti a 7,5 mg di solifenacina: la distinzione descrive la composizione, non una conversione prescrittiva. Il profilo adulto orale riporta emivita terminale 45–68 ore, biodisponibilità circa 90% e legame proteico circa 98%. Il recupero di radioattività nelle urine e nelle feci include parentale e metaboliti e non quantifica da solo l’eliminazione renale del farmaco immodificato."},
-    {"title": "Letture per il percorso muscarinico", "text": "Katzung IX italiana 2014, capitolo 8, PDF 157–158 (stampate 137–138); PDF 158 anche visivo. Slide Serpe 2025–26, PDF 136 e 138 (numerate 134 e 136), PDF 138 anche visivo: antagonismo competitivo reversibile, senza riproduzione delle figure. RCP irlandese Vesitirim 10 mg, tutte le 11 pagine lette in testo, PDF 9 anche visivo: §10 dicembre 2022 distinto dall’aggiornamento della pagina del 25/09/2026. EAU 2026 §§ 4.1.4.b.1.d e 4.1.4.b.3.a–c; dettagli e limiti in data/solifenacin-reading.json. Non è una revisione clinica indipendente."},
+    {"title": "Letture per il percorso muscarinico", "text": "Katzung IX italiana 2014, capitolo 8, PDF 157–158 (stampate 137–138); PDF 158 anche visivo. Diapositive del corso di Farmacologia I 2025–26, PDF 136 e 138 (numerate 134 e 136), PDF 138 anche visivo: antagonismo competitivo reversibile, senza riproduzione delle figure. RCP irlandese Vesitirim 10 mg, tutte le 11 pagine lette in testo, PDF 9 anche visivo: §10 dicembre 2022 distinto dall’aggiornamento della pagina del 25/09/2026. EAU 2026 §§ 4.1.4.b.1.d e 4.1.4.b.3.a–c; dettagli e limiti in data/solifenacin-reading.json. Non è una revisione clinica indipendente."},
     {
       "title": "Un muscolo, due compiti",
       "text": "Il detrusore deve accogliere l’urina e poi contribuire alla sua espulsione. Nel riempimento il segnale simpatico favorisce il rilassamento; la minzione richiede il controllo parasimpatico e la coordinazione con le vie di uscita. Il laboratorio isola il muscolo e non ricostruisce l’intero circuito neurologico."
@@ -135,7 +135,7 @@ export const EXPANDED_CHAPTERS=[
       "ADRB2",
       "S1PR1"
     ],
-    "review": "Sintesi originale a scopo didattico; indicazioni e dati quantitativi richiedono consultazione della fonte versionata. Approfondimento S1P: Rang & Dale 8ª ed. italiana, PDF 78–80; Serpe 2025–26, PDF 151; RCP EMA Gilenya §§ 5.1–5.2 e Oo et al., JCI 2011, DOI 10.1172/JCI45403, sezioni selezionate. Consultazione 24/10/2026. Approfondimento ponesimod: Rang & Dale PDF 35–37; Serpe 2025–26 PDF 149 (slide 147); RCP EMA Ponvory file 10/03/2026, IUPHAR ligando 9320 e NICE TA767 §§ 1.1–1.2 e motivazione, sezioni selezionate consultate 25/10/2026. Letture in data/ponesimod-reading.json."
+    "review": "Sintesi originale a scopo didattico; indicazioni e dati quantitativi richiedono consultazione della fonte versionata. Approfondimento S1P: Rang & Dale 8ª ed. italiana, PDF 78–80; diapositive del corso di Farmacologia I 2025–26, PDF 151; RCP EMA Gilenya §§ 5.1–5.2 e Oo et al., JCI 2011, DOI 10.1172/JCI45403, sezioni selezionate. Consultazione 24/10/2026. Approfondimento ponesimod: Rang & Dale PDF 35–37; diapositive del corso di Farmacologia I 2025–26 PDF 149 (slide 147); RCP EMA Ponvory file 10/03/2026, IUPHAR ligando 9320 e NICE TA767 §§ 1.1–1.2 e motivazione, sezioni selezionate consultate 25/10/2026. Letture in data/ponesimod-reading.json."
   },
   {
     "id": "assorbimento-distribuzione",
@@ -214,7 +214,7 @@ export const EXPANDED_CHAPTERS=[
       "CYP2D6",
       "S1PR5"
     ],
-    "review": "Sintesi selettiva: Rang & Dale, 8ª ed. italiana 2016, PDF 195–196, e Serpe 2025–26, PDF 239, per principi generali. Caso ozanimod: RCP EMA Zeposia, file 03/03/2026, sezioni selezionate consultate 24/10/2026. Letture e limiti in data/ozanimod-reading.json; non revisione clinica indipendente."
+    "review": "Sintesi selettiva: Rang & Dale, 8ª ed. italiana 2016, PDF 195–196, e diapositive del corso di Farmacologia I 2025–26, PDF 239, per principi generali. Caso ozanimod: RCP EMA Zeposia, file 03/03/2026, sezioni selezionate consultate 24/10/2026. Letture e limiti in data/ozanimod-reading.json; non revisione clinica indipendente."
   },
 
   {
@@ -265,7 +265,7 @@ export const EXPANDED_CHAPTERS=[
       },
       {
         "title": "Letture e contesto della SM",
-        "text": "Rang & Dale, Farmacologia, 8ª edizione italiana (2016): PDF 102–103 lette, pagina 103 anche visivamente; PDF 280 riletta. Serpe, Farmaco I 2025–26: rilettura della slide 116 (PDF 118), sulla distinzione voltaggio/ligando. RCP EMA Fampyra consultato il 24/10/2026. La scheda distingue la raccomandazione economica NICE 2022 dalla successiva policy NHS England 2026, letta nella sola sintesi indicizzata. Nessuna revisione integrale delle linee guida o conclusione sulla rimborsabilità italiana."
+        "text": "Rang & Dale, Farmacologia, 8ª edizione italiana (2016): PDF 102–103 lette, pagina 103 anche visivamente; PDF 280 riletta. Diapositive del corso di Farmacologia I 2025–26: rilettura della slide 116 (PDF 118), sulla distinzione voltaggio/ligando. RCP EMA Fampyra consultato il 24/10/2026. La scheda distingue la raccomandazione economica NICE 2022 dalla successiva policy NHS England 2026, letta nella sola sintesi indicizzata. Nessuna revisione integrale delle linee guida o conclusione sulla rimborsabilità italiana."
       }
     ],
     "drugs": [
@@ -358,7 +358,7 @@ export const EXPANDED_CHAPTERS=[
       },
       {
         "title": "Testo storico e guida attuale",
-        "text": "Nel Rang del 2016 l’edrofonio compare come test della miastenia. ABN 2025 non lo raccomanda più, per le possibili complicazioni: il riferimento storico non diventa una raccomandazione attuale. In questo ampliamento sono state lette le pagine PDF 275–280 di Rang & Dale, 8ª edizione italiana; osservata la pagina PDF 119 (slide interna 117) della raccolta Farmaco I Serpe 2025–26; lette le pagine a stampa 423–425 (PDF 2–4) di ABN 2025. Il resto dei materiali rimane da integrare. Le figure sono originali, senza riproduzioni delle fonti."
+        "text": "Nel Rang del 2016 l’edrofonio compare come test della miastenia. ABN 2025 non lo raccomanda più, per le possibili complicazioni: il riferimento storico non diventa una raccomandazione attuale. In questo ampliamento sono state lette le pagine PDF 275–280 di Rang & Dale, 8ª edizione italiana; osservata la pagina PDF 119 (slide interna 117) della raccolta di diapositive del corso di Farmacologia I 2025–26; lette le pagine a stampa 423–425 (PDF 2–4) di ABN 2025. Il resto dei materiali rimane da integrare. Le figure sono originali, senza riproduzioni delle fonti."
       },
       {
         "title": "Rilascio, degradazione e recettore: tre punti distinti",
@@ -370,7 +370,7 @@ export const EXPANDED_CHAPTERS=[
       },
       {
         "title": "Letture di questo ampliamento presinaptico",
-        "text": "Rang & Dale, Farmacologia, 8ª edizione italiana (2016), testo PDF 113–114 e rilettura di 279–280; pagina 114 vista anche come immagine. Serpe, Farmaco I 2025–26, PDF 118 (slide 116): canali attivati dal voltaggio e dal ligando, non una figura specifica del bersaglio farmacologico. RCP EMA Firdapse e raccomandazione DGN 2024 sul LEMS consultati il 24/10/2026; quest’ultima tramite testo indicizzato, senza accesso al PDF integrale. Sintesi e disegni originali, letture parziali."
+        "text": "Rang & Dale, Farmacologia, 8ª edizione italiana (2016), testo PDF 113–114 e rilettura di 279–280; pagina 114 vista anche come immagine. Diapositive del corso di Farmacologia I 2025–26, PDF 118 (slide 116): canali attivati dal voltaggio e dal ligando, non una figura specifica del bersaglio farmacologico. RCP EMA Firdapse e raccomandazione DGN 2024 sul LEMS consultati il 24/10/2026; quest’ultima tramite testo indicizzato, senza accesso al PDF integrale. Sintesi e disegni originali, letture parziali."
       }
     ],
     "drugs": [
@@ -1126,7 +1126,7 @@ export const EXPANDED_CHAPTERS=[
     "targets": [
       "CYP2C9"
     ],
-    "review": "Sintesi selettiva: Rang & Dale 8ª ed. italiana 2016, PDF 217–218, e Serpe 2025–26, PDF 71 e 198, per principi generali. Caso siponimod: RCP EMA Mayzent, file 30/07/2026, §§ 4.1–4.5 e 5.2, consultato 24/10/2026. Letture parziali registrate in data/siponimod-reading.json; non revisione clinica indipendente."
+    "review": "Sintesi selettiva: Rang & Dale 8ª ed. italiana 2016, PDF 217–218, e diapositive del corso di Farmacologia I 2025–26, PDF 71 e 198, per principi generali. Caso siponimod: RCP EMA Mayzent, file 30/07/2026, §§ 4.1–4.5 e 5.2, consultato 24/10/2026. Letture parziali registrate in data/siponimod-reading.json; non revisione clinica indipendente."
   },
 
   {

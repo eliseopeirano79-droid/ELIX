@@ -51,7 +51,7 @@
     {
       "id": "S",
       "title": "Farmacologia I Definitivo.pdf",
-      "edition": "AA2025–26, combined course transcript; pharmacodynamics lesson Serpe10/10/2025",
+      "edition": "AA2025–26, combined course transcript; pharmacodynamics course notes dated 10/10/2025",
       "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
       "totalPdfPages": 344,
       "textPagesRead": [
@@ -103,11 +103,11 @@
       ],
       "navigationOnly": "Cover text and index snippets PDF1–5; not full study of those pages.",
       "fullDocumentRead": false,
-      "scope": "One20-page pharmacodynamics lesson read as text. No claim to other lessons, FarmacoII, Collino or D’Avolio."
+      "scope": "One20-page pharmacodynamics lesson read as text. No claim to other lessons or other course materials."
     },
     {
       "id": "SL",
-      "title": "FarmacoI-Serpe-2025-26.pdf",
+      "title": "Diapositive del corso di Farmacologia I · 2025–26",
       "edition": "2025–26",
       "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
       "textPagesRead": [
@@ -213,8 +213,8 @@
   ],
   "remaining": [
     "All books are partial readings;3401 available PDF pages are not3401 reviewed pages.",
-    "FarmacoI remaining lessons and full slide reconciliation, including Collino.",
-    "FarmacoII slide and transcript inventory, deduplication and topic-by-topic reading, including D’Avolio/Collino/Serpe.",
+    "Appunti e diapositive del corso di Farmacologia I: altre lezioni ancora da riconciliare.",
+    "Appunti e diapositive del corso di Farmacologia II: inventario, deduplicazione e lettura per argomento.",
     "Independent specialist review; remaining54 short theory units need expansion.",
     "Rang chapter2/7 and Clementi chapter5 comparison beyond recovered T02 intervals."
   ],
