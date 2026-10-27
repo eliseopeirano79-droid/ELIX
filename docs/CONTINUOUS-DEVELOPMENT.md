@@ -8,15 +8,15 @@ Per esplicita richiesta dell’utente del 27/10/2026 usare «appunti e diapositi
 
 ## Lotto corrente
 
-`theory-antidepressivi`, versione 0.35.0: un nuovo capitolo esteso di 24 sezioni e 3.489 parole, dieci domande ragionate, nove collegamenti a identità già presenti e un laboratorio originale con sei viste qualitative della sinapsi. Nessuna nuova identità, sintesi di farmaco o scheda farmacocinetica. I 55 capitoli precedenti rimangono identici; il totale passa a 56, di cui dieci estesi e 46 ancora sintetici.
+`theory-depression-circuits`, versione 0.36.0: ampliamento del capitolo sugli antidepressivi con cinque sezioni e quattro domande. Il capitolo passa da 3.489 a 4.542 parole e da 24 a 29 sezioni; le 24 precedenti sono conservate. Si approfondiscono feedback endocrino, trasporto vescicolare, ruolo regionale di NET, limiti dei modelli e interpretazione dei geni del bersaglio. Nessun nuovo farmaco, profilo farmacocinetico o capitolo; restano 56 capitoli, dieci estesi e 46 sintetici. Il laboratorio a sei viste rimane disponibile.
 
-La 0.34.1 è pubblicata e verificata al commit `83f7f727dacb9b76b8e1e7308219c19c84adce11`. La PR 27 ha risolto il limite di tempo dei controlli automatici senza cambiare l’app o ridurre i test; tutti i controlli e il deploy sono conclusi con successo.
+La 0.35.0 è pubblicata e verificata al commit `c05bc743c065746a5f968a962496aeb27486c1f6`, PR28. Ricevuta completa e tutti i controlli di quel lotto conclusi con successo.
 
-Lettura del lotto corrente: 58 nuove pagine di testo estraibile in cinque file, quattro pagine già lette riutilizzate senza ricontarle e 14 pagine controllate visivamente. Fonti e conflitti sono delimitati in `data/antidepressivi-reading.json`; nove fonti ufficiali confrontate selettivamente. Restano incompleti libri, corsi e revisione clinica indipendente. La provenienza originale dei materiali del corso resta privata.
+Nuova lettura: Rang & Dale PDF869–874 e Clementi/Fumagalli PDF321–325, undici pagine di testo estraibile deduplicate; cinque pagine ispezionate visivamente. Due pagine di appunti già lette sono state rilette senza ricontarle. La tabella raster R873 conserva un limite di leggibilità: nessun valore o confronto di sicurezza importato. Cinque fonti esterne aggiuntive consultate selettivamente. Registri pubblici in `data/depression-circuits-reading.json` e nel precedente `data/antidepressivi-reading.json`; provenienza originale privata.
 
-Controlli locali conclusi: 38 validatori, 48 configurazioni del nuovo laboratorio, 248 dei capitoli precedenti e 16 di branding; aggiornamento reale 0.34.1 → 0.35.0, tastiera, ricerca, navigazione e offline. Schermate desktop/mobile ispezionate, con dimensioni simulate in Chromium.
+Controlli locali: 38 validatori e 48 configurazioni browser, indice e fonti, tastiera, ricerca, temi, desktop/mobile simulati, offline e aggiornamento reale 0.35.0→0.36.0 con dati salvati conservati. Schermate ispezionate. Le verifiche complete di CI e online restano da concludere.
 
-Questo checkpoint precede la pubblicazione. La ricevuta `../../outputs/ELIX-latest-verification.json` prevale per batch/versione coincidenti quando attesta deploy e verifiche online conclusi. Prove in `../../outputs/ELIX-antidepressants-2026-10-27/`. Prima di iniziare altro, completare i controlli e la pubblicazione di questo lotto.
+Questo checkpoint precede la pubblicazione. La ricevuta `../../outputs/ELIX-latest-verification.json` prevale quando attesta deploy e verifiche online per lo stesso batch/versione. Prove in `../../outputs/ELIX-depression-circuits-2026-10-27/`. Non iniziare altro prima di completare la consegna.
 
 ## Regole
 
@@ -28,4 +28,4 @@ Questo checkpoint precede la pubblicazione. La ricevuta `../../outputs/ELIX-late
 
 ## Prossimo intervallo
 
-Dopo la verifica online del lotto corrente, completare l’inquadramento della depressione e dei circuiti con Rang & Dale PDF 869–874 e Clementi/Fumagalli PDF 321–325, deduplicando prima i registri. Queste pagine non sono ancora lette in questo lotto. Integrare solo informazioni sostenute, senza dichiarare completo il corso. Farmaci mancanti e altri laboratori restano nel backlog, subordinati alla teoria.
+Dopo la verifica online, mappare e deduplicare le diapositive del corso di Farmacologia I, PDF89–110, per proseguire il percorso monoaminergico. Non dichiararle già lette. Privilegiare i capitoli sintetici collegati ed evitare duplicazioni. Farmaci mancanti e altri laboratori rimangono nel backlog.

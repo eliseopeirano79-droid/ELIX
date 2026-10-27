@@ -4,20 +4,21 @@
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "d06f86063cdb9addc5113f2df946a644642234428ee142825f0362dfbbd65311",
+  "moduleSha256": "746d058de7d77517d3130c9d8383d346d5dba70a886b6668040d9df46ecf9829",
   "checks": [
-    "24 sezioni originali e 10 domande rilette, riferimenti per sezione e nove collegamenti a identità esistenti.",
-    "Ipotesi eziologica, bersaglio, adattamento e risultato clinico distinti.",
-    "SERT/NET di membrana separati da MAO intracellulare; feedback α2 distinto da eterorecettori e da 5-HT1A somatodendritico.",
-    "RIMA reversibili; tiramina e sindrome serotoninergica non confuse.",
-    "Indicazioni specifiche per prodotto e giurisdizione; nessuna prescrizione o dosaggio.",
-    "Laboratorio originale a sei stati qualitativi: terminale serotoninergico o noradrenergico esplicito, nessuna quantità clinica calcolata.",
-    "Denominazioni generiche dei materiali del corso; provenienza originale privata."
+    "24 sezioni precedenti preservate; cinque aggiunte originali e quattro nuove domande rilette.",
+    "Compartimenti e gradienti distinti: membrana plasmatica, deposito vescicolare e metabolismo.",
+    "NET e dopamina: preparazioni di topo e ruolo regionale espliciti; nessuna previsione clinica.",
+    "Asse CRH–ACTH–cortisolo e feedback fisiologico distinti da causalità della depressione.",
+    "SLC6A4 e HTR2A: nessuna raccomandazione prescrittiva da CPIC 2023; interpretazione distinta dai geni metabolici.",
+    "Modelli sperimentali, associazione, necessità e sufficienza distinti.",
+    "Fonti del corso denominate genericamente e provenienza originale privata."
   ],
   "limits": [
-    "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
-    "58 nuove pagine di testo estraibile, 4 riutilizzate e 14 controlli visivi; non lettura integrale dei testi.",
-    "SPRAVATO: apertura diretta limitata da errore 429, solo contenuti indicizzati della fonte ufficiale.",
-    "Verifiche software e pubblicazione registrate separatamente."
-  ]
+    "Sintesi editoriale del solo integratore, non revisione clinica indipendente.",
+    "Letture parziali documentate in data/depression-circuits-reading.json e nel registro iniziale.",
+    "Controlli software e pubblicazione registrati separatamente; questo esito riguarda solo la revisione editoriale del testo."
+  ],
+  "previousModuleSha256": "d06f86063cdb9addc5113f2df946a644642234428ee142825f0362dfbbd65311",
+  "batch": "theory-depression-circuits"
 }

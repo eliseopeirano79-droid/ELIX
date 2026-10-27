@@ -1,32 +1,30 @@
 {
-  "updatedAt": "2026-10-27T12:42:32.247514+00:00",
-  "batch": "theory-antidepressivi",
+  "updatedAt": "2026-10-27T14:31:29.917599+00:00",
+  "batch": "theory-depression-circuits",
   "status": "verified_locally_pending_publication",
-  "release": "0.35.0",
-  "branch": "feat/theory-antidepressants",
-  "baseCommit": "83f7f727dacb9b76b8e1e7308219c19c84adce11",
+  "release": "0.36.0",
+  "branch": "feat/theory-depression-circuits",
+  "baseCommit": "c05bc743c065746a5f968a962496aeb27486c1f6",
   "previousBatch": {
-    "batch": "course-material-labels",
+    "batch": "theory-antidepressivi",
     "status": "published_and_live_verified",
-    "release": "0.34.1",
-    "commit": "83f7f727dacb9b76b8e1e7308219c19c84adce11"
+    "release": "0.35.0",
+    "commit": "c05bc743c065746a5f968a962496aeb27486c1f6"
   },
   "scope": [
-    "One new extended antidepressant chapter and one six-state qualitative interactive model.",
-    "Preserve earlier chapters, clinical data, branding and generic course-material source labels."
+    "Ampliare il capitolo antidepressivi con cinque sezioni originali: feedback endocrino, compartimenti, NET e distribuzione regionale, limiti dei modelli, farmacogenetica del bersaglio.",
+    "Conservare le 24 sezioni precedenti, gli altri 55 capitoli, il laboratorio a sei viste, i dati clinici e il branding."
   ],
   "completed": [
-    "38 data validators passed.",
-    "48 browser configurations on the new chapter passed, including keyboard, source jumps, both searches and nine existing molecule links.",
-    "Real upgrade 0.34.1 to 0.35.0 and offline interaction passed; saved data preserved.",
-    "55 previous chapters identical; original source PDF hashes unchanged.",
-    "Desktop and mobile screenshots inspected.",
-    "248 prior-theory browser configurations and 16 branding configurations passed.",
-    "725 public app text files scanned; requested generic course labels preserved."
+    "29 sezioni, 4542 parole e 14 domande; ampliamento di 1053 parole.",
+    "38 validatori di dati e 48 configurazioni browser del capitolo superati.",
+    "Desktop/mobile simulati, temi, tastiera, indice, fonti e ricerca verificati.",
+    "Aggiornamento reale 0.35.0→0.36.0 e offline: preferiti, progressi e tema conservati.",
+    "Fonti originali e dati del catalogo invariati; denominazioni pubbliche del corso generiche."
   ],
   "remaining": [
-    "PR/main CI and deployment.",
-    "Live verification and postdeploy receipt."
+    "CI della PR e del commit integrato.",
+    "Deploy e controlli online prima della ricevuta di pubblicazione."
   ],
   "counts": {
     "identities": 4225,
@@ -44,18 +42,20 @@
     "newDrugSummaries": 0,
     "newProductPKContexts": 0,
     "newPKFields": 0,
-    "newChapters": 1,
-    "expandedChapters": 0,
-    "newInteractiveLabs": 1
+    "newChapters": 0,
+    "expandedChapters": 1,
+    "newInteractiveLabs": 0
   },
   "readingManifests": [
-    "data/antidepressivi-reading.json"
+    "data/antidepressivi-reading.json",
+    "data/depression-circuits-reading.json"
   ],
   "limits": [
-    "Only the recorded page intervals were read; full books/courses remain incomplete.",
-    "Editorial reconciliation by one integrator, not independent clinical validation.",
-    "No new drug identities, summaries or PK profiles.",
-    "Chromium simulated viewports, not physical devices."
+    "Undici nuove pagine di testo; due rilette senza ricontarle e cinque ispezionate visivamente. Non lettura integrale dei testi.",
+    "Tabella raster R873 non interamente verificata; esclusi valori e confronti di sicurezza.",
+    "IUPHAR e studio NET consultati nei contenuti indicizzati; limiti di apertura dichiarati.",
+    "Controllo editoriale di un integratore, non revisione clinica indipendente.",
+    "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "After live verification: R PDF869–874 and C PDF321–325, first deduplicate prior reading records. These ranges are not yet read in this batch."
+  "nextBatch": "Solo dopo il deploy verificato: mappare e deduplicare CFI PDF89–110 per continuare il percorso monoaminergico; non ancora lettura. Privilegiare il completamento dei capitoli sintetici collegati, evitando duplicazioni."
 }

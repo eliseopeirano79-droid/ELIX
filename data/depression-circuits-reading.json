@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "batch": "theory-depression-circuits",
+  "chapterId": "antidepressivi",
+  "status": "editorial_reconciled_locally_verified",
+  "updatedAt": "2026-10-27T14:31:29.917599+00:00",
+  "previousReadingManifests": [
+    "./data/antidepressivi-reading.json"
+  ],
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "sources": [
+    {
+      "id": "R",
+      "title": "Rang & Dale, Farmacologia",
+      "edition": "8ª italiana2016 / originale2015",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "pageCount": 1102,
+      "extractedTextReadPages": [
+        869,
+        870,
+        871,
+        872,
+        873,
+        874
+      ],
+      "visuallyCheckedPdfPages": [
+        872,
+        873
+      ],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "printedPages": "Not established for this reflowed PDF; use exact PDF page numbers.",
+      "figureChecks": [
+        {
+          "pdfPage": 872,
+          "figure": "47.1",
+          "status": "visually_inspected",
+          "note": "Historical simplified diagram. Not evidence of a universal causal chain or clinical biomarker; no reproduction."
+        },
+        {
+          "pdfPage": 873,
+          "figure": "47.2 table",
+          "status": "visually_inspected_with_limits",
+          "note": "Raster table absent from extracted text. Fine print not fully verified; numeric PK and comparative safety claims excluded from candidate content."
+        }
+      ],
+      "remainingGaps": [
+        "Table47.2 fine print not fully verified.",
+        "Historical mechanistic and comparative clinical claims need current primary/official evidence.",
+        "Other pages outside prior recorded intervals remain unread."
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Clementi e Fumagalli, Farmacologia generale e molecolare",
+      "edition": "4ª2012",
+      "sha256": "b5969a60702c4ea97a484e5fa2acb11b7a8712b8e958843213cdce8d08128b79",
+      "pageCount": 720,
+      "extractedTextReadPages": [
+        321,
+        322,
+        323,
+        324,
+        325
+      ],
+      "visuallyCheckedPdfPages": [
+        321,
+        322,
+        323
+      ],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "printedPages": {
+        "visuallyConfirmed": [
+          301,
+          302,
+          303
+        ],
+        "pdfPages": [
+          321,
+          322,
+          323
+        ],
+        "pages324_325": "not visually confirmed; do not infer printed numbers as read"
+      },
+      "figureChecks": [
+        {
+          "pdfPage": 321,
+          "figure": "24.8",
+          "status": "visually_inspected",
+          "note": "Historical DAT alternating-access/two-site model; do not generalize exact binding sites to all transporters."
+        },
+        {
+          "pdfPage": 322,
+          "figure": "24.9",
+          "status": "visually_inspected",
+          "note": "SERT gene/promoter map; historical genotype associations require current evidence and do not establish clinical prediction."
+        },
+        {
+          "pdfPage": 323,
+          "figure": "24.10",
+          "status": "visually_inspected",
+          "note": "Transport versus vesicular handling and reverse transport in experimental toxicology; no clinical prevention claim inferred."
+        }
+      ],
+      "remainingGaps": [
+        "Specific residue/site and channel-current values not independently verified against current structural data.",
+        "Genetic prediction and experimental toxicology require current evidence before clinical statements.",
+        "Book CD supplements unavailable/not read; transport chapter continues beyond325."
+      ]
+    }
+  ],
+  "newTextPages": 11,
+  "rereadTextPages": 2,
+  "visualPages": 5,
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "newChapters": 0,
+  "expandedExistingChapters": 1,
+  "officialAndPrimarySources": [
+    {
+      "id": "ENDO",
+      "title": "Endocrine Society · Brain Hormones",
+      "url": "https://www.endocrine.org/patient-engagement/endocrine-library/hormones-and-endocrine-function/brain-hormones",
+      "detail": "24/01/2022, consultata27/10/2026: solo paragrafo ACTH, sequenza CRH–ACTH–cortisolo e feedback. Non una linea guida sulla depressione."
+    },
+    {
+      "id": "NIH",
+      "title": "NIH · Depression",
+      "url": "https://health.nih.gov/health-topics-a-z/depression",
+      "detail": "Consultata27/10/2026: cause e fattori di rischio, variabilità dei sintomi. Data di revisione non stabilita; nessun algoritmo di trattamento importato."
+    },
+    {
+      "id": "NET",
+      "title": "IUPHAR/BPS · NET (SLC6A2)",
+      "url": "https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=926",
+      "detail": "Consultato27/10/2026 il contenuto indicizzato della scheda926 del portale IUPHAR: nomenclatura e substrati. Apertura diretta con richiesta di accesso; non revisione completa della scheda né verifica di valori cinetici."
+    },
+    {
+      "id": "NETSTUDIO",
+      "title": "Morón et al. · Ricaptazione della dopamina e NET",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6758674/",
+      "detail": "J Neurosci2002;22:389–395, DOI10.1523/JNEUROSCI.22-02-00389.2002. Abstract e passaggi di metodi/risultati indicizzati consultati27/10/2026; apertura integrale limitata. Studio su sinaptosomi di topo, non trial clinico."
+    },
+    {
+      "id": "CPIC",
+      "title": "CPIC · Antidepressivi e farmacogenetica",
+      "url": "https://files.cpicpgx.org/data/guideline/publication/serotonin_reuptake_inhibitor_antidepressants/2023/37032427.pdf",
+      "detail": "Guida2023, DOI10.1002/cpt.2903; passaggi su ambito, SLC6A4 e HTR2A (PDF1–2,5,16) consultati27/10/2026, non pagine integralmente lette. Il catalogo corrente ClinPGx rimanda alla guida2023; nessun dosaggio importato."
+    }
+  ],
+  "remaining": [
+    "Tabella raster R873: caratteri minuti non interamente verificati, nessun valore importato.",
+    "Altre pagine e figure dei libri/corsi non comprese nei registri restano da leggere.",
+    "Nessuna nuova lettura del corso di Farmacologia II in questo ampliamento.",
+    "Controlli locali superati; CI, deploy e verifica online da registrare nella ricevuta successiva alla pubblicazione."
+  ],
+  "reusedCourseMaterial": {
+    "id": "SFI",
+    "title": "Appunti del corso di Farmacologia I",
+    "edition": "AA2025–26, lezione7 del22/10/2025; inserto storico separato in PDF136",
+    "rereadPdfPages": [
+      135,
+      136
+    ],
+    "newTextPages": 0,
+    "priorEvidence": "./data/antidepressivi-reading.json",
+    "figuresRechecked": false,
+    "reconciliation": "Non risposta e latenza non dimostrano un difetto recettoriale specifico; esclusi giudizi stigmatizzanti e generalizzazioni sui disturbi da uso di sostanze."
+  },
+  "conflicts": [
+    {
+      "source": "R870–872/figure47.1",
+      "issue": "Linear stress→excitotoxicity→apoptosis→depression diagram and neurogenesis mechanism could be mistaken for established universal causation.",
+      "action": "Keep as historical hypotheses only; modern evidence required, original noncausal layered graphic if warranted."
+    },
+    {
+      "source": "R872–873",
+      "issue": "Broad efficacy/speed and safety comparisons across interventions/drug classes; table has small raster text.",
+      "action": "Do not import comparative claims, PK numbers, equivalence of neurostimulation methods or medication indications from this interval."
+    },
+    {
+      "source": "C322/figure24.9",
+      "issue": "Candidate SERT promoter associations presented in older text.",
+      "action": "Do not infer anxiety/depression diagnosis or genotype-guided drug choice; seek current primary/official pharmacogenetic evidence."
+    },
+    {
+      "source": "C322–323/figure24.10",
+      "issue": "Experimental blockade of transmitter release/toxicity could be read as drug-use harm prevention.",
+      "action": "No such clinical inference or recommendation; omit until context and human evidence reviewed."
+    },
+    {
+      "source": "C321/figure24.8 and C325",
+      "issue": "Detailed two-site model, structure residues and uncoupled currents are model/experimental-context dependent.",
+      "action": "Teach only validated transport principles after checking current data; exclude generalized exact values."
+    }
+  ]
+}
