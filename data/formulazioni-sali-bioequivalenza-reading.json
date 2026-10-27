@@ -1,0 +1,333 @@
+{
+  "batch": "theory-formulazioni-bioequivalenza",
+  "chapterId": "formulazioni-sali-bioequivalenza",
+  "status": "editorial_reconciled_pending_browser_checks",
+  "updatedAt": "2026-10-27T08:07:20.283334+00:00",
+  "sources": [
+    {
+      "id": "K",
+      "title": "Katzung, Farmacologia generale e clinica",
+      "edition": "IX italiana2014 / XII americana2012",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "pageCount": 1579,
+      "extractedTextReadPages": [
+        26,
+        27,
+        106
+      ],
+      "previouslyFullyReadPages": [],
+      "newlyReadTextPages": [
+        26,
+        27,
+        106
+      ],
+      "visuallyCheckedPdfPages": [
+        26
+      ],
+      "figuresPending": [],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "otherFiguresReviewed": false
+    },
+    {
+      "id": "R",
+      "title": "Rang & Dale, Farmacologia",
+      "edition": "8ª italiana2016 / originale2015",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "pageCount": 1102,
+      "extractedTextReadPages": [
+        179,
+        180
+      ],
+      "previouslyFullyReadPages": [],
+      "newlyReadTextPages": [
+        179,
+        180
+      ],
+      "visuallyCheckedPdfPages": [
+        179
+      ],
+      "figuresPending": [],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "otherFiguresReviewed": false
+    },
+    {
+      "id": "C",
+      "title": "Clementi e Fumagalli, Farmacologia generale e molecolare",
+      "edition": "4ª2012",
+      "sha256": "b5969a60702c4ea97a484e5fa2acb11b7a8712b8e958843213cdce8d08128b79",
+      "pageCount": 720,
+      "extractedTextReadPages": [
+        606,
+        607,
+        608
+      ],
+      "previouslyFullyReadPages": [],
+      "newlyReadTextPages": [
+        606,
+        607,
+        608
+      ],
+      "visuallyCheckedPdfPages": [],
+      "figuresPending": [],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "otherFiguresReviewed": false
+    },
+    {
+      "id": "FI",
+      "title": "Slide Farmaco I, Loredana Serpe",
+      "edition": "AA2025–26",
+      "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
+      "pageCount": 567,
+      "extractedTextReadPages": [
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297
+      ],
+      "previouslyFullyReadPages": [],
+      "newlyReadTextPages": [
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297
+      ],
+      "visuallyCheckedPdfPages": [
+        273,
+        276,
+        283,
+        293
+      ],
+      "figuresPending": [],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "otherFiguresReviewed": false
+    },
+    {
+      "id": "SFI",
+      "title": "Farmacologia I Definitivo, intervalli Serpe e Collino",
+      "edition": "AA2025–26",
+      "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+      "pageCount": 344,
+      "extractedTextReadPages": [
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "previouslyFullyReadPages": [
+        128,
+        129,
+        130
+      ],
+      "newlyReadTextPages": [
+        131,
+        132,
+        133,
+        134
+      ],
+      "visuallyCheckedPdfPages": [
+        129
+      ],
+      "figuresPending": [],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "outsideChapterScopePages": [
+        131,
+        132,
+        133,
+        134
+      ],
+      "lessonRanges": [
+        {
+          "pdfPages": [
+            128,
+            129,
+            130
+          ],
+          "lecturer": "Loredana Serpe",
+          "lesson": 6,
+          "printedDate": "10/10/2025",
+          "printedDateConflict": "Precedes lesson5 date13/10/2025; kept as printed."
+        },
+        {
+          "pdfPages": [
+            131,
+            132,
+            133,
+            134
+          ],
+          "lecturer": "Massimo Collino",
+          "lesson": 7,
+          "date": "22/10/2025",
+          "topic": "Antidepressants; outside current chapter scope"
+        }
+      ],
+      "otherFiguresReviewed": false
+    }
+  ],
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "textPagesIncludingRereads": 48,
+  "newExtractedTextPages": 45,
+  "automaticExtraction": "Reused existing automatic text extractions for bounded reading; whole files not declared read.",
+  "deduplicationEvidence": [
+    "data/metabolismo-trasportatori-reading.json",
+    "Other public *reading.json source records checked for these exact page ranges."
+  ],
+  "remaining": [
+    "Browser validation, real update, publication and live verification."
+  ],
+  "schemaVersion": 1,
+  "visuallyCheckedPageCount": 7,
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "expandedExistingChapters": 1,
+  "officialSources": [
+    {
+      "id": "M13A",
+      "title": "EMA / ICH M13A · Bioequivalenza",
+      "detail": "Versione Step 5 del 2024, efficace UE 25/01/2025. Consultati ambito e passaggi 2.1.8.3, 2.2.2.2, 2.2.3.1, 2.2.4 il 27/10/2026; non lettura integrale del documento.",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-m13a-guideline-bioequivalence-immediaterelease-solid-oral-dosage-forms-step-5_en.pdf"
+    },
+    {
+      "id": "EMA-IMPLEMENT",
+      "title": "EMA · Attuazione europea di M13A",
+      "detail": "Documento EMA/531548/2024, pubblicato 26/02/2025. Passaggio Implementation, pagina 3, consultato 27/10/2026: permanenza delle disposizioni non sostituite.",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/considerations-regarding-implementation-ich-m13a-bioequivalence-immediate-release-solid-oral-dosage-forms_en.pdf"
+    },
+    {
+      "id": "EMA-GEN",
+      "title": "EMA · Domande e risposte sui generici",
+      "detail": "Documento informativo 22/11/2012, definizione, composizione e valutazione consultate 27/10/2026. La data di accesso non è una nuova revisione; dettagli statistici da M13A.",
+      "url": "https://www.ema.europa.eu/en/documents/other/questions-and-answers-generic-medicines_en.pdf"
+    },
+    {
+      "id": "M9",
+      "title": "EMA / ICH M9 · Biowaiver basato sul BCS",
+      "detail": "Step 5, efficace 30/07/2020. Passaggi 1.1–2, 3 e 3.1, PDF 4–7, consultati selettivamente il 27/10/2026; non revisione dell’intero documento.",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-m9-biopharmaceutics-classification-system-based-biowaivers-step-5_en.pdf"
+    },
+    {
+      "id": "AIFA-LIST",
+      "title": "AIFA · Liste di trasparenza",
+      "detail": "Pagina e criteri generali consultati 27/10/2026; elenco disponibile datato 15/10/2026. Non è stata riletta ogni confezione dell’elenco.",
+      "url": "https://www.aifa.gov.it/liste-di-trasparenza"
+    },
+    {
+      "id": "AIFA-BIO",
+      "title": "AIFA · Terzo Position Paper sui biosimilari",
+      "detail": "Comunicato ufficiale 29/04/2026, sezioni intercambiabilità e switch informato consultate 27/10/2026; non lettura integrale dell’allegato in questo lotto.",
+      "url": "https://www.aifa.gov.it/-/aifa-pubblica-terzo-position-paper-farmaci-biosimilari-focus-intercambiabilita-switch-informato-sostenibilita-del-ssn"
+    }
+  ],
+  "sourceConflicts": [
+    {
+      "source": "FI273; SFI129; C608; R180",
+      "finding": "Point estimate, ±20%, or undifferentiated AUC/Cmax/Tmax descriptions omit the statistical criterion.",
+      "resolution": "Ordinary 90% geometric-ratio CI criterion and parameter-specific scope reconciled with ICH M13A."
+    },
+    {
+      "source": "FI272,276",
+      "finding": "Exemptions summarized as matching ingredients or whole-route categories.",
+      "resolution": "No blanket exemption; bounded M9 criteria and special-route limitations."
+    },
+    {
+      "source": "FI283; SFI129",
+      "finding": "Indirect comparison figure labelled non-equivalent and generalized switching risk.",
+      "resolution": "Non-transitivity of estimates is not a direct A–B trial or evidence of a general substitution prohibition."
+    },
+    {
+      "source": "FI296–297; SFI130",
+      "finding": "Older advice against changing stable patients on biologics.",
+      "resolution": "AIFA official 29 April2026 summary distinguishes interchangeability and informed switch; not autonomous change."
+    },
+    {
+      "source": "FI277; SFI129",
+      "finding": "Transparency list described as all authorized generics.",
+      "resolution": "List has defined inclusion/reimbursement criteria; no universal inventory claim."
+    },
+    {
+      "source": "K26–27,106",
+      "finding": "Historic marketing statistics, isomer availability and broad toxicity language.",
+      "resolution": "Use stereoselectivity principle only; no current-market or superior-isomer claim."
+    },
+    {
+      "source": "SFI128–130",
+      "finding": "Lesson6 date printed10/10/2025 precedes lesson5 dated13/10/2025.",
+      "resolution": "Retain printed metadata with unresolved conflict."
+    }
+  ],
+  "visualFindings": [
+    "K26: schematic receptor fit and carvedilol table inspected, not copied; receptor-specific stereoselectivity retained without numeric or superiority claims.",
+    "R179: historical digoxin concentration curves, formulation mechanism retained; not evidence about currently authorized products.",
+    "FI273/276: omissions in CI criterion and waiver flowchart reconciled.",
+    "FI283: indirect comparison graphic not treated as clinical switching evidence.",
+    "FI293: staged biosimilarity diagram inspected; not reproduced or treated as universally required clinical studies.",
+    "SFI129: printed generic/switching assertions reconciled against newer official information."
+  ]
+}
