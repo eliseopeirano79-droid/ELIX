@@ -1,3 +1,4 @@
+import './elix-antidepressant-explorer.js';
 import './elix-bioequivalence-explorer.js';
 import './elix-transport-explorer.js';
 import './elix-pgx-explorer.js';
@@ -7,7 +8,7 @@ import './elix-rtk-explorer.js';
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const sectionText=s=>s.text.split(/\n\n+/).map(p=>`<p>${esc(p)}</p>`).join('');
 export function renderTheorySection(s,i){
- return `<section id="part-${i}" data-section="${esc(s.id||i)}"><h3 tabindex="-1">${esc(s.title)}</h3>${sectionText(s)}${s.formula?`<div class="ex-formula">${esc(s.formula)}</div>`:''}${s.lab?'<elix-binding-explorer></elix-binding-explorer>':''}${s.bioequivalenceLab?'<elix-bioequivalence-explorer></elix-bioequivalence-explorer>':''}${s.transportLab?'<elix-transport-explorer></elix-transport-explorer>':''}${s.pgxLab?'<elix-pgx-explorer></elix-pgx-explorer>':''}${s.antibodyLab?'<elix-antibody-explorer></elix-antibody-explorer>':''}${s.rtkLab?'<elix-rtk-explorer></elix-rtk-explorer>':''}${s.refs?.length?`<div class="ex-source-links" aria-label="Fonti della sezione">Fonti: ${s.refs.map(id=>`<a href="#source-${esc(id)}" data-theory-source="${esc(id)}">${esc(id)}</a>`).join(' · ')}</div>`:''}</section>`;
+ return `<section id="part-${i}" data-section="${esc(s.id||i)}"><h3 tabindex="-1">${esc(s.title)}</h3>${sectionText(s)}${s.formula?`<div class="ex-formula">${esc(s.formula)}</div>`:''}${s.lab?'<elix-binding-explorer></elix-binding-explorer>':''}${s.antidepressantLab?'<elix-antidepressant-explorer></elix-antidepressant-explorer>':''}${s.bioequivalenceLab?'<elix-bioequivalence-explorer></elix-bioequivalence-explorer>':''}${s.transportLab?'<elix-transport-explorer></elix-transport-explorer>':''}${s.pgxLab?'<elix-pgx-explorer></elix-pgx-explorer>':''}${s.antibodyLab?'<elix-antibody-explorer></elix-antibody-explorer>':''}${s.rtkLab?'<elix-rtk-explorer></elix-rtk-explorer>':''}${s.refs?.length?`<div class="ex-source-links" aria-label="Fonti della sezione">Fonti: ${s.refs.map(id=>`<a href="#source-${esc(id)}" data-theory-source="${esc(id)}">${esc(id)}</a>`).join(' · ')}</div>`:''}</section>`;
 }
 const readingPath=c=>/^\.\/data\/[a-z0-9-]+-reading\.json$/.test(c.readingManifest||'')?c.readingManifest:null;
 export const theoryReviewLabel=c=>c.reviewStatus==='revisione_editoriale_mirata_eseguita_non_validazione_clinica'?'Stesura estesa · controllo editoriale mirato · revisione clinica non completata':c.reviewStatus||'Sintesi introduttiva · revisione specialistica non completata';
