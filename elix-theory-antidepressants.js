@@ -7,7 +7,7 @@ export const THEORY_ANTIDEPRESSANTS = Object.freeze({
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-10-27",
-  "readingManifest": "./data/antidepressivi-reading.json",
+  "readingManifest": "./data/depression-circuits-reading.json",
   "sections": [
     {
       "id": "domande",
@@ -29,6 +29,17 @@ export const THEORY_ANTIDEPRESSANTS = Object.freeze({
       "text": "L’osservazione che diversi farmaci efficaci modificano serotonina e noradrenalina ha sostenuto l’ipotesi monoaminergica. È una relazione fra intervento farmacologico e risultato: non dimostra che ogni episodio depressivo derivi dalla stessa carenza chimica. Analogamente, correggere un processo a valle può produrre beneficio anche quando quel processo non è la causa iniziale del disturbo.\n\nI testi consultati discutono anche stress, plasticità sinaptica, fattori neurotrofici e regolazione endocrina. Sono livelli collegati, con evidenze di natura diversa: esperimenti cellulari, modelli animali, misure nell’uomo e studi terapeutici non sono intercambiabili. Una variazione media osservata in un gruppo non costituisce necessariamente un marcatore diagnostico individuale.\n\nLe mappe didattiche che associano serotonina all’ansia e noradrenalina all’energia aiutano a ricordare alcune funzioni, ma non autorizzano a dedurre quale molecola manchi nel singolo paziente. Il bersaglio di un farmaco va identificato sperimentalmente; l’efficacia va valutata clinicamente."
     },
     {
+      "id": "stress-asse",
+      "title": "Stress e asse ipotalamo–ipofisi–surrene: seguire il feedback",
+      "refs": [
+        "R",
+        "ENDO",
+        "NIH"
+      ],
+      "text": "La risposta allo stress collega segnali nervosi e ormonali. Il CRH rilasciato dall’ipotalamo stimola l’adenoipofisi a liberare ACTH; questo raggiunge la corteccia surrenale e stimola la produzione di cortisolo. Il cortisolo contribuisce poi a limitare la produzione di CRH e ACTH. Il feedback negativo rende il circuito regolabile: la sua funzione non consiste semplicemente nell’aumentare senza limite un ormone quando compare uno stimolo.\n\nIl collegamento con la depressione va letto a un livello diverso. Le edizioni consultate discutono alterazioni neuroendocrine osservate in alcuni gruppi di pazienti e risultati di esperimenti sullo stress. Queste osservazioni suggeriscono meccanismi da studiare, ma non consentono di convertire un valore di cortisolo nella misura della depressione di una persona. Una stessa variabile biologica può cambiare in condizioni differenti; un’associazione non stabilisce quale evento sia iniziato per primo.\n\nLa scheda NIH inquadra infatti fattori genetici, biologici, ambientali e psicologici che possono concorrere al disturbo. La mappa ormonale aggiunge un livello alla sinapsi: aiuta a comprendere come una risposta coinvolga più organi, senza sostituire la storia clinica con una singola catena causale. In farmacologia questo significa distinguere la regolazione fisiologica del sistema dall’ipotesi che modificarne un punto produca un beneficio terapeutico dimostrato.",
+      "formula": "Ipotalamo · CRH → adenoipofisi · ACTH → corteccia surrenale · cortisolo. Il cortisolo limita i segnali a monte."
+    },
+    {
       "id": "sinapsi",
       "title": "Una sinapsi è un circuito di flussi, non un serbatoio statico",
       "refs": [
@@ -38,6 +49,15 @@ export const THEORY_ANTIDEPRESSANTS = Object.freeze({
       "text": "La quantità di neurotrasmettitore nello spazio extracellulare dipende dall’equilibrio fra ingresso e rimozione. Sintesi e deposito vescicolare preparano il rilascio; l’attività del neurone contribuisce a determinarlo. Dopo il rilascio, la molecola può incontrare recettori, essere ricaptata o allontanarsi dal sito. Il disegno di una sinapsi rappresenta quindi un processo dinamico, non una quantità fissa da riempire.\n\nRicaptare non significa distruggere. Il trasportatore trasferisce la monoamina attraverso la membrana, mentre un enzima metabolico ne modifica la struttura chimica. La monoamina rientrata può seguire destini diversi all’interno del terminale, inclusi il recupero nei depositi e il metabolismo. Confondere questi passaggi rende indistinguibili farmaci che hanno bersagli e interazioni differenti.\n\nAnche il rilascio è regolato. Recettori sul neurone presinaptico possono modificare l’attività della cellula e la quantità liberata. Perciò ridurre una via di rimozione non permette di prevedere la concentrazione finale senza considerare le risposte del circuito."
     },
     {
+      "id": "deposito-ricaptazione",
+      "title": "Due membrane, due gradienti: recuperare e immagazzinare",
+      "refs": [
+        "C",
+        "R"
+      ],
+      "text": "La membrana del terminale e quella della vescicola delimitano compartimenti diversi. SERT, NET e DAT permettono il trasferimento di monoamine fra spazio extracellulare e citoplasma sfruttando gradienti ionici. I trasportatori vescicolari delle monoamine, indicati con VMAT, trasferiscono invece il contenuto dal citoplasma alla vescicola. La disponibilità nel citoplasma e quella pronta per il rilascio non sono quindi la stessa quantità.\n\nPer caricare le vescicole serve energia. Una pompa protonica consuma ATP e genera un gradiente elettrochimico di protoni; il trasportatore vescicolare utilizza questo gradiente per accumulare il neurotrasmettitore. Il collegamento energetico è indiretto: la pompa crea il gradiente, il trasportatore lo sfrutta. Questo è un esempio concreto della differenza fra trasporto attivo primario e secondario.\n\nLa monoamina ricaptata può essere nuovamente immagazzinata oppure incontrare enzimi metabolici nel compartimento intracellulare. Bloccare una delle porte non produce lo stesso effetto che bloccare la pompa, l’esocitosi o un enzima. Anche il verso del trasporto conta: negli esperimenti descritti nei testi, alcuni substrati possono favorire trasporto inverso e liberazione non esocitotica. Un normale inibitore della ricaptazione non va automaticamente descritto come un agente che svuota le vescicole.\n\nPer leggere uno schema si possono quindi seguire tre domande: quale membrana viene attraversata, da dove proviene l’energia e quale destino ha la molecola dopo il passaggio. Sono distinzioni utili anche quando il risultato osservato è, in entrambi i casi, un aumento del trasmettitore extracellulare."
+    },
+    {
       "id": "trasportatori",
       "title": "SERT, NET e DAT: trasporto accoppiato e selettività",
       "refs": [
@@ -45,6 +65,16 @@ export const THEORY_ANTIDEPRESSANTS = Object.freeze({
         "K"
       ],
       "text": "SERT, NET e DAT sono trasportatori di membrana associati rispettivamente alla ricaptazione di serotonina, noradrenalina e dopamina. Appartengono alla famiglia SLC6 e utilizzano gradienti ionici per sostenere il trasporto. Non sono recettori che generano semplicemente un segnale quando arriva il ligando, né canali sempre aperti: attraversano conformazioni che permettono l’accesso da lati diversi della membrana.\n\nUn inibitore riduce la funzione del trasportatore. Questo può aumentare la permanenza extracellulare del trasmettitore già rilasciato; non significa che il farmaco sia esso stesso serotonina o che stimoli direttamente tutti i suoi recettori. La distinzione fra bersaglio immediato e conseguenze successive è centrale per leggere la sigla SSRI.\n\nLa selettività è comparativa e dipende dall’esposizione. Avere maggiore affinità per SERT che per NET non equivale ad avere una sola azione biologica. I modelli strutturali storici dei libri sono utili per comprendere il trasporto, ma non vengono usati qui come descrizioni definitive di ogni sito di legame."
+    },
+    {
+      "id": "net-regioni",
+      "title": "Perché NET può influenzare anche la dopamina",
+      "refs": [
+        "C",
+        "NET",
+        "NETSTUDIO"
+      ],
+      "text": "Il nome di un trasportatore indica il substrato con cui viene abitualmente descritto, non un’esclusività assoluta. NET, codificato da SLC6A2, può trasportare anche dopamina. Ne segue una distinzione importante: selettività di un farmaco per una proteina e selettività della proteina per un substrato sono due proprietà differenti. Un inibitore selettivo di NET può modificare la rimozione di più di una monoamina.\n\nConta inoltre dove si trova la proteina. Nello studio primario di Morón e colleghi del 2002, condotto su preparazioni sinaptosomiali di topi con e senza specifici trasportatori, la ricaptazione della dopamina nella corteccia frontale dipendeva soprattutto da NET; nel caudato e nel nucleo accumbens prevaleva il ruolo di DAT. Il risultato riguarda quelle preparazioni sperimentali e mostra perché affinità e distribuzione locale vadano considerate insieme. Non è una misurazione della risposta antidepressiva nell’uomo.\n\nIl ragionamento farmacologico è questo: se in un distretto una via contribuisce molto alla rimozione, bloccarla può avere conseguenze anche sul substrato meno intuitivo. In un’altra regione, con diversa distribuzione di trasportatori, l’effetto può cambiare. Il numero di bersagli riportato in una scheda non descrive quindi da solo tutti gli effetti di rete.\n\nQuesto esempio completa il laboratorio della sinapsi, che isola volutamente SERT o NET. Non autorizza a trasformare ogni SNRI in un farmaco con lo stesso profilo dopaminergico, né a dedurne una preferenza terapeutica: esposizione, distribuzione e risultati clinici restano passaggi distinti."
     },
     {
       "id": "esplora",
@@ -85,6 +115,16 @@ export const THEORY_ANTIDEPRESSANTS = Object.freeze({
       "text": "Il BDNF è un fattore neurotrofico che partecipa alla regolazione della funzione e della plasticità neuronale. Nei testi viene discusso insieme al recettore TrkB, allo stress e alle vie di trascrizione. Questi collegamenti aiutano a superare l’immagine di una malattia ridotta a una sola concentrazione nello spazio sinaptico.\n\nLa lettura richiede però cautela: un aumento di un fattore in un modello animale non dimostra che quel cambiamento sia necessario e sufficiente per la remissione nell’uomo. Allo stesso modo, osservare una differenza di volume o di segnale fra gruppi non consente di descrivere ogni paziente come portatore della stessa lesione.\n\nQui neurogenesi e adattamenti recettoriali sono presentati come componenti di modelli esplicativi, con limiti. Non viene attribuito alla sintesi del BDNF un tempo universale di due settimane, né viene interpretata la mancata risposta come prova di un difetto della trasduzione. La domanda corretta è quali passaggi siano dimostrati, in quale sistema e con quale relazione al beneficio."
     },
     {
+      "id": "modelli-prova",
+      "title": "Dalla cellula alla persona: quale domanda risolve un esperimento?",
+      "refs": [
+        "R",
+        "K",
+        "SFI"
+      ],
+      "text": "Una misura cellulare può mostrare che una molecola interagisce con un trasportatore o modifica una via di segnale. Un esperimento animale permette di chiedere se quel cambiamento alteri una risposta fisiologica o un comportamento in condizioni definite. Uno studio clinico deve invece valutare benefici e rischi nelle persone. Questi livelli si collegano, ma non rispondono alla stessa domanda.\n\nUn modello animale della depressione riproduce alcuni aspetti osservabili, non l’intera esperienza del disturbo. La riduzione dell’attività, per esempio, richiede di distinguere motivazione, capacità motoria e altri effetti del trattamento. Un cambiamento in un test non basta a dimostrare un’azione antidepressiva nell’uomo; analogamente, una misura di plasticità non coincide con recupero del funzionamento quotidiano.\n\nLa distinzione fra associazione e necessità è altrettanto utile. Se un trattamento efficace modifica BDNF, i due eventi sono associati. Per sostenere che quella modifica sia necessaria occorre verificare che impedirla comprometta l’effetto, con controlli adeguati e nel sistema studiato. Per sostenerne la sufficienza serve mostrare che produrla da sola ottenga l’esito definito. Anche questi risultati non si trasferiscono automaticamente fra specie o fra condizioni sperimentali.\n\nLa latenza e la risposta incompleta hanno quindi valore come domande di ricerca. Non dimostrano, da sole, che una persona abbia un difetto recettoriale preciso o una perdita neuronale da correggere. Leggere i dati in questo ordine permette di mantenere l’utilità dei modelli senza attribuire loro una capacità diagnostica che non hanno."
+    },
+    {
       "id": "ssri",
       "title": "SSRI: un bersaglio selettivo può avere effetti diffusi",
       "refs": [
@@ -122,6 +162,15 @@ export const THEORY_ANTIDEPRESSANTS = Object.freeze({
         "R"
       ],
       "text": "La N-demetilazione dell’imipramina produce desipramina; quella dell’amitriptilina produce nortriptilina. Il metabolita può conservare attività e avere una preferenza relativa per i trasportatori diversa da quella del composto iniziale. Il metabolismo, quindi, non equivale sempre allo spegnimento dell’azione.\n\nPer interpretare la durata bisogna sapere quali specie vengono misurate e quali contribuiscono all’effetto. Una concentrazione del farmaco progenitore non descrive necessariamente tutta la componente farmacologicamente attiva. La persistenza di un metabolita può anche rendere poco intuitivo il cambiamento osservato dopo una sospensione o un’interazione.\n\nIl rapporto fra le specie dipende da formazione ed eliminazione. Un inibitore enzimatico potrebbe aumentare il progenitore e ridurre la formazione di un metabolita; l’effetto complessivo dipenderà dalle attività e dalle altre vie disponibili. Non si risolve sommando milligrammi di molecole differenti. Questo è il ponte con i capitoli su metabolismo, trasportatori e farmacogenomica, nei quali esposizione e risposta sono mantenute distinte."
+    },
+    {
+      "id": "genotipo-bersaglio",
+      "title": "Un gene del bersaglio non è automaticamente un test per scegliere il farmaco",
+      "refs": [
+        "C",
+        "CPIC"
+      ],
+      "text": "SLC6A4 codifica SERT. I testi discutono varianti della regione regolatoria, fra cui 5-HTTLPR, e associazioni con espressione o comportamento. Una variante può essere biologicamente interessante senza consentire una scelta terapeutica affidabile: servono risultati riproducibili e una dimostrazione di utilità per la decisione proposta.\n\nLa linea guida CPIC del 2023 distingue i geni farmacodinamici SLC6A4 e HTR2A da CYP2D6, CYP2C19 e CYP2B6, che partecipano al metabolismo di antidepressivi specifici. Per SLC6A4 e HTR2A non fornisce raccomandazioni prescrittive, perché le evidenze disponibili sono discordanti o insufficienti. La consultazione della risorsa corrente non trasforma una variante del trasportatore in un indicatore individuale di carenza di serotonina.\n\nPer alcuni abbinamenti farmaco–enzima, invece, CPIC descrive come interpretare risultati genetici già disponibili. Questo riguarda esposizione e contesto del singolo farmaco; non significa che ogni variante richieda un intervento o che la guida stabilisca chi sottoporre al test. Il ponte con la farmacogenomica consiste nel mantenere separate plausibilità biologica, validità dell’associazione e utilità clinica. Nessuna delle tre si ricava dal solo fatto che un gene codifichi un bersaglio importante."
     },
     {
       "id": "mao",
@@ -282,6 +331,22 @@ export const THEORY_ANTIDEPRESSANTS = Object.freeze({
     {
       "question": "Due antidepressivi diversi garantiscono meno rischi grazie alle dosi minori?",
       "answer": "No. L’associazione modifica il profilo complessivo e può introdurre interazioni. La complementarità dei bersagli è una spiegazione farmacologica, non una dimostrazione di beneficio netto."
+    },
+    {
+      "question": "Perché ricaptazione e deposito vescicolare non sono lo stesso passaggio?",
+      "answer": "Attraversano membrane differenti e utilizzano gradienti diversi. La monoamina nel citoplasma può essere immagazzinata o metabolizzata; non è tutta già pronta per l’esocitosi."
+    },
+    {
+      "question": "Un inibitore selettivo di NET può influenzare la rimozione di dopamina?",
+      "answer": "Sì, perché NET può trasportare anche dopamina. La conseguenza dipende dal ruolo locale del trasportatore: il risultato sperimentale non implica un’identica risposta in tutti i distretti o un beneficio clinico prevedibile."
+    },
+    {
+      "question": "La mancata risposta dimostra un difetto del recettore?",
+      "answer": "No. L’esito clinico non identifica da solo il passaggio responsabile. Una modifica della segnalazione è un’ipotesi da verificare, distinguendo associazione, necessità e sufficienza."
+    },
+    {
+      "question": "CPIC propone di scegliere un antidepressivo dal solo genotipo SLC6A4?",
+      "answer": "No. La guida 2023 non formula raccomandazioni prescrittive per questo gene. Le indicazioni relative a specifici enzimi metabolici rispondono a una domanda diversa."
     }
   ],
   "references": [
@@ -293,17 +358,17 @@ export const THEORY_ANTIDEPRESSANTS = Object.freeze({
     {
       "id": "R",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "8ª italiana 2016, originale 2015. Testo estraibile PDF 875–888; figure 47.2 A/B controllate PDF 876–877. Non lettura integrale del capitolo o del libro."
+      "detail": "8ª italiana 2016, originale 2015. Testo estraibile PDF 875–888; figure 47.2 A/B controllate PDF 876–877. Non lettura integrale del capitolo o del libro. Ampliamento: testo estraibile PDF 869–874 e controllo visivo 872–873; tabella raster 873 non interamente verificata, dati numerici esclusi."
     },
     {
       "id": "C",
       "title": "Clementi/Fumagalli · Farmacologia generale e molecolare",
-      "detail": "4ª2012. Testo estraibile PDF 318–320 (stampate 298–300), topologia controllata PDF 319. Modelli strutturali storici, non una revisione di tutte le strutture recenti."
+      "detail": "4ª2012. Testo estraibile PDF 318–320 (stampate 298–300), topologia controllata PDF 319. Modelli strutturali storici, non una revisione di tutte le strutture recenti. Ampliamento: testo estraibile PDF 321–325, figure controllate 321–323; pagine stampate 301–303 confermate visivamente. Allegati su CD non letti."
     },
     {
       "id": "SFI",
       "title": "Appunti del corso di Farmacologia I · lezione 7",
-      "detail": "22/10/2025, AA 2025–26. PDF 135–150 lette in questo lotto;131–134 già lette nel precedente. Controlli visivi 138,139,148. PDF 136 contiene anche un inserto di anno precedente, distinto dalla lezione corrente."
+      "detail": "22/10/2025, AA 2025–26. PDF 135–150 lette in questo lotto;131–134 già lette nel precedente. Controlli visivi 138,139,148. PDF 136 contiene anche un inserto di anno precedente, distinto dalla lezione corrente. PDF 135–136 rilette per riconciliazione nell’ampliamento, senza ricontarle come nuove."
     },
     {
       "id": "CFI",
@@ -363,6 +428,36 @@ export const THEORY_ANTIDEPRESSANTS = Object.freeze({
       "title": "DailyMed · Amitriptyline hydrochloride",
       "detail": "Documento statunitense aggiornato 05/10/2022, consultato 27/10/2026: effetti antimuscarinici, reazioni avverse e manifestazioni del sovradosaggio. Fonte di sicurezza del prodotto; nessuna conferma di commercializzazione italiana o trasposizione delle istruzioni di emergenza.",
       "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8e6eeec4-73fa-fd12-e053-2995a90a4ea8"
+    },
+    {
+      "id": "ENDO",
+      "title": "Endocrine Society · Brain Hormones",
+      "url": "https://www.endocrine.org/patient-engagement/endocrine-library/hormones-and-endocrine-function/brain-hormones",
+      "detail": "24/01/2022, consultata 27/10/2026: solo paragrafo ACTH, sequenza CRH–ACTH–cortisolo e feedback. Non una linea guida sulla depressione."
+    },
+    {
+      "id": "NIH",
+      "title": "NIH · Depression",
+      "url": "https://health.nih.gov/health-topics-a-z/depression",
+      "detail": "Consultata 27/10/2026: cause e fattori di rischio, variabilità dei sintomi. Data di revisione non stabilita; nessun algoritmo di trattamento importato."
+    },
+    {
+      "id": "NET",
+      "title": "IUPHAR/BPS · NET (SLC6A2)",
+      "url": "https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=926",
+      "detail": "Consultato 27/10/2026 il contenuto indicizzato della scheda 926 del portale IUPHAR: nomenclatura e substrati. Apertura diretta con richiesta di accesso; non revisione completa della scheda né verifica di valori cinetici."
+    },
+    {
+      "id": "NETSTUDIO",
+      "title": "Morón et al. · Ricaptazione della dopamina e NET",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6758674/",
+      "detail": "J Neurosci 2002;22:389–395, DOI 10.1523/JNEUROSCI.22-02-00389.2002. Abstract e passaggi di metodi/risultati indicizzati consultati 27/10/2026; apertura integrale limitata. Studio su sinaptosomi di topo, non trial clinico."
+    },
+    {
+      "id": "CPIC",
+      "title": "CPIC · Antidepressivi e farmacogenetica",
+      "url": "https://files.cpicpgx.org/data/guideline/publication/serotonin_reuptake_inhibitor_antidepressants/2023/37032427.pdf",
+      "detail": "Guida 2023, DOI 10.1002/cpt.2903; passaggi su ambito, SLC6A4 e HTR2A (PDF 1–2,5,16) consultati 27/10/2026, non pagine integralmente lette. Il catalogo corrente ClinPGx rimanda alla guida 2023; nessun dosaggio importato."
     }
   ],
   "drugs": [],
@@ -373,8 +468,8 @@ export const THEORY_ANTIDEPRESSANTS = Object.freeze({
     "farmacogenomica",
     "benzodiazepine"
   ],
-  "coverage": "58 nuove pagine di testo estraibile in cinque fonti; quattro pagine già lette riutilizzate senza ricontarle; 14 controlli visivi. Letture selettive di nove fonti ufficiali. Libri, corsi e altri trattamenti antidepressivi restano incompleti; nessuna revisione clinica indipendente.",
-  "wordCount": 3489,
+  "coverage": "Lotto iniziale: 58 nuove pagine di testo, 4 riutilizzate e 14 controlli visivi. Ampliamento: 11 ulteriori pagine di testo in due libri, 2 pagine del corso rilette senza ricontarle e 5 pagine ispezionate visivamente. Cinque riferimenti esterni aggiuntivi consultati selettivamente, con limiti di accesso dichiarati. Libri e corsi rimangono parziali; nessuna revisione clinica indipendente.",
+  "wordCount": 4542,
   "moleculeLinks": [
     {
       "id": "CHEMBL41",
@@ -412,5 +507,6 @@ export const THEORY_ANTIDEPRESSANTS = Object.freeze({
       "id": "CHEMBL3989843",
       "label": "TRANYLCYPROMINE"
     }
-  ]
+  ],
+  "readingMinutes": 25
 });
