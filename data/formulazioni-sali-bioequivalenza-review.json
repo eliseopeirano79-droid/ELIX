@@ -1,0 +1,24 @@
+{
+  "chapterId": "formulazioni-sali-bioequivalenza",
+  "checkedAt": "2026-10-27",
+  "outcome": "pass",
+  "reviewer": "integrator_editorial_check",
+  "independentClinicalReview": false,
+  "moduleSha256": "422984f9588f7f7c58a70c5f4e0b0b633b079c52c968a16ddfcccb2959a0b1e9",
+  "checks": [
+    "24 original explanatory sections and10questions with per-section attribution.",
+    "Salt mass, stereochemistry, dissolution, absorption and exposure separated.",
+    "Dose normalization and linear-kinetic assumptions explicit.",
+    "90% confidence interval distinct from mean, individual variability, tablet content and equivalence of every formulation.",
+    "Synthetic log-symmetric intervals; both endpoints required; no real patient/product prediction.",
+    "M9 and special cases not reduced to blanket exemptions.",
+    "AIFA2026 informed switch corrects outdated course assertions.",
+    "No new identities, drug summaries or PK profiles; previous chapters protected."
+  ],
+  "limits": [
+    "Single integrator editorial review; no independent clinical validation.",
+    "48 extracted-text pages,45new,7visual checks; courses/books incomplete.",
+    "Four Collino antidepressant pages read but not integrated here.",
+    "Browser and live verification recorded separately."
+  ]
+}
