@@ -121,7 +121,7 @@ export const THEORY_PHARMACOGENOMICS = Object.freeze({
         "SFI",
         "CPIC-CLO"
       ],
-      "text": "Clopidogrel è un profarmaco: la sua attività antiaggregante dipende dalla formazione di un metabolita attivo che interferisce con P2Y12. CYP2C19 contribuisce alla bioattivazione, insieme ad altri passaggi. Una funzione ridotta può comportare minore formazione del metabolita e minore inibizione piastrinica. Il dato genetico riguarda questa catena, non una variante del recettore P2Y12.\n\nLa linea guida CPIC del 2022 distingue i contesti cardiovascolari e neurovascolari e la forza delle raccomandazioni. Non è corretto trasformarla in una regola identica per qualunque impiego. Anche le alternative hanno controindicazioni, interazioni e indicazioni proprie: «non è un profarmaco» non significa «non viene metabolizzato» o «non interagisce».\n\nLa lezione di Collino aiuta a separare un'altra coppia di concetti: permanenza del farmaco nel plasma e durata dell'effetto piastrinico. Quando l'interazione funzionale persiste nella piastrina, la durata dell'effetto non si ricava semplicemente dall'emivita plasmatica. Genetica dell'attivazione, proprietà del legame e ricambio delle piastrine rispondono a domande diverse e vanno mantenuti distinti nella spiegazione."
+      "text": "Clopidogrel è un profarmaco: la sua attività antiaggregante dipende dalla formazione di un metabolita attivo che interferisce con P2Y12. CYP2C19 contribuisce alla bioattivazione, insieme ad altri passaggi. Una funzione ridotta può comportare minore formazione del metabolita e minore inibizione piastrinica. Il dato genetico riguarda questa catena, non una variante del recettore P2Y12.\n\nLa linea guida CPIC del 2022 distingue i contesti cardiovascolari e neurovascolari e la forza delle raccomandazioni. Non è corretto trasformarla in una regola identica per qualunque impiego. Anche le alternative hanno controindicazioni, interazioni e indicazioni proprie: «non è un profarmaco» non significa «non viene metabolizzato» o «non interagisce».\n\nGli appunti del corso di Farmacologia aiutano a separare un'altra coppia di concetti: permanenza del farmaco nel plasma e durata dell'effetto piastrinico. Quando l'interazione funzionale persiste nella piastrina, la durata dell'effetto non si ricava semplicemente dall'emivita plasmatica. Genetica dell'attivazione, proprietà del legame e ricambio delle piastrine rispondono a domande diverse e vanno mantenuti distinti nella spiegazione."
     },
     {
       "id": "pgx-11",
@@ -178,7 +178,7 @@ export const THEORY_PHARMACOGENOMICS = Object.freeze({
         "FII-D",
         "EMA-ABA"
       ],
-      "text": "HLA-B*57:01 identifica un allele di una molecola coinvolta nella presentazione antigenica. L'associazione con ipersensibilità ad abacavir riguarda una risposta immunitaria specifica e non una lentezza generale del metabolismo. È quindi un esempio utile per uscire dall'idea che tutta la farmacogenomica coincida con i citocromi epatici.\n\nLe informazioni EMA su Ziagen richiedono lo screening prima dell'inizio, indipendentemente dall'origine della persona, e indicano che i portatori non devono ricevere abacavir. Un risultato negativo non esclude ogni possibile reazione di ipersensibilità e non sostituisce la valutazione dei sintomi. Un precedente quadro di ipersensibilità al farmaco ha un significato clinico che non può essere cancellato da una lettura isolata del test.\n\nLa sbobina di D'Avolio colloca questo esempio nella terapia dell'HIV. Va mantenuta la distinzione tra patrimonio genetico dell'ospite, rischio immunologico e caratteristiche del virus. Non viene riproposto come spiegazione definitiva uno schema molecolare storico presente nelle slide: l'associazione clinicamente utile e i dettagli del meccanismo richiedono livelli di evidenza differenti."
+      "text": "HLA-B*57:01 identifica un allele di una molecola coinvolta nella presentazione antigenica. L'associazione con ipersensibilità ad abacavir riguarda una risposta immunitaria specifica e non una lentezza generale del metabolismo. È quindi un esempio utile per uscire dall'idea che tutta la farmacogenomica coincida con i citocromi epatici.\n\nLe informazioni EMA su Ziagen richiedono lo screening prima dell'inizio, indipendentemente dall'origine della persona, e indicano che i portatori non devono ricevere abacavir. Un risultato negativo non esclude ogni possibile reazione di ipersensibilità e non sostituisce la valutazione dei sintomi. Un precedente quadro di ipersensibilità al farmaco ha un significato clinico che non può essere cancellato da una lettura isolata del test.\n\nGli appunti del corso di Farmacologia collocano questo esempio nella terapia dell'HIV. Va mantenuta la distinzione tra patrimonio genetico dell'ospite, rischio immunologico e caratteristiche del virus. Non viene riproposto come spiegazione definitiva uno schema molecolare storico presente nelle slide: l'associazione clinicamente utile e i dettagli del meccanismo richiedono livelli di evidenza differenti."
     },
     {
       "id": "pgx-16",
@@ -317,22 +317,22 @@ export const THEORY_PHARMACOGENOMICS = Object.freeze({
     },
     {
       "id": "FI",
-      "title": "Slide Farmaco I · Loredana Serpe",
+      "title": "Diapositive del corso di Farmacologia I",
       "detail": "AA2025–26. Testo estraibile PDF203–220; figure controllate nelle pagine204,208,211,213,215,217. Testo194–202 già letto nel lotto precedente, non ricontato. Altre figure non verificate."
     },
     {
       "id": "SFI",
-      "title": "Sbobina Farmaco I · Serpe, lezione5",
+      "title": "Appunti del corso di Farmacologia I · lezione 5",
       "detail": "13/10/2025, AA2025–26. Raccolta PDF104–114, pagine18–28 della lezione, stampa99–109. Controllo visivo111. PDF104 fuori dal tema; precedenti87–103 già registrate nel lotto anticorpi."
     },
     {
       "id": "FII-C",
-      "title": "Sbobina Farmaco II · Collino, lezione6",
+      "title": "Appunti del corso di Farmacologia II · lezione 6",
       "detail": "06/11/2025, AA2025–26. Solo PDF13–14, equivalenti112–113 della raccolta; conteggiate una volta. Testo letto, figure non controllate. Attivazione degli antiaggreganti e distinzione PK/effetto."
     },
     {
       "id": "FII-D",
-      "title": "Sbobina Farmaco II · D’Avolio, lezione15",
+      "title": "Appunti del corso di Farmacologia II · lezione 15",
       "detail": "15/01/2026, AA2025–26. Solo PDF6, equivalente289 della raccolta; copie deduplicate. Testo letto, figure non controllate. Abacavir e distinzione ospite/virus."
     },
     {
@@ -455,5 +455,5 @@ export const THEORY_PHARMACOGENOMICS = Object.freeze({
     "anticorpi-biologici"
   ],
   "coverage": "Sette fonti didattiche consultate per intervalli: 46 pagine di testo estraibile, di cui una fuori tema, e 11 pagine controllate visivamente. Le pagine di slide prevalentemente grafiche restano incomplete dove non indicate come controllate. Documenti ufficiali consultati per passaggi selezionati. Nessun libro o corso dichiarato interamente letto; controllo editoriale mirato dell’integratore, non revisione clinica indipendente. Nessuna nuova identità, sintesi di farmaco o scheda farmacocinetica.",
-  "wordCount": 3786
+  "wordCount": 3790
 });

@@ -29,8 +29,6 @@
   ],
   "slides": [
     {
-      "author": "Loredana Serpe",
-      "file": "FarmacoI-Serpe-2025-26.pdf",
       "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
       "courseYear": "2025–26 from supplied filename",
       "pdfPages": [
@@ -47,7 +45,8 @@
       ],
       "readMode": "Entire slide visually read; embedded figure credits Clark, Le basi della farmacologia, without an edition number",
       "scope": "General therapeutic-window illustration only. No curves, therapeutic index or safety interval inferred for ponesimod; no figure reproduced. Remaining slides unread except prior recorded batches.",
-      "fullDocumentRead": false
+      "fullDocumentRead": false,
+      "sourceLabel": "Diapositive del corso di Farmacologia I · 2025–26"
     }
   ],
   "officialSources": [

@@ -307,22 +307,22 @@ export const THEORY_ANTIBODIES = Object.freeze({
     },
     {
       "id": "FI",
-      "title": "Farmaco I · slide Serpe",
+      "title": "Diapositive del corso di Farmacologia I",
       "detail": "AA2025–26. Testo estraibile letto: PDF159–202; pagine194–202 fuori dall’argomento, non integrate. Figure controllate solo su PDF169,171,175,181,188. Le altre pagine a prevalenza grafica non sono dichiarate interamente lette."
     },
     {
       "id": "SFI",
-      "title": "Farmaco I · sbobina Serpe del13/10/2025",
+      "title": "Appunti del corso di Farmacologia I · 13/10/2025",
       "detail": "AA2025–26, lezione5. Raccolta PDF87–103, pagine1–17 della lezione (stampate82–98). Lettura del testo estratto; figure non controllate in questo file. Restano PDF104–114 della lezione e il resto del corso."
     },
     {
       "id": "S1",
-      "title": "Farmaco II · sbobina Serpe del27/10/2025",
+      "title": "Appunti del corso di Farmacologia II · 27/10/2025",
       "detail": "AA2025–26, lezione1 PDF14–17, equivalenti a raccolta15–18: contate una sola volta. Testo estratto letto; figure non controllate. Distinti recettore, ligando e proteine di fusione."
     },
     {
       "id": "SL9",
-      "title": "Farmaco II · Antitumorali mirati, Serpe",
+      "title": "Diapositive del corso di Farmacologia II · Antitumorali mirati",
       "detail": "AA2025–26. Testo estraibile letto: PDF31–41; controllo visivo solo PDF41. Le pagine prevalentemente grafiche non controllate non sono dichiarate integralmente lette. Il precedente intervallo1–12 resta documentato nel capitolo RTK."
     },
     {
@@ -453,6 +453,6 @@ export const THEORY_ANTIBODIES = Object.freeze({
     "modelli-pk",
     "tirosinchinasi"
   ],
-  "coverage": "Intervalli selezionati di tre libri, Farmaco I e Farmaco II; testo estraibile letto e controllo delle figure distinti. Non sono stati letti integralmente libri o corsi. Collino e D’Avolio non sono integrati in questo lotto. Esempi e fonti ufficiali verificati per aspetti specifici; nessuna revisione clinica indipendente o linea guida terapeutica completa.",
+  "coverage": "Intervalli selezionati di tre libri, Farmaco I e Farmaco II; testo estraibile letto e controllo delle figure distinti. Non sono stati letti integralmente libri o corsi. Gli altri materiali del corso di Farmacologia non sono integrati in questo lotto. Esempi e fonti ufficiali verificati per aspetti specifici; nessuna revisione clinica indipendente o linea guida terapeutica completa.",
   "wordCount": 3932
 });

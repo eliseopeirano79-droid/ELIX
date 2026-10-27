@@ -12,7 +12,6 @@
       "title": "Lezione 9: antitumorali mirati",
       "sha256": "04052fb1de6a3d40922a207e8b3de198a1b693c3e2a6475a87c8b7c1f1cc6993",
       "edition": "2025-26",
-      "lecturer": "Serpe",
       "pdfPageCount": 26,
       "extractedTextReadPages": [
         1,
@@ -40,7 +39,6 @@
       "title": "Antitumorali mirati",
       "sha256": "5e922fa9c80f7400377a3fddba54e803bed59df65b91d6b744662547bc88d635",
       "edition": "2025-26",
-      "lecturer": "Serpe",
       "pdfPageCount": 48,
       "extractedTextReadPages": [
         1,
@@ -292,7 +290,7 @@
   ],
   "automaticOnly": [
     {
-      "source": "FarmacoI-Serpe-2025-26.pdf",
+      "source": "Diapositive del corso di Farmacologia I · 2025–26",
       "operation": "whole-file text extraction and keyword hit screening",
       "fullNewPagesRead": [],
       "note": "No new reading coverage; no new Farmaco I claim in this chapter."
@@ -314,8 +312,8 @@
     }
   ],
   "limits": [
-    "No full review of Serpe lesson9 PDF7–26 or slide13–48.",
-    "Collino and D’Avolio course files inventoried and deduplicated, not read for this bounded RTK chapter.",
+    "Nessuna lettura completa degli appunti della lezione 9 PDF 7–26 o delle diapositive 13–48 del corso di Farmacologia II.",
+    "Altri appunti e diapositive del corso di Farmacologia inventariati e deduplicati, non letti per questo capitolo.",
     "No new full Farmaco I reading this batch.",
     "All figures of the listed books/transcript have not been inspected.",
     "No independent clinical or specialist review; clinical examples are bounded official product-information checks, not a treatment guideline."

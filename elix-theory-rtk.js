@@ -240,12 +240,12 @@ export const THEORY_RTK = Object.freeze({
     },
     {
       "id": "FII-S9",
-      "title": "Farmacologia II · Serpe · lezione9 del17/11/2025",
-      "detail": "Anno accademico2025–26, canaleD. Testo della sbobina PDF1–6 letto, corrispondente alla raccolta PDF142–147; contato una sola volta. Figure della sbobina non controllate in questo intervallo. BCR–ABL, HER2 e la generalizzazione su KRAS sono riconciliati criticamente, non copiati."
+      "title": "Appunti del corso di Farmacologia II · lezione 9 del 17/11/2025",
+      "detail": "Anno accademico2025–26, canaleD. Testo degli appunti PDF1–6 letto, corrispondente alla raccolta PDF142–147; contato una sola volta. Figure degli appunti non controllate in questo intervallo. BCR–ABL, HER2 e la generalizzazione su KRAS sono riconciliati criticamente, non copiati."
     },
     {
       "id": "FII-SL",
-      "title": "Farmacologia II · Serpe · Antitumorali mirati",
+      "title": "Diapositive del corso di Farmacologia II · Antitumorali mirati",
       "detail": "Slide2025–26, PDF1–12: testo estratto letto; figure controllate a PDF3,4,6–12. Alcuni schemi sono storici. Corrette la sovrapposizione HER2/EGFR e la generalizzazione dell'irreversibilità a tutti i TKI. Restano fuori dall'intervallo PDF13–48."
     },
     {
@@ -323,6 +323,6 @@ export const THEORY_RTK = Object.freeze({
     "desensibilizzazione-tolleranza",
     "anticorpi-biologici"
   ],
-  "coverage": "Capitolo ampliato su intervalli delimitati di tre libri, una sbobina e una raccolta di slide di Farmaco II. Non sono stati letti integralmente libri o corsi. Collino e D'Avolio restano nel percorso di riconciliazione; nessuna nuova lettura completa di Farmaco I in questo lotto. Figure controllate solo alle pagine dichiarate. Esempi clinici confrontati con fonti ufficiali, senza algoritmo di trattamento o revisione clinica indipendente.",
+  "coverage": "Capitolo ampliato su intervalli delimitati di tre libri, appunti e diapositive del corso di Farmacologia II. Non sono stati letti integralmente libri o corsi. Gli altri materiali del corso di Farmacologia restano nel percorso di riconciliazione; nessuna nuova lettura completa di Farmaco I in questo lotto. Figure controllate solo alle pagine dichiarate. Esempi clinici confrontati con fonti ufficiali, senza algoritmo di trattamento o revisione clinica indipendente.",
   "wordCount": 3352
 });

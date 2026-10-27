@@ -1,7 +1,7 @@
 /* ELIX • servizio offline e aggiornamenti delle versioni pubblicate */
 // Scoped caches let old links coexist without deleting another app or path.
 const CACHE_PREFIX = 'elix@'+new URL(self.registration.scope).pathname+'::';
-const CACHE = CACHE_PREFIX+'0.34.0';
+const CACHE = CACHE_PREFIX+'0.34.1';
 const RUNTIME=CACHE+'-runtime';
 const MAX_RUNTIME=120;
 const FILES = ['./elix-theory-antibodies.js',

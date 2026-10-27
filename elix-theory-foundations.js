@@ -125,7 +125,7 @@ export const THEORY_FOUNDATIONS = {
     {
       "id": "lettura-critica",
       "title": "13. Integrare una lezione significa anche verificarla",
-      "text": "Le lezioni e le sbobine aiutano a riconoscere il filo del corso, ma una trascrizione può contenere inversioni di termini o esempi troppo semplificati. Nella pagina 69 stampata della sbobina di farmacodinamica, la frase sul rapporto cinetico di Kd inverte l’ordine delle costanti; la formula illustrata nella stessa pagina mostra invece dissociazione divisa per associazione. Qui è mantenuta la relazione corretta, distinguendo testo e figura anziché ripetere l’errore.\n\nUn secondo esempio riguarda anakinra. La descrizione come recettore-esca non è corretta: l’EMA lo descrive come una copia dell’antagonista umano del recettore dell’interleuchina 1, che si lega ai recettori ostacolando l’azione della citochina. È un esempio utile per separare un antagonista recettoriale da una proteina che sequestra il ligando. Questo richiamo riguarda il meccanismo, non introduce indicazioni o dosaggi.\n\nIl capitolo è una stesura estesa originale, con intervalli di lettura dichiarati. Non equivale alla lettura completa di Katzung, Rang & Dale, Clementi–Fumagalli o dei corsi. Restano da riconciliare le altre lezioni, i materiali Collino e D’Avolio e le parti non ancora consultate. Le fonti storiche sostengono i concetti di base; raccomandazioni e impieghi clinici richiedono verifiche ufficiali specifiche e attuali.",
+      "text": "Gli appunti e le diapositive del corso di Farmacologia aiutano a riconoscere il filo del corso, ma una trascrizione può contenere inversioni di termini o esempi troppo semplificati. Nella pagina 69 stampata degli appunti di farmacodinamica, la frase sul rapporto cinetico di Kd inverte l’ordine delle costanti; la formula illustrata nella stessa pagina mostra invece dissociazione divisa per associazione. Qui è mantenuta la relazione corretta, distinguendo testo e figura anziché ripetere l’errore.\n\nUn secondo esempio riguarda anakinra. La descrizione come recettore-esca non è corretta: l’EMA lo descrive come una copia dell’antagonista umano del recettore dell’interleuchina 1, che si lega ai recettori ostacolando l’azione della citochina. È un esempio utile per separare un antagonista recettoriale da una proteina che sequestra il ligando. Questo richiamo riguarda il meccanismo, non introduce indicazioni o dosaggi.\n\nIl capitolo è una stesura estesa originale, con intervalli di lettura dichiarati. Non equivale alla lettura completa di Katzung, Rang & Dale, Clementi–Fumagalli o dei corsi. Restano da riconciliare le altre lezioni, gli altri materiali del corso di Farmacologia e le parti non ancora consultate. Le fonti storiche sostengono i concetti di base; raccomandazioni e impieghi clinici richiedono verifiche ufficiali specifiche e attuali.",
       "refs": [
         "S",
         "EMA"
@@ -145,12 +145,12 @@ export const THEORY_FOUNDATIONS = {
     },
     {
       "id": "S",
-      "title": "Farmacologia I · Sbobina della lezione di Loredana Serpe",
+      "title": "Appunti del corso di Farmacologia I",
       "detail": "Corso 2025–26, lezione di farmacodinamica del 10/10/2025. PDF collettivo “Farmacologia I Definitivo”, pagine PDF 67–86, stampate 62–81: testo letto integralmente in questo intervallo. PDF 74 controllata anche come immagine. Sintesi critica: non validazione dell’intero documento."
     },
     {
       "id": "SL",
-      "title": "Farmacologia I · Slide Serpe",
+      "title": "Diapositive del corso di Farmacologia I",
       "detail": "Raccolta 2025–26: PDF 125–126 e 130, numerazione delle slide 123–124 e 128. Testo estratto letto; figure non ispezionate in questo lotto."
     },
     {
@@ -189,5 +189,5 @@ export const THEORY_FOUNDATIONS = {
       "answer": "Sì, quando compete per gli stessi siti e sostituisce complessi più efficaci. Il suo effetto da solo e quello in associazione dipendono dal contesto e dalle concentrazioni."
     }
   ],
-  "wordCount": 2356
+  "wordCount": 2362
 };

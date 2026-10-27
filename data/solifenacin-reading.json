@@ -31,8 +31,7 @@
   ],
   "slides": [
     {
-      "title": "Farmacologia I · Loredana Serpe",
-      "file": "FarmacoI-Serpe-2025-26.pdf",
+      "title": "Diapositive del corso di Farmacologia I",
       "edition": "Course year 2025–26 from supplied filename; no further edition inferred.",
       "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
       "pdfPages": [
@@ -48,7 +47,8 @@
       ],
       "readMode": "Complete extracted text of both pages; PDF138 also visually inspected.",
       "scope": "Competitive reversible antagonism and qualitative response. No copied curve or inferred dose/EC50; the simplified noncompetitive/allosteric statement on136 is not generalized.",
-      "fullDocumentRead": false
+      "fullDocumentRead": false,
+      "sourceLabel": "Diapositive del corso di Farmacologia I · 2025–26"
     }
   ],
   "navigationOnly": [

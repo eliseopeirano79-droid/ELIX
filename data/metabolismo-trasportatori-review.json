@@ -4,7 +4,7 @@
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "86de6d1ceb4d54a574ff61665e66fd61c0a24c2dba444789d28f7315615a4730",
+  "moduleSha256": "f01ac8b90ed3683e3828d1c8502b6d3dfe927a49d1c6fbddcbe1145fdc83c7fc",
   "checks": [
     "Original synthesis with source-level attribution; no copied source figures or transcripts.",
     "Pharmaceutical incompatibility, PK and PD separated; interaction distinct from adverse event.",
@@ -21,5 +21,10 @@
     "Single integrator editorial review, not independent clinical validation.",
     "Source figures not listed remain unchecked; official sources read only in selected passages.",
     "Browser and publication verification recorded separately."
-  ]
+  ],
+  "publicLabelUpdate": {
+    "date": "2026-10-27",
+    "previousModuleSha256": "86de6d1ceb4d54a574ff61665e66fd61c0a24c2dba444789d28f7315615a4730",
+    "scope": "Denominazioni dei materiali del corso rese generiche; contenuti scientifici, intervalli di lettura e limiti conservati. Non è una nuova revisione clinica."
+  }
 }

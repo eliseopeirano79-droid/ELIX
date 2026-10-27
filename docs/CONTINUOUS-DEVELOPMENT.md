@@ -2,17 +2,19 @@
 
 Un solo lotto e un solo integratore alla volta. Questa chat integra e pubblica. Non riattivare vecchi checkout o aggiornatori, né assegnare capitoli già consegnati.
 
+## Denominazioni pubbliche delle fonti
+
+Per esplicita richiesta dell’utente del 27/10/2026 usare «appunti e diapositive del corso di Farmacologia». Si possono precisare I o II, anno accademico, lezione, data e pagine. Non citare i nomi dei docenti o denominazioni informali dei materiali nell’app, nelle note delle figure e nei registri pubblici. La corrispondenza con le fonti originali resta nei registri privati esterni alla pubblicazione. I titoli e gli autori dei libri e delle fonti ufficiali restano distinti.
+
 ## Lotto corrente
 
-`theory-formulazioni-bioequivalenza`, versione 0.34.0: ampliamento del capitolo esistente in 24 sezioni, 3413 parole di corpo e 10 domande ragionate. Modello originale con cinque studi ipotetici: intervalli contenuti, media vicina ma imprecisa, AUC favorevole con picco fuori limite, superamento inferiore e superiore. Asse dei rapporti logaritmico, intervalli sintetici al 90%, nessun dato di paziente o medicinale commerciale. Ambito limitato al criterio ordinario: non indice terapeutico ristretto, rilascio modificato o autorizzazione di un prodotto.
+`course-material-labels`, versione 0.34.1: correzione richiesta dall’utente delle denominazioni già pubblicate. Conservati contenuti scientifici, identificativi, pagine lette, controlli visivi e lacune dichiarate. Nessuna nuova lettura o revisione clinica attribuita a questa correzione. I riepiloghi di revisione dei moduli registrano separatamente il solo aggiornamento delle denominazioni.
 
-Letture del testo estraibile: Katzung IX italiana 2014/XII americana 2012 PDF 26–27 e 106; Rang & Dale 8ª italiana 2016 PDF 179–180; Clementi/Fumagalli 4ª 2012 PDF 606–608; slide Farmaco I Serpe 2025–26 PDF 265–297; sbobina Farmaco I PDF 128–134. Totale 48 pagine, 45 nuove e tre riletture; sette controlli visivi elencati nel registro. Le PDF 131–134 appartengono alla lezione 7 Collino sugli antidepressivi, 22/10/2025: lette ma fuori tema, non integrate qui. La data stampata discordante della lezione 6 Serpe resta dichiarata. Nessun libro o corso interamente letto.
+La 0.34.0 è pubblicata e verificata al commit `ced696e827144392fb3f4500bd79ed71093a6bb0`, PR 25. Restano 55 capitoli, nove estesi; nessuna nuova identità, sintesi di farmaco o profilo PK. La bozza del capitolo sugli antidepressivi è conservata fuori da questa pubblicazione e riprende appena verificata la correzione richiesta.
 
-Confrontati passaggi selezionati di ICH M13A, M9, attuazione EMA, domande EMA sui generici, liste AIFA e comunicato AIFA del 29/04/2026 sul Terzo Position Paper dei biosimilari. Corrette semplificazioni su ±20%, media versus intervallo, biowaiver e cambio nel paziente stabile. Distinti sale, specie attiva, stereoisomeria, dissoluzione, esposizione e risposta. Revisione editoriale dell’integratore, non clinica indipendente.
+Controlli locali superati: 37 validatori, 126 configurazioni di pagine, 31 registri pubblici e 16 configurazioni di branding; aggiornamento reale 0.34.0 → 0.34.1 con dati locali conservati e lettura offline. Schermate desktop e mobile ispezionate. Chromium con dimensioni simulate, non dispositivi fisici.
 
-La 0.33.0 è pubblicata e verificata al commit `64693066966f278caa44915c2a45bc981d96205e`, PR 24. Questo lotto conserva integralmente gli altri 54 capitoli e tutti i dati già pubblicati. Nove capitoli estesi su 55; cinque nuovi collegamenti a identità esistenti, nessuna nuova identità, sintesi di farmaco o profilo PK.
-
-Controlli locali 0.34.0: 37 validatori, 40 combinazioni del nuovo capitolo, 208 dei precedenti e 16 di branding; navigazione, ricerca, tastiera, link, offline e aggiornamento reale 0.33.0 → 0.34.0 con preferiti, progressi e tema conservati. Quattro schermate rappresentative ispezionate. Chromium a dimensioni desktop/mobile, non dispositivi fisici o verifica cross-browser. Questo checkpoint precede la pubblicazione: la ricevuta `../../outputs/ELIX-latest-verification.json` prevale per batch/versione coincidenti quando attesta deploy e verifiche online conclusi. Prove in `../../outputs/ELIX-bioequivalence-2026-10-27/`.
+Questo checkpoint precede la pubblicazione. La ricevuta `../../outputs/ELIX-latest-verification.json` prevale per batch/versione coincidenti quando attesta deploy e verifiche online conclusi. Prove e corrispondenza privata delle fonti in `../../outputs/ELIX-course-labels-2026-10-27/`.
 
 ## Regole
 
@@ -24,4 +26,4 @@ Controlli locali 0.34.0: 37 validatori, 40 combinazioni del nuovo capitolo, 208 
 
 ## Prossimo intervallo
 
-Dopo la ricevuta 0.34.0, riprendere Collino Farmaco I PDF 131–134 già lette e deduplicare il candidato 135–140 prima di leggerlo. Identificare intervalli corrispondenti nei libri e nelle slide; ampliare una sola unità teorica pertinente senza riassegnare capitoli consegnati. Non rifare l’inventario Farmaco II: le letture di Collino, D’Avolio e Serpe restano incomplete. Visualizzazioni aggiuntive, farmaci mancanti e tolterodina nel backlog, subordinati alla teoria.
+Riprendere la bozza sugli antidepressivi e il suo registro privato di lettura, senza ripetere o ricontare le letture completate. Completare modello interattivo, revisione e verifiche prima della pubblicazione. I libri e i corsi rimangono parzialmente letti. Altre visualizzazioni, farmaci mancanti e profili restano nel backlog, subordinati alla teoria già iniziata.

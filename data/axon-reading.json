@@ -34,8 +34,6 @@
   ],
   "slides": [
     {
-      "author": "Loredana Serpe",
-      "file": "FarmacoI-Serpe-2025-26.pdf",
       "courseYear": "2025–26, from supplied filename; no edition printed on selected slide",
       "pdfPages": [
         118
@@ -50,7 +48,8 @@
       "rereadPdfPages": [
         118
       ],
-      "newlyReadPdfPages": []
+      "newlyReadPdfPages": [],
+      "sourceLabel": "Diapositive del corso di Farmacologia I · 2025–26"
     }
   ],
   "officialSources": [

@@ -224,7 +224,7 @@ export const THEORY_BIOEQUIVALENCE = Object.freeze({
         "FI",
         "SFI"
       ],
-      "text": "Questo capitolo collega chimica, formulazione e valutazione dell’esposizione attraverso una sintesi originale. I passaggi selezionati dei libri e del corso sono stati confrontati con documenti EMA, ICH e AIFA: corretti il significato dei limiti numerici, le semplificazioni sul biowaiver e le vecchie indicazioni sul cambio fra biologici.\n\nSono state lette 48 pagine di testo estraibile, comprese tre riletture; sette pagine sono state controllate anche visivamente. Quattro pagine nuove della sbobina riguardano invece l’inizio della lezione sugli antidepressivi e restano fuori da questo capitolo. Non viene dichiarata la lettura integrale di Katzung, degli altri libri o di Farmaco I e II.\n\nI collegamenti ai farmaci aprono identità e schede già presenti; non costituiscono nuovi profili clinici o nuove autorizzazioni di equivalenza. La verifica editoriale e il modello matematico servono allo studio. Una revisione clinica indipendente non è stata effettuata, e gli esempi sintetici non sostituiscono una valutazione regolatoria."
+      "text": "Questo capitolo collega chimica, formulazione e valutazione dell’esposizione attraverso una sintesi originale. I passaggi selezionati dei libri e del corso sono stati confrontati con documenti EMA, ICH e AIFA: corretti il significato dei limiti numerici, le semplificazioni sul biowaiver e le vecchie indicazioni sul cambio fra biologici.\n\nSono state lette 48 pagine di testo estraibile, comprese tre riletture; sette pagine sono state controllate anche visivamente. Quattro pagine nuove degli appunti riguardano invece l’inizio della lezione sugli antidepressivi e restano fuori da questo capitolo. Non viene dichiarata la lettura integrale di Katzung, degli altri libri o di Farmaco I e II.\n\nI collegamenti ai farmaci aprono identità e schede già presenti; non costituiscono nuovi profili clinici o nuove autorizzazioni di equivalenza. La verifica editoriale e il modello matematico servono allo studio. Una revisione clinica indipendente non è stata effettuata, e gli esempi sintetici non sostituiscono una valutazione regolatoria."
     }
   ],
   "checks": [
@@ -287,13 +287,13 @@ export const THEORY_BIOEQUIVALENCE = Object.freeze({
     },
     {
       "id": "FI",
-      "title": "Farmaco I · Slide di Loredana Serpe",
+      "title": "Diapositive del corso di Farmacologia I",
       "detail": "AA 2025–26, PDF 265–297, numerazione slide 263–295. Controllo visivo PDF 273, 276, 283, 293; le altre figure non sono dichiarate controllate. Semplificazioni e indicazioni storiche riconciliate nel registro."
     },
     {
       "id": "SFI",
-      "title": "Farmaco I · Sbobina Serpe e intervallo Collino",
-      "detail": "Lezione 6 Serpe, data stampata 10/10/2025, raccolta PDF 128–130, stampa 123–125: generici e biosimilari. Data discordante con la lezione 5, non corretta per supposizione. PDF 131–134, lezione 7 Collino 22/10/2025, letti ma fuori tema; antidepressivi non integrati qui."
+      "title": "Appunti del corso di Farmacologia I · lezioni 6 e 7",
+      "detail": "Lezione 6 del corso di Farmacologia, data stampata 10/10/2025, raccolta PDF 128–130, stampa 123–125: generici e biosimilari. Data discordante con la lezione 5, non corretta per supposizione. PDF 131–134, lezione 7 del corso di Farmacologia del 22/10/2025, letti ma fuori tema; antidepressivi non integrati qui."
     },
     {
       "id": "M13A",
