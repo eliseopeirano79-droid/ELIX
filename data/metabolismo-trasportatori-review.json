@@ -1,0 +1,25 @@
+{
+  "chapterId": "metabolismo-trasportatori",
+  "checkedAt": "2026-10-26",
+  "outcome": "pass",
+  "reviewer": "integrator_editorial_check",
+  "independentClinicalReview": false,
+  "moduleSha256": "86de6d1ceb4d54a574ff61665e66fd61c0a24c2dba444789d28f7315615a4730",
+  "checks": [
+    "Original synthesis with source-level attribution; no copied source figures or transcripts.",
+    "Pharmaceutical incompatibility, PK and PD separated; interaction distinct from adverse event.",
+    "AUC and peak, free fraction and free concentration separated; linear-kinetic assumptions stated.",
+    "Substrate, inhibitor and inducer distinct; persistence and parallel pathways included.",
+    "Gut efflux, hepatic uptake and composite renal secretion isolated; local and plasma exposure distinguished.",
+    "CIPRO oral chelation and Edurant UK tablet pH interaction retain formulation context.",
+    "CDC combined-contraception distinction and FDA grapefruit counterexample replace historical generalizations.",
+    "Cobicistat CYP3A mechanism reconciled with EMA; unrelated antiviral claims excluded.",
+    "Three previously published ozanimod texts retained without new clinical-review claim.",
+    "No patient-specific dose calculations or complete-book/course claim."
+  ],
+  "limits": [
+    "Single integrator editorial review, not independent clinical validation.",
+    "Source figures not listed remain unchecked; official sources read only in selected passages.",
+    "Browser and publication verification recorded separately."
+  ]
+}

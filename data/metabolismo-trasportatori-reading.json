@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 1,
+  "batch": "theory-metabolismo-trasportatori",
+  "chapterId": "metabolismo-trasportatori",
+  "status": "editorial_reconciled_pending_browser_checks",
+  "updatedAt": "2026-10-26T19:31:09.177621+00:00",
+  "sources": [
+    {
+      "id": "K",
+      "title": "Katzung, Farmacologia generale e clinica",
+      "edition": "IX italiana2014 / XII americana2012",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "pageCount": 1579,
+      "extractedTextReadPages": [
+        79,
+        80,
+        90,
+        91,
+        94,
+        95
+      ],
+      "visuallyCheckedPdfPages": [
+        94
+      ],
+      "previouslyFullyReadPages": [
+        90,
+        91
+      ],
+      "newlyReadTextPages": [
+        79,
+        80,
+        94,
+        95
+      ],
+      "allContentsRead": false,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "R",
+      "title": "Rang & Dale, Farmacologia",
+      "edition": "8ª italiana2016 / originale2015",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "pageCount": 1102,
+      "extractedTextReadPages": [
+        174,
+        175,
+        183,
+        184,
+        197,
+        198,
+        199,
+        210,
+        211
+      ],
+      "visuallyCheckedPdfPages": [],
+      "previouslyFullyReadPages": [
+        174,
+        175,
+        183,
+        184,
+        197,
+        199,
+        210,
+        211
+      ],
+      "newlyReadTextPages": [
+        198
+      ],
+      "allContentsRead": false,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "C",
+      "title": "Clementi e Fumagalli, Farmacologia generale e molecolare",
+      "edition": "4ª2012",
+      "sha256": "b5969a60702c4ea97a484e5fa2acb11b7a8712b8e958843213cdce8d08128b79",
+      "pageCount": 720,
+      "extractedTextReadPages": [
+        700,
+        701,
+        702,
+        703,
+        704,
+        705,
+        706,
+        707
+      ],
+      "visuallyCheckedPdfPages": [
+        702,
+        704
+      ],
+      "previouslyFullyReadPages": [
+        703,
+        704,
+        705,
+        706
+      ],
+      "newlyReadTextPages": [
+        700,
+        701,
+        702,
+        707
+      ],
+      "allContentsRead": false,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "FI",
+      "title": "Slide Farmaco I, Loredana Serpe",
+      "edition": "AA2025–26",
+      "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
+      "pageCount": 567,
+      "extractedTextReadPages": [
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261
+      ],
+      "visuallyCheckedPdfPages": [
+        230,
+        234,
+        238,
+        243,
+        244
+      ],
+      "previouslyFullyReadPages": [
+        239
+      ],
+      "newlyReadTextPages": [
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261
+      ],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "limit": "Letto il testo estraibile; le pagine con sole intestazioni non equivalgono a lettura delle figure. Solo cinque pagine controllate visivamente."
+    },
+    {
+      "id": "SFI",
+      "title": "Farmacologia I Definitivo, lezione6 Serpe, data stampata10/10/2025",
+      "edition": "AA2025–26",
+      "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+      "pageCount": 344,
+      "extractedTextReadPages": [
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "visuallyCheckedPdfPages": [
+        115
+      ],
+      "previouslyFullyReadPages": [],
+      "newlyReadTextPages": [
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "lessonPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "compiledPrintedPages": [
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125
+      ],
+      "metadataConflict": "La lezione6 riporta10/10/2025, precedente alla data13/10/2025della lezione5; conservata senza inventare una correzione.",
+      "outsideChapterScopePages": [
+        128,
+        129,
+        130
+      ]
+    },
+    {
+      "id": "DAV",
+      "title": "Lezione 15: chemioterapia antivirale",
+      "lecturer": "D’Avolio",
+      "edition": "AA2025–26",
+      "sha256": "16c847198f3166af3b0c477f6c57ade56f1662f0d75c711a63451b47244bdeae",
+      "pageCount": 20,
+      "extractedTextReadPages": [
+        3,
+        4
+      ],
+      "newlyReadTextPages": [
+        3,
+        4
+      ],
+      "visuallyCheckedPdfPages": [],
+      "previouslyFullyReadPages": [],
+      "collectionEquivalentPdfPages": [
+        286,
+        287
+      ],
+      "deduplication": "Le copie e le pagine equivalenti della raccolta FarmacoII sono contate una sola volta; corrispondenza nell’inventario già verificato.",
+      "allContentsRead": false,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "COL",
+      "title": "Dislipidemie",
+      "lecturer": "Collino",
+      "edition": "AA2025–26",
+      "sha256": "2650286971ef688992c4cce1786e2bb80844fddd9dbca5c106c1c9b38a247cdc",
+      "pageCount": 11,
+      "extractedTextReadPages": [
+        2,
+        3
+      ],
+      "newlyReadTextPages": [
+        2,
+        3
+      ],
+      "visuallyCheckedPdfPages": [],
+      "previouslyFullyReadPages": [],
+      "collectionEquivalentPdfPages": [
+        132,
+        133
+      ],
+      "deduplication": "Le copie e le pagine equivalenti della raccolta FarmacoII sono contate una sola volta; corrispondenza nell’inventario già verificato.",
+      "allContentsRead": false,
+      "sourceUnchanged": true
+    }
+  ],
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "newExtractedTextPages": 69,
+  "textPagesIncludingRereads": 84,
+  "visuallyCheckedPageCount": 9,
+  "previouslyVisuallyCheckedPages": {
+    "C": [
+      704
+    ]
+  },
+  "deduplicationEvidence": [
+    "data/desensibilizzazione-tolleranza-reading.json",
+    "data/modelli-pk-reading.json",
+    "data/ozanimod-reading.json",
+    "data/farmacogenomica-reading.json"
+  ],
+  "automaticExtraction": "Testi dei libri e di FarmacoI già estratti, non nuove letture integrali. Due PDF FarmacoII estratti per navigare; lette solo le quattro pagine elencate.",
+  "remaining": [
+    "Figure non elencate non verificate; nessun libro o corso interamente letto.",
+    "Revisione clinica indipendente non effettuata.",
+    "Controlli funzionali e pubblicazione registrati separatamente."
+  ],
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "extendedChapters": 1,
+  "conflicts": [
+    {
+      "source": "SFI115–118",
+      "issue": "Interazione equiparata a reazione avversa e uso simultaneo.",
+      "resolution": "Separati meccanismo, rilevanza, evento e potenziamento intenzionale; aggiunta persistenza dopo sospensione."
+    },
+    {
+      "source": "SFI119; FI230",
+      "issue": "Intervallo generico di due ore; esempio antiacido attribuito al solo pH.",
+      "resolution": "Chelazione distinta da soppressione acida; istruzioni specifiche del prodotto e dell’ordine di assunzione, senza regola universale."
+    },
+    {
+      "source": "FI232; SFI120; C701–702",
+      "issue": "Antibiotici ad ampio spettro e perdita di efficacia contraccettiva generalizzati.",
+      "resolution": "Confronto CDC2024: maggior parte degli antibiotici distinta da rifampicina/rifabutina; contesto contraccezione combinata mantenuto."
+    },
+    {
+      "source": "C702; FI234; SFI121–122",
+      "issue": "Spiazzamento interpretato come aumento persistente della quota farmacologicamente disponibile.",
+      "resolution": "Distinte frazione libera, concentrazione libera, distribuzione, eliminazione e più meccanismi concomitanti."
+    },
+    {
+      "source": "C703–704; FI238; K94",
+      "issue": "Tabelle storiche ed errori di assegnazione dei CYP.",
+      "resolution": "Tabelle non importate; nessuna induzione CYP2D6 da etanolo o attribuzione di triazolam a CYP1A2. Definizioni correnti selezionate da FDA."
+    },
+    {
+      "source": "K95; FI; SFI",
+      "issue": "Pompelmo descritto con effetto o incremento percentuale universale.",
+      "resolution": "Variabilità e meccanismi diversi; esempio opposto di fexofenadina dalla FDA. Nessun incremento unico di classe."
+    },
+    {
+      "source": "DAV3",
+      "issue": "Booster descritto come sostanza metabolizzata o espulsa prima dell’altra.",
+      "resolution": "Confronto EMA: inibizione CYP3A da cobicistat, senza azione diretta contro HIV."
+    },
+    {
+      "source": "DAV3–4",
+      "issue": "Affermazioni su formulazioni long-acting e TAF/TDF.",
+      "resolution": "Fuori dal capitolo; escluse dalla sintesi, revisione clinica dedicata ancora necessaria."
+    },
+    {
+      "source": "COL2–3",
+      "issue": "Spiegazioni metaboliche e raccomandazioni cliniche semplificate nella trattazione delle statine.",
+      "resolution": "Usati soltanto principi di primo passaggio e differenze fra molecole; non trasferite tabelle cliniche o spiegazioni della miopatia."
+    },
+    {
+      "source": "SFI128–130",
+      "issue": "Equivalenti, biosimilari e sostituibilità fuori tema.",
+      "resolution": "Testo letto ma non integrato; intervallo da riprendere per un capitolo dedicato."
+    },
+    {
+      "source": "SFI115",
+      "issue": "Data stampata della lezione6 10/10/2025 anteriore alla lezione5 13/10/2025.",
+      "resolution": "Mantenuta come stampata; nessuna correzione inventata."
+    }
+  ],
+  "officialSources": [
+    {
+      "id": "FDA-CYP",
+      "title": "FDA · Esempi di interazioni con CYP e trasportatori",
+      "detail": "Consultati introduzione, definizioni delle tabelle 2–3 e note sui prodotti variabili il 26/10/2026. Elenco non esaustivo; non costituisce un calcolatore clinico.",
+      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "accessedAt": "2026-10-26",
+      "scope": "Selected passages described in detail; not full-document clinical review"
+    },
+    {
+      "id": "CIPRO",
+      "title": "CIPRO · Informazione di prodotto USA, Bayer/DailyMed",
+      "detail": "Versione 32, aggiornata 02/03/2026. Consultata §2.4 sui cationi multivalenti e sulla formulazione orale; non l’intero documento. Contesto USA, accesso 26/10/2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=888dc7f9-ad9c-4c00-8d50-8ddfd9bd27c0&version=32",
+      "accessedAt": "2026-10-26",
+      "scope": "Selected passages described in detail; not full-document clinical review"
+    },
+    {
+      "id": "EDURANT",
+      "title": "Edurant 25 mg compresse · RCP britannico Janssen-Cilag",
+      "detail": "emc, aggiornato 13/04/2026. Consultati §4.3 e passaggi §4.5 su inibitori di pompa e pH gastrico. Il PDF EMA non era recuperabile; non dichiarato letto. Accesso 26/10/2026.",
+      "url": "https://www.medicines.org.uk/emc/product/4968/smpc",
+      "accessedAt": "2026-10-26",
+      "scope": "Selected passages described in detail; not full-document clinical review"
+    },
+    {
+      "id": "CDC",
+      "title": "CDC · U.S. Medical Eligibility Criteria 2024",
+      "detail": "Appendice D, contraccettivi ormonali combinati: passaggi su antibiotici ad ampio spettro e rifampicina/rifabutina. Consultati 26/10/2026, non l’intera linea guida; nessuna posologia trasferita.",
+      "url": "https://www.cdc.gov/contraception/hcp/usmec/combined-hormonal-contraceptives.html",
+      "accessedAt": "2026-10-26",
+      "scope": "Selected passages described in detail; not full-document clinical review"
+    },
+    {
+      "id": "FDA-GRAPE",
+      "title": "FDA · Pompelmo e medicinali",
+      "detail": "Pagina consultata 26/10/2026: meccanismi intestinali, variabilità, esempio fexofenadina e limiti delle generalizzazioni di classe.",
+      "url": "https://www.fda.gov/consumers/consumer-updates/grapefruit-juice-and-some-drugs-dont-mix",
+      "accessedAt": "2026-10-26",
+      "scope": "Selected passages described in detail; not full-document clinical review"
+    },
+    {
+      "id": "EMA-TYBOST",
+      "title": "EMA · Tybost, cobicistat",
+      "detail": "Panoramica ufficiale: meccanismo, finalità del potenziamento e limiti, consultati 26/10/2026. Pagina aggiornata 14/02/2023; accesso odierno non equivale a nuova revisione del documento.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/tybost",
+      "accessedAt": "2026-10-26",
+      "scope": "Selected passages described in detail; not full-document clinical review"
+    }
+  ],
+  "retainedContent": {
+    "chapterId": "metabolismo-trasportatori",
+    "sections": [
+      "ozanimod-1",
+      "ozanimod-2",
+      "ozanimod-3"
+    ],
+    "sourceLedger": "data/ozanimod-reading.json",
+    "newClinicalSourceRead": false
+  }
+}

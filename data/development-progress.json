@@ -1,36 +1,35 @@
 {
-  "updatedAt": "2026-10-26T13:04:27.563252+00:00",
-  "batch": "theory-farmacogenomica",
+  "updatedAt": "2026-10-27T06:24:22.866577+00:00",
+  "batch": "theory-metabolismo-trasportatori",
   "status": "verified_locally_pending_publication",
-  "release": "0.32.0",
-  "branch": "feat/theory-pharmacogenomics",
-  "baseCommit": "49fafbe5721a9f92b536f9fe98bd70ca0b5f5cd1",
+  "release": "0.33.0",
+  "branch": "feat/theory-interactions",
+  "baseCommit": "487eaec4af0f1c3180fb8a429d40300a69920adf",
   "previousBatch": {
-    "batch": "theory-anticorpi-biologici",
+    "batch": "theory-farmacogenomica",
     "status": "published_and_live_verified",
-    "release": "0.31.1",
-    "commit": "49fafbe5721a9f92b536f9fe98bd70ca0b5f5cd1",
-    "receipt": "../../outputs/ELIX-antibodies-2026-10-25/release-verification.json"
+    "release": "0.32.0",
+    "commit": "487eaec4af0f1c3180fb8a429d40300a69920adf",
+    "receipt": "../../outputs/ELIX-pharmacogenomics-2026-10-26/release-verification.json"
   },
   "scope": [
-    "Expand existing farmacogenomica to22sections,3786body words and10reasoned questions.",
-    "Original qualitative pathway model with6states: inactivation/activation by3activity levels.",
-    "Reconcile bounded books, Farmaco I/II and selected official-source passages.",
-    "Constrain sticky chapter index to viewport so final entries remain reachable."
+    "Expand existing CYP/transporter interaction chapter to24sections,3301body words and10reasoned questions.",
+    "Original six-state qualitative transport model: gut efflux, hepatic uptake and renal secretion.",
+    "Reconcile bounded books, FarmacoI/II and six official-source passages; retain prior ozanimod content."
   ],
   "completed": [
-    "35data validators passed.",
-    "48new chapter viewport/theme/model combinations passed, keyboard, both searches,10catalog links and6legacy/target links.",
-    "Six previous extended chapters passed112browser configurations.",
-    "16branding configurations and aliases/query/hash/storage/fallback/offline checks passed.",
-    "Real0.31.1to0.32.0update preserves favorites, study progress and theme; chapter/model work offline.",
-    "Six representative chapter/model screenshots inspected, desktop/mobile and both themes; all7original source hashes unchanged.",
-    "Fixed wrapped mobile activity label and sticky index clipping; specific short-desktop regression passed."
+    "36 data validators passed.",
+    "48 configurations of the new chapter passed: four widths, two themes, six model states; keyboard, both searches, eight catalog links, seven legacy/target links and offline records.",
+    "Seven previous extended chapters passed 160 browser configurations.",
+    "16 branding configurations passed, including redirects, query/hash, storage, fallback and offline.",
+    "Real 0.32.0 to 0.33.0 update preserves favorites, study progress and theme; new chapter/model works offline.",
+    "Four representative chapter/model screenshots inspected in desktop/mobile and both themes.",
+    "54 other chapter objects and three ozanimod section texts match the previous release exactly; all seven original source hashes unchanged."
   ],
   "remaining": [
     "PR CI and merge",
     "Main CI and concluded deployment",
-    "Live checks and postdeploy receipt"
+    "Live verification and postdeploy receipt"
   ],
   "counts": {
     "identities": 4225,
@@ -51,13 +50,14 @@
     "newInteractiveLabs": 1
   },
   "readingManifests": [
-    "data/farmacogenomica-reading.json"
+    "data/metabolismo-trasportatori-reading.json"
   ],
   "limits": [
-    "Seven extended chapters of55;48remain to expand.",
-    "46newextracted-text pages include1outside-topic page;11source pages visually checked. No whole-book or whole-course claim.",
-    "Single integrator editorial check, not independent clinical validation.",
-    "No new identities, drug summaries or PK profiles; no dose/genotype calculator."
+    "Eight extended chapters of 55; 47 remain to expand.",
+    "84 extracted-text pages read, 69 newly read; only nine source pages visually checked. No whole-book or whole-course claim.",
+    "Single integrator editorial review, not independent clinical validation.",
+    "No new drug identities, summaries or product PK profiles.",
+    "Local Chromium viewport checks, not physical-device or cross-browser validation."
   ],
-  "nextBatch": "After verified publication, reconcile the first unread Farmaco I transcript interval after PDF114 (candidate PDF115–124) against existing ledgers before reading. Identify topic and matched textbook/slide interval, then expand one existing chapter. Do not reread or reassign delivered chapters; keep extra visuals, missing drug summaries and tolterodine in backlog."
+  "nextBatch": "After verified publication, reconcile prior ledgers before resuming Farmaco I PDF128–130 (read outside this chapter scope) and the first unread interval after130, candidate131–140. Identify the topic and matching book/slide passages before expanding one existing chapter. Do not repeat the FarmacoII inventory or reassign delivered chapters. Keep other visuals, missing drugs and tolterodine in backlog."
 }
