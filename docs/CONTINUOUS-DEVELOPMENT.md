@@ -8,13 +8,15 @@ Per esplicita richiesta dell’utente del 27/10/2026 usare «appunti e diapositi
 
 ## Lotto corrente
 
-`course-material-labels`, versione 0.34.1: correzione richiesta dall’utente delle denominazioni già pubblicate. Conservati contenuti scientifici, identificativi, pagine lette, controlli visivi e lacune dichiarate. Nessuna nuova lettura o revisione clinica attribuita a questa correzione. I riepiloghi di revisione dei moduli registrano separatamente il solo aggiornamento delle denominazioni.
+`theory-antidepressivi`, versione 0.35.0: un nuovo capitolo esteso di 24 sezioni e 3.489 parole, dieci domande ragionate, nove collegamenti a identità già presenti e un laboratorio originale con sei viste qualitative della sinapsi. Nessuna nuova identità, sintesi di farmaco o scheda farmacocinetica. I 55 capitoli precedenti rimangono identici; il totale passa a 56, di cui dieci estesi e 46 ancora sintetici.
 
-La 0.34.0 è pubblicata e verificata al commit `ced696e827144392fb3f4500bd79ed71093a6bb0`, PR 25. Restano 55 capitoli, nove estesi; nessuna nuova identità, sintesi di farmaco o profilo PK. La bozza del capitolo sugli antidepressivi è conservata fuori da questa pubblicazione e riprende appena verificata la correzione richiesta.
+La 0.34.1 è pubblicata e verificata al commit `83f7f727dacb9b76b8e1e7308219c19c84adce11`. La PR 27 ha risolto il limite di tempo dei controlli automatici senza cambiare l’app o ridurre i test; tutti i controlli e il deploy sono conclusi con successo.
 
-Controlli locali superati: 37 validatori, 126 configurazioni di pagine, 31 registri pubblici e 16 configurazioni di branding; aggiornamento reale 0.34.0 → 0.34.1 con dati locali conservati e lettura offline. Schermate desktop e mobile ispezionate. Chromium con dimensioni simulate, non dispositivi fisici.
+Lettura del lotto corrente: 58 nuove pagine di testo estraibile in cinque file, quattro pagine già lette riutilizzate senza ricontarle e 14 pagine controllate visivamente. Fonti e conflitti sono delimitati in `data/antidepressivi-reading.json`; nove fonti ufficiali confrontate selettivamente. Restano incompleti libri, corsi e revisione clinica indipendente. La provenienza originale dei materiali del corso resta privata.
 
-Questo checkpoint precede la pubblicazione. La ricevuta `../../outputs/ELIX-latest-verification.json` prevale per batch/versione coincidenti quando attesta deploy e verifiche online conclusi. Prove e corrispondenza privata delle fonti in `../../outputs/ELIX-course-labels-2026-10-27/`.
+Controlli locali conclusi: 38 validatori, 48 configurazioni del nuovo laboratorio, 248 dei capitoli precedenti e 16 di branding; aggiornamento reale 0.34.1 → 0.35.0, tastiera, ricerca, navigazione e offline. Schermate desktop/mobile ispezionate, con dimensioni simulate in Chromium.
+
+Questo checkpoint precede la pubblicazione. La ricevuta `../../outputs/ELIX-latest-verification.json` prevale per batch/versione coincidenti quando attesta deploy e verifiche online conclusi. Prove in `../../outputs/ELIX-antidepressants-2026-10-27/`. Prima di iniziare altro, completare i controlli e la pubblicazione di questo lotto.
 
 ## Regole
 
@@ -26,4 +28,4 @@ Questo checkpoint precede la pubblicazione. La ricevuta `../../outputs/ELIX-late
 
 ## Prossimo intervallo
 
-Riprendere la bozza sugli antidepressivi e il suo registro privato di lettura, senza ripetere o ricontare le letture completate. Completare modello interattivo, revisione e verifiche prima della pubblicazione. I libri e i corsi rimangono parzialmente letti. Altre visualizzazioni, farmaci mancanti e profili restano nel backlog, subordinati alla teoria già iniziata.
+Dopo la verifica online del lotto corrente, completare l’inquadramento della depressione e dei circuiti con Rang & Dale PDF 869–874 e Clementi/Fumagalli PDF 321–325, deduplicando prima i registri. Queste pagine non sono ancora lette in questo lotto. Integrare solo informazioni sostenute, senza dichiarare completo il corso. Farmaci mancanti e altri laboratori restano nel backlog, subordinati alla teoria.

@@ -1,10 +1,11 @@
 /* ELIX • servizio offline e aggiornamenti delle versioni pubblicate */
 // Scoped caches let old links coexist without deleting another app or path.
 const CACHE_PREFIX = 'elix@'+new URL(self.registration.scope).pathname+'::';
-const CACHE = CACHE_PREFIX+'0.34.1';
+const CACHE = CACHE_PREFIX+'0.35.0';
 const RUNTIME=CACHE+'-runtime';
 const MAX_RUNTIME=120;
-const FILES = ['./elix-theory-antibodies.js',
+const FILES = ['./elix-theory-antidepressants.js','./elix-antidepressant-explorer.js','./elix-antidepressant.css','./data/antidepressivi-reading.json','./data/antidepressivi-review.json',
+  './elix-theory-antibodies.js',
   './elix-theory-bioequivalence.js','./elix-bioequivalence-explorer.js','./elix-bioequivalence.css','./data/formulazioni-sali-bioequivalenza-reading.json','./data/formulazioni-sali-bioequivalenza-review.json',
   './elix-theory-interactions.js','./elix-transport-explorer.js','./elix-transport.css','./data/metabolismo-trasportatori-reading.json','./data/metabolismo-trasportatori-review.json',
   './elix-theory-pharmacogenomics.js','./elix-pgx-explorer.js','./elix-pgx.css','./data/farmacogenomica-reading.json','./data/farmacogenomica-review.json','./elix-antibody-explorer.js','./elix-antibody.css','./data/anticorpi-biologici-reading.json','./data/anticorpi-biologici-review.json','./elix-theory-rtk.js','./elix-rtk-explorer.js','./elix-rtk.css','./data/tirosinchinasi-reading.json','./data/tirosinchinasi-review.json','./elix-theory-complementary.js','./data/modelli-pk-reading.json','./data/modelli-pk-review.json','./data/gpcr-reading.json','./data/gpcr-review.json','./data/desensibilizzazione-tolleranza-reading.json','./data/desensibilizzazione-tolleranza-review.json','./elix-theory-foundations.js','./elix-theory-reader.js','./data/theory-foundations-reading.json','./elix-vibegron-batch.js','./elix-vibegron-visuals.js','./elix-vibegron.css','./elix-solifenacin-batch.js','./elix-solifenacin-visuals.js','./elix-solifenacin.css','./elix-mirabegron-batch.js','./elix-mirabegron-visuals.js','./elix-mirabegron.css',

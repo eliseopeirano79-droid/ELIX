@@ -1,0 +1,23 @@
+{
+  "chapterId": "antidepressivi",
+  "checkedAt": "2026-10-27",
+  "outcome": "pass",
+  "reviewer": "integrator_editorial_check",
+  "independentClinicalReview": false,
+  "moduleSha256": "d06f86063cdb9addc5113f2df946a644642234428ee142825f0362dfbbd65311",
+  "checks": [
+    "24 sezioni originali e 10 domande rilette, riferimenti per sezione e nove collegamenti a identità esistenti.",
+    "Ipotesi eziologica, bersaglio, adattamento e risultato clinico distinti.",
+    "SERT/NET di membrana separati da MAO intracellulare; feedback α2 distinto da eterorecettori e da 5-HT1A somatodendritico.",
+    "RIMA reversibili; tiramina e sindrome serotoninergica non confuse.",
+    "Indicazioni specifiche per prodotto e giurisdizione; nessuna prescrizione o dosaggio.",
+    "Laboratorio originale a sei stati qualitativi: terminale serotoninergico o noradrenergico esplicito, nessuna quantità clinica calcolata.",
+    "Denominazioni generiche dei materiali del corso; provenienza originale privata."
+  ],
+  "limits": [
+    "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
+    "58 nuove pagine di testo estraibile, 4 riutilizzate e 14 controlli visivi; non lettura integrale dei testi.",
+    "SPRAVATO: apertura diretta limitata da errore 429, solo contenuti indicizzati della fonte ufficiale.",
+    "Verifiche software e pubblicazione registrate separatamente."
+  ]
+}

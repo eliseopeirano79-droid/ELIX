@@ -1,0 +1,379 @@
+{
+  "batch": "theory-antidepressivi",
+  "chapterId": "antidepressivi",
+  "status": "editorial_reconciled_locally_verified",
+  "updatedAt": "2026-10-27T12:42:32.247514+00:00",
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "sources": [
+    {
+      "id": "SFI",
+      "title": "Appunti del corso di Farmacologia I · lezione 7",
+      "edition": "AA2025–26,22/10/2025",
+      "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+      "pageCount": 344,
+      "extractedTextReadPages": [
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150
+      ],
+      "previouslyFullyReadPages": [
+        131,
+        132,
+        133,
+        134
+      ],
+      "newlyReadTextPages": [
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150
+      ],
+      "usedPriorReadingPages": [
+        131,
+        132,
+        133,
+        134
+      ],
+      "priorReadingEvidence": "data/formulazioni-sali-bioequivalenza-reading.json",
+      "visuallyCheckedPdfPages": [
+        138,
+        139,
+        148
+      ],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "note": "PDF 136 include un inserto di anno precedente di data non determinata, tenuto distinto dalla lezione 7 del 22/10/2025. PDF 131–134 riutilizzate, non rilette né ricontate.",
+      "otherFiguresReviewed": false
+    },
+    {
+      "id": "K",
+      "title": "Katzung · Farmacologia generale e clinica",
+      "edition": "IX italiana2014 / XII americana2012",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "pageCount": 1579,
+      "extractedTextReadPages": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619
+      ],
+      "newlyReadTextPages": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619
+      ],
+      "previouslyFullyReadPages": [],
+      "visuallyCheckedPdfPages": [
+        616
+      ],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "otherFiguresReviewed": false
+    },
+    {
+      "id": "R",
+      "title": "Rang & Dale · Farmacologia",
+      "edition": "8ª italiana2016 / originale2015",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "pageCount": 1102,
+      "extractedTextReadPages": [
+        875,
+        876,
+        877,
+        878,
+        879,
+        880,
+        881,
+        882,
+        883,
+        884,
+        885,
+        886,
+        887,
+        888
+      ],
+      "newlyReadTextPages": [
+        875,
+        876,
+        877,
+        878,
+        879,
+        880,
+        881,
+        882,
+        883,
+        884,
+        885,
+        886,
+        887,
+        888
+      ],
+      "previouslyFullyReadPages": [],
+      "visuallyCheckedPdfPages": [
+        876,
+        877
+      ],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "otherFiguresReviewed": false
+    },
+    {
+      "id": "C",
+      "title": "Clementi/Fumagalli · Farmacologia generale e molecolare",
+      "edition": "4ª2012",
+      "sha256": "b5969a60702c4ea97a484e5fa2acb11b7a8712b8e958843213cdce8d08128b79",
+      "pageCount": 720,
+      "extractedTextReadPages": [
+        318,
+        319,
+        320
+      ],
+      "newlyReadTextPages": [
+        318,
+        319,
+        320
+      ],
+      "previouslyFullyReadPages": [],
+      "visuallyCheckedPdfPages": [
+        319
+      ],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "otherFiguresReviewed": false
+    },
+    {
+      "id": "CFI",
+      "title": "Diapositive del corso di Farmacologia I",
+      "edition": "AA2025–26",
+      "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
+      "pageCount": 935,
+      "extractedTextReadPages": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        111,
+        112,
+        113,
+        114
+      ],
+      "newlyReadTextPages": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        111,
+        112,
+        113,
+        114
+      ],
+      "previouslyFullyReadPages": [],
+      "visuallyCheckedPdfPages": [
+        81,
+        83,
+        85,
+        86,
+        87,
+        112,
+        114
+      ],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "note": "PDF count935; printed slide denominator934 differs. Selected PDF numbers correspond to printed79–86,109–112. PDF85,86,87,112,114 largely image text: checked visually. Full935-page extraction is navigation only.",
+      "otherFiguresReviewed": false
+    }
+  ],
+  "automaticExtraction": "CFI entire PDF extracted solely for navigation; no whole-document reading claim.",
+  "deferredReading": {
+    "R": [
+      869,
+      870,
+      871,
+      872,
+      873,
+      874
+    ],
+    "C": [
+      321,
+      322,
+      323,
+      324,
+      325
+    ],
+    "CFI": "remaining pages, including89–110 and articles121–147, not read in this batch"
+  },
+  "textPagesRead": 58,
+  "newTextPages": 58,
+  "priorPagesReused": 4,
+  "visualPages": 14,
+  "schemaVersion": 1,
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "newChapters": 1,
+  "expandedExistingChapters": 0,
+  "officialSources": [
+    {
+      "id": "NICE",
+      "title": "NICE NG222 · Depression in adults",
+      "detail": "Raccomandazioni 2022, passaggi 1.4.10–23 e 1.9.1–9 consultati il 27/10/2026. Guida britannica per adulti, non protocollo individuale né revisione completa.",
+      "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations"
+    },
+    {
+      "id": "CYMBALTA",
+      "title": "EMA · Cymbalta",
+      "detail": "EPAR europeo consultato 27/10/2026: indicazioni negli adulti e principio attivo. Non esteso a ogni prodotto di duloxetina.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/cymbalta"
+    },
+    {
+      "id": "ZOLOFT",
+      "title": "DailyMed · Zoloft",
+      "detail": "Documento statunitense aggiornato 08/08/2023; sezioni 5.1–5.11 consultate 27/10/2026. La data di accesso non è una nuova revisione o un’autorizzazione italiana.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7"
+    },
+    {
+      "id": "PARNATE",
+      "title": "DailyMed · Parnate",
+      "detail": "Documento statunitense aggiornato 02/07/2025; sezione 7.2 su tiramina consultata 27/10/2026. Non impiegato come lista alimentare o schema di washout personalizzato.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b72d8187-dfcc-4ea0-b5e9-c0be95b69a27"
+    },
+    {
+      "id": "REMERON",
+      "title": "DailyMed · Remeron / RemeronSolTab",
+      "detail": "Documento statunitense aggiornato 06/08/2025; sezioni 12.1–12.2 consultate 27/10/2026: meccanismo proposto e farmacodinamica.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887"
+    },
+    {
+      "id": "TRAZODONE",
+      "title": "DailyMed · Trazodone hydrochloride",
+      "detail": "Documento statunitense aggiornato 01/05/2024; sezioni 5.2–5.11 e 12.1–12.2 consultate 27/10/2026. Non trasferito a tutte le formulazioni.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=88ac1a9d-8483-4b29-9fe6-2e60e51f3005"
+    },
+    {
+      "id": "WELLBUTRIN",
+      "title": "DailyMed · Wellbutrin XL",
+      "detail": "Documento statunitense aggiornato 10/02/2026; sezioni 5.3–5.5, 7.2 e 12.1, con passaggi sul metabolismo in 12.3, consultati 27/10/2026. Prodotto a rilascio prolungato; nessun dosaggio trasferito.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a435da9d-f6e8-4ddc-897d-8cd2bf777b21"
+    },
+    {
+      "id": "SPRAVATO",
+      "title": "EMA · Spravato",
+      "detail": "Pagina EPAR disponibile, aggiornata 10/09/2025, consultata 27/10/2026 tramite indice di ricerca dopo errore 429 nell’apertura. Solo inquadramento di bersaglio e supervisione; non revisione integrale del prodotto.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/spravato"
+    },
+    {
+      "id": "AMITRIPTILINA",
+      "title": "DailyMed · Amitriptyline hydrochloride",
+      "detail": "Documento statunitense aggiornato 05/10/2022, consultato 27/10/2026: effetti antimuscarinici, reazioni avverse e manifestazioni del sovradosaggio. Fonte di sicurezza del prodotto; nessuna conferma di commercializzazione italiana o trasposizione delle istruzioni di emergenza.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8e6eeec4-73fa-fd12-e053-2995a90a4ea8"
+    }
+  ],
+  "sourceConflicts": [
+    {
+      "source": "SFI135–137; CFI114",
+      "finding": "Deficit specifici e non risposta descritti come cause univoche.",
+      "resolution": "Ipotesi e modelli, non diagnosi individuali né prova di un difetto di trasduzione; esclusi giudizi stigmatizzanti dell’inserto storico."
+    },
+    {
+      "source": "SFI138; CFI83,85–86",
+      "finding": "Reversibilità RIMA, selettività MAO e tabella alimentare storica imprecise.",
+      "resolution": "RIMA reversibili MAO-A; nessuna equiparazione delle isoforme o delle formulazioni di selegilina. Tiramina confrontata con Parnate, senza tabella dietetica né washout."
+    },
+    {
+      "source": "SFI139; CFI87",
+      "finding": "Tiramina ricondotta a dopamina e tossicità monoaminergiche sovrapposte.",
+      "resolution": "Separati ridotto metabolismo presistemico, azione simpaticomimetica indiretta e sindrome serotoninergica; nessun algoritmo diagnostico."
+    },
+    {
+      "source": "SFI140–143",
+      "finding": "Effetti muscarinici e selettività confusi; esempio di emivita e rinvio del primo controllo inesatti.",
+      "resolution": "Antimuscarinico distinto da colinergico; nessun valore PK importato; controllo precoce da NICE."
+    },
+    {
+      "source": "SFI144–150",
+      "finding": "Interazioni brevi escluse, mappa sintomo-monoamina, vantaggio delle associazioni e sospensione in un mese generalizzati.",
+      "resolution": "Rischi verificati per prodotto; indicazione specifica del dolore neuropatico da EMA; gradualità e combinazioni da NICE; nessuna scelta individuale automatica."
+    },
+    {
+      "source": "K609,611–619",
+      "finding": "Predizioni genetiche, disponibilità storica, tempi universali e proprietà di classe non sempre trasferibili.",
+      "resolution": "Nessuna previsione SERT-genotipo, costante BDNF, washout o tabella PK importata. Separati progenitore e metaboliti attivi; NMDA inquadrato tramite EMA."
+    },
+    {
+      "source": "R875,878–879,883,886–888",
+      "finding": "Latenza, disponibilità, assenza di rischio e durata del trattamento formulate in modo assoluto.",
+      "resolution": "Nessuna soglia universale di efficacia, assenza di abuso o interazioni, né durata fissa della terapia; rimando al capitolo aggiornato di farmacogenomica."
+    },
+    {
+      "source": "C318–320; CFI112",
+      "finding": "Modelli strutturali storici e disinibizione α2 rappresentano solo parti del processo.",
+      "resolution": "Topologia e trasporto accoppiato mantenuti come principi; laboratorio qualitativo originale, senza legame atomico o simulazione completa della mirtazapina."
+    }
+  ],
+  "visualFindings": [
+    "K616: tabella parentale/metaboliti controllata, non importata; nessuna stima PK nuova.",
+    "R876–877: compartimenti e ricaptazione distinti dal metabolismo; figure non riprodotte.",
+    "C319: topologia del trasportatore e ciclo conformazionale controllati; modello storico non universalizzato.",
+    "CFI81,83,85,86,87,112,114: classificazioni, tiramina, formulazioni e feedback controllati; testo incorporato nelle immagini letto, errori e limiti registrati.",
+    "SFI138,139,148: classificazioni MAO, interazione alimentare e SARI controllati; nessuna copia delle figure."
+  ],
+  "deduplication": "File deduplicati per SHA-256; pagine confrontate con i registri pubblici precedenti. Quattro pagine riutilizzate restano fuori dal conteggio delle 58 nuove.",
+  "remaining": [
+    "Figure non elencate non tutte controllate; libri e corsi parzialmente letti.",
+    "Nessuna nuova lettura del corso di Farmacologia II in questo lotto.",
+    "Controlli locali superati; CI, deploy e verifica online da registrare nella ricevuta successiva alla pubblicazione."
+  ]
+}

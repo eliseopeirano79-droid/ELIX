@@ -1,34 +1,32 @@
 {
-  "updatedAt": "2026-10-27T09:07:28.906152+00:00",
-  "batch": "course-material-labels",
+  "updatedAt": "2026-10-27T12:42:32.247514+00:00",
+  "batch": "theory-antidepressivi",
   "status": "verified_locally_pending_publication",
-  "release": "0.34.1",
-  "branch": "fix/course-material-labels",
-  "baseCommit": "ced696e827144392fb3f4500bd79ed71093a6bb0",
+  "release": "0.35.0",
+  "branch": "feat/theory-antidepressants",
+  "baseCommit": "83f7f727dacb9b76b8e1e7308219c19c84adce11",
   "previousBatch": {
-    "batch": "theory-formulazioni-bioequivalenza",
+    "batch": "course-material-labels",
     "status": "published_and_live_verified",
-    "release": "0.34.0",
-    "commit": "ced696e827144392fb3f4500bd79ed71093a6bb0",
-    "receipt": "../../outputs/ELIX-bioequivalence-2026-10-27/release-verification.json"
+    "release": "0.34.1",
+    "commit": "83f7f727dacb9b76b8e1e7308219c19c84adce11"
   },
   "scope": [
-    "Generic course-material labels in existing chapters, visual notes and public reading records.",
-    "Preserve detailed provenance privately, all reading ranges, source hashes and scientific content."
+    "One new extended antidepressant chapter and one six-state qualitative interactive model.",
+    "Preserve earlier chapters, clinical data, branding and generic course-material source labels."
   ],
   "completed": [
-    "37 existing data validators passed.",
-    "126 page configurations:55chapters and8visual pages in desktop/dark and mobile/light; no prohibited course labels, no horizontal overflow.",
-    "31 public reading/review records checked, including offline chapter and record.",
-    "16 branding configurations passed, including old routes and local data preservation.",
-    "Real0.34.0→0.34.1update preserved favorites, progress and theme; corrected labels available offline.",
-    "15 reading records preserve every numeric value, boolean and source hash; catalog, clinical data, registry and PK unchanged.",
-    "Desktop and mobile source-reference screenshots visually inspected."
+    "38 data validators passed.",
+    "48 browser configurations on the new chapter passed, including keyboard, source jumps, both searches and nine existing molecule links.",
+    "Real upgrade 0.34.1 to 0.35.0 and offline interaction passed; saved data preserved.",
+    "55 previous chapters identical; original source PDF hashes unchanged.",
+    "Desktop and mobile screenshots inspected.",
+    "248 prior-theory browser configurations and 16 branding configurations passed.",
+    "725 public app text files scanned; requested generic course labels preserved."
   ],
   "remaining": [
-    "PR CI and merge",
-    "Main CI and concluded deployment",
-    "Live verification and postdeploy receipt"
+    "PR/main CI and deployment.",
+    "Live verification and postdeploy receipt."
   ],
   "counts": {
     "identities": 4225,
@@ -37,22 +35,27 @@
     "pkFields": 420,
     "importedLabelsWithoutEditorial": 93,
     "targetProfiles": 36,
-    "chapters": 55
+    "chapters": 56,
+    "extendedChapters": 10,
+    "briefChapters": 46
   },
   "changes": {
     "newIdentities": 0,
     "newDrugSummaries": 0,
     "newProductPKContexts": 0,
     "newPKFields": 0,
-    "newChapters": 0,
+    "newChapters": 1,
     "expandedChapters": 0,
-    "newInteractiveLabs": 0
+    "newInteractiveLabs": 1
   },
-  "readingManifests": [],
-  "limits": [
-    "Wording-only correction; no new reading or clinical review.",
-    "Nine extended chapters of55;46remain to expand.",
-    "Antidepressant chapter draft preserved and not included in this patch."
+  "readingManifests": [
+    "data/antidepressivi-reading.json"
   ],
-  "nextBatch": "Resume the existing antidepressant chapter draft, private reading ledger and interactive model; do not repeat already recorded readings."
+  "limits": [
+    "Only the recorded page intervals were read; full books/courses remain incomplete.",
+    "Editorial reconciliation by one integrator, not independent clinical validation.",
+    "No new drug identities, summaries or PK profiles.",
+    "Chromium simulated viewports, not physical devices."
+  ],
+  "nextBatch": "After live verification: R PDF869–874 and C PDF321–325, first deduplicate prior reading records. These ranges are not yet read in this batch."
 }
