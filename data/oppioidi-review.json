@@ -1,19 +1,19 @@
 {
-  "batch": "theory-opioid-rang-effects",
+  "batch": "theory-opioid-rang-comparison",
   "chapterId": "oppioidi",
-  "checkedAt": "2026-10-28T11:41:20.564634+00:00",
+  "checkedAt": "2026-10-28T14:45:42.684700+00:00",
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "30ff001f581c211d7b3e85d745fcabb3fb3b66af298b51009bc4cf5f1d3bf632",
+  "moduleSha256": "4da050c8fd3d8f559e016ad4675796db11d0ffe8d6d833ce98b8ee4cc9998cd2",
   "checks": [
-    "Sezione respiratoria ampliata e nuova sezione originale sul prurito rilette.",
-    "35 sezioni,6646 parole,25 domande,29 riferimenti.",
-    "Distinti ritmo respiratorio, risposta allaCO2, sedazione e pupilla; nessuna protezione assoluta attribuita al dolore.",
-    "Evidenza da mastociti umani isolati distinta da circuiti spinali animali e da raccomandazioni terapeutiche.",
-    "Cinque nuove pagine con testo e rendering controllati, inclusa tabella storica non trasferita nelle schede.",
+    "Ampliata la sezione sul fentanyl e riletta la nuova sezione sulla via neurassiale.",
+    "36 sezioni,7061 parole,27 domande,30 riferimenti.",
+    "Distinti rilascio, deposito cutaneo, ingresso residuo ed eliminazione; nessuna conversione o tabella di dosi.",
+    "Distinti accesso al liquor, selettività molecolare e rischio respiratorio tardivo; nessuna procedura anestesiologica.",
+    "Cinque nuove pagine con testo e rendering controllati; dati storici non trasferiti come raccomandazioni.",
     "39 validatori e32 configurazioni browser superati; due temi, tastiera, ricerca, fonti e offline controllati.",
-    "Aggiornamento reale0.41.0→0.42.0 verificato con preferiti, progressi e tema conservati.",
+    "Aggiornamento reale0.42.0→0.43.0 verificato con preferiti, progressi e tema conservati.",
     "Gli altri55 capitoli, catalogo, lettore e laboratorio sono invariati."
   ],
   "limits": [
