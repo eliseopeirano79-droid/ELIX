@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-opioid-rang-continuation",
+  "batch": "theory-opioid-rang-effects",
   "chapterId": "oppioidi",
-  "updatedAt": "2026-10-28T11:04:13.819884+00:00",
+  "updatedAt": "2026-10-28T11:38:47.600694+00:00",
   "status": "editorial_reconciled_locally_verified_pending_publication",
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -524,16 +524,11 @@
       "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
       "pageCount": 1102,
       "newlyReadTextPages": [
-        785,
-        786,
-        787,
-        788,
-        789,
-        790,
-        791,
-        792,
-        793,
-        794
+        799,
+        800,
+        801,
+        802,
+        803
       ],
       "visuallyCheckedPdfPages": [
         785,
@@ -549,12 +544,17 @@
         795,
         796,
         797,
-        798
+        798,
+        799,
+        800,
+        801,
+        802,
+        803
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
       "title": "Rang & Dale · Farmacologia",
-      "note": "VIII edizione italiana 2016 / originale 2015. PDF 785–798: testo disponibile letto e rendering controllati; figure 42.1–42.7 e tabelle 42.1–42.3. Dieci nuove pagine in questo ampliamento. Paginazione editoriale non stabilita per il PDF riformattato; PDF 799–813 del capitolo 42 ancora da leggere. Articoli citati non letti integralmente.",
+      "note": "VIII edizione italiana 2016 / originale 2015. PDF 785–803: testo disponibile letto e rendering controllati; figure 42.1–42.7 e tabelle 42.1–42.4. Cinque nuove pagine in questo ampliamento, inclusa tabella42.4. Paginazione editoriale non stabilita per il PDF riformattato; PDF 804–813 del capitolo42 ancora da leggere. Articoli e destinazioni delle note fuori intervallo non letti integralmente.",
       "pdfPagesRead": [
         785,
         786,
@@ -569,7 +569,12 @@
         795,
         796,
         797,
-        798
+        798,
+        799,
+        800,
+        801,
+        802,
+        803
       ],
       "availableExtractedTextReadPages": [
         785,
@@ -585,7 +590,12 @@
         795,
         796,
         797,
-        798
+        798,
+        799,
+        800,
+        801,
+        802,
+        803
       ],
       "imageTextReadPages": [
         786,
@@ -594,10 +604,21 @@
         791,
         792,
         794,
-        796
+        796,
+        803
       ],
-      "readingMethod": "Testo disponibile di PDF 785–794 letto integralmente e dieci rendering ispezionati. Figure, legende e tabella raster distinte dal testo estratto. PDF 795–798 già letti. Confini 785/814 identificati da intestazioni parziali, non lettura delle pagine restanti.",
+      "readingMethod": "Tutto il testo disponibile di PDF799–803 letto; cinque rendering e ingrandimento della tabella42.4 ispezionati. Cinque pagine non equivalgono a cinque figure. Resto del capitolo804–813 non letto.",
       "previouslyRecordedPdfPages": [
+        785,
+        786,
+        787,
+        788,
+        789,
+        790,
+        791,
+        792,
+        793,
+        794,
         795,
         796,
         797,
@@ -605,7 +626,7 @@
       ]
     }
   ],
-  "visualPages": 116,
+  "visualPages": 121,
   "expandedExistingChapters": 1,
   "newChapters": 0,
   "newIdentities": 0,
@@ -663,7 +684,7 @@
     {
       "id": "MOR",
       "title": "Morfina solfato · documento del prodotto USA",
-      "detail": "Morfina solfato orale Hikma, documento USA. Sintesi e sezioni 12.1–12.2 aperte direttamente; passaggi 12.3 su metaboliti e funzione renale nei contenuti indicizzati, il 28/10/2026. Modifiche principali 12/2025; lettura selettiva, senza dosaggi o indicazioni pediatriche.",
+      "detail": "Morfina solfato orale Hikma, documento USA. Sintesi, avvertenze 5.2 e 12.2 su respirazione, pupilla e mediatori periferici ricontrollate direttamente il 28/10/2026. Precedenti consultazioni 12.1 e passaggi 12.3 su metaboliti conservate; modifiche principali 12/2025. Lettura selettiva, senza dosaggi né indicazioni pediatriche.",
       "url": "https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=3c847554-3b4b-4d24-a145-2ef7e9b83699&type=display"
     },
     {
@@ -751,8 +772,8 @@
       "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f0976da4-1d20-4517-945c-b60ed2f41c12"
     }
   ],
-  "deduplication": "Confronto per SHA-256/pagina con 1196 registri JSON disponibili e i manifest correnti, esclusi snapshot previous-release: PDF 785–794 non già letti nei registri corrispondenti; PDF 795–798 conservati senza ricontarli. Estrazione e liste pianificate non trattate come lettura. Ambito limitato ai registri disponibili.",
-  "automaticExtraction": "Estrazione di PDF 780–820 utilizzata per identificare il confine del capitolo mediante intestazioni parziali. Lettura completa del testo disponibile limitata al nuovo intervallo 785–794 e alle pagine già registrate; estrazione delle altre pagine non equivale a lettura.",
+  "deduplication": "Confronto SHA-256/pagina con il precedente audit dei registri disponibili, manifest pubblico, checkpoint privato e ricevuta0.41: PDF799–803 non risultavano già letti. Nessuna nuova scansione completa del corpus; estrazioni e intervalli pianificati esclusi dal conteggio.",
+  "automaticExtraction": "Estratto il testo di PDF799–803. L’estrazione della tabella raster non sostituisce il suo controllo visivo; tabella42.4 ispezionata anche in ingrandimento. Copertura precedente conservata senza ricontarla.",
   "sourceConflicts": [
     {
       "source": "CFI 467–469; SFI 247–250",
@@ -833,23 +854,54 @@
     {
       "source": "R 789,791–794",
       "resolution": "Circuiti semplificati e soglie termiche non generalizzati a ogni persona. Escluse indicazioni e affermazioni storiche di sviluppo, dosi sperimentali e generalizzazioni chimiche. Sensibilizzazione da prostaglandine non equivale a una loro assoluta incapacità di contribuire al dolore."
+    },
+    {
+      "source": "R 799–800",
+      "resolution": "Non generalizzate efficacia nel dolore cronico, protezione respiratoria dovuta al dolore o assenza di rischio cardiovascolare. Distinti controllo respiratorio, sedazione e diametro pupillare; confronto con documento corrente della morfina."
+    },
+    {
+      "source": "R 800–801",
+      "resolution": "Non importati antitussivi storici, percentuali universali di nausea o assenza assoluta di tolleranza alla miosi. Prurito distinto fra mediatori periferici e circuiti neuronali; nessuna diagnosi allergologica dal solo sintomo."
+    },
+    {
+      "source": "R 801–802",
+      "resolution": "Non importate generalizzazioni su asma, immunodepressione, tolleranza crociata o sicurezza dell’aumento di dose. Dipendenza fisica distinta dal disturbo da uso. Nessun protocollo di trattamento dell’astinenza."
+    },
+    {
+      "source": "R 803, tabella42.4",
+      "resolution": "Tabella storica consultata come fonte didattica: non trasferiti emivite, usi ostetrici/pediatrici o garanzie respiratorie per tramadolo/codeina; nessun nuovo campo farmacocinetico. Distinti progenitore, metaboliti e via di somministrazione."
     }
   ],
   "remaining": [
     "Katzung: capitolo 31 PDF 631–654 coperto; resto del libro non letto. Bibliografia distinta dagli articoli.",
     "Diapositive: PDF 89–110 e 465–505 letti; continuazione da 506 non letta. Restano sovrapposizioni 109,479,487 e ritagli 494,498.",
     "Appunti:15 pagine delle lezioni 13 e 15 con testo e rendering; tagli o sovrapposizioni 244,245,273,275,277 irrisolti. Il resto del corso non è coperto.",
-    "Rang & Dale: PDF785–798 del capitolo42 coperti; PDF799–813 ancora da leggere. Confine del capitolo successivo identificato da intestazioni parziali. Paginazione editoriale non ricostruita; resto del libro non dichiarato letto.",
+    "Rang & Dale: PDF785–803 del capitolo42 coperti; PDF804–813 ancora da leggere. Confine del capitolo successivo identificato precedentemente da intestazioni parziali. Paginazione editoriale non ricostruita; resto del libro non dichiarato letto.",
     "Nessuna nuova lettura PDF di Farmacologia II.",
-    "Consultazioni cliniche selettive; fonti USA e britanniche non equivalgono a RCP italiani. Revisione clinica indipendente non eseguita."
+    "Consultazioni cliniche selettive; fonti USA e britanniche non equivalgono a RCP italiani. Revisione clinica indipendente non eseguita.",
+    "Due nuovi studi di meccanismo consultati solo tramite gli abstract; risultati integrali e figure non esaminati."
   ],
-  "newReadPdfPages": 10,
-  "readingCountDefinition": "Dieci nuove identità di pagina di Rang & Dale e dieci controlli visivi. Totale cumulativo del capitolo:116 pagine PDF e116 controlli di pagina, non116 pagine di prosa né116 figure. Una pagina può contenere testo, figure, tabelle o bibliografia. Nessuna lettura integrale del corpus.",
-  "totalReadPdfPages": 116,
-  "currentBatchVisualPages": 10,
+  "newReadPdfPages": 5,
+  "readingCountDefinition": "Cinque nuove identità di pagina di Rang & Dale e cinque controlli visivi. Totale cumulativo del capitolo:121 pagine PDF e121 controlli di pagina, non121 pagine di prosa né121 figure. Due abstract di ricerca conteggiati separatamente dai PDF. Nessuna lettura integrale del corpus.",
+  "totalReadPdfPages": 121,
+  "currentBatchVisualPages": 5,
   "previousBatch": {
-    "batch": "theory-opioid-course-continuation",
-    "readPdfPages": 106,
-    "visualPages": 106
-  }
+    "batch": "theory-opioid-rang-continuation",
+    "readPdfPages": 116,
+    "visualPages": 116
+  },
+  "researchSources": [
+    {
+      "id": "MC-HUMAN",
+      "title": "Mastociti umani e MRGPRX2 · studio sperimentale",
+      "detail": "Varricchi et al., Frontiers in Cellular Neuroscience 2019;13:299, DOI 10.3389/fncel.2019.00299. Abstract PubMed letto direttamente il 28/10/2026: cellule umane isolate da tessuti differenti. Articolo completo e figure non letti; non linea guida clinica.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31333418/"
+    },
+    {
+      "id": "ITCH-SPINAL",
+      "title": "Morfina e prurito spinale · studio sperimentale",
+      "detail": "Nguyen et al., Science Translational Medicine 2021;13:eabc3774, DOI 10.1126/scitranslmed.abc3774. Abstract PubMed letto direttamente il 28/10/2026: modelli animali di esposizione neurassiale. Articolo completo e figure non letti; non raccomandazione terapeutica.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33536279/"
+    }
+  ]
 }

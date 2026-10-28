@@ -1,19 +1,19 @@
 {
-  "batch": "theory-opioid-rang-continuation",
+  "batch": "theory-opioid-rang-effects",
   "chapterId": "oppioidi",
-  "checkedAt": "2026-10-28T11:07:29.523980+00:00",
+  "checkedAt": "2026-10-28T11:41:20.564634+00:00",
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "e1c95a518a66e6e08ef427dcc9eec89a6a590671cd64cd9b77ee7c65e697c6ab",
+  "moduleSha256": "30ff001f581c211d7b3e85d745fcabb3fb3b66af298b51009bc4cf5f1d3bf632",
   "checks": [
-    "Due sezioni originali rilette: trasduzione e sensibilizzazione periferica; wind-up, sensibilizzazione centrale e segni clinici.",
-    "34 sezioni,6212 parole,23 domande,27 riferimenti.",
-    "Distinti canali trasduttori, canali del sodio e modulazione recettoriale; nessuna nuova raccomandazione prescrittiva.",
-    "Allodinia e iperalgesia non usate per diagnosticare automaticamente un meccanismo o una neuropatia.",
-    "Dieci nuove pagine con testo e rendering controllati; errori di didascalia e traduzione registrati.",
+    "Sezione respiratoria ampliata e nuova sezione originale sul prurito rilette.",
+    "35 sezioni,6646 parole,25 domande,29 riferimenti.",
+    "Distinti ritmo respiratorio, risposta allaCO2, sedazione e pupilla; nessuna protezione assoluta attribuita al dolore.",
+    "Evidenza da mastociti umani isolati distinta da circuiti spinali animali e da raccomandazioni terapeutiche.",
+    "Cinque nuove pagine con testo e rendering controllati, inclusa tabella storica non trasferita nelle schede.",
     "39 validatori e32 configurazioni browser superati; due temi, tastiera, ricerca, fonti e offline controllati.",
-    "Aggiornamento reale0.40.0→0.41.0 verificato con preferiti, progressi e tema conservati.",
+    "Aggiornamento reale0.41.0→0.42.0 verificato con preferiti, progressi e tema conservati.",
     "Gli altri55 capitoli, catalogo, lettore e laboratorio sono invariati."
   ],
   "limits": [
