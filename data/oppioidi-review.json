@@ -1,0 +1,21 @@
+{
+  "batch": "theory-opioid-analgesia",
+  "chapterId": "oppioidi",
+  "checkedAt": "2026-10-28T08:05:13.511646+00:00",
+  "outcome": "pass",
+  "reviewer": "integrator_editorial_check",
+  "independentClinicalReview": false,
+  "moduleSha256": "df2f4a3552ad1a180de5568e0a91bc1c0c420d56c175ac2cd3a57e9c1fdd9a86",
+  "checks": [
+    "23 sezioni e 12 domande originali rilette; riferimenti riconciliati per sezione.",
+    "Gi/o, canali e disinibizione distinti; potenza non equiparata a efficacia o sicurezza.",
+    "Metaboliti e formulazioni distinti; nessuna dose, equivalenza o valore PK importato.",
+    "Dolore cronico primario, neuropatico e campo CDC separati.",
+    "Emergenza per sospetto sovradosaggio e trattabilità del disturbo da uso conservate.",
+    "Denominazioni del corso generiche; 9 collegamenti a identità già presenti."
+  ],
+  "limits": [
+    "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
+    "Intervalli e lacune in oppioidi-reading.json; controlli software registrati separatamente."
+  ]
+}
