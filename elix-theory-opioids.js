@@ -165,13 +165,24 @@ export const THEORY_OPIOIDS=Object.freeze({
       "text": "Le tabelle su tramadolo e tapentadolo riuniscono talvolta misure di legame recettoriale, inibizione del trasporto e variazioni di neurotrasmettitori in modelli animali. Prima di confrontare due numeri occorre identificare che cosa è stato misurato: un’affinità di legame, un effetto sul trasportatore o una risposta nell’organismo. Le unità possono apparire simili anche quando la domanda sperimentale è diversa.\n\nUn valore di Ki più basso può indicare maggiore affinità nel saggio di legame considerato; non misura direttamente l’analgesia e non stabilisce una dose clinicamente equivalente. Anche specie, preparazione sperimentale e condizioni del saggio modificano il significato del confronto. Un aumento della noradrenalina extracellulare misurato in un animale non è la percentuale di miglioramento del dolore attesa in una persona. Le sigle vanno lette nella legenda: dato non determinato e attività non rilevata nelle condizioni del saggio sono informazioni differenti.\n\nVa poi identificata la specie chimica studiata. Per il tramadolo, progenitore, enantiomeri e metabolita M1 non sono intercambiabili nella lettura dei bersagli; la formazione del metabolita introduce inoltre il contributo di CYP2D6. Per tapentadolo si ragiona sul composto attivo e sulla combinazione di azione MOR e noradrenergica. Il passaggio alla clinica aggiunge esposizione, distribuzione, esiti e sicurezza: la tabella aiuta a formulare un’ipotesi, mentre efficacia comparativa e raccomandazioni richiedono evidenze riferite a un contesto definito."
     },
     {
+      "id": "via-neurassiale",
+      "title": "Via neurassiale: distribuzione nel liquor e rischio tardivo",
+      "refs": [
+        "K",
+        "R",
+        "MOR-NEUR"
+      ],
+      "text": "La via di somministrazione modifica anche il compartimento dal quale il farmaco raggiunge i recettori. Con la somministrazione intratecale il punto di ingresso è il liquido cerebrospinale; con quella epidurale il farmaco si trova inizialmente fuori dalla dura madre e deve distribuirsi verso i siti d’azione. Le due vie non sono sinonimi. Sono differenti anche dalla somministrazione sistemica, nella quale il principio attivo raggiunge il sistema nervoso a partire dal sangue.\n\nIl collegamento con la sezione sull’analgesia spinale è diretto: i recettori oppioidi presenti sui terminali afferenti e sui neuroni del corno dorsale possono modulare il trasferimento del segnale nocicettivo. Avvicinare il farmaco a questi siti cambia le condizioni di accesso. Non cambia però l’identità del recettore e non crea un compartimento chiuso, separato dal resto del sistema nervoso. La selettività anatomica dell’esposizione va distinta dalla selettività molecolare del ligando.\n\nPer la morfina neurassiale, il documento USA di Duramorph descrive depressione respiratoria sia precoce sia ritardata. La circolazione del liquor può portare il farmaco anche verso il tronco encefalico. La sequenza didattica è quindi: ingresso in un compartimento, distribuzione nel tempo, raggiungimento di circuiti differenti. L’analgesia iniziale o l’assenza immediata di marcata sedazione non dimostrano che ogni effetto successivo sia già escluso.\n\nIl prodotto consultato richiede personale esperto e osservazione in un ambiente attrezzato. Anche la formulazione conta: Duramorph è presentato come soluzione senza conservanti, ma questa caratteristica non rende qualsiasi soluzione iniettabile adatta alla via neurassiale. Il principio generale è leggere insieme principio attivo, eccipienti, via autorizzata e contesto assistenziale. Questi passaggi spiegano perché l’impiego vicino al midollo non possa essere descritto come una garanzia generale di minore rischio respiratorio."
+    },
+    {
       "id": "formulazioni",
       "title": "Fentanyl: la via di somministrazione cambia la lettura del tempo",
       "refs": [
         "K",
+        "R",
         "FENT"
       ],
-      "text": "La rapidità con cui un effetto compare dipende da quanto velocemente il farmaco raggiunge il sito d’azione. La durata dipende anche da distribuzione, rilascio dalla formulazione ed eliminazione. Per questo la sola parola fentanyl non basta a descrivere un profilo temporale: una preparazione iniettabile e un cerotto non consegnano il principio attivo nello stesso modo.\n\nPer Durogesic DTrans il documento britannico consultato segnala che la via transdermica è generalmente sconsigliata nei pazienti non già tolleranti agli oppioidi e che il rischio di ipoventilazione può essere grave. Dopo la rimozione del cerotto l’esposizione diminuisce gradualmente. L’aumento della temperatura cutanea e le fonti esterne di calore possono aumentare l’assorbimento e il rischio di tossicità.\n\nL’esempio mostra che una formulazione prolungata non è un modo universalmente più sicuro di utilizzare una molecola potente. Va compresa nel proprio contesto autorizzativo e nelle sue precauzioni. Qui non vengono proposte equivalenze tra prodotti né conversioni tra milligrammi, microgrammi e velocità di rilascio."
+      "text": "La rapidità con cui un effetto compare dipende da quanto velocemente il farmaco raggiunge il sito d’azione. La durata dipende anche da distribuzione, rilascio dalla formulazione ed eliminazione. Per questo la sola parola fentanyl non basta a descrivere un profilo temporale: una preparazione iniettabile e un cerotto non consegnano il principio attivo nello stesso modo.\n\nNel sistema transdermico il percorso comprende più passaggi: uscita dalla matrice, attraversamento della cute e ingresso nella circolazione. Si forma anche un deposito cutaneo dal quale il fentanyl può continuare a essere assorbito dopo la rimozione. Togliere il sistema interrompe una sorgente di rilascio, ma non elimina istantaneamente il farmaco già presente nella cute e nell’organismo. Per comprendere la discesa delle concentrazioni occorre quindi seguire insieme l’ingresso residuo e l’eliminazione.\n\nQuesto distingue due domande spesso confuse: quanto rapidamente viene eliminata una molecola già in circolo e quanto a lungo continua ad arrivarne una nuova quantità. La curva osservata dopo una formulazione prolungata contiene entrambe le informazioni. Un singolo valore di emivita, trasferito senza considerare via e formulazione, può nascondere proprio il passaggio che determina la persistenza dell’esposizione.\n\nPer Durogesic DTrans il documento britannico consultato segnala che la via transdermica è generalmente sconsigliata nei pazienti non già tolleranti agli oppioidi. Il prodotto è controindicato nel dolore acuto o postoperatorio: non è intercambiabile con una preparazione progettata per un rapido intervento. L’aumento della temperatura cutanea e le fonti esterne di calore possono aumentare l’assorbimento e il rischio di tossicità. Il calore modifica l’esposizione, non rende il recettore più selettivo per il circuito doloroso.\n\nL’esempio mostra che una formulazione prolungata non è un modo universalmente più sicuro di utilizzare una molecola potente. Va compresa nel proprio contesto autorizzativo e nelle sue precauzioni. Qui non vengono proposte equivalenze tra prodotti né conversioni tra milligrammi, microgrammi e velocità di rilascio."
     },
     {
       "id": "remifentanil",
@@ -452,6 +463,14 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "question": "Il prurito dopo un oppioide si spiega sempre con il rilascio di istamina?",
       "answer": "No. Esistono contributi periferici e meccanismi neuronali distinti. Gli esperimenti su mastociti umani isolati e sui circuiti spinali animali rispondono a domande diverse; non permettono di diagnosticare una reazione individuale o di scegliere automaticamente un trattamento."
+    },
+    {
+      "question": "Perché l’esposizione al fentanyl non si azzera subito quando viene rimosso un cerotto?",
+      "answer": "Perché una parte del farmaco è già nella cute e nell’organismo. Il deposito cutaneo può continuare ad alimentare l’assorbimento, mentre procede l’eliminazione. Interrompere il rilascio dalla formulazione non equivale a eliminare tutta l’esposizione."
+    },
+    {
+      "question": "La somministrazione neurassiale limita necessariamente l’effetto della morfina al corno dorsale?",
+      "answer": "No. La distribuzione nel liquor può coinvolgere altri circuiti, compresi quelli respiratori. Epidurale e intratecale sono vie differenti; accesso vicino al bersaglio, selettività recettoriale e sicurezza restano concetti distinti."
     }
   ],
   "references": [
@@ -463,7 +482,7 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "R",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII edizione italiana 2016 / originale 2015. PDF 785–803: testo disponibile letto e rendering controllati; figure 42.1–42.7 e tabelle 42.1–42.4. Cinque nuove pagine in questo ampliamento, inclusa tabella42.4. Paginazione editoriale non stabilita per il PDF riformattato; PDF 804–813 del capitolo42 ancora da leggere. Articoli e destinazioni delle note fuori intervallo non letti integralmente."
+      "detail": "VIII edizione italiana2016 / originale2015. PDF785–808: testo disponibile letto e pagine ispezionate; figure42.1–42.7 e tabelle42.1–42.4 dei lotti precedenti. Cinque nuove pagine in questo ampliamento, senza nuove figure raster. PDF809–813 ancora da leggere; paragrafo sulla carbamazepina interrotto a fine808. Paginazione editoriale non ricostruita. Articoli e destinazioni delle note fuori intervallo non letti integralmente."
     },
     {
       "id": "CFI",
@@ -496,7 +515,7 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "FENT",
       "title": "Durogesic DTrans · documento del prodotto britannico",
-      "detail": "Durogesic DTrans, prodotto transdermico britannico. Passaggi 4.2 e 4.4 nei contenuti indicizzati; precauzioni su calore, CYP3A4 e farmaci serotoninergici aperte direttamente il 28/10/2026. Data esatta di revisione non stabilita; nessuna tabella di conversione importata.",
+      "detail": "Durogesic DTrans, documento britannico: sezioni selezionate 4.3–4.4 e 5.2 ricontrollate direttamente il 28/10/2026. Deposito cutaneo, assorbimento dopo rimozione, calore e limiti d’impiego; emc aggiornato19/09/2025. Nessuna dose, conversione o autorizzazione italiana trasferita.",
       "url": "https://www.medicines.org.uk/emc/product/6939/smpc"
     },
     {
@@ -624,6 +643,12 @@ export const THEORY_OPIOIDS=Object.freeze({
       "title": "Morfina e prurito spinale · studio sperimentale",
       "detail": "Nguyen et al., Science Translational Medicine 2021;13:eabc3774, DOI 10.1126/scitranslmed.abc3774. Abstract PubMed letto direttamente il 28/10/2026: modelli animali di esposizione neurassiale. Articolo completo e figure non letti; non raccomandazione terapeutica.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/33536279/"
+    },
+    {
+      "id": "MOR-NEUR",
+      "title": "Duramorph · morfina neurassiale, documento USA",
+      "detail": "Hikma: sintesi, avvertenze 5.1 e 5.3, formulazione e passaggi 12.1–12.3 consultati direttamente il 28/10/2026. Modifiche principali 12/2025. Lettura selettiva su compartimenti e rischio respiratorio; non protocollo anestesiologico né RCP italiano.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=ebb18761-e5c4-4238-bb84-f9549f500210"
     }
   ],
   "moleculeLinks": [
@@ -677,5 +702,5 @@ export const THEORY_OPIOIDS=Object.freeze({
     "antidepressivi"
   ],
   "coverage": "Sintesi originale da intervalli delimitati dei libri e da appunti e diapositive del corso di Farmacologia. Lettura integrale di libri e corsi non completata. Fonti ufficiali consultate per passaggi selezionati; documenti USA e britannici non equivalgono all’RCP italiano. Revisione clinica indipendente non eseguita.",
-  "wordCount": 6646
+  "wordCount": 7061
 });
