@@ -12,7 +12,7 @@ import {createReceptorAtlas} from "../receptors.js";
 const read=rel=>fs.readFileSync(fileURLToPath(new URL("../"+rel,import.meta.url)),"utf8");
 const editorial=JSON.parse(read("data/editorial.json"));
 assert.equal(ELIX_VOLUMES.length,18);
-assert.equal(ELIX_CHAPTERS.length,56);
+assert.equal(ELIX_CHAPTERS.length,57);
 assert.equal(ELIX_QUESTIONS.length,131);
 assert.equal(Object.keys(DEEP_DRUGS).length,37);
 assert.equal(VERIFIED_TRIALS.length,7);
@@ -95,4 +95,4 @@ for(const asset of ["elix-deep.css","elix-expanded-chapters.js","elix-expanded-q
 assert.match(read("index.html"),/elix-deep\.css/);
 const nav=read("app.js").split("\n").find(x=>x.startsWith("const nav="));
 assert.equal((nav.match(/\['(?:home|atlas|receptors|cinema|news|textbook|quiz)'/g)||[]).length,7,"Seven visible primary tabs");
-console.log("eli 0.7 scientific regression PASS: 56 chapters, 131 quiz, 37 deep drugs, 7 trials, 12 cases, 36 target profiles.");
+console.log("eli 0.7 scientific regression PASS: 57 chapters, 131 quiz, 37 deep drugs, 7 trials, 12 cases, 36 target profiles.");

@@ -5,7 +5,7 @@ import {THEORY_COMPLEMENTARY} from '../elix-theory-complementary.js';
 import {renderTheoryExtras,renderTheoryRelated,theoryReviewLabel} from '../elix-theory-reader.js';
 const read=f=>readFileSync(new URL('../'+f,import.meta.url),'utf8');
 const ids=new Set(ELIX_CHAPTERS.map(c=>c.id));
-assert.equal(ids.size,56);assert.equal(ELIX_CHAPTERS.length,56);assert.equal(ELIX_CHAPTERS.filter(c=>c.format==='extended').length,11);
+assert.equal(ids.size,57);assert.equal(ELIX_CHAPTERS.length,57);assert.equal(ELIX_CHAPTERS.filter(c=>c.format==='extended').length,12);
 let words=0,sections=0,checks=0;
 for(const c of THEORY_COMPLEMENTARY){
  assert.equal(ELIX_CHAPTERS.filter(x=>x.id===c.id).length,1);

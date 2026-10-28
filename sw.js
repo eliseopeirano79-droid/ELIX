@@ -1,10 +1,10 @@
 /* ELIX • servizio offline e aggiornamenti delle versioni pubblicate */
 // Scoped caches let old links coexist without deleting another app or path.
 const CACHE_PREFIX = 'elix@'+new URL(self.registration.scope).pathname+'::';
-const CACHE = CACHE_PREFIX+'0.46.0';
+const CACHE = CACHE_PREFIX+'0.47.0';
 const RUNTIME=CACHE+'-runtime';
 const MAX_RUNTIME=120;
-const FILES = ['./elix-theory-opioids.js','./elix-opioid-explorer.js','./elix-opioid.css','./data/oppioidi-reading.json','./data/oppioidi-review.json','./data/depression-circuits-reading.json','./elix-theory-antidepressants.js','./elix-antidepressant-explorer.js','./elix-antidepressant.css','./data/antidepressivi-reading.json','./data/antidepressivi-review.json',
+const FILES = ['./elix-theory-migraine.js','./data/emicrania-reading.json','./data/emicrania-review.json','./elix-theory-opioids.js','./elix-opioid-explorer.js','./elix-opioid.css','./data/oppioidi-reading.json','./data/oppioidi-review.json','./data/depression-circuits-reading.json','./elix-theory-antidepressants.js','./elix-antidepressant-explorer.js','./elix-antidepressant.css','./data/antidepressivi-reading.json','./data/antidepressivi-review.json',
   './elix-theory-antibodies.js',
   './elix-theory-bioequivalence.js','./elix-bioequivalence-explorer.js','./elix-bioequivalence.css','./data/formulazioni-sali-bioequivalenza-reading.json','./data/formulazioni-sali-bioequivalenza-review.json',
   './elix-theory-interactions.js','./elix-transport-explorer.js','./elix-transport.css','./data/metabolismo-trasportatori-reading.json','./data/metabolismo-trasportatori-review.json',

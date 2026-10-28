@@ -1,0 +1,21 @@
+{
+  "batch": "theory-course-516-520",
+  "chapterId": "emicrania",
+  "checkedAt": "2026-10-28T20:13:47.812547+00:00",
+  "outcome": "pass",
+  "reviewer": "integrator_editorial_check",
+  "independentClinicalReview": false,
+  "moduleSha256": "a5909cd0722e1a921f01a12c78a81795d0bd9bcbcc4452418517e2d9310e0552",
+  "checks": [
+    "Dodici sezioni rilette; meccanismo, indicazioni e misure di esito distinti.",
+    "Corrette due informazioni storiche: prevenzione episodica per rimegepant e criteri MOH senza prova preliminare di sospensione.",
+    "Indicazione corrente di atogepant verificata nel documento EMA; nessuna dose o equivalenza.",
+    "Fonti pubbliche generiche, anno e pagine; nessun originale ripubblicato.",
+    "40 validatori e otto configurazioni browser superati; due temi, tastiera, sei farmaci, cinque capitoli, fonti, ricerca e offline.",
+    "Aggiornamento reale 0.46.0→0.47.0 con preferiti, progressi e tema conservati; i 56 capitoli esistenti sono invariati."
+  ],
+  "limits": [
+    "Verifica editoriale mirata del solo integratore, non revisione clinica indipendente.",
+    "Verifiche locali superate; CI, deploy e verifica online da concludere."
+  ]
+}
