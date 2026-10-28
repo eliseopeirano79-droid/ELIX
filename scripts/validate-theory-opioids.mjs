@@ -7,9 +7,9 @@ import {OPIOID_STATES,opioidState,opioidScene} from '../elix-opioid-explorer.js'
 import {renderTheorySection} from '../elix-theory-reader.js';
 const read=f=>readFileSync(new URL('../'+f,import.meta.url),'utf8');
 assert.equal(ELIX_CHAPTERS.length,56);assert.equal(new Set(ELIX_CHAPTERS.map(c=>c.id)).size,56);assert.equal(ELIX_CHAPTERS.filter(c=>c.format==='extended').length,11);
-assert.equal(ELIX_CHAPTERS.find(x=>x.id==='oppioidi'),c);assert.equal(c.sections.length,27);assert.equal(c.checks.length,16);assert.equal(new Set(c.sections.map(s=>s.id)).size,27);
-assert.equal(c.wordCount,c.sections.map(s=>s.text).join(' ').split(/\s+/).length);assert.ok(c.wordCount>4400);
-const refs=new Set(c.references.map(r=>r.id));assert.equal(refs.size,24);
+assert.equal(ELIX_CHAPTERS.find(x=>x.id==='oppioidi'),c);assert.equal(c.sections.length,30);assert.equal(c.checks.length,19);assert.equal(new Set(c.sections.map(s=>s.id)).size,30);
+assert.equal(c.wordCount,c.sections.map(s=>s.text).join(' ').split(/\s+/).length);assert.ok(c.wordCount>5100);
+const refs=new Set(c.references.map(r=>r.id));assert.equal(refs.size,25);
 for(const s of c.sections){assert.ok(s.text.length>600);assert.ok(s.refs.length);s.refs.forEach(r=>assert.ok(refs.has(r),'missing reference '+r));}
 for(const r of c.references)if(r.url)assert.equal(new URL(r.url).protocol,'https:');
 const known=JSON.parse(read('data/catalog.json')).molecules;
@@ -23,14 +23,16 @@ assert.equal(opioidState('disinibizione').transmitter,'GABA');assert.equal(opioi
 for(const s of OPIOID_STATES){const scene=opioidScene(s.id);assert.ok(scene.includes(s.action)&&scene.includes(s.meaning));assert.ok(!/\d+\s*(?:mg|%)/.test(scene),'no dose or quantitative response');}
 const l=JSON.parse(read('data/oppioidi-reading.json')),r=JSON.parse(read('data/oppioidi-review.json'));
 assert.equal(l.fullCorpusRead,false);assert.equal(l.clinicalValidation,false);assert.equal(l.sources.length,4);
-assert.equal(l.sources.reduce((n,s)=>n+s.pdfPagesRead.length,0),82);assert.equal(l.sources.reduce((n,s)=>n+s.visuallyCheckedPdfPages.length,0),64);
+assert.equal(l.sources.reduce((n,s)=>n+s.pdfPagesRead.length,0),96);assert.equal(l.sources.reduce((n,s)=>n+s.visuallyCheckedPdfPages.length,0),86);
 for(const s of l.sources){assert.equal(s.sourceUnchanged,true);assert.equal(s.allContentsRead,false);assert.equal(new Set(s.pdfPagesRead).size,s.pdfPagesRead.length);assert.ok(s.visuallyCheckedPdfPages.every(p=>s.pdfPagesRead.includes(p)));assert.ok(!s.path);}
-assert.equal(l.newIdentities,0);assert.equal(l.newDrugSummaries,0);assert.equal(l.newPKProfiles,0);assert.equal(l.expandedExistingChapters,1);assert.equal(l.newChapters,0);assert.equal(l.officialSources.length,20);
+assert.equal(l.newIdentities,0);assert.equal(l.newDrugSummaries,0);assert.equal(l.newPKProfiles,0);assert.equal(l.expandedExistingChapters,1);assert.equal(l.newChapters,0);assert.equal(l.officialSources.length,21);
 assert.equal(r.outcome,'pass');assert.equal(r.independentClinicalReview,false);assert.equal(r.moduleSha256,createHash('sha256').update(read('elix-theory-opioids.js')).digest('hex'));
 for(const f of ['elix-theory-opioids.js','elix-opioid-explorer.js','elix-opioid.css','data/oppioidi-reading.json','data/oppioidi-review.json']){assert.ok(read('sw.js').includes('./'+f));assert.ok(!/\/Users\/|Collino|D['’]Avolio|Serpe|sbobin/i.test(read(f)),'public provenance policy: '+f);}
-console.log('Opioids PASS: 27 sections, '+c.wordCount+' body words, 16 checks, four qualitative states, 9 existing catalog links; bounded source ledger.');
+console.log('Opioids PASS: 30 sections, '+c.wordCount+' body words, 19 checks, four qualitative states, 9 existing catalog links; bounded source ledger.');
 
 const version=JSON.parse(read('release.json')).version;assert.ok(read('sw.js').includes("CACHE_PREFIX+'"+version+"'"));assert.ok(read('app.js').includes('Versione '+version));
 
-assert.equal(l.newReadPdfPages,14);assert.equal(l.totalReadPdfPages,82);assert.equal(l.currentBatchVisualPages,14);assert.equal(l.sources.reduce((n,s)=>n+s.newlyReadTextPages.length,0),14);
+assert.equal(l.newReadPdfPages,14);assert.equal(l.totalReadPdfPages,96);assert.equal(l.currentBatchVisualPages,22);assert.equal(l.sources.reduce((n,s)=>n+s.newlyReadTextPages.length,0),14);
 for(const id of ['remifentanil','antagonismo-periferico','associazioni-naloxone','tolleranza-crociata'])assert.ok(c.sections.some(s=>s.id===id));
+
+for(const id of ['ricompensa-apprendimento','stabilizzazione','leggere-dati'])assert.ok(c.sections.some(s=>s.id===id));

@@ -136,6 +136,17 @@ export const THEORY_OPIOIDS=Object.freeze({
       "text": "Nel tramadolo l’azione oppioide, comprendente il contributo del metabolita M1, si accompagna a un’inibizione della ricaptazione di monoamine. Il tapentadolo combina invece un’azione diretta su MOR con l’inibizione della ricaptazione della noradrenalina; nel prodotto consultato l’attività non richiede un metabolita farmacologicamente attivo. Le due molecole non vanno appiattite in un’unica sequenza di attivazione.\n\nIl collegamento con i sistemi discendenti aiuta a comprendere perché un bersaglio monoaminergico possa contribuire all’analgesia. Non rende il tapentadolo un antidepressivo SNRI e non implica che tutti gli antidepressivi siano agonisti oppioidi. Un risultato di legame o trasporto ottenuto in vitro deve mantenere il proprio contesto sperimentale.\n\nL’associazione con medicinali serotoninergici richiede attenzione: per tapentadolo sono segnalati sindrome serotoninergica e rischio di convulsioni in contesti di interazione. La componente noradrenergica non permette di escludere questi rischi. Il confronto fra i due farmaci serve a riconoscere progenitore, metabolita e trasportatore; non costituisce una classifica di efficacia o un’indicazione a combinarli."
     },
     {
+      "id": "leggere-dati",
+      "title": "Leggere le tabelle sperimentali senza trasformarle in dosi",
+      "refs": [
+        "CFI",
+        "R",
+        "CPIC-OP",
+        "PALEXIA"
+      ],
+      "text": "Le tabelle su tramadolo e tapentadolo riuniscono talvolta misure di legame recettoriale, inibizione del trasporto e variazioni di neurotrasmettitori in modelli animali. Prima di confrontare due numeri occorre identificare che cosa è stato misurato: un’affinità di legame, un effetto sul trasportatore o una risposta nell’organismo. Le unità possono apparire simili anche quando la domanda sperimentale è diversa.\n\nUn valore di Ki più basso può indicare maggiore affinità nel saggio di legame considerato; non misura direttamente l’analgesia e non stabilisce una dose clinicamente equivalente. Anche specie, preparazione sperimentale e condizioni del saggio modificano il significato del confronto. Un aumento della noradrenalina extracellulare misurato in un animale non è la percentuale di miglioramento del dolore attesa in una persona. Le sigle vanno lette nella legenda: dato non determinato e attività non rilevata nelle condizioni del saggio sono informazioni differenti.\n\nVa poi identificata la specie chimica studiata. Per il tramadolo, progenitore, enantiomeri e metabolita M1 non sono intercambiabili nella lettura dei bersagli; la formazione del metabolita introduce inoltre il contributo di CYP2D6. Per tapentadolo si ragiona sul composto attivo e sulla combinazione di azione MOR e noradrenergica. Il passaggio alla clinica aggiunge esposizione, distribuzione, esiti e sicurezza: la tabella aiuta a formulare un’ipotesi, mentre efficacia comparativa e raccomandazioni richiedono evidenze riferite a un contesto definito."
+    },
+    {
       "id": "formulazioni",
       "title": "Fentanyl: la via di somministrazione cambia la lettura del tempo",
       "refs": [
@@ -240,6 +251,28 @@ export const THEORY_OPIOIDS=Object.freeze({
       "text": "La dipendenza fisica è un adattamento alla presenza del farmaco. Una sua riduzione rapida, sospensione o antagonizzazione può far emergere una sindrome d’astinenza. È un fenomeno fisiologico distinto dalla tolleranza, anche se spesso i due si accompagnano. Non si spiega interamente dicendo che l’organismo smette di produrre peptidi endogeni: intervengono adattamenti cellulari e di rete.\n\nIl disturbo da uso di oppioidi riguarda invece un insieme di comportamenti e conseguenze, con compromissione del controllo e persistenza dell’uso nonostante il danno. La sola presenza di tolleranza o dipendenza fisica durante una terapia non basta a identificarlo. Né l’astinenza, da sola, riassume motivazione, apprendimento, stress e contesto sociale che possono concorrere al disturbo.\n\nÈ una condizione trattabile e il recupero è possibile. Le risorse CDC consultate sostengono l’accesso a trattamenti efficaci e segnalano che la sola disintossicazione, senza un percorso adeguato, non costituisce un trattamento sufficiente del disturbo. Parlare di un destino inevitabile o di una condizione non gestibile clinicamente sarebbe quindi scorretto. Una spiegazione farmacologica deve mantenere precisione e rispetto per la persona."
     },
     {
+      "id": "ricompensa-apprendimento",
+      "title": "Ricompensa e apprendimento: dal segnale al comportamento",
+      "refs": [
+        "CFI",
+        "K",
+        "NIH-REC"
+      ],
+      "text": "Nei circuiti mesolimbici, proiezioni dopaminergiche dell’area tegmentale ventrale raggiungono il nucleo accumbens e partecipano a reti connesse con regioni corticali e limbiche. Gli oppioidi possono aumentare la trasmissione dopaminergica anche attraverso la riduzione di un controllo GABAergico. Ricompare la disinibizione già incontrata nelle vie del dolore, ma cambiano le cellule, le connessioni e la funzione della rete. Un recettore Gi/o non diventa eccitatorio perché il risultato finale è un aumento del segnale dopaminergico.\n\nLa dopamina contribuisce a motivazione, apprendimento e rinforzo: un comportamento diventa più probabile quando le sue conseguenze ne favoriscono la ripetizione. Questo processo non coincide con la sola intensità del piacere. Luoghi, persone e situazioni associati all’assunzione possono acquistare valore di richiamo; incontrarli nuovamente può riattivare il desiderio anche quando l’effetto immediato della sostanza è terminato. Memoria del contesto, valutazione emotiva e controllo dell’azione dipendono da reti distribuite: ridurli a un unico centro del piacere perde questa organizzazione.\n\nUn comportamento può essere rinforzato dall’ottenere un effetto gratificante oppure dall’attenuare uno stato spiacevole. Il secondo caso aiuta a comprendere il ruolo del sollievo dall’astinenza, ma non esaurisce il disturbo da uso. Apprendimento, stress, vulnerabilità biologica e condizioni sociali interagiscono; una singola esposizione o una modificazione recettoriale non determinano da sole l’esito della persona. Per studiare il circuito bisogna quindi tenere distinti evento acuto, adattamento e comportamento persistente."
+    },
+    {
+      "id": "stabilizzazione",
+      "title": "Trattamento del disturbo da uso: stabilizzare ha un significato preciso",
+      "refs": [
+        "CFI",
+        "OUD",
+        "SUBOX",
+        "BUP",
+        "METH"
+      ],
+      "text": "Nel disturbo da uso di oppioidi, impiegare un agonista in un percorso terapeutico può ridurre craving e astinenza e favorire una maggiore stabilità. Il metadone agisce come agonista pieno di MOR; la buprenorfina come agonista parziale ad alta affinità. Il razionale comprende un’esposizione controllata e un’azione sufficientemente persistente, insieme alla valutazione clinica. Non consiste nel riprodurre continuamente un picco euforizzante. Una curva didattica dello stato soggettivo non è una curva di concentrazione plasmatica.\n\nLa scelta del medicinale non si risolve confrontando due emivite o dichiarando una molecola sempre più sicura dell’altra. Contano tolleranza, interazioni, patologie, formulazione e possibilità di seguire il trattamento. La lenta dissociazione della buprenorfina non elimina il rischio respiratorio; l’accumulo del metadone richiede una lettura distinta dalla durata dell’analgesia. Il naltrexone segue una strategia diversa, antagonista: il suo avvio richiede condizioni appropriate per evitare astinenza precipitata. Questi principi spiegano perché i trattamenti non siano sostituibili attraverso un semplice rapporto fra dosi.\n\nIl risultato da perseguire è il recupero della salute e del funzionamento della persona. Nelle indicazioni CDC, i farmaci per il disturbo da uso sono associati a minore rischio di sovradosaggio e mortalità; la sola gestione dell’astinenza non è un trattamento sufficiente. Il supporto psicologico e sociale fa parte del percorso, ma la sua indisponibilità non dovrebbe ritardare l’accesso ai medicinali efficaci. Questa spiegazione chiarisce il razionale: scelta, avvio, durata e sospensione richiedono un piano individuale, senza ricavare un calendario di riduzione dalle tabelle del corso."
+    },
+    {
       "id": "antagonisti",
       "title": "Naloxone e naltrexone: stesso principio di blocco, contesti differenti",
       "refs": [
@@ -334,13 +367,25 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "question": "La breve durata del remifentanil dipende dalla colinesterasi plasmatica?",
       "answer": "No. L’idrolisi coinvolge esterasi aspecifiche del sangue e dei tessuti. La rapida cessazione dell’effetto non elimina il rischio respiratorio durante l’esposizione e non assicura analgesia successiva."
+    },
+    {
+      "question": "Perché un richiamo ambientale può suscitare desiderio dopo la fine dell’effetto farmacologico?",
+      "answer": "L’esperienza può associare contesto e conseguenze dell’assunzione. I segnali appresi possono riattivare motivazione e ricerca della sostanza; questo processo non coincide con l’occupazione recettoriale del momento."
+    },
+    {
+      "question": "Il mantenimento con un agonista ha come obiettivo un’euforia continua?",
+      "answer": "No. Il razionale è ridurre craving e astinenza e favorire stabilità, salute e funzionamento all’interno di un percorso individuale. Una curva soggettiva non misura la concentrazione plasmatica."
+    },
+    {
+      "question": "Due valori di Ki permettono di calcolare dosi analgesiche equivalenti?",
+      "answer": "No. Devono essere contestualizzati per bersaglio, saggio, specie e composto misurato. Affinità, esposizione, efficacia clinica e sicurezza sono livelli diversi."
     }
   ],
   "references": [
     {
       "id": "K",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX edizione italiana 2014, XII americana 2012. PDF 631–650: testo disponibile letto; controllo visivo 631–638 e 647–650. Le figure 639–646 e la continuazione da 651 restano da verificare. Le indicazioni storiche sono confrontate con le fonti attuali per i passaggi integrati."
+      "detail": "IX edizione italiana 2014, XII americana 2012. Capitolo31, PDF 631–654 (pagine editoriali 611–634): testo disponibile letto e rendering controllati cumulativamente. Bibliografia 653–654 letta come elenco, senza lettura degli articoli citati. Indicazioni storiche riconciliate solo per i passaggi integrati; resto del libro non dichiarato letto."
     },
     {
       "id": "R",
@@ -350,7 +395,7 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "CFI",
       "title": "Diapositive del corso di Farmacologia I",
-      "detail": "Anno accademico 2025–26. PDF 89–110 e 465–485 consultati e controllati visivamente. Il primo intervallo riguarda i sistemi monoaminergici, il secondo gli oppioidi. Pagina 109 parzialmente coperta; 479 presenta sovrapposizioni sui grafici. Pagina 485 ripete 482; 484 è una nota. Nessuna tabella di conversione importata; resto del corso non dichiarato letto."
+      "detail": "Anno accademico 2025–26. PDF 89–110 e 465–495: testo disponibile e immagini consultati. Sovrapposizioni 109,479,487; tabella 494 tagliata in basso. Pagina 485 ripete 482; 484 è una nota. Nel nuovo intervallo 486–495 sono presenti schemi e tabelle riprodotti: non equivale alla lettura integrale degli articoli originari. Nessuna tabella o conversione pubblicata; resto del corso non dichiarato letto."
     },
     {
       "id": "SFI",
@@ -432,7 +477,7 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "OUD",
       "title": "CDC · Trattamento del disturbo da uso di oppioidi",
-      "detail": "Risorsa CDC per professionisti del 09/04/2024: punti principali e trattamenti efficaci consultati nei contenuti indicizzati il 28/10/2026. Contesto USA; non revisione integrale né trasferimento dei regimi prescrittivi in Italia.",
+      "detail": "Risorsa CDC per professionisti del 09/04/2024: testo principale, meccanismi dei medicinali e ruolo del supporto psicosociale aperti e letti direttamente il 28/10/2026. Contesto USA; nessuna lettura integrale dei documenti collegati né trasferimento delle regole prescrittive in Italia.",
       "url": "https://www.cdc.gov/overdose-prevention/hcp/clinical-care/opioid-use-disorder-treating.html"
     },
     {
@@ -476,6 +521,12 @@ export const THEORY_OPIOIDS=Object.freeze({
       "title": "Remifentanil · documento del prodotto USA",
       "detail": "DailyMed: passaggi selezionati 12.1–12.3 e avvertenze sulla respirazione e sulla rapida cessazione dell’analgesia consultati direttamente il 28/10/2026. Data esatta di revisione non stabilita; nessuna dose o procedura anestesiologica importata.",
       "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=39284dec-b9bc-4fc8-b2d3-f1ef1323e5d4"
+    },
+    {
+      "id": "NIH-REC",
+      "title": "NIH · Apprendimento e trattamento delle dipendenze",
+      "detail": "Research in Context, 24/03/2026. Sezione Drugs and the brain e panoramica dei medicinali lette direttamente il 28/10/2026. Fonte istituzionale di orientamento; studi citati e restanti approfondimenti terapeutici non revisionati integralmente.",
+      "url": "https://beta.nih.gov/news-events/nih-research-matters/treating-addiction"
     }
   ],
   "moleculeLinks": [
@@ -529,5 +580,5 @@ export const THEORY_OPIOIDS=Object.freeze({
     "antidepressivi"
   ],
   "coverage": "Sintesi originale da intervalli delimitati dei libri e da appunti e diapositive del corso di Farmacologia. Lettura integrale di libri e corsi non completata. Fonti ufficiali consultate per passaggi selezionati; documenti USA e britannici non equivalgono all’RCP italiano. Revisione clinica indipendente non eseguita.",
-  "wordCount": 4463
+  "wordCount": 5134
 });

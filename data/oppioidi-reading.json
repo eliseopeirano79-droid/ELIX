@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-opioid-adaptations",
+  "batch": "theory-opioid-source-closure",
   "chapterId": "oppioidi",
-  "updatedAt": "2026-10-28T09:09:06.354256+00:00",
+  "updatedAt": "2026-10-28T09:46:58.412270+00:00",
   "status": "editorial_reconciled_locally_verified",
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -13,16 +13,16 @@
       "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
       "pageCount": 935,
       "newlyReadTextPages": [
-        476,
-        477,
-        478,
-        479,
-        480,
-        481,
-        482,
-        483,
-        484,
-        485
+        486,
+        487,
+        488,
+        489,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495
       ],
       "visuallyCheckedPdfPages": [
         89,
@@ -67,12 +67,22 @@
         482,
         483,
         484,
-        485
+        485,
+        486,
+        487,
+        488,
+        489,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
       "title": "Diapositive del corso di Farmacologia I",
-      "note": "Anno accademico 2025–26. PDF 89–110 e 465–485 consultati e controllati visivamente. Il primo intervallo riguarda i sistemi monoaminergici, il secondo gli oppioidi. Pagina 109 parzialmente coperta; 479 presenta sovrapposizioni sui grafici. Pagina 485 ripete 482; 484 è una nota. Nessuna tabella di conversione importata; resto del corso non dichiarato letto.",
+      "note": "Anno accademico 2025–26. PDF 89–110 e 465–495: testo disponibile e immagini consultati. Sovrapposizioni 109,479,487; tabella 494 tagliata in basso. Pagina 485 ripete 482; 484 è una nota. Nel nuovo intervallo 486–495 sono presenti schemi e tabelle riprodotti: non equivale alla lettura integrale degli articoli originari. Nessuna tabella o conversione pubblicata; resto del corso non dichiarato letto.",
       "pdfPagesRead": [
         89,
         90,
@@ -116,7 +126,17 @@
         482,
         483,
         484,
-        485
+        485,
+        486,
+        487,
+        488,
+        489,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495
       ],
       "availableExtractedTextReadPages": [
         89,
@@ -161,7 +181,17 @@
         482,
         483,
         484,
-        485
+        485,
+        486,
+        487,
+        488,
+        489,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495
       ],
       "imageTextReadPages": [
         91,
@@ -173,9 +203,19 @@
         467,
         469,
         470,
-        471
+        471,
+        486,
+        487,
+        488,
+        489,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495
       ],
-      "readingMethod": "Testo disponibile degli intervalli 89–110 e 465–485 letto; tutti i 43 rendering ispezionati. Pagina 109 parzialmente coperta; grafici 479 parzialmente oscurati. Pagina 485 duplicata, 484 nota: nessun contenuto contato due volte.",
+      "readingMethod": "Testo disponibile e rendering PDF89–110 e465–495 consultati. Nuovo intervallo486–495 letto anche nelle componenti raster. Sovrapposizioni109,479,487; fondo della tabella494 tagliato. Pagina485 duplicata e484 nota; non conteggiate come contenuti nuovi indipendenti.",
       "previouslyRecordedPdfPages": [
         89,
         90,
@@ -209,7 +249,17 @@
         472,
         473,
         474,
-        475
+        475,
+        476,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485
       ]
     },
     {
@@ -218,10 +268,10 @@
       "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
       "pageCount": 1579,
       "newlyReadTextPages": [
-        647,
-        648,
-        649,
-        650
+        651,
+        652,
+        653,
+        654
       ],
       "visuallyCheckedPdfPages": [
         631,
@@ -232,15 +282,27 @@
         636,
         637,
         638,
+        639,
+        640,
+        641,
+        642,
+        643,
+        644,
+        645,
+        646,
         647,
         648,
         649,
-        650
+        650,
+        651,
+        652,
+        653,
+        654
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
       "title": "Katzung · Farmacologia generale e clinica",
-      "note": "IX edizione italiana 2014, XII americana 2012. PDF 631–650: testo disponibile letto; controllo visivo 631–638 e 647–650. Le figure 639–646 e la continuazione da 651 restano da verificare. Le indicazioni storiche sono confrontate con le fonti attuali per i passaggi integrati.",
+      "note": "IX edizione italiana 2014, XII americana 2012. Capitolo31, PDF 631–654 (pagine editoriali 611–634): testo disponibile letto e rendering controllati cumulativamente. Bibliografia 653–654 letta come elenco, senza lettura degli articoli citati. Indicazioni storiche riconciliate solo per i passaggi integrati; resto del libro non dichiarato letto.",
       "pdfPagesRead": [
         631,
         632,
@@ -261,7 +323,11 @@
         647,
         648,
         649,
-        650
+        650,
+        651,
+        652,
+        653,
+        654
       ],
       "availableExtractedTextReadPages": [
         631,
@@ -283,10 +349,14 @@
         647,
         648,
         649,
-        650
+        650,
+        651,
+        652,
+        653,
+        654
       ],
       "imageTextReadPages": [],
-      "readingMethod": "Testo disponibile PDF 631–650 letto; rendering 631–638 e 647–650 ispezionati. Figure 639–646 ancora non controllate. Continuazione da 651 non letta.",
+      "readingMethod": "Capitolo31, PDF631–654: testo disponibile letto e rendering controllati cumulativamente. In questo lotto nuovi testo651–654 e controlli visivi639–646,651–654. Bibliografia653–654: elenco letto, articoli non letti.",
       "previouslyRecordedPdfPages": [
         631,
         632,
@@ -303,7 +373,11 @@
         643,
         644,
         645,
-        646
+        646,
+        647,
+        648,
+        649,
+        650
       ]
     },
     {
@@ -417,7 +491,7 @@
       ]
     }
   ],
-  "visualPages": 64,
+  "visualPages": 86,
   "expandedExistingChapters": 1,
   "newChapters": 0,
   "newIdentities": 0,
@@ -499,7 +573,7 @@
     {
       "id": "OUD",
       "title": "CDC · Trattamento del disturbo da uso di oppioidi",
-      "detail": "Risorsa CDC per professionisti del 09/04/2024: punti principali e trattamenti efficaci consultati nei contenuti indicizzati il 28/10/2026. Contesto USA; non revisione integrale né trasferimento dei regimi prescrittivi in Italia.",
+      "detail": "Risorsa CDC per professionisti del 09/04/2024: testo principale, meccanismi dei medicinali e ruolo del supporto psicosociale aperti e letti direttamente il 28/10/2026. Contesto USA; nessuna lettura integrale dei documenti collegati né trasferimento delle regole prescrittive in Italia.",
       "url": "https://www.cdc.gov/overdose-prevention/hcp/clinical-care/opioid-use-disorder-treating.html"
     },
     {
@@ -543,9 +617,15 @@
       "title": "Remifentanil · documento del prodotto USA",
       "detail": "DailyMed: passaggi selezionati 12.1–12.3 e avvertenze sulla respirazione e sulla rapida cessazione dell’analgesia consultati direttamente il 28/10/2026. Data esatta di revisione non stabilita; nessuna dose o procedura anestesiologica importata.",
       "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=39284dec-b9bc-4fc8-b2d3-f1ef1323e5d4"
+    },
+    {
+      "id": "NIH-REC",
+      "title": "NIH · Apprendimento e trattamento delle dipendenze",
+      "detail": "Research in Context, 24/03/2026. Sezione Drugs and the brain e panoramica dei medicinali lette direttamente il 28/10/2026. Fonte istituzionale di orientamento; studi citati e restanti approfondimenti terapeutici non revisionati integralmente.",
+      "url": "https://beta.nih.gov/news-events/nih-research-matters/treating-addiction"
     }
   ],
-  "deduplication": "SHA-256 dei file confrontati con i registri precedenti; le 14 pagine del nuovo intervallo non coincidono con pagine già registrate. Diapositive 485: contenuto duplicato di 482; 484: nota relativa a 483. Queste due pagine contano come pagine ispezionate, non come due nuovi contenuti didattici.",
+  "deduplication": "SHA-256 e pagine confrontati con403 registri JSON noti (44 record di lettura corrispondenti): K639–646 erano già lette nel testo e aggiungono soltanto controllo visivo; K651–654 e diapositive486–495 non già registrate. Deduplicazione dei registri disponibili, non attestazione di tutta la cronologia. Duplicato485/482 e nota484 preservati senza doppio conteggio di contenuto.",
   "automaticExtraction": "Estrazione estesa dei PDF usata soltanto per trovare gli intervalli; fuori dalle pagine elencate non equivale a lettura. Per Farmacologia II consultata soltanto una mappa degli argomenti, senza nuove pagine PDF.",
   "sourceConflicts": [
     {
@@ -587,23 +667,39 @@
     {
       "source": "K647–650",
       "resolution": "Non importati dosaggi, conversioni, restrizioni pediatriche storiche o generalizzazioni sulla sicurezza respiratoria. Consultazione attuale selettiva, non revisione dell’intero capitolo."
+    },
+    {
+      "source": "K651–652",
+      "resolution": "Non riprese classificazioni improprie di codeina/idrocodone come agonisti parziali, impieghi storici di naltrexone per fumo o buprenorfina per alcol, attese di approvazione e garanzie assolute sui PAMORA."
+    },
+    {
+      "source": "CFI486–491",
+      "resolution": "Circuiti distribuiti e apprendimento distinti da un centro unico del piacere; rinforzo non coincide con euforia. Disinibizione mesolimbica distinta dal circuito discendente del dolore."
+    },
+    {
+      "source": "CFI492–493",
+      "resolution": "Stabilizzazione e recupero distinti da euforia continua; nessuna emivita universale, classifica assoluta di sicurezza o calendario di sospensione. Farmaci e supporto riconciliati con CDC/EMA."
+    },
+    {
+      "source": "CFI494–495",
+      "resolution": "Specie, saggio, legame, trasporto e risposta in vivo distinti. Progenitore e metabolita non intercambiabili; nessun numero di affinità trasformato in dose o beneficio clinico."
     }
   ],
   "remaining": [
-    "Katzung: figure PDF 639–646 non controllate; continuazione da 651 da leggere.",
-    "Diapositive: pagina 109 parzialmente coperta e grafici 479 parzialmente oscurati; continuazione da 486 non letta.",
+    "Katzung: capitolo31 PDF631–654 letto e controllato nelle pagine elencate; resto del libro non letto. Gli articoli della bibliografia non sono stati letti.",
+    "Diapositive: sovrapposizioni PDF109,479,487 e fondo della tabella494 tagliato; continuazione da496 non letta.",
     "Appunti: per questo capitolo restano inclusi soltanto gli intervalli delle lezioni 13 e 15 elencati; cinque pagine controllate visivamente e figure di 277 in parte tagliate. La lezione 14 tratta un altro argomento.",
     "Rang & Dale: soltanto PDF 795–798, non tutto il capitolo.",
     "Nessuna nuova lettura PDF del corso di Farmacologia II.",
     "Revisione clinica indipendente non eseguita; fonti USA e britanniche non equivalgono all’RCP italiano."
   ],
   "newReadPdfPages": 14,
-  "readingCountDefinition": "14 nuove pagine PDF pertinenti agli oppioidi: testo disponibile letto e 14 controlli visivi. Copertura cumulativa dei due lotti: 82 pagine PDF e 64 controlli visivi; non 82 pagine di prosa né 82 pagine interamente controllate nelle figure. Gli appunti su altro argomento riconosciuti durante la riconciliazione non sono inclusi in questi conteggi.",
-  "totalReadPdfPages": 82,
-  "currentBatchVisualPages": 14,
+  "readingCountDefinition": "14 nuove identità di pagina: K651–654 e diapositive486–495, con testo disponibile e immagini letti. 22 nuovi controlli visivi includono anche K639–646 già lette nel testo. Totale cumulativo96 pagine PDF e86 controlli visivi; non96 pagine di prosa né96 pagine controllate integralmente nelle figure. Bibliografie e tabelle riprodotte non equivalgono alla lettura degli articoli originari.",
+  "totalReadPdfPages": 96,
+  "currentBatchVisualPages": 22,
   "previousBatch": {
-    "batch": "theory-opioid-analgesia",
-    "readPdfPages": 68,
-    "visualPages": 50
+    "batch": "theory-opioid-adaptations",
+    "readPdfPages": 82,
+    "visualPages": 64
   }
 }
