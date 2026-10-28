@@ -354,6 +354,16 @@ export const THEORY_OPIOIDS=Object.freeze({
       "text": "I canali del sodio contribuiscono alla generazione e propagazione dei potenziali d’azione. Le diverse isoforme hanno distribuzioni e proprietà differenti: intervenire su un canale presente nei neuroni sensitivi periferici può modificare il segnale prima che raggiunga midollo ed encefalo. Questo percorso è distinto dall’attivazione di MOR e aiuta a capire perché un analgesico possa agire senza essere un oppioide.\n\nLa suzetrigina, inizialmente studiata come VX-548, blocca selettivamente NaV1.8 rispetto alle altre isoforme considerate. Il documento USA di Journavx descrive NaV1.8 nei neuroni sensitivi periferici, compresi quelli dei gangli delle radici dorsali. La selettività è una proprietà relativa del confronto sperimentale: non significa che il medicinale non possa avere effetti indesiderati, né trasforma il rapporto fra potenze sui canali in un rapporto fra dosi analgesiche. Anche un dato genetico su NaV1.7 non dimostra, da solo, l’efficacia clinica di un farmaco diretto a NaV1.8.\n\nNel prodotto USA consultato l’indicazione riguarda il dolore acuto moderato o severo dell’adulto, incluso quello postoperatorio; l’impiego nel dolore acuto non è stato studiato oltre quattordici giorni. Non se ne ricava un’indicazione generale al dolore neuropatico cronico. Le interazioni legate a CYP3A e le precauzioni nella compromissione epatica restano rilevanti anche per un bersaglio periferico. Il documento statunitense non stabilisce l’autorizzazione in Italia: il passaggio da meccanismo a impiego richiede sempre prodotto, popolazione, durata ed esiti verificati."
     },
     {
+      "id": "lidocaina-accesso-stato",
+      "title": "Lidocaina: raggiungere il canale e modificarne la disponibilità",
+      "refs": [
+        "CFI",
+        "HILLE-NA",
+        "HILLE-PH"
+      ],
+      "text": "La lidocaina permette di separare due domande: come arriva una molecola al suo sito d’azione e che cosa accade quando lo occupa. I canali del sodio voltaggio-dipendenti sostengono la generazione e la propagazione dell’impulso. Ridurre la corrente disponibile ostacola questo processo; non richiede di attivare MOR e non coincide con la sequenza iniziale di eccitazione di TRPV1 descritta per la capsaicina.\n\nLa lidocaina è una base debole: forma neutra e protonata coesistono in proporzioni che dipendono dall’ambiente. La forma neutra attraversa più facilmente la componente lipidica della membrana; dall’interno, la forma carica può raggiungere il sito nel canale. Questa distinzione aiuta a seguire il percorso, ma non significa che una sola forma sia sempre attiva e l’altra priva di effetto. Il modello sperimentale classico comprende vie di accesso con proprietà differenti e dipende anche dalle caratteristiche dell’anestetico considerato.\n\nUn canale aperto, un canale inattivato e un canale bloccato non sono la stessa condizione. Nel modello di Hille, l’accesso attraverso il versante interno è influenzato dall’apertura del canale, mentre il legame del farmaco favorisce condizioni in cui la conduzione non è disponibile. Non basta quindi immaginare la lidocaina come una sostanza che mantiene il poro aperto: accesso al sito e possibilità di far passare sodio vanno distinti. Anche la sequenza degli impulsi e il tempo concesso al recupero influenzano il blocco osservato.\n\nGli esperimenti storici su singole fibre mieliniche mostrano inoltre che abbassare il pH esterno può rallentare l’azione di anestetici amminici come la lidocaina. È una dimostrazione del rapporto fra ionizzazione, permeazione e cinetica, non una formula per prevedere l’efficacia in ogni tessuto. Un esperimento controlla condizioni che nella persona dipendono anche da distribuzione e formulazione; non autorizza modifiche del pH o della preparazione del medicinale.\n\nNella mappa dell’analgesia, questo esempio occupa dunque il livello della propagazione elettrica. Va confrontato con la trasduzione dello stimolo e con il rilascio sinaptico, senza confondere la vicinanza anatomica dei bersagli con l’identità del loro meccanismo."
+    },
+    {
       "id": "capsaicina-trpv1",
       "title": "Capsaicina e TRPV1: attivazione iniziale e risposta nel tempo",
       "refs": [
@@ -362,6 +372,16 @@ export const THEORY_OPIOIDS=Object.freeze({
         "NICE173"
       ],
       "text": "Un farmaco può ridurre il dolore anche attraverso una sequenza che comincia con l’attivazione di un sensore nocicettivo. La capsaicina è un agonista di TRPV1, un recettore-canale dei nocicettori cutanei. Il passaggio iniziale favorisce l’attivazione della terminazione e può produrre bruciore: questo non è il blocco immediato della conduzione che si immagina per un anestetico locale. Per capire l’esito successivo bisogna aggiungere il tempo alla mappa del bersaglio.\n\nNel documento europeo di Qutenza, all’esposizione segue una riduzione della sensibilità dei nocicettori a diversi stimoli. Il documento descrive modifiche reversibili, compresa la riduzione della densità delle terminazioni epidermiche. La parola desensibilizzazione riassume quindi un cambiamento funzionale della terminazione; non dimostra che ogni passaggio sia identico alla regolazione di un recettore MOR o che il canale sia stato semplicemente antagonizzato.\n\nQutenza è un cerotto per il dolore neuropatico periferico dell’adulto, applicato da personale sanitario. Dolore locale, ustioni e alterazioni della sensibilità richiedono attenzione: azione periferica e somministrazione cutanea non significano innocuità. NICE CG173 distingue inoltre la crema dal cerotto e, nell’assistenza non specialistica, non raccomanda di iniziare quest’ultimo senza indicazione specialistica. Condividere il principio attivo non rende equivalenti formulazioni e contesti.\n\nQuesto esempio completa il confronto con gli oppioidi: cambiano il bersaglio, la sede e l’ordine degli eventi. Nel circuito spinale si può ridurre il rilascio di trasmettitori; nella terminazione periferica si può modificare la risposta agli stimoli nel tempo. Per studiare una strategia analgesica servono entrambe le domande: che cosa accade alla cellula e in quale situazione è stato dimostrato un beneficio."
+    },
+    {
+      "id": "topico-prodotto-contesto",
+      "title": "Azione topica: distinguere sede, formulazione e indicazione",
+      "refs": [
+        "CFI",
+        "LIDO-TOP",
+        "CAPS-EMA"
+      ],
+      "text": "La parola topico descrive dove viene applicato un prodotto; non identifica da sola una proteina bersaglio né la durata della risposta. Un cerotto di lidocaina e uno di capsaicina possono interessare una regione cutanea dolorosa attraverso sequenze diverse: nel primo caso si interviene sull’eccitabilità neuronale, nel secondo si parte dall’attivazione di TRPV1 e da una successiva modificazione della risposta delle terminazioni. La forma farmaceutica comune non li rende equivalenti.\n\nNel documento britannico di Versatis consultato, l’indicazione è il sollievo sintomatico della nevralgia posterpetica dell’adulto. La descrizione del prodotto distingue l’azione farmacologica della lidocaina dalla protezione meccanica offerta dall’idrogel alla zona ipersensibile. Questo secondo contributo ricorda che una formulazione non è soltanto un contenitore del principio attivo. L’indicazione europea di Qutenza riguarda invece il dolore neuropatico periferico dell’adulto: il documento EMA attuale non mantiene la limitazione ai soli adulti non diabetici riportata in alcuni materiali storici.\n\nLa sede cutanea non elimina il problema dell’esposizione. Per il cerotto di lidocaina sono descritte reazioni locali, come irritazione e prurito; il documento richiede inoltre cautela con altri anestetici locali o antiaritmici di classe I, perché effetti sistemici additivi non sono esclusi. Non se ne ricava una raccomandazione generale per ogni dolore neuropatico né un’equivalenza con formulazioni iniettabili. Per studiare un trattamento servono insieme bersaglio, prodotto, popolazione e risultato atteso; tabelle di concentrazioni o percentuali, isolate da questi elementi, non bastano a scegliere o confrontare una terapia."
     },
     {
       "id": "contesto",
@@ -499,6 +519,14 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "question": "Perché la capsaicina può provocare inizialmente bruciore pur essendo impiegata in una strategia analgesica?",
       "answer": "L’attivazione iniziale di TRPV1 e la successiva riduzione della risposta delle terminazioni sono fasi diverse. Non è un semplice antagonismo del canale, e non consente di equiparare crema, cerotto e altri prodotti."
+    },
+    {
+      "question": "Perché l’accesso della lidocaina a un canale aperto non significa che il farmaco lo mantenga conduttivo?",
+      "answer": "L’apertura può facilitare una via di accesso al sito, mentre il legame riduce la disponibilità alla conduzione. Accesso, inattivazione e blocco descrivono passaggi differenti, influenzati dallo stato del canale e dal tempo."
+    },
+    {
+      "question": "Due analgesici in cerotto condividono necessariamente meccanismo e indicazione?",
+      "answer": "No. La lidocaina modifica l’eccitabilità attraverso i canali del sodio; la capsaicina avvia una risposta tramite TRPV1. Sede cutanea, principio attivo e indicazione del singolo prodotto vanno valutati separatamente."
     }
   ],
   "references": [
@@ -515,7 +543,7 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "CFI",
       "title": "Diapositive del corso di Farmacologia I",
-      "detail": "Anno accademico 2025–26. PDF 89–110 e 465–505: testo disponibile e rendering consultati. Da 496 il tema si amplia agli analgesici non oppioidi. Sovrapposizioni 109,479,487; tabella 494 e dettagli di 498 incompleti. Pannelli 502/504/505 ripetuti; articoli citati non letti integralmente. Resto del corso non dichiarato letto."
+      "detail": "Anno accademico 2025–26. PDF 89–110 e 465–510: testo disponibile e pagine controllati. In 506–510 confronto fra canali del sodio, TRPV1 e trattamenti topici; etichette interne 504–508. Etichetta marginale 507 tagliata, unità della concentrazione 508 non validata; lacune precedenti 109,479,487,494,498 conservate. Articoli citati non letti integralmente; corso non completo."
     },
     {
       "id": "SFI",
@@ -687,8 +715,26 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "CAPS-EMA",
       "title": "EMA · Qutenza, capsaicina",
-      "detail": "Documento europeo in inglese: passaggi selezionati 4.1–4.4 e5.1 consultati direttamente il28/10/2026; PDF pp.2–5 e7. Scheda EMA aggiornata05/05/2026. Non lettura integrale delle29 pagine; modalità applicative e dosaggi esclusi dalla sintesi.",
-      "url": "https://www.ema.europa.eu/en/documents/product-information/qutenza-epar-product-information_en.pdf"
+      "detail": "PDF europeo: passaggi 4.1–4.4 e 5.1 letti nel lotto precedente del 28/10/2026. Indicazione e sintesi degli studi ricontrollate nella pagina EPAR il 28/10/2026; nessuna nuova lettura del PDF in questo lotto. Scheda prodotto aggiornata 05/05/2026. Nessuna lettura integrale.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/qutenza"
+    },
+    {
+      "id": "LIDO-TOP",
+      "title": "Versatis · lidocaina cutanea, documento britannico",
+      "detail": "SmPC emc disponibile il 28/10/2026, aggiornato 10/09/2021. Letti passaggi selezionati 4.1, 4.3–4.5, 4.8–4.9 e meccanismo in 5.1. Non RCP italiano né revisione integrale; nessuna dose o procedura trasferita.",
+      "url": "https://www.medicines.org.uk/emc/product/290/smpc"
+    },
+    {
+      "id": "HILLE-NA",
+      "title": "Accesso degli anestetici locali ai canali del sodio · studio sperimentale",
+      "detail": "Hille, J Gen Physiol 1977;69:497–515, DOI 10.1085/jgp.69.4.497. Abstract letto su PMC il 28/10/2026: modello del nodo di Ranvier. Testo integrale e figure non esaminati; non evidenza di efficacia clinica.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2215053/"
+    },
+    {
+      "id": "HILLE-PH",
+      "title": "pH e velocità del blocco dei canali del sodio · studio sperimentale",
+      "detail": "Hille, J Gen Physiol 1977;69:475–496, DOI 10.1085/jgp.69.4.475. Abstract PubMed letto il 28/10/2026: singole fibre mieliniche in voltage clamp. Testo integrale e figure non esaminati; non istruzione per modificare preparazioni.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16078/"
     }
   ],
   "moleculeLinks": [
@@ -735,6 +781,10 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "CHEMBL294199",
       "label": "CAPSAICIN"
+    },
+    {
+      "id": "CHEMBL79",
+      "label": "LIDOCAINE"
     }
   ],
   "drugs": [],
@@ -750,5 +800,5 @@ export const THEORY_OPIOIDS=Object.freeze({
     "antidepressivi"
   ],
   "coverage": "Sintesi originale da intervalli delimitati dei libri e da appunti e diapositive del corso di Farmacologia. Lettura integrale di libri e corsi non completata. Fonti ufficiali consultate per passaggi selezionati; documenti USA e britannici non equivalgono all’RCP italiano. Revisione clinica indipendente non eseguita.",
-  "wordCount": 7549
+  "wordCount": 8103
 });

@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-10-28T15:54:53.984291+00:00",
-  "batch": "theory-opioid-rang-final",
+  "updatedAt": "2026-10-28T19:03:43.100327+00:00",
+  "batch": "theory-course-506-510",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.44.0",
-  "branch": "feat/theory-opioid-rang-final",
-  "baseCommit": "c7449308ff884ec27b931d1baf006dba8ca0edc2",
+  "release": "0.45.0",
+  "branch": "feat/theory-course-506-510",
+  "baseCommit": "4db2cab4a8a726a570c489676e265171cec436e5",
   "previousBatch": {
-    "batch": "theory-opioid-rang-comparison",
+    "batch": "theory-opioid-rang-final",
     "status": "published_and_live_verified",
-    "release": "0.43.0",
-    "commit": "c7449308ff884ec27b931d1baf006dba8ca0edc2"
+    "release": "0.44.0",
+    "commit": "4db2cab4a8a726a570c489676e265171cec436e5"
   },
   "scope": [
-    "Concludere il capitolo42 di Rang & Dale e spiegare due bersagli analgesici non oppioidi."
+    "Integrare il confronto sugli analgesici non oppioidi dalle diapositive 506–510."
   ],
   "completed": [
-    "38 sezioni, 7549 parole, 29 domande, 32 riferimenti e 11 collegamenti a identità esistenti.",
-    "Cinque nuove pagine809–813; copertura cumulativa131 pagine e131 controlli.",
+    "40 sezioni, 8103 parole, 31 domande, 35 riferimenti e 12 collegamenti a identità esistenti.",
+    "Cinque nuove pagine 506–510; copertura cumulativa 136 pagine e 136 controlli.",
     "39 validatori e 32 configurazioni browser superati; due temi, tastiera, ricerca, fonti e offline controllati.",
-    "Aggiornamento reale 0.43.0→0.44.0 verificato con preferiti, progressi e tema conservati.",
+    "Aggiornamento reale 0.44.0→0.45.0 verificato con preferiti, progressi e tema conservati.",
     "Gli altri 55 capitoli, catalogo, lettore e laboratorio sono invariati."
   ],
   "remaining": [
@@ -45,20 +45,20 @@
     "newInteractiveLabs": 0,
     "newSections": 2,
     "expandedSections": 0,
-    "newLinksToExistingIdentities": 2
+    "newLinksToExistingIdentities": 1
   },
   "readingManifests": [
     "data/oppioidi-reading.json"
   ],
   "limits": [
     "Katzung: capitolo 31 PDF 631–654 coperto; resto del libro non letto. Bibliografia distinta dagli articoli.",
-    "Diapositive: PDF 89–110 e 465–505 letti; continuazione da 506 non letta. Restano sovrapposizioni 109,479,487 e ritagli 494,498.",
+    "Diapositive: PDF 89–110 e 465–510 coperti; da 511 non letto. Restano sovrapposizioni 109,479,487, ritagli 494,498 e 507; unità nella didascalia 508 non validata.",
     "Appunti:15 pagine delle lezioni 13 e 15 con testo e rendering; tagli o sovrapposizioni 244,245,273,275,277 irrisolti. Il resto del corso non è coperto.",
     "Rang & Dale: capitolo42 PDF785–813 coperto nel testo disponibile e nei rendering, inclusa bibliografia e note; articoli citati e resto del libro non letti. Paginazione editoriale non ricostruita.",
     "Nessuna nuova lettura PDF di Farmacologia II.",
     "Consultazioni cliniche selettive; fonti USA e britanniche non equivalgono a RCP italiani. Revisione clinica indipendente non eseguita.",
-    "Due studi del lotto precedente di meccanismo consultati solo tramite gli abstract; risultati integrali e figure non esaminati.",
+    "Quattro studi di meccanismo consultati solo tramite abstract, due nel lotto corrente; articoli integrali e figure non esaminati.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Completare questa consegna; poi diapositive del corso di Farmacologia PDF506–510, deduplicando e verificando il confine di argomento prima di integrare."
+  "nextBatch": "Dopo questa consegna: diapositive del corso di Farmacologia PDF 511–515; deduplicare e verificare il confine di argomento prima di integrare."
 }
