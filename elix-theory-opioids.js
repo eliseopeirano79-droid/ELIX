@@ -338,11 +338,12 @@ export const THEORY_OPIOIDS=Object.freeze({
       "id": "ziconotide-calcio",
       "title": "Ziconotide: raggiungere il canale senza passare da MOR",
       "refs": [
+        "CFI",
         "R",
         "K",
         "ZICO-EMA"
       ],
-      "text": "Nel terminale afferente, l’ingresso di calcio collega l’arrivo del potenziale d’azione alla liberazione dei trasmettitori. È un punto di controllo comune, ma si può raggiungere attraverso proteine diverse. Un oppioide attiva un recettore accoppiato a Gi/o e modifica la funzione dei canali attraverso la segnalazione intracellulare; ziconotide interagisce invece con canali del calcio di tipo N. Il risultato presinaptico può convergere, mentre il primo bersaglio molecolare resta differente.\n\nIl documento europeo di Prialt descrive una riduzione della corrente di calcio nelle afferenze nocicettive che terminano negli strati superficiali del corno dorsale, con minore rilascio di trasmettitori, compresa la sostanza P. Ziconotide non interagisce con i recettori oppioidi. Non va quindi collocato nella stessa casella di un agonista MOR né in quella dei ligandi della subunità ausiliaria α2δ: recettore, canale e subunità sono livelli distinti della mappa.\n\nLa via intratecale e il bersaglio spinale collegano questo esempio alla sezione sulla distribuzione neurassiale. Nel prodotto europeo l’indicazione riguarda adulti con dolore cronico severo che richiede analgesia intratecale; il trattamento richiede medici esperti e valutazione neuropsichiatrica. Le avvertenze comprendono alterazioni cognitive e psichiatriche e i rischi infettivi della somministrazione intratecale. La natura non oppioide non equivale dunque ad assenza di rischi.\n\nPer confrontare questi farmaci è utile disegnare due percorsi separati fino al rilascio vescicolare, indicando prima la proteina raggiunta e poi il segnale modificato. Una destinazione cellulare comune non permette di dedurre equivalenza delle dosi, sostituibilità o superiorità clinica."
+      "text": "Nel terminale afferente, l’ingresso di calcio collega l’arrivo del potenziale d’azione alla liberazione dei trasmettitori. È un punto di controllo comune, ma si può raggiungere attraverso proteine diverse. Un oppioide attiva un recettore accoppiato a Gi/o e modifica la funzione dei canali attraverso la segnalazione intracellulare; ziconotide interagisce invece con canali del calcio di tipo N. Il risultato presinaptico può convergere, mentre il primo bersaglio molecolare resta differente.\n\nIl documento europeo di Prialt descrive una riduzione della corrente di calcio nelle afferenze nocicettive che terminano negli strati superficiali del corno dorsale, con minore rilascio di trasmettitori, compresa la sostanza P. Ziconotide non interagisce con i recettori oppioidi. Non va quindi collocato nella stessa casella di un agonista MOR né in quella dei ligandi della subunità ausiliaria α2δ: recettore, canale e subunità sono livelli distinti della mappa.\n\nLo schema della sinapsi va letto in ordine causale. Il canale di tipo N, indicato anche come CaV2.2, è sul versante presinaptico: limitarne la corrente riduce il segnale di calcio che favorisce l’esocitosi. Se viene liberato meno glutammato, il neurone successivo riceve una minore stimolazione dei propri recettori AMPA e NMDA. Questo effetto a valle non rende ziconotide un antagonista diretto di quei recettori. Una figura può mostrare insieme bersaglio del farmaco e conseguenze della sua azione; per interpretarli occorre seguire la freccia dal canale al rilascio e soltanto dopo alla risposta postsinaptica.\n\nLa via intratecale e il bersaglio spinale collegano questo esempio alla sezione sulla distribuzione neurassiale. Nel prodotto europeo l’indicazione riguarda adulti con dolore cronico severo che richiede analgesia intratecale; il trattamento richiede medici esperti e valutazione neuropsichiatrica. Le avvertenze comprendono alterazioni cognitive e psichiatriche e i rischi infettivi della somministrazione intratecale. La natura non oppioide non equivale dunque ad assenza di rischi.\n\nAnche il rapporto fra tempo, esposizione e risposta merita un passaggio separato. Il documento europeo descrive una finestra terapeutica ristretta: analgesia ed effetti indesiderati possono comparire a esposizioni vicine, e l’effetto massimo può essere ritardato. Non presenta una relazione dose-concentrazione-risposta abbastanza definita da trasformare il disegno della sinapsi in un calcolo del beneficio individuale. La concentrazione nel liquor e quella nel plasma descrivono inoltre compartimenti diversi: una bassa esposizione plasmatica durante l’infusione intratecale non esclude effetti cognitivi o psichiatrici. La distribuzione anatomica e l’andamento nel tempo completano quindi la spiegazione molecolare.\n\nPer confrontare questi farmaci è utile disegnare due percorsi separati fino al rilascio vescicolare, indicando prima la proteina raggiunta e poi il segnale modificato. Una destinazione cellulare comune non permette di dedurre equivalenza delle dosi, sostituibilità o superiorità clinica."
     },
     {
       "id": "nav-selettivita",
@@ -527,6 +528,10 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "question": "Due analgesici in cerotto condividono necessariamente meccanismo e indicazione?",
       "answer": "No. La lidocaina modifica l’eccitabilità attraverso i canali del sodio; la capsaicina avvia una risposta tramite TRPV1. Sede cutanea, principio attivo e indicazione del singolo prodotto vanno valutati separatamente."
+    },
+    {
+      "question": "Se ziconotide riduce la stimolazione postsinaptica di AMPA e NMDA, sta antagonizzando direttamente questi recettori?",
+      "answer": "No. Il bersaglio descritto è il canale del calcio di tipo N presinaptico. La riduzione del calcio disponibile per l’esocitosi riduce il rilascio di trasmettitore e quindi la stimolazione a valle: conseguenza di circuito e legame diretto non sono sinonimi."
     }
   ],
   "references": [
@@ -543,7 +548,7 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "CFI",
       "title": "Diapositive del corso di Farmacologia I",
-      "detail": "Anno accademico 2025–26. PDF 89–110 e 465–510: testo disponibile e pagine controllati. In 506–510 confronto fra canali del sodio, TRPV1 e trattamenti topici; etichette interne 504–508. Etichetta marginale 507 tagliata, unità della concentrazione 508 non validata; lacune precedenti 109,479,487,494,498 conservate. Articoli citati non letti integralmente; corso non completo."
+      "detail": "Anno accademico 2025–26. Per questo capitolo: PDF 89–110 e 465–513, testo disponibile e pagine controllati. Le nuove pagine 511–513 riguardano ziconotide; pannelli parzialmente coperti in 512–513 non ricostruiti. Conservate le lacune precedenti e l’unità non validata della pagina 508. Da 514 inizia l’emicrania, fuori da questo capitolo; corso e articoli citati non letti integralmente."
     },
     {
       "id": "SFI",
@@ -709,7 +714,7 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "ZICO-EMA",
       "title": "EMA · Prialt, ziconotide",
-      "detail": "Documento europeo in inglese: passaggi selezionati 4.1–4.5 e 5.1 consultati direttamente il 28/10/2026; PDF pp.2–6 e10–11. Aggiornamento15/04/2026 nei metadati EMA indicizzati. Non lettura integrale delle62 pagine; nessun dosaggio o protocollo trasferito.",
+      "detail": "Documento europeo in inglese: passaggi selezionati 4.1–4.5 e 5.1 ricontrollati il 28/10/2026, PDF 2–6 e 10–11. Distinti bersaglio presinaptico, conseguenze postsinaptiche, compartimenti e tempo di risposta. Non lettura integrale delle 62 pagine né revisione delle linee guida; nessuna dose o procedura trasferita.",
       "url": "https://www.ema.europa.eu/en/documents/product-information/prialt-epar-product-information_en.pdf"
     },
     {
@@ -800,5 +805,5 @@ export const THEORY_OPIOIDS=Object.freeze({
     "antidepressivi"
   ],
   "coverage": "Sintesi originale da intervalli delimitati dei libri e da appunti e diapositive del corso di Farmacologia. Lettura integrale di libri e corsi non completata. Fonti ufficiali consultate per passaggi selezionati; documenti USA e britannici non equivalgono all’RCP italiano. Revisione clinica indipendente non eseguita.",
-  "wordCount": 8103
+  "wordCount": 8287
 });
