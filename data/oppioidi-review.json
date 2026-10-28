@@ -1,19 +1,19 @@
 {
-  "batch": "theory-opioid-rang-final",
+  "batch": "theory-course-506-510",
   "chapterId": "oppioidi",
-  "checkedAt": "2026-10-28T15:54:53.984291+00:00",
+  "checkedAt": "2026-10-28T19:03:43.100327+00:00",
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "387ed1dbf944c8b31d9faaf93a814cea397b88d377ff835601fafde86adbb805",
+  "moduleSha256": "5b94e62a9eead4be985e88455fb8acd2d5c140d5d60be7f66cac5e0583ff1985",
   "checks": [
-    "38 sezioni, 7549 parole, 29 domande, 32 riferimenti e 11 collegamenti a identità esistenti.",
-    "Due nuove sezioni rilette: ziconotide/canali di tipoN e capsaicina/TRPV1.",
-    "Distinti MOR/Gi-o, canale e subunitàα2δ; attivazione iniziale e risposta nel tempo.",
-    "Indici clinici e sicurezza confrontati con documenti EMA selezionati; contesto NICE distinto. Nessuna dose o procedura.",
-    "Cinque pagine finali del capitolo lette con controllo visivo; bibliografia non confusa con lettura degli articoli.",
+    "40 sezioni, 8103 parole, 31 domande, 35 riferimenti e 12 collegamenti a identità esistenti.",
+    "Due nuove sezioni rilette: accesso e stato dei canali per lidocaina; sede, prodotto e indicazione per analgesici topici.",
+    "Distinti permeazione, apertura, inattivazione e blocco; dati sperimentali non trasformati in protocolli.",
+    "Indicazione storica della capsaicina riconciliata con EMA; prodotto britannico della lidocaina distinto da RCP italiano.",
+    "Cinque pagine con testo e immagini controllati, limiti di ritaglio e unità registrati.",
     "39 validatori e 32 configurazioni browser superati; due temi, tastiera, ricerca, fonti e offline controllati.",
-    "Aggiornamento reale 0.43.0→0.44.0 verificato con preferiti, progressi e tema conservati.",
+    "Aggiornamento reale 0.44.0→0.45.0 verificato con preferiti, progressi e tema conservati.",
     "Gli altri 55 capitoli, catalogo, lettore e laboratorio sono invariati."
   ],
   "limits": [

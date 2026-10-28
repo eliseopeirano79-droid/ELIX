@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-opioid-rang-final",
+  "batch": "theory-course-506-510",
   "chapterId": "oppioidi",
-  "updatedAt": "2026-10-28T15:49:32.259896+00:00",
+  "updatedAt": "2026-10-28T18:58:28.641091+00:00",
   "status": "editorial_reconciled_locally_verified_pending_publication",
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -12,7 +12,13 @@
       "edition": "AA 2025–26",
       "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
       "pageCount": 935,
-      "newlyReadTextPages": [],
+      "newlyReadTextPages": [
+        506,
+        507,
+        508,
+        509,
+        510
+      ],
       "visuallyCheckedPdfPages": [
         89,
         90,
@@ -76,12 +82,17 @@
         502,
         503,
         504,
-        505
+        505,
+        506,
+        507,
+        508,
+        509,
+        510
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
       "title": "Diapositive del corso di Farmacologia I",
-      "note": "Anno accademico 2025–26. PDF 89–110 e 465–505: testo disponibile e rendering consultati. Da 496 il tema si amplia agli analgesici non oppioidi. Sovrapposizioni 109,479,487; tabella 494 e dettagli di 498 incompleti. Pannelli 502/504/505 ripetuti; articoli citati non letti integralmente. Resto del corso non dichiarato letto.",
+      "note": "Anno accademico 2025–26. PDF 89–110 e 465–510: testo disponibile e pagine controllati. In 506–510 confronto fra canali del sodio, TRPV1 e trattamenti topici; etichette interne 504–508. Etichetta marginale 507 tagliata, unità della concentrazione 508 non validata; lacune precedenti 109,479,487,494,498 conservate. Articoli citati non letti integralmente; corso non completo.",
       "pdfPagesRead": [
         89,
         90,
@@ -145,7 +156,12 @@
         502,
         503,
         504,
-        505
+        505,
+        506,
+        507,
+        508,
+        509,
+        510
       ],
       "availableExtractedTextReadPages": [
         89,
@@ -210,7 +226,12 @@
         502,
         503,
         504,
-        505
+        505,
+        506,
+        507,
+        508,
+        509,
+        510
       ],
       "imageTextReadPages": [
         91,
@@ -242,9 +263,14 @@
         502,
         503,
         504,
-        505
+        505,
+        506,
+        507,
+        508,
+        509,
+        510
       ],
-      "readingMethod": "Copertura precedente conservata, senza nuove pagine di questa fonte nel lotto.",
+      "readingMethod": "Letto il testo estratto e quello nelle immagini di 506–510; cinque rendering controllati, 506 anche a maggiore risoluzione. Limiti di 507–508 registrati.",
       "previouslyRecordedPdfPages": [
         89,
         90,
@@ -523,13 +549,7 @@
       "edition": "VIII italiana 2016 / originale 2015",
       "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
       "pageCount": 1102,
-      "newlyReadTextPages": [
-        809,
-        810,
-        811,
-        812,
-        813
-      ],
+      "newlyReadTextPages": [],
       "visuallyCheckedPdfPages": [
         785,
         786,
@@ -637,7 +657,7 @@
         796,
         803
       ],
-      "readingMethod": "Testo disponibile809–813 e cinque rendering letti, compresi riquadri, bibliografia e note. Articoli citati non letti.",
+      "readingMethod": "Copertura precedente conservata, senza nuove pagine di questa fonte nel lotto.",
       "previouslyRecordedPdfPages": [
         785,
         786,
@@ -662,12 +682,17 @@
         805,
         806,
         807,
-        808
+        808,
+        809,
+        810,
+        811,
+        812,
+        813
       ],
       "chapter42AvailableTextAndVisualsRead": true
     }
   ],
-  "visualPages": 131,
+  "visualPages": 136,
   "expandedExistingChapters": 1,
   "newChapters": 0,
   "newIdentities": 0,
@@ -827,12 +852,18 @@
     {
       "id": "CAPS-EMA",
       "title": "EMA · Qutenza, capsaicina",
-      "detail": "Documento europeo in inglese: passaggi selezionati 4.1–4.4 e5.1 consultati direttamente il28/10/2026; PDF pp.2–5 e7. Scheda EMA aggiornata05/05/2026. Non lettura integrale delle29 pagine; modalità applicative e dosaggi esclusi dalla sintesi.",
-      "url": "https://www.ema.europa.eu/en/documents/product-information/qutenza-epar-product-information_en.pdf"
+      "detail": "PDF europeo: passaggi 4.1–4.4 e 5.1 letti nel lotto precedente del 28/10/2026. Indicazione e sintesi degli studi ricontrollate nella pagina EPAR il 28/10/2026; nessuna nuova lettura del PDF in questo lotto. Scheda prodotto aggiornata 05/05/2026. Nessuna lettura integrale.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/qutenza"
+    },
+    {
+      "id": "LIDO-TOP",
+      "title": "Versatis · lidocaina cutanea, documento britannico",
+      "detail": "SmPC emc disponibile il 28/10/2026, aggiornato 10/09/2021. Letti passaggi selezionati 4.1, 4.3–4.5, 4.8–4.9 e meccanismo in 5.1. Non RCP italiano né revisione integrale; nessuna dose o procedura trasferita.",
+      "url": "https://www.medicines.org.uk/emc/product/290/smpc"
     }
   ],
-  "deduplication": "Confronto SHA-256/pagina con audit disponibile, manifest e ricevuta0.43:809–813 non già letti. Nessuna nuova scansione completa del corpus.",
-  "automaticExtraction": "Estratto e letto il testo809–813; cinque pagine ispezionate. Bibliografia e note sono comprese nelle pagine, non equivalgono a lettura degli articoli.",
+  "deduplication": "Confronto SHA-256/pagina con audit disponibile e tutti i manifest pubblici attuali: 506–510 non già coperti. Nessuna nuova scansione completa del corpus.",
+  "automaticExtraction": "Testo estratto 506–510 letto e integrato con lettura delle immagini; estrazione da sola non conta come lettura.",
   "sourceConflicts": [
     {
       "source": "CFI 467–469; SFI 247–250",
@@ -961,25 +992,45 @@
     {
       "source": "R812–813",
       "resolution": "Lette bibliografia e note1–15, non gli articoli citati. Esclusa la descrizione stigmatizzante del trattamento del disturbo da uso. Il contenuto delle note non è conteggiato come nuova revisione clinica."
+    },
+    {
+      "source": "CFI506",
+      "resolution": "Riconosciuto il tema già trattato in NaV1.8; non duplicate le spiegazioni né trasferita la promessa di analgesia senza limiti o rischi. Infografica e prospettive commerciali non equivalgono a evidenze cliniche aggiornate."
+    },
+    {
+      "source": "CFI507",
+      "resolution": "La frase che descrive un canale mantenuto aperto è distinta dal blocco della conduzione; accesso dipendente dallo stato e inattivazione confrontati con due abstract sperimentali primari. Etichetta marginale tagliata non ricostruita."
+    },
+    {
+      "source": "CFI508",
+      "resolution": "Letti grafici e schema TRPV1; unità della concentrazione nella didascalia non validata e non trasferita. Nessuna inferenza quantitativa su efficacia, potenza fra estratti o dosi umane; articolo Nature 1997 non letto integralmente."
+    },
+    {
+      "source": "CFI509",
+      "resolution": "La limitazione storica ai soli adulti non diabetici non coincide con l’indicazione EMA attuale del dolore neuropatico periferico nell’adulto. Nessuna affermazione nuova su rimborsabilità italiana."
+    },
+    {
+      "source": "CFI510",
+      "resolution": "Tabelle di concentrazioni e associazioni lette ma non riprodotte né convertite in protocolli. Distinti indicazione del prodotto, meccanismo e applicazione cutanea; nessuna equivalenza automatica fra formulazioni o autorità regolatorie."
     }
   ],
   "remaining": [
     "Katzung: capitolo 31 PDF 631–654 coperto; resto del libro non letto. Bibliografia distinta dagli articoli.",
-    "Diapositive: PDF 89–110 e 465–505 letti; continuazione da 506 non letta. Restano sovrapposizioni 109,479,487 e ritagli 494,498.",
+    "Diapositive: PDF 89–110 e 465–510 coperti; da 511 non letto. Restano sovrapposizioni 109,479,487, ritagli 494,498 e 507; unità nella didascalia 508 non validata.",
     "Appunti:15 pagine delle lezioni 13 e 15 con testo e rendering; tagli o sovrapposizioni 244,245,273,275,277 irrisolti. Il resto del corso non è coperto.",
     "Rang & Dale: capitolo42 PDF785–813 coperto nel testo disponibile e nei rendering, inclusa bibliografia e note; articoli citati e resto del libro non letti. Paginazione editoriale non ricostruita.",
     "Nessuna nuova lettura PDF di Farmacologia II.",
     "Consultazioni cliniche selettive; fonti USA e britanniche non equivalgono a RCP italiani. Revisione clinica indipendente non eseguita.",
-    "Due studi del lotto precedente di meccanismo consultati solo tramite gli abstract; risultati integrali e figure non esaminati."
+    "Quattro studi di meccanismo consultati solo tramite abstract, due nel lotto corrente; articoli integrali e figure non esaminati."
   ],
   "newReadPdfPages": 5,
-  "readingCountDefinition": "Cinque nuove identità di pagina e cinque controlli visivi; totale131 pagine e131 controlli. Include bibliografia e note, non131 pagine di prosa o131 figure. Due abstract precedenti separati. Le consultazioni selettive EMA non aumentano il conteggio dei libri.",
-  "totalReadPdfPages": 131,
+  "readingCountDefinition": "Cinque nuove identità di pagina e cinque controlli visivi; totale 136 pagine e 136 controlli, non 136 pagine di prosa o figure. Quattro abstract cumulativi, due nuovi, conteggiati separatamente; documenti di prodotto selettivi fuori dal conteggio dei libri.",
+  "totalReadPdfPages": 136,
   "currentBatchVisualPages": 5,
   "previousBatch": {
-    "batch": "theory-opioid-rang-comparison",
-    "readPdfPages": 126,
-    "visualPages": 126
+    "batch": "theory-opioid-rang-final",
+    "readPdfPages": 131,
+    "visualPages": 131
   },
   "researchSources": [
     {
@@ -993,6 +1044,18 @@
       "title": "Morfina e prurito spinale · studio sperimentale",
       "detail": "Nguyen et al., Science Translational Medicine 2021;13:eabc3774, DOI 10.1126/scitranslmed.abc3774. Abstract PubMed letto direttamente il 28/10/2026: modelli animali di esposizione neurassiale. Articolo completo e figure non letti; non raccomandazione terapeutica.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/33536279/"
+    },
+    {
+      "id": "HILLE-NA",
+      "title": "Accesso degli anestetici locali ai canali del sodio · studio sperimentale",
+      "detail": "Hille, J Gen Physiol 1977;69:497–515, DOI 10.1085/jgp.69.4.497. Abstract letto su PMC il 28/10/2026: modello del nodo di Ranvier. Testo integrale e figure non esaminati; non evidenza di efficacia clinica.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2215053/"
+    },
+    {
+      "id": "HILLE-PH",
+      "title": "pH e velocità del blocco dei canali del sodio · studio sperimentale",
+      "detail": "Hille, J Gen Physiol 1977;69:475–496, DOI 10.1085/jgp.69.4.475. Abstract PubMed letto il 28/10/2026: singole fibre mieliniche in voltage clamp. Testo integrale e figure non esaminati; non istruzione per modificare preparazioni.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16078/"
     }
   ]
 }
