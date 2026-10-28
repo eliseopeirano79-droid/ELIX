@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-opioid-course-continuation",
+  "batch": "theory-opioid-rang-continuation",
   "chapterId": "oppioidi",
-  "updatedAt": "2026-10-28T10:21:25.870939+00:00",
+  "updatedAt": "2026-10-28T11:04:13.819884+00:00",
   "status": "editorial_reconciled_locally_verified_pending_publication",
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -12,18 +12,7 @@
       "edition": "AA 2025–26",
       "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
       "pageCount": 935,
-      "newlyReadTextPages": [
-        496,
-        497,
-        498,
-        499,
-        500,
-        501,
-        502,
-        503,
-        504,
-        505
-      ],
+      "newlyReadTextPages": [],
       "visuallyCheckedPdfPages": [
         89,
         90,
@@ -255,7 +244,7 @@
         504,
         505
       ],
-      "readingMethod": "Nuovo intervallo 496–505 letto nel testo disponibile e nelle componenti raster; dieci pagine, con pannelli ripetuti distinti da nuova evidenza. Intervalli precedenti conservati.",
+      "readingMethod": "Copertura dei lotti precedenti conservata. Nessuna nuova pagina o controllo visivo di questa fonte nel lotto corrente.",
       "previouslyRecordedPdfPages": [
         89,
         90,
@@ -309,7 +298,17 @@
         492,
         493,
         494,
-        495
+        495,
+        496,
+        497,
+        498,
+        499,
+        500,
+        501,
+        502,
+        503,
+        504,
+        505
       ]
     },
     {
@@ -401,7 +400,7 @@
         654
       ],
       "imageTextReadPages": [],
-      "readingMethod": "Capitolo 31, PDF 631–654: testo disponibile letto e rendering controllati nei lotti precedenti. Nessuna nuova pagina di questo libro nel lotto corrente. Bibliografia 653–654: elenco letto, articoli citati non letti.",
+      "readingMethod": "Copertura dei lotti precedenti conservata. Nessuna nuova pagina o controllo visivo di questa fonte nel lotto corrente.",
       "previouslyRecordedPdfPages": [
         631,
         632,
@@ -500,7 +499,7 @@
         274,
         275
       ],
-      "readingMethod": "Testo di 15 pagine già letto. Dieci nuovi controlli di pagina completano 15 rendering; 246 e 250 non hanno figure separate. Figure riprodotte non equivalgono alla lettura degli studi originali; sovrapposizioni/tagli restano dichiarati.",
+      "readingMethod": "Copertura dei lotti precedenti conservata. Nessuna nuova pagina o controllo visivo di questa fonte nel lotto corrente.",
       "previouslyRecordedPdfPages": [
         244,
         245,
@@ -521,11 +520,32 @@
     },
     {
       "id": "R",
-      "edition": "VIII italiana 2016",
+      "edition": "VIII italiana 2016 / originale 2015",
       "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
       "pageCount": 1102,
-      "newlyReadTextPages": [],
+      "newlyReadTextPages": [
+        785,
+        786,
+        787,
+        788,
+        789,
+        790,
+        791,
+        792,
+        793,
+        794
+      ],
       "visuallyCheckedPdfPages": [
+        785,
+        786,
+        787,
+        788,
+        789,
+        790,
+        791,
+        792,
+        793,
+        794,
         795,
         796,
         797,
@@ -534,23 +554,49 @@
       "allContentsRead": false,
       "sourceUnchanged": true,
       "title": "Rang & Dale · Farmacologia",
-      "note": "VIII edizione italiana 2016. PDF 795–798: testo disponibile e immagini controllati, comprese tabelle 42.2–42.3. Paginazione editoriale non stabilita per questo PDF riformattato.",
+      "note": "VIII edizione italiana 2016 / originale 2015. PDF 785–798: testo disponibile letto e rendering controllati; figure 42.1–42.7 e tabelle 42.1–42.3. Dieci nuove pagine in questo ampliamento. Paginazione editoriale non stabilita per il PDF riformattato; PDF 799–813 del capitolo 42 ancora da leggere. Articoli citati non letti integralmente.",
       "pdfPagesRead": [
+        785,
+        786,
+        787,
+        788,
+        789,
+        790,
+        791,
+        792,
+        793,
+        794,
         795,
         796,
         797,
         798
       ],
       "availableExtractedTextReadPages": [
+        785,
+        786,
+        787,
+        788,
+        789,
+        790,
+        791,
+        792,
+        793,
+        794,
         795,
         796,
         797,
         798
       ],
       "imageTextReadPages": [
+        786,
+        787,
+        789,
+        791,
+        792,
+        794,
         796
       ],
-      "readingMethod": "Full available extracted text read; all 4 renders inspected, including raster tables. Interval starts/ends within chapter 42; rest not claimed read.",
+      "readingMethod": "Testo disponibile di PDF 785–794 letto integralmente e dieci rendering ispezionati. Figure, legende e tabella raster distinte dal testo estratto. PDF 795–798 già letti. Confini 785/814 identificati da intestazioni parziali, non lettura delle pagine restanti.",
       "previouslyRecordedPdfPages": [
         795,
         796,
@@ -559,7 +605,7 @@
       ]
     }
   ],
-  "visualPages": 106,
+  "visualPages": 116,
   "expandedExistingChapters": 1,
   "newChapters": 0,
   "newIdentities": 0,
@@ -593,7 +639,7 @@
     {
       "id": "IASP",
       "title": "IASP · Terminologia del dolore",
-      "detail": "Definizioni di dolore, nocicezione, dolore nocicettivo, neuropatico e nociplastico consultate direttamente il 28/10/2026. Terminologia, non guida alla prescrizione; pagina non letta integralmente.",
+      "detail": "Definizioni di dolore, nocicezione, dolore nocicettivo, neuropatico e nociplastico; allodinia, iperalgesia e sensibilizzazione periferica/centrale consultate direttamente il 28/10/2026. Terminologia, non guida alla prescrizione; pagina non letta integralmente.",
       "url": "https://www.iasp-pain.org/resources/terminology/"
     },
     {
@@ -705,8 +751,8 @@
       "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f0976da4-1d20-4517-945c-b60ed2f41c12"
     }
   ],
-  "deduplication": "Confronto SHA-256/pagina con 418 registri JSON disponibili e 24 record di lettura corrispondenti: diapositive 496–505 nuove; dieci pagine degli appunti già lette aggiungono solo controllo visivo. Pannelli ripetuti 502/504/505 e diagrammi ripresi negli appunti non contati come nuove evidenze indipendenti. Ambito limitato ai registri disponibili.",
-  "automaticExtraction": "Estrazione estesa dei PDF usata soltanto per trovare gli intervalli; fuori dalle pagine elencate non equivale a lettura. Per Farmacologia II consultata soltanto una mappa degli argomenti, senza nuove pagine PDF.",
+  "deduplication": "Confronto per SHA-256/pagina con 1196 registri JSON disponibili e i manifest correnti, esclusi snapshot previous-release: PDF 785–794 non già letti nei registri corrispondenti; PDF 795–798 conservati senza ricontarli. Estrazione e liste pianificate non trattate come lettura. Ambito limitato ai registri disponibili.",
+  "automaticExtraction": "Estrazione di PDF 780–820 utilizzata per identificare il confine del capitolo mediante intestazioni parziali. Lettura completa del testo disponibile limitata al nuovo intervallo 785–794 e alle pagine già registrate; estrazione delle altre pagine non equivale a lettura.",
   "sourceConflicts": [
     {
       "source": "CFI 467–469; SFI 247–250",
@@ -775,23 +821,35 @@
     {
       "source": "SFI 244–245,248,251,272–275",
       "resolution": "Tabelle precliniche non trasformate in graduatorie cliniche; esclusa un’affermazione di efficacia non sostenuta dalle fonti istituzionali. Curva pupillare distinta dalla stipsi, agonismo parziale dall’affinità, dipendenza fisica dal disturbo da uso. Duplicati e parti coperte riconosciuti."
+    },
+    {
+      "source": "R 785,788,790",
+      "resolution": "Terminologia IASP: dolore distinto dalla nocicezione, allodinia e iperalgesia non identificano un solo meccanismo; dolore neuropatico richiede lesione o malattia del sistema somatosensoriale. Wind-up non equivale a tutta la sensibilizzazione centrale."
+    },
+    {
+      "source": "R 787",
+      "resolution": "Figura42.2: RP67580 è antagonista NK1, come indicato nel testo e nell’abstract originale consultato nei contenuti indicizzati; la didascalia NK2 è discordante. Figura42.3: NO indica ossido nitrico, non negazione della formazione. Registrazioni animali non equiparate a esiti clinici."
+    },
+    {
+      "source": "R 789,791–794",
+      "resolution": "Circuiti semplificati e soglie termiche non generalizzati a ogni persona. Escluse indicazioni e affermazioni storiche di sviluppo, dosi sperimentali e generalizzazioni chimiche. Sensibilizzazione da prostaglandine non equivale a una loro assoluta incapacità di contribuire al dolore."
     }
   ],
   "remaining": [
     "Katzung: capitolo 31 PDF 631–654 coperto; resto del libro non letto. Bibliografia distinta dagli articoli.",
     "Diapositive: PDF 89–110 e 465–505 letti; continuazione da 506 non letta. Restano sovrapposizioni 109,479,487 e ritagli 494,498.",
     "Appunti:15 pagine delle lezioni 13 e 15 con testo e rendering; tagli o sovrapposizioni 244,245,273,275,277 irrisolti. Il resto del corso non è coperto.",
-    "Rang & Dale: soltanto PDF 795–798; altre parti del capitolo ancora da leggere.",
+    "Rang & Dale: PDF785–798 del capitolo42 coperti; PDF799–813 ancora da leggere. Confine del capitolo successivo identificato da intestazioni parziali. Paginazione editoriale non ricostruita; resto del libro non dichiarato letto.",
     "Nessuna nuova lettura PDF di Farmacologia II.",
     "Consultazioni cliniche selettive; fonti USA e britanniche non equivalgono a RCP italiani. Revisione clinica indipendente non eseguita."
   ],
   "newReadPdfPages": 10,
-  "readingCountDefinition": "Dieci nuove identità di pagina delle diapositive 496–505 e venti nuovi controlli visivi: dieci nuove pagine più dieci pagine degli appunti già lette nel testo. Totale 106 pagine PDF e 106 rendering controllati, non 106 pagine di prosa né recupero delle parti tagliate o coperte. Nessuna lettura integrale del corpus.",
-  "totalReadPdfPages": 106,
-  "currentBatchVisualPages": 20,
+  "readingCountDefinition": "Dieci nuove identità di pagina di Rang & Dale e dieci controlli visivi. Totale cumulativo del capitolo:116 pagine PDF e116 controlli di pagina, non116 pagine di prosa né116 figure. Una pagina può contenere testo, figure, tabelle o bibliografia. Nessuna lettura integrale del corpus.",
+  "totalReadPdfPages": 116,
+  "currentBatchVisualPages": 10,
   "previousBatch": {
-    "batch": "theory-opioid-source-closure",
-    "readPdfPages": 96,
-    "visualPages": 86
+    "batch": "theory-opioid-course-continuation",
+    "readPdfPages": 106,
+    "visualPages": 106
   }
 }

@@ -1,19 +1,20 @@
 {
-  "batch": "theory-opioid-course-continuation",
+  "batch": "theory-opioid-rang-continuation",
   "chapterId": "oppioidi",
-  "checkedAt": "2026-10-28T10:21:25.870939+00:00",
+  "checkedAt": "2026-10-28T11:07:29.523980+00:00",
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "82be9363d7ab18c3bb3f949dc9fbe58f21d7245ded98b30da6028ce71304b2e3",
+  "moduleSha256": "e1c95a518a66e6e08ef427dcc9eec89a6a590671cd64cd9b77ee7c65e697c6ab",
   "checks": [
-    "Due sezioni originali rilette: bersagli oltre MOR e selettività NaV 1.8.",
-    "32 sezioni,5623 parole,21 domande,27 riferimenti.",
-    "Distinti α2δ, poro del calcio, GABA e MOR; nessuna associazione terapeutica raccomandata automaticamente.",
-    "Suzetrigina limitata al contesto del prodotto USA; nessuna superiorità universale o assenza di rischi.",
-    "Dieci nuove pagine e 20 controlli visivi; figure ripetute, tagli e sovrapposizioni registrati.",
-    "39 validatori e 32 configurazioni browser superati; navigazione, tastiera, due temi e offline controllati.",
-    "Aggiornamento reale 0.39.0→0.40.0 superato con preferiti, progressi e tema conservati."
+    "Due sezioni originali rilette: trasduzione e sensibilizzazione periferica; wind-up, sensibilizzazione centrale e segni clinici.",
+    "34 sezioni,6212 parole,23 domande,27 riferimenti.",
+    "Distinti canali trasduttori, canali del sodio e modulazione recettoriale; nessuna nuova raccomandazione prescrittiva.",
+    "Allodinia e iperalgesia non usate per diagnosticare automaticamente un meccanismo o una neuropatia.",
+    "Dieci nuove pagine con testo e rendering controllati; errori di didascalia e traduzione registrati.",
+    "39 validatori e32 configurazioni browser superati; due temi, tastiera, ricerca, fonti e offline controllati.",
+    "Aggiornamento reale0.40.0→0.41.0 verificato con preferiti, progressi e tema conservati.",
+    "Gli altri55 capitoli, catalogo, lettore e laboratorio sono invariati."
   ],
   "limits": [
     "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
