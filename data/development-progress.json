@@ -1,26 +1,25 @@
 {
-  "updatedAt": "2026-10-28T09:09:06.354256+00:00",
-  "batch": "theory-opioid-adaptations",
+  "updatedAt": "2026-10-28T09:49:56.952705+00:00",
+  "batch": "theory-opioid-source-closure",
   "status": "verified_locally_pending_publication",
-  "release": "0.38.0",
-  "branch": "feat/theory-opioid-adaptations",
-  "baseCommit": "b319be7d597351d1b6742bcfbb5bdf783aefb32b",
+  "release": "0.39.0",
+  "branch": "feat/theory-opioid-source-closure",
+  "baseCommit": "5db09ffb92adeea9324f3e7f315d15284d1048c5",
   "previousBatch": {
-    "batch": "theory-opioid-analgesia",
+    "batch": "theory-opioid-adaptations",
     "status": "published_and_live_verified",
-    "release": "0.37.0",
-    "commit": "b319be7d597351d1b6742bcfbb5bdf783aefb32b"
+    "release": "0.38.0",
+    "commit": "5db09ffb92adeea9324f3e7f315d15284d1048c5"
   },
   "scope": [
-    "Ampliare il capitolo sugli oppioidi con quattro sezioni: antagonismo periferico, associazioni con naloxone, tolleranza crociata e remifentanil."
+    "Ampliare il capitolo sugli oppioidi con ricompensa e apprendimento, stabilizzazione terapeutica e interpretazione dei dati sperimentali."
   ],
   "completed": [
-    "27 sezioni, 4463 parole e 16 domande; 24 riferimenti e nove collegamenti al catalogo.",
-    "14 nuove pagine pertinenti lette e controllate visivamente; duplicati e lacune registrati.",
-    "39 validatori e 32 configurazioni browser superati: indice, fonti nuove, tastiera, ricerca, due temi e offline.",
-    "Aggiornamento reale 0.37.0→0.38.0 verificato; preferiti, progressi e tema conservati.",
-    "55 altri capitoli, catalogo e laboratorio invariati; tre fonti originali ricontrollate per hash.",
-    "Corretta la ricerca quando si seleziona la pagina già aperta: finestra chiusa e lettura nuovamente accessibile."
+    "30 sezioni, 5134 parole e 19 domande; 25 riferimenti e nove collegamenti al catalogo.",
+    "14 nuove pagine lette e 22 nuovi controlli visivi; chiuse otto lacune grafiche del testo già letto. Bibliografie e tabelle riprodotte distinte dagli studi originali.",
+    "39 validatori e 32 configurazioni browser superati: indice, fonti, tastiera, ricerca, due temi e offline.",
+    "Aggiornamento reale 0.38.0→0.39.0 verificato; preferiti, progressi e tema conservati.",
+    "55 altri capitoli, catalogo, lettore e laboratorio invariati; le due fonti lette ricontrollate per hash."
   ],
   "remaining": [
     "CI della PR e del commit integrato.",
@@ -50,13 +49,13 @@
     "data/oppioidi-reading.json"
   ],
   "limits": [
-    "Katzung: figure PDF 639–646 non controllate; continuazione da 651 da leggere.",
-    "Diapositive: pagina 109 parzialmente coperta e grafici 479 parzialmente oscurati; continuazione da 486 non letta.",
+    "Katzung: capitolo31 PDF631–654 letto e controllato nelle pagine elencate; resto del libro non letto. Gli articoli della bibliografia non sono stati letti.",
+    "Diapositive: sovrapposizioni PDF109,479,487 e fondo della tabella494 tagliato; continuazione da496 non letta.",
     "Appunti: per questo capitolo restano inclusi soltanto gli intervalli delle lezioni 13 e 15 elencati; cinque pagine controllate visivamente e figure di 277 in parte tagliate. La lezione 14 tratta un altro argomento.",
     "Rang & Dale: soltanto PDF 795–798, non tutto il capitolo.",
     "Nessuna nuova lettura PDF del corso di Farmacologia II.",
     "Revisione clinica indipendente non eseguita; fonti USA e britanniche non equivalgono all’RCP italiano.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Dopo la verifica online: controllare le figure Katzung PDF639–646 ancora mancanti, poi un intervallo delimitato di continuazione da651; diapositive da486 ancora non lette. La lezione14 degli appunti riguarda antiepilettici e resta fuori dal capitolo sugli oppioidi."
+  "nextBatch": "Dopo verifica online: leggere e classificare un intervallo delimitato delle diapositive da496, senza saltare a un altro capitolo. Restano i controlli visivi degli appunti sulle pagine già lette ma non viste; le figure tagliate o coperte restano lacune. Completare poi la riconciliazione delle fonti del capitolo prima di passare a un altro argomento."
 }

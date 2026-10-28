@@ -1,20 +1,21 @@
 {
-  "batch": "theory-opioid-adaptations",
+  "batch": "theory-opioid-source-closure",
   "chapterId": "oppioidi",
-  "checkedAt": "2026-10-28T09:03:09.024132+00:00",
+  "checkedAt": "2026-10-28T09:46:58.412270+00:00",
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "b8ba29eb1371d45fd16f10ef35819d01651a4e9de16d69eae83c5b119a0d5711",
+  "moduleSha256": "5d4879747c8650c7d0cc5dbffc6c1d24e2cb46c0a16f34fdf9d09059e6715ad6",
   "checks": [
-    "Quattro nuove sezioni e quattro domande rilette: distribuzione, primo passaggio, tolleranza crociata ed esterasi.",
-    "27 sezioni, 4463 parole e 16 domande; 24 riferimenti riconciliati per sezione.",
-    "Antagonismo periferico non assoluto; naloxone nelle due associazioni distinto per obiettivo e via.",
-    "Esterasi aspecifiche distinte dalla colinesterasi plasmatica; nessuna tabella di conversione, dose o protocollo aggiunti.",
-    "Conservati il laboratorio e nove collegamenti esistenti; denominazioni pubbliche del corso generiche."
+    "Tre nuove sezioni rilette e confrontate con gli intervalli: ricompensa e apprendimento, stabilizzazione terapeutica, lettura dei dati sperimentali.",
+    "30 sezioni, 5134 parole e19 domande;25 riferimenti.",
+    "Distinti disinibizione mesolimbica e modulazione del dolore; nessun determinismo individuale o equivalenza fra dopamina e piacere.",
+    "Farmaci per il disturbo da uso contestualizzati con CDC ed EMA; nessuna dose, calendario di riduzione o preferenza universale.",
+    "Legame, saggio, specie e metaboliti distinti da esito clinico; sigle di dato mancante e attività non rilevata non confuse.",
+    "Bibliografia non equiparata agli articoli; grafici sovrapposti e tabella tagliata dichiarati."
   ],
   "limits": [
     "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
-    "Copertura e lacune in oppioidi-reading.json; prove software e pubblicazione registrate separatamente."
+    "Prove software locali superate; CI, pubblicazione e verifica online registrate separatamente."
   ]
 }
