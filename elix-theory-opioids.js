@@ -187,10 +187,22 @@ export const THEORY_OPIOIDS=Object.freeze({
       "title": "Respirazione e sedazione: effetti collegati, ma non sinonimi",
       "refs": [
         "K",
+        "R",
         "MOR",
         "BUP"
       ],
-      "text": "Gli oppioidi possono ridurre l’attività dei sistemi che sostengono la ventilazione e la loro risposta all’aumento della CO₂. La depressione respiratoria riguarda dunque il controllo e l’efficacia della respirazione, non soltanto il grado di sonnolenza. Una persona può apparire sedata per molte cause; il rischio respiratorio richiede una valutazione specifica.\n\nIl medesimo bersaglio che contribuisce all’analgesia può intervenire in circuiti differenti. La presenza di dolore non impedisce al farmaco di agire sui sistemi respiratori o di ricompensa. Non esiste un interruttore che destini tutta la molecola al circuito doloroso finché il paziente soffre.\n\nLa contemporanea esposizione a benzodiazepine, alcol o altri depressori del sistema nervoso centrale può aumentare sedazione e depressione respiratoria. Il rischio non si risolve contando soltanto quanti farmaci appartengono alla stessa classe. Anche la tolleranza a un effetto non garantisce protezione completa da un altro, soprattutto quando cambiano esposizione, associazioni o condizioni della persona."
+      "text": "Gli oppioidi possono ridurre l’attività dei sistemi che sostengono la ventilazione e la loro risposta all’aumento della CO₂. La depressione respiratoria riguarda dunque il controllo e l’efficacia della respirazione, non soltanto il grado di sonnolenza. Una persona può apparire sedata per molte cause; il rischio respiratorio richiede una valutazione specifica.\n\nPer seguire il meccanismo occorre distinguere la generazione del ritmo respiratorio dalla risposta che adegua la ventilazione alle necessità dell’organismo. Entrambe dipendono da reti neuronali del tronco encefalico. Il complesso pre-Bötzinger, richiamato dal testo, è un nodo della generazione del ritmo, non un unico comando isolato che spieghi ogni effetto. Ridurre l’eccitabilità e la trasmissione nei circuiti respiratori può compromettere frequenza, regolarità e ventilazione complessiva: applicare lo schema Gi/o significa chiedersi quale rete viene inibita, non limitarsi a riconoscere il recettore.\n\nNormalmente un aumento della CO₂ contribuisce a stimolare la ventilazione. La morfina attenua questa risposta; la ritenzione di CO₂ può inoltre aggravare la sedazione. Ne deriva un’interazione fra controllo respiratorio e stato di coscienza, non un’equivalenza fra i due. Anche la pupilla fornisce un’informazione diversa: la miosi è compatibile con un effetto oppioide, ma non è specifica e può mancare, anche nelle intossicazioni complicate da ipossia. Il diametro pupillare non misura la ventilazione.\n\nIl medesimo bersaglio che contribuisce all’analgesia può intervenire in circuiti differenti. La presenza di dolore non impedisce al farmaco di agire sui sistemi respiratori o di ricompensa. Non esiste un interruttore che destini tutta la molecola al circuito doloroso finché il paziente soffre.\n\nLa contemporanea esposizione a benzodiazepine, alcol o altri depressori del sistema nervoso centrale può aumentare sedazione e depressione respiratoria. Il rischio non si risolve contando soltanto quanti farmaci appartengono alla stessa classe. Anche la tolleranza a un effetto non garantisce protezione completa da un altro, soprattutto quando cambiano esposizione, associazioni o condizioni della persona."
+    },
+    {
+      "id": "prurito-meccanismi",
+      "title": "Prurito: distinguere mediatori periferici e circuiti spinali",
+      "refs": [
+        "R",
+        "MOR",
+        "MC-HUMAN",
+        "ITCH-SPINAL"
+      ],
+      "text": "Un effetto indesiderato non identifica da solo un meccanismo. Il prurito associato agli oppioidi permette di collegare farmacologia recettoriale, sede di esposizione e funzione della rete. Nella documentazione della morfina, prurito e arrossamento compaiono fra le manifestazioni associate al rilascio di istamina e/o alla vasodilatazione periferica. Questo descrive una possibilità, non dimostra che ogni episodio abbia la stessa origine.\n\nUn esperimento su mastociti umani isolati ha osservato che la morfina stimolava il rilascio di istamina e triptasi nelle cellule cutanee, senza la stessa risposta nelle preparazioni polmonari e cardiache esaminate. Lo studio collega questa eterogeneità all’espressione e alla funzione del recettore MRGPRX2, distinto dai recettori oppioidi classici. Il risultato mostra perché il tessuto e il tipo cellulare contano. Le concentrazioni sperimentali non diventano dosi terapeutiche, né il comportamento di cellule isolate consente di prevedere il sintomo in una singola persona.\n\nEsiste anche un livello neuronale. Uno studio sulla morfina somministrata per via neurassiale ha identificato, nel topo, un meccanismo di disinibizione che coinvolge neuroni spinali della dinorfina; in quel modello il prurito dipendeva dai neuroni e non dai mastociti. È un’applicazione dello stesso principio discusso nel laboratorio: inibire un elemento che frena una via può aumentare l’uscita della rete. La somiglianza del principio non rende identici il circuito del prurito e quello discendente del dolore.\n\nI due livelli non vanno fusi in una spiegazione universale. Molecola, via di somministrazione e distretto modificano le domande da porre. Dal solo prurito non si può concludere né che esista un’allergia immunologica né che una reazione sia innocua. Gli studi meccanicistici aiutano a interpretare la diversità degli effetti; non stabiliscono da soli la scelta di un trattamento o l’efficacia degli antistaminici in ogni situazione."
     },
     {
       "id": "intestino",
@@ -432,6 +444,14 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "question": "Allodinia significa automaticamente dolore neuropatico o prova diretta di sensibilizzazione centrale?",
       "answer": "No. Descrive dolore provocato da uno stimolo normalmente non doloroso. Il segno non identifica da solo un meccanismo; il dolore neuropatico richiede una lesione o malattia del sistema somatosensoriale."
+    },
+    {
+      "question": "Una pupilla piccola dimostra da sola una depressione respiratoria da oppioidi?",
+      "answer": "No. La miosi non è specifica e può mancare anche in un’intossicazione. Pupilla, sedazione e ventilazione descrivono funzioni diverse; il rischio respiratorio non si deduce da un solo segno."
+    },
+    {
+      "question": "Il prurito dopo un oppioide si spiega sempre con il rilascio di istamina?",
+      "answer": "No. Esistono contributi periferici e meccanismi neuronali distinti. Gli esperimenti su mastociti umani isolati e sui circuiti spinali animali rispondono a domande diverse; non permettono di diagnosticare una reazione individuale o di scegliere automaticamente un trattamento."
     }
   ],
   "references": [
@@ -443,7 +463,7 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "R",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII edizione italiana 2016 / originale 2015. PDF 785–798: testo disponibile letto e rendering controllati; figure 42.1–42.7 e tabelle 42.1–42.3. Dieci nuove pagine in questo ampliamento. Paginazione editoriale non stabilita per il PDF riformattato; PDF 799–813 del capitolo 42 ancora da leggere. Articoli citati non letti integralmente."
+      "detail": "VIII edizione italiana 2016 / originale 2015. PDF 785–803: testo disponibile letto e rendering controllati; figure 42.1–42.7 e tabelle 42.1–42.4. Cinque nuove pagine in questo ampliamento, inclusa tabella42.4. Paginazione editoriale non stabilita per il PDF riformattato; PDF 804–813 del capitolo42 ancora da leggere. Articoli e destinazioni delle note fuori intervallo non letti integralmente."
     },
     {
       "id": "CFI",
@@ -506,7 +526,7 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "MOR",
       "title": "Morfina solfato · documento del prodotto USA",
-      "detail": "Morfina solfato orale Hikma, documento USA. Sintesi e sezioni 12.1–12.2 aperte direttamente; passaggi 12.3 su metaboliti e funzione renale nei contenuti indicizzati, il 28/10/2026. Modifiche principali 12/2025; lettura selettiva, senza dosaggi o indicazioni pediatriche.",
+      "detail": "Morfina solfato orale Hikma, documento USA. Sintesi, avvertenze 5.2 e 12.2 su respirazione, pupilla e mediatori periferici ricontrollate direttamente il 28/10/2026. Precedenti consultazioni 12.1 e passaggi 12.3 su metaboliti conservate; modifiche principali 12/2025. Lettura selettiva, senza dosaggi né indicazioni pediatriche.",
       "url": "https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=3c847554-3b4b-4d24-a145-2ef7e9b83699&type=display"
     },
     {
@@ -592,6 +612,18 @@ export const THEORY_OPIOIDS=Object.freeze({
       "title": "Journavx · documento del prodotto USA",
       "detail": "Vertex: indicazione, durata studiata, precauzioni e meccanismo consultati direttamente il 28/10/2026. DailyMed aggiornato 02/10/2026; testo revisionato 01/2026. Lettura selettiva, senza dosaggi o autorizzazioni italiane.",
       "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f0976da4-1d20-4517-945c-b60ed2f41c12"
+    },
+    {
+      "id": "MC-HUMAN",
+      "title": "Mastociti umani e MRGPRX2 · studio sperimentale",
+      "detail": "Varricchi et al., Frontiers in Cellular Neuroscience 2019;13:299, DOI 10.3389/fncel.2019.00299. Abstract PubMed letto direttamente il 28/10/2026: cellule umane isolate da tessuti differenti. Articolo completo e figure non letti; non linea guida clinica.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31333418/"
+    },
+    {
+      "id": "ITCH-SPINAL",
+      "title": "Morfina e prurito spinale · studio sperimentale",
+      "detail": "Nguyen et al., Science Translational Medicine 2021;13:eabc3774, DOI 10.1126/scitranslmed.abc3774. Abstract PubMed letto direttamente il 28/10/2026: modelli animali di esposizione neurassiale. Articolo completo e figure non letti; non raccomandazione terapeutica.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33536279/"
     }
   ],
   "moleculeLinks": [
@@ -645,5 +677,5 @@ export const THEORY_OPIOIDS=Object.freeze({
     "antidepressivi"
   ],
   "coverage": "Sintesi originale da intervalli delimitati dei libri e da appunti e diapositive del corso di Farmacologia. Lettura integrale di libri e corsi non completata. Fonti ufficiali consultate per passaggi selezionati; documenti USA e britannici non equivalgono all’RCP italiano. Revisione clinica indipendente non eseguita.",
-  "wordCount": 6212
+  "wordCount": 6646
 });
