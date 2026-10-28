@@ -3,7 +3,7 @@ import {readFileSync} from 'node:fs';
 import {ELIX_CHAPTERS} from '../elix-content.js';
 import {THEORY_FOUNDATIONS as c} from '../elix-theory-foundations.js';
 import {bindingFraction,renderTheorySection,renderTheoryExtras} from '../elix-theory-reader.js';
-assert.equal(ELIX_CHAPTERS.length,56);assert.equal(ELIX_CHAPTERS.filter(x=>x.id===c.id).length,1);assert.equal(ELIX_CHAPTERS.find(x=>x.id===c.id),c);
+assert.equal(ELIX_CHAPTERS.length,57);assert.equal(ELIX_CHAPTERS.filter(x=>x.id===c.id).length,1);assert.equal(ELIX_CHAPTERS.find(x=>x.id===c.id),c);
 assert.equal(c.sections.length,13);assert.equal(c.wordCount,c.sections.map(x=>x.text).join(' ').split(/\s+/).length);assert.ok(c.wordCount>2000);
 const ids=new Set(c.references.map(x=>x.id));assert.equal(ids.size,c.references.length);assert.equal(new Set(c.sections.map(x=>x.id)).size,c.sections.length);
 for(const s of c.sections){assert.ok(s.text.split('\n\n').length>=3);assert.ok(s.refs.length);for(const id of s.refs)assert.ok(ids.has(id));}

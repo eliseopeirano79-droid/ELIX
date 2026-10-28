@@ -1,25 +1,24 @@
 {
-  "updatedAt": "2026-10-28T19:32:13.814211+00:00",
-  "batch": "theory-course-511-515",
+  "updatedAt": "2026-10-28T20:13:47.812547+00:00",
+  "batch": "theory-course-516-520",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.46.0",
-  "branch": "feat/theory-course-511-515",
-  "baseCommit": "240f05bb4e809b121642730afceb7a1af59be4fa",
+  "release": "0.47.0",
+  "branch": "feat/theory-course-516-520",
+  "baseCommit": "cfc4d6f745c855f2fa9c43a5a38940d5ad58daac",
   "previousBatch": {
-    "batch": "theory-course-506-510",
+    "batch": "theory-course-511-515",
     "status": "published_and_live_verified",
-    "release": "0.45.0",
-    "commit": "240f05bb4e809b121642730afceb7a1af59be4fa"
+    "release": "0.46.0",
+    "commit": "cfc4d6f745c855f2fa9c43a5a38940d5ad58daac"
   },
   "scope": [
-    "Ampliare il collegamento fra bersaglio, circuito e distribuzione nella sezione già presente su ziconotide."
+    "Nuovo capitolo esteso sui fondamenti dell’emicrania e sull’uso eccessivo di medicinali."
   ],
   "completed": [
-    "40 sezioni, 8287 parole, 32 domande, 35 riferimenti e 12 collegamenti a identità esistenti.",
-    "Cinque nuove pagine lette e ispezionate: tre per questo capitolo, due di emicrania conservate separatamente.",
-    "39 validatori e 32 configurazioni browser superati; due temi, tastiera, ricerca, fonti e offline controllati.",
-    "Aggiornamento reale 0.45.0→0.46.0 verificato con preferiti, progressi e tema conservati.",
-    "Gli altri 55 capitoli, catalogo, lettore e laboratorio sono invariati."
+    "Cinque nuove pagine e cinque rendering letti; due pagine precedenti recuperate senza ricontarle.",
+    "Tredici fonti ufficiali/prodotto consultate selettivamente; riconciliazione e nuovo capitolo di dodici sezioni.",
+    "40 validatori e otto configurazioni browser superati; due temi, tastiera, sei farmaci, cinque capitoli, fonti, ricerca e offline.",
+    "Aggiornamento reale 0.46.0→0.47.0 con preferiti, progressi e tema conservati; i 56 capitoli esistenti sono invariati."
   ],
   "remaining": [
     "CI sul commit, deploy concluso e verifica online di file, navigazione, offline e percorsi di accesso."
@@ -31,8 +30,8 @@
     "pkFields": 420,
     "importedLabelsWithoutEditorial": 93,
     "targetProfiles": 36,
-    "chapters": 56,
-    "extendedChapters": 11,
+    "chapters": 57,
+    "extendedChapters": 12,
     "briefChapters": 45
   },
   "changes": {
@@ -40,25 +39,22 @@
     "newDrugSummaries": 0,
     "newProductPKContexts": 0,
     "newPKFields": 0,
-    "newChapters": 0,
-    "expandedChapters": 1,
+    "newChapters": 1,
+    "expandedChapters": 0,
     "newInteractiveLabs": 0,
-    "newSections": 0,
-    "expandedSections": 1,
-    "newLinksToExistingIdentities": 0
+    "newSections": 12,
+    "expandedSections": 0,
+    "newLinksToExistingIdentities": 6
   },
   "readingManifests": [
-    "data/oppioidi-reading.json"
+    "data/emicrania-reading.json"
   ],
   "limits": [
-    "Katzung: capitolo 31 PDF 631–654 coperto; resto del libro non letto. Bibliografia distinta dagli articoli.",
-    "Diapositive: per questo capitolo PDF 89–110 e 465–513 coperti. PDF 514–515 lette e controllate, ma dedicate all’emicrania e non ancora integrate. Da 516 non letto. Restano sovrapposizioni e ritagli precedenti, unità della didascalia 508 non validata e pannelli coperti in 512–513.",
-    "Appunti:15 pagine delle lezioni 13 e 15 con testo e rendering; tagli o sovrapposizioni 244,245,273,275,277 irrisolti. Il resto del corso non è coperto.",
-    "Rang & Dale: capitolo42 PDF785–813 coperto nel testo disponibile e nei rendering, inclusa bibliografia e note; articoli citati e resto del libro non letti. Paginazione editoriale non ricostruita.",
-    "Nessuna nuova lettura PDF di Farmacologia II.",
-    "Consultazioni cliniche selettive; fonti USA e britanniche non equivalgono a RCP italiani. Revisione clinica indipendente non eseguita.",
-    "Quattro studi di meccanismo consultati solo tramite abstract nei lotti precedenti; nessuna nuova lettura di articoli in questo lotto.",
-    "Chromium con dimensioni simulate, non dispositivi fisici."
+    "Prima stesura estesa sui fondamenti dell’emicrania, sul rapporto fra circuito e bersagli e sulla cefalea da uso eccessivo. Sette pagine delle diapositive lette e controllate, cinque nuove; nessun manuale o corso intero dichiarato letto. Restano da integrare i corrispondenti intervalli dei libri e degli appunti, le classi specifiche, gli anticorpi e le popolazioni speciali. Consultazioni ufficiali selettive: controllo editoriale mirato, non revisione clinica indipendente.",
+    "Articoli citati nelle immagini non letti integralmente; note originali dell’algoritmo nella pagina 520 non disponibili.",
+    "Nessuna nuova lettura di libri, appunti o Farmacologia II in questo lotto.",
+    "Fonti britanniche non equivalgono a RCP o regole di accesso italiani; consultazioni ufficiali selettive.",
+    "Chromium con dimensioni simulate; non dispositivi fisici."
   ],
-  "nextBatch": "Diapositive del corso di Farmacologia PDF 516–520: continuare l’emicrania recuperando 514–515 già lette senza ricontarle."
+  "nextBatch": "Diapositive PDF 521–525, previa deduplicazione; quindi riconciliare i corrispondenti intervalli di libri e appunti."
 }

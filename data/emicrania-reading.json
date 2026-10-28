@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "batch": "theory-course-516-520",
+  "chapterId": "emicrania",
+  "updatedAt": "2026-10-28T20:13:47.812547+00:00",
+  "status": "editorial_reconciled_locally_verified_pending_publication",
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "sources": [
+    {
+      "id": "CFI",
+      "title": "Diapositive del corso di Farmacologia I",
+      "edition": "AA 2025–26",
+      "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
+      "pageCount": 935,
+      "pdfPagesRead": [
+        514,
+        515,
+        516,
+        517,
+        518,
+        519,
+        520
+      ],
+      "visuallyCheckedPdfPages": [
+        514,
+        515,
+        516,
+        517,
+        518,
+        519,
+        520
+      ],
+      "newlyReadTextPages": [
+        516,
+        517,
+        518,
+        519,
+        520
+      ],
+      "reusedPreviouslyReadPages": [
+        514,
+        515
+      ],
+      "internalLabels": [
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        518
+      ],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "remaining": "PDF 521–935 e altri intervalli del corso non coperti da questo capitolo.",
+      "limits": [
+        "Articoli 2010, 2020, 2021, 2023 citati nelle immagini non letti integralmente.",
+        "Nessuna nuova lettura di libri o appunti; nessuna intera linea guida dichiarata letta.",
+        "Nessuna revisione clinica indipendente."
+      ]
+    }
+  ],
+  "newReadPdfPages": 5,
+  "totalReadPdfPages": 7,
+  "currentBatchVisualPages": 5,
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "expandedExistingChapters": 0,
+  "newChapters": 1,
+  "officialSources": [
+    {
+      "id": "ICHD-1",
+      "title": "International Headache Society · ICHD-3, emicrania",
+      "url": "https://ichd-3.org/1-migraine/",
+      "detail": "Introduzione e regole per cefalea primaria/secondaria consultate il 28/10/2026; non lettura dell’intera classificazione."
+    },
+    {
+      "id": "ICHD-11",
+      "title": "ICHD-3 · Emicrania senza aura",
+      "url": "https://ichd-3.org/1-migraine/1-1-migraine-without-aura/",
+      "detail": "Descrizione, criteri, note e commenti letti direttamente il 28/10/2026, incluso il superamento della spiegazione soltanto vascolare."
+    },
+    {
+      "id": "ICHD-12",
+      "title": "ICHD-3 · Emicrania con aura",
+      "url": "https://ichd-3.org/1-migraine/1-2-migraine-with-aura/",
+      "detail": "Descrizione, criteri, note e commenti letti il 28/10/2026. Durata per singolo sintomo, eccezioni e distinzione dal dolore."
+    },
+    {
+      "id": "ICHD-13",
+      "title": "ICHD-3 · Emicrania cronica",
+      "url": "https://ichd-3.org/1-migraine/1-3-chronic-migraine/",
+      "detail": "Descrizione, criteri e note letti il 28/10/2026: giorni di cefalea, componente emicranica e possibile coesistenza con MOH."
+    },
+    {
+      "id": "ICHD-MOH",
+      "title": "ICHD-3 · Cefalea da uso eccessivo di medicinali",
+      "url": "https://ichd-3.org/8-headache-attributed-to-a-substance-or-its-withdrawal/8-2-medication-overuse-headache-moh/",
+      "detail": "Descrizione, criteri, note e commenti consultati il 28/10/2026. La risoluzione dopo sospensione non è un requisito diagnostico preliminare."
+    },
+    {
+      "id": "ICHD-TMOH",
+      "title": "ICHD-3 · Uso eccessivo di triptani",
+      "url": "https://ichd-3.org/8-headache-attributed-to-a-substance-or-its-withdrawal/8-2-medication-overuse-headache-moh/8-2-2-triptan-overuse-headache/",
+      "detail": "Descrizione, criteri e commento consultati il 28/10/2026: conteggio dei giorni d’uso, oltre tre mesi e criteri generali."
+    },
+    {
+      "id": "ICHD-NMOH",
+      "title": "ICHD-3 · Uso eccessivo di analgesici non oppioidi",
+      "url": "https://ichd-3.org/8-headache-attributed-to-a-substance-or-its-withdrawal/8-2-medication-overuse-headache-moh/8-2-3-simple-analgesic-overuse-headache/",
+      "detail": "Descrizione e commenti consultati il 28/10/2026, incluso il conteggio cumulativo della classe."
+    },
+    {
+      "id": "NICE",
+      "title": "NICE CG150 · Cefalee oltre i 12 anni",
+      "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+      "detail": "Raccomandazioni 1.3.10–1.3.33 e 1.3.42–1.3.48 lette nella pagina corrente il 28/10/2026. Contesto britannico; nessun protocollo, dosaggio o criterio di rimborso italiano derivato."
+    },
+    {
+      "id": "RIM-EMA",
+      "title": "EMA · Vydura, informazioni di prodotto",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/vydura-epar-product-information_en.pdf",
+      "detail": "Consultazione selettiva il 28/10/2026: 4.1 (PDF 2), 4.4 (PDF 3) e meccanismo iniziale di 5.1 (PDF 6). Studi e intero documento non letti."
+    },
+    {
+      "id": "ATO-EMA",
+      "title": "EMA · Aquipta, informazioni di prodotto",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/aquipta-epar-product-information_en.pdf",
+      "detail": "Consultazione selettiva il 28/10/2026: indicazioni 4.1 (PDF 2), avvertenze 4.4 (PDF 4) e meccanismo iniziale di 5.1 (PDF 6). Documento corrente con trattamento acuto e profilassi; affinità recettoriale distinta dal meccanismo clinico preciso."
+    },
+    {
+      "id": "TOP-EMA",
+      "title": "EMA · Misure di sicurezza sul topiramato",
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/topiramate",
+      "detail": "Misure del 2023 ricontrollate il 28/10/2026: gravidanza, differenza fra indicazioni e programma di prevenzione della gravidanza."
+    },
+    {
+      "id": "SUM-UK",
+      "title": "Sumatriptan compresse · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/525/smpc",
+      "detail": "Documento aggiornato il 17/06/2026, consultato il 28/10/2026: indicazione e precauzioni/controindicazioni selezionate in 4.1, 4.3–4.4. Non un RCP italiano."
+    },
+    {
+      "id": "NIH",
+      "title": "NIH/NINDS · Migraine",
+      "url": "https://health.nih.gov/health-topics-a-z/migraine",
+      "detail": "Quadro generale, fasi, diagnosi e diario letti il 28/10/2026; la sintesi per il pubblico non sostituisce i criteri ICHD o le informazioni dei singoli prodotti."
+    }
+  ],
+  "limits": [
+    "Prima stesura estesa sui fondamenti dell’emicrania, sul rapporto fra circuito e bersagli e sulla cefalea da uso eccessivo. Sette pagine delle diapositive lette e controllate, cinque nuove; nessun manuale o corso intero dichiarato letto. Restano da integrare i corrispondenti intervalli dei libri e degli appunti, le classi specifiche, gli anticorpi e le popolazioni speciali. Consultazioni ufficiali selettive: controllo editoriale mirato, non revisione clinica indipendente.",
+    "Articoli citati nelle immagini non letti integralmente; note originali dell’algoritmo nella pagina 520 non disponibili.",
+    "Nessuna nuova lettura di libri, appunti o Farmacologia II in questo lotto.",
+    "Fonti britanniche non equivalgono a RCP o regole di accesso italiani; consultazioni ufficiali selettive.",
+    "Chromium con dimensioni simulate; non dispositivi fisici."
+  ],
+  "nextInterval": "Diapositive PDF 521–525, previa deduplicazione; quindi riconciliare i corrispondenti intervalli di libri e appunti."
+}

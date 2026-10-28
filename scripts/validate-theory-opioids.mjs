@@ -6,7 +6,7 @@ import {THEORY_OPIOIDS as c} from '../elix-theory-opioids.js';
 import {OPIOID_STATES,opioidState,opioidScene} from '../elix-opioid-explorer.js';
 import {renderTheorySection} from '../elix-theory-reader.js';
 const read=f=>readFileSync(new URL('../'+f,import.meta.url),'utf8');
-assert.equal(ELIX_CHAPTERS.length,56);assert.equal(new Set(ELIX_CHAPTERS.map(c=>c.id)).size,56);assert.equal(ELIX_CHAPTERS.filter(c=>c.format==='extended').length,11);
+assert.equal(ELIX_CHAPTERS.length,57);assert.equal(new Set(ELIX_CHAPTERS.map(c=>c.id)).size,57);assert.equal(ELIX_CHAPTERS.filter(c=>c.format==='extended').length,12);
 assert.equal(ELIX_CHAPTERS.find(x=>x.id==='oppioidi'),c);assert.equal(c.sections.length,40);assert.equal(c.checks.length,32);assert.equal(new Set(c.sections.map(s=>s.id)).size,40);
 assert.equal(c.wordCount,c.sections.map(s=>s.text).join(' ').split(/\s+/).length);assert.ok(c.wordCount>8000);
 const refs=new Set(c.references.map(r=>r.id));assert.equal(refs.size,35);
