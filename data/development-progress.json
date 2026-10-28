@@ -1,29 +1,30 @@
 {
-  "updatedAt": "2026-10-28T08:13:32.905722+00:00",
-  "batch": "theory-opioid-analgesia",
+  "updatedAt": "2026-10-28T09:09:06.354256+00:00",
+  "batch": "theory-opioid-adaptations",
   "status": "verified_locally_pending_publication",
-  "release": "0.37.0",
-  "branch": "feat/theory-opioid-analgesia",
-  "baseCommit": "f7776f8315dc7a254da5168c27e597e1c0968b3c",
+  "release": "0.38.0",
+  "branch": "feat/theory-opioid-adaptations",
+  "baseCommit": "b319be7d597351d1b6742bcfbb5bdf783aefb32b",
   "previousBatch": {
-    "batch": "theory-depression-circuits",
+    "batch": "theory-opioid-analgesia",
     "status": "published_and_live_verified",
-    "release": "0.36.0",
-    "commit": "f7776f8315dc7a254da5168c27e597e1c0968b3c"
+    "release": "0.37.0",
+    "commit": "b319be7d597351d1b6742bcfbb5bdf783aefb32b"
   },
   "scope": [
-    "Ampliare il capitolo esistente sugli oppioidi: recettori, circuiti, molecole, adattamenti e contesti del dolore.",
-    "Aggiungere un laboratorio originale a quattro viste qualitative, conservando gli altri 55 capitoli e il catalogo."
+    "Ampliare il capitolo sugli oppioidi con quattro sezioni: antagonismo periferico, associazioni con naloxone, tolleranza crociata e remifentanil."
   ],
   "completed": [
-    "23 sezioni, 3717 parole, 12 domande e 19 riferimenti; 9 collegamenti a identità già presenti.",
-    "39 validatori e 32 configurazioni browser superati; indice, fonti, tastiera, ricerca e due temi.",
-    "Offline e aggiornamento reale 0.36.0→0.37.0 verificati con preferiti, progressi e tema conservati.",
-    "Schermate desktop/mobile controllate; fonti originali e altri 55 capitoli invariati."
+    "27 sezioni, 4463 parole e 16 domande; 24 riferimenti e nove collegamenti al catalogo.",
+    "14 nuove pagine pertinenti lette e controllate visivamente; duplicati e lacune registrati.",
+    "39 validatori e 32 configurazioni browser superati: indice, fonti nuove, tastiera, ricerca, due temi e offline.",
+    "Aggiornamento reale 0.37.0→0.38.0 verificato; preferiti, progressi e tema conservati.",
+    "55 altri capitoli, catalogo e laboratorio invariati; tre fonti originali ricontrollate per hash.",
+    "Corretta la ricerca quando si seleziona la pagina già aperta: finestra chiusa e lettura nuovamente accessibile."
   ],
   "remaining": [
     "CI della PR e del commit integrato.",
-    "Deploy concluso e verifiche online, comprese le risorse e i percorsi storici."
+    "Deploy concluso e verifiche online, risorse e percorsi storici."
   ],
   "counts": {
     "identities": 4225,
@@ -43,17 +44,19 @@
     "newPKFields": 0,
     "newChapters": 0,
     "expandedChapters": 1,
-    "newInteractiveLabs": 1
+    "newInteractiveLabs": 0
   },
   "readingManifests": [
     "data/oppioidi-reading.json"
   ],
   "limits": [
-    "Lettura di 68 pagine PDF delimitate, con testo disponibile e 50 controlli visivi; non libri o corsi interi.",
-    "Katzung 639–646: figure non controllate; diapositive 109 parzialmente coperte e alcune figure degli appunti 277 tagliate.",
-    "Fonti ufficiali consultate selettivamente, in parte tramite contenuti indicizzati; documenti USA e britannici distinti dagli RCP italiani.",
-    "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
+    "Katzung: figure PDF 639–646 non controllate; continuazione da 651 da leggere.",
+    "Diapositive: pagina 109 parzialmente coperta e grafici 479 parzialmente oscurati; continuazione da 486 non letta.",
+    "Appunti: per questo capitolo restano inclusi soltanto gli intervalli delle lezioni 13 e 15 elencati; cinque pagine controllate visivamente e figure di 277 in parte tagliate. La lezione 14 tratta un altro argomento.",
+    "Rang & Dale: soltanto PDF 795–798, non tutto il capitolo.",
+    "Nessuna nuova lettura PDF del corso di Farmacologia II.",
+    "Revisione clinica indipendente non eseguita; fonti USA e britanniche non equivalgono all’RCP italiano.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Dopo la verifica online: proseguire lo stesso argomento con diapositive PDF 476–485 e Katzung PDF 647–650, deduplicando e controllando le figure pertinenti; appunti della lezione 14 ancora da riconciliare. Non dichiarare letti questi intervalli."
+  "nextBatch": "Dopo la verifica online: controllare le figure Katzung PDF639–646 ancora mancanti, poi un intervallo delimitato di continuazione da651; diapositive da486 ancora non lette. La lezione14 degli appunti riguarda antiepilettici e resta fuori dal capitolo sugli oppioidi."
 }

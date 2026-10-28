@@ -145,6 +145,15 @@ export const THEORY_OPIOIDS=Object.freeze({
       "text": "La rapidità con cui un effetto compare dipende da quanto velocemente il farmaco raggiunge il sito d’azione. La durata dipende anche da distribuzione, rilascio dalla formulazione ed eliminazione. Per questo la sola parola fentanyl non basta a descrivere un profilo temporale: una preparazione iniettabile e un cerotto non consegnano il principio attivo nello stesso modo.\n\nPer Durogesic DTrans il documento britannico consultato segnala che la via transdermica è generalmente sconsigliata nei pazienti non già tolleranti agli oppioidi e che il rischio di ipoventilazione può essere grave. Dopo la rimozione del cerotto l’esposizione diminuisce gradualmente. L’aumento della temperatura cutanea e le fonti esterne di calore possono aumentare l’assorbimento e il rischio di tossicità.\n\nL’esempio mostra che una formulazione prolungata non è un modo universalmente più sicuro di utilizzare una molecola potente. Va compresa nel proprio contesto autorizzativo e nelle sue precauzioni. Qui non vengono proposte equivalenze tra prodotti né conversioni tra milligrammi, microgrammi e velocità di rilascio."
     },
     {
+      "id": "remifentanil",
+      "title": "Remifentanil: quando la durata dipende dall’idrolisi",
+      "refs": [
+        "K",
+        "REMI"
+      ],
+      "text": "Il remifentanil permette di separare un’altra volta bersaglio e tempo. È un agonista μ, ma la rapidità con cui termina l’effetto dipende anche dalla sua inattivazione: il legame estere viene idrolizzato da esterasi aspecifiche presenti nel sangue e nei tessuti. Non si tratta della colinesterasi plasmatica. Confondere questi enzimi porterebbe a trasferire al remifentanil spiegazioni farmacocinetiche appartenenti ad altri farmaci.\n\nLa concentrazione nel sito d’azione e quella plasmatica restano grandezze distinte. La rapida riduzione dell’esposizione al composto attivo può rendere breve anche l’analgesia dopo l’interruzione. Nel contesto anestesiologico ciò richiede di prevedere come verrà assicurato il controllo del dolore successivo: una rapida scomparsa non costituisce, da sola, un vantaggio per ogni obiettivo terapeutico.\n\nBreve durata non significa innocuità durante l’esposizione. Sono possibili depressione respiratoria e altri effetti oppioidi, e l’impiego richiede un ambiente con monitoraggio e capacità di assistenza. Il confronto con il fentanyl transdermico chiarisce la regola: condividere un bersaglio non permette di trasferire da un prodotto all’altro tempi, vie o modalità d’uso. Qui interessa il rapporto fra struttura, metabolismo ed effetto, senza ricavare schemi di somministrazione."
+    },
+    {
       "id": "respirazione",
       "title": "Respirazione e sedazione: effetti collegati, ma non sinonimi",
       "refs": [
@@ -161,7 +170,27 @@ export const THEORY_OPIOIDS=Object.freeze({
         "K",
         "CFI"
       ],
-      "text": "Nel sistema nervoso enterico l’attivazione oppioide modifica la coordinazione della motilità e delle secrezioni. La stipsi non va spiegata come una paralisi uniforme di ogni muscolo: possono ridursi le contrazioni propulsive mentre aumenta il tono in alcuni tratti e sfinteri. Il risultato riguarda il transito e può persistere anche quando altri effetti diventano meno evidenti con l’esposizione ripetuta.\n\nLa miosi, la nausea, il vomito, il prurito e la ritenzione urinaria illustrano altre sedi d’azione. Non ogni effetto deve essere ricondotto alla stessa catena; per esempio, le differenze fra molecole e il contributo di meccanismi diversi contano nell’interpretazione del prurito e delle risposte vascolari. Un elenco di effetti diventa più utile quando si collega ogni voce a una funzione e a un distretto.\n\nLa possibilità di limitare l’azione di un antagonista soprattutto alla periferia mostra l’importanza della distribuzione. Il progetto farmacologico è separare il blocco intestinale dall’analgesia centrale; non autorizza però a promettere assenza assoluta di astinenza o di effetti gastrointestinali per ogni prodotto. Le indicazioni e le precauzioni dei singoli antagonisti periferici richiedono un approfondimento dedicato."
+      "text": "Nel sistema nervoso enterico l’attivazione oppioide modifica la coordinazione della motilità e delle secrezioni. La stipsi non va spiegata come una paralisi uniforme di ogni muscolo: possono ridursi le contrazioni propulsive mentre aumenta il tono in alcuni tratti e sfinteri. Il risultato riguarda il transito e può persistere anche quando altri effetti diventano meno evidenti con l’esposizione ripetuta.\n\nLa miosi, la nausea, il vomito, il prurito e la ritenzione urinaria illustrano altre sedi d’azione. Non ogni effetto deve essere ricondotto alla stessa catena; per esempio, le differenze fra molecole e il contributo di meccanismi diversi contano nell’interpretazione del prurito e delle risposte vascolari. Un elenco di effetti diventa più utile quando si collega ogni voce a una funzione e a un distretto.\n\nLa possibilità di limitare l’azione di un antagonista soprattutto alla periferia mostra l’importanza della distribuzione. Il progetto farmacologico è separare il blocco intestinale dall’analgesia centrale; non autorizza però a promettere assenza assoluta di astinenza o di effetti gastrointestinali per ogni prodotto. Le due sezioni successive distinguono distribuzione periferica e primo passaggio, collegando il meccanismo alle precauzioni dei prodotti consultati."
+    },
+    {
+      "id": "antagonismo-periferico",
+      "title": "Antagonismo periferico: cambiare dove arriva il farmaco",
+      "refs": [
+        "CFI",
+        "NALOPEG",
+        "NALDE"
+      ],
+      "text": "Gli antagonisti dei recettori μ ad azione prevalentemente periferica, spesso indicati come PAMORA, mirano a contrastare gli effetti intestinali degli oppioidi limitando l’antagonismo centrale. Il naloxegol deriva dal naloxone mediante aggiunta di una catena di polietilenglicole; la permeabilità passiva ridotta e il trasporto di efflusso tramite P-glicoproteina contribuiscono alla scarsa penetrazione nel sistema nervoso centrale. La naldemedina deriva invece dal naltrexone: una catena laterale ne modifica dimensioni e proprietà polari, mentre interviene anche la P-glicoproteina.\n\nLa selettività funzionale riguarda quindi soprattutto il compartimento raggiunto. Non significa che il farmaco riconosca un recettore intestinale completamente diverso da quello cerebrale. Questo è un esempio concreto di come distribuzione e trasporto possano separare parzialmente due effetti che coinvolgono la stessa famiglia recettoriale.\n\nLa separazione non è assoluta. I documenti dei prodotti consultati richiamano possibili sintomi d’astinenza e particolare cautela quando la barriera ematoencefalica è compromessa. Un’ostruzione gastrointestinale nota o sospetta costituisce una controindicazione; sono descritti anche rischi di perforazione in determinate condizioni. Dolore addominale e diarrea non vanno interpretati automaticamente come prova di efficacia. Il meccanismo aiuta a capire il trattamento della stipsi da oppioidi, ma non rende intercambiabili i prodotti né consente di usarli senza valutarne indicazione, interazioni e precauzioni."
+    },
+    {
+      "id": "associazioni-naloxone",
+      "title": "Due associazioni con naloxone, due obiettivi differenti",
+      "refs": [
+        "CFI",
+        "OXYNAL",
+        "SUBOX"
+      ],
+      "text": "Nell’associazione orale a rilascio prolungato ossicodone/naloxone, l’ossicodone fornisce l’azione analgesica mentre il naloxone contrasta gli effetti oppioidi sull’intestino. Dopo assunzione orale il naloxone subisce un marcato metabolismo di primo passaggio, che ne limita la disponibilità sistemica. Il principio di separazione è diverso da quello dei PAMORA: non si attribuisce al naloxone una proprietà intrinseca di esclusione dal cervello.\n\nQuesta spiegazione dipende dalle condizioni farmacocinetiche. Il documento britannico del prodotto consultato controindica l’associazione nell’insufficienza epatica moderata o grave; la presenza dell’antagonista non elimina i rischi dell’agonista, compresa la depressione respiratoria. Non è quindi un antidoto incorporato capace di garantire protezione dal sovradosaggio.\n\nBuprenorfina/naloxone ha un altro impiego: il trattamento del disturbo da uso di oppioidi all’interno di un percorso di assistenza. La buprenorfina è l’agonista parziale e il naloxone è l’antagonista; quest’ultimo contribuisce a scoraggiare l’uso del prodotto per una via inappropriata. La formulazione e la via previste sono parte del suo funzionamento. Ritrovare lo stesso antagonista in entrambe le associazioni non autorizza a scambiare indicazioni o modalità d’impiego: prima si identifica quale problema risolve ciascun componente, poi si considera come viene reso disponibile."
     },
     {
       "id": "metadone",
@@ -181,6 +210,16 @@ export const THEORY_OPIOIDS=Object.freeze({
         "CFI"
       ],
       "text": "La tolleranza è una riduzione della risposta osservata dopo esposizione ripetuta, a condizioni comparabili. Può coinvolgere desensibilizzazione recettoriale, modificazioni del traffico di membrana, adattamenti intracellulari e cambiamenti di circuito. L’internalizzazione non è semplicemente la scomparsa definitiva del recettore: può essere seguita da riciclo e risensibilizzazione oppure da altri destini.\n\nNon tutti gli effetti sviluppano tolleranza allo stesso modo o con lo stesso andamento. Analgesia, sedazione, respirazione, pupilla e funzione intestinale non possono essere rappresentate da un unico numero. Neppure l’aumento del dolore dimostra da solo che il recettore sia diventato meno sensibile: possono cambiare patologia, esposizione, aderenza e altri fattori.\n\nLa tolleranza crociata fra oppioidi può essere incompleta. Questo contribuisce alla complessità del passaggio fra molecole e impedisce di considerare una tabella di equivalenza come una garanzia individuale. La rotazione non consiste semplicemente nel lasciare riposare una serie di recettori e usarne un’altra. In questo capitolo si studia il principio, senza costruire conversioni o istruzioni di aumento della dose."
+    },
+    {
+      "id": "tolleranza-crociata",
+      "title": "Tolleranza crociata: perché un’equivalenza non è una sostituzione",
+      "refs": [
+        "CFI",
+        "K",
+        "CDC2022"
+      ],
+      "text": "La tolleranza acquisita durante l’esposizione a un oppioide può estendersi solo in parte alla risposta a un altro. Questo non richiede di immaginare recettori completamente separati per ogni molecola: proprietà del ligando, adattamenti cellulari e farmacocinetica contribuiscono a risposte differenti. Le ipotesi sui sottotipi e sulle varianti recettoriali non forniscono, da sole, una previsione affidabile della risposta individuale alla rotazione.\n\nLe quantità espresse in equivalenti di morfina sono stime convenzionali, utili entro finalità e limiti definiti. La guida CDC2022 avverte di non usarle per calcolare direttamente la dose di un nuovo oppioide quando si cambia trattamento: tolleranza crociata incompleta e variabilità farmacocinetica possono rendere rischiosa una sostituzione apparentemente equivalente. Le tabelle storiche non diventano istruzioni attuali solo perché riportano un numero preciso.\n\nIl passaggio fra molecole richiede pertanto una valutazione clinica specifica, con attenzione a formulazione, via, esposizione residua e andamento degli effetti. Il metadone rende evidente la difficoltà di separare analgesia, accumulo e depressione respiratoria. Per lo studio, la domanda utile è quale proprietà cambia nel passaggio; il capitolo non propone fattori di conversione, percentuali di riduzione o un calcolatore prescrittivo."
     },
     {
       "id": "iperalgesia",
@@ -279,13 +318,29 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "question": "La raccomandazione sul dolore cronico primario vale per ogni dolore oncologico?",
       "answer": "No. Popolazione, causa e contesto delimitano il campo della linea guida. Trasferirla fuori da quel campo ne cambia il significato."
+    },
+    {
+      "question": "Perché l’antagonismo periferico non implica un recettore intestinale esclusivo?",
+      "answer": "La separazione dipende soprattutto da accesso ai compartimenti, permeabilità e trasportatori. Naloxegol e naldemedina limitano la penetrazione centrale; non garantiscono assenza assoluta di astinenza o di rischi gastrointestinali."
+    },
+    {
+      "question": "Perché le due associazioni con naloxone non hanno lo stesso scopo?",
+      "answer": "Nell’ossicodone/naloxone orale il primo passaggio limita l’esposizione sistemica all’antagonista e favorisce l’azione intestinale. Buprenorfina/naloxone appartiene invece al trattamento del disturbo da uso, con un diverso ruolo della formulazione e della via."
+    },
+    {
+      "question": "Una tabella di equivalenza basta per passare da un oppioide a un altro?",
+      "answer": "No. La tolleranza crociata può essere incompleta e cambiano farmacocinetica, via ed esposizione residua. Gli equivalenti di morfina non sono una prescrizione di sostituzione."
+    },
+    {
+      "question": "La breve durata del remifentanil dipende dalla colinesterasi plasmatica?",
+      "answer": "No. L’idrolisi coinvolge esterasi aspecifiche del sangue e dei tessuti. La rapida cessazione dell’effetto non elimina il rischio respiratorio durante l’esposizione e non assicura analgesia successiva."
     }
   ],
   "references": [
     {
       "id": "K",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX edizione italiana 2014, XII americana 2012. PDF 631–646: testo disponibile letto; controllo visivo 631–638. Continuazione da 647 non inclusa."
+      "detail": "IX edizione italiana 2014, XII americana 2012. PDF 631–650: testo disponibile letto; controllo visivo 631–638 e 647–650. Le figure 639–646 e la continuazione da 651 restano da verificare. Le indicazioni storiche sono confrontate con le fonti attuali per i passaggi integrati."
     },
     {
       "id": "R",
@@ -295,7 +350,7 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "CFI",
       "title": "Diapositive del corso di Farmacologia I",
-      "detail": "Anno accademico 2025–26. PDF 89–110 e 465–475 consultati e controllati visivamente. Il primo intervallo riguarda i sistemi monoaminergici, il secondo gli oppioidi. La pagina 109 è parzialmente coperta. Resto del corso non dichiarato letto."
+      "detail": "Anno accademico 2025–26. PDF 89–110 e 465–485 consultati e controllati visivamente. Il primo intervallo riguarda i sistemi monoaminergici, il secondo gli oppioidi. Pagina 109 parzialmente coperta; 479 presenta sovrapposizioni sui grafici. Pagina 485 ripete 482; 484 è una nota. Nessuna tabella di conversione importata; resto del corso non dichiarato letto."
     },
     {
       "id": "SFI",
@@ -311,7 +366,7 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "CDC2022",
       "title": "CDC · Linea guida sulla prescrizione di oppioidi, 2022",
-      "detail": "Linea guida USA 2022. Consultati abstract, campo di applicazione e passaggi selezionati sulla rivalutazione e sulla raccomandazione 5, il 28/10/2026. Adulti ambulatoriali; esclusi dolore da tumore, anemia falciforme, cure palliative e di fine vita. Non lettura integrale delle 95 pagine.",
+      "detail": "Linea guida USA 2022. Consultati abstract, campo di applicazione e passaggi selezionati sulla rivalutazione e sulla raccomandazione 5, il 28/10/2026. Adulti ambulatoriali; esclusi dolore da tumore, anemia falciforme, cure palliative e di fine vita. Non lettura integrale delle 95 pagine. In questo ampliamento rilette anche le cautele della tabella sugli equivalenti di morfina e sul cambio di oppioide; nessun fattore di conversione trasferito.",
       "url": "https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm"
     },
     {
@@ -391,6 +446,36 @@ export const THEORY_OPIOIDS=Object.freeze({
       "title": "CDC · Disturbo da uso di oppioidi e recupero",
       "detail": "Risorsa CDC del 12/08/2024: introduzione e obiettivi di recupero consultati nei contenuti indicizzati il 28/10/2026. Condizione trattabile; non revisione integrale del trattamento.",
       "url": "https://www.cdc.gov/overdose-prevention/treatment/opioid-use-disorder.html"
+    },
+    {
+      "id": "OXYNAL",
+      "title": "Ossicodone/naloxone · documento del prodotto britannico",
+      "detail": "Oxycodone/naloxone KRKA, rilascio prolungato: passaggi selezionati 4.1–4.4 e 5.1–5.2 consultati il 28/10/2026. emc aggiornato il 06/01/2026. Primo passaggio, funzione epatica e rischi; nessuna dose o conversione importata.",
+      "url": "https://www.medicines.org.uk/emc/product/101781/smpc"
+    },
+    {
+      "id": "NALDE",
+      "title": "Rizmoic · documento del prodotto britannico",
+      "detail": "Naldemedina: passaggi selezionati 4.3–4.5 e 5.1–5.2 aperti direttamente il 28/10/2026. Distribuzione, trasportatori e precauzioni; data esatta di revisione non stabilita. Non lettura integrale né RCP italiano.",
+      "url": "https://www.medicines.org.uk/emc/product/10816/smpc"
+    },
+    {
+      "id": "NALOPEG",
+      "title": "Moventig · documento del prodotto britannico",
+      "detail": "Naloxegol: passaggi selezionati 4.1, 4.3–4.4 e 5.1 aperti direttamente il 28/10/2026. emc aggiornato il 22/01/2025. Meccanismo e precauzioni; nessuno schema di trattamento importato.",
+      "url": "https://www.medicines.org.uk/emc/product/6892/smpc"
+    },
+    {
+      "id": "SUBOX",
+      "title": "EMA · Suboxone",
+      "detail": "Panoramica pubblica EMA: composizione, meccanismo e contesto di trattamento consultati direttamente il 28/10/2026; pagina e documenti aggiornati il 25/09/2026. Il documento completo di prodotto non è stato letto in questo intervallo.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/suboxone"
+    },
+    {
+      "id": "REMI",
+      "title": "Remifentanil · documento del prodotto USA",
+      "detail": "DailyMed: passaggi selezionati 12.1–12.3 e avvertenze sulla respirazione e sulla rapida cessazione dell’analgesia consultati direttamente il 28/10/2026. Data esatta di revisione non stabilita; nessuna dose o procedura anestesiologica importata.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=39284dec-b9bc-4fc8-b2d3-f1ef1323e5d4"
     }
   ],
   "moleculeLinks": [
@@ -444,5 +529,5 @@ export const THEORY_OPIOIDS=Object.freeze({
     "antidepressivi"
   ],
   "coverage": "Sintesi originale da intervalli delimitati dei libri e da appunti e diapositive del corso di Farmacologia. Lettura integrale di libri e corsi non completata. Fonti ufficiali consultate per passaggi selezionati; documenti USA e britannici non equivalgono all’RCP italiano. Revisione clinica indipendente non eseguita.",
-  "wordCount": 3717
+  "wordCount": 4463
 });

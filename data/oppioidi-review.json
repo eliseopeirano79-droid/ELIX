@@ -1,21 +1,20 @@
 {
-  "batch": "theory-opioid-analgesia",
+  "batch": "theory-opioid-adaptations",
   "chapterId": "oppioidi",
-  "checkedAt": "2026-10-28T08:05:13.511646+00:00",
+  "checkedAt": "2026-10-28T09:03:09.024132+00:00",
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "df2f4a3552ad1a180de5568e0a91bc1c0c420d56c175ac2cd3a57e9c1fdd9a86",
+  "moduleSha256": "b8ba29eb1371d45fd16f10ef35819d01651a4e9de16d69eae83c5b119a0d5711",
   "checks": [
-    "23 sezioni e 12 domande originali rilette; riferimenti riconciliati per sezione.",
-    "Gi/o, canali e disinibizione distinti; potenza non equiparata a efficacia o sicurezza.",
-    "Metaboliti e formulazioni distinti; nessuna dose, equivalenza o valore PK importato.",
-    "Dolore cronico primario, neuropatico e campo CDC separati.",
-    "Emergenza per sospetto sovradosaggio e trattabilità del disturbo da uso conservate.",
-    "Denominazioni del corso generiche; 9 collegamenti a identità già presenti."
+    "Quattro nuove sezioni e quattro domande rilette: distribuzione, primo passaggio, tolleranza crociata ed esterasi.",
+    "27 sezioni, 4463 parole e 16 domande; 24 riferimenti riconciliati per sezione.",
+    "Antagonismo periferico non assoluto; naloxone nelle due associazioni distinto per obiettivo e via.",
+    "Esterasi aspecifiche distinte dalla colinesterasi plasmatica; nessuna tabella di conversione, dose o protocollo aggiunti.",
+    "Conservati il laboratorio e nove collegamenti esistenti; denominazioni pubbliche del corso generiche."
   ],
   "limits": [
     "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
-    "Intervalli e lacune in oppioidi-reading.json; controlli software registrati separatamente."
+    "Copertura e lacune in oppioidi-reading.json; prove software e pubblicazione registrate separatamente."
   ]
 }
