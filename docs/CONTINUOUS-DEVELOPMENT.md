@@ -8,15 +8,15 @@ Per esplicita richiesta dell’utente del 27/10/2026 usare «appunti e diapositi
 
 ## Lotto corrente
 
-`theory-depression-circuits`, versione 0.36.0: ampliamento del capitolo sugli antidepressivi con cinque sezioni e quattro domande. Il capitolo passa da 3.489 a 4.542 parole e da 24 a 29 sezioni; le 24 precedenti sono conservate. Si approfondiscono feedback endocrino, trasporto vescicolare, ruolo regionale di NET, limiti dei modelli e interpretazione dei geni del bersaglio. Nessun nuovo farmaco, profilo farmacocinetico o capitolo; restano 56 capitoli, dieci estesi e 46 sintetici. Il laboratorio a sei viste rimane disponibile.
+`theory-opioid-analgesia`, versione 0.37.0: ampliamento del capitolo esistente sugli oppioidi. La precedente sintesi di quattro sezioni diventa un percorso di 23 sezioni, 3.717 parole e 12 domande, con un laboratorio originale a quattro viste e nove collegamenti al catalogo. Sono distinti recettore, trasmissione spinale, disinibizione, metaboliti, formulazioni, tolleranza e contesti clinici. Restano 56 capitoli: undici estesi e 45 sintetici. Nessuna nuova identità, scheda farmacologica o campo farmacocinetico.
 
-La 0.35.0 è pubblicata e verificata al commit `c05bc743c065746a5f968a962496aeb27486c1f6`, PR28. Ricevuta completa e tutti i controlli di quel lotto conclusi con successo.
+La 0.36.0 è pubblicata e verificata al commit `f7776f8315dc7a254da5168c27e597e1c0968b3c`, PR29. La relativa ricevuta ha concluso la consegna precedente.
 
-Nuova lettura: Rang & Dale PDF869–874 e Clementi/Fumagalli PDF321–325, undici pagine di testo estraibile deduplicate; cinque pagine ispezionate visivamente. Due pagine di appunti già lette sono state rilette senza ricontarle. La tabella raster R873 conserva un limite di leggibilità: nessun valore o confronto di sicurezza importato. Cinque fonti esterne aggiuntive consultate selettivamente. Registri pubblici in `data/depression-circuits-reading.json` e nel precedente `data/antidepressivi-reading.json`; provenienza originale privata.
+Fonti di questo lotto: 68 pagine PDF delimitate, con lettura del testo disponibile e 50 controlli visivi, ripartite fra Katzung, Rang & Dale, appunti e diapositive del corso di Farmacologia I. I 22 fogli iniziali delle diapositive riguardano i sistemi monoaminergici; gli undici successivi gli oppioidi. Nessuna lettura integrale di libri o corsi. Le lacune delle figure e i limiti di accesso alle 15 fonti ufficiali sono registrati in `data/oppioidi-reading.json`. Provenienza originale conservata privatamente.
 
-Controlli locali: 38 validatori e 48 configurazioni browser, indice e fonti, tastiera, ricerca, temi, desktop/mobile simulati, offline e aggiornamento reale 0.35.0→0.36.0 con dati salvati conservati. Schermate ispezionate. Le verifiche complete di CI e online restano da concludere.
+Controlli locali: 39 validatori, 32 configurazioni browser, navigazione, tastiera, ricerca, desktop/mobile simulati e due temi. Offline e aggiornamento reale 0.36.0→0.37.0 verificati, con preferiti, progressi e tema conservati. Gli altri 55 capitoli e il catalogo restano invariati. Le verifiche di CI, deploy e online devono ancora concludersi.
 
-Questo checkpoint precede la pubblicazione. La ricevuta `../../outputs/ELIX-latest-verification.json` prevale quando attesta deploy e verifiche online per lo stesso batch/versione. Prove in `../../outputs/ELIX-depression-circuits-2026-10-27/`. Non iniziare altro prima di completare la consegna.
+Questo checkpoint precede la pubblicazione. La ricevuta `../../outputs/ELIX-latest-verification.json` prevale quando attesta deploy e verifiche online per lo stesso batch/versione. Prove in `../../outputs/ELIX-course-monoamines-2026-10-27/`. Non iniziare altro prima di completare la consegna.
 
 ## Regole
 
@@ -28,4 +28,4 @@ Questo checkpoint precede la pubblicazione. La ricevuta `../../outputs/ELIX-late
 
 ## Prossimo intervallo
 
-Dopo la verifica online, mappare e deduplicare le diapositive del corso di Farmacologia I, PDF89–110, per proseguire il percorso monoaminergico. Non dichiararle già lette. Privilegiare i capitoli sintetici collegati ed evitare duplicazioni. Farmaci mancanti e altri laboratori rimangono nel backlog.
+Dopo la verifica online, proseguire lo stesso argomento con diapositive PDF 476–485 e Katzung PDF 647–650, deduplicando e controllando le figure pertinenti. Gli appunti della lezione 14 restano da riconciliare. Non dichiarare già letti questi intervalli. Farmaci mancanti e altri laboratori rimangono nel backlog.

@@ -6,7 +6,7 @@ import {THEORY_ANTIDEPRESSANTS as c} from '../elix-theory-antidepressants.js';
 import {AD_STATES,antidepressantState,antidepressantScene} from '../elix-antidepressant-explorer.js';
 import {renderTheorySection} from '../elix-theory-reader.js';
 const read=f=>readFileSync(new URL('../'+f,import.meta.url),'utf8');
-assert.equal(ELIX_CHAPTERS.length,56);assert.equal(new Set(ELIX_CHAPTERS.map(c=>c.id)).size,56);assert.equal(ELIX_CHAPTERS.filter(c=>c.format==='extended').length,10);
+assert.equal(ELIX_CHAPTERS.length,56);assert.equal(new Set(ELIX_CHAPTERS.map(c=>c.id)).size,56);assert.equal(ELIX_CHAPTERS.filter(c=>c.format==='extended').length,11);
 assert.equal(ELIX_CHAPTERS.find(x=>x.id===c.id),c);assert.equal(c.sections.length,29);assert.equal(c.checks.length,14);
 assert.equal(c.wordCount,c.sections.map(s=>s.text).join(' ').split(/\s+/).length);assert.ok(c.wordCount>4500);
 const refs=new Set(c.references.map(r=>r.id));assert.equal(refs.size,c.references.length);

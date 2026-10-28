@@ -1,30 +1,29 @@
 {
-  "updatedAt": "2026-10-27T14:31:29.917599+00:00",
-  "batch": "theory-depression-circuits",
+  "updatedAt": "2026-10-28T08:13:32.905722+00:00",
+  "batch": "theory-opioid-analgesia",
   "status": "verified_locally_pending_publication",
-  "release": "0.36.0",
-  "branch": "feat/theory-depression-circuits",
-  "baseCommit": "c05bc743c065746a5f968a962496aeb27486c1f6",
+  "release": "0.37.0",
+  "branch": "feat/theory-opioid-analgesia",
+  "baseCommit": "f7776f8315dc7a254da5168c27e597e1c0968b3c",
   "previousBatch": {
-    "batch": "theory-antidepressivi",
+    "batch": "theory-depression-circuits",
     "status": "published_and_live_verified",
-    "release": "0.35.0",
-    "commit": "c05bc743c065746a5f968a962496aeb27486c1f6"
+    "release": "0.36.0",
+    "commit": "f7776f8315dc7a254da5168c27e597e1c0968b3c"
   },
   "scope": [
-    "Ampliare il capitolo antidepressivi con cinque sezioni originali: feedback endocrino, compartimenti, NET e distribuzione regionale, limiti dei modelli, farmacogenetica del bersaglio.",
-    "Conservare le 24 sezioni precedenti, gli altri 55 capitoli, il laboratorio a sei viste, i dati clinici e il branding."
+    "Ampliare il capitolo esistente sugli oppioidi: recettori, circuiti, molecole, adattamenti e contesti del dolore.",
+    "Aggiungere un laboratorio originale a quattro viste qualitative, conservando gli altri 55 capitoli e il catalogo."
   ],
   "completed": [
-    "29 sezioni, 4542 parole e 14 domande; ampliamento di 1053 parole.",
-    "38 validatori di dati e 48 configurazioni browser del capitolo superati.",
-    "Desktop/mobile simulati, temi, tastiera, indice, fonti e ricerca verificati.",
-    "Aggiornamento reale 0.35.0→0.36.0 e offline: preferiti, progressi e tema conservati.",
-    "Fonti originali e dati del catalogo invariati; denominazioni pubbliche del corso generiche."
+    "23 sezioni, 3717 parole, 12 domande e 19 riferimenti; 9 collegamenti a identità già presenti.",
+    "39 validatori e 32 configurazioni browser superati; indice, fonti, tastiera, ricerca e due temi.",
+    "Offline e aggiornamento reale 0.36.0→0.37.0 verificati con preferiti, progressi e tema conservati.",
+    "Schermate desktop/mobile controllate; fonti originali e altri 55 capitoli invariati."
   ],
   "remaining": [
     "CI della PR e del commit integrato.",
-    "Deploy e controlli online prima della ricevuta di pubblicazione."
+    "Deploy concluso e verifiche online, comprese le risorse e i percorsi storici."
   ],
   "counts": {
     "identities": 4225,
@@ -34,8 +33,8 @@
     "importedLabelsWithoutEditorial": 93,
     "targetProfiles": 36,
     "chapters": 56,
-    "extendedChapters": 10,
-    "briefChapters": 46
+    "extendedChapters": 11,
+    "briefChapters": 45
   },
   "changes": {
     "newIdentities": 0,
@@ -44,18 +43,17 @@
     "newPKFields": 0,
     "newChapters": 0,
     "expandedChapters": 1,
-    "newInteractiveLabs": 0
+    "newInteractiveLabs": 1
   },
   "readingManifests": [
-    "data/antidepressivi-reading.json",
-    "data/depression-circuits-reading.json"
+    "data/oppioidi-reading.json"
   ],
   "limits": [
-    "Undici nuove pagine di testo; due rilette senza ricontarle e cinque ispezionate visivamente. Non lettura integrale dei testi.",
-    "Tabella raster R873 non interamente verificata; esclusi valori e confronti di sicurezza.",
-    "IUPHAR e studio NET consultati nei contenuti indicizzati; limiti di apertura dichiarati.",
-    "Controllo editoriale di un integratore, non revisione clinica indipendente.",
+    "Lettura di 68 pagine PDF delimitate, con testo disponibile e 50 controlli visivi; non libri o corsi interi.",
+    "Katzung 639–646: figure non controllate; diapositive 109 parzialmente coperte e alcune figure degli appunti 277 tagliate.",
+    "Fonti ufficiali consultate selettivamente, in parte tramite contenuti indicizzati; documenti USA e britannici distinti dagli RCP italiani.",
+    "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Solo dopo il deploy verificato: mappare e deduplicare CFI PDF89–110 per continuare il percorso monoaminergico; non ancora lettura. Privilegiare il completamento dei capitoli sintetici collegati, evitando duplicazioni."
+  "nextBatch": "Dopo la verifica online: proseguire lo stesso argomento con diapositive PDF 476–485 e Katzung PDF 647–650, deduplicando e controllando le figure pertinenti; appunti della lezione 14 ancora da riconciliare. Non dichiarare letti questi intervalli."
 }
