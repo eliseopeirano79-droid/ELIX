@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-course-506-510",
+  "batch": "theory-course-511-515",
   "chapterId": "oppioidi",
-  "updatedAt": "2026-10-28T18:58:28.641091+00:00",
+  "updatedAt": "2026-10-28T19:30:45.050619+00:00",
   "status": "editorial_reconciled_locally_verified_pending_publication",
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -13,11 +13,9 @@
       "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
       "pageCount": 935,
       "newlyReadTextPages": [
-        506,
-        507,
-        508,
-        509,
-        510
+        511,
+        512,
+        513
       ],
       "visuallyCheckedPdfPages": [
         89,
@@ -87,12 +85,15 @@
         507,
         508,
         509,
-        510
+        510,
+        511,
+        512,
+        513
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
       "title": "Diapositive del corso di Farmacologia I",
-      "note": "Anno accademico 2025–26. PDF 89–110 e 465–510: testo disponibile e pagine controllati. In 506–510 confronto fra canali del sodio, TRPV1 e trattamenti topici; etichette interne 504–508. Etichetta marginale 507 tagliata, unità della concentrazione 508 non validata; lacune precedenti 109,479,487,494,498 conservate. Articoli citati non letti integralmente; corso non completo.",
+      "note": "Anno accademico 2025–26. Per questo capitolo: PDF 89–110 e 465–513, testo disponibile e pagine controllati. Le nuove pagine 511–513 riguardano ziconotide; pannelli parzialmente coperti in 512–513 non ricostruiti. Conservate le lacune precedenti e l’unità non validata della pagina 508. Da 514 inizia l’emicrania, fuori da questo capitolo; corso e articoli citati non letti integralmente.",
       "pdfPagesRead": [
         89,
         90,
@@ -161,7 +162,10 @@
         507,
         508,
         509,
-        510
+        510,
+        511,
+        512,
+        513
       ],
       "availableExtractedTextReadPages": [
         89,
@@ -231,7 +235,10 @@
         507,
         508,
         509,
-        510
+        510,
+        511,
+        512,
+        513
       ],
       "imageTextReadPages": [
         91,
@@ -268,9 +275,12 @@
         507,
         508,
         509,
-        510
+        510,
+        511,
+        512,
+        513
       ],
-      "readingMethod": "Letto il testo estratto e quello nelle immagini di 506–510; cinque rendering controllati, 506 anche a maggiore risoluzione. Limiti di 507–508 registrati.",
+      "readingMethod": "Letto il testo estratto e nelle immagini di 511–513; tre pagine controllate per questo capitolo. Parti coperte in 512–513 non ricostruite.",
       "previouslyRecordedPdfPages": [
         89,
         90,
@@ -334,7 +344,12 @@
         502,
         503,
         504,
-        505
+        505,
+        506,
+        507,
+        508,
+        509,
+        510
       ]
     },
     {
@@ -692,7 +707,7 @@
       "chapter42AvailableTextAndVisualsRead": true
     }
   ],
-  "visualPages": 136,
+  "visualPages": 139,
   "expandedExistingChapters": 1,
   "newChapters": 0,
   "newIdentities": 0,
@@ -846,7 +861,7 @@
     {
       "id": "ZICO-EMA",
       "title": "EMA · Prialt, ziconotide",
-      "detail": "Documento europeo in inglese: passaggi selezionati 4.1–4.5 e 5.1 consultati direttamente il 28/10/2026; PDF pp.2–6 e10–11. Aggiornamento15/04/2026 nei metadati EMA indicizzati. Non lettura integrale delle62 pagine; nessun dosaggio o protocollo trasferito.",
+      "detail": "Documento europeo in inglese: passaggi selezionati 4.1–4.5 e 5.1 ricontrollati il 28/10/2026, PDF 2–6 e 10–11. Distinti bersaglio presinaptico, conseguenze postsinaptiche, compartimenti e tempo di risposta. Non lettura integrale delle 62 pagine né revisione delle linee guida; nessuna dose o procedura trasferita.",
       "url": "https://www.ema.europa.eu/en/documents/product-information/prialt-epar-product-information_en.pdf"
     },
     {
@@ -862,8 +877,8 @@
       "url": "https://www.medicines.org.uk/emc/product/290/smpc"
     }
   ],
-  "deduplication": "Confronto SHA-256/pagina con audit disponibile e tutti i manifest pubblici attuali: 506–510 non già coperti. Nessuna nuova scansione completa del corpus.",
-  "automaticExtraction": "Testo estratto 506–510 letto e integrato con lettura delle immagini; estrazione da sola non conta come lettura.",
+  "deduplication": "Confronto hash/pagina con audit disponibile e tutti i manifest pubblici attuali: 511–515 non già coperti. Nessuna nuova scansione completa del corpus.",
+  "automaticExtraction": "Lettura di testo estratto e immagini sulle cinque pagine 511–515. Solo 511–513 contribuiscono a questo capitolo; 514–515 sono registrate privatamente per il successivo argomento.",
   "sourceConflicts": [
     {
       "source": "CFI 467–469; SFI 247–250",
@@ -1012,25 +1027,33 @@
     {
       "source": "CFI510",
       "resolution": "Tabelle di concentrazioni e associazioni lette ma non riprodotte né convertite in protocolli. Distinti indicazione del prodotto, meccanismo e applicazione cutanea; nessuna equivalenza automatica fra formulazioni o autorità regolatorie."
+    },
+    {
+      "source": "CFI 512",
+      "resolution": "Bersaglio diretto presinaptico distinto dalla riduzione postsinaptica dell’attivazione di AMPA/NMDA. Tabella storica dei modulatori non trasformata in elenco di terapie attuali; parti coperte non ricostruite."
+    },
+    {
+      "source": "CFI 513",
+      "resolution": "Nessun grado di raccomandazione della tabella 2019 trasferito. Formula generale sulla psicosi non importata come controindicazione universale; documento EMA specifica una storia con ziconotide. Disegno di iniezione distinto dall’infusione continua del prodotto; nessuna procedura pubblicata."
     }
   ],
   "remaining": [
     "Katzung: capitolo 31 PDF 631–654 coperto; resto del libro non letto. Bibliografia distinta dagli articoli.",
-    "Diapositive: PDF 89–110 e 465–510 coperti; da 511 non letto. Restano sovrapposizioni 109,479,487, ritagli 494,498 e 507; unità nella didascalia 508 non validata.",
+    "Diapositive: per questo capitolo PDF 89–110 e 465–513 coperti. PDF 514–515 lette e controllate, ma dedicate all’emicrania e non ancora integrate. Da 516 non letto. Restano sovrapposizioni e ritagli precedenti, unità della didascalia 508 non validata e pannelli coperti in 512–513.",
     "Appunti:15 pagine delle lezioni 13 e 15 con testo e rendering; tagli o sovrapposizioni 244,245,273,275,277 irrisolti. Il resto del corso non è coperto.",
     "Rang & Dale: capitolo42 PDF785–813 coperto nel testo disponibile e nei rendering, inclusa bibliografia e note; articoli citati e resto del libro non letti. Paginazione editoriale non ricostruita.",
     "Nessuna nuova lettura PDF di Farmacologia II.",
     "Consultazioni cliniche selettive; fonti USA e britanniche non equivalgono a RCP italiani. Revisione clinica indipendente non eseguita.",
-    "Quattro studi di meccanismo consultati solo tramite abstract, due nel lotto corrente; articoli integrali e figure non esaminati."
+    "Quattro studi di meccanismo consultati solo tramite abstract nei lotti precedenti; nessuna nuova lettura di articoli in questo lotto."
   ],
-  "newReadPdfPages": 5,
-  "readingCountDefinition": "Cinque nuove identità di pagina e cinque controlli visivi; totale 136 pagine e 136 controlli, non 136 pagine di prosa o figure. Quattro abstract cumulativi, due nuovi, conteggiati separatamente; documenti di prodotto selettivi fuori dal conteggio dei libri.",
-  "totalReadPdfPages": 136,
-  "currentBatchVisualPages": 5,
+  "newReadPdfPages": 3,
+  "readingCountDefinition": "Tre nuove identità di pagina e tre controlli visivi contribuiscono al capitolo: totale 139 pagine e 139 controlli. L’intervallo letto comprende altre due pagine di emicrania (514–515), tenute separate e non incluse nel totale del capitolo. Nessun nuovo abstract; quattro già letti. Consultazioni regolatorie selettive fuori dal conteggio dei libri.",
+  "totalReadPdfPages": 139,
+  "currentBatchVisualPages": 3,
   "previousBatch": {
-    "batch": "theory-opioid-rang-final",
-    "readPdfPages": 131,
-    "visualPages": 131
+    "batch": "theory-course-506-510",
+    "readPdfPages": 136,
+    "visualPages": 136
   },
   "researchSources": [
     {

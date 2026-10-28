@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-10-28T19:03:43.100327+00:00",
-  "batch": "theory-course-506-510",
+  "updatedAt": "2026-10-28T19:32:13.814211+00:00",
+  "batch": "theory-course-511-515",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.45.0",
-  "branch": "feat/theory-course-506-510",
-  "baseCommit": "4db2cab4a8a726a570c489676e265171cec436e5",
+  "release": "0.46.0",
+  "branch": "feat/theory-course-511-515",
+  "baseCommit": "240f05bb4e809b121642730afceb7a1af59be4fa",
   "previousBatch": {
-    "batch": "theory-opioid-rang-final",
+    "batch": "theory-course-506-510",
     "status": "published_and_live_verified",
-    "release": "0.44.0",
-    "commit": "4db2cab4a8a726a570c489676e265171cec436e5"
+    "release": "0.45.0",
+    "commit": "240f05bb4e809b121642730afceb7a1af59be4fa"
   },
   "scope": [
-    "Integrare il confronto sugli analgesici non oppioidi dalle diapositive 506–510."
+    "Ampliare il collegamento fra bersaglio, circuito e distribuzione nella sezione già presente su ziconotide."
   ],
   "completed": [
-    "40 sezioni, 8103 parole, 31 domande, 35 riferimenti e 12 collegamenti a identità esistenti.",
-    "Cinque nuove pagine 506–510; copertura cumulativa 136 pagine e 136 controlli.",
+    "40 sezioni, 8287 parole, 32 domande, 35 riferimenti e 12 collegamenti a identità esistenti.",
+    "Cinque nuove pagine lette e ispezionate: tre per questo capitolo, due di emicrania conservate separatamente.",
     "39 validatori e 32 configurazioni browser superati; due temi, tastiera, ricerca, fonti e offline controllati.",
-    "Aggiornamento reale 0.44.0→0.45.0 verificato con preferiti, progressi e tema conservati.",
+    "Aggiornamento reale 0.45.0→0.46.0 verificato con preferiti, progressi e tema conservati.",
     "Gli altri 55 capitoli, catalogo, lettore e laboratorio sono invariati."
   ],
   "remaining": [
@@ -43,22 +43,22 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 2,
-    "expandedSections": 0,
-    "newLinksToExistingIdentities": 1
+    "newSections": 0,
+    "expandedSections": 1,
+    "newLinksToExistingIdentities": 0
   },
   "readingManifests": [
     "data/oppioidi-reading.json"
   ],
   "limits": [
     "Katzung: capitolo 31 PDF 631–654 coperto; resto del libro non letto. Bibliografia distinta dagli articoli.",
-    "Diapositive: PDF 89–110 e 465–510 coperti; da 511 non letto. Restano sovrapposizioni 109,479,487, ritagli 494,498 e 507; unità nella didascalia 508 non validata.",
+    "Diapositive: per questo capitolo PDF 89–110 e 465–513 coperti. PDF 514–515 lette e controllate, ma dedicate all’emicrania e non ancora integrate. Da 516 non letto. Restano sovrapposizioni e ritagli precedenti, unità della didascalia 508 non validata e pannelli coperti in 512–513.",
     "Appunti:15 pagine delle lezioni 13 e 15 con testo e rendering; tagli o sovrapposizioni 244,245,273,275,277 irrisolti. Il resto del corso non è coperto.",
     "Rang & Dale: capitolo42 PDF785–813 coperto nel testo disponibile e nei rendering, inclusa bibliografia e note; articoli citati e resto del libro non letti. Paginazione editoriale non ricostruita.",
     "Nessuna nuova lettura PDF di Farmacologia II.",
     "Consultazioni cliniche selettive; fonti USA e britanniche non equivalgono a RCP italiani. Revisione clinica indipendente non eseguita.",
-    "Quattro studi di meccanismo consultati solo tramite abstract, due nel lotto corrente; articoli integrali e figure non esaminati.",
+    "Quattro studi di meccanismo consultati solo tramite abstract nei lotti precedenti; nessuna nuova lettura di articoli in questo lotto.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Dopo questa consegna: diapositive del corso di Farmacologia PDF 511–515; deduplicare e verificare il confine di argomento prima di integrare."
+  "nextBatch": "Diapositive del corso di Farmacologia PDF 516–520: continuare l’emicrania recuperando 514–515 già lette senza ricontarle."
 }
