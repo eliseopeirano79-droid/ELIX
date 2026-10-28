@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-10-28T14:45:42.684700+00:00",
-  "batch": "theory-opioid-rang-comparison",
+  "updatedAt": "2026-10-28T15:54:53.984291+00:00",
+  "batch": "theory-opioid-rang-final",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.43.0",
-  "branch": "feat/theory-opioid-rang-comparison",
-  "baseCommit": "13589458888bddf780bd392b86e3a7225e400d09",
+  "release": "0.44.0",
+  "branch": "feat/theory-opioid-rang-final",
+  "baseCommit": "c7449308ff884ec27b931d1baf006dba8ca0edc2",
   "previousBatch": {
-    "batch": "theory-opioid-rang-effects",
+    "batch": "theory-opioid-rang-comparison",
     "status": "published_and_live_verified",
-    "release": "0.42.0",
-    "commit": "13589458888bddf780bd392b86e3a7225e400d09"
+    "release": "0.43.0",
+    "commit": "c7449308ff884ec27b931d1baf006dba8ca0edc2"
   },
   "scope": [
-    "Approfondire rilascio transdermico e distribuzione neurassiale, collegando compartimenti e profilo temporale."
+    "Concludere il capitolo42 di Rang & Dale e spiegare due bersagli analgesici non oppioidi."
   ],
   "completed": [
-    "36 sezioni,7061 parole,27 domande,30 riferimenti.",
-    "Cinque nuove pagine di Rang & Dale, testo e rendering; totale126 pagine e126 controlli visivi.",
-    "39 validatori e32 configurazioni browser superati; due temi, tastiera, ricerca, fonti e offline controllati.",
-    "Aggiornamento reale0.42.0→0.43.0 verificato con preferiti, progressi e tema conservati.",
-    "Gli altri55 capitoli, catalogo, lettore e laboratorio sono invariati."
+    "38 sezioni, 7549 parole, 29 domande, 32 riferimenti e 11 collegamenti a identità esistenti.",
+    "Cinque nuove pagine809–813; copertura cumulativa131 pagine e131 controlli.",
+    "39 validatori e 32 configurazioni browser superati; due temi, tastiera, ricerca, fonti e offline controllati.",
+    "Aggiornamento reale 0.43.0→0.44.0 verificato con preferiti, progressi e tema conservati.",
+    "Gli altri 55 capitoli, catalogo, lettore e laboratorio sono invariati."
   ],
   "remaining": [
     "CI sul commit, deploy concluso e verifica online di file, navigazione, offline e percorsi di accesso."
@@ -43,8 +43,9 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 1,
-    "expandedSections": 1
+    "newSections": 2,
+    "expandedSections": 0,
+    "newLinksToExistingIdentities": 2
   },
   "readingManifests": [
     "data/oppioidi-reading.json"
@@ -53,11 +54,11 @@
     "Katzung: capitolo 31 PDF 631–654 coperto; resto del libro non letto. Bibliografia distinta dagli articoli.",
     "Diapositive: PDF 89–110 e 465–505 letti; continuazione da 506 non letta. Restano sovrapposizioni 109,479,487 e ritagli 494,498.",
     "Appunti:15 pagine delle lezioni 13 e 15 con testo e rendering; tagli o sovrapposizioni 244,245,273,275,277 irrisolti. Il resto del corso non è coperto.",
-    "Rang & Dale: PDF785–808 del capitolo42 coperti; PDF809–813 ancora da leggere, compresa continuazione della carbamazepina. Paginazione editoriale non ricostruita; resto del libro non dichiarato letto.",
+    "Rang & Dale: capitolo42 PDF785–813 coperto nel testo disponibile e nei rendering, inclusa bibliografia e note; articoli citati e resto del libro non letti. Paginazione editoriale non ricostruita.",
     "Nessuna nuova lettura PDF di Farmacologia II.",
     "Consultazioni cliniche selettive; fonti USA e britanniche non equivalgono a RCP italiani. Revisione clinica indipendente non eseguita.",
     "Due studi del lotto precedente di meccanismo consultati solo tramite gli abstract; risultati integrali e figure non esaminati.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Completare prima questa consegna; poi leggere Rang & Dale PDF809–813, senza ricontare785–808. Diapositive da506 e altri corsi nel backlog."
+  "nextBatch": "Completare questa consegna; poi diapositive del corso di Farmacologia PDF506–510, deduplicando e verificando il confine di argomento prima di integrare."
 }

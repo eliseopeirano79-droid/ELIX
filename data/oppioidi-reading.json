@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-opioid-rang-comparison",
+  "batch": "theory-opioid-rang-final",
   "chapterId": "oppioidi",
-  "updatedAt": "2026-10-28T14:39:54.505063+00:00",
+  "updatedAt": "2026-10-28T15:49:32.259896+00:00",
   "status": "editorial_reconciled_locally_verified_pending_publication",
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -244,7 +244,7 @@
         504,
         505
       ],
-      "readingMethod": "Copertura dei lotti precedenti conservata. Nessuna nuova pagina o controllo visivo di questa fonte nel lotto corrente.",
+      "readingMethod": "Copertura precedente conservata, senza nuove pagine di questa fonte nel lotto.",
       "previouslyRecordedPdfPages": [
         89,
         90,
@@ -400,7 +400,7 @@
         654
       ],
       "imageTextReadPages": [],
-      "readingMethod": "Copertura dei lotti precedenti conservata. Nessuna nuova pagina o controllo visivo di questa fonte nel lotto corrente.",
+      "readingMethod": "Copertura precedente conservata, senza nuove pagine di questa fonte nel lotto.",
       "previouslyRecordedPdfPages": [
         631,
         632,
@@ -499,7 +499,7 @@
         274,
         275
       ],
-      "readingMethod": "Copertura dei lotti precedenti conservata. Nessuna nuova pagina o controllo visivo di questa fonte nel lotto corrente.",
+      "readingMethod": "Copertura precedente conservata, senza nuove pagine di questa fonte nel lotto.",
       "previouslyRecordedPdfPages": [
         244,
         245,
@@ -524,11 +524,11 @@
       "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
       "pageCount": 1102,
       "newlyReadTextPages": [
-        804,
-        805,
-        806,
-        807,
-        808
+        809,
+        810,
+        811,
+        812,
+        813
       ],
       "visuallyCheckedPdfPages": [
         785,
@@ -554,12 +554,17 @@
         805,
         806,
         807,
-        808
+        808,
+        809,
+        810,
+        811,
+        812,
+        813
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
       "title": "Rang & Dale · Farmacologia",
-      "note": "VIII edizione italiana2016 / originale2015. PDF785–808: testo disponibile letto e pagine ispezionate; figure42.1–42.7 e tabelle42.1–42.4 dei lotti precedenti. Cinque nuove pagine in questo ampliamento, senza nuove figure raster. PDF809–813 ancora da leggere; paragrafo sulla carbamazepina interrotto a fine808. Paginazione editoriale non ricostruita. Articoli e destinazioni delle note fuori intervallo non letti integralmente.",
+      "note": "VIII edizione italiana2016 / originale2015. Capitolo42, PDF785–813: testo disponibile e pagine controllati; figure42.1–42.7 e tabelle42.1–42.4 nei lotti precedenti. Cinque nuove pagine809–813, inclusi bibliografia e note1–15; nessuna nuova figura raster. Bibliografia distinta dagli articoli non letti. Paginazione editoriale non ricostruita; resto del libro non letto.",
       "pdfPagesRead": [
         785,
         786,
@@ -584,7 +589,12 @@
         805,
         806,
         807,
-        808
+        808,
+        809,
+        810,
+        811,
+        812,
+        813
       ],
       "availableExtractedTextReadPages": [
         785,
@@ -610,7 +620,12 @@
         805,
         806,
         807,
-        808
+        808,
+        809,
+        810,
+        811,
+        812,
+        813
       ],
       "imageTextReadPages": [
         786,
@@ -622,7 +637,7 @@
         796,
         803
       ],
-      "readingMethod": "Testo disponibile di PDF804–808 letto; cinque rendering ispezionati, inclusi riquadri. Nessuna nuova figura raster. La frase finale sulla carbamazepina prosegue nella pagina809, non ancora letta.",
+      "readingMethod": "Testo disponibile809–813 e cinque rendering letti, compresi riquadri, bibliografia e note. Articoli citati non letti.",
       "previouslyRecordedPdfPages": [
         785,
         786,
@@ -642,11 +657,17 @@
         800,
         801,
         802,
-        803
-      ]
+        803,
+        804,
+        805,
+        806,
+        807,
+        808
+      ],
+      "chapter42AvailableTextAndVisualsRead": true
     }
   ],
-  "visualPages": 126,
+  "visualPages": 131,
   "expandedExistingChapters": 1,
   "newChapters": 0,
   "newIdentities": 0,
@@ -716,7 +737,7 @@
     {
       "id": "NICE173",
       "title": "NICE CG173 · Dolore neuropatico nell’adulto",
-      "detail": "CG173, dolore neuropatico dell’adulto in ambito non specialistico: raccomandazioni 1.1.8–1.1.14 consultate nei contenuti indicizzati il 28/10/2026; apertura diretta: errore 403. Distinte nevralgia del trigemino e indicazioni specialistiche; non lettura integrale.",
+      "detail": "CG173: raccomandazioni1.1.8–1.1.14 nei contenuti ufficiali indicizzati il28/10/2026; apertura diretta403. Ricontrollata1.1.12: cerotto di capsaicina da non iniziare in ambito non specialistico senza indicazione specialistica, distinto dalla crema. Non lettura integrale.",
       "url": "https://www.nice.org.uk/guidance/cg173/chapter/Recommendations"
     },
     {
@@ -796,10 +817,22 @@
       "title": "Duramorph · morfina neurassiale, documento USA",
       "detail": "Hikma: sintesi, avvertenze 5.1 e 5.3, formulazione e passaggi 12.1–12.3 consultati direttamente il 28/10/2026. Modifiche principali 12/2025. Lettura selettiva su compartimenti e rischio respiratorio; non protocollo anestesiologico né RCP italiano.",
       "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=ebb18761-e5c4-4238-bb84-f9549f500210"
+    },
+    {
+      "id": "ZICO-EMA",
+      "title": "EMA · Prialt, ziconotide",
+      "detail": "Documento europeo in inglese: passaggi selezionati 4.1–4.5 e 5.1 consultati direttamente il 28/10/2026; PDF pp.2–6 e10–11. Aggiornamento15/04/2026 nei metadati EMA indicizzati. Non lettura integrale delle62 pagine; nessun dosaggio o protocollo trasferito.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/prialt-epar-product-information_en.pdf"
+    },
+    {
+      "id": "CAPS-EMA",
+      "title": "EMA · Qutenza, capsaicina",
+      "detail": "Documento europeo in inglese: passaggi selezionati 4.1–4.4 e5.1 consultati direttamente il28/10/2026; PDF pp.2–5 e7. Scheda EMA aggiornata05/05/2026. Non lettura integrale delle29 pagine; modalità applicative e dosaggi esclusi dalla sintesi.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/qutenza-epar-product-information_en.pdf"
     }
   ],
-  "deduplication": "Confronto SHA-256/pagina con precedente audit disponibile, manifest pubblico, checkpoint privato e ricevuta0.42: PDF804–808 non già letti. Nessuna nuova scansione completa del corpus; estrazioni e intervalli pianificati non contati come letture.",
-  "automaticExtraction": "Estratto e letto il testo disponibile di PDF804–808, con controllo delle cinque pagine. Le parti precedenti sono conservate senza ricontarle; la frase oltre il limite808 resta incompleta.",
+  "deduplication": "Confronto SHA-256/pagina con audit disponibile, manifest e ricevuta0.43:809–813 non già letti. Nessuna nuova scansione completa del corpus.",
+  "automaticExtraction": "Estratto e letto il testo809–813; cinque pagine ispezionate. Bibliografia e note sono comprese nelle pagine, non equivalgono a lettura degli articoli.",
   "sourceConflicts": [
     {
       "source": "CFI 467–469; SFI 247–250",
@@ -912,25 +945,41 @@
     {
       "source": "R 807–808",
       "resolution": "Lette anche introduzione al paracetamolo, associazioni e inizio del dolore neuropatico. Non integrate come raccomandazioni: COX3/TRPA1 e sinergia universale non assunte come spiegazioni definitive; dati storici, metaboliti e rischi richiedono un lotto dedicato. Carbamazepina interrotta a fine808."
+    },
+    {
+      "source": "R809",
+      "resolution": "Non trasferiti suggerimenti generali su antiepilettici, antiaritmici, fibromialgia o aumenti di oppioidi; il riquadro sulla carbamazepina non sostituisce il meccanismo descritto nel testo. Paracetamolo e COX3 richiedono un lotto dedicato; nessuna nuova classificazione clinica importata."
+    },
+    {
+      "source": "R809–811",
+      "resolution": "Escluse garanzie di sicurezza neurassiale della ketamina, raccomandazioni generali sui cannabinoidi e automatismi nella scala analgesica. Il cerotto convenzionale di fentanyl non è presentato come sollievo rapido. Nessuno schema di dosi o impiego cardiologico trasferito."
+    },
+    {
+      "source": "R811–812",
+      "resolution": "Prospettive terapeutiche del2015–2016 trattate come contesto storico, senza attribuire approvazioni o stato attuale a composti sperimentali. Ziconotide e capsaicina confrontati con i documenti EMA correnti; raccomandazioni NICE selettive distinte dalle indicazioni di prodotto."
+    },
+    {
+      "source": "R812–813",
+      "resolution": "Lette bibliografia e note1–15, non gli articoli citati. Esclusa la descrizione stigmatizzante del trattamento del disturbo da uso. Il contenuto delle note non è conteggiato come nuova revisione clinica."
     }
   ],
   "remaining": [
     "Katzung: capitolo 31 PDF 631–654 coperto; resto del libro non letto. Bibliografia distinta dagli articoli.",
     "Diapositive: PDF 89–110 e 465–505 letti; continuazione da 506 non letta. Restano sovrapposizioni 109,479,487 e ritagli 494,498.",
     "Appunti:15 pagine delle lezioni 13 e 15 con testo e rendering; tagli o sovrapposizioni 244,245,273,275,277 irrisolti. Il resto del corso non è coperto.",
-    "Rang & Dale: PDF785–808 del capitolo42 coperti; PDF809–813 ancora da leggere, compresa continuazione della carbamazepina. Paginazione editoriale non ricostruita; resto del libro non dichiarato letto.",
+    "Rang & Dale: capitolo42 PDF785–813 coperto nel testo disponibile e nei rendering, inclusa bibliografia e note; articoli citati e resto del libro non letti. Paginazione editoriale non ricostruita.",
     "Nessuna nuova lettura PDF di Farmacologia II.",
     "Consultazioni cliniche selettive; fonti USA e britanniche non equivalgono a RCP italiani. Revisione clinica indipendente non eseguita.",
     "Due studi del lotto precedente di meccanismo consultati solo tramite gli abstract; risultati integrali e figure non esaminati."
   ],
   "newReadPdfPages": 5,
-  "readingCountDefinition": "Cinque nuove identità di pagina e cinque controlli visivi. Totale cumulativo126 pagine PDF e126 controlli di pagina, non126 pagine di prosa né126 figure. I due abstract precedenti restano separati. Nessuna lettura integrale del corpus.",
-  "totalReadPdfPages": 126,
+  "readingCountDefinition": "Cinque nuove identità di pagina e cinque controlli visivi; totale131 pagine e131 controlli. Include bibliografia e note, non131 pagine di prosa o131 figure. Due abstract precedenti separati. Le consultazioni selettive EMA non aumentano il conteggio dei libri.",
+  "totalReadPdfPages": 131,
   "currentBatchVisualPages": 5,
   "previousBatch": {
-    "batch": "theory-opioid-rang-effects",
-    "readPdfPages": 121,
-    "visualPages": 121
+    "batch": "theory-opioid-rang-comparison",
+    "readPdfPages": 126,
+    "visualPages": 126
   },
   "researchSources": [
     {

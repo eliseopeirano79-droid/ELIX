@@ -1,20 +1,20 @@
 {
-  "batch": "theory-opioid-rang-comparison",
+  "batch": "theory-opioid-rang-final",
   "chapterId": "oppioidi",
-  "checkedAt": "2026-10-28T14:45:42.684700+00:00",
+  "checkedAt": "2026-10-28T15:54:53.984291+00:00",
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "4da050c8fd3d8f559e016ad4675796db11d0ffe8d6d833ce98b8ee4cc9998cd2",
+  "moduleSha256": "387ed1dbf944c8b31d9faaf93a814cea397b88d377ff835601fafde86adbb805",
   "checks": [
-    "Ampliata la sezione sul fentanyl e riletta la nuova sezione sulla via neurassiale.",
-    "36 sezioni,7061 parole,27 domande,30 riferimenti.",
-    "Distinti rilascio, deposito cutaneo, ingresso residuo ed eliminazione; nessuna conversione o tabella di dosi.",
-    "Distinti accesso al liquor, selettività molecolare e rischio respiratorio tardivo; nessuna procedura anestesiologica.",
-    "Cinque nuove pagine con testo e rendering controllati; dati storici non trasferiti come raccomandazioni.",
-    "39 validatori e32 configurazioni browser superati; due temi, tastiera, ricerca, fonti e offline controllati.",
-    "Aggiornamento reale0.42.0→0.43.0 verificato con preferiti, progressi e tema conservati.",
-    "Gli altri55 capitoli, catalogo, lettore e laboratorio sono invariati."
+    "38 sezioni, 7549 parole, 29 domande, 32 riferimenti e 11 collegamenti a identità esistenti.",
+    "Due nuove sezioni rilette: ziconotide/canali di tipoN e capsaicina/TRPV1.",
+    "Distinti MOR/Gi-o, canale e subunitàα2δ; attivazione iniziale e risposta nel tempo.",
+    "Indici clinici e sicurezza confrontati con documenti EMA selezionati; contesto NICE distinto. Nessuna dose o procedura.",
+    "Cinque pagine finali del capitolo lette con controllo visivo; bibliografia non confusa con lettura degli articoli.",
+    "39 validatori e 32 configurazioni browser superati; due temi, tastiera, ricerca, fonti e offline controllati.",
+    "Aggiornamento reale 0.43.0→0.44.0 verificato con preferiti, progressi e tema conservati.",
+    "Gli altri 55 capitoli, catalogo, lettore e laboratorio sono invariati."
   ],
   "limits": [
     "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
