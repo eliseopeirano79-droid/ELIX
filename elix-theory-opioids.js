@@ -29,6 +29,24 @@ export const THEORY_OPIOIDS=Object.freeze({
       "text": "Una fibra sensitiva primaria raccoglie segnali dalla periferia e porta l’informazione al midollo spinale. Nel corno dorsale, le sue terminazioni comunicano con interneuroni e neuroni che partecipano alle vie ascendenti. Il glutammato e alcuni neuropeptidi, fra cui la sostanza P, contribuiscono alla trasmissione, con ruoli che dipendono dal tipo di terminazione e dall’attività. Non esiste un unico filo che trasporti intatto un valore numerico di dolore fino alla corteccia.\n\nA ogni passaggio intervengono proprietà di membrana, liberazione del trasmettitore e organizzazione dei circuiti. Ridurre l’ingresso di calcio in un terminale può diminuire l’esocitosi; aumentare una conduttanza al potassio in una cellula ricevente può renderla meno eccitabile. Sono interventi differenti che possono convergere sulla riduzione del trasferimento di informazione nocicettiva.\n\nLe vie discendenti aggiungono un controllo dall’alto verso il midollo. La persistenza del dolore non si spiega contando semplicemente più fibre ascendenti o meno fibre discendenti: contano attività, plasticità, contesto e patologia. Lo schema del circuito è utile proprio quando permette di precisare quale passaggio viene modificato."
     },
     {
+      "id": "sensibilizzazione-periferica",
+      "title": "Sensibilizzazione periferica: cambia la risposta allo stesso stimolo",
+      "refs": [
+        "R",
+        "IASP"
+      ],
+      "text": "Una terminazione nocicettiva non è un sensore con una sensibilità immutabile. Il suo comportamento dipende sia dallo stimolo sia dallo stato del tessuto e dei canali di membrana. Attivazione e sensibilizzazione descrivono due passaggi differenti: un segnale può provocare una risposta, mentre un mediatore può rendere più facile o più intensa la risposta a un segnale successivo. Nel tessuto infiammato questi processi possono sovrapporsi.\n\nPer seguirli conviene partire dalla trasduzione, cioè dalla conversione dello stimolo in una variazione elettrica. TRPV1 è un canale cationico sensibile, fra l’altro, a capsaicina, calore e acidità; i canali ASIC rispondono ai protoni e i recettori P2X all’ATP. Aprire un canale cationico può depolarizzare la terminazione. I canali del sodio voltaggio-dipendenti intervengono poi nella generazione e propagazione dei potenziali d’azione: il canale che rileva uno stimolo e quello che sostiene l’impulso svolgono compiti differenti.\n\nAltri mediatori modificano la facilità con cui questo processo avviene. La bradichinina, attraverso B2 e vie intracellulari che comprendono PKC, può facilitare l’attività di TRPV1. Le prostaglandine possono aumentare la sensibilità della terminazione mediante i propri recettori e segnali intracellulari. Il fattore di crescita nervoso NGF, attraverso TrkA, può modificare funzionalità ed espressione di componenti del neurone. Si passa così da una modulazione relativamente rapida a cambiamenti che coinvolgono la produzione di proteine. Non tutti i mediatori agiscono attraverso lo stesso recettore o la stessa chinasi.\n\nIl punto comune è un diverso rapporto fra ingresso e risposta: uno stimolo può ora reclutare più attività o farlo a una soglia minore. Ciò aiuta a comprendere la dolorabilità di un tessuto infiammato, senza trasformare un valore sperimentale di temperatura in una soglia universale del dolore. Per collegare il meccanismo a un farmaco occorre specificare se si interviene sul mediatore, sulla trasduzione, sulla propagazione o sul rilascio sinaptico."
+    },
+    {
+      "id": "sensibilizzazione-centrale",
+      "title": "Dal wind-up ai segni clinici: distinguere fenomeno e meccanismo",
+      "refs": [
+        "R",
+        "IASP"
+      ],
+      "text": "La prima sinapsi spinale può cambiare il modo in cui risponde a una sequenza di impulsi. Il glutammato liberato dall’afferente attiva recettori ionotropi: AMPA contribuisce alla componente eccitatoria rapida, mentre NMDA partecipa a risposte più prolungate e alla facilitazione dipendente dall’attività. I neuropeptidi, fra cui la sostanza P, aggiungono un’altra componente della comunicazione. Il corno dorsale elabora quindi sia l’arrivo di un impulso sia la storia recente degli ingressi.\n\nIn determinate condizioni sperimentali, una successione di stimoli delle fibre C produce risposte spinali progressivamente maggiori: è il wind-up. Il fenomeno mostra che ripetere un ingresso non significa necessariamente ottenere ogni volta un’uscita identica. Non va però usato come sinonimo di tutta la sensibilizzazione centrale: quest’ultima comprende un aumento della responsività di neuroni nocicettivi centrali e può coinvolgere cambiamenti di eccitabilità, trasmissione e modulazione. Nemmeno l’analogia con il potenziamento a lungo termine dimostra che ogni dolore persistente sia lo stesso fenomeno sinaptico.\n\nAllodinia e iperalgesia descrivono invece ciò che si osserva nella risposta dolorosa. Nell’allodinia uno stimolo normalmente non doloroso provoca dolore; nell’iperalgesia uno stimolo normalmente doloroso produce una risposta aumentata. Queste parole non identificano da sole la sede o la causa del cambiamento. Una componente periferica e una centrale possono contribuire allo stesso quadro; la presenza di allodinia non basta a dimostrare una lesione del sistema somatosensoriale e quindi a classificare automaticamente il dolore come neuropatico.\n\nLa distinzione evita un salto logico frequente: un tracciato neuronale amplificato, un’esperienza dolorosa e una diagnosi non sono tre misure intercambiabili. Negli esperimenti si confrontano ingressi e risposte nervose definiti; nella persona la sensibilizzazione viene inferita indirettamente nel contesto della valutazione. Il modello aiuta a comprendere come un oppioide possa ridurre il rilascio o l’eccitabilità spinale, ma non dimostra che eliminare un singolo segnale risolva necessariamente l’intera esperienza dolorosa."
+    },
+    {
       "id": "recettori",
       "title": "μ, δ, κ e NOP: una famiglia, funzioni distribuite",
       "refs": [
@@ -406,6 +424,14 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "question": "La selettività per NaV1.8 dimostra un beneficio in ogni dolore cronico?",
       "answer": "No. È una proprietà del bersaglio. L’indicazione e le prove devono essere lette per popolazione e durata: il prodotto USA consultato riguarda dolore acuto nell’adulto. Non dimostra una raccomandazione universale o l’assenza di rischi."
+    },
+    {
+      "question": "Un mediatore deve provocare da solo una scarica per aumentare la risposta nocicettiva?",
+      "answer": "No. Può sensibilizzare la terminazione e modificare la risposta a uno stimolo successivo. Attivazione, sensibilizzazione, propagazione dell’impulso e rilascio sinaptico sono passaggi distinti."
+    },
+    {
+      "question": "Allodinia significa automaticamente dolore neuropatico o prova diretta di sensibilizzazione centrale?",
+      "answer": "No. Descrive dolore provocato da uno stimolo normalmente non doloroso. Il segno non identifica da solo un meccanismo; il dolore neuropatico richiede una lesione o malattia del sistema somatosensoriale."
     }
   ],
   "references": [
@@ -417,7 +443,7 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "R",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII edizione italiana 2016. PDF 795–798: testo disponibile e immagini controllati, comprese tabelle 42.2–42.3. Paginazione editoriale non stabilita per questo PDF riformattato."
+      "detail": "VIII edizione italiana 2016 / originale 2015. PDF 785–798: testo disponibile letto e rendering controllati; figure 42.1–42.7 e tabelle 42.1–42.3. Dieci nuove pagine in questo ampliamento. Paginazione editoriale non stabilita per il PDF riformattato; PDF 799–813 del capitolo 42 ancora da leggere. Articoli citati non letti integralmente."
     },
     {
       "id": "CFI",
@@ -456,7 +482,7 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "IASP",
       "title": "IASP · Terminologia del dolore",
-      "detail": "Definizioni di dolore, nocicezione, dolore nocicettivo, neuropatico e nociplastico consultate direttamente il 28/10/2026. Terminologia, non guida alla prescrizione; pagina non letta integralmente.",
+      "detail": "Definizioni di dolore, nocicezione, dolore nocicettivo, neuropatico e nociplastico; allodinia, iperalgesia e sensibilizzazione periferica/centrale consultate direttamente il 28/10/2026. Terminologia, non guida alla prescrizione; pagina non letta integralmente.",
       "url": "https://www.iasp-pain.org/resources/terminology/"
     },
     {
@@ -619,5 +645,5 @@ export const THEORY_OPIOIDS=Object.freeze({
     "antidepressivi"
   ],
   "coverage": "Sintesi originale da intervalli delimitati dei libri e da appunti e diapositive del corso di Farmacologia. Lettura integrale di libri e corsi non completata. Fonti ufficiali consultate per passaggi selezionati; documenti USA e britannici non equivalgono all’RCP italiano. Revisione clinica indipendente non eseguita.",
-  "wordCount": 5623
+  "wordCount": 6212
 });
