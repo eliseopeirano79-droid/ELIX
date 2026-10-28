@@ -1,29 +1,28 @@
 {
-  "updatedAt": "2026-10-28T09:49:56.952705+00:00",
-  "batch": "theory-opioid-source-closure",
-  "status": "verified_locally_pending_publication",
-  "release": "0.39.0",
-  "branch": "feat/theory-opioid-source-closure",
-  "baseCommit": "5db09ffb92adeea9324f3e7f315d15284d1048c5",
+  "updatedAt": "2026-10-28T10:21:25.870939+00:00",
+  "batch": "theory-opioid-course-continuation",
+  "status": "locally_verified_pending_ci_and_publication",
+  "release": "0.40.0",
+  "branch": "feat/theory-opioid-course-continuation",
+  "baseCommit": "f4af5fcffa6fded3a6bdb01181a3991b07e95670",
   "previousBatch": {
-    "batch": "theory-opioid-adaptations",
+    "batch": "theory-opioid-source-closure",
     "status": "published_and_live_verified",
-    "release": "0.38.0",
-    "commit": "5db09ffb92adeea9324f3e7f315d15284d1048c5"
+    "release": "0.39.0",
+    "commit": "f4af5fcffa6fded3a6bdb01181a3991b07e95670"
   },
   "scope": [
-    "Ampliare il capitolo sugli oppioidi con ricompensa e apprendimento, stabilizzazione terapeutica e interpretazione dei dati sperimentali."
+    "Collegare il capitolo sugli oppioidi ad altri bersagli analgesici, distinguendo meccanismo, indicazione e sicurezza."
   ],
   "completed": [
-    "30 sezioni, 5134 parole e 19 domande; 25 riferimenti e nove collegamenti al catalogo.",
-    "14 nuove pagine lette e 22 nuovi controlli visivi; chiuse otto lacune grafiche del testo già letto. Bibliografie e tabelle riprodotte distinte dagli studi originali.",
-    "39 validatori e 32 configurazioni browser superati: indice, fonti, tastiera, ricerca, due temi e offline.",
-    "Aggiornamento reale 0.38.0→0.39.0 verificato; preferiti, progressi e tema conservati.",
-    "55 altri capitoli, catalogo, lettore e laboratorio invariati; le due fonti lette ricontrollate per hash."
+    "32 sezioni,5623 parole,21 domande e 27 riferimenti; nove collegamenti al catalogo e laboratorio invariati.",
+    "Dieci nuove pagine di diapositive e 20 controlli visivi effettivi, con duplicati e lacune registrati.",
+    "39 validatori e 32 configurazioni browser superati; navigazione, ricerca, tastiera, due temi e offline controllati.",
+    "Aggiornamento reale 0.39.0→0.40.0 verificato; preferiti, progressi e tema conservati.",
+    "Gli altri 55 capitoli, catalogo, laboratorio e lettore sono invariati."
   ],
   "remaining": [
-    "CI della PR e del commit integrato.",
-    "Deploy concluso e verifiche online, risorse e percorsi storici."
+    "CI sul commit, deploy concluso e verifica online di file, navigazione, offline e percorsi di accesso."
   ],
   "counts": {
     "identities": 4225,
@@ -49,13 +48,13 @@
     "data/oppioidi-reading.json"
   ],
   "limits": [
-    "Katzung: capitolo31 PDF631–654 letto e controllato nelle pagine elencate; resto del libro non letto. Gli articoli della bibliografia non sono stati letti.",
-    "Diapositive: sovrapposizioni PDF109,479,487 e fondo della tabella494 tagliato; continuazione da496 non letta.",
-    "Appunti: per questo capitolo restano inclusi soltanto gli intervalli delle lezioni 13 e 15 elencati; cinque pagine controllate visivamente e figure di 277 in parte tagliate. La lezione 14 tratta un altro argomento.",
-    "Rang & Dale: soltanto PDF 795–798, non tutto il capitolo.",
-    "Nessuna nuova lettura PDF del corso di Farmacologia II.",
-    "Revisione clinica indipendente non eseguita; fonti USA e britanniche non equivalgono all’RCP italiano.",
+    "Katzung: capitolo 31 PDF 631–654 coperto; resto del libro non letto. Bibliografia distinta dagli articoli.",
+    "Diapositive: PDF 89–110 e 465–505 letti; continuazione da 506 non letta. Restano sovrapposizioni 109,479,487 e ritagli 494,498.",
+    "Appunti:15 pagine delle lezioni 13 e 15 con testo e rendering; tagli o sovrapposizioni 244,245,273,275,277 irrisolti. Il resto del corso non è coperto.",
+    "Rang & Dale: soltanto PDF 795–798; altre parti del capitolo ancora da leggere.",
+    "Nessuna nuova lettura PDF di Farmacologia II.",
+    "Consultazioni cliniche selettive; fonti USA e britanniche non equivalgono a RCP italiani. Revisione clinica indipendente non eseguita.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Dopo verifica online: leggere e classificare un intervallo delimitato delle diapositive da496, senza saltare a un altro capitolo. Restano i controlli visivi degli appunti sulle pagine già lette ma non viste; le figure tagliate o coperte restano lacune. Completare poi la riconciliazione delle fonti del capitolo prima di passare a un altro argomento."
+  "nextBatch": "Completare prima questa consegna. Poi riconciliare il capitolo con un intervallo delimitato di Rang & Dale contiguo a 795–798; identificare il confine del capitolo senza dichiararlo letto. Diapositive da 506 e resto dei corsi rimangono nel backlog."
 }

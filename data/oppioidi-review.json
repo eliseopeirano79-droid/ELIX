@@ -1,21 +1,22 @@
 {
-  "batch": "theory-opioid-source-closure",
+  "batch": "theory-opioid-course-continuation",
   "chapterId": "oppioidi",
-  "checkedAt": "2026-10-28T09:46:58.412270+00:00",
+  "checkedAt": "2026-10-28T10:21:25.870939+00:00",
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "5d4879747c8650c7d0cc5dbffc6c1d24e2cb46c0a16f34fdf9d09059e6715ad6",
+  "moduleSha256": "82be9363d7ab18c3bb3f949dc9fbe58f21d7245ded98b30da6028ce71304b2e3",
   "checks": [
-    "Tre nuove sezioni rilette e confrontate con gli intervalli: ricompensa e apprendimento, stabilizzazione terapeutica, lettura dei dati sperimentali.",
-    "30 sezioni, 5134 parole e19 domande;25 riferimenti.",
-    "Distinti disinibizione mesolimbica e modulazione del dolore; nessun determinismo individuale o equivalenza fra dopamina e piacere.",
-    "Farmaci per il disturbo da uso contestualizzati con CDC ed EMA; nessuna dose, calendario di riduzione o preferenza universale.",
-    "Legame, saggio, specie e metaboliti distinti da esito clinico; sigle di dato mancante e attività non rilevata non confuse.",
-    "Bibliografia non equiparata agli articoli; grafici sovrapposti e tabella tagliata dichiarati."
+    "Due sezioni originali rilette: bersagli oltre MOR e selettività NaV 1.8.",
+    "32 sezioni,5623 parole,21 domande,27 riferimenti.",
+    "Distinti α2δ, poro del calcio, GABA e MOR; nessuna associazione terapeutica raccomandata automaticamente.",
+    "Suzetrigina limitata al contesto del prodotto USA; nessuna superiorità universale o assenza di rischi.",
+    "Dieci nuove pagine e 20 controlli visivi; figure ripetute, tagli e sovrapposizioni registrati.",
+    "39 validatori e 32 configurazioni browser superati; navigazione, tastiera, due temi e offline controllati.",
+    "Aggiornamento reale 0.39.0→0.40.0 superato con preferiti, progressi e tema conservati."
   ],
   "limits": [
     "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
-    "Prove software locali superate; CI, pubblicazione e verifica online registrate separatamente."
+    "Controlli software locali superati; CI, deploy e verifica online da concludere."
   ]
 }
