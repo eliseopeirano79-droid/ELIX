@@ -8,15 +8,17 @@ Per esplicita richiesta dell’utente del 27/10/2026 usare «appunti e diapositi
 
 ## Lotto corrente
 
-`theory-opioid-analgesia`, versione 0.37.0: ampliamento del capitolo esistente sugli oppioidi. La precedente sintesi di quattro sezioni diventa un percorso di 23 sezioni, 3.717 parole e 12 domande, con un laboratorio originale a quattro viste e nove collegamenti al catalogo. Sono distinti recettore, trasmissione spinale, disinibizione, metaboliti, formulazioni, tolleranza e contesti clinici. Restano 56 capitoli: undici estesi e 45 sintetici. Nessuna nuova identità, scheda farmacologica o campo farmacocinetico.
+`theory-opioid-adaptations`, versione 0.38.0: quattro ulteriori sezioni nel capitolo esistente sugli oppioidi, dedicate ad antagonismo periferico, associazioni con naloxone, tolleranza crociata e remifentanil. Il percorso passa da 23 a 27 sezioni, da 3.717 a 4.463 parole e da 12 a 16 domande. Sono presenti 24 riferimenti, nove collegamenti al catalogo e il laboratorio originale a quattro viste già pubblicato. Nessuna nuova identità, scheda farmacologica o profilo farmacocinetico. Restano 56 capitoli: undici estesi e 45 sintetici.
 
-La 0.36.0 è pubblicata e verificata al commit `f7776f8315dc7a254da5168c27e597e1c0968b3c`, PR29. La relativa ricevuta ha concluso la consegna precedente.
+La 0.37.0 è pubblicata e verificata al commit `b319be7d597351d1b6742bcfbb5bdf783aefb32b`, PR30. La relativa ricevuta conclude la consegna precedente e prevale sul suo checkpoint preparato prima della pubblicazione.
 
-Fonti di questo lotto: 68 pagine PDF delimitate, con lettura del testo disponibile e 50 controlli visivi, ripartite fra Katzung, Rang & Dale, appunti e diapositive del corso di Farmacologia I. I 22 fogli iniziali delle diapositive riguardano i sistemi monoaminergici; gli undici successivi gli oppioidi. Nessuna lettura integrale di libri o corsi. Le lacune delle figure e i limiti di accesso alle 15 fonti ufficiali sono registrati in `data/oppioidi-reading.json`. Provenienza originale conservata privatamente.
+Fonti di questo lotto: diapositive del corso di Farmacologia I PDF476–485 e Katzung PDF647–650, con lettura del testo disponibile e controllo di tutti i 14 rendering. La pagina485 ripete482;484 è una nota; i grafici479 sono in parte coperti. Sono pagine ispezionate, non 14 nuovi contenuti indipendenti. Copertura cumulativa dei due lotti:82 pagine e64 controlli visivi. La lezione14 degli appunti tratta antiepilettici: la lettura preparatoria è registrata privatamente e non è inclusa nel capitolo o nei conteggi sugli oppioidi. Nessun libro o corso dichiarato interamente letto.
 
-Controlli locali: 39 validatori, 32 configurazioni browser, navigazione, tastiera, ricerca, desktop/mobile simulati e due temi. Offline e aggiornamento reale 0.36.0→0.37.0 verificati, con preferiti, progressi e tema conservati. Gli altri 55 capitoli e il catalogo restano invariati. Le verifiche di CI, deploy e online devono ancora concludersi.
+Cinque riferimenti ufficiali aggiunti e cautele CDC sul cambio di oppioide ricontrollate. Distinti antagonismo periferico e primo passaggio, corretti i riferimenti storici agli enzimi del remifentanil e al ruolo del naloxone. Nessuna dose o tabella di conversione importata. Controllo editoriale del solo integratore; revisione clinica indipendente non eseguita.
 
-Questo checkpoint precede la pubblicazione. La ricevuta `../../outputs/ELIX-latest-verification.json` prevale quando attesta deploy e verifiche online per lo stesso batch/versione. Prove in `../../outputs/ELIX-course-monoamines-2026-10-27/`. Non iniziare altro prima di completare la consegna.
+Controlli locali:39 validatori,32 configurazioni browser, navigazione delle nuove fonti, tastiera, ricerca, desktop/mobile simulati, due temi e offline. Aggiornamento reale0.37.0→0.38.0 verificato con preferiti, progressi e tema conservati. Schermate selezionate controllate. Un problema di ricerca emerso nel test è corretto: selezionare il capitolo già aperto chiude ora la finestra di ricerca. Gli altri55 capitoli, il catalogo e il laboratorio restano invariati. CI, deploy e controlli online sono ancora da concludere.
+
+Questo checkpoint precede la pubblicazione. La ricevuta `../../outputs/ELIX-latest-verification.json` prevale per batch/versione coincidenti dopo deploy e verifica online. Prove in `../../outputs/ELIX-opioid-adaptations-2026-10-28/`. Non avviare un altro lotto prima di concludere questo.
 
 ## Regole
 
@@ -28,4 +30,4 @@ Questo checkpoint precede la pubblicazione. La ricevuta `../../outputs/ELIX-late
 
 ## Prossimo intervallo
 
-Dopo la verifica online, proseguire lo stesso argomento con diapositive PDF 476–485 e Katzung PDF 647–650, deduplicando e controllando le figure pertinenti. Gli appunti della lezione 14 restano da riconciliare. Non dichiarare già letti questi intervalli. Farmaci mancanti e altri laboratori rimangono nel backlog.
+Dopo la verifica online: controllare le figure Katzung PDF639–646 ancora mancanti, poi leggere un intervallo delimitato della continuazione da651. Diapositive da486 ancora non lette. La lezione14 degli appunti riguarda antiepilettici e resta fuori dal capitolo sugli oppioidi; per il futuro capitolo le figure254–260 e il testo261–271 restano da leggere. Farmaci mancanti e ulteriori laboratori rimangono nel backlog.

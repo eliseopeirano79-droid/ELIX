@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-opioid-analgesia",
+  "batch": "theory-opioid-adaptations",
   "chapterId": "oppioidi",
-  "updatedAt": "2026-10-28T08:13:32.905722+00:00",
+  "updatedAt": "2026-10-28T09:09:06.354256+00:00",
   "status": "editorial_reconciled_locally_verified",
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -13,41 +13,17 @@
       "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
       "pageCount": 935,
       "newlyReadTextPages": [
-        89,
-        90,
-        91,
-        92,
-        93,
-        94,
-        95,
-        96,
-        97,
-        98,
-        99,
-        100,
-        101,
-        102,
-        103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        465,
-        466,
-        467,
-        468,
-        469,
-        470,
-        471,
-        472,
-        473,
-        474,
-        475
+        476,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485
       ],
-      "previouslyFullyReadPages": [],
       "visuallyCheckedPdfPages": [
         89,
         90,
@@ -81,12 +57,22 @@
         472,
         473,
         474,
-        475
+        475,
+        476,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
       "title": "Diapositive del corso di Farmacologia I",
-      "note": "Anno accademico 2025–26. PDF 89–110 e 465–475 consultati e controllati visivamente. Il primo intervallo riguarda i sistemi monoaminergici, il secondo gli oppioidi. La pagina 109 è parzialmente coperta. Resto del corso non dichiarato letto.",
+      "note": "Anno accademico 2025–26. PDF 89–110 e 465–485 consultati e controllati visivamente. Il primo intervallo riguarda i sistemi monoaminergici, il secondo gli oppioidi. Pagina 109 parzialmente coperta; 479 presenta sovrapposizioni sui grafici. Pagina 485 ripete 482; 484 è una nota. Nessuna tabella di conversione importata; resto del corso non dichiarato letto.",
       "pdfPagesRead": [
         89,
         90,
@@ -120,7 +106,17 @@
         472,
         473,
         474,
-        475
+        475,
+        476,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485
       ],
       "availableExtractedTextReadPages": [
         89,
@@ -155,7 +151,17 @@
         472,
         473,
         474,
-        475
+        475,
+        476,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485
       ],
       "imageTextReadPages": [
         91,
@@ -169,7 +175,42 @@
         470,
         471
       ],
-      "readingMethod": "All available extracted text read for PDF89–110 and465–475; all33 renders inspected. Image-heavy content read visually; PDF109 partly obscured. Figures are private references only."
+      "readingMethod": "Testo disponibile degli intervalli 89–110 e 465–485 letto; tutti i 43 rendering ispezionati. Pagina 109 parzialmente coperta; grafici 479 parzialmente oscurati. Pagina 485 duplicata, 484 nota: nessun contenuto contato due volte.",
+      "previouslyRecordedPdfPages": [
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475
+      ]
     },
     {
       "id": "K",
@@ -177,24 +218,11 @@
       "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
       "pageCount": 1579,
       "newlyReadTextPages": [
-        631,
-        632,
-        633,
-        634,
-        635,
-        636,
-        637,
-        638,
-        639,
-        640,
-        641,
-        642,
-        643,
-        644,
-        645,
-        646
+        647,
+        648,
+        649,
+        650
       ],
-      "previouslyFullyReadPages": [],
       "visuallyCheckedPdfPages": [
         631,
         632,
@@ -203,12 +231,16 @@
         635,
         636,
         637,
-        638
+        638,
+        647,
+        648,
+        649,
+        650
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
       "title": "Katzung · Farmacologia generale e clinica",
-      "note": "IX edizione italiana 2014, XII americana 2012. PDF 631–646: testo disponibile letto; controllo visivo 631–638. Continuazione da 647 non inclusa.",
+      "note": "IX edizione italiana 2014, XII americana 2012. PDF 631–650: testo disponibile letto; controllo visivo 631–638 e 647–650. Le figure 639–646 e la continuazione da 651 restano da verificare. Le indicazioni storiche sono confrontate con le fonti attuali per i passaggi integrati.",
       "pdfPagesRead": [
         631,
         632,
@@ -225,7 +257,11 @@
         643,
         644,
         645,
-        646
+        646,
+        647,
+        648,
+        649,
+        650
       ],
       "availableExtractedTextReadPages": [
         631,
@@ -243,34 +279,39 @@
         643,
         644,
         645,
-        646
+        646,
+        647,
+        648,
+        649,
+        650
       ],
       "imageTextReadPages": [],
-      "readingMethod": "Full extracted text PDF631–646 read in bounded calls; renders631–638 inspected. No visual check claimed for639–646. Chapter continuation647 onward not read."
+      "readingMethod": "Testo disponibile PDF 631–650 letto; rendering 631–638 e 647–650 ispezionati. Figure 639–646 ancora non controllate. Continuazione da 651 non letta.",
+      "previouslyRecordedPdfPages": [
+        631,
+        632,
+        633,
+        634,
+        635,
+        636,
+        637,
+        638,
+        639,
+        640,
+        641,
+        642,
+        643,
+        644,
+        645,
+        646
+      ]
     },
     {
       "id": "SFI",
       "edition": "AA2025–26",
       "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
       "pageCount": 344,
-      "newlyReadTextPages": [
-        244,
-        245,
-        246,
-        247,
-        248,
-        249,
-        250,
-        251,
-        252,
-        272,
-        273,
-        274,
-        275,
-        276,
-        277
-      ],
-      "previouslyFullyReadPages": [],
+      "newlyReadTextPages": [],
       "visuallyCheckedPdfPages": [
         247,
         249,
@@ -317,20 +358,31 @@
         277
       ],
       "imageTextReadPages": [],
-      "readingMethod": "Full extracted text15pages read;5selected renders inspected. PDF252 extraction interleaves tables; visual layout resolved. Images elsewhere not yet individually checked. Header229 read only to establish lesson metadata, not counted as a page."
+      "readingMethod": "Full extracted text15pages read;5selected renders inspected. PDF252 extraction interleaves tables; visual layout resolved. Images elsewhere not yet individually checked. Header229 read only to establish lesson metadata, not counted as a page.",
+      "previouslyRecordedPdfPages": [
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277
+      ]
     },
     {
       "id": "R",
       "edition": "VIII italiana2016",
       "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
       "pageCount": 1102,
-      "newlyReadTextPages": [
-        795,
-        796,
-        797,
-        798
-      ],
-      "previouslyFullyReadPages": [],
+      "newlyReadTextPages": [],
       "visuallyCheckedPdfPages": [
         795,
         796,
@@ -356,10 +408,16 @@
       "imageTextReadPages": [
         796
       ],
-      "readingMethod": "Full available extracted text read; all4renders inspected, including raster tables. Interval starts/ends within chapter42; rest not claimed read."
+      "readingMethod": "Full available extracted text read; all4renders inspected, including raster tables. Interval starts/ends within chapter42; rest not claimed read.",
+      "previouslyRecordedPdfPages": [
+        795,
+        796,
+        797,
+        798
+      ]
     }
   ],
-  "visualPages": 50,
+  "visualPages": 64,
   "expandedExistingChapters": 1,
   "newChapters": 0,
   "newIdentities": 0,
@@ -375,7 +433,7 @@
     {
       "id": "CDC2022",
       "title": "CDC · Linea guida sulla prescrizione di oppioidi, 2022",
-      "detail": "Linea guida USA 2022. Consultati abstract, campo di applicazione e passaggi selezionati sulla rivalutazione e sulla raccomandazione 5, il 28/10/2026. Adulti ambulatoriali; esclusi dolore da tumore, anemia falciforme, cure palliative e di fine vita. Non lettura integrale delle 95 pagine.",
+      "detail": "Linea guida USA 2022. Consultati abstract, campo di applicazione e passaggi selezionati sulla rivalutazione e sulla raccomandazione 5, il 28/10/2026. Adulti ambulatoriali; esclusi dolore da tumore, anemia falciforme, cure palliative e di fine vita. Non lettura integrale delle 95 pagine. In questo ampliamento rilette anche le cautele della tabella sugli equivalenti di morfina e sul cambio di oppioide; nessun fattore di conversione trasferito.",
       "url": "https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm"
     },
     {
@@ -455,9 +513,39 @@
       "title": "CDC · Disturbo da uso di oppioidi e recupero",
       "detail": "Risorsa CDC del 12/08/2024: introduzione e obiettivi di recupero consultati nei contenuti indicizzati il 28/10/2026. Condizione trattabile; non revisione integrale del trattamento.",
       "url": "https://www.cdc.gov/overdose-prevention/treatment/opioid-use-disorder.html"
+    },
+    {
+      "id": "OXYNAL",
+      "title": "Ossicodone/naloxone · documento del prodotto britannico",
+      "detail": "Oxycodone/naloxone KRKA, rilascio prolungato: passaggi selezionati 4.1–4.4 e 5.1–5.2 consultati il 28/10/2026. emc aggiornato il 06/01/2026. Primo passaggio, funzione epatica e rischi; nessuna dose o conversione importata.",
+      "url": "https://www.medicines.org.uk/emc/product/101781/smpc"
+    },
+    {
+      "id": "NALDE",
+      "title": "Rizmoic · documento del prodotto britannico",
+      "detail": "Naldemedina: passaggi selezionati 4.3–4.5 e 5.1–5.2 aperti direttamente il 28/10/2026. Distribuzione, trasportatori e precauzioni; data esatta di revisione non stabilita. Non lettura integrale né RCP italiano.",
+      "url": "https://www.medicines.org.uk/emc/product/10816/smpc"
+    },
+    {
+      "id": "NALOPEG",
+      "title": "Moventig · documento del prodotto britannico",
+      "detail": "Naloxegol: passaggi selezionati 4.1, 4.3–4.4 e 5.1 aperti direttamente il 28/10/2026. emc aggiornato il 22/01/2025. Meccanismo e precauzioni; nessuno schema di trattamento importato.",
+      "url": "https://www.medicines.org.uk/emc/product/6892/smpc"
+    },
+    {
+      "id": "SUBOX",
+      "title": "EMA · Suboxone",
+      "detail": "Panoramica pubblica EMA: composizione, meccanismo e contesto di trattamento consultati direttamente il 28/10/2026; pagina e documenti aggiornati il 25/09/2026. Il documento completo di prodotto non è stato letto in questo intervallo.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/suboxone"
+    },
+    {
+      "id": "REMI",
+      "title": "Remifentanil · documento del prodotto USA",
+      "detail": "DailyMed: passaggi selezionati 12.1–12.3 e avvertenze sulla respirazione e sulla rapida cessazione dell’analgesia consultati direttamente il 28/10/2026. Data esatta di revisione non stabilita; nessuna dose o procedura anestesiologica importata.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=39284dec-b9bc-4fc8-b2d3-f1ef1323e5d4"
     }
   ],
-  "deduplication": "File confrontati per SHA-256 e pagine confrontate con i registri precedenti. I due intervalli delle diapositive sono distinti: 22 pagine sui sistemi monoaminergici e 11 sugli oppioidi. Nessun nuovo libro o corso interamente letto.",
+  "deduplication": "SHA-256 dei file confrontati con i registri precedenti; le 14 pagine del nuovo intervallo non coincidono con pagine già registrate. Diapositive 485: contenuto duplicato di 482; 484: nota relativa a 483. Queste due pagine contano come pagine ispezionate, non come due nuovi contenuti didattici.",
   "automaticExtraction": "Estrazione estesa dei PDF usata soltanto per trovare gli intervalli; fuori dalle pagine elencate non equivale a lettura. Per Farmacologia II consultata soltanto una mappa degli argomenti, senza nuove pagine PDF.",
   "sourceConflicts": [
     {
@@ -483,16 +571,39 @@
     {
       "source": "K 639–646",
       "resolution": "Non trasferiti protocolli storici per edema polmonare, ostetricia, neonati o associazioni con stimolanti. Nessuno schema clinico individuale."
+    },
+    {
+      "source": "CFI477–481",
+      "resolution": "Antagonismo periferico distinto dal primo passaggio del naloxone orale; nessuna barriera assoluta o conversione storica importata. Tolleranza crociata incompleta; varianti recettoriali non usate per prevedere la rotazione individuale."
+    },
+    {
+      "source": "CFI482–485",
+      "resolution": "Separati tolleranza, dipendenza fisica e disturbo da uso. Pagina duplicata e nota riconosciute; nessuna progressione inevitabile o durata fissa dell’astinenza."
+    },
+    {
+      "source": "K648–649",
+      "resolution": "Remifentanil: esterasi aspecifiche ematiche e tissutali, non colinesterasi plasmatica. Nell’associazione con buprenorfina il naloxone è un antagonista."
+    },
+    {
+      "source": "K647–650",
+      "resolution": "Non importati dosaggi, conversioni, restrizioni pediatriche storiche o generalizzazioni sulla sicurezza respiratoria. Consultazione attuale selettiva, non revisione dell’intero capitolo."
     }
   ],
   "remaining": [
-    "Katzung: figure PDF 639–646 non controllate; continuazione da 647 da leggere.",
-    "Diapositive: pagina 109 parzialmente coperta; continuazione da 476 da leggere.",
-    "Appunti: lezione 14 e resto della 15 non coperti; controllate solo le cinque immagini elencate, alcune figure di 277 tagliate.",
+    "Katzung: figure PDF 639–646 non controllate; continuazione da 651 da leggere.",
+    "Diapositive: pagina 109 parzialmente coperta e grafici 479 parzialmente oscurati; continuazione da 486 non letta.",
+    "Appunti: per questo capitolo restano inclusi soltanto gli intervalli delle lezioni 13 e 15 elencati; cinque pagine controllate visivamente e figure di 277 in parte tagliate. La lezione 14 tratta un altro argomento.",
     "Rang & Dale: soltanto PDF 795–798, non tutto il capitolo.",
     "Nessuna nuova lettura PDF del corso di Farmacologia II.",
     "Revisione clinica indipendente non eseguita; fonti USA e britanniche non equivalgono all’RCP italiano."
   ],
-  "newReadPdfPages": 68,
-  "readingCountDefinition": "68 pagine PDF con lettura del testo disponibile, integrata dal controllo visivo delle 50 pagine elencate. Alcune pagine contengono principalmente immagini: non sono 68 pagine di prosa né 68 pagine tutte controllate visivamente."
+  "newReadPdfPages": 14,
+  "readingCountDefinition": "14 nuove pagine PDF pertinenti agli oppioidi: testo disponibile letto e 14 controlli visivi. Copertura cumulativa dei due lotti: 82 pagine PDF e 64 controlli visivi; non 82 pagine di prosa né 82 pagine interamente controllate nelle figure. Gli appunti su altro argomento riconosciuti durante la riconciliazione non sono inclusi in questi conteggi.",
+  "totalReadPdfPages": 82,
+  "currentBatchVisualPages": 14,
+  "previousBatch": {
+    "batch": "theory-opioid-analgesia",
+    "readPdfPages": 68,
+    "visualPages": 50
+  }
 }
