@@ -284,6 +284,25 @@ export const THEORY_OPIOIDS=Object.freeze({
       "text": "Un antagonista può occupare il recettore senza produrre l’attivazione dell’agonista che contrasta. Il risultato dipende da concentrazioni, affinità, accesso al sito e tempi. Bloccare rapidamente un segnale in una persona fisicamente dipendente può precipitare astinenza; questo è distinto dalla capacità dell’antagonista di ridurre un effetto respiratorio pericoloso.\n\nPer il naloxone nasale, il documento consultato prevede il trattamento immediato di un sovradosaggio noto o sospetto. Il sospetto clinico può dunque giustificare l’intervento d’emergenza senza attendere l’identificazione tossicologica della sostanza. Il farmaco non sostituisce l’assistenza urgente e il supporto della respirazione. Gli effetti oppioidi possono ricomparire quando l’antagonista si esaurisce prima dell’agonista; alcune situazioni, compresa l’esposizione a buprenorfina, possono richiedere una gestione più complessa.\n\nIl naltrexone trova impiego in percorsi programmati per il disturbo da uso, secondo condizioni specifiche. Non deve essere presentato come un sostituto intercambiabile del naloxone nell’emergenza. Il collegamento fra le due molecole riguarda il bersaglio antagonizzato; tempi, formulazioni e obiettivi del trattamento restano differenti."
     },
     {
+      "id": "oltre-mor",
+      "title": "Oltre MOR: bersagli diversi lungo la stessa via del dolore",
+      "refs": [
+        "CFI",
+        "PREG-UK",
+        "NICE173"
+      ],
+      "text": "La riduzione della trasmissione nocicettiva non identifica da sola un meccanismo oppioide. Lungo la stessa via si possono modificare la generazione del potenziale d’azione, la liberazione di trasmettitore o la modulazione discendente. Il punto utile del confronto è riconoscere quale proteina viene raggiunta e in quale cellula: una diminuzione del segnale finale può derivare da interventi molecolari differenti.\n\nGabapentin e pregabalin ne offrono un esempio. Sono analoghi strutturali del GABA, ma il nome e la somiglianza chimica non li rendono agonisti dei suoi recettori. Si legano alla subunità ausiliaria α2δ dei canali del calcio voltaggio-dipendenti; nel modello didattico questo si collega alla riduzione del rilascio di trasmettitori eccitatori. Non riproducono la sequenza MOR → Gi/o descritta nel laboratorio. Inoltre α2δ non è il poro attraverso cui passa il calcio: distinguere subunità ausiliaria, canale e recettore evita di trattarli come sinonimi.\n\nAltri farmaci richiamati nel dolore neuropatico intervengono sulle monoamine o sui canali del sodio. Per gli antidepressivi il collegamento passa attraverso la modulazione della trasmissione e dei circuiti discendenti; per alcuni antiepilettici attraverso l’eccitabilità di membrana. La condivisione di un bersaglio non rende tutti i membri di una classe intercambiabili: NICE CG173 distingue, per esempio, la nevralgia del trigemino dagli altri contesti neuropatici e separa le scelte iniziali dagli impieghi che richiedono un parere specialistico.\n\nMeccanismi diversi non garantiscono che i rischi di un’associazione si annullino. Il documento britannico del pregabalin consultato segnala depressione respiratoria e cautela con oppioidi o altri depressori del sistema nervoso centrale. La complementarità di una mappa farmacologica è dunque un’ipotesi da collegare a efficacia, tollerabilità e caratteristiche della persona, non un invito a sommare medicinali."
+    },
+    {
+      "id": "nav-selettivita",
+      "title": "NaV1.8: dal bersaglio periferico al limite dell’indicazione",
+      "refs": [
+        "CFI",
+        "SUZ-USA"
+      ],
+      "text": "I canali del sodio contribuiscono alla generazione e propagazione dei potenziali d’azione. Le diverse isoforme hanno distribuzioni e proprietà differenti: intervenire su un canale presente nei neuroni sensitivi periferici può modificare il segnale prima che raggiunga midollo ed encefalo. Questo percorso è distinto dall’attivazione di MOR e aiuta a capire perché un analgesico possa agire senza essere un oppioide.\n\nLa suzetrigina, inizialmente studiata come VX-548, blocca selettivamente NaV1.8 rispetto alle altre isoforme considerate. Il documento USA di Journavx descrive NaV1.8 nei neuroni sensitivi periferici, compresi quelli dei gangli delle radici dorsali. La selettività è una proprietà relativa del confronto sperimentale: non significa che il medicinale non possa avere effetti indesiderati, né trasforma il rapporto fra potenze sui canali in un rapporto fra dosi analgesiche. Anche un dato genetico su NaV1.7 non dimostra, da solo, l’efficacia clinica di un farmaco diretto a NaV1.8.\n\nNel prodotto USA consultato l’indicazione riguarda il dolore acuto moderato o severo dell’adulto, incluso quello postoperatorio; l’impiego nel dolore acuto non è stato studiato oltre quattordici giorni. Non se ne ricava un’indicazione generale al dolore neuropatico cronico. Le interazioni legate a CYP3A e le precauzioni nella compromissione epatica restano rilevanti anche per un bersaglio periferico. Il documento statunitense non stabilisce l’autorizzazione in Italia: il passaggio da meccanismo a impiego richiede sempre prodotto, popolazione, durata ed esiti verificati."
+    },
+    {
       "id": "contesto",
       "title": "Il contesto del dolore cambia il significato della raccomandazione",
       "refs": [
@@ -379,6 +398,14 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "question": "Due valori di Ki permettono di calcolare dosi analgesiche equivalenti?",
       "answer": "No. Devono essere contestualizzati per bersaglio, saggio, specie e composto misurato. Affinità, esposizione, efficacia clinica e sicurezza sono livelli diversi."
+    },
+    {
+      "question": "Pregabalin e un agonista MOR riducono il rilascio seguendo lo stesso meccanismo?",
+      "answer": "No. Il pregabalin si lega alla subunità ausiliaria α2δ di canali del calcio; MOR è un recettore accoppiato a Gi/o. Una convergenza sul rilascio non rende identici i bersagli né garantisce la sicurezza dell’associazione."
+    },
+    {
+      "question": "La selettività per NaV1.8 dimostra un beneficio in ogni dolore cronico?",
+      "answer": "No. È una proprietà del bersaglio. L’indicazione e le prove devono essere lette per popolazione e durata: il prodotto USA consultato riguarda dolore acuto nell’adulto. Non dimostra una raccomandazione universale o l’assenza di rischi."
     }
   ],
   "references": [
@@ -395,12 +422,12 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "CFI",
       "title": "Diapositive del corso di Farmacologia I",
-      "detail": "Anno accademico 2025–26. PDF 89–110 e 465–495: testo disponibile e immagini consultati. Sovrapposizioni 109,479,487; tabella 494 tagliata in basso. Pagina 485 ripete 482; 484 è una nota. Nel nuovo intervallo 486–495 sono presenti schemi e tabelle riprodotti: non equivale alla lettura integrale degli articoli originari. Nessuna tabella o conversione pubblicata; resto del corso non dichiarato letto."
+      "detail": "Anno accademico 2025–26. PDF 89–110 e 465–505: testo disponibile e rendering consultati. Da 496 il tema si amplia agli analgesici non oppioidi. Sovrapposizioni 109,479,487; tabella 494 e dettagli di 498 incompleti. Pannelli 502/504/505 ripetuti; articoli citati non letti integralmente. Resto del corso non dichiarato letto."
     },
     {
       "id": "SFI",
       "title": "Appunti del corso di Farmacologia I",
-      "detail": "Anno accademico 2025–26, lezioni 13 e 15 dell’11 e 18 novembre 2025. PDF 244–252 e 272–277: testo disponibile letto; immagini controllate 247, 249, 252, 276, 277. Alcune figure di pagina 277 sono tagliate. Altre pagine e figure restano da verificare."
+      "detail": "Anno accademico 2025–26, lezioni 13 e 15 dell’11 e 18 novembre 2025. PDF 244–252 e 272–277: testo disponibile letto e tutti i 15 rendering controllati cumulativamente. Figure o etichette tagliate o coperte in 244,245,273,275,277; controllo della pagina non equivale al recupero delle parti mancanti. Altre pagine del corso restano da leggere."
     },
     {
       "id": "BUP",
@@ -465,7 +492,7 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "NICE173",
       "title": "NICE CG173 · Dolore neuropatico nell’adulto",
-      "detail": "CG173, dolore neuropatico dell’adulto in ambito non specialistico. Raccomandazioni 1.1.8, 1.1.10 e 1.1.12 consultate nei contenuti indicizzati il 27/10/2026; apertura diretta non disponibile. Ultimo aggiornamento indicato 22/09/2020; non revisione integrale.",
+      "detail": "CG173, dolore neuropatico dell’adulto in ambito non specialistico: raccomandazioni 1.1.8–1.1.14 consultate nei contenuti indicizzati il 28/10/2026; apertura diretta: errore 403. Distinte nevralgia del trigemino e indicazioni specialistiche; non lettura integrale.",
       "url": "https://www.nice.org.uk/guidance/cg173/chapter/Recommendations"
     },
     {
@@ -527,6 +554,18 @@ export const THEORY_OPIOIDS=Object.freeze({
       "title": "NIH · Apprendimento e trattamento delle dipendenze",
       "detail": "Research in Context, 24/03/2026. Sezione Drugs and the brain e panoramica dei medicinali lette direttamente il 28/10/2026. Fonte istituzionale di orientamento; studi citati e restanti approfondimenti terapeutici non revisionati integralmente.",
       "url": "https://beta.nih.gov/news-events/nih-research-matters/treating-addiction"
+    },
+    {
+      "id": "PREG-UK",
+      "title": "Pregabalin · documento del prodotto britannico",
+      "detail": "Brown & Burk, 50 mg, capsule: passaggi selezionati 4.1, 4.4, 4.5 e 5.1 letti direttamente il 28/10/2026; emc aggiornato 07/09/2026. Consultazione di meccanismo e precauzioni, non lettura integrale né RCP italiano.",
+      "url": "https://www.medicines.org.uk/emc/product/15627/smpc"
+    },
+    {
+      "id": "SUZ-USA",
+      "title": "Journavx · documento del prodotto USA",
+      "detail": "Vertex: indicazione, durata studiata, precauzioni e meccanismo consultati direttamente il 28/10/2026. DailyMed aggiornato 02/10/2026; testo revisionato 01/2026. Lettura selettiva, senza dosaggi o autorizzazioni italiane.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f0976da4-1d20-4517-945c-b60ed2f41c12"
     }
   ],
   "moleculeLinks": [
@@ -580,5 +619,5 @@ export const THEORY_OPIOIDS=Object.freeze({
     "antidepressivi"
   ],
   "coverage": "Sintesi originale da intervalli delimitati dei libri e da appunti e diapositive del corso di Farmacologia. Lettura integrale di libri e corsi non completata. Fonti ufficiali consultate per passaggi selezionati; documenti USA e britannici non equivalgono all’RCP italiano. Revisione clinica indipendente non eseguita.",
-  "wordCount": 5134
+  "wordCount": 5623
 });
