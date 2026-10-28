@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-course-516-520",
+  "batch": "theory-course-521-525",
   "chapterId": "emicrania",
-  "updatedAt": "2026-10-28T20:13:47.812547+00:00",
+  "updatedAt": "2026-10-28T20:45:38.202666+00:00",
   "status": "editorial_reconciled_locally_verified_pending_publication",
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -20,7 +20,12 @@
         517,
         518,
         519,
-        520
+        520,
+        521,
+        522,
+        523,
+        524,
+        525
       ],
       "visuallyCheckedPdfPages": [
         514,
@@ -29,18 +34,28 @@
         517,
         518,
         519,
-        520
+        520,
+        521,
+        522,
+        523,
+        524,
+        525
       ],
       "newlyReadTextPages": [
+        521,
+        522,
+        523,
+        524,
+        525
+      ],
+      "reusedPreviouslyReadPages": [
+        514,
+        515,
         516,
         517,
         518,
         519,
         520
-      ],
-      "reusedPreviouslyReadPages": [
-        514,
-        515
       ],
       "internalLabels": [
         512,
@@ -49,26 +64,32 @@
         515,
         516,
         517,
-        518
+        518,
+        519,
+        520,
+        521,
+        522,
+        523
       ],
       "sourceUnchanged": true,
       "allContentsRead": false,
-      "remaining": "PDF 521–935 e altri intervalli del corso non coperti da questo capitolo.",
+      "remaining": "PDF 526–935 e altri intervalli del corso non coperti da questo capitolo.",
       "limits": [
-        "Articoli 2010, 2020, 2021, 2023 citati nelle immagini non letti integralmente.",
-        "Nessuna nuova lettura di libri o appunti; nessuna intera linea guida dichiarata letta.",
-        "Nessuna revisione clinica indipendente."
+        "Articoli 1999 e 2020 non letti integralmente.",
+        "Studio 2023: solo abstract primario, non testo completo.",
+        "IUPHAR 2017–2018: testo selezionato su composizione e trasduzione; figure originali e intera revisione non controllate.",
+        "Nessun nuovo intervallo di libri o appunti letto."
       ]
     }
   ],
   "newReadPdfPages": 5,
-  "totalReadPdfPages": 7,
+  "totalReadPdfPages": 12,
   "currentBatchVisualPages": 5,
   "newIdentities": 0,
   "newDrugSummaries": 0,
   "newPKProfiles": 0,
-  "expandedExistingChapters": 0,
-  "newChapters": 1,
+  "expandedExistingChapters": 1,
+  "newChapters": 0,
   "officialSources": [
     {
       "id": "ICHD-1",
@@ -147,14 +168,50 @@
       "title": "NIH/NINDS · Migraine",
       "url": "https://health.nih.gov/health-topics-a-z/migraine",
       "detail": "Quadro generale, fasi, diagnosi e diario letti il 28/10/2026; la sintesi per il pubblico non sostituisce i criteri ICHD o le informazioni dei singoli prodotti."
+    },
+    {
+      "id": "EREN-EMA",
+      "title": "EMA · Aimovig, informazioni di prodotto",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/aimovig-epar-product-information_en.pdf",
+      "detail": "Letti il 28/10/2026: 4.1 (PDF 2), 4.4 (3–4), 4.7 (5) e parte iniziale di 5.1 (7), prima degli studi clinici. Non intero documento."
+    },
+    {
+      "id": "FREM-EMA",
+      "title": "EMA · Ajovy, informazioni di prodotto",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/ajovy-epar-product-information_en.pdf",
+      "detail": "Letti il 28/10/2026: 4.1 (PDF 2), 4.4 (3–4), 4.7 (4) e meccanismo in 5.1 (5–6). Non intero documento."
+    },
+    {
+      "id": "LAS-EMA",
+      "title": "EMA · Rayvow, informazioni di prodotto",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/rayvow-epar-product-information_en.pdf",
+      "detail": "Letti il 28/10/2026: 4.1 (PDF 2), 4.4 (3–4), 4.7 (5–6) e parte iniziale di 5.1 (8), prima degli studi clinici. Non intero documento."
     }
   ],
   "limits": [
-    "Prima stesura estesa sui fondamenti dell’emicrania, sul rapporto fra circuito e bersagli e sulla cefalea da uso eccessivo. Sette pagine delle diapositive lette e controllate, cinque nuove; nessun manuale o corso intero dichiarato letto. Restano da integrare i corrispondenti intervalli dei libri e degli appunti, le classi specifiche, gli anticorpi e le popolazioni speciali. Consultazioni ufficiali selettive: controllo editoriale mirato, non revisione clinica indipendente.",
-    "Articoli citati nelle immagini non letti integralmente; note originali dell’algoritmo nella pagina 520 non disponibili.",
-    "Nessuna nuova lettura di libri, appunti o Farmacologia II in questo lotto.",
-    "Fonti britanniche non equivalgono a RCP o regole di accesso italiani; consultazioni ufficiali selettive.",
-    "Chromium con dimensioni simulate; non dispositivi fisici."
+    "Stesura estesa sui fondamenti dell’emicrania, con approfondimenti su complessi recettoriali, anticorpi, selettività serotoninergica e interpretazione delle misure di CGRP. Dodici pagine delle diapositive lette e controllate, cinque nuove in questo lotto. Un abstract di ricerca e passaggi selezionati di una revisione farmacologica consultati; non i relativi articoli interi. Restano i corrispondenti intervalli dei libri e degli appunti, ulteriori classi e popolazioni speciali. Consultazioni ufficiali selettive: controllo editoriale mirato, non revisione clinica indipendente.",
+    "Articoli 1999 e 2020 non letti integralmente.",
+    "Studio 2023: solo abstract primario, non testo completo.",
+    "IUPHAR 2017–2018: testo selezionato su composizione e trasduzione; figure originali e intera revisione non controllate.",
+    "Nessun nuovo intervallo di libri o appunti letto.",
+    "Fonti britanniche pregresse non equivalgono a RCP italiani; consultazioni ufficiali selettive.",
+    "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextInterval": "Diapositive PDF 521–525, previa deduplicazione; quindi riconciliare i corrispondenti intervalli di libri e appunti."
+  "nextInterval": "Diapositive PDF 526–530, previa deduplicazione; restano da riconciliare i corrispondenti intervalli di libri e appunti.",
+  "researchSources": [
+    {
+      "id": "IUPHAR-CGRP",
+      "title": "IUPHAR Review 25 · Famiglia calcitonina/CGRP",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5740251/",
+      "detail": "Revisione 2017–2018: letti abstract e passaggi selezionati di introduzione e farmacologia su CLR/RAMP1, AMY1, Gs/cAMP e selettività il 28/10/2026. Non intero articolo o figure originali; non usata per indicazioni cliniche attuali."
+    },
+    {
+      "id": "CGRP-ORMONI",
+      "title": "Neurology 2023 · CGRP e contesti ormonali nell’emicrania",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36813730/",
+      "detail": "PMID 36813730, DOI 10.1212/WNL.0000000000207114. Abstract letto il 28/10/2026; non articolo completo. Discordanze di pannelli e unità nelle diapositive: nessun valore numerico o soglia trasferito."
+    }
+  ],
+  "newResearchAbstractsRead": 1,
+  "selectedReviewsRead": 1
 }
