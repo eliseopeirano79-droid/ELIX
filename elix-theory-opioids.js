@@ -335,6 +335,16 @@ export const THEORY_OPIOIDS=Object.freeze({
       "text": "La riduzione della trasmissione nocicettiva non identifica da sola un meccanismo oppioide. Lungo la stessa via si possono modificare la generazione del potenziale d’azione, la liberazione di trasmettitore o la modulazione discendente. Il punto utile del confronto è riconoscere quale proteina viene raggiunta e in quale cellula: una diminuzione del segnale finale può derivare da interventi molecolari differenti.\n\nGabapentin e pregabalin ne offrono un esempio. Sono analoghi strutturali del GABA, ma il nome e la somiglianza chimica non li rendono agonisti dei suoi recettori. Si legano alla subunità ausiliaria α2δ dei canali del calcio voltaggio-dipendenti; nel modello didattico questo si collega alla riduzione del rilascio di trasmettitori eccitatori. Non riproducono la sequenza MOR → Gi/o descritta nel laboratorio. Inoltre α2δ non è il poro attraverso cui passa il calcio: distinguere subunità ausiliaria, canale e recettore evita di trattarli come sinonimi.\n\nAltri farmaci richiamati nel dolore neuropatico intervengono sulle monoamine o sui canali del sodio. Per gli antidepressivi il collegamento passa attraverso la modulazione della trasmissione e dei circuiti discendenti; per alcuni antiepilettici attraverso l’eccitabilità di membrana. La condivisione di un bersaglio non rende tutti i membri di una classe intercambiabili: NICE CG173 distingue, per esempio, la nevralgia del trigemino dagli altri contesti neuropatici e separa le scelte iniziali dagli impieghi che richiedono un parere specialistico.\n\nMeccanismi diversi non garantiscono che i rischi di un’associazione si annullino. Il documento britannico del pregabalin consultato segnala depressione respiratoria e cautela con oppioidi o altri depressori del sistema nervoso centrale. La complementarità di una mappa farmacologica è dunque un’ipotesi da collegare a efficacia, tollerabilità e caratteristiche della persona, non un invito a sommare medicinali."
     },
     {
+      "id": "ziconotide-calcio",
+      "title": "Ziconotide: raggiungere il canale senza passare da MOR",
+      "refs": [
+        "R",
+        "K",
+        "ZICO-EMA"
+      ],
+      "text": "Nel terminale afferente, l’ingresso di calcio collega l’arrivo del potenziale d’azione alla liberazione dei trasmettitori. È un punto di controllo comune, ma si può raggiungere attraverso proteine diverse. Un oppioide attiva un recettore accoppiato a Gi/o e modifica la funzione dei canali attraverso la segnalazione intracellulare; ziconotide interagisce invece con canali del calcio di tipo N. Il risultato presinaptico può convergere, mentre il primo bersaglio molecolare resta differente.\n\nIl documento europeo di Prialt descrive una riduzione della corrente di calcio nelle afferenze nocicettive che terminano negli strati superficiali del corno dorsale, con minore rilascio di trasmettitori, compresa la sostanza P. Ziconotide non interagisce con i recettori oppioidi. Non va quindi collocato nella stessa casella di un agonista MOR né in quella dei ligandi della subunità ausiliaria α2δ: recettore, canale e subunità sono livelli distinti della mappa.\n\nLa via intratecale e il bersaglio spinale collegano questo esempio alla sezione sulla distribuzione neurassiale. Nel prodotto europeo l’indicazione riguarda adulti con dolore cronico severo che richiede analgesia intratecale; il trattamento richiede medici esperti e valutazione neuropsichiatrica. Le avvertenze comprendono alterazioni cognitive e psichiatriche e i rischi infettivi della somministrazione intratecale. La natura non oppioide non equivale dunque ad assenza di rischi.\n\nPer confrontare questi farmaci è utile disegnare due percorsi separati fino al rilascio vescicolare, indicando prima la proteina raggiunta e poi il segnale modificato. Una destinazione cellulare comune non permette di dedurre equivalenza delle dosi, sostituibilità o superiorità clinica."
+    },
+    {
       "id": "nav-selettivita",
       "title": "NaV1.8: dal bersaglio periferico al limite dell’indicazione",
       "refs": [
@@ -342,6 +352,16 @@ export const THEORY_OPIOIDS=Object.freeze({
         "SUZ-USA"
       ],
       "text": "I canali del sodio contribuiscono alla generazione e propagazione dei potenziali d’azione. Le diverse isoforme hanno distribuzioni e proprietà differenti: intervenire su un canale presente nei neuroni sensitivi periferici può modificare il segnale prima che raggiunga midollo ed encefalo. Questo percorso è distinto dall’attivazione di MOR e aiuta a capire perché un analgesico possa agire senza essere un oppioide.\n\nLa suzetrigina, inizialmente studiata come VX-548, blocca selettivamente NaV1.8 rispetto alle altre isoforme considerate. Il documento USA di Journavx descrive NaV1.8 nei neuroni sensitivi periferici, compresi quelli dei gangli delle radici dorsali. La selettività è una proprietà relativa del confronto sperimentale: non significa che il medicinale non possa avere effetti indesiderati, né trasforma il rapporto fra potenze sui canali in un rapporto fra dosi analgesiche. Anche un dato genetico su NaV1.7 non dimostra, da solo, l’efficacia clinica di un farmaco diretto a NaV1.8.\n\nNel prodotto USA consultato l’indicazione riguarda il dolore acuto moderato o severo dell’adulto, incluso quello postoperatorio; l’impiego nel dolore acuto non è stato studiato oltre quattordici giorni. Non se ne ricava un’indicazione generale al dolore neuropatico cronico. Le interazioni legate a CYP3A e le precauzioni nella compromissione epatica restano rilevanti anche per un bersaglio periferico. Il documento statunitense non stabilisce l’autorizzazione in Italia: il passaggio da meccanismo a impiego richiede sempre prodotto, popolazione, durata ed esiti verificati."
+    },
+    {
+      "id": "capsaicina-trpv1",
+      "title": "Capsaicina e TRPV1: attivazione iniziale e risposta nel tempo",
+      "refs": [
+        "R",
+        "CAPS-EMA",
+        "NICE173"
+      ],
+      "text": "Un farmaco può ridurre il dolore anche attraverso una sequenza che comincia con l’attivazione di un sensore nocicettivo. La capsaicina è un agonista di TRPV1, un recettore-canale dei nocicettori cutanei. Il passaggio iniziale favorisce l’attivazione della terminazione e può produrre bruciore: questo non è il blocco immediato della conduzione che si immagina per un anestetico locale. Per capire l’esito successivo bisogna aggiungere il tempo alla mappa del bersaglio.\n\nNel documento europeo di Qutenza, all’esposizione segue una riduzione della sensibilità dei nocicettori a diversi stimoli. Il documento descrive modifiche reversibili, compresa la riduzione della densità delle terminazioni epidermiche. La parola desensibilizzazione riassume quindi un cambiamento funzionale della terminazione; non dimostra che ogni passaggio sia identico alla regolazione di un recettore MOR o che il canale sia stato semplicemente antagonizzato.\n\nQutenza è un cerotto per il dolore neuropatico periferico dell’adulto, applicato da personale sanitario. Dolore locale, ustioni e alterazioni della sensibilità richiedono attenzione: azione periferica e somministrazione cutanea non significano innocuità. NICE CG173 distingue inoltre la crema dal cerotto e, nell’assistenza non specialistica, non raccomanda di iniziare quest’ultimo senza indicazione specialistica. Condividere il principio attivo non rende equivalenti formulazioni e contesti.\n\nQuesto esempio completa il confronto con gli oppioidi: cambiano il bersaglio, la sede e l’ordine degli eventi. Nel circuito spinale si può ridurre il rilascio di trasmettitori; nella terminazione periferica si può modificare la risposta agli stimoli nel tempo. Per studiare una strategia analgesica servono entrambe le domande: che cosa accade alla cellula e in quale situazione è stato dimostrato un beneficio."
     },
     {
       "id": "contesto",
@@ -471,6 +491,14 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "question": "La somministrazione neurassiale limita necessariamente l’effetto della morfina al corno dorsale?",
       "answer": "No. La distribuzione nel liquor può coinvolgere altri circuiti, compresi quelli respiratori. Epidurale e intratecale sono vie differenti; accesso vicino al bersaglio, selettività recettoriale e sicurezza restano concetti distinti."
+    },
+    {
+      "question": "Una riduzione del rilascio di trasmettitori identifica necessariamente un’azione sui recettori oppioidi?",
+      "answer": "No. Ziconotide raggiunge i canali del calcio di tipo N; un agonista MOR agisce attraverso un recettore e Gi/o. L’esito presinaptico può convergere senza rendere uguali bersaglio, rischi o impiego."
+    },
+    {
+      "question": "Perché la capsaicina può provocare inizialmente bruciore pur essendo impiegata in una strategia analgesica?",
+      "answer": "L’attivazione iniziale di TRPV1 e la successiva riduzione della risposta delle terminazioni sono fasi diverse. Non è un semplice antagonismo del canale, e non consente di equiparare crema, cerotto e altri prodotti."
     }
   ],
   "references": [
@@ -482,7 +510,7 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "R",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII edizione italiana2016 / originale2015. PDF785–808: testo disponibile letto e pagine ispezionate; figure42.1–42.7 e tabelle42.1–42.4 dei lotti precedenti. Cinque nuove pagine in questo ampliamento, senza nuove figure raster. PDF809–813 ancora da leggere; paragrafo sulla carbamazepina interrotto a fine808. Paginazione editoriale non ricostruita. Articoli e destinazioni delle note fuori intervallo non letti integralmente."
+      "detail": "VIII edizione italiana2016 / originale2015. Capitolo42, PDF785–813: testo disponibile e pagine controllati; figure42.1–42.7 e tabelle42.1–42.4 nei lotti precedenti. Cinque nuove pagine809–813, inclusi bibliografia e note1–15; nessuna nuova figura raster. Bibliografia distinta dagli articoli non letti. Paginazione editoriale non ricostruita; resto del libro non letto."
     },
     {
       "id": "CFI",
@@ -557,7 +585,7 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "NICE173",
       "title": "NICE CG173 · Dolore neuropatico nell’adulto",
-      "detail": "CG173, dolore neuropatico dell’adulto in ambito non specialistico: raccomandazioni 1.1.8–1.1.14 consultate nei contenuti indicizzati il 28/10/2026; apertura diretta: errore 403. Distinte nevralgia del trigemino e indicazioni specialistiche; non lettura integrale.",
+      "detail": "CG173: raccomandazioni1.1.8–1.1.14 nei contenuti ufficiali indicizzati il28/10/2026; apertura diretta403. Ricontrollata1.1.12: cerotto di capsaicina da non iniziare in ambito non specialistico senza indicazione specialistica, distinto dalla crema. Non lettura integrale.",
       "url": "https://www.nice.org.uk/guidance/cg173/chapter/Recommendations"
     },
     {
@@ -649,6 +677,18 @@ export const THEORY_OPIOIDS=Object.freeze({
       "title": "Duramorph · morfina neurassiale, documento USA",
       "detail": "Hikma: sintesi, avvertenze 5.1 e 5.3, formulazione e passaggi 12.1–12.3 consultati direttamente il 28/10/2026. Modifiche principali 12/2025. Lettura selettiva su compartimenti e rischio respiratorio; non protocollo anestesiologico né RCP italiano.",
       "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=ebb18761-e5c4-4238-bb84-f9549f500210"
+    },
+    {
+      "id": "ZICO-EMA",
+      "title": "EMA · Prialt, ziconotide",
+      "detail": "Documento europeo in inglese: passaggi selezionati 4.1–4.5 e 5.1 consultati direttamente il 28/10/2026; PDF pp.2–6 e10–11. Aggiornamento15/04/2026 nei metadati EMA indicizzati. Non lettura integrale delle62 pagine; nessun dosaggio o protocollo trasferito.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/prialt-epar-product-information_en.pdf"
+    },
+    {
+      "id": "CAPS-EMA",
+      "title": "EMA · Qutenza, capsaicina",
+      "detail": "Documento europeo in inglese: passaggi selezionati 4.1–4.4 e5.1 consultati direttamente il28/10/2026; PDF pp.2–5 e7. Scheda EMA aggiornata05/05/2026. Non lettura integrale delle29 pagine; modalità applicative e dosaggi esclusi dalla sintesi.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/qutenza-epar-product-information_en.pdf"
     }
   ],
   "moleculeLinks": [
@@ -687,6 +727,14 @@ export const THEORY_OPIOIDS=Object.freeze({
     {
       "id": "CHEMBL1237044",
       "label": "TRAMADOL"
+    },
+    {
+      "id": "CHEMBL4594214",
+      "label": "ZICONOTIDE"
+    },
+    {
+      "id": "CHEMBL294199",
+      "label": "CAPSAICIN"
     }
   ],
   "drugs": [],
@@ -702,5 +750,5 @@ export const THEORY_OPIOIDS=Object.freeze({
     "antidepressivi"
   ],
   "coverage": "Sintesi originale da intervalli delimitati dei libri e da appunti e diapositive del corso di Farmacologia. Lettura integrale di libri e corsi non completata. Fonti ufficiali consultate per passaggi selezionati; documenti USA e britannici non equivalgono all’RCP italiano. Revisione clinica indipendente non eseguita.",
-  "wordCount": 7061
+  "wordCount": 7549
 });
