@@ -3,7 +3,7 @@ export const THEORY_IBD = Object.freeze({
   "id": "malattie-infiammatorie-intestinali",
   "volume": 11,
   "title": "Malattie infiammatorie intestinali: barriera e controllo farmacologico dell’infiammazione",
-  "lead": "Aminosalicilati, glucocorticoidi e immunomodulatori: collegare sede di malattia, metabolismo, segnali cellulari e tempi della risposta.",
+  "lead": "Aminosalicilati, glucocorticoidi, immunomodulatori e anti-TNF: collegare sede di malattia, segnali cellulari, formati biologici e risposta.",
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-10-30",
@@ -285,6 +285,97 @@ export const THEORY_IBD = Object.freeze({
       "text": "Un errore di intervallo può trasformare radicalmente l’esposizione anche quando il nome del medicinale e la quantità della singola somministrazione sono corretti. Il metotrexato impiegato nelle malattie infiammatorie segue una somministrazione settimanale; confondere “una volta alla settimana” con “una volta al giorno” può produrre un sovradosaggio grave. Non è un dettaglio amministrativo della ricetta: è parte della farmacologia del trattamento.\n\nLa comunicazione EMA del 2019, richiamata nelle diapositive, nasce da errori con conseguenze anche fatali. Le misure comprendono indicazioni visibili, materiali educativi e una verifica della comprensione del calendario. Il punto didattico è rendere espliciti frequenza e giorno concordato, evitando istruzioni ambigue nei passaggi fra prescrizione, dispensazione e uso. La frequenza non va ricostruita per analogia con altri farmaci assunti quotidianamente.\n\nI protocolli oncologici possono avere calendari diversi: questa variabilità non autorizza a importarne la frequenza nell’uso antinfiammatorio, né consente di descrivere tutti i trattamenti oncologici come quotidiani. Un calendario coerente con l’indicazione riduce una specifica fonte di errore ma non annulla gli altri rischi del metotrexato. Per lo studio bisogna perciò tenere insieme molecola, via, intervallo e contesto, anziché memorizzare il solo nome della classe."
     },
     {
+      "id": "imids-bersagli",
+      "title": "Malattie immunomediate: collegare organi e meccanismi",
+      "refs": [
+        "CFI",
+        "APP"
+      ],
+      "text": "L’espressione malattie infiammatorie immunomediate, spesso abbreviata in IMID, riunisce condizioni nelle quali una risposta immunitaria disregolata contribuisce al danno. Il raggruppamento permette di riconoscere connessioni fra intestino, cute e articolazioni: Crohn, colite ulcerosa, psoriasi e alcune artriti possono condividere mediatori pur conservando caratteristiche proprie. Un bersaglio comune può quindi suggerire una domanda di ricerca attraverso più malattie, senza cancellare la diagnosi riferita all’organo.\n\nLa mappa anatomica e quella molecolare rispondono a domande complementari. La prima descrive dove si trova il processo e quali conseguenze produce; la seconda aiuta a spiegare come viene sostenuto. Uno stesso organo può ospitare processi diversi, mentre un mediatore può partecipare a processi in organi differenti. Non è necessario sostituire una classificazione con l’altra: collegarle rende più preciso il ragionamento farmacologico.\n\nNegli schemi del corso, TNF, IL-6 e gli assi IL-12/23 e IL-17 compaiono in reti parzialmente sovrapposte. Questa rappresentazione non assegna a ciascuna malattia una sola citochina responsabile. La presenza di un mediatore in due reti non prova che bloccarlo produca lo stesso beneficio in entrambe. Il passaggio dal diagramma al farmaco richiede una seconda verifica: quale molecola, in quale popolazione e con quali esiti è stata studiata?"
+    },
+    {
+      "id": "tnf-segnale",
+      "title": "TNF: intercettare il messaggero prima del recettore",
+      "refs": [
+        "CFI",
+        "KAT",
+        "FII-S",
+        "EMA-HUM"
+      ],
+      "text": "Il TNF-α può essere presente come proteina associata alla membrana oppure in forma solubile. Cellule immunitarie, fra cui i macrofagi, contribuiscono alla sua produzione; il circuito non appartiene però a una sola popolazione cellulare. Il segnale raggiunge cellule che esprimono recettori per il TNF, principalmente TNFR1, detto anche p55, e TNFR2, detto anche p75. Forma del ligando, recettore e contesto cellulare influenzano le conseguenze del riconoscimento.\n\nL’attivazione dei recettori può sostenere programmi trascrizionali, fra cui quelli che coinvolgono NF-κB, favorendo produzione di altri mediatori e molecole di adesione. Si comprende così perché neutralizzare TNF possa attenuare più componenti dell’infiammazione: il bersaglio immediato è uno, ma gli effetti a valle attraversano una rete. Non significa spegnere ogni via infiammatoria o eliminare necessariamente la causa iniziale della malattia.\n\nGli anticorpi anti-TNF riconoscono il ligando, non occupano semplicemente il sito del recettore come farebbe un antagonista recettoriale classico. Anche la forma transmembrana può essere riconosciuta. Legame, neutralizzazione del segnale e possibili conseguenze sulla cellula che espone il TNF sono livelli distinti, da non condensare nell’espressione “blocco dell’immunità”. Il confronto con la ciclosporina chiarisce la differenza: quella modifica un segnale intracellulare; questi farmaci intercettano una proteina accessibile all’esterno della cellula.",
+      "formula": "TNF solubile o di membrana → TNFR1 / TNFR2 → segnali intracellulari → mediatori e adesione cellulare.\nAnti-TNF → riconoscimento del TNF → minore disponibilità del segnale per i recettori.\nSchema qualitativo originale: non rappresenta tutte le vie né predice la risposta del singolo paziente."
+    },
+    {
+      "id": "anti-tnf-formati",
+      "title": "Stesso bersaglio, architetture biologiche differenti",
+      "refs": [
+        "CFI",
+        "KAT",
+        "FII-A",
+        "FDA-CIM",
+        "EMA-ENB"
+      ],
+      "text": "Infliximab è un anticorpo monoclonale chimerico: combina regioni variabili di origine murina con regioni costanti umane. Adalimumab e golimumab sono anticorpi completamente umani. Queste denominazioni descrivono l’architettura della molecola; adalimumab non è semplicemente infliximab al quale sia stata sostituita una porzione. Sono prodotti distinti, con caratteristiche di riconoscimento, sviluppo e valutazione proprie.\n\nCertolizumab pegol offre un confronto diverso: contiene un frammento Fab’ umanizzato coniugato a polietilenglicole, o PEG, ed è privo della regione Fc. Un frammento capace di riconoscere l’antigene non deve avere necessariamente la forma completa a Y per neutralizzare una citochina. La coniugazione a PEG modifica il comportamento della molecola nell’organismo, contribuendo a rallentarne l’eliminazione; non serve a trasformarla in un anticorpo completo.\n\nEtanercept è invece una proteina di fusione fra la porzione extracellulare del recettore TNFR2 e una regione Fc di IgG1. Il riconoscimento del TNF deriva dunque da una parte del suo recettore fisiologico, non dalle regioni variabili di un anticorpo anti-TNF. Mettere queste strutture accanto è utile per separare funzione e formato: intercettare lo stesso mediatore può essere ottenuto con progetti molecolari differenti. Non dimostra equivalenza terapeutica nelle MICI, né autorizza a ordinare i prodotti dal più grande al più tossico."
+    },
+    {
+      "id": "anti-tnf-fc",
+      "title": "Riconoscimento, funzioni effettrici e permanenza",
+      "refs": [
+        "KAT",
+        "FII-A",
+        "FDA-CIM"
+      ],
+      "text": "In un anticorpo completo, la porzione che riconosce l’antigene e la regione Fc svolgono compiti diversi. La prima determina il contatto con il bersaglio; la seconda può interagire con sistemi effettori e con meccanismi che influenzano il destino della proteina. Quando un anticorpo si lega a un antigene esposto su una cellula, alcune conseguenze possono quindi dipendere anche dal formato della molecola e dal contesto del legame.\n\nLa regione Fc può partecipare al riciclo mediato dal recettore neonatale FcRn, che protegge una quota di proteina dalla degradazione intracellulare. Questo ruolo nella permanenza è distinto dalle interazioni con recettori Fc delle cellule effettrici o con il complemento. “Avere Fc” non significa automaticamente distruggere qualunque cellula incontrata; “essere più piccolo” non significa automaticamente essere più sicuro.\n\nIl confronto con certolizumab rende concreta la distinzione: la neutralizzazione del TNF è conservata senza Fc, mentre il prodotto non esercita in vitro le funzioni di fissazione del complemento e citotossicità cellulare anticorpo-dipendente proprie di altri formati. Un risultato in vitro descrive quel sistema sperimentale e non misura da solo l’efficacia clinica o la sicurezza complessiva. È quindi scorretto dedurre che ogni anti-TNF debba provocare citotossicità per funzionare, oppure che l’assenza di Fc elimini i rischi collegati alla neutralizzazione del TNF."
+    },
+    {
+      "id": "anti-tnf-indicazioni",
+      "title": "Indicazione autorizzata e raccomandazione vanno lette separatamente",
+      "refs": [
+        "EMA-REM",
+        "EMA-HUM",
+        "EMA-SIM",
+        "EMA-CIM",
+        "EMA-ENB",
+        "FDA-CIM",
+        "ACG-UC",
+        "ACG-CD"
+      ],
+      "text": "Il nome della classe non è una licenza valida per tutte le malattie. Nelle informazioni europee consultate, infliximab e adalimumab comprendono sia Crohn sia colite ulcerosa fra le indicazioni, entro condizioni e popolazioni definite. Golimumab comprende la colite ulcerosa, non il Crohn. Etanercept, pur intercettando TNF, non ha un’indicazione europea per le MICI: qui è collegato come confronto strutturale, non come alternativa intestinale.\n\nCertolizumab pegol illustra la necessità di distinguere le giurisdizioni. Il documento statunitense include il Crohn moderatamente o gravemente attivo nell’adulto dopo risposta insufficiente alla terapia convenzionale; l’elenco europeo di Cimzia non comprende il Crohn. Una tabella didattica storica o un manuale con riferimenti statunitensi non possono essere trasferiti alla pratica europea senza questa verifica.\n\nL’autorizzazione stabilisce le condizioni d’uso del prodotto; una linea guida valuta anche il suo posto nella strategia terapeutica. La sintesi ACG 2025 sulla colite ulcerosa include infliximab, adalimumab e golimumab nell’induzione delle forme moderate-gravi e nel mantenimento dopo risposta all’induzione. La sintesi sul Crohn considera gli anti-TNF fra le terapie avanzate. Questi passaggi non costituiscono un confronto completo fra tutti i farmaci oggi disponibili. La scelta dipende da malattia, attività, trattamenti precedenti e obiettivo; non da una sequenza universale ricavata dall’anno di introduzione del prodotto."
+    },
+    {
+      "id": "anti-tnf-immunogenicita",
+      "title": "Anticorpi antifarmaco: una risposta contro la terapia",
+      "refs": [
+        "FII-S",
+        "FII-A",
+        "HUM-UK",
+        "IFX-UK",
+        "ACG-UC"
+      ],
+      "text": "Una proteina terapeutica può diventare il bersaglio di una risposta immunitaria. Gli anticorpi antifarmaco possono interferire con il riconoscimento del bersaglio oppure modificarne l’eliminazione, riducendo l’esposizione utile. Non ogni anticorpo rilevato ha lo stesso effetto funzionale e non ogni perdita di risposta è dovuta a immunogenicità. Occorre distinguere la molecola misurata, la sua concentrazione e l’attività della malattia.\n\nLa sequenza completamente umana non esclude il fenomeno: le informazioni di adalimumab documentano anticorpi antifarmaco associati a maggiore clearance e minore efficacia. Le percentuali di immunogenicità ottenute con prodotti e metodi analitici diversi non sono direttamente confrontabili. Non si può quindi trasformare la distinzione chimerico/umano in una graduatoria automatica di sicurezza o attribuire tutti i rischi di classe alla componente murina.\n\nPerdita di risposta dopo un beneficio iniziale e mancata risposta fin dall’inizio pongono domande differenti. Nel primo caso si può interrogare anche l’esposizione: arriva ancora una quantità adeguata di farmaco? Nel secondo è necessario considerare se il meccanismo scelto sia sufficiente per controllare quel processo. ACG 2025 suggerisce, nella colite ulcerosa con perdita di risposta agli anti-TNF, una valutazione delle concentrazioni e, nel contesto appropriato, degli anticorpi antifarmaco. Questo ragionamento non fornisce soglie universali né consente di dedurre autonomamente un cambio di dose o trattamento."
+    },
+    {
+      "id": "anti-tnf-sicurezza",
+      "title": "Rischio infettivo e reazioni alla somministrazione sono problemi diversi",
+      "refs": [
+        "CFI",
+        "FII-A",
+        "IFX-UK",
+        "HUM-UK"
+      ],
+      "text": "Il TNF partecipa anche alla difesa dell’ospite. Ridurre la sua attività può controllare l’infiammazione patologica ma compromettere alcune risposte contro i microrganismi: il rischio infettivo non dipende soltanto dal fatto che il medicinale sia una proteina estranea. Per infliximab, le informazioni di prodotto richiamano infezioni gravi, valutazione della tubercolosi anche latente e ricerca dell’infezione da virus dell’epatite B prima del trattamento, per il rischio di riattivazione. Sono elementi di una valutazione clinica, non un protocollo completo ricavabile da questo capitolo.\n\nUn secondo problema riguarda la somministrazione. Reazioni durante o dopo l’infusione e reazioni nella sede di iniezione descrivono eventi osservati in rapporto a una via e a un momento. Non provano tutte lo stesso meccanismo immunologico, e una reazione acuta non dimostra da sola la presenza di anticorpi antifarmaco. Via endovenosa e sottocutanea vanno quindi considerate separatamente quando si confrontano prodotti e tollerabilità.\n\nIl terzo livello è il contesto: attività della malattia, comorbilità, terapie associate e storia delle esposizioni contribuiscono al rapporto beneficio-rischio. Dire che un anticorpo è completamente umano o che un frammento è privo di Fc non risolve questi problemi. Le categorie strutturali aiutano a formulare ipotesi; frequenza, gravità e gestione degli eventi richiedono dati del prodotto e valutazione specifica. Le precauzioni qui richiamate sono selettive, non un elenco esaustivo delle controindicazioni."
+    },
+    {
+      "id": "biosimilari-confronto",
+      "title": "Biosimilari e vie di somministrazione: due confronti distinti",
+      "refs": [
+        "APP",
+        "EMA-BIO",
+        "EMA-RMS"
+      ],
+      "text": "Un biosimilare viene sviluppato e valutato rispetto a un medicinale biologico di riferimento già autorizzato. La comparabilità riguarda struttura e attività biologica, insieme alle evidenze necessarie su efficacia, sicurezza e immunogenicità. Non è la semplice identità chimica usata per descrivere molti generici di piccole molecole: le proteine sono prodotti complessi e possono presentare una microeterogeneità controllata.\n\nIl termine biosimilare non significa “più umanizzato”, “più piccolo” o “più sicuro”. La conclusione regolatoria riguarda un’elevata similarità e l’assenza di differenze clinicamente rilevanti rispetto al riferimento nell’ambito valutato. Non attribuisce una superiorità intrinseca a ogni prodotto successivo. Un confronto corretto parte dal riferimento preciso e dai dati richiesti per dimostrare comparabilità, non dall’idea che una copia più recente debba correggere tutti i limiti della precedente.\n\nLa formulazione costituisce un’altra dimensione. Remsima, a base di infliximab e biosimilare di Remicade, dispone di presentazioni per infusione endovenosa e per iniezione sottocutanea. La possibilità della seconda via dipende dalla specifica autorizzazione e dal regime previsto; non deriva automaticamente dalla parola biosimilare e non significa che tutte le forme endovenose siano state sostituite. Separare identità del principio attivo, relazione con il riferimento, formulazione e via permette di leggere correttamente un aggiornamento terapeutico senza confondere quattro informazioni diverse."
+    },
+    {
       "id": "microbiota-e-limiti",
       "title": "Dal modello biologico alla prova terapeutica",
       "refs": [
@@ -292,7 +383,7 @@ export const THEORY_IBD = Object.freeze({
         "APP",
         "AGA-FMT"
       ],
-      "text": "Il microbiota compare due volte in questo capitolo, con significati distinti. Come componente dell’ecosistema intestinale partecipa alle interazioni con barriera e immunità. Come fonte di enzimi può scindere il legame azoico di un medicinale. Il secondo fenomeno è un meccanismo di attivazione farmacologica; non dimostra che il farmaco curi la malattia “normalizzando” l’intera comunità microbica.\n\nAnalogamente, associare disbiosi e infiammazione non autorizza a raccomandare genericamente probiotici, integratori o trasferimento di microbiota. AGA 2024 suggerisce contro il trapianto convenzionale di microbiota fecale per trattare colite ulcerosa o Crohn al di fuori degli studi clinici; distingue questo uso dalla prevenzione delle recidive di infezione da C. difficile in pazienti selezionati. Il nome dell’intervento non basta: conta la condizione che si vuole trattare.\n\nLa lettura svolta copre MICI, aminosalicilati, glucocorticoidi e un confronto mirato di tiopurine, ciclosporina e metotrexato. Terapie biologiche e altre piccole molecole richiedono ulteriori intervalli e una valutazione dedicata di indicazioni, rischi e confronti. I collegamenti presenti permettono di ripassare i principi molecolari e consultare identità già catalogate; non attestano che ogni scheda sia stata riesaminata in questo lotto. Questa sintesi resta un capitolo didattico con revisione editoriale mirata, non una revisione clinica indipendente."
+      "text": "Il microbiota compare due volte in questo capitolo, con significati distinti. Come componente dell’ecosistema intestinale partecipa alle interazioni con barriera e immunità. Come fonte di enzimi può scindere il legame azoico di un medicinale. Il secondo fenomeno è un meccanismo di attivazione farmacologica; non dimostra che il farmaco curi la malattia “normalizzando” l’intera comunità microbica.\n\nAnalogamente, associare disbiosi e infiammazione non autorizza a raccomandare genericamente probiotici, integratori o trasferimento di microbiota. AGA 2024 suggerisce contro il trapianto convenzionale di microbiota fecale per trattare colite ulcerosa o Crohn al di fuori degli studi clinici; distingue questo uso dalla prevenzione delle recidive di infezione da C. difficile in pazienti selezionati. Il nome dell’intervento non basta: conta la condizione che si vuole trattare.\n\nLa lettura svolta copre MICI, aminosalicilati, glucocorticoidi, immunomodulatori e un confronto mirato degli anti-TNF e dei biosimilari. Gli altri assi delle terapie avanzate e le ulteriori piccole molecole richiedono nuovi intervalli e una valutazione dedicata di indicazioni, rischi e confronti. I collegamenti presenti permettono di ripassare i principi molecolari e consultare identità già catalogate; non attestano che ogni scheda sia stata riesaminata in questo lotto. Questa sintesi resta un capitolo didattico con revisione editoriale mirata, non una revisione clinica indipendente."
     }
   ],
   "checks": [
@@ -391,6 +482,38 @@ export const THEORY_IBD = Object.freeze({
     {
       "question": "Perché scambiare frequenza settimanale e quotidiana è pericoloso?",
       "answer": "Nell’uso antinfiammatorio del metotrexato può determinare sovradosaggio grave o fatale. I calendari oncologici non vanno trasferiti fra indicazioni."
+    },
+    {
+      "question": "Una citochina condivisa rende due malattie intercambiabili?",
+      "answer": "No. La mappa molecolare integra quella anatomica; efficacia e indicazioni devono essere dimostrate nella condizione specifica."
+    },
+    {
+      "question": "Gli anticorpi anti-TNF sono antagonisti del recettore TNFR?",
+      "answer": "Riconoscono il TNF, cioè il ligando; riducono la possibilità che il messaggero attivi i suoi recettori."
+    },
+    {
+      "question": "Adalimumab è infliximab semplicemente umanizzato?",
+      "answer": "No. Sono anticorpi distinti: adalimumab è completamente umano, infliximab è chimerico. Il formato non determina una graduatoria universale di sicurezza."
+    },
+    {
+      "question": "Certolizumab deve avere Fc per neutralizzare TNF?",
+      "answer": "No. È un frammento Fab’ umanizzato con PEG, privo di Fc, ma capace di neutralizzare TNF. Le funzioni effettrici in vitro non coincidono con la prova di efficacia clinica."
+    },
+    {
+      "question": "La voce anti-TNF basta per attribuire un’indicazione nelle MICI?",
+      "answer": "No. Etanercept non ha un’indicazione europea nelle MICI; certolizumab ha un’indicazione statunitense nel Crohn che non compare in quella europea. Molecola e giurisdizione contano."
+    },
+    {
+      "question": "Completamente umano significa assenza di anticorpi antifarmaco?",
+      "answer": "No. Anche adalimumab può indurli; possono modificare clearance o attività. Non ogni perdita di risposta dipende da immunogenicità."
+    },
+    {
+      "question": "Una reazione da infusione e un’infezione sono lo stesso rischio?",
+      "answer": "No. Tempo e via della somministrazione, immunogenicità e riduzione delle difese dell’ospite descrivono fenomeni distinti, da valutare nel contesto."
+    },
+    {
+      "question": "Un biosimilare è necessariamente più sicuro e sottocutaneo?",
+      "answer": "No. La biosimilarità riguarda comparabilità con un riferimento. Formulazione e via dipendono dall’autorizzazione specifica; Remsima comprende presentazioni endovenose e sottocutanee."
     }
   ],
   "relatedExistingChapterIds": [
@@ -448,18 +571,34 @@ export const THEORY_IBD = Object.freeze({
     {
       "id": "CHEMBL34259",
       "label": "METHOTREXATE"
+    },
+    {
+      "id": "CHEMBL1201580",
+      "label": "ADALIMUMAB"
+    },
+    {
+      "id": "CHEMBL1201833",
+      "label": "GOLIMUMAB"
+    },
+    {
+      "id": "CHEMBL1201831",
+      "label": "CERTOLIZUMAB PEGOL"
+    },
+    {
+      "id": "CHEMBL1201572",
+      "label": "ETANERCEPT"
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 544–560, etichette 542–558. Nuove 556–560; precedenti riutilizzate. Testo e schemi controllati; 552–553 lette visivamente nei lotti precedenti. Figure e tabelle originali non ripubblicate. Comunicazione EMA 2019 distinta dalla verifica attuale."
+      "detail": "PDF 544–565, etichette 542–563. Nuove 561–565: testo e rendering controllati, inclusi schemi prevalentemente grafici. Tabella biologici storica non assunta come elenco attuale; pannello TNF ripetuto non contato come prova indipendente. Figure originali non ripubblicate."
     },
     {
       "id": "KAT",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX italiana 2014 / XII americana 2012, capitolo 62, PDF 1278–1283, editoriali 1258–1263. Nuova 1283; 1282 riletta anche per le purine. Parte anti-TNF della 1283 letta ma esclusa; continuazione 1284 non letta. Non intero capitolo."
+      "detail": "IX italiana 2014 / XII americana 2012, capitolo 62, PDF 1278–1284, editoriali 1258–1264. Nuova 1284; segmento anti-TNF della 1283 già letto ora riutilizzato. Terminologia strutturale e indicazioni riconciliate con fonti attuali. Continuazione 1285 non letta."
     },
     {
       "id": "RAN",
@@ -469,7 +608,7 @@ export const THEORY_IBD = Object.freeze({
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I · 2025–26",
-      "detail": "Appunti e diapositive del corso di Farmacologia I, AA 2025–26: lezione 16 del 20/11/2025, PDF 283–286, etichette 278–281, pagine di lezione 1–4. Nuova 286 letta ma esclusa; 285 riutilizzata soltanto per ciclosporina e metotrexato. Figura piccola anti-integrine della 286 solo esaminata nell’impaginazione, non verificata in ogni etichetta."
+      "detail": "Appunti e diapositive del corso di Farmacologia I, AA 2025–26: lezione 16 del 20/11/2025, PDF 283–286, etichette 278–281. Pagine 285–286 rilette senza ricontarle; della 286 integrato il solo confronto sui biosimilari. Altri bersagli e piccola figura anti-integrine restano esclusi; figura non verificata in ogni etichetta."
     },
     {
       "id": "MES-UK",
@@ -535,13 +674,13 @@ export const THEORY_IBD = Object.freeze({
       "id": "ACG-UC",
       "title": "ACG 2025 · Sintesi ufficiale sulla colite ulcerosa",
       "url": "https://gi.org/journals-publications/ebgi/alkazzi_aug2025/",
-      "detail": "Sintesi ufficiale: lettura selettiva precedente 20–22 e 28–38; ricontrollati 23, mantenimento e 51–54 nel lotto corrente il 30/10/2026. Non linea guida completa."
+      "detail": "Sintesi ufficiale: lettura selettiva precedente 20–22 e 28–38; ricontrollati 23, mantenimento e 51–54 nel lotto corrente il 30/10/2026. Non linea guida completa. Ricontrollati nel lotto 561–565 i passaggi anti-TNF 28–29, 42 e 44 e i concetti di posizionamento 28–29."
     },
     {
       "id": "ACG-CD",
       "title": "ACG 2025 · Sintesi ufficiale sulla malattia di Crohn",
       "url": "https://gi.org/journals-publications/ebgi/zhai_dalal_sep2025/",
-      "detail": "Sintesi del 17/09/2025; letti i passaggi sulle forme lievi/moderate e moderate/severe il 30/10/2026. Non intera linea guida."
+      "detail": "Sintesi del 17/09/2025; letti i passaggi sulle forme lievi/moderate e moderate/severe il 30/10/2026. Non intera linea guida. Ricontrollato il passaggio sulle terapie avanzate e sulle presentazioni sottocutanee nel lotto 561–565."
     },
     {
       "id": "ESE-HPA",
@@ -558,12 +697,12 @@ export const THEORY_IBD = Object.freeze({
     {
       "id": "FII-S",
       "title": "Appunti e diapositive del corso di Farmacologia II · diapositive 2025–26",
-      "detail": "Immunosoppressori e immunoregolatori: PDF 17–18 e 28–30 di 59. Testo completo delle sole pagine indicate, strutture e schemi controllati. Duplicati del file esclusi dal conteggio."
+      "detail": "Appunti e diapositive del corso di Farmacologia II 2025–26: PDF 17–18, 28–30, 33 e 36 di 59. Nuove 33 e 36 lette e controllate visivamente. Integrati i soli passaggi anti-TNF e proteina di fusione; disegno CTLA4-Fc non interpretato come struttura di etanercept."
     },
     {
       "id": "FII-A",
       "title": "Appunti e diapositive del corso di Farmacologia II · appunti 2025–26",
-      "detail": "Lezione 1 del 27/10/2025: PDF 7–8 e 11–13 di 26. Testo completo delle sole pagine indicate e figure controllate. Pagine equivalenti 8–9 e 12–14 della raccolta compilata non rilette né ricontate. Integrati soltanto i passaggi pertinenti; non l’intera lezione."
+      "detail": "Appunti e diapositive del corso di Farmacologia II, lezione 1 del 27/10/2025: PDF 7–8 e 11–16 di 26. Nuove 14–16 lette interamente nel testo disponibile e controllate nel rendering; integrati soltanto anti-TNF, immunogenicità, reazioni e proteine di fusione. Figure su altri bersagli esaminate nel contesto, escluse dalla sintesi. Pagine equivalenti 15–17 della raccolta compilata non ricontate."
     },
     {
       "id": "AZA-UK",
@@ -600,8 +739,68 @@ export const THEORY_IBD = Object.freeze({
       "title": "AGA 2025 · Gestione farmacologica del Crohn moderato-grave",
       "url": "https://gastro.org/clinical-guidance/pharmacological-management-of-moderate-to-severe-crohns-disease/",
       "detail": "DOI 10.1053/j.gastro.2025.09.038; raccomandazione 7 sul metotrexato parenterale negli estratti ufficiali letti il 30/10/2026. Accesso diretto 403; non intero documento."
+    },
+    {
+      "id": "EMA-REM",
+      "title": "EMA · Remicade",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/remicade",
+      "detail": "Indicazioni e rischi nell’overview ufficiale indicizzata; pagina diretta 429. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "EMA-HUM",
+      "title": "EMA · Humira",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/humira",
+      "detail": "Indicazioni nell’overview indicizzata; meccanismo nei passaggi indicizzati delle informazioni di prodotto, sezione 5.1. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "EMA-SIM",
+      "title": "EMA · Simponi",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/simponi",
+      "detail": "Overview, elenco delle indicazioni e meccanismo. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "EMA-CIM",
+      "title": "EMA · Cimzia",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/cimzia",
+      "detail": "Overview, elenco europeo delle indicazioni e funzione del PEG; distinta dalla scheda storica di rifiuto per Crohn. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "EMA-ENB",
+      "title": "EMA · Enbrel",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/enbrel",
+      "detail": "Overview e indicazioni europee negli estratti ufficiali indicizzati. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "FDA-CIM",
+      "title": "DailyMed · Cimzia, informazioni statunitensi",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d",
+      "detail": "Passaggi 1.1 e 12.1 letti; confronto con descrizione strutturale dei materiali didattici. Indicazione statunitense distinta da quella europea. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "IFX-UK",
+      "title": "Remicade · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/3831/smpc",
+      "detail": "Estratti ufficiali selettivi 4.1, 4.4–4.5 e immunogenicità: infezioni, tubercolosi, HBV e reazioni. Non RCP italiano. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "HUM-UK",
+      "title": "Humira · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/9678/smpc",
+      "detail": "Estratti ufficiali 4.5, immunogenicità in 5.1 e farmacocinetica: anticorpi antifarmaco, clearance e limiti dei confronti fra saggi. Aggiornato 16/02/2026. Non RCP italiano. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "EMA-BIO",
+      "title": "EMA · Biosimilari",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/biosimilar-medicines-overview",
+      "detail": "Definizione di biologico e biosimilare, comparabilità di struttura, attività, efficacia, sicurezza e immunogenicità. Non revisione completa delle regole di sostituibilità. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "EMA-RMS",
+      "title": "EMA · Remsima",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/remsima",
+      "detail": "Overview ufficiale indicizzata: riferimento Remicade, comparabilità e presentazioni endovenose e sottocutanee. Non intero fascicolo regolatorio. Consultazione selettiva 30/10/2026."
     }
   ],
-  "coverage": "Ampliamento mirato: 17 nuove pagine lette nel testo e controllate visivamente, 16 pertinenti integrate; appunti I PDF 286 esclusi. Ventitré pagine già lette conservate nel registro, con riuso mirato di Katzung 1282, Rang & Dale 593 e appunti I 285. Totale 40 pagine lette e 38 pertinenti alla sintesi, di sei fonti. Figure originali non ripubblicate. Fonti ufficiali consultate selettivamente; nessuna lettura integrale di libri o corsi, nessuna revisione clinica indipendente.",
-  "wordCount": 5168
+  "coverage": "Ampliamento mirato: 11 nuove pagine lette nel testo disponibile e controllate nel rendering, con integrazione dei soli passaggi pertinenti. Quaranta pagine già lette conservate nel registro; riuso mirato di Katzung 1283 e appunti I 285–286. La 286 contribuisce ora per il solo confronto sui biosimilari. Totale 51 pagine lette e 50 con passaggi pertinenti alla sintesi, di sei fonti. Figure originali non ripubblicate; immagini ripetute non sono prove indipendenti. Fonti ufficiali consultate selettivamente; nessuna lettura integrale di libri o corsi, nessuna revisione clinica indipendente.",
+  "wordCount": 6784
 });
