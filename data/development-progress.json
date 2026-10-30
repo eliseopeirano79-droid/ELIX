@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-10-30T17:27:30.539472+00:00",
-  "batch": "theory-course-551-555",
+  "updatedAt": "2026-10-30T18:45:10.427594+00:00",
+  "batch": "theory-course-556-560",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.54.0",
-  "branch": "feat/theory-course-551-555",
-  "baseCommit": "7603a94fcf38f7184e3c4bd593c9ce18d8602174",
+  "release": "0.55.0",
+  "branch": "feat/theory-course-556-560",
+  "baseCommit": "f68eba172b5f19895d658919b7bd67881a81f6dc",
   "previousBatch": {
-    "batch": "theory-course-546-550",
+    "batch": "theory-course-551-555",
     "status": "published_and_live_verified",
-    "release": "0.53.0",
-    "commit": "7603a94fcf38f7184e3c4bd593c9ce18d8602174"
+    "release": "0.54.0",
+    "commit": "f68eba172b5f19895d658919b7bd67881a81f6dc"
   },
   "scope": [
-    "Ampliamento del capitolo MICI: glucocorticoidi, primo passaggio, formulazioni e obiettivi."
+    "MICI: tiopurine, calcineurina, metotrexato e sicurezza del calendario settimanale."
   ],
   "completed": [
-    "Otto nuove pagine lette e controllate, sei pertinenti integrate e due escluse; quindici precedenti riutilizzate.",
-    "17 sezioni, 3539 parole, 16 domande, 18 riferimenti, otto identità esistenti e cinque capitoli collegati.",
-    "41 validatori superati; otto configurazioni browser nei due temi, tastiera, otto farmaci, cinque capitoli collegati, ricerca e offline.",
-    "Aggiornamento reale 0.53.0→0.54.0 con preferiti, progressi e tema conservati. Gli altri 57 capitoli, catalogo, lettore e laboratori invariati; conservati gli undici identificatori di sezione e le dieci domande precedenti delle MICI.",
-    "Sei schermate ispezionate; hash dei quattro originali invariati."
+    "17 nuove pagine lette nel testo e controllate visivamente; confronto mirato Farmacologia I e II, Katzung, Rang & Dale e fonti ufficiali.",
+    "Capitolo: 25 sezioni, 5168 parole, 24 domande, 26 riferimenti e 12 farmaci esistenti.",
+    "41 validatori superati; otto configurazioni browser nei due temi, tastiera, dodici farmaci, cinque capitoli collegati, ricerca e offline.",
+    "Aggiornamento reale 0.54.0→0.55.0 con preferiti, progressi e tema conservati. Altri 57 capitoli, catalogo, lettore e laboratori invariati; conservati i 17 identificatori di sezione e le 16 domande precedenti delle MICI.",
+    "Sei schermate ispezionate; hash dei sei originali invariati."
   ],
   "remaining": [
     "CI sul commit, deploy concluso e verifica online di contenuti, navigazione, offline e percorsi di accesso."
@@ -43,23 +43,22 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 6,
-    "expandedSections": 4,
-    "newLinksToExistingIdentities": 2
+    "newSections": 8,
+    "expandedSections": 1,
+    "newLinksToExistingIdentities": 4
   },
   "readingManifests": [
     "data/mici-reading.json"
   ],
   "limits": [
-    "Deduplicazione di 44 registri disponibili per hash e pagine; non censimento completo del corpus.",
-    "CFI 551 e 553 ripetono figure del Katzung già controllate; CFI 552 quasi solo immagine, fonte grafica identificata ma edizione non nota. Nessuna figura ripubblicata.",
-    "Tabelle CFI 554–555 senza edizione identificata, con sovrapposizioni e presentazioni storiche non riconciliate. Nessuna dose, equivalenza o indicazione italiana ricavata dalle tabelle.",
-    "Katzung 1282 letta interamente ma parte sulle purine non integrata; frase finale continua nella 1283 non letta. Rang & Dale 594 e appunti 285 letti e controllati ma esclusi da questo ampliamento.",
-    "Rang & Dale: paginazione editoriale non identificata; bibliografia non equivale a lettura degli articoli. Appunti: figure ripetute o ritagliate; affermazioni su immunosoppressori e biologici ancora da riconciliare.",
-    "SmPC britannici distinti dai RCP italiani. ACG ed ESE consultati nelle sintesi ufficiali e nei passaggi dichiarati; BSG e NCBI soltanto nei riepiloghi ufficiali indicizzati. Non lettura integrale delle linee guida.",
-    "Farmacologia II e ulteriori fonti autorizzate non lette per questo tema. Terapie avanzate, profili mancanti e laboratori rimangono nel backlog.",
-    "Controllo editoriale del solo integratore; nessuna revisione clinica indipendente.",
+    "Deduplicazione per hash e pagine nei 45 registri iniziali disponibili e confronto con inventario di Farmacologia II; non censimento completo del corpus.",
+    "Diciassette nuove pagine lette interamente nel testo disponibile. APP 286 esclusa; la sua piccola figura è stata esaminata nel contesto ma non in ogni etichetta. RAN 594 resta esclusa. KAT 1283: segmento anti-TNF escluso e continuazione 1284 non letta.",
+    "Farmacologia II: soltanto PDF 17–18, 28–30 delle diapositive e 7–8, 11–13 degli appunti della lezione 1. Parti su altri immunosoppressori escluse; copie e pagine della raccolta compilata non ricontate.",
+    "Schemi del corso corretti nella sintesi: immunofilline intracellulari; rapamicina inibisce mTOR; basse dosi di metotrexato non escludono mielotossicità o nausea. Nessuna figura originale o tabella posologica pubblicata.",
+    "SmPC britannici distinti dai RCP italiani. ACG e CPIC consultati selettivamente; AGA, BSG ed EMA nei passaggi ufficiali indicizzati dichiarati. Non lettura integrale delle linee guida. Divergenza AGA/BSG sul metotrexato nel Crohn conservata.",
+    "Figure ripetute, tabelle storiche e limiti delle edizioni già registrati nei lotti precedenti rimangono validi. Rang & Dale: paginazione editoriale non identificata.",
+    "Terapie avanzate, ulteriori fonti, profili mancanti e laboratori restano da approfondire. Nessuna revisione clinica indipendente.",
     "Verifiche browser con Chromium e dimensioni simulate; non dispositivi fisici."
   ],
-  "nextBatch": "Completare prima verifica e pubblicazione del lotto corrente. Poi PDF 556–560 delle diapositive del corso, con i passaggi pertinenti dei libri e degli appunti dopo deduplicazione; le pagine già lette ma non integrate non vanno ricontate."
+  "nextBatch": "Completare prima verifiche e pubblicazione di questo lotto. Poi diapositive I PDF 561–565 e Katzung 1284, con gli appunti 285–286 già letti riutilizzati senza ricontarli; terapie avanzate da riconciliare."
 }
