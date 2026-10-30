@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "batch": "theory-course-546-550",
+  "chapterId": "malattie-infiammatorie-intestinali",
+  "updatedAt": "2026-10-30T16:39:56.062782+00:00",
+  "status": "editorial_reconciled_locally_verified_pending_publication",
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "sources": [
+    {
+      "id": "CFI",
+      "title": "Diapositive del corso di Farmacologia I",
+      "edition": "AA 2025–26",
+      "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
+      "pageCount": 935,
+      "pdfPagesRead": [
+        544,
+        545,
+        546,
+        547,
+        548,
+        549,
+        550
+      ],
+      "visuallyCheckedPdfPages": [
+        544,
+        545,
+        546,
+        547,
+        548,
+        549,
+        550
+      ],
+      "newlyReadTextPages": [
+        546,
+        547,
+        548,
+        549,
+        550
+      ],
+      "reusedPreviouslyReadPages": [
+        544,
+        545
+      ],
+      "internalLabels": [
+        542,
+        543,
+        544,
+        545,
+        546,
+        547,
+        548
+      ],
+      "sourceUnchanged": true,
+      "allContentsRead": false
+    },
+    {
+      "id": "KAT",
+      "title": "Katzung · Farmacologia generale e clinica",
+      "edition": "IX italiana 2014 / XII americana 2012",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "pageCount": 1579,
+      "pdfPagesRead": [
+        1278,
+        1279,
+        1280,
+        1281
+      ],
+      "visuallyCheckedPdfPages": [
+        1278,
+        1279,
+        1280,
+        1281
+      ],
+      "newlyReadTextPages": [
+        1278,
+        1279,
+        1280,
+        1281
+      ],
+      "reusedPreviouslyReadPages": [],
+      "internalLabels": [
+        1258,
+        1259,
+        1260,
+        1261
+      ],
+      "sourceUnchanged": true,
+      "allContentsRead": false
+    },
+    {
+      "id": "RAN",
+      "title": "Rang & Dale · Farmacologia",
+      "edition": "VIII italiana 2016 / originale 2015",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "pageCount": 1102,
+      "pdfPagesRead": [
+        592,
+        593
+      ],
+      "visuallyCheckedPdfPages": [
+        592,
+        593
+      ],
+      "newlyReadTextPages": [
+        592,
+        593
+      ],
+      "reusedPreviouslyReadPages": [],
+      "internalLabels": [],
+      "sourceUnchanged": true,
+      "allContentsRead": false
+    },
+    {
+      "id": "APP",
+      "title": "Appunti del corso di Farmacologia I",
+      "edition": "AA 2025–26",
+      "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+      "pageCount": 344,
+      "pdfPagesRead": [
+        283,
+        284
+      ],
+      "visuallyCheckedPdfPages": [
+        283,
+        284
+      ],
+      "newlyReadTextPages": [
+        283,
+        284
+      ],
+      "reusedPreviouslyReadPages": [],
+      "internalLabels": [
+        278,
+        279
+      ],
+      "sourceUnchanged": true,
+      "allContentsRead": false
+    }
+  ],
+  "newReadPdfPages": 13,
+  "totalReadPdfPages": 15,
+  "currentBatchVisualPages": 13,
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "expandedExistingChapters": 0,
+  "newChapters": 1,
+  "officialSources": [
+    {
+      "id": "MES-UK",
+      "title": "Salofalk 500 mg · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/5785/smpc",
+      "detail": "Aggiornamento 23/02/2026; lettura mirata 4.1, 4.3–4.4, 4.8, 5.1–5.2 il 30/10/2026. Non RCP italiano."
+    },
+    {
+      "id": "SAS-UK",
+      "title": "Salazopyrin · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/3838/smpc",
+      "detail": "Aggiornamento 01/09/2025; lettura mirata 4.1, 4.3–4.4, 4.8, 5.1–5.2 il 30/10/2026. Non RCP italiano."
+    },
+    {
+      "id": "BSG",
+      "title": "BSG 2025 · Linee guida sulle MICI nell’adulto",
+      "url": "https://gut.bmj.com/content/74/Suppl_2/s1",
+      "detail": "DOI 10.1136/gutjnl-2024-334395. Estratti indicizzati ufficiali su 5-ASA, obiettivi e strategia nel Crohn letti il 30/10/2026; pagina diretta 403. Non documento completo."
+    },
+    {
+      "id": "ECCO-UC",
+      "title": "ECCO 2026 · Terapia medica della colite ulcerosa",
+      "url": "https://academic.oup.com/ecco-jcc/article/20/7/jjag066/8726617",
+      "detail": "DOI 10.1093/ecco-jcc/jjag066. Raccomandazioni 3–4 negli estratti indicizzati ufficiali, lette il 30/10/2026; accesso diretto non disponibile. Non linea guida completa."
+    },
+    {
+      "id": "AGA-FMT",
+      "title": "AGA 2024 · Terapie basate sul microbiota fecale",
+      "url": "https://gastro.org/clinical-guidance/fecal-microbiota-based-therapies-for-select-gastrointestinal-diseases/",
+      "detail": "Raccomandazioni per colite ulcerosa, Crohn e infezione ricorrente negli estratti ufficiali, lette il 30/10/2026; accesso diretto 403. Non revisione completa."
+    },
+    {
+      "id": "NIH-CD",
+      "title": "NIDDK · Malattia di Crohn",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/crohns-disease/definition-facts",
+      "detail": "Definizione e distribuzione anatomica negli estratti ufficiali consultati il 30/10/2026."
+    },
+    {
+      "id": "NIH-UC",
+      "title": "NIDDK · Colite ulcerosa",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/ulcerative-colitis",
+      "detail": "Definizione negli estratti ufficiali consultati il 30/10/2026."
+    },
+    {
+      "id": "NIH-IBS",
+      "title": "NIDDK · Sindrome dell’intestino irritabile",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/definition-facts",
+      "detail": "Distinzione dal danno infiammatorio visibile negli estratti ufficiali consultati il 30/10/2026."
+    }
+  ],
+  "limits": [
+    "Deduplicazione dei registri disponibili per hash e pagine; non censimento completo del corpus.",
+    "Figure 2023 con citazione incompleta e studi citati nelle diapositive non letti negli originali. Tabella PDF 547 senza edizione identificabile; nessuna figura ripubblicata.",
+    "Katzung PDF 1281 prosegue nella 1282 non letta. Altri argomenti ai margini delle pagine letti ma non integrati. Rang & Dale: paginazione editoriale non ricostruita.",
+    "Appunti: figura PDF 283 ritagliata, figure ripetute rispetto alle altre fonti; non nuova evidenza indipendente.",
+    "SmPC britannici distinti dai RCP italiani. Linee guida consultate soltanto nei passaggi ufficiali indicizzati dichiarati, accessi diretti non disponibili.",
+    "Farmacologia II e ulteriori fonti autorizzate non lette per questo tema. Terapie avanzate, profili mancanti e laboratori rimangono nel backlog.",
+    "Controllo editoriale del solo integratore; nessuna revisione clinica indipendente.",
+    "Verifiche browser con Chromium e dimensioni simulate; non dispositivi fisici."
+  ],
+  "nextInterval": "Prima completare verifica e pubblicazione di questo lotto. Poi un solo intervallo PDF 551–555 del corso con libri e appunti pertinenti, dopo deduplicazione.",
+  "conflictsAndReconciliation": [
+    {
+      "source": "CFI 549; RAN 593; APP 284",
+      "issue": "Assorbimento descritto come nullo",
+      "resolution": "Distinta azione locale da esposizione sistemica; confronto KAT e MES-UK."
+    },
+    {
+      "source": "APP 283",
+      "issue": "Intera classe descritta come profarmaci",
+      "resolution": "Separati azo-composti e mesalazina già attiva."
+    },
+    {
+      "source": "RAN 592",
+      "issue": "Intestino irritabile accostato alle malattie infiammatorie",
+      "resolution": "Distinzione esplicita; NIH-IBS."
+    },
+    {
+      "source": "CFI 547–548; APP 283; KAT 1279",
+      "issue": "Piramide e vie dei biologici generalizzate",
+      "resolution": "Non trasferite come algoritmo attuale; BSG e ECCO selettivi. Vie biologiche non approfondite."
+    },
+    {
+      "source": "KAT 1281; RAN 593; SAS-UK 4.1",
+      "issue": "Uso nel Crohn da distinguere per epoca e tipo di fonte",
+      "resolution": "Confronto BSG; autorizzazione e raccomandazione separate."
+    },
+    {
+      "source": "CFI 550",
+      "issue": "Grafico quantitativo privo di dati identificabili",
+      "resolution": "Nessuna soglia o dose derivata; ipersensibilità distinta dalla dipendenza dall’esposizione."
+    },
+    {
+      "source": "CFI 548",
+      "issue": "Interventi sul microbiota raggruppati come supporto generale",
+      "resolution": "Nessuna raccomandazione indiscriminata; passaggi AGA selettivi."
+    },
+    {
+      "source": "CFI 545",
+      "issue": "Distribuzione della colite e reperti tipici presentati rigidamente",
+      "resolution": "Riformulazione della distribuzione; nessun reperto istologico assunto come universale."
+    }
+  ],
+  "deduplication": {
+    "newCFIPages": [
+      546,
+      547,
+      548,
+      549,
+      550
+    ],
+    "overlap": [],
+    "reusedCFIPages": [
+      544,
+      545
+    ],
+    "scope": "Available reading ledgers by source hash and page; not complete corpus audit."
+  }
+}

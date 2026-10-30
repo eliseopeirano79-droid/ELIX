@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-10-30T15:57:11.525916+00:00",
-  "batch": "theory-course-541-545",
+  "updatedAt": "2026-10-30T16:39:56.062782+00:00",
+  "batch": "theory-course-546-550",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.52.0",
-  "branch": "feat/theory-course-541-545",
-  "baseCommit": "60e7fbea7fccd201d3fa9af5c5be2cc7adba1d71",
+  "release": "0.53.0",
+  "branch": "feat/theory-course-546-550",
+  "baseCommit": "b0ba50871c7b61b26f91d3880f827758d7a3f192",
   "previousBatch": {
-    "batch": "theory-course-536-540",
+    "batch": "theory-course-541-545",
     "status": "published_and_live_verified",
-    "release": "0.51.0",
-    "commit": "60e7fbea7fccd201d3fa9af5c5be2cc7adba1d71"
+    "release": "0.52.0",
+    "commit": "b0ba50871c7b61b26f91d3880f827758d7a3f192"
   },
   "scope": [
-    "Concludere l’intervallo sull’emicrania con razionale delle associazioni acute e interpretazione delle raccomandazioni."
+    "Nuovo capitolo introduttivo sulle MICI e gli aminosalicilati."
   ],
   "completed": [
-    "Quattro nuove pagine pertinenti, 39 cumulative; otto pagine ispezionate e classificate senza ricontare quelle rinviate.",
-    "24 sezioni, 5389 parole, 23 domande, 33 riferimenti e undici collegamenti a identità esistenti.",
-    "40 validatori superati; otto configurazioni browser, due temi, tastiera, undici farmaci, cinque capitoli collegati, ricerca e offline.",
-    "Aggiornamento reale 0.51.0→0.52.0 con preferiti, progressi e tema conservati. Altri 56 capitoli invariati; testo delle 23 sezioni e 21 domande pregresse conservato.",
+    "13 nuove pagine lette e controllate, due riutilizzate; 15 complessive.",
+    "11 sezioni, 2109 parole, 10 domande, 12 riferimenti e sei collegamenti a identità esistenti.",
+    "41 validatori superati; otto configurazioni browser nei due temi, tastiera, sei farmaci, quattro capitoli collegati, ricerca e offline.",
+    "Aggiornamento reale 0.52.0→0.53.0 con preferiti, progressi e tema conservati. Tutti i 57 capitoli preesistenti, catalogo, lettore e laboratori confrontati e invariati.",
     "Sei schermate ispezionate; hash dei quattro originali invariati."
   ],
   "remaining": [
@@ -31,8 +31,8 @@
     "pkFields": 420,
     "importedLabelsWithoutEditorial": 93,
     "targetProfiles": 36,
-    "chapters": 57,
-    "extendedChapters": 12,
+    "chapters": 58,
+    "extendedChapters": 13,
     "briefChapters": 45
   },
   "changes": {
@@ -40,32 +40,25 @@
     "newDrugSummaries": 0,
     "newProductPKContexts": 0,
     "newPKFields": 0,
-    "newChapters": 0,
-    "expandedChapters": 1,
+    "newChapters": 1,
+    "expandedChapters": 0,
     "newInteractiveLabs": 0,
-    "newSections": 1,
-    "expandedSections": 1,
-    "newLinksToExistingIdentities": 0
+    "newSections": 11,
+    "expandedSections": 0,
+    "newLinksToExistingIdentities": 6
   },
   "readingManifests": [
-    "data/emicrania-reading.json"
+    "data/mici-reading.json"
   ],
   "limits": [
-    "Capitolo esteso; 39 pagine cumulative di quattro fonti, quattro nuove pertinenti all’emicrania in questo lotto. Altre quattro pagine ispezionate separatamente: una vuota, un indice e due introduttive sulle malattie infiammatorie intestinali rinviate al prossimo lotto. Testo disponibile e rendering controllati; libri e corsi incompleti. Fonti ufficiali e abstract consultati nei limiti dichiarati; non revisione clinica indipendente.",
-    "Articoli 1999 e 2020 non letti integralmente.",
-    "Studio 2023: solo abstract primario, non testo completo.",
-    "IUPHAR 2017–2018: testo selezionato su composizione e trasduzione; figure originali e intera revisione non controllate.",
-    "Fonti britanniche pregresse non equivalgono a RCP italiani; consultazioni ufficiali selettive.",
-    "Chromium con dimensioni simulate, non dispositivi fisici.",
-    "Tabelle PDF 526–527: edizione non identificata; tabella 527 ritagliata e nota a non disponibile. Nessun valore numerico trasferito.",
-    "Articolo di affinità del 2010 citato nella pagina 529 non letto; selettività e sicurezza non equiparate.",
-    "NICE: passaggi 1.3.32–1.3.33 ricontrollati negli estratti indicizzati ufficiali; accesso diretto 403. EMA Rayvow 429: riutilizzata lettura del 28/10.",
-    "Nuovi intervalli dei libri limitati a tre pagine; due pagine degli appunti, con parti di figura coperte. Articoli citati non letti.",
-    "Registro AIFA corrente non letto: CSV non supportato e accesso diretto 403; esempio del 2024 distinto dall’eleggibilità corrente.",
-    "Algoritmo 2020 e articoli nelle PDF 536–538 non letti nelle pubblicazioni originali; tabella 540 ritagliata, edizione non identificata.",
-    "EMA Vyepti non accessibile (429); usato SmPC britannico distinto dalle condizioni italiane. AAN/AHS 2026 ed EHF 2022 consultate solo per i passaggi dichiarati.",
-    "ACP 2025: solo abstract e raccomandazioni, testo integrale non accessibile. Revisione collegata: abstract letto, correzione successiva non leggibile; nessuna stima comparativa importata.",
-    "Riconciliazione delle PDF 544–545 rinviata: non nuove pagine del capitolo emicrania e nessun capitolo sulle malattie intestinali pubblicato in questo lotto."
+    "Deduplicazione dei registri disponibili per hash e pagine; non censimento completo del corpus.",
+    "Figure 2023 con citazione incompleta e studi citati nelle diapositive non letti negli originali. Tabella PDF 547 senza edizione identificabile; nessuna figura ripubblicata.",
+    "Katzung PDF 1281 prosegue nella 1282 non letta. Altri argomenti ai margini delle pagine letti ma non integrati. Rang & Dale: paginazione editoriale non ricostruita.",
+    "Appunti: figura PDF 283 ritagliata, figure ripetute rispetto alle altre fonti; non nuova evidenza indipendente.",
+    "SmPC britannici distinti dai RCP italiani. Linee guida consultate soltanto nei passaggi ufficiali indicizzati dichiarati, accessi diretti non disponibili.",
+    "Farmacologia II e ulteriori fonti autorizzate non lette per questo tema. Terapie avanzate, profili mancanti e laboratori rimangono nel backlog.",
+    "Controllo editoriale del solo integratore; nessuna revisione clinica indipendente.",
+    "Verifiche browser con Chromium e dimensioni simulate; non dispositivi fisici."
   ],
-  "nextBatch": "Un solo prossimo lotto: introduzione alle malattie infiammatorie intestinali. Riutilizzare PDF 544–545 già lette e controllate, poi deduplicare e leggere PDF 546–550 con libri e appunti pertinenti. Farmacologia II non ancora letta."
+  "nextBatch": "Prima completare verifica e pubblicazione di questo lotto. Poi un solo intervallo PDF 551–555 del corso con libri e appunti pertinenti, dopo deduplicazione."
 }
