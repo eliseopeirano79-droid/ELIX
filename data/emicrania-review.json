@@ -1,18 +1,18 @@
 {
-  "batch": "theory-course-521-525",
+  "batch": "theory-course-526-530",
   "chapterId": "emicrania",
-  "checkedAt": "2026-10-28T20:45:38.202666+00:00",
+  "checkedAt": "2026-10-30T13:59:02.118936+00:00",
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "f1578ecb703b7073dc59c33477bb32fd89c3470ac7fc6351ecf3117214c4dbed",
+  "moduleSha256": "1e09815f1cfa333e2ed33d02c59ea6790869ddac73a2477526f8c5a0b7ac8c84",
   "checks": [
-    "Quattro nuove sezioni rilette: complesso recettoriale, bersaglio degli anticorpi, selettività serotoninergica e limiti delle misure di CGRP.",
-    "Documenti EMA letti per passaggi selezionati; distinzione fra ligando e recettore, dati ex vivo e sicurezza clinica.",
-    "Nessuna unità, soglia, dose o figura delle diapositive trasferita.",
-    "Dodici sezioni e otto domande precedenti conservate; quattro domande aggiunte.",
-    "40 validatori e otto configurazioni browser superati; due temi, tastiera, nove farmaci, cinque capitoli, fonti, ricerca e offline.",
-    "Aggiornamento reale 0.47.0→0.48.0 con preferiti, progressi e tema conservati; gli altri 56 capitoli, le 12 sezioni e le 8 domande pregresse sono conservati."
+    "Tre nuove sezioni rilette: parametri farmacocinetici, tollerabilità e rischio, evidenze in gravidanza.",
+    "Cinque nuove pagine controllate nel testo disponibile e nei rendering; conflitti e ritagli registrati.",
+    "Confronto selettivo con due SmPC, risorse FDA e raccomandazioni NICE. Nessun dosaggio, figura o tabella originale riprodotto.",
+    "Sedici sezioni e dodici domande pregresse conservate; tre domande aggiunte.",
+    "40 validatori e otto configurazioni browser superati: due temi, tastiera, fonti, nove farmaci, cinque capitoli collegati, ricerca e offline.",
+    "Aggiornamento reale 0.48.0→0.49.0 con preferiti, progressi e tema conservati. Altri 56 capitoli, 16 sezioni e 12 domande pregresse invariati."
   ],
   "limits": [
     "Controllo editoriale mirato del solo integratore, non revisione clinica indipendente.",

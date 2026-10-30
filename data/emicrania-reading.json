@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-course-521-525",
+  "batch": "theory-course-526-530",
   "chapterId": "emicrania",
-  "updatedAt": "2026-10-28T20:45:38.202666+00:00",
+  "updatedAt": "2026-10-30T13:59:02.118936+00:00",
   "status": "editorial_reconciled_locally_verified_pending_publication",
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -25,7 +25,12 @@
         522,
         523,
         524,
-        525
+        525,
+        526,
+        527,
+        528,
+        529,
+        530
       ],
       "visuallyCheckedPdfPages": [
         514,
@@ -39,14 +44,19 @@
         522,
         523,
         524,
-        525
+        525,
+        526,
+        527,
+        528,
+        529,
+        530
       ],
       "newlyReadTextPages": [
-        521,
-        522,
-        523,
-        524,
-        525
+        526,
+        527,
+        528,
+        529,
+        530
       ],
       "reusedPreviouslyReadPages": [
         514,
@@ -55,7 +65,12 @@
         517,
         518,
         519,
-        520
+        520,
+        521,
+        522,
+        523,
+        524,
+        525
       ],
       "internalLabels": [
         512,
@@ -69,21 +84,29 @@
         520,
         521,
         522,
-        523
+        523,
+        524,
+        525,
+        526,
+        527,
+        528
       ],
       "sourceUnchanged": true,
       "allContentsRead": false,
-      "remaining": "PDF 526–935 e altri intervalli del corso non coperti da questo capitolo.",
+      "remaining": "PDF 531–935 e altri intervalli non coperti da questo capitolo.",
       "limits": [
         "Articoli 1999 e 2020 non letti integralmente.",
         "Studio 2023: solo abstract primario, non testo completo.",
         "IUPHAR 2017–2018: testo selezionato su composizione e trasduzione; figure originali e intera revisione non controllate.",
-        "Nessun nuovo intervallo di libri o appunti letto."
+        "Nessun nuovo intervallo di libri o appunti letto.",
+        "Tabelle PDF 526–527: edizione non identificata; tabella 527 ritagliata e nota a non disponibile. Nessun valore numerico trasferito.",
+        "Articolo di affinità del 2010 citato nella pagina 529 non letto; selettività e sicurezza non equiparate.",
+        "NICE: passaggi 1.3.32–1.3.33 ricontrollati negli estratti indicizzati ufficiali; accesso diretto 403. EMA Rayvow 429: riutilizzata lettura del 28/10."
       ]
     }
   ],
   "newReadPdfPages": 5,
-  "totalReadPdfPages": 12,
+  "totalReadPdfPages": 17,
   "currentBatchVisualPages": 5,
   "newIdentities": 0,
   "newDrugSummaries": 0,
@@ -137,7 +160,7 @@
       "id": "NICE",
       "title": "NICE CG150 · Cefalee oltre i 12 anni",
       "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
-      "detail": "Raccomandazioni 1.3.10–1.3.33 e 1.3.42–1.3.48 lette nella pagina corrente il 28/10/2026. Contesto britannico; nessun protocollo, dosaggio o criterio di rimborso italiano derivato."
+      "detail": "Raccomandazioni 1.3.10–1.3.33 e 1.3.42–1.3.48 lette nella pagina corrente il 28/10/2026. Contesto britannico; nessun protocollo, dosaggio o criterio di rimborso italiano derivato. Il 30/10/2026 ricontrollate 1.3.32–1.3.33 negli estratti indicizzati del documento ufficiale corrente (PDF pp. 17–18); accesso diretto alla pagina e al PDF non riuscito (403)."
     },
     {
       "id": "RIM-EMA",
@@ -161,7 +184,7 @@
       "id": "SUM-UK",
       "title": "Sumatriptan compresse · SmPC britannico",
       "url": "https://www.medicines.org.uk/emc/product/525/smpc",
-      "detail": "Documento aggiornato il 17/06/2026, consultato il 28/10/2026: indicazione e precauzioni/controindicazioni selezionate in 4.1, 4.3–4.4. Non un RCP italiano."
+      "detail": "Documento aggiornato il 17/06/2026, consultato il 28/10/2026: indicazione e precauzioni/controindicazioni selezionate in 4.1, 4.3–4.4. Non un RCP italiano. Nuova lettura selettiva il 30/10/2026: 4.2–4.6 e parte di 4.8, per distinguere controindicazioni, precauzioni e limiti dei dati in gravidanza. Non intero documento."
     },
     {
       "id": "NIH",
@@ -186,18 +209,33 @@
       "title": "EMA · Rayvow, informazioni di prodotto",
       "url": "https://www.ema.europa.eu/en/documents/product-information/rayvow-epar-product-information_en.pdf",
       "detail": "Letti il 28/10/2026: 4.1 (PDF 2), 4.4 (3–4), 4.7 (5–6) e parte iniziale di 5.1 (8), prima degli studi clinici. Non intero documento."
+    },
+    {
+      "id": "SUM-SC-UK",
+      "title": "Sumatriptan sottocutaneo · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/607/smpc",
+      "detail": "Consultazione selettiva il 30/10/2026: risposta clinica e rilevanza della via alla fine di 5.1; farmacocinetica in 5.2. Documento aggiornato il 15/09/2025. Nessun valore quantitativo o dose trasferito; non RCP italiano."
+    },
+    {
+      "id": "FDA-PLLR",
+      "title": "FDA · Pregnancy and Lactation Labeling Resources",
+      "url": "https://www.fda.gov/drugs/labeling-information-drug-products/pregnancy-and-lactation-labeling-resources",
+      "detail": "Testo introduttivo su categorie, contenuti delle sezioni e decorrenza del PLLR letto il 30/10/2026. Non lettura del testo integrale della norma o delle presentazioni collegate."
     }
   ],
   "limits": [
-    "Stesura estesa sui fondamenti dell’emicrania, con approfondimenti su complessi recettoriali, anticorpi, selettività serotoninergica e interpretazione delle misure di CGRP. Dodici pagine delle diapositive lette e controllate, cinque nuove in questo lotto. Un abstract di ricerca e passaggi selezionati di una revisione farmacologica consultati; non i relativi articoli interi. Restano i corrispondenti intervalli dei libri e degli appunti, ulteriori classi e popolazioni speciali. Consultazioni ufficiali selettive: controllo editoriale mirato, non revisione clinica indipendente.",
+    "Stesura estesa con approfondimenti su circuiti, bersagli, interpretazione delle evidenze, farmacocinetica dei triptani e sicurezza. Diciassette pagine delle diapositive lette e controllate, cinque nuove in questo lotto. Tabelle parziali e categorie storiche riconciliate senza trasferire dosi o figure. Restano i corrispondenti intervalli dei libri e degli appunti, ulteriori classi e popolazioni speciali. Consultazioni ufficiali selettive: controllo editoriale mirato, non revisione clinica indipendente.",
     "Articoli 1999 e 2020 non letti integralmente.",
     "Studio 2023: solo abstract primario, non testo completo.",
     "IUPHAR 2017–2018: testo selezionato su composizione e trasduzione; figure originali e intera revisione non controllate.",
     "Nessun nuovo intervallo di libri o appunti letto.",
     "Fonti britanniche pregresse non equivalgono a RCP italiani; consultazioni ufficiali selettive.",
-    "Chromium con dimensioni simulate, non dispositivi fisici."
+    "Chromium con dimensioni simulate, non dispositivi fisici.",
+    "Tabelle PDF 526–527: edizione non identificata; tabella 527 ritagliata e nota a non disponibile. Nessun valore numerico trasferito.",
+    "Articolo di affinità del 2010 citato nella pagina 529 non letto; selettività e sicurezza non equiparate.",
+    "NICE: passaggi 1.3.32–1.3.33 ricontrollati negli estratti indicizzati ufficiali; accesso diretto 403. EMA Rayvow 429: riutilizzata lettura del 28/10."
   ],
-  "nextInterval": "Diapositive PDF 526–530, previa deduplicazione; restano da riconciliare i corrispondenti intervalli di libri e appunti.",
+  "nextInterval": "Concludere questo lotto; poi deduplicare PDF 531–535 e individuare gli intervalli corrispondenti di libri e appunti, senza dichiararli letti.",
   "researchSources": [
     {
       "id": "IUPHAR-CGRP",
@@ -212,6 +250,8 @@
       "detail": "PMID 36813730, DOI 10.1212/WNL.0000000000207114. Abstract letto il 28/10/2026; non articolo completo. Discordanze di pannelli e unità nelle diapositive: nessun valore numerico o soglia trasferito."
     }
   ],
-  "newResearchAbstractsRead": 1,
-  "selectedReviewsRead": 1
+  "newResearchAbstractsRead": 0,
+  "selectedReviewsRead": 0,
+  "newOfficialSources": 2,
+  "recheckedOfficialSources": 2
 }
