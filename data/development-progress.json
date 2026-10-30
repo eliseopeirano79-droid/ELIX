@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-10-28T20:45:38.202666+00:00",
-  "batch": "theory-course-521-525",
+  "updatedAt": "2026-10-30T13:59:02.118936+00:00",
+  "batch": "theory-course-526-530",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.48.0",
-  "branch": "feat/theory-course-521-525",
-  "baseCommit": "402f9a08050a94d14cbe0b6a8e129106f3944c6b",
+  "release": "0.49.0",
+  "branch": "feat/theory-course-526-530",
+  "baseCommit": "eabb49b3003b34a9b5f4213d1898fd2882db9a86",
   "previousBatch": {
-    "batch": "theory-course-516-520",
+    "batch": "theory-course-521-525",
     "status": "published_and_live_verified",
-    "release": "0.47.0",
-    "commit": "402f9a08050a94d14cbe0b6a8e129106f3944c6b"
+    "release": "0.48.0",
+    "commit": "eabb49b3003b34a9b5f4213d1898fd2882db9a86"
   },
   "scope": [
-    "Ampliare il capitolo esistente sull’emicrania con quattro approfondimenti su bersagli e interpretazione delle evidenze."
+    "Ampliare il capitolo esistente sull’emicrania: farmacocinetica, tollerabilità e lettura delle evidenze in gravidanza."
   ],
   "completed": [
-    "Cinque nuove pagine e cinque rendering letti; dodici pagine cumulative nel capitolo.",
-    "16 sezioni, 2788 parole, 12 domande, 19 riferimenti e nove collegamenti a identità già presenti.",
-    "40 validatori e otto configurazioni browser superati; due temi, tastiera, nove farmaci, cinque capitoli, fonti, ricerca e offline.",
-    "Aggiornamento reale 0.47.0→0.48.0 con preferiti, progressi e tema conservati; gli altri 56 capitoli, le 12 sezioni e le 8 domande pregresse sono conservati."
+    "Cinque nuove pagine e rendering letti; diciassette pagine cumulative nel capitolo.",
+    "19 sezioni, 3627 parole, 15 domande, 21 riferimenti e nove collegamenti a identità già presenti.",
+    "40 validatori e otto configurazioni browser superati: due temi, tastiera, fonti, nove farmaci, cinque capitoli collegati, ricerca e offline.",
+    "Aggiornamento reale 0.48.0→0.49.0 con preferiti, progressi e tema conservati. Altri 56 capitoli, 16 sezioni e 12 domande pregresse invariati."
   ],
   "remaining": [
     "CI sul commit, deploy concluso e verifica online di file, navigazione, offline e percorsi di accesso."
@@ -42,21 +42,24 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 4,
+    "newSections": 3,
     "expandedSections": 0,
-    "newLinksToExistingIdentities": 3
+    "newLinksToExistingIdentities": 0
   },
   "readingManifests": [
     "data/emicrania-reading.json"
   ],
   "limits": [
-    "Stesura estesa sui fondamenti dell’emicrania, con approfondimenti su complessi recettoriali, anticorpi, selettività serotoninergica e interpretazione delle misure di CGRP. Dodici pagine delle diapositive lette e controllate, cinque nuove in questo lotto. Un abstract di ricerca e passaggi selezionati di una revisione farmacologica consultati; non i relativi articoli interi. Restano i corrispondenti intervalli dei libri e degli appunti, ulteriori classi e popolazioni speciali. Consultazioni ufficiali selettive: controllo editoriale mirato, non revisione clinica indipendente.",
+    "Stesura estesa con approfondimenti su circuiti, bersagli, interpretazione delle evidenze, farmacocinetica dei triptani e sicurezza. Diciassette pagine delle diapositive lette e controllate, cinque nuove in questo lotto. Tabelle parziali e categorie storiche riconciliate senza trasferire dosi o figure. Restano i corrispondenti intervalli dei libri e degli appunti, ulteriori classi e popolazioni speciali. Consultazioni ufficiali selettive: controllo editoriale mirato, non revisione clinica indipendente.",
     "Articoli 1999 e 2020 non letti integralmente.",
     "Studio 2023: solo abstract primario, non testo completo.",
     "IUPHAR 2017–2018: testo selezionato su composizione e trasduzione; figure originali e intera revisione non controllate.",
     "Nessun nuovo intervallo di libri o appunti letto.",
     "Fonti britanniche pregresse non equivalgono a RCP italiani; consultazioni ufficiali selettive.",
-    "Chromium con dimensioni simulate, non dispositivi fisici."
+    "Chromium con dimensioni simulate, non dispositivi fisici.",
+    "Tabelle PDF 526–527: edizione non identificata; tabella 527 ritagliata e nota a non disponibile. Nessun valore numerico trasferito.",
+    "Articolo di affinità del 2010 citato nella pagina 529 non letto; selettività e sicurezza non equiparate.",
+    "NICE: passaggi 1.3.32–1.3.33 ricontrollati negli estratti indicizzati ufficiali; accesso diretto 403. EMA Rayvow 429: riutilizzata lettura del 28/10."
   ],
-  "nextBatch": "Diapositive PDF 526–530, previa deduplicazione; restano da riconciliare i corrispondenti intervalli di libri e appunti."
+  "nextBatch": "Concludere questo lotto; poi deduplicare PDF 531–535 e individuare gli intervalli corrispondenti di libri e appunti, senza dichiararli letti."
 }

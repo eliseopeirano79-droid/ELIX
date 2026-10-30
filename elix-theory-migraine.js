@@ -6,7 +6,7 @@ export const THEORY_MIGRAINE = Object.freeze({
   "lead": "Il dolore emicranico nasce in un sistema nervoso che integra segnali meningei, sensibilità sensoriale e modulazione centrale. Collegare questo circuito ai bersagli dei farmaci aiuta a distinguere trattamento dell’attacco, prevenzione e cefalea da uso eccessivo di medicinali.",
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
-  "reviewedAt": "2026-10-28",
+  "reviewedAt": "2026-10-30",
   "readingManifest": "./data/emicrania-reading.json",
   "sections": [
     {
@@ -86,6 +86,24 @@ export const THEORY_MIGRAINE = Object.freeze({
       "text": "Il trattamento acuto cerca di modificare l’attacco in corso: dolore, sintomi associati e possibilità di riprendere le attività. La prevenzione cerca invece di migliorare l’andamento della malattia nel tempo, riducendo il carico degli episodi successivi. Le due strategie possono coesistere perché osservano scale temporali diverse.\n\nPer questo un medicinale efficace durante un episodio non diventa automaticamente un trattamento preventivo, e un preventivo non deve essere giudicato soltanto sulla rapidità con cui cambia il dolore presente. Occorre sapere per quale obiettivo sia stato studiato e autorizzato. Anche la stessa molecola può avere impieghi distinti, ciascuno con condizioni proprie.\n\nLe misure di risultato seguono la domanda: valutare la risposta a un attacco non equivale a contare i giorni mensili di emicrania. La percentuale di persone che migliora non coincide con la percentuale di miglioramento della singola persona. Una soglia riportata in una tabella non è perciò un obiettivo universale per tutti i prodotti e tutte le forme di malattia. Frequenza, durata, intensità, disabilità e tollerabilità devono rimanere leggibili separatamente, anche quando contribuiscono alla stessa decisione clinica."
     },
     {
+      "id": "via-tempo-risposta",
+      "title": "Dalla formulazione alla risposta: quattro grandezze da separare",
+      "refs": [
+        "CFI",
+        "SUM-SC-UK"
+      ],
+      "text": "La farmacocinetica aiuta a capire perché lo stesso bersaglio non produca una risposta identica con qualsiasi prodotto. Bisogna però separare quattro domande: quanta sostanza raggiunge la circolazione, quando si osserva il massimo della concentrazione, quando compare un beneficio e quanto a lungo quel beneficio persiste. Sono domande collegate, ma non equivalenti.\n\nLa biodisponibilità descrive la frazione della dose che arriva immodificata alla circolazione sistemica. Il tempo al picco, Tmax, individua invece il massimo osservato nella curva concentrazione-tempo: non è il momento in cui ogni persona comincerà a stare meglio. L’esordio clinico richiede un esito definito, come l’attenuazione del dolore, mentre la sua completa scomparsa è un esito diverso. Anche l’emivita di eliminazione descrive il declino della concentrazione in determinate condizioni, non un cronometro della durata del sollievo.\n\nLa via di somministrazione modifica l’ingresso del farmaco nell’organismo. Una compressa deve liberare il principio attivo e consentirne l’assorbimento; una somministrazione sottocutanea segue un percorso diverso. Nel documento britannico del sumatriptan iniettabile, risposta clinica e picco plasmatico sono descritti separatamente; la via può essere utile quando nausea e vomito rendono problematico il trattamento orale. Questo esempio riguarda un prodotto preciso e non autorizza a sostituire automaticamente formulazioni o dosi.\n\nPer confrontare due righe di una tabella occorre quindi chiedere se si riferiscano alla stessa via, allo stesso esito e alle stesse condizioni di osservazione. Una maggiore biodisponibilità non dimostra da sola maggiore efficacia, così come un’emivita più lunga non garantisce assenza di recidiva del dolore. Il ritorno della cefalea dopo una risposta iniziale va inoltre distinto dalla mancata risposta: confonderli cancella un’informazione essenziale sull’attacco e sul risultato del trattamento. La farmacocinetica spiega una parte della variabilità; non sostituisce il confronto clinico."
+    },
+    {
+      "id": "tollerabilita-rischio",
+      "title": "Tollerabilità e rischio cardiovascolare rispondono a domande diverse",
+      "refs": [
+        "CFI",
+        "SUM-UK"
+      ],
+      "text": "Le sensazioni di calore, le parestesie, la sonnolenza o la stanchezza riportate con i triptani descrivono esperienze del paziente. Una lista di questi eventi non basta però a rappresentare il rischio: frequenza, intensità, contesto e conseguenze sono dimensioni differenti. Un evento frequente ma transitorio e un evento raro ma grave non diventano confrontabili semplicemente contando quante voci occupano nella tabella.\n\nIl collegamento ai recettori aiuta a tenere insieme beneficio e limite della classe. La modulazione trigeminale è parte del razionale terapeutico; l’azione vascolare contribuisce a spiegare perché anamnesi e condizioni cardiovascolari siano rilevanti. Una formulazione più rapida o una molecola con un diverso profilo farmacocinetico non dimostrano, da sole, una maggiore sicurezza cardiovascolare. Quest’ultima richiede dati clinici e condizioni d’impiego specifiche.\n\nNel documento britannico delle compresse di sumatriptan, l’ipertensione moderata o grave e quella lieve non controllata sono controindicazioni; per la forma lieve controllata è prevista cautela. La distinzione impedisce di trasformare la parola «ipertensione» in un’unica regola indistinta. Il dolore o la costrizione toracica non devono essere automaticamente considerati innocui: se suggeriscono ischemia, il documento richiede di evitare ulteriori dosi e procedere a valutazione.\n\nAnche le interazioni richiedono categorie precise. Per quel prodotto, l’associazione con altri triptani, derivati dell’ergot o inibitori delle monoamino-ossidasi è controindicata; il possibile impiego insieme a SSRI o SNRI richiede invece un giudizio clinico e sorveglianza appropriata. Non tutte le combinazioni serotoninergiche sono dunque descritte con la stessa regola. Questi esempi insegnano a leggere la differenza fra controindicazione e precauzione: non costituiscono una lista completa né un piano per cambiare medicinali. Per applicarli servono le informazioni aggiornate del prodotto e il contesto individuale."
+    },
+    {
       "id": "cgrp",
       "title": "CGRP e gepanti: dal bersaglio all’indicazione del prodotto",
       "refs": [
@@ -123,6 +141,17 @@ export const THEORY_MIGRAINE = Object.freeze({
         "TOP-EMA"
       ],
       "text": "La prevenzione dell’emicrania comprende farmaci provenienti da famiglie farmacologiche diverse. Nelle diapositive compaiono, fra gli altri, beta-bloccanti e antiepilettici: l’origine della classe non descrive da sola la ragione del beneficio nell’emicrania. Un’indicazione può essere sostenuta da studi clinici anche quando il contributo esatto dei diversi effetti molecolari non è interamente chiarito.\n\nLe raccomandazioni NICE consultate discutono propranololo, topiramato e amitriptilina considerando benefici, rischi, comorbilità e preferenze. Questo non costituisce una graduatoria da applicare automaticamente in Italia né dimostra che tutte le opzioni siano intercambiabili. Autorizzazione, raccomandazione e condizioni di accesso sono informazioni differenti.\n\nIl topiramato mostra perché una lista di nomi sia insufficiente. Le misure europee vietano il suo impiego nella prevenzione dell’emicrania durante la gravidanza e prevedono specifiche condizioni del programma di prevenzione della gravidanza per chi può iniziarne una. Non si trasferiscono alla profilassi emicranica le eccezioni previste per altre indicazioni. La lezione generale è valutare la sicurezza del singolo farmaco nel contesto pertinente: appartenere a una classe efficace non elimina rischi specifici, e una sintesi didattica non può sostituire questa valutazione."
+    },
+    {
+      "id": "gravidanza-evidenze",
+      "title": "Gravidanza: leggere le evidenze oltre le vecchie lettere",
+      "refs": [
+        "CFI",
+        "FDA-PLLR",
+        "SUM-UK",
+        "NICE"
+      ],
+      "text": "Una vecchia categoria alfabetica non riassume adeguatamente ciò che si sa sull’impiego di un farmaco in gravidanza. Il sistema statunitense PLLR, entrato in vigore nel 2015 con un’adozione graduale, ha sostituito le categorie A, B, C, D e X nella documentazione dei medicinali soggetti alla regola con informazioni articolate su rischio, considerazioni cliniche e dati disponibili. La presenza di una lettera in materiale didattico storico va quindi riconosciuta come tale, non presentata come una valutazione regolatoria corrente.\n\nIl punto non è soltanto cambiare etichetta. Occorre distinguere un segnale di danno dall’assenza di segnali osservati e dalla scarsità di informazioni. I dati su esposizioni reali possono essere rassicuranti senza dimostrare rischio nullo; periodo della gravidanza, esito considerato e qualità della raccolta delle informazioni limitano ciò che si può concludere. Anche il rischio della condizione non trattata entra nel ragionamento, senza trasformare questa considerazione in una giustificazione automatica per qualsiasi terapia.\n\nPer sumatriptan, lo SmPC britannico descrive dati osservazionali iniziali senza un segnale di aumento delle malformazioni, ma insufficienti per conclusioni definitive, e subordina l’impiego al bilancio fra benefici materni e possibili rischi fetali. NICE, nel contesto britannico, considera il triptano un’opzione da discutere quando necessario per il trattamento acuto in gravidanza; per una prevenzione necessaria chiede consiglio specialistico. Questo confronto non sostiene né un divieto assoluto di tutta la classe né una dichiarazione generale di sicurezza.\n\nTrattare un attacco e impostare una prevenzione restano decisioni diverse, come mostra anche il caso del topiramato discusso nella sezione sulla profilassi. Non si trasferisce a un altro farmaco, a un’altra indicazione o all’allattamento una conclusione ottenuta in un contesto specifico. La sintesi didattica serve a riconoscere quali informazioni mancano e quali domande porre; le fonti statunitensi e britanniche qui confrontate non sostituiscono il RCP applicabile in Italia."
     },
     {
       "id": "analgesici",
@@ -211,6 +240,18 @@ export const THEORY_MIGRAINE = Object.freeze({
     {
       "question": "Una differenza media di CGRP fra gruppi costituisce già un test per la singola persona?",
       "answer": "No. Servono prestazioni diagnostiche definite e validate; associazione biologica e utilità clinica sono domande differenti."
+    },
+    {
+      "question": "Tmax ed esordio del sollievo indicano lo stesso momento?",
+      "answer": "No. Il primo descrive il picco della concentrazione; il secondo richiede un esito clinico definito. Anche emivita e durata del beneficio vanno distinte."
+    },
+    {
+      "question": "Un profilo farmacocinetico più rapido dimostra una maggiore sicurezza cardiovascolare?",
+      "answer": "No. È una proprietà dell’esposizione, non la prova di minori eventi clinici. Controindicazioni e precauzioni restano da valutare per il prodotto e la persona."
+    },
+    {
+      "question": "L’assenza di un segnale osservato in gravidanza equivale a rischio nullo?",
+      "answer": "No. Numerosità, periodo di esposizione, esiti e qualità delle informazioni delimitano la conclusione. Il giudizio richiede il bilancio fra benefici e rischi nel contesto pertinente."
     }
   ],
   "relatedExistingChapterIds": [
@@ -262,7 +303,7 @@ export const THEORY_MIGRAINE = Object.freeze({
     {
       "id": "CFI",
       "title": "Diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 514–525, etichette interne 512–523: testo disponibile e immagini controllati. Cinque nuove pagine (521–525) in questo lotto. Pannelli coperti nella 523 e titolo parzialmente coperto nella 525 non ricostruiti. Discordanze di pannelli e unità nella 522: nessun dato quantitativo trasferito. Articoli citati non letti integralmente."
+      "detail": "PDF 514–530, etichette interne 512–528: testo disponibile e immagini controllati; cinque nuove pagine 526–530. Ritaglio e nota assente nella tabella 527; edizione delle tabelle 526–527 non identificata. Restano discordanze di pannelli/unità nella 522 e coperture parziali nelle 523 e 525. Nessun valore, dose o figura trasferito; articoli citati non letti integralmente."
     },
     {
       "id": "ICHD-1",
@@ -310,7 +351,7 @@ export const THEORY_MIGRAINE = Object.freeze({
       "id": "NICE",
       "title": "NICE CG150 · Cefalee oltre i 12 anni",
       "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
-      "detail": "Raccomandazioni 1.3.10–1.3.33 e 1.3.42–1.3.48 lette nella pagina corrente il 28/10/2026. Contesto britannico; nessun protocollo, dosaggio o criterio di rimborso italiano derivato."
+      "detail": "Raccomandazioni 1.3.10–1.3.33 e 1.3.42–1.3.48 lette nella pagina corrente il 28/10/2026. Contesto britannico; nessun protocollo, dosaggio o criterio di rimborso italiano derivato. Il 30/10/2026 ricontrollate 1.3.32–1.3.33 negli estratti indicizzati del documento ufficiale corrente (PDF pp. 17–18); accesso diretto alla pagina e al PDF non riuscito (403)."
     },
     {
       "id": "RIM-EMA",
@@ -334,7 +375,7 @@ export const THEORY_MIGRAINE = Object.freeze({
       "id": "SUM-UK",
       "title": "Sumatriptan compresse · SmPC britannico",
       "url": "https://www.medicines.org.uk/emc/product/525/smpc",
-      "detail": "Documento aggiornato il 17/06/2026, consultato il 28/10/2026: indicazione e precauzioni/controindicazioni selezionate in 4.1, 4.3–4.4. Non un RCP italiano."
+      "detail": "Documento aggiornato il 17/06/2026, consultato il 28/10/2026: indicazione e precauzioni/controindicazioni selezionate in 4.1, 4.3–4.4. Non un RCP italiano. Nuova lettura selettiva il 30/10/2026: 4.2–4.6 e parte di 4.8, per distinguere controindicazioni, precauzioni e limiti dei dati in gravidanza. Non intero documento."
     },
     {
       "id": "NIH",
@@ -371,8 +412,20 @@ export const THEORY_MIGRAINE = Object.freeze({
       "title": "Neurology 2023 · CGRP e contesti ormonali nell’emicrania",
       "url": "https://pubmed.ncbi.nlm.nih.gov/36813730/",
       "detail": "PMID 36813730, DOI 10.1212/WNL.0000000000207114. Abstract letto il 28/10/2026; non articolo completo. Discordanze di pannelli e unità nelle diapositive: nessun valore numerico o soglia trasferito."
+    },
+    {
+      "id": "SUM-SC-UK",
+      "title": "Sumatriptan sottocutaneo · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/607/smpc",
+      "detail": "Consultazione selettiva il 30/10/2026: risposta clinica e rilevanza della via alla fine di 5.1; farmacocinetica in 5.2. Documento aggiornato il 15/09/2025. Nessun valore quantitativo o dose trasferito; non RCP italiano."
+    },
+    {
+      "id": "FDA-PLLR",
+      "title": "FDA · Pregnancy and Lactation Labeling Resources",
+      "url": "https://www.fda.gov/drugs/labeling-information-drug-products/pregnancy-and-lactation-labeling-resources",
+      "detail": "Testo introduttivo su categorie, contenuti delle sezioni e decorrenza del PLLR letto il 30/10/2026. Non lettura del testo integrale della norma o delle presentazioni collegate."
     }
   ],
-  "coverage": "Stesura estesa sui fondamenti dell’emicrania, con approfondimenti su complessi recettoriali, anticorpi, selettività serotoninergica e interpretazione delle misure di CGRP. Dodici pagine delle diapositive lette e controllate, cinque nuove in questo lotto. Un abstract di ricerca e passaggi selezionati di una revisione farmacologica consultati; non i relativi articoli interi. Restano i corrispondenti intervalli dei libri e degli appunti, ulteriori classi e popolazioni speciali. Consultazioni ufficiali selettive: controllo editoriale mirato, non revisione clinica indipendente.",
-  "wordCount": 2788
+  "coverage": "Stesura estesa con approfondimenti su circuiti, bersagli, interpretazione delle evidenze, farmacocinetica dei triptani e sicurezza. Diciassette pagine delle diapositive lette e controllate, cinque nuove in questo lotto. Tabelle parziali e categorie storiche riconciliate senza trasferire dosi o figure. Restano i corrispondenti intervalli dei libri e degli appunti, ulteriori classi e popolazioni speciali. Consultazioni ufficiali selettive: controllo editoriale mirato, non revisione clinica indipendente.",
+  "wordCount": 3627
 });
