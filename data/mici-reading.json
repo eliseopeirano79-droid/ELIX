@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-course-546-550",
+  "batch": "theory-course-551-555",
   "chapterId": "malattie-infiammatorie-intestinali",
-  "updatedAt": "2026-10-30T16:39:56.062782+00:00",
+  "updatedAt": "2026-10-30T17:27:30.539472+00:00",
   "status": "editorial_reconciled_locally_verified_pending_publication",
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -20,7 +20,12 @@
         547,
         548,
         549,
-        550
+        550,
+        551,
+        552,
+        553,
+        554,
+        555
       ],
       "visuallyCheckedPdfPages": [
         544,
@@ -29,18 +34,28 @@
         547,
         548,
         549,
-        550
+        550,
+        551,
+        552,
+        553,
+        554,
+        555
       ],
       "newlyReadTextPages": [
+        551,
+        552,
+        553,
+        554,
+        555
+      ],
+      "reusedPreviouslyReadPages": [
+        544,
+        545,
         546,
         547,
         548,
         549,
         550
-      ],
-      "reusedPreviouslyReadPages": [
-        544,
-        545
       ],
       "internalLabels": [
         542,
@@ -49,10 +64,34 @@
         545,
         546,
         547,
-        548
+        548,
+        549,
+        550,
+        551,
+        552,
+        553
       ],
       "sourceUnchanged": true,
-      "allContentsRead": false
+      "allContentsRead": false,
+      "integratedPdfPages": [
+        544,
+        545,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        555
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "imageOnlyPagesReadVisually": [
+        552,
+        553
+      ]
     },
     {
       "id": "KAT",
@@ -64,29 +103,42 @@
         1278,
         1279,
         1280,
-        1281
+        1281,
+        1282
       ],
       "visuallyCheckedPdfPages": [
         1278,
         1279,
         1280,
-        1281
+        1281,
+        1282
       ],
       "newlyReadTextPages": [
+        1282
+      ],
+      "reusedPreviouslyReadPages": [
         1278,
         1279,
         1280,
         1281
       ],
-      "reusedPreviouslyReadPages": [],
       "internalLabels": [
         1258,
         1259,
         1260,
-        1261
+        1261,
+        1262
       ],
       "sourceUnchanged": true,
-      "allContentsRead": false
+      "allContentsRead": false,
+      "integratedPdfPages": [
+        1278,
+        1279,
+        1280,
+        1281,
+        1282
+      ],
+      "readButNotIntegratedPdfPages": []
     },
     {
       "id": "RAN",
@@ -96,20 +148,31 @@
       "pageCount": 1102,
       "pdfPagesRead": [
         592,
-        593
+        593,
+        594
       ],
       "visuallyCheckedPdfPages": [
         592,
-        593
+        593,
+        594
       ],
       "newlyReadTextPages": [
+        594
+      ],
+      "reusedPreviouslyReadPages": [
         592,
         593
       ],
-      "reusedPreviouslyReadPages": [],
       "internalLabels": [],
       "sourceUnchanged": true,
-      "allContentsRead": false
+      "allContentsRead": false,
+      "integratedPdfPages": [
+        592,
+        593
+      ],
+      "readButNotIntegratedPdfPages": [
+        594
+      ]
     },
     {
       "id": "APP",
@@ -119,33 +182,45 @@
       "pageCount": 344,
       "pdfPagesRead": [
         283,
-        284
+        284,
+        285
       ],
       "visuallyCheckedPdfPages": [
         283,
-        284
+        284,
+        285
       ],
       "newlyReadTextPages": [
+        285
+      ],
+      "reusedPreviouslyReadPages": [
         283,
         284
       ],
-      "reusedPreviouslyReadPages": [],
       "internalLabels": [
         278,
-        279
+        279,
+        280
       ],
       "sourceUnchanged": true,
-      "allContentsRead": false
+      "allContentsRead": false,
+      "integratedPdfPages": [
+        283,
+        284
+      ],
+      "readButNotIntegratedPdfPages": [
+        285
+      ]
     }
   ],
-  "newReadPdfPages": 13,
-  "totalReadPdfPages": 15,
-  "currentBatchVisualPages": 13,
+  "newReadPdfPages": 8,
+  "totalReadPdfPages": 23,
+  "currentBatchVisualPages": 8,
   "newIdentities": 0,
   "newDrugSummaries": 0,
   "newPKProfiles": 0,
-  "expandedExistingChapters": 0,
-  "newChapters": 1,
+  "expandedExistingChapters": 1,
+  "newChapters": 0,
   "officialSources": [
     {
       "id": "MES-UK",
@@ -163,7 +238,7 @@
       "id": "BSG",
       "title": "BSG 2025 · Linee guida sulle MICI nell’adulto",
       "url": "https://gut.bmj.com/content/74/Suppl_2/s1",
-      "detail": "DOI 10.1136/gutjnl-2024-334395. Estratti indicizzati ufficiali su 5-ASA, obiettivi e strategia nel Crohn letti il 30/10/2026; pagina diretta 403. Non documento completo."
+      "detail": "DOI 10.1136/gutjnl-2024-334395. Estratti indicizzati ufficiali su 5-ASA, obiettivi e strategia nel Crohn letti il 30/10/2026; pagina diretta 403. Non documento completo. Ricontrollati gli estratti ufficiali su corticosteroidi e budesonide il 30/10/2026; nessuna lettura integrale."
     },
     {
       "id": "ECCO-UC",
@@ -194,19 +269,56 @@
       "title": "NIDDK · Sindrome dell’intestino irritabile",
       "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/definition-facts",
       "detail": "Distinzione dal danno infiammatorio visibile negli estratti ufficiali consultati il 30/10/2026."
+    },
+    {
+      "id": "BUD-CR-UK",
+      "title": "Entocort CR · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/872/smpc",
+      "detail": "Aggiornamento 05/02/2024. Lettura selettiva 4.1–4.2, 4.4, passaggi 5.1 e 5.2 il 30/10/2026. Non RCP italiano."
+    },
+    {
+      "id": "BUD-MMX-UK",
+      "title": "Cortiment · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/1895/smpc",
+      "detail": "Aggiornamento 30/12/2020. Lettura selettiva 4.1–4.2, 4.4–4.5, meccanismo e formulazione in 5.1, 5.2 il 30/10/2026. Non RCP italiano."
+    },
+    {
+      "id": "ACG-UC",
+      "title": "ACG 2025 · Sintesi ufficiale sulla colite ulcerosa",
+      "url": "https://gi.org/journals-publications/ebgi/alkazzi_aug2025/",
+      "detail": "Consultate selettivamente le raccomandazioni 20–22 e 28–38 nella sintesi il 30/10/2026; integrate qui 20–22 sui corticosteroidi. Non intera linea guida."
+    },
+    {
+      "id": "ACG-CD",
+      "title": "ACG 2025 · Sintesi ufficiale sulla malattia di Crohn",
+      "url": "https://gi.org/journals-publications/ebgi/zhai_dalal_sep2025/",
+      "detail": "Sintesi del 17/09/2025; letti i passaggi sulle forme lievi/moderate e moderate/severe il 30/10/2026. Non intera linea guida."
+    },
+    {
+      "id": "ESE-HPA",
+      "title": "ESE / Endocrine Society 2024 · Insufficienza surrenalica da glucocorticoidi",
+      "url": "https://www.endocrine.org/clinical-practice-guidelines/glucocorticoid-induced-adrenal-insufficiency",
+      "detail": "Pagina ufficiale 13/05/2024: Essential Points e raccomandazioni R2.1–R2.7 consultati il 30/10/2026. Non intero documento né schema individuale di sospensione."
+    },
+    {
+      "id": "GR-NCBI",
+      "title": "NCBI Gene · NR3C1",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2908",
+      "detail": "Solo riepilogo ufficiale indicizzato del gene letto il 30/10/2026; pagina diretta bloccata da verifica automatica. Non lettura completa della scheda."
     }
   ],
   "limits": [
-    "Deduplicazione dei registri disponibili per hash e pagine; non censimento completo del corpus.",
-    "Figure 2023 con citazione incompleta e studi citati nelle diapositive non letti negli originali. Tabella PDF 547 senza edizione identificabile; nessuna figura ripubblicata.",
-    "Katzung PDF 1281 prosegue nella 1282 non letta. Altri argomenti ai margini delle pagine letti ma non integrati. Rang & Dale: paginazione editoriale non ricostruita.",
-    "Appunti: figura PDF 283 ritagliata, figure ripetute rispetto alle altre fonti; non nuova evidenza indipendente.",
-    "SmPC britannici distinti dai RCP italiani. Linee guida consultate soltanto nei passaggi ufficiali indicizzati dichiarati, accessi diretti non disponibili.",
+    "Deduplicazione di 44 registri disponibili per hash e pagine; non censimento completo del corpus.",
+    "CFI 551 e 553 ripetono figure del Katzung già controllate; CFI 552 quasi solo immagine, fonte grafica identificata ma edizione non nota. Nessuna figura ripubblicata.",
+    "Tabelle CFI 554–555 senza edizione identificata, con sovrapposizioni e presentazioni storiche non riconciliate. Nessuna dose, equivalenza o indicazione italiana ricavata dalle tabelle.",
+    "Katzung 1282 letta interamente ma parte sulle purine non integrata; frase finale continua nella 1283 non letta. Rang & Dale 594 e appunti 285 letti e controllati ma esclusi da questo ampliamento.",
+    "Rang & Dale: paginazione editoriale non identificata; bibliografia non equivale a lettura degli articoli. Appunti: figure ripetute o ritagliate; affermazioni su immunosoppressori e biologici ancora da riconciliare.",
+    "SmPC britannici distinti dai RCP italiani. ACG ed ESE consultati nelle sintesi ufficiali e nei passaggi dichiarati; BSG e NCBI soltanto nei riepiloghi ufficiali indicizzati. Non lettura integrale delle linee guida.",
     "Farmacologia II e ulteriori fonti autorizzate non lette per questo tema. Terapie avanzate, profili mancanti e laboratori rimangono nel backlog.",
     "Controllo editoriale del solo integratore; nessuna revisione clinica indipendente.",
     "Verifiche browser con Chromium e dimensioni simulate; non dispositivi fisici."
   ],
-  "nextInterval": "Prima completare verifica e pubblicazione di questo lotto. Poi un solo intervallo PDF 551–555 del corso con libri e appunti pertinenti, dopo deduplicazione.",
+  "nextInterval": "Completare prima verifica e pubblicazione del lotto corrente. Poi PDF 556–560 delle diapositive del corso, con i passaggi pertinenti dei libri e degli appunti dopo deduplicazione; le pagine già lette ma non integrate non vanno ricontate.",
   "conflictsAndReconciliation": [
     {
       "source": "CFI 549; RAN 593; APP 284",
@@ -247,21 +359,59 @@
       "source": "CFI 545",
       "issue": "Distribuzione della colite e reperti tipici presentati rigidamente",
       "resolution": "Riformulazione della distribuzione; nessun reperto istologico assunto come universale."
+    },
+    {
+      "source": "CFI 551–553; KAT 1280–1281",
+      "issue": "Schemi ripetuti e migliore tollerabilità generalizzata",
+      "resolution": "Schemi di rilascio qualitativi; nessuna nuova prova indipendente o assenza di rischio. Olsalazina e diarrea distinte."
+    },
+    {
+      "source": "CFI 554–555; APP 284; KAT 1281–1282",
+      "issue": "Azione locale confusa con scarso assorbimento; tabelle storiche",
+      "resolution": "Separati rilascio, assorbimento, primo passaggio e biodisponibilità. Dosi e formulazioni storiche non trasferite."
+    },
+    {
+      "source": "KAT 1282; RAN 593; BUD-CR-UK; ACG-UC; ACG-CD",
+      "issue": "Fase terapeutica e indicazione generalizzate",
+      "resolution": "Induzione e mantenimento distinti per Crohn e colite ulcerosa; mantenimento nella colite microscopica citato come condizione diversa."
+    },
+    {
+      "source": "BSG; ACG-CD; SAS-UK",
+      "issue": "Raccomandazioni non uniformi sulla sulfasalazina nel Crohn",
+      "resolution": "Eccezione ACG per Crohn colico lieve registrata accanto alla posizione BSG e all’indicazione autorizzata britannica; nessuna estensione alla mesalazina."
+    },
+    {
+      "source": "BUD-CR-UK; BUD-MMX-UK; ESE-HPA",
+      "issue": "Locale interpretato come assenza di effetti sistemici o sospensione universale",
+      "resolution": "Esposizione residua, CYP3A4, funzione epatica e asse surrenalico esplicitati; nessuno schema di riduzione individuale."
+    },
+    {
+      "source": "RAN 594; APP 285",
+      "issue": "Argomenti diversi o successivi",
+      "resolution": "Pagine lette ma escluse. Affermazioni su immunosoppressori, struttura dei biologici e sicurezza restano da confrontare nel prossimo ambito pertinente."
     }
   ],
   "deduplication": {
     "newCFIPages": [
+      551,
+      552,
+      553,
+      554,
+      555
+    ],
+    "overlap": [],
+    "reusedCFIPages": [
+      544,
+      545,
       546,
       547,
       548,
       549,
       550
     ],
-    "overlap": [],
-    "reusedCFIPages": [
-      544,
-      545
-    ],
+    "recordsChecked": 44,
     "scope": "Available reading ledgers by source hash and page; not complete corpus audit."
-  }
+  },
+  "newIntegratedPdfPages": 6,
+  "chapterSourcePdfPages": 21
 }
