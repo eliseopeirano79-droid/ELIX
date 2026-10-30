@@ -2,8 +2,8 @@
 export const THEORY_IBD = Object.freeze({
   "id": "malattie-infiammatorie-intestinali",
   "volume": 11,
-  "title": "Malattie infiammatorie intestinali: barriera, aminosalicilati e glucocorticoidi",
-  "lead": "Dalla barriera intestinale al recettore dei glucocorticoidi: collegare sede di malattia, rilascio del farmaco, primo passaggio e obiettivo terapeutico.",
+  "title": "Malattie infiammatorie intestinali: barriera e controllo farmacologico dell’infiammazione",
+  "lead": "Aminosalicilati, glucocorticoidi e immunomodulatori: collegare sede di malattia, metabolismo, segnali cellulari e tempi della risposta.",
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-10-30",
@@ -188,6 +188,103 @@ export const THEORY_IBD = Object.freeze({
       "text": "Un metabolismo presistemico intenso riduce l’esposizione, ma lascia una quota di farmaco attivo capace di produrre effetti al di fuori dell’intestino. Per la budesonide restano possibili effetti sistemici dei glucocorticoidi, compresa la soppressione dell’asse ipotalamo–ipofisi–surrene. Il rischio dipende dall’esposizione e dal contesto: “locale” non significa automaticamente innocuo, così come un rischio di classe non significa che ogni preparazione abbia lo stesso profilo.\n\nIl collegamento a CYP3A4 rende comprensibili alcune interazioni. Farmaci che ne inibiscono l’attività possono aumentare l’esposizione alla budesonide; una ridotta funzione epatica può limitarne l’eliminazione. La formulazione continua a svolgere il proprio ruolo di rilascio, ma cambia il destino della molecola dopo l’assorbimento. Le schede di prodotto richiamano queste condizioni perché possono ridurre il vantaggio atteso dal primo passaggio. Non è possibile ricavare dal solo schema una correzione individuale della dose.\n\nUn secondo problema riguarda la fine del trattamento. La guida congiunta ESE ed Endocrine Society del 2024 distingue durata, dose, potenza, via e suscettibilità individuale nel valutare il rischio di insufficienza surrenalica. Non tutti i cicli richiedono lo stesso percorso di sospensione. Nelle esposizioni prolungate, riduzione del glucocorticoide, controllo della malattia e recupero dell’asse endocrino vanno considerati insieme. Una ricomparsa di sintomi può riflettere attività intestinale, sindrome da sospensione o insufficienza surrenalica: la somiglianza dei disturbi non ne rende identica la causa. Il capitolo spiega i problemi da distinguere, senza proporre un calendario autonomo di riduzione."
     },
     {
+      "id": "tiopurine-metabolismo",
+      "title": "Tiopurine: dal profarmaco ai nucleotidi intracellulari",
+      "refs": [
+        "CFI",
+        "KAT",
+        "FII-S",
+        "FII-A",
+        "CPIC"
+      ],
+      "text": "Azatioprina e mercaptopurina appartengono agli antimetaboliti purinici. L’azatioprina fornisce mercaptopurina, che attraversa una rete di trasformazioni intracellulari: alcuni prodotti interferiscono con la sintesi delle purine, altri diventano nucleotidi tioguaninici capaci di partecipare ai processi degli acidi nucleici. Dire che il farmaco “si sostituisce a una purina” è un primo orientamento; per capire effetto e tossicità bisogna seguire l’attivazione metabolica, senza attribuire al composto iniziale ogni azione dei suoi derivati.\n\nLe vie non costituiscono una catena unica. La xantina ossidasi contribuisce al catabolismo della mercaptopurina; TPMT interviene nella metilazione, ma non tutti i prodotti metilati sono farmacologicamente inerti. La mappa del corso e il confronto con CPIC aiutano a distinguere una via che riduce il substrato disponibile per i nucleotidi attivi da metaboliti metilati che possono a loro volta avere attività. Un disegno con due frecce, “attivazione” e “inattivazione”, resta quindi una semplificazione.\n\nLa proliferazione dei linfociti richiede sintesi di nuovi componenti cellulari. Alterare queste disponibilità può contenere la risposta immunitaria, coinvolgendo cellule T e B; non rende però il farmaco esclusivo della mucosa intestinale. L’esposizione di altre cellule, soprattutto di quelle in proliferazione, spiega perché l’effetto desiderato e la tossicità ematologica debbano essere studiati insieme. Il collegamento ai profarmaci riguarda una trasformazione chimica reale, diversa dal semplice rilascio di una formulazione."
+    },
+    {
+      "id": "tiopurine-tempo",
+      "title": "La latenza separa controllo dell’attività e mantenimento",
+      "refs": [
+        "CFI",
+        "KAT",
+        "RAN",
+        "FII-A",
+        "AZA-UK",
+        "ACG-UC"
+      ],
+      "text": "L’eliminazione dal plasma del composto iniziale e la durata dei processi intracellulari non coincidono. Anche la comparsa di un beneficio clinico richiede un tempo diverso da quello necessario per rilevare il farmaco nel sangue. Le tiopurine sono un esempio utile: seguire soltanto l’emivita della mercaptopurina non permette di prevedere quando cambierà l’andamento di una malattia infiammatoria.\n\nIl materiale del corso propone una latenza breve in settimane, mentre il Katzung descrive tempi più lunghi. Lo SmPC dell’azatioprina consultato indica che la risposta può richiedere settimane o mesi. La sintesi didattica deve conservare questa variabilità, senza trasformare un numero della diapositiva in una scadenza entro cui giudicare autonomamente successo o fallimento. In particolare, un trattamento lento non diventa una soluzione immediata per una riacutizzazione soltanto perché è definito immunosoppressore.\n\nNella colite ulcerosa moderata o grave, ACG 2025 esclude la monoterapia con tiopurine dall’induzione e ne distingue l’eventuale ruolo nel mantenimento dopo una remissione indotta dai corticosteroidi. L’obiettivo di risparmiare corticosteroidi significa sostenere il controllo della malattia riducendone l’esposizione prolungata; non equivale a una sostituzione automatica durante una crisi. Inoltre, indicazione autorizzata, raccomandazione di una società scientifica e scelta del singolo paziente sono livelli differenti. L’impiego degli immunomodulatori accanto alle terapie avanzate richiede un confronto specifico e non è deducibile dalla sola latenza."
+    },
+    {
+      "id": "tiopurine-controlli",
+      "title": "TPMT, NUDT15 e interazioni: il metabolismo cambia il rischio",
+      "refs": [
+        "KAT",
+        "CFI",
+        "CPIC",
+        "AZA-UK"
+      ],
+      "text": "Una stessa quantità somministrata non garantisce la stessa esposizione ai metaboliti attivi. Varianti che riducono la funzione di TPMT o di NUDT15 possono aumentare la suscettibilità alla mielotossicità delle tiopurine. I due sistemi hanno compiti diversi: TPMT interviene nella metilazione; NUDT15 limita la disponibilità di nucleotidi tioguaninici trifosfato per l’incorporazione negli acidi nucleici. La loro ridotta attività non va quindi descritta come un generico “fegato lento”.\n\nL’aggiornamento CPIC denominato 2025, pubblicato nel 2026, considera anche le combinazioni dei due geni. Il suo scopo è aiutare a interpretare un risultato genetico per l’impiego delle tiopurine; non stabilisce da solo se ordinare il test né sostituisce l’intero percorso clinico. Qui il collegamento alla farmacogenomica serve a comprendere il nesso variante–funzione–esposizione–rischio, senza fornire una tabella di dosi individuali.\n\nEsiste anche una modifica acquisita del metabolismo: l’allopurinolo inibisce la xantina ossidasi e può aumentare la tossicità dell’associazione con azatioprina o mercaptopurina. Eventuali associazioni intenzionali appartengono a protocolli specialistici con adattamento e controllo, non alla normale aggiunta di un farmaco indipendente. Né una previsione genetica favorevole né l’assenza di questa interazione eliminano il bisogno di controllare emocromo e funzione epatica. Non tutte le reazioni, per esempio l’ipersensibilità, sono spiegate dallo stesso meccanismo metabolico."
+    },
+    {
+      "id": "calcineurina-il2",
+      "title": "Ciclosporina: bloccare un segnale prima della produzione di IL-2",
+      "refs": [
+        "CFI",
+        "APP",
+        "FII-S",
+        "FII-A"
+      ],
+      "text": "L’attivazione del recettore delle cellule T avvia segnali intracellulari nei quali partecipa il calcio. La calcineurina è una fosfatasi dipendente da calcio e calmodulina: rimuove gruppi fosfato da componenti della famiglia NFAT, favorendone il passaggio al nucleo. NFAT contribuisce alla trascrizione di geni della risposta immunitaria, fra cui quello dell’interleuchina-2. La sequenza collega un riconoscimento alla superficie cellulare con un cambiamento nella produzione di mediatori.\n\nLa ciclosporina si lega alla ciclofillina, una proteina intracellulare della famiglia delle immunofilline. È il complesso farmaco–proteina a inibire la calcineurina. NFAT resta meno disponibile per il programma trascrizionale e si riduce la produzione di IL-2. Il farmaco agisce quindi prima della secrezione del mediatore: non è un anticorpo che neutralizza IL-2 già presente e non è un antagonista diretto del suo recettore. Il termine “proteina plasmatica” presente in una diapositiva non descrive la sede di questo passaggio, che è intracellulare.\n\nTacrolimus offre un confronto di meccanismo: si lega a FKBP, ma il complesso converge anch’esso sulla calcineurina. Il complesso sirolimus–FKBP interviene invece su mTOR, a valle di segnali di crescita. Condividere una proteina legante non impone dunque lo stesso bersaglio finale. Questa distinzione chiarisce la mappa; non trasferisce fra i tre farmaci indicazioni o equivalenze terapeutiche.",
+      "formula": "TCR → segnale Ca²⁺/calmodulina → calcineurina → NFAT defosforilato → nucleo → produzione di IL-2.\nCiclosporina + ciclofillina ⊣ calcineurina.\nSchema originale e qualitativo: rappresenta un asse selezionato, non tutti i segnali della cellula T."
+    },
+    {
+      "id": "ciclosporina-contesto",
+      "title": "Un bersaglio selettivo non elimina la tossicità sistemica",
+      "refs": [
+        "CFI",
+        "APP",
+        "FII-S",
+        "FII-A",
+        "CSA-UK",
+        "ACG-UC"
+      ],
+      "text": "La selettività per un passaggio della risposta linfocitaria non coincide con una distribuzione esclusiva nelle cellule che si desidera controllare. La ciclosporina conserva un profilo di esposizione sistemica e una tossicità renale caratteristica. Il confronto fra meccanismo e rischio impedisce di ordinare gli immunosoppressori con una sola scala, dalla molecola “aspecifica e pericolosa” a quella “selettiva e sicura”.\n\nLo SmPC consultato richiede attenzione a funzione renale, pressione arteriosa e interazioni. Il monitoraggio della concentrazione, interpretato secondo il contesto, non sostituisce la valutazione clinica e gli altri esami; non esiste qui un valore bersaglio universale da applicare a ogni indicazione. Il materiale del corso richiama CYP3A4: una variazione dell’esposizione dovuta ad altri medicinali può spostare il bilancio fra effetto e tossicità. Anche infezioni e complicanze dell’immunosoppressione restano rilevanti; la selettività molecolare non ne dimostra l’assenza.\n\nNelle MICI il contesto è particolarmente importante. ACG 2025 colloca la ciclosporina fra le opzioni di salvataggio della colite ulcerosa acuta grave che non risponde adeguatamente ai corticosteroidi endovenosi, in ambiente specialistico. Un impiego di salvataggio richiede poi una strategia per mantenere la remissione: non equivale a scegliere la ciclosporina come mantenimento indefinito. Questa collocazione non va estesa a qualunque Crohn o colite soltanto perché un elenco storico riunisce tutti i farmaci sotto la voce MICI."
+    },
+    {
+      "id": "metotrexato-meccanismo",
+      "title": "Metotrexato: l’antifolato e la risposta antinfiammatoria",
+      "refs": [
+        "CFI",
+        "KAT",
+        "APP",
+        "FII-S",
+        "FII-A",
+        "MTX-UK"
+      ],
+      "text": "Il metotrexato è un antimetabolita legato alla via dei folati. L’inibizione della diidrofolato reduttasi interferisce con la disponibilità di folati ridotti necessari a processi biosintetici, fra cui quelli che sostengono la produzione di nucleotidi. Questo rende comprensibile l’attività antiproliferativa, ma descrivere ogni effetto antinfiammatorio come semplice blocco della sintesi del DNA lascia fuori parte del problema.\n\nIl Katzung distingue il contesto delle alte esposizioni antineoplastiche da quello delle basse dosi nelle malattie infiammatorie. Nella cellula si formano derivati poliglutammati e si modificano più passaggi metabolici; fra i meccanismi proposti rientra l’aumento della disponibilità extracellulare di adenosina, un segnale che può modulare la risposta infiammatoria. La figura del corso mostra infatti un ramo relativo all’adenosina oltre alla via dei folati. Una didascalia centrata su un solo enzima non esaurisce lo schema.\n\nIl peso relativo dei diversi meccanismi nell’efficacia clinica resta incompletamente definito, come riconosce lo SmPC. Non occorre scegliere una spiegazione unica per rendere ordinato il capitolo: occorre distinguere ciò che il farmaco fa sul piano biochimico da quanto ciascun passaggio contribuisce al risultato nell’essere umano. Anche “bassa dose” è un’espressione riferita al contesto; non indica che le cellule ematopoietiche o le mucose siano protette da ogni effetto avverso."
+    },
+    {
+      "id": "metotrexato-contesto",
+      "title": "Malattia, via e raccomandazione cambiano il confronto",
+      "refs": [
+        "KAT",
+        "RAN",
+        "ACG-UC",
+        "AGA-CD",
+        "BSG",
+        "MTX-UK"
+      ],
+      "text": "Il nome metotrexato non identifica da solo una strategia per tutte le MICI. La via di somministrazione, la popolazione studiata, il trattamento precedente e l’obiettivo sono parte della domanda. Trasferire un risultato ottenuto per via parenterale alla via orale, o dal Crohn alla colite ulcerosa, richiede prove ulteriori: la stessa molecola non rende identici né l’esposizione né il contesto clinico.\n\nLe fonti attuali consultate mostrano anche differenze reali. AGA 2025 suggerisce il metotrexato sottocutaneo o intramuscolare in monoterapia rispetto a nessun trattamento in adulti ambulatoriali con Crohn moderato o grave. BSG 2025 non ne suggerisce la monoterapia per induzione e mantenimento nello stesso ampio ambito di malattia. Questa divergenza va conservata, non appianata scegliendo il documento che meglio conferma un elenco del corso. Le raccomandazioni dipendono da valutazione delle prove, alternative e contesto; il capitolo non risolve il disaccordo con un algoritmo individuale.\n\nPer la colite ulcerosa, ACG 2025 distingue invece il mancato ruolo del metotrexato in monoterapia per indurre remissione e nel mantenimento. Sul piano della sicurezza restano possibili disturbi gastrointestinali, mielosoppressione e danno epatico o polmonare anche nell’uso antinfiammatorio: l’idea che le basse dosi escludano nausea o tossicità midollare è fuorviante. Funzione renale, interazioni e monitoraggio contribuiscono alla valutazione dell’esposizione e del rischio, senza rendere una sintesi didattica una prescrizione."
+    },
+    {
+      "id": "metotrexato-settimana",
+      "title": "La frequenza di assunzione è parte essenziale della sicurezza",
+      "refs": [
+        "CFI",
+        "EMA-MTX",
+        "MTX-UK"
+      ],
+      "text": "Un errore di intervallo può trasformare radicalmente l’esposizione anche quando il nome del medicinale e la quantità della singola somministrazione sono corretti. Il metotrexato impiegato nelle malattie infiammatorie segue una somministrazione settimanale; confondere “una volta alla settimana” con “una volta al giorno” può produrre un sovradosaggio grave. Non è un dettaglio amministrativo della ricetta: è parte della farmacologia del trattamento.\n\nLa comunicazione EMA del 2019, richiamata nelle diapositive, nasce da errori con conseguenze anche fatali. Le misure comprendono indicazioni visibili, materiali educativi e una verifica della comprensione del calendario. Il punto didattico è rendere espliciti frequenza e giorno concordato, evitando istruzioni ambigue nei passaggi fra prescrizione, dispensazione e uso. La frequenza non va ricostruita per analogia con altri farmaci assunti quotidianamente.\n\nI protocolli oncologici possono avere calendari diversi: questa variabilità non autorizza a importarne la frequenza nell’uso antinfiammatorio, né consente di descrivere tutti i trattamenti oncologici come quotidiani. Un calendario coerente con l’indicazione riduce una specifica fonte di errore ma non annulla gli altri rischi del metotrexato. Per lo studio bisogna perciò tenere insieme molecola, via, intervallo e contesto, anziché memorizzare il solo nome della classe."
+    },
+    {
       "id": "microbiota-e-limiti",
       "title": "Dal modello biologico alla prova terapeutica",
       "refs": [
@@ -195,7 +292,7 @@ export const THEORY_IBD = Object.freeze({
         "APP",
         "AGA-FMT"
       ],
-      "text": "Il microbiota compare due volte in questo capitolo, con significati distinti. Come componente dell’ecosistema intestinale partecipa alle interazioni con barriera e immunità. Come fonte di enzimi può scindere il legame azoico di un medicinale. Il secondo fenomeno è un meccanismo di attivazione farmacologica; non dimostra che il farmaco curi la malattia “normalizzando” l’intera comunità microbica.\n\nAnalogamente, associare disbiosi e infiammazione non autorizza a raccomandare genericamente probiotici, integratori o trasferimento di microbiota. AGA 2024 suggerisce contro il trapianto convenzionale di microbiota fecale per trattare colite ulcerosa o Crohn al di fuori degli studi clinici; distingue questo uso dalla prevenzione delle recidive di infezione da C. difficile in pazienti selezionati. Il nome dell’intervento non basta: conta la condizione che si vuole trattare.\n\nLa lettura svolta copre un’introduzione alle MICI, agli aminosalicilati e ai glucocorticoidi. Immunosoppressori, terapie biologiche e piccole molecole richiedono ulteriori intervalli di lettura e una valutazione dedicata di indicazioni, rischi e confronti. I collegamenti presenti permettono di ripassare i principi molecolari e consultare identità già catalogate; non attestano che ogni scheda sia stata riesaminata in questo lotto. Questa sintesi resta un capitolo didattico con revisione editoriale mirata, non una revisione clinica indipendente."
+      "text": "Il microbiota compare due volte in questo capitolo, con significati distinti. Come componente dell’ecosistema intestinale partecipa alle interazioni con barriera e immunità. Come fonte di enzimi può scindere il legame azoico di un medicinale. Il secondo fenomeno è un meccanismo di attivazione farmacologica; non dimostra che il farmaco curi la malattia “normalizzando” l’intera comunità microbica.\n\nAnalogamente, associare disbiosi e infiammazione non autorizza a raccomandare genericamente probiotici, integratori o trasferimento di microbiota. AGA 2024 suggerisce contro il trapianto convenzionale di microbiota fecale per trattare colite ulcerosa o Crohn al di fuori degli studi clinici; distingue questo uso dalla prevenzione delle recidive di infezione da C. difficile in pazienti selezionati. Il nome dell’intervento non basta: conta la condizione che si vuole trattare.\n\nLa lettura svolta copre MICI, aminosalicilati, glucocorticoidi e un confronto mirato di tiopurine, ciclosporina e metotrexato. Terapie biologiche e altre piccole molecole richiedono ulteriori intervalli e una valutazione dedicata di indicazioni, rischi e confronti. I collegamenti presenti permettono di ripassare i principi molecolari e consultare identità già catalogate; non attestano che ogni scheda sia stata riesaminata in questo lotto. Questa sintesi resta un capitolo didattico con revisione editoriale mirata, non una revisione clinica indipendente."
     }
   ],
   "checks": [
@@ -262,6 +359,38 @@ export const THEORY_IBD = Object.freeze({
     {
       "question": "Un primo passaggio intenso esclude interazioni o soppressione surrenalica?",
       "answer": "No. Resta esposizione sistemica; inibizione di CYP3A4, funzione epatica ed esposizione prolungata possono modificarne il rischio. La sospensione richiede un ragionamento contestuale, non una regola universale."
+    },
+    {
+      "question": "Perché azatioprina e mercaptopurina vanno seguite oltre il composto iniziale?",
+      "answer": "L’attivazione genera metaboliti intracellulari con effetti e persistenza diversi; catabolismo, metilazione e sintesi dei nucleotidi influenzano il risultato."
+    },
+    {
+      "question": "La latenza delle tiopurine è una scadenza fissa?",
+      "answer": "No. La risposta può richiedere settimane o mesi; non va dedotta dalla sola emivita plasmatica né usata per una decisione autonoma."
+    },
+    {
+      "question": "Un risultato TPMT/NUDT15 favorevole elimina il monitoraggio?",
+      "answer": "No. La genetica spiega una parte della variabilità; interazioni, tossicità ematologica ed epatica e reazioni non previste dai test richiedono controllo."
+    },
+    {
+      "question": "La ciclosporina neutralizza IL-2 già secreta?",
+      "answer": "No. Il complesso con ciclofillina inibisce la calcineurina, limitando l’attivazione di NFAT e la produzione di IL-2."
+    },
+    {
+      "question": "La selettività del bersaglio garantisce sicurezza renale?",
+      "answer": "No. La ciclosporina può essere nefrotossica; concentrazione, funzione renale, pressione e interazioni vanno interpretate insieme."
+    },
+    {
+      "question": "La sola inibizione della DHFR spiega tutta l’azione antinfiammatoria del metotrexato?",
+      "answer": "No. Sono coinvolti più passaggi, inclusa la modulazione dell’adenosina; il contributo clinico relativo non è completamente definito."
+    },
+    {
+      "question": "Le raccomandazioni sul metotrexato sono identiche fra MICI e linee guida?",
+      "answer": "No. Malattia, via e obiettivo contano; AGA e BSG 2025 differiscono sulla monoterapia parenterale nel Crohn. Non si ricava una regola universale."
+    },
+    {
+      "question": "Perché scambiare frequenza settimanale e quotidiana è pericoloso?",
+      "answer": "Nell’uso antinfiammatorio del metotrexato può determinare sovradosaggio grave o fatale. I calendari oncologici non vanno trasferiti fra indicazioni."
     }
   ],
   "relatedExistingChapterIds": [
@@ -303,18 +432,34 @@ export const THEORY_IBD = Object.freeze({
     {
       "id": "CHEMBL131",
       "label": "PREDNISOLONE"
+    },
+    {
+      "id": "CHEMBL1542",
+      "label": "AZATHIOPRINE"
+    },
+    {
+      "id": "CHEMBL1200751",
+      "label": "MERCAPTOPURINE"
+    },
+    {
+      "id": "CHEMBL160",
+      "label": "CYCLOSPORINE"
+    },
+    {
+      "id": "CHEMBL34259",
+      "label": "METHOTREXATE"
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 544–555, etichette 542–553. Nuove 551–555; 544–550 riutilizzate. Testo disponibile e rendering controllati; 552–553 lette visivamente perché quasi prive di testo estraibile. Figure ripetute e tabelle storiche non sono nuove prove indipendenti; edizione delle tabelle 554–555 non identificata."
+      "detail": "PDF 544–560, etichette 542–558. Nuove 556–560; precedenti riutilizzate. Testo e schemi controllati; 552–553 lette visivamente nei lotti precedenti. Figure e tabelle originali non ripubblicate. Comunicazione EMA 2019 distinta dalla verifica attuale."
     },
     {
       "id": "KAT",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX italiana 2014 / XII americana 2012, capitolo 62, PDF 1278–1282, editoriali 1258–1262. Nuova 1282, riutilizzate 1278–1281. Testo e rendering controllati; parte sulle purine letta ma non integrata. Non intero capitolo; 1283 non letta."
+      "detail": "IX italiana 2014 / XII americana 2012, capitolo 62, PDF 1278–1283, editoriali 1258–1263. Nuova 1283; 1282 riletta anche per le purine. Parte anti-TNF della 1283 letta ma esclusa; continuazione 1284 non letta. Non intero capitolo."
     },
     {
       "id": "RAN",
@@ -324,7 +469,7 @@ export const THEORY_IBD = Object.freeze({
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I · 2025–26",
-      "detail": "Lezione 16 del 20/11/2025, PDF 283–285, etichette 278–280, pagine di lezione 1–3. Nuova 285 letta e controllata ma non integrata: terapie successive da riconciliare. Riutilizzate 283–284; figure ripetute e ritagliate, nessuna riproduzione."
+      "detail": "Appunti e diapositive del corso di Farmacologia I, AA 2025–26: lezione 16 del 20/11/2025, PDF 283–286, etichette 278–281, pagine di lezione 1–4. Nuova 286 letta ma esclusa; 285 riutilizzata soltanto per ciclosporina e metotrexato. Figura piccola anti-integrine della 286 solo esaminata nell’impaginazione, non verificata in ogni etichetta."
     },
     {
       "id": "MES-UK",
@@ -342,7 +487,7 @@ export const THEORY_IBD = Object.freeze({
       "id": "BSG",
       "title": "BSG 2025 · Linee guida sulle MICI nell’adulto",
       "url": "https://gut.bmj.com/content/74/Suppl_2/s1",
-      "detail": "DOI 10.1136/gutjnl-2024-334395. Estratti indicizzati ufficiali su 5-ASA, obiettivi e strategia nel Crohn letti il 30/10/2026; pagina diretta 403. Non documento completo. Ricontrollati gli estratti ufficiali su corticosteroidi e budesonide il 30/10/2026; nessuna lettura integrale."
+      "detail": "DOI 10.1136/gutjnl-2024-334395. Estratti indicizzati ufficiali su 5-ASA, obiettivi e strategia nel Crohn letti il 30/10/2026; pagina diretta 403. Non documento completo. Ricontrollati gli estratti ufficiali su corticosteroidi e budesonide il 30/10/2026; nessuna lettura integrale. Consultati anche estratti indicizzati su tiopurine e metotrexato il 30/10/2026; divergenza con AGA sul Crohn registrata."
     },
     {
       "id": "ECCO-UC",
@@ -390,7 +535,7 @@ export const THEORY_IBD = Object.freeze({
       "id": "ACG-UC",
       "title": "ACG 2025 · Sintesi ufficiale sulla colite ulcerosa",
       "url": "https://gi.org/journals-publications/ebgi/alkazzi_aug2025/",
-      "detail": "Consultate selettivamente le raccomandazioni 20–22 e 28–38 nella sintesi il 30/10/2026; integrate qui 20–22 sui corticosteroidi. Non intera linea guida."
+      "detail": "Sintesi ufficiale: lettura selettiva precedente 20–22 e 28–38; ricontrollati 23, mantenimento e 51–54 nel lotto corrente il 30/10/2026. Non linea guida completa."
     },
     {
       "id": "ACG-CD",
@@ -409,8 +554,54 @@ export const THEORY_IBD = Object.freeze({
       "title": "NCBI Gene · NR3C1",
       "url": "https://www.ncbi.nlm.nih.gov/gene/2908",
       "detail": "Solo riepilogo ufficiale indicizzato del gene letto il 30/10/2026; pagina diretta bloccata da verifica automatica. Non lettura completa della scheda."
+    },
+    {
+      "id": "FII-S",
+      "title": "Appunti e diapositive del corso di Farmacologia II · diapositive 2025–26",
+      "detail": "Immunosoppressori e immunoregolatori: PDF 17–18 e 28–30 di 59. Testo completo delle sole pagine indicate, strutture e schemi controllati. Duplicati del file esclusi dal conteggio."
+    },
+    {
+      "id": "FII-A",
+      "title": "Appunti e diapositive del corso di Farmacologia II · appunti 2025–26",
+      "detail": "Lezione 1 del 27/10/2025: PDF 7–8 e 11–13 di 26. Testo completo delle sole pagine indicate e figure controllate. Pagine equivalenti 8–9 e 12–14 della raccolta compilata non rilette né ricontate. Integrati soltanto i passaggi pertinenti; non l’intera lezione."
+    },
+    {
+      "id": "AZA-UK",
+      "title": "Azatioprina · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/11143/smpc",
+      "detail": "Lettura selettiva 4.1–4.2 e 4.4 su latenza, metabolismo, TPMT/NUDT15, interazione con allopurinolo e monitoraggio, 30/10/2026; non RCP italiano."
+    },
+    {
+      "id": "CSA-UK",
+      "title": "Neoral · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/5300/smpc",
+      "detail": "Aggiornamento 11/03/2026. Passaggi selettivi 4.4 su rischio renale, pressione, concentrazioni e infezioni; riepilogo 5.1. Consultazione 30/10/2026; non RCP italiano."
+    },
+    {
+      "id": "MTX-UK",
+      "title": "Metoject PEN · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/11353/smpc",
+      "detail": "Aggiornamento 09/10/2024. Passaggi mirati 4.8, 5.1–5.2 e avvertenze selezionate, 30/10/2026. Non intero documento né RCP italiano."
+    },
+    {
+      "id": "CPIC",
+      "title": "CPIC · Tiopurine, TPMT e NUDT15 · aggiornamento 2025",
+      "url": "https://files.cpicpgx.org/data/guideline/publication/thiopurines/2026/41618934.pdf",
+      "detail": "Pubblicato nel 2026, DOI 10.1002/cpt.70209. Letti abstract, ambito e passaggi biochimici PDF 1–2 il 30/10/2026. Tabelle posologiche, supplementi e figure non sottoposti a revisione completa."
+    },
+    {
+      "id": "EMA-MTX",
+      "title": "EMA · Prevenzione degli errori con metotrexato",
+      "url": "https://www.ema.europa.eu/en/news/new-measures-avoid-potentially-fatal-dosing-errors-methotrexate-inflammatory-diseases",
+      "detail": "Comunicazione 22/08/2019; confronto anche con il comunicato PRAC 12/07/2019 delle diapositive. Estratti ufficiali indicizzati letti il 30/10/2026; accesso diretto 429. Nessuna lettura integrale del fascicolo."
+    },
+    {
+      "id": "AGA-CD",
+      "title": "AGA 2025 · Gestione farmacologica del Crohn moderato-grave",
+      "url": "https://gastro.org/clinical-guidance/pharmacological-management-of-moderate-to-severe-crohns-disease/",
+      "detail": "DOI 10.1053/j.gastro.2025.09.038; raccomandazione 7 sul metotrexato parenterale negli estratti ufficiali letti il 30/10/2026. Accesso diretto 403; non intero documento."
     }
   ],
-  "coverage": "Ampliamento del capitolo: otto nuove pagine lette e controllate, sei pertinenti integrate e due escluse; quindici pagine precedenti riutilizzate. Copertura cumulativa: 23 pagine lette, 21 pertinenti alla sintesi, di quattro fonti. Fonti ufficiali consultate selettivamente; nessuna lettura integrale di libri o corsi, nessuna revisione clinica indipendente. Figure originali non riprodotte.",
-  "wordCount": 3539
+  "coverage": "Ampliamento mirato: 17 nuove pagine lette nel testo e controllate visivamente, 16 pertinenti integrate; appunti I PDF 286 esclusi. Ventitré pagine già lette conservate nel registro, con riuso mirato di Katzung 1282, Rang & Dale 593 e appunti I 285. Totale 40 pagine lette e 38 pertinenti alla sintesi, di sei fonti. Figure originali non ripubblicate. Fonti ufficiali consultate selettivamente; nessuna lettura integrale di libri o corsi, nessuna revisione clinica indipendente.",
+  "wordCount": 5168
 });

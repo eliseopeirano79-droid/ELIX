@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-course-551-555",
+  "batch": "theory-course-556-560",
   "chapterId": "malattie-infiammatorie-intestinali",
-  "updatedAt": "2026-10-30T17:27:30.539472+00:00",
+  "updatedAt": "2026-10-30T18:45:10.427594+00:00",
   "status": "editorial_reconciled_locally_verified_pending_publication",
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -25,7 +25,12 @@
         552,
         553,
         554,
-        555
+        555,
+        556,
+        557,
+        558,
+        559,
+        560
       ],
       "visuallyCheckedPdfPages": [
         544,
@@ -39,14 +44,19 @@
         552,
         553,
         554,
-        555
+        555,
+        556,
+        557,
+        558,
+        559,
+        560
       ],
       "newlyReadTextPages": [
-        551,
-        552,
-        553,
-        554,
-        555
+        556,
+        557,
+        558,
+        559,
+        560
       ],
       "reusedPreviouslyReadPages": [
         544,
@@ -55,7 +65,12 @@
         547,
         548,
         549,
-        550
+        550,
+        551,
+        552,
+        553,
+        554,
+        555
       ],
       "internalLabels": [
         542,
@@ -69,7 +84,12 @@
         550,
         551,
         552,
-        553
+        553,
+        554,
+        555,
+        556,
+        557,
+        558
       ],
       "sourceUnchanged": true,
       "allContentsRead": false,
@@ -85,7 +105,12 @@
         552,
         553,
         554,
-        555
+        555,
+        556,
+        557,
+        558,
+        559,
+        560
       ],
       "readButNotIntegratedPdfPages": [],
       "imageOnlyPagesReadVisually": [
@@ -104,30 +129,34 @@
         1279,
         1280,
         1281,
-        1282
+        1282,
+        1283
       ],
       "visuallyCheckedPdfPages": [
         1278,
         1279,
         1280,
         1281,
-        1282
+        1282,
+        1283
       ],
       "newlyReadTextPages": [
-        1282
+        1283
       ],
       "reusedPreviouslyReadPages": [
         1278,
         1279,
         1280,
-        1281
+        1281,
+        1282
       ],
       "internalLabels": [
         1258,
         1259,
         1260,
         1261,
-        1262
+        1262,
+        1263
       ],
       "sourceUnchanged": true,
       "allContentsRead": false,
@@ -136,7 +165,8 @@
         1279,
         1280,
         1281,
-        1282
+        1282,
+        1283
       ],
       "readButNotIntegratedPdfPages": []
     },
@@ -156,12 +186,11 @@
         593,
         594
       ],
-      "newlyReadTextPages": [
-        594
-      ],
+      "newlyReadTextPages": [],
       "reusedPreviouslyReadPages": [
         592,
-        593
+        593,
+        594
       ],
       "internalLabels": [],
       "sourceUnchanged": true,
@@ -183,39 +212,219 @@
       "pdfPagesRead": [
         283,
         284,
-        285
+        285,
+        286
       ],
       "visuallyCheckedPdfPages": [
         283,
         284,
-        285
+        285,
+        286
       ],
       "newlyReadTextPages": [
-        285
+        286
       ],
       "reusedPreviouslyReadPages": [
         283,
-        284
+        284,
+        285
       ],
       "internalLabels": [
         278,
         279,
-        280
+        280,
+        281
       ],
       "sourceUnchanged": true,
       "allContentsRead": false,
       "integratedPdfPages": [
         283,
-        284
+        284,
+        285
       ],
       "readButNotIntegratedPdfPages": [
-        285
+        286
+      ]
+    },
+    {
+      "id": "FII-S",
+      "title": "Appunti e diapositive del corso di Farmacologia II — diapositive: immunosoppressori e immunoregolatori",
+      "edition": "A.A. 2025–26",
+      "sha256": "5975d587250204bdf0d877c9d9677ee3210113ec11299160e88361f0bdf40ab9",
+      "pageCount": 59,
+      "pdfPagesRead": [
+        17,
+        18,
+        28,
+        29,
+        30
+      ],
+      "visuallyCheckedPdfPages": [
+        17,
+        18,
+        28,
+        29,
+        30
+      ],
+      "newlyReadTextPages": [
+        17,
+        18,
+        28,
+        29,
+        30
+      ],
+      "reusedPreviouslyReadPages": [],
+      "internalLabels": [],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "integratedPdfPages": [
+        17,
+        18,
+        28,
+        29,
+        30
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "pageDeduplication": [
+        {
+          "pdfPage": 17,
+          "normalizedTextSha256FromInventory": "74388b9fd62acc394bd14a824a33f12e8c14711ec0a44486c659f7e500ea1184",
+          "duplicatePagesElsewhere": []
+        },
+        {
+          "pdfPage": 18,
+          "normalizedTextSha256FromInventory": "6a45ba28ba3c97b4573a6891bd3e374e1be0ea4ce0966eb83065492a86256c29",
+          "duplicatePagesElsewhere": []
+        },
+        {
+          "pdfPage": 28,
+          "normalizedTextSha256FromInventory": "f56673c7e97c0df0f55cf6fd7de6682194bdc707eab2598adab54fa032a819b0",
+          "duplicatePagesElsewhere": []
+        },
+        {
+          "pdfPage": 29,
+          "normalizedTextSha256FromInventory": "549d030970915be5c55e0ab3376c495a5c0581fdd7607e78ad67dfe2c01b4095",
+          "duplicatePagesElsewhere": []
+        },
+        {
+          "pdfPage": 30,
+          "normalizedTextSha256FromInventory": "aa94c47f333cc8426beddb93d0b351174122ae057048db6fbf18a6fb90eeeb42",
+          "duplicatePagesElsewhere": []
+        }
+      ]
+    },
+    {
+      "id": "FII-A",
+      "title": "Appunti e diapositive del corso di Farmacologia II — appunti: lezione 1, 27/10/2025",
+      "edition": "A.A. 2025–26",
+      "sha256": "f868f51aaf7bf901b4bb2b29bf8cb36b53d366b5d22524d9c193e4fd2ea69d3d",
+      "pageCount": 26,
+      "pdfPagesRead": [
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "visuallyCheckedPdfPages": [
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "newlyReadTextPages": [
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "reusedPreviouslyReadPages": [],
+      "internalLabels": [
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "integratedPdfPages": [
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "pageDeduplication": [
+        {
+          "pdfPage": 7,
+          "normalizedTextSha256FromInventory": "ff9d3fe13210ca3336d1980f3577d27934db90185d38115a2372e66615befc92",
+          "duplicatePagesElsewhere": [
+            {
+              "inventoryId": "FII-cf17e8c73c28",
+              "pdfPages": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "pdfPage": 8,
+          "normalizedTextSha256FromInventory": "79358197d24ee1ec48079b46a75fc86343870dc355f40d36b56cbfaef9f4e2f7",
+          "duplicatePagesElsewhere": [
+            {
+              "inventoryId": "FII-cf17e8c73c28",
+              "pdfPages": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "pdfPage": 11,
+          "normalizedTextSha256FromInventory": "82baec8dc80778833cb30fd305e7966123a2b667c12daae8b682554c2c60a7f9",
+          "duplicatePagesElsewhere": [
+            {
+              "inventoryId": "FII-cf17e8c73c28",
+              "pdfPages": [
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "pdfPage": 12,
+          "normalizedTextSha256FromInventory": "6ed568313add6c4024f1df903b6bbabb01615b63842b4fbf89eb7a148ecf62e7",
+          "duplicatePagesElsewhere": [
+            {
+              "inventoryId": "FII-cf17e8c73c28",
+              "pdfPages": [
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "pdfPage": 13,
+          "normalizedTextSha256FromInventory": "a9297842f0935fb5217c87ddf5ae6538219e0460759c630da70efa899da2e7c0",
+          "duplicatePagesElsewhere": [
+            {
+              "inventoryId": "FII-cf17e8c73c28",
+              "pdfPages": [
+                14
+              ]
+            }
+          ]
+        }
       ]
     }
   ],
-  "newReadPdfPages": 8,
-  "totalReadPdfPages": 23,
-  "currentBatchVisualPages": 8,
+  "newReadPdfPages": 17,
+  "totalReadPdfPages": 40,
+  "currentBatchVisualPages": 17,
   "newIdentities": 0,
   "newDrugSummaries": 0,
   "newPKProfiles": 0,
@@ -238,7 +447,7 @@
       "id": "BSG",
       "title": "BSG 2025 · Linee guida sulle MICI nell’adulto",
       "url": "https://gut.bmj.com/content/74/Suppl_2/s1",
-      "detail": "DOI 10.1136/gutjnl-2024-334395. Estratti indicizzati ufficiali su 5-ASA, obiettivi e strategia nel Crohn letti il 30/10/2026; pagina diretta 403. Non documento completo. Ricontrollati gli estratti ufficiali su corticosteroidi e budesonide il 30/10/2026; nessuna lettura integrale."
+      "detail": "DOI 10.1136/gutjnl-2024-334395. Estratti indicizzati ufficiali su 5-ASA, obiettivi e strategia nel Crohn letti il 30/10/2026; pagina diretta 403. Non documento completo. Ricontrollati gli estratti ufficiali su corticosteroidi e budesonide il 30/10/2026; nessuna lettura integrale. Consultati anche estratti indicizzati su tiopurine e metotrexato il 30/10/2026; divergenza con AGA sul Crohn registrata."
     },
     {
       "id": "ECCO-UC",
@@ -286,7 +495,7 @@
       "id": "ACG-UC",
       "title": "ACG 2025 · Sintesi ufficiale sulla colite ulcerosa",
       "url": "https://gi.org/journals-publications/ebgi/alkazzi_aug2025/",
-      "detail": "Consultate selettivamente le raccomandazioni 20–22 e 28–38 nella sintesi il 30/10/2026; integrate qui 20–22 sui corticosteroidi. Non intera linea guida."
+      "detail": "Sintesi ufficiale: lettura selettiva precedente 20–22 e 28–38; ricontrollati 23, mantenimento e 51–54 nel lotto corrente il 30/10/2026. Non linea guida completa."
     },
     {
       "id": "ACG-CD",
@@ -305,20 +514,55 @@
       "title": "NCBI Gene · NR3C1",
       "url": "https://www.ncbi.nlm.nih.gov/gene/2908",
       "detail": "Solo riepilogo ufficiale indicizzato del gene letto il 30/10/2026; pagina diretta bloccata da verifica automatica. Non lettura completa della scheda."
+    },
+    {
+      "id": "AZA-UK",
+      "title": "Azatioprina · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/11143/smpc",
+      "detail": "Lettura selettiva 4.1–4.2 e 4.4 su latenza, metabolismo, TPMT/NUDT15, interazione con allopurinolo e monitoraggio, 30/10/2026; non RCP italiano."
+    },
+    {
+      "id": "CSA-UK",
+      "title": "Neoral · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/5300/smpc",
+      "detail": "Aggiornamento 11/03/2026. Passaggi selettivi 4.4 su rischio renale, pressione, concentrazioni e infezioni; riepilogo 5.1. Consultazione 30/10/2026; non RCP italiano."
+    },
+    {
+      "id": "MTX-UK",
+      "title": "Metoject PEN · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/11353/smpc",
+      "detail": "Aggiornamento 09/10/2024. Passaggi mirati 4.8, 5.1–5.2 e avvertenze selezionate, 30/10/2026. Non intero documento né RCP italiano."
+    },
+    {
+      "id": "CPIC",
+      "title": "CPIC · Tiopurine, TPMT e NUDT15 · aggiornamento 2025",
+      "url": "https://files.cpicpgx.org/data/guideline/publication/thiopurines/2026/41618934.pdf",
+      "detail": "Pubblicato nel 2026, DOI 10.1002/cpt.70209. Letti abstract, ambito e passaggi biochimici PDF 1–2 il 30/10/2026. Tabelle posologiche, supplementi e figure non sottoposti a revisione completa."
+    },
+    {
+      "id": "EMA-MTX",
+      "title": "EMA · Prevenzione degli errori con metotrexato",
+      "url": "https://www.ema.europa.eu/en/news/new-measures-avoid-potentially-fatal-dosing-errors-methotrexate-inflammatory-diseases",
+      "detail": "Comunicazione 22/08/2019; confronto anche con il comunicato PRAC 12/07/2019 delle diapositive. Estratti ufficiali indicizzati letti il 30/10/2026; accesso diretto 429. Nessuna lettura integrale del fascicolo."
+    },
+    {
+      "id": "AGA-CD",
+      "title": "AGA 2025 · Gestione farmacologica del Crohn moderato-grave",
+      "url": "https://gastro.org/clinical-guidance/pharmacological-management-of-moderate-to-severe-crohns-disease/",
+      "detail": "DOI 10.1053/j.gastro.2025.09.038; raccomandazione 7 sul metotrexato parenterale negli estratti ufficiali letti il 30/10/2026. Accesso diretto 403; non intero documento."
     }
   ],
   "limits": [
-    "Deduplicazione di 44 registri disponibili per hash e pagine; non censimento completo del corpus.",
-    "CFI 551 e 553 ripetono figure del Katzung già controllate; CFI 552 quasi solo immagine, fonte grafica identificata ma edizione non nota. Nessuna figura ripubblicata.",
-    "Tabelle CFI 554–555 senza edizione identificata, con sovrapposizioni e presentazioni storiche non riconciliate. Nessuna dose, equivalenza o indicazione italiana ricavata dalle tabelle.",
-    "Katzung 1282 letta interamente ma parte sulle purine non integrata; frase finale continua nella 1283 non letta. Rang & Dale 594 e appunti 285 letti e controllati ma esclusi da questo ampliamento.",
-    "Rang & Dale: paginazione editoriale non identificata; bibliografia non equivale a lettura degli articoli. Appunti: figure ripetute o ritagliate; affermazioni su immunosoppressori e biologici ancora da riconciliare.",
-    "SmPC britannici distinti dai RCP italiani. ACG ed ESE consultati nelle sintesi ufficiali e nei passaggi dichiarati; BSG e NCBI soltanto nei riepiloghi ufficiali indicizzati. Non lettura integrale delle linee guida.",
-    "Farmacologia II e ulteriori fonti autorizzate non lette per questo tema. Terapie avanzate, profili mancanti e laboratori rimangono nel backlog.",
-    "Controllo editoriale del solo integratore; nessuna revisione clinica indipendente.",
+    "Deduplicazione per hash e pagine nei 45 registri iniziali disponibili e confronto con inventario di Farmacologia II; non censimento completo del corpus.",
+    "Diciassette nuove pagine lette interamente nel testo disponibile. APP 286 esclusa; la sua piccola figura è stata esaminata nel contesto ma non in ogni etichetta. RAN 594 resta esclusa. KAT 1283: segmento anti-TNF escluso e continuazione 1284 non letta.",
+    "Farmacologia II: soltanto PDF 17–18, 28–30 delle diapositive e 7–8, 11–13 degli appunti della lezione 1. Parti su altri immunosoppressori escluse; copie e pagine della raccolta compilata non ricontate.",
+    "Schemi del corso corretti nella sintesi: immunofilline intracellulari; rapamicina inibisce mTOR; basse dosi di metotrexato non escludono mielotossicità o nausea. Nessuna figura originale o tabella posologica pubblicata.",
+    "SmPC britannici distinti dai RCP italiani. ACG e CPIC consultati selettivamente; AGA, BSG ed EMA nei passaggi ufficiali indicizzati dichiarati. Non lettura integrale delle linee guida. Divergenza AGA/BSG sul metotrexato nel Crohn conservata.",
+    "Figure ripetute, tabelle storiche e limiti delle edizioni già registrati nei lotti precedenti rimangono validi. Rang & Dale: paginazione editoriale non identificata.",
+    "Terapie avanzate, ulteriori fonti, profili mancanti e laboratori restano da approfondire. Nessuna revisione clinica indipendente.",
     "Verifiche browser con Chromium e dimensioni simulate; non dispositivi fisici."
   ],
-  "nextInterval": "Completare prima verifica e pubblicazione del lotto corrente. Poi PDF 556–560 delle diapositive del corso, con i passaggi pertinenti dei libri e degli appunti dopo deduplicazione; le pagine già lette ma non integrate non vanno ricontate.",
+  "nextInterval": "Completare prima verifiche e pubblicazione di questo lotto. Poi diapositive I PDF 561–565 e Katzung 1284, con gli appunti 285–286 già letti riutilizzati senza ricontarli; terapie avanzate da riconciliare.",
   "conflictsAndReconciliation": [
     {
       "source": "CFI 549; RAN 593; APP 284",
@@ -388,16 +632,56 @@
     {
       "source": "RAN 594; APP 285",
       "issue": "Argomenti diversi o successivi",
-      "resolution": "Pagine lette ma escluse. Affermazioni su immunosoppressori, struttura dei biologici e sicurezza restano da confrontare nel prossimo ambito pertinente."
+      "resolution": "Nel lotto 551–555 entrambe lette ma escluse. Nel lotto 556–560 RAN 594 resta esclusa; APP 285 riutilizzata per ciclosporina e metotrexato, senza ricontarla. Affermazioni sui biologici restano da riconciliare."
+    },
+    {
+      "source": "CFI 556; KAT 1282; AZA-UK",
+      "issue": "Latenza delle tiopurine non uniforme",
+      "resolution": "Esplicitate settimane o mesi; nessuna scadenza clinica universale."
+    },
+    {
+      "source": "CFI 556; KAT 1282; CPIC",
+      "issue": "Metilazione semplificata come sola inattivazione; mancanza NUDT15 nelle fonti storiche",
+      "resolution": "Distinti prodotti e funzioni; aggiornamento CPIC 2025 pubblicato nel 2026, senza tabelle di dose."
+    },
+    {
+      "source": "FII-S 28; FII-A 11–12",
+      "issue": "Immunofilline dette plasmatiche; rapamicina descritta in un passaggio come attivatrice di mTOR",
+      "resolution": "Sede intracellulare e inibizione di mTOR ricostruite confrontando testo e schema."
+    },
+    {
+      "source": "FII-A 8; FII-S 18; CFI 558; MTX-UK",
+      "issue": "MTX ridotto a un solo enzima e basse dosi presentate senza nausea o depressione midollare",
+      "resolution": "Distinti antifolato e componenti antinfiammatorie; conservata incertezza sui contributi; corretto il rischio anche a basse dosi."
+    },
+    {
+      "source": "FII-S 30; FII-A 11–13; CSA-UK",
+      "issue": "Selettività presentata come minor rischio infettivo generalizzato e concentrazioni come criterio isolato",
+      "resolution": "Nessuna gerarchia universale di sicurezza; funzione renale, pressione, infezioni e contesto interpretati insieme."
+    },
+    {
+      "source": "RAN 593; KAT 1283; AGA-CD; BSG; ACG-UC",
+      "issue": "Immunosoppressori riuniti senza distinguere malattia e fase; divergenza fra linee guida",
+      "resolution": "Ciclosporina collocata nel salvataggio UC; MTX differenziato per malattia e via, divergenza AGA/BSG esplicita."
+    },
+    {
+      "source": "CFI 559–560; EMA-MTX",
+      "issue": "Calendari antinfiammatori e oncologici potenzialmente confusi",
+      "resolution": "Frequenza settimanale contestualizzata, nessun regime oncologico universale."
+    },
+    {
+      "source": "APP 285–286; KAT 1283",
+      "issue": "Affermazioni sui biologici e biosimilari ancora da riconciliare",
+      "resolution": "Non integrate; da riprendere con fonti ufficiali nel prossimo intervallo pertinente."
     }
   ],
   "deduplication": {
     "newCFIPages": [
-      551,
-      552,
-      553,
-      554,
-      555
+      556,
+      557,
+      558,
+      559,
+      560
     ],
     "overlap": [],
     "reusedCFIPages": [
@@ -407,11 +691,17 @@
       547,
       548,
       549,
-      550
+      550,
+      551,
+      552,
+      553,
+      554,
+      555
     ],
-    "recordsChecked": 44,
-    "scope": "Available reading ledgers by source hash and page; not complete corpus audit."
+    "recordsChecked": 45,
+    "scope": "Registri disponibili per hash e pagina; inventario FII con copie e pagine equivalenti escluse. Non corpus completo."
   },
-  "newIntegratedPdfPages": 6,
-  "chapterSourcePdfPages": 21
+  "newIntegratedPdfPages": 16,
+  "chapterSourcePdfPages": 38,
+  "previouslyReadNewlyIntegratedPdfPages": 1
 }
