@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-10-30T18:45:10.427594+00:00",
-  "batch": "theory-course-556-560",
+  "updatedAt": "2026-10-30T19:21:07.707155+00:00",
+  "batch": "theory-course-561-565",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.55.0",
-  "branch": "feat/theory-course-556-560",
-  "baseCommit": "f68eba172b5f19895d658919b7bd67881a81f6dc",
+  "release": "0.56.0",
+  "branch": "feat/theory-course-561-565",
+  "baseCommit": "c6ce71f6e8e28b192e059a5d2a954cd977681c60",
   "previousBatch": {
-    "batch": "theory-course-551-555",
+    "batch": "theory-course-556-560",
     "status": "published_and_live_verified",
-    "release": "0.54.0",
-    "commit": "f68eba172b5f19895d658919b7bd67881a81f6dc"
+    "release": "0.55.0",
+    "commit": "c6ce71f6e8e28b192e059a5d2a954cd977681c60"
   },
   "scope": [
-    "MICI: tiopurine, calcineurina, metotrexato e sicurezza del calendario settimanale."
+    "MICI: anti-TNF, architetture biologiche, immunogenicità, indicazioni per giurisdizione e biosimilari."
   ],
   "completed": [
-    "17 nuove pagine lette nel testo e controllate visivamente; confronto mirato Farmacologia I e II, Katzung, Rang & Dale e fonti ufficiali.",
-    "Capitolo: 25 sezioni, 5168 parole, 24 domande, 26 riferimenti e 12 farmaci esistenti.",
-    "41 validatori superati; otto configurazioni browser nei due temi, tastiera, dodici farmaci, cinque capitoli collegati, ricerca e offline.",
-    "Aggiornamento reale 0.54.0→0.55.0 con preferiti, progressi e tema conservati. Altri 57 capitoli, catalogo, lettore e laboratori invariati; conservati i 17 identificatori di sezione e le 16 domande precedenti delle MICI.",
+    "11 nuove pagine lette e controllate nei rendering; riuso mirato di pagine già lette, inclusi i biosimilari di appunti I 286.",
+    "Capitolo: 33 sezioni, 6784 parole, 32 domande, 36 riferimenti e 16 farmaci esistenti.",
+    "41 validatori superati; otto configurazioni browser nei due temi, tastiera, sedici farmaci, cinque capitoli collegati, ricerca e offline.",
+    "Aggiornamento reale 0.55.0→0.56.0 con preferiti, progressi e tema conservati. Altri 57 capitoli, catalogo, lettore e laboratori invariati; conservati i 25 identificatori di sezione e le 24 domande precedenti delle MICI.",
     "Sei schermate ispezionate; hash dei sei originali invariati."
   ],
   "remaining": [
@@ -51,14 +51,14 @@
     "data/mici-reading.json"
   ],
   "limits": [
-    "Deduplicazione per hash e pagine nei 45 registri iniziali disponibili e confronto con inventario di Farmacologia II; non censimento completo del corpus.",
-    "Diciassette nuove pagine lette interamente nel testo disponibile. APP 286 esclusa; la sua piccola figura è stata esaminata nel contesto ma non in ogni etichetta. RAN 594 resta esclusa. KAT 1283: segmento anti-TNF escluso e continuazione 1284 non letta.",
-    "Farmacologia II: soltanto PDF 17–18, 28–30 delle diapositive e 7–8, 11–13 degli appunti della lezione 1. Parti su altri immunosoppressori escluse; copie e pagine della raccolta compilata non ricontate.",
-    "Schemi del corso corretti nella sintesi: immunofilline intracellulari; rapamicina inibisce mTOR; basse dosi di metotrexato non escludono mielotossicità o nausea. Nessuna figura originale o tabella posologica pubblicata.",
-    "SmPC britannici distinti dai RCP italiani. ACG e CPIC consultati selettivamente; AGA, BSG ed EMA nei passaggi ufficiali indicizzati dichiarati. Non lettura integrale delle linee guida. Divergenza AGA/BSG sul metotrexato nel Crohn conservata.",
-    "Figure ripetute, tabelle storiche e limiti delle edizioni già registrati nei lotti precedenti rimangono validi. Rang & Dale: paginazione editoriale non identificata.",
-    "Terapie avanzate, ulteriori fonti, profili mancanti e laboratori restano da approfondire. Nessuna revisione clinica indipendente.",
+    "Deduplicazione per hash e pagine in 46 registri iniziali disponibili e inventario Farmacologia II; non intero corpus. Copie e pagine equivalenti escluse dai conteggi.",
+    "Undici nuove pagine lette nel testo disponibile, controllate nei rendering e integrate soltanto nei passaggi pertinenti. CFI 564 letta visivamente; pannello TNF duplicato nella 565. Figure su altri bersagli in FII esaminate nel contesto, non revisionate integralmente.",
+    "KAT 1283 e APP 285–286 rilette senza ricontarle. APP 286 integrata per biosimilari; figura anti-integrine non verificata in ogni etichetta. RAN 594 resta esclusa. Katzung 1285 e diapositive I 566 in avanti non lette in questo lotto.",
+    "Tabella storica CFI 561 e cronologia 565 non trasferite come indicazioni attuali. Giurisdizioni europea e statunitense distinte; nessuna gerarchia di sicurezza dedotta da umanizzazione o dimensioni.",
+    "Consultazione selettiva EMA, DailyMed, SmPC britannici e sintesi ACG; accesso diretto Remicade 429, riscontro nei passaggi ufficiali indicizzati. Non lettura completa dei fascicoli o linee guida, né verifica dei RCP italiani.",
+    "Limiti storici dei lotti precedenti conservati, inclusa la divergenza AGA/BSG sul metotrexato. Rang & Dale: paginazione editoriale non identificata; articoli citati nelle fonti non letti negli originali.",
+    "Altri bersagli delle terapie avanzate, ulteriori fonti, farmaci mancanti, profili e laboratori restano nel backlog. Nessuna revisione clinica indipendente.",
     "Verifiche browser con Chromium e dimensioni simulate; non dispositivi fisici."
   ],
-  "nextBatch": "Completare prima verifiche e pubblicazione di questo lotto. Poi diapositive I PDF 561–565 e Katzung 1284, con gli appunti 285–286 già letti riutilizzati senza ricontarli; terapie avanzate da riconciliare."
+  "nextBatch": "Completare prima la pubblicazione e verifica di questo lotto; poi diapositive I PDF 566–570 e Katzung 1285, riutilizzando i passaggi pertinenti degli appunti già letti senza ricontarli."
 }

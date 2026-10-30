@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-course-556-560",
+  "batch": "theory-course-561-565",
   "chapterId": "malattie-infiammatorie-intestinali",
-  "updatedAt": "2026-10-30T18:45:10.427594+00:00",
+  "updatedAt": "2026-10-30T19:21:07.707155+00:00",
   "status": "editorial_reconciled_locally_verified_pending_publication",
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -30,7 +30,12 @@
         557,
         558,
         559,
-        560
+        560,
+        561,
+        562,
+        563,
+        564,
+        565
       ],
       "visuallyCheckedPdfPages": [
         544,
@@ -49,14 +54,19 @@
         557,
         558,
         559,
-        560
+        560,
+        561,
+        562,
+        563,
+        564,
+        565
       ],
       "newlyReadTextPages": [
-        556,
-        557,
-        558,
-        559,
-        560
+        561,
+        562,
+        563,
+        564,
+        565
       ],
       "reusedPreviouslyReadPages": [
         544,
@@ -70,7 +80,12 @@
         552,
         553,
         554,
-        555
+        555,
+        556,
+        557,
+        558,
+        559,
+        560
       ],
       "internalLabels": [
         542,
@@ -89,7 +104,12 @@
         555,
         556,
         557,
-        558
+        558,
+        559,
+        560,
+        561,
+        562,
+        563
       ],
       "sourceUnchanged": true,
       "allContentsRead": false,
@@ -110,12 +130,18 @@
         557,
         558,
         559,
-        560
+        560,
+        561,
+        562,
+        563,
+        564,
+        565
       ],
       "readButNotIntegratedPdfPages": [],
       "imageOnlyPagesReadVisually": [
         552,
-        553
+        553,
+        564
       ]
     },
     {
@@ -130,7 +156,8 @@
         1280,
         1281,
         1282,
-        1283
+        1283,
+        1284
       ],
       "visuallyCheckedPdfPages": [
         1278,
@@ -138,17 +165,19 @@
         1280,
         1281,
         1282,
-        1283
+        1283,
+        1284
       ],
       "newlyReadTextPages": [
-        1283
+        1284
       ],
       "reusedPreviouslyReadPages": [
         1278,
         1279,
         1280,
         1281,
-        1282
+        1282,
+        1283
       ],
       "internalLabels": [
         1258,
@@ -156,7 +185,8 @@
         1260,
         1261,
         1262,
-        1263
+        1263,
+        1264
       ],
       "sourceUnchanged": true,
       "allContentsRead": false,
@@ -166,7 +196,8 @@
         1280,
         1281,
         1282,
-        1283
+        1283,
+        1284
       ],
       "readButNotIntegratedPdfPages": []
     },
@@ -221,13 +252,12 @@
         285,
         286
       ],
-      "newlyReadTextPages": [
-        286
-      ],
+      "newlyReadTextPages": [],
       "reusedPreviouslyReadPages": [
         283,
         284,
-        285
+        285,
+        286
       ],
       "internalLabels": [
         278,
@@ -240,11 +270,13 @@
       "integratedPdfPages": [
         283,
         284,
-        285
-      ],
-      "readButNotIntegratedPdfPages": [
+        285,
         286
-      ]
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "partialPageIntegration": {
+        "286": "Solo biosimilari; altri bersagli e figura esclusi."
+      }
     },
     {
       "id": "FII-S",
@@ -257,23 +289,30 @@
         18,
         28,
         29,
-        30
+        30,
+        33,
+        36
       ],
       "visuallyCheckedPdfPages": [
         17,
         18,
         28,
         29,
-        30
+        30,
+        33,
+        36
       ],
       "newlyReadTextPages": [
+        33,
+        36
+      ],
+      "reusedPreviouslyReadPages": [
         17,
         18,
         28,
         29,
         30
       ],
-      "reusedPreviouslyReadPages": [],
       "internalLabels": [],
       "sourceUnchanged": true,
       "allContentsRead": false,
@@ -282,7 +321,9 @@
         18,
         28,
         29,
-        30
+        30,
+        33,
+        36
       ],
       "readButNotIntegratedPdfPages": [],
       "pageDeduplication": [
@@ -310,6 +351,16 @@
           "pdfPage": 30,
           "normalizedTextSha256FromInventory": "aa94c47f333cc8426beddb93d0b351174122ae057048db6fbf18a6fb90eeeb42",
           "duplicatePagesElsewhere": []
+        },
+        {
+          "pdfPage": 33,
+          "normalizedTextSha256FromInventory": "0660459f4532f4d2457e79becbfe921f81a2da5b3a84c3cef4681dd592c83be0",
+          "duplicatePagesElsewhere": []
+        },
+        {
+          "pdfPage": 36,
+          "normalizedTextSha256FromInventory": "2bd96e75db8ef4a9330cacfb6bfe75602838d5f3dd2ebbd0d1693384a388f82c",
+          "duplicatePagesElsewhere": []
         }
       ]
     },
@@ -324,29 +375,42 @@
         8,
         11,
         12,
-        13
+        13,
+        14,
+        15,
+        16
       ],
       "visuallyCheckedPdfPages": [
         7,
         8,
         11,
         12,
-        13
+        13,
+        14,
+        15,
+        16
       ],
       "newlyReadTextPages": [
+        14,
+        15,
+        16
+      ],
+      "reusedPreviouslyReadPages": [
         7,
         8,
         11,
         12,
         13
       ],
-      "reusedPreviouslyReadPages": [],
       "internalLabels": [
         7,
         8,
         11,
         12,
-        13
+        13,
+        14,
+        15,
+        16
       ],
       "sourceUnchanged": true,
       "allContentsRead": false,
@@ -355,7 +419,10 @@
         8,
         11,
         12,
-        13
+        13,
+        14,
+        15,
+        16
       ],
       "readButNotIntegratedPdfPages": [],
       "pageDeduplication": [
@@ -418,13 +485,54 @@
               ]
             }
           ]
+        },
+        {
+          "pdfPage": 14,
+          "normalizedTextSha256FromInventory": "8ccaa45270e414126272be4956a78ab6b4c4bf04bca1bd433afc67f79cf1232f",
+          "duplicatePagesElsewhere": [
+            {
+              "inventoryId": "FII-cf17e8c73c28",
+              "pdfPages": [
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "pdfPage": 15,
+          "normalizedTextSha256FromInventory": "b18faca58bfd61ceeb3e27cccd78a026d34f75441b5da17c0791829464d5967b",
+          "duplicatePagesElsewhere": [
+            {
+              "inventoryId": "FII-cf17e8c73c28",
+              "pdfPages": [
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "pdfPage": 16,
+          "normalizedTextSha256FromInventory": "e6d37e06ae3a7d2bf11aaa25c69dce2ef4527385b56e10f0bfbe7202454cdd0f",
+          "duplicatePagesElsewhere": [
+            {
+              "inventoryId": "FII-cf17e8c73c28",
+              "pdfPages": [
+                17
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "partialPageIntegration": {
+        "14": "Anti-TNF; contesto precedente escluso.",
+        "15": "Solo reazioni alla somministrazione; altri bersagli esclusi.",
+        "16": "Immunogenicità e proteina di fusione; anakinra e altri bersagli esclusi."
+      }
     }
   ],
-  "newReadPdfPages": 17,
-  "totalReadPdfPages": 40,
-  "currentBatchVisualPages": 17,
+  "newReadPdfPages": 11,
+  "totalReadPdfPages": 51,
+  "currentBatchVisualPages": 11,
   "newIdentities": 0,
   "newDrugSummaries": 0,
   "newPKProfiles": 0,
@@ -495,13 +603,13 @@
       "id": "ACG-UC",
       "title": "ACG 2025 · Sintesi ufficiale sulla colite ulcerosa",
       "url": "https://gi.org/journals-publications/ebgi/alkazzi_aug2025/",
-      "detail": "Sintesi ufficiale: lettura selettiva precedente 20–22 e 28–38; ricontrollati 23, mantenimento e 51–54 nel lotto corrente il 30/10/2026. Non linea guida completa."
+      "detail": "Sintesi ufficiale: lettura selettiva precedente 20–22 e 28–38; ricontrollati 23, mantenimento e 51–54 nel lotto corrente il 30/10/2026. Non linea guida completa. Ricontrollati nel lotto 561–565 i passaggi anti-TNF 28–29, 42 e 44 e i concetti di posizionamento 28–29."
     },
     {
       "id": "ACG-CD",
       "title": "ACG 2025 · Sintesi ufficiale sulla malattia di Crohn",
       "url": "https://gi.org/journals-publications/ebgi/zhai_dalal_sep2025/",
-      "detail": "Sintesi del 17/09/2025; letti i passaggi sulle forme lievi/moderate e moderate/severe il 30/10/2026. Non intera linea guida."
+      "detail": "Sintesi del 17/09/2025; letti i passaggi sulle forme lievi/moderate e moderate/severe il 30/10/2026. Non intera linea guida. Ricontrollato il passaggio sulle terapie avanzate e sulle presentazioni sottocutanee nel lotto 561–565."
     },
     {
       "id": "ESE-HPA",
@@ -550,19 +658,79 @@
       "title": "AGA 2025 · Gestione farmacologica del Crohn moderato-grave",
       "url": "https://gastro.org/clinical-guidance/pharmacological-management-of-moderate-to-severe-crohns-disease/",
       "detail": "DOI 10.1053/j.gastro.2025.09.038; raccomandazione 7 sul metotrexato parenterale negli estratti ufficiali letti il 30/10/2026. Accesso diretto 403; non intero documento."
+    },
+    {
+      "id": "EMA-REM",
+      "title": "EMA · Remicade",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/remicade",
+      "detail": "Indicazioni e rischi nell’overview ufficiale indicizzata; pagina diretta 429. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "EMA-HUM",
+      "title": "EMA · Humira",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/humira",
+      "detail": "Indicazioni nell’overview indicizzata; meccanismo nei passaggi indicizzati delle informazioni di prodotto, sezione 5.1. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "EMA-SIM",
+      "title": "EMA · Simponi",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/simponi",
+      "detail": "Overview, elenco delle indicazioni e meccanismo. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "EMA-CIM",
+      "title": "EMA · Cimzia",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/cimzia",
+      "detail": "Overview, elenco europeo delle indicazioni e funzione del PEG; distinta dalla scheda storica di rifiuto per Crohn. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "EMA-ENB",
+      "title": "EMA · Enbrel",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/enbrel",
+      "detail": "Overview e indicazioni europee negli estratti ufficiali indicizzati. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "FDA-CIM",
+      "title": "DailyMed · Cimzia, informazioni statunitensi",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d",
+      "detail": "Passaggi 1.1 e 12.1 letti; confronto con descrizione strutturale dei materiali didattici. Indicazione statunitense distinta da quella europea. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "IFX-UK",
+      "title": "Remicade · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/3831/smpc",
+      "detail": "Estratti ufficiali selettivi 4.1, 4.4–4.5 e immunogenicità: infezioni, tubercolosi, HBV e reazioni. Non RCP italiano. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "HUM-UK",
+      "title": "Humira · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/9678/smpc",
+      "detail": "Estratti ufficiali 4.5, immunogenicità in 5.1 e farmacocinetica: anticorpi antifarmaco, clearance e limiti dei confronti fra saggi. Aggiornato 16/02/2026. Non RCP italiano. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "EMA-BIO",
+      "title": "EMA · Biosimilari",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/biosimilar-medicines-overview",
+      "detail": "Definizione di biologico e biosimilare, comparabilità di struttura, attività, efficacia, sicurezza e immunogenicità. Non revisione completa delle regole di sostituibilità. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "EMA-RMS",
+      "title": "EMA · Remsima",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/remsima",
+      "detail": "Overview ufficiale indicizzata: riferimento Remicade, comparabilità e presentazioni endovenose e sottocutanee. Non intero fascicolo regolatorio. Consultazione selettiva 30/10/2026."
     }
   ],
   "limits": [
-    "Deduplicazione per hash e pagine nei 45 registri iniziali disponibili e confronto con inventario di Farmacologia II; non censimento completo del corpus.",
-    "Diciassette nuove pagine lette interamente nel testo disponibile. APP 286 esclusa; la sua piccola figura è stata esaminata nel contesto ma non in ogni etichetta. RAN 594 resta esclusa. KAT 1283: segmento anti-TNF escluso e continuazione 1284 non letta.",
-    "Farmacologia II: soltanto PDF 17–18, 28–30 delle diapositive e 7–8, 11–13 degli appunti della lezione 1. Parti su altri immunosoppressori escluse; copie e pagine della raccolta compilata non ricontate.",
-    "Schemi del corso corretti nella sintesi: immunofilline intracellulari; rapamicina inibisce mTOR; basse dosi di metotrexato non escludono mielotossicità o nausea. Nessuna figura originale o tabella posologica pubblicata.",
-    "SmPC britannici distinti dai RCP italiani. ACG e CPIC consultati selettivamente; AGA, BSG ed EMA nei passaggi ufficiali indicizzati dichiarati. Non lettura integrale delle linee guida. Divergenza AGA/BSG sul metotrexato nel Crohn conservata.",
-    "Figure ripetute, tabelle storiche e limiti delle edizioni già registrati nei lotti precedenti rimangono validi. Rang & Dale: paginazione editoriale non identificata.",
-    "Terapie avanzate, ulteriori fonti, profili mancanti e laboratori restano da approfondire. Nessuna revisione clinica indipendente.",
+    "Deduplicazione per hash e pagine in 46 registri iniziali disponibili e inventario Farmacologia II; non intero corpus. Copie e pagine equivalenti escluse dai conteggi.",
+    "Undici nuove pagine lette nel testo disponibile, controllate nei rendering e integrate soltanto nei passaggi pertinenti. CFI 564 letta visivamente; pannello TNF duplicato nella 565. Figure su altri bersagli in FII esaminate nel contesto, non revisionate integralmente.",
+    "KAT 1283 e APP 285–286 rilette senza ricontarle. APP 286 integrata per biosimilari; figura anti-integrine non verificata in ogni etichetta. RAN 594 resta esclusa. Katzung 1285 e diapositive I 566 in avanti non lette in questo lotto.",
+    "Tabella storica CFI 561 e cronologia 565 non trasferite come indicazioni attuali. Giurisdizioni europea e statunitense distinte; nessuna gerarchia di sicurezza dedotta da umanizzazione o dimensioni.",
+    "Consultazione selettiva EMA, DailyMed, SmPC britannici e sintesi ACG; accesso diretto Remicade 429, riscontro nei passaggi ufficiali indicizzati. Non lettura completa dei fascicoli o linee guida, né verifica dei RCP italiani.",
+    "Limiti storici dei lotti precedenti conservati, inclusa la divergenza AGA/BSG sul metotrexato. Rang & Dale: paginazione editoriale non identificata; articoli citati nelle fonti non letti negli originali.",
+    "Altri bersagli delle terapie avanzate, ulteriori fonti, farmaci mancanti, profili e laboratori restano nel backlog. Nessuna revisione clinica indipendente.",
     "Verifiche browser con Chromium e dimensioni simulate; non dispositivi fisici."
   ],
-  "nextInterval": "Completare prima verifiche e pubblicazione di questo lotto. Poi diapositive I PDF 561–565 e Katzung 1284, con gli appunti 285–286 già letti riutilizzati senza ricontarli; terapie avanzate da riconciliare.",
+  "nextInterval": "Completare prima la pubblicazione e verifica di questo lotto; poi diapositive I PDF 566–570 e Katzung 1285, riutilizzando i passaggi pertinenti degli appunti già letti senza ricontarli.",
   "conflictsAndReconciliation": [
     {
       "source": "CFI 549; RAN 593; APP 284",
@@ -632,7 +800,7 @@
     {
       "source": "RAN 594; APP 285",
       "issue": "Argomenti diversi o successivi",
-      "resolution": "Nel lotto 551–555 entrambe lette ma escluse. Nel lotto 556–560 RAN 594 resta esclusa; APP 285 riutilizzata per ciclosporina e metotrexato, senza ricontarla. Affermazioni sui biologici restano da riconciliare."
+      "resolution": "Nel lotto 551–555 entrambe lette ma escluse. Nel lotto 556–560 RAN 594 resta esclusa; APP 285 riutilizzata per ciclosporina e metotrexato, senza ricontarla. Affermazioni sui biologici restano da riconciliare. Nel lotto 561–565 riconciliate anche le affermazioni anti-TNF di APP 285."
     },
     {
       "source": "CFI 556; KAT 1282; AZA-UK",
@@ -672,16 +840,51 @@
     {
       "source": "APP 285–286; KAT 1283",
       "issue": "Affermazioni sui biologici e biosimilari ancora da riconciliare",
-      "resolution": "Non integrate; da riprendere con fonti ufficiali nel prossimo intervallo pertinente."
+      "resolution": "Esclusi nel lotto 556–560; nel lotto 561–565 riconciliati anti-TNF e biosimilari. Altri bersagli di APP 286 restano esclusi."
+    },
+    {
+      "source": "CFI 561; KAT 1284",
+      "issue": "Tabella storica di indicazioni e contesto statunitense",
+      "resolution": "Confronto EMA per singolo prodotto; certolizumab Crohn distinto fra Stati Uniti ed Europa."
+    },
+    {
+      "source": "CFI 562–563; APP 285",
+      "issue": "Classificazione molecolare presentata come sostituzione di quella anatomica",
+      "resolution": "Mappe complementari; mediatori condivisi non equivalgono a efficacia clinica condivisa."
+    },
+    {
+      "source": "KAT 1284; APP 285",
+      "issue": "Certolizumab chiamato chimerico e adalimumab presentato come umanizzazione di infliximab",
+      "resolution": "Certolizumab Fab umanizzato PEG senza Fc; anticorpi completamente umani distinti da infliximab chimerico."
+    },
+    {
+      "source": "CFI 564–565; FII-S 36; FII-A 16",
+      "issue": "Pannello ripetuto e figura di fusione potenzialmente attribuita al farmaco errato",
+      "resolution": "Ripetizione TNF non prova indipendente; CTLA4-Fc non è etanercept. Anakinra descritto come recettore esca: passaggio escluso, non corretto estendendo il lotto."
+    },
+    {
+      "source": "APP 285; FII-S 33; FII-A 14–16",
+      "issue": "Dimensione, origine umana e minore immunogenicità estese a tutta la sicurezza",
+      "resolution": "Distinti neutralizzazione, Fc, clearance, anticorpi antifarmaco, infezioni e reazioni; nessuna graduatoria universale."
+    },
+    {
+      "source": "APP 286",
+      "issue": "Biosimilari presentati come più sicuri e sostitutivi della via endovenosa",
+      "resolution": "Comparabilità EMA distinta da superiorità; Remsima ha presentazioni IV e SC, dipendenti dal prodotto."
+    },
+    {
+      "source": "FII-A 15–16",
+      "issue": "Altri bersagli, premedicazione e rischi eterogenei generalizzati",
+      "resolution": "Integrati solo concetti pertinenti; nessuno schema universale di premedicazione, nessun algoritmo delle terapie avanzate."
     }
   ],
   "deduplication": {
     "newCFIPages": [
-      556,
-      557,
-      558,
-      559,
-      560
+      561,
+      562,
+      563,
+      564,
+      565
     ],
     "overlap": [],
     "reusedCFIPages": [
@@ -696,12 +899,17 @@
       552,
       553,
       554,
-      555
+      555,
+      556,
+      557,
+      558,
+      559,
+      560
     ],
-    "recordsChecked": 45,
+    "recordsChecked": 46,
     "scope": "Registri disponibili per hash e pagina; inventario FII con copie e pagine equivalenti escluse. Non corpus completo."
   },
-  "newIntegratedPdfPages": 16,
-  "chapterSourcePdfPages": 38,
+  "newIntegratedPdfPages": 11,
+  "chapterSourcePdfPages": 50,
   "previouslyReadNewlyIntegratedPdfPages": 1
 }

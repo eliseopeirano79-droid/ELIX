@@ -1,18 +1,19 @@
 {
-  "batch": "theory-course-556-560",
+  "batch": "theory-course-561-565",
   "chapterId": "malattie-infiammatorie-intestinali",
-  "checkedAt": "2026-10-30T18:45:10.427594+00:00",
+  "checkedAt": "2026-10-30T19:21:07.707155+00:00",
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "8ea8fbe81fb6285d50f94b718e04e6a641a7b7c15d5726b8326aca481335cfd7",
+  "moduleSha256": "8f22bf2fa90883ba622ddd4cc2c96cae2907c23b9363bb1d6d9402da550b8292",
   "checks": [
-    "Rilettura editoriale delle otto sezioni nuove, della conclusione e delle otto nuove domande; terminologia e collegamenti coerenti con il confronto selettivo delle fonti.",
-    "Distinti latenza e mantenimento delle tiopurine, TPMT e NUDT15, immunofilline intracellulari, calcineurina e mTOR.",
-    "Metotrexato: contributi biochimici non ridotti alla sola DHFR; rischi anche a basse dosi, divergenza AGA/BSG e calendario settimanale nell’uso antinfiammatorio esplicitati.",
-    "Copertura limitata alle pagine dichiarate, vecchie esclusioni riconciliate; nessuna figura originale ripubblicata.",
-    "41 validatori superati; otto configurazioni browser nei due temi, tastiera, dodici farmaci, cinque capitoli collegati, ricerca e offline.",
-    "Aggiornamento reale 0.54.0→0.55.0 con preferiti, progressi e tema conservati. Altri 57 capitoli, catalogo, lettore e laboratori invariati; conservati i 17 identificatori di sezione e le 16 domande precedenti delle MICI.",
+    "Rilettura editoriale delle otto sezioni nuove, della conclusione e delle otto nuove domande; nessuna trascrizione delle fonti.",
+    "Distinti ligando e recettore, formato anticorpale e proteina di fusione, neutralizzazione e funzioni Fc, immunogenicità e rischio infettivo.",
+    "Indicazioni europee confrontate per prodotto; certolizumab negli Stati Uniti distinto dall’Europa, etanercept solo confronto strutturale.",
+    "Biosimilarità distinta da superiorità e via; nessuna graduatoria di sicurezza per dimensione o origine umana.",
+    "Letture e figure delimitate; copie equivalenti non ricontate; nessun protocollo clinico individuale.",
+    "41 validatori superati; otto configurazioni browser nei due temi, tastiera, sedici farmaci, cinque capitoli collegati, ricerca e offline.",
+    "Aggiornamento reale 0.55.0→0.56.0 con preferiti, progressi e tema conservati. Altri 57 capitoli, catalogo, lettore e laboratori invariati; conservati i 25 identificatori di sezione e le 24 domande precedenti delle MICI.",
     "Sei schermate ispezionate; hash dei sei originali invariati."
   ],
   "limits": [
