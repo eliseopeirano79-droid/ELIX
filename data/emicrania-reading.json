@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-course-531-535",
+  "batch": "theory-course-536-540",
   "chapterId": "emicrania",
-  "updatedAt": "2026-10-30T14:39:22.429990+00:00",
+  "updatedAt": "2026-10-30T15:19:08.500964+00:00",
   "status": "editorial_reconciled_locally_verified_pending_publication",
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -35,7 +35,12 @@
         532,
         533,
         534,
-        535
+        535,
+        536,
+        537,
+        538,
+        539,
+        540
       ],
       "visuallyCheckedPdfPages": [
         514,
@@ -59,14 +64,19 @@
         532,
         533,
         534,
-        535
+        535,
+        536,
+        537,
+        538,
+        539,
+        540
       ],
       "newlyReadTextPages": [
-        531,
-        532,
-        533,
-        534,
-        535
+        536,
+        537,
+        538,
+        539,
+        540
       ],
       "reusedPreviouslyReadPages": [
         514,
@@ -85,7 +95,12 @@
         527,
         528,
         529,
-        530
+        530,
+        531,
+        532,
+        533,
+        534,
+        535
       ],
       "internalLabels": [
         512,
@@ -109,11 +124,16 @@
         530,
         531,
         532,
-        533
+        533,
+        534,
+        535,
+        536,
+        537,
+        538
       ],
       "sourceUnchanged": true,
       "allContentsRead": false,
-      "remaining": "PDF 536–935 e altri intervalli non coperti da questo capitolo.",
+      "remaining": "PDF 541–935 e altri intervalli non coperti da questo capitolo.",
       "limits": [
         "Articoli 1999 e 2020 non letti integralmente.",
         "Studio 2023: solo abstract primario, non testo completo.",
@@ -121,7 +141,8 @@
         "Tabelle PDF 526–527: edizione non identificata; tabella 527 ritagliata e nota a non disponibile. Nessun valore numerico trasferito.",
         "Articolo di affinità del 2010 citato nella pagina 529 non letto; selettività e sicurezza non equiparate.",
         "NICE: passaggi 1.3.32–1.3.33 ricontrollati negli estratti indicizzati ufficiali; accesso diretto 403. EMA Rayvow 429: riutilizzata lettura del 28/10.",
-        "Articolo 2022 citato nella 531 non letto; nessuna figura o dose trasferita."
+        "Articolo 2022 citato nella 531 non letto; nessuna figura o dose trasferita.",
+        "PDF 536–540, etichette 534–538: algoritmo storico 2020, notizie 2018–2023, tabella e previsioni di mercato, tabelle comparative. Testo delle immagini letto nei rendering. Articoli citati non letti; edizione delle tabelle 539–540 non identificata, margine destro della 540 ritagliato. Nessuna figura, dose, valore di vendita o classifica importata."
       ]
     },
     {
@@ -131,23 +152,29 @@
       "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
       "pageCount": 1579,
       "pdfPagesRead": [
-        337
+        337,
+        338
       ],
       "visuallyCheckedPdfPages": [
-        337
+        337,
+        338
       ],
       "newlyReadTextPages": [
+        338
+      ],
+      "reusedPreviouslyReadPages": [
         337
       ],
-      "reusedPreviouslyReadPages": [],
       "internalLabels": [
-        317
+        317,
+        318
       ],
       "sourceUnchanged": true,
       "allContentsRead": false,
       "remaining": "Altri intervalli del tema e del volume ancora da leggere.",
       "limits": [
-        "IX edizione italiana 2014 / XII americana 2012, capitolo 16: sola pagina PDF 337, pagina editoriale 317. Testo disponibile e rendering letti il 30/10/2026, incluso riquadro assente nell’estrazione. Pagina iniziante a frase in corso; non intera sezione o capitolo. Stato dei composti sperimentali trattato come storico."
+        "IX edizione italiana 2014 / XII americana 2012, capitolo 16: sola pagina PDF 337, pagina editoriale 317. Testo disponibile e rendering letti il 30/10/2026, incluso riquadro assente nell’estrazione. Pagina iniziante a frase in corso; non intera sezione o capitolo. Stato dei composti sperimentali trattato come storico.",
+        "Nuova PDF 338, editoriale 318, capitolo 16: figura 16-3 e tabella 16-5 controllate; studio 1991 citato non letto, dosi e dati numerici non trasferiti. Frase finale continua nella pagina successiva non letta. Copertura cumulativa PDF 337–338, non intera sezione."
       ]
     },
     {
@@ -158,23 +185,28 @@
       "pageCount": 1102,
       "pdfPagesRead": [
         317,
-        318
+        318,
+        319
       ],
       "visuallyCheckedPdfPages": [
         317,
-        318
+        318,
+        319
       ],
       "newlyReadTextPages": [
+        319
+      ],
+      "reusedPreviouslyReadPages": [
         317,
         318
       ],
-      "reusedPreviouslyReadPages": [],
       "internalLabels": [],
       "sourceUnchanged": true,
       "allContentsRead": false,
       "remaining": "Altri intervalli del tema e del volume ancora da leggere.",
       "limits": [
-        "VIII edizione italiana 2016 / originale 2015, capitolo 15: PDF 317–318, paginazione editoriale non ricostruita. Testo, annotazioni visibili e figura 15.3 controllati il 30/10/2026. Nessuna figura riprodotta; non intero capitolo né articoli citati."
+        "VIII edizione italiana 2016 / originale 2015, capitolo 15: PDF 317–318, paginazione editoriale non ricostruita. Testo, annotazioni visibili e figura 15.3 controllati il 30/10/2026. Nessuna figura riprodotta; non intero capitolo né articoli citati.",
+        "Nuova PDF 319, capitolo 15: tabella 15.3, riquadro e annotazioni manoscritte controllati nel rendering, distinti dal testo editoriale. Generalizzazioni comparative e stato sperimentale storici non importati come raccomandazioni. Frase finale incompleta; PDF 320 non letta. Copertura cumulativa 317–319, paginazione editoriale non ricostruita."
       ]
     },
     {
@@ -184,19 +216,24 @@
       "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
       "pageCount": 344,
       "pdfPagesRead": [
+        280,
         281,
         282
       ],
       "visuallyCheckedPdfPages": [
+        280,
         281,
         282
       ],
       "newlyReadTextPages": [
+        280
+      ],
+      "reusedPreviouslyReadPages": [
         281,
         282
       ],
-      "reusedPreviouslyReadPages": [],
       "internalLabels": [
+        275,
         276,
         277
       ],
@@ -204,13 +241,14 @@
       "allContentsRead": false,
       "remaining": "Altri intervalli del tema e del volume ancora da leggere.",
       "limits": [
-        "PDF 281–282, etichette 276–277 e pagine di lezione 10–11: testo e rendering letti il 30/10/2026. Tabelle e figura sovrapposte nella 281; parti nascoste non ricostruite. Figure ripetute dalle diapositive riconosciute, non contate come evidenze indipendenti."
+        "PDF 281–282, etichette 276–277 e pagine di lezione 10–11: testo e rendering letti il 30/10/2026. Tabelle e figura sovrapposte nella 281; parti nascoste non ricostruite. Figure ripetute dalle diapositive riconosciute, non contate come evidenze indipendenti.",
+        "Nuova PDF 280, etichetta 275, pagina di lezione 9: figura trigeminovascolare, tabella dei FANS e criteri storici di uso eccessivo controllati. Figure ripetute riconosciute. Formulazione sull’effetto e dosi non generalizzata; criteri storici di risoluzione dopo sospensione distinti da ICHD-3. Copertura cumulativa PDF 280–282, etichette 275–277, pagine di lezione 9–11; parti coperte della 281 restano non ricostruite."
       ]
     }
   ],
-  "newReadPdfPages": 10,
-  "totalReadPdfPages": 27,
-  "currentBatchVisualPages": 10,
+  "newReadPdfPages": 8,
+  "totalReadPdfPages": 35,
+  "currentBatchVisualPages": 8,
   "newIdentities": 0,
   "newDrugSummaries": 0,
   "newPKProfiles": 0,
@@ -342,10 +380,34 @@
       "title": "AIFA · Elenco dei registri di monitoraggio",
       "url": "https://www.aifa.gov.it/it/registri-e-piani-terapeutici1",
       "detail": "Pagina indice letta il 30/10/2026: elenco attivi datato 28/10/2026. CSV non letto: formato non supportato dal lettore e accesso diretto 403. Non dichiarata verificata la riga Aquipta del registro corrente."
+    },
+    {
+      "id": "GAL-EMA",
+      "title": "EMA · Emgality, informazioni di prodotto",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/emgality-epar-product-information_en.pdf",
+      "detail": "Letti il 30/10/2026: sezioni 4.1–4.5 (PDF 2–3), meccanismo e introduzione a studi/esiti in 5.1 (PDF 6). Non intero documento di 61 pagine, tabelle degli studi o figure."
+    },
+    {
+      "id": "EPT-UK",
+      "title": "Vyepti · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/13243/smpc",
+      "detail": "Documento aggiornato il 04/08/2026; lette il 30/10/2026 le sezioni 4.1–4.5 e il meccanismo iniziale di 5.1. Non intero documento né RCP italiano. Accesso diretto al documento EMA non riuscito (429)."
+    },
+    {
+      "id": "EHF-2022",
+      "title": "European Headache Federation · Linea guida CGRP, 2022",
+      "url": "https://link.springer.com/article/10.1186/s10194-022-01431-x",
+      "detail": "Aggiornamento dell’11/06/2022. Letti il 30/10/2026 abstract, distinzione fra GRADE e consenso, quesiti di consenso 1 e 3. Non intero articolo, figure o studi inclusi."
+    },
+    {
+      "id": "AAN-2026",
+      "title": "AAN/AHS · Prevenzione farmacologica dell’emicrania, 2026",
+      "url": "https://headachejournal.onlinelibrary.wiley.com/doi/10.1111/head.70199",
+      "detail": "Pubblicazione online 31/08/2026, DOI 10.1111/head.70199. Letti il 30/10/2026 abstract e raccomandazioni 1–3 e 14–16 con relativi razionali. Non intera linea guida, revisione sistematica associata o appendici; ricerca bibliografica dichiarata fino al 06/06/2024."
     }
   ],
   "limits": [
-    "Capitolo esteso; ventidue pagine delle diapositive, una di Katzung, due di Rang & Dale e due degli appunti lette nel testo disponibile e nei rendering. Dieci nuove pagine in questo lotto; figure ripetute riconosciute. Riconciliazione parziale di meccanismi, storia dei gepanti, indicazioni e accesso. Libri e corsi incompleti; schede italiane di rimborso correnti non verificate. Consultazioni ufficiali selettive e controllo editoriale mirato, non revisione clinica indipendente.",
+    "Capitolo esteso; 35 pagine cumulative di quattro fonti, otto nuove in questo lotto: cinque diapositive, una pagina di ciascun libro e una degli appunti. Testo disponibile e rendering letti, figure ripetute riconosciute. Riconciliazione parziale di meccanismi, prodotti, prevenzione e valutazione degli esiti. Libri e corsi incompleti; rimborso italiano corrente non verificato. Documenti di prodotto e linee guida consultati per passaggi selezionati, non revisione clinica indipendente.",
     "Articoli 1999 e 2020 non letti integralmente.",
     "Studio 2023: solo abstract primario, non testo completo.",
     "IUPHAR 2017–2018: testo selezionato su composizione e trasduzione; figure originali e intera revisione non controllate.",
@@ -355,9 +417,11 @@
     "Articolo di affinità del 2010 citato nella pagina 529 non letto; selettività e sicurezza non equiparate.",
     "NICE: passaggi 1.3.32–1.3.33 ricontrollati negli estratti indicizzati ufficiali; accesso diretto 403. EMA Rayvow 429: riutilizzata lettura del 28/10.",
     "Nuovi intervalli dei libri limitati a tre pagine; due pagine degli appunti, con parti di figura coperte. Articoli citati non letti.",
-    "Registro AIFA corrente non letto: CSV non supportato e accesso diretto 403; esempio del 2024 distinto dall’eleggibilità corrente."
+    "Registro AIFA corrente non letto: CSV non supportato e accesso diretto 403; esempio del 2024 distinto dall’eleggibilità corrente.",
+    "Algoritmo 2020 e articoli nelle PDF 536–538 non letti nelle pubblicazioni originali; tabella 540 ritagliata, edizione non identificata.",
+    "EMA Vyepti non accessibile (429); usato SmPC britannico distinto dalle condizioni italiane. AAN/AHS 2026 ed EHF 2022 consultate solo per i passaggi dichiarati."
   ],
-  "nextInterval": "Concludere questo lotto; poi diapositive PDF 536–540 previa deduplicazione, con prosecuzione mirata della riconciliazione dei libri e degli appunti.",
+  "nextInterval": "Concludere questo lotto; poi diapositive PDF 541–545 previa deduplicazione, con confronto mirato di libri e appunti. Nessuna lettura di Farmacologia II dichiarata.",
   "researchSources": [
     {
       "id": "IUPHAR-CGRP",
@@ -374,8 +438,8 @@
   ],
   "newResearchAbstractsRead": 0,
   "selectedReviewsRead": 0,
-  "newOfficialSources": 3,
-  "recheckedOfficialSources": 1,
+  "newOfficialSources": 4,
+  "recheckedOfficialSources": 0,
   "conflictsAndReconciliation": [
     "CFI 531 e 534: atogepant presentato solo come preventivo; EMA corrente comprende anche uso acuto. La mappa storica non è ripubblicata.",
     "CFI 532: notizia italiana del 2024 e dose; confrontata comunicazione AIFA datata, nessuna dose trasferita e nessuna attestazione di rimborso attuale.",
@@ -385,7 +449,13 @@
     "APP 282: testo iniziale sugli anticorpi limitato al ligando in conflitto con figura e paragrafo successivo; conservata distinzione già corretta fra recettore e ligando. Spray nasale non generalizzato a tutti i gepanti.",
     "KAT 337: stato sperimentale e fallimenti riferiti a edizione storica; non applicati ai prodotti correnti. Aura, oppioidi e descrizione vascolare non trasferiti come indicazioni attuali.",
     "RAN 317–318: modello multifattoriale, figura 15.3, storia di telcagepant; refuso prodromica/postdromica e formulazione pompa protonica non importati. Annotazioni manoscritte distinte dal testo editoriale.",
-    "APP 282 ripete immagini delle diapositive: confronto testuale di cinque nuove pagine correlate, non cinque nuove evidenze indipendenti."
+    "APP 282 ripete immagini delle diapositive: confronto testuale di cinque nuove pagine correlate, non cinque nuove evidenze indipendenti.",
+    "PDF 536–540, etichette 534–538: algoritmo storico 2020, notizie 2018–2023, tabella e previsioni di mercato, tabelle comparative. Testo delle immagini letto nei rendering. Articoli citati non letti; edizione delle tabelle 539–540 non identificata, margine destro della 540 ritagliato. Nessuna figura, dose, valore di vendita o classifica importata.",
+    "Nuova PDF 338, editoriale 318, capitolo 16: figura 16-3 e tabella 16-5 controllate; studio 1991 citato non letto, dosi e dati numerici non trasferiti. Frase finale continua nella pagina successiva non letta. Copertura cumulativa PDF 337–338, non intera sezione.",
+    "Nuova PDF 319, capitolo 15: tabella 15.3, riquadro e annotazioni manoscritte controllati nel rendering, distinti dal testo editoriale. Generalizzazioni comparative e stato sperimentale storici non importati come raccomandazioni. Frase finale incompleta; PDF 320 non letta. Copertura cumulativa 317–319, paginazione editoriale non ricostruita.",
+    "Nuova PDF 280, etichetta 275, pagina di lezione 9: figura trigeminovascolare, tabella dei FANS e criteri storici di uso eccessivo controllati. Figure ripetute riconosciute. Formulazione sull’effetto e dosi non generalizzata; criteri storici di risoluzione dopo sospensione distinti da ICHD-3. Copertura cumulativa PDF 280–282, etichette 275–277, pagine di lezione 9–11; parti coperte della 281 restano non ricostruite.",
+    "Schema preventivo storico distinto da EHF 2022 e AAN/AHS 2026. Grado di evidenza, beneficio comparativo e mercato non equiparati.",
+    "Galcanezumab ed eptinezumab: bersaglio, via, sorveglianza e finestre di rivalutazione mantenuti specifici; documento britannico non generalizzato all’Italia."
   ],
   "deduplication": "Hash e pagine confrontati con i registri di lettura disponibili. Figure ripetute fra appunti e diapositive riconosciute; non nuova scansione completa del corpus."
 }
