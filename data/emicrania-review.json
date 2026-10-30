@@ -1,18 +1,18 @@
 {
-  "batch": "theory-course-536-540",
+  "batch": "theory-course-541-545",
   "chapterId": "emicrania",
-  "checkedAt": "2026-10-30T15:19:08.500964+00:00",
+  "checkedAt": "2026-10-30T15:57:11.525916+00:00",
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "021ef7964ab9af8b4b801b227a890e78ee2eeb5d674c5762b1141d93c6c33db7",
+  "moduleSha256": "6d9bd78aed20f93c604e1c51bfecd510cd62f4821e65bc35f50c731bbc48ebf5",
   "checks": [
-    "Rilettura editoriale di due sezioni ampliate e una nuova, con tre domande originali.",
-    "Otto nuove pagine di quattro fonti lette nel testo disponibile e nei rendering; limiti, figure ripetute e bordi mancanti registrati.",
-    "Confrontati passaggi selezionati AAN/AHS 2026, EHF 2022, EMA Emgality e SmPC britannico Vyepti; nessuna revisione clinica indipendente.",
-    "Testo delle 22 sezioni e 18 domande pregresse conservato; nessun cambiamento al catalogo.",
+    "Rilettura editoriale della sezione aggiunta e dell’ampliamento: popolazione, confronto, esiti e certezza distinti.",
+    "Quattro nuove pagine pertinenti al capitolo; otto ispezionate complessivamente, con due rinviate e due non sostanziali registrate separatamente.",
+    "ACP 2025 e NICE confrontati nei limiti dichiarati; nessuna dose o graduatoria trasferita.",
+    "Testo delle 23 sezioni e 21 domande pregresse conservato.",
     "40 validatori superati; otto configurazioni browser, due temi, tastiera, undici farmaci, cinque capitoli collegati, ricerca e offline.",
-    "Aggiornamento reale 0.50.0→0.51.0 con preferiti, progressi e tema conservati. Altri 56 capitoli invariati; testo delle 22 sezioni e 18 domande pregresse conservato.",
+    "Aggiornamento reale 0.51.0→0.52.0 con preferiti, progressi e tema conservati. Altri 56 capitoli invariati; testo delle 23 sezioni e 21 domande pregresse conservato.",
     "Sei schermate ispezionate; hash dei quattro originali invariati."
   ],
   "limits": [

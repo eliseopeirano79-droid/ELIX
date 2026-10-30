@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-10-30T15:19:08.500964+00:00",
-  "batch": "theory-course-536-540",
+  "updatedAt": "2026-10-30T15:57:11.525916+00:00",
+  "batch": "theory-course-541-545",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.51.0",
-  "branch": "feat/theory-course-536-540",
-  "baseCommit": "0aa0be44ebcf8fd7ea9a4352b98fe0a4c419b343",
+  "release": "0.52.0",
+  "branch": "feat/theory-course-541-545",
+  "baseCommit": "60e7fbea7fccd201d3fa9af5c5be2cc7adba1d71",
   "previousBatch": {
-    "batch": "theory-course-531-535",
+    "batch": "theory-course-536-540",
     "status": "published_and_live_verified",
-    "release": "0.50.0",
-    "commit": "0aa0be44ebcf8fd7ea9a4352b98fe0a4c419b343"
+    "release": "0.51.0",
+    "commit": "60e7fbea7fccd201d3fa9af5c5be2cc7adba1d71"
   },
   "scope": [
-    "Ampliare la teoria dell’emicrania: confronto degli anticorpi, scelta della prevenzione e valutazione degli esiti."
+    "Concludere l’intervallo sull’emicrania con razionale delle associazioni acute e interpretazione delle raccomandazioni."
   ],
   "completed": [
-    "Otto nuove pagine lette nel testo disponibile e nei rendering; 35 cumulative in quattro fonti.",
-    "23 sezioni, 4956 parole, 21 domande, 31 riferimenti e undici collegamenti a identità esistenti.",
+    "Quattro nuove pagine pertinenti, 39 cumulative; otto pagine ispezionate e classificate senza ricontare quelle rinviate.",
+    "24 sezioni, 5389 parole, 23 domande, 33 riferimenti e undici collegamenti a identità esistenti.",
     "40 validatori superati; otto configurazioni browser, due temi, tastiera, undici farmaci, cinque capitoli collegati, ricerca e offline.",
-    "Aggiornamento reale 0.50.0→0.51.0 con preferiti, progressi e tema conservati. Altri 56 capitoli invariati; testo delle 22 sezioni e 18 domande pregresse conservato.",
+    "Aggiornamento reale 0.51.0→0.52.0 con preferiti, progressi e tema conservati. Altri 56 capitoli invariati; testo delle 23 sezioni e 21 domande pregresse conservato.",
     "Sei schermate ispezionate; hash dei quattro originali invariati."
   ],
   "remaining": [
@@ -44,14 +44,14 @@
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
     "newSections": 1,
-    "expandedSections": 2,
-    "newLinksToExistingIdentities": 2
+    "expandedSections": 1,
+    "newLinksToExistingIdentities": 0
   },
   "readingManifests": [
     "data/emicrania-reading.json"
   ],
   "limits": [
-    "Capitolo esteso; 35 pagine cumulative di quattro fonti, otto nuove in questo lotto: cinque diapositive, una pagina di ciascun libro e una degli appunti. Testo disponibile e rendering letti, figure ripetute riconosciute. Riconciliazione parziale di meccanismi, prodotti, prevenzione e valutazione degli esiti. Libri e corsi incompleti; rimborso italiano corrente non verificato. Documenti di prodotto e linee guida consultati per passaggi selezionati, non revisione clinica indipendente.",
+    "Capitolo esteso; 39 pagine cumulative di quattro fonti, quattro nuove pertinenti all’emicrania in questo lotto. Altre quattro pagine ispezionate separatamente: una vuota, un indice e due introduttive sulle malattie infiammatorie intestinali rinviate al prossimo lotto. Testo disponibile e rendering controllati; libri e corsi incompleti. Fonti ufficiali e abstract consultati nei limiti dichiarati; non revisione clinica indipendente.",
     "Articoli 1999 e 2020 non letti integralmente.",
     "Studio 2023: solo abstract primario, non testo completo.",
     "IUPHAR 2017–2018: testo selezionato su composizione e trasduzione; figure originali e intera revisione non controllate.",
@@ -63,7 +63,9 @@
     "Nuovi intervalli dei libri limitati a tre pagine; due pagine degli appunti, con parti di figura coperte. Articoli citati non letti.",
     "Registro AIFA corrente non letto: CSV non supportato e accesso diretto 403; esempio del 2024 distinto dall’eleggibilità corrente.",
     "Algoritmo 2020 e articoli nelle PDF 536–538 non letti nelle pubblicazioni originali; tabella 540 ritagliata, edizione non identificata.",
-    "EMA Vyepti non accessibile (429); usato SmPC britannico distinto dalle condizioni italiane. AAN/AHS 2026 ed EHF 2022 consultate solo per i passaggi dichiarati."
+    "EMA Vyepti non accessibile (429); usato SmPC britannico distinto dalle condizioni italiane. AAN/AHS 2026 ed EHF 2022 consultate solo per i passaggi dichiarati.",
+    "ACP 2025: solo abstract e raccomandazioni, testo integrale non accessibile. Revisione collegata: abstract letto, correzione successiva non leggibile; nessuna stima comparativa importata.",
+    "Riconciliazione delle PDF 544–545 rinviata: non nuove pagine del capitolo emicrania e nessun capitolo sulle malattie intestinali pubblicato in questo lotto."
   ],
-  "nextBatch": "Concludere questo lotto; poi diapositive PDF 541–545 previa deduplicazione, con confronto mirato di libri e appunti. Nessuna lettura di Farmacologia II dichiarata."
+  "nextBatch": "Un solo prossimo lotto: introduzione alle malattie infiammatorie intestinali. Riutilizzare PDF 544–545 già lette e controllate, poi deduplicare e leggere PDF 546–550 con libri e appunti pertinenti. Farmacologia II non ancora letta."
 }
