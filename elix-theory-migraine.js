@@ -155,9 +155,11 @@ export const THEORY_MIGRAINE = Object.freeze({
       "refs": [
         "CFI",
         "EREN-EMA",
-        "FREM-EMA"
+        "FREM-EMA",
+        "GAL-EMA",
+        "EPT-UK"
       ],
-      "text": "Un intervento sulla via del CGRP può avvenire in punti diversi. Se un anticorpo lega il peptide, riduce la possibilità che il messaggero raggiunga i recettori. Se lega il recettore, ostacola invece l’interazione su quel bersaglio. In entrambi i casi si può ridurre la segnalazione, ma l’oggetto riconosciuto dall’anticorpo cambia.\n\nErenumab illustra il secondo caso: si lega al recettore CGRP e compete con il legame del peptide. Fremanezumab illustra il primo: riconosce il ligando CGRP, nelle forme alfa e beta, impedendone il legame al recettore. I documenti EMA consultati collocano entrambi nella profilassi dell’emicrania nell’adulto con almeno quattro giorni mensili di emicrania. Questi esempi chiariscono la posizione dell’intervento, senza dimostrare una superiorità clinica dell’una sull’altra strategia.\n\nUna conseguenza del modello è che non serve distruggere la cellula per ridurne una comunicazione: questi anticorpi sono presentati come strumenti che interferiscono con una via di segnalazione. Il collegamento con il capitolo sugli anticorpi aiuta a separare riconoscimento del bersaglio e possibili funzioni della porzione Fc, che non devono essere attribuite indistintamente a tutti i prodotti.\n\nLa selettività non equivale ad assenza di rischi. Le informazioni dei due prodotti richiamano reazioni di ipersensibilità e limiti dei dati in alcune patologie cardiovascolari maggiori; per erenumab è descritta anche stipsi, talvolta con complicanze serie. La differenza di bersaglio va quindi letta insieme alla sicurezza e alle condizioni studiate, non trasformata da sola in una regola di scelta."
+      "text": "Un intervento sulla via del CGRP può avvenire in punti diversi. Se un anticorpo lega il peptide, riduce la possibilità che il messaggero raggiunga i recettori. Se lega il recettore, ostacola invece l’interazione su quel bersaglio. In entrambi i casi si può ridurre la segnalazione, ma l’oggetto riconosciuto dall’anticorpo cambia.\n\nErenumab illustra il secondo caso: si lega al recettore CGRP e compete con il legame del peptide. Fremanezumab illustra il primo: riconosce il ligando CGRP, nelle forme alfa e beta, impedendone il legame al recettore. I documenti EMA consultati collocano entrambi nella profilassi dell’emicrania nell’adulto con almeno quattro giorni mensili di emicrania. Questi esempi chiariscono la posizione dell’intervento, senza dimostrare una superiorità clinica dell’una sull’altra strategia.\n\nUna conseguenza del modello è che non serve distruggere la cellula per ridurne una comunicazione: questi anticorpi sono presentati come strumenti che interferiscono con una via di segnalazione. Il collegamento con il capitolo sugli anticorpi aiuta a separare riconoscimento del bersaglio e possibili funzioni della porzione Fc, che non devono essere attribuite indistintamente a tutti i prodotti.\n\nLa selettività non equivale ad assenza di rischi. Le informazioni dei due prodotti richiamano reazioni di ipersensibilità e limiti dei dati in alcune patologie cardiovascolari maggiori; per erenumab è descritta anche stipsi, talvolta con complicanze serie. La differenza di bersaglio va quindi letta insieme alla sicurezza e alle condizioni studiate, non trasformata da sola in una regola di scelta.\n\nGalcanezumab ed eptinezumab completano il confronto: entrambi legano il peptide CGRP, mentre erenumab riconosce il recettore. Galcanezumab è un anticorpo umanizzato IgG4 somministrato per via sottocutanea; eptinezumab è un IgG1 che lega le forme alfa e beta del peptide e viene somministrato mediante infusione endovenosa. La via endovenosa descrive l’ingresso nell’organismo, non trasforma un’indicazione preventiva in trattamento dell’attacco. Per eptinezumab il documento qui consultato è britannico: non certifica le condizioni italiane di impiego o accesso.\n\nAnche i tempi della sorveglianza appartengono al singolo prodotto. Le informazioni europee di galcanezumab descrivono possibili reazioni di ipersensibilità ritardate; quelle britanniche di eptinezumab richiamano reazioni gravi anche durante l’infusione. Condividere un bersaglio non rende identici formulazione, modalità di somministrazione o profilo delle reazioni. Nessuna di queste differenze dimostra, da sola, una superiorità complessiva."
     },
     {
       "id": "misura-biomarcatore",
@@ -174,9 +176,26 @@ export const THEORY_MIGRAINE = Object.freeze({
       "refs": [
         "CFI",
         "NICE",
-        "TOP-EMA"
+        "TOP-EMA",
+        "KAT-MIG",
+        "RAN-MIG",
+        "EHF-2022",
+        "AAN-2026"
       ],
-      "text": "La prevenzione dell’emicrania comprende farmaci provenienti da famiglie farmacologiche diverse. Nelle diapositive compaiono, fra gli altri, beta-bloccanti e antiepilettici: l’origine della classe non descrive da sola la ragione del beneficio nell’emicrania. Un’indicazione può essere sostenuta da studi clinici anche quando il contributo esatto dei diversi effetti molecolari non è interamente chiarito.\n\nLe raccomandazioni NICE consultate discutono propranololo, topiramato e amitriptilina considerando benefici, rischi, comorbilità e preferenze. Questo non costituisce una graduatoria da applicare automaticamente in Italia né dimostra che tutte le opzioni siano intercambiabili. Autorizzazione, raccomandazione e condizioni di accesso sono informazioni differenti.\n\nIl topiramato mostra perché una lista di nomi sia insufficiente. Le misure europee vietano il suo impiego nella prevenzione dell’emicrania durante la gravidanza e prevedono specifiche condizioni del programma di prevenzione della gravidanza per chi può iniziarne una. Non si trasferiscono alla profilassi emicranica le eccezioni previste per altre indicazioni. La lezione generale è valutare la sicurezza del singolo farmaco nel contesto pertinente: appartenere a una classe efficace non elimina rischi specifici, e una sintesi didattica non può sostituire questa valutazione."
+      "text": "La prevenzione dell’emicrania comprende farmaci provenienti da famiglie farmacologiche diverse. Nelle diapositive compaiono, fra gli altri, beta-bloccanti e antiepilettici: l’origine della classe non descrive da sola la ragione del beneficio nell’emicrania. Un’indicazione può essere sostenuta da studi clinici anche quando il contributo esatto dei diversi effetti molecolari non è interamente chiarito.\n\nLe raccomandazioni NICE consultate discutono propranololo, topiramato e amitriptilina considerando benefici, rischi, comorbilità e preferenze. Questo non costituisce una graduatoria da applicare automaticamente in Italia né dimostra che tutte le opzioni siano intercambiabili. Autorizzazione, raccomandazione e condizioni di accesso sono informazioni differenti.\n\nIl topiramato mostra perché una lista di nomi sia insufficiente. Le misure europee vietano il suo impiego nella prevenzione dell’emicrania durante la gravidanza e prevedono specifiche condizioni del programma di prevenzione della gravidanza per chi può iniziarne una. Non si trasferiscono alla profilassi emicranica le eccezioni previste per altre indicazioni. La lezione generale è valutare la sicurezza del singolo farmaco nel contesto pertinente: appartenere a una classe efficace non elimina rischi specifici, e una sintesi didattica non può sostituire questa valutazione.\n\nUna seconda distinzione riguarda il posto dei farmaci nel percorso di cura. L’algoritmo storico riportato nelle diapositive è una proposta datata: le sue frecce non possono diventare una sequenza obbligatoria senza confrontarle con raccomandazioni e condizioni di accesso aggiornate. Nel consenso EHF del 2022 gli anticorpi diretti contro la via del CGRP entrano fra le opzioni di prima linea; questa posizione non coincide con una garanzia di rimborso né con l’obbligo di preferirli per ogni persona.\n\nLe raccomandazioni AAN/AHS del 2026 richiedono una scelta condivisa che consideri storia clinica, controindicazioni, preferenze, tollerabilità e costi. Non identificano un farmaco chiaramente superiore a tutti gli altri nel ridurre la frequenza. Il grado di fiducia nell’evidenza va distinto dall’entità del beneficio: una base di studi meno solida non dimostra automaticamente inefficacia.\n\nQuesta distinzione aiuta anche a leggere le tabelle del corso. Una colonna sull’efficacia, una sui rischi e una sui costi rispondono a domande diverse; non si possono sommare i segni grafici come punti di una classifica. Analogamente una previsione di vendite descrive un mercato, non l’efficacia comparativa. Per interpretare una tabella servono popolazione, esito, confronto, periodo e origine dei prezzi; se mancano, il quadro resta un orientamento storico."
+    },
+    {
+      "id": "valutare-prevenzione",
+      "title": "Valutare la prevenzione: tempo, esiti e tollerabilità",
+      "refs": [
+        "CFI",
+        "GAL-EMA",
+        "EPT-UK",
+        "EHF-2022",
+        "AAN-2026"
+      ],
+      "formula": "Situazione iniziale → esposizione documentata → esiti e tollerabilità → rivalutazione",
+      "text": "Una terapia preventiva si valuta su un andamento nel tempo. Una settimana particolarmente favorevole o sfavorevole, isolata dal resto, non descrive necessariamente la risposta. Lo schema proposto qui organizza la lettura dei risultati: chiarire la situazione iniziale, documentare il trattamento effettivamente ricevuto, confrontare gli esiti e riesaminare il rapporto fra beneficio e oneri. È una mappa didattica della valutazione, non un calendario per modificare autonomamente una terapia.\n\nLe raccomandazioni AAN/AHS del 2026 considerano frequenza, gravità, sintomi associati, qualità di vita e consumo di farmaci per l’attacco; suggeriscono strumenti coerenti, come diario e scale validate. Riduzione dei giorni con emicrania e recupero delle attività quotidiane sono esiti collegati, ma non equivalenti. La stessa variazione numerica può avere significati diversi in persone con condizioni iniziali e obiettivi differenti.\n\nLa finestra di osservazione dipende anche dal documento e dal trattamento. Il consenso EHF 2022 propone una prima valutazione degli anticorpi dopo almeno tre mesi consecutivi. Le informazioni EMA di galcanezumab chiedono di valutarne il beneficio entro tre mesi e poi periodicamente; lo SmPC britannico di eptinezumab colloca a sei mesi la valutazione del beneficio complessivo e della prosecuzione. Queste indicazioni hanno formulazioni e scopi distinti: non vanno fuse in una scadenza universale valida per tutta la classe.\n\nInfine, attendere una finestra utile per giudicare l’efficacia non significa attendere per valutare un effetto indesiderato. La sorveglianza accompagna il trattamento. Un’interruzione per scarsa tollerabilità e un’assenza di beneficio dopo esposizione adeguata non sono lo stesso risultato; prima di parlare di fallimento occorre ricostruire durata, regolarità e condizioni del confronto. La domanda conclusiva è quale beneficio rilevante sia stato ottenuto e a quale costo per quella persona, non soltanto se un numero abbia superato una soglia."
     },
     {
       "id": "gravidanza-evidenze",
@@ -300,6 +319,18 @@ export const THEORY_MIGRAINE = Object.freeze({
     {
       "question": "Una soglia riportata in una disposizione di rimborso può essere usata da sola per diagnosticare l’emicrania?",
       "answer": "No. Diagnosi, indicazione autorizzata ed eleggibilità al rimborso rispondono a domande diverse. Data, territorio e requisiti completi devono rimanere distinti."
+    },
+    {
+      "question": "Un anticorpo somministrato per infusione è necessariamente un trattamento dell’attacco emicranico?",
+      "answer": "No. La via di somministrazione e l’indicazione sono dimensioni diverse. Eptinezumab è qui descritto nel suo impiego preventivo, secondo il documento britannico consultato."
+    },
+    {
+      "question": "Una maggiore fiducia nell’evidenza dimostra sempre un beneficio maggiore rispetto a ogni alternativa?",
+      "answer": "No. Solidità della stima ed entità dell’effetto sono concetti distinti; una graduatoria terapeutica richiede anche confronti pertinenti, sicurezza, tollerabilità e contesto."
+    },
+    {
+      "question": "La finestra per valutare il beneficio autorizza a rimandare l’esame di una reazione avversa?",
+      "answer": "No. La sorveglianza accompagna il trattamento. Interruzione per intolleranza e inefficacia dopo esposizione adeguata devono essere distinte."
     }
   ],
   "relatedExistingChapterIds": [
@@ -345,13 +376,21 @@ export const THEORY_MIGRAINE = Object.freeze({
     {
       "id": "CHEMBL3039520",
       "label": "LASMIDITAN"
+    },
+    {
+      "id": "CHEMBL3707328",
+      "label": "GALCANEZUMAB"
+    },
+    {
+      "id": "CHEMBL3833320",
+      "label": "EPTINEZUMAB"
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 514–530, etichette interne 512–528: testo disponibile e immagini controllati; cinque nuove pagine 526–530. Ritaglio e nota assente nella tabella 527; edizione delle tabelle 526–527 non identificata. Restano discordanze di pannelli/unità nella 522 e coperture parziali nelle 523 e 525. Nessun valore, dose o figura trasferito; articoli citati non letti integralmente. Nuove pagine PDF 531–535, etichette 529–533, testo disponibile e rendering letti il 30/10/2026: classificazioni storiche dei gepanti riconciliate; articolo 2022 citato nella 531 non letto."
+      "detail": "Diapositive del corso di Farmacologia I, AA 2025–26: PDF 514–540, etichette 512–538. Nuove PDF 536–540 lette nel testo disponibile e nei rendering il 30/10/2026. PDF 536–540, etichette 534–538: algoritmo storico 2020, notizie 2018–2023, tabella e previsioni di mercato, tabelle comparative. Testo delle immagini letto nei rendering. Articoli citati non letti; edizione delle tabelle 539–540 non identificata, margine destro della 540 ritagliato. Nessuna figura, dose, valore di vendita o classifica importata."
     },
     {
       "id": "ICHD-1",
@@ -476,17 +515,17 @@ export const THEORY_MIGRAINE = Object.freeze({
     {
       "id": "KAT-MIG",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX edizione italiana 2014 / XII americana 2012, capitolo 16: sola pagina PDF 337, pagina editoriale 317. Testo disponibile e rendering letti il 30/10/2026, incluso riquadro assente nell’estrazione. Pagina iniziante a frase in corso; non intera sezione o capitolo. Stato dei composti sperimentali trattato come storico."
+      "detail": "IX edizione italiana 2014 / XII americana 2012, capitolo 16: PDF 337–338, editoriali 317–318. Testo disponibile e rendering letti il 30/10/2026, incluso riquadro, figura 16-3 e tabella 16-5. La 337 inizia a frase in corso, la 338 termina con frase che prosegue fuori dall’intervallo. Stato sperimentale trattato come storico; studio 1991 citato non letto, nessuna dose o figura trasferita."
     },
     {
       "id": "RAN-MIG",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII edizione italiana 2016 / originale 2015, capitolo 15: PDF 317–318, paginazione editoriale non ricostruita. Testo, annotazioni visibili e figura 15.3 controllati il 30/10/2026. Nessuna figura riprodotta; non intero capitolo né articoli citati."
+      "detail": "VIII edizione italiana 2016 / originale 2015, capitolo 15: PDF 317–319, paginazione editoriale non ricostruita. Testo, figura 15.3, tabella 15.3 e riquadri controllati il 30/10/2026; annotazioni manoscritte distinte dal testo editoriale. Frase finale della 319 prosegue nella 320 non letta. Non intero capitolo né articoli citati; nessuna figura riprodotta."
     },
     {
       "id": "APP-MIG",
       "title": "Appunti del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 281–282, etichette 276–277 e pagine di lezione 10–11: testo e rendering letti il 30/10/2026. Tabelle e figura sovrapposte nella 281; parti nascoste non ricostruite. Figure ripetute dalle diapositive riconosciute, non contate come evidenze indipendenti."
+      "detail": "Appunti del corso di Farmacologia I, AA 2025–26: PDF 280–282, etichette 275–277 e pagine di lezione 9–11. Testo disponibile e rendering letti il 30/10/2026. Parti sovrapposte nella 281 non ricostruite. Figure ripetute dalle diapositive riconosciute; criteri storici di uso eccessivo distinti da ICHD-3. Nessuna dose o figura trasferita."
     },
     {
       "id": "ZAV-US",
@@ -505,8 +544,32 @@ export const THEORY_MIGRAINE = Object.freeze({
       "title": "AIFA · Elenco dei registri di monitoraggio",
       "url": "https://www.aifa.gov.it/it/registri-e-piani-terapeutici1",
       "detail": "Pagina indice letta il 30/10/2026: elenco attivi datato 28/10/2026. CSV non letto: formato non supportato dal lettore e accesso diretto 403. Non dichiarata verificata la riga Aquipta del registro corrente."
+    },
+    {
+      "id": "GAL-EMA",
+      "title": "EMA · Emgality, informazioni di prodotto",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/emgality-epar-product-information_en.pdf",
+      "detail": "Letti il 30/10/2026: sezioni 4.1–4.5 (PDF 2–3), meccanismo e introduzione a studi/esiti in 5.1 (PDF 6). Non intero documento di 61 pagine, tabelle degli studi o figure."
+    },
+    {
+      "id": "EPT-UK",
+      "title": "Vyepti · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/13243/smpc",
+      "detail": "Documento aggiornato il 04/08/2026; lette il 30/10/2026 le sezioni 4.1–4.5 e il meccanismo iniziale di 5.1. Non intero documento né RCP italiano. Accesso diretto al documento EMA non riuscito (429)."
+    },
+    {
+      "id": "EHF-2022",
+      "title": "European Headache Federation · Linea guida CGRP, 2022",
+      "url": "https://link.springer.com/article/10.1186/s10194-022-01431-x",
+      "detail": "Aggiornamento dell’11/06/2022. Letti il 30/10/2026 abstract, distinzione fra GRADE e consenso, quesiti di consenso 1 e 3. Non intero articolo, figure o studi inclusi."
+    },
+    {
+      "id": "AAN-2026",
+      "title": "AAN/AHS · Prevenzione farmacologica dell’emicrania, 2026",
+      "url": "https://headachejournal.onlinelibrary.wiley.com/doi/10.1111/head.70199",
+      "detail": "Pubblicazione online 31/08/2026, DOI 10.1111/head.70199. Letti il 30/10/2026 abstract e raccomandazioni 1–3 e 14–16 con relativi razionali. Non intera linea guida, revisione sistematica associata o appendici; ricerca bibliografica dichiarata fino al 06/06/2024."
     }
   ],
-  "coverage": "Capitolo esteso; ventidue pagine delle diapositive, una di Katzung, due di Rang & Dale e due degli appunti lette nel testo disponibile e nei rendering. Dieci nuove pagine in questo lotto; figure ripetute riconosciute. Riconciliazione parziale di meccanismi, storia dei gepanti, indicazioni e accesso. Libri e corsi incompleti; schede italiane di rimborso correnti non verificate. Consultazioni ufficiali selettive e controllo editoriale mirato, non revisione clinica indipendente.",
-  "wordCount": 4351
+  "coverage": "Capitolo esteso; 35 pagine cumulative di quattro fonti, otto nuove in questo lotto: cinque diapositive, una pagina di ciascun libro e una degli appunti. Testo disponibile e rendering letti, figure ripetute riconosciute. Riconciliazione parziale di meccanismi, prodotti, prevenzione e valutazione degli esiti. Libri e corsi incompleti; rimborso italiano corrente non verificato. Documenti di prodotto e linee guida consultati per passaggi selezionati, non revisione clinica indipendente.",
+  "wordCount": 4956
 });

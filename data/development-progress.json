@@ -1,27 +1,28 @@
 {
-  "updatedAt": "2026-10-30T14:39:22.429990+00:00",
-  "batch": "theory-course-531-535",
+  "updatedAt": "2026-10-30T15:19:08.500964+00:00",
+  "batch": "theory-course-536-540",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.50.0",
-  "branch": "feat/theory-course-531-535",
-  "baseCommit": "1521ea06650397ef6f2a99e9f080bc51b01819bd",
+  "release": "0.51.0",
+  "branch": "feat/theory-course-536-540",
+  "baseCommit": "0aa0be44ebcf8fd7ea9a4352b98fe0a4c419b343",
   "previousBatch": {
-    "batch": "theory-course-526-530",
+    "batch": "theory-course-531-535",
     "status": "published_and_live_verified",
-    "release": "0.49.0",
-    "commit": "1521ea06650397ef6f2a99e9f080bc51b01819bd"
+    "release": "0.50.0",
+    "commit": "0aa0be44ebcf8fd7ea9a4352b98fe0a4c419b343"
   },
   "scope": [
-    "Ampliare il capitolo sull’emicrania: gepanti, sicurezza e accesso; riconciliare intervalli selezionati di due libri e degli appunti."
+    "Ampliare la teoria dell’emicrania: confronto degli anticorpi, scelta della prevenzione e valutazione degli esiti."
   ],
   "completed": [
-    "Dieci nuove pagine con testo disponibile e rendering letti; 27 pagine cumulative in quattro fonti.",
-    "22 sezioni, 4351 parole, 18 domande, 27 riferimenti e nove collegamenti a identità esistenti.",
-    "40 validatori e otto configurazioni browser superati: due temi, tastiera, fonti, nove farmaci, cinque capitoli collegati, ricerca e offline.",
-    "Aggiornamento reale 0.49.0→0.50.0 con preferiti, progressi e tema conservati. Altri 56 capitoli, 19 sezioni e 15 domande pregresse invariati."
+    "Otto nuove pagine lette nel testo disponibile e nei rendering; 35 cumulative in quattro fonti.",
+    "23 sezioni, 4956 parole, 21 domande, 31 riferimenti e undici collegamenti a identità esistenti.",
+    "40 validatori superati; otto configurazioni browser, due temi, tastiera, undici farmaci, cinque capitoli collegati, ricerca e offline.",
+    "Aggiornamento reale 0.50.0→0.51.0 con preferiti, progressi e tema conservati. Altri 56 capitoli invariati; testo delle 22 sezioni e 18 domande pregresse conservato.",
+    "Sei schermate ispezionate; hash dei quattro originali invariati."
   ],
   "remaining": [
-    "CI sul commit, deploy concluso e verifica online di file, navigazione, offline e percorsi di accesso."
+    "CI sul commit, deploy concluso e verifica online di contenuti, navigazione, offline e percorsi di accesso."
   ],
   "counts": {
     "identities": 4225,
@@ -42,15 +43,15 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 3,
-    "expandedSections": 0,
-    "newLinksToExistingIdentities": 0
+    "newSections": 1,
+    "expandedSections": 2,
+    "newLinksToExistingIdentities": 2
   },
   "readingManifests": [
     "data/emicrania-reading.json"
   ],
   "limits": [
-    "Capitolo esteso; ventidue pagine delle diapositive, una di Katzung, due di Rang & Dale e due degli appunti lette nel testo disponibile e nei rendering. Dieci nuove pagine in questo lotto; figure ripetute riconosciute. Riconciliazione parziale di meccanismi, storia dei gepanti, indicazioni e accesso. Libri e corsi incompleti; schede italiane di rimborso correnti non verificate. Consultazioni ufficiali selettive e controllo editoriale mirato, non revisione clinica indipendente.",
+    "Capitolo esteso; 35 pagine cumulative di quattro fonti, otto nuove in questo lotto: cinque diapositive, una pagina di ciascun libro e una degli appunti. Testo disponibile e rendering letti, figure ripetute riconosciute. Riconciliazione parziale di meccanismi, prodotti, prevenzione e valutazione degli esiti. Libri e corsi incompleti; rimborso italiano corrente non verificato. Documenti di prodotto e linee guida consultati per passaggi selezionati, non revisione clinica indipendente.",
     "Articoli 1999 e 2020 non letti integralmente.",
     "Studio 2023: solo abstract primario, non testo completo.",
     "IUPHAR 2017–2018: testo selezionato su composizione e trasduzione; figure originali e intera revisione non controllate.",
@@ -60,7 +61,9 @@
     "Articolo di affinità del 2010 citato nella pagina 529 non letto; selettività e sicurezza non equiparate.",
     "NICE: passaggi 1.3.32–1.3.33 ricontrollati negli estratti indicizzati ufficiali; accesso diretto 403. EMA Rayvow 429: riutilizzata lettura del 28/10.",
     "Nuovi intervalli dei libri limitati a tre pagine; due pagine degli appunti, con parti di figura coperte. Articoli citati non letti.",
-    "Registro AIFA corrente non letto: CSV non supportato e accesso diretto 403; esempio del 2024 distinto dall’eleggibilità corrente."
+    "Registro AIFA corrente non letto: CSV non supportato e accesso diretto 403; esempio del 2024 distinto dall’eleggibilità corrente.",
+    "Algoritmo 2020 e articoli nelle PDF 536–538 non letti nelle pubblicazioni originali; tabella 540 ritagliata, edizione non identificata.",
+    "EMA Vyepti non accessibile (429); usato SmPC britannico distinto dalle condizioni italiane. AAN/AHS 2026 ed EHF 2022 consultate solo per i passaggi dichiarati."
   ],
-  "nextBatch": "Concludere questo lotto; poi diapositive PDF 536–540 previa deduplicazione, con prosecuzione mirata della riconciliazione dei libri e degli appunti."
+  "nextBatch": "Concludere questo lotto; poi diapositive PDF 541–545 previa deduplicazione, con confronto mirato di libri e appunti. Nessuna lettura di Farmacologia II dichiarata."
 }

@@ -1,21 +1,22 @@
 {
-  "batch": "theory-course-531-535",
+  "batch": "theory-course-536-540",
   "chapterId": "emicrania",
-  "checkedAt": "2026-10-30T14:39:22.429990+00:00",
+  "checkedAt": "2026-10-30T15:19:08.500964+00:00",
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "32a78a509ed7a169e59410402c11be62a5103db9d7d9721e6f2a5a25221f0ceb",
+  "moduleSha256": "021ef7964ab9af8b4b801b227a890e78ee2eeb5d674c5762b1141d93c6c33db7",
   "checks": [
-    "Tre sezioni originali rilette: sviluppo dei gepanti, sorveglianza e interazioni, distinzione indicazione/rimborso.",
-    "Dieci pagine nuove lette nel testo disponibile e nei rendering; figure ripetute e parti coperte registrate.",
-    "Katzung e Rang & Dale distinti per edizione, stato sperimentale separato dalle indicazioni attuali.",
-    "Diciannove sezioni e quindici domande pregresse conservate; tre domande aggiunte.",
-    "40 validatori e otto configurazioni browser superati: due temi, tastiera, fonti, nove farmaci, cinque capitoli collegati, ricerca e offline.",
-    "Aggiornamento reale 0.49.0→0.50.0 con preferiti, progressi e tema conservati. Altri 56 capitoli, 19 sezioni e 15 domande pregresse invariati."
+    "Rilettura editoriale di due sezioni ampliate e una nuova, con tre domande originali.",
+    "Otto nuove pagine di quattro fonti lette nel testo disponibile e nei rendering; limiti, figure ripetute e bordi mancanti registrati.",
+    "Confrontati passaggi selezionati AAN/AHS 2026, EHF 2022, EMA Emgality e SmPC britannico Vyepti; nessuna revisione clinica indipendente.",
+    "Testo delle 22 sezioni e 18 domande pregresse conservato; nessun cambiamento al catalogo.",
+    "40 validatori superati; otto configurazioni browser, due temi, tastiera, undici farmaci, cinque capitoli collegati, ricerca e offline.",
+    "Aggiornamento reale 0.50.0→0.51.0 con preferiti, progressi e tema conservati. Altri 56 capitoli invariati; testo delle 22 sezioni e 18 domande pregresse conservato.",
+    "Sei schermate ispezionate; hash dei quattro originali invariati."
   ],
   "limits": [
-    "Controllo editoriale mirato del solo integratore, non revisione clinica indipendente.",
-    "Verifiche locali superate; CI, deploy e verifica online da concludere."
+    "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
+    "Controlli locali superati; CI, deploy e verifica online da concludere."
   ]
 }
