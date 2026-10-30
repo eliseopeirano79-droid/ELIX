@@ -78,6 +78,7 @@ jobs:
           PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-theory-antidepressants.cjs
           PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-theory-opioids.cjs
           PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-theory-migraine.cjs
+          PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-theory-ibd.cjs
           PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-solifenacin.cjs
           PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-solifenacin-drugs.cjs
           PLAYWRIGHT_MODULE=/tmp/elix-audit-deps/node_modules/playwright node scripts/browser-update-banner.cjs

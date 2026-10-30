@@ -49,9 +49,9 @@ const malicious={sections:{pharmacokinetics:['Drug shows CYP2D6 <script>alert("x
 const escaped=renderPK09(malicious);
 assert.doesNotMatch(escaped,/<script>/);
 assert.match(escaped,/&lt;script&gt;/);
-assert.equal(ELIX_CHAPTERS.length,57);
+assert.equal(ELIX_CHAPTERS.length,58);
 assert.equal(CHAPTERS_09.length,12);
-assert.equal(new Set(ELIX_CHAPTERS.map(x=>x.id)).size,57);
+assert.equal(new Set(ELIX_CHAPTERS.map(x=>x.id)).size,58);
 assert.equal(new Set(ELIX_CHAPTERS.map(x=>x.volume)).size,18);
 assert.ok(CHAPTERS_09.every(x=>x.sections.length===4&&x.sections.every(s=>s.text.length>170)));
 assert.equal(GUIDELINES_09.length,7);
@@ -69,4 +69,4 @@ assert.match(ui,/renderPK09\(data\)/);
 assert.match(ui,/renderIndications09\(data,file\)/);
 const cache=fs.readFileSync(fileURLToPath(new URL("../sw.js",import.meta.url)),"utf8");
 for(const asset of ["elix-09-content.js","elix-pharma-labs.js","elix-pharma-labs.css"])assert.ok(cache.includes(asset));
-console.log("eli 0.9 PASS: 57 chapters; metoprolol sourced PK and 3 indication doses; Hill=1 assay curve; linked guidelines; source protections.");
+console.log("eli 0.9 PASS: 58 chapters; metoprolol sourced PK and 3 indication doses; Hill=1 assay curve; linked guidelines; source protections.");

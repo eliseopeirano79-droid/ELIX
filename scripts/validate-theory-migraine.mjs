@@ -4,7 +4,7 @@ import {createHash} from 'node:crypto';
 import {ELIX_CHAPTERS} from '../elix-content.js';
 import {THEORY_MIGRAINE as c} from '../elix-theory-migraine.js';
 const read=f=>readFileSync(new URL('../'+f,import.meta.url),'utf8');
-assert.equal(ELIX_CHAPTERS.length,57);assert.equal(new Set(ELIX_CHAPTERS.map(c=>c.id)).size,57);assert.equal(ELIX_CHAPTERS.filter(c=>c.format==='extended').length,12);
+assert.equal(ELIX_CHAPTERS.length,58);assert.equal(new Set(ELIX_CHAPTERS.map(c=>c.id)).size,58);assert.equal(ELIX_CHAPTERS.filter(c=>c.format==='extended').length,13);
 assert.deepEqual(ELIX_CHAPTERS.find(x=>x.id==='emicrania'),c);assert.equal(c.sections.length,24);assert.equal(c.checks.length,23);assert.equal(new Set(c.sections.map(s=>s.id)).size,24);
 assert.equal(c.wordCount,c.sections.map(s=>s.text).join(' ').split(/\s+/).length);assert.ok(c.wordCount>5300);
 const refs=new Set(c.references.map(r=>r.id));assert.equal(refs.size,33);

@@ -1,0 +1,21 @@
+{
+  "batch": "theory-course-546-550",
+  "chapterId": "malattie-infiammatorie-intestinali",
+  "checkedAt": "2026-10-30T16:39:56.062782+00:00",
+  "outcome": "pass",
+  "reviewer": "integrator_editorial_check",
+  "independentClinicalReview": false,
+  "moduleSha256": "fb379cde0333f7330941a37b40e9ae9996c5c1bad516cb4a4629a0b28f900bb3",
+  "checks": [
+    "Rilettura editoriale delle undici sezioni e dieci domande.",
+    "Otto conflitti registrati con risoluzioni circoscritte e fonti distinte.",
+    "Nessuna dose, trascrizione o figura originale trasferita.",
+    "41 validatori superati; otto configurazioni browser nei due temi, tastiera, sei farmaci, quattro capitoli collegati, ricerca e offline.",
+    "Aggiornamento reale 0.52.0→0.53.0 con preferiti, progressi e tema conservati. Tutti i 57 capitoli preesistenti, catalogo, lettore e laboratori confrontati e invariati.",
+    "Sei schermate ispezionate; hash dei quattro originali invariati."
+  ],
+  "limits": [
+    "Controllo editoriale mirato del solo integratore, non revisione clinica indipendente.",
+    "Controlli locali superati; CI, deploy e riscontro online da concludere."
+  ]
+}
