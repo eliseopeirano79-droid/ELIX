@@ -1,18 +1,18 @@
 {
-  "batch": "theory-course-526-530",
+  "batch": "theory-course-531-535",
   "chapterId": "emicrania",
-  "checkedAt": "2026-10-30T13:59:02.118936+00:00",
+  "checkedAt": "2026-10-30T14:39:22.429990+00:00",
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "1e09815f1cfa333e2ed33d02c59ea6790869ddac73a2477526f8c5a0b7ac8c84",
+  "moduleSha256": "32a78a509ed7a169e59410402c11be62a5103db9d7d9721e6f2a5a25221f0ceb",
   "checks": [
-    "Tre nuove sezioni rilette: parametri farmacocinetici, tollerabilità e rischio, evidenze in gravidanza.",
-    "Cinque nuove pagine controllate nel testo disponibile e nei rendering; conflitti e ritagli registrati.",
-    "Confronto selettivo con due SmPC, risorse FDA e raccomandazioni NICE. Nessun dosaggio, figura o tabella originale riprodotto.",
-    "Sedici sezioni e dodici domande pregresse conservate; tre domande aggiunte.",
+    "Tre sezioni originali rilette: sviluppo dei gepanti, sorveglianza e interazioni, distinzione indicazione/rimborso.",
+    "Dieci pagine nuove lette nel testo disponibile e nei rendering; figure ripetute e parti coperte registrate.",
+    "Katzung e Rang & Dale distinti per edizione, stato sperimentale separato dalle indicazioni attuali.",
+    "Diciannove sezioni e quindici domande pregresse conservate; tre domande aggiunte.",
     "40 validatori e otto configurazioni browser superati: due temi, tastiera, fonti, nove farmaci, cinque capitoli collegati, ricerca e offline.",
-    "Aggiornamento reale 0.48.0→0.49.0 con preferiti, progressi e tema conservati. Altri 56 capitoli, 16 sezioni e 12 domande pregresse invariati."
+    "Aggiornamento reale 0.49.0→0.50.0 con preferiti, progressi e tema conservati. Altri 56 capitoli, 19 sezioni e 15 domande pregresse invariati."
   ],
   "limits": [
     "Controllo editoriale mirato del solo integratore, non revisione clinica indipendente.",
