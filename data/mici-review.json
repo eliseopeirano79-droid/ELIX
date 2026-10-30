@@ -1,17 +1,17 @@
 {
-  "batch": "theory-course-546-550",
+  "batch": "theory-course-551-555",
   "chapterId": "malattie-infiammatorie-intestinali",
-  "checkedAt": "2026-10-30T16:39:56.062782+00:00",
+  "checkedAt": "2026-10-30T17:27:30.539472+00:00",
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "fb379cde0333f7330941a37b40e9ae9996c5c1bad516cb4a4629a0b28f900bb3",
+  "moduleSha256": "a4ccf1221075aba114e2b24c55f671ff15fea25ac0323d72c8b325d982bb1435",
   "checks": [
-    "Rilettura editoriale delle undici sezioni e dieci domande.",
-    "Otto conflitti registrati con risoluzioni circoscritte e fonti distinte.",
-    "Nessuna dose, trascrizione o figura originale trasferita.",
-    "41 validatori superati; otto configurazioni browser nei due temi, tastiera, sei farmaci, quattro capitoli collegati, ricerca e offline.",
-    "Aggiornamento reale 0.52.0→0.53.0 con preferiti, progressi e tema conservati. Tutti i 57 capitoli preesistenti, catalogo, lettore e laboratori confrontati e invariati.",
+    "Rilettura editoriale delle 17 sezioni e 16 domande; sei sezioni aggiunte e quattro aggiornate.",
+    "Fonti e conflitti separati per edizione, pagine, indicazione e fase terapeutica.",
+    "Nessuna dose o figura originale trasferita; schema del primo passaggio originale e qualitativo.",
+    "41 validatori superati; otto configurazioni browser nei due temi, tastiera, otto farmaci, cinque capitoli collegati, ricerca e offline.",
+    "Aggiornamento reale 0.53.0→0.54.0 con preferiti, progressi e tema conservati. Gli altri 57 capitoli, catalogo, lettore e laboratori invariati; conservati gli undici identificatori di sezione e le dieci domande precedenti delle MICI.",
     "Sei schermate ispezionate; hash dei quattro originali invariati."
   ],
   "limits": [
