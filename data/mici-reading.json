@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-course-561-565",
+  "batch": "theory-course-566-570",
   "chapterId": "malattie-infiammatorie-intestinali",
-  "updatedAt": "2026-10-30T19:21:07.707155+00:00",
+  "updatedAt": "2026-10-30T19:56:29.699224+00:00",
   "status": "editorial_reconciled_locally_verified_pending_publication",
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -35,7 +35,12 @@
         562,
         563,
         564,
-        565
+        565,
+        566,
+        567,
+        568,
+        569,
+        570
       ],
       "visuallyCheckedPdfPages": [
         544,
@@ -59,14 +64,19 @@
         562,
         563,
         564,
-        565
+        565,
+        566,
+        567,
+        568,
+        569,
+        570
       ],
       "newlyReadTextPages": [
-        561,
-        562,
-        563,
-        564,
-        565
+        566,
+        567,
+        568,
+        569,
+        570
       ],
       "reusedPreviouslyReadPages": [
         544,
@@ -85,7 +95,12 @@
         557,
         558,
         559,
-        560
+        560,
+        561,
+        562,
+        563,
+        564,
+        565
       ],
       "internalLabels": [
         542,
@@ -109,7 +124,12 @@
         560,
         561,
         562,
-        563
+        563,
+        564,
+        565,
+        566,
+        567,
+        568
       ],
       "sourceUnchanged": true,
       "allContentsRead": false,
@@ -135,13 +155,23 @@
         562,
         563,
         564,
-        565
+        565,
+        569
       ],
-      "readButNotIntegratedPdfPages": [],
+      "readButNotIntegratedPdfPages": [
+        566,
+        567,
+        568,
+        570
+      ],
       "imageOnlyPagesReadVisually": [
         552,
         553,
-        564
+        564,
+        567,
+        568,
+        569,
+        570
       ]
     },
     {
@@ -157,7 +187,8 @@
         1281,
         1282,
         1283,
-        1284
+        1284,
+        1285
       ],
       "visuallyCheckedPdfPages": [
         1278,
@@ -166,10 +197,11 @@
         1281,
         1282,
         1283,
-        1284
+        1284,
+        1285
       ],
       "newlyReadTextPages": [
-        1284
+        1285
       ],
       "reusedPreviouslyReadPages": [
         1278,
@@ -177,7 +209,8 @@
         1280,
         1281,
         1282,
-        1283
+        1283,
+        1284
       ],
       "internalLabels": [
         1258,
@@ -186,7 +219,8 @@
         1261,
         1262,
         1263,
-        1264
+        1264,
+        1265
       ],
       "sourceUnchanged": true,
       "allContentsRead": false,
@@ -197,7 +231,8 @@
         1281,
         1282,
         1283,
-        1284
+        1284,
+        1285
       ],
       "readButNotIntegratedPdfPages": []
     },
@@ -302,16 +337,15 @@
         33,
         36
       ],
-      "newlyReadTextPages": [
-        33,
-        36
-      ],
+      "newlyReadTextPages": [],
       "reusedPreviouslyReadPages": [
         17,
         18,
         28,
         29,
-        30
+        30,
+        33,
+        36
       ],
       "internalLabels": [],
       "sourceUnchanged": true,
@@ -390,17 +424,16 @@
         15,
         16
       ],
-      "newlyReadTextPages": [
-        14,
-        15,
-        16
-      ],
+      "newlyReadTextPages": [],
       "reusedPreviouslyReadPages": [
         7,
         8,
         11,
         12,
-        13
+        13,
+        14,
+        15,
+        16
       ],
       "internalLabels": [
         7,
@@ -530,9 +563,9 @@
       }
     }
   ],
-  "newReadPdfPages": 11,
-  "totalReadPdfPages": 51,
-  "currentBatchVisualPages": 11,
+  "newReadPdfPages": 6,
+  "totalReadPdfPages": 57,
+  "currentBatchVisualPages": 6,
   "newIdentities": 0,
   "newDrugSummaries": 0,
   "newPKProfiles": 0,
@@ -603,7 +636,7 @@
       "id": "ACG-UC",
       "title": "ACG 2025 · Sintesi ufficiale sulla colite ulcerosa",
       "url": "https://gi.org/journals-publications/ebgi/alkazzi_aug2025/",
-      "detail": "Sintesi ufficiale: lettura selettiva precedente 20–22 e 28–38; ricontrollati 23, mantenimento e 51–54 nel lotto corrente il 30/10/2026. Non linea guida completa. Ricontrollati nel lotto 561–565 i passaggi anti-TNF 28–29, 42 e 44 e i concetti di posizionamento 28–29."
+      "detail": "Sintesi ufficiale: lettura selettiva precedente 20–22 e 28–38; ricontrollati 23, mantenimento e 51–54 nel lotto corrente il 30/10/2026. Non linea guida completa. Ricontrollati nel lotto 561–565 i passaggi anti-TNF 28–29, 42 e 44 e i concetti di posizionamento 28–29. Nel lotto 566–570 letti raccomandazione 44 e concetti chiave 28–29, 31 e 36 su risposta, concentrazioni, vie e monitoraggio proattivo."
     },
     {
       "id": "ACG-CD",
@@ -699,7 +732,7 @@
       "id": "IFX-UK",
       "title": "Remicade · SmPC britannico",
       "url": "https://www.medicines.org.uk/emc/product/3831/smpc",
-      "detail": "Estratti ufficiali selettivi 4.1, 4.4–4.5 e immunogenicità: infezioni, tubercolosi, HBV e reazioni. Non RCP italiano. Consultazione selettiva 30/10/2026."
+      "detail": "Estratti ufficiali selettivi 4.1, 4.4–4.5 e immunogenicità: infezioni, tubercolosi, HBV e reazioni. Non RCP italiano. Consultazione selettiva 30/10/2026. Nel lotto 566–570 letti direttamente 4.4 e passaggi 4.8 su reazioni, intervalli senza trattamento e immunogenicità; aggiornamento 30/07/2025."
     },
     {
       "id": "HUM-UK",
@@ -718,19 +751,26 @@
       "title": "EMA · Remsima",
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/remsima",
       "detail": "Overview ufficiale indicizzata: riferimento Remicade, comparabilità e presentazioni endovenose e sottocutanee. Non intero fascicolo regolatorio. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "RMS-SC-UK",
+      "title": "Remsima sottocutaneo · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/11101/smpc",
+      "detail": "Aggiornamento 27/07/2026. Sezione 5.2, assorbimento, biodisponibilità e confronto dei minimi per i regimi specificati, letta il 30/10/2026. Non RCP italiano né revisione completa del fascicolo."
     }
   ],
   "limits": [
-    "Deduplicazione per hash e pagine in 46 registri iniziali disponibili e inventario Farmacologia II; non intero corpus. Copie e pagine equivalenti escluse dai conteggi.",
-    "Undici nuove pagine lette nel testo disponibile, controllate nei rendering e integrate soltanto nei passaggi pertinenti. CFI 564 letta visivamente; pannello TNF duplicato nella 565. Figure su altri bersagli in FII esaminate nel contesto, non revisionate integralmente.",
-    "KAT 1283 e APP 285–286 rilette senza ricontarle. APP 286 integrata per biosimilari; figura anti-integrine non verificata in ogni etichetta. RAN 594 resta esclusa. Katzung 1285 e diapositive I 566 in avanti non lette in questo lotto.",
-    "Tabella storica CFI 561 e cronologia 565 non trasferite come indicazioni attuali. Giurisdizioni europea e statunitense distinte; nessuna gerarchia di sicurezza dedotta da umanizzazione o dimensioni.",
-    "Consultazione selettiva EMA, DailyMed, SmPC britannici e sintesi ACG; accesso diretto Remicade 429, riscontro nei passaggi ufficiali indicizzati. Non lettura completa dei fascicoli o linee guida, né verifica dei RCP italiani.",
-    "Limiti storici dei lotti precedenti conservati, inclusa la divergenza AGA/BSG sul metotrexato. Rang & Dale: paginazione editoriale non identificata; articoli citati nelle fonti non letti negli originali.",
-    "Altri bersagli delle terapie avanzate, ulteriori fonti, farmaci mancanti, profili e laboratori restano nel backlog. Nessuna revisione clinica indipendente.",
-    "Verifiche browser con Chromium e dimensioni simulate; non dispositivi fisici."
+    "Deduplicazione per hash e pagine in 47 registri disponibili; non intero corpus. Sei pagine nuove nel registro, non sei prove indipendenti.",
+    "Diapositive I 566–570 e Katzung 1285: testo disponibile letto integralmente e rendering controllati. Diapositive 567–570 lette visivamente; nessuna trascrizione o figura pubblicata.",
+    "Solo diapositive I 569 e Katzung 1285 contribuiscono ai nuovi passaggi. Diapositive 566–568 riprendono strutture, tabella storica e biosimilari già trattati; 570 rinviata. RAN 594 resta esclusa. Nessuna nuova lettura di appunti I o materiali II in questo lotto.",
+    "Il grafico I 569 confronta regimi specifici: picco, minimo e AUC non sono intercambiabili; nessuna superiorità clinica o validità universale del prelievo a qualunque ora dedotta dalla curva.",
+    "Consultazione mirata SmPC britannici Remsima SC 5.2, Remicade 4.4 e passaggi 4.8, sintesi ufficiale ACG UC 2025. Non lettura completa dei documenti o verifica dei RCP italiani. Articolo del grafico non letto in originale.",
+    "Percentuali, posologie, test infettivologici e premedicazione storici non trasferiti come protocolli attuali. Nessuna conversione di dose o soglia universale di TDM.",
+    "Limiti precedenti conservati nei conflitti: divergenza AGA/BSG sul metotrexato, giurisdizioni anti-TNF, figure degli appunti I/II non tutte verificate in ogni etichetta, paginazione editoriale Rang & Dale non identificata.",
+    "Altri bersagli, ulteriori fonti, farmaci mancanti, profili e laboratori rimangono nel backlog. Sintesi didattica, non revisione clinica indipendente.",
+    "Verifiche browser Chromium con dimensioni simulate; non dispositivi fisici."
   ],
-  "nextInterval": "Completare prima la pubblicazione e verifica di questo lotto; poi diapositive I PDF 566–570 e Katzung 1285, riutilizzando i passaggi pertinenti degli appunti già letti senza ricontarli.",
+  "nextInterval": "Completare prima la pubblicazione; poi diapositive I PDF 571–575 e Katzung 1286, riutilizzando la mappa 570 e gli appunti già letti soltanto nei passaggi pertinenti e senza ricontarli.",
   "conflictsAndReconciliation": [
     {
       "source": "CFI 549; RAN 593; APP 284",
@@ -876,15 +916,35 @@
       "source": "FII-A 15–16",
       "issue": "Altri bersagli, premedicazione e rischi eterogenei generalizzati",
       "resolution": "Integrati solo concetti pertinenti; nessuno schema universale di premedicazione, nessun algoritmo delle terapie avanzate."
+    },
+    {
+      "source": "CFI 566–568",
+      "issue": "Ripetizioni e tabelle storiche di strutture, regimi e biosimilari",
+      "resolution": "Lette ma non conteggiate come nuove prove o nuove pagine integrate; nessun catalogo di prodotti aggiornato ricavato dagli elenchi."
+    },
+    {
+      "source": "CFI 569; RMS-SC-UK; ACG-UC",
+      "issue": "Profilo più stabile associato a monitoraggio in qualunque momento",
+      "resolution": "Distinti forma della curva, regimi, biodisponibilità, momento del campione e finalità reattiva/proattiva; nessuna equivalenza universale dei prelievi."
+    },
+    {
+      "source": "KAT 1285; IFX-UK",
+      "issue": "Percentuali storiche e riesposizione generalizzate",
+      "resolution": "Integrata la distinzione fra continuità, immunogenicità e reazioni acute/ritardate; nessuna percentuale, dose o premedicazione universale."
+    },
+    {
+      "source": "CFI 570",
+      "issue": "Mappa include prodotti sperimentali e ripete pannelli già visti",
+      "resolution": "Letta visivamente e rinviata; nessuna nuova terapia o indicazione dedotta dalla figura."
     }
   ],
   "deduplication": {
     "newCFIPages": [
-      561,
-      562,
-      563,
-      564,
-      565
+      566,
+      567,
+      568,
+      569,
+      570
     ],
     "overlap": [],
     "reusedCFIPages": [
@@ -904,12 +964,17 @@
       557,
       558,
       559,
-      560
+      560,
+      561,
+      562,
+      563,
+      564,
+      565
     ],
-    "recordsChecked": 46,
-    "scope": "Registri disponibili per hash e pagina; inventario FII con copie e pagine equivalenti escluse. Non corpus completo."
+    "recordsChecked": 47,
+    "scope": "Registri per hash e pagina; confronto editoriale delle ripetizioni. Non intero corpus."
   },
-  "newIntegratedPdfPages": 11,
-  "chapterSourcePdfPages": 50,
-  "previouslyReadNewlyIntegratedPdfPages": 1
+  "newIntegratedPdfPages": 2,
+  "chapterSourcePdfPages": 52,
+  "previouslyReadNewlyIntegratedPdfPages": 0
 }

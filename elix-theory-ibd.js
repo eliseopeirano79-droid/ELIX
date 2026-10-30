@@ -3,7 +3,7 @@ export const THEORY_IBD = Object.freeze({
   "id": "malattie-infiammatorie-intestinali",
   "volume": 11,
   "title": "Malattie infiammatorie intestinali: barriera e controllo farmacologico dell’infiammazione",
-  "lead": "Aminosalicilati, glucocorticoidi, immunomodulatori e anti-TNF: collegare sede di malattia, segnali cellulari, formati biologici e risposta.",
+  "lead": "Aminosalicilati, glucocorticoidi, immunomodulatori e anti-TNF: bersagli, vie di somministrazione, esposizione e monitoraggio.",
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-10-30",
@@ -376,6 +376,36 @@ export const THEORY_IBD = Object.freeze({
       "text": "Un biosimilare viene sviluppato e valutato rispetto a un medicinale biologico di riferimento già autorizzato. La comparabilità riguarda struttura e attività biologica, insieme alle evidenze necessarie su efficacia, sicurezza e immunogenicità. Non è la semplice identità chimica usata per descrivere molti generici di piccole molecole: le proteine sono prodotti complessi e possono presentare una microeterogeneità controllata.\n\nIl termine biosimilare non significa “più umanizzato”, “più piccolo” o “più sicuro”. La conclusione regolatoria riguarda un’elevata similarità e l’assenza di differenze clinicamente rilevanti rispetto al riferimento nell’ambito valutato. Non attribuisce una superiorità intrinseca a ogni prodotto successivo. Un confronto corretto parte dal riferimento preciso e dai dati richiesti per dimostrare comparabilità, non dall’idea che una copia più recente debba correggere tutti i limiti della precedente.\n\nLa formulazione costituisce un’altra dimensione. Remsima, a base di infliximab e biosimilare di Remicade, dispone di presentazioni per infusione endovenosa e per iniezione sottocutanea. La possibilità della seconda via dipende dalla specifica autorizzazione e dal regime previsto; non deriva automaticamente dalla parola biosimilare e non significa che tutte le forme endovenose siano state sostituite. Separare identità del principio attivo, relazione con il riferimento, formulazione e via permette di leggere correttamente un aggiornamento terapeutico senza confondere quattro informazioni diverse."
     },
     {
+      "id": "anti-tnf-esposizione",
+      "title": "Via di somministrazione: leggere picchi, minimi ed esposizione",
+      "refs": [
+        "CFI",
+        "RMS-SC-UK"
+      ],
+      "text": "La stessa proteina può raggiungere il circolo con andamenti diversi. L’infusione endovenosa introduce infliximab direttamente nel compartimento vascolare; l’iniezione sottocutanea richiede un processo di assorbimento. Il profilo concentrazione-tempo dipende quindi sia dalla via sia dalla quantità e dalla frequenza delle somministrazioni. Confrontare le due vie senza precisare il regime significa attribuire alla sola formulazione effetti che appartengono anche al calendario terapeutico.\n\nTre letture della curva rispondono a domande differenti. Cmax indica il massimo osservato, Ctrough la concentrazione al termine dell’intervallo, prima della dose successiva, e AUC l’esposizione integrata nel tempo considerato. Un picco più alto non implica necessariamente una maggiore esposizione sull’intero intervallo. Analogamente, una curva meno oscillante non dimostra da sola maggiore efficacia: la forma del grafico descrive il comportamento farmacocinetico, mentre il beneficio deve essere misurato clinicamente.\n\nIl confronto riportato nelle diapositive mostra questo principio per due regimi di infliximab. Le informazioni aggiornate di Remsima sottocutaneo riportano minimi a regime più elevati rispetto allo specifico schema endovenoso confrontato, insieme a una biodisponibilità sottocutanea inferiore all’unità. Non sono risultati contraddittori: biodisponibilità, dose e intervallo contribuiscono insieme all’esposizione. Non se ne ricava una conversione automatica milligrammo per milligrammo, né l’equivalenza di ogni possibile schema. La figura del corso rimane un confronto circoscritto, non una previsione per il singolo paziente.",
+      "formula": "Via + formulazione + dose + intervallo → andamento delle concentrazioni.\nCmax: picco · Ctrough: minimo prima della dose · AUC: esposizione nel tempo.\nSchema qualitativo originale, senza valori clinici o conversioni di dose."
+    },
+    {
+      "id": "anti-tnf-tdm",
+      "title": "Monitoraggio farmacologico: dare un contesto al campione",
+      "refs": [
+        "CFI",
+        "ACG-UC",
+        "RMS-SC-UK"
+      ],
+      "text": "Un valore di concentrazione acquista significato quando si conoscono il prodotto, la via, il momento dell’ultima somministrazione e quello del prelievo. Un campione raccolto dopo un’infusione non risponde alla stessa domanda di un campione raccolto prima della dose successiva. Anche con oscillazioni più contenute, il tempo trascorso resta un’informazione da registrare: un profilo più regolare non rende automaticamente equivalenti tutti i prelievi.\n\nIl monitoraggio terapeutico dei farmaci, o TDM, collega la misura a una domanda clinica. Nella perdita di risposta può aiutare a interrogare l’esposizione e, quando pertinente, l’immunogenicità. Va distinto dalla misurazione programmata in una persona che mantiene la remissione. La sintesi ACG 2025 sulla colite ulcerosa suggerisce concentrazioni e, se il farmaco è insufficiente, anticorpi antifarmaco nella perdita di risposta agli anti-TNF; segnala invece prove insufficienti a favore del monitoraggio proattivo in tutti i pazienti non selezionati in remissione.\n\nIl ragionamento procede su due assi: attività infiammatoria ed esposizione. Se il farmaco è poco presente, la domanda riguarda anche il suo arrivo e la sua permanenza; se è presente in quantità adeguata ma l’infiammazione persiste, diventa centrale la sufficienza del meccanismo scelto. Un sintomo isolato non stabilisce nessuna delle due condizioni. Questa distinzione spiega l’utilità del dato senza trasformarlo in una decisione automatica: obiettivo, metodo analitico, formulazione e quadro clinico impediscono di applicare una soglia universale a ogni situazione.",
+      "formula": "Domanda clinica → prodotto e calendario → momento del prelievo → concentrazione e anticorpi, se pertinenti → interpretazione con l’attività di malattia.\nUna misura isolata non è un algoritmo di modifica della terapia."
+    },
+    {
+      "id": "anti-tnf-riesposizione",
+      "title": "Continuità e riesposizione: la storia terapeutica conta",
+      "refs": [
+        "KAT",
+        "IFX-UK"
+      ],
+      "text": "Induzione e mantenimento non differiscono soltanto per il numero di dosi. Dopo il controllo iniziale, la continuità del trattamento cerca di conservare il beneficio nel tempo. Per una proteina terapeutica conta anche la storia immunologica dell’esposizione: un periodo senza farmaco può modificare il contesto nel quale avviene una nuova somministrazione. La ripresa dopo una lunga interruzione non va interpretata come una semplice prima dose in un organismo mai esposto.\n\nKatzung richiama reazioni precoci e ritardate e il rapporto fra anticorpi antifarmaco, durata della risposta e somministrazione episodica. Le informazioni di infliximab confermano che reazioni durante o poco dopo l’infusione e ipersensibilità ritardata sono fenomeni temporalmente distinti; intervalli prolungati senza il medicinale possono aumentare il rischio della seconda. Febbre, rash e dolori muscolari o articolari dopo una riesposizione appartengono a un quadro che richiede valutazione, non alla prova automatica di una riacutizzazione intestinale.\n\nL’associazione con un immunomodulatore può ridurre la formazione di anticorpi contro infliximab, ma questa osservazione non equivale a raccomandare sempre una combinazione. Il vantaggio sull’immunogenicità deve essere confrontato con i rischi delle terapie associate e con le caratteristiche della malattia. Anche le percentuali storiche di risposta o reazione dipendono da popolazione, schema e metodo di misura: non descrivono indistintamente tutti gli anti-TNF attuali. Il concetto da conservare è la necessità di ricostruire esposizioni, interruzioni e reazioni precedenti prima di interpretare un evento o una perdita di beneficio."
+    },
+    {
       "id": "microbiota-e-limiti",
       "title": "Dal modello biologico alla prova terapeutica",
       "refs": [
@@ -514,6 +544,18 @@ export const THEORY_IBD = Object.freeze({
     {
       "question": "Un biosimilare è necessariamente più sicuro e sottocutaneo?",
       "answer": "No. La biosimilarità riguarda comparabilità con un riferimento. Formulazione e via dipendono dall’autorizzazione specifica; Remsima comprende presentazioni endovenose e sottocutanee."
+    },
+    {
+      "question": "Una concentrazione minima più alta implica una maggiore biodisponibilità?",
+      "answer": "No. Il minimo dipende anche da dose, intervallo e assorbimento: può essere più alto con uno specifico regime sottocutaneo pur con biodisponibilità inferiore a quella endovenosa."
+    },
+    {
+      "question": "Perché un profilo meno oscillante non rende irrilevante il momento del prelievo?",
+      "answer": "Il risultato resta riferito a prodotto, regime e tempo dalla dose. Il monitoraggio richiede una domanda clinica; la perdita di risposta e la remissione stabile non hanno la stessa indicazione alla misurazione."
+    },
+    {
+      "question": "Perché la ripresa di infliximab dopo una lunga pausa non equivale necessariamente alla prima esposizione?",
+      "answer": "L’organismo può avere già sviluppato una risposta immunitaria al prodotto. La storia di esposizione e delle reazioni contribuisce a interpretare il rischio di ipersensibilità, anche ritardata."
     }
   ],
   "relatedExistingChapterIds": [
@@ -593,12 +635,12 @@ export const THEORY_IBD = Object.freeze({
     {
       "id": "CFI",
       "title": "Diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 544–565, etichette 542–563. Nuove 561–565: testo e rendering controllati, inclusi schemi prevalentemente grafici. Tabella biologici storica non assunta come elenco attuale; pannello TNF ripetuto non contato come prova indipendente. Figure originali non ripubblicate."
+      "detail": "PDF 544–570, etichette 542–568. Nuove 566–570 lette nel testo e nei rendering: 567–570 prevalentemente grafiche. Solo 569 alimenta nuove sezioni; 566–568 riprendono confronti strutturali e biosimilari già trattati, 570 è una mappa di altri bersagli rinviata. Tabelle storiche non trasferite come dati attuali; figure non ripubblicate."
     },
     {
       "id": "KAT",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX italiana 2014 / XII americana 2012, capitolo 62, PDF 1278–1284, editoriali 1258–1264. Nuova 1284; segmento anti-TNF della 1283 già letto ora riutilizzato. Terminologia strutturale e indicazioni riconciliate con fonti attuali. Continuazione 1285 non letta."
+      "detail": "IX italiana 2014 / XII americana 2012, capitolo 62, PDF 1278–1285, editoriali 1258–1265. Nuova 1285 letta integralmente nel testo e nel rendering; integrati continuità, immunogenicità e reazioni. Percentuali, dosi e raccomandazioni storiche non assunte come attuali. Continuazione 1286 non letta."
     },
     {
       "id": "RAN",
@@ -674,7 +716,7 @@ export const THEORY_IBD = Object.freeze({
       "id": "ACG-UC",
       "title": "ACG 2025 · Sintesi ufficiale sulla colite ulcerosa",
       "url": "https://gi.org/journals-publications/ebgi/alkazzi_aug2025/",
-      "detail": "Sintesi ufficiale: lettura selettiva precedente 20–22 e 28–38; ricontrollati 23, mantenimento e 51–54 nel lotto corrente il 30/10/2026. Non linea guida completa. Ricontrollati nel lotto 561–565 i passaggi anti-TNF 28–29, 42 e 44 e i concetti di posizionamento 28–29."
+      "detail": "Sintesi ufficiale: lettura selettiva precedente 20–22 e 28–38; ricontrollati 23, mantenimento e 51–54 nel lotto corrente il 30/10/2026. Non linea guida completa. Ricontrollati nel lotto 561–565 i passaggi anti-TNF 28–29, 42 e 44 e i concetti di posizionamento 28–29. Nel lotto 566–570 letti raccomandazione 44 e concetti chiave 28–29, 31 e 36 su risposta, concentrazioni, vie e monitoraggio proattivo."
     },
     {
       "id": "ACG-CD",
@@ -780,7 +822,7 @@ export const THEORY_IBD = Object.freeze({
       "id": "IFX-UK",
       "title": "Remicade · SmPC britannico",
       "url": "https://www.medicines.org.uk/emc/product/3831/smpc",
-      "detail": "Estratti ufficiali selettivi 4.1, 4.4–4.5 e immunogenicità: infezioni, tubercolosi, HBV e reazioni. Non RCP italiano. Consultazione selettiva 30/10/2026."
+      "detail": "Estratti ufficiali selettivi 4.1, 4.4–4.5 e immunogenicità: infezioni, tubercolosi, HBV e reazioni. Non RCP italiano. Consultazione selettiva 30/10/2026. Nel lotto 566–570 letti direttamente 4.4 e passaggi 4.8 su reazioni, intervalli senza trattamento e immunogenicità; aggiornamento 30/07/2025."
     },
     {
       "id": "HUM-UK",
@@ -799,8 +841,14 @@ export const THEORY_IBD = Object.freeze({
       "title": "EMA · Remsima",
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/remsima",
       "detail": "Overview ufficiale indicizzata: riferimento Remicade, comparabilità e presentazioni endovenose e sottocutanee. Non intero fascicolo regolatorio. Consultazione selettiva 30/10/2026."
+    },
+    {
+      "id": "RMS-SC-UK",
+      "title": "Remsima sottocutaneo · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/11101/smpc",
+      "detail": "Aggiornamento 27/07/2026. Sezione 5.2, assorbimento, biodisponibilità e confronto dei minimi per i regimi specificati, letta il 30/10/2026. Non RCP italiano né revisione completa del fascicolo."
     }
   ],
-  "coverage": "Ampliamento mirato: 11 nuove pagine lette nel testo disponibile e controllate nel rendering, con integrazione dei soli passaggi pertinenti. Quaranta pagine già lette conservate nel registro; riuso mirato di Katzung 1283 e appunti I 285–286. La 286 contribuisce ora per il solo confronto sui biosimilari. Totale 51 pagine lette e 50 con passaggi pertinenti alla sintesi, di sei fonti. Figure originali non ripubblicate; immagini ripetute non sono prove indipendenti. Fonti ufficiali consultate selettivamente; nessuna lettura integrale di libri o corsi, nessuna revisione clinica indipendente.",
-  "wordCount": 6784
+  "coverage": "Sei nuove pagine esaminate: testo completo disponibile e controllo dei rendering; quattro sono prevalentemente grafiche. Due pagine contribuiscono ai nuovi passaggi, tre riprendono confronti già trattati e una resta fuori dalla sintesi. Totale cumulativo 57 pagine lette e 52 con passaggi integrati, da sei fonti; le pagine ripetute non costituiscono prove indipendenti. Nessuna nuova lettura di appunti I o materiali II in questo lotto: la riconciliazione precedente resta nel registro. Fonti ufficiali consultate selettivamente. Nessuna lettura integrale di libri o corsi, né revisione clinica indipendente.",
+  "wordCount": 7443
 });
