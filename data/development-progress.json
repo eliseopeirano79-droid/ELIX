@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-10-28T20:13:47.812547+00:00",
-  "batch": "theory-course-516-520",
+  "updatedAt": "2026-10-28T20:45:38.202666+00:00",
+  "batch": "theory-course-521-525",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.47.0",
-  "branch": "feat/theory-course-516-520",
-  "baseCommit": "cfc4d6f745c855f2fa9c43a5a38940d5ad58daac",
+  "release": "0.48.0",
+  "branch": "feat/theory-course-521-525",
+  "baseCommit": "402f9a08050a94d14cbe0b6a8e129106f3944c6b",
   "previousBatch": {
-    "batch": "theory-course-511-515",
+    "batch": "theory-course-516-520",
     "status": "published_and_live_verified",
-    "release": "0.46.0",
-    "commit": "cfc4d6f745c855f2fa9c43a5a38940d5ad58daac"
+    "release": "0.47.0",
+    "commit": "402f9a08050a94d14cbe0b6a8e129106f3944c6b"
   },
   "scope": [
-    "Nuovo capitolo esteso sui fondamenti dell’emicrania e sull’uso eccessivo di medicinali."
+    "Ampliare il capitolo esistente sull’emicrania con quattro approfondimenti su bersagli e interpretazione delle evidenze."
   ],
   "completed": [
-    "Cinque nuove pagine e cinque rendering letti; due pagine precedenti recuperate senza ricontarle.",
-    "Tredici fonti ufficiali/prodotto consultate selettivamente; riconciliazione e nuovo capitolo di dodici sezioni.",
-    "40 validatori e otto configurazioni browser superati; due temi, tastiera, sei farmaci, cinque capitoli, fonti, ricerca e offline.",
-    "Aggiornamento reale 0.46.0→0.47.0 con preferiti, progressi e tema conservati; i 56 capitoli esistenti sono invariati."
+    "Cinque nuove pagine e cinque rendering letti; dodici pagine cumulative nel capitolo.",
+    "16 sezioni, 2788 parole, 12 domande, 19 riferimenti e nove collegamenti a identità già presenti.",
+    "40 validatori e otto configurazioni browser superati; due temi, tastiera, nove farmaci, cinque capitoli, fonti, ricerca e offline.",
+    "Aggiornamento reale 0.47.0→0.48.0 con preferiti, progressi e tema conservati; gli altri 56 capitoli, le 12 sezioni e le 8 domande pregresse sono conservati."
   ],
   "remaining": [
     "CI sul commit, deploy concluso e verifica online di file, navigazione, offline e percorsi di accesso."
@@ -39,22 +39,24 @@
     "newDrugSummaries": 0,
     "newProductPKContexts": 0,
     "newPKFields": 0,
-    "newChapters": 1,
-    "expandedChapters": 0,
+    "newChapters": 0,
+    "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 12,
+    "newSections": 4,
     "expandedSections": 0,
-    "newLinksToExistingIdentities": 6
+    "newLinksToExistingIdentities": 3
   },
   "readingManifests": [
     "data/emicrania-reading.json"
   ],
   "limits": [
-    "Prima stesura estesa sui fondamenti dell’emicrania, sul rapporto fra circuito e bersagli e sulla cefalea da uso eccessivo. Sette pagine delle diapositive lette e controllate, cinque nuove; nessun manuale o corso intero dichiarato letto. Restano da integrare i corrispondenti intervalli dei libri e degli appunti, le classi specifiche, gli anticorpi e le popolazioni speciali. Consultazioni ufficiali selettive: controllo editoriale mirato, non revisione clinica indipendente.",
-    "Articoli citati nelle immagini non letti integralmente; note originali dell’algoritmo nella pagina 520 non disponibili.",
-    "Nessuna nuova lettura di libri, appunti o Farmacologia II in questo lotto.",
-    "Fonti britanniche non equivalgono a RCP o regole di accesso italiani; consultazioni ufficiali selettive.",
-    "Chromium con dimensioni simulate; non dispositivi fisici."
+    "Stesura estesa sui fondamenti dell’emicrania, con approfondimenti su complessi recettoriali, anticorpi, selettività serotoninergica e interpretazione delle misure di CGRP. Dodici pagine delle diapositive lette e controllate, cinque nuove in questo lotto. Un abstract di ricerca e passaggi selezionati di una revisione farmacologica consultati; non i relativi articoli interi. Restano i corrispondenti intervalli dei libri e degli appunti, ulteriori classi e popolazioni speciali. Consultazioni ufficiali selettive: controllo editoriale mirato, non revisione clinica indipendente.",
+    "Articoli 1999 e 2020 non letti integralmente.",
+    "Studio 2023: solo abstract primario, non testo completo.",
+    "IUPHAR 2017–2018: testo selezionato su composizione e trasduzione; figure originali e intera revisione non controllate.",
+    "Nessun nuovo intervallo di libri o appunti letto.",
+    "Fonti britanniche pregresse non equivalgono a RCP italiani; consultazioni ufficiali selettive.",
+    "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Diapositive PDF 521–525, previa deduplicazione; quindi riconciliare i corrispondenti intervalli di libri e appunti."
+  "nextBatch": "Diapositive PDF 526–530, previa deduplicazione; restano da riconciliare i corrispondenti intervalli di libri e appunti."
 }

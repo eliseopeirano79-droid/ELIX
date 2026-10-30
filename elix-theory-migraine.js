@@ -49,6 +49,15 @@ export const THEORY_MIGRAINE = Object.freeze({
       "text": "Le strutture meningeali ricevono afferenze sensitive del trigemino. I corpi cellulari si trovano nel ganglio trigeminale; le proiezioni centrali raggiungono il complesso trigeminocervicale, che comprende il nucleo trigeminale caudale e segmenti cervicali superiori. Da qui la trasmissione si collega a strutture superiori, tra cui il talamo, e a reti coinvolte nella percezione e modulazione del dolore.\n\nLa parola trigeminovascolare descrive una relazione anatomica e funzionale fra innervazione e vasi. Non significa che l’emicrania sia soltanto un problema di diametro vascolare. Il rilascio di mediatori, la sensibilità delle terminazioni e l’elaborazione centrale possono cambiare; i fenomeni vascolari sono una parte del sistema, non una spiegazione sufficiente dell’intero disturbo.\n\nPer studiare un farmaco conviene seguire tre passaggi: dove si trova il bersaglio, quale segnale modifica e quale conseguenza può avere sulla trasmissione. Una minore liberazione di un mediatore periferico e una minore trasmissione centrale sono eventi diversi, anche se possono concorrere allo stesso risultato. Il circuito non è un filo rigido percorso in una sola direzione: la modulazione delle connessioni cambia il rapporto fra ingresso sensoriale e risposta. Lo schema serve a orientare il ragionamento, non a dedurre una previsione individuale."
     },
     {
+      "id": "cgrp-complesso",
+      "title": "Un recettore composto da più elementi",
+      "refs": [
+        "CFI",
+        "IUPHAR-CGRP"
+      ],
+      "text": "Il CGRP è il messaggero; il recettore è il sistema che lo riconosce e trasforma il legame in una risposta cellulare. Nel recettore CGRP canonico, la proteina CLR si associa a RAMP1. CLR appartiene ai GPCR di classe B; RAMP1 è una proteina accessoria che contribuisce alla presentazione e alle proprietà farmacologiche del complesso.\n\nLa trasduzione preferenziale attraverso Gs aumenta la produzione di cAMP; questo descrive un passaggio intracellulare, non un aumento obbligatorio del dolore in qualsiasi tessuto. Per interpretare l’effetto occorre conoscere anche la cellula che esprime il complesso e la funzione che quel segnale regola.\n\nL’associazione con proteine diverse cambia l’identità funzionale del recettore. Per esempio, il complesso formato dal recettore della calcitonina e RAMP1 è chiamato AMY1 ed è distinto da CLR/RAMP1. La presenza della stessa proteina accessoria non rende equivalenti i due sistemi. Questo aiuta a leggere le schede dei gepanti: il nome del mediatore, la composizione del bersaglio e il profilo di legame del farmaco sono tre informazioni da mantenere separate."
+    },
+    {
       "id": "triptani",
       "title": "Triptani: attivare recettori serotoninergici in sedi diverse",
       "refs": [
@@ -57,6 +66,15 @@ export const THEORY_MIGRAINE = Object.freeze({
         "SUM-UK"
       ],
       "text": "I triptani sono agonisti dei recettori serotoninergici 5-HT1B/1D. La loro collocazione nel circuito spiega perché non basti ricordare la parola serotonina: lo stesso sistema comprende componenti vascolari e neuronali. La stimolazione di recettori sulle vie trigeminali può ridurre la trasmissione; l’attività vasocostrittrice rappresenta un’altra componente da considerare.\n\nUn agonista non aumenta indistintamente tutta l’attività del sistema nervoso. Il segno della risposta dipende dal recettore, dal suo accoppiamento e dalla cellula che lo esprime. La conseguenza utile può essere una minore uscita di segnale da una via nocicettiva. Questo collega l’emicrania ai principi generali dei GPCR: attivazione del recettore e aumento della funzione dell’intero circuito non sono sinonimi.\n\nIl sumatriptan fornisce anche un esempio del legame fra meccanismo e limiti d’impiego. La scheda britannica consultata riporta controindicazioni cardiovascolari e cerebrovascolari, tra cui cardiopatia ischemica, vasospasmo coronarico e precedente ictus o TIA. Non è quindi sufficiente conoscere il bersaglio per scegliere il trattamento. Questa scheda documenta uno specifico prodotto; non sostituisce il RCP italiano né costituisce qui un elenco completo delle controindicazioni o delle interazioni."
+    },
+    {
+      "id": "selettivita-serotonina",
+      "title": "5-HT1B/1D e 5-HT1F: distinguere il profilo della molecola",
+      "refs": [
+        "CFI",
+        "LAS-EMA"
+      ],
+      "text": "La mappa delle vie serotoninergiche contiene più recettori, ma non rappresenta una scheda di selettività valida per ogni farmaco. La descrizione dei triptani come agonisti 5-HT1B/1D serve a riconoscerne una proprietà farmacologica importante; una figura che aggiunge 5-HT1F non dimostra che tutte le molecole agiscano allo stesso modo su ciascun sottotipo.\n\nLasmiditan offre un confronto utile: è un agonista con elevata selettività per 5-HT1F e penetra nel sistema nervoso centrale. Le informazioni EMA collegano il beneficio presumibile alla riduzione del rilascio di neuropeptidi e alla modulazione delle vie dolorose, mantenendo incerto il meccanismo terapeutico preciso. L’assenza di vasocostrizione osservata nei preparati vascolari umani studiati ex vivo è un risultato sperimentale; non dimostra sicurezza universale né autorizza a ignorare altri effetti.\n\nIl documento lo indica per il trattamento acuto della fase dolorosa nell’adulto. Segnala effetti centrali e compromissione della guida: occorre evitare guida e attività che richiedono elevata attenzione per almeno otto ore dopo ogni assunzione, anche se ci si sente bene. Richiama inoltre la sindrome serotoninergica. Cambiare sottotipo recettoriale modifica il profilo farmacologico, non elimina la necessità di valutare il singolo prodotto."
     },
     {
       "id": "obiettivi",
@@ -76,6 +94,25 @@ export const THEORY_MIGRAINE = Object.freeze({
         "ATO-EMA"
       ],
       "text": "Il CGRP è un neuropeptide coinvolto nella segnalazione emicranica. I gepanti interferiscono con recettori di questa famiglia di mediatori; non sono agonisti serotoninergici come i triptani. Cambiare bersaglio permette di agire su un altro passaggio, ma non autorizza a considerare tutti i gepanti identici nell’impiego.\n\nNelle informazioni EMA consultate il 28 ottobre 2026, rimegepant è indicato per il trattamento acuto dell’emicrania con o senza aura nell’adulto e per la prevenzione della forma episodica nell’adulto con almeno quattro attacchi mensili. La prevenzione della forma cronica non può essere dedotta da questa indicazione. Per atogepant, il documento corrente comprende sia il trattamento acuto nell’adulto sia la profilassi con almeno quattro giorni mensili di emicrania.\n\nAnche la descrizione molecolare richiede precisione. Per rimegepant è documentato l’antagonismo del recettore CGRP. Per atogepant il documento considera potenzialmente rilevanti anche recettori dell’amilina-1 e mantiene esplicitamente aperta la definizione del meccanismo clinico preciso. Affinità sperimentale, meccanismo proposto e beneficio clinico sono livelli collegati ma distinti. Non sono riportate qui dosi o equivalenze tra i prodotti."
+    },
+    {
+      "id": "ligando-recettore",
+      "title": "Intercettare il messaggero o bloccare il suo recettore",
+      "refs": [
+        "CFI",
+        "EREN-EMA",
+        "FREM-EMA"
+      ],
+      "text": "Un intervento sulla via del CGRP può avvenire in punti diversi. Se un anticorpo lega il peptide, riduce la possibilità che il messaggero raggiunga i recettori. Se lega il recettore, ostacola invece l’interazione su quel bersaglio. In entrambi i casi si può ridurre la segnalazione, ma l’oggetto riconosciuto dall’anticorpo cambia.\n\nErenumab illustra il secondo caso: si lega al recettore CGRP e compete con il legame del peptide. Fremanezumab illustra il primo: riconosce il ligando CGRP, nelle forme alfa e beta, impedendone il legame al recettore. I documenti EMA consultati collocano entrambi nella profilassi dell’emicrania nell’adulto con almeno quattro giorni mensili di emicrania. Questi esempi chiariscono la posizione dell’intervento, senza dimostrare una superiorità clinica dell’una sull’altra strategia.\n\nUna conseguenza del modello è che non serve distruggere la cellula per ridurne una comunicazione: questi anticorpi sono presentati come strumenti che interferiscono con una via di segnalazione. Il collegamento con il capitolo sugli anticorpi aiuta a separare riconoscimento del bersaglio e possibili funzioni della porzione Fc, che non devono essere attribuite indistintamente a tutti i prodotti.\n\nLa selettività non equivale ad assenza di rischi. Le informazioni dei due prodotti richiamano reazioni di ipersensibilità e limiti dei dati in alcune patologie cardiovascolari maggiori; per erenumab è descritta anche stipsi, talvolta con complicanze serie. La differenza di bersaglio va quindi letta insieme alla sicurezza e alle condizioni studiate, non trasformata da sola in una regola di scelta."
+    },
+    {
+      "id": "misura-biomarcatore",
+      "title": "Misurare CGRP non equivale a diagnosticare un attacco",
+      "refs": [
+        "CFI",
+        "CGRP-ORMONI"
+      ],
+      "text": "La concentrazione di un mediatore in un campione e la sua azione in un circuito sono misure diverse. Prima di interpretare un grafico bisogna identificare il compartimento raccolto, il momento del prelievo e il metodo analitico. Plasma e liquido lacrimale non sono campioni intercambiabili; neppure una stessa unità sull’asse renderebbe automaticamente confrontabili due misure ottenute in condizioni differenti.\n\nUno studio del 2023, consultato qui attraverso il suo abstract, ha confrontato gruppi di partecipanti con e senza emicrania episodica in diversi contesti ormonali. Nel gruppo con ciclo regolare, durante le mestruazioni sono state osservate concentrazioni più alte di CGRP nelle partecipanti con emicrania. Il confronto suggerisce una relazione da approfondire; non è una sperimentazione che assegna un intervento ormonale e ne misura l’effetto sulla malattia.\n\nLa distribuzione dei valori è altrettanto importante della differenza fra gruppi. Due gruppi possono differire e avere comunque un’ampia sovrapposizione individuale. Per costruire un test diagnostico servirebbero una domanda clinica definita, prestazioni misurate rispetto a un riferimento e una verifica in altre persone: questi passaggi non sono dimostrati dal semplice confronto illustrato.\n\nPerciò il grafico aiuta a formulare ipotesi biologiche, ma non fornisce qui una soglia per diagnosticare emicrania, scegliere un anticorpo o modificare una terapia ormonale. Il passaggio dalla plausibilità del mediatore alla decisione clinica richiede evidenze ulteriori."
     },
     {
       "id": "prevenzione",
@@ -158,6 +195,22 @@ export const THEORY_MIGRAINE = Object.freeze({
     {
       "question": "Una tabella di efficacia basta a scegliere un preventivo?",
       "answer": "No. Vanno considerati indicazione, obiettivo, rischi specifici e contesto individuale. La prevenzione dell’emicrania in gravidanza, per esempio, non può usare le eccezioni di altre indicazioni del topiramato."
+    },
+    {
+      "question": "Perché RAMP1 non basta da sola a identificare il recettore CGRP?",
+      "answer": "La composizione del complesso conta: CLR/RAMP1 identifica il recettore CGRP canonico, mentre il recettore della calcitonina associato a RAMP1 forma AMY1."
+    },
+    {
+      "question": "Erenumab e fremanezumab legano lo stesso oggetto?",
+      "answer": "No. Il primo riconosce il recettore CGRP; il secondo il peptide CGRP. Il punto d’intervento non stabilisce da solo quale trattamento sia preferibile."
+    },
+    {
+      "question": "Un risultato ex vivo senza vasocostrizione basta a concludere che un farmaco sia privo di rischi?",
+      "answer": "No. Descrive l’esito misurato in quel preparato. Effetti centrali e altre avvertenze richiedono una valutazione separata."
+    },
+    {
+      "question": "Una differenza media di CGRP fra gruppi costituisce già un test per la singola persona?",
+      "answer": "No. Servono prestazioni diagnostiche definite e validate; associazione biologica e utilità clinica sono domande differenti."
     }
   ],
   "relatedExistingChapterIds": [
@@ -191,13 +244,25 @@ export const THEORY_MIGRAINE = Object.freeze({
     {
       "id": "CHEMBL521",
       "label": "IBUPROFEN"
+    },
+    {
+      "id": "CHEMBL3833329",
+      "label": "ERENUMAB"
+    },
+    {
+      "id": "CHEMBL4297756",
+      "label": "FREMANEZUMAB"
+    },
+    {
+      "id": "CHEMBL3039520",
+      "label": "LASMIDITAN"
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 514–520, etichette interne 512–518: testo disponibile e immagini controllati. Le pagine 514–515 erano già lette; cinque nuove pagine in questo intervallo. Gli articoli citati nelle immagini non sono stati letti integralmente. Criteri storici della MOH e indicazioni sintetiche confrontati con le fonti correnti."
+      "detail": "PDF 514–525, etichette interne 512–523: testo disponibile e immagini controllati. Cinque nuove pagine (521–525) in questo lotto. Pannelli coperti nella 523 e titolo parzialmente coperto nella 525 non ricostruiti. Discordanze di pannelli e unità nella 522: nessun dato quantitativo trasferito. Articoli citati non letti integralmente."
     },
     {
       "id": "ICHD-1",
@@ -276,8 +341,38 @@ export const THEORY_MIGRAINE = Object.freeze({
       "title": "NIH/NINDS · Migraine",
       "url": "https://health.nih.gov/health-topics-a-z/migraine",
       "detail": "Quadro generale, fasi, diagnosi e diario letti il 28/10/2026; la sintesi per il pubblico non sostituisce i criteri ICHD o le informazioni dei singoli prodotti."
+    },
+    {
+      "id": "IUPHAR-CGRP",
+      "title": "IUPHAR Review 25 · Famiglia calcitonina/CGRP",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5740251/",
+      "detail": "Revisione 2017–2018: letti abstract e passaggi selezionati di introduzione e farmacologia su CLR/RAMP1, AMY1, Gs/cAMP e selettività il 28/10/2026. Non intero articolo o figure originali; non usata per indicazioni cliniche attuali."
+    },
+    {
+      "id": "EREN-EMA",
+      "title": "EMA · Aimovig, informazioni di prodotto",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/aimovig-epar-product-information_en.pdf",
+      "detail": "Letti il 28/10/2026: 4.1 (PDF 2), 4.4 (3–4), 4.7 (5) e parte iniziale di 5.1 (7), prima degli studi clinici. Non intero documento."
+    },
+    {
+      "id": "FREM-EMA",
+      "title": "EMA · Ajovy, informazioni di prodotto",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/ajovy-epar-product-information_en.pdf",
+      "detail": "Letti il 28/10/2026: 4.1 (PDF 2), 4.4 (3–4), 4.7 (4) e meccanismo in 5.1 (5–6). Non intero documento."
+    },
+    {
+      "id": "LAS-EMA",
+      "title": "EMA · Rayvow, informazioni di prodotto",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/rayvow-epar-product-information_en.pdf",
+      "detail": "Letti il 28/10/2026: 4.1 (PDF 2), 4.4 (3–4), 4.7 (5–6) e parte iniziale di 5.1 (8), prima degli studi clinici. Non intero documento."
+    },
+    {
+      "id": "CGRP-ORMONI",
+      "title": "Neurology 2023 · CGRP e contesti ormonali nell’emicrania",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36813730/",
+      "detail": "PMID 36813730, DOI 10.1212/WNL.0000000000207114. Abstract letto il 28/10/2026; non articolo completo. Discordanze di pannelli e unità nelle diapositive: nessun valore numerico o soglia trasferito."
     }
   ],
-  "coverage": "Prima stesura estesa sui fondamenti dell’emicrania, sul rapporto fra circuito e bersagli e sulla cefalea da uso eccessivo. Sette pagine delle diapositive lette e controllate, cinque nuove; nessun manuale o corso intero dichiarato letto. Restano da integrare i corrispondenti intervalli dei libri e degli appunti, le classi specifiche, gli anticorpi e le popolazioni speciali. Consultazioni ufficiali selettive: controllo editoriale mirato, non revisione clinica indipendente.",
-  "wordCount": 1995
+  "coverage": "Stesura estesa sui fondamenti dell’emicrania, con approfondimenti su complessi recettoriali, anticorpi, selettività serotoninergica e interpretazione delle misure di CGRP. Dodici pagine delle diapositive lette e controllate, cinque nuove in questo lotto. Un abstract di ricerca e passaggi selezionati di una revisione farmacologica consultati; non i relativi articoli interi. Restano i corrispondenti intervalli dei libri e degli appunti, ulteriori classi e popolazioni speciali. Consultazioni ufficiali selettive: controllo editoriale mirato, non revisione clinica indipendente.",
+  "wordCount": 2788
 });

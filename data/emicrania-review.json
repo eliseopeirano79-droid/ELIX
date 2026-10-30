@@ -1,21 +1,21 @@
 {
-  "batch": "theory-course-516-520",
+  "batch": "theory-course-521-525",
   "chapterId": "emicrania",
-  "checkedAt": "2026-10-28T20:13:47.812547+00:00",
+  "checkedAt": "2026-10-28T20:45:38.202666+00:00",
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "a5909cd0722e1a921f01a12c78a81795d0bd9bcbcc4452418517e2d9310e0552",
+  "moduleSha256": "f1578ecb703b7073dc59c33477bb32fd89c3470ac7fc6351ecf3117214c4dbed",
   "checks": [
-    "Dodici sezioni rilette; meccanismo, indicazioni e misure di esito distinti.",
-    "Corrette due informazioni storiche: prevenzione episodica per rimegepant e criteri MOH senza prova preliminare di sospensione.",
-    "Indicazione corrente di atogepant verificata nel documento EMA; nessuna dose o equivalenza.",
-    "Fonti pubbliche generiche, anno e pagine; nessun originale ripubblicato.",
-    "40 validatori e otto configurazioni browser superati; due temi, tastiera, sei farmaci, cinque capitoli, fonti, ricerca e offline.",
-    "Aggiornamento reale 0.46.0→0.47.0 con preferiti, progressi e tema conservati; i 56 capitoli esistenti sono invariati."
+    "Quattro nuove sezioni rilette: complesso recettoriale, bersaglio degli anticorpi, selettività serotoninergica e limiti delle misure di CGRP.",
+    "Documenti EMA letti per passaggi selezionati; distinzione fra ligando e recettore, dati ex vivo e sicurezza clinica.",
+    "Nessuna unità, soglia, dose o figura delle diapositive trasferita.",
+    "Dodici sezioni e otto domande precedenti conservate; quattro domande aggiunte.",
+    "40 validatori e otto configurazioni browser superati; due temi, tastiera, nove farmaci, cinque capitoli, fonti, ricerca e offline.",
+    "Aggiornamento reale 0.47.0→0.48.0 con preferiti, progressi e tema conservati; gli altri 56 capitoli, le 12 sezioni e le 8 domande pregresse sono conservati."
   ],
   "limits": [
-    "Verifica editoriale mirata del solo integratore, non revisione clinica indipendente.",
+    "Controllo editoriale mirato del solo integratore, non revisione clinica indipendente.",
     "Verifiche locali superate; CI, deploy e verifica online da concludere."
   ]
 }
