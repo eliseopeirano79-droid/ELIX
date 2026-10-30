@@ -213,9 +213,23 @@ export const THEORY_MIGRAINE = Object.freeze({
       "title": "Analgesici comuni: il contesto conta quanto il nome",
       "refs": [
         "CFI",
-        "NICE"
+        "NICE",
+        "KAT-MIG",
+        "RAN-MIG",
+        "APP-MIG"
       ],
-      "text": "FANS e paracetamolo compaiono fra le opzioni per il trattamento acuto, ma non sono due nomi dello stesso meccanismo. Il collegamento con il capitolo su COX ed eicosanoidi aiuta a ricostruire l’azione dei FANS; il confronto clinico richiede poi indicazione, formulazione e caratteristiche della persona.\n\nNon è corretto trasformare una frase sintetica su una comorbilità in una preferenza automatica. Una condizione cardiovascolare, per esempio, non rende universalmente adatto l’acido acetilsalicilico per qualsiasi attacco. Le raccomandazioni correnti chiedono di considerare comorbilità e rischi delle diverse opzioni. Analogamente, le scelte durante gravidanza, allattamento o età pediatrica non possono essere ricavate per semplice analogia con l’adulto.\n\nC’è inoltre una differenza fra potenza dell’intervento e frequenza d’uso. Un farmaco può attenuare un episodio e diventare problematico quando la gestione complessiva richiede un ricorso troppo frequente ai sintomatici. Passare a un analgesico percepito come più forte non chiarisce perché gli attacchi siano aumentati. Il passo successivo è ricostruire l’andamento della cefalea e l’esposizione reale ai medicinali."
+      "text": "FANS e paracetamolo compaiono fra le opzioni per il trattamento acuto, ma non sono due nomi dello stesso meccanismo. Il collegamento con il capitolo su COX ed eicosanoidi aiuta a ricostruire l’azione dei FANS; il confronto clinico richiede poi indicazione, formulazione e caratteristiche della persona.\n\nNon è corretto trasformare una frase sintetica su una comorbilità in una preferenza automatica. Una condizione cardiovascolare, per esempio, non rende universalmente adatto l’acido acetilsalicilico per qualsiasi attacco. Le raccomandazioni correnti chiedono di considerare comorbilità e rischi delle diverse opzioni. Analogamente, le scelte durante gravidanza, allattamento o età pediatrica non possono essere ricavate per semplice analogia con l’adulto.\n\nC’è inoltre una differenza fra potenza dell’intervento e frequenza d’uso. Un farmaco può attenuare un episodio e diventare problematico quando la gestione complessiva richiede un ricorso troppo frequente ai sintomatici. Passare a un analgesico percepito come più forte non chiarisce perché gli attacchi siano aumentati. Il passo successivo è ricostruire l’andamento della cefalea e l’esposizione reale ai medicinali.\n\nUn’associazione farmacologica introduce una domanda ulteriore: quali passaggi del dolore vengono modificati insieme? Un FANS interferisce con la produzione di prostanoidi attraverso le cicloossigenasi; un triptano agisce sui recettori serotoninergici coinvolti nella risposta trigeminovascolare. Due bersagli differenti offrono un razionale per studiare un’associazione, ma il razionale non dimostra da solo un beneficio aggiuntivo, né permette di sommare liberamente medicinali. L’appropriatezza della combinazione richiede prove cliniche, compatibilità dei prodotti e valutazione dei rischi della persona.\n\nAnche il vocabolo «serotoninergico» va precisato: agonismo e antagonismo, sottotipo recettoriale e sede d’azione possono condurre a effetti molto diversi. L’assenza di una componente vasocostrittrice non equivale all’assenza di effetti indesiderati. Questo collega la scelta dell’associazione ai capitoli sui recettori e sulla sicurezza, senza trasformare uno schema dei bersagli in una prescrizione."
+    },
+    {
+      "id": "combinazioni-evidenze",
+      "title": "Associazioni acute: leggere il confronto e la raccomandazione",
+      "refs": [
+        "CFI",
+        "ACP-ACUTE",
+        "NICE",
+        "ACP-SR"
+      ],
+      "text": "Nel trattamento dell’attacco, «funziona» è una conclusione incompleta finché non si specificano confronto ed esito. Migliorare rispetto a placebo, aggiungere beneficio a un analgesico e superare un altro trattamento attivo sono domande differenti. Una tabella può rispondere bene alla prima e lasciare incerte le altre; l’incertezza comparativa non dimostra inefficacia.\n\nLa linea guida ACP del 2025 riguarda adulti non in gravidanza con emicrania episodica acuta moderata o grave, in ambito ambulatoriale. Dopo risposta insufficiente a un FANS raccomanda di aggiungere un triptano: raccomandazione forte, certezza moderata. Dopo risposta insufficiente al paracetamolo propone la stessa aggiunta con raccomandazione condizionata e certezza bassa. Le due formulazioni non hanno quindi lo stesso peso.\n\nNICE CG150 presenta invece l’associazione orale di un triptano con un FANS o con paracetamolo fra le opzioni acute, considerando preferenze, comorbilità e rischi; contempla anche la monoterapia quando la persona preferisce un solo medicinale. La diversa formulazione va letta nel rispettivo ambito: non basta accostare due frasi per ricavarne un unico ordine obbligatorio di trattamento. Età, condizioni cliniche e autorizzazioni del prodotto restano determinanti.\n\nLa revisione sistematica collegata ad ACP distingue studi contro placebo e confronti fra trattamenti attivi. Il suo abstract segnala confronti con evidenza insufficiente e una valutazione dei danni limitata agli studi randomizzati: una graduatoria di efficacia non esaurisce la sicurezza nella pratica. Qui non vengono riportati classifiche, dosi o stime comparative; è inoltre segnalata una correzione successiva il cui contenuto non è stato consultabile. La lettura è dunque limitata all’impostazione del confronto, non alla verifica completa dei risultati della revisione.\n\nPer studiare una raccomandazione conviene ricostruire sempre quattro elementi: a chi si applica, quale alternativa viene confrontata, quale risultato viene misurato e con quanta certezza. Solo dopo si può collegare il risultato al meccanismo farmacologico. Questa sequenza evita di confondere una plausibilità biologica con una scelta clinica già dimostrata per ogni persona."
     },
     {
       "id": "moh",
@@ -331,6 +345,14 @@ export const THEORY_MIGRAINE = Object.freeze({
     {
       "question": "La finestra per valutare il beneficio autorizza a rimandare l’esame di una reazione avversa?",
       "answer": "No. La sorveglianza accompagna il trattamento. Interruzione per intolleranza e inefficacia dopo esposizione adeguata devono essere distinte."
+    },
+    {
+      "question": "Due farmaci che agiscono su bersagli diversi hanno necessariamente un beneficio aggiuntivo quando associati?",
+      "answer": "No. La complementarità offre un razionale da verificare; beneficio, compatibilità e rischi richiedono valutazioni specifiche."
+    },
+    {
+      "question": "La mancanza di un confronto affidabile con un’altra terapia dimostra che un trattamento è inefficace?",
+      "answer": "No. Efficacia rispetto a placebo, beneficio aggiuntivo e superiorità rispetto a un trattamento attivo sono domande diverse."
     }
   ],
   "relatedExistingChapterIds": [
@@ -390,7 +412,7 @@ export const THEORY_MIGRAINE = Object.freeze({
     {
       "id": "CFI",
       "title": "Diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "Diapositive del corso di Farmacologia I, AA 2025–26: PDF 514–540, etichette 512–538. Nuove PDF 536–540 lette nel testo disponibile e nei rendering il 30/10/2026. PDF 536–540, etichette 534–538: algoritmo storico 2020, notizie 2018–2023, tabella e previsioni di mercato, tabelle comparative. Testo delle immagini letto nei rendering. Articoli citati non letti; edizione delle tabelle 539–540 non identificata, margine destro della 540 ritagliato. Nessuna figura, dose, valore di vendita o classifica importata."
+      "detail": "Diapositive del corso di Farmacologia I, AA 2025–26: PDF 514–541, etichette 512–539. Nuova PDF 541 letta nel testo e nel rendering il 30/10/2026; sintesi ACP 2025 confrontata con abstract primario. Figure e tabelle pregresse con limiti conservati nel registro; nessun materiale originale riprodotto."
     },
     {
       "id": "ICHD-1",
@@ -438,7 +460,7 @@ export const THEORY_MIGRAINE = Object.freeze({
       "id": "NICE",
       "title": "NICE CG150 · Cefalee oltre i 12 anni",
       "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
-      "detail": "Raccomandazioni 1.3.10–1.3.33 e 1.3.42–1.3.48 lette nella pagina corrente il 28/10/2026. Contesto britannico; nessun protocollo, dosaggio o criterio di rimborso italiano derivato. Il 30/10/2026 ricontrollate 1.3.32–1.3.33 negli estratti indicizzati del documento ufficiale corrente (PDF pp. 17–18); accesso diretto alla pagina e al PDF non riuscito (403)."
+      "detail": "Raccomandazioni 1.3.10–1.3.33 e 1.3.42–1.3.48 lette nella pagina corrente il 28/10/2026. Contesto britannico; nessun protocollo, dosaggio o criterio di rimborso italiano derivato. Il 30/10/2026 ricontrollate 1.3.32–1.3.33 negli estratti indicizzati del documento ufficiale corrente (PDF pp. 17–18); accesso diretto alla pagina e al PDF non riuscito (403). Ricontrollate 1.3.10–1.3.11 negli estratti indicizzati ufficiali il 30/10/2026; accesso diretto ancora 403."
     },
     {
       "id": "RIM-EMA",
@@ -515,17 +537,17 @@ export const THEORY_MIGRAINE = Object.freeze({
     {
       "id": "KAT-MIG",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX edizione italiana 2014 / XII americana 2012, capitolo 16: PDF 337–338, editoriali 317–318. Testo disponibile e rendering letti il 30/10/2026, incluso riquadro, figura 16-3 e tabella 16-5. La 337 inizia a frase in corso, la 338 termina con frase che prosegue fuori dall’intervallo. Stato sperimentale trattato come storico; studio 1991 citato non letto, nessuna dose o figura trasferita."
+      "detail": "IX italiana 2014 / XII americana 2012, capitolo 16: PDF 337–339, editoriali 317–319. Nuova 339 letta nel testo e nel rendering il 30/10/2026; completa il passaggio sui triptani della 338. Le altre indicazioni della pagina non sono trasferite come indicazioni attuali. Ultima frase sugli antagonisti continua nella 340 non letta. Figure, tabelle e limiti precedenti nel registro; non intero capitolo."
     },
     {
       "id": "RAN-MIG",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII edizione italiana 2016 / originale 2015, capitolo 15: PDF 317–319, paginazione editoriale non ricostruita. Testo, figura 15.3, tabella 15.3 e riquadri controllati il 30/10/2026; annotazioni manoscritte distinte dal testo editoriale. Frase finale della 319 prosegue nella 320 non letta. Non intero capitolo né articoli citati; nessuna figura riprodotta."
+      "detail": "VIII italiana 2016 / originale 2015, capitolo 15: PDF 317–320; paginazione editoriale non ricostruita. Nuova 320 letta nel testo e nel rendering il 30/10/2026: completato il passaggio su lasmiditan e tollerabilità. Annotazioni distinte dal testo. Altri argomenti della pagina e bibliografia non integrati; articoli elencati non letti. Non intero capitolo."
     },
     {
       "id": "APP-MIG",
       "title": "Appunti del corso di Farmacologia I · 2025–26",
-      "detail": "Appunti del corso di Farmacologia I, AA 2025–26: PDF 280–282, etichette 275–277 e pagine di lezione 9–11. Testo disponibile e rendering letti il 30/10/2026. Parti sovrapposte nella 281 non ricostruite. Figure ripetute dalle diapositive riconosciute; criteri storici di uso eccessivo distinti da ICHD-3. Nessuna dose o figura trasferita."
+      "detail": "Appunti del corso di Farmacologia I, AA 2025–26: PDF 279–282, etichette 274–277, pagine di lezione 8–11. Nuova 279 letta nel testo disponibile e nel rendering il 30/10/2026. La spiegazione vascolare e la discordanza sensibilizzazione/desensibilizzazione non sono riproposte come spiegazione unica. Ziconotide già trattato altrove, non nuovo profilo. Parti sovrapposte nella 281 non ricostruite; immagini ripetute riconosciute."
     },
     {
       "id": "ZAV-US",
@@ -568,8 +590,20 @@ export const THEORY_MIGRAINE = Object.freeze({
       "title": "AAN/AHS · Prevenzione farmacologica dell’emicrania, 2026",
       "url": "https://headachejournal.onlinelibrary.wiley.com/doi/10.1111/head.70199",
       "detail": "Pubblicazione online 31/08/2026, DOI 10.1111/head.70199. Letti il 30/10/2026 abstract e raccomandazioni 1–3 e 14–16 con relativi razionali. Non intera linea guida, revisione sistematica associata o appendici; ricerca bibliografica dichiarata fino al 06/06/2024."
+    },
+    {
+      "id": "ACP-ACUTE",
+      "title": "ACP 2025 · Trattamento ambulatoriale dell’emicrania episodica acuta",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40096690/",
+      "detail": "DOI 10.7326/ANNALS-24-03095. Abstract e raccomandazioni letti il 30/10/2026; testo integrale non accessibile (403), non revisione completa."
+    },
+    {
+      "id": "ACP-SR",
+      "title": "Annals 2025 · Revisione sistematica dei trattamenti acuti",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40096693/",
+      "detail": "DOI 10.7326/ANNALS-24-02034. Solo abstract letto il 30/10/2026. Correzione DOI 10.7326/ANNALS-25-02645 segnalata, contenuto non accessibile (403). Nessuna graduatoria o stima quantitativa trasferita."
     }
   ],
-  "coverage": "Capitolo esteso; 35 pagine cumulative di quattro fonti, otto nuove in questo lotto: cinque diapositive, una pagina di ciascun libro e una degli appunti. Testo disponibile e rendering letti, figure ripetute riconosciute. Riconciliazione parziale di meccanismi, prodotti, prevenzione e valutazione degli esiti. Libri e corsi incompleti; rimborso italiano corrente non verificato. Documenti di prodotto e linee guida consultati per passaggi selezionati, non revisione clinica indipendente.",
-  "wordCount": 4956
+  "coverage": "Capitolo esteso; 39 pagine cumulative di quattro fonti, quattro nuove pertinenti all’emicrania in questo lotto. Altre quattro pagine ispezionate separatamente: una vuota, un indice e due introduttive sulle malattie infiammatorie intestinali rinviate al prossimo lotto. Testo disponibile e rendering controllati; libri e corsi incompleti. Fonti ufficiali e abstract consultati nei limiti dichiarati; non revisione clinica indipendente.",
+  "wordCount": 5389
 });
