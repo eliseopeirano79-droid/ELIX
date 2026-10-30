@@ -114,6 +114,42 @@ export const THEORY_MIGRAINE = Object.freeze({
       "text": "Il CGRP è un neuropeptide coinvolto nella segnalazione emicranica. I gepanti interferiscono con recettori di questa famiglia di mediatori; non sono agonisti serotoninergici come i triptani. Cambiare bersaglio permette di agire su un altro passaggio, ma non autorizza a considerare tutti i gepanti identici nell’impiego.\n\nNelle informazioni EMA consultate il 28 ottobre 2026, rimegepant è indicato per il trattamento acuto dell’emicrania con o senza aura nell’adulto e per la prevenzione della forma episodica nell’adulto con almeno quattro attacchi mensili. La prevenzione della forma cronica non può essere dedotta da questa indicazione. Per atogepant, il documento corrente comprende sia il trattamento acuto nell’adulto sia la profilassi con almeno quattro giorni mensili di emicrania.\n\nAnche la descrizione molecolare richiede precisione. Per rimegepant è documentato l’antagonismo del recettore CGRP. Per atogepant il documento considera potenzialmente rilevanti anche recettori dell’amilina-1 e mantiene esplicitamente aperta la definizione del meccanismo clinico preciso. Affinità sperimentale, meccanismo proposto e beneficio clinico sono livelli collegati ma distinti. Non sono riportate qui dosi o equivalenze tra i prodotti."
     },
     {
+      "id": "gepanti-prodotti",
+      "title": "Gepanti: distinguere il bersaglio dalla storia dei singoli prodotti",
+      "refs": [
+        "CFI",
+        "KAT-MIG",
+        "RAN-MIG",
+        "APP-MIG",
+        "ATO-EMA",
+        "ZAV-US"
+      ],
+      "text": "Il successo di un bersaglio terapeutico non implica che ogni molecola sviluppata per quel bersaglio abbia lo stesso destino. Le edizioni di Katzung e Rang & Dale qui confrontate descrivono una fase iniziale degli antagonisti del CGRP; Rang & Dale richiama l’interruzione dello sviluppo di telcagepant per tossicità epatica. È un dato storico relativo a quel composto: non permette di attribuire automaticamente lo stesso rischio a tutti i gepanti successivi, né di escluderlo per semplice appartenenza a una nuova generazione.\n\nPer orientarsi occorre mantenere tre coordinate: la molecola, il prodotto con la sua formulazione e l’indicazione vigente nel territorio considerato. La classificazione didattica in trattamento acuto, misto e preventivo è utile soltanto se queste coordinate sono aggiornate. Per esempio, nelle informazioni EMA consultate il 30 ottobre 2026 atogepant comprende anche l’impiego acuto: uno schema storico che lo collochi esclusivamente nella prevenzione non descrive più integralmente quel documento europeo.\n\nLa via nasale è invece una proprietà di un prodotto specifico, non della classe. Zavegepant, nello spray nasale statunitense Zavzpret, è indicato per l’attacco nell’adulto e non per la prevenzione. La sua presenza accanto ai gepanti orali non dimostra una maggiore efficacia dell’intera classe né un assorbimento migliore in qualsiasi circostanza. Il confronto richiede dati sul prodotto e sull’esito misurato.\n\nQuesta distinzione permette di leggere insieme fonti di epoche diverse senza trasformarle in un elenco contraddittorio. Il meccanismo aiuta a riconoscere la famiglia; lo sviluppo clinico decide quali proprietà siano dimostrate per una molecola; le informazioni aggiornate delimitano l’uso del prodotto. Nessuno di questi passaggi può essere sostituito dal solo nome del recettore."
+    },
+    {
+      "id": "cgrp-sorveglianza",
+      "title": "Blocco del CGRP: il razionale vascolare non esaurisce la sicurezza",
+      "refs": [
+        "CFI",
+        "APP-MIG",
+        "RAN-MIG",
+        "ZAV-US",
+        "ATO-EMA"
+      ],
+      "text": "Agire sul recettore del CGRP e stimolare i recettori serotoninergici dei triptani sono interventi diversi. Il razionale dei gepanti consente di affrontare la segnalazione trigeminovascolare senza riprodurre l’agonismo 5-HT1B/1D. Da questa differenza non discende però una garanzia generale per ogni persona con malattia cardiovascolare. Il modello spiega un punto d’intervento; la sicurezza va osservata nelle persone e aggiornata durante l’impiego.\n\nLe informazioni statunitensi correnti di zavegepant riportano avvertenze per comparsa o peggioramento dell’ipertensione e del fenomeno di Raynaud, sulla base di segnalazioni successive alla commercializzazione di antagonisti del CGRP. Richiamano il controllo della pressione e la valutazione dei sintomi vascolari. Questo dato impedisce di tradurre «non è un triptano» in «non richiede attenzione vascolare». Una segnalazione, d’altra parte, non fornisce da sola una frequenza confrontabile con quella di un altro medicinale.\n\nAnche l’esposizione al farmaco merita un ragionamento distinto. Per atogepant, le informazioni EMA descrivono aumenti dell’esposizione con potenti inibitori di CYP3A4 o dei trasportatori OATP e prevedono modifiche delle condizioni d’impiego. Il collegamento con il capitolo su metabolismo e trasportatori chiarisce perché la selettività recettoriale non protegga dalle interazioni farmacocinetiche.\n\nIl profilo finale riunisce dunque bersaglio, esposizione, effetti osservati e caratteristiche della persona. Né una vecchia esperienza sfavorevole con un composto sperimentale né un meccanismo favorevole possono sostituire questo insieme. Le avvertenze del prodotto statunitense restano identificate come tali: non diventano automaticamente un RCP europeo o una graduatoria di sicurezza fra gepanti."
+    },
+    {
+      "id": "indicazione-accesso",
+      "title": "Indicazione autorizzata, rimborso e scelta clinica",
+      "refs": [
+        "CFI",
+        "ATO-EMA",
+        "AIFA-ATO",
+        "AIFA-REG"
+      ],
+      "text": "La frequenza dell’emicrania compare in documenti che rispondono a domande differenti. Una classificazione diagnostica descrive il disturbo; l’indicazione autorizzata definisce un impiego del medicinale; le condizioni di rimborso stabiliscono quando il servizio sanitario ne sostiene il costo. La stessa unità, per esempio i giorni mensili, non rende intercambiabili queste regole.\n\nIl confronto storico di Aquipta è istruttivo. L’indicazione europea per la profilassi considera adulti con almeno quattro giorni mensili di emicrania. La comunicazione AIFA del 7 ottobre 2024 sull’attivazione del registro descrive invece condizioni di rimborso più circoscritte: almeno otto giorni mensili di emicrania disabilitante nei tre mesi precedenti, una soglia di disabilità e precedenti trattamenti preventivi insufficienti, non tollerati o controindicati. Il numero otto, letto isolatamente in una notizia, perde quindi parte del suo significato.\n\nQueste soglie non sono due definizioni concorrenti della stessa malattia. Sono criteri applicati a scopi diversi, e vanno letti con data, indicazione e requisiti completi. Inoltre, l’estensione di un’autorizzazione non dimostra automaticamente che siano cambiate anche le condizioni italiane di rimborso.\n\nPer una decisione reale servono il documento di prodotto, le disposizioni nazionali e le schede applicabili al momento della prescrizione. La pagina AIFA dei registri è aggiornata nel tempo; l’esempio del 2024 qui discusso non certifica l’eleggibilità attuale di una persona. Il confronto insegna a separare evidenza farmacologica e condizioni di accesso, conservando entrambe senza ricavare un piano terapeutico da una singola soglia."
+    },
+    {
       "id": "ligando-recettore",
       "title": "Intercettare il messaggero o bloccare il suo recettore",
       "refs": [
@@ -252,6 +288,18 @@ export const THEORY_MIGRAINE = Object.freeze({
     {
       "question": "L’assenza di un segnale osservato in gravidanza equivale a rischio nullo?",
       "answer": "No. Numerosità, periodo di esposizione, esiti e qualità delle informazioni delimitano la conclusione. Il giudizio richiede il bilancio fra benefici e rischi nel contesto pertinente."
+    },
+    {
+      "question": "Uno schema che definisce atogepant esclusivamente preventivo vale senza indicare territorio e data?",
+      "answer": "No. Le indicazioni possono evolvere: il documento EMA consultato nel 2026 comprende anche il trattamento acuto nell’adulto. La classe non sostituisce le informazioni del prodotto."
+    },
+    {
+      "question": "Il diverso bersaglio rispetto ai triptani basta a escludere problemi vascolari con un gepante?",
+      "answer": "No. Il razionale farmacologico non esaurisce la sicurezza osservata; il documento statunitense di zavegepant riporta avvertenze su ipertensione e fenomeno di Raynaud."
+    },
+    {
+      "question": "Una soglia riportata in una disposizione di rimborso può essere usata da sola per diagnosticare l’emicrania?",
+      "answer": "No. Diagnosi, indicazione autorizzata ed eleggibilità al rimborso rispondono a domande diverse. Data, territorio e requisiti completi devono rimanere distinti."
     }
   ],
   "relatedExistingChapterIds": [
@@ -303,7 +351,7 @@ export const THEORY_MIGRAINE = Object.freeze({
     {
       "id": "CFI",
       "title": "Diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 514–530, etichette interne 512–528: testo disponibile e immagini controllati; cinque nuove pagine 526–530. Ritaglio e nota assente nella tabella 527; edizione delle tabelle 526–527 non identificata. Restano discordanze di pannelli/unità nella 522 e coperture parziali nelle 523 e 525. Nessun valore, dose o figura trasferito; articoli citati non letti integralmente."
+      "detail": "PDF 514–530, etichette interne 512–528: testo disponibile e immagini controllati; cinque nuove pagine 526–530. Ritaglio e nota assente nella tabella 527; edizione delle tabelle 526–527 non identificata. Restano discordanze di pannelli/unità nella 522 e coperture parziali nelle 523 e 525. Nessun valore, dose o figura trasferito; articoli citati non letti integralmente. Nuove pagine PDF 531–535, etichette 529–533, testo disponibile e rendering letti il 30/10/2026: classificazioni storiche dei gepanti riconciliate; articolo 2022 citato nella 531 non letto."
     },
     {
       "id": "ICHD-1",
@@ -363,7 +411,7 @@ export const THEORY_MIGRAINE = Object.freeze({
       "id": "ATO-EMA",
       "title": "EMA · Aquipta, informazioni di prodotto",
       "url": "https://www.ema.europa.eu/en/documents/product-information/aquipta-epar-product-information_en.pdf",
-      "detail": "Consultazione selettiva il 28/10/2026: indicazioni 4.1 (PDF 2), avvertenze 4.4 (PDF 4) e meccanismo iniziale di 5.1 (PDF 6). Documento corrente con trattamento acuto e profilassi; affinità recettoriale distinta dal meccanismo clinico preciso."
+      "detail": "Consultazione selettiva il 28/10/2026: indicazioni 4.1 (PDF 2), avvertenze 4.4 (PDF 4) e meccanismo iniziale di 5.1 (PDF 6). Documento corrente con trattamento acuto e profilassi; affinità recettoriale distinta dal meccanismo clinico preciso. Ricontrollate il 30/10/2026 le sezioni 4.1–4.5 (PDF 2–4); indicazione acuta e interazioni confermate. Nessuna dose trasferita."
     },
     {
       "id": "TOP-EMA",
@@ -424,8 +472,41 @@ export const THEORY_MIGRAINE = Object.freeze({
       "title": "FDA · Pregnancy and Lactation Labeling Resources",
       "url": "https://www.fda.gov/drugs/labeling-information-drug-products/pregnancy-and-lactation-labeling-resources",
       "detail": "Testo introduttivo su categorie, contenuti delle sezioni e decorrenza del PLLR letto il 30/10/2026. Non lettura del testo integrale della norma o delle presentazioni collegate."
+    },
+    {
+      "id": "KAT-MIG",
+      "title": "Katzung · Farmacologia generale e clinica",
+      "detail": "IX edizione italiana 2014 / XII americana 2012, capitolo 16: sola pagina PDF 337, pagina editoriale 317. Testo disponibile e rendering letti il 30/10/2026, incluso riquadro assente nell’estrazione. Pagina iniziante a frase in corso; non intera sezione o capitolo. Stato dei composti sperimentali trattato come storico."
+    },
+    {
+      "id": "RAN-MIG",
+      "title": "Rang & Dale · Farmacologia",
+      "detail": "VIII edizione italiana 2016 / originale 2015, capitolo 15: PDF 317–318, paginazione editoriale non ricostruita. Testo, annotazioni visibili e figura 15.3 controllati il 30/10/2026. Nessuna figura riprodotta; non intero capitolo né articoli citati."
+    },
+    {
+      "id": "APP-MIG",
+      "title": "Appunti del corso di Farmacologia I · 2025–26",
+      "detail": "PDF 281–282, etichette 276–277 e pagine di lezione 10–11: testo e rendering letti il 30/10/2026. Tabelle e figura sovrapposte nella 281; parti nascoste non ricostruite. Figure ripetute dalle diapositive riconosciute, non contate come evidenze indipendenti."
+    },
+    {
+      "id": "ZAV-US",
+      "title": "Zavzpret · Informazioni di prescrizione statunitensi",
+      "url": "https://labeling.pfizer.com/ShowLabeling.aspx?id=19471",
+      "detail": "Documento Pfizer, revisione agosto 2025, consultato il 30/10/2026: sintesi, sezioni 1–5 e premessa di 6.1. Indicazione acuta, formulazione nasale e avvertenze vascolari; non intero documento, non RCP europeo. Nessuna dose trasferita."
+    },
+    {
+      "id": "AIFA-ATO",
+      "title": "AIFA · Attivazione del registro Aquipta, 2024",
+      "url": "https://www.aifa.gov.it/-/attivazione-web-e-pubblicazione-schede-di-monitoraggio-registro-aquipta",
+      "detail": "Comunicazione del 07/10/2024 letta il 30/10/2026. Esempio datato delle condizioni di rimborso; non consultate le schede cliniche complete né verificata l’eleggibilità corrente."
+    },
+    {
+      "id": "AIFA-REG",
+      "title": "AIFA · Elenco dei registri di monitoraggio",
+      "url": "https://www.aifa.gov.it/it/registri-e-piani-terapeutici1",
+      "detail": "Pagina indice letta il 30/10/2026: elenco attivi datato 28/10/2026. CSV non letto: formato non supportato dal lettore e accesso diretto 403. Non dichiarata verificata la riga Aquipta del registro corrente."
     }
   ],
-  "coverage": "Stesura estesa con approfondimenti su circuiti, bersagli, interpretazione delle evidenze, farmacocinetica dei triptani e sicurezza. Diciassette pagine delle diapositive lette e controllate, cinque nuove in questo lotto. Tabelle parziali e categorie storiche riconciliate senza trasferire dosi o figure. Restano i corrispondenti intervalli dei libri e degli appunti, ulteriori classi e popolazioni speciali. Consultazioni ufficiali selettive: controllo editoriale mirato, non revisione clinica indipendente.",
-  "wordCount": 3627
+  "coverage": "Capitolo esteso; ventidue pagine delle diapositive, una di Katzung, due di Rang & Dale e due degli appunti lette nel testo disponibile e nei rendering. Dieci nuove pagine in questo lotto; figure ripetute riconosciute. Riconciliazione parziale di meccanismi, storia dei gepanti, indicazioni e accesso. Libri e corsi incompleti; schede italiane di rimborso correnti non verificate. Consultazioni ufficiali selettive e controllo editoriale mirato, non revisione clinica indipendente.",
+  "wordCount": 4351
 });

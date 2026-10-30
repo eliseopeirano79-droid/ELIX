@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-course-526-530",
+  "batch": "theory-course-531-535",
   "chapterId": "emicrania",
-  "updatedAt": "2026-10-30T13:59:02.118936+00:00",
+  "updatedAt": "2026-10-30T14:39:22.429990+00:00",
   "status": "editorial_reconciled_locally_verified_pending_publication",
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -30,7 +30,12 @@
         527,
         528,
         529,
-        530
+        530,
+        531,
+        532,
+        533,
+        534,
+        535
       ],
       "visuallyCheckedPdfPages": [
         514,
@@ -49,14 +54,19 @@
         527,
         528,
         529,
-        530
+        530,
+        531,
+        532,
+        533,
+        534,
+        535
       ],
       "newlyReadTextPages": [
-        526,
-        527,
-        528,
-        529,
-        530
+        531,
+        532,
+        533,
+        534,
+        535
       ],
       "reusedPreviouslyReadPages": [
         514,
@@ -70,7 +80,12 @@
         522,
         523,
         524,
-        525
+        525,
+        526,
+        527,
+        528,
+        529,
+        530
       ],
       "internalLabels": [
         512,
@@ -89,25 +104,113 @@
         525,
         526,
         527,
-        528
+        528,
+        529,
+        530,
+        531,
+        532,
+        533
       ],
       "sourceUnchanged": true,
       "allContentsRead": false,
-      "remaining": "PDF 531–935 e altri intervalli non coperti da questo capitolo.",
+      "remaining": "PDF 536–935 e altri intervalli non coperti da questo capitolo.",
       "limits": [
         "Articoli 1999 e 2020 non letti integralmente.",
         "Studio 2023: solo abstract primario, non testo completo.",
         "IUPHAR 2017–2018: testo selezionato su composizione e trasduzione; figure originali e intera revisione non controllate.",
-        "Nessun nuovo intervallo di libri o appunti letto.",
         "Tabelle PDF 526–527: edizione non identificata; tabella 527 ritagliata e nota a non disponibile. Nessun valore numerico trasferito.",
         "Articolo di affinità del 2010 citato nella pagina 529 non letto; selettività e sicurezza non equiparate.",
-        "NICE: passaggi 1.3.32–1.3.33 ricontrollati negli estratti indicizzati ufficiali; accesso diretto 403. EMA Rayvow 429: riutilizzata lettura del 28/10."
+        "NICE: passaggi 1.3.32–1.3.33 ricontrollati negli estratti indicizzati ufficiali; accesso diretto 403. EMA Rayvow 429: riutilizzata lettura del 28/10.",
+        "Articolo 2022 citato nella 531 non letto; nessuna figura o dose trasferita."
+      ]
+    },
+    {
+      "id": "KAT",
+      "title": "Katzung · Farmacologia generale e clinica",
+      "edition": "IX italiana 2014 / XII americana 2012",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "pageCount": 1579,
+      "pdfPagesRead": [
+        337
+      ],
+      "visuallyCheckedPdfPages": [
+        337
+      ],
+      "newlyReadTextPages": [
+        337
+      ],
+      "reusedPreviouslyReadPages": [],
+      "internalLabels": [
+        317
+      ],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "remaining": "Altri intervalli del tema e del volume ancora da leggere.",
+      "limits": [
+        "IX edizione italiana 2014 / XII americana 2012, capitolo 16: sola pagina PDF 337, pagina editoriale 317. Testo disponibile e rendering letti il 30/10/2026, incluso riquadro assente nell’estrazione. Pagina iniziante a frase in corso; non intera sezione o capitolo. Stato dei composti sperimentali trattato come storico."
+      ]
+    },
+    {
+      "id": "RAN",
+      "title": "Rang & Dale · Farmacologia",
+      "edition": "VIII italiana 2016 / originale 2015",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "pageCount": 1102,
+      "pdfPagesRead": [
+        317,
+        318
+      ],
+      "visuallyCheckedPdfPages": [
+        317,
+        318
+      ],
+      "newlyReadTextPages": [
+        317,
+        318
+      ],
+      "reusedPreviouslyReadPages": [],
+      "internalLabels": [],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "remaining": "Altri intervalli del tema e del volume ancora da leggere.",
+      "limits": [
+        "VIII edizione italiana 2016 / originale 2015, capitolo 15: PDF 317–318, paginazione editoriale non ricostruita. Testo, annotazioni visibili e figura 15.3 controllati il 30/10/2026. Nessuna figura riprodotta; non intero capitolo né articoli citati."
+      ]
+    },
+    {
+      "id": "APP",
+      "title": "Appunti del corso di Farmacologia I",
+      "edition": "AA 2025–26",
+      "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+      "pageCount": 344,
+      "pdfPagesRead": [
+        281,
+        282
+      ],
+      "visuallyCheckedPdfPages": [
+        281,
+        282
+      ],
+      "newlyReadTextPages": [
+        281,
+        282
+      ],
+      "reusedPreviouslyReadPages": [],
+      "internalLabels": [
+        276,
+        277
+      ],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "remaining": "Altri intervalli del tema e del volume ancora da leggere.",
+      "limits": [
+        "PDF 281–282, etichette 276–277 e pagine di lezione 10–11: testo e rendering letti il 30/10/2026. Tabelle e figura sovrapposte nella 281; parti nascoste non ricostruite. Figure ripetute dalle diapositive riconosciute, non contate come evidenze indipendenti."
       ]
     }
   ],
-  "newReadPdfPages": 5,
-  "totalReadPdfPages": 17,
-  "currentBatchVisualPages": 5,
+  "newReadPdfPages": 10,
+  "totalReadPdfPages": 27,
+  "currentBatchVisualPages": 10,
   "newIdentities": 0,
   "newDrugSummaries": 0,
   "newPKProfiles": 0,
@@ -172,7 +275,7 @@
       "id": "ATO-EMA",
       "title": "EMA · Aquipta, informazioni di prodotto",
       "url": "https://www.ema.europa.eu/en/documents/product-information/aquipta-epar-product-information_en.pdf",
-      "detail": "Consultazione selettiva il 28/10/2026: indicazioni 4.1 (PDF 2), avvertenze 4.4 (PDF 4) e meccanismo iniziale di 5.1 (PDF 6). Documento corrente con trattamento acuto e profilassi; affinità recettoriale distinta dal meccanismo clinico preciso."
+      "detail": "Consultazione selettiva il 28/10/2026: indicazioni 4.1 (PDF 2), avvertenze 4.4 (PDF 4) e meccanismo iniziale di 5.1 (PDF 6). Documento corrente con trattamento acuto e profilassi; affinità recettoriale distinta dal meccanismo clinico preciso. Ricontrollate il 30/10/2026 le sezioni 4.1–4.5 (PDF 2–4); indicazione acuta e interazioni confermate. Nessuna dose trasferita."
     },
     {
       "id": "TOP-EMA",
@@ -221,21 +324,40 @@
       "title": "FDA · Pregnancy and Lactation Labeling Resources",
       "url": "https://www.fda.gov/drugs/labeling-information-drug-products/pregnancy-and-lactation-labeling-resources",
       "detail": "Testo introduttivo su categorie, contenuti delle sezioni e decorrenza del PLLR letto il 30/10/2026. Non lettura del testo integrale della norma o delle presentazioni collegate."
+    },
+    {
+      "id": "ZAV-US",
+      "title": "Zavzpret · Informazioni di prescrizione statunitensi",
+      "url": "https://labeling.pfizer.com/ShowLabeling.aspx?id=19471",
+      "detail": "Documento Pfizer, revisione agosto 2025, consultato il 30/10/2026: sintesi, sezioni 1–5 e premessa di 6.1. Indicazione acuta, formulazione nasale e avvertenze vascolari; non intero documento, non RCP europeo. Nessuna dose trasferita."
+    },
+    {
+      "id": "AIFA-ATO",
+      "title": "AIFA · Attivazione del registro Aquipta, 2024",
+      "url": "https://www.aifa.gov.it/-/attivazione-web-e-pubblicazione-schede-di-monitoraggio-registro-aquipta",
+      "detail": "Comunicazione del 07/10/2024 letta il 30/10/2026. Esempio datato delle condizioni di rimborso; non consultate le schede cliniche complete né verificata l’eleggibilità corrente."
+    },
+    {
+      "id": "AIFA-REG",
+      "title": "AIFA · Elenco dei registri di monitoraggio",
+      "url": "https://www.aifa.gov.it/it/registri-e-piani-terapeutici1",
+      "detail": "Pagina indice letta il 30/10/2026: elenco attivi datato 28/10/2026. CSV non letto: formato non supportato dal lettore e accesso diretto 403. Non dichiarata verificata la riga Aquipta del registro corrente."
     }
   ],
   "limits": [
-    "Stesura estesa con approfondimenti su circuiti, bersagli, interpretazione delle evidenze, farmacocinetica dei triptani e sicurezza. Diciassette pagine delle diapositive lette e controllate, cinque nuove in questo lotto. Tabelle parziali e categorie storiche riconciliate senza trasferire dosi o figure. Restano i corrispondenti intervalli dei libri e degli appunti, ulteriori classi e popolazioni speciali. Consultazioni ufficiali selettive: controllo editoriale mirato, non revisione clinica indipendente.",
+    "Capitolo esteso; ventidue pagine delle diapositive, una di Katzung, due di Rang & Dale e due degli appunti lette nel testo disponibile e nei rendering. Dieci nuove pagine in questo lotto; figure ripetute riconosciute. Riconciliazione parziale di meccanismi, storia dei gepanti, indicazioni e accesso. Libri e corsi incompleti; schede italiane di rimborso correnti non verificate. Consultazioni ufficiali selettive e controllo editoriale mirato, non revisione clinica indipendente.",
     "Articoli 1999 e 2020 non letti integralmente.",
     "Studio 2023: solo abstract primario, non testo completo.",
     "IUPHAR 2017–2018: testo selezionato su composizione e trasduzione; figure originali e intera revisione non controllate.",
-    "Nessun nuovo intervallo di libri o appunti letto.",
     "Fonti britanniche pregresse non equivalgono a RCP italiani; consultazioni ufficiali selettive.",
     "Chromium con dimensioni simulate, non dispositivi fisici.",
     "Tabelle PDF 526–527: edizione non identificata; tabella 527 ritagliata e nota a non disponibile. Nessun valore numerico trasferito.",
     "Articolo di affinità del 2010 citato nella pagina 529 non letto; selettività e sicurezza non equiparate.",
-    "NICE: passaggi 1.3.32–1.3.33 ricontrollati negli estratti indicizzati ufficiali; accesso diretto 403. EMA Rayvow 429: riutilizzata lettura del 28/10."
+    "NICE: passaggi 1.3.32–1.3.33 ricontrollati negli estratti indicizzati ufficiali; accesso diretto 403. EMA Rayvow 429: riutilizzata lettura del 28/10.",
+    "Nuovi intervalli dei libri limitati a tre pagine; due pagine degli appunti, con parti di figura coperte. Articoli citati non letti.",
+    "Registro AIFA corrente non letto: CSV non supportato e accesso diretto 403; esempio del 2024 distinto dall’eleggibilità corrente."
   ],
-  "nextInterval": "Concludere questo lotto; poi deduplicare PDF 531–535 e individuare gli intervalli corrispondenti di libri e appunti, senza dichiararli letti.",
+  "nextInterval": "Concludere questo lotto; poi diapositive PDF 536–540 previa deduplicazione, con prosecuzione mirata della riconciliazione dei libri e degli appunti.",
   "researchSources": [
     {
       "id": "IUPHAR-CGRP",
@@ -252,6 +374,18 @@
   ],
   "newResearchAbstractsRead": 0,
   "selectedReviewsRead": 0,
-  "newOfficialSources": 2,
-  "recheckedOfficialSources": 2
+  "newOfficialSources": 3,
+  "recheckedOfficialSources": 1,
+  "conflictsAndReconciliation": [
+    "CFI 531 e 534: atogepant presentato solo come preventivo; EMA corrente comprende anche uso acuto. La mappa storica non è ripubblicata.",
+    "CFI 532: notizia italiana del 2024 e dose; confrontata comunicazione AIFA datata, nessuna dose trasferita e nessuna attestazione di rimborso attuale.",
+    "CFI 533: approvazione USA dello spray nasale; non generalizzata alla classe o all’Europa.",
+    "CFI 535 e APP 282: razionale vascolare non equivale a sicurezza universale; avvertenze USA su pressione e Raynaud mantenute nel loro contesto.",
+    "APP 281: tabella e diagramma parzialmente sovrapposti; parte nascosta non letta. Tempi di esordio e Tmax non assimilati, dosi e numeri non trasferiti.",
+    "APP 282: testo iniziale sugli anticorpi limitato al ligando in conflitto con figura e paragrafo successivo; conservata distinzione già corretta fra recettore e ligando. Spray nasale non generalizzato a tutti i gepanti.",
+    "KAT 337: stato sperimentale e fallimenti riferiti a edizione storica; non applicati ai prodotti correnti. Aura, oppioidi e descrizione vascolare non trasferiti come indicazioni attuali.",
+    "RAN 317–318: modello multifattoriale, figura 15.3, storia di telcagepant; refuso prodromica/postdromica e formulazione pompa protonica non importati. Annotazioni manoscritte distinte dal testo editoriale.",
+    "APP 282 ripete immagini delle diapositive: confronto testuale di cinque nuove pagine correlate, non cinque nuove evidenze indipendenti."
+  ],
+  "deduplication": "Hash e pagine confrontati con i registri di lettura disponibili. Figure ripetute fra appunti e diapositive riconosciute; non nuova scansione completa del corpus."
 }
