@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-04T06:50:51.414567+00:00",
-  "batch": "theory-course-571-575",
+  "updatedAt": "2026-11-04T07:30:34.017667+00:00",
+  "batch": "theory-course-576-580",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.58.0",
-  "branch": "feat/theory-course-571-575",
-  "baseCommit": "e5f80ea8c99a32079382d33e80918571238be04c",
+  "release": "0.59.0",
+  "branch": "feat/theory-course-576-580",
+  "baseCommit": "e8888f7052cfe2635e972feb2015f529571f82b9",
   "previousBatch": {
-    "batch": "theory-course-566-570",
+    "batch": "theory-course-571-575",
     "status": "published_and_live_verified",
-    "release": "0.57.0",
-    "commit": "e5f80ea8c99a32079382d33e80918571238be04c"
+    "release": "0.58.0",
+    "commit": "e8888f7052cfe2635e972feb2015f529571f82b9"
   },
   "scope": [
-    "MICI: traffico leucocitario, integrine, asse IL-12/23 e distinzione fra dato in vitro e beneficio clinico."
+    "MICI: segnali JAK–STAT, selettività e rischi, modulazione S1P e tempi della colite acuta grave."
   ],
   "completed": [
-    "Sette nuove pagine lette e controllate, sei integrate; quattro pagine già lette riconsultate senza ricontarle.",
-    "Capitolo: 42 sezioni, 8693 parole, 41 domande, 44 riferimenti, 22 farmaci esistenti.",
-    "41 validatori superati; otto configurazioni browser nei due temi, tastiera, ventidue farmaci, cinque capitoli, ricerca e offline.",
-    "Aggiornamento reale 0.57.0→0.58.0 con preferiti, progressi e tema conservati. Altri 57 capitoli, catalogo, lettore e laboratori invariati; 36 sezioni e 35 domande precedenti conservate.",
+    "Sei nuove pagine lette e controllate, cinque integrate; mappa I 575 riconsultata e ora integrata senza ricontarla.",
+    "Capitolo: 47 sezioni, 9882 parole, 46 domande, 50 riferimenti, 26 farmaci esistenti.",
+    "41 validatori superati; otto configurazioni browser nei due temi, tastiera, ventisei farmaci, sette capitoli, ricerca JAK e offline.",
+    "Aggiornamento reale 0.58.0→0.59.0 con preferiti, progressi e tema conservati. Altri 57 capitoli, catalogo, lettore e laboratori invariati; 42 sezioni e 41 domande precedenti conservate, aggiornata soltanto la nota finale di copertura.",
     "Sei schermate ispezionate; hash dei sei originali invariati."
   ],
   "remaining": [
@@ -43,23 +43,24 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 6,
+    "newSections": 5,
     "expandedSections": 0,
-    "newLinksToExistingIdentities": 6
+    "newLinksToExistingIdentities": 4
   },
   "readingManifests": [
     "data/mici-reading.json"
   ],
   "limits": [
-    "Deduplicazione per hash/pagina in 48 registri disponibili; non intero corpus. Sette nuove pagine fisiche non equivalgono a sette prove indipendenti.",
-    "Nuove diapositive I 571–575, Katzung 1286 e diapositive II 34 lette nel testo disponibile e nei rendering. I 574–575 prevalentemente grafiche; 575 controllata anche a 3000 pixel, rinviata per riconciliazione sulle chinasi.",
-    "Riutilizzate senza nuovo conteggio I 570, appunti I 286 e appunti II 15–16. I 570 per la prima volta integrata; altre pagine già parzialmente integrate. Figura ridotta degli appunti I 286 non verificata in ogni piccola etichetta; confronto sul rendering più leggibile I 571.",
-    "Corretti nella sintesi p40/B40, catene recettoriali, ligandi integrinici/selettine e generalizzazioni di selettività. Farmaci sperimentali nelle mappe non presentati come opzioni autorizzate.",
-    "Controllo selettivo delle overview EMA e SmPC britannici, più sintesi ufficiale ACG UC 2025. Nessuna lettura integrale dei fascicoli o RCP italiani; EMA Stelara diretta non accessibile (429), verificato SmPC britannico.",
-    "CD64: interazione in vitro distinta da prova di superiorità clinica. Frequenze PML e regimi storici non trasferiti; indicazione europea natalizumab distinta dal contesto del manuale.",
-    "Articoli citati nelle figure non letti negli originali. Rimangono i limiti precedenti, inclusa divergenza AGA/BSG sul metotrexato e paginazione editoriale Rang & Dale non identificata.",
-    "Le chinasi, ulteriori fonti, farmaci mancanti, profili e laboratori restano nel backlog. Sintesi didattica con controllo editoriale del solo integratore, non revisione clinica indipendente.",
+    "Deduplicazione per hash e pagina in 49 registri disponibili, non intero corpus. Sei nuove pagine fisiche non equivalgono a sei prove indipendenti.",
+    "Nuove diapositive I 576–580 e appunti I 287 letti nel testo disponibile e nei rendering; 578–580 grafiche. I 575 riconsultata e ora integrata senza ricontarla.",
+    "Bordo destro di I 576 tagliato nell’originale; note della figura 579 non presenti. A 580 lette soltanto le due righe di tabella visibili, non reintegrate. Articoli sottostanti alle figure non letti integralmente.",
+    "Appunti I 287: escluso finale sull’artrite reumatoide. Corretti universalità JAK, primato di etrasimod e attesa di settimane nella colite acuta grave.",
+    "Katzung e Rang & Dale: nessuna nuova pagina in questo intervallo, conservata la riconciliazione precedente; il segmento MICI Katzung letto termina a 1286. Farmacologia II: ricerca testuale automatica aggiuntiva senza corrispondenze, non lettura completa né verifica delle figure.",
+    "Otto riferimenti ufficiali consultati selettivamente: sei nuovi e due già presenti. SmPC britannici non RCP italiani. ECCO 2026 disponibile solo negli estratti ufficiali indicizzati, non lettura completa della linea guida o degli studi citati.",
+    "ACG 2025 non sostiene JAK routinari nel salvataggio; ECCO 2026 raccomandazione 47 considera anche JAK in terza linea altamente selezionata, con evidenza di bassa certezza e discussione chirurgica. Nessun protocollo individuale dedotto dalle figure.",
+    "Rimangono limiti precedenti: figure ridotte degli appunti, conflitto AGA/BSG sul metotrexato e paginazione editoriale Rang & Dale non identificata.",
+    "Ulteriori fonti, farmaci mancanti, profili e laboratori restano nel backlog. Sintesi didattica con controllo del solo integratore, non revisione clinica indipendente.",
     "Verifiche browser Chromium con dimensioni simulate; non dispositivi fisici."
   ],
-  "nextBatch": "Completare prima la pubblicazione; poi diapositive I PDF 576–580 e appunti I PDF 287, riutilizzando la mappa I 575 senza ricontarla e individuando i soli passaggi pertinenti delle altre fonti. Katzung 1286 conclude il segmento MICI letto; il successivo argomento del manuale resta fuori da questo lotto."
+  "nextBatch": "Completare prima la pubblicazione; poi diapositive I PDF 581–585, deduplicando e verificando il confine tematico prima di integrare. Appunti I 287 conclude il segmento MICI letto: la successiva artrite reumatoide non va aggiunta automaticamente al capitolo. Nessun nuovo lotto prima della chiusura di questo."
 }

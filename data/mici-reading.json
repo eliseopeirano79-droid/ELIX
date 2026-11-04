@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-course-571-575",
+  "batch": "theory-course-576-580",
   "chapterId": "malattie-infiammatorie-intestinali",
-  "updatedAt": "2026-11-04T06:50:51.414567+00:00",
+  "updatedAt": "2026-11-04T07:30:34.017667+00:00",
   "status": "editorial_reconciled_locally_verified_pending_publication",
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -45,7 +45,12 @@
         572,
         573,
         574,
-        575
+        575,
+        576,
+        577,
+        578,
+        579,
+        580
       ],
       "visuallyCheckedPdfPages": [
         544,
@@ -79,14 +84,19 @@
         572,
         573,
         574,
-        575
+        575,
+        576,
+        577,
+        578,
+        579,
+        580
       ],
       "newlyReadTextPages": [
-        571,
-        572,
-        573,
-        574,
-        575
+        576,
+        577,
+        578,
+        579,
+        580
       ],
       "reusedPreviouslyReadPages": [
         544,
@@ -115,7 +125,12 @@
         567,
         568,
         569,
-        570
+        570,
+        571,
+        572,
+        573,
+        574,
+        575
       ],
       "internalLabels": [
         542,
@@ -149,7 +164,12 @@
         570,
         571,
         572,
-        573
+        573,
+        574,
+        575,
+        576,
+        577,
+        578
       ],
       "sourceUnchanged": true,
       "allContentsRead": false,
@@ -181,13 +201,18 @@
         571,
         572,
         573,
-        574
+        574,
+        575,
+        576,
+        577,
+        578,
+        579
       ],
       "readButNotIntegratedPdfPages": [
         566,
         567,
         568,
-        575
+        580
       ],
       "imageOnlyPagesReadVisually": [
         552,
@@ -198,7 +223,10 @@
         569,
         570,
         574,
-        575
+        575,
+        578,
+        579,
+        580
       ]
     },
     {
@@ -229,9 +257,7 @@
         1285,
         1286
       ],
-      "newlyReadTextPages": [
-        1286
-      ],
+      "newlyReadTextPages": [],
       "reusedPreviouslyReadPages": [
         1278,
         1279,
@@ -240,7 +266,8 @@
         1282,
         1283,
         1284,
-        1285
+        1285,
+        1286
       ],
       "internalLabels": [
         1258,
@@ -311,15 +338,19 @@
         283,
         284,
         285,
-        286
+        286,
+        287
       ],
       "visuallyCheckedPdfPages": [
         283,
         284,
         285,
-        286
+        286,
+        287
       ],
-      "newlyReadTextPages": [],
+      "newlyReadTextPages": [
+        287
+      ],
       "reusedPreviouslyReadPages": [
         283,
         284,
@@ -330,7 +361,8 @@
         278,
         279,
         280,
-        281
+        281,
+        282
       ],
       "sourceUnchanged": true,
       "allContentsRead": false,
@@ -338,11 +370,13 @@
         283,
         284,
         285,
-        286
+        286,
+        287
       ],
       "readButNotIntegratedPdfPages": [],
       "partialPageIntegration": {
-        "286": "Biosimilari, p40 e integrine; piccole etichette della figura ridotta non tutte verificate."
+        "286": "Biosimilari, p40 e integrine; piccole etichette della figura ridotta non tutte verificate.",
+        "287": "JAK, S1P e algoritmo della colite; finale sull’artrite reumatoide escluso."
       }
     },
     {
@@ -371,9 +405,7 @@
         34,
         36
       ],
-      "newlyReadTextPages": [
-        34
-      ],
+      "newlyReadTextPages": [],
       "reusedPreviouslyReadPages": [
         17,
         18,
@@ -381,6 +413,7 @@
         29,
         30,
         33,
+        34,
         36
       ],
       "internalLabels": [],
@@ -605,9 +638,9 @@
       }
     }
   ],
-  "newReadPdfPages": 7,
-  "totalReadPdfPages": 64,
-  "currentBatchVisualPages": 7,
+  "newReadPdfPages": 6,
+  "totalReadPdfPages": 70,
+  "currentBatchVisualPages": 6,
   "newIdentities": 0,
   "newDrugSummaries": 0,
   "newPKProfiles": 0,
@@ -636,7 +669,7 @@
       "id": "ECCO-UC",
       "title": "ECCO 2026 · Terapia medica della colite ulcerosa",
       "url": "https://academic.oup.com/ecco-jcc/article/20/7/jjag066/8726617",
-      "detail": "DOI 10.1093/ecco-jcc/jjag066. Raccomandazioni 3–4 negli estratti indicizzati ufficiali, lette il 30/10/2026; accesso diretto non disponibile. Non linea guida completa."
+      "detail": "DOI 10.1093/ecco-jcc/jjag066. Raccomandazioni 3–4 negli estratti indicizzati ufficiali, lette il 30/10/2026; accesso diretto non disponibile. Non linea guida completa. Il 04/11/2026 letti selettivamente gli estratti ufficiali indicizzati delle raccomandazioni 45 e 47 e relativo testo sul salvataggio; accesso diretto ancora non disponibile. Terza linea altamente selezionata, non equivalenza routinaria con la seconda."
     },
     {
       "id": "AGA-FMT",
@@ -678,7 +711,7 @@
       "id": "ACG-UC",
       "title": "ACG 2025 · Sintesi ufficiale sulla colite ulcerosa",
       "url": "https://gi.org/journals-publications/ebgi/alkazzi_aug2025/",
-      "detail": "Sintesi ufficiale: lettura selettiva precedente 20–22 e 28–38; ricontrollati 23, mantenimento e 51–54 nel lotto corrente il 30/10/2026. Non linea guida completa. Ricontrollati nel lotto 561–565 i passaggi anti-TNF 28–29, 42 e 44 e i concetti di posizionamento 28–29. Nel lotto 566–570 letti raccomandazione 44 e concetti chiave 28–29, 31 e 36 su risposta, concentrazioni, vie e monitoraggio proattivo. Lotto 571–575: classi terapeutiche e concetti chiave 40–47, soprattutto storia terapeutica e manifestazioni extraintestinali; consultazione selettiva."
+      "detail": "Sintesi ufficiale: lettura selettiva precedente 20–22 e 28–38; ricontrollati 23, mantenimento e 51–54 nel lotto corrente il 30/10/2026. Non linea guida completa. Ricontrollati nel lotto 561–565 i passaggi anti-TNF 28–29, 42 e 44 e i concetti di posizionamento 28–29. Nel lotto 566–570 letti raccomandazione 44 e concetti chiave 28–29, 31 e 36 su risposta, concentrazioni, vie e monitoraggio proattivo. Lotto 571–575: classi terapeutiche e concetti chiave 40–47, soprattutto storia terapeutica e manifestazioni extraintestinali; consultazione selettiva. Il 04/11/2026 rilette 51–54 e concetti 48–57: rivalutazione al terzo giorno e insufficienza di dati per JAK routinari nel salvataggio."
     },
     {
       "id": "ACG-CD",
@@ -841,20 +874,57 @@
       "title": "EMA · Omvoh",
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/omvoh",
       "detail": "Overview: indicazioni MICI nell’adulto, meccanismo e rischi letti il 30/10/2026; non fascicolo completo."
+    },
+    {
+      "id": "TOF-UK",
+      "title": "Xeljanz orale · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/2500/smpc",
+      "detail": "Aggiornato 16/03/2026; passaggi 4.1 e 5.1 letti il 04/11/2026: indicazioni e distinzione fra saggio enzimatico e selettività funzionale. Non RCP italiano né scheda completa."
+    },
+    {
+      "id": "UPA-UK",
+      "title": "Rinvoq orale · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/10972/smpc",
+      "detail": "Passaggi 4.1 e 5.1 letti il 04/11/2026: indicazioni MICI, JAK–STAT e selettività funzionale. Non RCP italiano né scheda completa."
+    },
+    {
+      "id": "EMA-JAK",
+      "title": "EMA · Misure di sicurezza per gli inibitori JAK",
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/janus-kinase-inhibitors-jaki",
+      "detail": "Overview del referral letta il 04/11/2026: misure 2023, popolazioni a rischio e contesto del segnale da artrite reumatoide. Non lettura completa degli studi o fascicoli."
+    },
+    {
+      "id": "ETR-UK",
+      "title": "Velsipity orale · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/15602/smpc",
+      "detail": "Passaggi 4.3–4.4 e 5.1 letti il 04/11/2026: sottotipi S1P, uscita linfocitaria, precauzioni cardiache, infettive, epatiche, oculari e gravidanza. Non RCP italiano né elenco completo di precauzioni."
+    },
+    {
+      "id": "EMA-VEL",
+      "title": "EMA · Velsipity",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/velsipity",
+      "detail": "Overview letta il 04/11/2026: indicazione europea dai 16 anni, meccanismo e rischi. Autorizzazione del 16/02/2024 distinta dalla prima disponibilità della classe."
+    },
+    {
+      "id": "EMA-ZEP",
+      "title": "EMA · Zeposia",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zeposia",
+      "detail": "Overview letta il 04/11/2026: indicazione nella colite ulcerosa dell’adulto e traffico linfocitario. Non confronto diretto di efficacia con etrasimod."
     }
   ],
   "limits": [
-    "Deduplicazione per hash/pagina in 48 registri disponibili; non intero corpus. Sette nuove pagine fisiche non equivalgono a sette prove indipendenti.",
-    "Nuove diapositive I 571–575, Katzung 1286 e diapositive II 34 lette nel testo disponibile e nei rendering. I 574–575 prevalentemente grafiche; 575 controllata anche a 3000 pixel, rinviata per riconciliazione sulle chinasi.",
-    "Riutilizzate senza nuovo conteggio I 570, appunti I 286 e appunti II 15–16. I 570 per la prima volta integrata; altre pagine già parzialmente integrate. Figura ridotta degli appunti I 286 non verificata in ogni piccola etichetta; confronto sul rendering più leggibile I 571.",
-    "Corretti nella sintesi p40/B40, catene recettoriali, ligandi integrinici/selettine e generalizzazioni di selettività. Farmaci sperimentali nelle mappe non presentati come opzioni autorizzate.",
-    "Controllo selettivo delle overview EMA e SmPC britannici, più sintesi ufficiale ACG UC 2025. Nessuna lettura integrale dei fascicoli o RCP italiani; EMA Stelara diretta non accessibile (429), verificato SmPC britannico.",
-    "CD64: interazione in vitro distinta da prova di superiorità clinica. Frequenze PML e regimi storici non trasferiti; indicazione europea natalizumab distinta dal contesto del manuale.",
-    "Articoli citati nelle figure non letti negli originali. Rimangono i limiti precedenti, inclusa divergenza AGA/BSG sul metotrexato e paginazione editoriale Rang & Dale non identificata.",
-    "Le chinasi, ulteriori fonti, farmaci mancanti, profili e laboratori restano nel backlog. Sintesi didattica con controllo editoriale del solo integratore, non revisione clinica indipendente.",
+    "Deduplicazione per hash e pagina in 49 registri disponibili, non intero corpus. Sei nuove pagine fisiche non equivalgono a sei prove indipendenti.",
+    "Nuove diapositive I 576–580 e appunti I 287 letti nel testo disponibile e nei rendering; 578–580 grafiche. I 575 riconsultata e ora integrata senza ricontarla.",
+    "Bordo destro di I 576 tagliato nell’originale; note della figura 579 non presenti. A 580 lette soltanto le due righe di tabella visibili, non reintegrate. Articoli sottostanti alle figure non letti integralmente.",
+    "Appunti I 287: escluso finale sull’artrite reumatoide. Corretti universalità JAK, primato di etrasimod e attesa di settimane nella colite acuta grave.",
+    "Katzung e Rang & Dale: nessuna nuova pagina in questo intervallo, conservata la riconciliazione precedente; il segmento MICI Katzung letto termina a 1286. Farmacologia II: ricerca testuale automatica aggiuntiva senza corrispondenze, non lettura completa né verifica delle figure.",
+    "Otto riferimenti ufficiali consultati selettivamente: sei nuovi e due già presenti. SmPC britannici non RCP italiani. ECCO 2026 disponibile solo negli estratti ufficiali indicizzati, non lettura completa della linea guida o degli studi citati.",
+    "ACG 2025 non sostiene JAK routinari nel salvataggio; ECCO 2026 raccomandazione 47 considera anche JAK in terza linea altamente selezionata, con evidenza di bassa certezza e discussione chirurgica. Nessun protocollo individuale dedotto dalle figure.",
+    "Rimangono limiti precedenti: figure ridotte degli appunti, conflitto AGA/BSG sul metotrexato e paginazione editoriale Rang & Dale non identificata.",
+    "Ulteriori fonti, farmaci mancanti, profili e laboratori restano nel backlog. Sintesi didattica con controllo del solo integratore, non revisione clinica indipendente.",
     "Verifiche browser Chromium con dimensioni simulate; non dispositivi fisici."
   ],
-  "nextInterval": "Completare prima la pubblicazione; poi diapositive I PDF 576–580 e appunti I PDF 287, riutilizzando la mappa I 575 senza ricontarla e individuando i soli passaggi pertinenti delle altre fonti. Katzung 1286 conclude il segmento MICI letto; il successivo argomento del manuale resta fuori da questo lotto.",
+  "nextInterval": "Completare prima la pubblicazione; poi diapositive I PDF 581–585, deduplicando e verificando il confine tematico prima di integrare. Appunti I 287 conclude il segmento MICI letto: la successiva artrite reumatoide non va aggiunta automaticamente al capitolo. Nessun nuovo lotto prima della chiusura di questo.",
   "conflictsAndReconciliation": [
     {
       "source": "CFI 549; RAN 593; APP 284",
@@ -1045,62 +1115,73 @@
       "source": "CFI 570,574,575",
       "issue": "Mappe con agenti sperimentali o indicazioni storiche",
       "resolution": "570 ora integrata; 574 solo p40/p19; 575 rinviata. Nessun inventario attuale dedotto dalle figure."
+    },
+    {
+      "source": "CFI 575–576; APP 287",
+      "issue": "JAK–STAT descritto come risposta a qualsiasi citochina",
+      "resolution": "Distinte chinasi associate al recettore e recettori con dominio catalitico; molte citochine, non tutte, usano JAK–STAT. TNF e TGF-β seguono vie canoniche distinte."
+    },
+    {
+      "source": "CFI 575; TOF-UK; UPA-UK",
+      "issue": "Selettività enzimatica confusa con esclusività cellulare o indicazione di classe",
+      "resolution": "Confrontati saggi e segnali funzionali, indicazioni distinte per prodotto e malattia."
+    },
+    {
+      "source": "APP 287; CFI 577–578; EMA-VEL; EMA-ZEP",
+      "issue": "Etrasimod definito primo modulatore della classe in Europa e blocco S1P semplificato",
+      "resolution": "Indicazione etrasimod nel 2024 distinta da precedente disponibilità ozanimod; agonismo e internalizzazione spiegano antagonismo funzionale e ritenzione parziale, non distruzione linfocitaria."
+    },
+    {
+      "source": "APP 287; CFI 579; ACG-UC; ECCO-UC",
+      "issue": "Attesa di settimane nella colite grave e JAK sullo stesso piano del salvataggio standard",
+      "resolution": "Rivalutazione in giorni, ACG al terzo giorno. ECCO 2026 rec.45 infliximab/ciclosporina; rec.47 debole terza linea anche JAK in casi altamente selezionati e centri esperti, con opzioni chirurgiche discusse."
+    },
+    {
+      "source": "EMA-JAK",
+      "issue": "Trasferimento automatico delle frequenze dall’artrite reumatoide alla colite",
+      "resolution": "Conservate misure regolatorie di classe, distinta popolazione originaria da rischio assoluto individuale."
     }
   ],
   "deduplication": {
     "newCFIPages": [
-      571,
-      572,
-      573,
-      574,
-      575
+      576,
+      577,
+      578,
+      579,
+      580
+    ],
+    "newAPPPages": [
+      287
     ],
     "overlap": [],
     "reusedCFIPages": [
-      544,
-      545,
-      546,
-      547,
-      548,
-      549,
-      550,
-      551,
-      552,
-      553,
-      554,
-      555,
-      556,
-      557,
-      558,
-      559,
-      560,
-      561,
-      562,
-      563,
-      564,
-      565,
-      566,
-      567,
-      568,
-      569,
-      570
+      575
     ],
-    "recordsChecked": 48,
-    "scope": "Registri per hash e pagina; pagine già lette e figure ripetute non ricontate."
+    "recordsChecked": 49,
+    "scope": "Registri per hash e pagina; nessun nuovo conteggio delle pagine già lette."
   },
-  "newIntegratedPdfPages": 6,
-  "chapterSourcePdfPages": 59,
+  "newIntegratedPdfPages": 5,
+  "chapterSourcePdfPages": 65,
   "previouslyReadNewlyIntegratedPdfPages": 1,
   "targetedRereadPages": {
     "CFI": [
-      570
-    ],
-    "APP": [
-      286
-    ],
-    "FII-A": [
-      15,
-      16
+      575
     ]
+  },
+  "automatedOnlyScreening": {
+    "sources": [
+      "FII-S",
+      "FII-A"
+    ],
+    "terms": [
+      "JAK",
+      "tofacitinib",
+      "sfingosina",
+      "etrasimod"
+    ],
+    "textMatches": 0,
+    "fullTextRead": false,
+    "visualSearchPerformed": false,
+    "note": "Solo ricerca sul testo automaticamente estratto; assenza di corrispondenze non esclude contenuti grafici. Nessuna nuova pagina contata."
   }
 }
