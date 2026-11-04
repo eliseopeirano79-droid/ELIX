@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-04T12:21:26.356497+00:00",
-  "batch": "theory-course-611-615",
+  "updatedAt": "2026-11-04T12:55:45.654104+00:00",
+  "batch": "theory-course-616-620",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.63.0",
-  "branch": "feat/theory-course-611-615",
-  "baseCommit": "6a9ecc94f7b7af8fb5630bf89f7e1c652a807a9e",
+  "release": "0.64.0",
+  "branch": "feat/theory-course-616-620",
+  "baseCommit": "563028f6792f593e7cf99a94b06de15cee366d8b",
   "previousBatch": {
-    "batch": "theory-course-606-610",
+    "batch": "theory-course-611-615",
     "status": "published_and_live_verified",
-    "release": "0.62.0",
-    "commit": "6a9ecc94f7b7af8fb5630bf89f7e1c652a807a9e"
+    "release": "0.63.0",
+    "commit": "563028f6792f593e7cf99a94b06de15cee366d8b"
   },
   "scope": [
-    "Primo capitolo dedicato a istamina e anti-H1: recettori, agonismo inverso, esposizione, rinite, orticaria e limiti clinici."
+    "Ampliamento del capitolo anti-H1: tempi farmacocinetici, variabilità pediatrica della cetirizina e rischi da uso improprio."
   ],
   "completed": [
-    "15 sezioni originali, 2707 parole, tre schemi, 15 domande, 13 riferimenti e 16 farmaci esistenti collegati.",
-    "16 pagine nuove e una riletta da quattro fonti; 17 nel testo disponibile e nei rendering, tutte con passaggi integrati.",
-    "44 validatori, otto configurazioni browser, fonti, tastiera, entrambe le ricerche, 16 collegamenti a farmaci e cinque capitoli, offline verificati.",
-    "Aggiornamento reale 0.62.0→0.63.0 con preferiti, progressi e tema conservati; 60 capitoli precedenti e componenti invariati. Sei schermate ispezionate."
+    "Ampliato il capitolo anti-H1 con tre sezioni e 594 parole: 18 sezioni, 3301 parole e 18 domande complessive. Uno schema originale nuovo e un collegamento alla ciproeptadina già presente.",
+    "Cinque nuove pagine e quattro rilette da quattro fonti; nove testi disponibili e rendering controllati. Tre pagine nuove sostengono le aggiunte, due ripetono materiale già coperto.",
+    "44 validatori e otto configurazioni browser: fonti, tastiera, ricerche, 17 farmaci e sei capitoli collegati, offline. Sei schermate ispezionate.",
+    "Aggiornamento reale 0.63.0→0.64.0 con preferiti, progressi e tema conservati. Altri 60 capitoli, quindici sezioni e risposte precedenti, catalogo, lettore, stili e laboratori invariati."
   ],
   "remaining": [
     "CI, deploy concluso e riscontro online."
@@ -39,24 +39,24 @@
     "newDrugSummaries": 0,
     "newProductPKContexts": 0,
     "newPKFields": 0,
-    "newChapters": 1,
-    "expandedChapters": 0,
+    "newChapters": 0,
+    "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 15,
+    "newSections": 3,
     "expandedSections": 0,
-    "newLinksToExistingIdentities": 16
+    "newLinksToExistingIdentities": 1
   },
   "readingManifests": [
     "data/istamina-antistaminici-reading.json"
   ],
   "limits": [
-    "Deduplicazione per hash del singolo file e pagina in 73 registri nominati, non intera biblioteca. Sedici pagine nuove e una riletta, 17 rendering; il testo incorporato nelle immagini di corso I 611 e 615 è letto visivamente.",
-    "Quattro fonti locali. Nessuna nuova pagina di Farmacologia II, degli altri docenti o degli altri libri autorizzati in questo lotto; riconciliazione complessiva ancora incompleta.",
-    "Figure e tabelle controllate nel contenuto disponibile; strutture chimiche non validate atomo per atomo. Articoli sottostanti e grafici senza fonte non verificati integralmente e non usati per risultati quantitativi.",
-    "Fonti ufficiali consultate selettivamente. Alcuni accessi EMA e Wiley limitati, con estratti ufficiali indicizzati e portali alternativi dichiarati; nessun intero RCP o linea guida dichiarato letto.",
-    "Primo capitolo dedicato a istamina e anti-H1, non ampliamento integrale dei 45 capitoli sintetici ancora aperti. Nessuna nuova identità, sintesi farmacologica, profilo PK o laboratorio interattivo.",
-    "Controllo editoriale del solo integratore, non revisione clinica indipendente. Nessun PDF, trascrizione o figura originale pubblicato.",
+    "Cinque pagine nuove e quattro rilette; nove letture del testo disponibile e nove rendering, quattro fonti locali. Tre pagine nuove e tre rilette sostengono le aggiunte; le altre tre sono confronti o contenuto già coperto.",
+    "Deduplicazione per hash e pagina in 76 registri nominati, non intera biblioteca. Tabelle, grafici e notizie duplicati non contati come evidenze indipendenti.",
+    "Nessuna nuova lettura di Farmacologia II o degli altri libri/docenti in questo lotto. La riconciliazione complessiva resta aperta.",
+    "Grafico scolastico e tabella cinetica senza riferimento primario verificabile: nessun risultato quantitativo trasferito. Fonti regolatorie consultate selettivamente, non interi RCP o linee guida.",
+    "Un ampliamento del capitolo anti-H1 esistente; i 45 capitoli sintetici restano da ampliare. Nessuna nuova identità, sintesi farmacologica, profilo PK o laboratorio.",
+    "Controllo editoriale del solo integratore, non revisione clinica indipendente. Nessuna fonte originale, figura o trascrizione pubblicata.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Completare prima CI, pubblicazione e riscontro online del lotto 611–615. Poi deduplicare un solo intervallo PDF 616–620; teoria prioritaria, farmaci e laboratori nel backlog."
+  "nextBatch": "Completare prima CI, deploy e riscontro online del lotto 616–620. Poi deduplicare un solo intervallo PDF 621–625, mantenendo teoria prioritaria e farmaci/profili/laboratori nel backlog."
 }

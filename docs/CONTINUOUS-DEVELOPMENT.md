@@ -8,19 +8,21 @@ Per richiesta dell’utente usare «appunti e diapositive del corso di Farmacolo
 
 ## Lotto corrente
 
-theory-course-611-615, candidato 0.63.0: primo capitolo dedicato a istamina e anti-H1, dal recettore al controllo dei sintomi. Quindici sezioni originali, 2.707 parole, tre schemi, quindici domande, tredici riferimenti, sedici farmaci esistenti e cinque capitoli collegati. Un nuovo capitolo; zero ampliamenti integrali di capitoli esistenti, nuove identità, sintesi farmacologiche, profili o laboratori. Totali: 61 capitoli, sedici estesi e 45 sintetici ancora da approfondire.
+theory-course-616-620, candidato 0.64.0: ampliamento del capitolo istamina e anti-H1 con tre sezioni su tempi farmacocinetici, variabilità pediatrica della cetirizina e rischi da uso improprio. Aggiunte 594 parole, tre domande, uno schema originale, tre riferimenti ufficiali, un collegamento alla ciproeptadina già presente e uno alla teoria PK. Complessivamente 18 sezioni, 3301 parole, 18 domande, quattro schemi, sedici riferimenti, diciassette farmaci e sei capitoli collegati.
 
-La 0.62.0 è pubblicata e verificata al commit 6a9ecc94f7b7af8fb5630bf89f7e1c652a807a9e. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparato prima della pubblicazione.
+Un capitolo esistente ampliato; nessun nuovo capitolo, identità, sintesi farmacologica, profilo PK o laboratorio. Totali invariati: 61 capitoli, sedici estesi e 45 sintetici ancora da approfondire. Le quindici sezioni e risposte precedenti sono conservate parola per parola.
 
-Sedici nuove pagine: corso I PDF 611–615, Katzung 325 e 328–332, Rang & Dale 330–331 e 521–522, appunti I 290. Riletto appunti I 289. Deduplicazione per hash del singolo file e pagina in 73 registri nominati. Diciassette pagine lette nel testo disponibile e nei rendering, quattro fonti, tutte con passaggi integrati. Le pagine 611 e 615 hanno testo nelle immagini, letto visivamente. Nessuna lettura dichiarata di interi libri o corsi; nessuna nuova pagina dei materiali II o degli altri libri in questo lotto.
+La 0.63.0 è pubblicata e verificata al commit 563028f6792f593e7cf99a94b06de15cee366d8b. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparato prima della pubblicazione.
 
-Riconciliati agonismo inverso e antagonismo competitivo, conformazioni recettoriali, Gq/Gs/Gi, distribuzione cerebrale e azioni fuori bersaglio. Distinti rinite, orticaria, prurito atopico, asma, angioedema e ruolo accessorio nell’anafilassi. Consultati selettivamente EMA, AEMPS, ARIA-EAACI 2024–2025 (parti I e II), linea guida internazionale sull’orticaria 2026, RCUK e FDA. Corrette generalizzazioni storiche su H3 e sedazione; non trasferite dosi storiche, soglie renali discordanti o graduatorie universali.
+Cinque nuove pagine: corso I PDF 616–620. Rilette quattro pagine già registrate: Katzung 328 (editoriale 308), Rang & Dale 522 e appunti I 289–290 (etichette 284–285). Quattro file, nove letture del testo disponibile e nove rendering controllati; 616 contiene il testo nella tabella in immagine. Deduplicazione per hash e pagina in 76 registri nominati. Tabella, grafico scolastico e notizia duplicati fra corso e appunti non sono evidenze indipendenti. Tre pagine nuove e tre rilette sostengono le aggiunte; le altre tre sono confronti o contenuto già coperto. Totale distinto del capitolo: 22 pagine controllate, 20 con passaggi integrati. La copertura della prima pubblicazione resta separata nel registro.
 
-Figure e tabelle controllate nel contenuto disponibile; strutture chimiche non validate atomo per atomo. Diagrammi duplicati non contati come studi indipendenti; grafici senza riferimento non usati quantitativamente. Alcuni accessi EMA e Wiley limitati, con estratti ufficiali e portali alternativi documentati. Nessun intero RCP o linea guida dichiarato letto. Sintesi controllata dal solo integratore, non revisione clinica indipendente; nessun PDF, figura o trascrizione originale pubblicato.
+Distinti Tmax, inizio, emivita, permanenza recettoriale e durata, senza ricavare posologie dall’emivita. RCP AEMPS della cetirizina (§4.2 pediatrico, §5.2) confrontato con l’attribuzione storica al metabolismo epatico: eliminazione prevalentemente renale immodificata, nessuna regola universale per tutti i minori di dodici anni. Per ciproeptadina letti passaggi del RCP francese e comunicazione ANSM 2024; per difenidramina comunicazione FDA 2020. Ambiti nazionali espliciti; rischi neurologici e cardiaci distinti dalla semplice sedazione.
 
-Controlli locali: 44 validatori, otto configurazioni browser, fonti, tastiera, ricerche, collegamenti e offline. Aggiornamento reale 0.62.0→0.63.0 con dati e tema conservati; 60 capitoli precedenti e componenti invariati. Sei schermate ispezionate, quattro originali con hash invariati. Tre regressioni della teoria concluse dopo l’aggiornamento dei conteggi attesi. Chromium con dimensioni simulate, non dispositivi fisici.
+Nessuna tabella numerica senza fonte primaria, istruzione di abuso, aneddoto personale o figura originale trasferiti. Nessuna nuova lettura dei materiali II o degli altri libri/docenti. Riconciliazione complessiva ancora aperta, nessun intero libro/corso/RCP dichiarato letto. Controllo editoriale del solo integratore, non revisione clinica indipendente.
 
-Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/ELIX-course-611-615-2026-11-04/. ../../outputs/ELIX-latest-verification.json va aggiornata soltanto dopo il deploy verificato.
+Controlli locali conclusi: 44 validatori, otto configurazioni desktop/tablet/mobile in due temi, fonti, tastiera, ricerche, collegamenti e offline. Aggiornamento reale 0.63.0→0.64.0 con dati e tema conservati. Altri 60 capitoli e componenti invariati, quattro originali con hash invariati. Sei schermate ispezionate. Chromium con dimensioni simulate, non dispositivi fisici.
+
+Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/ELIX-course-616-620-2026-11-04/. ../../outputs/ELIX-latest-verification.json va aggiornata soltanto dopo il deploy verificato.
 
 ## Regole
 
@@ -32,4 +34,4 @@ Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/
 
 ## Prossimo intervallo
 
-Completare prima CI, pubblicazione e riscontro online del lotto 611–615. Poi deduplicare un solo intervallo PDF 616–620; teoria prioritaria, farmaci e laboratori nel backlog.
+Completare prima CI, deploy e riscontro online del lotto 616–620. Poi deduplicare un solo intervallo PDF 621–625, mantenendo teoria prioritaria e farmaci/profili/laboratori nel backlog.
