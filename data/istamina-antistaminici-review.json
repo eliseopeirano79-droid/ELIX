@@ -5,7 +5,7 @@
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "f083efcc6e6b24c889f26c04859b796ed227335e864bd8afcb874d15c8921546",
+  "moduleSha256": "393f88a3a3b0e665274f461f7a0cb1e3e71056ce02ef7e8054afa10746f3d376",
   "checks": [
     "Tre sezioni aggiunte rilette con le tre risposte: distinti Tmax, inizio, emivita, permanenza recettoriale e durata; nessuna posologia ricavata dall’emivita.",
     "Confrontata la cetirizina pediatrica con §§4.2 e 5.2 AEMPS: non sostenuta la spiegazione automatica tramite metabolismo epatico.",
