@@ -8,21 +8,21 @@ Per richiesta dell’utente usare «appunti e diapositive del corso di Farmacolo
 
 ## Lotto corrente
 
-theory-course-621-625, candidato 0.65.0: ampliamento della sintesi sull’asma in un capitolo di 14 sezioni, 2297 parole, 14 domande, tre schemi originali e nove riferimenti. Dieci collegamenti a identità già presenti e cinque alla teoria. Distinti tono muscolare, infiammazione e danno epiteliale; recettori β2, M3 e CysLT1 collegati ai farmaci e al contesto di malattia.
+theory-course-626-630, candidato 0.66.0: tre sezioni aggiunte e due ampliate nel capitolo asma. Ora 17 sezioni, 3081 parole, 17 domande, quattro schemi originali e dodici riferimenti. Approfonditi calcio/miosina/canali, inizio e durata, sintesi/degradazione di AMPc e distinzione fra bersagli e obiettivi. Asma+BPCO descrittivo, non una terza malattia uniforme.
 
-Un capitolo esistente ampliato; nessun nuovo capitolo, identità, sintesi farmacologica, profilo PK o laboratorio. Totale 61 capitoli: diciassette estesi e 44 sintetici. Le otto sezioni introduttive sono riorganizzate e ampliate in quattordici; gli altri 60 capitoli restano invariati.
+Un capitolo esistente ampliato; nessun nuovo capitolo, identità, sintesi farmacologica, profilo PK o laboratorio. Totale 61 capitoli: diciassette estesi e 44 sintetici. Altri 60 capitoli invariati; dodici sezioni e quattordici domande precedenti del capitolo asma conservate parola per parola.
 
-La 0.64.0 è pubblicata e verificata al commit 80eb4e5d0a90ba97b96591c3fdf54c5a5fa0b453. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparato prima della pubblicazione.
+La 0.65.0 è pubblicata e verificata al commit ecbd2cfebb56fdb8e37e4044460baf771153df28. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparato prima della pubblicazione.
 
-Letture locali: corso I PDF 621–625 (etichette 619–623), Katzung IX italiana 2014/XII americana 2012 PDF 400–403 (editoriali 380–383), Rang & Dale VIII italiana 2016/originale 2015 PDF 541–545 e 549, appunti I lezione 17 del 25 novembre 2025 PDF 293–295 (etichette 288–290). Diciotto testi disponibili e rendering controllati: sedici pagine nuove e due rilette. La pagina di programma 621 è inventario; diciassette pagine sostengono la sintesi. Deduplicazione in 78 registri nominati con hash/pagine e un registro respiratorio storico bibliografico senza hash. Il registro precedente è conservato separatamente; non tutta la biblioteca dichiarata inventariata.
+Letture locali nuove: corso I PDF 626–630 (etichette 624–628), Katzung IX italiana 2014/XII americana 2012 PDF 404–406 (editoriali 384–386), Rang & Dale VIII italiana 2016/originale 2015 PDF 546–547, appunti I lezione 17 del 25 novembre 2025 PDF 296–297 (etichette 291–292). Dodici testi disponibili e rendering controllati; dieci pagine integrate, Katzung 405 e appunti 297 lette ma non integrate. Nel capitolo 30 pagine distinte controllate, 27 integrate. Copertura precedente conservata separatamente.
 
-Riconciliati il refuso agonisti/antagonisti β2, la confusione LTB4/leucotrieni cisteinilici, PKA/AMPc e l’attribuzione selettiva delle xantine a PDE2. GINA/GOLD 2026 sostituiscono le scale cliniche storiche nei passaggi dichiarati. La Perspective della lezione è distinta dal lavoro sperimentale di Bagley: prove prevalentemente murine e campioni umani osservazionali non costituiscono un trattamento clinico con gadolinio. Nessuna figura o trascrizione originale pubblicata.
+Deduplicazione in 81 registri nominati e nel registro respiratorio storico bibliografico senza hash. La figura del corso 629 ripete Katzung 404: non due prove indipendenti. Categorie storiche fondo/bisogno e scala ACOS non trasferite. Distinti inizio e durata dei LABA; nessuna dose, unità di concentrazione problematica o teoria di esaurimento irreversibile dei messaggeri adottata. Una lettura della pagina sulla tolleranza non equivale alla sua integrazione.
 
-Consultazione selettiva di sette pagine GINA e cinque GOLD (testo disponibile e rendering), SmPC montelukast e tiotropio e passaggi dell’articolo sperimentale. Nessuna nuova lettura dei materiali II o del manuale molecolare; riconciliazione complessiva aperta. Nessun libro, corso, linea guida o RCP dichiarato letto per intero. Controllo editoriale del solo integratore, non revisione clinica indipendente.
+Consultazione selettiva di GINA 2026 PDF 142–144 (stampate 141–143), testo e rendering; passaggi di SmPC britannici budesonide/formoterolo e salmeterolo, abstract Kume 1994 sui canali KCa. Non interi documenti né verifica delle autorizzazioni italiane. Nessuna nuova lettura di Farmacologia II o del manuale molecolare; riconciliazione complessiva aperta. Controllo editoriale del solo integratore, non revisione clinica indipendente.
 
-Controlli locali: 45 validatori, otto configurazioni desktop/tablet/mobile in due temi, fonti, tastiera, ricerche, collegamenti e offline. Aggiornamento reale 0.64.0→0.65.0 con preferiti, progressi e tema conservati; sei schermate ispezionate. Altri capitoli, catalogo, lettore, stili e laboratori invariati; quattro originali verificati mediante hash. Chromium con dimensioni simulate, non dispositivi fisici.
+Controlli locali: 45 validatori, otto configurazioni desktop/tablet/mobile in due temi, fonti, tastiera, ricerche, collegamenti e offline. Aggiornamento reale 0.65.0→0.66.0 con preferiti, progressi e tema conservati; sei schermate ispezionate. Quattro originali verificati mediante hash. Chromium con dimensioni simulate, non dispositivi fisici.
 
-Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/ELIX-course-621-625-2026-11-04/. ../../outputs/ELIX-latest-verification.json va aggiornata soltanto dopo il deploy verificato.
+Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/ELIX-course-626-630-2026-11-04/. ../../outputs/ELIX-latest-verification.json va aggiornata soltanto dopo il deploy verificato.
 
 ## Regole
 
@@ -34,4 +34,4 @@ Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/
 
 ## Prossimo intervallo
 
-Completare prima CI, deploy e riscontro online del lotto 621–625. Poi deduplicare un solo intervallo PDF 626–630, proseguendo la teoria respiratoria; farmaci, profili e laboratori restano nel backlog.
+Completare prima CI, deploy e riscontro online del lotto 626–630. Poi deduplicare un solo intervallo PDF 631–635, proseguendo la teoria respiratoria; farmaci, profili e laboratori restano nel backlog.
