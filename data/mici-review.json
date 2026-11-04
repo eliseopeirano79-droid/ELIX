@@ -1,17 +1,17 @@
 {
-  "batch": "theory-course-571-575",
+  "batch": "theory-course-576-580",
   "chapterId": "malattie-infiammatorie-intestinali",
-  "checkedAt": "2026-11-04T06:50:51.414567+00:00",
+  "checkedAt": "2026-11-04T07:30:34.017667+00:00",
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "74f263c0827f7c4ff45b378127ad8b1ded4f05a2e31f33bd561a7e75f1216d1a",
+  "moduleSha256": "3cb472358a10aaf79917849a10c809a354d9a5110cc081b4c5c06773d278dff1",
   "checks": [
-    "Sei sezioni e domande originali rilette; distinti traffico, citochine, catene recettoriali e regioni anticorpali.",
-    "Controllati riferimenti e sei collegamenti a identità esistenti; nessuna nuova scheda farmacologica.",
-    "Separati dati in vitro, impieghi storici e indicazioni correnti; nessun confronto di superiorità dedotto dalle figure.",
-    "41 validatori superati; otto configurazioni browser nei due temi, tastiera, ventidue farmaci, cinque capitoli, ricerca e offline.",
-    "Aggiornamento reale 0.57.0→0.58.0 con preferiti, progressi e tema conservati. Altri 57 capitoli, catalogo, lettore e laboratori invariati; 36 sezioni e 35 domande precedenti conservate.",
+    "Cinque sezioni e domande originali rilette; distinti recettore, chinasi, selettività e antagonismo funzionale.",
+    "Otto fonti ufficiali confrontate selettivamente; distinto salvataggio standard da terza linea selezionata e da autorizzazione.",
+    "Quattro collegamenti a identità esistenti e due capitoli; nessuna nuova scheda farmacologica.",
+    "41 validatori superati; otto configurazioni browser nei due temi, tastiera, ventisei farmaci, sette capitoli, ricerca JAK e offline.",
+    "Aggiornamento reale 0.58.0→0.59.0 con preferiti, progressi e tema conservati. Altri 57 capitoli, catalogo, lettore e laboratori invariati; 42 sezioni e 41 domande precedenti conservate, aggiornata soltanto la nota finale di copertura.",
     "Sei schermate ispezionate; hash dei sei originali invariati."
   ],
   "limits": [

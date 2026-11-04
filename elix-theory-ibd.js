@@ -3,10 +3,10 @@ export const THEORY_IBD = Object.freeze({
   "id": "malattie-infiammatorie-intestinali",
   "volume": 11,
   "title": "Malattie infiammatorie intestinali: barriera e controllo farmacologico dell’infiammazione",
-  "lead": "Dal controllo dell’infiammazione al traffico leucocitario e all’asse IL-12/23: bersagli, selettività, esposizione e monitoraggio.",
+  "lead": "Dalla barriera intestinale ai segnali JAK–STAT e al traffico linfocitario: meccanismi, selettività, rischi e tempi della risposta.",
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
-  "reviewedAt": "2026-10-30",
+  "reviewedAt": "2026-11-04",
   "readingManifest": "./data/mici-reading.json",
   "sections": [
     {
@@ -479,6 +479,61 @@ export const THEORY_IBD = Object.freeze({
       "text": "La figura dedicata a guselkumab mette in evidenza due interazioni della stessa immunoglobulina. Il sito che riconosce l’antigene lega IL-23; la porzione Fc può interagire con CD64, un recettore per la regione Fc delle IgG presente su cellule mieloidi. CD64 non è il recettore di IL-23 e non costituisce una seconda subunità della citochina. Separare questi ruoli evita di immaginare un unico bersaglio indifferenziato.\n\nLe informazioni di prodotto riportano il blocco di IL-23 e il legame a CD64 osservati in vitro. Cellule mieloidi che esprimono CD64 possono essere una fonte importante di IL-23 nel tessuto infiammato: l’interazione offre quindi una spiegazione di come il farmaco possa neutralizzare il mediatore vicino alle cellule che lo producono. È un’osservazione sul meccanismo e sul contesto cellulare, non la dimostrazione autonoma che il paziente ottenga un beneficio maggiore rispetto a qualsiasi altro anti-p19.\n\nPer verificare un vantaggio clinico occorrono esiti misurati con un confronto adeguato: malattia, trattamenti precedenti, durata e criteri di remissione possono cambiare il risultato. La dicitura “duplice azione” presente nelle diapositive non sostituisce queste condizioni. Nel capitolo il dato viene conservato come distinzione fra riconoscimento dell’antigene e funzione della regione Fc; le decisioni terapeutiche restano ancorate alle indicazioni e alle prove cliniche pertinenti, senza una preferenza ricavata dal solo schema molecolare."
     },
     {
+      "id": "jak-stat-segnale",
+      "title": "JAK e STAT: dal recettore della citochina al nucleo",
+      "refs": [
+        "CFI",
+        "APP",
+        "UPA-UK"
+      ],
+      "text": "Una citochina extracellulare può cambiare il comportamento della cellula senza entrare nel citoplasma. In molti recettori per citochine il collegamento con il nucleo passa attraverso le Janus chinasi, o JAK. Sono tirosin-chinasi intracellulari associate al recettore: il dominio catalitico non è parte della catena recettoriale stessa, come accade invece nei recettori tirosin-chinasici. Distinguere le due architetture permette di capire dove si lega il farmaco e quale passaggio interrompe.\n\nLa famiglia comprende JAK1, JAK2, JAK3 e TYK2. Le combinazioni associate alle catene recettoriali traducono il riconoscimento del ligando in fosforilazione di proteine bersaglio, fra cui le STAT. Queste ultime, attivate, formano complessi che raggiungono il nucleo e modificano l’espressione genica. Il risultato non è soltanto la produzione di un altro mediatore: possono cambiare proliferazione, differenziamento e funzioni delle cellule immunitarie.\n\nLe coppie aiutano a collegare il nuovo bersaglio ai precedenti. Il recettore di IL-2 utilizza JAK1 e JAK3; i sistemi di IL-12 e IL-23 coinvolgono JAK2 e TYK2. Intercettare la citochina con un anticorpo e inibire una chinasi della sua via sono interventi a livelli diversi. Poiché più recettori condividono una JAK, l’inibitore può modulare più segnali. Questo non significa però bloccare qualsiasi citochina: TNF e TGF-β, anch’essi presenti nelle mappe del corso, non usano come via canonica lo stesso circuito JAK–STAT. Una rete condivisa resta diversa da un interruttore universale dell’infiammazione.",
+      "formula": "Citochina → recettore con JAK associate → fosforilazione delle STAT → complessi STAT nel nucleo → cambiamento dell’espressione genica.\nAnticorpo: può intercettare il mediatore prima del recettore.\nInibitore JAK: agisce sulla trasduzione intracellulare di più segnali compatibili.\nSchema originale semplificato; non rappresenta tutte le vie delle citochine."
+    },
+    {
+      "id": "jak-selettivita",
+      "title": "Tofacitinib e upadacitinib: che cosa significa selettività",
+      "refs": [
+        "CFI",
+        "APP",
+        "TOF-UK",
+        "UPA-UK"
+      ],
+      "text": "La selettività di un inibitore JAK richiede di precisare il confronto. Un saggio su un enzima isolato misura un’interazione diversa da quella osservata in una cellula, dove contano concentrazione disponibile, coppia di chinasi, recettori espressi e stimolo applicato. Per questo una sigla sintetica, come “JAK1”, descrive una preferenza e non una barriera assoluta oltre la quale il farmaco non può avere effetti.\n\nLo SmPC di tofacitinib distingue l’inibizione enzimatica di JAK1, JAK2 e JAK3, più debole su TYK2, dalla preferenza funzionale cellulare per segnali associati a JAK1 e/o JAK3 rispetto alle coppie di JAK2. Upadacitinib viene descritto come inibitore reversibile con preferenza funzionale per JAK1 o JAK1/3. Non è quindi corretto trasformare il primo in un blocco esclusivo di JAK3 o il secondo in un intervento privo di effetti sul resto dell’organismo.\n\nAnche l’indicazione appartiene al prodotto e alla popolazione studiata. Le schede britanniche consultate comprendono la colite ulcerosa moderata-grave nell’adulto per entrambi, e il Crohn per upadacitinib, nelle condizioni di risposta insufficiente, persa o intolleranza indicate. Non si ricava da ciò un’indicazione intestinale per ogni inibitore JAK citato nelle lezioni. La formulazione orale facilita una modalità di somministrazione, ma non rende il trattamento locale: il bersaglio intracellulare va raggiunto attraverso un’esposizione sistemica, e la scelta richiede prove e precauzioni proprie del medicinale."
+    },
+    {
+      "id": "jak-rischi",
+      "title": "L’ampiezza del segnale e la valutazione del rischio",
+      "refs": [
+        "CFI",
+        "EMA-JAK"
+      ],
+      "text": "Le JAK partecipano a segnali utili anche alla difesa dalle infezioni e alla regolazione delle cellule del sangue. Ridurre un circuito che sostiene l’infiammazione può quindi coinvolgere funzioni fisiologiche. Questa continuità fra meccanismo ed effetti indesiderati spiega perché la valutazione di una piccola molecola orale debba andare oltre la comodità della somministrazione. Un bersaglio più selettivo sul piano biochimico non prova, da solo, una sicurezza superiore nel paziente.\n\nLa revisione EMA sugli inibitori JAK per malattie infiammatorie croniche richiama infezioni gravi, eventi cardiovascolari maggiori, tromboembolia venosa, neoplasie e mortalità. Nei gruppi definiti a maggiore rischio, fra cui persone di almeno 65 anni, fumatori attuali o di lunga durata in passato e persone con rischio cardiovascolare o oncologico aumentato, l’uso è limitato ai casi senza alternative adeguate; altri fattori tromboembolici richiedono cautela. Queste condizioni non sono annullate dalla preferenza dichiarata per JAK1.\n\nUna parte centrale del segnale deriva dal confronto di tofacitinib con anti-TNF nell’artrite reumatoide in pazienti di almeno 50 anni con fattori di rischio cardiovascolare. L’EMA ha esteso le misure alla classe per le indicazioni infiammatorie considerate. La popolazione originaria resta però essenziale quando si interpreta una frequenza: non equivale al rischio assoluto di ogni persona con colite ulcerosa. Comprendere l’avvertenza significa tenere insieme il segnale regolatorio e il contesto del paziente, senza minimizzarlo né trasferire automaticamente percentuali fra malattie e popolazioni."
+    },
+    {
+      "id": "s1p-uscita-linfocitaria",
+      "title": "Etrasimod: trattenere i linfociti modulando S1P",
+      "refs": [
+        "CFI",
+        "APP",
+        "ETR-UK",
+        "EMA-VEL",
+        "EMA-ZEP"
+      ],
+      "text": "Il circuito della sfingosina-1-fosfato, o S1P, controlla anche l’uscita dei linfociti dai tessuti linfoidi. Qui il bersaglio è un recettore accoppiato a proteine G. L’agonismo farmacologico può favorirne l’internalizzazione e ridurne la disponibilità sulla superficie: dopo l’attivazione iniziale la cellula risponde meno al segnale che ne permette l’uscita. Questa conseguenza viene chiamata antagonismo funzionale. Non coincide con la semplice occupazione del sito da parte di un antagonista competitivo, e la degradazione rappresentata in uno schema non va assunta come passaggio obbligato di ogni risposta.\n\nEtrasimod agisce su S1P₁, S1P₄ e S1P₅. Il risultato farmacodinamico descritto nelle informazioni di prodotto è un ostacolo parziale e reversibile all’uscita linfocitaria, con riduzione dei linfociti nel sangue. Il modello è una ridistribuzione delle cellule, non la loro distruzione generalizzata. Rispetto a vedolizumab cambia il punto del percorso: la modulazione S1P agisce sull’uscita dal compartimento linfoide, mentre il blocco α4β7/MAdCAM-1 limita una fase del reclutamento verso l’intestino. Non sono due nomi per la stessa selettività tissutale.\n\nL’indicazione EMA di Velsipity comprende la colite ulcerosa moderata-grave dai 16 anni, dopo risposta inadeguata, persa o intolleranza a terapia convenzionale o biologica. Ozanimod ha anch’esso un’indicazione europea nella colite ulcerosa dell’adulto: la novità di etrasimod non va confusa con la nascita dell’intera classe. Per etrasimod le precauzioni selezionate includono frequenza e conduzione cardiaca, infezioni, fegato ed edema maculare; la gravidanza è controindicata. La scelta di un meccanismo diverso dai JAK non elimina la necessità di valutare rischi specifici e condizioni d’uso.",
+      "formula": "Modulatore S1P → attivazione e minore disponibilità di S1P₁ in membrana → minore risposta al segnale di uscita → ritenzione di una quota di linfociti nei tessuti linfoidi.\nAnti-integrina → ostacolo a una fase del reclutamento dal sangue al tessuto.\nInibitore JAK → modulazione della risposta intracellulare a diverse citochine.\nConfronto originale dei punti di intervento, non graduatoria terapeutica."
+    },
+    {
+      "id": "colite-gravita-tempi",
+      "title": "La gravità cambia la sequenza e il tempo delle decisioni",
+      "refs": [
+        "CFI",
+        "APP",
+        "ACG-UC",
+        "ECCO-UC"
+      ],
+      "text": "Un algoritmo terapeutico comprime molte condizioni in poche frecce. Per leggerlo occorre prima distinguere estensione, attività e contesto assistenziale. La colite ulcerosa lieve-moderata trattata con aminosalicilati e la colite acuta grave ricoverata non percorrono la stessa scala con velocità diverse. Sono situazioni nelle quali cambiano obiettivi immediati, monitoraggio e possibilità di attendere. Una rivalutazione programmata dopo settimane in ambulatorio non può essere trasferita al paziente con malattia acuta grave.\n\nLa sintesi ACG 2025 colloca al terzo giorno la valutazione della risposta insufficiente ai corticosteroidi endovena, con terapia di salvataggio mediante infliximab o ciclosporina e coinvolgimento chirurgico. Non si attende per settimane prima di riconoscere il fallimento. Le complicanze e il peggioramento possono imporre decisioni ancora più urgenti: il terzo giorno non è un permesso di rinviare la valutazione. Il flusso didattico distingue così l’induzione della remissione dalla gestione di una condizione ospedaliera tempo-dipendente.\n\nAnche il ruolo dei JAK richiede data e contesto. ACG 2025 giudica insufficienti i dati per raccomandarne l’uso routinario in questo salvataggio. ECCO 2026 conferma infliximab o ciclosporina nella refrattarietà agli steroidi; la raccomandazione 47 ammette una sequenza di terza linea, anche con JAK, solo in pazienti altamente selezionati dopo fallimento della seconda linea, in centri multidisciplinari esperti e discutendo opzioni chirurgiche e rischi. È una raccomandazione debole, con evidenza di bassa certezza. Non equivale a porre tutte le opzioni sullo stesso piano nella prima decisione di salvataggio.\n\nLa figura del 2023 riportata nel corso e gli appunti sono quindi utili per orientarsi fra le classi, ma non costituiscono un protocollo aggiornato autosufficiente. La presenza di un farmaco in una freccia non chiarisce da sola livello di evidenza, precedenti fallimenti o rischio del ritardo chirurgico. La sintesi conserva queste distinzioni e non propone una sequenza prescrittiva individuale."
+    },
+    {
       "id": "microbiota-e-limiti",
       "title": "Dal modello biologico alla prova terapeutica",
       "refs": [
@@ -486,7 +541,7 @@ export const THEORY_IBD = Object.freeze({
         "APP",
         "AGA-FMT"
       ],
-      "text": "Il microbiota compare due volte in questo capitolo, con significati distinti. Come componente dell’ecosistema intestinale partecipa alle interazioni con barriera e immunità. Come fonte di enzimi può scindere il legame azoico di un medicinale. Il secondo fenomeno è un meccanismo di attivazione farmacologica; non dimostra che il farmaco curi la malattia “normalizzando” l’intera comunità microbica.\n\nAnalogamente, associare disbiosi e infiammazione non autorizza a raccomandare genericamente probiotici, integratori o trasferimento di microbiota. AGA 2024 suggerisce contro il trapianto convenzionale di microbiota fecale per trattare colite ulcerosa o Crohn al di fuori degli studi clinici; distingue questo uso dalla prevenzione delle recidive di infezione da C. difficile in pazienti selezionati. Il nome dell’intervento non basta: conta la condizione che si vuole trattare.\n\nLa lettura svolta copre MICI, aminosalicilati, glucocorticoidi, immunomodulatori e un confronto mirato degli anti-TNF, dei biosimilari, delle integrine e dell’asse IL-12/23. Le ulteriori piccole molecole e il blocco delle chinasi richiedono nuovi intervalli e una valutazione dedicata di indicazioni, rischi e confronti. I collegamenti presenti permettono di ripassare i principi molecolari e consultare identità già catalogate; non attestano che ogni scheda sia stata riesaminata in questo lotto. Questa sintesi resta un capitolo didattico con revisione editoriale mirata, non una revisione clinica indipendente."
+      "text": "Il microbiota compare due volte in questo capitolo, con significati distinti. Come componente dell’ecosistema intestinale partecipa alle interazioni con barriera e immunità. Come fonte di enzimi può scindere il legame azoico di un medicinale. Il secondo fenomeno è un meccanismo di attivazione farmacologica; non dimostra che il farmaco curi la malattia “normalizzando” l’intera comunità microbica.\n\nAnalogamente, associare disbiosi e infiammazione non autorizza a raccomandare genericamente probiotici, integratori o trasferimento di microbiota. AGA 2024 suggerisce contro il trapianto convenzionale di microbiota fecale per trattare colite ulcerosa o Crohn al di fuori degli studi clinici; distingue questo uso dalla prevenzione delle recidive di infezione da C. difficile in pazienti selezionati. Il nome dell’intervento non basta: conta la condizione che si vuole trattare.\n\nLa lettura svolta copre MICI, aminosalicilati, glucocorticoidi, immunomodulatori e un confronto mirato degli anti-TNF, dei biosimilari, delle integrine e dell’asse IL-12/23. Il confronto comprende ora JAK–STAT, modulazione S1P e tempi della colite acuta grave; ulteriori molecole e confronti richiedono letture dedicate. I collegamenti presenti permettono di ripassare i principi molecolari e consultare identità già catalogate; non attestano che ogni scheda sia stata riesaminata in questo lotto. Questa sintesi resta un capitolo didattico con revisione editoriale mirata, non una revisione clinica indipendente."
     }
   ],
   "checks": [
@@ -653,6 +708,26 @@ export const THEORY_IBD = Object.freeze({
     {
       "question": "Il legame in vitro di guselkumab a CD64 dimostra che sia sempre preferibile agli altri anti-p19?",
       "answer": "No. Descrive un’interazione della regione Fc presso cellule produttrici di IL-23. Un vantaggio clinico richiede un confronto pertinente con esiti misurati."
+    },
+    {
+      "question": "Perché una JAK non è un recettore tirosin-chinasico?",
+      "answer": "È una chinasi intracellulare associata a un recettore, non il dominio catalitico intrinseco della sua catena. Molti recettori per citochine impiegano JAK, ma non tutte le citochine usano JAK–STAT."
+    },
+    {
+      "question": "La preferenza per JAK1 significa che il farmaco agisce esclusivamente su quel segnale?",
+      "answer": "No. La selettività dipende dal saggio, dalla concentrazione e dal contesto cellulare; non dimostra da sola una maggiore sicurezza o un’indicazione comune a tutta la classe."
+    },
+    {
+      "question": "Le frequenze di rischio osservate nell’artrite reumatoide sono il rischio assoluto di ogni paziente con colite ulcerosa?",
+      "answer": "No. Le misure regolatorie EMA si applicano ai JAK per le malattie infiammatorie considerate, ma le stime vanno interpretate alla luce di popolazione, fattori di rischio e confronto originario."
+    },
+    {
+      "question": "Come può un agonista S1P ridurre l’uscita dei linfociti?",
+      "answer": "L’attivazione può favorire l’internalizzazione e ridurre i recettori disponibili in membrana: la risposta al segnale di uscita diminuisce. È antagonismo funzionale con ritenzione di una quota di cellule, non distruzione generalizzata."
+    },
+    {
+      "question": "Perché i JAK nella figura di salvataggio non equivalgono a una scelta routinaria per ogni colite acuta grave?",
+      "answer": "ACG 2025 non ne raccomanda l’uso routinario per insufficienza di dati; ECCO 2026 considera anche JAK in terza linea solo in pazienti altamente selezionati, dopo seconda linea fallita, in centri esperti con discussione chirurgica. Raccomandazione debole, evidenza di bassa certezza."
     }
   ],
   "relatedExistingChapterIds": [
@@ -660,7 +735,9 @@ export const THEORY_IBD = Object.freeze({
     "formulazioni-sali-bioequivalenza",
     "anticorpi-biologici",
     "farmacogenomica",
-    "first-pass-avanzato"
+    "first-pass-avanzato",
+    "gpcr",
+    "tirosinchinasi"
   ],
   "moleculeLinks": [
     {
@@ -750,13 +827,29 @@ export const THEORY_IBD = Object.freeze({
     {
       "id": "CHEMBL3990029",
       "label": "RISANKIZUMAB"
+    },
+    {
+      "id": "CHEMBL221959",
+      "label": "TOFACITINIB"
+    },
+    {
+      "id": "CHEMBL3622821",
+      "label": "UPADACITINIB"
+    },
+    {
+      "id": "CHEMBL3358920",
+      "label": "ETRASIMOD"
+    },
+    {
+      "id": "CHEMBL3707247",
+      "label": "OZANIMOD"
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 544–575, etichette 542–573. Nuove 571–575 lette nel testo disponibile e nei rendering; 574–575 prevalentemente grafiche. Integrate 571–574 e mappa 570 già letta. 566–568 ripetitive, 575 sulle chinasi rinviata. Mappe storiche non equivalgono a elenchi attuali di autorizzazioni; figure non ripubblicate."
+      "detail": "PDF 544–580, etichette 542–578. Nuove 576–580 lette nel testo disponibile e nei rendering; 578–580 grafiche. Integrate 576–579 e mappa JAK 575 già letta; 580, frammento di tabella sui topici, letta ma non reintegrata. 566–568 ripetitive. Il bordo di 576 e le note della figura 579 non sono interamente visibili nell’originale; non ricostruiti. Figure non ripubblicate; articoli sottostanti non letti integralmente."
     },
     {
       "id": "KAT",
@@ -771,7 +864,7 @@ export const THEORY_IBD = Object.freeze({
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I · 2025–26",
-      "detail": "Appunti e diapositive del corso di Farmacologia I, AA 2025–26: lezione 16 del 20/11/2025, PDF 283–286, etichette 278–281. Nel lotto corrente riletta PDF 286 senza nuovo conteggio: integrati p40 e adesione, oltre al precedente confronto sui biosimilari. Figura ridotta non verificata in ogni piccola etichetta; confronto con la diapositiva I 571 più leggibile."
+      "detail": "Appunti e diapositive del corso di Farmacologia I, AA 2025–26: lezione 16 del 20/11/2025, PDF 283–287, etichette 278–282. Nuova 287 letta integralmente e nel rendering; integrati JAK, S1P e tempi della colite, escluso finale sull’artrite reumatoide. Rimane il limite della figura ridotta a 286, non verificata in ogni piccola etichetta."
     },
     {
       "id": "MES-UK",
@@ -795,7 +888,7 @@ export const THEORY_IBD = Object.freeze({
       "id": "ECCO-UC",
       "title": "ECCO 2026 · Terapia medica della colite ulcerosa",
       "url": "https://academic.oup.com/ecco-jcc/article/20/7/jjag066/8726617",
-      "detail": "DOI 10.1093/ecco-jcc/jjag066. Raccomandazioni 3–4 negli estratti indicizzati ufficiali, lette il 30/10/2026; accesso diretto non disponibile. Non linea guida completa."
+      "detail": "DOI 10.1093/ecco-jcc/jjag066. Raccomandazioni 3–4 negli estratti indicizzati ufficiali, lette il 30/10/2026; accesso diretto non disponibile. Non linea guida completa. Il 04/11/2026 letti selettivamente gli estratti ufficiali indicizzati delle raccomandazioni 45 e 47 e relativo testo sul salvataggio; accesso diretto ancora non disponibile. Terza linea altamente selezionata, non equivalenza routinaria con la seconda."
     },
     {
       "id": "AGA-FMT",
@@ -837,7 +930,7 @@ export const THEORY_IBD = Object.freeze({
       "id": "ACG-UC",
       "title": "ACG 2025 · Sintesi ufficiale sulla colite ulcerosa",
       "url": "https://gi.org/journals-publications/ebgi/alkazzi_aug2025/",
-      "detail": "Sintesi ufficiale: lettura selettiva precedente 20–22 e 28–38; ricontrollati 23, mantenimento e 51–54 nel lotto corrente il 30/10/2026. Non linea guida completa. Ricontrollati nel lotto 561–565 i passaggi anti-TNF 28–29, 42 e 44 e i concetti di posizionamento 28–29. Nel lotto 566–570 letti raccomandazione 44 e concetti chiave 28–29, 31 e 36 su risposta, concentrazioni, vie e monitoraggio proattivo. Lotto 571–575: classi terapeutiche e concetti chiave 40–47, soprattutto storia terapeutica e manifestazioni extraintestinali; consultazione selettiva."
+      "detail": "Sintesi ufficiale: lettura selettiva precedente 20–22 e 28–38; ricontrollati 23, mantenimento e 51–54 nel lotto corrente il 30/10/2026. Non linea guida completa. Ricontrollati nel lotto 561–565 i passaggi anti-TNF 28–29, 42 e 44 e i concetti di posizionamento 28–29. Nel lotto 566–570 letti raccomandazione 44 e concetti chiave 28–29, 31 e 36 su risposta, concentrazioni, vie e monitoraggio proattivo. Lotto 571–575: classi terapeutiche e concetti chiave 40–47, soprattutto storia terapeutica e manifestazioni extraintestinali; consultazione selettiva. Il 04/11/2026 rilette 51–54 e concetti 48–57: rivalutazione al terzo giorno e insufficienza di dati per JAK routinari nel salvataggio."
     },
     {
       "id": "ACG-CD",
@@ -1010,8 +1103,44 @@ export const THEORY_IBD = Object.freeze({
       "title": "EMA · Omvoh",
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/omvoh",
       "detail": "Overview: indicazioni MICI nell’adulto, meccanismo e rischi letti il 30/10/2026; non fascicolo completo."
+    },
+    {
+      "id": "TOF-UK",
+      "title": "Xeljanz orale · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/2500/smpc",
+      "detail": "Aggiornato 16/03/2026; passaggi 4.1 e 5.1 letti il 04/11/2026: indicazioni e distinzione fra saggio enzimatico e selettività funzionale. Non RCP italiano né scheda completa."
+    },
+    {
+      "id": "UPA-UK",
+      "title": "Rinvoq orale · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/10972/smpc",
+      "detail": "Passaggi 4.1 e 5.1 letti il 04/11/2026: indicazioni MICI, JAK–STAT e selettività funzionale. Non RCP italiano né scheda completa."
+    },
+    {
+      "id": "EMA-JAK",
+      "title": "EMA · Misure di sicurezza per gli inibitori JAK",
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/janus-kinase-inhibitors-jaki",
+      "detail": "Overview del referral letta il 04/11/2026: misure 2023, popolazioni a rischio e contesto del segnale da artrite reumatoide. Non lettura completa degli studi o fascicoli."
+    },
+    {
+      "id": "ETR-UK",
+      "title": "Velsipity orale · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/15602/smpc",
+      "detail": "Passaggi 4.3–4.4 e 5.1 letti il 04/11/2026: sottotipi S1P, uscita linfocitaria, precauzioni cardiache, infettive, epatiche, oculari e gravidanza. Non RCP italiano né elenco completo di precauzioni."
+    },
+    {
+      "id": "EMA-VEL",
+      "title": "EMA · Velsipity",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/velsipity",
+      "detail": "Overview letta il 04/11/2026: indicazione europea dai 16 anni, meccanismo e rischi. Autorizzazione del 16/02/2024 distinta dalla prima disponibilità della classe."
+    },
+    {
+      "id": "EMA-ZEP",
+      "title": "EMA · Zeposia",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zeposia",
+      "detail": "Overview letta il 04/11/2026: indicazione nella colite ulcerosa dell’adulto e traffico linfocitario. Non confronto diretto di efficacia con etrasimod."
     }
   ],
-  "coverage": "Sette nuove pagine lette nel testo disponibile e nei rendering: sei contribuiscono alla sintesi, una sulle chinasi resta rinviata. Quattro pagine già lette riconsultate senza ricontarle; la mappa I 570 è ora integrata. Copertura cumulativa: 64 pagine lette, 59 con passaggi integrati, sei fonti. Le figure ripetute non sono prove indipendenti. Fonti ufficiali consultate selettivamente. Nessuna lettura integrale di libri o corsi, né revisione clinica indipendente.",
-  "wordCount": 8693
+  "coverage": "Sei nuove pagine lette nel testo disponibile e nei rendering: cinque contribuiscono alla sintesi; il frammento di tabella sui topici non viene reintegrato. La mappa JAK I 575, già letta, è ora integrata senza ricontarla. Copertura cumulativa: 70 pagine lette, 65 con passaggi integrati, sei fonti. Farmacologia II confrontata tramite i passaggi già letti; una nuova ricerca testuale automatica non equivale a lettura del corso. Fonti ufficiali consultate selettivamente. Nessuna lettura integrale di libri o corsi, né revisione clinica indipendente.",
+  "wordCount": 9882
 });
