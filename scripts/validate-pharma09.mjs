@@ -49,9 +49,9 @@ const malicious={sections:{pharmacokinetics:['Drug shows CYP2D6 <script>alert("x
 const escaped=renderPK09(malicious);
 assert.doesNotMatch(escaped,/<script>/);
 assert.match(escaped,/&lt;script&gt;/);
-assert.equal(ELIX_CHAPTERS.length,60);
+assert.equal(ELIX_CHAPTERS.length,61);
 assert.equal(CHAPTERS_09.length,12);
-assert.equal(new Set(ELIX_CHAPTERS.map(x=>x.id)).size,60);
+assert.equal(new Set(ELIX_CHAPTERS.map(x=>x.id)).size,61);
 assert.equal(new Set(ELIX_CHAPTERS.map(x=>x.volume)).size,18);
 assert.ok(CHAPTERS_09.every(x=>x.sections.length===4&&x.sections.every(s=>s.text.length>170)));
 assert.equal(GUIDELINES_09.length,7);

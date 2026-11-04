@@ -4,7 +4,7 @@ import {createHash} from 'node:crypto';
 import {ELIX_CHAPTERS} from '../elix-content.js';
 import {THEORY_IBD as c} from '../elix-theory-ibd.js';
 const read=f=>readFileSync(new URL('../'+f,import.meta.url),'utf8');
-assert.equal(ELIX_CHAPTERS.length,60);assert.equal(new Set(ELIX_CHAPTERS.map(x=>x.id)).size,60);assert.equal(ELIX_CHAPTERS.filter(x=>x.format==='extended').length,15);assert.deepEqual(ELIX_CHAPTERS.find(x=>x.id===c.id),c);
+assert.equal(ELIX_CHAPTERS.length,61);assert.equal(new Set(ELIX_CHAPTERS.map(x=>x.id)).size,61);assert.equal(ELIX_CHAPTERS.filter(x=>x.format==='extended').length,16);assert.deepEqual(ELIX_CHAPTERS.find(x=>x.id===c.id),c);
 assert.equal(c.wordCount,c.sections.map(s=>s.text).join(' ').split(/\s+/).length);assert.ok(c.wordCount>10500);
 assert.equal(c.sections.length,50);assert.equal(c.checks.length,49);assert.equal(new Set(c.sections.map(s=>s.id  )).size,50);
 const refs=new Set(c.references.map(r=>r.id));assert.equal(refs.size,54);for(const s of c.sections){assert.ok(s.text.length>700);assert.ok(s.refs.length);for(const id of s.refs)assert.ok(refs.has(id),'unresolved source '+id);}

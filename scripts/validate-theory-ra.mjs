@@ -4,7 +4,7 @@ import {createHash} from 'node:crypto';
 import {ELIX_CHAPTERS} from '../elix-content.js';
 import {THEORY_RA as c} from '../elix-theory-ra.js';
 const read=f=>readFileSync(new URL('../'+f,import.meta.url),'utf8');
-assert.equal(ELIX_CHAPTERS.length,60);assert.equal(new Set(ELIX_CHAPTERS.map(c=>c.id)).size,60);assert.equal(ELIX_CHAPTERS.filter(c=>c.format==='extended').length,15);
+assert.equal(ELIX_CHAPTERS.length,61);assert.equal(new Set(ELIX_CHAPTERS.map(c=>c.id)).size,61);assert.equal(ELIX_CHAPTERS.filter(c=>c.format==='extended').length,16);
 assert.deepEqual(ELIX_CHAPTERS.find(x=>x.id===c.id),c);assert.equal(c.wordCount,c.sections.map(s=>s.text).join(' ').split(/\s+/).length);
 assert.equal(c.sections.length,15);assert.equal(new Set(c.sections.map(s=>s.id)).size,15);assert.ok(c.checks.every(x=>x.question&&x.answer));
 const refs=new Set(c.references.map(r=>r.id));assert.equal(refs.size,c.references.length);for(const s of c.sections){assert.ok(s.refs.length);for(const r of s.refs)assert.ok(refs.has(r),'unresolved source '+r);}

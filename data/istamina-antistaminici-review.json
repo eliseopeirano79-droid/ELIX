@@ -1,0 +1,21 @@
+{
+  "batch": "theory-course-611-615",
+  "chapterId": "istamina-antistaminici",
+  "checkedAt": "2026-11-04T12:18:16.885856+00:00",
+  "outcome": "pass",
+  "reviewer": "integrator_editorial_check",
+  "independentClinicalReview": false,
+  "moduleSha256": "b935bbf5d1971f837abce6034c990ab6a3e4aca84ba382ed988ff879e5087bf7",
+  "checks": [
+    "Rilette tutte le 15 sezioni e le 15 risposte; distinte conformazioni recettoriali, agonismo inverso e competizione.",
+    "H1/Gq, H2/Gs, H3/H4/Gi e H3/pitolisant confrontati; dati storici sulla ranitidina aggiornati.",
+    "Separati minore ingresso cerebrale e assenza di sedazione, azioni H1 e fuori bersaglio, formulazioni e classe.",
+    "Rinite, orticaria e anafilassi confrontate con ARIA-EAACI, linea guida internazionale 2026 e RCUK; nessun protocollo completo o dose individuale.",
+    "Idrossizina/QT e cetirizina/sedazione, rene e segnale FDA dopo interruzione riportati con ambito regolatorio.",
+    "17 pagine con passaggi integrati; nessuna trascrizione o figura originale; tre schemi e collegamenti a 16 identità già presenti."
+  ],
+  "limits": [
+    "Controllo editoriale del solo integratore; non revisione clinica indipendente.",
+    "Verifiche tecniche e pubblicazione ancora da completare."
+  ]
+}

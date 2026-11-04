@@ -8,19 +8,19 @@ Per richiesta dell’utente usare «appunti e diapositive del corso di Farmacolo
 
 ## Lotto corrente
 
-theory-course-606-610, candidato 0.62.0: primo capitolo dedicato alla dermatite atopica, da barriera e prurito ai bersagli e alle terapie. Quindici sezioni originali, 2.640 parole, tre schemi, quindici domande, ventuno riferimenti, quindici farmaci esistenti e cinque capitoli collegati. Un nuovo capitolo; zero ampliamenti integrali di capitoli esistenti, nuove identità, sintesi farmacologiche, profili o laboratori. Totali: 60 capitoli, quindici estesi e 45 sintetici ancora da approfondire.
+theory-course-611-615, candidato 0.63.0: primo capitolo dedicato a istamina e anti-H1, dal recettore al controllo dei sintomi. Quindici sezioni originali, 2.707 parole, tre schemi, quindici domande, tredici riferimenti, sedici farmaci esistenti e cinque capitoli collegati. Un nuovo capitolo; zero ampliamenti integrali di capitoli esistenti, nuove identità, sintesi farmacologiche, profili o laboratori. Totali: 61 capitoli, sedici estesi e 45 sintetici ancora da approfondire.
 
-La 0.61.0 è pubblicata e verificata al commit f90581605b2e3987030ce57feffb0d2d489327c2. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparato prima della pubblicazione. I lotti 596–600 e 601–605 hanno lasciato letture private complete per gli intervalli dichiarati, senza nuova pubblicazione; la teoria atopica avviata a 605 viene integrata qui.
+La 0.62.0 è pubblicata e verificata al commit 6a9ecc94f7b7af8fb5630bf89f7e1c652a807a9e. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparato prima della pubblicazione.
 
-Diciassette nuove pagine: corso I PDF 606–610, Katzung 1235 e 1241–1243, Rang & Dale 515–516 e 531–534, appunti I 289, materiali II 31. Sette pagine rilette: corso I 605, appunti I 288, materiali II 29–30 e lezione II 11–13. Deduplicazione per hash e pagina in 70 registri nominati. Ventiquattro pagine lette nel testo disponibile e nei rendering, sei fonti, ventitré con passaggi integrati; II 29 letta ma non usata per nuovi passaggi. Nessuna lettura dichiarata di interi libri o corsi.
+Sedici nuove pagine: corso I PDF 611–615, Katzung 325 e 328–332, Rang & Dale 330–331 e 521–522, appunti I 290. Riletto appunti I 289. Deduplicazione per hash del singolo file e pagina in 73 registri nominati. Diciassette pagine lette nel testo disponibile e nei rendering, quattro fonti, tutte con passaggi integrati. Le pagine 611 e 615 hanno testo nelle immagini, letto visivamente. Nessuna lettura dichiarata di interi libri o corsi; nessuna nuova pagina dei materiali II o degli altri libri in questo lotto.
 
-Riconciliati calcineurina/FKBP/mTOR, IL-4Rα e ligandi IL-13, IL-31RA, JAK, PDE4 e agonismo AhR. Indicazioni e rischi confrontati selettivamente con EMA e EuroGuiDerm; FDA usata soltanto per il meccanismo di tapinarof. Distinte psoriasi e dermatite, sedazione e controllo del prurito, via topica e sistemica, dati storici e condizioni correnti. Nessuna sequenza universale, dose individuale o equivalenza fra giurisdizioni.
+Riconciliati agonismo inverso e antagonismo competitivo, conformazioni recettoriali, Gq/Gs/Gi, distribuzione cerebrale e azioni fuori bersaglio. Distinti rinite, orticaria, prurito atopico, asma, angioedema e ruolo accessorio nell’anafilassi. Consultati selettivamente EMA, AEMPS, ARIA-EAACI 2024–2025 (parti I e II), linea guida internazionale sull’orticaria 2026, RCUK e FDA. Corrette generalizzazioni storiche su H3 e sedazione; non trasferite dosi storiche, soglie renali discordanti o graduatorie universali.
 
-Ritagli del corso parzialmente coperti e figura II 31 tagliata. Formule chimiche non validate atomo per atomo; articoli delle figure e studi sottostanti non letti integralmente. Alcuni PDF EMA limitati da 429, con lettura di estratti ufficiali indicizzati e panoramiche EPAR; nessun intero RCP dichiarato letto. Portale EuroGuiDerm aggiornato nel 2026 con capitoli topici/prurito ancora del 2022. Sintesi controllata dal solo integratore, non revisione clinica indipendente. Nessun PDF, figura o trascrizione originale pubblicato.
+Figure e tabelle controllate nel contenuto disponibile; strutture chimiche non validate atomo per atomo. Diagrammi duplicati non contati come studi indipendenti; grafici senza riferimento non usati quantitativamente. Alcuni accessi EMA e Wiley limitati, con estratti ufficiali e portali alternativi documentati. Nessun intero RCP o linea guida dichiarato letto. Sintesi controllata dal solo integratore, non revisione clinica indipendente; nessun PDF, figura o trascrizione originale pubblicato.
 
-Controlli locali: 43 validatori, otto configurazioni browser, fonti, tastiera, ricerca, collegamenti e offline. Aggiornamento reale 0.61.0→0.62.0 con dati e tema conservati; 59 capitoli precedenti e componenti invariati. Sei schermate ispezionate; sei originali con hash invariati. Chromium con dimensioni simulate, non dispositivi fisici.
+Controlli locali: 44 validatori, otto configurazioni browser, fonti, tastiera, ricerche, collegamenti e offline. Aggiornamento reale 0.62.0→0.63.0 con dati e tema conservati; 60 capitoli precedenti e componenti invariati. Sei schermate ispezionate, quattro originali con hash invariati. Tre regressioni della teoria concluse dopo l’aggiornamento dei conteggi attesi. Chromium con dimensioni simulate, non dispositivi fisici.
 
-Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/ELIX-course-606-610-2026-11-04/. ../../outputs/ELIX-latest-verification.json va aggiornata soltanto dopo il deploy verificato.
+Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/ELIX-course-611-615-2026-11-04/. ../../outputs/ELIX-latest-verification.json va aggiornata soltanto dopo il deploy verificato.
 
 ## Regole
 
@@ -32,4 +32,4 @@ Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/
 
 ## Prossimo intervallo
 
-Completare prima CI, pubblicazione e riscontro online del lotto 606–610. Solo dopo deduplicare PDF 611–615. Le pagine già lette rimangono disponibili senza nuovo conteggio; non riassegnare capitoli consegnati. Farmaci mancanti, profili e laboratori restano nel backlog.
+Completare prima CI, pubblicazione e riscontro online del lotto 611–615. Poi deduplicare un solo intervallo PDF 616–620; teoria prioritaria, farmaci e laboratori nel backlog.
