@@ -1,26 +1,25 @@
 {
-  "updatedAt": "2026-11-04T15:46:07.013267+00:00",
-  "batch": "theory-course-631-635",
+  "updatedAt": "2026-11-04T17:22:46.799638+00:00",
+  "batch": "theory-course-636-640",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.67.0",
-  "branch": "feat/theory-course-631-635",
-  "baseCommit": "e16254d2d983dfa339809dfa1d0981d5c4af8a74",
+  "release": "0.68.0",
+  "branch": "feat/theory-course-636-640",
+  "baseCommit": "ef5ad7e75c1cf748a5251bb074ad9625d4cee808",
   "previousBatch": {
-    "batch": "theory-course-626-630",
+    "batch": "theory-course-631-635",
     "status": "published_and_live_verified",
-    "release": "0.66.0",
-    "commit": "e16254d2d983dfa339809dfa1d0981d5c4af8a74"
+    "release": "0.67.0",
+    "commit": "ef5ad7e75c1cf748a5251bb074ad9625d4cee808"
   },
   "scope": [
-    "Ampliamento del capitolo asma: effetti su muscolo, nervi ed epitelio; selettività ed esposizione; struttura ed eliminazione.",
-    "Ricerca: corrispondenze nel titolo prioritarie, per conservare l’accesso al capitolo sul primo passaggio."
+    "Ampliamento del capitolo asma: tolleranza, esiti clinici, effetti sistemici e circuito muscarinico."
   ],
   "completed": [
-    "Due sezioni aggiunte e una ampliata: 19 sezioni, 3755 parole, 19 domande, cinque schemi originali e quindici riferimenti.",
-    "Cinque pagine nuove e sei riletture controllate nel testo disponibile e nei rendering: una tabella immagine esplicitamente distinta. Nove pagine sostengono il lotto, cinque nuove nella copertura integrata del capitolo; 35 pagine distinte controllate e 32 integrate.",
+    "Due sezioni aggiunte e una ampliata; aggiornato anche il paragrafo di copertura. 21 sezioni, 4472 parole, 21 domande, sei schemi originali e sedici riferimenti.",
+    "Undici pagine locali controllate: otto nuove e tre riletture; uno schema letto dall’immagine. Nove sostengono il lotto, otto entrano nella copertura integrata del capitolo; 44 pagine distinte controllate e 40 integrate con hash.",
+    "Una pagina GINA letta nel testo e nel rendering; SmPC britannici consultati selettivamente e articolo Taylor soltanto nell’abstract. Grafici di esito distinti da misura recettoriale.",
     "45 validatori superati; otto configurazioni browser, fonti, tastiera, ricerche, collegamenti e offline; sei schermate ispezionate.",
-    "Aggiornamento reale 0.66.0→0.67.0 con preferiti, progressi e tema conservati. Altri 60 capitoli, catalogo, lettore, stili e laboratori invariati.",
-    "Regressione della ricerca rilevata e corretta: il titolo pertinente resta visibile anche se altri capitoli citano la frase."
+    "Aggiornamento reale 0.67.0→0.68.0 con preferiti, progressi e tema conservati. Altri 60 capitoli, catalogo, lettore, stili e laboratori invariati."
   ],
   "remaining": [
     "CI, deploy concluso e riscontro online."
@@ -46,20 +45,20 @@
     "newInteractiveLabs": 0,
     "newSections": 2,
     "expandedSections": 1,
+    "coverageParagraphUpdated": true,
     "newLinksToExistingIdentities": 0,
-    "newStaticOriginalSchemas": 1,
-    "searchTitlePrioritization": true
+    "newStaticOriginalSchemas": 1
   },
   "readingManifests": [
     "data/asma-e-broncodilatatori-reading.json"
   ],
   "limits": [
-    "Cinque pagine nuove del corso (631–635) e sei riletture di supporto: undici pagine controllate. La tabella 634 è stata letta dall’immagine; il testo estratto contiene solo il numero di pagina.",
-    "Nove pagine sostengono il lotto: quattro nuove e cinque già lette. Cinque pagine entrano per la prima volta nella copertura integrata del capitolo, inclusa Katzung 405 già letta in precedenza; 35 pagine distinte controllate, 32 integrate nel capitolo.",
-    "Deduplicazione in 83 registri nominati e registro respiratorio storico bibliografico. Figure corso 631/633–635 già presenti negli appunti 295–296: non prove indipendenti.",
-    "SmPC britannico Ventolin consultato selettivamente; due abstract sperimentali, umano e animale, senza lettura dei metodi completi o figure. Nessuna nuova lettura GINA/GOLD, Farmacologia II o manuale molecolare.",
-    "Nessun intero libro o corso letto, nessuna revisione clinica indipendente. Nessuna dose, trascrizione o figura originale pubblicata. Nessuna nuova identità, sintesi farmacologica, profilo PK, capitolo o laboratorio.",
+    "Undici pagine locali controllate: otto nuove e tre riletture. Corso 640 letto come immagine; Rang 548 già letto nel registro respiratorio storico, ora controllato anche visivamente.",
+    "Nove pagine sostengono il lotto, sei di nuova lettura. Otto pagine entrano nella copertura integrata del capitolo; copertura cumulativa con hash: 44 controllate e 40 integrate.",
+    "Deduplicazione in 85 registri nominati più registro respiratorio storico bibliografico. Figure corso 637/639 duplicate negli appunti 297/298, non conferme indipendenti.",
+    "Letture ufficiali selettive: GINA 2026 PDF 249, SmPC britannici Ventolin e Spiriva Respimat; dell’articolo Taylor 1993 soltanto abstract. Nessuna nuova lettura GOLD, Farmacologia II o manuale molecolare.",
+    "Nessun intero libro o corso dichiarato letto; controllo editoriale del solo integratore, non revisione clinica indipendente. Nessun PDF, trascrizione, figura o dosaggio delle fonti pubblicato.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Completare prima CI, deploy e riscontro online del lotto 631–635. Poi deduplicare un solo intervallo PDF 636–640; teoria respiratoria prioritaria, farmaci, profili e laboratori nel backlog."
+  "nextBatch": "Completare prima CI, deploy e riscontro online del lotto 636–640. Poi deduplicare un solo intervallo PDF 641–645; teoria respiratoria prioritaria, farmaci, profili e laboratori nel backlog."
 }
