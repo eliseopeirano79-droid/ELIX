@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-04T13:48:52.331562+00:00",
-  "batch": "theory-course-621-625",
+  "updatedAt": "2026-11-04T14:49:17.646662+00:00",
+  "batch": "theory-course-626-630",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.65.0",
-  "branch": "feat/theory-course-621-625",
-  "baseCommit": "80eb4e5d0a90ba97b96591c3fdf54c5a5fa0b453",
+  "release": "0.66.0",
+  "branch": "feat/theory-course-626-630",
+  "baseCommit": "ecbd2cfebb56fdb8e37e4044460baf771153df28",
   "previousBatch": {
-    "batch": "theory-course-616-620",
+    "batch": "theory-course-621-625",
     "status": "published_and_live_verified",
-    "release": "0.64.0",
-    "commit": "80eb4e5d0a90ba97b96591c3fdf54c5a5fa0b453"
+    "release": "0.65.0",
+    "commit": "ecbd2cfebb56fdb8e37e4044460baf771153df28"
   },
   "scope": [
-    "Ampliamento del capitolo asma esistente: muscolatura, epitelio, infiammazione, recettori e distinzione dalla BPCO."
+    "Ampliamento del capitolo asma: effettori, tempi dei broncodilatatori, obiettivi, xantine e asma+BPCO."
   ],
   "completed": [
-    "Trasformata la sintesi respiratoria in 14 sezioni, 2297 parole, 14 domande, tre schemi originali, nove riferimenti, dieci identità e cinque capitoli collegati.",
-    "18 pagine locali lette e controllate visivamente: 16 nuove, due rilette; 17 integrate. Confronto selettivo con GINA/GOLD 2026, documenti di prodotto e ricerca sperimentale.",
-    "45 validatori superati; otto configurazioni browser con fonti, tastiera, ricerche, collegamenti e offline. Sei schermate ispezionate.",
-    "Aggiornamento reale 0.64.0→0.65.0 con dati e tema conservati. Altri 60 capitoli, catalogo, lettore, stili e laboratori invariati."
+    "Tre sezioni aggiunte e due ampliate: 17 sezioni, 3081 parole, 17 domande, quattro schemi originali e dodici riferimenti.",
+    "12 pagine locali nuove lette e controllate visivamente, 10 integrate; nel capitolo 30 pagine distinte controllate e 27 integrate.",
+    "45 validatori superati; otto configurazioni browser, fonti, tastiera, ricerche, collegamenti e offline; sei schermate ispezionate.",
+    "Aggiornamento reale 0.65.0→0.66.0 con preferiti, progressi e tema conservati. Altri 60 capitoli, catalogo, lettore, stili e laboratori invariati."
   ],
   "remaining": [
     "CI, deploy concluso e riscontro online."
@@ -42,21 +42,21 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 6,
-    "expandedSections": 8,
-    "newLinksToExistingIdentities": 10,
-    "newStaticOriginalSchemas": 3
+    "newSections": 3,
+    "expandedSections": 2,
+    "newLinksToExistingIdentities": 0,
+    "newStaticOriginalSchemas": 1
   },
   "readingManifests": [
     "data/asma-e-broncodilatatori-reading.json"
   ],
   "limits": [
-    "18 pagine locali: 16 nuove e 2 rilette; testo disponibile e 18 rendering controllati. La pagina di programma non sostiene nuova sintesi; 17 pagine con passaggi integrati, 15 nuove.",
-    "Deduplicazione in 78 registri nominati con hash/pagine e un registro respiratorio storico bibliografico senza hash; nessuna dichiarazione di inventario completo della biblioteca.",
-    "Nessuna nuova lettura dei materiali di Farmacologia II o del manuale molecolare; riconciliazione complessiva ancora aperta.",
-    "Documenti ufficiali consultati selettivamente; ricerca sperimentale letta in passaggi dichiarati, non figure/metodi/supplementi completi. Nessun libro o corso dichiarato letto per intero.",
-    "Una sintesi introduttiva trasformata in capitolo esteso; nessuna nuova identità, sintesi farmacologica, scheda PK, capitolo o laboratorio. Controllo editoriale del solo integratore, non revisione clinica indipendente.",
+    "12 pagine locali nuove lette nel testo disponibile e nei rendering; 10 sostengono le aggiunte, due lette ma non integrate. Nel capitolo 30 pagine distinte controllate, 27 con passaggi integrati.",
+    "Deduplicazione in 81 registri nominati con hash/pagine e un registro respiratorio bibliografico storico; figura corso 629/Katzung 404 duplicata, non prova indipendente.",
+    "Nessuna nuova lettura di Farmacologia II o del manuale molecolare. Nessun libro o corso letto interamente.",
+    "Confronto selettivo con tre pagine GINA 2026, passaggi di due SmPC britannici e abstract di Kume 1994; non interi documenti o revisione clinica indipendente.",
+    "Nessuna nuova identità, sintesi farmacologica, profilo PK, capitolo o laboratorio. Fonti originali e figure non pubblicate.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Completare prima CI, deploy e riscontro online del lotto 621–625. Poi deduplicare un solo intervallo PDF 626–630, proseguendo la teoria respiratoria; farmaci, profili e laboratori restano nel backlog."
+  "nextBatch": "Completare prima CI, deploy e riscontro online del lotto 626–630. Poi deduplicare un solo intervallo PDF 631–635, proseguendo la teoria respiratoria; farmaci, profili e laboratori restano nel backlog."
 }

@@ -62,6 +62,30 @@ export const THEORY_ASTHMA = Object.freeze({
       "formula": "Agonista β₂ → Gs → adenilato ciclasi → AMPc → effettori, inclusa PKA → rilassamento. AMPc è il messaggero; PKA è una chinasi. Schema originale del percorso prevalente, non elenco completo degli effettori."
     },
     {
+      "id": "effettori",
+      "title": "Dal segnale al muscolo: calcio, miosina e canali",
+      "refs": [
+        "CFI",
+        "KAT",
+        "KUME",
+        "SAL"
+      ],
+      "text": "Per comprendere il rilassamento bisogna guardare anche al sistema che genera forza. Nel muscolo liscio, il calcio citosolico si lega alla calmodulina; il complesso attiva la chinasi delle catene leggere della miosina, MLCK. La fosforilazione della miosina favorisce l’interazione contrattile con l’actina. Una fosfatasi compie l’operazione opposta. Il tono dipende quindi sia dal segnale del calcio sia dalla regolazione dell’apparato contrattile: ridurre la disponibilità del segnale e ridurne l’effetto sulla contrazione sono operazioni distinte.\n\nLa via β₂–AMPc può intervenire a più livelli di questa rete. Gli schemi didattici richiamano la regolazione dei segnali che mobilizzano calcio, dell’attività contrattile e dei canali del potassio. L’apertura di canali KCa può favorire l’iperpolarizzazione. L’abstract sperimentale di Kume e collaboratori documenta una regolazione dei canali attraverso PKA e azioni di Gs non dipendenti dalla formazione di AMPc. Non ne deriva che ogni broncodilatazione richieda tutti questi passaggi, né che il contributo di ciascuno sia uguale in ogni preparazione o paziente.\n\nAnche l’effetto su un’altra cellula va tenuto distinto. Un agonista β₂ può ridurre il rilascio di mediatori mastocitari in determinate condizioni sperimentali; il documento del salmeterolo separa questa attività dall’effetto antinfiammatorio dei corticosteroidi. Il disegno di una freccia verso il mastocita non dimostra quindi che il broncodilatatore possa sostituire la terapia che controlla l’infiammazione. Il percorso recettoriale spiega una possibilità biologica; la sua rilevanza va misurata sul tessuto e sull’esito considerato."
+    },
+    {
+      "id": "tempi",
+      "title": "Rapido e prolungato: due proprietà indipendenti",
+      "refs": [
+        "KAT",
+        "RAN",
+        "APP",
+        "FOR",
+        "SAL"
+      ],
+      "text": "Le sigle SABA e LABA distinguono agonisti β₂ secondo la durata d’azione: breve nel primo caso, lunga nel secondo. Non ordinano necessariamente la velocità con cui compare la broncodilatazione. Il formoterolo è un esempio decisivo: appartiene ai LABA e può iniziare ad agire rapidamente. La scheda del prodotto budesonide–formoterolo descrive un’insorgenza entro pochi minuti e una persistenza di almeno dodici ore dopo una dose. Lungo non significa dunque lento.\n\nPer spiegare queste differenze, i manuali considerano la distribuzione della molecola vicino al recettore, la sua interazione con la membrana e le caratteristiche del legame. La lipofilia può favorire la permanenza locale, ma non è un unico numero dal quale ricavare automaticamente sia l’inizio sia la fine dell’effetto. Raggiungere il bersaglio, restare disponibile nelle sue vicinanze e attivarlo sono eventi collegati, non sinonimi. Inoltre, la concentrazione nel plasma non descrive necessariamente quella presente nel compartimento bronchiale dopo inalazione.\n\nIl confronto con salmeterolo impedisce un’altra scorciatoia. Anche questo agonista dura a lungo, ma il suo documento di prodotto esclude il trattamento dei sintomi acuti. I due LABA non diventano quindi intercambiabili in ogni strategia. Nelle associazioni, il nome del broncodilatatore va letto insieme al corticosteroide, al dispositivo e alle indicazioni della preparazione: la rapidità della singola molecola non autorizza da sola qualsiasi uso della combinazione. I riferimenti qui consultati sono britannici; non costituiscono una verifica delle autorizzazioni italiane.",
+      "formula": "Inizio dell’effetto: quando compare la broncodilatazione. Durata: quanto persiste nell’esito osservato. Formoterolo: rapido e prolungato; salmeterolo: prolungato, non destinato al sollievo acuto. Due assi temporali distinti; schema originale, senza dosi o equivalenze fra prodotti."
+    },
+    {
       "id": "vago",
       "title": "Il circuito vagale e il blocco muscarinico",
       "refs": [
@@ -99,9 +123,20 @@ export const THEORY_ASTHMA = Object.freeze({
         "CFI",
         "APP",
         "RAN",
-        "GINA"
+        "GINA",
+        "KAT"
       ],
-      "text": "La tradizionale divisione fra broncodilatatori e farmaci che controllano l’infiammazione organizza lo studio, ma i confini non sono sempre netti. Le xantine compaiono in entrambi gli insiemi perché la loro farmacologia comprende più effetti. I cromoni richiamano invece la prevenzione del rilascio di mediatori. Una classificazione per meccanismo descrive ciò che una sostanza può modificare, non l’ordine in cui oggi vada prescritta.\n\nOccorre evitare anche una precisione solo apparente. Attribuire tutte le xantine a un’inibizione selettiva della sola PDE2 non è una descrizione adeguata della classe. Una via dell’AMP ciclico disegnata accanto a un farmaco non dimostra che quello sia il suo unico bersaglio, né che la concentrazione necessaria sia sempre compatibile con l’impiego clinico.\n\nGINA segnala efficacia limitata e problemi di sicurezza per la teofillina nelle opzioni considerate. Le classi presenti in una lezione restano quindi utili per comprendere la storia della farmacologia, mentre la loro posizione terapeutica richiede un confronto separato con evidenze e documenti attuali."
+      "text": "La tradizionale divisione fra broncodilatatori e farmaci che controllano l’infiammazione organizza lo studio, ma i confini non sono sempre netti. Le xantine compaiono in entrambi gli insiemi perché la loro farmacologia comprende più effetti. I cromoni richiamano invece la prevenzione del rilascio di mediatori. Una classificazione per meccanismo descrive ciò che una sostanza può modificare, non l’ordine in cui oggi vada prescritta.\n\nOccorre evitare anche una precisione solo apparente. Attribuire tutte le xantine a un’inibizione selettiva della sola PDE2 non è una descrizione adeguata della classe. Una via dell’AMP ciclico disegnata accanto a un farmaco non dimostra che quello sia il suo unico bersaglio, né che la concentrazione necessaria sia sempre compatibile con l’impiego clinico.\n\nGINA segnala efficacia limitata e problemi di sicurezza per la teofillina nelle opzioni considerate. Le classi presenti in una lezione restano quindi utili per comprendere la storia della farmacologia, mentre la loro posizione terapeutica richiede un confronto separato con evidenze e documenti attuali.\n\nLa teofillina mostra perché conti anche il punto in cui si interviene. Stimolare β₂ aumenta la sintesi di AMPc; inibire una fosfodiesterasi ne limita la degradazione. Le due operazioni possono convergere sullo stesso messaggero senza essere farmacologicamente identiche. Le xantine interagiscono anche con i recettori dell’adenosina, e i manuali discutono più meccanismi possibili. Un’inibizione osservata a una concentrazione sperimentale elevata non prova che sia il meccanismo dominante all’esposizione clinica. Anche per questo lo schema dell’AMPc è una mappa dei bersagli, non una giustificazione per sostituire un agonista inalatorio con una xantina."
+    },
+    {
+      "id": "obiettivi",
+      "title": "Dai bersagli agli obiettivi: sintomi, rischio e tollerabilità",
+      "refs": [
+        "CFI",
+        "FOR",
+        "SAL"
+      ],
+      "text": "Una classificazione per bersaglio risponde alla domanda su che cosa modifica il farmaco. Una classificazione per obiettivo chiede invece quale risultato si vuole ottenere: attenuare i sintomi presenti, prevenire riacutizzazioni o limitare gli effetti indesiderati. Queste domande attraversano le stesse classi, ma non producono elenchi sovrapponibili. Un broncodilatatore può avere effetti immediati e contribuire a un trattamento di mantenimento; un’associazione può riunire attività che hanno tempi diversi.\n\nPer questo le categorie tradizionali di farmaco di fondo e farmaco al bisogno richiedono un contesto. Il documento di budesonide–formoterolo contempla impieghi diversi della specifica associazione, mentre quello del salmeterolo ne descrive l’uso regolare e complementare ai corticosteroidi nell’asma. Non basta spostare una classe da una colonna all’altra: occorre verificare quale componente, quale preparazione e quale esito siano stati studiati.\n\nIl controllo successivo completa il ragionamento. Se il risultato atteso non compare, il problema può riguardare la diagnosi, l’esposizione effettiva al farmaco, la tecnica inalatoria, l’aderenza o altri fattori che mantengono i sintomi. Aumentare l’intensità del trattamento senza distinguere questi passaggi confonderebbe un segnale di risposta insufficiente con la dimostrazione di un bersaglio sbagliato. La rivalutazione confronta beneficio e tollerabilità nel tempo: il sollievo percepito è un dato utile, ma non riassume da solo il rischio futuro."
     },
     {
       "id": "clinica",
@@ -139,9 +174,10 @@ export const THEORY_ASTHMA = Object.freeze({
       "refs": [
         "CFI",
         "RAN",
-        "GOLD"
+        "GOLD",
+        "GINA"
       ],
-      "text": "La BPCO comprende alterazioni delle vie aeree e degli alveoli con ostruzione persistente, spesso progressiva. GOLD richiede di interpretare la spirometria nel contesto clinico. L’etichetta irreversibile non significa che nessuna componente del tono bronchiale possa rispondere a un farmaco, né permette di classificare una persona dal solo sollievo percepito.\n\nPer l’inizio del mantenimento, GOLD 2026 distingue gruppi basati su sintomi e riacutizzazioni: broncodilatatore nel gruppo A, LABA + LAMA nei gruppi B ed E. Il follow-up valuta separatamente dispnea e riacutizzazioni. Il ruolo degli ICS dipende anche da eosinofili, riacutizzazioni e asma concomitante; la polmonite rientra fra i rischi da considerare.\n\nIl confronto chiarisce il principio: la presenza dello stesso recettore non impone lo stesso percorso terapeutico. Rilassare la muscolatura può essere utile in contesti differenti, mentre infiammazione, danno strutturale ed esiti da prevenire cambiano. I collegamenti ai farmaci aiutano a seguire il bersaglio; per la scelta clinica resta necessario conoscere la malattia e il documento di riferimento applicabile."
+      "text": "La BPCO comprende alterazioni delle vie aeree e degli alveoli con ostruzione persistente, spesso progressiva. GOLD richiede di interpretare la spirometria nel contesto clinico. L’etichetta irreversibile non significa che nessuna componente del tono bronchiale possa rispondere a un farmaco, né permette di classificare una persona dal solo sollievo percepito.\n\nPer l’inizio del mantenimento, GOLD 2026 distingue gruppi basati su sintomi e riacutizzazioni: broncodilatatore nel gruppo A, LABA + LAMA nei gruppi B ed E. Il follow-up valuta separatamente dispnea e riacutizzazioni. Il ruolo degli ICS dipende anche da eosinofili, riacutizzazioni e asma concomitante; la polmonite rientra fra i rischi da considerare.\n\nIl confronto chiarisce il principio: la presenza dello stesso recettore non impone lo stesso percorso terapeutico. Rilassare la muscolatura può essere utile in contesti differenti, mentre infiammazione, danno strutturale ed esiti da prevenire cambiano. I collegamenti ai farmaci aiutano a seguire il bersaglio; per la scelta clinica resta necessario conoscere la malattia e il documento di riferimento applicabile.\n\nIl vecchio termine ACOS non identifica una terza malattia uniforme. GINA preferisce asma+BPCO come descrizione di caratteristiche coesistenti; in presenza di asma la terapia deve contenere ICS. Una scala storica di sovrapposizione non sostituisce l’inquadramento individuale."
     },
     {
       "id": "lettura",
@@ -155,7 +191,7 @@ export const THEORY_ASTHMA = Object.freeze({
       "text": "Per ripercorrere il capitolo si può partire da una domanda concreta: quale componente dell’ostruzione sta modificando il farmaco? Se il percorso è β₂–AMP ciclico, il punto di arrivo immediato è il tono muscolare. Se il bersaglio è muscarinico, si sta riducendo una risposta all’acetilcolina. Se si interviene su CysLT₁, si limita una via specifica dei mediatori lipidici. Con il recettore glucocorticoide si modifica invece un programma cellulare più ampio.\n\nLa domanda successiva riguarda il tempo e l’esito. Una variazione del calibro, il controllo dell’iperreattività e la prevenzione di nuovi episodi non sono misure intercambiabili. Anche la via di somministrazione e la formulazione appartengono al ragionamento: condizionano l’esposizione senza cambiare il nome del bersaglio.\n\nLa lettura locale di questo ampliamento comprende corso I PDF 621–625, Katzung 400–403, Rang & Dale 541–545 e 549, appunti I 293–295. Sono diciotto pagine, sedici nuove e due rilette; la pagina di programma 621 serve all’inventario. La precedente selezione respiratoria resta distinta. Libri e corsi non sono stati letti integralmente; il controllo editoriale circoscritto non equivale a una revisione clinica indipendente."
     }
   ],
-  "wordCount": 2297,
+  "wordCount": 3081,
   "checks": [
     {
       "question": "Perché broncodilatazione non equivale a controllo completo della malattia?",
@@ -212,33 +248,45 @@ export const THEORY_ASTHMA = Object.freeze({
     {
       "question": "Quali elementi vanno collegati prima di giudicare un farmaco respiratorio?",
       "answer": "Componente dell’ostruzione, bersaglio, esposizione, tempo dell’effetto e risultato clinico; la lettura dichiarata resta circoscritta."
+    },
+    {
+      "question": "Perché aumentare AMPc e ridurne la degradazione non sono lo stesso intervento?",
+      "answer": "L’agonista β₂ stimola la produzione attraverso Gs e adenilato ciclasi; l’inibizione delle fosfodiesterasi ne limita la degradazione. La convergenza sul messaggero non elimina differenze di bersagli, esposizione o ruolo clinico."
+    },
+    {
+      "question": "Un agonista a lunga durata deve necessariamente iniziare lentamente?",
+      "answer": "No. Inizio e durata sono proprietà distinte: il formoterolo è rapido e prolungato. Salmeterolo è prolungato ma non destinato al sollievo acuto; la sigla LABA non rende i prodotti intercambiabili."
+    },
+    {
+      "question": "Meno sintomi provano che la malattia e il rischio futuro siano controllati?",
+      "answer": "No. Sollievo, prevenzione delle riacutizzazioni e tollerabilità sono obiettivi collegati ma distinti. Vanno valutati insieme, considerando anche esposizione, tecnica inalatoria e aderenza."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 621–625, etichette 619–623. Testo disponibile e cinque rendering controllati; 621 è programma, 622 contiene elementi poco leggibili non trasferiti. 623 riprende una Perspective, non una sperimentazione clinica."
+      "detail": "PDF 621–625, etichette 619–623. Testo disponibile e cinque rendering controllati; 621 è programma, 622 contiene elementi poco leggibili non trasferiti. 623 riprende una Perspective, non una sperimentazione clinica. Ampliamento: PDF 626–630, etichette 624–628, testo e rendering; categorie storiche riconciliate. La figura 629 ripete Katzung 404, non è prova indipendente."
     },
     {
       "id": "KAT",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX italiana 2014 / XII americana 2012; capitolo 20, PDF 400–403, editoriali 380–383. Quattro pagine e figure 20-1/20-2 controllate; indicazioni storiche e valori delle curve non trasferiti."
+      "detail": "IX italiana 2014 / XII americana 2012; capitolo 20, PDF 400–403, editoriali 380–383. Quattro pagine e figure 20-1/20-2 controllate; indicazioni storiche e valori delle curve non trasferiti. Ampliamento: PDF 404–406, editoriali 384–386; testo e figure controllati. 404 e 406 integrati; strutture e dettagli storici di 405 non trasferiti."
     },
     {
       "id": "RAN",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII italiana 2016 / originale 2015, capitolo 28; PDF 541–545 e 549. Sei testi e rendering, due pagine rilette (545 e 549). Refuso agonisti/antagonisti nella figura 28.3 e confusione LTB4/cisteinilici riconciliati; scala terapeutica 2012 non trasferita."
+      "detail": "VIII italiana 2016 / originale 2015, capitolo 28; PDF 541–545 e 549. Sei testi e rendering, due pagine rilette (545 e 549). Refuso agonisti/antagonisti nella figura 28.3 e confusione LTB4/cisteinilici riconciliati; scala terapeutica 2012 non trasferita. Ampliamento: PDF 546–547 lette e controllate; tempi e xantine. Regole storiche di impiego e unità di concentrazione problematiche non trasferite."
     },
     {
       "id": "APP",
       "title": "Appunti e diapositive del corso di Farmacologia I · lezione 17",
-      "detail": "25 novembre 2025, PDF 293–295, etichette 288–290, pagine 1–3 della lezione. Distinti PKA e AMPc; non adottate la selettività PDE2 delle xantine né l’origine meccanica universale della malattia."
+      "detail": "25 novembre 2025, PDF 293–295, etichette 288–290, pagine 1–3 della lezione. Distinti PKA e AMPc; non adottate la selettività PDE2 delle xantine né l’origine meccanica universale della malattia. Ampliamento: PDF 296–297, etichette 291–292, pagine 4–5 della lezione. 296 integrata; 297 letta, non integrata, con lacune sulla tolleranza registrate."
     },
     {
       "id": "GINA",
       "title": "GINA · Strategy Report 2026",
-      "detail": "Consultazione mirata del 4 novembre 2026: PDF 26, 79, 85–86, 98–100 (stampate 25, 78, 84–85, 97–99), testo e rendering. Definizione, trattamento con ICS, opzioni aggiuntive. Non revisione integrale della linea guida o verifica delle autorizzazioni italiane.",
+      "detail": "Consultazione mirata del 4 novembre 2026: PDF 26, 79, 85–86, 98–100 (stampate 25, 78, 84–85, 97–99), testo e rendering. Definizione, trattamento con ICS, opzioni aggiuntive. Non revisione integrale della linea guida o verifica delle autorizzazioni italiane. Ampliamento: PDF 142–144, stampate 141–143, testo e rendering su asma+BPCO; non nuova entità uniforme.",
       "url": "https://ginasthma.org/2026-gina-strategy-report/"
     },
     {
@@ -264,6 +312,24 @@ export const THEORY_ASTHMA = Object.freeze({
       "title": "Bagley et al. · Bronchoconstriction damages airway epithelia…",
       "detail": "Science 2024;384:66–73, DOI 10.1126/science.adk2758. Abstract, introduzione e passaggi sui campioni umani e discussione letti; figure, metodi completi e supplementi non revisionati. Distinto dalla Perspective DOI 10.1126/science.ado4514.",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7619646/"
+    },
+    {
+      "id": "FOR",
+      "title": "AstraZeneca · Symbicort Turbohaler 200/6, SmPC su emc",
+      "detail": "Consultati il 4 novembre 2026 §§4.1, passaggi di 4.2 su mantenimento/sollievo e 5.1 meccanismi: formoterolo rapido e prolungato, attività complementari. Documento britannico, non intero RCP o verifica italiana.",
+      "url": "https://www.medicines.org.uk/emc/product/1327/smpc"
+    },
+    {
+      "id": "SAL",
+      "title": "GSK · Serevent Accuhaler, SmPC su emc",
+      "detail": "Pagina aggiornata 8 settembre 2023, consultata il 4 novembre 2026: §§4.1, 4.2, 4.4 e passaggi farmacodinamici di 5.1. Impiego regolare, esclusione del sollievo acuto e distinzione dall’effetto dei corticosteroidi. Documento britannico, non intero RCP.",
+      "url": "https://www.medicines.org.uk/emc/product/848/smpc"
+    },
+    {
+      "id": "KUME",
+      "title": "Kume et al. · Regolazione dei canali KCa nel muscolo delle vie aeree",
+      "detail": "J Clin Invest. 1994;93:371–379, DOI 10.1172/JCI116969. Letto l’abstract il 4 novembre 2026: percorsi PKA e Gs. Non letti integralmente articolo, metodi o figure; nessuna quantificazione del contributo clinico.",
+      "url": "https://www.jci.org/articles/view/116969"
     }
   ],
   "moleculeLinks": [
@@ -331,5 +397,5 @@ export const THEORY_ASTHMA = Object.freeze({
     "gina-2026",
     "gold-2026"
   ],
-  "coverage": "Diciotto pagine locali controllate nel testo disponibile e nei rendering: sedici nuove e due rilette. Diciassette pagine sostengono la sintesi; una è programma. Precedenti letture respiratorie separate. Fonti ufficiali e articolo consultati selettivamente; nessun intero libro, corso o documento dichiarato letto. Controllo editoriale del solo integratore, non revisione clinica indipendente."
+  "coverage": "Primo lotto: 18 pagine locali lette, 17 integrate. Ampliamento: 12 pagine nuove controllate nel testo disponibile e nei rendering, 10 con passaggi integrati. Nel capitolo 30 pagine distinte controllate, 27 integrate; precedenti letture respiratorie separate. Fonti ufficiali e ricerca consultate selettivamente. Nessun intero libro o corso dichiarato letto, nessuna revisione clinica indipendente."
 });
