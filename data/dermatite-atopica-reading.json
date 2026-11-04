@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 1,
+  "batch": "theory-course-606-610",
+  "chapterId": "dermatite-atopica",
+  "updatedAt": "2026-11-04T11:31:47.302234+00:00",
+  "status": "locally_verified_pending_ci_and_publication",
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "sources": [
+    {
+      "id": "CFI",
+      "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
+      "edition": "AA 2025–26",
+      "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
+      "pdfPagesRead": [
+        605,
+        606,
+        607,
+        608,
+        609,
+        610
+      ],
+      "visuallyCheckedPdfPages": [
+        605,
+        606,
+        607,
+        608,
+        609,
+        610
+      ],
+      "newlyReadTextPages": [
+        606,
+        607,
+        608,
+        609,
+        610
+      ],
+      "reusedPreviouslyReadPages": [
+        605
+      ],
+      "integratedPdfPages": [
+        605,
+        606,
+        607,
+        608,
+        609,
+        610
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "limits": [
+        "PDF 605–610, etichette 603–608: 605 riletto, 606–610 nuovi. Testo disponibile e sei rendering letti. Ritaglio JAMA 20/08/2025, tabella del 2020, altra tabella senza data. Parti coperte o tagliate non ricostruite; articoli e studi sottostanti non letti integralmente. 608–609 usati solo per distinguere psoriasi e bersagli; 610 per il limite degli anti-H1."
+      ]
+    },
+    {
+      "id": "KAT",
+      "title": "Katzung · Farmacologia generale e clinica",
+      "edition": "IX italiana 2014 / XII americana 2012",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "pdfPagesRead": [
+        1235,
+        1241,
+        1242,
+        1243
+      ],
+      "visuallyCheckedPdfPages": [
+        1235,
+        1241,
+        1242,
+        1243
+      ],
+      "newlyReadTextPages": [
+        1235,
+        1241,
+        1242,
+        1243
+      ],
+      "reusedPreviouslyReadPages": [],
+      "integratedPdfPages": [
+        1235,
+        1241,
+        1242,
+        1243
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "limits": [
+        "PDF 1235 e 1241–1243, pagine editoriali 1215 e 1221–1223: testo e rendering letti, tabelle 61-2 e 61-3 controllate. Indicazioni, dosi e classificazioni storiche non trasferite."
+      ]
+    },
+    {
+      "id": "RAN",
+      "title": "Rang & Dale · Farmacologia",
+      "edition": "VIII italiana 2016 / originale 2015",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "pdfPagesRead": [
+        515,
+        516,
+        531,
+        532,
+        533,
+        534
+      ],
+      "visuallyCheckedPdfPages": [
+        515,
+        516,
+        531,
+        532,
+        533,
+        534
+      ],
+      "newlyReadTextPages": [
+        515,
+        516,
+        531,
+        532,
+        533,
+        534
+      ],
+      "reusedPreviouslyReadPages": [],
+      "integratedPdfPages": [
+        515,
+        516,
+        531,
+        532,
+        533,
+        534
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "limits": [
+        "PDF 515–516 e 531–534, capitoli 26–27; paginazione editoriale non ricostruita. Testo e rendering letti. Separati principi di formulazione da indicazioni storiche; escluse generalizzazioni su eczema, anti-H1 e vie di somministrazione."
+      ]
+    },
+    {
+      "id": "APP",
+      "title": "Appunti e diapositive del corso di Farmacologia I · 20/11/2025",
+      "edition": "AA 2025–26; lezione 16, 20/11/2025",
+      "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+      "pdfPagesRead": [
+        288,
+        289
+      ],
+      "visuallyCheckedPdfPages": [
+        288,
+        289
+      ],
+      "newlyReadTextPages": [
+        289
+      ],
+      "reusedPreviouslyReadPages": [
+        288
+      ],
+      "integratedPdfPages": [
+        288,
+        289
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "limits": [
+        "PDF 288–289, etichette 283–284, pagine 6–7 della lezione 16 del 20/11/2025. 288 riletto; 289 nuovo. Testo e rendering controllati; figure ripetute non sono evidenze indipendenti."
+      ]
+    },
+    {
+      "id": "FII-S",
+      "title": "Appunti e diapositive del corso di Farmacologia II · 2025–26",
+      "edition": "AA 2025–26",
+      "sha256": "5975d587250204bdf0d877c9d9677ee3210113ec11299160e88361f0bdf40ab9",
+      "pdfPagesRead": [
+        29,
+        30,
+        31
+      ],
+      "visuallyCheckedPdfPages": [
+        29,
+        30,
+        31
+      ],
+      "newlyReadTextPages": [
+        31
+      ],
+      "reusedPreviouslyReadPages": [
+        29,
+        30
+      ],
+      "integratedPdfPages": [
+        30,
+        31
+      ],
+      "readButNotIntegratedPdfPages": [
+        29
+      ],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "limits": [
+        "PDF 29–31: 29–30 riletti, 31 nuovo. Testo e rendering controllati; figura di 31 tagliata sul lato sinistro. Nessuna validazione atomica delle formule chimiche. 29 non usato per nuovi passaggi."
+      ]
+    },
+    {
+      "id": "FII-A",
+      "title": "Appunti e diapositive del corso di Farmacologia II · 27/10/2025",
+      "edition": "AA 2025–26; lezione 1, 27/10/2025",
+      "sha256": "f868f51aaf7bf901b4bb2b29bf8cb36b53d366b5d22524d9c193e4fd2ea69d3d",
+      "pdfPagesRead": [
+        11,
+        12,
+        13
+      ],
+      "visuallyCheckedPdfPages": [
+        11,
+        12,
+        13
+      ],
+      "newlyReadTextPages": [],
+      "reusedPreviouslyReadPages": [
+        11,
+        12,
+        13
+      ],
+      "integratedPdfPages": [
+        11,
+        12,
+        13
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "limits": [
+        "PDF 11–13 della lezione 1, 27/10/2025: tre pagine rilette senza nuovo conteggio, testo e rendering controllati. Distinti immunofillina, calcineurina e mTOR; corretta la frase che descrive rapamicina come attivatore. Formule chimiche viste, non validate atomo per atomo."
+      ]
+    }
+  ],
+  "newReadPdfPages": 17,
+  "reusedReadPdfPages": 7,
+  "totalReadPdfPages": 24,
+  "currentBatchVisualPages": 24,
+  "newIntegratedPdfPages": 17,
+  "previouslyReadNewlyIntegratedPdfPages": 6,
+  "chapterSourcePdfPages": 23,
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "expandedExistingChapters": 0,
+  "newChapters": 1,
+  "officialSources": [
+    {
+      "id": "EG-ALG",
+      "title": "EuroGuiDerm · Algoritmi, gennaio 2026",
+      "url": "https://www.guidelines.edf.one/uploads/attachments/z6s59tzzgmc0c148nf1z39x3-4-algorithms-jan-2026.pdf",
+      "detail": "Due pagine lette e controllate visivamente nel lotto 601–605 il 04/11/2026; qui riutilizzate. Non intera linea guida. Ordine alfabetico delle opzioni sistemiche, non graduatoria universale."
+    },
+    {
+      "id": "EG-SYS",
+      "title": "EuroGuiDerm · Introduzione alla terapia sistemica, gennaio 2026",
+      "url": "https://www.guidelines.edf.one/uploads/attachments/uf4u5uvszl1b2uuxix28xud2-11-introduction-systemic-treatment-jan-2026.pdf",
+      "detail": "Lettura mirata del 04/11/2026: criteri di terapia sistemica e tabelle iniziali, PDF 1–4, non tutte le sette pagine. Nessun regime individuale trasferito."
+    },
+    {
+      "id": "EG-TOP",
+      "title": "EuroGuiDerm · Antinfiammatori topici, giugno 2022",
+      "url": "https://www.guidelines.edf.one/uploads/attachments/cl485ybhe009usjjnyfz3u0zk-7-antiinflammatory-treatment-jun-2022.pdf",
+      "detail": "Versione del capitolo ancora indicata dal portale corrente. Passaggi su corticosteroidi, inibitori della calcineurina, tollerabilità e strategia proattiva letti il 04/11/2026; non tutte le dodici pagine."
+    },
+    {
+      "id": "EG-ITCH",
+      "title": "EuroGuiDerm · Trattamento del prurito, giugno 2022",
+      "url": "https://www.guidelines.edf.one/uploads/attachments/cl485zajj00axsjjnxtr3l4d6-9-antipruritic-treatment-jun-2022.pdf",
+      "detail": "Passaggi sugli antistaminici, PDF 2–4, letti il 04/11/2026; raccomandazioni specifiche per eczema atopico. Non intero capitolo o revisione degli studi."
+    },
+    {
+      "id": "DUP",
+      "title": "EMA · Dupixent, informazioni di prodotto",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/dupixent-epar-product-information_en.pdf",
+      "detail": "Estratto ufficiale indicizzato di 5.1 su IL-4Rα e recettori I/II e EPAR corrente sulle indicazioni consultati il 04/11/2026. Non intero RCP; struttura recettoriale confrontata con gli appunti I."
+    },
+    {
+      "id": "TRALO",
+      "title": "Tralokinumab · RCP del titolare, Adtralza",
+      "url": "https://www.medicines.org.uk/emc/product/15142/smpc",
+      "detail": "Passaggi 4.4, 4.8 e 5.1 letti il 04/11/2026: IL-13, congiuntivite e reazioni locali. Meccanismo e indicazione confrontati con EMA Adtralza; accesso diretto al PDF EMA limitato da 429. Non intero RCP."
+    },
+    {
+      "id": "EBG",
+      "title": "EMA · Ebglyss",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ebglyss",
+      "detail": "EPAR: indicazione, età/peso, meccanismo, esiti EASI/IGA e principali rischi letti il 04/11/2026. Consultato anche estratto indicizzato di 4.4 dell’RCP. Non fascicolo completo."
+    },
+    {
+      "id": "NEM",
+      "title": "EMA · Nemluvio, informazioni di prodotto",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/nemluvio-epar-product-information_en.pdf",
+      "detail": "RCP, PDF 2 e 8, sezioni 4.1 e 5.1 lette nel lotto 601–605 il 04/11/2026 e riutilizzate: IL-31RA e indicazione europea. Corregge l’abbreviazione anti-IL-31 del materiale didattico. Non tutte le 47 pagine."
+    },
+    {
+      "id": "EG-NEM",
+      "title": "EuroGuiDerm · Nemolizumab, gennaio 2026",
+      "url": "https://www.guidelines.edf.one/uploads/attachments/ca02rrk3trbq8xjx5nrtzauc-19-nemolizumab-jan-2026.pdf",
+      "detail": "Tre pagine lette nel testo nel lotto 601–605 il 04/11/2026; qui riutilizzate. Nessun controllo grafico aggiuntivo o lettura integrale degli studi sottostanti."
+    },
+    {
+      "id": "JAK",
+      "title": "EMA · Riesame degli inibitori JAK",
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/janus-kinase-inhibitors-jaki",
+      "detail": "Misure e passaggi per professionisti consultati il 04/11/2026: rischi e restrizioni nelle malattie infiammatorie. Non studi completi né equivalenza del rischio assoluto fra popolazioni."
+    },
+    {
+      "id": "EG-UPA",
+      "title": "EuroGuiDerm · Upadacitinib, collegamento aggiornato aprile 2026",
+      "url": "https://www.guidelines.edf.one/uploads/attachments/shwjqzuqbwvcbgjkg9htq02g-24-upadacitinib-apr-2026.pdf",
+      "detail": "Testo clinico PDF 1–3 letto il 04/11/2026; bibliografia non interamente letta. Il portale/data del file indicano aprile 2026, il piè di pagina gennaio 2026. Distinti confronti diretti e indiretti; nessun regime trasferito."
+    },
+    {
+      "id": "EG-CYA",
+      "title": "EuroGuiDerm · Ciclosporina, gennaio 2026",
+      "url": "https://www.guidelines.edf.one/uploads/attachments/rcvx71zulunx9ovtaj8kyms3-13-ciclosporin-jan-2026.pdf",
+      "detail": "Testo clinico PDF 1–3 letto il 04/11/2026, bibliografia parziale a pagina 4. Controlli renali/pressori, interazioni, contesto europeo. Non studi completi."
+    },
+    {
+      "id": "EG-GC",
+      "title": "EuroGuiDerm · Glucocorticoidi sistemici, gennaio 2026",
+      "url": "https://www.guidelines.edf.one/uploads/attachments/ec1a07emw2ume5npwgw0dj3d-14-systemic-glucocorticosteroids-jan-2026.pdf",
+      "detail": "Tre pagine lette nel testo il 04/11/2026; nessun controllo grafico completo. Distinti possibile soccorso acuto e raccomandazione contro uso prolungato; nessuna dose trasferita."
+    },
+    {
+      "id": "PROT",
+      "title": "EMA · Protopic",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/protopic",
+      "detail": "EPAR e passi indicizzati del foglio illustrativo letti il 04/11/2026 su formulazioni, fasce d’età, riacutizzazioni e mantenimento. PDF completo non ottenuto via web (429); non presentato come RCP interamente letto."
+    },
+    {
+      "id": "AHR",
+      "title": "FDA · Tapinarof, etichetta 2024",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/215272s002lbl.pdf",
+      "detail": "Frontespizio e definizione del bersaglio consultati il 04/11/2026: agonista AhR. Fonte statunitense usata per correggere il meccanismo, senza dedurre autorizzazione o disponibilità italiana."
+    }
+  ],
+  "limits": [
+    "Deduplicazione per hash e pagina in 70 registri disponibili, non intera biblioteca. Diciassette pagine nuove e sette rilette; conteggi circoscritti al lotto.",
+    "Ritagli del corso con parti coperte; figura II 31 tagliata. Figure controllate nel contenuto disponibile; formule chimiche non validate atomo per atomo. Articoli e studi citati nelle figure non letti integralmente.",
+    "Testi storici riconciliati con documenti correnti, consultati selettivamente. Nessuna lettura dichiarata di interi libri, corsi o linee guida. Altri libri autorizzati restano incompleti.",
+    "Un nuovo capitolo dedicato, non ampliamento integrale dell’unità su tutti gli organi speciali. I 45 capitoli sintetici restano da approfondire.",
+    "Sintesi originale controllata dal solo integratore; non revisione clinica indipendente. Nessun PDF, figura o trascrizione originale pubblicato. Farmaci mancanti, profili e laboratori interattivi restano nel backlog."
+  ],
+  "nextInterval": "Completare prima revisione, verifiche e pubblicazione del lotto 606–610. Solo dopo deduplicare il prossimo intervallo 611–615; niente nuovo lotto prima della chiusura."
+}
