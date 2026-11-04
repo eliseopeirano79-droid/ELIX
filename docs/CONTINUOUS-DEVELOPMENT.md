@@ -8,21 +8,21 @@ Per richiesta dell’utente usare «appunti e diapositive del corso di Farmacolo
 
 ## Lotto corrente
 
-theory-course-616-620, candidato 0.64.0: ampliamento del capitolo istamina e anti-H1 con tre sezioni su tempi farmacocinetici, variabilità pediatrica della cetirizina e rischi da uso improprio. Aggiunte 594 parole, tre domande, uno schema originale, tre riferimenti ufficiali, un collegamento alla ciproeptadina già presente e uno alla teoria PK. Complessivamente 18 sezioni, 3301 parole, 18 domande, quattro schemi, sedici riferimenti, diciassette farmaci e sei capitoli collegati.
+theory-course-621-625, candidato 0.65.0: ampliamento della sintesi sull’asma in un capitolo di 14 sezioni, 2297 parole, 14 domande, tre schemi originali e nove riferimenti. Dieci collegamenti a identità già presenti e cinque alla teoria. Distinti tono muscolare, infiammazione e danno epiteliale; recettori β2, M3 e CysLT1 collegati ai farmaci e al contesto di malattia.
 
-Un capitolo esistente ampliato; nessun nuovo capitolo, identità, sintesi farmacologica, profilo PK o laboratorio. Totali invariati: 61 capitoli, sedici estesi e 45 sintetici ancora da approfondire. Le quindici sezioni e risposte precedenti sono conservate parola per parola.
+Un capitolo esistente ampliato; nessun nuovo capitolo, identità, sintesi farmacologica, profilo PK o laboratorio. Totale 61 capitoli: diciassette estesi e 44 sintetici. Le otto sezioni introduttive sono riorganizzate e ampliate in quattordici; gli altri 60 capitoli restano invariati.
 
-La 0.63.0 è pubblicata e verificata al commit 563028f6792f593e7cf99a94b06de15cee366d8b. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparato prima della pubblicazione.
+La 0.64.0 è pubblicata e verificata al commit 80eb4e5d0a90ba97b96591c3fdf54c5a5fa0b453. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparato prima della pubblicazione.
 
-Cinque nuove pagine: corso I PDF 616–620. Rilette quattro pagine già registrate: Katzung 328 (editoriale 308), Rang & Dale 522 e appunti I 289–290 (etichette 284–285). Quattro file, nove letture del testo disponibile e nove rendering controllati; 616 contiene il testo nella tabella in immagine. Deduplicazione per hash e pagina in 76 registri nominati. Tabella, grafico scolastico e notizia duplicati fra corso e appunti non sono evidenze indipendenti. Tre pagine nuove e tre rilette sostengono le aggiunte; le altre tre sono confronti o contenuto già coperto. Totale distinto del capitolo: 22 pagine controllate, 20 con passaggi integrati. La copertura della prima pubblicazione resta separata nel registro.
+Letture locali: corso I PDF 621–625 (etichette 619–623), Katzung IX italiana 2014/XII americana 2012 PDF 400–403 (editoriali 380–383), Rang & Dale VIII italiana 2016/originale 2015 PDF 541–545 e 549, appunti I lezione 17 del 25 novembre 2025 PDF 293–295 (etichette 288–290). Diciotto testi disponibili e rendering controllati: sedici pagine nuove e due rilette. La pagina di programma 621 è inventario; diciassette pagine sostengono la sintesi. Deduplicazione in 78 registri nominati con hash/pagine e un registro respiratorio storico bibliografico senza hash. Il registro precedente è conservato separatamente; non tutta la biblioteca dichiarata inventariata.
 
-Distinti Tmax, inizio, emivita, permanenza recettoriale e durata, senza ricavare posologie dall’emivita. RCP AEMPS della cetirizina (§4.2 pediatrico, §5.2) confrontato con l’attribuzione storica al metabolismo epatico: eliminazione prevalentemente renale immodificata, nessuna regola universale per tutti i minori di dodici anni. Per ciproeptadina letti passaggi del RCP francese e comunicazione ANSM 2024; per difenidramina comunicazione FDA 2020. Ambiti nazionali espliciti; rischi neurologici e cardiaci distinti dalla semplice sedazione.
+Riconciliati il refuso agonisti/antagonisti β2, la confusione LTB4/leucotrieni cisteinilici, PKA/AMPc e l’attribuzione selettiva delle xantine a PDE2. GINA/GOLD 2026 sostituiscono le scale cliniche storiche nei passaggi dichiarati. La Perspective della lezione è distinta dal lavoro sperimentale di Bagley: prove prevalentemente murine e campioni umani osservazionali non costituiscono un trattamento clinico con gadolinio. Nessuna figura o trascrizione originale pubblicata.
 
-Nessuna tabella numerica senza fonte primaria, istruzione di abuso, aneddoto personale o figura originale trasferiti. Nessuna nuova lettura dei materiali II o degli altri libri/docenti. Riconciliazione complessiva ancora aperta, nessun intero libro/corso/RCP dichiarato letto. Controllo editoriale del solo integratore, non revisione clinica indipendente.
+Consultazione selettiva di sette pagine GINA e cinque GOLD (testo disponibile e rendering), SmPC montelukast e tiotropio e passaggi dell’articolo sperimentale. Nessuna nuova lettura dei materiali II o del manuale molecolare; riconciliazione complessiva aperta. Nessun libro, corso, linea guida o RCP dichiarato letto per intero. Controllo editoriale del solo integratore, non revisione clinica indipendente.
 
-Controlli locali conclusi: 44 validatori, otto configurazioni desktop/tablet/mobile in due temi, fonti, tastiera, ricerche, collegamenti e offline. Aggiornamento reale 0.63.0→0.64.0 con dati e tema conservati. Altri 60 capitoli e componenti invariati, quattro originali con hash invariati. Sei schermate ispezionate. Chromium con dimensioni simulate, non dispositivi fisici.
+Controlli locali: 45 validatori, otto configurazioni desktop/tablet/mobile in due temi, fonti, tastiera, ricerche, collegamenti e offline. Aggiornamento reale 0.64.0→0.65.0 con preferiti, progressi e tema conservati; sei schermate ispezionate. Altri capitoli, catalogo, lettore, stili e laboratori invariati; quattro originali verificati mediante hash. Chromium con dimensioni simulate, non dispositivi fisici.
 
-Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/ELIX-course-616-620-2026-11-04/. ../../outputs/ELIX-latest-verification.json va aggiornata soltanto dopo il deploy verificato.
+Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/ELIX-course-621-625-2026-11-04/. ../../outputs/ELIX-latest-verification.json va aggiornata soltanto dopo il deploy verificato.
 
 ## Regole
 
@@ -34,4 +34,4 @@ Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/
 
 ## Prossimo intervallo
 
-Completare prima CI, deploy e riscontro online del lotto 616–620. Poi deduplicare un solo intervallo PDF 621–625, mantenendo teoria prioritaria e farmaci/profili/laboratori nel backlog.
+Completare prima CI, deploy e riscontro online del lotto 621–625. Poi deduplicare un solo intervallo PDF 626–630, proseguendo la teoria respiratoria; farmaci, profili e laboratori restano nel backlog.
