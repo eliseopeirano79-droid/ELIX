@@ -73,6 +73,31 @@ export const THEORY_ASTHMA = Object.freeze({
       "text": "Per comprendere il rilassamento bisogna guardare anche al sistema che genera forza. Nel muscolo liscio, il calcio citosolico si lega alla calmodulina; il complesso attiva la chinasi delle catene leggere della miosina, MLCK. La fosforilazione della miosina favorisce l’interazione contrattile con l’actina. Una fosfatasi compie l’operazione opposta. Il tono dipende quindi sia dal segnale del calcio sia dalla regolazione dell’apparato contrattile: ridurre la disponibilità del segnale e ridurne l’effetto sulla contrazione sono operazioni distinte.\n\nLa via β₂–AMPc può intervenire a più livelli di questa rete. Gli schemi didattici richiamano la regolazione dei segnali che mobilizzano calcio, dell’attività contrattile e dei canali del potassio. L’apertura di canali KCa può favorire l’iperpolarizzazione. L’abstract sperimentale di Kume e collaboratori documenta una regolazione dei canali attraverso PKA e azioni di Gs non dipendenti dalla formazione di AMPc. Non ne deriva che ogni broncodilatazione richieda tutti questi passaggi, né che il contributo di ciascuno sia uguale in ogni preparazione o paziente.\n\nAnche l’effetto su un’altra cellula va tenuto distinto. Un agonista β₂ può ridurre il rilascio di mediatori mastocitari in determinate condizioni sperimentali; il documento del salmeterolo separa questa attività dall’effetto antinfiammatorio dei corticosteroidi. Il disegno di una freccia verso il mastocita non dimostra quindi che il broncodilatatore possa sostituire la terapia che controlla l’infiammazione. Il percorso recettoriale spiega una possibilità biologica; la sua rilevanza va misurata sul tessuto e sull’esito considerato."
     },
     {
+      "id": "distretti",
+      "title": "Muscolo, nervi ed epitelio: separare gli effetti",
+      "refs": [
+        "CFI",
+        "KAT",
+        "APP",
+        "RHO",
+        "HAAS"
+      ],
+      "text": "Il recettore β₂ compare in più componenti delle vie aeree, ma il suo significato funzionale cambia con la cellula. Nel muscolo liscio, l’agonista modifica direttamente il sistema che genera la contrazione. Se invece modifica il rilascio di un neurotrasmettitore o di un mediatore, cambia uno degli stimoli che raggiungono il muscolo. Questi effetti indiretti possono affiancare il rilassamento, senza coincidere con esso. La presenza dello stesso recettore non impone una risposta identica in tutti i distretti.\n\nLa trasmissione colinergica offre un esempio di come leggere una prova. Nell’esperimento su bronchi umani isolati descritto da Rhoden e collaboratori, alcuni agonisti inibivano la contrazione evocata dalla stimolazione elettrica dei nervi a concentrazioni inferiori a quelle richieste contro acetilcolina aggiunta dall’esterno. Questo confronto suggeriva un’azione a monte del muscolo, compatibile con una modulazione presinaptica. L’esito misurato era però la forza di contrazione: non una quantificazione diretta dell’acetilcolina liberata.\n\nUn altro abstract, di de Haas e collaboratori, descrive una preparazione diversa: trachea di cavia privata dell’epitelio, con misura diretta del neurotrasmettitore. In quelle condizioni il fenoterolo aumentava il rilascio di acetilcolina. I due risultati non consentono di attribuire a ogni agonista β₂ un’inibizione nervosa universale. Specie, integrità del tessuto, molecola, concentrazione e misura scelta delimitano l’interpretazione. Il dato animale non stabilisce da solo che il farmaco peggiori l’asma nell’uomo, così come la preparazione umana isolata non quantifica il contributo di questa via nel paziente.\n\nL’epitelio introduce un terzo esito: l’aumento dell’attività ciliare può favorire il trasporto del muco. Muovere secrezioni e allargare il lume sono processi distinti; nessuno dei due dimostra, da solo, la risoluzione dell’infiammazione. Per studiare un broncodilatatore conviene quindi precisare ogni volta cellula bersaglio, risposta osservata e scala della misura: recettore, tessuto o beneficio clinico."
+    },
+    {
+      "id": "selettivita",
+      "title": "Selettività recettoriale ed esposizione: perché inalato non significa solo locale",
+      "refs": [
+        "CFI",
+        "KAT",
+        "RAN",
+        "APP",
+        "VEN"
+      ],
+      "text": "Definire un agonista selettivo per β₂ significa descrivere una preferenza relativa per un sottotipo recettoriale nelle condizioni del confronto. Non significa che riconosca un recettore esclusivo del bronco, né che non possa produrre effetti altrove. I rapporti di selettività riportati nelle tabelle sperimentali dipendono da ciò che viene misurato: legame o risposta funzionale, sistema biologico e concentrazioni. Prima di confrontare due numeri occorre verificare che esprimano la stessa proprietà. Una graduatoria di questi rapporti non è, da sola, una graduatoria di sicurezza nei pazienti.\n\nLa concentrazione raggiunta aggiunge una seconda dimensione. La preferenza per un bersaglio si confronta con l’esposizione effettiva dei diversi tessuti: aumentando l’esposizione possono emergere risposte meno evidenti a concentrazioni inferiori. Inoltre, un effetto indesiderato può derivare dallo stesso sottotipo recettoriale utile nel bronco, espresso in un altro distretto. Non ogni effetto sistemico dimostra quindi la perdita completa della selettività o l’attivazione esclusiva di β₁. Il collegamento con i capitoli su recettori e legame aiuta a distinguere affinità, attivazione ed effetto d’organo.\n\nLa via inalatoria favorisce l’esposizione delle vie aeree ma non sigilla il farmaco nel polmone. La scheda del salbutamolo distingue una quota depositata nelle vie respiratorie, assorbibile nei tessuti e nel circolo, e una quota deglutita, assorbita dall’intestino e soggetta a primo passaggio. Dispositivo, aerosol e modalità d’uso influenzano la deposizione; una percentuale descritta per una preparazione non si trasferisce automaticamente a ogni inalatore.\n\nQuesta distinzione spiega perché occorra considerare insieme beneficio bronchiale e tollerabilità. Tremore, palpitazioni, tachicardia e ipokaliemia sono possibili effetti riportati nel documento del salbutamolo; non compaiono inevitabilmente in ogni utilizzatore. La sola etichetta β₂-selettivo non li esclude. Il ragionamento farmacologico comprende dunque tre domande collegate: quale recettore viene attivato, dove arriva la molecola e quale risposta produce quel tessuto. Dose erogata, quantità depositata e quantità che raggiunge il circolo restano grandezze diverse.",
+      "formula": "Preferenza per un recettore + esposizione dei tessuti → risposte locali e sistemiche. Selettività β₂ ≠ esclusività bronchiale; inalazione ≠ assenza di assorbimento. Schema concettuale originale, senza rapporti numerici o equivalenze di dose."
+    },
+    {
       "id": "tempi",
       "title": "Rapido e prolungato: due proprietà indipendenti",
       "refs": [
@@ -80,9 +105,11 @@ export const THEORY_ASTHMA = Object.freeze({
         "RAN",
         "APP",
         "FOR",
-        "SAL"
+        "SAL",
+        "CFI",
+        "VEN"
       ],
-      "text": "Le sigle SABA e LABA distinguono agonisti β₂ secondo la durata d’azione: breve nel primo caso, lunga nel secondo. Non ordinano necessariamente la velocità con cui compare la broncodilatazione. Il formoterolo è un esempio decisivo: appartiene ai LABA e può iniziare ad agire rapidamente. La scheda del prodotto budesonide–formoterolo descrive un’insorgenza entro pochi minuti e una persistenza di almeno dodici ore dopo una dose. Lungo non significa dunque lento.\n\nPer spiegare queste differenze, i manuali considerano la distribuzione della molecola vicino al recettore, la sua interazione con la membrana e le caratteristiche del legame. La lipofilia può favorire la permanenza locale, ma non è un unico numero dal quale ricavare automaticamente sia l’inizio sia la fine dell’effetto. Raggiungere il bersaglio, restare disponibile nelle sue vicinanze e attivarlo sono eventi collegati, non sinonimi. Inoltre, la concentrazione nel plasma non descrive necessariamente quella presente nel compartimento bronchiale dopo inalazione.\n\nIl confronto con salmeterolo impedisce un’altra scorciatoia. Anche questo agonista dura a lungo, ma il suo documento di prodotto esclude il trattamento dei sintomi acuti. I due LABA non diventano quindi intercambiabili in ogni strategia. Nelle associazioni, il nome del broncodilatatore va letto insieme al corticosteroide, al dispositivo e alle indicazioni della preparazione: la rapidità della singola molecola non autorizza da sola qualsiasi uso della combinazione. I riferimenti qui consultati sono britannici; non costituiscono una verifica delle autorizzazioni italiane.",
+      "text": "Le sigle SABA e LABA distinguono agonisti β₂ secondo la durata d’azione: breve nel primo caso, lunga nel secondo. Non ordinano necessariamente la velocità con cui compare la broncodilatazione. Il formoterolo è un esempio decisivo: appartiene ai LABA e può iniziare ad agire rapidamente. La scheda del prodotto budesonide–formoterolo descrive un’insorgenza entro pochi minuti e una persistenza di almeno dodici ore dopo una dose. Lungo non significa dunque lento.\n\nPer spiegare queste differenze, i manuali considerano la distribuzione della molecola vicino al recettore, la sua interazione con la membrana e le caratteristiche del legame. La lipofilia può favorire la permanenza locale, ma non è un unico numero dal quale ricavare automaticamente sia l’inizio sia la fine dell’effetto. Raggiungere il bersaglio, restare disponibile nelle sue vicinanze e attivarlo sono eventi collegati, non sinonimi. Inoltre, la concentrazione nel plasma non descrive necessariamente quella presente nel compartimento bronchiale dopo inalazione.\n\nIl confronto con salmeterolo impedisce un’altra scorciatoia. Anche questo agonista dura a lungo, ma il suo documento di prodotto esclude il trattamento dei sintomi acuti. I due LABA non diventano quindi intercambiabili in ogni strategia. Nelle associazioni, il nome del broncodilatatore va letto insieme al corticosteroide, al dispositivo e alle indicazioni della preparazione: la rapidità della singola molecola non autorizza da sola qualsiasi uso della combinazione. I riferimenti qui consultati sono britannici; non costituiscono una verifica delle autorizzazioni italiane.\n\nAnche la struttura chimica chiarisce soltanto una parte del tempo d’azione. Salbutamolo e terbutalina non possiedono il gruppo catecolico dell’adrenalina e non ne condividono la stessa degradazione da parte della catecolo-O-metiltransferasi. Questo non li rende resistenti a ogni eliminazione: per il salbutamolo, il documento di prodotto descrive coniugazione a solfato ed escrezione renale. Stabilità metabolica, permanenza vicino al bersaglio e durata della risposta bronchiale sono quindi aspetti distinti. Cambiare la via di somministrazione modifica il percorso verso il bersaglio; non rende automaticamente una formulazione orale equivalente a quella inalatoria.",
       "formula": "Inizio dell’effetto: quando compare la broncodilatazione. Durata: quanto persiste nell’esito osservato. Formoterolo: rapido e prolungato; salmeterolo: prolungato, non destinato al sollievo acuto. Due assi temporali distinti; schema originale, senza dosi o equivalenze fra prodotti."
     },
     {
@@ -191,7 +218,7 @@ export const THEORY_ASTHMA = Object.freeze({
       "text": "Per ripercorrere il capitolo si può partire da una domanda concreta: quale componente dell’ostruzione sta modificando il farmaco? Se il percorso è β₂–AMP ciclico, il punto di arrivo immediato è il tono muscolare. Se il bersaglio è muscarinico, si sta riducendo una risposta all’acetilcolina. Se si interviene su CysLT₁, si limita una via specifica dei mediatori lipidici. Con il recettore glucocorticoide si modifica invece un programma cellulare più ampio.\n\nLa domanda successiva riguarda il tempo e l’esito. Una variazione del calibro, il controllo dell’iperreattività e la prevenzione di nuovi episodi non sono misure intercambiabili. Anche la via di somministrazione e la formulazione appartengono al ragionamento: condizionano l’esposizione senza cambiare il nome del bersaglio.\n\nLa lettura locale di questo ampliamento comprende corso I PDF 621–625, Katzung 400–403, Rang & Dale 541–545 e 549, appunti I 293–295. Sono diciotto pagine, sedici nuove e due rilette; la pagina di programma 621 serve all’inventario. La precedente selezione respiratoria resta distinta. Libri e corsi non sono stati letti integralmente; il controllo editoriale circoscritto non equivale a una revisione clinica indipendente."
     }
   ],
-  "wordCount": 3081,
+  "wordCount": 3755,
   "checks": [
     {
       "question": "Perché broncodilatazione non equivale a controllo completo della malattia?",
@@ -260,28 +287,36 @@ export const THEORY_ASTHMA = Object.freeze({
     {
       "question": "Meno sintomi provano che la malattia e il rischio futuro siano controllati?",
       "answer": "No. Sollievo, prevenzione delle riacutizzazioni e tollerabilità sono obiettivi collegati ma distinti. Vanno valutati insieme, considerando anche esposizione, tecnica inalatoria e aderenza."
+    },
+    {
+      "question": "Una minore contrazione dopo stimolazione dei nervi dimostra direttamente che viene rilasciata meno acetilcolina?",
+      "answer": "No. È una misura funzionale che può suggerire una modulazione della trasmissione, ma va distinta dalla misura diretta del neurotrasmettitore. Specie, preparazione, molecola e condizioni sperimentali delimitano l’interpretazione."
+    },
+    {
+      "question": "Perché un agonista β₂-selettivo inalatorio può avere effetti sistemici?",
+      "answer": "La selettività è relativa e il recettore non è esclusivo del bronco. Parte della dose può raggiungere il circolo dopo assorbimento polmonare o intestinale; bersaglio, esposizione e risposta del tessuto concorrono all’effetto."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 621–625, etichette 619–623. Testo disponibile e cinque rendering controllati; 621 è programma, 622 contiene elementi poco leggibili non trasferiti. 623 riprende una Perspective, non una sperimentazione clinica. Ampliamento: PDF 626–630, etichette 624–628, testo e rendering; categorie storiche riconciliate. La figura 629 ripete Katzung 404, non è prova indipendente."
+      "detail": "PDF 621–625, etichette 619–623. Testo disponibile e cinque rendering controllati; 621 è programma, 622 contiene elementi poco leggibili non trasferiti. 623 riprende una Perspective, non una sperimentazione clinica. Ampliamento: PDF 626–630, etichette 624–628, testo e rendering; categorie storiche riconciliate. La figura 629 ripete Katzung 404, non è prova indipendente. Lotto successivo: PDF 631–635, etichette 629–633; quattro testi disponibili e tabella immagine 634 letti, cinque rendering controllati. 633 non aggiunge contenuto; figure 631/633–635 duplicate negli appunti 295–296."
     },
     {
       "id": "KAT",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX italiana 2014 / XII americana 2012; capitolo 20, PDF 400–403, editoriali 380–383. Quattro pagine e figure 20-1/20-2 controllate; indicazioni storiche e valori delle curve non trasferiti. Ampliamento: PDF 404–406, editoriali 384–386; testo e figure controllati. 404 e 406 integrati; strutture e dettagli storici di 405 non trasferiti."
+      "detail": "IX italiana 2014 / XII americana 2012; capitolo 20, PDF 400–403, editoriali 380–383. Quattro pagine e figure 20-1/20-2 controllate; indicazioni storiche e valori delle curve non trasferiti. Ampliamento: PDF 404–406, editoriali 384–386; testo e figure controllati. 404 e 406 integrati; strutture e dettagli storici di 405 non trasferiti. Rilettura PDF 404–406: ora anche 405 sostiene il confronto teorico tra struttura e vie, senza riprodurre formule o indicazioni storiche; 406 non aggiunge nuovi passaggi."
     },
     {
       "id": "RAN",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII italiana 2016 / originale 2015, capitolo 28; PDF 541–545 e 549. Sei testi e rendering, due pagine rilette (545 e 549). Refuso agonisti/antagonisti nella figura 28.3 e confusione LTB4/cisteinilici riconciliati; scala terapeutica 2012 non trasferita. Ampliamento: PDF 546–547 lette e controllate; tempi e xantine. Regole storiche di impiego e unità di concentrazione problematiche non trasferite."
+      "detail": "VIII italiana 2016 / originale 2015, capitolo 28; PDF 541–545 e 549. Sei testi e rendering, due pagine rilette (545 e 549). Refuso agonisti/antagonisti nella figura 28.3 e confusione LTB4/cisteinilici riconciliati; scala terapeutica 2012 non trasferita. Ampliamento: PDF 546–547 lette e controllate; tempi e xantine. Regole storiche di impiego e unità di concentrazione problematiche non trasferite. Rilettura PDF 546 per assorbimento sistemico ed effetti avversi; nessuna attribuzione di tutti gli effetti cardiaci al solo β1."
     },
     {
       "id": "APP",
       "title": "Appunti e diapositive del corso di Farmacologia I · lezione 17",
-      "detail": "25 novembre 2025, PDF 293–295, etichette 288–290, pagine 1–3 della lezione. Distinti PKA e AMPc; non adottate la selettività PDE2 delle xantine né l’origine meccanica universale della malattia. Ampliamento: PDF 296–297, etichette 291–292, pagine 4–5 della lezione. 296 integrata; 297 letta, non integrata, con lacune sulla tolleranza registrate."
+      "detail": "25 novembre 2025, PDF 293–295, etichette 288–290, pagine 1–3 della lezione. Distinti PKA e AMPc; non adottate la selettività PDE2 delle xantine né l’origine meccanica universale della malattia. Ampliamento: PDF 296–297, etichette 291–292, pagine 4–5 della lezione. 296 integrata; 297 letta, non integrata, con lacune sulla tolleranza registrate. Rilette PDF 295–296, etichette 290–291: distretti, selettività, struttura e vie; figure duplicate nel corso, non conferme indipendenti."
     },
     {
       "id": "GINA",
@@ -330,6 +365,24 @@ export const THEORY_ASTHMA = Object.freeze({
       "title": "Kume et al. · Regolazione dei canali KCa nel muscolo delle vie aeree",
       "detail": "J Clin Invest. 1994;93:371–379, DOI 10.1172/JCI116969. Letto l’abstract il 4 novembre 2026: percorsi PKA e Gs. Non letti integralmente articolo, metodi o figure; nessuna quantificazione del contributo clinico.",
       "url": "https://www.jci.org/articles/view/116969"
+    },
+    {
+      "id": "VEN",
+      "title": "GSK · Ventolin Evohaler 100 micrograms, SmPC su emc",
+      "detail": "Pagina aggiornata il 16 settembre 2026; consultati il 4 novembre 2026 §§4.1, 4.8, 5.1 e 5.2. Preferenza β2, effetti sistemici e assorbimento dopo inalazione. Documento britannico consultato selettivamente, non intero RCP o verifica delle autorizzazioni italiane.",
+      "url": "https://www.medicines.org.uk/emc/product/850/smpc"
+    },
+    {
+      "id": "RHO",
+      "title": "Rhoden et al. · Modulazione colinergica nei bronchi umani isolati",
+      "detail": "J Appl Physiol. 1988;65:700–705, DOI 10.1152/jappl.1988.65.2.700. Letto l’abstract il 4 novembre 2026: contrazione da stimolo elettrico e acetilcolina esogena. Non letti metodi completi o figure; misura funzionale distinta dal rilascio diretto.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2844715/"
+    },
+    {
+      "id": "HAAS",
+      "title": "de Haas et al. · Recettori presinaptici nella trachea di cavia",
+      "detail": "Am J Physiol. 1999;276:L420–L425, DOI 10.1152/ajplung.1999.276.3.L420. Letto l’abstract il 4 novembre 2026: preparazione priva di epitelio e misura diretta del neurotrasmettitore. Non intero articolo, non prova di un esito clinico nell’uomo.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10070105/"
     }
   ],
   "moleculeLinks": [
@@ -397,5 +450,5 @@ export const THEORY_ASTHMA = Object.freeze({
     "gina-2026",
     "gold-2026"
   ],
-  "coverage": "Primo lotto: 18 pagine locali lette, 17 integrate. Ampliamento: 12 pagine nuove controllate nel testo disponibile e nei rendering, 10 con passaggi integrati. Nel capitolo 30 pagine distinte controllate, 27 integrate; precedenti letture respiratorie separate. Fonti ufficiali e ricerca consultate selettivamente. Nessun intero libro o corso dichiarato letto, nessuna revisione clinica indipendente."
+  "coverage": "Copertura cumulativa del capitolo: 35 pagine locali distinte controllate, 32 con passaggi integrati. In questo lotto cinque pagine nuove e sei riletture; una tabella letta dal rendering. Nove pagine sostengono l’ampliamento; figure duplicate riconosciute. Fonti ufficiali e ricerca consultate selettivamente; nessun intero libro o corso dichiarato letto, nessuna revisione clinica indipendente."
 });
