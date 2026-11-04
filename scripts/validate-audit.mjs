@@ -38,6 +38,7 @@ assert.match(studio.route('textbook','missing'),/Capitolo non trovato/);
 assert.match(studio.route('cinema','unknown'),/Scenario non disponibile/);
 assert.doesNotMatch(studio.route('cinema','ADRA2A'),/href=['"]#\/lab\/ADRA2A/);
 assert.ok(studio.search('primo passaggio').some(x=>x.link.includes('first-pass')));
+assert.equal(studio.search(' PRIMO PASSAGGIO ')[0].link,'#/textbook/first-pass-avanzato','A title match must remain visible as body mentions grow');
 const targets=new Set(['ADRB1','ADRB2','AGTR1','ADRA2A','ADRA1A',...Object.keys(ADDITIONAL_TARGETS)]);
 for(const chapter of ELIX_CHAPTERS)for(const t of chapter.targets||[])assert.ok(targets.has(t),'Dangling target '+t);
 const rx=createReceptorAtlas({drugs:read('data/editorial.json').drugs,refresh(){}});

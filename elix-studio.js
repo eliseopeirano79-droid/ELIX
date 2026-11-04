@@ -373,5 +373,11 @@ export function createElixStudio({refresh}) {
   window.addEventListener("hashchange",()=>{
     if(!location.hash.startsWith("#/cinema"))stopCinema();
   });
-  return {route,search(query){const q=String(query||'').trim().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();if(!q)return [];return ELIX_CHAPTERS.filter(c=>[c.title,c.lead,...c.sections.map(x=>x.title+" "+x.text)].join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(q)).slice(0,5).map(c=>({type:'Capitolo',name:c.title,sub:'Teoria · Volume '+c.volume,link:'#/textbook/'+c.id,ic:'books'}));},stats:()=>({chapters:ELIX_CHAPTERS.length,questions:ELIX_QUESTIONS.length,volumes:ELIX_VOLUMES.length})};
+  return {route,search(query){
+    const normalize=value=>String(value||'').trim().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+    const q=normalize(query);if(!q)return [];
+    return ELIX_CHAPTERS.filter(c=>normalize([c.title,c.lead,...c.sections.map(x=>x.title+' '+x.text)].join(' ')).includes(q))
+      .sort((a,b)=>Number(normalize(b.title).includes(q))-Number(normalize(a.title).includes(q)))
+      .slice(0,5).map(c=>({type:'Capitolo',name:c.title,sub:'Teoria · Volume '+c.volume,link:'#/textbook/'+c.id,ic:'books'}));
+  },stats:()=>({chapters:ELIX_CHAPTERS.length,questions:ELIX_QUESTIONS.length,volumes:ELIX_VOLUMES.length})};
 }
