@@ -8,23 +8,23 @@ Per richiesta dell’utente usare «appunti e diapositive del corso di Farmacolo
 
 ## Lotto corrente
 
-theory-course-641-645, candidato 0.69.0: una sezione aggiunta e una ampliata nel capitolo asma; aggiornato il paragrafo di copertura. Ora 22 sezioni, 4904 parole, 22 domande, sette schemi originali e diciassette riferimenti. Approfonditi distribuzione muscarinica, contributo secretorio e distinzione tra curva funzionale, ipotesi recettoriale ed esiti della malattia.
+theory-course-646-650, candidato 0.70.0: due sezioni aggiunte e classificazione ampliata nel capitolo asma; copertura aggiornata. Ora 24 sezioni, 5584 parole, 24 domande, nove schemi originali e venti riferimenti. Approfonditi teofillina, fosfodiesterasi, margine terapeutico e confronto fra roflumilast ed ensifentrina. Distinti bersaglio, selettività, via, indicazione e livello delle prove.
 
-Un capitolo esistente ampliato; nessun nuovo capitolo, identità, sintesi farmacologica, profilo PK o laboratorio. Totale 61 capitoli: diciassette estesi e 44 sintetici. Altri 60 capitoli invariati; diciannove sezioni e ventuno domande precedenti del capitolo asma conservate.
+Un capitolo esistente ampliato; nessun nuovo capitolo, identità, sintesi farmacologica, profilo PK o laboratorio. Totale 61 capitoli: diciassette estesi e 44 sintetici. Altri 60 capitoli invariati; venti sezioni e ventidue domande precedenti del capitolo asma conservate.
 
-La 0.68.0 è pubblicata e verificata al commit 6687628627b6fada5329a2b2a1ebb5ce56f29bee. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparato prima della pubblicazione.
+La 0.69.0 è pubblicata e verificata al commit b4e043c9dd0bd59823889a61f968a64159da3f42. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparato prima della pubblicazione.
 
-Sei pagine nuove: corso I PDF 641–645 (etichette 639–643), appunti I lezione 17 del 25 novembre 2025 PDF 299 (etichetta 294). Quattro riletture: Katzung IX italiana 2014/XII americana 2012 PDF 409–410 (editoriali 389–390), Rang & Dale VIII italiana 2016/originale 2015 PDF 548, appunti I PDF 298 (etichetta 293). Letti tutti i testi disponibili e controllati i dieci rendering.
+Sette pagine nuove: corso I PDF 646–650 (etichette 644–648), Katzung IX italiana 2014/XII americana 2012 PDF 407–408 (editoriali 387–388). Tre riletture: Katzung PDF 409 (editoriale 389), Rang & Dale VIII italiana 2016/originale 2015 PDF 547, appunti I lezione 17 del 25 novembre 2025 PDF 299 (etichetta 294). Letti tutti i testi disponibili e controllati i dieci rendering.
 
-Sette pagine sostengono il lotto: tre nuove e quattro già lette. Tre entrano nella copertura integrata del capitolo; corso 644–645 e appunti 299 non aggiungono passaggi. Copertura cumulativa identificata mediante hash: 50 pagine distinte controllate e 43 integrate. Il registro respiratorio storico bibliografico resta distinto, senza sommarlo automaticamente.
+Nove pagine sostengono il lotto: sei di nuova lettura e tre rilette. Sette entrano nella copertura integrata del capitolo, inclusi gli appunti 299 già letti. Corso 650, sui corticosteroidi, letto ma non integrato. Copertura cumulativa identificata mediante hash: 57 pagine distinte controllate e 50 integrate. Il registro respiratorio storico bibliografico resta distinto, senza sommarlo automaticamente.
 
-Deduplicazione in 87 registri nominati più registro respiratorio storico. Schemi e grafico del corso duplicati negli appunti 298, non prove indipendenti. Il riferimento del grafico, non identificato nel lotto precedente, è rintracciato nel corso 643: Ruffin 1977. L’abstract originale riporta microgrammi; le unità mg della diapositiva non sono trasferite. Una differenza di FEV1 non dimostra che M2 sia la causa esclusiva; assenza di significatività non equivale a prova di equivalenza. M2 non attribuito esclusivamente a una sede né universalmente disfunzionale nell’asma. Appunti 299 letti, non integrati: generalizzazioni sulle PDE e controindicazioni da riconciliare nel pertinente intervallo.
+Deduplicazione in 89 registri nominati più registro respiratorio storico. Schema e grafico del corso duplicati negli appunti 299, non prove indipendenti. Origine primaria del grafico di tossicità non identificata: nessuna curva, soglia o istruzione di infusione trasferita. Unità numeriche dubbie nei manuali non adottate. PDE4 non esclusivamente bronchiale; selettività e inalazione non eliminano effetti avversi. Schema cellulare e miglioramento del FEV1 non dimostrano riparazione alveolare. Inciso sul sildenafil negli appunti escluso dal perimetro.
 
-Ruffin 1977 letto soltanto nell’abstract completo, non testo integrale o figura originale. Documento britannico Spiriva Respimat consultato selettivamente in §§4.1 e 5.1. GINA 2026 già consultata nella consegna precedente: nessuna nuova pagina ufficiale conteggiata. Nessuna nuova lettura GOLD, Farmacologia II o manuale molecolare; nessuna revisione clinica indipendente e nessuna verifica delle autorizzazioni italiane.
+Documenti ufficiali consultati selettivamente: GINA 2026, PDF 101/editoriale 100 sui broncodilatatori orali e PDF 190/editoriale 189 su aminofillina/teofillina nelle riacutizzazioni; EMA Daxas §§4.1, 4.4, primo paragrafo 4.5 e meccanismo/farmacodinamica 5.1; DailyMed Ohtuvayre revisionato ottobre 2026 §§1, 5.1–5.3, 12.1 e disegno/endpoint primario §14; Uniphyllin UK aggiornato agosto 2026 §§4.1, passaggi sul monitoraggio/fumo 4.2, 4.4 e interazioni 4.5. Indicazione autorizzata distinta da raccomandazione GINA. Non lettura integrale, figure ufficiali non controllate; passaggi ufficiali fuori dal conteggio delle pagine locali. Nessuna nuova lettura GOLD, Farmacologia II o manuale molecolare; nessuna revisione clinica indipendente e nessuna verifica delle autorizzazioni italiane di ensifentrina.
 
-Controlli locali: 45 validatori, otto configurazioni desktop/tablet/mobile in due temi, fonti, tastiera, ricerche, collegamenti e offline. Aggiornamento reale 0.68.0→0.69.0 con dati salvati conservati; sei schermate ispezionate. Quattro originali verificati mediante hash. Chromium con dimensioni simulate, non dispositivi fisici.
+Controlli locali: 45 validatori, otto configurazioni desktop/tablet/mobile in due temi, fonti, tastiera, ricerche, collegamenti e offline. Aggiornamento reale 0.69.0→0.70.0 con dati salvati conservati; sei schermate ispezionate. Quattro originali verificati mediante hash. Chromium con dimensioni simulate, non dispositivi fisici.
 
-Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/ELIX-course-641-645-2026-11-04/. ../../outputs/ELIX-latest-verification.json va aggiornata soltanto dopo il deploy verificato.
+Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/ELIX-course-646-650-2026-11-04/. ../../outputs/ELIX-latest-verification.json va aggiornata soltanto dopo il deploy verificato.
 
 ## Regole
 
@@ -36,4 +36,4 @@ Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/
 
 ## Prossimo intervallo
 
-Completare prima CI, deploy e riscontro online del lotto 641–645. Al ciclo successivo deduplicare un solo intervallo PDF 646–650; teoria respiratoria prioritaria, farmaci, profili e laboratori nel backlog.
+Completare prima CI, deploy e riscontro online del lotto 646–650. Al ciclo successivo deduplicare un solo intervallo PDF 651–655; teoria respiratoria prioritaria, farmaci, profili e laboratori nel backlog.
