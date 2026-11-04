@@ -96,6 +96,26 @@ export const THEORY_HISTAMINE = Object.freeze({
       "text": "L’elenco dei nomi diventa più comprensibile se si seguono le relazioni fra molecole. Cetirizina è un metabolita attivo dell’idrossizina; levocetirizina è l’enantiomero R della cetirizina. Desloratadina è un metabolita attivo della loratadina, mentre fexofenadina deriva dalla terfenadina. Queste relazioni spiegano una continuità del bersaglio senza imporre identità di distribuzione, metabolismo o sicurezza.\n\nNon tutti gli anti-H1 dipendono nella stessa misura dal metabolismo epatico. L’eliminazione renale assume particolare importanza per la cetirizina: una riduzione della funzione renale può richiedere una diversa gestione dell’esposizione secondo il prodotto. Non è corretto applicare a tutta la classe la stessa regola sui CYP, sulla funzionalità renale o sull’intervallo fra somministrazioni.\n\nOccorre inoltre distinguere interazione farmacocinetica e farmacodinamica. Un inibitore del metabolismo può aumentare la concentrazione di un substrato; alcol e sedativi possono invece sommare effetti centrali senza che ogni combinazione debba aumentare la concentrazione dell’anti-H1. La valutazione parte dal nome esatto, dalla formulazione e dalle altre sostanze assunte. Una tabella di dosi tratta da un manuale storico serve alla comprensione del problema, ma non sostituisce il riassunto delle caratteristiche del prodotto aggiornato."
     },
     {
+      "id": "tempi",
+      "title": "Quattro tempi diversi: picco plasmatico, inizio, emivita e durata",
+      "refs": [
+        "CFI",
+        "KAT",
+        "CET"
+      ],
+      "text": "Dopo una somministrazione orale, il tempo necessario a raggiungere il picco plasmatico, o Tmax, descrive una misura di esposizione. L’inizio dell’effetto descrive invece quando un esito osservabile comincia a cambiare. I due momenti possono essere vicini senza coincidere: il farmaco deve raggiungere la sede d’azione e il risultato dipende anche da come viene misurato. Un miglioramento del prurito e l’inibizione di un pomfo sperimentale non definiscono necessariamente lo stesso tempo di insorgenza.\n\nL’emivita di eliminazione indica quanto impiega la concentrazione a dimezzarsi nella fase considerata. Non è un conto alla rovescia che, al suo termine, azzera il farmaco o spegne il recettore. La durata dell’effetto dipende dalla concentrazione disponibile al bersaglio, dal legame e dalla risposta del sistema; per alcune molecole contribuiscono metaboliti attivi. Anche il tempo di permanenza sul recettore è una proprietà distinta dall’emivita plasmatica. Un legame più persistente può contribuire alla durata, ma non basta da solo a ricavare l’intervallo terapeutico.\n\nPerciò una tabella con Tmax, emivita e ore di attività deve essere letta colonna per colonna. Valori ottenuti con dosi, popolazioni o prove differenti non permettono una graduatoria automatica di efficacia. La frequenza di somministrazione deriva dalle prove sulla specifica preparazione e dalla sua scheda tecnica, non dall’arrotondamento dell’emivita. Il capitolo sui modelli farmacocinetici sviluppa questa distinzione fra andamento della concentrazione e risposta.",
+      "formula": "Tmax: quando il plasma raggiunge il picco. Inizio: quando cambia l’esito misurato. Emivita: velocità di diminuzione nella fase osservata. Durata: quanto persiste l’effetto definito. Quattro misure collegate, senza equivalenza automatica; schema originale."
+    },
+    {
+      "id": "eta-rene",
+      "title": "Cetirizina nel bambino: un’emivita più breve non identifica il meccanismo",
+      "refs": [
+        "CFI",
+        "CET"
+      ],
+      "text": "La cetirizina offre un esempio utile di ragionamento sulla clearance. La scheda tecnica documenta un’emivita più breve in alcune fasce pediatriche rispetto all’adulto e un’eliminazione importante della molecola immodificata nelle urine. Questi dati non sostengono l’attribuzione automatica della differenza a un metabolismo epatico più veloce. Osservare una diversa emivita descrive il risultato complessivo di distribuzione ed eliminazione; non identifica da solo quale organo o processo sia cambiato.\n\nNel bambino vanno distinti età, dimensioni corporee, funzione renale e formulazione. Il documento regolatorio specifica fasce d’età e preparazioni: una regola generica per tutti i minori di dodici anni perderebbe queste differenze. Neppure la misura di un’emivita in un gruppo sperimentale equivale all’autorizzazione di ogni formulazione in quel gruppo.\n\nL’esempio collega la farmacocinetica alla scelta del prodotto, senza proporre dosi pediatriche. Prima di dedurre una frequenza occorre verificare quali dati sostengano quella preparazione e quella popolazione. La domanda corretta non è soltanto quanto dura il farmaco, ma quale esposizione produce e quale beneficio e rischio sono stati valutati."
+    },
+    {
       "id": "rinite",
       "title": "Rinite allergica: scegliere l’esito che si vuole controllare",
       "refs": [
@@ -159,6 +179,19 @@ export const THEORY_HISTAMINE = Object.freeze({
       "text": "Gli effetti indesiderati vanno collocati rispetto a inizio, variazioni e interruzione del trattamento. Una sonnolenza comparsa dopo l’assunzione, una ritenzione urinaria in presenza di altri farmaci antimuscarinici e un evento cardiaco durante un’interazione non sono osservazioni intercambiabili. Per ciascuna cambia la spiegazione plausibile e quindi il tipo di verifica necessario.\n\nNel 2025 FDA ha segnalato un prurito raro ma intenso dopo l’interruzione di cetirizina o levocetirizina assunte quotidianamente per periodi prolungati. Il segnale riguarda questi farmaci e quel contesto, non ogni sospensione di qualsiasi anti-H1. Un nuovo prurito dopo l’interruzione richiede quindi valutazione e non deve essere automaticamente interpretato come ricomparsa dell’allergia originaria. La comunicazione statunitense viene usata qui per il segnale di sicurezza, senza trasferirne le condizioni autorizzative all’Italia.\n\nAllo stesso modo, non si può ricavare l’incidenza di un danno da un’immagine di una notizia o da un grafico didattico privo di riferimento. Questi materiali possono suggerire una domanda, ma non sostituiscono la fonte regolatoria o lo studio originale. Collegare il rischio a molecola, esposizione e sequenza temporale rende la farmacovigilanza più informativa di una generica etichetta sicuro o pericoloso."
     },
     {
+      "id": "uso-improprio",
+      "title": "Uso improprio e sovradosaggio: quando cambia il problema farmacologico",
+      "refs": [
+        "CFI",
+        "RAN",
+        "APP",
+        "CYPRO",
+        "ANSM",
+        "FDADPH"
+      ],
+      "text": "Un effetto osservato non diventa automaticamente un obiettivo terapeutico. La ciproeptadina associa attività H1 ad azioni antiserotoniniche, anticolinergiche e antiadrenergiche; aumento dell’appetito e del peso sono riportati nella documentazione regolatoria insieme agli effetti indesiderati. Questo profilo non dimostra un beneficio estetico né una modificazione selettiva delle forme corporee. ANSM ha segnalato il suo impiego improprio per aumentare di peso e, in Francia, ha introdotto la prescrizione obbligatoria dal luglio 2024. La misura francese documenta un problema di sicurezza; non descrive le condizioni di dispensazione italiane.\n\nIl sovradosaggio aggiunge un’altra distinzione. La difenidramina, pur essendo un anti-H1, a esposizioni eccessive può provocare un’intossicazione grave. FDA segnala problemi cardiaci, convulsioni e coma, fino a esiti fatali. Non è corretto riassumere il rischio come semplice sonnolenza più intensa, né limitare la tossicità al cuore. Alterazioni marcate della coscienza, convulsioni o difficoltà respiratorie dopo un eccesso di farmaco richiedono assistenza medica immediata.\n\nRagionare per bersagli ed esposizione aiuta a capire questa discontinuità: aumentando l’esposizione possono diventare rilevanti azioni centrali e fuori bersaglio, mentre il sollievo del sintomo allergico non cresce necessariamente in parallelo. Notizie e contenuti social possono far emergere un segnale; la valutazione deve ricondurlo alla molecola e a fonti verificabili. Non permettono di stimare un’incidenza, né sostituiscono le prove richieste per un impiego terapeutico."
+    },
+    {
       "id": "sintesi",
       "title": "Una mappa per collegare recettore, esposizione e malattia",
       "refs": [
@@ -171,7 +204,7 @@ export const THEORY_HISTAMINE = Object.freeze({
       "formula": "Bersaglio → esposizione → malattia → esito. Anti-H1 periferico e sollievo del prurito non equivalgono a sedazione, soppressione di tutta l’infiammazione o trattamento dell’instabilità circolatoria. Schema originale, non algoritmo prescrittivo."
     }
   ],
-  "wordCount": 2707,
+  "wordCount": 3301,
   "checks": [
     {
       "question": "Perché istamina non è sinonimo di allergia?",
@@ -232,28 +265,40 @@ export const THEORY_HISTAMINE = Object.freeze({
     {
       "question": "Quali quattro domande collegano teoria e impiego?",
       "answer": "Quale bersaglio, quale esposizione, quale malattia e quale esito. Le risposte vanno mantenute distinte prima di giudicare beneficio e rischio."
+    },
+    {
+      "question": "Un’emivita di alcune ore significa che l’effetto termina dopo quel tempo?",
+      "answer": "No. L’emivita descrive il dimezzamento della concentrazione nella fase considerata. Durata clinica, esposizione al bersaglio e permanenza recettoriale sono misure distinte."
+    },
+    {
+      "question": "Una minore emivita pediatrica della cetirizina prova un metabolismo epatico più rapido?",
+      "answer": "No. La cetirizina è eliminata in misura importante immodificata nelle urine. L’emivita da sola non identifica il processo; età, funzione renale e formulazione vanno considerate separatamente."
+    },
+    {
+      "question": "Perché il sovradosaggio di un anti-H1 non è soltanto maggiore sedazione?",
+      "answer": "L’esposizione elevata può coinvolgere altri bersagli e produrre tossicità neurologica e cardiaca. Per difenidramina FDA segnala anche convulsioni e coma: il problema richiede valutazione urgente."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 611–615, etichette 609–613: testo disponibile e cinque rendering letti. Tabelle e diagrammi interpretati criticamente, senza riproduzione."
+      "detail": "PDF 611–620, etichette 609–618. Primo lotto 611–615; aggiunta 616–620 letta nel testo disponibile e nei rendering. Le pagine 616 e 618 ripetono materiale già confrontato; 617, 619 e 620 sostengono le nuove sezioni. Nessuna figura riprodotta."
     },
     {
       "id": "KAT",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX edizione italiana 2014 / XII americana 2012, capitolo 16, PDF 325 e 328–332, editoriali 305 e 308–312. Sei pagine lette e controllate visivamente; dati clinici storici riconciliati."
+      "detail": "IX edizione italiana 2014 / XII americana 2012, capitolo 16, PDF 325 e 328–332, editoriali 305 e 308–312. Sei pagine lette e controllate visivamente; dati clinici storici riconciliati. PDF 328 riletto per l’ampliamento su tempi ed esposizione."
     },
     {
       "id": "RAN",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII italiana 2016 / originale 2015: PDF 330–331 e 521–522, capitoli 17 e 26. Testo e rendering letti; tabella 26.4 controllata, dosi e generalizzazioni storiche non trasferite."
+      "detail": "VIII italiana 2016 / originale 2015: PDF 330–331 e 521–522, capitoli 17 e 26. Testo e rendering letti; tabella 26.4 controllata, dosi e generalizzazioni storiche non trasferite. PDF 522 riletto per l’ampliamento sui rischi."
     },
     {
       "id": "APP",
       "title": "Appunti e diapositive del corso di Farmacologia I · lezione 16",
-      "detail": "20 novembre 2025, PDF 289–290, etichette 284–285: 289 riletto, 290 nuovo. Diagrammi duplicati non contati come studi indipendenti; grafici senza fonte non usati quantitativamente."
+      "detail": "20 novembre 2025, PDF 289–290, etichette 284–285: 289 riletto, 290 nuovo. Diagrammi duplicati non contati come studi indipendenti; grafici senza fonte non usati quantitativamente. Entrambe le pagine rilette nel lotto successivo per deduplicare tabella, grafico e notizia; nessuna nuova pagina."
     },
     {
       "id": "HYD",
@@ -264,7 +309,7 @@ export const THEORY_HISTAMINE = Object.freeze({
     {
       "id": "CET",
       "title": "AEMPS CIMA · Cetirizina, scheda tecnica",
-      "detail": "Documento 67862, §§4.1–4.8 consultati selettivamente il 4 novembre 2026. Indicazioni, sedazione, interazioni e rene; nessuna soglia di dosaggio trasferita. Fonte spagnola, non verifica della disponibilità italiana.",
+      "detail": "Documento 67862, §§4.1–4.8 consultati selettivamente il 4 novembre 2026. Indicazioni, sedazione, interazioni e rene; nessuna soglia di dosaggio trasferita. Fonte spagnola, non verifica della disponibilità italiana. Per l’ampliamento letti §4.2 pediatrico e §5.2: eliminazione immodificata e variabilità per età, senza dedurre la dose dall’emivita.",
       "url": "https://cima.aemps.es/cima/dochtml/ft/67862/FichaTecnica_67862.html"
     },
     {
@@ -308,6 +353,24 @@ export const THEORY_HISTAMINE = Object.freeze({
       "title": "FDA · Prurito dopo interruzione di cetirizina o levocetirizina",
       "detail": "Comunicazione 16 maggio 2025, testo MedWatch consultato il 4 novembre 2026. Segnale di sicurezza statunitense dopo uso prolungato, senza trasferimento delle autorizzazioni.",
       "url": "https://www.fda.gov/safety/medical-product-safety-information/cetirizine-or-levocetirizine-drug-safety-communication-fda-warns-about-risk-severe-itching-after"
+    },
+    {
+      "id": "CYPRO",
+      "title": "Base de données publique des médicaments · Ciproeptadina",
+      "detail": "RCP francese Périactine, §§4.5, 4.7–4.9 e 5.1 consultati il 4 novembre 2026: bersagli, effetti indesiderati e sovradosaggio. Non intero RCP né verifica delle autorizzazioni italiane.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67231270/extrait"
+    },
+    {
+      "id": "ANSM",
+      "title": "ANSM · Ciproeptadina e uso improprio per aumento di peso",
+      "detail": "Comunicazione del 26 giugno 2024 letta il 4 novembre 2026. Prescrizione obbligatoria in Francia dal 10 luglio 2024; ambito nazionale esplicito.",
+      "url": "https://ansm.sante.fr/actualites/a-compter-du-10-07-2024-la-cyproheptadine-periactine-4mg-sera-dispensee-uniquement-sur-ordonnance"
+    },
+    {
+      "id": "FDADPH",
+      "title": "FDA · Rischi delle dosi eccessive di difenidramina",
+      "detail": "Comunicazione del 24 settembre 2020 letta il 4 novembre 2026. Rischi cardiaci e neurologici da sovradosaggio; nessuna quantità o procedura di uso improprio riprodotta.",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-warns-about-serious-problems-high-doses-allergy-medicine-diphenhydramine-benadryl"
     }
   ],
   "moleculeLinks": [
@@ -374,6 +437,10 @@ export const THEORY_HISTAMINE = Object.freeze({
     {
       "id": "CHEMBL1742423",
       "label": "BILASTINE"
+    },
+    {
+      "id": "CHEMBL516",
+      "label": "CYPROHEPTADINE"
     }
   ],
   "relatedExistingChapterIds": [
@@ -381,7 +448,8 @@ export const THEORY_HISTAMINE = Object.freeze({
     "metabolismo-trasportatori",
     "dermatite-atopica",
     "asma-e-broncodilatatori",
-    "acidita-gastrica"
+    "acidita-gastrica",
+    "modelli-pk"
   ],
-  "coverage": "Sintesi originale su quattro fonti locali: 16 pagine nuove e una riletta; testo disponibile e 17 rendering controllati. Consultazione mirata di fonti ufficiali. Nessuna lettura integrale di libri, corsi o linee guida; revisione clinica indipendente non eseguita."
+  "coverage": "Sintesi originale su quattro fonti locali. Primo lotto: 17 pagine lette, 16 nuove e una riletta. Ampliamento: cinque pagine nuove e quattro rilette, nove rendering; tre pagine nuove e tre rilette sostengono le aggiunte. Totale distinto: 22 pagine controllate, 20 con passaggi integrati. Fonti ufficiali consultate selettivamente; nessuna lettura integrale di libri o corsi, nessuna revisione clinica indipendente."
 });

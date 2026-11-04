@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-course-611-615",
   "chapterId": "istamina-antistaminici",
-  "updatedAt": "2026-11-04T12:21:26.356497+00:00",
-  "status": "locally_verified_pending_ci_and_publication",
   "fullCorpusRead": false,
   "clinicalValidation": false,
+  "batch": "theory-course-616-620",
+  "updatedAt": "2026-11-04T12:55:45.654104+00:00",
+  "status": "locally_verified_pending_ci_and_publication",
   "sources": [
     {
       "id": "CFI",
@@ -13,43 +13,44 @@
       "edition": "AA 2025–26",
       "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
       "pdfPagesRead": [
-        611,
-        612,
-        613,
-        614,
-        615
+        616,
+        617,
+        618,
+        619,
+        620
       ],
       "visuallyCheckedPdfPages": [
-        611,
-        612,
-        613,
-        614,
-        615
+        616,
+        617,
+        618,
+        619,
+        620
       ],
       "newlyReadTextPages": [
-        611,
-        612,
-        613,
-        614,
-        615
+        616,
+        617,
+        618,
+        619,
+        620
       ],
       "reusedPreviouslyReadPages": [],
       "integratedPdfPages": [
-        611,
-        612,
-        613,
-        614,
-        615
+        617,
+        619,
+        620
       ],
-      "readButNotIntegratedPdfPages": [],
+      "readButNotIntegratedPdfPages": [
+        616,
+        618
+      ],
       "sourceUnchanged": true,
       "allContentsRead": false,
       "limits": [
-        "611: tabella H1–H4 letta dal rendering; H3 senza farmaci approvati e ranitidina sono dati da aggiornare.",
-        "612: modello a due stati; correggere isoforme in conformazioni e distinguere agonismo inverso e competizione.",
-        "613: H1/Gq/PLC/IP3-DAG/Ca/PKC; NF-kB e stabilizzazione mastocitaria non generalizzati in efficacia clinica di classe.",
-        "614: esempi di generazioni e sedi; non sedativi è una semplificazione, non assenza garantita di sonnolenza.",
-        "615: schema H1 centrale, muscarinici, alfa1 e canali; effetti dipendono dalla molecola e dall’esposizione."
+        "616 (etichetta 614): tabella in immagine, già riprodotta in APP 289. Corrette nella 0.63 le indicazioni generiche per bambini/agitación e la sedazione dichiarata assente. Nessuna nuova integrazione da questa pagina.",
+        "617 (615): Tmax, emivita e durata non sono intercambiabili. Attribuzione della minore emivita pediatrica della cetirizina al metabolismo epatico non sostenuta dal RCP: eliminazione prevalentemente renale immodificata. Nessuna posologia universale o tabella numerica trasferita.",
+        "618 (616): grafico scolastico duplicato in APP 290; fonte primaria non identificata, niente risultati quantitativi né inferenze di equivalenza. Già discusso nella 0.63, nessuna nuova integrazione.",
+        "619 (617): materiale giornalistico e social sulla ciproeptadina; sostituito come evidenza clinica da ANSM e RCP francese. Non riprodotti immagini, promesse estetiche o istruzioni di uso improprio.",
+        "620 (618): notizia su difenidramina; FDA documenta anche convulsioni e coma oltre ai danni cardiaci. Non riprodotti vicenda personale, quantità o modalità della sfida."
       ]
     },
     {
@@ -58,48 +59,23 @@
       "edition": "IX italiana 2014 / XII americana 2012",
       "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
       "pdfPagesRead": [
-        325,
-        328,
-        329,
-        330,
-        331,
-        332
+        328
       ],
       "visuallyCheckedPdfPages": [
-        325,
-        328,
-        329,
-        330,
-        331,
-        332
+        328
       ],
-      "newlyReadTextPages": [
-        325,
-        328,
-        329,
-        330,
-        331,
-        332
+      "newlyReadTextPages": [],
+      "reusedPreviouslyReadPages": [
+        328
       ],
-      "reusedPreviouslyReadPages": [],
       "integratedPdfPages": [
-        325,
-        328,
-        329,
-        330,
-        331,
-        332
+        328
       ],
       "readButNotIntegratedPdfPages": [],
       "sourceUnchanged": true,
       "allContentsRead": false,
       "limits": [
-        "325 (305 editoriale): recettori H1/Gq, H2/Gs, H3 e H4/Gi; tabella 16-1.",
-        "328 (308): agonismo inverso e antagonismo competitivo reversibile compatibili; distribuzione e metaboliti attivi.",
-        "329 (309): figure delle famiglie chimiche viste, non convalidate atomo per atomo; profili centrali e fuori bersaglio.",
-        "330 (310): tabella 16-2 letta; dosi storiche non trasferite; azioni su canali separate da H1.",
-        "331 (311): sintomi allergici e limiti; non generalizzare angioedema come sempre da chinine né trasferire vecchie pratiche di rotazione.",
-        "332 (312): terfenadina/astemizolo e interazioni storiche, onere antimuscarinico e sedativo; H3 aggiornato con pitolisant."
+        "328 (editoriale 308), riletta: assorbimento, distribuzione, durata, metaboliti e bersagli aggiuntivi; generalizzazioni di classe e indicazioni storiche non trasferite."
       ]
     },
     {
@@ -108,37 +84,23 @@
       "edition": "VIII italiana 2016 / originale 2015",
       "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
       "pdfPagesRead": [
-        330,
-        331,
-        521,
         522
       ],
       "visuallyCheckedPdfPages": [
-        330,
-        331,
-        521,
         522
       ],
-      "newlyReadTextPages": [
-        330,
-        331,
-        521,
+      "newlyReadTextPages": [],
+      "reusedPreviouslyReadPages": [
         522
       ],
-      "reusedPreviouslyReadPages": [],
       "integratedPdfPages": [
-        330,
-        331,
-        521,
         522
       ],
       "readButNotIntegratedPdfPages": [],
       "sourceUnchanged": true,
       "allContentsRead": false,
       "limits": [
-        "330–331: sintesi e rilascio dell’istamina, vasi, secrezione gastrica e risposta cutanea; correggere generalizzazione dell’AMPc per tutti i recettori.",
-        "521: primi passaggi sulla colchicina letti ma non integrati; azelastina, olopatadina e ketotifene distinguono formulazione e proprietà aggiuntive.",
-        "522: tabella 26.4 e testo letti; ingresso cerebrale e sedazione descritti come ridotti, non impossibili. Terza generazione non usata come graduatoria."
+        "522, riletta: tabella 26.4 e testo su generazioni, sedazione e interazioni. Ciproeptadina storica confrontata con fonte regolatoria, senza trasferire impieghi storici."
       ]
     },
     {
@@ -154,40 +116,215 @@
         289,
         290
       ],
-      "newlyReadTextPages": [
-        290
-      ],
+      "newlyReadTextPages": [],
       "reusedPreviouslyReadPages": [
-        289
-      ],
-      "integratedPdfPages": [
         289,
         290
       ],
-      "readButNotIntegratedPdfPages": [],
+      "integratedPdfPages": [
+        290
+      ],
+      "readButNotIntegratedPdfPages": [
+        289
+      ],
       "sourceUnchanged": true,
       "allContentsRead": false,
       "limits": [
-        "289 (etichetta 284, lezione 7/10) riletto: non competono è incompatibile con la distinzione corretta agonismo inverso/antagonismo competitivo. Diagramma IL-17 non integrato.",
-        "290 (etichetta 285, lezione 8/10) nuovo: effetti indesiderati e formulazioni; grafici scolastici privi di riferimento non usati quantitativamente. Diagrammi NF-kB ed effetti avversi duplicano CFI, non sono studi indipendenti. Aneddoto giornalistico non integrato."
+        "289 (etichetta 284), riletta: tabella uguale a CFI 616, non evidenza indipendente; passaggi dermatologici non integrati in questo lotto.",
+        "290 (285), riletta: grafico scolastico uguale a CFI 618 e aneddoto su difenidramina uguale a CFI 620. Non usati quantitativamente; rischi confrontati con FDA."
       ]
     }
   ],
-  "newReadPdfPages": 16,
-  "reusedReadPdfPages": 1,
-  "totalReadPdfPages": 17,
-  "chapterSourcePdfPages": 17,
+  "newReadPdfPages": 5,
+  "reusedReadPdfPages": 4,
+  "totalReadPdfPages": 9,
+  "chapterSourcePdfPages": 20,
+  "chapterReviewedPdfPages": 22,
+  "newIntegratedPdfPages": 3,
+  "totalIntegratedPdfPages": 6,
   "newIdentities": 0,
   "newDrugSummaries": 0,
   "newPKProfiles": 0,
-  "newChapters": 1,
-  "expandedExistingChapters": 0,
+  "newChapters": 0,
+  "expandedExistingChapters": 1,
   "limits": [
-    "Deduplicazione per hash del singolo file e pagina in 73 registri nominati, non intera biblioteca. Sedici pagine nuove e una riletta, 17 rendering; il testo incorporato nelle immagini di corso I 611 e 615 è letto visivamente.",
-    "Quattro fonti locali. Nessuna nuova pagina di Farmacologia II, degli altri docenti o degli altri libri autorizzati in questo lotto; riconciliazione complessiva ancora incompleta.",
-    "Figure e tabelle controllate nel contenuto disponibile; strutture chimiche non validate atomo per atomo. Articoli sottostanti e grafici senza fonte non verificati integralmente e non usati per risultati quantitativi.",
-    "Fonti ufficiali consultate selettivamente. Alcuni accessi EMA e Wiley limitati, con estratti ufficiali indicizzati e portali alternativi dichiarati; nessun intero RCP o linea guida dichiarato letto.",
-    "Primo capitolo dedicato a istamina e anti-H1, non ampliamento integrale dei 45 capitoli sintetici ancora aperti. Nessuna nuova identità, sintesi farmacologica, profilo PK o laboratorio interattivo.",
-    "Controllo editoriale del solo integratore, non revisione clinica indipendente. Nessun PDF, trascrizione o figura originale pubblicato."
-  ]
+    "Cinque pagine nuove e quattro rilette; nove letture del testo disponibile e nove rendering, quattro fonti locali. Tre pagine nuove e tre rilette sostengono le aggiunte; le altre tre sono confronti o contenuto già coperto.",
+    "Deduplicazione per hash e pagina in 76 registri nominati, non intera biblioteca. Tabelle, grafici e notizie duplicati non contati come evidenze indipendenti.",
+    "Nessuna nuova lettura di Farmacologia II o degli altri libri/docenti in questo lotto. La riconciliazione complessiva resta aperta.",
+    "Grafico scolastico e tabella cinetica senza riferimento primario verificabile: nessun risultato quantitativo trasferito. Fonti regolatorie consultate selettivamente, non interi RCP o linee guida.",
+    "Un ampliamento del capitolo anti-H1 esistente; i 45 capitoli sintetici restano da ampliare. Nessuna nuova identità, sintesi farmacologica, profilo PK o laboratorio.",
+    "Controllo editoriale del solo integratore, non revisione clinica indipendente. Nessuna fonte originale, figura o trascrizione pubblicata."
+  ],
+  "previousCoverage": {
+    "batch": "theory-course-611-615",
+    "sources": [
+      {
+        "id": "CFI",
+        "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
+        "edition": "AA 2025–26",
+        "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
+        "pdfPagesRead": [
+          611,
+          612,
+          613,
+          614,
+          615
+        ],
+        "visuallyCheckedPdfPages": [
+          611,
+          612,
+          613,
+          614,
+          615
+        ],
+        "newlyReadTextPages": [
+          611,
+          612,
+          613,
+          614,
+          615
+        ],
+        "reusedPreviouslyReadPages": [],
+        "integratedPdfPages": [
+          611,
+          612,
+          613,
+          614,
+          615
+        ],
+        "readButNotIntegratedPdfPages": [],
+        "sourceUnchanged": true,
+        "allContentsRead": false,
+        "limits": [
+          "611: tabella H1–H4 letta dal rendering; H3 senza farmaci approvati e ranitidina sono dati da aggiornare.",
+          "612: modello a due stati; correggere isoforme in conformazioni e distinguere agonismo inverso e competizione.",
+          "613: H1/Gq/PLC/IP3-DAG/Ca/PKC; NF-kB e stabilizzazione mastocitaria non generalizzati in efficacia clinica di classe.",
+          "614: esempi di generazioni e sedi; non sedativi è una semplificazione, non assenza garantita di sonnolenza.",
+          "615: schema H1 centrale, muscarinici, alfa1 e canali; effetti dipendono dalla molecola e dall’esposizione."
+        ]
+      },
+      {
+        "id": "KAT",
+        "title": "Katzung · Farmacologia generale e clinica",
+        "edition": "IX italiana 2014 / XII americana 2012",
+        "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+        "pdfPagesRead": [
+          325,
+          328,
+          329,
+          330,
+          331,
+          332
+        ],
+        "visuallyCheckedPdfPages": [
+          325,
+          328,
+          329,
+          330,
+          331,
+          332
+        ],
+        "newlyReadTextPages": [
+          325,
+          328,
+          329,
+          330,
+          331,
+          332
+        ],
+        "reusedPreviouslyReadPages": [],
+        "integratedPdfPages": [
+          325,
+          328,
+          329,
+          330,
+          331,
+          332
+        ],
+        "readButNotIntegratedPdfPages": [],
+        "sourceUnchanged": true,
+        "allContentsRead": false,
+        "limits": [
+          "325 (305 editoriale): recettori H1/Gq, H2/Gs, H3 e H4/Gi; tabella 16-1.",
+          "328 (308): agonismo inverso e antagonismo competitivo reversibile compatibili; distribuzione e metaboliti attivi.",
+          "329 (309): figure delle famiglie chimiche viste, non convalidate atomo per atomo; profili centrali e fuori bersaglio.",
+          "330 (310): tabella 16-2 letta; dosi storiche non trasferite; azioni su canali separate da H1.",
+          "331 (311): sintomi allergici e limiti; non generalizzare angioedema come sempre da chinine né trasferire vecchie pratiche di rotazione.",
+          "332 (312): terfenadina/astemizolo e interazioni storiche, onere antimuscarinico e sedativo; H3 aggiornato con pitolisant."
+        ]
+      },
+      {
+        "id": "RAN",
+        "title": "Rang & Dale · Farmacologia",
+        "edition": "VIII italiana 2016 / originale 2015",
+        "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+        "pdfPagesRead": [
+          330,
+          331,
+          521,
+          522
+        ],
+        "visuallyCheckedPdfPages": [
+          330,
+          331,
+          521,
+          522
+        ],
+        "newlyReadTextPages": [
+          330,
+          331,
+          521,
+          522
+        ],
+        "reusedPreviouslyReadPages": [],
+        "integratedPdfPages": [
+          330,
+          331,
+          521,
+          522
+        ],
+        "readButNotIntegratedPdfPages": [],
+        "sourceUnchanged": true,
+        "allContentsRead": false,
+        "limits": [
+          "330–331: sintesi e rilascio dell’istamina, vasi, secrezione gastrica e risposta cutanea; correggere generalizzazione dell’AMPc per tutti i recettori.",
+          "521: primi passaggi sulla colchicina letti ma non integrati; azelastina, olopatadina e ketotifene distinguono formulazione e proprietà aggiuntive.",
+          "522: tabella 26.4 e testo letti; ingresso cerebrale e sedazione descritti come ridotti, non impossibili. Terza generazione non usata come graduatoria."
+        ]
+      },
+      {
+        "id": "APP",
+        "title": "Appunti e diapositive del corso di Farmacologia I · lezione 16, 20 novembre 2025",
+        "edition": "AA 2025–26; lezione 16, 20/11/2025",
+        "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+        "pdfPagesRead": [
+          289,
+          290
+        ],
+        "visuallyCheckedPdfPages": [
+          289,
+          290
+        ],
+        "newlyReadTextPages": [
+          290
+        ],
+        "reusedPreviouslyReadPages": [
+          289
+        ],
+        "integratedPdfPages": [
+          289,
+          290
+        ],
+        "readButNotIntegratedPdfPages": [],
+        "sourceUnchanged": true,
+        "allContentsRead": false,
+        "limits": [
+          "289 (etichetta 284, lezione 7/10) riletto: non competono è incompatibile con la distinzione corretta agonismo inverso/antagonismo competitivo. Diagramma IL-17 non integrato.",
+          "290 (etichetta 285, lezione 8/10) nuovo: effetti indesiderati e formulazioni; grafici scolastici privi di riferimento non usati quantitativamente. Diagrammi NF-kB ed effetti avversi duplicano CFI, non sono studi indipendenti. Aneddoto giornalistico non integrato."
+        ]
+      }
+    ],
+    "chapterSourcePdfPages": 17,
+    "note": "Copertura del capitolo già pubblicato, non conteggiata come nuova lettura nel lotto corrente."
+  }
 }
