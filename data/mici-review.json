@@ -1,21 +1,21 @@
 {
-  "batch": "theory-course-576-580",
+  "batch": "theory-course-586-590",
   "chapterId": "malattie-infiammatorie-intestinali",
-  "checkedAt": "2026-11-04T07:30:34.017667+00:00",
+  "checkedAt": "2026-11-04T08:40:30.167855+00:00",
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "3cb472358a10aaf79917849a10c809a354d9a5110cc081b4c5c06773d278dff1",
+  "moduleSha256": "e57e0e4c5c428082d3f02351cfe9a0790b832a98336cc74e2f272957c52fd588",
   "checks": [
-    "Cinque sezioni e domande originali rilette; distinti recettore, chinasi, selettività e antagonismo funzionale.",
-    "Otto fonti ufficiali confrontate selettivamente; distinto salvataggio standard da terza linea selezionata e da autorizzazione.",
-    "Quattro collegamenti a identità esistenti e due capitoli; nessuna nuova scheda farmacologica.",
-    "41 validatori superati; otto configurazioni browser nei due temi, tastiera, ventisei farmaci, sette capitoli, ricerca JAK e offline.",
-    "Aggiornamento reale 0.58.0→0.59.0 con preferiti, progressi e tema conservati. Altri 57 capitoli, catalogo, lettore e laboratori invariati; 42 sezioni e 41 domande precedenti conservate, aggiornata soltanto la nota finale di copertura.",
-    "Sei schermate ispezionate; hash dei sei originali invariati."
+    "Tre sezioni e domande originali rilette; modello cellulare distinto da beneficio clinico e autorizzazione.",
+    "Documenti EMA/AIFA sul ritiro confrontati con figura storica; nessuna opzione corrente dedotta dalla figura.",
+    "Confine dell’artrite reumatoide e limiti dei testi riprodotti registrati.",
+    "41 validatori e otto configurazioni browser superati; navigazione da tastiera, riferimenti, ricerche, collegamenti e offline verificati.",
+    "Aggiornamento reale 0.59.0→0.60.0 con preferiti, progressi e tema conservati; sei immagini locali ispezionate.",
+    "Conservati gli altri 57 capitoli, le 47 sezioni precedenti salvo nota di copertura e le 46 domande; sei originali con hash invariati."
   ],
   "limits": [
     "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
-    "Controlli locali superati; CI, deploy e riscontro online da concludere."
+    "CI, deploy e verifica online da concludere; prove grafiche con dimensioni simulate."
   ]
 }

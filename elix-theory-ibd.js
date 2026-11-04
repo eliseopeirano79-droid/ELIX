@@ -534,6 +534,37 @@ export const THEORY_IBD = Object.freeze({
       "text": "Un algoritmo terapeutico comprime molte condizioni in poche frecce. Per leggerlo occorre prima distinguere estensione, attività e contesto assistenziale. La colite ulcerosa lieve-moderata trattata con aminosalicilati e la colite acuta grave ricoverata non percorrono la stessa scala con velocità diverse. Sono situazioni nelle quali cambiano obiettivi immediati, monitoraggio e possibilità di attendere. Una rivalutazione programmata dopo settimane in ambulatorio non può essere trasferita al paziente con malattia acuta grave.\n\nLa sintesi ACG 2025 colloca al terzo giorno la valutazione della risposta insufficiente ai corticosteroidi endovena, con terapia di salvataggio mediante infliximab o ciclosporina e coinvolgimento chirurgico. Non si attende per settimane prima di riconoscere il fallimento. Le complicanze e il peggioramento possono imporre decisioni ancora più urgenti: il terzo giorno non è un permesso di rinviare la valutazione. Il flusso didattico distingue così l’induzione della remissione dalla gestione di una condizione ospedaliera tempo-dipendente.\n\nAnche il ruolo dei JAK richiede data e contesto. ACG 2025 giudica insufficienti i dati per raccomandarne l’uso routinario in questo salvataggio. ECCO 2026 conferma infliximab o ciclosporina nella refrattarietà agli steroidi; la raccomandazione 47 ammette una sequenza di terza linea, anche con JAK, solo in pazienti altamente selezionati dopo fallimento della seconda linea, in centri multidisciplinari esperti e discutendo opzioni chirurgiche e rischi. È una raccomandazione debole, con evidenza di bassa certezza. Non equivale a porre tutte le opzioni sullo stesso piano nella prima decisione di salvataggio.\n\nLa figura del 2023 riportata nel corso e gli appunti sono quindi utili per orientarsi fra le classi, ma non costituiscono un protocollo aggiornato autosufficiente. La presenza di un farmaco in una freccia non chiarisce da sola livello di evidenza, precedenti fallimenti o rischio del ritardo chirurgico. La sintesi conserva queste distinzioni e non propone una sequenza prescrittiva individuale."
     },
     {
+      "id": "terapie-emergenti-e-stato",
+      "title": "Una mappa dei bersagli non è un elenco di terapie disponibili",
+      "refs": [
+        "CFI",
+        "ALOF-WITHDRAW"
+      ],
+      "text": "La tabella delle terapie emergenti del 2023 riunisce interventi molto diversi: modificare mediatori intracellulari, neutralizzare una citochina, interferire con il traffico cellulare oppure modulare risposte innate. Serve a riconoscere il punto della rete biologica sul quale si vuole agire. Non stabilisce, da sola, se un prodotto sia efficace nella colite ulcerosa, nel Crohn o in una particolare complicanza. Un nome vicino a un bersaglio esprime una relazione farmacologica; non contiene tutte le condizioni di impiego.\n\nPer leggere queste mappe conviene tenere separati tre passaggi. Il primo è la plausibilità del meccanismo: quale segnale cambia e in quali cellule? Il secondo è la dimostrazione clinica: in quale popolazione, con quale confronto e per quale esito il trattamento è stato studiato? Il terzo è lo stato regolatorio: quale indicazione è autorizzata, in quale territorio e in quale momento? Queste informazioni possono divergere e cambiare nel tempo. Anche il termine “nuovo” appartiene alla data della figura, non alla data in cui la si consulta.\n\nQuesta distinzione completa il percorso dai recettori alle malattie. L’asse IL-12/23 e le JAK aiutano a capire una risposta immunitaria, ma non rendono intercambiabili prodotti che intervengono su quella risposta. La modulazione di una rete può essere misurabile senza tradursi nell’esito clinico desiderato. Il caso di darvadstrocel, la cui autorizzazione europea è stata ritirata nel 2024, permette di esaminare questo problema senza trasformare una figura storica in una raccomandazione attuale.",
+      "formula": "Bersaglio e meccanismo → esito in uno studio controllato → valutazione del beneficio e del rischio → indicazione valida a una data e in un territorio"
+    },
+    {
+      "id": "cellule-mesenchimali",
+      "title": "Cellule stromali: modulare l’ambiente di una fistola",
+      "refs": [
+        "CFI",
+        "ALOF-HIST",
+        "ALOF-WITHDRAW"
+      ],
+      "text": "Darvadstrocel è qui un esempio storico di terapia cellulare: Alofisel non è più autorizzato nell’Unione europea dal 13 dicembre 2024. Il prodotto conteneva cellule stromali mesenchimali umane ottenute da tessuto adiposo di donatore ed espanse in coltura. “Allogenico” indica l’origine da un altro individuo; “espanso” descrive la crescita delle cellule prima dell’impiego. Il medicinale era quindi una popolazione cellulare, non un anticorpo contro un singolo mediatore o una piccola molecola che occupa un sito enzimatico.\n\nIl modello illustrato nel corso riguarda l’ambiente infiammatorio della fistola perianale. Segnali locali, fra cui interferone-γ, possono attivare le cellule somministrate e modificarne l’attività immunomodulatrice. La figura mette in relazione mediatori solubili, linfociti regolatori e risposte dei macrofagi. È un modo di rappresentare interazioni paracrine e cellulari: l’effetto ipotizzato dipende dal contesto e da più componenti, non da una sola coppia farmaco-recettore. Le categorie di macrofagi del disegno restano una semplificazione del modello.\n\nIl termine “staminali” non dimostra che le cellule ricostruiscano direttamente tutto il tessuto danneggiato. La logica proposta era soprattutto ridurre l’infiammazione locale e favorire condizioni compatibili con la guarigione. L’impiego storico riguardava fistole perianali complesse in adulti con Crohn luminale non attivo o lievemente attivo, dopo risposta inadeguata ai trattamenti precedenti. Questo problema anatomico è distinto dall’induzione della remissione di una colite ulcerosa. La preparazione locale della fistola faceva parte del trattamento studiato: una figura del procedimento non isola il contributo delle cellule e non sostituisce una prova controllata."
+    },
+    {
+      "id": "darvadstrocel-beneficio",
+      "title": "Darvadstrocel: quando la conferma del beneficio cambia la conclusione",
+      "refs": [
+        "ALOF-HIST",
+        "ALOF-DHPC",
+        "ALOF-WITHDRAW",
+        "AIFA-ALOF"
+      ],
+      "text": "Una spiegazione biologica coerente rimane utile anche quando un trattamento non supera la verifica clinica successiva. Per darvadstrocel il punto decisivo è stato il mancato riscontro del beneficio nello studio confermativo ADMIRE-CD II: la comunicazione regolatoria descrive 568 partecipanti e il mancato raggiungimento dell’esito principale di remissione combinata a 24 settimane, oltre agli esiti secondari. Il confronto obbliga a separare l’effetto atteso dalla sua dimostrazione nella popolazione studiata.\n\n“Remissione combinata” non significa soltanto che dall’esterno la fistola sembra chiusa. Nel programma clinico la valutazione associava la chiusura degli orifizi trattati all’assenza, alla risonanza, di raccolte oltre la soglia prevista dal protocollo. Sintomi, chiusura superficiale e controllo delle componenti profonde descrivono aspetti diversi. Un esito va quindi letto con la sua definizione, il tempo della misurazione e il gruppo di confronto; non basta confrontare percentuali estratte da studi differenti.\n\nIl 13 dicembre 2024 la Commissione europea ha ritirato l’autorizzazione di Alofisel, su richiesta del titolare. EMA e AIFA hanno precisato che il beneficio clinico non era più dimostrato in misura tale da giustificarne l’uso continuato e che non erano emersi nuovi segnali di sicurezza. La distinzione è sostanziale: un rapporto fra beneficio e rischio può diventare sfavorevole perché diminuisce la certezza del beneficio, senza la scoperta di una nuova tossicità. Questo esempio resta nel capitolo per insegnare come aggiornare un giudizio terapeutico; non presenta darvadstrocel come opzione attualmente autorizzata nell’Unione europea."
+    },
+    {
       "id": "microbiota-e-limiti",
       "title": "Dal modello biologico alla prova terapeutica",
       "refs": [
@@ -541,7 +572,7 @@ export const THEORY_IBD = Object.freeze({
         "APP",
         "AGA-FMT"
       ],
-      "text": "Il microbiota compare due volte in questo capitolo, con significati distinti. Come componente dell’ecosistema intestinale partecipa alle interazioni con barriera e immunità. Come fonte di enzimi può scindere il legame azoico di un medicinale. Il secondo fenomeno è un meccanismo di attivazione farmacologica; non dimostra che il farmaco curi la malattia “normalizzando” l’intera comunità microbica.\n\nAnalogamente, associare disbiosi e infiammazione non autorizza a raccomandare genericamente probiotici, integratori o trasferimento di microbiota. AGA 2024 suggerisce contro il trapianto convenzionale di microbiota fecale per trattare colite ulcerosa o Crohn al di fuori degli studi clinici; distingue questo uso dalla prevenzione delle recidive di infezione da C. difficile in pazienti selezionati. Il nome dell’intervento non basta: conta la condizione che si vuole trattare.\n\nLa lettura svolta copre MICI, aminosalicilati, glucocorticoidi, immunomodulatori e un confronto mirato degli anti-TNF, dei biosimilari, delle integrine e dell’asse IL-12/23. Il confronto comprende ora JAK–STAT, modulazione S1P e tempi della colite acuta grave; ulteriori molecole e confronti richiedono letture dedicate. I collegamenti presenti permettono di ripassare i principi molecolari e consultare identità già catalogate; non attestano che ogni scheda sia stata riesaminata in questo lotto. Questa sintesi resta un capitolo didattico con revisione editoriale mirata, non una revisione clinica indipendente."
+      "text": "Il microbiota compare due volte in questo capitolo, con significati distinti. Come componente dell’ecosistema intestinale partecipa alle interazioni con barriera e immunità. Come fonte di enzimi può scindere il legame azoico di un medicinale. Il secondo fenomeno è un meccanismo di attivazione farmacologica; non dimostra che il farmaco curi la malattia “normalizzando” l’intera comunità microbica.\n\nAnalogamente, associare disbiosi e infiammazione non autorizza a raccomandare genericamente probiotici, integratori o trasferimento di microbiota. AGA 2024 suggerisce contro il trapianto convenzionale di microbiota fecale per trattare colite ulcerosa o Crohn al di fuori degli studi clinici; distingue questo uso dalla prevenzione delle recidive di infezione da C. difficile in pazienti selezionati. Il nome dell’intervento non basta: conta la condizione che si vuole trattare.\n\nLa lettura svolta copre MICI, aminosalicilati, glucocorticoidi, immunomodulatori e un confronto mirato degli anti-TNF, dei biosimilari, delle integrine e dell’asse IL-12/23. Il confronto comprende JAK–STAT, modulazione S1P, tempi della colite acuta grave e il caso storico di darvadstrocel, per distinguere immunomodulazione cellulare, prova del beneficio e stato autorizzativo. Ulteriori molecole e confronti richiedono letture dedicate. I collegamenti presenti permettono di ripassare i principi molecolari e consultare identità già catalogate; non attestano che ogni scheda sia stata riesaminata in questo lotto. Questa sintesi resta un capitolo didattico con revisione editoriale mirata, non una revisione clinica indipendente."
     }
   ],
   "checks": [
@@ -728,6 +759,18 @@ export const THEORY_IBD = Object.freeze({
     {
       "question": "Perché i JAK nella figura di salvataggio non equivalgono a una scelta routinaria per ogni colite acuta grave?",
       "answer": "ACG 2025 non ne raccomanda l’uso routinario per insufficienza di dati; ECCO 2026 considera anche JAK in terza linea solo in pazienti altamente selezionati, dopo seconda linea fallita, in centri esperti con discussione chirurgica. Raccomandazione debole, evidenza di bassa certezza."
+    },
+    {
+      "question": "Quali informazioni mancano a una mappa che associa un farmaco a un bersaglio?",
+      "answer": "Popolazione ed esito clinico studiati, confronto, indicazione autorizzata, territorio e data. Il meccanismo aiuta a formulare un’ipotesi, ma non dimostra da solo efficacia o disponibilità attuale."
+    },
+    {
+      "question": "Perché le cellule stromali non si interpretano come un anticorpo diretto contro un solo bersaglio?",
+      "answer": "Sono una popolazione cellulare la cui attività può dipendere dai segnali locali e da più interazioni immunitarie. Il modello di immunomodulazione non prova una rigenerazione diretta del tessuto né un beneficio clinico."
+    },
+    {
+      "question": "Il ritiro europeo di Alofisel dimostra necessariamente una nuova tossicità?",
+      "answer": "No. EMA e AIFA hanno segnalato il mancato riscontro del beneficio clinico nello studio confermativo, senza nuovi segnali di sicurezza. L’autorizzazione è stata ritirata il 13 dicembre 2024: il caso è storico, non una terapia europea attualmente autorizzata."
     }
   ],
   "relatedExistingChapterIds": [
@@ -849,7 +892,7 @@ export const THEORY_IBD = Object.freeze({
     {
       "id": "CFI",
       "title": "Diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 544–580, etichette 542–578. Nuove 576–580 lette nel testo disponibile e nei rendering; 578–580 grafiche. Integrate 576–579 e mappa JAK 575 già letta; 580, frammento di tabella sui topici, letta ma non reintegrata. 566–568 ripetitive. Il bordo di 576 e le note della figura 579 non sono interamente visibili nell’originale; non ricostruiti. Figure non ripubblicate; articoli sottostanti non letti integralmente."
+      "detail": "PDF 544–580, etichette 542–578. Nuove 576–580 lette nel testo disponibile e nei rendering; 578–580 grafiche. Integrate 576–579 e mappa JAK 575 già letta; 580, frammento di tabella sui topici, letta ma non reintegrata. 566–568 ripetitive. Il bordo di 576 e le note della figura 579 non sono interamente visibili nell’originale; non ricostruiti. Figure non ripubblicate; articoli sottostanti non letti integralmente. Intervallo successivo PDF 581–590 letto nel testo disponibile e nei rendering; 587–588 integrati per mappe storiche e terapia cellulare. A 589 inizia l’artrite reumatoide, esclusa da questo capitolo. A 583 e 585 parti dell’originale coperte o tagliate."
     },
     {
       "id": "KAT",
@@ -1139,8 +1182,32 @@ export const THEORY_IBD = Object.freeze({
       "title": "EMA · Zeposia",
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zeposia",
       "detail": "Overview letta il 04/11/2026: indicazione nella colite ulcerosa dell’adulto e traffico linfocitario. Non confronto diretto di efficacia con etrasimod."
+    },
+    {
+      "id": "ALOF-HIST",
+      "title": "EMA · Alofisel, informazioni di prodotto archiviate",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/alofisel-epar-product-information_en.pdf",
+      "detail": "Documento contrassegnato come non più autorizzato. Letti selettivamente il 04/11/2026 composizione e indicazione storica (PDF 2), contesto della procedura (3), meccanismo e definizione degli esiti (7–8); non le 25 pagine complete. Non fonte per un impiego attuale."
+    },
+    {
+      "id": "ALOF-WITHDRAW",
+      "title": "EMA · Ritiro dell’autorizzazione europea di Alofisel",
+      "url": "https://www.ema.europa.eu/en/documents/public-statement/public-statement-alofisel-withdrawal-marketing-authorisation-european-union_en.pdf",
+      "detail": "Public statement EMA/586714/2024 del 13/12/2024, una pagina letta il 04/11/2026: decisione della Commissione europea su richiesta del titolare. Stato distinto dall’indicazione storica."
+    },
+    {
+      "id": "ALOF-DHPC",
+      "title": "EMA · Alofisel, comunicazione sul mancato riscontro del beneficio",
+      "url": "https://www.ema.europa.eu/en/documents/dhpc/direct-healthcare-professional-communication-dhpc-alofisel-darvadstrocel-withdrawal-eu-market-its-clinical-benefit-no-longer-demonstrated-justify-its-continued-use_en.pdf",
+      "detail": "Letti sintesi e contesto, PDF 1–2, il 04/11/2026: ADMIRE-CD II, esito principale a 24 settimane ed esiti secondari, assenza di nuovi segnali di sicurezza. Non lettura integrale degli studi citati."
+    },
+    {
+      "id": "AIFA-ALOF",
+      "title": "AIFA · Nota informativa importante su Alofisel",
+      "url": "https://www.aifa.gov.it/-/nota-informativa-importante-su-alofisel-darvadstrocel-",
+      "detail": "Nota del 19/12/2024, corpo della pagina letto il 04/11/2026: beneficio non più dimostrato, nessun nuovo segnale di sicurezza e ritiro dal 13/12/2024. Non una nuova revisione clinica indipendente."
     }
   ],
-  "coverage": "Sei nuove pagine lette nel testo disponibile e nei rendering: cinque contribuiscono alla sintesi; il frammento di tabella sui topici non viene reintegrato. La mappa JAK I 575, già letta, è ora integrata senza ricontarla. Copertura cumulativa: 70 pagine lette, 65 con passaggi integrati, sei fonti. Farmacologia II confrontata tramite i passaggi già letti; una nuova ricerca testuale automatica non equivale a lettura del corso. Fonti ufficiali consultate selettivamente. Nessuna lettura integrale di libri o corsi, né revisione clinica indipendente.",
-  "wordCount": 9882
+  "coverage": "Cinque nuove pagine lette nel testo disponibile e nei rendering: diapositive I PDF 586–590; soltanto 587–588 contribuiscono a questo ampliamento. Le cinque pagine 581–585, già lette nel lotto privato precedente, entrano nel registro senza nuovo conteggio e senza nuovi contenuti integrati. Copertura cumulativa: 80 pagine lette, 67 con passaggi integrati, sei fonti. A 589 inizia l’artrite reumatoide, esclusa dalle MICI. Nessuna nuova pagina dei libri, degli appunti I o di Farmacologia II; mantenuta la riconciliazione precedente. Quattro riferimenti ufficiali aggiunti con lettura selettiva dichiarata. Nessuna lettura integrale di libri o corsi, né revisione clinica indipendente.",
+  "wordCount": 10594
 });
