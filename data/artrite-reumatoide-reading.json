@@ -1,0 +1,335 @@
+{
+  "schemaVersion": 1,
+  "batch": "theory-course-591-595",
+  "chapterId": "artrite-reumatoide",
+  "updatedAt": "2026-11-04T09:37:22.562125+00:00",
+  "status": "editorial_reconciled_locally_verified_pending_publication",
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "sources": [
+    {
+      "id": "CFI",
+      "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
+      "edition": "AA 2025–26",
+      "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
+      "pageCount": 935,
+      "pdfPagesRead": [
+        591,
+        592,
+        593,
+        594,
+        595
+      ],
+      "visuallyCheckedPdfPages": [
+        591,
+        592,
+        593,
+        594,
+        595
+      ],
+      "newlyReadTextPages": [
+        591,
+        592,
+        593,
+        594,
+        595
+      ],
+      "reusedPreviouslyReadPages": [],
+      "integratedPdfPages": [
+        591,
+        592,
+        593,
+        594,
+        595
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "limits": [
+        "PDF 591–595, etichette 589–593: testo disponibile e cinque rendering letti il 04/11/2026. Parti coperte a 591; algoritmo senza anno a 593 confrontato con EULAR 2025. Articoli delle figure non letti integralmente."
+      ]
+    },
+    {
+      "id": "KAT",
+      "title": "Katzung · Farmacologia generale e clinica",
+      "edition": "IX italiana 2014 / XII americana 2012",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "pageCount": 1579,
+      "pdfPagesRead": [
+        743,
+        744,
+        745,
+        746,
+        747,
+        748,
+        749,
+        750,
+        751,
+        752
+      ],
+      "visuallyCheckedPdfPages": [
+        743,
+        744,
+        745,
+        746,
+        747,
+        748,
+        749,
+        750,
+        751,
+        752
+      ],
+      "newlyReadTextPages": [
+        743,
+        744,
+        745,
+        746,
+        747,
+        748,
+        749,
+        750,
+        751,
+        752
+      ],
+      "reusedPreviouslyReadPages": [],
+      "integratedPdfPages": [
+        743,
+        744,
+        745,
+        746,
+        747,
+        748,
+        749,
+        750,
+        752
+      ],
+      "readButNotIntegratedPdfPages": [
+        751
+      ],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "limits": [
+        "IX italiana 2014 / XII americana 2012, capitolo 36: PDF 743–752, editoriali 723–732. Testo e rendering, inclusa figura 36-4, letti il 04/11/2026. Dosi, percentuali e raccomandazioni storiche non trasferite; incongruenza nel paragrafo della ciclosporina esclusa."
+      ]
+    },
+    {
+      "id": "RAN",
+      "title": "Rang & Dale · Farmacologia",
+      "edition": "VIII italiana 2016 / originale 2015",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "pageCount": 1102,
+      "pdfPagesRead": [
+        511,
+        512,
+        513,
+        514
+      ],
+      "visuallyCheckedPdfPages": [
+        511,
+        512,
+        513,
+        514
+      ],
+      "newlyReadTextPages": [
+        511,
+        512,
+        513,
+        514
+      ],
+      "reusedPreviouslyReadPages": [],
+      "integratedPdfPages": [
+        511,
+        512,
+        513
+      ],
+      "readButNotIntegratedPdfPages": [
+        514
+      ],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "limits": [
+        "VIII italiana 2016 / originale 2015, capitolo 26: PDF 511–514, paginazione editoriale non ricostruita. Testo e rendering letti il 04/11/2026, figura 26.4 controllata. Tabella 26.2 ridotta: non tutte le celle verificate. Tassonomia e gerarchia storiche riconciliate."
+      ]
+    },
+    {
+      "id": "APP",
+      "title": "Appunti e diapositive del corso di Farmacologia I · 20/11/2025",
+      "edition": "AA 2025–26, lezione 16, 20/11/2025",
+      "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+      "pageCount": 344,
+      "pdfPagesRead": [
+        287,
+        288
+      ],
+      "visuallyCheckedPdfPages": [
+        287,
+        288
+      ],
+      "newlyReadTextPages": [
+        288
+      ],
+      "reusedPreviouslyReadPages": [
+        287
+      ],
+      "integratedPdfPages": [
+        287,
+        288
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "limits": [
+        "AA 2025–26, lezione 16: PDF 287–288, etichette 282–283, pagine di lezione 5–6. Nuova 288, rilette entrambe il 04/11/2026; solo passaggi artrite integrati. Figure ripetute, non prove indipendenti."
+      ]
+    },
+    {
+      "id": "FII-S",
+      "title": "Appunti e diapositive del corso di Farmacologia II · 2025–26",
+      "edition": "AA 2025–26",
+      "sha256": "5975d587250204bdf0d877c9d9677ee3210113ec11299160e88361f0bdf40ab9",
+      "pageCount": 59,
+      "pdfPagesRead": [
+        34,
+        36
+      ],
+      "visuallyCheckedPdfPages": [
+        34,
+        36
+      ],
+      "newlyReadTextPages": [],
+      "reusedPreviouslyReadPages": [
+        34,
+        36
+      ],
+      "integratedPdfPages": [
+        34,
+        36
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "limits": [
+        "Materiale sulle terapie immunitarie, PDF 34 e 36: già lette in precedenza, rilette nel testo e nei rendering il 04/11/2026. Corretta distinzione fra antagonista IL1R e recettore solubile; CTLA4-Ig distinto da TNFR-Fc."
+      ]
+    },
+    {
+      "id": "FII-A",
+      "title": "Appunti e diapositive del corso di Farmacologia II · 27/10/2025",
+      "edition": "AA 2025–26, 27/10/2025",
+      "sha256": "f868f51aaf7bf901b4bb2b29bf8cb36b53d366b5d22524d9c193e4fd2ea69d3d",
+      "pageCount": 26,
+      "pdfPagesRead": [
+        15,
+        16
+      ],
+      "visuallyCheckedPdfPages": [
+        15,
+        16
+      ],
+      "newlyReadTextPages": [],
+      "reusedPreviouslyReadPages": [
+        15,
+        16
+      ],
+      "integratedPdfPages": [
+        15,
+        16
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "limits": [
+        "Lezione del 27/10/2025, PDF 15–16: già lette, riconsultate il 04/11/2026. Nomi e figure riconciliati con gli altri materiali e EMA; non intera lezione o corso."
+      ]
+    }
+  ],
+  "newReadPdfPages": 20,
+  "reusedReadPdfPages": 5,
+  "totalReadPdfPages": 25,
+  "currentBatchVisualPages": 25,
+  "newIntegratedPdfPages": 18,
+  "previouslyReadNewlyIntegratedPdfPages": 5,
+  "chapterSourcePdfPages": 23,
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "expandedExistingChapters": 0,
+  "newChapters": 1,
+  "officialSources": [
+    {
+      "id": "EULAR",
+      "title": "EULAR · Artrite reumatoide, aggiornamento 2025",
+      "detail": "Pubblicato nel 2026, DOI 10.1016/j.ard.2026.01.023. Abstract letto il 04/11/2026; testo completo non accessibile (403; copia istituzionale 403/451). Non intera linea guida né revisioni sistematiche associate.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41826212/"
+    },
+    {
+      "id": "EULAR-N",
+      "title": "EULAR · Presentazione dell’aggiornamento, 13/03/2026",
+      "detail": "Comunicato ufficiale di due pagine letto il 04/11/2026: avvio alla diagnosi, rimozione della stratificazione prognostica dopo fallimento iniziale e remissione. Non sostituisce la lettura completa delle raccomandazioni.",
+      "url": "https://www.eular.org/document/download/1406/ec021a77-cdf3-4de3-ae72-57c1757db549/1325"
+    },
+    {
+      "id": "MTX",
+      "title": "EMA · Prevenzione degli errori di frequenza con metotrexato",
+      "detail": "Comunicazione del 22/08/2019, corpo e indicazioni per pazienti/professionisti riletti il 04/11/2026: frequenza settimanale nelle malattie infiammatorie, distinta dai regimi oncologici.",
+      "url": "https://www.ema.europa.eu/en/news/new-measures-avoid-potentially-fatal-dosing-errors-methotrexate-inflammatory-diseases"
+    },
+    {
+      "id": "ABAT",
+      "title": "EMA · Orencia",
+      "detail": "EPAR corrente, passaggi su meccanismo e indicazione RA adulta con MTX; estratto indicizzato di 5.1 dello SmPC (PDF 13) su CTLA4-Fc/CD80/CD86 letto il 04/11/2026. Non fascicolo completo.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/orencia"
+    },
+    {
+      "id": "IL6",
+      "title": "EMA · RoActemra, informazioni di prodotto",
+      "detail": "Letti estratti indicizzati ufficiali di 5.1 su IL6R solubile e di membrana e di 4.4 (PDF 43) su infezioni, PCR e fase acuta il 04/11/2026. Non documento completo; nessuna dose trasferita.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/roactemra-epar-product-information_en.pdf"
+    },
+    {
+      "id": "RTX",
+      "title": "EMA · MabThera, informazioni di prodotto",
+      "detail": "Passaggi indicizzati di 5.1 su CD20 e popolazioni B (PDF 69, meccanismo, senza trasferire formulazione sottocutanea alla RA) e di 4.4–4.5 letti il 04/11/2026. EPAR consultato per meccanismo, formulazioni e rischi. Non intero documento.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/mabthera-epar-product-information_en.pdf"
+    },
+    {
+      "id": "JAK",
+      "title": "EMA · Riesame degli inibitori JAK",
+      "detail": "Passaggi per professionisti e sintesi delle misure lette il 04/11/2026: restrizioni nelle malattie infiammatorie, rischio cardiovascolare, oncologico e tromboembolico. Non lettura integrale degli studi sottostanti.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/janus-kinase-inhibitors-jaki"
+    },
+    {
+      "id": "UST",
+      "title": "EMA · Stelara",
+      "detail": "EPAR e passaggi indicizzati delle indicazioni e del meccanismo nelle informazioni di prodotto consultati il 04/11/2026: p40 extracellulare, nessuna indicazione RA nell’elenco europeo. Composizione p35/p40 confrontata anche con la discussione scientifica iniziale EMA; non fascicolo completo.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/stelara"
+    },
+    {
+      "id": "ANA",
+      "title": "EMA · Kineret",
+      "detail": "EPAR: indicazione RA con metotrexato, meccanismo e principali limiti letti il 04/11/2026. Anakinra è un antagonista del recettore dell’IL1, non un recettore esca. Non documento completo.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kineret"
+    },
+    {
+      "id": "ETN",
+      "title": "EMA · Enbrel, informazioni di prodotto",
+      "detail": "Estratto ufficiale indicizzato del meccanismo in 5.1 e sintesi EPAR letti il 04/11/2026: TNFR-Fc distinto da anticorpo. Non studi completi né tutte le indicazioni.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/enbrel-epar-product-information_en.pdf"
+    },
+    {
+      "id": "CZP",
+      "title": "EMA · Cimzia, informazioni di prodotto",
+      "detail": "Estratto ufficiale indicizzato di 5.1, PDF 14, e EPAR corrente letti il 04/11/2026: frammento PEG, assenza Fc e limiti delle osservazioni in vitro. Non intero documento.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/cimzia-epar-product-information_en.pdf"
+    }
+  ],
+  "limits": [
+    "Deduplicazione per hash e pagina in 63 registri disponibili, non intero corpus. Venti nuove pagine, cinque rilette; ventitré con passaggi integrati.",
+    "CFI 591 presenta parti coperte; tabella Rang 26.2 piccola, non tutte le celle verificate. Articoli delle figure non letti integralmente.",
+    "Katzung 751 e Rang 514 letti ma non utilizzati per nuovi passaggi del capitolo; nessun contenuto originale riprodotto.",
+    "EULAR 2025 pubblicata nel 2026: abstract e comunicato letti; intero articolo non accessibile, copia istituzionale non disponibile. EMA consultata selettivamente, anche tramite estratti indicizzati ufficiali.",
+    "Nessuna nuova pagina di altri libri autorizzati o di altri materiali del corso in questo lotto. Copertura complessiva ancora incompleta.",
+    "Sintesi didattica controllata dal solo integratore, non revisione clinica indipendente. Farmaci mancanti, profili e visualizzazioni interattive restano nel backlog."
+  ],
+  "nextInterval": "Completare prima la verifica e la pubblicazione del lotto 591–595. Soltanto dopo deduplicare PDF 596–600; mantenere 589–590 già lette, senza nuovo conteggio."
+}

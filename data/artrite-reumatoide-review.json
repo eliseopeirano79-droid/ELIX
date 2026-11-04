@@ -1,0 +1,23 @@
+{
+  "batch": "theory-course-591-595",
+  "chapterId": "artrite-reumatoide",
+  "checkedAt": "2026-11-04T09:37:22.562125+00:00",
+  "outcome": "pass",
+  "reviewer": "integrator_editorial_check",
+  "independentClinicalReview": false,
+  "moduleSha256": "90961ee513192f0a18e2f1191b6c8fdc2d180c4a3e8a7f838bc5631f1d57af49",
+  "checks": [
+    "Riletta la sintesi originale: separati sintomi, attività e danno strutturale.",
+    "Controllati DMARD, MTX settimanale, CD80/86-CD28, CD20/plasmacellule, IL6R/PCR e IL1Ra.",
+    "Distinti p40 extracellulare, JAK intracellulari e indicazioni; algoritmo storico riconciliato con EULAR 2025.",
+    "Ricontrollate restrizioni EMA JAK senza dosi o protocolli individuali.",
+    "Collegamenti riferiti a identità esistenti, non nuove schede revisionate.",
+    "42 validatori, otto configurazioni browser, tastiera, fonti, ricerche, 18 collegamenti al catalogo e cinque capitoli verificati.",
+    "Aggiornamento reale 0.60.0→0.61.0 con preferiti, progressi e tema conservati; offline verificato.",
+    "58 capitoli precedenti, catalogo, lettore, stile e laboratori invariati; sei schermate locali ispezionate."
+  ],
+  "limits": [
+    "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
+    "CI, deploy e riscontro online ancora da concludere; browser Chromium con dimensioni simulate, non dispositivi fisici."
+  ]
+}
