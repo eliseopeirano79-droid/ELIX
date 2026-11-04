@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-04T11:31:47.302234+00:00",
-  "batch": "theory-course-606-610",
+  "updatedAt": "2026-11-04T12:21:26.356497+00:00",
+  "batch": "theory-course-611-615",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.62.0",
-  "branch": "feat/theory-course-606-610",
-  "baseCommit": "f90581605b2e3987030ce57feffb0d2d489327c2",
+  "release": "0.63.0",
+  "branch": "feat/theory-course-611-615",
+  "baseCommit": "6a9ecc94f7b7af8fb5630bf89f7e1c652a807a9e",
   "previousBatch": {
-    "batch": "theory-course-591-595",
+    "batch": "theory-course-606-610",
     "status": "published_and_live_verified",
-    "release": "0.61.0",
-    "commit": "f90581605b2e3987030ce57feffb0d2d489327c2"
+    "release": "0.62.0",
+    "commit": "6a9ecc94f7b7af8fb5630bf89f7e1c652a807a9e"
   },
   "scope": [
-    "Primo capitolo dedicato alla dermatite atopica: barriera, prurito, formulazioni, calcineurina, anticorpi e JAK."
+    "Primo capitolo dedicato a istamina e anti-H1: recettori, agonismo inverso, esposizione, rinite, orticaria e limiti clinici."
   ],
   "completed": [
-    "15 sezioni originali, 2640 parole, tre schemi, 15 domande, 21 riferimenti e 15 farmaci esistenti collegati.",
-    "17 pagine nuove e sette rilette da sei fonti; 24 pagine nel testo disponibile e nei rendering, 23 con passaggi integrati.",
-    "43 validatori e otto configurazioni browser; fonti, tastiera, entrambe le ricerche, collegamenti e offline verificati.",
-    "Aggiornamento reale 0.61.0→0.62.0 con dati e tema conservati; 59 capitoli precedenti e componenti invariati. Sei schermate ispezionate."
+    "15 sezioni originali, 2707 parole, tre schemi, 15 domande, 13 riferimenti e 16 farmaci esistenti collegati.",
+    "16 pagine nuove e una riletta da quattro fonti; 17 nel testo disponibile e nei rendering, tutte con passaggi integrati.",
+    "44 validatori, otto configurazioni browser, fonti, tastiera, entrambe le ricerche, 16 collegamenti a farmaci e cinque capitoli, offline verificati.",
+    "Aggiornamento reale 0.62.0→0.63.0 con preferiti, progressi e tema conservati; 60 capitoli precedenti e componenti invariati. Sei schermate ispezionate."
   ],
   "remaining": [
     "CI, deploy concluso e riscontro online."
@@ -30,8 +30,8 @@
     "pkFields": 420,
     "importedLabelsWithoutEditorial": 93,
     "targetProfiles": 36,
-    "chapters": 60,
-    "extendedChapters": 15,
+    "chapters": 61,
+    "extendedChapters": 16,
     "briefChapters": 45
   },
   "changes": {
@@ -44,18 +44,19 @@
     "newInteractiveLabs": 0,
     "newSections": 15,
     "expandedSections": 0,
-    "newLinksToExistingIdentities": 15
+    "newLinksToExistingIdentities": 16
   },
   "readingManifests": [
-    "data/dermatite-atopica-reading.json"
+    "data/istamina-antistaminici-reading.json"
   ],
   "limits": [
-    "Deduplicazione per hash e pagina in 70 registri disponibili, non intera biblioteca. Diciassette pagine nuove e sette rilette; conteggi circoscritti al lotto.",
-    "Ritagli del corso con parti coperte; figura II 31 tagliata. Figure controllate nel contenuto disponibile; formule chimiche non validate atomo per atomo. Articoli e studi citati nelle figure non letti integralmente.",
-    "Testi storici riconciliati con documenti correnti, consultati selettivamente. Nessuna lettura dichiarata di interi libri, corsi o linee guida. Altri libri autorizzati restano incompleti.",
-    "Un nuovo capitolo dedicato, non ampliamento integrale dell’unità su tutti gli organi speciali. I 45 capitoli sintetici restano da approfondire.",
-    "Sintesi originale controllata dal solo integratore; non revisione clinica indipendente. Nessun PDF, figura o trascrizione originale pubblicato. Farmaci mancanti, profili e laboratori interattivi restano nel backlog.",
-    "Verifiche Chromium con dimensioni simulate; non dispositivi fisici."
+    "Deduplicazione per hash del singolo file e pagina in 73 registri nominati, non intera biblioteca. Sedici pagine nuove e una riletta, 17 rendering; il testo incorporato nelle immagini di corso I 611 e 615 è letto visivamente.",
+    "Quattro fonti locali. Nessuna nuova pagina di Farmacologia II, degli altri docenti o degli altri libri autorizzati in questo lotto; riconciliazione complessiva ancora incompleta.",
+    "Figure e tabelle controllate nel contenuto disponibile; strutture chimiche non validate atomo per atomo. Articoli sottostanti e grafici senza fonte non verificati integralmente e non usati per risultati quantitativi.",
+    "Fonti ufficiali consultate selettivamente. Alcuni accessi EMA e Wiley limitati, con estratti ufficiali indicizzati e portali alternativi dichiarati; nessun intero RCP o linea guida dichiarato letto.",
+    "Primo capitolo dedicato a istamina e anti-H1, non ampliamento integrale dei 45 capitoli sintetici ancora aperti. Nessuna nuova identità, sintesi farmacologica, profilo PK o laboratorio interattivo.",
+    "Controllo editoriale del solo integratore, non revisione clinica indipendente. Nessun PDF, trascrizione o figura originale pubblicato.",
+    "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Completare prima CI, pubblicazione e riscontro online del lotto 606–610. Solo dopo deduplicare PDF 611–615. Teoria prioritaria; farmaci, profili e laboratori nel backlog."
+  "nextBatch": "Completare prima CI, pubblicazione e riscontro online del lotto 611–615. Poi deduplicare un solo intervallo PDF 616–620; teoria prioritaria, farmaci e laboratori nel backlog."
 }
