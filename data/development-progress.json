@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-04T09:37:22.562125+00:00",
-  "batch": "theory-course-591-595",
+  "updatedAt": "2026-11-04T11:31:47.302234+00:00",
+  "batch": "theory-course-606-610",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.61.0",
-  "branch": "feat/theory-course-591-595",
-  "baseCommit": "c988f8ba7d4978fbd54f420cf63898966d5ba64d",
+  "release": "0.62.0",
+  "branch": "feat/theory-course-606-610",
+  "baseCommit": "f90581605b2e3987030ce57feffb0d2d489327c2",
   "previousBatch": {
-    "batch": "theory-course-586-590",
+    "batch": "theory-course-591-595",
     "status": "published_and_live_verified",
-    "release": "0.60.0",
-    "commit": "c988f8ba7d4978fbd54f420cf63898966d5ba64d"
+    "release": "0.61.0",
+    "commit": "f90581605b2e3987030ce57feffb0d2d489327c2"
   },
   "scope": [
-    "Primo capitolo teorico dedicato all’artrite reumatoide: rete sinoviale, DMARD, bersagli cellulari e confronto EMA/EULAR."
+    "Primo capitolo dedicato alla dermatite atopica: barriera, prurito, formulazioni, calcineurina, anticorpi e JAK."
   ],
   "completed": [
-    "15 sezioni originali, 2555 parole, tre schemi, 15 domande, 17 riferimenti e 18 collegamenti a farmaci esistenti.",
-    "20 nuove pagine e cinque rilette di sei fonti; 23 pagine con passaggi integrati. Hash degli originali invariati.",
-    "42 validatori, otto configurazioni browser, tastiera, fonti, entrambe le ricerche, farmaci, capitoli e offline verificati.",
-    "Aggiornamento reale 0.60.0→0.61.0: dati e tema conservati. Tutti i 58 capitoli precedenti, catalogo, lettore, stile e laboratori invariati."
+    "15 sezioni originali, 2640 parole, tre schemi, 15 domande, 21 riferimenti e 15 farmaci esistenti collegati.",
+    "17 pagine nuove e sette rilette da sei fonti; 24 pagine nel testo disponibile e nei rendering, 23 con passaggi integrati.",
+    "43 validatori e otto configurazioni browser; fonti, tastiera, entrambe le ricerche, collegamenti e offline verificati.",
+    "Aggiornamento reale 0.61.0→0.62.0 con dati e tema conservati; 59 capitoli precedenti e componenti invariati. Sei schermate ispezionate."
   ],
   "remaining": [
     "CI, deploy concluso e riscontro online."
@@ -30,8 +30,8 @@
     "pkFields": 420,
     "importedLabelsWithoutEditorial": 93,
     "targetProfiles": 36,
-    "chapters": 59,
-    "extendedChapters": 14,
+    "chapters": 60,
+    "extendedChapters": 15,
     "briefChapters": 45
   },
   "changes": {
@@ -44,19 +44,18 @@
     "newInteractiveLabs": 0,
     "newSections": 15,
     "expandedSections": 0,
-    "newLinksToExistingIdentities": 18
+    "newLinksToExistingIdentities": 15
   },
   "readingManifests": [
-    "data/artrite-reumatoide-reading.json"
+    "data/dermatite-atopica-reading.json"
   ],
   "limits": [
-    "Deduplicazione per hash e pagina in 63 registri disponibili, non intero corpus. Venti nuove pagine, cinque rilette; ventitré con passaggi integrati.",
-    "CFI 591 presenta parti coperte; tabella Rang 26.2 piccola, non tutte le celle verificate. Articoli delle figure non letti integralmente.",
-    "Katzung 751 e Rang 514 letti ma non utilizzati per nuovi passaggi del capitolo; nessun contenuto originale riprodotto.",
-    "EULAR 2025 pubblicata nel 2026: abstract e comunicato letti; intero articolo non accessibile, copia istituzionale non disponibile. EMA consultata selettivamente, anche tramite estratti indicizzati ufficiali.",
-    "Nessuna nuova pagina di altri libri autorizzati o di altri materiali del corso in questo lotto. Copertura complessiva ancora incompleta.",
-    "Sintesi didattica controllata dal solo integratore, non revisione clinica indipendente. Farmaci mancanti, profili e visualizzazioni interattive restano nel backlog.",
+    "Deduplicazione per hash e pagina in 70 registri disponibili, non intera biblioteca. Diciassette pagine nuove e sette rilette; conteggi circoscritti al lotto.",
+    "Ritagli del corso con parti coperte; figura II 31 tagliata. Figure controllate nel contenuto disponibile; formule chimiche non validate atomo per atomo. Articoli e studi citati nelle figure non letti integralmente.",
+    "Testi storici riconciliati con documenti correnti, consultati selettivamente. Nessuna lettura dichiarata di interi libri, corsi o linee guida. Altri libri autorizzati restano incompleti.",
+    "Un nuovo capitolo dedicato, non ampliamento integrale dell’unità su tutti gli organi speciali. I 45 capitoli sintetici restano da approfondire.",
+    "Sintesi originale controllata dal solo integratore; non revisione clinica indipendente. Nessun PDF, figura o trascrizione originale pubblicato. Farmaci mancanti, profili e laboratori interattivi restano nel backlog.",
     "Verifiche Chromium con dimensioni simulate; non dispositivi fisici."
   ],
-  "nextBatch": "Completare prima la verifica e la pubblicazione del lotto 591–595. Soltanto dopo deduplicare PDF 596–600; mantenere 589–590 già lette, senza nuovo conteggio."
+  "nextBatch": "Completare prima CI, pubblicazione e riscontro online del lotto 606–610. Solo dopo deduplicare PDF 611–615. Teoria prioritaria; farmaci, profili e laboratori nel backlog."
 }

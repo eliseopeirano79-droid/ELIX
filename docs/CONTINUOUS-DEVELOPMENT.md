@@ -8,19 +8,19 @@ Per richiesta dell’utente usare «appunti e diapositive del corso di Farmacolo
 
 ## Lotto corrente
 
-theory-course-591-595, candidato 0.61.0: primo capitolo dedicato all’artrite reumatoide, dalla rete sinoviale ai DMARD. Quindici sezioni originali, 2.555 parole, tre schemi, quindici domande, diciassette riferimenti, diciotto farmaci esistenti e cinque capitoli collegati. Un nuovo capitolo; zero ampliamenti di capitoli esistenti, nuove identità, sintesi farmacologiche, profili o laboratori. Totali: 59 capitoli, quattordici estesi e 45 sintetici.
+theory-course-606-610, candidato 0.62.0: primo capitolo dedicato alla dermatite atopica, da barriera e prurito ai bersagli e alle terapie. Quindici sezioni originali, 2.640 parole, tre schemi, quindici domande, ventuno riferimenti, quindici farmaci esistenti e cinque capitoli collegati. Un nuovo capitolo; zero ampliamenti integrali di capitoli esistenti, nuove identità, sintesi farmacologiche, profili o laboratori. Totali: 60 capitoli, quindici estesi e 45 sintetici ancora da approfondire.
 
-La 0.60.0 è pubblicata e verificata al commit c988f8ba7d4978fbd54f420cf63898966d5ba64d. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparato prima della pubblicazione.
+La 0.61.0 è pubblicata e verificata al commit f90581605b2e3987030ce57feffb0d2d489327c2. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparato prima della pubblicazione. I lotti 596–600 e 601–605 hanno lasciato letture private complete per gli intervalli dichiarati, senza nuova pubblicazione; la teoria atopica avviata a 605 viene integrata qui.
 
-Venti nuove pagine: corso I PDF 591–595, Katzung 743–752, Rang & Dale 511–514 e appunti I 288. Cinque pagine rilette senza nuovo conteggio: appunti I 287 e materiali II 34, 36, 15 e 16. Deduplicazione per hash e pagina in 63 registri disponibili. Venticinque pagine lette nel testo disponibile e nei rendering, sei fonti, ventitré con passaggi integrati. Katzung 751 e Rang 514 restano lette ma non integrate. Questa è la copertura del capitolo RA, non un nuovo totale globale della biblioteca.
+Diciassette nuove pagine: corso I PDF 606–610, Katzung 1235 e 1241–1243, Rang & Dale 515–516 e 531–534, appunti I 289, materiali II 31. Sette pagine rilette: corso I 605, appunti I 288, materiali II 29–30 e lezione II 11–13. Deduplicazione per hash e pagina in 70 registri nominati. Ventiquattro pagine lette nel testo disponibile e nei rendering, sei fonti, ventitré con passaggi integrati; II 29 letta ma non usata per nuovi passaggi. Nessuna lettura dichiarata di interi libri o corsi.
 
-Riconciliati DMARD/FANS/glucocorticoidi, CTLA4-Ig, IL6R e PCR, CD20 e plasmacellule, IL1Ra, p40 e JAK. L’algoritmo storico senza data è distinto dall’aggiornamento EULAR 2025 pubblicato nel 2026, che rimuove la stratificazione prognostica dopo fallimento iniziale. Fonti EMA confrontate selettivamente per indicazioni e rischi, inclusi metotrexato settimanale e restrizioni JAK.
+Riconciliati calcineurina/FKBP/mTOR, IL-4Rα e ligandi IL-13, IL-31RA, JAK, PDE4 e agonismo AhR. Indicazioni e rischi confrontati selettivamente con EMA e EuroGuiDerm; FDA usata soltanto per il meccanismo di tapinarof. Distinte psoriasi e dermatite, sedazione e controllo del prurito, via topica e sistemica, dati storici e condizioni correnti. Nessuna sequenza universale, dose individuale o equivalenza fra giurisdizioni.
 
-CFI 591 ha parti coperte; tabella Rang 26.2 ridotta, non tutte le celle controllate. Articoli delle figure non letti integralmente. EULAR: abstract e comunicato letti, non intera linea guida (accesso completo 403/451); EMA anche tramite estratti ufficiali indicizzati. Altri libri e materiali del corso ancora incompleti. Nessuna figura, trascrizione o PDF originale pubblicato; nessuna revisione clinica indipendente.
+Ritagli del corso parzialmente coperti e figura II 31 tagliata. Formule chimiche non validate atomo per atomo; articoli delle figure e studi sottostanti non letti integralmente. Alcuni PDF EMA limitati da 429, con lettura di estratti ufficiali indicizzati e panoramiche EPAR; nessun intero RCP dichiarato letto. Portale EuroGuiDerm aggiornato nel 2026 con capitoli topici/prurito ancora del 2022. Sintesi controllata dal solo integratore, non revisione clinica indipendente. Nessun PDF, figura o trascrizione originale pubblicato.
 
-Controlli locali: 42 validatori, otto configurazioni browser, fonti, tastiera, ricerca, collegamenti e offline. Aggiornamento reale 0.60.0→0.61.0 con dati e tema conservati; tutti i 58 capitoli precedenti e componenti invariati. Sei schermate ispezionate; sei originali con hash invariati. Chromium con dimensioni simulate, non dispositivi fisici.
+Controlli locali: 43 validatori, otto configurazioni browser, fonti, tastiera, ricerca, collegamenti e offline. Aggiornamento reale 0.61.0→0.62.0 con dati e tema conservati; 59 capitoli precedenti e componenti invariati. Sei schermate ispezionate; sei originali con hash invariati. Chromium con dimensioni simulate, non dispositivi fisici.
 
-Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/ELIX-course-591-595-2026-11-04/. ../../outputs/ELIX-latest-verification.json va aggiornata soltanto dopo il deploy verificato.
+Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/ELIX-course-606-610-2026-11-04/. ../../outputs/ELIX-latest-verification.json va aggiornata soltanto dopo il deploy verificato.
 
 ## Regole
 
@@ -32,4 +32,4 @@ Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/
 
 ## Prossimo intervallo
 
-Completare prima verifiche e pubblicazione del lotto 591–595. Solo dopo deduplicare PDF 596–600; 589–590 già lette restano disponibili senza nuovo conteggio. Non riassegnare capitoli consegnati; farmaci mancanti, profili e laboratori restano nel backlog.
+Completare prima CI, pubblicazione e riscontro online del lotto 606–610. Solo dopo deduplicare PDF 611–615. Le pagine già lette rimangono disponibili senza nuovo conteggio; non riassegnare capitoli consegnati. Farmaci mancanti, profili e laboratori restano nel backlog.

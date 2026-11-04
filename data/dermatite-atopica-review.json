@@ -1,0 +1,21 @@
+{
+  "batch": "theory-course-606-610",
+  "chapterId": "dermatite-atopica",
+  "checkedAt": "2026-11-04T11:29:12.693558+00:00",
+  "outcome": "pass",
+  "reviewer": "integrator_editorial_check",
+  "independentClinicalReview": false,
+  "moduleSha256": "981e17a093a49c11dff3f35f83b598cc0345f09f9dcedf98c30ea7d709817ba2",
+  "checks": [
+    "Rilette tutte le 15 sezioni e le 15 risposte; corretto un passaggio poco chiaro sul meccanismo teorico.",
+    "Bersagli distinti: FKBP/calcineurina/mTOR, IL-4Rα, ligandi IL-13, IL-31RA, JAK e agonismo AhR.",
+    "Indicazioni e rischi confrontati nei documenti ufficiali selezionati; nessuna dose individuale o graduatoria universale trasferita.",
+    "Conservate le differenze fra eczema e psoriasi, prurito e sedazione, formulazione topica ed esposizione sistemica.",
+    "Tracciabilità delle sei fonti locali: 17 pagine nuove, sette rilette, 24 rendering e 23 pagine con passaggi integrati.",
+    "Sintesi e tre schemi originali; assenti trascrizioni, immagini originali, percorsi privati e nomi dei docenti nei nuovi file pubblici."
+  ],
+  "limits": [
+    "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
+    "Copertura e lacune specificate nel registro di lettura. Verifiche tecniche e pubblicazione hanno ricevute separate."
+  ]
+}
