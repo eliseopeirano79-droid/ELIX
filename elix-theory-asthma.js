@@ -193,9 +193,38 @@ export const THEORY_ASTHMA = Object.freeze({
         "APP",
         "RAN",
         "GINA",
-        "KAT"
+        "KAT",
+        "DAX",
+        "ENS"
       ],
-      "text": "La tradizionale divisione fra broncodilatatori e farmaci che controllano l’infiammazione organizza lo studio, ma i confini non sono sempre netti. Le xantine compaiono in entrambi gli insiemi perché la loro farmacologia comprende più effetti. I cromoni richiamano invece la prevenzione del rilascio di mediatori. Una classificazione per meccanismo descrive ciò che una sostanza può modificare, non l’ordine in cui oggi vada prescritta.\n\nOccorre evitare anche una precisione solo apparente. Attribuire tutte le xantine a un’inibizione selettiva della sola PDE2 non è una descrizione adeguata della classe. Una via dell’AMP ciclico disegnata accanto a un farmaco non dimostra che quello sia il suo unico bersaglio, né che la concentrazione necessaria sia sempre compatibile con l’impiego clinico.\n\nGINA segnala efficacia limitata e problemi di sicurezza per la teofillina nelle opzioni considerate. Le classi presenti in una lezione restano quindi utili per comprendere la storia della farmacologia, mentre la loro posizione terapeutica richiede un confronto separato con evidenze e documenti attuali.\n\nLa teofillina mostra perché conti anche il punto in cui si interviene. Stimolare β₂ aumenta la sintesi di AMPc; inibire una fosfodiesterasi ne limita la degradazione. Le due operazioni possono convergere sullo stesso messaggero senza essere farmacologicamente identiche. Le xantine interagiscono anche con i recettori dell’adenosina, e i manuali discutono più meccanismi possibili. Un’inibizione osservata a una concentrazione sperimentale elevata non prova che sia il meccanismo dominante all’esposizione clinica. Anche per questo lo schema dell’AMPc è una mappa dei bersagli, non una giustificazione per sostituire un agonista inalatorio con una xantina."
+      "text": "La tradizionale divisione fra broncodilatatori e farmaci che controllano l’infiammazione organizza lo studio, ma i confini non sono sempre netti. Le xantine compaiono in entrambi gli insiemi perché la loro farmacologia comprende più effetti. I cromoni richiamano invece la prevenzione del rilascio di mediatori. Una classificazione per meccanismo descrive ciò che una sostanza può modificare, non l’ordine in cui oggi vada prescritta.\n\nOccorre evitare anche una precisione solo apparente. Attribuire tutte le xantine a un’inibizione selettiva della sola PDE2 non è una descrizione adeguata della classe. Una via dell’AMP ciclico disegnata accanto a un farmaco non dimostra che quello sia il suo unico bersaglio, né che la concentrazione necessaria sia sempre compatibile con l’impiego clinico.\n\nGINA segnala efficacia limitata e problemi di sicurezza per la teofillina nelle opzioni considerate. Le classi presenti in una lezione restano quindi utili per comprendere la storia della farmacologia, mentre la loro posizione terapeutica richiede un confronto separato con evidenze e documenti attuali.\n\nLa teofillina mostra perché conti anche il punto in cui si interviene. Stimolare β₂ aumenta la sintesi di AMPc; inibire una fosfodiesterasi ne limita la degradazione. Le due operazioni possono convergere sullo stesso messaggero senza essere farmacologicamente identiche. Le xantine interagiscono anche con i recettori dell’adenosina, e i manuali discutono più meccanismi possibili. Un’inibizione osservata a una concentrazione sperimentale elevata non prova che sia il meccanismo dominante all’esposizione clinica. Anche per questo lo schema dell’AMPc è una mappa dei bersagli, non una giustificazione per sostituire un agonista inalatorio con una xantina.\n\nIl nome fosfodiesterasi identifica una famiglia di enzimi, non un unico interruttore bronchiale. PDE4 idrolizza AMPc; PDE3 agisce prevalentemente su AMPc e può idrolizzare anche GMPc. Il risultato dell’inibizione dipende dagli enzimi espressi nella cellula e dai sistemi che rispondono ai nucleotidi ciclici. Nella muscolatura liscia interessa la regolazione del tono; nelle cellule infiammatorie interessa anche la produzione di mediatori. Selettività per una famiglia enzimatica, distribuzione nei tessuti e via di somministrazione sono quindi tre proprietà diverse. Nessuna, presa da sola, dimostra che un farmaco agisca soltanto nel polmone."
+    },
+    {
+      "id": "xantine",
+      "title": "Teofillina: meccanismi multipli e margine terapeutico",
+      "refs": [
+        "CFI",
+        "KAT",
+        "RAN",
+        "APP",
+        "THEO",
+        "GINA"
+      ],
+      "text": "La teofillina è una metilxantina; l’aminofillina ne è un complesso con etilendiammina che facilita la solubilità. La formulazione modifica la possibilità di somministrazione, ma non crea una molecola selettiva per il bronco. I manuali discutono inibizione delle fosfodiesterasi, antagonismo dei recettori dell’adenosina e possibili effetti sulla regolazione dell’espressione genica. Il contributo relativo di questi meccanismi dipende dal sistema studiato e dalla concentrazione: non è corretto trasformare un singolo schema in una spiegazione esclusiva.\n\nLa stessa ampiezza farmacologica aiuta a comprendere il problema della sicurezza. Il segnale dei nucleotidi ciclici e quello adenosinico operano anche fuori dalle vie aeree. Disturbi gastrointestinali, stimolazione del sistema nervoso e alterazioni cardiache possono quindi accompagnare l’effetto bronchiale; nella tossicità grave sono particolarmente rilevanti aritmie e convulsioni. La vicinanza fra esposizioni utili e pericolose rende insufficiente ragionare soltanto in termini di quantità somministrata.\n\nA parità di dose, una riduzione della clearance può aumentare l’esposizione. Malattia epatica, alcune condizioni cardiache, febbre e farmaci concomitanti possono modificare l’eliminazione; anche un cambiamento nell’abitudine al fumo cambia il contesto metabolico. Il monitoraggio delle concentrazioni, quando richiesto, serve a collegare dose, esposizione ed effetti. Non è una garanzia assoluta di sicurezza e non sostituisce la valutazione delle interazioni o dei sintomi.\n\nLa posizione terapeutica va separata da questa spiegazione del meccanismo. GINA 2026 non raccomanda la teofillina orale e sconsiglia aminofillina e teofillina endovenose nelle riacutizzazioni asmatiche. Una loro presenza nei manuali storici, o in un’indicazione autorizzata di prodotto, non equivale a una raccomandazione nella strategia attuale. Anche l’ipotesi di potenziare il segnale di un agonista β₂ deve essere giudicata sul rapporto fra benefici e rischi della combinazione, non sulla sola convergenza sull’AMPc.",
+      "formula": "Dose → esposizione, modulata da assorbimento e clearance → effetti bronchiali e sistemici. Cambiare la clearance può cambiare il rischio anche a dose invariata. Schema qualitativo originale: nessuna soglia di sicurezza o istruzione di dosaggio."
+    },
+    {
+      "id": "pde",
+      "title": "Roflumilast ed ensifentrina: selettività, via ed esito",
+      "refs": [
+        "CFI",
+        "KAT",
+        "APP",
+        "DAX",
+        "ENS"
+      ],
+      "text": "Lo sviluppo degli inibitori delle PDE tenta di separare meglio i contributi utili da quelli indesiderati. Roflumilast ed ensifentrina illustrano due scelte differenti: il primo agisce su PDE4 ed è somministrato per via orale; la seconda inibisce PDE3 e PDE4 ed è somministrata per inalazione. Parlare di selettività richiede di precisare la famiglia enzimatica e l’esposizione nei tessuti, senza supporre che tutti i suoi effetti appartengano alla stessa categoria clinica.\n\nRoflumilast aumenta il segnale dell’AMPc nelle cellule che esprimono PDE4, comprese cellule strutturali e infiammatorie. Il suo ruolo nella BPCO è soprattutto antinfiammatorio. L’indicazione europea riguarda il mantenimento aggiuntivo ai broncodilatatori in adulti con BPCO grave, bronchite cronica e precedenti riacutizzazioni frequenti. Non è un trattamento di soccorso del broncospasmo. La selettività enzimatica non elimina diarrea, nausea, perdita di peso o possibili disturbi psichiatrici; inoltre esposizione e tollerabilità possono risentire delle interazioni metaboliche.\n\nPer ensifentrina, l’inibizione di PDE3 e PDE4 offre una base farmacologica per collegare il tono della muscolatura alle risposte infiammatorie. Il documento statunitense di Ohtuvayre, aggiornato a ottobre 2026, indica il mantenimento della BPCO negli adulti e distingue questo impiego dal sollievo dei sintomi acuti. La via inalatoria porta il farmaco alle vie aeree, ma non rende nullo il rischio: il documento segnala, tra le avvertenze, broncospasmo paradosso ed eventi psichiatrici.\n\nOccorre infine distinguere il livello della prova. Uno schema che mostra cellule immunitarie, epitelio e muscolo descrive processi potenzialmente modificabili. Il miglioramento del FEV₁ osservato negli studi è invece un esito funzionale. Nessuno dei due, isolatamente, dimostra che gli alveoli danneggiati vengano riparati o che il farmaco prevenga necessariamente la loro distruzione. L’effetto su mediatori o trasporto ionico non autorizza neppure a trasferire l’indicazione ad altre malattie respiratorie. Il confronto fra le due molecole serve a comprendere bersaglio, via e obiettivo; non stabilisce una graduatoria universale né la disponibilità di una preparazione in Italia.",
+      "formula": "Roflumilast: PDE4 → modulazione di risposte infiammatorie → mantenimento aggiuntivo in uno specifico contesto di BPCO. Ensifentrina: PDE3/4 + inalazione → effetti cellulari e risposta funzionale → mantenimento BPCO nel documento USA. Selettività ≠ esclusività d’organo; mantenimento ≠ soccorso. Schema originale, non algoritmo prescrittivo."
     },
     {
       "id": "obiettivi",
@@ -257,10 +286,10 @@ export const THEORY_ASTHMA = Object.freeze({
         "RAN",
         "APP"
       ],
-      "text": "Per ripercorrere il capitolo si può partire da una domanda concreta: quale componente dell’ostruzione sta modificando il farmaco? Se il percorso è β₂–AMP ciclico, il punto di arrivo immediato è il tono muscolare. Se il bersaglio è muscarinico, si sta riducendo una risposta all’acetilcolina. Se si interviene su CysLT₁, si limita una via specifica dei mediatori lipidici. Con il recettore glucocorticoide si modifica invece un programma cellulare più ampio.\n\nLa domanda successiva riguarda il tempo e l’esito. Una variazione del calibro, il controllo dell’iperreattività e la prevenzione di nuovi episodi non sono misure intercambiabili. Anche la via di somministrazione e la formulazione appartengono al ragionamento: condizionano l’esposizione senza cambiare il nome del bersaglio.\n\nLa copertura cresce per intervalli identificati nelle fonti e nei registri collegati. Il lotto più recente comprende corso I PDF 641–645, Katzung 409–410, Rang & Dale 548 e appunti I 298–299: dieci pagine controllate, sei nuove e quattro rilette, con tutti i rendering. Sette sostengono l’ampliamento; corso 644–645 e appunti 299 non aggiungono passaggi. La copertura cumulativa identificata mediante hash comprende 50 pagine controllate e 43 con passaggi integrati. La selezione respiratoria storica resta distinta; nessun intero libro o corso dichiarato letto e nessuna revisione clinica indipendente."
+      "text": "Per ripercorrere il capitolo si può partire da una domanda concreta: quale componente dell’ostruzione sta modificando il farmaco? Se il percorso è β₂–AMP ciclico, il punto di arrivo immediato è il tono muscolare. Se il bersaglio è muscarinico, si sta riducendo una risposta all’acetilcolina. Se si interviene su CysLT₁, si limita una via specifica dei mediatori lipidici. Con il recettore glucocorticoide si modifica invece un programma cellulare più ampio.\n\nLa domanda successiva riguarda il tempo e l’esito. Una variazione del calibro, il controllo dell’iperreattività e la prevenzione di nuovi episodi non sono misure intercambiabili. Anche la via di somministrazione e la formulazione appartengono al ragionamento: condizionano l’esposizione senza cambiare il nome del bersaglio.\n\nLa copertura cresce per intervalli identificati nelle fonti e nei registri collegati. Il lotto più recente comprende corso I PDF 646–650, Katzung 407–409, Rang & Dale 547 e appunti I 299: dieci pagine controllate, sette nuove e tre rilette, con tutti i rendering. Nove sostengono l’ampliamento; corso 650 è letto ma non integrato. Sette pagine entrano nella copertura integrata, compresi gli appunti 299 già letti. La copertura cumulativa identificata mediante hash comprende 57 pagine controllate e 50 con passaggi integrati. La selezione respiratoria storica resta distinta; nessun intero libro o corso dichiarato letto e nessuna revisione clinica indipendente."
     }
   ],
-  "wordCount": 4904,
+  "wordCount": 5584,
   "checks": [
     {
       "question": "Perché broncodilatazione non equivale a controllo completo della malattia?",
@@ -349,33 +378,41 @@ export const THEORY_ASTHMA = Object.freeze({
     {
       "question": "Perché una diversa curva di FEV₁ dopo salbutamolo e ipratropio non dimostra che la causa sia il blocco M₂?",
       "answer": "Il FEV₁ descrive una risposta funzionale complessiva. La curva non separa il ruolo del feedback M₂ da contributo vagale, esposizione e cinetica. Occorrono prove specifiche del meccanismo; inoltre una risposta dopo singola somministrazione non misura il controllo della malattia nel tempo."
+    },
+    {
+      "question": "Perché la stessa dose di teofillina può diventare più rischiosa senza essere aumentata?",
+      "answer": "L’esposizione dipende anche dalla clearance, che può cambiare con malattie, fumo e interazioni. Una riduzione dell’eliminazione può aumentare le concentrazioni e gli effetti sistemici; il margine terapeutico è ristretto. Il monitoraggio non sostituisce la valutazione clinica."
+    },
+    {
+      "question": "Perché selettività PDE4 e somministrazione inalatoria non significano assenza di rischi?",
+      "answer": "La selettività riguarda un bersaglio, la via riguarda come il farmaco raggiunge i tessuti. Le PDE non sono esclusive del bronco e l’inalazione non esclude effetti indesiderati. Roflumilast ed ensifentrina hanno avvertenze proprie; un effetto cellulare o un miglioramento del FEV₁ non dimostra riparazione alveolare."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 621–625, etichette 619–623. Testo disponibile e cinque rendering controllati; 621 è programma, 622 contiene elementi poco leggibili non trasferiti. 623 riprende una Perspective, non una sperimentazione clinica. Ampliamento: PDF 626–630, etichette 624–628, testo e rendering; categorie storiche riconciliate. La figura 629 ripete Katzung 404, non è prova indipendente. Lotto successivo: PDF 631–635, etichette 629–633; quattro testi disponibili e tabella immagine 634 letti, cinque rendering controllati. 633 non aggiunge contenuto; figure 631/633–635 duplicate negli appunti 295–296. Nuovo intervallo PDF 636–640, etichette 634–638: quattro testi e uno schema immagine, cinque rendering. 637–639 integrati; 636/640 senza nuovo passaggio. Grafici e schemi duplicati negli appunti riconosciuti. PDF 641–645, etichette 639–643: cinque pagine del corso, dieci complessive nel lotto con i confronti; 641–643 integrati, 644–645 già trattati. Recuperato il riferimento Ruffin 1977, distinto dalla lettura del suo testo integrale."
+      "detail": "PDF 621–625, etichette 619–623. Testo disponibile e cinque rendering controllati; 621 è programma, 622 contiene elementi poco leggibili non trasferiti. 623 riprende una Perspective, non una sperimentazione clinica. Ampliamento: PDF 626–630, etichette 624–628, testo e rendering; categorie storiche riconciliate. La figura 629 ripete Katzung 404, non è prova indipendente. Lotto successivo: PDF 631–635, etichette 629–633; quattro testi disponibili e tabella immagine 634 letti, cinque rendering controllati. 633 non aggiunge contenuto; figure 631/633–635 duplicate negli appunti 295–296. Nuovo intervallo PDF 636–640, etichette 634–638: quattro testi e uno schema immagine, cinque rendering. 637–639 integrati; 636/640 senza nuovo passaggio. Grafici e schemi duplicati negli appunti riconosciuti. PDF 641–645, etichette 639–643: cinque pagine del corso, dieci complessive nel lotto con i confronti; 641–643 integrati, 644–645 già trattati. Recuperato il riferimento Ruffin 1977, distinto dalla lettura del suo testo integrale. PDF 646–650, etichette 644–648: metilxantine, PDE4 e PDE3/4 integrate da 646–649; corticosteroidi 650 letti ma non aggiunti."
     },
     {
       "id": "KAT",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX italiana 2014 / XII americana 2012; capitolo 20, PDF 400–403, editoriali 380–383. Quattro pagine e figure 20-1/20-2 controllate; indicazioni storiche e valori delle curve non trasferiti. Ampliamento: PDF 404–406, editoriali 384–386; testo e figure controllati. 404 e 406 integrati; strutture e dettagli storici di 405 non trasferiti. Rilettura PDF 404–406: ora anche 405 sostiene il confronto teorico tra struttura e vie, senza riprodurre formule o indicazioni storiche; 406 non aggiunge nuovi passaggi. Riletto PDF 406 e letti PDF 409–410, editoriali 389–390: tolleranza e circuito muscarinico. Indicazioni e rassicurazioni storiche riconciliate con documenti attuali; dosi non trasferite. PDF 409–410 riletti: componente vagale, secrezione e variabilità funzionale."
+      "detail": "IX italiana 2014 / XII americana 2012; capitolo 20, PDF 400–403, editoriali 380–383. Quattro pagine e figure 20-1/20-2 controllate; indicazioni storiche e valori delle curve non trasferiti. Ampliamento: PDF 404–406, editoriali 384–386; testo e figure controllati. 404 e 406 integrati; strutture e dettagli storici di 405 non trasferiti. Rilettura PDF 404–406: ora anche 405 sostiene il confronto teorico tra struttura e vie, senza riprodurre formule o indicazioni storiche; 406 non aggiunge nuovi passaggi. Riletto PDF 406 e letti PDF 409–410, editoriali 389–390: tolleranza e circuito muscarinico. Indicazioni e rassicurazioni storiche riconciliate con documenti attuali; dosi non trasferite. PDF 409–410 riletti: componente vagale, secrezione e variabilità funzionale. PDF 407–409, editoriali 387–389: meccanismi, effetti sistemici e variabilità della clearance; 407–408 nuove letture, 409 riletta. Indicazioni storiche riconciliate."
     },
     {
       "id": "RAN",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII italiana 2016 / originale 2015, capitolo 28; PDF 541–545 e 549. Sei testi e rendering, due pagine rilette (545 e 549). Refuso agonisti/antagonisti nella figura 28.3 e confusione LTB4/cisteinilici riconciliati; scala terapeutica 2012 non trasferita. Ampliamento: PDF 546–547 lette e controllate; tempi e xantine. Regole storiche di impiego e unità di concentrazione problematiche non trasferite. Rilettura PDF 546 per assorbimento sistemico ed effetti avversi; nessuna attribuzione di tutti gli effetti cardiaci al solo β1. PDF 548: rilettura del testo già registrato nella selezione respiratoria storica, con primo controllo visivo esplicito; distinti M2 presinaptico e M3 muscolare. PDF 548 riletto con rendering: ipotesi sul feedback M2 distinta da dimostrazione sperimentale."
+      "detail": "VIII italiana 2016 / originale 2015, capitolo 28; PDF 541–545 e 549. Sei testi e rendering, due pagine rilette (545 e 549). Refuso agonisti/antagonisti nella figura 28.3 e confusione LTB4/cisteinilici riconciliati; scala terapeutica 2012 non trasferita. Ampliamento: PDF 546–547 lette e controllate; tempi e xantine. Regole storiche di impiego e unità di concentrazione problematiche non trasferite. Rilettura PDF 546 per assorbimento sistemico ed effetti avversi; nessuna attribuzione di tutti gli effetti cardiaci al solo β1. PDF 548: rilettura del testo già registrato nella selezione respiratoria storica, con primo controllo visivo esplicito; distinti M2 presinaptico e M3 muscolare. PDF 548 riletto con rendering: ipotesi sul feedback M2 distinta da dimostrazione sperimentale. PDF 547 riletto con rendering: meccanismi multipli e margine terapeutico; non trasferite le unità numeriche della pagina."
     },
     {
       "id": "APP",
       "title": "Appunti e diapositive del corso di Farmacologia I · lezione 17",
-      "detail": "25 novembre 2025, PDF 293–295, etichette 288–290, pagine 1–3 della lezione. Distinti PKA e AMPc; non adottate la selettività PDE2 delle xantine né l’origine meccanica universale della malattia. Ampliamento: PDF 296–297, etichette 291–292, pagine 4–5 della lezione. 296 integrata; 297 letta, non integrata, con lacune sulla tolleranza registrate. Rilette PDF 295–296, etichette 290–291: distretti, selettività, struttura e vie; figure duplicate nel corso, non conferme indipendenti. PDF 297–298, etichette 292–293: 297 riletta, 298 nuova. Grafico storico e circuito muscarinico confrontati con corso 637/639; spiegazioni assolute della tolleranza non adottate. PDF 298–299, etichette 293–294: 298 riletta e integrata, 299 nuova ma fuori dall’ampliamento. Riferimento del grafico ora rintracciato nel corso: Ruffin 1977."
+      "detail": "25 novembre 2025, PDF 293–295, etichette 288–290, pagine 1–3 della lezione. Distinti PKA e AMPc; non adottate la selettività PDE2 delle xantine né l’origine meccanica universale della malattia. Ampliamento: PDF 296–297, etichette 291–292, pagine 4–5 della lezione. 296 integrata; 297 letta, non integrata, con lacune sulla tolleranza registrate. Rilette PDF 295–296, etichette 290–291: distretti, selettività, struttura e vie; figure duplicate nel corso, non conferme indipendenti. PDF 297–298, etichette 292–293: 297 riletta, 298 nuova. Grafico storico e circuito muscarinico confrontati con corso 637/639; spiegazioni assolute della tolleranza non adottate. PDF 298–299, etichette 293–294: 298 riletta e integrata, 299 nuova ma fuori dall’ampliamento. Riferimento del grafico ora rintracciato nel corso: Ruffin 1977. PDF 299, etichetta 294, lezione 17 del 25 novembre 2025: riletta e ora integrata; duplicati e generalizzazioni sulle PDE riconciliati."
     },
     {
       "id": "GINA",
       "title": "GINA · Strategy Report 2026",
-      "detail": "Consultazione mirata del 4 novembre 2026: PDF 26, 79, 85–86, 98–100 (stampate 25, 78, 84–85, 97–99), testo e rendering. Definizione, trattamento con ICS, opzioni aggiuntive. Non revisione integrale della linea guida o verifica delle autorizzazioni italiane. Ampliamento: PDF 142–144, stampate 141–143, testo e rendering su asma+BPCO; non nuova entità uniforme. Nuova lettura selettiva: PDF 249, stampata 248, testo e rendering; SABA e impiego breve di ipratropio.",
+      "detail": "Consultazione mirata del 4 novembre 2026: PDF 26, 79, 85–86, 98–100 (stampate 25, 78, 84–85, 97–99), testo e rendering. Definizione, trattamento con ICS, opzioni aggiuntive. Non revisione integrale della linea guida o verifica delle autorizzazioni italiane. Ampliamento: PDF 142–144, stampate 141–143, testo e rendering su asma+BPCO; non nuova entità uniforme. Nuova lettura selettiva: PDF 249, stampata 248, testo e rendering; SABA e impiego breve di ipratropio. Nuovi passaggi consultati il 4 novembre 2026: PDF 101/editoriale 100 sui broncodilatatori orali e PDF 190/editoriale 189 su aminofillina/teofillina nelle riacutizzazioni. Lettura selettiva, non intere pagine o rapporto completo.",
       "url": "https://ginasthma.org/2026-gina-strategy-report/"
     },
     {
@@ -449,6 +486,24 @@ export const THEORY_ASTHMA = Object.freeze({
       "title": "Ruffin et al. · Confronto tra ipratropio e salbutamolo",
       "detail": "J Allergy Clin Immunol. 1977;59:136–141; DOI 10.1016/0091-6749(77)90215-9. Letto l’abstract completo il 4 novembre 2026, non il testo integrale o le figure originali. Confronto funzionale storico, senza inferire causalità recettoriale.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/137922/"
+    },
+    {
+      "id": "DAX",
+      "title": "EMA · Daxas, informazione di prodotto",
+      "detail": "Consultazione selettiva il 4 novembre 2026: 4.1 (PDF 2), 4.4 (PDF 3–4), 4.5 primo paragrafo (PDF 4), 5.1 meccanismo e farmacodinamica (PDF 8). Documento non letto integralmente; figure non valutate. Indicazioni riferite alla giurisdizione del documento, senza verifica italiana.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/daxas-epar-product-information_en.pdf"
+    },
+    {
+      "id": "ENS",
+      "title": "NLM DailyMed · Ohtuvayre, label USA revisionata ottobre 2026",
+      "detail": "Consultazione selettiva il 4 novembre 2026: 1, 5.1–5.3, 12.1, 14: disegno dei due studi e endpoint primario FEV1. Documento non letto integralmente; figure non valutate. Indicazioni riferite alla giurisdizione del documento, senza verifica italiana.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e6433c98-41a0-4f99-8f7f-d0e9db6e3f40"
+    },
+    {
+      "id": "THEO",
+      "title": "Ennogen · Uniphyllin, SmPC britannico aggiornato 7 agosto 2026",
+      "detail": "Consultazione selettiva il 4 novembre 2026: 4.1, 4.2: monitoraggio e fumo, 4.4, 4.5: fattori che aumentano/riducono clearance. Documento non letto integralmente; figure non valutate. Indicazioni riferite alla giurisdizione del documento, senza verifica italiana.",
+      "url": "https://www.medicines.org.uk/emc/product/100850/smpc"
     }
   ],
   "moleculeLinks": [
@@ -516,5 +571,5 @@ export const THEORY_ASTHMA = Object.freeze({
     "gina-2026",
     "gold-2026"
   ],
-  "coverage": "Copertura cumulativa con hash: 50 pagine locali distinte controllate, 43 integrate. Ultimo lotto: sei nuove letture e quattro riletture; sette pagine sostengono l’ampliamento. Ruffin 1977 solo abstract; documenti ufficiali consultati selettivamente. Nessun intero libro o corso letto; nessuna revisione clinica indipendente."
+  "coverage": "Copertura cumulativa con hash: 57 pagine locali distinte controllate, 50 integrate. Ultimo lotto: sette nuove letture e tre riletture; nove pagine sostengono l’ampliamento. Fonti ufficiali consultate solo nelle sezioni dichiarate. Nessun intero libro o corso letto; nessuna revisione clinica indipendente."
 });
