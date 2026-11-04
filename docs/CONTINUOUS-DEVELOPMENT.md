@@ -8,19 +8,19 @@ Per richiesta dell’utente usare «appunti e diapositive del corso di Farmacolo
 
 ## Lotto corrente
 
-theory-course-586-590, candidato 0.60.0: tre sezioni originali sulle mappe dei bersagli, l’immunomodulazione cellulare e il caso storico di darvadstrocel nel capitolo MICI. Uno schema originale e tre domande: 50 sezioni, 10.594 parole, 49 domande, 54 riferimenti, 26 farmaci esistenti e sette capitoli collegati. Un ampliamento; zero nuove identità, sintesi farmacologiche, profili, laboratori o capitoli. Totali invariati: 58 capitoli, tredici estesi e 45 sintetici.
+theory-course-591-595, candidato 0.61.0: primo capitolo dedicato all’artrite reumatoide, dalla rete sinoviale ai DMARD. Quindici sezioni originali, 2.555 parole, tre schemi, quindici domande, diciassette riferimenti, diciotto farmaci esistenti e cinque capitoli collegati. Un nuovo capitolo; zero ampliamenti di capitoli esistenti, nuove identità, sintesi farmacologiche, profili o laboratori. Totali: 59 capitoli, quattordici estesi e 45 sintetici.
 
-La 0.59.0 è pubblicata e verificata al commit db5177b6b23360653a3c52b2d2a339f84daad12c. Il lotto 581–585 è concluso come sola lettura, senza pubblicazione. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparato prima della pubblicazione.
+La 0.60.0 è pubblicata e verificata al commit c988f8ba7d4978fbd54f420cf63898966d5ba64d. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparato prima della pubblicazione.
 
-Cinque nuove pagine delle diapositive del corso di Farmacologia I 2025–26, PDF 586–590 (etichette 584–588), lette nel testo disponibile e nei rendering. Integrate soltanto 587–588. A 589 inizia l’artrite reumatoide: 589–590 lette ma escluse dalle MICI. Le cinque pagine 581–585 del lotto privato precedente sono riportate nel registro pubblico senza ricontarle come nuove né integrarle. Copertura cumulativa: 80 pagine lette, 67 con passaggi integrati, sei fonti. Deduplicazione per hash e pagina in 52 registri disponibili, non intero corpus. Nessuna nuova pagina di Katzung, Rang & Dale, appunti I o Farmacologia II: mantenuta la riconciliazione precedente.
+Venti nuove pagine: corso I PDF 591–595, Katzung 743–752, Rang & Dale 511–514 e appunti I 288. Cinque pagine rilette senza nuovo conteggio: appunti I 287 e materiali II 34, 36, 15 e 16. Deduplicazione per hash e pagina in 63 registri disponibili. Venticinque pagine lette nel testo disponibile e nei rendering, sei fonti, ventitré con passaggi integrati. Katzung 751 e Rang 514 restano lette ma non integrate. Questa è la copertura del capitolo RA, non un nuovo totale globale della biblioteca.
 
-La figura cellulare del 2021 è confrontata con quattro documenti EMA/AIFA. Alofisel è presentato come esempio storico: autorizzazione europea ritirata il 13/12/2024 dopo mancata conferma del beneficio, senza nuovi segnali di sicurezza. Modello immunomodulatore, esito clinico e autorizzazione restano distinti. Letti il public statement di una pagina, passaggi dello SmPC archiviato, DHPC PDF 1–2 e corpo della nota AIFA; non fascicoli o studi interi. EPAR diretto non disponibile (429), stato verificato tramite la dichiarazione ufficiale.
+Riconciliati DMARD/FANS/glucocorticoidi, CTLA4-Ig, IL6R e PCR, CD20 e plasmacellule, IL1Ra, p40 e JAK. L’algoritmo storico senza data è distinto dall’aggiornamento EULAR 2025 pubblicato nel 2026, che rimuove la stratificazione prognostica dopo fallimento iniziale. Fonti EMA confrontate selettivamente per indicazioni e rischi, inclusi metotrexato settimanale e restrizioni JAK.
 
-A 583 e 585 rimangono parti coperte o tagliate; la nota della tabella 587 non è inclusa. Articoli sottostanti alle figure non letti integralmente, figure e procedure non pubblicate. Restano i limiti precedenti, comprese figure ridotte e confronto selettivo delle linee guida. Sintesi didattica con controllo editoriale del solo integratore, non revisione clinica indipendente.
+CFI 591 ha parti coperte; tabella Rang 26.2 ridotta, non tutte le celle controllate. Articoli delle figure non letti integralmente. EULAR: abstract e comunicato letti, non intera linea guida (accesso completo 403/451); EMA anche tramite estratti ufficiali indicizzati. Altri libri e materiali del corso ancora incompleti. Nessuna figura, trascrizione o PDF originale pubblicato; nessuna revisione clinica indipendente.
 
-Controlli locali superati: 41 validatori, otto configurazioni browser, tastiera, fonti, farmaci, capitoli, ricerca darvadstrocel e offline. Aggiornamento reale 0.59.0→0.60.0 con dati e tema conservati. Sei schermate ispezionate; altri 57 capitoli e componenti invariati, sei originali con hash invariati. Chromium con dimensioni simulate, non dispositivi fisici.
+Controlli locali: 42 validatori, otto configurazioni browser, fonti, tastiera, ricerca, collegamenti e offline. Aggiornamento reale 0.60.0→0.61.0 con dati e tema conservati; tutti i 58 capitoli precedenti e componenti invariati. Sei schermate ispezionate; sei originali con hash invariati. Chromium con dimensioni simulate, non dispositivi fisici.
 
-Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/ELIX-course-586-590-2026-11-04/. ../../outputs/ELIX-latest-verification.json va aggiornata soltanto dopo il deploy verificato.
+Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/ELIX-course-591-595-2026-11-04/. ../../outputs/ELIX-latest-verification.json va aggiornata soltanto dopo il deploy verificato.
 
 ## Regole
 
@@ -32,4 +32,4 @@ Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/
 
 ## Prossimo intervallo
 
-Completare prima verifiche e pubblicazione della 0.60.0. Nel successivo lotto deduplicare diapositive I PDF 591–595 e riutilizzare 589–590 già lette per definire il segmento artrite reumatoide e la collocazione nella teoria esistente; non ricontare o riassegnare capitoli consegnati. Farmaci mancanti, profili e laboratori restano nel backlog.
+Completare prima verifiche e pubblicazione del lotto 591–595. Solo dopo deduplicare PDF 596–600; 589–590 già lette restano disponibili senza nuovo conteggio. Non riassegnare capitoli consegnati; farmaci mancanti, profili e laboratori restano nel backlog.

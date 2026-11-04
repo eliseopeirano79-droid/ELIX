@@ -1,28 +1,27 @@
 {
-  "updatedAt": "2026-11-04T08:40:30.167855+00:00",
-  "batch": "theory-course-586-590",
+  "updatedAt": "2026-11-04T09:37:22.562125+00:00",
+  "batch": "theory-course-591-595",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.60.0",
-  "branch": "feat/theory-course-586-590",
-  "baseCommit": "db5177b6b23360653a3c52b2d2a339f84daad12c",
+  "release": "0.61.0",
+  "branch": "feat/theory-course-591-595",
+  "baseCommit": "c988f8ba7d4978fbd54f420cf63898966d5ba64d",
   "previousBatch": {
-    "batch": "theory-course-581-585",
-    "status": "source_only_complete",
-    "release": "0.59.0",
-    "commit": "db5177b6b23360653a3c52b2d2a339f84daad12c"
+    "batch": "theory-course-586-590",
+    "status": "published_and_live_verified",
+    "release": "0.60.0",
+    "commit": "c988f8ba7d4978fbd54f420cf63898966d5ba64d"
   },
   "scope": [
-    "MICI: lettura delle mappe emergenti, immunomodulazione cellulare e ritiro europeo di darvadstrocel."
+    "Primo capitolo teorico dedicato all’artrite reumatoide: rete sinoviale, DMARD, bersagli cellulari e confronto EMA/EULAR."
   ],
   "completed": [
-    "Cinque nuove pagine lette e controllate; due integrate e confine con artrite reumatoide registrato.",
-    "Capitolo: 50 sezioni, 10594 parole, 49 domande, 54 riferimenti, 26 farmaci esistenti.",
-    "41 validatori e otto configurazioni browser superati; tastiera, fonti, 26 farmaci, sette capitoli, entrambe le ricerche e offline.",
-    "Aggiornamento reale 0.59.0→0.60.0 con dati e tema conservati. Altri 57 capitoli e componenti invariati, 47 sezioni precedenti salvo nota finale e 46 domande conservate.",
-    "Sei schermate ispezionate; sei originali con hash invariati."
+    "15 sezioni originali, 2555 parole, tre schemi, 15 domande, 17 riferimenti e 18 collegamenti a farmaci esistenti.",
+    "20 nuove pagine e cinque rilette di sei fonti; 23 pagine con passaggi integrati. Hash degli originali invariati.",
+    "42 validatori, otto configurazioni browser, tastiera, fonti, entrambe le ricerche, farmaci, capitoli e offline verificati.",
+    "Aggiornamento reale 0.60.0→0.61.0: dati e tema conservati. Tutti i 58 capitoli precedenti, catalogo, lettore, stile e laboratori invariati."
   ],
   "remaining": [
-    "CI sul commit, deploy concluso e verifica online di contenuti, navigazione, offline e accessi storici."
+    "CI, deploy concluso e riscontro online."
   ],
   "counts": {
     "identities": 4225,
@@ -31,8 +30,8 @@
     "pkFields": 420,
     "importedLabelsWithoutEditorial": 93,
     "targetProfiles": 36,
-    "chapters": 58,
-    "extendedChapters": 13,
+    "chapters": 59,
+    "extendedChapters": 14,
     "briefChapters": 45
   },
   "changes": {
@@ -40,26 +39,24 @@
     "newDrugSummaries": 0,
     "newProductPKContexts": 0,
     "newPKFields": 0,
-    "newChapters": 0,
-    "expandedChapters": 1,
+    "newChapters": 1,
+    "expandedChapters": 0,
     "newInteractiveLabs": 0,
-    "newSections": 3,
+    "newSections": 15,
     "expandedSections": 0,
-    "newLinksToExistingIdentities": 0
+    "newLinksToExistingIdentities": 18
   },
   "readingManifests": [
-    "data/mici-reading.json"
+    "data/artrite-reumatoide-reading.json"
   ],
   "limits": [
-    "Cinque nuove pagine fisiche, PDF 586–590, lette nel testo disponibile e nei rendering; non cinque prove indipendenti. Integrate soltanto 587–588.",
-    "Cinque pagine 581–585 già lette nel lotto privato precedente ora riportate nel registro pubblico senza ricontarle come nuove. A 583 e 585 rimangono porzioni coperte o tagliate nell’originale.",
-    "Tabella del 2023 e figura del 2021 sono materiali storici; articoli sottostanti non letti integralmente e nota a della tabella 587 non inclusa. Nessuna figura, trascrizione o procedura originale pubblicata.",
-    "Artrite reumatoide inizia a PDF 589: pagine 589–590 lette ma escluse dalla sintesi MICI.",
-    "Nessuna nuova lettura di Katzung, Rang & Dale, appunti I o materiali II: riutilizzata la riconciliazione già documentata. Nessuna copertura integrale dei libri o dei corsi.",
-    "Quattro fonti ufficiali aggiunte: dichiarazione EMA di una pagina letta, SmPC archiviato nei passaggi indicati, DHPC pagine 1–2 e nota AIFA. EPAR diretto non disponibile (429), stato verificato nel public statement ufficiale. Studi clinici non letti integralmente.",
-    "Darvadstrocel mantenuto come esempio storico: autorizzazione europea ritirata il 13/12/2024. Il modello cellulare non dimostra efficacia; mancata conferma del beneficio distinta da nuovi segnali di sicurezza.",
-    "Restano i limiti dei lotti precedenti, comprese figure ridotte e confronto selettivo delle linee guida. Sintesi didattica con controllo editoriale del solo integratore, non revisione clinica indipendente.",
-    "Verifiche locali in Chromium con dimensioni simulate; non dispositivi fisici."
+    "Deduplicazione per hash e pagina in 63 registri disponibili, non intero corpus. Venti nuove pagine, cinque rilette; ventitré con passaggi integrati.",
+    "CFI 591 presenta parti coperte; tabella Rang 26.2 piccola, non tutte le celle verificate. Articoli delle figure non letti integralmente.",
+    "Katzung 751 e Rang 514 letti ma non utilizzati per nuovi passaggi del capitolo; nessun contenuto originale riprodotto.",
+    "EULAR 2025 pubblicata nel 2026: abstract e comunicato letti; intero articolo non accessibile, copia istituzionale non disponibile. EMA consultata selettivamente, anche tramite estratti indicizzati ufficiali.",
+    "Nessuna nuova pagina di altri libri autorizzati o di altri materiali del corso in questo lotto. Copertura complessiva ancora incompleta.",
+    "Sintesi didattica controllata dal solo integratore, non revisione clinica indipendente. Farmaci mancanti, profili e visualizzazioni interattive restano nel backlog.",
+    "Verifiche Chromium con dimensioni simulate; non dispositivi fisici."
   ],
-  "nextBatch": "Completare prima verifiche e pubblicazione della 0.60.0. Nel successivo lotto deduplicare diapositive I PDF 591–595 e riutilizzare 589–590 già lette per definire il segmento artrite reumatoide e la collocazione nella teoria esistente; non ricontare o riassegnare capitoli consegnati. Farmaci mancanti, profili e laboratori restano nel backlog."
+  "nextBatch": "Completare prima la verifica e la pubblicazione del lotto 591–595. Soltanto dopo deduplicare PDF 596–600; mantenere 589–590 già lette, senza nuovo conteggio."
 }
