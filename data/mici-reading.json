@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-course-576-580",
+  "batch": "theory-course-586-590",
   "chapterId": "malattie-infiammatorie-intestinali",
-  "updatedAt": "2026-11-04T07:30:34.017667+00:00",
+  "updatedAt": "2026-11-04T08:40:30.167855+00:00",
   "status": "editorial_reconciled_locally_verified_pending_publication",
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -50,7 +50,17 @@
         577,
         578,
         579,
-        580
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588,
+        589,
+        590
       ],
       "visuallyCheckedPdfPages": [
         544,
@@ -89,14 +99,24 @@
         577,
         578,
         579,
-        580
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588,
+        589,
+        590
       ],
       "newlyReadTextPages": [
-        576,
-        577,
-        578,
-        579,
-        580
+        586,
+        587,
+        588,
+        589,
+        590
       ],
       "reusedPreviouslyReadPages": [
         544,
@@ -130,7 +150,17 @@
         572,
         573,
         574,
-        575
+        575,
+        576,
+        577,
+        578,
+        579,
+        580,
+        581,
+        582,
+        583,
+        584,
+        585
       ],
       "internalLabels": [
         542,
@@ -169,7 +199,17 @@
         575,
         576,
         577,
-        578
+        578,
+        579,
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588
       ],
       "sourceUnchanged": true,
       "allContentsRead": false,
@@ -206,13 +246,23 @@
         576,
         577,
         578,
-        579
+        579,
+        587,
+        588
       ],
       "readButNotIntegratedPdfPages": [
         566,
         567,
         568,
-        580
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        589,
+        590
       ],
       "imageOnlyPagesReadVisually": [
         552,
@@ -226,8 +276,27 @@
         575,
         578,
         579,
-        580
-      ]
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        589,
+        590
+      ],
+      "currentBatchReadScope": "Tutto il testo disponibile e le figure delle cinque pagine; articoli sottostanti non letti integralmente.",
+      "priorPartialOriginalPages": [
+        583,
+        585
+      ],
+      "currentBatchPartialOriginalPages": [],
+      "scopeExclusions": {
+        "589": "Artrite reumatoide, letta ma fuori dal capitolo MICI.",
+        "590": "Classificazione dei DMARD, letta ma fuori dal capitolo MICI."
+      }
     },
     {
       "id": "KAT",
@@ -348,14 +417,13 @@
         286,
         287
       ],
-      "newlyReadTextPages": [
-        287
-      ],
+      "newlyReadTextPages": [],
       "reusedPreviouslyReadPages": [
         283,
         284,
         285,
-        286
+        286,
+        287
       ],
       "internalLabels": [
         278,
@@ -638,9 +706,9 @@
       }
     }
   ],
-  "newReadPdfPages": 6,
-  "totalReadPdfPages": 70,
-  "currentBatchVisualPages": 6,
+  "newReadPdfPages": 5,
+  "totalReadPdfPages": 80,
+  "currentBatchVisualPages": 5,
   "newIdentities": 0,
   "newDrugSummaries": 0,
   "newPKProfiles": 0,
@@ -910,21 +978,44 @@
       "title": "EMA · Zeposia",
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zeposia",
       "detail": "Overview letta il 04/11/2026: indicazione nella colite ulcerosa dell’adulto e traffico linfocitario. Non confronto diretto di efficacia con etrasimod."
+    },
+    {
+      "id": "ALOF-HIST",
+      "title": "EMA · Alofisel, informazioni di prodotto archiviate",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/alofisel-epar-product-information_en.pdf",
+      "detail": "Documento contrassegnato come non più autorizzato. Letti selettivamente il 04/11/2026 composizione e indicazione storica (PDF 2), contesto della procedura (3), meccanismo e definizione degli esiti (7–8); non le 25 pagine complete. Non fonte per un impiego attuale."
+    },
+    {
+      "id": "ALOF-WITHDRAW",
+      "title": "EMA · Ritiro dell’autorizzazione europea di Alofisel",
+      "url": "https://www.ema.europa.eu/en/documents/public-statement/public-statement-alofisel-withdrawal-marketing-authorisation-european-union_en.pdf",
+      "detail": "Public statement EMA/586714/2024 del 13/12/2024, una pagina letta il 04/11/2026: decisione della Commissione europea su richiesta del titolare. Stato distinto dall’indicazione storica."
+    },
+    {
+      "id": "ALOF-DHPC",
+      "title": "EMA · Alofisel, comunicazione sul mancato riscontro del beneficio",
+      "url": "https://www.ema.europa.eu/en/documents/dhpc/direct-healthcare-professional-communication-dhpc-alofisel-darvadstrocel-withdrawal-eu-market-its-clinical-benefit-no-longer-demonstrated-justify-its-continued-use_en.pdf",
+      "detail": "Letti sintesi e contesto, PDF 1–2, il 04/11/2026: ADMIRE-CD II, esito principale a 24 settimane ed esiti secondari, assenza di nuovi segnali di sicurezza. Non lettura integrale degli studi citati."
+    },
+    {
+      "id": "AIFA-ALOF",
+      "title": "AIFA · Nota informativa importante su Alofisel",
+      "url": "https://www.aifa.gov.it/-/nota-informativa-importante-su-alofisel-darvadstrocel-",
+      "detail": "Nota del 19/12/2024, corpo della pagina letto il 04/11/2026: beneficio non più dimostrato, nessun nuovo segnale di sicurezza e ritiro dal 13/12/2024. Non una nuova revisione clinica indipendente."
     }
   ],
   "limits": [
-    "Deduplicazione per hash e pagina in 49 registri disponibili, non intero corpus. Sei nuove pagine fisiche non equivalgono a sei prove indipendenti.",
-    "Nuove diapositive I 576–580 e appunti I 287 letti nel testo disponibile e nei rendering; 578–580 grafiche. I 575 riconsultata e ora integrata senza ricontarla.",
-    "Bordo destro di I 576 tagliato nell’originale; note della figura 579 non presenti. A 580 lette soltanto le due righe di tabella visibili, non reintegrate. Articoli sottostanti alle figure non letti integralmente.",
-    "Appunti I 287: escluso finale sull’artrite reumatoide. Corretti universalità JAK, primato di etrasimod e attesa di settimane nella colite acuta grave.",
-    "Katzung e Rang & Dale: nessuna nuova pagina in questo intervallo, conservata la riconciliazione precedente; il segmento MICI Katzung letto termina a 1286. Farmacologia II: ricerca testuale automatica aggiuntiva senza corrispondenze, non lettura completa né verifica delle figure.",
-    "Otto riferimenti ufficiali consultati selettivamente: sei nuovi e due già presenti. SmPC britannici non RCP italiani. ECCO 2026 disponibile solo negli estratti ufficiali indicizzati, non lettura completa della linea guida o degli studi citati.",
-    "ACG 2025 non sostiene JAK routinari nel salvataggio; ECCO 2026 raccomandazione 47 considera anche JAK in terza linea altamente selezionata, con evidenza di bassa certezza e discussione chirurgica. Nessun protocollo individuale dedotto dalle figure.",
-    "Rimangono limiti precedenti: figure ridotte degli appunti, conflitto AGA/BSG sul metotrexato e paginazione editoriale Rang & Dale non identificata.",
-    "Ulteriori fonti, farmaci mancanti, profili e laboratori restano nel backlog. Sintesi didattica con controllo del solo integratore, non revisione clinica indipendente.",
-    "Verifiche browser Chromium con dimensioni simulate; non dispositivi fisici."
+    "Cinque nuove pagine fisiche, PDF 586–590, lette nel testo disponibile e nei rendering; non cinque prove indipendenti. Integrate soltanto 587–588.",
+    "Cinque pagine 581–585 già lette nel lotto privato precedente ora riportate nel registro pubblico senza ricontarle come nuove. A 583 e 585 rimangono porzioni coperte o tagliate nell’originale.",
+    "Tabella del 2023 e figura del 2021 sono materiali storici; articoli sottostanti non letti integralmente e nota a della tabella 587 non inclusa. Nessuna figura, trascrizione o procedura originale pubblicata.",
+    "Artrite reumatoide inizia a PDF 589: pagine 589–590 lette ma escluse dalla sintesi MICI.",
+    "Nessuna nuova lettura di Katzung, Rang & Dale, appunti I o materiali II: riutilizzata la riconciliazione già documentata. Nessuna copertura integrale dei libri o dei corsi.",
+    "Quattro fonti ufficiali aggiunte: dichiarazione EMA di una pagina letta, SmPC archiviato nei passaggi indicati, DHPC pagine 1–2 e nota AIFA. EPAR diretto non disponibile (429), stato verificato nel public statement ufficiale. Studi clinici non letti integralmente.",
+    "Darvadstrocel mantenuto come esempio storico: autorizzazione europea ritirata il 13/12/2024. Il modello cellulare non dimostra efficacia; mancata conferma del beneficio distinta da nuovi segnali di sicurezza.",
+    "Restano i limiti dei lotti precedenti, comprese figure ridotte e confronto selettivo delle linee guida. Sintesi didattica con controllo editoriale del solo integratore, non revisione clinica indipendente.",
+    "Verifiche locali in Chromium con dimensioni simulate; non dispositivi fisici."
   ],
-  "nextInterval": "Completare prima la pubblicazione; poi diapositive I PDF 581–585, deduplicando e verificando il confine tematico prima di integrare. Appunti I 287 conclude il segmento MICI letto: la successiva artrite reumatoide non va aggiunta automaticamente al capitolo. Nessun nuovo lotto prima della chiusura di questo.",
+  "nextInterval": "Completare prima verifiche e pubblicazione della 0.60.0. Nel successivo lotto deduplicare diapositive I PDF 591–595 e riutilizzare 589–590 già lette per definire il segmento artrite reumatoide e la collocazione nella teoria esistente; non ricontare o riassegnare capitoli consegnati. Farmaci mancanti, profili e laboratori restano nel backlog.",
   "conflictsAndReconciliation": [
     {
       "source": "CFI 549; RAN 593; APP 284",
@@ -1140,48 +1231,59 @@
       "source": "EMA-JAK",
       "issue": "Trasferimento automatico delle frequenze dall’artrite reumatoide alla colite",
       "resolution": "Conservate misure regolatorie di classe, distinta popolazione originaria da rischio assoluto individuale."
+    },
+    {
+      "source": "CFI 587",
+      "issue": "Mappa del 2023 mescola classi consolidate e prodotti emergenti",
+      "resolution": "Spiegata distinzione fra bersaglio, esito controllato e stato autorizzativo; nessun elenco di nuove indicazioni dedotto dalla tabella."
+    },
+    {
+      "source": "CFI 588; ALOF-HIST; ALOF-WITHDRAW; ALOF-DHPC; AIFA-ALOF",
+      "issue": "Figura del 2021 può far apparire darvadstrocel come trattamento europeo corrente e rigenerativo dimostrato",
+      "resolution": "Stato storico visibile nella sezione: ritiro europeo 13/12/2024. Modello immunomodulatore distinto da rigenerazione dimostrata; ADMIRE-CD II non ha confermato il beneficio, senza nuovi segnali di sicurezza."
+    },
+    {
+      "source": "CFI 589–590",
+      "issue": "Confine del tema e generalizzazione delle vie di somministrazione dei DMARD",
+      "resolution": "Lettura registrata ma contenuto escluso dalle MICI; riconciliazione nel successivo segmento, senza nuovo conteggio."
     }
   ],
   "deduplication": {
     "newCFIPages": [
-      576,
-      577,
-      578,
-      579,
-      580
-    ],
-    "newAPPPages": [
-      287
+      586,
+      587,
+      588,
+      589,
+      590
     ],
     "overlap": [],
-    "reusedCFIPages": [
-      575
-    ],
-    "recordsChecked": 49,
-    "scope": "Registri per hash e pagina; nessun nuovo conteggio delle pagine già lette."
+    "recordsChecked": 52,
+    "scope": "Confronto di hash e pagine nei registri pubblici e privati disponibili; non intero corpus."
   },
-  "newIntegratedPdfPages": 5,
-  "chapterSourcePdfPages": 65,
-  "previouslyReadNewlyIntegratedPdfPages": 1,
-  "targetedRereadPages": {
+  "newIntegratedPdfPages": 2,
+  "chapterSourcePdfPages": 67,
+  "previouslyReadNewlyIntegratedPdfPages": 0,
+  "targetedRereadPages": {},
+  "automatedOnlyScreening": {},
+  "priorBatchLimits": [
+    "Deduplicazione per hash e pagina in 49 registri disponibili, non intero corpus. Sei nuove pagine fisiche non equivalgono a sei prove indipendenti.",
+    "Nuove diapositive I 576–580 e appunti I 287 letti nel testo disponibile e nei rendering; 578–580 grafiche. I 575 riconsultata e ora integrata senza ricontarla.",
+    "Bordo destro di I 576 tagliato nell’originale; note della figura 579 non presenti. A 580 lette soltanto le due righe di tabella visibili, non reintegrate. Articoli sottostanti alle figure non letti integralmente.",
+    "Appunti I 287: escluso finale sull’artrite reumatoide. Corretti universalità JAK, primato di etrasimod e attesa di settimane nella colite acuta grave.",
+    "Katzung e Rang & Dale: nessuna nuova pagina in questo intervallo, conservata la riconciliazione precedente; il segmento MICI Katzung letto termina a 1286. Farmacologia II: ricerca testuale automatica aggiuntiva senza corrispondenze, non lettura completa né verifica delle figure.",
+    "Otto riferimenti ufficiali consultati selettivamente: sei nuovi e due già presenti. SmPC britannici non RCP italiani. ECCO 2026 disponibile solo negli estratti ufficiali indicizzati, non lettura completa della linea guida o degli studi citati.",
+    "ACG 2025 non sostiene JAK routinari nel salvataggio; ECCO 2026 raccomandazione 47 considera anche JAK in terza linea altamente selezionata, con evidenza di bassa certezza e discussione chirurgica. Nessun protocollo individuale dedotto dalle figure.",
+    "Rimangono limiti precedenti: figure ridotte degli appunti, conflitto AGA/BSG sul metotrexato e paginazione editoriale Rang & Dale non identificata.",
+    "Ulteriori fonti, farmaci mancanti, profili e laboratori restano nel backlog. Sintesi didattica con controllo del solo integratore, non revisione clinica indipendente.",
+    "Verifiche browser Chromium con dimensioni simulate; non dispositivi fisici."
+  ],
+  "carriedForwardPreviouslyPrivateReadPages": {
     "CFI": [
-      575
+      581,
+      582,
+      583,
+      584,
+      585
     ]
-  },
-  "automatedOnlyScreening": {
-    "sources": [
-      "FII-S",
-      "FII-A"
-    ],
-    "terms": [
-      "JAK",
-      "tofacitinib",
-      "sfingosina",
-      "etrasimod"
-    ],
-    "textMatches": 0,
-    "fullTextRead": false,
-    "visualSearchPerformed": false,
-    "note": "Solo ricerca sul testo automaticamente estratto; assenza di corrispondenze non esclude contenuti grafici. Nessuna nuova pagina contata."
   }
 }
