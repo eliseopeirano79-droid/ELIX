@@ -113,14 +113,42 @@ export const THEORY_ASTHMA = Object.freeze({
       "formula": "Inizio dell’effetto: quando compare la broncodilatazione. Durata: quanto persiste nell’esito osservato. Formoterolo: rapido e prolungato; salmeterolo: prolungato, non destinato al sollievo acuto. Due assi temporali distinti; schema originale, senza dosi o equivalenze fra prodotti."
     },
     {
+      "id": "adattamento",
+      "title": "Tolleranza: distinguere recettori, risposta e controllo della malattia",
+      "refs": [
+        "CFI",
+        "KAT",
+        "APP",
+        "TAY",
+        "GINA"
+      ],
+      "text": "La stimolazione ripetuta di un recettore può modificare la risposta successiva. Desensibilizzazione indica una riduzione della risposta allo stimolo; down-regulation descrive una diminuzione dei recettori disponibili. Le due condizioni possono associarsi, ma non sono sinonimi. Un recettore presente può trasmettere meno efficacemente il segnale, mentre la sua disponibilità può cambiare attraverso processi di internalizzazione e regolazione dell’espressione. Il capitolo sugli adattamenti recettoriali permette di approfondire questi passaggi. Non serve ipotizzare un esaurimento permanente dell’AMP ciclico per spiegare ogni perdita di risposta.\n\nNel bronco bisogna poi specificare quale risposta viene misurata. La capacità di dilatare una via aerea già contratta, la protezione dalla contrazione provocata da uno stimolo e la frequenza delle riacutizzazioni sono esiti differenti. Una protezione che diminuisce non implica che ogni broncodilatazione sia scomparsa. Allo stesso modo, un peggioramento della malattia non identifica automaticamente il meccanismo molecolare responsabile. Infiammazione, esposizione agli stimoli e modalità del trattamento partecipano a una scala più ampia di quella del singolo recettore.\n\nIl grafico storico discusso nei materiali del corso offre un esempio utile. Nello studio di Taylor del 1993, l’impiego regolare di fenoterolo si associava a esiti peggiori nel confronto con placebo. L’abstract riporta però che la risposta broncodilatatrice era mantenuta. Il numero di persone ancora senza riacutizzazione nel tempo non è quindi una misura diretta della sensibilità o della quantità dei recettori β₂. È un risultato clinico da interpretare nel disegno di quel confronto storico, non una dimostrazione che ogni strategia contenente un β₂-agonista produca lo stesso esito.\n\nI corticosteroidi possono influenzare anche la regolazione del sistema β₂, ma nell’asma il loro ruolo centrale è il controllo dell’infiammazione. Non sono una garanzia di annullamento di ogni adattamento recettoriale. GINA descrive conseguenze sfavorevoli dell’uso regolare o eccessivo dei SABA: questo richiamo va collegato alla strategia antinfiammatoria e alla rivalutazione del controllo, evitando di ridurre il problema al semplice consumo di recettori. La durata del trattamento, da sola, non prova irreversibilità e non giustifica il rinvio di una terapia necessaria.",
+      "formula": "Tre livelli da collegare: disponibilità/accoppiamento del recettore → risposta del tessuto → esiti della malattia. Ogni freccia richiede prove; il numero di riacutizzazioni non misura direttamente il numero dei recettori. Schema originale, senza ricostruzione del grafico della fonte."
+    },
+    {
+      "id": "sicurezza",
+      "title": "Effetti sistemici: leggere il contesto oltre il nome del recettore",
+      "refs": [
+        "CFI",
+        "KAT",
+        "RAN",
+        "APP",
+        "VEN"
+      ],
+      "text": "Gli effetti utili e indesiderati vanno collegati alla distribuzione dei bersagli e all’esposizione. Un β₂-agonista può influenzare il muscolo scheletrico e il metabolismo, oltre al bronco. Tremore e spostamento del potassio verso le cellule non richiedono di attribuire ogni risposta al solo β₁. Il rischio individuale non si ricava dalla sola etichetta di selettività: contano intensità dell’esposizione, condizioni di partenza e trattamenti associati.\n\nIl documento del salbutamolo richiede cautela nelle cardiopatie importanti; non stabilisce una controindicazione generale per ogni cardiopatia. Tachicardia e palpitazioni vanno distinte da un’aritmia documentata. L’ipokaliemia può diventare più rilevante in presenza di ipossia e di altri farmaci che la favoriscono: la stessa risposta metabolica può quindi assumere un peso diverso secondo il contesto.\n\nUn’apparente perdita di efficacia richiede anche di identificare il sintomo osservato. La scheda segnala la possibilità di acidosi lattica con esposizioni elevate a SABA: una respirazione ancora rapida, anche dopo miglioramento del broncospasmo, non dimostra da sola che serva più broncodilatatore. Questo è un esempio di diagnosi differenziale da affrontare clinicamente, non un criterio per modificare autonomamente la terapia. Un bisogno crescente di sollievo o una risposta insufficiente richiedono una rivalutazione del controllo della malattia."
+    },
+    {
       "id": "vago",
       "title": "Il circuito vagale e il blocco muscarinico",
       "refs": [
         "KAT",
         "RAN",
-        "TIO"
+        "TIO",
+        "CFI",
+        "APP",
+        "GINA"
       ],
-      "text": "Le vie parasimpatiche rilasciano acetilcolina, che contribuisce al tono della muscolatura bronchiale. Gli stimoli irritativi possono attivare riflessi con una componente afferente sensoriale e una risposta efferente colinergica. Il recettore M₃ del muscolo liscio è un bersaglio importante dell’effetto broncocostrittore. Ridurre questo segnale e stimolare β₂ conducono entrambi al rilassamento, attraverso operazioni farmacologiche differenti.\n\nUn antimuscarinico impedisce all’acetilcolina di attivare il suo bersaglio; un agonista β₂ attiva invece una via che si oppone alla contrazione. Il primo intervento dipende dalla componente colinergica del tono presente. Non equivale a neutralizzare direttamente tutti i mediatori liberati durante un processo infiammatorio.\n\nTiotropio illustra anche la differenza fra affinità e permanenza sul recettore. Il documento di prodotto descrive affinità per più sottotipi muscarinici e una dissociazione lenta da M₃, più rapida da M₂. La durata non dimostra quindi un legame esclusivo a M₃. La formulazione inalatoria indirizza l’esposizione verso le vie aeree, senza rendere impossibili effetti anticolinergici sistemici. Ipratropio e tiotropio rimangono esempi distinti: stesso ambito recettoriale non significa identità di cinetica o di ruolo clinico."
+      "text": "Le vie parasimpatiche rilasciano acetilcolina, che contribuisce al tono della muscolatura bronchiale. Gli stimoli irritativi possono attivare riflessi con una componente afferente sensoriale e una risposta efferente colinergica. Il recettore M₃ del muscolo liscio è un bersaglio importante dell’effetto broncocostrittore. Ridurre questo segnale e stimolare β₂ conducono entrambi al rilassamento, attraverso operazioni farmacologiche differenti.\n\nUn antimuscarinico impedisce all’acetilcolina di attivare il suo bersaglio; un agonista β₂ attiva invece una via che si oppone alla contrazione. Il primo intervento dipende dalla componente colinergica del tono presente. Non equivale a neutralizzare direttamente tutti i mediatori liberati durante un processo infiammatorio.\n\nTiotropio illustra anche la differenza fra affinità e permanenza sul recettore. Il documento di prodotto descrive affinità per più sottotipi muscarinici e una dissociazione lenta da M₃, più rapida da M₂. La durata non dimostra quindi un legame esclusivo a M₃. La formulazione inalatoria indirizza l’esposizione verso le vie aeree, senza rendere impossibili effetti anticolinergici sistemici. Ipratropio e tiotropio rimangono esempi distinti: stesso ambito recettoriale non significa identità di cinetica o di ruolo clinico.\n\nNel circuito nervoso, M₂ presinaptico contribuisce a frenare il rilascio di acetilcolina. Un antagonista che blocca anche questo sottotipo può quindi interferire con un freno fisiologico mentre ostacola M₃ sul muscolo. Questa possibilità aiuta a leggere il circuito, ma non consente di spiegare tutta l’efficacia clinica di ipratropio con un unico recettore. La risposta dipende anche da quanta parte dell’ostruzione è sostenuta dal tono vagale e da come il farmaco raggiunge il bersaglio.\n\nLa struttura ammonica quaternaria limita il passaggio attraverso alcune membrane e favorisce un’azione prevalentemente periferica. Non equivale ad assorbimento nullo: per tiotropio restano rilevanti effetti anticolinergici, esposizione oculare, disturbi urinari e funzione renale. Un minore accesso al sistema nervoso centrale non esclude effetti in altri organi. Anche il ruolo terapeutico va specificato: GINA colloca ipratropio come possibile aggiunta di breve durata nelle riacutizzazioni gravi; il documento di tiotropio descrive invece un trattamento aggiuntivo di mantenimento nell’asma. Nessuna delle due descrizioni autorizza a sostituire liberamente le molecole o a rimpiazzare il trattamento antinfiammatorio."
     },
     {
       "id": "leucotrieni",
@@ -215,10 +243,10 @@ export const THEORY_ASTHMA = Object.freeze({
         "RAN",
         "APP"
       ],
-      "text": "Per ripercorrere il capitolo si può partire da una domanda concreta: quale componente dell’ostruzione sta modificando il farmaco? Se il percorso è β₂–AMP ciclico, il punto di arrivo immediato è il tono muscolare. Se il bersaglio è muscarinico, si sta riducendo una risposta all’acetilcolina. Se si interviene su CysLT₁, si limita una via specifica dei mediatori lipidici. Con il recettore glucocorticoide si modifica invece un programma cellulare più ampio.\n\nLa domanda successiva riguarda il tempo e l’esito. Una variazione del calibro, il controllo dell’iperreattività e la prevenzione di nuovi episodi non sono misure intercambiabili. Anche la via di somministrazione e la formulazione appartengono al ragionamento: condizionano l’esposizione senza cambiare il nome del bersaglio.\n\nLa lettura locale di questo ampliamento comprende corso I PDF 621–625, Katzung 400–403, Rang & Dale 541–545 e 549, appunti I 293–295. Sono diciotto pagine, sedici nuove e due rilette; la pagina di programma 621 serve all’inventario. La precedente selezione respiratoria resta distinta. Libri e corsi non sono stati letti integralmente; il controllo editoriale circoscritto non equivale a una revisione clinica indipendente."
+      "text": "Per ripercorrere il capitolo si può partire da una domanda concreta: quale componente dell’ostruzione sta modificando il farmaco? Se il percorso è β₂–AMP ciclico, il punto di arrivo immediato è il tono muscolare. Se il bersaglio è muscarinico, si sta riducendo una risposta all’acetilcolina. Se si interviene su CysLT₁, si limita una via specifica dei mediatori lipidici. Con il recettore glucocorticoide si modifica invece un programma cellulare più ampio.\n\nLa domanda successiva riguarda il tempo e l’esito. Una variazione del calibro, il controllo dell’iperreattività e la prevenzione di nuovi episodi non sono misure intercambiabili. Anche la via di somministrazione e la formulazione appartengono al ragionamento: condizionano l’esposizione senza cambiare il nome del bersaglio.\n\nLa copertura cresce per intervalli identificati nelle fonti e nei registri collegati. Il lotto più recente comprende corso I PDF 636–640, Katzung 406 e 409–410, Rang & Dale 548 e appunti I 297–298: undici pagine controllate, otto nuove e tre rilette. La pagina 640 è stata letta dall’immagine; Rang 548 era già registrata come lettura del testo ed è ora controllata anche visivamente. La copertura cumulativa identificata mediante hash comprende 44 pagine controllate, 40 con passaggi integrati. La selezione respiratoria storica resta distinta; nessun intero libro o corso dichiarato letto e nessuna revisione clinica indipendente."
     }
   ],
-  "wordCount": 3755,
+  "wordCount": 4472,
   "checks": [
     {
       "question": "Perché broncodilatazione non equivale a controllo completo della malattia?",
@@ -295,33 +323,41 @@ export const THEORY_ASTHMA = Object.freeze({
     {
       "question": "Perché un agonista β₂-selettivo inalatorio può avere effetti sistemici?",
       "answer": "La selettività è relativa e il recettore non è esclusivo del bronco. Parte della dose può raggiungere il circolo dopo assorbimento polmonare o intestinale; bersaglio, esposizione e risposta del tessuto concorrono all’effetto."
+    },
+    {
+      "question": "Un grafico delle persone senza riacutizzazione dimostra direttamente la down-regulation dei recettori β₂?",
+      "answer": "No. Descrive un esito clinico, distinto da numero dei recettori, accoppiamento e risposta broncodilatatrice. Nel confronto storico citato, l’abstract riporta risposta broncodilatatrice mantenuta: il meccanismo non si deduce dal solo grafico."
+    },
+    {
+      "question": "Perché una struttura ammonica quaternaria non garantisce assenza di effetti sistemici?",
+      "answer": "La limitata permeabilità non equivale ad assorbimento nullo. L’esposizione periferica, la via di eliminazione e gli organi raggiunti restano rilevanti; un minore accesso al sistema nervoso centrale non esclude effetti anticolinergici altrove."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 621–625, etichette 619–623. Testo disponibile e cinque rendering controllati; 621 è programma, 622 contiene elementi poco leggibili non trasferiti. 623 riprende una Perspective, non una sperimentazione clinica. Ampliamento: PDF 626–630, etichette 624–628, testo e rendering; categorie storiche riconciliate. La figura 629 ripete Katzung 404, non è prova indipendente. Lotto successivo: PDF 631–635, etichette 629–633; quattro testi disponibili e tabella immagine 634 letti, cinque rendering controllati. 633 non aggiunge contenuto; figure 631/633–635 duplicate negli appunti 295–296."
+      "detail": "PDF 621–625, etichette 619–623. Testo disponibile e cinque rendering controllati; 621 è programma, 622 contiene elementi poco leggibili non trasferiti. 623 riprende una Perspective, non una sperimentazione clinica. Ampliamento: PDF 626–630, etichette 624–628, testo e rendering; categorie storiche riconciliate. La figura 629 ripete Katzung 404, non è prova indipendente. Lotto successivo: PDF 631–635, etichette 629–633; quattro testi disponibili e tabella immagine 634 letti, cinque rendering controllati. 633 non aggiunge contenuto; figure 631/633–635 duplicate negli appunti 295–296. Nuovo intervallo PDF 636–640, etichette 634–638: quattro testi e uno schema immagine, cinque rendering. 637–639 integrati; 636/640 senza nuovo passaggio. Grafici e schemi duplicati negli appunti riconosciuti."
     },
     {
       "id": "KAT",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX italiana 2014 / XII americana 2012; capitolo 20, PDF 400–403, editoriali 380–383. Quattro pagine e figure 20-1/20-2 controllate; indicazioni storiche e valori delle curve non trasferiti. Ampliamento: PDF 404–406, editoriali 384–386; testo e figure controllati. 404 e 406 integrati; strutture e dettagli storici di 405 non trasferiti. Rilettura PDF 404–406: ora anche 405 sostiene il confronto teorico tra struttura e vie, senza riprodurre formule o indicazioni storiche; 406 non aggiunge nuovi passaggi."
+      "detail": "IX italiana 2014 / XII americana 2012; capitolo 20, PDF 400–403, editoriali 380–383. Quattro pagine e figure 20-1/20-2 controllate; indicazioni storiche e valori delle curve non trasferiti. Ampliamento: PDF 404–406, editoriali 384–386; testo e figure controllati. 404 e 406 integrati; strutture e dettagli storici di 405 non trasferiti. Rilettura PDF 404–406: ora anche 405 sostiene il confronto teorico tra struttura e vie, senza riprodurre formule o indicazioni storiche; 406 non aggiunge nuovi passaggi. Riletto PDF 406 e letti PDF 409–410, editoriali 389–390: tolleranza e circuito muscarinico. Indicazioni e rassicurazioni storiche riconciliate con documenti attuali; dosi non trasferite."
     },
     {
       "id": "RAN",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII italiana 2016 / originale 2015, capitolo 28; PDF 541–545 e 549. Sei testi e rendering, due pagine rilette (545 e 549). Refuso agonisti/antagonisti nella figura 28.3 e confusione LTB4/cisteinilici riconciliati; scala terapeutica 2012 non trasferita. Ampliamento: PDF 546–547 lette e controllate; tempi e xantine. Regole storiche di impiego e unità di concentrazione problematiche non trasferite. Rilettura PDF 546 per assorbimento sistemico ed effetti avversi; nessuna attribuzione di tutti gli effetti cardiaci al solo β1."
+      "detail": "VIII italiana 2016 / originale 2015, capitolo 28; PDF 541–545 e 549. Sei testi e rendering, due pagine rilette (545 e 549). Refuso agonisti/antagonisti nella figura 28.3 e confusione LTB4/cisteinilici riconciliati; scala terapeutica 2012 non trasferita. Ampliamento: PDF 546–547 lette e controllate; tempi e xantine. Regole storiche di impiego e unità di concentrazione problematiche non trasferite. Rilettura PDF 546 per assorbimento sistemico ed effetti avversi; nessuna attribuzione di tutti gli effetti cardiaci al solo β1. PDF 548: rilettura del testo già registrato nella selezione respiratoria storica, con primo controllo visivo esplicito; distinti M2 presinaptico e M3 muscolare."
     },
     {
       "id": "APP",
       "title": "Appunti e diapositive del corso di Farmacologia I · lezione 17",
-      "detail": "25 novembre 2025, PDF 293–295, etichette 288–290, pagine 1–3 della lezione. Distinti PKA e AMPc; non adottate la selettività PDE2 delle xantine né l’origine meccanica universale della malattia. Ampliamento: PDF 296–297, etichette 291–292, pagine 4–5 della lezione. 296 integrata; 297 letta, non integrata, con lacune sulla tolleranza registrate. Rilette PDF 295–296, etichette 290–291: distretti, selettività, struttura e vie; figure duplicate nel corso, non conferme indipendenti."
+      "detail": "25 novembre 2025, PDF 293–295, etichette 288–290, pagine 1–3 della lezione. Distinti PKA e AMPc; non adottate la selettività PDE2 delle xantine né l’origine meccanica universale della malattia. Ampliamento: PDF 296–297, etichette 291–292, pagine 4–5 della lezione. 296 integrata; 297 letta, non integrata, con lacune sulla tolleranza registrate. Rilette PDF 295–296, etichette 290–291: distretti, selettività, struttura e vie; figure duplicate nel corso, non conferme indipendenti. PDF 297–298, etichette 292–293: 297 riletta, 298 nuova. Grafico storico e circuito muscarinico confrontati con corso 637/639; spiegazioni assolute della tolleranza non adottate."
     },
     {
       "id": "GINA",
       "title": "GINA · Strategy Report 2026",
-      "detail": "Consultazione mirata del 4 novembre 2026: PDF 26, 79, 85–86, 98–100 (stampate 25, 78, 84–85, 97–99), testo e rendering. Definizione, trattamento con ICS, opzioni aggiuntive. Non revisione integrale della linea guida o verifica delle autorizzazioni italiane. Ampliamento: PDF 142–144, stampate 141–143, testo e rendering su asma+BPCO; non nuova entità uniforme.",
+      "detail": "Consultazione mirata del 4 novembre 2026: PDF 26, 79, 85–86, 98–100 (stampate 25, 78, 84–85, 97–99), testo e rendering. Definizione, trattamento con ICS, opzioni aggiuntive. Non revisione integrale della linea guida o verifica delle autorizzazioni italiane. Ampliamento: PDF 142–144, stampate 141–143, testo e rendering su asma+BPCO; non nuova entità uniforme. Nuova lettura selettiva: PDF 249, stampata 248, testo e rendering; SABA e impiego breve di ipratropio.",
       "url": "https://ginasthma.org/2026-gina-strategy-report/"
     },
     {
@@ -339,7 +375,7 @@ export const THEORY_ASTHMA = Object.freeze({
     {
       "id": "TIO",
       "title": "Boehringer Ingelheim · Spiriva Respimat, SmPC su emc",
-      "detail": "§5.1 letto il 4 novembre 2026: antagonismo muscarinico e dissociazione. Confronto con AEMPS CIMA 69589 §§4.1, 4.4 e 5.1; refuso spagnolo sull’effetto dell’acetilcolina corretto mediante testo inglese. Non intero RCP.",
+      "detail": "§5.1 letto il 4 novembre 2026: antagonismo muscarinico e dissociazione. Confronto con AEMPS CIMA 69589 §§4.1, 4.4 e 5.1; refuso spagnolo sull’effetto dell’acetilcolina corretto mediante testo inglese. Non intero RCP. Consultati inoltre §§4.1, 4.4 e passaggi di 5.2 su assorbimento, distribuzione ed eliminazione: mantenimento aggiuntivo, esposizione sistemica e precauzioni. Pagina aggiornata 11 dicembre 2024.",
       "url": "https://www.medicines.org.uk/emc/product/407/smpc"
     },
     {
@@ -369,7 +405,7 @@ export const THEORY_ASTHMA = Object.freeze({
     {
       "id": "VEN",
       "title": "GSK · Ventolin Evohaler 100 micrograms, SmPC su emc",
-      "detail": "Pagina aggiornata il 16 settembre 2026; consultati il 4 novembre 2026 §§4.1, 4.8, 5.1 e 5.2. Preferenza β2, effetti sistemici e assorbimento dopo inalazione. Documento britannico consultato selettivamente, non intero RCP o verifica delle autorizzazioni italiane.",
+      "detail": "Pagina aggiornata il 16 settembre 2026; consultati il 4 novembre 2026 §§4.1, 4.8, 5.1 e 5.2. Preferenza β2, effetti sistemici e assorbimento dopo inalazione. Documento britannico consultato selettivamente, non intero RCP o verifica delle autorizzazioni italiane. Ulteriore consultazione §§4.3–4.4 e 4.9; riletti 4.8 e 5.2. Distinte precauzioni, controindicazioni e possibile causa metabolica della tachipnea.",
       "url": "https://www.medicines.org.uk/emc/product/850/smpc"
     },
     {
@@ -383,6 +419,12 @@ export const THEORY_ASTHMA = Object.freeze({
       "title": "de Haas et al. · Recettori presinaptici nella trachea di cavia",
       "detail": "Am J Physiol. 1999;276:L420–L425, DOI 10.1152/ajplung.1999.276.3.L420. Letto l’abstract il 4 novembre 2026: preparazione priva di epitelio e misura diretta del neurotrasmettitore. Non intero articolo, non prova di un esito clinico nell’uomo.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/10070105/"
+    },
+    {
+      "id": "TAY",
+      "title": "Taylor et al. · Fenoterolo regolare e controllo dell’asma",
+      "detail": "Thorax. 1993;48:134–138, DOI 10.1136/thx.48.2.134. Letto soltanto l’abstract il 4 novembre 2026; non metodi completi o figure originali. Esito clinico distinto da misura recettoriale.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8493626/"
     }
   ],
   "moleculeLinks": [
@@ -450,5 +492,5 @@ export const THEORY_ASTHMA = Object.freeze({
     "gina-2026",
     "gold-2026"
   ],
-  "coverage": "Copertura cumulativa del capitolo: 35 pagine locali distinte controllate, 32 con passaggi integrati. In questo lotto cinque pagine nuove e sei riletture; una tabella letta dal rendering. Nove pagine sostengono l’ampliamento; figure duplicate riconosciute. Fonti ufficiali e ricerca consultate selettivamente; nessun intero libro o corso dichiarato letto, nessuna revisione clinica indipendente."
+  "coverage": "Copertura cumulativa con hash: 44 pagine locali distinte controllate, 40 integrate. Ultimo lotto: otto nuove letture e tre riletture, uno schema letto dall’immagine; nove pagine sostengono l’ampliamento. GINA e documenti di prodotto consultati selettivamente, Taylor solo abstract. Nessun intero libro o corso letto; nessuna revisione clinica indipendente."
 });

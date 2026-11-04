@@ -8,23 +8,23 @@ Per richiesta dell’utente usare «appunti e diapositive del corso di Farmacolo
 
 ## Lotto corrente
 
-theory-course-631-635, candidato 0.67.0: due sezioni aggiunte e una ampliata nel capitolo asma. Ora 19 sezioni, 3755 parole, 19 domande, cinque schemi originali e quindici riferimenti. Distinti effetti su muscolo, nervi ed epitelio; selettività recettoriale, esposizione sistemica e vie di assorbimento; struttura, metabolismo e durata. Una prova funzionale umana non viene equiparata alla misura diretta del neurotrasmettitore in una preparazione animale.
+theory-course-636-640, candidato 0.68.0: due sezioni aggiunte e una ampliata nel capitolo asma; aggiornato il paragrafo di copertura. Ora 21 sezioni, 4472 parole, 21 domande, sei schemi originali e sedici riferimenti. Distinti adattamento recettoriale, risposta bronchiale ed esiti della malattia; approfonditi effetti sistemici, M2 presinaptico e M3 muscolare, struttura quaternaria e impieghi diversi degli antimuscarinici.
 
-Un capitolo esistente ampliato; nessun nuovo capitolo, identità, sintesi farmacologica, profilo PK o laboratorio. Totale 61 capitoli: diciassette estesi e 44 sintetici. Altri 60 capitoli invariati; sedici sezioni e diciassette domande precedenti del capitolo asma conservate. Corretta una regressione della ricerca: le corrispondenze nel titolo precedono quelle nel corpo, così il capitolo sul primo passaggio resta raggiungibile mentre la teoria cresce.
+Un capitolo esistente ampliato; nessun nuovo capitolo, identità, sintesi farmacologica, profilo PK o laboratorio. Totale 61 capitoli: diciassette estesi e 44 sintetici. Altri 60 capitoli invariati; diciassette sezioni e diciannove domande precedenti del capitolo asma conservate.
 
-La 0.66.0 è pubblicata e verificata al commit e16254d2d983dfa339809dfa1d0981d5c4af8a74. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparato prima della pubblicazione.
+La 0.67.0 è pubblicata e verificata al commit ef5ad7e75c1cf748a5251bb074ad9625d4cee808. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparato prima della pubblicazione.
 
-Cinque pagine nuove: corso I PDF 631–635 (etichette 629–633). Quattro testi disponibili letti; la tabella 634 è stata letta dal rendering, non dal solo numero estratto. Sei riletture: Katzung IX italiana 2014/XII americana 2012 PDF 404–406 (editoriali 384–386), Rang & Dale VIII italiana 2016/originale 2015 PDF 546, appunti I lezione 17 del 25 novembre 2025 PDF 295–296 (etichette 290–291). Tutti gli undici rendering controllati.
+Otto pagine nuove: corso I PDF 636–640 (etichette 634–638), Katzung IX italiana 2014/XII americana 2012 PDF 409–410 (editoriali 389–390), appunti I lezione 17 del 25 novembre 2025 PDF 298 (etichetta 293). Tre riletture: Katzung PDF 406, Rang & Dale VIII italiana 2016/originale 2015 PDF 548 e appunti I PDF 297. Corso 640 contiene uno schema immagine letto dal rendering. Rang 548 era già registrata come lettura del testo: ora primo controllo visivo esplicito, senza contarla come nuova lettura. Tutti gli undici rendering controllati.
 
-Nove pagine sostengono il lotto: quattro nuove e cinque già lette. Cinque pagine entrano per la prima volta nella copertura integrata del capitolo, inclusa Katzung 405 già letta in precedenza. Corso 633 e Katzung 406 riletti senza nuovo passaggio integrato. Copertura cumulativa: 35 pagine distinte controllate e 32 integrate; precedenti lotti conservati senza duplicare i conteggi.
+Nove pagine sostengono il lotto: sei nuove e tre già lette. Otto entrano nella copertura integrata del capitolo; corso 636 e 640 non aggiungono passaggi. Copertura cumulativa identificata mediante hash: 44 pagine distinte controllate e 40 integrate. Il registro respiratorio storico bibliografico resta distinto, senza sommarlo automaticamente.
 
-Deduplicazione in 83 registri nominati e registro respiratorio storico bibliografico senza hash. Figure corso 631/633–635 già negli appunti 295–296, non prove indipendenti. Nessuna tabella di dosi, rapporti di selettività o durate trasferita. Nessuna equivalenza tra preparazioni orali e inalatorie ricavata dagli schemi storici.
+Deduplicazione in 85 registri nominati più registro respiratorio storico. Figure corso 637/639 duplicate negli appunti 297/298, non prove indipendenti. Il grafico Taylor misura soggetti senza riacutizzazione; l’abstract originale riporta risposta broncodilatatrice mantenuta. Esclusi esaurimento dei secondi messaggeri, irreversibilità universale, rinvio della terapia e correzione garantita della tolleranza. Precauzioni cardiache distinte da controindicazione generale. Nessuna causa unica M2 dell’efficacia clinica dedotta dal grafico senza riferimento originale identificabile.
 
-Consultati selettivamente SmPC britannico Ventolin (§§4.1, 4.8, 5.1, 5.2; aggiornato 16 settembre 2026) e abstract Rhoden 1988/de Haas 1999. Non interi documenti, metodi completi o figure sperimentali; testo completo editoriale de Haas non accessibile, usato soltanto abstract PubMed. Nessuna nuova lettura GINA/GOLD, Farmacologia II o manuale molecolare. Le precedenti riconciliazioni cliniche rimangono documentate; non è una revisione clinica indipendente.
+Consultati selettivamente GINA 2026 PDF 249 (stampata 248), testo e rendering; SmPC britannico Ventolin §§4.3, 4.4, 4.8, 4.9, 5.2 e Spiriva Respimat §§4.1, 4.4 e passaggi di 5.2; Taylor 1993 soltanto abstract. GINA letto dal PDF ufficiale identificato mediante hash, non intera linea guida; non interi RCP o verifica delle autorizzazioni italiane. Nessuna nuova lettura GOLD, Farmacologia II o manuale molecolare; nessuna revisione clinica indipendente.
 
-Controlli locali: 45 validatori, otto configurazioni desktop/tablet/mobile in due temi, fonti, tastiera, ricerche, collegamenti e offline. Aggiornamento reale 0.66.0→0.67.0 con dati salvati conservati; sei schermate ispezionate. Quattro originali verificati mediante hash. Chromium con dimensioni simulate, non dispositivi fisici.
+Controlli locali: 45 validatori, otto configurazioni desktop/tablet/mobile in due temi, fonti, tastiera, ricerche, collegamenti e offline. Aggiornamento reale 0.67.0→0.68.0 con dati salvati conservati; sei schermate ispezionate. Quattro originali e PDF ufficiale GINA verificati mediante hash. Chromium con dimensioni simulate, non dispositivi fisici.
 
-Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/ELIX-course-631-635-2026-11-04/. ../../outputs/ELIX-latest-verification.json va aggiornata soltanto dopo il deploy verificato.
+Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/ELIX-course-636-640-2026-11-04/. ../../outputs/ELIX-latest-verification.json va aggiornata soltanto dopo il deploy verificato.
 
 ## Regole
 
@@ -36,4 +36,4 @@ Questo checkpoint precede CI, deploy e riscontro online. Prove in ../../outputs/
 
 ## Prossimo intervallo
 
-Completare prima CI, deploy e riscontro online del lotto 631–635. Poi deduplicare un solo intervallo PDF 636–640; teoria respiratoria prioritaria, farmaci, profili e laboratori nel backlog.
+Completare prima CI, deploy e riscontro online del lotto 636–640. Poi deduplicare un solo intervallo PDF 641–645; teoria respiratoria prioritaria, farmaci, profili e laboratori nel backlog.
