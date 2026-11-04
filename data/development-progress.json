@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-10-30T19:56:29.699224+00:00",
-  "batch": "theory-course-566-570",
+  "updatedAt": "2026-11-04T06:50:51.414567+00:00",
+  "batch": "theory-course-571-575",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.57.0",
-  "branch": "feat/theory-course-566-570",
-  "baseCommit": "4ee41bdc3ffb7468b41ee1c697a7dd00a8ceb103",
+  "release": "0.58.0",
+  "branch": "feat/theory-course-571-575",
+  "baseCommit": "e5f80ea8c99a32079382d33e80918571238be04c",
   "previousBatch": {
-    "batch": "theory-course-561-565",
+    "batch": "theory-course-566-570",
     "status": "published_and_live_verified",
-    "release": "0.56.0",
-    "commit": "4ee41bdc3ffb7468b41ee1c697a7dd00a8ceb103"
+    "release": "0.57.0",
+    "commit": "e5f80ea8c99a32079382d33e80918571238be04c"
   },
   "scope": [
-    "MICI: esposizione endovenosa/sottocutanea, contesto del TDM e continuità/riesposizione agli anti-TNF."
+    "MICI: traffico leucocitario, integrine, asse IL-12/23 e distinzione fra dato in vitro e beneficio clinico."
   ],
   "completed": [
-    "Sei nuove pagine lette e controllate nei rendering, due integrate; ripetizioni e bersagli successivi separati.",
-    "Capitolo: 36 sezioni, 7443 parole, 35 domande, 37 riferimenti, 16 farmaci esistenti.",
-    "41 validatori superati; otto configurazioni browser nei due temi, tastiera, sedici farmaci, cinque capitoli, ricerca e offline.",
-    "Aggiornamento reale 0.56.0→0.57.0 con preferiti, progressi e tema conservati. Altri 57 capitoli, catalogo, lettore e laboratori invariati; 33 sezioni e 32 domande precedenti conservate.",
+    "Sette nuove pagine lette e controllate, sei integrate; quattro pagine già lette riconsultate senza ricontarle.",
+    "Capitolo: 42 sezioni, 8693 parole, 41 domande, 44 riferimenti, 22 farmaci esistenti.",
+    "41 validatori superati; otto configurazioni browser nei due temi, tastiera, ventidue farmaci, cinque capitoli, ricerca e offline.",
+    "Aggiornamento reale 0.57.0→0.58.0 con preferiti, progressi e tema conservati. Altri 57 capitoli, catalogo, lettore e laboratori invariati; 36 sezioni e 35 domande precedenti conservate.",
     "Sei schermate ispezionate; hash dei sei originali invariati."
   ],
   "remaining": [
@@ -43,23 +43,23 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 3,
+    "newSections": 6,
     "expandedSections": 0,
-    "newLinksToExistingIdentities": 0
+    "newLinksToExistingIdentities": 6
   },
   "readingManifests": [
     "data/mici-reading.json"
   ],
   "limits": [
-    "Deduplicazione per hash e pagine in 47 registri disponibili; non intero corpus. Sei pagine nuove nel registro, non sei prove indipendenti.",
-    "Diapositive I 566–570 e Katzung 1285: testo disponibile letto integralmente e rendering controllati. Diapositive 567–570 lette visivamente; nessuna trascrizione o figura pubblicata.",
-    "Solo diapositive I 569 e Katzung 1285 contribuiscono ai nuovi passaggi. Diapositive 566–568 riprendono strutture, tabella storica e biosimilari già trattati; 570 rinviata. RAN 594 resta esclusa. Nessuna nuova lettura di appunti I o materiali II in questo lotto.",
-    "Il grafico I 569 confronta regimi specifici: picco, minimo e AUC non sono intercambiabili; nessuna superiorità clinica o validità universale del prelievo a qualunque ora dedotta dalla curva.",
-    "Consultazione mirata SmPC britannici Remsima SC 5.2, Remicade 4.4 e passaggi 4.8, sintesi ufficiale ACG UC 2025. Non lettura completa dei documenti o verifica dei RCP italiani. Articolo del grafico non letto in originale.",
-    "Percentuali, posologie, test infettivologici e premedicazione storici non trasferiti come protocolli attuali. Nessuna conversione di dose o soglia universale di TDM.",
-    "Limiti precedenti conservati nei conflitti: divergenza AGA/BSG sul metotrexato, giurisdizioni anti-TNF, figure degli appunti I/II non tutte verificate in ogni etichetta, paginazione editoriale Rang & Dale non identificata.",
-    "Altri bersagli, ulteriori fonti, farmaci mancanti, profili e laboratori rimangono nel backlog. Sintesi didattica, non revisione clinica indipendente.",
+    "Deduplicazione per hash/pagina in 48 registri disponibili; non intero corpus. Sette nuove pagine fisiche non equivalgono a sette prove indipendenti.",
+    "Nuove diapositive I 571–575, Katzung 1286 e diapositive II 34 lette nel testo disponibile e nei rendering. I 574–575 prevalentemente grafiche; 575 controllata anche a 3000 pixel, rinviata per riconciliazione sulle chinasi.",
+    "Riutilizzate senza nuovo conteggio I 570, appunti I 286 e appunti II 15–16. I 570 per la prima volta integrata; altre pagine già parzialmente integrate. Figura ridotta degli appunti I 286 non verificata in ogni piccola etichetta; confronto sul rendering più leggibile I 571.",
+    "Corretti nella sintesi p40/B40, catene recettoriali, ligandi integrinici/selettine e generalizzazioni di selettività. Farmaci sperimentali nelle mappe non presentati come opzioni autorizzate.",
+    "Controllo selettivo delle overview EMA e SmPC britannici, più sintesi ufficiale ACG UC 2025. Nessuna lettura integrale dei fascicoli o RCP italiani; EMA Stelara diretta non accessibile (429), verificato SmPC britannico.",
+    "CD64: interazione in vitro distinta da prova di superiorità clinica. Frequenze PML e regimi storici non trasferiti; indicazione europea natalizumab distinta dal contesto del manuale.",
+    "Articoli citati nelle figure non letti negli originali. Rimangono i limiti precedenti, inclusa divergenza AGA/BSG sul metotrexato e paginazione editoriale Rang & Dale non identificata.",
+    "Le chinasi, ulteriori fonti, farmaci mancanti, profili e laboratori restano nel backlog. Sintesi didattica con controllo editoriale del solo integratore, non revisione clinica indipendente.",
     "Verifiche browser Chromium con dimensioni simulate; non dispositivi fisici."
   ],
-  "nextBatch": "Completare prima la pubblicazione; poi diapositive I PDF 571–575 e Katzung 1286, riutilizzando la mappa 570 e gli appunti già letti soltanto nei passaggi pertinenti e senza ricontarli."
+  "nextBatch": "Completare prima la pubblicazione; poi diapositive I PDF 576–580 e appunti I PDF 287, riutilizzando la mappa I 575 senza ricontarla e individuando i soli passaggi pertinenti delle altre fonti. Katzung 1286 conclude il segmento MICI letto; il successivo argomento del manuale resta fuori da questo lotto."
 }
