@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-11-04T22:00:07.141098+00:00",
-  "batch": "theory-course-646-650",
+  "updatedAt": "2026-11-04T22:33:38.182730+00:00",
+  "batch": "theory-course-651-655",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.70.0",
-  "branch": "feat/theory-course-646-650",
-  "baseCommit": "b4e043c9dd0bd59823889a61f968a64159da3f42",
+  "release": "0.71.0",
+  "branch": "feat/theory-course-651-655",
+  "baseCommit": "f5fe48a6189753847f06003b8f4b94836e6017d5",
   "previousBatch": {
-    "batch": "theory-course-641-645",
+    "batch": "theory-course-646-650",
     "status": "published_and_live_verified",
-    "release": "0.69.0",
-    "commit": "b4e043c9dd0bd59823889a61f968a64159da3f42"
+    "release": "0.70.0",
+    "commit": "f5fe48a6189753847f06003b8f4b94836e6017d5"
   },
   "scope": [
-    "Ampliamento del capitolo asma: teofillina, fosfodiesterasi, margine terapeutico e confronto fra roflumilast ed ensifentrina."
+    "Ampliamento del capitolo asma: regolazione genica dei glucocorticoidi, cooperazione β2, deposizione e primo passaggio, rischi locali e sistemici."
   ],
   "completed": [
-    "Due sezioni aggiunte e una ampliata; copertura aggiornata. 24 sezioni, 5584 parole, 24 domande, nove schemi originali e venti riferimenti.",
-    "Dieci pagine locali controllate: sette nuove e tre riletture. Nove sostengono il lotto; sette nuove nella copertura integrata, inclusa una già letta. Cumulativo con hash: 57 controllate e 50 integrate.",
-    "Confrontati GINA 2026, EMA Daxas, Ohtuvayre USA ottobre 2026 e Uniphyllin UK agosto 2026 nelle sole sezioni dichiarate. Nessuna dose, soglia, indicazione italiana inferita o promessa di riparazione alveolare.",
+    "Due sezioni aggiunte e due ampliate; copertura aggiornata. 26 sezioni, 6461 parole, 26 domande, undici schemi originali e ventuno riferimenti.",
+    "Undici pagine locali controllate: dieci nuove e una rilettura. Otto sostengono il lotto; sette nuove nella copertura integrata. Cumulativo con hash: 67 controllate e 57 integrate.",
+    "Confrontati selettivamente GINA 2026 e SmPC britannico Pulmicort Turbohaler. Distinti agonismo e disponibilità β2, assorbimento polmonare e primo passaggio, effetto antinfiammatorio e broncodilatazione immediata.",
     "45 validatori superati; otto configurazioni browser, fonti, tastiera, ricerche, collegamenti e offline; sei schermate ispezionate.",
-    "Aggiornamento reale 0.69.0→0.70.0 con preferiti, progressi e tema conservati. Altri 60 capitoli, catalogo, lettore, stili e laboratori invariati."
+    "Aggiornamento reale 0.70.0→0.71.0 con preferiti, progressi e tema conservati. Altri 60 capitoli, catalogo, lettore, stili e laboratori invariati."
   ],
   "remaining": [
     "CI, deploy concluso e riscontro online."
@@ -44,7 +44,7 @@
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
     "newSections": 2,
-    "expandedSections": 1,
+    "expandedSections": 2,
     "coverageParagraphUpdated": true,
     "newLinksToExistingIdentities": 0,
     "newStaticOriginalSchemas": 2
@@ -53,12 +53,12 @@
     "data/asma-e-broncodilatatori-reading.json"
   ],
   "limits": [
-    "Dieci pagine locali controllate: sette nuove e tre riletture, testi completi disponibili e tutti i rendering.",
-    "Nove pagine sostengono il lotto: sei di nuova lettura e tre rilette. Sette entrano nella copertura integrata, inclusi gli appunti 299 già letti. Copertura cumulativa con hash: 57 pagine controllate e 50 integrate.",
-    "Deduplicazione in 89 registri nominati più registro respiratorio storico. Schema e grafico corso/appunti duplicati; origine primaria del grafico di tossicità non identificata e soglie non riprodotte.",
-    "Consultazione selettiva di GINA 2026, documenti EMA Daxas, DailyMed Ohtuvayre aggiornato a ottobre 2026 e SmPC britannico Uniphyllin. Passaggi ufficiali distinti dal conteggio delle pagine locali e non lettura integrale dei documenti.",
-    "Nessuna nuova lettura Farmacologia II, GOLD o manuale molecolare. Nessun intero libro o corso dichiarato letto, nessuna revisione clinica indipendente. Nessun PDF, trascrizione, figura, dose o soglia della fonte pubblicati. Corso 650 letto ma non integrato.",
+    "Undici pagine locali controllate: dieci nuove e una rilettura; nove nuove pagine di testo e una tabella immagine, undici rendering. Nota finale della tabella corso 653 tagliata nell’originale e non ricostruita.",
+    "Otto pagine sostengono il lotto: sette nuove e una riletta. Copertura cumulativa con hash: 67 pagine controllate e 57 integrate. Corso 652, Katzung 412 e Rang 550 letti ma non integrati.",
+    "Deduplicazione in 91 registri nominati più registro respiratorio storico; tabelle e schemi ripetuti negli appunti non contati come prove indipendenti.",
+    "GINA 2026 consultata selettivamente: PDF 61/editoriale 60, 79/78 e 188/187; anche testo PDF 189/188 incontrato senza integrazione. Pulmicort Turbohaler 200 UK, pagina aggiornata 21 novembre 2022: §§4.1, 4.4, 4.5, 4.8, 5.1 e passaggi di 5.2. Nessuna figura ufficiale controllata o lettura integrale dei documenti.",
+    "Nessuna nuova lettura Farmacologia II, GOLD o manuale molecolare. Nessun intero libro o corso dichiarato letto, nessuna revisione clinica indipendente o verifica delle autorizzazioni italiane. Nessun PDF, trascrizione, figura, dosaggio o equivalenza delle fonti pubblicati.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Completare prima CI, deploy e riscontro online del lotto 646–650. Al ciclo successivo deduplicare un solo intervallo PDF 651–655; teoria respiratoria prioritaria, farmaci, profili e laboratori nel backlog."
+  "nextBatch": "Completare prima CI, deploy e riscontro online del lotto 651–655. Al ciclo successivo deduplicare un solo intervallo PDF 656–660; teoria respiratoria prioritaria, farmaci, profili e laboratori nel backlog."
 }
