@@ -3,7 +3,7 @@ export const THEORY_IBD = Object.freeze({
   "id": "malattie-infiammatorie-intestinali",
   "volume": 11,
   "title": "Malattie infiammatorie intestinali: barriera e controllo farmacologico dell’infiammazione",
-  "lead": "Aminosalicilati, glucocorticoidi, immunomodulatori e anti-TNF: bersagli, vie di somministrazione, esposizione e monitoraggio.",
+  "lead": "Dal controllo dell’infiammazione al traffico leucocitario e all’asse IL-12/23: bersagli, selettività, esposizione e monitoraggio.",
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-10-30",
@@ -406,6 +406,79 @@ export const THEORY_IBD = Object.freeze({
       "text": "Induzione e mantenimento non differiscono soltanto per il numero di dosi. Dopo il controllo iniziale, la continuità del trattamento cerca di conservare il beneficio nel tempo. Per una proteina terapeutica conta anche la storia immunologica dell’esposizione: un periodo senza farmaco può modificare il contesto nel quale avviene una nuova somministrazione. La ripresa dopo una lunga interruzione non va interpretata come una semplice prima dose in un organismo mai esposto.\n\nKatzung richiama reazioni precoci e ritardate e il rapporto fra anticorpi antifarmaco, durata della risposta e somministrazione episodica. Le informazioni di infliximab confermano che reazioni durante o poco dopo l’infusione e ipersensibilità ritardata sono fenomeni temporalmente distinti; intervalli prolungati senza il medicinale possono aumentare il rischio della seconda. Febbre, rash e dolori muscolari o articolari dopo una riesposizione appartengono a un quadro che richiede valutazione, non alla prova automatica di una riacutizzazione intestinale.\n\nL’associazione con un immunomodulatore può ridurre la formazione di anticorpi contro infliximab, ma questa osservazione non equivale a raccomandare sempre una combinazione. Il vantaggio sull’immunogenicità deve essere confrontato con i rischi delle terapie associate e con le caratteristiche della malattia. Anche le percentuali storiche di risposta o reazione dipendono da popolazione, schema e metodo di misura: non descrivono indistintamente tutti gli anti-TNF attuali. Il concetto da conservare è la necessità di ricostruire esposizioni, interruzioni e reazioni precedenti prima di interpretare un evento o una perdita di beneficio."
     },
     {
+      "id": "traffico-integrine",
+      "title": "Il reclutamento leucocitario: raggiungere il tessuto infiammato",
+      "refs": [
+        "CFI",
+        "KAT",
+        "APP",
+        "FII-A"
+      ],
+      "text": "L’infiammazione intestinale dipende anche dal movimento delle cellule. Un linfocita nel sangue deve riconoscere segnali di richiamo, interagire con l’endotelio e attraversarlo prima di contribuire alla risposta nella mucosa. Questa sequenza offre un bersaglio diverso dalla citochina già liberata: ridurre l’arrivo delle cellule può modificare il circuito che sostiene l’infiammazione nel tessuto.\n\nLe integrine sono proteine di membrana formate da una subunità alfa e una beta. La coppia determina quali interazioni sono possibili. Nel reclutamento intestinale è rilevante il legame fra α4β7 sul linfocita e MAdCAM-1 sull’endotelio; α4β1 riconosce invece, fra i suoi ligandi, VCAM-1. Le molecole non vanno appiattite in un’unica categoria: MAdCAM-1 e VCAM-1 sono ligandi di adesione distinti dalle selettine, e il rotolamento iniziale, l’adesione e il passaggio attraverso l’endotelio sono fasi collegate ma non sinonimi.\n\nConta anche il lato sul quale si interviene. Un anticorpo contro l’integrina leucocitaria e uno contro il suo ligando endoteliale possono ostacolare la stessa interazione, pur riconoscendo proteine diverse. Il legame fra αEβ7 ed E-caderina riguarda invece il rapporto con l’epitelio e la permanenza delle cellule in quel compartimento. Le mappe dei bersagli aiutano a distinguere queste funzioni; non dimostrano che ogni molecola rappresentata sia una terapia approvata o che tutte le strategie abbiano lo stesso risultato clinico.",
+      "formula": "Sangue → richiamo e contatto con l’endotelio → adesione → attraversamento → tessuto.\nα4β7 ↔ MAdCAM-1: asse di reclutamento intestinale.\nαEβ7 ↔ E-caderina: interazione con l’epitelio.\nSchema originale semplificato: non descrive ogni fase né tutte le cellule coinvolte."
+    },
+    {
+      "id": "vedolizumab-selettivita",
+      "title": "Vedolizumab: selettività della coppia α4β7",
+      "refs": [
+        "CFI",
+        "FII-S",
+        "FII-A",
+        "VED-UK",
+        "EMA-ENT"
+      ],
+      "text": "Vedolizumab riconosce l’eterodimero α4β7. Bloccarlo ostacola il contatto con MAdCAM-1 e quindi il reclutamento di linfociti diretti all’intestino. La selettività nasce dalla distribuzione e dalla funzione di questa coppia molecolare; non significa che il farmaco venga applicato localmente sulla mucosa o che neutralizzi direttamente TNF. È una strategia di controllo del traffico cellulare realizzata da un anticorpo somministrato per via sistemica.\n\nIl dettaglio strutturale evita due errori. Vedolizumab non equivale a un blocco generale della subunità α4, perché non inibisce α4β1; non equivale neppure a un blocco generale di β7, perché non inibisce αEβ7. La presenza di una subunità in comune non rende intercambiabili i bersagli. Le informazioni di prodotto precisano il riconoscimento di α4β7 e l’assenza di inibizione di quelle altre integrine: questa distinzione dà significato farmacologico all’espressione “selettivo per l’intestino”.\n\nL’EMA include vedolizumab fra le opzioni per adulti con colite ulcerosa o Crohn moderatamente o gravemente attivi dopo risposta insufficiente, perdita di risposta o intolleranza alle terapie indicate. La selettività non elimina reazioni alla somministrazione o problemi infettivi. Le avvertenze mantengono il controllo delle infezioni e l’attenzione a nuovi segni neurologici. Non si può quindi tradurre un bersaglio più circoscritto nella promessa di assenza di rischio o nell’automatica preferenza per ogni paziente."
+    },
+    {
+      "id": "natalizumab-sorveglianza",
+      "title": "Natalizumab: ampiezza del bersaglio e sorveglianza immunitaria",
+      "refs": [
+        "CFI",
+        "KAT",
+        "APP",
+        "EMA-TYS",
+        "VED-UK"
+      ],
+      "text": "Natalizumab riconosce la subunità α4 e può interferire con integrine diverse che la contengono. Rispetto al riconoscimento selettivo di α4β7, il suo raggio d’azione comprende anche il traffico regolato da α4β1. Il confronto spiega perché due anticorpi descritti entrambi come anti-integrine possano avere impieghi e precauzioni differenti: la sigla completa del bersaglio è parte del meccanismo, non un dettaglio di nomenclatura.\n\nLa sorveglianza immunitaria richiede che le cellule raggiungano anche compartimenti nei quali limitano infezioni latenti. La storia di natalizumab ha reso centrale la leucoencefalopatia multifocale progressiva, o PML, associata al virus JC. L’EMA segnala un rischio influenzato dalla durata del trattamento, dalla presenza di anticorpi anti-JC e da precedenti immunosoppressori. Le frequenze riportate nelle prime sperimentazioni del manuale restano dati storici; non sono una stima individuale applicabile oggi.\n\nKatzung discute natalizumab anche nel Crohn, distinguendo già il contesto statunitense da quello europeo. L’indicazione europea attuale di Tysabri riguarda la sclerosi multipla recidivante-remittente altamente attiva in gruppi selezionati, non il Crohn. La presenza del farmaco in questo capitolo serve per il confronto farmacologico e storico. Anche per vedolizumab restano avvertenze neurologiche: differenziare i bersagli evita di attribuire a tutti gli anti-integrine lo stesso profilo di rischio, senza dichiarare nullo quello di un singolo prodotto."
+    },
+    {
+      "id": "il12-il23-struttura",
+      "title": "IL-12 e IL-23: subunità condivise, segnali distinti",
+      "refs": [
+        "CFI",
+        "APP",
+        "FII-S",
+        "FII-A",
+        "UST-UK"
+      ],
+      "text": "IL-12 e IL-23 collegano l’attivazione delle cellule che presentano l’antigene alle risposte dei linfociti. Sono citochine eterodimeriche: IL-12 contiene p35 e p40, mentre IL-23 contiene p19 e p40. Condividere p40 crea un punto di intervento comune, ma non rende identiche le due citochine. La componente che differisce contribuisce alla specificità del sistema e permette di separare farmacologicamente i due segnali.\n\nAnche i recettori hanno una componente condivisa e una distinta. IL-12 utilizza IL-12Rβ1 e IL-12Rβ2; IL-23 utilizza IL-12Rβ1 e IL-23R. Occorre tenere separati i due livelli: p40 è parte della citochina, IL-12Rβ1 è parte del recettore cellulare. Un anticorpo che cattura p40 non è per questo un anticorpo contro il recettore. Questa distinzione chiarisce come si possa impedire l’attivazione di una cellula senza legare direttamente la sua membrana.\n\nSul piano funzionale, IL-12 favorisce il programma Th1, mentre IL-23 sostiene risposte associate all’asse Th17. Le cellule attivate possono alimentare reti di mediatori nella mucosa; non esiste però una corrispondenza esclusiva fra una singola citochina, un solo tipo di linfocita e una sola malattia. Il modello serve a capire il bersaglio del farmaco, non a dedurre dal nome di una popolazione cellulare quale trattamento funzionerà. Nei materiali del corso la forma “B40” va ricondotta a p40, senza confonderla con le catene beta recettoriali.",
+      "formula": "IL-12 = p35 + p40 → recettore IL-12Rβ1 + IL-12Rβ2.\nIL-23 = p19 + p40 → recettore IL-12Rβ1 + IL-23R.\nAnti-p40: intercetta entrambe le citochine.\nAnti-p19: intercetta IL-23, preservando il riconoscimento diretto di IL-12.\nSchema originale delle componenti, non misura dell’efficacia."
+    },
+    {
+      "id": "anti-p40-p19",
+      "title": "Dalla subunità al farmaco: anti-p40 e anti-p19",
+      "refs": [
+        "CFI",
+        "APP",
+        "FII-S",
+        "UST-UK",
+        "EMA-OMV",
+        "EMA-TREM",
+        "ACG-UC"
+      ],
+      "text": "Ustekinumab si lega a p40 e impedisce l’interazione di IL-12 e IL-23 con IL-12Rβ1. Il suo bersaglio spiega l’effetto su entrambe le vie. Risankizumab, guselkumab e mirikizumab appartengono invece al gruppo diretto contro p19 di IL-23. La maggiore selettività molecolare degli anti-p19 descrive ciò che viene riconosciuto; da sola non stabilisce una graduatoria di efficacia o sicurezza rispetto all’anti-p40.\n\nIl passaggio da un disegno molecolare a una scelta terapeutica richiede prove nella specifica malattia. Le informazioni di ustekinumab comprendono il Crohn e la colite ulcerosa in popolazioni definite; le overview EMA di guselkumab e mirikizumab includono entrambe le MICI nell’adulto con attività moderata o grave e risposta inadeguata, persa o intolleranza ai trattamenti indicati. Non bisogna dedurre queste indicazioni dalla sola presenza dei nomi in una figura del corso, né trasferire automaticamente indicazioni dermatologiche alla malattia intestinale.\n\nLa sintesi ACG 2025 sulla colite ulcerosa include strategie contro α4β7, p40 e p19, richiamando il peso delle terapie precedenti e delle manifestazioni extraintestinali. Un paziente con coinvolgimento articolare o cutaneo pone una domanda diversa da quella limitata alla mucosa. Anche il risultato da confrontare deve essere esplicito: risposta sintomatica, remissione ed esito endoscopico non sono sinonimi. Il meccanismo orienta il ragionamento, mentre popolazione studiata, obiettivo e storia terapeutica determinano quanto una prova sia pertinente."
+    },
+    {
+      "id": "guselkumab-cd64",
+      "title": "Guselkumab e CD64: distinguere un dato di laboratorio da un beneficio",
+      "refs": [
+        "CFI",
+        "GUS-UK",
+        "EMA-TREM"
+      ],
+      "text": "La figura dedicata a guselkumab mette in evidenza due interazioni della stessa immunoglobulina. Il sito che riconosce l’antigene lega IL-23; la porzione Fc può interagire con CD64, un recettore per la regione Fc delle IgG presente su cellule mieloidi. CD64 non è il recettore di IL-23 e non costituisce una seconda subunità della citochina. Separare questi ruoli evita di immaginare un unico bersaglio indifferenziato.\n\nLe informazioni di prodotto riportano il blocco di IL-23 e il legame a CD64 osservati in vitro. Cellule mieloidi che esprimono CD64 possono essere una fonte importante di IL-23 nel tessuto infiammato: l’interazione offre quindi una spiegazione di come il farmaco possa neutralizzare il mediatore vicino alle cellule che lo producono. È un’osservazione sul meccanismo e sul contesto cellulare, non la dimostrazione autonoma che il paziente ottenga un beneficio maggiore rispetto a qualsiasi altro anti-p19.\n\nPer verificare un vantaggio clinico occorrono esiti misurati con un confronto adeguato: malattia, trattamenti precedenti, durata e criteri di remissione possono cambiare il risultato. La dicitura “duplice azione” presente nelle diapositive non sostituisce queste condizioni. Nel capitolo il dato viene conservato come distinzione fra riconoscimento dell’antigene e funzione della regione Fc; le decisioni terapeutiche restano ancorate alle indicazioni e alle prove cliniche pertinenti, senza una preferenza ricavata dal solo schema molecolare."
+    },
+    {
       "id": "microbiota-e-limiti",
       "title": "Dal modello biologico alla prova terapeutica",
       "refs": [
@@ -413,7 +486,7 @@ export const THEORY_IBD = Object.freeze({
         "APP",
         "AGA-FMT"
       ],
-      "text": "Il microbiota compare due volte in questo capitolo, con significati distinti. Come componente dell’ecosistema intestinale partecipa alle interazioni con barriera e immunità. Come fonte di enzimi può scindere il legame azoico di un medicinale. Il secondo fenomeno è un meccanismo di attivazione farmacologica; non dimostra che il farmaco curi la malattia “normalizzando” l’intera comunità microbica.\n\nAnalogamente, associare disbiosi e infiammazione non autorizza a raccomandare genericamente probiotici, integratori o trasferimento di microbiota. AGA 2024 suggerisce contro il trapianto convenzionale di microbiota fecale per trattare colite ulcerosa o Crohn al di fuori degli studi clinici; distingue questo uso dalla prevenzione delle recidive di infezione da C. difficile in pazienti selezionati. Il nome dell’intervento non basta: conta la condizione che si vuole trattare.\n\nLa lettura svolta copre MICI, aminosalicilati, glucocorticoidi, immunomodulatori e un confronto mirato degli anti-TNF e dei biosimilari. Gli altri assi delle terapie avanzate e le ulteriori piccole molecole richiedono nuovi intervalli e una valutazione dedicata di indicazioni, rischi e confronti. I collegamenti presenti permettono di ripassare i principi molecolari e consultare identità già catalogate; non attestano che ogni scheda sia stata riesaminata in questo lotto. Questa sintesi resta un capitolo didattico con revisione editoriale mirata, non una revisione clinica indipendente."
+      "text": "Il microbiota compare due volte in questo capitolo, con significati distinti. Come componente dell’ecosistema intestinale partecipa alle interazioni con barriera e immunità. Come fonte di enzimi può scindere il legame azoico di un medicinale. Il secondo fenomeno è un meccanismo di attivazione farmacologica; non dimostra che il farmaco curi la malattia “normalizzando” l’intera comunità microbica.\n\nAnalogamente, associare disbiosi e infiammazione non autorizza a raccomandare genericamente probiotici, integratori o trasferimento di microbiota. AGA 2024 suggerisce contro il trapianto convenzionale di microbiota fecale per trattare colite ulcerosa o Crohn al di fuori degli studi clinici; distingue questo uso dalla prevenzione delle recidive di infezione da C. difficile in pazienti selezionati. Il nome dell’intervento non basta: conta la condizione che si vuole trattare.\n\nLa lettura svolta copre MICI, aminosalicilati, glucocorticoidi, immunomodulatori e un confronto mirato degli anti-TNF, dei biosimilari, delle integrine e dell’asse IL-12/23. Le ulteriori piccole molecole e il blocco delle chinasi richiedono nuovi intervalli e una valutazione dedicata di indicazioni, rischi e confronti. I collegamenti presenti permettono di ripassare i principi molecolari e consultare identità già catalogate; non attestano che ogni scheda sia stata riesaminata in questo lotto. Questa sintesi resta un capitolo didattico con revisione editoriale mirata, non una revisione clinica indipendente."
     }
   ],
   "checks": [
@@ -556,6 +629,30 @@ export const THEORY_IBD = Object.freeze({
     {
       "question": "Perché la ripresa di infliximab dopo una lunga pausa non equivale necessariamente alla prima esposizione?",
       "answer": "L’organismo può avere già sviluppato una risposta immunitaria al prodotto. La storia di esposizione e delle reazioni contribuisce a interpretare il rischio di ipersensibilità, anche ritardata."
+    },
+    {
+      "question": "Perché bloccare α4β7 non equivale a bloccare MAdCAM-1?",
+      "answer": "Si interviene sui due lati di una stessa interazione: α4β7 è un’integrina leucocitaria, MAdCAM-1 un suo ligando endoteliale. I bersagli molecolari restano distinti."
+    },
+    {
+      "question": "Vedolizumab blocca tutte le integrine contenenti β7?",
+      "answer": "No. Riconosce α4β7 e non inibisce αEβ7; non inibisce neppure α4β1. La coppia completa determina la selettività."
+    },
+    {
+      "question": "Perché natalizumab compare nel confronto sulle MICI pur senza indicazione europea per Crohn?",
+      "answer": "Illustra il blocco più ampio di α4 e il rapporto fra traffico cellulare e sorveglianza immunitaria. Il contesto storico del manuale è distinto dall’indicazione europea attuale nella sclerosi multipla."
+    },
+    {
+      "question": "p40 e IL-12Rβ1 appartengono alla stessa struttura?",
+      "answer": "No. p40 è una subunità condivisa da IL-12 e IL-23; IL-12Rβ1 è una catena dei rispettivi recettori cellulari."
+    },
+    {
+      "question": "Che cosa preserva direttamente un anticorpo anti-p19 rispetto a un anti-p40?",
+      "answer": "Non riconosce la subunità p40 condivisa e quindi non blocca direttamente IL-12. Questa selettività non dimostra da sola superiorità clinica."
+    },
+    {
+      "question": "Il legame in vitro di guselkumab a CD64 dimostra che sia sempre preferibile agli altri anti-p19?",
+      "answer": "No. Descrive un’interazione della regione Fc presso cellule produttrici di IL-23. Un vantaggio clinico richiede un confronto pertinente con esiti misurati."
     }
   ],
   "relatedExistingChapterIds": [
@@ -629,18 +726,42 @@ export const THEORY_IBD = Object.freeze({
     {
       "id": "CHEMBL1201572",
       "label": "ETANERCEPT"
+    },
+    {
+      "id": "CHEMBL1743087",
+      "label": "VEDOLIZUMAB"
+    },
+    {
+      "id": "CHEMBL1201607",
+      "label": "NATALIZUMAB"
+    },
+    {
+      "id": "CHEMBL1201835",
+      "label": "USTEKINUMAB"
+    },
+    {
+      "id": "CHEMBL2364648",
+      "label": "GUSELKUMAB"
+    },
+    {
+      "id": "CHEMBL3990014",
+      "label": "MIRIKIZUMAB"
+    },
+    {
+      "id": "CHEMBL3990029",
+      "label": "RISANKIZUMAB"
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 544–570, etichette 542–568. Nuove 566–570 lette nel testo e nei rendering: 567–570 prevalentemente grafiche. Solo 569 alimenta nuove sezioni; 566–568 riprendono confronti strutturali e biosimilari già trattati, 570 è una mappa di altri bersagli rinviata. Tabelle storiche non trasferite come dati attuali; figure non ripubblicate."
+      "detail": "PDF 544–575, etichette 542–573. Nuove 571–575 lette nel testo disponibile e nei rendering; 574–575 prevalentemente grafiche. Integrate 571–574 e mappa 570 già letta. 566–568 ripetitive, 575 sulle chinasi rinviata. Mappe storiche non equivalgono a elenchi attuali di autorizzazioni; figure non ripubblicate."
     },
     {
       "id": "KAT",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX italiana 2014 / XII americana 2012, capitolo 62, PDF 1278–1285, editoriali 1258–1265. Nuova 1285 letta integralmente nel testo e nel rendering; integrati continuità, immunogenicità e reazioni. Percentuali, dosi e raccomandazioni storiche non assunte come attuali. Continuazione 1286 non letta."
+      "detail": "IX italiana 2014 / XII americana 2012, capitolo 62, PDF 1278–1286, editoriali 1258–1266. Nuova 1286 letta integralmente, incluso finale sugli anoressizzanti non integrato. Integrato confronto anti-integrine; dosi, frequenze storiche e generalizzazioni non assunte come attuali. Distinto contesto europeo di natalizumab."
     },
     {
       "id": "RAN",
@@ -650,7 +771,7 @@ export const THEORY_IBD = Object.freeze({
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I · 2025–26",
-      "detail": "Appunti e diapositive del corso di Farmacologia I, AA 2025–26: lezione 16 del 20/11/2025, PDF 283–286, etichette 278–281. Pagine 285–286 rilette senza ricontarle; della 286 integrato il solo confronto sui biosimilari. Altri bersagli e piccola figura anti-integrine restano esclusi; figura non verificata in ogni etichetta."
+      "detail": "Appunti e diapositive del corso di Farmacologia I, AA 2025–26: lezione 16 del 20/11/2025, PDF 283–286, etichette 278–281. Nel lotto corrente riletta PDF 286 senza nuovo conteggio: integrati p40 e adesione, oltre al precedente confronto sui biosimilari. Figura ridotta non verificata in ogni piccola etichetta; confronto con la diapositiva I 571 più leggibile."
     },
     {
       "id": "MES-UK",
@@ -716,7 +837,7 @@ export const THEORY_IBD = Object.freeze({
       "id": "ACG-UC",
       "title": "ACG 2025 · Sintesi ufficiale sulla colite ulcerosa",
       "url": "https://gi.org/journals-publications/ebgi/alkazzi_aug2025/",
-      "detail": "Sintesi ufficiale: lettura selettiva precedente 20–22 e 28–38; ricontrollati 23, mantenimento e 51–54 nel lotto corrente il 30/10/2026. Non linea guida completa. Ricontrollati nel lotto 561–565 i passaggi anti-TNF 28–29, 42 e 44 e i concetti di posizionamento 28–29. Nel lotto 566–570 letti raccomandazione 44 e concetti chiave 28–29, 31 e 36 su risposta, concentrazioni, vie e monitoraggio proattivo."
+      "detail": "Sintesi ufficiale: lettura selettiva precedente 20–22 e 28–38; ricontrollati 23, mantenimento e 51–54 nel lotto corrente il 30/10/2026. Non linea guida completa. Ricontrollati nel lotto 561–565 i passaggi anti-TNF 28–29, 42 e 44 e i concetti di posizionamento 28–29. Nel lotto 566–570 letti raccomandazione 44 e concetti chiave 28–29, 31 e 36 su risposta, concentrazioni, vie e monitoraggio proattivo. Lotto 571–575: classi terapeutiche e concetti chiave 40–47, soprattutto storia terapeutica e manifestazioni extraintestinali; consultazione selettiva."
     },
     {
       "id": "ACG-CD",
@@ -739,12 +860,12 @@ export const THEORY_IBD = Object.freeze({
     {
       "id": "FII-S",
       "title": "Appunti e diapositive del corso di Farmacologia II · diapositive 2025–26",
-      "detail": "Appunti e diapositive del corso di Farmacologia II 2025–26: PDF 17–18, 28–30, 33 e 36 di 59. Nuove 33 e 36 lette e controllate visivamente. Integrati i soli passaggi anti-TNF e proteina di fusione; disegno CTLA4-Fc non interpretato come struttura di etanercept."
+      "detail": "Appunti e diapositive del corso di Farmacologia II 2025–26: PDF 17–18, 28–30, 33–34 e 36 di 59. Nuova PDF 34 letta e controllata visivamente: integrati p40 e integrine, precisando selettività e rischi sulle informazioni di prodotto. I precedenti passaggi anti-TNF e proteine di fusione restano distinti dal disegno CTLA4-Fc."
     },
     {
       "id": "FII-A",
       "title": "Appunti e diapositive del corso di Farmacologia II · appunti 2025–26",
-      "detail": "Appunti e diapositive del corso di Farmacologia II, lezione 1 del 27/10/2025: PDF 7–8 e 11–16 di 26. Nuove 14–16 lette interamente nel testo disponibile e controllate nel rendering; integrati soltanto anti-TNF, immunogenicità, reazioni e proteine di fusione. Figure su altri bersagli esaminate nel contesto, escluse dalla sintesi. Pagine equivalenti 15–17 della raccolta compilata non ricontate."
+      "detail": "Appunti e diapositive del corso di Farmacologia II, lezione 1 del 27/10/2025: PDF 7–8 e 11–16 di 26. Nel lotto corrente rilette PDF 15–16 senza nuovo conteggio: aggiunti p40 e traffico ai passaggi precedenti su anti-TNF, immunogenicità, reazioni e proteine di fusione. B40 corretto in p40; schema di extravasazione 15 controllato, figura di fusione 16 fuori dal nuovo ampliamento. Copie della raccolta compilata non ricontate."
     },
     {
       "id": "AZA-UK",
@@ -847,8 +968,50 @@ export const THEORY_IBD = Object.freeze({
       "title": "Remsima sottocutaneo · SmPC britannico",
       "url": "https://www.medicines.org.uk/emc/product/11101/smpc",
       "detail": "Aggiornamento 27/07/2026. Sezione 5.2, assorbimento, biodisponibilità e confronto dei minimi per i regimi specificati, letta il 30/10/2026. Non RCP italiano né revisione completa del fascicolo."
+    },
+    {
+      "id": "EMA-ENT",
+      "title": "EMA · Entyvio",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/entyvio",
+      "detail": "Overview: indicazioni, meccanismo e avvertenze. Lettura selettiva il 30/10/2026."
+    },
+    {
+      "id": "VED-UK",
+      "title": "Entyvio endovenoso · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/5442/smpc",
+      "detail": "Passaggi 4.3–4.4 e 5.1 su selettività α4β7, infezioni e sorveglianza neurologica letti il 30/10/2026. Non RCP italiano né fascicolo completo."
+    },
+    {
+      "id": "EMA-TYS",
+      "title": "EMA · Tysabri",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/tysabri",
+      "detail": "Overview indicizzata: indicazione europea e fattori di rischio PML. Consultazione selettiva il 30/10/2026; non verifica completa della scheda statunitense."
+    },
+    {
+      "id": "UST-UK",
+      "title": "Stelara endovenoso · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/4412/smpc",
+      "detail": "Aggiornamento 09/02/2026; 4.1, passaggi 4.3–4.4 e meccanismo in 5.1 letti il 30/10/2026. Non RCP italiano; pagina EMA diretta non disponibile (429)."
+    },
+    {
+      "id": "EMA-TREM",
+      "title": "EMA · Tremfya",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/tremfya",
+      "detail": "Overview: indicazioni MICI nell’adulto e meccanismo letti il 30/10/2026. Nessun confronto clinico completo fra prodotti."
+    },
+    {
+      "id": "GUS-UK",
+      "title": "Tremfya endovenoso · SmPC britannico",
+      "url": "https://www.medicines.org.uk/emc/product/100877/smpc",
+      "detail": "Aggiornamento 13/02/2026; 4.1 e meccanismo in 5.1, compresa osservazione in vitro CD64, letti il 30/10/2026. Non RCP italiano."
+    },
+    {
+      "id": "EMA-OMV",
+      "title": "EMA · Omvoh",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/omvoh",
+      "detail": "Overview: indicazioni MICI nell’adulto, meccanismo e rischi letti il 30/10/2026; non fascicolo completo."
     }
   ],
-  "coverage": "Sei nuove pagine esaminate: testo completo disponibile e controllo dei rendering; quattro sono prevalentemente grafiche. Due pagine contribuiscono ai nuovi passaggi, tre riprendono confronti già trattati e una resta fuori dalla sintesi. Totale cumulativo 57 pagine lette e 52 con passaggi integrati, da sei fonti; le pagine ripetute non costituiscono prove indipendenti. Nessuna nuova lettura di appunti I o materiali II in questo lotto: la riconciliazione precedente resta nel registro. Fonti ufficiali consultate selettivamente. Nessuna lettura integrale di libri o corsi, né revisione clinica indipendente.",
-  "wordCount": 7443
+  "coverage": "Sette nuove pagine lette nel testo disponibile e nei rendering: sei contribuiscono alla sintesi, una sulle chinasi resta rinviata. Quattro pagine già lette riconsultate senza ricontarle; la mappa I 570 è ora integrata. Copertura cumulativa: 64 pagine lette, 59 con passaggi integrati, sei fonti. Le figure ripetute non sono prove indipendenti. Fonti ufficiali consultate selettivamente. Nessuna lettura integrale di libri o corsi, né revisione clinica indipendente.",
+  "wordCount": 8693
 });
