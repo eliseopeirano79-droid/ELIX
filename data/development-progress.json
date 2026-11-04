@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-11-04T22:33:38.182730+00:00",
-  "batch": "theory-course-651-655",
+  "updatedAt": "2026-11-04T23:11:34.573078+00:00",
+  "batch": "theory-course-656-660",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.71.0",
-  "branch": "feat/theory-course-651-655",
-  "baseCommit": "f5fe48a6189753847f06003b8f4b94836e6017d5",
+  "release": "0.72.0",
+  "branch": "feat/theory-course-656-660",
+  "baseCommit": "cf419a56e659cdc54b39c98fbaadc4b6327e00e0",
   "previousBatch": {
-    "batch": "theory-course-646-650",
+    "batch": "theory-course-651-655",
     "status": "published_and_live_verified",
-    "release": "0.70.0",
-    "commit": "f5fe48a6189753847f06003b8f4b94836e6017d5"
+    "release": "0.71.0",
+    "commit": "cf419a56e659cdc54b39c98fbaadc4b6327e00e0"
   },
   "scope": [
-    "Ampliamento del capitolo asma: regolazione genica dei glucocorticoidi, cooperazione β2, deposizione e primo passaggio, rischi locali e sistemici."
+    "Ampliamento del capitolo asma: sintesi dei leucotrieni e antagonismo CysLT1, risposte cellulari, beneficio e rischi; tempi dei corticosteroidi e spaziatore."
   ],
   "completed": [
-    "Due sezioni aggiunte e due ampliate; copertura aggiornata. 26 sezioni, 6461 parole, 26 domande, undici schemi originali e ventuno riferimenti.",
-    "Undici pagine locali controllate: dieci nuove e una rilettura. Otto sostengono il lotto; sette nuove nella copertura integrata. Cumulativo con hash: 67 controllate e 57 integrate.",
-    "Confrontati selettivamente GINA 2026 e SmPC britannico Pulmicort Turbohaler. Distinti agonismo e disponibilità β2, assorbimento polmonare e primo passaggio, effetto antinfiammatorio e broncodilatazione immediata.",
+    "Due sezioni aggiunte e tre ampliate; copertura aggiornata. 28 sezioni, 7244 parole, 28 domande, tredici schemi originali e ventidue riferimenti.",
+    "Undici pagine locali controllate: nove nuove e due riletture. Otto sostengono il lotto; sei nuove nella copertura integrata. Cumulativo con hash: 76 controllate e 63 integrate.",
+    "Confrontati selettivamente GINA 2026, SmPC britannico Singulair e label statunitense zileuton. Distinti inibizione della sintesi e antagonismo recettoriale; confronti storici di efficacia e sicurezza riconciliati.",
     "45 validatori superati; otto configurazioni browser, fonti, tastiera, ricerche, collegamenti e offline; sei schermate ispezionate.",
-    "Aggiornamento reale 0.70.0→0.71.0 con preferiti, progressi e tema conservati. Altri 60 capitoli, catalogo, lettore, stili e laboratori invariati."
+    "Aggiornamento reale 0.71.0→0.72.0 con preferiti, progressi e tema conservati. Altri 60 capitoli, catalogo, lettore, stili e laboratori invariati."
   ],
   "remaining": [
     "CI, deploy concluso e riscontro online."
@@ -44,7 +44,7 @@
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
     "newSections": 2,
-    "expandedSections": 2,
+    "expandedSections": 3,
     "coverageParagraphUpdated": true,
     "newLinksToExistingIdentities": 0,
     "newStaticOriginalSchemas": 2
@@ -53,12 +53,12 @@
     "data/asma-e-broncodilatatori-reading.json"
   ],
   "limits": [
-    "Undici pagine locali controllate: dieci nuove e una rilettura; nove nuove pagine di testo e una tabella immagine, undici rendering. Nota finale della tabella corso 653 tagliata nell’originale e non ricostruita.",
-    "Otto pagine sostengono il lotto: sette nuove e una riletta. Copertura cumulativa con hash: 67 pagine controllate e 57 integrate. Corso 652, Katzung 412 e Rang 550 letti ma non integrati.",
-    "Deduplicazione in 91 registri nominati più registro respiratorio storico; tabelle e schemi ripetuti negli appunti non contati come prove indipendenti.",
-    "GINA 2026 consultata selettivamente: PDF 61/editoriale 60, 79/78 e 188/187; anche testo PDF 189/188 incontrato senza integrazione. Pulmicort Turbohaler 200 UK, pagina aggiornata 21 novembre 2022: §§4.1, 4.4, 4.5, 4.8, 5.1 e passaggi di 5.2. Nessuna figura ufficiale controllata o lettura integrale dei documenti.",
-    "Nessuna nuova lettura Farmacologia II, GOLD o manuale molecolare. Nessun intero libro o corso dichiarato letto, nessuna revisione clinica indipendente o verifica delle autorizzazioni italiane. Nessun PDF, trascrizione, figura, dosaggio o equivalenza delle fonti pubblicati.",
+    "Undici pagine locali controllate: nove nuove e due riletture; otto nuove pagine di testo e una tabella immagine, undici rendering.",
+    "Otto pagine sostengono il lotto: sei nuove e due rilette. Cumulativo con hash: 76 controllate e 63 integrate. Corso 658, Rang 551 e appunti 302 letti ma non integrati.",
+    "Deduplicazione in 93 registri nominati più registro respiratorio storico. Figure del corso 657/659 e appunti 301 ripetute, non prove indipendenti. Articolo Newman 2004 solo identificato dal riferimento nella slide, non letto.",
+    "GINA 2026 PDF 98/editoriale 97 e 118/117: testo disponibile letto, integrati soltanto LTRA e spaziatore; figure non controllate. Singulair UK e zileuton DailyMed USA consultati selettivamente. La lista GINA include zileuton sotto LTRA: classificazione farmacologica corretta mediante manuale e label come inibitore della 5-LO.",
+    "Nessuna nuova lettura Farmacologia II, GOLD o manuale molecolare. Nessun intero libro o corso letto, nessuna revisione clinica indipendente o verifica italiana. Nessun PDF, trascrizione, figura, dose o equivalenza pubblicati.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Completare prima CI, deploy e riscontro online del lotto 651–655. Al ciclo successivo deduplicare un solo intervallo PDF 656–660; teoria respiratoria prioritaria, farmaci, profili e laboratori nel backlog."
+  "nextBatch": "Completare prima CI, deploy e riscontro online del lotto 656–660. Al ciclo successivo deduplicare un solo intervallo PDF 661–665; teoria respiratoria prioritaria, farmaci, profili e laboratori nel backlog."
 }
