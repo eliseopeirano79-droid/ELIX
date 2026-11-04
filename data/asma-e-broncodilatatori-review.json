@@ -1,121 +1,142 @@
 {
-  "batch": "theory-course-646-650",
+  "batch": "theory-course-651-655",
   "chapterId": "asma-e-broncodilatatori",
-  "checkedAt": "2026-11-04T21:57:54.728835+00:00",
+  "checkedAt": "2026-11-04T22:31:29.631119+00:00",
   "outcome": "pass",
   "reviewer": "integrator_editorial_check",
   "independentClinicalReview": false,
-  "moduleSha256": "c1eaa3ef31078f2a423683bf01158edebce279096d7996eb5ff4712bcdbaa3e9",
+  "moduleSha256": "3d776a27d60a767a6f61aca50b9d10907b202d761eccb6de29839bed94f05e82",
   "checks": [
-    "Due sezioni nuove e classificazione ampliata; copertura aggiornata. Venti altre sezioni e ventidue domande conservate.",
-    "PDE come famiglia enzimatica distinta da recettori, selettività d’organo, via e raccomandazione terapeutica.",
-    "Teofillina: molteplici meccanismi, clearance ed esposizione, margine ristretto. Nessuna soglia o istruzione di infusione.",
-    "Roflumilast ed ensifentrina: documenti attuali, mantenimento distinto da soccorso; nessuna riparazione alveolare inferita.",
-    "Dieci pagine locali controllate: sette nuove, tre rilette. Nove sostengono il lotto; sei di nuova lettura e sette nuove nella copertura integrata. Cumulativo 57/50.",
-    "GINA 2026 e SmPC: indicazione autorizzata distinta da raccomandazione. Intervalli ufficiali specificati, senza dichiarare lettura integrale."
+    "Due sezioni nuove, corticosteroidi e clinica ampliati; copertura aggiornata. Ventuno altre sezioni e ventiquattro domande conservate.",
+    "Distinti regolazione genica, disponibilità β2 e agonismo; nessuna abolizione garantita della tolleranza.",
+    "Separati assorbimento polmonare e quota deglutita, primo passaggio e interazioni; spaziatore riferito a pMDI compatibile.",
+    "Candidosi/disfonia distinte da afte generiche. Rischi sistemici possibili; nessuna equivalenza o dose trasferita.",
+    "Unici 67/57 con hash; undici pagine lette, otto a supporto. Nota 653 tagliata dichiarata.",
+    "GINA attuale distinta da classificazioni e regimi storici; lettura ufficiale selettiva e non revisione clinica indipendente."
   ],
   "limits": [
     "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
     "Controlli locali completati; CI, deploy e riscontro online ancora da completare."
   ],
   "previousReview": {
-    "batch": "theory-course-641-645",
+    "batch": "theory-course-646-650",
     "chapterId": "asma-e-broncodilatatori",
-    "checkedAt": "2026-11-04T18:29:09.078572+00:00",
+    "checkedAt": "2026-11-04T21:57:54.728835+00:00",
     "outcome": "pass",
     "reviewer": "integrator_editorial_check",
     "independentClinicalReview": false,
-    "moduleSha256": "17117915f9316ad677cb9f80d36e02935ba841ed952ab4690e3b34499bb6a02b",
+    "moduleSha256": "c1eaa3ef31078f2a423683bf01158edebce279096d7996eb5ff4712bcdbaa3e9",
     "checks": [
-      "Una sezione nuova e circuito vagale ampliato; aggiornato il paragrafo di copertura. Diciannove altre sezioni e ventuno domande conservate.",
-      "M1 gangliare, M2 presinaptico e M3 muscolare/ghiandolare distinti senza attribuzione esclusiva di sede.",
-      "Ruffin 1977: abstract completo letto, non figura originale o testo integrale. Confronto FEV1 distinto da causalità M2 e da esiti a lungo termine.",
-      "Sette pagine sostengono il lotto: tre nuove; dieci controllate, sei nuove e quattro rilette. Copertura cumulativa con hash 50 controllate/43 integrate.",
-      "Duplicati del corso/appunti riconosciuti. Unità erronee del grafico non riprodotte; appunti 299 fuori integrazione e conflitti registrati."
+      "Due sezioni nuove e classificazione ampliata; copertura aggiornata. Venti altre sezioni e ventidue domande conservate.",
+      "PDE come famiglia enzimatica distinta da recettori, selettività d’organo, via e raccomandazione terapeutica.",
+      "Teofillina: molteplici meccanismi, clearance ed esposizione, margine ristretto. Nessuna soglia o istruzione di infusione.",
+      "Roflumilast ed ensifentrina: documenti attuali, mantenimento distinto da soccorso; nessuna riparazione alveolare inferita.",
+      "Dieci pagine locali controllate: sette nuove, tre rilette. Nove sostengono il lotto; sei di nuova lettura e sette nuove nella copertura integrata. Cumulativo 57/50.",
+      "GINA 2026 e SmPC: indicazione autorizzata distinta da raccomandazione. Intervalli ufficiali specificati, senza dichiarare lettura integrale."
     ],
     "limits": [
       "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
       "Controlli locali completati; CI, deploy e riscontro online ancora da completare."
     ],
     "previousReview": {
-      "batch": "theory-course-636-640",
+      "batch": "theory-course-641-645",
       "chapterId": "asma-e-broncodilatatori",
-      "checkedAt": "2026-11-04T17:20:35.764675+00:00",
+      "checkedAt": "2026-11-04T18:29:09.078572+00:00",
       "outcome": "pass",
       "reviewer": "integrator_editorial_check",
       "independentClinicalReview": false,
-      "moduleSha256": "695a7f91295036d3783a48e0b5dc24037a1430db3b03109da215c523dd7ada10",
+      "moduleSha256": "17117915f9316ad677cb9f80d36e02935ba841ed952ab4690e3b34499bb6a02b",
       "checks": [
-        "Due nuove sezioni e ampliamento sul circuito vagale riletti; aggiornato il paragrafo di copertura, diciassette altre sezioni e diciannove domande precedenti conservate.",
-        "Esiti clinici del grafico Taylor distinti dalla misura recettoriale; abstract originale senza dichiarare lettura integrale.",
-        "Precauzioni cardiache distinte da controindicazione generale; nessuna escalation autonoma o dose.",
-        "M2 presinaptico e M3 muscolare distinti; struttura quaternaria non equiparata ad assenza di assorbimento o effetti periferici.",
-        "Otto pagine nuove e tre riletture: Rang 548 già letto storicamente, primo controllo visivo distinto.",
-        "44 pagine distinte controllate e 40 integrate nei registri con hash; selezione storica non sommata senza identificazione."
+        "Una sezione nuova e circuito vagale ampliato; aggiornato il paragrafo di copertura. Diciannove altre sezioni e ventuno domande conservate.",
+        "M1 gangliare, M2 presinaptico e M3 muscolare/ghiandolare distinti senza attribuzione esclusiva di sede.",
+        "Ruffin 1977: abstract completo letto, non figura originale o testo integrale. Confronto FEV1 distinto da causalità M2 e da esiti a lungo termine.",
+        "Sette pagine sostengono il lotto: tre nuove; dieci controllate, sei nuove e quattro rilette. Copertura cumulativa con hash 50 controllate/43 integrate.",
+        "Duplicati del corso/appunti riconosciuti. Unità erronee del grafico non riprodotte; appunti 299 fuori integrazione e conflitti registrati."
       ],
       "limits": [
         "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
         "Controlli locali completati; CI, deploy e riscontro online ancora da completare."
       ],
       "previousReview": {
-        "batch": "theory-course-631-635",
+        "batch": "theory-course-636-640",
         "chapterId": "asma-e-broncodilatatori",
-        "checkedAt": "2026-11-04T15:42:12.116422+00:00",
+        "checkedAt": "2026-11-04T17:20:35.764675+00:00",
         "outcome": "pass",
         "reviewer": "integrator_editorial_check",
         "independentClinicalReview": false,
-        "moduleSha256": "96ae2f8e672ead36071237b082f1518d0dca739088eb4ccdb1b737921839ef80",
+        "moduleSha256": "695a7f91295036d3783a48e0b5dc24037a1430db3b03109da215c523dd7ada10",
         "checks": [
-          "Due nuove sezioni e un paragrafo aggiunto riletti; altre sedici sezioni e precedenti diciassette domande conservate.",
-          "Prova umana indiretta e misura animale diretta distinte; nessuna generalizzazione della modulazione presinaptica.",
-          "Selettività relativa, esposizione e assorbimento separati; nessuna graduatoria di sicurezza o equivalenza di dose.",
-          "COMT non equivale a eliminazione complessiva; metabolismo salbutamolo confrontato con SmPC UK.",
-          "Cinque pagine nuove e sei riletture; tabella immagine distinta dal testo estratto; duplicati identificati.",
-          "35 pagine distinte controllate e 32 integrate, mantenendo la copertura dei due lotti precedenti."
+          "Due nuove sezioni e ampliamento sul circuito vagale riletti; aggiornato il paragrafo di copertura, diciassette altre sezioni e diciannove domande precedenti conservate.",
+          "Esiti clinici del grafico Taylor distinti dalla misura recettoriale; abstract originale senza dichiarare lettura integrale.",
+          "Precauzioni cardiache distinte da controindicazione generale; nessuna escalation autonoma o dose.",
+          "M2 presinaptico e M3 muscolare distinti; struttura quaternaria non equiparata ad assenza di assorbimento o effetti periferici.",
+          "Otto pagine nuove e tre riletture: Rang 548 già letto storicamente, primo controllo visivo distinto.",
+          "44 pagine distinte controllate e 40 integrate nei registri con hash; selezione storica non sommata senza identificazione."
         ],
         "limits": [
           "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
           "Controlli locali completati; CI, deploy e riscontro online ancora da completare."
         ],
         "previousReview": {
-          "batch": "theory-course-626-630",
+          "batch": "theory-course-631-635",
           "chapterId": "asma-e-broncodilatatori",
-          "checkedAt": "2026-11-04T14:47:20.761067+00:00",
+          "checkedAt": "2026-11-04T15:42:12.116422+00:00",
           "outcome": "pass",
           "reviewer": "integrator_editorial_check",
           "independentClinicalReview": false,
-          "moduleSha256": "5e631a5097fe861184561fbac27026f854615035e4392ddd347c09816bb64d04",
+          "moduleSha256": "96ae2f8e672ead36071237b082f1518d0dca739088eb4ccdb1b737921839ef80",
           "checks": [
-            "Tre sezioni aggiunte e due ampliate rilette; altre 12 sezioni e precedenti 14 domande conservate.",
-            "AMPc e regolazione contrattile descritti come rete, senza obbligatorietà universale di una singola via dei canali.",
-            "Inizio e durata distinti: formoterolo rapido/prolungato; classe LABA non equivalente a un’indicazione al bisogno. Confronto SmPC britannici circoscritto.",
-            "Sintesi e degradazione di AMPc distinte; nessuna selettività PDE2 o concentrazione storica adottata.",
-            "Asma+BPCO descrittivo secondo GINA 2026; scala ACOS storica non trasferita.",
-            "12 pagine nuove controllate, 10 integrate; duplicato iconografico identificato. Nessuna figura o trascrizione pubblicata."
+            "Due nuove sezioni e un paragrafo aggiunto riletti; altre sedici sezioni e precedenti diciassette domande conservate.",
+            "Prova umana indiretta e misura animale diretta distinte; nessuna generalizzazione della modulazione presinaptica.",
+            "Selettività relativa, esposizione e assorbimento separati; nessuna graduatoria di sicurezza o equivalenza di dose.",
+            "COMT non equivale a eliminazione complessiva; metabolismo salbutamolo confrontato con SmPC UK.",
+            "Cinque pagine nuove e sei riletture; tabella immagine distinta dal testo estratto; duplicati identificati.",
+            "35 pagine distinte controllate e 32 integrate, mantenendo la copertura dei due lotti precedenti."
           ],
           "limits": [
             "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
             "Controlli locali completati; CI, deploy e riscontro online ancora da completare."
           ],
           "previousReview": {
-            "batch": "theory-course-621-625",
+            "batch": "theory-course-626-630",
             "chapterId": "asma-e-broncodilatatori",
-            "checkedAt": "2026-11-04T13:45:04.636250+00:00",
+            "checkedAt": "2026-11-04T14:47:20.761067+00:00",
             "outcome": "pass",
             "reviewer": "integrator_editorial_check",
             "independentClinicalReview": false,
-            "moduleSha256": "68190b1a0deb2aee921710180dbda82f7e395e1dd0d7e488fda59270fd3ddcb5",
+            "moduleSha256": "5e631a5097fe861184561fbac27026f854615035e4392ddd347c09816bb64d04",
             "checks": [
-              "Rilette 14 sezioni e 14 risposte: meccanismi distinti da indicazioni, esiti immediati distinti da controllo infiammatorio.",
-              "Corrette inversione beta2 agonisti/antagonisti, confusione LTB4/cisteinilici, PKA/AMPc e selettività PDE2 non sostenuta.",
-              "GINA e GOLD attuali sostituiscono gli schemi clinici storici; nessuna dose individuale o protocollo di emergenza.",
-              "Ricerca Bagley distinta dalla Perspective; risultati prevalentemente murini e campioni umani osservazionali, nessuna terapia con gadolinio raccomandata.",
-              "18 pagine locali controllate, 17 integrate; tre schemi originali. Figure e trascrizioni originali non pubblicate."
+              "Tre sezioni aggiunte e due ampliate rilette; altre 12 sezioni e precedenti 14 domande conservate.",
+              "AMPc e regolazione contrattile descritti come rete, senza obbligatorietà universale di una singola via dei canali.",
+              "Inizio e durata distinti: formoterolo rapido/prolungato; classe LABA non equivalente a un’indicazione al bisogno. Confronto SmPC britannici circoscritto.",
+              "Sintesi e degradazione di AMPc distinte; nessuna selettività PDE2 o concentrazione storica adottata.",
+              "Asma+BPCO descrittivo secondo GINA 2026; scala ACOS storica non trasferita.",
+              "12 pagine nuove controllate, 10 integrate; duplicato iconografico identificato. Nessuna figura o trascrizione pubblicata."
             ],
             "limits": [
-              "Controllo del solo integratore, non revisione clinica indipendente.",
-              "Verifiche tecniche, CI e pubblicazione ancora da completare."
-            ]
+              "Controllo editoriale del solo integratore, non revisione clinica indipendente.",
+              "Controlli locali completati; CI, deploy e riscontro online ancora da completare."
+            ],
+            "previousReview": {
+              "batch": "theory-course-621-625",
+              "chapterId": "asma-e-broncodilatatori",
+              "checkedAt": "2026-11-04T13:45:04.636250+00:00",
+              "outcome": "pass",
+              "reviewer": "integrator_editorial_check",
+              "independentClinicalReview": false,
+              "moduleSha256": "68190b1a0deb2aee921710180dbda82f7e395e1dd0d7e488fda59270fd3ddcb5",
+              "checks": [
+                "Rilette 14 sezioni e 14 risposte: meccanismi distinti da indicazioni, esiti immediati distinti da controllo infiammatorio.",
+                "Corrette inversione beta2 agonisti/antagonisti, confusione LTB4/cisteinilici, PKA/AMPc e selettività PDE2 non sostenuta.",
+                "GINA e GOLD attuali sostituiscono gli schemi clinici storici; nessuna dose individuale o protocollo di emergenza.",
+                "Ricerca Bagley distinta dalla Perspective; risultati prevalentemente murini e campioni umani osservazionali, nessuna terapia con gadolinio raccomandata.",
+                "18 pagine locali controllate, 17 integrate; tre schemi originali. Figure e trascrizioni originali non pubblicate."
+              ],
+              "limits": [
+                "Controllo del solo integratore, non revisione clinica indipendente.",
+                "Verifiche tecniche, CI e pubblicazione ancora da completare."
+              ]
+            }
           }
         }
       }

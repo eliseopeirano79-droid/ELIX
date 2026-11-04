@@ -3,23 +3,23 @@
   "chapterId": "asma-e-broncodilatatori",
   "fullCorpusRead": false,
   "clinicalValidation": false,
-  "batch": "theory-course-646-650",
-  "updatedAt": "2026-11-04T22:00:07.141098+00:00",
+  "batch": "theory-course-651-655",
+  "updatedAt": "2026-11-04T22:33:38.182730+00:00",
   "status": "locally_verified_pending_ci_and_publication",
-  "newReadPdfPages": 7,
-  "reusedReadPdfPages": 3,
-  "totalReadPdfPages": 10,
-  "chapterSourcePdfPages": 50,
-  "chapterReviewedPdfPages": 57,
-  "newIntegratedPdfPages": 6,
+  "newReadPdfPages": 10,
+  "reusedReadPdfPages": 1,
+  "totalReadPdfPages": 11,
+  "chapterSourcePdfPages": 57,
+  "chapterReviewedPdfPages": 67,
+  "newIntegratedPdfPages": 7,
   "newlyIntegratedChapterPages": 7,
-  "totalIntegratedPdfPages": 9,
+  "totalIntegratedPdfPages": 8,
   "limits": [
-    "Dieci pagine locali controllate: sette nuove e tre riletture, testi completi disponibili e tutti i rendering.",
-    "Nove pagine sostengono il lotto: sei di nuova lettura e tre rilette. Sette entrano nella copertura integrata, inclusi gli appunti 299 già letti. Copertura cumulativa con hash: 57 pagine controllate e 50 integrate.",
-    "Deduplicazione in 89 registri nominati più registro respiratorio storico. Schema e grafico corso/appunti duplicati; origine primaria del grafico di tossicità non identificata e soglie non riprodotte.",
-    "Consultazione selettiva di GINA 2026, documenti EMA Daxas, DailyMed Ohtuvayre aggiornato a ottobre 2026 e SmPC britannico Uniphyllin. Passaggi ufficiali distinti dal conteggio delle pagine locali e non lettura integrale dei documenti.",
-    "Nessuna nuova lettura Farmacologia II, GOLD o manuale molecolare. Nessun intero libro o corso dichiarato letto, nessuna revisione clinica indipendente. Nessun PDF, trascrizione, figura, dose o soglia della fonte pubblicati. Corso 650 letto ma non integrato."
+    "Undici pagine locali controllate: dieci nuove e una rilettura; nove nuove pagine di testo e una tabella immagine, undici rendering. Nota finale della tabella corso 653 tagliata nell’originale e non ricostruita.",
+    "Otto pagine sostengono il lotto: sette nuove e una riletta. Copertura cumulativa con hash: 67 pagine controllate e 57 integrate. Corso 652, Katzung 412 e Rang 550 letti ma non integrati.",
+    "Deduplicazione in 91 registri nominati più registro respiratorio storico; tabelle e schemi ripetuti negli appunti non contati come prove indipendenti.",
+    "GINA 2026 consultata selettivamente: PDF 61/editoriale 60, 79/78 e 188/187; anche testo PDF 189/188 incontrato senza integrazione. Pulmicort Turbohaler 200 UK, pagina aggiornata 21 novembre 2022: §§4.1, 4.4, 4.5, 4.8, 5.1 e passaggi di 5.2. Nessuna figura ufficiale controllata o lettura integrale dei documenti.",
+    "Nessuna nuova lettura Farmacologia II, GOLD o manuale molecolare. Nessun intero libro o corso dichiarato letto, nessuna revisione clinica indipendente o verifica delle autorizzazioni italiane. Nessun PDF, trascrizione, figura, dosaggio o equivalenza delle fonti pubblicati."
   ],
   "sources": [
     {
@@ -28,45 +28,46 @@
       "edition": "AA 2025–26",
       "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
       "pdfPagesRead": [
-        646,
-        647,
-        648,
-        649,
-        650
+        651,
+        652,
+        653,
+        654,
+        655
       ],
       "visuallyCheckedPdfPages": [
-        646,
-        647,
-        648,
-        649,
-        650
+        651,
+        652,
+        653,
+        654,
+        655
       ],
       "newlyReadTextPages": [
-        646,
-        647,
-        648,
-        649,
-        650
+        651,
+        652,
+        654,
+        655
       ],
-      "newlyReadImagePages": [],
+      "newlyReadImagePages": [
+        653
+      ],
       "reusedPreviouslyReadPages": [],
       "integratedPdfPages": [
-        646,
-        647,
-        648,
-        649
+        651,
+        653,
+        654,
+        655
       ],
       "readButNotIntegratedPdfPages": [
-        650
+        652
       ],
       "sourceUnchanged": true,
       "allContentsRead": false,
       "limits": [
-        "PDF 646–650, etichette 644–648: letti i testi disponibili e controllati tutti i cinque rendering.",
-        "646: sintesi e degradazione di AMPc distinte; teofillina non ridotta a inibitore selettivo PDE3/4. Convergenza biochimica non equivale a beneficio clinico automatico di una combinazione.",
-        "647: grafico di tossicità duplicato negli appunti 299, senza riferimento primario identificato. Nessuna soglia, dose o istruzione di infusione trasferita; infusione lenta non considerata garanzia contro tossicità.",
-        "648–649: roflumilast ed ensifentrina confrontati con documenti attuali. PDE4 non esclusivamente bronchiale; selettività e inalazione non eliminano rischi. Schema cellulare non dimostra protezione strutturale degli alveoli né indicazione nella fibrosi cistica.",
-        "650: corticosteroidi, testo e schema cellulare letti; non aggiunge passaggi in questo lotto sulle PDE. Non trasformata assenza di broncodilatazione diretta in assenza di prevenzione delle riacutizzazioni."
+        "PDF 651–655, etichette 649–653: testi disponibili letti, tabella immagine 653 letta e cinque rendering controllati. Nota in fondo alla tabella 653 parzialmente tagliata nell’originale; non ricostruita. Tabella 51.3 non attribuita a un manuale senza riscontro bibliografico.",
+        "651: tabelle di prodotti e dosi storiche non trasferite. Via inalatoria e sistemica distinte senza equivalenze. Tabella ripetuta negli appunti 300: non evidenza indipendente.",
+        "652: classificazione storica già discussa; letta ma non integrata. Non adottati uso quotidiano universale, LABA isolato o xantine/orali come strategia attuale di soccorso.",
+        "653–654: regolazione di proteine proinfiammatorie e antinfiammatorie, GRE e disponibilità β2; aumento di espressione distinto da agonismo β2 e da abolizione garantita della tolleranza.",
+        "655: formula breve insorgenza non trasformata in broncodilatazione immediata. Asse annessina/PLA2 presentato con il limite del manuale; sintesi IgE e feedback M2 non promossi a meccanismi terapeutici clinicamente dimostrati in tutti i pazienti."
       ]
     },
     {
@@ -75,35 +76,31 @@
       "edition": "IX italiana 2014 / XII americana 2012",
       "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
       "pdfPagesRead": [
-        407,
-        408,
-        409
+        411,
+        412
       ],
       "visuallyCheckedPdfPages": [
-        407,
-        408,
-        409
+        411,
+        412
       ],
       "newlyReadTextPages": [
-        407,
-        408
+        411,
+        412
       ],
       "newlyReadImagePages": [],
-      "reusedPreviouslyReadPages": [
-        409
-      ],
+      "reusedPreviouslyReadPages": [],
       "integratedPdfPages": [
-        407,
-        408,
-        409
+        411
       ],
-      "readButNotIntegratedPdfPages": [],
+      "readButNotIntegratedPdfPages": [
+        412
+      ],
       "sourceUnchanged": true,
       "allContentsRead": false,
       "limits": [
-        "PDF 407–409, editoriali 387–389: tre testi completi e rendering controllati; 407–408 nuove, 409 riletta.",
-        "Meccanismi multipli e dipendenza dalla concentrazione; effetti sistemici, variabilità della clearance e margine terapeutico. Indicazioni storiche riconciliate con GINA 2026.",
-        "Unità e posologie storiche non trasferite, compreso il valore in mg nella nota editoriale sul roflumilast a p.387. Preoccupazioni storiche e confronti di efficacia non riproposti come conclusioni attuali; nessuna promessa di recupero della sensibilità ai corticosteroidi."
+        "PDF 411–412, editoriali 391–392, IX italiana 2014/XII americana 2012: due testi e rendering controllati. 411 integrata; 412 letta ma fuori dall’ampliamento.",
+        "Somministrazione inalatoria, primo passaggio, effetti locali e sistemici; controllo dell’asma distinto da guarigione. Dosi, equivalenze orali/inalatorie, orario e sospensione dopo settimane non trasferiti. Rassicurazioni assolute sui rischi e crescita non adottate.",
+        "412: regimi intermittenti storici, studi citati e cromoni non trasferiti come raccomandazioni attuali; originali degli studi non consultati."
       ]
     },
     {
@@ -112,25 +109,32 @@
       "edition": "VIII italiana 2016 / originale 2015",
       "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
       "pdfPagesRead": [
-        547
+        549,
+        550
       ],
       "visuallyCheckedPdfPages": [
-        547
+        549,
+        550
       ],
-      "newlyReadTextPages": [],
+      "newlyReadTextPages": [
+        550
+      ],
       "newlyReadImagePages": [],
       "reusedPreviouslyReadPages": [
-        547
+        549
       ],
       "integratedPdfPages": [
-        547
+        549
       ],
-      "readButNotIntegratedPdfPages": [],
+      "readButNotIntegratedPdfPages": [
+        550
+      ],
       "sourceUnchanged": true,
       "allContentsRead": false,
       "limits": [
-        "PDF 547: riletti testo completo e rendering. Meccanismo non unico, discordanza fra concentrazione sperimentale e clinica, rischi e variabilità metabolica.",
-        "L’unità mmol/l presente nella pagina non adottata: nessuna soglia numerica pubblicata. Uso storico endovenoso nell’asma acuta distinto dalla raccomandazione negativa GINA 2026."
+        "PDF 549–550, VIII italiana 2016/originale 2015: testo disponibile e rendering controllati. 549 riletta e integrata; 550 nuova lettura non integrata. Numerazione editoriale non dedotta dai rinvii interni.",
+        "549: citochine, eosinofili, β2 e tempi dell’iperreattività; il manuale segnala assenza di prova diretta per il contributo terapeutico dell’annessina-1 nell’asma. Nessuna promessa di arresto universale della progressione o assenza di rischi.",
+        "550: algoritmo acuto storico, ossigeno ad alta concentrazione, aminofillina EV e descrizioni storiche di omalizumab non adottati. Nessun protocollo per anafilassi o angioedema derivato dalla pagina."
       ]
     },
     {
@@ -139,26 +143,30 @@
       "edition": "AA 2025–26; lezione 17 del 25 novembre 2025",
       "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
       "pdfPagesRead": [
-        299
+        300,
+        301
       ],
       "visuallyCheckedPdfPages": [
-        299
+        300,
+        301
       ],
-      "newlyReadTextPages": [],
+      "newlyReadTextPages": [
+        300,
+        301
+      ],
       "newlyReadImagePages": [],
-      "reusedPreviouslyReadPages": [
-        299
-      ],
+      "reusedPreviouslyReadPages": [],
       "integratedPdfPages": [
-        299
+        300,
+        301
       ],
       "readButNotIntegratedPdfPages": [],
       "sourceUnchanged": true,
       "allContentsRead": false,
       "limits": [
-        "PDF 299, etichetta 294, pagina 7 della lezione 17 del 25 novembre 2025, AA 2025–26: riletti testo completo e rendering. Pagina già letta nel lotto precedente, ora entra nella copertura integrata.",
-        "Schema e grafico duplicano corso 646–647: non conferme indipendenti. Riconciliate generalizzazioni su PDE4 solo bronchiale, assenza di interferenze e sicurezza automatica dell’ensifentrina.",
-        "Inciso sul sildenafil e tutte le cardiopatie fuori dal perimetro e non integrato. Elenco di effetti cercati online negli appunti non usato come fonte clinica autonoma."
+        "PDF 300–301, etichette 295–296, pagine 8–9 della lezione 17 del 25 novembre 2025, AA 2025–26: testi e rendering controllati. Entrambe integrate limitatamente ai corticosteroidi.",
+        "300: tabella dei prodotti duplicata nel corso 651 e schema cellulare già incontrato nel corso 650. Primo passaggio non elimina l’assorbimento polmonare; β2 aumentati non garantiscono abolizione della tolleranza.",
+        "301: candidosi e disfonia distinte da afte o ulcere aspecifiche. Spaziatore riferito al dispositivo compatibile, non a ogni inalatore; non alternativa universale al risciacquo. Antileucotrieni e cromoni letti ma non ampliati."
       ]
     }
   ],
@@ -168,7 +176,7 @@
   "newChapters": 0,
   "expandedExistingChapters": 1,
   "previousCoverage": {
-    "batch": "theory-course-641-645",
+    "batch": "theory-course-646-650",
     "sources": [
       {
         "id": "CFI",
@@ -176,45 +184,45 @@
         "edition": "AA 2025–26",
         "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
         "pdfPagesRead": [
-          641,
-          642,
-          643,
-          644,
-          645
+          646,
+          647,
+          648,
+          649,
+          650
         ],
         "visuallyCheckedPdfPages": [
-          641,
-          642,
-          643,
-          644,
-          645
+          646,
+          647,
+          648,
+          649,
+          650
         ],
         "newlyReadTextPages": [
-          641,
-          642,
-          643,
-          644,
-          645
+          646,
+          647,
+          648,
+          649,
+          650
         ],
         "newlyReadImagePages": [],
         "reusedPreviouslyReadPages": [],
         "integratedPdfPages": [
-          641,
-          642,
-          643
+          646,
+          647,
+          648,
+          649
         ],
         "readButNotIntegratedPdfPages": [
-          644,
-          645
+          650
         ],
         "sourceUnchanged": true,
         "allContentsRead": false,
         "limits": [
-          "PDF 641–645, etichette 639–643: tutti i testi disponibili letti e cinque rendering controllati, incluse etichette recettoriali, grafico e schemi incorporati.",
-          "641–642: M1 modula la trasmissione gangliare; M2 presinaptico frena il rilascio; M3 interviene su muscolo e ghiandole. Non si assume che M2 sia esclusivamente presinaptico né che sia disfunzionale in ogni persona con asma.",
-          "643: individuato il riferimento Ruffin 1977 del grafico duplicato negli appunti 298. Le unità mg della diapositiva sono discordanti con i microgrammi dell’abstract; nessuna dose o curva riprodotta. Il confronto funzionale non dimostra causalità esclusiva M2.",
-          "644: rischi già trattati nel lotto precedente; nessun nuovo passaggio.",
-          "645: classificazione didattica storica, non graduatoria terapeutica attuale; nessun nuovo passaggio."
+          "PDF 646–650, etichette 644–648: letti i testi disponibili e controllati tutti i cinque rendering.",
+          "646: sintesi e degradazione di AMPc distinte; teofillina non ridotta a inibitore selettivo PDE3/4. Convergenza biochimica non equivale a beneficio clinico automatico di una combinazione.",
+          "647: grafico di tossicità duplicato negli appunti 299, senza riferimento primario identificato. Nessuna soglia, dose o istruzione di infusione trasferita; infusione lenta non considerata garanzia contro tossicità.",
+          "648–649: roflumilast ed ensifentrina confrontati con documenti attuali. PDE4 non esclusivamente bronchiale; selettività e inalazione non eliminano rischi. Schema cellulare non dimostra protezione strutturale degli alveoli né indicazione nella fibrosi cistica.",
+          "650: corticosteroidi, testo e schema cellulare letti; non aggiunge passaggi in questo lotto sulle PDE. Non trasformata assenza di broncodilatazione diretta in assenza di prevenzione delle riacutizzazioni."
         ]
       },
       {
@@ -223,29 +231,35 @@
         "edition": "IX italiana 2014 / XII americana 2012",
         "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
         "pdfPagesRead": [
-          409,
-          410
+          407,
+          408,
+          409
         ],
         "visuallyCheckedPdfPages": [
-          409,
-          410
+          407,
+          408,
+          409
         ],
-        "newlyReadTextPages": [],
+        "newlyReadTextPages": [
+          407,
+          408
+        ],
         "newlyReadImagePages": [],
         "reusedPreviouslyReadPages": [
-          409,
-          410
+          409
         ],
         "integratedPdfPages": [
-          409,
-          410
+          407,
+          408,
+          409
         ],
         "readButNotIntegratedPdfPages": [],
         "sourceUnchanged": true,
         "allContentsRead": false,
         "limits": [
-          "PDF 409–410, editoriali 389–390: riletti testi completi e controllati entrambi i rendering.",
-          "Riconciliati tono vagale, risposta variabile, secrezione e dissociazione recettoriale. Indicazione storica di tiotropio superata dal documento attuale; nessuna dose trasferita. Parti sulle xantine e sui corticosteroidi lette ma non nuovamente integrate."
+          "PDF 407–409, editoriali 387–389: tre testi completi e rendering controllati; 407–408 nuove, 409 riletta.",
+          "Meccanismi multipli e dipendenza dalla concentrazione; effetti sistemici, variabilità della clearance e margine terapeutico. Indicazioni storiche riconciliate con GINA 2026.",
+          "Unità e posologie storiche non trasferite, compreso il valore in mg nella nota editoriale sul roflumilast a p.387. Preoccupazioni storiche e confronti di efficacia non riproposti come conclusioni attuali; nessuna promessa di recupero della sensibilità ai corticosteroidi."
         ]
       },
       {
@@ -254,25 +268,25 @@
         "edition": "VIII italiana 2016 / originale 2015",
         "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
         "pdfPagesRead": [
-          548
+          547
         ],
         "visuallyCheckedPdfPages": [
-          548
+          547
         ],
         "newlyReadTextPages": [],
         "newlyReadImagePages": [],
         "reusedPreviouslyReadPages": [
-          548
+          547
         ],
         "integratedPdfPages": [
-          548
+          547
         ],
         "readButNotIntegratedPdfPages": [],
         "sourceUnchanged": true,
         "allContentsRead": false,
         "limits": [
-          "PDF 548: rilettura di testo e rendering già controllati, senza nuova pagina.",
-          "Possibile effetto del blocco degli autorecettori M2 distinto dalla dimostrazione sperimentale del meccanismo. Non adottata una classificazione clinica universale di seconda scelta né nuovi impieghi antitussivi."
+          "PDF 547: riletti testo completo e rendering. Meccanismo non unico, discordanza fra concentrazione sperimentale e clinica, rischi e variabilità metabolica.",
+          "L’unità mmol/l presente nella pagina non adottata: nessuna soglia numerica pubblicata. Uso storico endovenoso nell’asma acuta distinto dalla raccomandazione negativa GINA 2026."
         ]
       },
       {
@@ -281,39 +295,33 @@
         "edition": "AA 2025–26; lezione 17 del 25 novembre 2025",
         "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
         "pdfPagesRead": [
-          298,
           299
         ],
         "visuallyCheckedPdfPages": [
-          298,
           299
         ],
-        "newlyReadTextPages": [
-          299
-        ],
+        "newlyReadTextPages": [],
         "newlyReadImagePages": [],
         "reusedPreviouslyReadPages": [
-          298
-        ],
-        "integratedPdfPages": [
-          298
-        ],
-        "readButNotIntegratedPdfPages": [
           299
         ],
+        "integratedPdfPages": [
+          299
+        ],
+        "readButNotIntegratedPdfPages": [],
         "sourceUnchanged": true,
         "allContentsRead": false,
         "limits": [
-          "PDF 298–299, etichette 293–294, pagine 6–7 della lezione 17 del 25 novembre 2025, AA 2025–26: testi completi e rendering letti. 298 riletta; 299 nuova.",
-          "298: schema recettoriale e grafico duplicati nel corso 641–643. Il riferimento del grafico, non identificato nel lotto precedente, è ora rintracciato tramite la diapositiva 643: Ruffin 1977. Duplicazione non conteggiata come conferma indipendente.",
-          "299: metilxantine e PDE, fuori dall’ampliamento attuale. Non integrate assenza di interferenze con roflumilast, localizzazione esclusivamente bronchiale delle PDE4 o controindicazione di sildenafil in ogni cardiopatia. Confronto clinico di questi passaggi rinviato al pertinente intervallo; nessuna dose o soglia trasferita."
+          "PDF 299, etichetta 294, pagina 7 della lezione 17 del 25 novembre 2025, AA 2025–26: riletti testo completo e rendering. Pagina già letta nel lotto precedente, ora entra nella copertura integrata.",
+          "Schema e grafico duplicano corso 646–647: non conferme indipendenti. Riconciliate generalizzazioni su PDE4 solo bronchiale, assenza di interferenze e sicurezza automatica dell’ensifentrina.",
+          "Inciso sul sildenafil e tutte le cardiopatie fuori dal perimetro e non integrato. Elenco di effetti cercati online negli appunti non usato come fonte clinica autonoma."
         ]
       }
     ],
-    "chapterSourcePdfPages": 43,
-    "chapterReviewedPdfPages": 50,
+    "chapterSourcePdfPages": 50,
+    "chapterReviewedPdfPages": 57,
     "previousCoverage": {
-      "batch": "theory-course-636-640",
+      "batch": "theory-course-641-645",
       "sources": [
         {
           "id": "CFI",
@@ -321,47 +329,45 @@
           "edition": "AA 2025–26",
           "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
           "pdfPagesRead": [
-            636,
-            637,
-            638,
-            639,
-            640
+            641,
+            642,
+            643,
+            644,
+            645
           ],
           "visuallyCheckedPdfPages": [
-            636,
-            637,
-            638,
-            639,
-            640
+            641,
+            642,
+            643,
+            644,
+            645
           ],
           "newlyReadTextPages": [
-            636,
-            637,
-            638,
-            639
+            641,
+            642,
+            643,
+            644,
+            645
           ],
-          "newlyReadImagePages": [
-            640
-          ],
+          "newlyReadImagePages": [],
           "reusedPreviouslyReadPages": [],
           "integratedPdfPages": [
-            637,
-            638,
-            639
+            641,
+            642,
+            643
           ],
           "readButNotIntegratedPdfPages": [
-            636,
-            640
+            644,
+            645
           ],
           "sourceUnchanged": true,
           "allContentsRead": false,
           "limits": [
-            "PDF 636–640, etichette 634–638. Testo completo disponibile letto in 636–639; 640 è uno schema immagine, letto dal rendering. Tutte le cinque pagine controllate visivamente.",
-            "636: categorie e tempi storici già trattati; nessuna nuova integrazione, dose o raccomandazione orale.",
-            "637: grafico Taylor 1993 duplicato negli appunti 297. Esito rappresentato: soggetti senza riacutizzazione, non numero o sensibilità dei recettori. L’abstract originale riporta risposta broncodilatatrice conservata: non prova diretta della desensibilizzazione.",
-            "638: precauzioni cardiache distinte da una controindicazione generale; non tutti gli effetti sistemici dipendono dal solo β1.",
-            "639: antagonismo muscarinico e componente vagale; stessa figura negli appunti 298. Non blocca ogni causa di ostruzione.",
-            "640: schema inalazione/deglutizione già affrontato nella sezione esposizione; percentuali non generalizzate. Nessun nuovo passaggio integrato."
+            "PDF 641–645, etichette 639–643: tutti i testi disponibili letti e cinque rendering controllati, incluse etichette recettoriali, grafico e schemi incorporati.",
+            "641–642: M1 modula la trasmissione gangliare; M2 presinaptico frena il rilascio; M3 interviene su muscolo e ghiandole. Non si assume che M2 sia esclusivamente presinaptico né che sia disfunzionale in ogni persona con asma.",
+            "643: individuato il riferimento Ruffin 1977 del grafico duplicato negli appunti 298. Le unità mg della diapositiva sono discordanti con i microgrammi dell’abstract; nessuna dose o curva riprodotta. Il confronto funzionale non dimostra causalità esclusiva M2.",
+            "644: rischi già trattati nel lotto precedente; nessun nuovo passaggio.",
+            "645: classificazione didattica storica, non graduatoria terapeutica attuale; nessun nuovo passaggio."
           ]
         },
         {
@@ -370,25 +376,20 @@
           "edition": "IX italiana 2014 / XII americana 2012",
           "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
           "pdfPagesRead": [
-            406,
             409,
             410
           ],
           "visuallyCheckedPdfPages": [
-            406,
             409,
             410
           ],
-          "newlyReadTextPages": [
-            409,
-            410
-          ],
+          "newlyReadTextPages": [],
           "newlyReadImagePages": [],
           "reusedPreviouslyReadPages": [
-            406
+            409,
+            410
           ],
           "integratedPdfPages": [
-            406,
             409,
             410
           ],
@@ -396,10 +397,8 @@
           "sourceUnchanged": true,
           "allContentsRead": false,
           "limits": [
-            "PDF 406 (editoriale 386) riletto; 409–410 (389–390) nuovi, testo completo e rendering controllati.",
-            "406: distinti broncodilatazione, protezione da stimoli e riacutizzazioni; rassicurazioni assolute storiche sulla sicurezza non adottate.",
-            "409: antagonismo competitivo dell’acetilcolina e variabilità della componente vagale. Parte sulla teofillina letta ma non integrata; nessuna dose/titolazione.",
-            "410: affinità e dissociazione di tiotropio, attività antinfiammatoria dei corticosteroidi. Stato storico dell’autorizzazione nell’asma superato dal documento attuale."
+            "PDF 409–410, editoriali 389–390: riletti testi completi e controllati entrambi i rendering.",
+            "Riconciliati tono vagale, risposta variabile, secrezione e dissociazione recettoriale. Indicazione storica di tiotropio superata dal documento attuale; nessuna dose trasferita. Parti sulle xantine e sui corticosteroidi lette ma non nuovamente integrate."
           ]
         },
         {
@@ -425,8 +424,8 @@
           "sourceUnchanged": true,
           "allContentsRead": false,
           "limits": [
-            "PDF 548: testo già registrato nella selezione respiratoria storica, riletto; primo controllo visivo esplicito di questa pagina. Non contato come nuova lettura del testo.",
-            "Ruolo di M2 presinaptico e M3 muscolare: il blocco del freno M2 può controbilanciare parte dell’effetto, senza spiegare da solo l’efficacia clinica. Le sezioni successive su altri farmaci sono lette ma non integrate."
+            "PDF 548: rilettura di testo e rendering già controllati, senza nuova pagina.",
+            "Possibile effetto del blocco degli autorecettori M2 distinto dalla dimostrazione sperimentale del meccanismo. Non adottata una classificazione clinica universale di seconda scelta né nuovi impieghi antitussivi."
           ]
         },
         {
@@ -435,38 +434,39 @@
           "edition": "AA 2025–26; lezione 17 del 25 novembre 2025",
           "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
           "pdfPagesRead": [
-            297,
-            298
+            298,
+            299
           ],
           "visuallyCheckedPdfPages": [
-            297,
-            298
+            298,
+            299
           ],
           "newlyReadTextPages": [
-            298
+            299
           ],
           "newlyReadImagePages": [],
           "reusedPreviouslyReadPages": [
-            297
-          ],
-          "integratedPdfPages": [
-            297,
             298
           ],
-          "readButNotIntegratedPdfPages": [],
+          "integratedPdfPages": [
+            298
+          ],
+          "readButNotIntegratedPdfPages": [
+            299
+          ],
           "sourceUnchanged": true,
           "allContentsRead": false,
           "limits": [
-            "PDF 297–298, etichette 292–293, pagine 5–6 della lezione 17 del 25 novembre 2025, AA 2025–26. 297 riletta, 298 nuova; testi completi e rendering controllati.",
-            "297: grafico duplicato nel corso 637. Non adottate esaurimento dei secondi messaggeri, irreversibilità universale, rinvio del trattamento o correzione completa della tolleranza mediante corticosteroidi.",
-            "298: figura duplicata nel corso 639; grafico di risposta privo di riferimento originale identificabile, non prova causale esclusiva del ruolo M2. Non adottate assenza universale di tolleranza agli antagonisti o generalizzazione degli effetti centrali alle molecole quaternarie."
+            "PDF 298–299, etichette 293–294, pagine 6–7 della lezione 17 del 25 novembre 2025, AA 2025–26: testi completi e rendering letti. 298 riletta; 299 nuova.",
+            "298: schema recettoriale e grafico duplicati nel corso 641–643. Il riferimento del grafico, non identificato nel lotto precedente, è ora rintracciato tramite la diapositiva 643: Ruffin 1977. Duplicazione non conteggiata come conferma indipendente.",
+            "299: metilxantine e PDE, fuori dall’ampliamento attuale. Non integrate assenza di interferenze con roflumilast, localizzazione esclusivamente bronchiale delle PDE4 o controindicazione di sildenafil in ogni cardiopatia. Confronto clinico di questi passaggi rinviato al pertinente intervallo; nessuna dose o soglia trasferita."
           ]
         }
       ],
-      "chapterSourcePdfPages": 40,
-      "chapterReviewedPdfPages": 44,
+      "chapterSourcePdfPages": 43,
+      "chapterReviewedPdfPages": 50,
       "previousCoverage": {
-        "batch": "theory-course-631-635",
+        "batch": "theory-course-636-640",
         "sources": [
           {
             "id": "CFI",
@@ -474,47 +474,47 @@
             "edition": "AA 2025–26",
             "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
             "pdfPagesRead": [
-              631,
-              632,
-              633,
-              634,
-              635
+              636,
+              637,
+              638,
+              639,
+              640
             ],
             "visuallyCheckedPdfPages": [
-              631,
-              632,
-              633,
-              634,
-              635
+              636,
+              637,
+              638,
+              639,
+              640
             ],
             "newlyReadTextPages": [
-              631,
-              632,
-              633,
-              635
+              636,
+              637,
+              638,
+              639
             ],
             "newlyReadImagePages": [
-              634
+              640
             ],
             "reusedPreviouslyReadPages": [],
             "integratedPdfPages": [
-              631,
-              632,
-              634,
-              635
+              637,
+              638,
+              639
             ],
             "readButNotIntegratedPdfPages": [
-              633
+              636,
+              640
             ],
             "sourceUnchanged": true,
             "allContentsRead": false,
             "limits": [
-              "PDF 631–635, etichette 629–633. Testo disponibile letto in 631–633/635; 634 è una tabella immagine, letta dal rendering, non dal solo numero estratto. Tutti e cinque i rendering controllati.",
-              "631: modulazione nervosa distinta dal rilassamento muscolare e dall’attività ciliare; stessa figura presente negli appunti 295. Inibizione presinaptica non generalizzata a ogni specie o preparazione.",
-              "632: tre azioni indicate, senza equiparare effetti indiretti e controllo clinico dell’infiammazione.",
-              "633: figura già presente negli appunti 296 e tema già integrato nel lotto precedente; letta, nessun nuovo passaggio integrato.",
-              "634: tabella già presente negli appunti 296. Rapporti di selettività, dosi e durate non trasferiti; durata di 12 ore per olodaterolo/vilanterolo resta dato da verificare, escluso. La rapidità del formoterolo resta quella del documento di prodotto già consultato.",
-              "635: distinti struttura, metabolismo e via di somministrazione. Nessuna equivalenza terapeutica fra vie o raccomandazione orale ricavata dallo schema storico; figura già negli appunti 296."
+              "PDF 636–640, etichette 634–638. Testo completo disponibile letto in 636–639; 640 è uno schema immagine, letto dal rendering. Tutte le cinque pagine controllate visivamente.",
+              "636: categorie e tempi storici già trattati; nessuna nuova integrazione, dose o raccomandazione orale.",
+              "637: grafico Taylor 1993 duplicato negli appunti 297. Esito rappresentato: soggetti senza riacutizzazione, non numero o sensibilità dei recettori. L’abstract originale riporta risposta broncodilatatrice conservata: non prova diretta della desensibilizzazione.",
+              "638: precauzioni cardiache distinte da una controindicazione generale; non tutti gli effetti sistemici dipendono dal solo β1.",
+              "639: antagonismo muscarinico e componente vagale; stessa figura negli appunti 298. Non blocca ogni causa di ostruzione.",
+              "640: schema inalazione/deglutizione già affrontato nella sezione esposizione; percentuali non generalizzate. Nessun nuovo passaggio integrato."
             ]
           },
           {
@@ -523,36 +523,36 @@
             "edition": "IX italiana 2014 / XII americana 2012",
             "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
             "pdfPagesRead": [
-              404,
-              405,
-              406
+              406,
+              409,
+              410
             ],
             "visuallyCheckedPdfPages": [
-              404,
-              405,
-              406
+              406,
+              409,
+              410
             ],
-            "newlyReadTextPages": [],
+            "newlyReadTextPages": [
+              409,
+              410
+            ],
             "newlyReadImagePages": [],
             "reusedPreviouslyReadPages": [
-              404,
-              405,
               406
             ],
             "integratedPdfPages": [
-              404,
-              405
+              406,
+              409,
+              410
             ],
-            "readButNotIntegratedPdfPages": [
-              406
-            ],
+            "readButNotIntegratedPdfPages": [],
             "sourceUnchanged": true,
             "allContentsRead": false,
             "limits": [
-              "PDF 404–406, editoriali 384–386: sei pagine di supporto del lotto sono riletture, non nuove letture.",
-              "404: effetti cellulari e deposizione inalatoria; percentuali e raccomandazioni storiche non trasferite.",
-              "405: strutture e confronto tra vie sostengono ora un nuovo passaggio teorico, pur essendo pagina già letta nel lotto precedente. Nessuna formula chimica, dose, vantaggio stereoisomerico o consiglio di titolazione copiato.",
-              "406: riletta per confronto; nessun nuovo passaggio integrato. Rassicurazioni assolute sulla sicurezza cardiaca non adottate."
+              "PDF 406 (editoriale 386) riletto; 409–410 (389–390) nuovi, testo completo e rendering controllati.",
+              "406: distinti broncodilatazione, protezione da stimoli e riacutizzazioni; rassicurazioni assolute storiche sulla sicurezza non adottate.",
+              "409: antagonismo competitivo dell’acetilcolina e variabilità della componente vagale. Parte sulla teofillina letta ma non integrata; nessuna dose/titolazione.",
+              "410: affinità e dissociazione di tiotropio, attività antinfiammatoria dei corticosteroidi. Stato storico dell’autorizzazione nell’asma superato dal documento attuale."
             ]
           },
           {
@@ -561,24 +561,25 @@
             "edition": "VIII italiana 2016 / originale 2015",
             "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
             "pdfPagesRead": [
-              546
+              548
             ],
             "visuallyCheckedPdfPages": [
-              546
+              548
             ],
             "newlyReadTextPages": [],
             "newlyReadImagePages": [],
             "reusedPreviouslyReadPages": [
-              546
+              548
             ],
             "integratedPdfPages": [
-              546
+              548
             ],
             "readButNotIntegratedPdfPages": [],
             "sourceUnchanged": true,
             "allContentsRead": false,
             "limits": [
-              "PDF 546 riletto nel testo e nel rendering: assorbimento sistemico ed effetti avversi, senza classificazioni cliniche storiche o attribuzione universale della tachicardia al solo β1."
+              "PDF 548: testo già registrato nella selezione respiratoria storica, riletto; primo controllo visivo esplicito di questa pagina. Non contato come nuova lettura del testo.",
+              "Ruolo di M2 presinaptico e M3 muscolare: il blocco del freno M2 può controbilanciare parte dell’effetto, senza spiegare da solo l’efficacia clinica. Le sezioni successive su altri farmaci sono lette ma non integrate."
             ]
           },
           {
@@ -587,37 +588,38 @@
             "edition": "AA 2025–26; lezione 17 del 25 novembre 2025",
             "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
             "pdfPagesRead": [
-              295,
-              296
+              297,
+              298
             ],
             "visuallyCheckedPdfPages": [
-              295,
-              296
+              297,
+              298
             ],
-            "newlyReadTextPages": [],
+            "newlyReadTextPages": [
+              298
+            ],
             "newlyReadImagePages": [],
             "reusedPreviouslyReadPages": [
-              295,
-              296
+              297
             ],
             "integratedPdfPages": [
-              295,
-              296
+              297,
+              298
             ],
             "readButNotIntegratedPdfPages": [],
             "sourceUnchanged": true,
             "allContentsRead": false,
             "limits": [
-              "PDF 295–296, etichette 290–291, pagine 3–4 della lezione 17 del 25 novembre 2025, AA 2025–26; testo e rendering riletti.",
-              "295: figura presinaptica/ciliare duplicata nel corso 631; l’isoforma β2 non è esclusiva del bronco. Rilassamento e controllo dell’infiammazione non equiparati.",
-              "296: figure duplicate nel corso 633–635, non prove indipendenti. Tabella e dosi non trasferite; struttura e via non autorizzano un impiego clinico."
+              "PDF 297–298, etichette 292–293, pagine 5–6 della lezione 17 del 25 novembre 2025, AA 2025–26. 297 riletta, 298 nuova; testi completi e rendering controllati.",
+              "297: grafico duplicato nel corso 637. Non adottate esaurimento dei secondi messaggeri, irreversibilità universale, rinvio del trattamento o correzione completa della tolleranza mediante corticosteroidi.",
+              "298: figura duplicata nel corso 639; grafico di risposta privo di riferimento originale identificabile, non prova causale esclusiva del ruolo M2. Non adottate assenza universale di tolleranza agli antagonisti o generalizzazione degli effetti centrali alle molecole quaternarie."
             ]
           }
         ],
-        "chapterSourcePdfPages": 32,
-        "chapterReviewedPdfPages": 35,
+        "chapterSourcePdfPages": 40,
+        "chapterReviewedPdfPages": 44,
         "previousCoverage": {
-          "batch": "theory-course-626-630",
+          "batch": "theory-course-631-635",
           "sources": [
             {
               "id": "CFI",
@@ -625,43 +627,47 @@
               "edition": "AA 2025–26",
               "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
               "pdfPagesRead": [
-                626,
-                627,
-                628,
-                629,
-                630
+                631,
+                632,
+                633,
+                634,
+                635
               ],
               "visuallyCheckedPdfPages": [
-                626,
-                627,
-                628,
-                629,
-                630
+                631,
+                632,
+                633,
+                634,
+                635
               ],
               "newlyReadTextPages": [
-                626,
-                627,
-                628,
-                629,
-                630
+                631,
+                632,
+                633,
+                635
+              ],
+              "newlyReadImagePages": [
+                634
               ],
               "reusedPreviouslyReadPages": [],
               "integratedPdfPages": [
-                626,
-                627,
-                628,
-                629,
-                630
+                631,
+                632,
+                634,
+                635
               ],
-              "readButNotIntegratedPdfPages": [],
+              "readButNotIntegratedPdfPages": [
+                633
+              ],
               "sourceUnchanged": true,
               "allContentsRead": false,
               "limits": [
-                "626: obiettivi e ciclo di rivalutazione letti; nuova spiegazione originale, diagramma non riprodotto.",
-                "627: tabella storica, non graduatoria clinica. LABA isolato e categorie rigide fondo/bisogno non adottati.",
-                "628: ACOS non trattata come unica entità o algoritmo universale; confronto GINA 2026 PDF 142–144.",
-                "629: stessa figura della pagina Katzung 404; duplicazione iconografica, non prova indipendente.",
-                "630: schema multi-effettore, non catena obbligatoria né quantificazione del contributo dei canali. Inibizione dei mediatori distinta dal controllo antinfiammatorio."
+                "PDF 631–635, etichette 629–633. Testo disponibile letto in 631–633/635; 634 è una tabella immagine, letta dal rendering, non dal solo numero estratto. Tutti e cinque i rendering controllati.",
+                "631: modulazione nervosa distinta dal rilassamento muscolare e dall’attività ciliare; stessa figura presente negli appunti 295. Inibizione presinaptica non generalizzata a ogni specie o preparazione.",
+                "632: tre azioni indicate, senza equiparare effetti indiretti e controllo clinico dell’infiammazione.",
+                "633: figura già presente negli appunti 296 e tema già integrato nel lotto precedente; letta, nessun nuovo passaggio integrato.",
+                "634: tabella già presente negli appunti 296. Rapporti di selettività, dosi e durate non trasferiti; durata di 12 ore per olodaterolo/vilanterolo resta dato da verificare, escluso. La rapidità del formoterolo resta quella del documento di prodotto già consultato.",
+                "635: distinti struttura, metabolismo e via di somministrazione. Nessuna equivalenza terapeutica fra vie o raccomandazione orale ricavata dallo schema storico; figura già negli appunti 296."
               ]
             },
             {
@@ -679,25 +685,27 @@
                 405,
                 406
               ],
-              "newlyReadTextPages": [
+              "newlyReadTextPages": [],
+              "newlyReadImagePages": [],
+              "reusedPreviouslyReadPages": [
                 404,
                 405,
                 406
               ],
-              "reusedPreviouslyReadPages": [],
               "integratedPdfPages": [
                 404,
-                406
+                405
               ],
               "readButNotIntegratedPdfPages": [
-                405
+                406
               ],
               "sourceUnchanged": true,
               "allContentsRead": false,
               "limits": [
-                "404–406: editoriali 384–386, testo e figure controllati. 404: circuiti AMPc e bersagli; figura 20-3 duplicata nel corso.",
-                "405: strutture e dettagli storici letti ma non integrati; nessuna dose o proporzione di deposizione trasferita.",
-                "406: inizio e durata distinti, formoterolo rapido e prolungato; indicazioni storiche, generalizzazioni sulla sicurezza cardiaca e genotipo non adottate."
+                "PDF 404–406, editoriali 384–386: sei pagine di supporto del lotto sono riletture, non nuove letture.",
+                "404: effetti cellulari e deposizione inalatoria; percentuali e raccomandazioni storiche non trasferite.",
+                "405: strutture e confronto tra vie sostengono ora un nuovo passaggio teorico, pur essendo pagina già letta nel lotto precedente. Nessuna formula chimica, dose, vantaggio stereoisomerico o consiglio di titolazione copiato.",
+                "406: riletta per confronto; nessun nuovo passaggio integrato. Rassicurazioni assolute sulla sicurezza cardiaca non adottate."
               ]
             },
             {
@@ -706,28 +714,24 @@
               "edition": "VIII italiana 2016 / originale 2015",
               "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
               "pdfPagesRead": [
-                546,
-                547
+                546
               ],
               "visuallyCheckedPdfPages": [
-                546,
-                547
+                546
               ],
-              "newlyReadTextPages": [
-                546,
-                547
+              "newlyReadTextPages": [],
+              "newlyReadImagePages": [],
+              "reusedPreviouslyReadPages": [
+                546
               ],
-              "reusedPreviouslyReadPages": [],
               "integratedPdfPages": [
-                546,
-                547
+                546
               ],
               "readButNotIntegratedPdfPages": [],
               "sourceUnchanged": true,
               "allContentsRead": false,
               "limits": [
-                "546: tempi, classi e xantine; regola storica LABA mai al bisogno non applicata alla combinazione ICS-formoterolo.",
-                "547: inibizione PDE e antagonismo adenosinico distinti, concentrazioni sperimentali e ruolo clinico non equiparati. Unità mmol/l del testo non trasferite; intervalli plasmatici e raccomandazioni endovenose storiche esclusi."
+                "PDF 546 riletto nel testo e nel rendering: assorbimento sistemico ed effetti avversi, senza classificazioni cliniche storiche o attribuzione universale della tachicardia al solo β1."
               ]
             },
             {
@@ -736,37 +740,37 @@
               "edition": "AA 2025–26; lezione 17 del 25 novembre 2025",
               "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
               "pdfPagesRead": [
-                296,
-                297
-              ],
-              "visuallyCheckedPdfPages": [
-                296,
-                297
-              ],
-              "newlyReadTextPages": [
-                296,
-                297
-              ],
-              "reusedPreviouslyReadPages": [],
-              "integratedPdfPages": [
+                295,
                 296
               ],
-              "readButNotIntegratedPdfPages": [
-                297
+              "visuallyCheckedPdfPages": [
+                295,
+                296
               ],
+              "newlyReadTextPages": [],
+              "newlyReadImagePages": [],
+              "reusedPreviouslyReadPages": [
+                295,
+                296
+              ],
+              "integratedPdfPages": [
+                295,
+                296
+              ],
+              "readButNotIntegratedPdfPages": [],
               "sourceUnchanged": true,
               "allContentsRead": false,
               "limits": [
-                "PDF 296–297, etichette 291–292, lezione 17 del 25 novembre 2025, pagine 4–5.",
-                "296: formoterolo rapido/prolungato; contraddizione LABA tutti lenti corretta. Tabella delle durate, coefficienti di partizione e dosi non trasferiti.",
-                "297: letta ma non integrata. Non adottati esaurimento irreversibile dei secondi messaggeri, ritardo della terapia per evitare tolleranza, ripristino assoluto dei recettori con steroidi o controindicazioni cardiache universali. Grafico Taylor 1993 sulle riacutizzazioni distinto da una misura recettoriale. Tolleranza resta approfondimento successivo."
+                "PDF 295–296, etichette 290–291, pagine 3–4 della lezione 17 del 25 novembre 2025, AA 2025–26; testo e rendering riletti.",
+                "295: figura presinaptica/ciliare duplicata nel corso 631; l’isoforma β2 non è esclusiva del bronco. Rilassamento e controllo dell’infiammazione non equiparati.",
+                "296: figure duplicate nel corso 633–635, non prove indipendenti. Tabella e dosi non trasferite; struttura e via non autorizzano un impiego clinico."
               ]
             }
           ],
-          "chapterSourcePdfPages": 27,
-          "chapterReviewedPdfPages": 30,
+          "chapterSourcePdfPages": 32,
+          "chapterReviewedPdfPages": 35,
           "previousCoverage": {
-            "batch": "theory-course-621-625",
+            "batch": "theory-course-626-630",
             "sources": [
               {
                 "id": "CFI",
@@ -774,44 +778,43 @@
                 "edition": "AA 2025–26",
                 "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
                 "pdfPagesRead": [
-                  621,
-                  622,
-                  623,
-                  624,
-                  625
+                  626,
+                  627,
+                  628,
+                  629,
+                  630
                 ],
                 "visuallyCheckedPdfPages": [
-                  621,
-                  622,
-                  623,
-                  624,
-                  625
+                  626,
+                  627,
+                  628,
+                  629,
+                  630
                 ],
                 "newlyReadTextPages": [
-                  621,
-                  622,
-                  623,
-                  624,
-                  625
+                  626,
+                  627,
+                  628,
+                  629,
+                  630
                 ],
                 "reusedPreviouslyReadPages": [],
                 "integratedPdfPages": [
-                  622,
-                  623,
-                  624,
-                  625
+                  626,
+                  627,
+                  628,
+                  629,
+                  630
                 ],
-                "readButNotIntegratedPdfPages": [
-                  621
-                ],
+                "readButNotIntegratedPdfPages": [],
                 "sourceUnchanged": true,
                 "allContentsRead": false,
                 "limits": [
-                  "621: indice di programma, nessuna sintesi derivata.",
-                  "622: asma/BPCO non ridotti a reversibile/irreversibile assoluti; celle tagliate della tabella non trascritte.",
-                  "623: Perspective DOI ado4514 distinta dalla ricerca Bagley DOI adk2758. Ipotesi meccanica circoscritta, nessuna terapia sperimentale raccomandata.",
-                  "624: infiammazione e contrazione interagiscono; schema originale senza quantità o figure riprodotte.",
-                  "625: classi storiche e richiamo biologici verificati nel rendering; ordine della lista non trasferito in priorità clinica."
+                  "626: obiettivi e ciclo di rivalutazione letti; nuova spiegazione originale, diagramma non riprodotto.",
+                  "627: tabella storica, non graduatoria clinica. LABA isolato e categorie rigide fondo/bisogno non adottati.",
+                  "628: ACOS non trattata come unica entità o algoritmo universale; confronto GINA 2026 PDF 142–144.",
+                  "629: stessa figura della pagina Katzung 404; duplicazione iconografica, non prova indipendente.",
+                  "630: schema multi-effettore, non catena obbligatoria né quantificazione del contributo dei canali. Inibizione dei mediatori distinta dal controllo antinfiammatorio."
                 ]
               },
               {
@@ -820,36 +823,34 @@
                 "edition": "IX italiana 2014 / XII americana 2012",
                 "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
                 "pdfPagesRead": [
-                  400,
-                  401,
-                  402,
-                  403
+                  404,
+                  405,
+                  406
                 ],
                 "visuallyCheckedPdfPages": [
-                  400,
-                  401,
-                  402,
-                  403
+                  404,
+                  405,
+                  406
                 ],
                 "newlyReadTextPages": [
-                  400,
-                  401,
-                  402,
-                  403
+                  404,
+                  405,
+                  406
                 ],
                 "reusedPreviouslyReadPages": [],
                 "integratedPdfPages": [
-                  400,
-                  401,
-                  402,
-                  403
+                  404,
+                  406
                 ],
-                "readButNotIntegratedPdfPages": [],
+                "readButNotIntegratedPdfPages": [
+                  405
+                ],
                 "sourceUnchanged": true,
                 "allContentsRead": false,
                 "limits": [
-                  "400–403: editoriali 380–383, capitolo 20. Modelli allergici, fasi precoce/tardiva, mediatori e riflesso vagale. Curve e figure lette, non riprodotte.",
-                  "Indicazioni e posizioni terapeutiche storiche non trasferite; attività di un mediatore non identifica una raccomandazione clinica attuale."
+                  "404–406: editoriali 384–386, testo e figure controllati. 404: circuiti AMPc e bersagli; figura 20-3 duplicata nel corso.",
+                  "405: strutture e dettagli storici letti ma non integrati; nessuna dose o proporzione di deposizione trasferita.",
+                  "406: inizio e durata distinti, formoterolo rapido e prolungato; indicazioni storiche, generalizzazioni sulla sicurezza cardiaca e genotipo non adottate."
                 ]
               },
               {
@@ -858,47 +859,28 @@
                 "edition": "VIII italiana 2016 / originale 2015",
                 "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
                 "pdfPagesRead": [
-                  541,
-                  542,
-                  543,
-                  544,
-                  545,
-                  549
+                  546,
+                  547
                 ],
                 "visuallyCheckedPdfPages": [
-                  541,
-                  542,
-                  543,
-                  544,
-                  545,
-                  549
+                  546,
+                  547
                 ],
                 "newlyReadTextPages": [
-                  541,
-                  542,
-                  543,
-                  544
+                  546,
+                  547
                 ],
-                "reusedPreviouslyReadPages": [
-                  545,
-                  549
-                ],
+                "reusedPreviouslyReadPages": [],
                 "integratedPdfPages": [
-                  541,
-                  542,
-                  543,
-                  544,
-                  545,
-                  549
+                  546,
+                  547
                 ],
                 "readButNotIntegratedPdfPages": [],
                 "sourceUnchanged": true,
                 "allContentsRead": false,
                 "limits": [
-                  "541–545 e 549: quattro pagine nuove, 545/549 rilette. Deduplica anche del registro respiratorio storico per titolo, edizione e pagine; quel registro non contiene hash.",
-                  "542–543: LTB4 descritto come potente broncocostrittore, riconciliato con cisteinilici LTC4/LTD4 in Katzung e SmPC montelukast.",
-                  "Figura 28.3: antagonisti beta2 in luogo di agonisti, corretto nella sintesi.",
-                  "545: scala BTS/SIGN 2012 con solo SABA non adottata. 549: effetti ICS sulla rete infiammatoria, senza promesse di arresto della progressione o graduatorie di sicurezza."
+                  "546: tempi, classi e xantine; regola storica LABA mai al bisogno non applicata alla combinazione ICS-formoterolo.",
+                  "547: inibizione PDE e antagonismo adenosinico distinti, concentrazioni sperimentali e ruolo clinico non equiparati. Unità mmol/l del testo non trasferite; intervalli plasmatici e raccomandazioni endovenose storiche esclusi."
                 ]
               },
               {
@@ -907,60 +889,232 @@
                 "edition": "AA 2025–26; lezione 17 del 25 novembre 2025",
                 "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
                 "pdfPagesRead": [
-                  293,
-                  294,
-                  295
+                  296,
+                  297
                 ],
                 "visuallyCheckedPdfPages": [
-                  293,
-                  294,
-                  295
+                  296,
+                  297
                 ],
                 "newlyReadTextPages": [
-                  293,
-                  294,
-                  295
+                  296,
+                  297
                 ],
                 "reusedPreviouslyReadPages": [],
                 "integratedPdfPages": [
-                  293,
-                  294,
-                  295
+                  296
                 ],
-                "readButNotIntegratedPdfPages": [],
+                "readButNotIntegratedPdfPages": [
+                  297
+                ],
                 "sourceUnchanged": true,
                 "allContentsRead": false,
                 "limits": [
-                  "Lezione 17 del 25 novembre 2025, PDF 293–295, etichette 288–290; pagine 1–3 di 15.",
-                  "293: origine meccanica universale non sostenuta; componente sperimentale separata dalla pratica.",
-                  "294: scala storica non trasferita; PDEII delle xantine non trattata come selettività dimostrata.",
-                  "295: AMPc secondo messaggero, PKA chinasi; beta2 non esclusivo del bronco."
+                  "PDF 296–297, etichette 291–292, lezione 17 del 25 novembre 2025, pagine 4–5.",
+                  "296: formoterolo rapido/prolungato; contraddizione LABA tutti lenti corretta. Tabella delle durate, coefficienti di partizione e dosi non trasferiti.",
+                  "297: letta ma non integrata. Non adottati esaurimento irreversibile dei secondi messaggeri, ritardo della terapia per evitare tolleranza, ripristino assoluto dei recettori con steroidi o controindicazioni cardiache universali. Grafico Taylor 1993 sulle riacutizzazioni distinto da una misura recettoriale. Tolleranza resta approfondimento successivo."
                 ]
               }
             ],
-            "chapterSourcePdfPages": 17,
-            "chapterReviewedPdfPages": 18,
+            "chapterSourcePdfPages": 27,
+            "chapterReviewedPdfPages": 30,
             "previousCoverage": {
-              "record": "data/respiratory-reading.json",
-              "readAt": "2026-10-24",
-              "source": "Rang & Dale VIII italiana 2016",
-              "pdfPagesTextRead": [
-                539,
-                540,
-                545,
-                548,
-                549
+              "batch": "theory-course-621-625",
+              "sources": [
+                {
+                  "id": "CFI",
+                  "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
+                  "edition": "AA 2025–26",
+                  "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
+                  "pdfPagesRead": [
+                    621,
+                    622,
+                    623,
+                    624,
+                    625
+                  ],
+                  "visuallyCheckedPdfPages": [
+                    621,
+                    622,
+                    623,
+                    624,
+                    625
+                  ],
+                  "newlyReadTextPages": [
+                    621,
+                    622,
+                    623,
+                    624,
+                    625
+                  ],
+                  "reusedPreviouslyReadPages": [],
+                  "integratedPdfPages": [
+                    622,
+                    623,
+                    624,
+                    625
+                  ],
+                  "readButNotIntegratedPdfPages": [
+                    621
+                  ],
+                  "sourceUnchanged": true,
+                  "allContentsRead": false,
+                  "limits": [
+                    "621: indice di programma, nessuna sintesi derivata.",
+                    "622: asma/BPCO non ridotti a reversibile/irreversibile assoluti; celle tagliate della tabella non trascritte.",
+                    "623: Perspective DOI ado4514 distinta dalla ricerca Bagley DOI adk2758. Ipotesi meccanica circoscritta, nessuna terapia sperimentale raccomandata.",
+                    "624: infiammazione e contrazione interagiscono; schema originale senza quantità o figure riprodotte.",
+                    "625: classi storiche e richiamo biologici verificati nel rendering; ordine della lista non trasferito in priorità clinica."
+                  ]
+                },
+                {
+                  "id": "KAT",
+                  "title": "Katzung · Farmacologia generale e clinica",
+                  "edition": "IX italiana 2014 / XII americana 2012",
+                  "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+                  "pdfPagesRead": [
+                    400,
+                    401,
+                    402,
+                    403
+                  ],
+                  "visuallyCheckedPdfPages": [
+                    400,
+                    401,
+                    402,
+                    403
+                  ],
+                  "newlyReadTextPages": [
+                    400,
+                    401,
+                    402,
+                    403
+                  ],
+                  "reusedPreviouslyReadPages": [],
+                  "integratedPdfPages": [
+                    400,
+                    401,
+                    402,
+                    403
+                  ],
+                  "readButNotIntegratedPdfPages": [],
+                  "sourceUnchanged": true,
+                  "allContentsRead": false,
+                  "limits": [
+                    "400–403: editoriali 380–383, capitolo 20. Modelli allergici, fasi precoce/tardiva, mediatori e riflesso vagale. Curve e figure lette, non riprodotte.",
+                    "Indicazioni e posizioni terapeutiche storiche non trasferite; attività di un mediatore non identifica una raccomandazione clinica attuale."
+                  ]
+                },
+                {
+                  "id": "RAN",
+                  "title": "Rang & Dale · Farmacologia",
+                  "edition": "VIII italiana 2016 / originale 2015",
+                  "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+                  "pdfPagesRead": [
+                    541,
+                    542,
+                    543,
+                    544,
+                    545,
+                    549
+                  ],
+                  "visuallyCheckedPdfPages": [
+                    541,
+                    542,
+                    543,
+                    544,
+                    545,
+                    549
+                  ],
+                  "newlyReadTextPages": [
+                    541,
+                    542,
+                    543,
+                    544
+                  ],
+                  "reusedPreviouslyReadPages": [
+                    545,
+                    549
+                  ],
+                  "integratedPdfPages": [
+                    541,
+                    542,
+                    543,
+                    544,
+                    545,
+                    549
+                  ],
+                  "readButNotIntegratedPdfPages": [],
+                  "sourceUnchanged": true,
+                  "allContentsRead": false,
+                  "limits": [
+                    "541–545 e 549: quattro pagine nuove, 545/549 rilette. Deduplica anche del registro respiratorio storico per titolo, edizione e pagine; quel registro non contiene hash.",
+                    "542–543: LTB4 descritto come potente broncocostrittore, riconciliato con cisteinilici LTC4/LTD4 in Katzung e SmPC montelukast.",
+                    "Figura 28.3: antagonisti beta2 in luogo di agonisti, corretto nella sintesi.",
+                    "545: scala BTS/SIGN 2012 con solo SABA non adottata. 549: effetti ICS sulla rete infiammatoria, senza promesse di arresto della progressione o graduatorie di sicurezza."
+                  ]
+                },
+                {
+                  "id": "APP",
+                  "title": "Appunti e diapositive del corso di Farmacologia I",
+                  "edition": "AA 2025–26; lezione 17 del 25 novembre 2025",
+                  "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+                  "pdfPagesRead": [
+                    293,
+                    294,
+                    295
+                  ],
+                  "visuallyCheckedPdfPages": [
+                    293,
+                    294,
+                    295
+                  ],
+                  "newlyReadTextPages": [
+                    293,
+                    294,
+                    295
+                  ],
+                  "reusedPreviouslyReadPages": [],
+                  "integratedPdfPages": [
+                    293,
+                    294,
+                    295
+                  ],
+                  "readButNotIntegratedPdfPages": [],
+                  "sourceUnchanged": true,
+                  "allContentsRead": false,
+                  "limits": [
+                    "Lezione 17 del 25 novembre 2025, PDF 293–295, etichette 288–290; pagine 1–3 di 15.",
+                    "293: origine meccanica universale non sostenuta; componente sperimentale separata dalla pratica.",
+                    "294: scala storica non trasferita; PDEII delle xantine non trattata come selettività dimostrata.",
+                    "295: AMPc secondo messaggero, PKA chinasi; beta2 non esclusivo del bronco."
+                  ]
+                }
               ],
-              "visuallyCheckedPdfPages": [
-                540
-              ],
-              "notCountedAsNew": [
-                545,
-                549
-              ],
-              "scope": "Registro precedente conservato; copertura non sommata come nuova lettura o revisione delle figure di tutte le pagine."
-            },
-            "note": "Copertura precedente conservata, non nuova lettura nel lotto corrente."
+              "chapterSourcePdfPages": 17,
+              "chapterReviewedPdfPages": 18,
+              "previousCoverage": {
+                "record": "data/respiratory-reading.json",
+                "readAt": "2026-10-24",
+                "source": "Rang & Dale VIII italiana 2016",
+                "pdfPagesTextRead": [
+                  539,
+                  540,
+                  545,
+                  548,
+                  549
+                ],
+                "visuallyCheckedPdfPages": [
+                  540
+                ],
+                "notCountedAsNew": [
+                  545,
+                  549
+                ],
+                "scope": "Registro precedente conservato; copertura non sommata come nuova lettura o revisione delle figure di tutte le pagine."
+              },
+              "note": "Copertura precedente conservata, non nuova lettura nel lotto corrente."
+            }
           }
         }
       }
