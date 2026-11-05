@@ -6,7 +6,7 @@ import {THEORY_ASTHMA as c} from '../elix-theory-asthma.js';
 const read=f=>readFileSync(new URL('../'+f,import.meta.url),'utf8');
 assert.equal(ELIX_CHAPTERS.length,61);assert.equal(new Set(ELIX_CHAPTERS.map(c=>c.id)).size,61);assert.equal(ELIX_CHAPTERS.filter(c=>c.format==='extended').length,17);
 assert.deepEqual(ELIX_CHAPTERS.find(x=>x.id===c.id),c);assert.equal(c.wordCount,c.sections.map(s=>s.text).join(' ').split(/\s+/).length);
-assert.equal(c.sections.length,40);assert.equal(new Set(c.sections.map(s=>s.id)).size,40);assert.equal(c.checks.length,40);assert.ok(c.checks.every(x=>x.question&&x.answer));
+assert.equal(c.sections.length,40);assert.equal(new Set(c.sections.map(s=>s.id)).size,40);assert.equal(c.checks.length,42);assert.ok(c.checks.every(x=>x.question&&x.answer));
 const refs=new Set(c.references.map(r=>r.id));assert.equal(refs.size,c.references.length);for(const s of c.sections){assert.ok(s.refs.length);for(const r of s.refs)assert.ok(refs.has(r),'unresolved source '+r);}assert.ok(c.references.every(r=>c.sections.some(s=>s.refs.includes(r.id))));
 const catalog=JSON.parse(read('data/catalog.json')).molecules;assert.equal(new Set(c.moleculeLinks.map(x=>x.id)).size,15);for(const m of c.moleculeLinks)assert.ok(catalog.some(x=>x.id===m.id&&x.name===m.label));for(const id of c.relatedExistingChapterIds)assert.ok(id!==c.id&&ELIX_CHAPTERS.some(x=>x.id===id));
 const l=JSON.parse(read('data/asma-e-broncodilatatori-reading.json')),r=JSON.parse(read('data/asma-e-broncodilatatori-review.json'));
@@ -18,7 +18,7 @@ for(const f of ['elix-theory-asthma.js','data/asma-e-broncodilatatori-reading.js
 assert.ok(c.sources.includes('gina-2026')&&c.sources.includes('gold-2026'));assert.deepEqual(c.targets,['ADRB2','CHRM3','CYSLTR1']);
 console.log('Asthma PASS: existing chapter, bounded deduplicated coverage, source links and offline assets.');
 
-assert.equal(l.chapterSourcePdfPages,104);assert.equal(l.chapterReviewedPdfPages,132);assert.equal(l.previousCoverage.chapterSourcePdfPages,101);
+assert.equal(l.chapterSourcePdfPages,107);assert.equal(l.chapterReviewedPdfPages,137);assert.equal(l.previousCoverage.chapterSourcePdfPages,104);
 
 const seenRead=new Set(),seenIntegrated=new Set();
 for(let p=l;p;p=p.previousCoverage)for(const s of p.sources||[]){for(const n of s.pdfPagesRead)seenRead.add(s.sha256+":"+n);for(const n of s.integratedPdfPages)seenIntegrated.add(s.sha256+":"+n);}
