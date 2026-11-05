@@ -18,7 +18,7 @@ assert.equal(new Set(c.moleculeLinks.map(x=>x.id)).size,c.moleculeLinks.length);
 for(const m of c.moleculeLinks)assert.ok(catalog.some(x=>x.id===m.id&&x.name===m.label));
 for(const id of c.relatedExistingChapterIds)assert.ok(id!==c.id&&ELIX_CHAPTERS.some(x=>x.id===id));
 const l=JSON.parse(read('data/androgeni-asse-gonadico-reading.json')),r=JSON.parse(read('data/androgeni-asse-gonadico-review.json'));
-assert.deepEqual([l.fullCorpusRead,l.clinicalValidation,l.newIdentities,l.newDrugSummaries,l.newPKProfiles,l.newChapters,l.expandedExistingChapters],[false,false,0,0,0,1,0]);
+assert.deepEqual([l.fullCorpusRead,l.clinicalValidation,l.newIdentities,l.newDrugSummaries,l.newPKProfiles,l.newChapters,l.expandedExistingChapters],[false,false,0,0,0,0,1]);
 let pages=0,integrated=0,extracted=0,imageText=0;const seen=new Set();
 for(const s of l.sources){
  assert.ok(!s.path);assert.equal(s.sourceUnchanged,true);assert.equal(s.allContentsRead,false);
@@ -30,9 +30,9 @@ for(const s of l.sources){
  assert.ok(s.imageTextReadPages.every(p=>s.pdfPagesRead.includes(p)));
  pages+=s.pdfPagesRead.length;integrated+=s.integratedPdfPages.length;extracted+=s.substantiveExtractedTextReadPages.length;imageText+=s.imageTextReadPages.length;
 }
-assert.deepEqual([pages,integrated,extracted,imageText],[17,15,12,5]);
+assert.deepEqual([pages,integrated,extracted,imageText],[22,18,15,7]);
 assert.equal(l.totalReadPdfPages,pages);assert.equal(l.chapterReviewedPdfPages,pages);
-assert.equal(l.chapterSourcePdfPages,integrated);assert.equal(l.newCourseReadPdfPages+l.newBookReadPdfPages,pages);
+assert.equal(l.chapterSourcePdfPages,integrated);assert.equal(l.newCourseReadPdfPages+l.newBookReadPdfPages,5);
 assert.equal(l.deduplication.independentConfirmationsFromSharedBoxes,0);
 assert.equal(r.independentClinicalReview,false);assert.equal(r.outcome,'pass');
 assert.equal(r.moduleSha256,createHash('sha256').update(read('elix-theory-androgens.js')).digest('hex'));
@@ -40,6 +40,8 @@ for(const f of ['elix-theory-androgens.js','data/androgeni-asse-gonadico-reading
  assert.ok(read('sw.js').includes('./'+f),'missing offline asset '+f);
  assert.doesNotMatch(read(f),/\/Users\/|Collino|D['’]Avolio|Serpe|sbobin/i);
 }
-assert.deepEqual([c.sections.length,c.checks.length,c.sections.filter(s=>s.formula).length],[11,12,6]);
+assert.deepEqual([c.sections.length,c.checks.length,c.sections.filter(s=>s.formula).length],[12,14,7]);
 console.log('Androgens PASS: unique chapter and links, source-page accounting, bounded review and offline records.');
 
+
+assert.equal(l.newReadPdfPages,5);assert.equal(l.reusedReadPdfPages,17);assert.deepEqual(l.sources[0].partiallyOccludedPdfPages,[763]);

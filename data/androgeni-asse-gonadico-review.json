@@ -1,19 +1,21 @@
 {
   "schemaVersion": 1,
   "chapterId": "androgeni-asse-gonadico",
-  "batch": "theory-course-756-760",
-  "reviewedAt": "2026-11-05T11:54:53.024564+00:00",
+  "batch": "theory-course-761-765",
+  "reviewedAt": "2026-11-05T12:33:54.366639+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "147069d1d56de60fe7d3ddb345f8cb92015c4d2e8abeee688743cd22135a2861",
+  "moduleSha256": "c1bd119c4963e633458355839db602cdce03e01d98530ec5f66eba20a5c52c6c",
   "checks": [
     "Rilettura completa della sintesi, domande e riferimenti dopo lettura circoscritta delle fonti.",
     "Distinti Leydig/Sertoli, feedback e fertilità; AR/CYP17A1/CYP19A1/5α-reduttasi.",
     "Distinti agonismo pulsatile/continuo, antagonismo e sequenza del flare.",
     "Collegamenti clinici limitati e privi di dosi; rischi e impieghi confrontati con le fonti ufficiali selezionate.",
-    "Provenienza, duplicati e limiti espliciti; nessuna validazione clinica indipendente dichiarata."
+    "Provenienza, duplicati e limiti espliciti; nessuna validazione clinica indipendente dichiarata.",
+    "Distinti DHT/AR nel follicolo, inibizione enzimatica e minoxidil; nessuna equivalenza di efficacia o indicazione dedotta dal bersaglio.",
+    "Verificate le diverse azioni previste dalla nota AIFA per sintomi dell’umore e disfunzione sessuale."
   ],
   "conflicts": [
     {
@@ -45,6 +47,21 @@
       "source": "EMA finasteride/dutasteride 2025",
       "issue": "Segnale confermato per finasteride orale e precauzione per dutasteride non sono lo stesso livello di evidenza.",
       "resolution": "Distinti esplicitamente; frequenza non nota, nessun nesso causale attribuito a dutasteride."
+    },
+    {
+      "source": "CFI 761–763",
+      "issue": "Schema semplificato del follicolo, tabella con riga coperta, affermazioni assolute su durata, mancata ricrescita e danno epatico.",
+      "resolution": "Contenuto coperto non letto; esclusi prezzi, dosi e generalizzazioni. Distinti segnale locale, esiti e specifica formulazione; confronto con RCP minoxidil e nota AIFA."
+    },
+    {
+      "source": "CFI 762 / AIFA pagina riassuntiva / NIIS PDF pp. 1–3",
+      "issue": "Titolo secondario sull’alopecia grave e riepilogo web appiattiscono indicazione e azioni in caso di sintomi.",
+      "resolution": "Usato il testo della nota ufficiale: interruzione per sintomi dell’umore nell’uso orale per alopecia; contatto medico e valutazione dell’interruzione per disfunzione sessuale. Nessuna nuova indicazione per alopecia grave."
+    },
+    {
+      "source": "CFI 764–765",
+      "issue": "Figura e dati Science 2023 mescolano efficacia, utilizzo e strategie sperimentali; bibliografia non letta.",
+      "resolution": "Pagine esaminate ma non integrate; nessuna stima contraccettiva presentata come dato corrente."
     }
   ],
   "officialSources": [
@@ -89,15 +106,27 @@
       "title": "EMA · Finasteride e dutasteride: revisione di sicurezza",
       "url": "https://www.ema.europa.eu/en/medicines/human/referrals/finasteride-dutasteride-containing-medicinal-products",
       "detail": "Pagina consultata 5 novembre 2026, riepilogo e informazioni per professionisti della revisione conclusa nel 2025. Distinta conferma per compresse di finasteride da precauzione per dutasteride; frequenza non nota."
+    },
+    {
+      "id": "MIN",
+      "title": "McNeil · Regaine for Men, schiuma cutanea: RCP britannico",
+      "url": "https://www.medicines.org.uk/emc/product/5781/smpc",
+      "detail": "Testo revisionato 15 giugno 2026, consultato 5 novembre 2026: §§4.1–4.4 e 5.1, passaggi su crescita, latenza, mantenimento e assorbimento. Una formulazione specifica; non intero RCP né studi primari."
+    },
+    {
+      "id": "AIF",
+      "title": "AIFA · Nota di sicurezza su finasteride e dutasteride",
+      "url": "https://www.aifa.gov.it/documents/20142/2690608/NIIS_Finasteride_dutasteride_IT_16.09.2025.pdf",
+      "detail": "Nota 16 settembre 2025, consultata 5 novembre 2026: testo PDF pp. 1–3, formulazioni e azioni in caso di sintomi. Nessuna nuova verifica visuale del PDF o revisione degli studi sottostanti."
     }
   ],
   "limits": [
-    "17 pagine fisiche nuove lette, 15 con passaggi integrati: corso I PDF 756–760; Katzung PDF 845–852, editoriali 825–832; Rang & Dale PDF 671–674. Le pagine miste non sono integrate per intero.",
-    "CFI: cinque pagine lette nelle immagini e nel testo estraibile disponibile; nessuna estrazione sostanziale completa attribuita. Nei due libri tutte le dodici pagine lette nel testo estratto e controllate visivamente.",
-    "Riquadri CFI 756/Rang 671 e CFI 759/Rang 673 condivisi: pagine fisiche distinte, nessuna conferma indipendente o duplicazione dei contenuti. Dosi storiche non trasferite.",
-    "Figure e tabelle locali controllate senza riproduzione; formule chimiche viste ma non validate atomo per atomo. Nessuna lettura integrale di libri o corsi e nessuna nuova lettura attribuita agli altri materiali autorizzati.",
-    "EAU ed EMA consultati soltanto nelle sezioni dichiarate; nessuna lettura integrale dei RCP o delle linee guida, nessuna nuova verifica visuale dei loro PDF o degli studi citati.",
-    "Sintesi didattica del solo integratore, non revisione clinica indipendente. Parti ginecologiche, contraccezione e trattazione completa dell’oncologia prostatica escluse.",
+    "5 nuove pagine del corso PDF 761–765 esaminate: tre con testo estratto sostanziale (761, 762, 764), due lette nelle immagini (763, 765); tutti i rendering controllati. Riga coperta a 763 non leggibile: non è dichiarata lettura del contenuto nascosto.",
+    "Tre nuove pagine sostengono passaggi (761–763); 764–765 sulla contraccezione non integrate. Copertura cumulativa: 22 pagine esaminate, 18 con passaggi integrati, 17 già documentate senza ricontarle.",
+    "Katzung IX italiana 2014/XII originale 2012 PDF 845–852 e Rang VIII italiana 2016/originale 2015 PDF 671–674 riusati; rilettura mirata di Katzung 851 e Rang 673. Nessuna nuova pagina di libro, altri corsi o altre trascrizioni.",
+    "Tabella storica 763: prezzi, dosi, percentuali e generalizzazioni su efficacia o danno epatico non trasferiti. Figure originali non pubblicate; nessuna bibliografia citata considerata automaticamente letta.",
+    "Riferimenti ufficiali consultati solo nei passaggi dichiarati. Per minoxidil una specifica formulazione britannica, senza generalizzazione a terapia orale o linee guida complete sull’alopecia. Nessuna nuova verifica visuale dei PDF ufficiali.",
+    "Sintesi didattica del solo integratore, non revisione clinica indipendente. Nessuna lettura integrale di libri o corsi. Contraccezione e trattazione completa dell’oncologia prostatica escluse.",
     "Verifiche del browser su dimensioni simulate, non su dispositivi fisici."
   ]
 }

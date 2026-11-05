@@ -109,6 +109,19 @@ export const THEORY_ANDROGENS = Object.freeze({
       "text": "Finasteride e dutasteride riducono la formazione di DHT a partire dal testosterone. Finasteride agisce soprattutto sulla 5α-reduttasi di tipo 2, dutasteride sui tipi 1 e 2. Sono inibitori enzimatici: descriverli come antagonisti diretti del recettore androgenico perderebbe il passaggio che spiega il loro effetto.\n\nNell’iperplasia prostatica benigna, la riduzione della componente androgenica della crescita richiede tempo. Le linee guida EAU collocano questi farmaci nei sintomi urinari associati ad aumentato rischio di progressione e raccomandano di spiegare la lenta insorgenza dell’effetto. Gli antagonisti α1, come tamsulosina, agiscono invece sul tono della muscolatura liscia. Ridurre il volume e ridurre il tono non sono lo stesso obiettivo, e una graduatoria assoluta fra le classi ignora tempi e caratteristiche del paziente.\n\nLa diminuzione del PSA durante terapia con un inibitore della 5α-reduttasi deve essere considerata nell’interpretazione del dato: non dimostra da sola l’assenza di una neoplasia. Gli effetti indesiderati possono riguardare libido, erezione ed eiaculazione. EMA ha inoltre confermato l’ideazione suicidaria come effetto indesiderato delle compresse di finasteride, con frequenza non nota; per dutasteride ha disposto un’avvertenza precauzionale senza stabilire lo stesso nesso causale.\n\nIl punto didattico è mantenere distinte patologia benigna e malattia neoplastica. Una comune dipendenza da segnali androgenici non rende intercambiabili finasteride, abiraterone ed enzalutamide. Il bersaglio biologico è una parte del ragionamento, che deve restare ancorato alla specifica condizione clinica."
     },
     {
+      "id": "follicolo",
+      "title": "DHT e follicolo: perché finasteride e minoxidil non sono equivalenti",
+      "refs": [
+        "CFI",
+        "KAT",
+        "RAN",
+        "MIN",
+        "AIF"
+      ],
+      "text": "Il follicolo pilifero mostra perché un segnale endocrino non abbia un effetto identico in ogni tessuto. Nei follicoli suscettibili del cuoio capelluto, la componente androgenica contribuisce alla miniaturizzazione: nel tempo il capello prodotto diventa più sottile e la fase di crescita si modifica. Il diagramma testosterone–DHT–AR aiuta a individuare il segnale coinvolto, ma non rende ogni perdita di capelli una conseguenza di un eccesso androgenico circolante. Bersaglio locale, sensibilità del tessuto e quadro clinico devono restare distinti.\n\nLa finasteride riduce la conversione del testosterone in DHT. La stessa tappa biochimica può essere rilevante sia nella prostata sia nel follicolo, mentre l’esito osservato cambia: crescita prostatica e produzione del capello non sono misure intercambiabili. L’inibizione enzimatica non equivale al blocco diretto di AR, né alla soppressione del comando ipofisario mediante farmaci del GnRH. Dal fatto che più interventi riducano una componente androgenica non segue che abbiano lo stesso impiego.\n\nNel follicolo, inoltre, il bersaglio molecolare e il risultato visibile appartengono a tempi diversi. Una variazione della disponibilità del ligando precede la valutazione della risposta del tessuto. Il numero e il diametro dei capelli, la distribuzione del diradamento e la percezione del risultato descrivono aspetti differenti: non possono essere sostituiti dalla sola misura di un ormone. Un confronto fra trattamenti deve specificare quale esito viene misurato e per quanto tempo, senza trasformare una freccia biochimica in una promessa di ricrescita.\n\nIl minoxidil topico è un utile termine di confronto: favorisce la crescita del capello, ma non è un inibitore della 5α-reduttasi né un antagonista di AR. Il RCP consultato descrive effetti sul diametro del fusto e sulla fase anagen, precisando che il meccanismo nell’alopecia non è completamente chiarito. Il risultato richiede tempo e il mantenimento del beneficio dipende dalla prosecuzione dell’uso. La via topica non elimina possibili effetti sistemici; irritazione e condizioni della cute contano. Questi dati riguardano una specifica formulazione autorizzata, non giustificano l’estensione automatica a preparazioni orali o ad altre cause di caduta.\n\nAnche la sicurezza della finasteride va letta per formulazione e indicazione. La nota AIFA distingue, nell’uso orale per alopecia, l’interruzione e il contatto medico in caso di alterazioni dell’umore dal contatto medico con valutazione dell’interruzione in caso di disfunzione sessuale. Per lo spray cutaneo non è stato stabilito lo stesso nesso causale con ideazione suicidaria: insufficienza di prove non significa rischio nullo. Il confronto farmacologico conserva così tre livelli separati: meccanismo, beneficio documentato e segnali di sicurezza.",
+      "formula": "Finasteride → minore conversione testosterone–DHT → modifica del segnale androgenico locale. Minoxidil topico → promozione della crescita follicolare, con meccanismo non completamente chiarito. Esito sul capello condiviso ≠ bersaglio condiviso. Schema originale qualitativo, non confronto di efficacia né indicazione terapeutica."
+    },
+    {
       "id": "integrazione",
       "title": "Leggere una terapia endocrina come una sequenza di domande",
       "refs": [
@@ -128,7 +141,7 @@ export const THEORY_ANDROGENS = Object.freeze({
         "KAT",
         "RAN"
       ],
-      "text": "Il percorso integra una lettura circoscritta di cinque pagine del corso e dodici pagine di due manuali: Katzung e Rang & Dale. Testo disponibile e rendering sono stati controllati; quindici delle diciassette pagine sostengono passaggi del capitolo. La pagina sui progestinici e quella su contraccezione maschile e bibliografia sono state lette ma non integrate. Le parti ginecologiche presenti nelle pagine miste restano fuori da questo percorso.\n\nDue riquadri del corso riprendono materiale presente in Rang & Dale: sono stati riconosciuti come contenuto condiviso, non come conferme indipendenti. Le tabelle storiche di dosi, le formule strutturali e le figure dei manuali non vengono riprodotte. Gli schemi qui presenti sono sintesi originali qualitative.\n\nIl confronto con fonti ufficiali riguarda soltanto i passaggi identificati nei riferimenti: non equivale alla lettura completa dei riassunti delle caratteristiche dei prodotti o delle linee guida, né a una revisione indipendente degli studi citati. Non sono attribuite nuove letture agli altri corsi o libri. La riconciliazione complessiva resta aperta.\n\nQuesta è una sintesi didattica sottoposta a controllo editoriale del solo integratore. La revisione clinica indipendente non è completata. Contraccezione, endocrinologia ovarica e terapia riproduttiva richiedono percorsi specifici; il capitolo non fornisce dosaggi, schemi prescrittivi o una trattazione completa dell’oncologia prostatica."
+      "text": "Il percorso documenta ventidue pagine locali esaminate: dieci del corso e dodici di Katzung e Rang & Dale. Diciotto sostengono passaggi del capitolo. L’ampliamento sul follicolo aggiunge cinque pagine del corso, delle quali tre utilizzate; i testi dei due libri sono riusati dalla lettura precedente, con rilettura mirata dei passaggi sulla 5α-reduttasi. Le nuove pagine sulla contraccezione sono state esaminate ma non integrate.\n\nTesto estraibile e immagini sono stati controllati separatamente. Nella pagina comparativa dei trattamenti per l’alopecia una riga è coperta: il contenuto nascosto non è stato letto. Le generalizzazioni della tabella su durata, risultato e danno epatico, oltre a prezzi e dosi storici, non sono trasferite. La riconciliazione usa i passaggi accessibili e distingue meccanismo da efficacia e sicurezza della singola formulazione.\n\nDue riquadri del corso riprendono materiale di Rang & Dale: sono contenuto condiviso, non conferme indipendenti. Le figure e le tabelle originali non vengono riprodotte; gli schemi del capitolo sono sintesi qualitative originali. Le parti ginecologiche, la bibliografia citata e gli altri libri o corsi non ricevono nuove attribuzioni di lettura.\n\nLe fonti ufficiali sono consultate nei limiti dichiarati nei riferimenti, senza lettura integrale delle linee guida o revisione indipendente degli studi. Questa è una sintesi didattica con controllo editoriale del solo integratore, non una revisione clinica indipendente. Contraccezione, endocrinologia ovarica e trattazione completa dell’oncologia prostatica restano fuori dal percorso; non sono forniti dosaggi o schemi prescrittivi."
     }
   ],
   "checks": [
@@ -179,13 +192,21 @@ export const THEORY_ANDROGENS = Object.freeze({
     {
       "question": "Una figura che riunisce tutti i bersagli costituisce un protocollo oncologico?",
       "answer": "No. Bersaglio, sequenza temporale, stadio della malattia e prove sul trattamento devono essere distinti."
+    },
+    {
+      "question": "Due farmaci studiati per il diradamento dei capelli devono agire sullo stesso bersaglio?",
+      "answer": "No. Finasteride riduce la formazione di DHT; minoxidil topico favorisce la crescita follicolare attraverso un meccanismo non completamente chiarito, senza bloccare direttamente 5α-reduttasi o AR."
+    },
+    {
+      "question": "La riduzione di un ligando dimostra immediatamente il beneficio visibile nel follicolo?",
+      "answer": "No. La risposta del tessuto richiede una valutazione nel tempo e misure appropriate; il bersaglio molecolare non sostituisce l’esito clinico."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 756–760, etichette 754–758. Cinque pagine lette nel testo disponibile e nelle immagini; integrate 757–760. La 756 sui progestinici resta fuori dal capitolo. Riquadri 756 e 759 confrontati con Rang & Dale 671 e 673: contenuto condiviso, non conferme indipendenti."
+      "detail": "Corso I PDF 756–765, etichette 754–763: dieci pagine esaminate nel testo accessibile e nelle immagini, integrate 757–763. Cinque nuove pagine 761–765; 764–765 sulla contraccezione escluse. Pagina 763 con una riga coperta non leggibile. Riquadri 756/759 condivisi con Rang 671/673, non conferme indipendenti."
     },
     {
       "id": "KAT",
@@ -238,6 +259,18 @@ export const THEORY_ANDROGENS = Object.freeze({
       "title": "EMA · Finasteride e dutasteride: revisione di sicurezza",
       "url": "https://www.ema.europa.eu/en/medicines/human/referrals/finasteride-dutasteride-containing-medicinal-products",
       "detail": "Pagina consultata 5 novembre 2026, riepilogo e informazioni per professionisti della revisione conclusa nel 2025. Distinta conferma per compresse di finasteride da precauzione per dutasteride; frequenza non nota."
+    },
+    {
+      "id": "MIN",
+      "title": "McNeil · Regaine for Men, schiuma cutanea: RCP britannico",
+      "url": "https://www.medicines.org.uk/emc/product/5781/smpc",
+      "detail": "Testo revisionato 15 giugno 2026, consultato 5 novembre 2026: §§4.1–4.4 e 5.1, passaggi su crescita, latenza, mantenimento e assorbimento. Una formulazione specifica; non intero RCP né studi primari."
+    },
+    {
+      "id": "AIF",
+      "title": "AIFA · Nota di sicurezza su finasteride e dutasteride",
+      "url": "https://www.aifa.gov.it/documents/20142/2690608/NIIS_Finasteride_dutasteride_IT_16.09.2025.pdf",
+      "detail": "Nota 16 settembre 2025, consultata 5 novembre 2026: testo PDF pp. 1–3, formulazioni e azioni in caso di sintomi. Nessuna nuova verifica visuale del PDF o revisione degli studi sottostanti."
     }
   ],
   "moleculeLinks": [
@@ -292,6 +325,10 @@ export const THEORY_ANDROGENS = Object.freeze({
     {
       "id": "CHEMBL1200969",
       "label": "DUTASTERIDE"
+    },
+    {
+      "id": "CHEMBL802",
+      "label": "MINOXIDIL"
     }
   ],
   "relatedExistingChapterIds": [
@@ -300,6 +337,6 @@ export const THEORY_ANDROGENS = Object.freeze({
     "metabolismo-trasportatori",
     "modelli-pk"
   ],
-  "coverage": "17 pagine locali nuove lette e controllate visivamente, 15 con passaggi integrati. Tre fonti locali, con riquadri condivisi deduplicati come contenuto. Fonti ufficiali consultate selettivamente; nessuna lettura integrale di libri o corsi e nessuna revisione clinica indipendente.",
-  "wordCount": 2390
+  "coverage": "22 pagine locali esaminate cumulativamente, 18 con passaggi integrati. Cinque pagine nuove del corso; riga coperta a pagina 763 non leggibile. Libri riusati senza ricontare la lettura. Fonti ufficiali consultate selettivamente; nessuna lettura integrale di corsi o libri, nessuna revisione clinica indipendente.",
+  "wordCount": 2819
 });

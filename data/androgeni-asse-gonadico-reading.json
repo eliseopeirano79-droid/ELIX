@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "chapterId": "androgeni-asse-gonadico",
-  "batch": "theory-course-756-760",
-  "updatedAt": "2026-11-05T11:54:53.024564+00:00",
+  "batch": "theory-course-761-765",
+  "updatedAt": "2026-11-05T12:33:54.366639+00:00",
   "fullCorpusRead": false,
   "clinicalValidation": false,
   "sources": [
@@ -16,51 +16,86 @@
         757,
         758,
         759,
-        760
+        760,
+        761,
+        762,
+        763,
+        764,
+        765
       ],
       "visuallyCheckedPdfPages": [
         756,
         757,
         758,
         759,
-        760
+        760,
+        761,
+        762,
+        763,
+        764,
+        765
       ],
       "newlyReadTextPages": [
+        761,
+        762,
+        763,
+        764,
+        765
+      ],
+      "reusedPreviouslyReadPages": [
         756,
         757,
         758,
         759,
         760
       ],
-      "reusedPreviouslyReadPages": [],
       "integratedPdfPages": [
         757,
         758,
         759,
-        760
+        760,
+        761,
+        762,
+        763
       ],
       "readButNotIntegratedPdfPages": [
-        756
+        756,
+        764,
+        765
       ],
       "availableExtractedTextReadPages": [
         756,
         757,
         758,
         759,
-        760
+        760,
+        761,
+        762,
+        763,
+        764,
+        765
       ],
-      "substantiveExtractedTextReadPages": [],
+      "substantiveExtractedTextReadPages": [
+        761,
+        762,
+        764
+      ],
       "imageTextReadPages": [
         756,
         757,
         758,
         759,
-        760
+        760,
+        763,
+        765
       ],
-      "readingMethod": "Testo estratto disponibile e testo completo nelle immagini; estrazione solo parziale o assente.",
+      "readingMethod": "Testo estraibile e testo visibile nelle immagini controllati; la riga coperta a pagina 763 non è leggibile e non è conteggiata come testo letto.",
       "sourceUnchanged": true,
       "allContentsRead": false,
-      "scope": "PDF 756–760, etichette 754–758. Cinque pagine lette nel testo disponibile e nelle immagini; integrate 757–760. La 756 sui progestinici resta fuori dal capitolo. Riquadri 756 e 759 confrontati con Rang & Dale 671 e 673: contenuto condiviso, non conferme indipendenti."
+      "scope": "Corso I PDF 756–765, etichette 754–763: dieci pagine esaminate nel testo accessibile e nelle immagini, integrate 757–763. Cinque nuove pagine 761–765; 764–765 sulla contraccezione escluse. Pagina 763 con una riga coperta non leggibile. Riquadri 756/759 condivisi con Rang 671/673, non conferme indipendenti.",
+      "partiallyOccludedPdfPages": [
+        763
+      ]
     },
     {
       "id": "KAT",
@@ -87,7 +122,8 @@
         851,
         852
       ],
-      "newlyReadTextPages": [
+      "newlyReadTextPages": [],
+      "reusedPreviouslyReadPages": [
         845,
         846,
         847,
@@ -97,7 +133,6 @@
         851,
         852
       ],
-      "reusedPreviouslyReadPages": [],
       "integratedPdfPages": [
         845,
         846,
@@ -134,7 +169,10 @@
       "readingMethod": "Testo estratto letto interamente, poi tutte le pagine controllate visivamente.",
       "sourceUnchanged": true,
       "allContentsRead": false,
-      "scope": "IX italiana 2014 / XII americana 2012, capitolo 40, PDF 845–852, editoriali 825–832. Otto pagine lette e controllate visivamente; passaggi integrati da 845–851. Figura 40-6, tabelle 40-5 e 40-6 e strutture viste; nessuna riproduzione o validazione strutturale atomo per atomo. Bibliografia citata non letta per questo."
+      "scope": "IX italiana 2014 / XII americana 2012, capitolo 40, PDF 845–852, editoriali 825–832. Otto pagine lette e controllate visivamente; passaggi integrati da 845–851. Figura 40-6, tabelle 40-5 e 40-6 e strutture viste; nessuna riproduzione o validazione strutturale atomo per atomo. Bibliografia citata non letta per questo.",
+      "textRereadThisBatch": [
+        851
+      ]
     },
     {
       "id": "RAN",
@@ -153,13 +191,13 @@
         673,
         674
       ],
-      "newlyReadTextPages": [
+      "newlyReadTextPages": [],
+      "reusedPreviouslyReadPages": [
         671,
         672,
         673,
         674
       ],
-      "reusedPreviouslyReadPages": [],
       "integratedPdfPages": [
         671,
         672,
@@ -183,11 +221,14 @@
       "readingMethod": "Testo estratto letto interamente, poi tutte le pagine controllate visivamente.",
       "sourceUnchanged": true,
       "allContentsRead": false,
-      "scope": "VIII italiana 2016 / originale 2015, capitolo 35, PDF 671–674. Quattro pagine lette e controllate visivamente, figura 35.5 compresa. Numeri di pagina editoriale non identificati nella copia impaginata. Integrati solo passaggi su androgeni e GnRH, senza posologie o indicazioni ginecologiche storiche."
+      "scope": "VIII italiana 2016 / originale 2015, capitolo 35, PDF 671–674. Quattro pagine lette e controllate visivamente, figura 35.5 compresa. Numeri di pagina editoriale non identificati nella copia impaginata. Integrati solo passaggi su androgeni e GnRH, senza posologie o indicazioni ginecologiche storiche.",
+      "textRereadThisBatch": [
+        673
+      ]
     }
   ],
   "deduplication": {
-    "recordsChecked": 133,
+    "recordsChecked": 136,
     "overlapPages": [],
     "sharedContent": [
       {
@@ -207,27 +248,35 @@
     ],
     "independentConfirmationsFromSharedBoxes": 0
   },
-  "newReadPdfPages": 17,
+  "newReadPdfPages": 5,
   "newCourseReadPdfPages": 5,
-  "newBookReadPdfPages": 12,
-  "totalReadPdfPages": 17,
-  "newIntegratedPdfPages": 15,
-  "totalIntegratedPdfPages": 15,
-  "chapterReviewedPdfPages": 17,
-  "chapterSourcePdfPages": 15,
+  "newBookReadPdfPages": 0,
+  "totalReadPdfPages": 22,
+  "newIntegratedPdfPages": 3,
+  "totalIntegratedPdfPages": 18,
+  "chapterReviewedPdfPages": 22,
+  "chapterSourcePdfPages": 18,
   "newIdentities": 0,
   "newDrugSummaries": 0,
   "newPKProfiles": 0,
-  "newChapters": 1,
-  "expandedExistingChapters": 0,
+  "newChapters": 0,
+  "expandedExistingChapters": 1,
   "fullSourceReconciliationComplete": false,
   "limits": [
-    "17 pagine fisiche nuove lette, 15 con passaggi integrati: corso I PDF 756–760; Katzung PDF 845–852, editoriali 825–832; Rang & Dale PDF 671–674. Le pagine miste non sono integrate per intero.",
-    "CFI: cinque pagine lette nelle immagini e nel testo estraibile disponibile; nessuna estrazione sostanziale completa attribuita. Nei due libri tutte le dodici pagine lette nel testo estratto e controllate visivamente.",
-    "Riquadri CFI 756/Rang 671 e CFI 759/Rang 673 condivisi: pagine fisiche distinte, nessuna conferma indipendente o duplicazione dei contenuti. Dosi storiche non trasferite.",
-    "Figure e tabelle locali controllate senza riproduzione; formule chimiche viste ma non validate atomo per atomo. Nessuna lettura integrale di libri o corsi e nessuna nuova lettura attribuita agli altri materiali autorizzati.",
-    "EAU ed EMA consultati soltanto nelle sezioni dichiarate; nessuna lettura integrale dei RCP o delle linee guida, nessuna nuova verifica visuale dei loro PDF o degli studi citati.",
-    "Sintesi didattica del solo integratore, non revisione clinica indipendente. Parti ginecologiche, contraccezione e trattazione completa dell’oncologia prostatica escluse.",
+    "5 nuove pagine del corso PDF 761–765 esaminate: tre con testo estratto sostanziale (761, 762, 764), due lette nelle immagini (763, 765); tutti i rendering controllati. Riga coperta a 763 non leggibile: non è dichiarata lettura del contenuto nascosto.",
+    "Tre nuove pagine sostengono passaggi (761–763); 764–765 sulla contraccezione non integrate. Copertura cumulativa: 22 pagine esaminate, 18 con passaggi integrati, 17 già documentate senza ricontarle.",
+    "Katzung IX italiana 2014/XII originale 2012 PDF 845–852 e Rang VIII italiana 2016/originale 2015 PDF 671–674 riusati; rilettura mirata di Katzung 851 e Rang 673. Nessuna nuova pagina di libro, altri corsi o altre trascrizioni.",
+    "Tabella storica 763: prezzi, dosi, percentuali e generalizzazioni su efficacia o danno epatico non trasferiti. Figure originali non pubblicate; nessuna bibliografia citata considerata automaticamente letta.",
+    "Riferimenti ufficiali consultati solo nei passaggi dichiarati. Per minoxidil una specifica formulazione britannica, senza generalizzazione a terapia orale o linee guida complete sull’alopecia. Nessuna nuova verifica visuale dei PDF ufficiali.",
+    "Sintesi didattica del solo integratore, non revisione clinica indipendente. Nessuna lettura integrale di libri o corsi. Contraccezione e trattazione completa dell’oncologia prostatica escluse.",
     "Verifiche del browser su dimensioni simulate, non su dispositivi fisici."
-  ]
+  ],
+  "reusedReadPdfPages": 17,
+  "previousCoverage": {
+    "batch": "theory-course-756-760",
+    "release": "0.89.0",
+    "readPages": 17,
+    "integratedPages": 15,
+    "commit": "6a3ada8f59b09b71f6a26524a1b57933807dcbe8"
+  }
 }

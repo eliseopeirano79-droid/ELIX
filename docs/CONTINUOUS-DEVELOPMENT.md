@@ -8,27 +8,27 @@ Usare «appunti e diapositive del corso di Farmacologia», con anno, lezione, da
 
 ## Lotto corrente
 
-theory-course-756-760, candidato 0.89.0. Un nuovo capitolo «Androgeni e GnRH»: 2390 parole, 11 sezioni, 12 domande, 6 schemi originali, 10 riferimenti, 13 collegamenti a identità esistenti. Zero ampliamenti di capitoli, nuove identità, sintesi di farmaci, profili o laboratori. Totale 62 capitoli, 18 estesi e 44 sintetici.
+theory-course-761-765, candidato 0.90.0. Un ampliamento del capitolo «Androgeni e GnRH»: una sezione sul follicolo, due domande, uno schema originale e un collegamento a minoxidil già presente. Totale capitolo: 2819 parole, 12 sezioni, 14 domande, 7 schemi, 12 riferimenti e 14 collegamenti a identità esistenti. Zero nuovi capitoli, identità, sintesi di farmaci, profili o laboratori. Totale invariato: 62 capitoli, 18 estesi e 44 sintetici.
 
-0.88.0 pubblicata e verificata al commit 87d1e77c1f439b08a72a9d1e292e1b97c03afbda. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sui checkpoint preparatori.
+0.89.0 pubblicata e verificata al commit 6a3ada8f59b09b71f6a26524a1b57933807dcbe8. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sui checkpoint preparatori.
 
-17 pagine fisiche nuove lette, 15 con passaggi integrati: corso I PDF 756–760; Katzung PDF 845–852, editoriali 825–832; Rang & Dale PDF 671–674. Le pagine miste non sono integrate per intero.
+5 nuove pagine del corso PDF 761–765 esaminate: tre con testo estratto sostanziale (761, 762, 764), due lette nelle immagini (763, 765); tutti i rendering controllati. Riga coperta a 763 non leggibile: non è dichiarata lettura del contenuto nascosto.
 
-CFI: cinque pagine lette nelle immagini e nel testo estraibile disponibile; nessuna estrazione sostanziale completa attribuita. Nei due libri tutte le dodici pagine lette nel testo estratto e controllate visivamente.
+Tre nuove pagine sostengono passaggi (761–763); 764–765 sulla contraccezione non integrate. Copertura cumulativa: 22 pagine esaminate, 18 con passaggi integrati, 17 già documentate senza ricontarle.
 
-Riquadri CFI 756/Rang 671 e CFI 759/Rang 673 condivisi: pagine fisiche distinte, nessuna conferma indipendente o duplicazione dei contenuti. Dosi storiche non trasferite.
+Katzung IX italiana 2014/XII originale 2012 PDF 845–852 e Rang VIII italiana 2016/originale 2015 PDF 671–674 riusati; rilettura mirata di Katzung 851 e Rang 673. Nessuna nuova pagina di libro, altri corsi o altre trascrizioni.
 
-Figure e tabelle locali controllate senza riproduzione; formule chimiche viste ma non validate atomo per atomo. Nessuna lettura integrale di libri o corsi e nessuna nuova lettura attribuita agli altri materiali autorizzati.
+Tabella storica 763: prezzi, dosi, percentuali e generalizzazioni su efficacia o danno epatico non trasferiti. Figure originali non pubblicate; nessuna bibliografia citata considerata automaticamente letta.
 
-EAU ed EMA consultati soltanto nelle sezioni dichiarate; nessuna lettura integrale dei RCP o delle linee guida, nessuna nuova verifica visuale dei loro PDF o degli studi citati.
+Riferimenti ufficiali consultati solo nei passaggi dichiarati. Per minoxidil una specifica formulazione britannica, senza generalizzazione a terapia orale o linee guida complete sull’alopecia. Nessuna nuova verifica visuale dei PDF ufficiali.
 
-Sintesi didattica del solo integratore, non revisione clinica indipendente. Parti ginecologiche, contraccezione e trattazione completa dell’oncologia prostatica escluse.
+Sintesi didattica del solo integratore, non revisione clinica indipendente. Nessuna lettura integrale di libri o corsi. Contraccezione e trattazione completa dell’oncologia prostatica escluse.
 
 Verifiche del browser su dimensioni simulate, non su dispositivi fisici.
 
-Gli intervalli 746–750 e 751–755 sono stati completati come lettura senza modifiche all’app: la chiusura respiratoria e le pagine ginecologiche restano distinte, senza attribuirle a questo nuovo capitolo. Non ricontare le pagine già lette.
+Conservate separatamente le letture respiratorie e ginecologiche non integrate dei lotti precedenti.
 
-Controlli locali completati: 46 verifiche dati, otto configurazioni desktop/mobile nei due temi, otto schermate ispezionate, navigazione, ricerche e tastiera, offline e aggiornamento reale 0.88.0→0.89.0 con dati salvati conservati. Verificati inoltre i capitoli fondamentali, complementari e tirosinchinasi. Tutti i 61 capitoli precedenti identici. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-756-760-2026-11-05/. Ricevuta soltanto dopo deploy verificato.
+Controlli locali completati: 46 verifiche dati, otto configurazioni desktop/mobile nei due temi, otto schermate ispezionate, navigazione, riferimenti, ricerche, tastiera, offline e aggiornamento reale 0.89.0→0.90.0 con dati salvati conservati. Tutti gli altri 61 capitoli e dieci sezioni didattiche precedenti identici. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-761-765-2026-11-05/. Ricevuta soltanto dopo deploy verificato.
 
 ## Regole
 
@@ -40,4 +40,4 @@ Controlli locali completati: 46 verifiche dati, otto configurazioni desktop/mobi
 
 ## Prossimo intervallo
 
-Completare il lotto 756–760. Al ciclo successivo deduplicare solo corso I PDF 761–765; non ancora letti. Teoria prima di farmaci, profili e laboratori.
+Completare 761–765; al ciclo successivo deduplicare solo PDF 766–770, non ancora letti. Teoria prima di farmaci, profili e laboratori.
