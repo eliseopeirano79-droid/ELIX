@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-11-05T03:38:27.860515+00:00",
-  "batch": "theory-course-686-690",
+  "updatedAt": "2026-11-05T04:16:14.631259+00:00",
+  "batch": "theory-course-691-695",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.78.0",
-  "branch": "feat/theory-course-686-690",
-  "baseCommit": "9cb8c6df3622c5967bbcdd625e776fb9cc47a16d",
+  "release": "0.79.0",
+  "branch": "feat/theory-course-691-695",
+  "baseCommit": "13369e5c93bcc1bf9e827984f1a74a0864e53ab8",
   "previousBatch": {
-    "batch": "theory-course-681-685",
+    "batch": "theory-course-686-690",
     "status": "published_and_live_verified",
-    "release": "0.77.0",
-    "commit": "9cb8c6df3622c5967bbcdd625e776fb9cc47a16d"
+    "release": "0.78.0",
+    "commit": "13369e5c93bcc1bf9e827984f1a74a0864e53ab8"
   },
   "scope": [
-    "Secrezioni: produzione, proprietà e rimozione; substrati di acetilcisteina e dornase, espettoranti e limiti delle prove."
+    "Controllo, gravità e fenotipo: tre domande diverse per interpretare la risposta ai farmaci respiratori."
   ],
   "completed": [
-    "Due sezioni aggiunte: 40 sezioni, 12438 parole, 40 domande, 25 schemi originali e 37 riferimenti.",
-    "Nove pagine controllate: sei nuove e tre rilette; sette integrate selettivamente, cinque nuove per la copertura integrata del capitolo. Cumulativo con hash: 117 controllate e 97 integrate.",
-    "Confronto mirato con AIFA, SmPC UK, etichetta USA e NICE; distinte soglie pediatriche, indicazioni e formulazioni. Duplicati e limiti espliciti.",
-    "45 validatori e otto configurazioni browser: fonti, tastiera, ricerche, 15 collegamenti a identità esistenti, 6 capitoli collegati e offline; sei schermate ispezionate.",
-    "Aggiornamento reale 0.77.0→0.78.0 con preferiti, progressi e tema conservati. Altri 60 capitoli, catalogo, lettore, stili e laboratori invariati."
+    "Una sezione ampliata: 12738 parole nel capitolo, 40 sezioni e 40 domande; uno schema originale aggiunto (26 totali).",
+    "Cinque nuove pagine controllate, due integrate selettivamente; cumulativo 122/99.",
+    "Confronto mirato GINA 2026; algoritmo e dosi del 2023 non trasferiti.",
+    "45 validatori, otto configurazioni browser e sei schermate ispezionate; fonti, tastiera, ricerche, collegamenti e offline verificati.",
+    "Aggiornamento reale 0.78.0→0.79.0 con dati conservati; fonte locale e copia ufficiale invariate."
   ],
   "remaining": [
     "CI, deploy concluso e riscontro online."
@@ -43,21 +43,20 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 2,
-    "expandedSections": 0,
+    "newSections": 0,
+    "expandedSections": 1,
     "coverageParagraphUpdated": true,
-    "newLinksToExistingIdentities": 3,
-    "newStaticOriginalSchemas": 2
+    "newLinksToExistingIdentities": 0,
+    "newStaticOriginalSchemas": 1
   },
   "readingManifests": [
     "data/asma-e-broncodilatatori-reading.json"
   ],
   "limits": [
-    "Nove pagine locali controllate: sei nuove (corso I 686–690 e Katzung 1305) e tre riletture (corso 685, Rang 548, appunti I 292). Testo disponibile e nove rendering letti; deduplicazione in 105 registri nominati più registro bibliografico storico.",
-    "Sette pagine sostengono passaggi selettivi: corso 685–688 e tre confronti. Quattro sono nuove letture integrate; cinque entrano per la prima volta nella copertura integrata del capitolo. Cumulativo con hash: 117 controllate e 97 integrate.",
-    "Corso 689–690 contiene solo le prime due pagine dell’articolo NEJM del 2023: lette ma non integrate, senza ripetere obiettivi o AIR/MART già trattati. Nessuna lettura dell’intero articolo. Tabelle e figure del corso ripetute negli appunti non sono fonti indipendenti.",
-    "Confronto ufficiale circoscritto con AIFA, due SmPC britannici della NAC, SmPC britannico della dornase, etichetta USA della NAC e NICE NG78/NG120. Nessuna verifica di tutti gli RCP italiani o degli studi originali citati.",
-    "Nessuna nuova lettura Farmacologia II, nessun intero libro o corso completato, nessuna revisione clinica indipendente. Nessun PDF, trascrizione, figura delle fonti, dose o equivalenza pubblicati.",
+    "Cinque nuove pagine del corso I PDF 691–695 lette nel testo e nelle immagini; 107 registri nominati deduplicati. Due pagine integrate selettivamente, tre lette e non integrate. Nessun intero articolo, corso o libro completato.",
+    "Katzung, Rang e appunti già riconciliati restano nella copertura precedente: nessuna nuova pagina di quei materiali o di Farmacologia II letta in questo lotto.",
+    "GINA 2026: testo delle sole PDF 40, 49–50, editoriali 39, 48–49, letto; figure non revisionate. Copia ufficiale corrente scaricata per confronto hash e identica alla copia archiviata. Nessuna revisione clinica indipendente.",
+    "Non trasferiti algoritmi, dosi, conversioni DPI/pMDI, soglie per biologici, graduatorie di efficacia o affermazioni territoriali del 2023. Nessuna verifica completa degli RCP italiani o degli studi primari.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
   "nextBatch": "Completare prima CI, deploy e riscontro online del lotto 686–690. Al ciclo successivo deduplicare il solo intervallo PDF 691–695, prosecuzione del contributo del 2023 sull’asma adulta; confrontarlo con i passaggi e le linee guida già integrati, evitando duplicazioni. Teoria prioritaria; farmaci, profili e laboratori nel backlog."
