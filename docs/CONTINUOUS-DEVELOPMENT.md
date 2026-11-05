@@ -8,27 +8,27 @@ Usare «appunti e diapositive del corso di Farmacologia», con anno, lezione, da
 
 ## Lotto corrente
 
-theory-course-716-720, candidato 0.84.0. Due sezioni tematiche aggiunte al capitolo respiratorio: piccole vie aeree e difese locali; fenotipo, meccanismo e riacutizzazione. Due domande e due schemi originali. Totali: 43 sezioni, 15262 parole, 45 domande, 32 schemi e 39 riferimenti. Nessuna nuova identità, sintesi farmacologica, profilo, capitolo o laboratorio.
+theory-course-721-725, candidato 0.85.0. Una sezione tematica aggiunta sul percorso dal dispositivo al recettore; ampliata la sezione sugli obiettivi funzionali e la riabilitazione. Due domande e uno schema originale. Totali: 44 sezioni, 15898 parole, 47 domande, 33 schemi e 40 riferimenti. Nessuna nuova identità, sintesi farmacologica, profilo, capitolo o laboratorio.
 
-0.83.0 pubblicata e verificata al commit 96acee56ae69430fbe8c1b893f890e99df79e2d5. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sui checkpoint preparatori.
+0.84.0 pubblicata e verificata al commit f2af177d2a6b2a0c01521950e92e151e458a4585. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sui checkpoint preparatori.
 
-PDF 716, etichetta del corso 714, editoriale 2229: letti interamente testo e rendering su traiettorie di funzione, rischio genetico/epigenetico e approcci omici. Non integrata nel lotto: storia già trattata; punteggi genetici, percentuali e stato dei trial nel 2022 non adottati.
+PDF 721, etichetta del corso 719, editoriale 2234: testo completo e rendering controllati; riabilitazione, ossigeno, ventilazione, riduzione di volume, terapia inalatoria e comorbilità. Integrati soltanto il rapporto fra flusso inspiratorio e modalità di erogazione e la complementarità degli interventi. ABCD, soglie, dosi, esiti quantitativi, ossigeno, NIV e chirurgia non trasferiti.
 
-PDF 717, etichetta 715, editoriale 2230: testo completo, figura 2 e legenda controllati; cellule ciliate, club e basali, riprogrammazione epiteliale, metaplasia, muco e matrice. Integrata selettivamente la relazione fra organizzazione epiteliale e difese. Figura originale non riprodotta; EGFR non trasformato in indicazione terapeutica.
+PDF 722, etichetta 720, editoriale 2235: testo, figura 3 e legenda controllati integralmente. Integrato soltanto il collegamento concettuale tra interventi e obiettivi funzionali; algoritmo storico e figura non riprodotti. Soglie di eosinofili, sequenze terapeutiche, vitamina D, palliazione e ipotesi COVID non adottati.
 
-PDF 718, etichetta 716, editoriale 2231: testo e rendering completi; clearance e IgA secretorie, difesa macrofagica inefficiente, proteasi e matrice, eterogeneità infiammatoria. Integrati i meccanismi selezionati, senza quantità, priorità universale delle proteasi o algoritmo terapeutico. La conclusione storica sui trial anti-IL-5 non trasferita allo stato regolatorio corrente.
+PDF 723, etichetta 721, editoriale 2236: testo completo e rendering controllati, inclusi COVID, conclusione, dichiarazioni e bibliografia 1–16. Non integrata: variazioni assistenziali pandemiche e ipotesi del 2022 non trasferite. Testo narrativo del Seminar raggiunto fino alla conclusione; bibliografia ancora parziale.
 
-PDF 719, etichetta 717, editoriale 2232: testo e rendering completi su riacutizzazioni e imaging. Integrata la distinzione fra fenotipo osservabile, meccanismo, compartimento e tempo; cluster di ricerca non presentati come categorie diagnostiche individuali. Non trasferiti percentuali, soglie di trattamento, classificazioni di gravità storiche o confronti quantitativi della disanapsi.
+PDF 724, etichetta 722, editoriale 2237: bibliografia 17–63 interamente letta nel testo e nel rendering. Non integrata; la lettura delle citazioni non attribuisce lettura agli studi primari.
 
-PDF 720, etichetta 718, editoriale 2233: testo e riquadro terapeutico integralmente controllati, inclusi imaging, avvio diagnosi e interventi non farmacologici. Pagina non integrata: elenchi e criteri del 2022 non adottati come raccomandazioni attuali. Nessuna indicazione di screening, ossigenoterapia, chirurgia o terapia sostitutiva aggiunta.
+PDF 725, etichetta 723, editoriale 2238: bibliografia 64–109 interamente letta nel testo e nel rendering. Non integrata; riferimenti storici ai biologici distinti dallo stato corrente già segnalato nel lotto precedente. Bibliografia successiva non letta.
 
-Confronto ufficiale circoscritto: NHLBI, What Is COPD?, testo introduttivo e distinzione enfisema/bronchite; EMA Nucala, Overview e How does Nucala work?, consultati per riconoscere il limite temporale dei trial anti-IL-5 citati nel 2022. Nessuna nuova indicazione, dose o raccomandazione clinica trasferita; nessuna revisione clinica indipendente.
+Confronto ufficiale circoscritto: NHLBI Pulmonary Rehabilitation, spiegazione del programma e delle componenti; SmPC britannici Spiriva Respimat e Symbicort Turbohaler, soli passaggi identificati sull’erogazione e il gesto inspiratorio. Nessuna nuova indicazione, dose, equivalenza, protocollo riabilitativo o raccomandazione di scelta individuale.
 
-La pagina EMA consultata include attualmente la BPCO, ma non è stata trasformata in una nuova scheda terapeutica. Recuperi successivi EMA limitati da HTTP 429; nessun aggiramento, nessuna lettura integrale RCP dichiarata. Il limite GOLD 2026 del lotto precedente rimane registrato; nessuna nuova lettura GOLD.
+NICE NG115: primo accesso fallito, successivo HTTP 403; ATS via PMC: verifica automatica di accesso. Nessun aggiramento, nessuna lettura integrale o integrazione dichiarata. GOLD 2026 già presente nel capitolo riconciliato senza nuova lettura; limite precedente conservato. Sintesi didattica, non revisione clinica indipendente.
 
-Katzung, Rang e appunti storici riconciliati con i meccanismi già integrati; nessuna nuova pagina di libri o Farmacologia II letta. Fonti originali invariate; immagini, trascrizioni, percentuali, soglie e algoritmi storici non pubblicati.
+Katzung, Rang e appunti storici riconciliati con i meccanismi già integrati; nessuna nuova pagina di libri o Farmacologia II letta. Fonti originali invariate; immagini, trascrizioni, soglie e algoritmi storici non pubblicati.
 
-Controlli locali completati: 45 verifiche dati, otto configurazioni desktop/mobile nei due temi, otto schermate ispezionate, navigazione e ricerche, offline e aggiornamento reale 0.83.0→0.84.0 con dati salvati conservati. Attesa iniziale del catalogo resa esplicita nel controllo browser; asserzioni conservate. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-716-720-2026-11-05/. Ricevuta soltanto dopo deploy verificato.
+Controlli locali completati: 45 verifiche dati, otto configurazioni desktop/mobile nei due temi, otto schermate ispezionate, navigazione e ricerche, offline e aggiornamento reale 0.84.0→0.85.0 con dati salvati conservati. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-721-725-2026-11-05/. Ricevuta soltanto dopo deploy verificato.
 
 ## Regole
 
@@ -40,4 +40,4 @@ Controlli locali completati: 45 verifiche dati, otto configurazioni desktop/mobi
 
 ## Prossimo intervallo
 
-Completare il lotto 716–720 prima di altro lavoro. Al ciclo successivo deduplicare solo corso I PDF 721–725; contenuti non ancora letti. Farmaci, profili e laboratori nel backlog.
+Completare il lotto 721–725 prima di altro lavoro. Al ciclo successivo deduplicare solo corso I PDF 726–730; contenuti non ancora letti. Farmaci, profili e laboratori nel backlog.
