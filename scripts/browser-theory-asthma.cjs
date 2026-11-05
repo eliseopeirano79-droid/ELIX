@@ -13,7 +13,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
   assert.ok((await p.locator('.ex-reading-meta').textContent()).includes('revisione clinica non completata'));assert.ok(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
   for(const selector of ['.ex-reading','.ex-formula'])assert.ok(await p.locator(selector).evaluateAll(es=>es.length>0&&es.every(e=>e.scrollWidth<=e.clientWidth+1)),selector+' overflow');
   if([1440,390].includes(width)){await p.evaluate(()=>scrollTo(0,0));await p.screenshot({path:out+'/chapter-'+width+'-'+theme+'.png'});}
-  if((width===1440&&theme==='dark')||(width===390&&theme==='light'))for(const id of ['allergia','biologici']){
+  if((width===1440&&theme==='dark')||(width===390&&theme==='light'))for(const id of ['iperreattivita','obiettivi']){
    const section=p.locator('[data-section="'+id+'"]');await section.scrollIntoViewIfNeeded();
    await section.screenshot({path:out+'/'+id+'-'+(width===1440?'desktop':'mobile')+'.png',style:'.topbar,.elix-skip{visibility:hidden!important}'});
   }

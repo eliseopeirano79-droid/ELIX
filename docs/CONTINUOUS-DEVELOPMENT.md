@@ -8,27 +8,29 @@ Usare «appunti e diapositive del corso di Farmacologia», con anno, lezione, da
 
 ## Lotto corrente
 
-theory-course-696-700, candidato 0.80.0. Due sezioni respiratorie ampliate: rete allergica e innata, programma tipo 2, biomarcatori durante trattamento. Due schemi originali e due domande riformulate. Totali: 40 sezioni, 13204 parole, 40 domande, 28 schemi e 37 riferimenti. Nessuna nuova sezione, identità, sintesi farmacologica, profilo PK, capitolo o laboratorio. Altri 60 capitoli, 37 sezioni e 38 domande conservati; nota di copertura aggiornata.
+theory-course-701-705, candidato 0.81.0. Due sezioni ampliate: test funzionali, sintomi ed esposizione effettiva. Uno schema nuovo, uno riformulato e due domande aggiornate. Totali: 40 sezioni, 13659 parole, 40 domande, 29 schemi e 37 riferimenti. Nessuna nuova identità, sintesi farmacologica, profilo, sezione, capitolo o laboratorio.
 
-0.79.0 pubblicata e verificata al commit d4b88979c9a73fbb1af016d33b0c3b1de8d65813. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparato prima della pubblicazione.
+0.80.0 pubblicata e verificata al commit 1cf61d44edcf920733a92f4088294d5d3a9c42b5. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sui checkpoint preparatori.
 
-PDF 696–700, etichette del corso 694–698. Cinque nuove pagine lette integralmente nel testo disponibile e nei rendering; figura 1 e legenda a PDF 700 controllate. Fonte AA 2025–26.
+PDF 701–705, etichette del corso 699–703, editoriali 861–865: continuazione di Porsbjerg, Melén, Lehtimäki e Shaw, Asthma, Lancet 2023;401:858–873, DOI 10.1016/S0140-6736(22)02125-0. Cinque nuove pagine lette integralmente nel testo disponibile e nei rendering, comprese figure 2–4, legende e Panel 1. Seminar ancora parziale; studi citati e appendici non letti.
 
-696–697: conclusione e bibliografia di Giselle Mosnaim, Asthma in Adults, NEJM 2023;389:1023–1031, DOI 10.1056/NEJMcp2304871, editoriali 1030–1031. Non integrate: AIR/MART, controllo, aderenza e tecnica già trattati. Le voci bibliografiche non equivalgono alla lettura dei lavori citati. La copia del corso PDF 689–697 risulta letta cumulativamente nei tre lotti; non appendici o materiale esterno.
+701: genetica ed epigenetica, presentazione clinica e diagnosi. Integrata solo la distinzione fra sintomi, variabilità e prova funzionale. Figura 2 controllata ma non riprodotta; soglie, percentuali e criteri pediatrici non trasferiti. Genetica non aggiunta al capitolo.
 
-698: prima pagina di Celeste Porsbjerg, Erik Melén, Lauri Lehtimäki, Dominick Shaw, Asthma, Lancet 2023;401:858–873, DOI 10.1016/S0140-6736(22)02125-0; pubblicato online 19 gennaio 2023. Epidemiologia, sviluppo e strategie di prevenzione letti ma non integrati; stime, percentuali e proposte preventive non trasformate in raccomandazioni attuali. Riquadro ricerca con data impossibile 31 aprile 2022, non corretto per inferenza.
+702: figura 3 e legenda, test diretti e indiretti, diagnosi pediatrica, fenotipi e comorbidità. Integrati meccanismo dello stimolo e distinzione fra fattori che mantengono il sintomo. Formula e soglia PEF storiche non adottate; biomarcatori durante terapia già coperti nel lotto precedente.
 
-699, editoriale 859: patogenesi, Th2 e ILC2, alarmini, biomarcatori modificati dai corticosteroidi. Integrata selettivamente la convergenza di circuiti adattativi e innati e l’interpretazione del dato dopo trattamento, con GINA 2026. Costi, percentuali e ipotesi su Th17 e immunità addestrata non trasferiti.
+703: diagnosi differenziale, comorbidità, controllo e introduzione dei regimi. Integrate diagnosi alternativa rispetto a coesistenza, localizzazione dei sintomi e barriera all’esposizione. Nessun protocollo pediatrico o algoritmo terapeutico trasferito.
 
-700, editoriale 860: figura 1, legenda e testo su nervi, muco e rimodellamento interamente controllati. Integrata solo la connessione fra rete immunitaria e componenti tissutali; nessuna figura riprodotta. La legenda espande TGF-β come tumour growth factor: denominazione non adottata. Genetica prosegue oltre la pagina e non è integrata; nessuna lettura delle pagine successive o dell’intero Seminar.
+704: figura 4, legenda, dosi e track storici; letta e non integrata perché AIR/MART, tecnica e aderenza già trattati. Riquadro dosi ripete medium dose nella terza riga; non corretto per inferenza o riprodotto. Generalizzazioni per età, equivalenze e stato autorizzativo 2023 non adottati.
 
-Katzung, Rang e appunti precedenti restano nella copertura storica: nessuna nuova lettura di quei materiali o di Farmacologia II.
+705: Panel 1 e testo su rischi, step-up/down e terapia tripla; letti e non integrati. Il riferimento generico a LABA al bisogno non esteso oltre ICS-formoterolo. Equivalenze ICS/prednisolone, stime di beneficio e procedure di modifica della terapia non trasferite; ultima frase continua oltre l’intervallo.
 
-GINA 2026: testo delle sole PDF 63 e 161, editoriali 62 e 160; figure non controllate. Download corrente HTTP 200 e hash identico alla copia archiviata, dopo un primo HTTP 403 risolto con intestazioni browser. Nessuna revisione clinica indipendente.
+Katzung, Rang e appunti precedenti restano nella copertura storica: nessuna nuova pagina di questi materiali o di Farmacologia II letta. Distinzioni fisiologiche riconciliate con i circuiti già presenti.
 
-Nessuna dose, soglia diagnostica, procedura di sospensione, equivalenza, stima epidemiologica o graduatoria terapeutica trasferita. Figura e trascrizioni non pubblicate. Nessuna verifica completa degli RCP italiani.
+GINA 2026: testo delle sole PDF 35, 157–158, editoriali 34, 156–157, letto; figure non revisionate. Copia ufficiale corrente HTTP 200 identica per hash a quella archiviata. Nessuna revisione clinica indipendente.
 
-Completati 45 validatori, otto configurazioni browser e otto schermate ispezionate; ricerche, fonti, tastiera e offline verificati. Aggiornamento reale 0.79.0→0.80.0 con dati conservati; fonte locale e copia ufficiale invariate. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-696-700-2026-11-05/. Ricevuta soltanto dopo deploy verificato.
+Nessuna soglia diagnostica, dose, equivalenza, graduatoria, protocollo di provocazione o istruzione di sospensione trasferiti. Figure e trascrizioni non pubblicate; studi primari, appendici e RCP italiani non revisionati integralmente.
+
+45 validatori superati; otto configurazioni browser e otto schermate ispezionate, ricerche, fonti, tastiera e offline verificati. Aggiornamento reale 0.80.0→0.81.0 con preferiti, progressi e tema conservati; fonte locale e copia ufficiale invariate. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-701-705-2026-11-05/. Ricevuta solo dopo deploy verificato.
 
 ## Regole
 
@@ -40,4 +42,4 @@ Completati 45 validatori, otto configurazioni browser e otto schermate ispeziona
 
 ## Prossimo intervallo
 
-Completare il lotto 696–700 prima di altro lavoro. Al ciclo successivo deduplicare solo corso I PDF 701–705, prosecuzione del Seminar Lancet del 2023, senza anticipare contenuti o lettura. Farmaci, profili e laboratori nel backlog.
+Completare il lotto 701–705 prima di altro lavoro. Al ciclo successivo deduplicare solo corso I PDF 706–710, prosecuzione del Seminar Lancet del 2023; contenuti non ancora letti. Farmaci, profili e laboratori nel backlog.
