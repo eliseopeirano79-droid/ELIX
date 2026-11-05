@@ -13,12 +13,10 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
   assert.ok((await p.locator('.ex-reading-meta').textContent()).includes('revisione clinica non completata'));assert.ok(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
   for(const selector of ['.ex-reading','.ex-formula'])assert.ok(await p.locator(selector).evaluateAll(es=>es.length>0&&es.every(e=>e.scrollWidth<=e.clientWidth+1)),selector+' overflow');
   if([1440,390].includes(width)){await p.evaluate(()=>scrollTo(0,0));await p.screenshot({path:out+'/chapter-'+width+'-'+theme+'.png'});}
-  if(width===1440&&theme==='dark'){
-   const section=p.locator('[data-section="obiettivi"]');await section.scrollIntoViewIfNeeded();
-   const clip=await section.evaluate(e=>{const r=e.getBoundingClientRect();return {x:r.x+scrollX,y:r.y+scrollY,width:r.width,height:r.height+24}});
-   await p.screenshot({path:out+'/obiettivi-desktop.png',clip,fullPage:true,style:'.topbar,.elix-skip{visibility:hidden!important}'});
+  if((width===1440&&theme==='dark')||(width===390&&theme==='light'))for(const id of ['allergia','biologici']){
+   const section=p.locator('[data-section="'+id+'"]');await section.scrollIntoViewIfNeeded();
+   await section.screenshot({path:out+'/'+id+'-'+(width===1440?'desktop':'mobile')+'.png',style:'.topbar,.elix-skip{visibility:hidden!important}'});
   }
-  if(width===390&&theme==='light')await p.locator('[data-section="obiettivi"]').screenshot({path:out+'/obiettivi-mobile.png',style:'.topbar,.elix-skip{visibility:hidden!important}'});
   if(!await p.locator('[data-elix="chapter-jump"]').last().isVisible())await p.locator('.ex-toc summary').click();
   await p.locator('[data-elix="chapter-jump"]').last().focus();await p.keyboard.press('Enter');assert.equal(await p.evaluate(()=>document.activeElement.parentElement.id),'part-39');
   for(const r of c.references){const section=c.sections.find(s=>s.refs.includes(r.id));assert.ok(section);await p.locator('[data-section="'+section.id+'"] [data-theory-source="'+r.id+'"]').click();assert.equal(await p.evaluate(()=>document.activeElement.id),'source-'+r.id);}
