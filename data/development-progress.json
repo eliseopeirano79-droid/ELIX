@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-11-05T11:58:54.113457+00:00",
-  "batch": "theory-course-756-760",
+  "updatedAt": "2026-11-05T12:36:08.823656+00:00",
+  "batch": "theory-course-761-765",
   "status": "locally_verified_pending_CI_and_publication",
-  "release": "0.89.0",
-  "branch": "feat/theory-course-756-760",
-  "baseCommit": "87d1e77c1f439b08a72a9d1e292e1b97c03afbda",
+  "release": "0.90.0",
+  "branch": "feat/theory-course-761-765",
+  "baseCommit": "6a3ada8f59b09b71f6a26524a1b57933807dcbe8",
   "previousBatch": {
-    "batch": "theory-course-741-745",
+    "batch": "theory-course-756-760",
     "status": "published_and_live_verified",
-    "release": "0.88.0",
-    "commit": "87d1e77c1f439b08a72a9d1e292e1b97c03afbda"
+    "release": "0.89.0",
+    "commit": "6a3ada8f59b09b71f6a26524a1b57933807dcbe8"
   },
   "scope": [
-    "Nuovo capitolo androgeni e GnRH: asse, recettore, conversioni e bersagli farmacologici."
+    "Ampliamento del capitolo androgeni: DHT, follicolo, finasteride e minoxidil."
   ],
   "completed": [
-    "Lettura completa circoscritta e controllo visivo di 17 pagine; 15 integrate.",
-    "Nuovo capitolo originale androgeni/GnRH integrato: 2390 parole, 11 sezioni, 12 domande e 6 schemi.",
-    "46 controlli dati superati; otto configurazioni e otto schermate ispezionate; aggiornamento reale 0.88.0→0.89.0 con dati salvati conservati; tutti i 61 capitoli precedenti identici."
+    "Cinque nuove pagine esaminate con limiti dichiarati; tre integrate.",
+    "Una nuova sezione originale, due domande, uno schema e un collegamento a minoxidil già presente.",
+    "46 controlli dati superati; otto configurazioni e otto schermate ispezionate; aggiornamento reale 0.89.0→0.90.0 con dati salvati conservati; tutti gli altri 61 capitoli e dieci sezioni didattiche precedenti identici."
   ],
   "remaining": [
     "CI, deploy concluso e riscontro online."
@@ -38,28 +38,28 @@
     "newDrugSummaries": 0,
     "newProductPKContexts": 0,
     "newPKFields": 0,
-    "newChapters": 1,
-    "expandedChapters": 0,
+    "newChapters": 0,
+    "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 11,
+    "newSections": 1,
     "expandedSections": 0,
-    "newLinksToExistingIdentities": 13,
-    "newStaticOriginalSchemas": 6,
-    "newSelfChecks": 12
+    "newLinksToExistingIdentities": 1,
+    "newStaticOriginalSchemas": 1,
+    "newSelfChecks": 2
   },
   "readingManifests": [
     "data/androgeni-asse-gonadico-reading.json"
   ],
   "limits": [
-    "17 pagine fisiche nuove lette, 15 con passaggi integrati: corso I PDF 756–760; Katzung PDF 845–852, editoriali 825–832; Rang & Dale PDF 671–674. Le pagine miste non sono integrate per intero.",
-    "CFI: cinque pagine lette nelle immagini e nel testo estraibile disponibile; nessuna estrazione sostanziale completa attribuita. Nei due libri tutte le dodici pagine lette nel testo estratto e controllate visivamente.",
-    "Riquadri CFI 756/Rang 671 e CFI 759/Rang 673 condivisi: pagine fisiche distinte, nessuna conferma indipendente o duplicazione dei contenuti. Dosi storiche non trasferite.",
-    "Figure e tabelle locali controllate senza riproduzione; formule chimiche viste ma non validate atomo per atomo. Nessuna lettura integrale di libri o corsi e nessuna nuova lettura attribuita agli altri materiali autorizzati.",
-    "EAU ed EMA consultati soltanto nelle sezioni dichiarate; nessuna lettura integrale dei RCP o delle linee guida, nessuna nuova verifica visuale dei loro PDF o degli studi citati.",
-    "Sintesi didattica del solo integratore, non revisione clinica indipendente. Parti ginecologiche, contraccezione e trattazione completa dell’oncologia prostatica escluse.",
+    "5 nuove pagine del corso PDF 761–765 esaminate: tre con testo estratto sostanziale (761, 762, 764), due lette nelle immagini (763, 765); tutti i rendering controllati. Riga coperta a 763 non leggibile: non è dichiarata lettura del contenuto nascosto.",
+    "Tre nuove pagine sostengono passaggi (761–763); 764–765 sulla contraccezione non integrate. Copertura cumulativa: 22 pagine esaminate, 18 con passaggi integrati, 17 già documentate senza ricontarle.",
+    "Katzung IX italiana 2014/XII originale 2012 PDF 845–852 e Rang VIII italiana 2016/originale 2015 PDF 671–674 riusati; rilettura mirata di Katzung 851 e Rang 673. Nessuna nuova pagina di libro, altri corsi o altre trascrizioni.",
+    "Tabella storica 763: prezzi, dosi, percentuali e generalizzazioni su efficacia o danno epatico non trasferiti. Figure originali non pubblicate; nessuna bibliografia citata considerata automaticamente letta.",
+    "Riferimenti ufficiali consultati solo nei passaggi dichiarati. Per minoxidil una specifica formulazione britannica, senza generalizzazione a terapia orale o linee guida complete sull’alopecia. Nessuna nuova verifica visuale dei PDF ufficiali.",
+    "Sintesi didattica del solo integratore, non revisione clinica indipendente. Nessuna lettura integrale di libri o corsi. Contraccezione e trattazione completa dell’oncologia prostatica escluse.",
     "Verifiche del browser su dimensioni simulate, non su dispositivi fisici."
   ],
-  "nextBatch": "Completare il lotto 756–760. Al ciclo successivo deduplicare solo corso I PDF 761–765; non ancora letti. Teoria prima di farmaci, profili e laboratori.",
+  "nextBatch": "Completare 761–765; al ciclo successivo deduplicare solo PDF 766–770, non ancora letti. Teoria prima di farmaci, profili e laboratori.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755"
