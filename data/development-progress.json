@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-11-05T01:56:50.219281+00:00",
-  "batch": "theory-course-676-680",
+  "updatedAt": "2026-11-05T03:02:39.167418+00:00",
+  "batch": "theory-course-681-685",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.76.0",
-  "branch": "feat/theory-course-676-680",
-  "baseCommit": "e48dba2edd821c9d35cbdf578d5ec71b930d648f",
+  "release": "0.77.0",
+  "branch": "feat/theory-course-681-685",
+  "baseCommit": "cd6a73f4b96ecba1f6e1da31b96be702019a929f",
   "previousBatch": {
-    "batch": "theory-course-671-675",
+    "batch": "theory-course-676-680",
     "status": "published_and_live_verified",
-    "release": "0.75.0",
-    "commit": "e48dba2edd821c9d35cbdf578d5ec71b930d648f"
+    "release": "0.76.0",
+    "commit": "cd6a73f4b96ecba1f6e1da31b96be702019a929f"
   },
   "scope": [
-    "Ampliamento della BPCO nel capitolo asma: struttura e tono bronchiale, dispnea e riacutizzazioni, eosinofili e risposta agli ICS."
+    "Tosse e antitussivi: riflesso, cause e secrezioni; codeina collegata agli oppioidi; destrometorfano, bersagli, metabolismo e limiti delle prove."
   ],
   "completed": [
-    "Due sezioni aggiunte, una ampliata e copertura aggiornata: 36 sezioni, 10607 parole, 36 domande, 21 schemi originali e 28 riferimenti.",
-    "Dieci pagine locali controllate: otto nuove e due riletture; sei sostengono passaggi selettivi. Cinque pagine integrate per la prima volta, inclusa Rang 551 già letta. Cumulativo con hash: 102 controllate e 85 integrate.",
-    "GOLD 2026 confrontato nelle figure 3.8–3.13: cinque pagine controllate, 3.11 non integrata. Articoli primari non dichiarati letti; tabella duplicata e antitussivi esclusi.",
+    "Due sezioni aggiunte e copertura aggiornata: 38 sezioni, 11467 parole, 38 domande, 23 schemi originali e 32 riferimenti.",
+    "Nove pagine pertinenti controllate: otto nuove e una riletta; sette integrate selettivamente, tutte nuove per la copertura integrata del capitolo. Cumulativo con hash: 111 controllate e 92 integrate.",
+    "Confronto mirato con EMA, SmPC britannico e NICE NG120; no rassicurazioni assolute o sostituzione pediatrica automatica. Duplicati e pagine fuori tema registrati.",
     "45 validatori e otto configurazioni browser: fonti, tastiera, ricerche, collegamenti e offline; sei schermate ispezionate.",
-    "Aggiornamento reale 0.75.0→0.76.0 con preferiti, progressi e tema conservati. Altri 60 capitoli, catalogo, lettore, stili e laboratori invariati."
+    "Aggiornamento reale 0.76.0→0.77.0 con preferiti, progressi e tema conservati. Altri 60 capitoli, catalogo, lettore, stili e laboratori invariati."
   ],
   "remaining": [
     "CI, deploy concluso e riscontro online."
@@ -44,21 +44,21 @@
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
     "newSections": 2,
-    "expandedSections": 1,
+    "expandedSections": 0,
     "coverageParagraphUpdated": true,
-    "newLinksToExistingIdentities": 0,
+    "newLinksToExistingIdentities": 2,
     "newStaticOriginalSchemas": 2
   },
   "readingManifests": [
     "data/asma-e-broncodilatatori-reading.json"
   ],
   "limits": [
-    "Dieci pagine locali controllate: otto nuove (corso 676–680, Katzung 418–419, Rang 552) e due riletture (Rang 551, appunti 303). Testo disponibile letto e dieci rendering controllati.",
-    "Sei pagine sostengono passaggi selettivi: corso 676–677, Katzung 418, Rang 551–552, appunti 303. Cinque entrano per la prima volta nella copertura integrata, inclusa Rang 551 già letta; quattro sono nuove letture. Cumulativo con hash: 102 controllate e 85 integrate.",
-    "Deduplicazione in 101 registri nominati; tabella corso 678 duplicata negli appunti 303. JAMA 2025, Lancet 2022 e Pediatrics 2016 riconosciuti nelle fonti, non letti in originale.",
-    "GOLD 2026 PDF 30–34, editoriali 27–31: testo incorporato e figure 3.8–3.13 controllati nei rendering della copia ufficiale archiviata. Figura 3.11 non integrata. Verifica circoscritta, non revisione integrale delle linee guida o degli RCP.",
-    "Corso 678–680 e Katzung 419 letti ma non integrati. Antitussivi rinviati per deduplicazione con oppioidi. Nessuna nuova lettura Farmacologia II, nessun intero libro o corso completato, nessuna revisione clinica indipendente. Nessun PDF, trascrizione, figura originale, dose o equivalenza pubblicati.",
+    "Nove pagine pertinenti controllate: otto nuove (corso I 681–685, Rang 553, appunti I 291–292) e una rilettura (Katzung 650, già nel capitolo oppioidi). Testo disponibile e nove rendering letti.",
+    "Sette pagine sostengono passaggi selettivi: corso 682–684, Katzung 650, Rang 553 e appunti 291–292. Sei sono nuove letture; sette entrano per la prima volta nella copertura di questo capitolo. Cumulativo con hash: 111 controllate e 92 integrate.",
+    "Deduplicazione in 103 registri nominati. Codeina/CYP2D6 già trattati nel capitolo oppioidi, collegato senza modificarlo. Tabelle del corso 679/685 ripetute negli appunti 291/292, non prove indipendenti.",
+    "Corso 681 e 685 letti ma non integrati. Due pagine degli appunti 304–305, trovate durante la localizzazione e controllate, trattano endocrinologia: escluse dai contatori respiratori e da ogni integrazione; registrate separatamente.",
+    "Confronto ufficiale circoscritto con EMA, SmPC britannico e NICE NG120. Studi primari citati nelle fonti non letti. Nessuna nuova lettura Farmacologia II, nessun intero libro o corso completato, nessuna revisione clinica indipendente. Nessun PDF, trascrizione, figura delle fonti, dose o equivalenza pubblicati.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Completare prima CI, deploy e riscontro online del lotto 676–680. Al ciclo successivo deduplicare un solo intervallo PDF 681–685 e le pagine sugli antitussivi già lette, confrontandole con il capitolo oppioidi. Teoria prioritaria; farmaci, profili e laboratori nel backlog."
+  "nextBatch": "Completare prima CI, deploy e riscontro online del lotto 681–685. Al ciclo successivo deduplicare un solo intervallo PDF 686–690; confrontare la prosecuzione con corso 685 e appunti 292 già letti, senza ripetere antitussivi o oppioidi. Teoria prioritaria; farmaci, profili e laboratori nel backlog."
 }
