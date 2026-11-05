@@ -1,26 +1,25 @@
 {
-  "updatedAt": "2026-11-05T00:47:20.981451+00:00",
-  "batch": "theory-course-666-670",
+  "updatedAt": "2026-11-05T01:21:35.310799+00:00",
+  "batch": "theory-course-671-675",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.74.0",
-  "branch": "feat/theory-course-666-670",
-  "baseCommit": "646e3d26989956902525307f1cf59d45a5d8af27",
+  "release": "0.75.0",
+  "branch": "feat/theory-course-671-675",
+  "baseCommit": "28ffe8840a6ff34c4738b317d2b3bdbb5002b838",
   "previousBatch": {
-    "batch": "theory-course-661-665",
+    "batch": "theory-course-666-670",
     "status": "published_and_live_verified",
-    "release": "0.73.0",
-    "commit": "646e3d26989956902525307f1cf59d45a5d8af27"
+    "release": "0.74.0",
+    "commit": "28ffe8840a6ff34c4738b317d2b3bdbb5002b838"
   },
   "scope": [
-    "Ampliamento del capitolo asma: asse IL-5/IL-5Rα, ADCC, recettori condivisi IL-4/IL-13 e lettura dei rischi."
+    "Ampliamento del capitolo asma: AIR/MART, associazioni fisse e distinzione fra mantenimento con OCS e uso nelle riacutizzazioni."
   ],
   "completed": [
-    "Due sezioni aggiunte, una ampliata e copertura aggiornata: 32 sezioni, 8968 parole, 32 domande, 17 schemi originali e 27 riferimenti.",
-    "Nove pagine locali controllate: cinque nuove e quattro riletture; sette sostengono il lotto. Quattro entrano per la prima volta nella copertura integrata. Cumulativo con hash: 88 controllate e 74 integrate.",
-    "Rang 539 era già letta altrove: registrata ora nella catena del capitolo, non conteggiata come nuova lettura e non integrata.",
-    "Riconciliati i passaggi dichiarati di GINA 2026 ed EMA Nucala, Fasenra e Dupixent, senza dosi o confronti di superiorità.",
-    "45 validatori, otto configurazioni browser, fonti, tastiera, ricerche, collegamenti e offline; sei schermate ispezionate.",
-    "Aggiornamento reale 0.73.0→0.74.0 con preferiti, progressi e tema conservati. Altri 60 capitoli, catalogo, lettore, stili e laboratori invariati."
+    "Due sezioni aggiunte, una ampliata e copertura aggiornata: 34 sezioni, 9754 parole, 34 domande, 19 schemi originali e 28 riferimenti.",
+    "Otto pagine locali controllate: sei nuove e due riletture. Tutte sostengono passaggi selettivi del lotto; sei nuove pagine integrate. Cumulativo con hash: 94 controllate e 80 integrate.",
+    "Riconciliati GINA 2026 e il comunicato AIFA del 5 luglio 2023; edizioni, formulazioni ed esiti distinti.",
+    "45 validatori e otto configurazioni browser: fonti, tastiera, ricerche, collegamenti e offline; sei schermate ispezionate.",
+    "Aggiornamento reale 0.74.0→0.75.0 con preferiti, progressi e tema conservati. Altri 60 capitoli, catalogo, lettore, stili e laboratori invariati."
   ],
   "remaining": [
     "CI, deploy concluso e riscontro online."
@@ -54,13 +53,12 @@
     "data/asma-e-broncodilatatori-reading.json"
   ],
   "limits": [
-    "Nove pagine locali controllate: cinque nuove e quattro riletture. Le nuove comprendono due pagine prevalentemente testuali e tre prevalentemente figurative. Testo disponibile letto e nove rendering controllati.",
-    "Sette pagine sostengono il lotto; quattro entrano per la prima volta nella copertura integrata. Cumulativo identificato mediante hash: 88 controllate e 74 integrate. Corso 670 e Rang 539 letti ma non integrati.",
-    "Deduplicazione in 97 registri nominati più registro respiratorio storico. Figure e tabelle riconosciute nelle fonti non equivalgono a lettura degli articoli originali. Attribuzioni incomplete registrate.",
-    "GINA 2026 PDF 164–166/editoriali 163–165 e documenti EMA consultati selettivamente. Documenti non letti integralmente e figure ufficiali non controllate; nessuna verifica delle autorizzazioni italiane.",
-    "Nessuna nuova lettura Farmacologia II, GOLD o manuale molecolare. Nessun intero libro o corso letto; nessuna revisione clinica indipendente. Nessun PDF, trascrizione, figura, dose o equivalenza pubblicati.",
-    "Rang 539 era già letta nel registro respiratorio storico ma assente dalla catena con hash di questo capitolo: registrata ora fra le pagine controllate, non come nuova lettura e non integrata. La copertura controllata passa da 82 a 88, pur con cinque nuove letture.",
+    "Otto pagine locali controllate: sei nuove (corso 671–675 e appunti 303) e due riletture (Katzung 415, Rang 550). Testo disponibile letto e otto rendering controllati; quattro nuove pagine includono figure o testo incorporato.",
+    "Otto pagine sostengono il lotto, con integrazione selettiva dei passaggi pertinenti; sei entrano per la prima volta nella copertura integrata. Cumulativo con hash: 94 controllate e 80 integrate.",
+    "Deduplicazione in 99 registri nominati più registro respiratorio storico. Articoli JAMA 2022, NEJM 2023 e Frontiers 2025 riconosciuti nelle slide, non letti in originale. Diagramma BPCO negli appunti escluso, attribuzione incompleta.",
+    "GINA 2026: testo PDF 75/77/172 (editoriali 74/76/171) consultato nella copia ufficiale archiviata; figure ufficiali non controllate. Comunicato AIFA del 5 luglio 2023 riletto online il 5 novembre 2026: non equivale a verifica di ogni RCP italiano vigente.",
+    "Nessuna nuova lettura Farmacologia II o GOLD. Nessun intero libro o corso letto e nessuna revisione clinica indipendente; nessun PDF, trascrizione, figura, dosaggio o equivalenza pubblicati.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Completare prima CI, deploy e riscontro online del lotto 666–670. Al ciclo successivo deduplicare un solo intervallo PDF 671–675; teoria respiratoria prioritaria, farmaci, profili e laboratori nel backlog."
+  "nextBatch": "Completare prima CI, deploy e riscontro online del lotto 671–675. Al ciclo successivo deduplicare un solo intervallo PDF 676–680; teoria respiratoria prioritaria, farmaci, profili e laboratori nel backlog."
 }
