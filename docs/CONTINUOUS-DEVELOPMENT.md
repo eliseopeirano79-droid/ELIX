@@ -8,23 +8,27 @@ Usare «appunti e diapositive del corso di Farmacologia», con anno, lezione, da
 
 ## Lotto corrente
 
-theory-course-711-715, candidato 0.83.0. Una sezione tematica aggiunta al capitolo respiratorio esistente: sviluppo, esposizioni e contesto del bersaglio nella BPCO. Una domanda e uno schema originale aggiunti. Totali: 41 sezioni, 14400 parole, 43 domande, 30 schemi e 38 riferimenti. Nessuna nuova identità, sintesi farmacologica, profilo, capitolo o laboratorio.
+theory-course-716-720, candidato 0.84.0. Due sezioni tematiche aggiunte al capitolo respiratorio: piccole vie aeree e difese locali; fenotipo, meccanismo e riacutizzazione. Due domande e due schemi originali. Totali: 43 sezioni, 15262 parole, 45 domande, 32 schemi e 39 riferimenti. Nessuna nuova identità, sintesi farmacologica, profilo, capitolo o laboratorio.
 
-0.82.0 pubblicata e verificata al commit 636dfad7982ded37cfa2c4e31fba6d08bd384800. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sui checkpoint preparatori.
+0.83.0 pubblicata e verificata al commit 96acee56ae69430fbe8c1b893f890e99df79e2d5. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sui checkpoint preparatori.
 
-PDF 711–713, etichette del corso 709–711, editoriali 871–873: bibliografia del Seminar Asthma di Porsbjerg, Melén, Lehtimäki e Shaw, Lancet 2023;401:858–873, DOI 10.1016/S0140-6736(22)02125-0. Testi e rendering completi letti: riferimenti 38–80, 81–125 e 126–148, incluso avviso di copyright finale. Nessuna integrazione farmacologica ricavata dai soli titoli; studi citati non letti.
+PDF 716, etichetta del corso 714, editoriale 2229: letti interamente testo e rendering su traiettorie di funzione, rischio genetico/epigenetico e approcci omici. Non integrata nel lotto: storia già trattata; punteggi genetici, percentuali e stato dei trial nel 2022 non adottati.
 
-Riconosciute duplicazioni bibliografiche interne: 45/55 (Gaillard), 56/60 (Demarche), 81/135 (Haldar). Non conteggiate come conferme indipendenti. Le tre pagine completano soltanto la copia dell’articolo inclusa nel corso, PDF 698–713; appendici e studi citati restano non letti.
+PDF 717, etichetta 715, editoriale 2230: testo completo, figura 2 e legenda controllati; cellule ciliate, club e basali, riprogrammazione epiteliale, metaplasia, muco e matrice. Integrata selettivamente la relazione fra organizzazione epiteliale e difese. Figura originale non riprodotta; EGFR non trasformato in indicazione terapeutica.
 
-PDF 714, etichetta 712, editoriale 2227: inizio di Christenson SA, Smith BM, Bafadhel M, Putcha N, Chronic obstructive pulmonary disease, Lancet 2022;399:2227–2242, pubblicazione online 6 maggio 2022, DOI 10.1016/S0140-6736(22)00470-6. Letti titolo, abstract, introduzione, avvio epidemiologia e riquadro ricerca con limite 31 gennaio 2022. Integrato selettivamente il contesto di suscettibilità ed esposizioni; stime storiche, COVID-19 e stato delle terapie nel 2022 non trasferiti.
+PDF 718, etichetta 716, editoriale 2231: testo e rendering completi; clearance e IgA secretorie, difesa macrofagica inefficiente, proteasi e matrice, eterogeneità infiammatoria. Integrati i meccanismi selezionati, senza quantità, priorità universale delle proteasi o algoritmo terapeutico. La conclusione storica sui trial anti-IL-5 non trasferita allo stato regolatorio corrente.
 
-PDF 715, etichetta 713, editoriale 2228: fattori precoci e tardivi, esposizioni, disuguaglianze, ambiente e avvio di Early COPD. Figura 1 e legenda interamente controllate: grassetto e corsivo esprimono livelli diversi di evidenza; non sono pesi di un punteggio individuale. Integrata solo la distinzione fra storia del polmone, rischio, funzione e bersaglio. Percentuali, graduatorie ambientali, conclusioni storiche sulle sigarette elettroniche e definizione anagrafica di early COPD non trasferite. Resto dell’articolo non letto.
+PDF 719, etichetta 717, editoriale 2232: testo e rendering completi su riacutizzazioni e imaging. Integrata la distinzione fra fenotipo osservabile, meccanismo, compartimento e tempo; cluster di ricerca non presentati come categorie diagnostiche individuali. Non trasferiti percentuali, soglie di trattamento, classificazioni di gravità storiche o confronti quantitativi della disanapsi.
 
-Confronto WHO del 10 giugno 2026 limitato a Overview e Causes; nessuna revisione clinica indipendente o nuova indicazione terapeutica. GOLD Report 2026 individuato nella pagina ufficiale ma non recuperato integralmente: limite dimensionale del lettore web e HTTP 403 al recupero diretto, senza aggiramento; nessuna nuova pagina del Report conteggiata.
+PDF 720, etichetta 718, editoriale 2233: testo e riquadro terapeutico integralmente controllati, inclusi imaging, avvio diagnosi e interventi non farmacologici. Pagina non integrata: elenchi e criteri del 2022 non adottati come raccomandazioni attuali. Nessuna indicazione di screening, ossigenoterapia, chirurgia o terapia sostitutiva aggiunta.
 
-Katzung, Rang e appunti già integrati mantengono anno, edizione e pagine nei registri storici; nessuna nuova lettura attribuita a quei materiali o a Farmacologia II. Figure e trascrizioni non pubblicate; nessuna dose, soglia o algoritmo trasferiti.
+Confronto ufficiale circoscritto: NHLBI, What Is COPD?, testo introduttivo e distinzione enfisema/bronchite; EMA Nucala, Overview e How does Nucala work?, consultati per riconoscere il limite temporale dei trial anti-IL-5 citati nel 2022. Nessuna nuova indicazione, dose o raccomandazione clinica trasferita; nessuna revisione clinica indipendente.
 
-45 validatori superati; otto configurazioni e otto schermate ispezionate, fonti, tastiera, ricerche e offline verificati. Aggiornamento reale 0.82.0→0.83.0 con preferiti, progressi e tema conservati; fonte locale invariata. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-711-715-2026-11-05/. Ricevuta soltanto dopo deploy verificato.
+La pagina EMA consultata include attualmente la BPCO, ma non è stata trasformata in una nuova scheda terapeutica. Recuperi successivi EMA limitati da HTTP 429; nessun aggiramento, nessuna lettura integrale RCP dichiarata. Il limite GOLD 2026 del lotto precedente rimane registrato; nessuna nuova lettura GOLD.
+
+Katzung, Rang e appunti storici riconciliati con i meccanismi già integrati; nessuna nuova pagina di libri o Farmacologia II letta. Fonti originali invariate; immagini, trascrizioni, percentuali, soglie e algoritmi storici non pubblicati.
+
+Controlli locali completati: 45 verifiche dati, otto configurazioni desktop/mobile nei due temi, otto schermate ispezionate, navigazione e ricerche, offline e aggiornamento reale 0.83.0→0.84.0 con dati salvati conservati. Attesa iniziale del catalogo resa esplicita nel controllo browser; asserzioni conservate. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-716-720-2026-11-05/. Ricevuta soltanto dopo deploy verificato.
 
 ## Regole
 
@@ -36,4 +40,4 @@ Katzung, Rang e appunti già integrati mantengono anno, edizione e pagine nei re
 
 ## Prossimo intervallo
 
-Completare il lotto 711–715 prima di altro lavoro. Al ciclo successivo deduplicare solo corso I PDF 716–720; contenuti non ancora letti. Farmaci, profili e laboratori nel backlog.
+Completare il lotto 716–720 prima di altro lavoro. Al ciclo successivo deduplicare solo corso I PDF 721–725; contenuti non ancora letti. Farmaci, profili e laboratori nel backlog.

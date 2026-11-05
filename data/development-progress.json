@@ -1,25 +1,24 @@
 {
-  "updatedAt": "2026-11-05T06:35:08.430434+00:00",
-  "batch": "theory-course-711-715",
-  "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.83.0",
-  "branch": "feat/theory-course-711-715",
-  "baseCommit": "636dfad7982ded37cfa2c4e31fba6d08bd384800",
+  "updatedAt": "2026-11-05T07:16:11.465189+00:00",
+  "batch": "theory-course-716-720",
+  "status": "locally_verified_pending_CI_and_publication",
+  "release": "0.84.0",
+  "branch": "feat/theory-course-716-720",
+  "baseCommit": "96acee56ae69430fbe8c1b893f890e99df79e2d5",
   "previousBatch": {
-    "batch": "theory-course-706-710",
+    "batch": "theory-course-711-715",
     "status": "published_and_live_verified",
-    "release": "0.82.0",
-    "commit": "636dfad7982ded37cfa2c4e31fba6d08bd384800"
+    "release": "0.83.0",
+    "commit": "96acee56ae69430fbe8c1b893f890e99df79e2d5"
   },
   "scope": [
-    "Sviluppo polmonare, esposizioni e contesto dei bersagli nella BPCO."
+    "Piccole vie aeree, muco e difese locali; fenotipo, meccanismo e riacutizzazione nella BPCO."
   ],
   "completed": [
-    "Una nuova sezione tematica nel capitolo respiratorio esistente: 14400 parole, 41 sezioni, 43 domande, 30 schemi originali.",
-    "Cinque nuove pagine controllate, due integrate; cumulativo 142/109.",
-    "Bibliografia Asthma completata; copia COPD limitata alle prime due pagine. Confronto WHO e riconciliazione con meccanismi già presenti.",
-    "45 validatori superati; otto configurazioni e otto schermate ispezionate, fonti, tastiera, ricerche e offline verificati.",
-    "Aggiornamento reale 0.82.0→0.83.0 con preferiti, progressi e tema conservati; fonte locale invariata."
+    "Due sezioni tematiche nel capitolo respiratorio esistente: 15262 parole, 43 sezioni, 45 domande, 32 schemi originali.",
+    "Cinque nuove pagine controllate, tre integrate; cumulativo 147/112.",
+    "Figura 2 controllata, non riprodotta; confronto NHLBI e limite storico anti-IL-5 registrato con EMA.",
+    "45 controlli dati superati; otto configurazioni, otto schermate ispezionate, aggiornamento reale 0.83.0→0.84.0, offline e conservazione dei dati verificati."
   ],
   "remaining": [
     "CI, deploy concluso e riscontro online."
@@ -43,24 +42,25 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 1,
+    "newSections": 2,
     "expandedSections": 0,
     "coverageParagraphUpdated": true,
     "newLinksToExistingIdentities": 0,
-    "newStaticOriginalSchemas": 1,
+    "newStaticOriginalSchemas": 2,
     "updatedStaticOriginalSchemas": 0,
-    "newSelfChecks": 1,
+    "newSelfChecks": 2,
     "updatedSelfChecks": 0
   },
   "readingManifests": [
     "data/asma-e-broncodilatatori-reading.json"
   ],
   "limits": [
-    "Cinque nuove pagine PDF 711–715 lette nel testo e nei rendering, dopo deduplicazione di 115 registri. Tre pagine bibliografiche non integrate; due pagine introduttive BPCO integrate selettivamente. Copia Asthma Lancet 2023 PDF 698–713 completata cumulativamente; nessuna lettura attribuita ai 148 riferimenti, alle appendici, all’intero corso o ai libri.",
-    "Copia COPD Lancet 2022 letta soltanto nelle editoriali 2227–2228, incluse figura 1 e legenda. Livelli di evidenza grafici, dati epidemiologici del 2022, vaping e definizioni temporali non adottati come attuali.",
-    "Confronto WHO del 10 giugno 2026 limitato a Overview e Causes; nessuna revisione clinica indipendente o nuova indicazione terapeutica. GOLD Report 2026 individuato nella pagina ufficiale ma non recuperato integralmente: limite dimensionale del lettore web e HTTP 403 al recupero diretto, senza aggiramento; nessuna nuova pagina del Report conteggiata.",
-    "Katzung, Rang e appunti già integrati mantengono anno, edizione e pagine nei registri storici; nessuna nuova lettura attribuita a quei materiali o a Farmacologia II. Figure e trascrizioni non pubblicate; nessuna dose, soglia o algoritmo trasferiti.",
+    "Cinque nuove pagine PDF 716–720 del corso I lette integralmente nel testo disponibile e controllate nei rendering dopo deduplicazione di 117 registri; tre integrate, due non integrate. Cumulativo del capitolo: 147 pagine controllate, 112 integrate.",
+    "Seminar COPD di Christenson, Smith, Bafadhel e Putcha, Lancet 2022;399:2227–2242, DOI 10.1016/S0140-6736(22)00470-6: copertura cumulativa limitata alle editoriali 2227–2233 (PDF 714–720). Figura 2 e legenda controllate nel lotto; articolo, studi primari e appendici non letti integralmente.",
+    "Confronto ufficiale circoscritto: NHLBI, What Is COPD?, testo introduttivo e distinzione enfisema/bronchite; EMA Nucala, Overview e How does Nucala work?, consultati per riconoscere il limite temporale dei trial anti-IL-5 citati nel 2022. Nessuna nuova indicazione, dose o raccomandazione clinica trasferita; nessuna revisione clinica indipendente.",
+    "La pagina EMA consultata include attualmente la BPCO, ma non è stata trasformata in una nuova scheda terapeutica. Recuperi successivi EMA limitati da HTTP 429; nessun aggiramento, nessuna lettura integrale RCP dichiarata. Il limite GOLD 2026 del lotto precedente rimane registrato; nessuna nuova lettura GOLD.",
+    "Katzung, Rang e appunti storici riconciliati con i meccanismi già integrati; nessuna nuova pagina di libri o Farmacologia II letta. Fonti originali invariate; immagini, trascrizioni, percentuali, soglie e algoritmi storici non pubblicati.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Completare il lotto 711–715 prima di altro lavoro. Al ciclo successivo deduplicare solo corso I PDF 716–720; contenuti non ancora letti. Farmaci, profili e laboratori nel backlog."
+  "nextBatch": "Completare il lotto 716–720 prima di altro lavoro. Al ciclo successivo deduplicare solo corso I PDF 721–725; contenuti non ancora letti. Farmaci, profili e laboratori nel backlog."
 }
