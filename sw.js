@@ -1,7 +1,7 @@
 /* ELIX • servizio offline e aggiornamenti delle versioni pubblicate */
 // Scoped caches let old links coexist without deleting another app or path.
 const CACHE_PREFIX = 'elix@'+new URL(self.registration.scope).pathname+'::';
-const CACHE = CACHE_PREFIX+'0.81.0';
+const CACHE = CACHE_PREFIX+'0.82.0';
 const RUNTIME=CACHE+'-runtime';
 const MAX_RUNTIME=120;
 const FILES = ['./elix-theory-asthma.js','./data/asma-e-broncodilatatori-reading.json','./data/asma-e-broncodilatatori-review.json','./elix-theory-histamine.js','./data/istamina-antistaminici-reading.json','./data/istamina-antistaminici-review.json','./elix-theory-atopic.js','./data/dermatite-atopica-reading.json','./data/dermatite-atopica-review.json','./elix-theory-migraine.js','./elix-theory-ra.js','./data/artrite-reumatoide-reading.json','./data/artrite-reumatoide-review.json','./elix-theory-ibd.js','./data/mici-reading.json','./data/mici-review.json','./data/emicrania-reading.json','./data/emicrania-review.json','./elix-theory-opioids.js','./elix-opioid-explorer.js','./elix-opioid.css','./data/oppioidi-reading.json','./data/oppioidi-review.json','./data/depression-circuits-reading.json','./elix-theory-antidepressants.js','./elix-antidepressant-explorer.js','./elix-antidepressant.css','./data/antidepressivi-reading.json','./data/antidepressivi-review.json',

@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-11-05T05:23:46.963296+00:00",
-  "batch": "theory-course-701-705",
+  "updatedAt": "2026-11-05T05:57:47.427640+00:00",
+  "batch": "theory-course-706-710",
   "status": "locally_verified_pending_ci_and_publication",
-  "release": "0.81.0",
-  "branch": "feat/theory-course-701-705",
-  "baseCommit": "1cf61d44edcf920733a92f4088294d5d3a9c42b5",
+  "release": "0.82.0",
+  "branch": "feat/theory-course-706-710",
+  "baseCommit": "6f2793276e9f7c5bc1c8f4e1ba8c68cd8316f22f",
   "previousBatch": {
-    "batch": "theory-course-696-700",
+    "batch": "theory-course-701-705",
     "status": "published_and_live_verified",
-    "release": "0.80.0",
-    "commit": "1cf61d44edcf920733a92f4088294d5d3a9c42b5"
+    "release": "0.81.0",
+    "commit": "6f2793276e9f7c5bc1c8f4e1ba8c68cd8316f22f"
   },
   "scope": [
-    "Test funzionali e meccanismo dello stimolo; diagnosi differenziale, comorbidità ed esposizione effettiva."
+    "Esposizione inalatoria e significato dei dati digitali; esiti multidimensionali dei biologici."
   ],
   "completed": [
-    "Due sezioni ampliate: 13659 parole, 40 sezioni, 40 domande, 29 schemi originali.",
-    "Cinque pagine nuove controllate, tre integrate; cumulativo 132/104.",
-    "Confronto mirato GINA 2026 e riconciliazione con i circuiti già presenti.",
-    "45 validatori superati; otto configurazioni browser e otto schermate ispezionate, ricerche, fonti, tastiera e offline verificati.",
-    "Aggiornamento reale 0.80.0→0.81.0 con preferiti, progressi e tema conservati; fonte locale e copia ufficiale invariate."
+    "Due sezioni ampliate: 14043 parole, 40 sezioni, 42 domande, 29 schemi originali conservati.",
+    "Cinque pagine nuove controllate, tre integrate; cumulativo 137/107.",
+    "Confronto mirato con GINA 2026 e riconciliazione con deposizione e bersagli già presenti.",
+    "45 validatori superati; otto configurazioni browser e otto schermate ispezionate, ricerca, fonti, tastiera e offline verificati.",
+    "Aggiornamento reale 0.81.0→0.82.0 con preferiti, progressi e tema conservati; fonte locale e copia ufficiale invariate."
   ],
   "remaining": [
     "CI, deploy concluso e riscontro online."
@@ -47,18 +47,20 @@
     "expandedSections": 2,
     "coverageParagraphUpdated": true,
     "newLinksToExistingIdentities": 0,
-    "newStaticOriginalSchemas": 1,
-    "updatedStaticOriginalSchemas": 1
+    "newStaticOriginalSchemas": 0,
+    "updatedStaticOriginalSchemas": 0,
+    "newSelfChecks": 2,
+    "updatedSelfChecks": 0
   },
   "readingManifests": [
     "data/asma-e-broncodilatatori-reading.json"
   ],
   "limits": [
-    "Cinque nuove pagine del corso I PDF 701–705 lette nel testo e nelle immagini; 111 registri deduplicati. Tre pagine integrate, due non integrate. Lettura cumulativa Lancet limitata alle editoriali 858–865; nessun intero Seminar, libro o corso completato.",
-    "Katzung, Rang e appunti precedenti restano nella copertura storica: nessuna nuova pagina di questi materiali o di Farmacologia II letta. Distinzioni fisiologiche riconciliate con i circuiti già presenti.",
-    "GINA 2026: testo delle sole PDF 35, 157–158, editoriali 34, 156–157, letto; figure non revisionate. Copia ufficiale corrente HTTP 200 identica per hash a quella archiviata. Nessuna revisione clinica indipendente.",
-    "Nessuna soglia diagnostica, dose, equivalenza, graduatoria, protocollo di provocazione o istruzione di sospensione trasferiti. Figure e trascrizioni non pubblicate; studi primari, appendici e RCP italiani non revisionati integralmente.",
+    "Cinque nuove pagine del corso I PDF 706–710 lette nel testo e nelle immagini; 113 registri deduplicati. Tre pagine selezionate per integrazione, due non integrate. Lettura cumulativa Lancet limitata alle editoriali 858–870; articolo e bibliografia non completi, studi citati e appendici non letti.",
+    "Katzung, Rang e appunti precedenti restano nella copertura storica: nessuna nuova pagina di questi materiali o di Farmacologia II letta. Riconciliazione con deposizione e meccanismi già presenti nel capitolo.",
+    "GINA 2026: testo delle sole PDF 123, 163 e 168, editoriali 122, 162 e 167, letto; figure non revisionate. Documento ufficiale corrente HTTP 200 identico per hash all’archivio. Nessuna revisione clinica indipendente.",
+    "Nessuna dose, soglia, equivalenza, graduatoria, algoritmo di scelta o sospensione trasferiti. Figure e trascrizioni non pubblicate; studi primari e RCP italiani non revisionati integralmente.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Completare il lotto 701–705 prima di altro lavoro. Al ciclo successivo deduplicare solo corso I PDF 706–710, prosecuzione del Seminar Lancet del 2023; contenuti non ancora letti. Farmaci, profili e laboratori nel backlog."
+  "nextBatch": "Completare il lotto 706–710 prima di altro lavoro. Al ciclo successivo deduplicare solo corso I PDF 711–715; contenuti non ancora letti. Farmaci, profili e laboratori nel backlog."
 }
