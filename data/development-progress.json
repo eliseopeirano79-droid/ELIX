@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-05T09:34:43.524280+00:00",
-  "batch": "theory-course-736-740",
+  "updatedAt": "2026-11-05T10:09:57.916515+00:00",
+  "batch": "theory-course-741-745",
   "status": "locally_verified_pending_CI_and_publication",
-  "release": "0.87.0",
-  "branch": "feat/theory-course-736-740",
-  "baseCommit": "fb51fec30103e7de74cf071d9b77f4b779cd023c",
+  "release": "0.88.0",
+  "branch": "feat/theory-course-741-745",
+  "baseCommit": "4f303a24018a640ed6542dc62d2b4b30ad597510",
   "previousBatch": {
-    "batch": "theory-course-731-735",
+    "batch": "theory-course-736-740",
     "status": "published_and_live_verified",
-    "release": "0.86.0",
-    "commit": "fb51fec30103e7de74cf071d9b77f4b779cd023c"
+    "release": "0.87.0",
+    "commit": "4f303a24018a640ed6542dc62d2b4b30ad597510"
   },
   "scope": [
-    "Dal reclutamento eosinofilo al muco: chemochine, adesione, epitelio e livelli di prova."
+    "TSLP: segnale epiteliale, bersaglio diretto, biomarcatori ed esiti distinti."
   ],
   "completed": [
-    "Una nuova sezione nel capitolo respiratorio: 17226 parole, 46 sezioni, 51 domande, 35 schemi originali.",
-    "Cinque nuove pagine controllate, due integrate; cumulativo 167/118 senza duplicare letture precedenti.",
-    "Copia NEJM biologici letta solo fino a editoriale 162; figura, tabella e glossario controllati senza riproduzione.",
-    "45 controlli dati superati; otto configurazioni e otto schermate ispezionate; aggiornamento reale 0.86.0→0.87.0, offline e dati salvati verificati."
+    "Una nuova sezione nel capitolo respiratorio: 17759 parole, 47 sezioni, 53 domande, 36 schemi originali.",
+    "Cinque nuove pagine controllate, due integrate; cumulativo 172/120 senza duplicare letture precedenti.",
+    "Copia NEJM biologici letta fino a editoriale 167, ancora parziale; figura 2 e tabella 2 controllate senza riproduzione.",
+    "45 controlli dati superati; otto configurazioni e otto schermate ispezionate; aggiornamento reale 0.87.0→0.88.0, offline e dati salvati verificati."
   ],
   "remaining": [
     "CI, deploy concluso e riscontro online."
@@ -55,13 +55,13 @@
     "data/asma-e-broncodilatatori-reading.json"
   ],
   "limits": [
-    "Cinque nuove pagine del corso I PDF 736–740 lette nel testo disponibile e nei rendering, deduplicate rispetto a 125 registri; due integrate, tre non integrate. Cumulativo 167 pagine controllate e 118 integrate. Nessuna nuova pagina di libri o Farmacologia II attribuita.",
-    "Brusselle e Koppelman, Biologic Therapies for Severe Asthma, NEJM 2022;386:157–171, DOI 10.1056/NEJMra2032506: copia del corso letta cumulativamente solo PDF 735–740, editoriali 157–162. Figura 1, legenda, tabella 1 e glossario controllati, non riprodotti. Resto dell’articolo, appendici e studi citati non letti per questo.",
-    "Confronto con la ricerca primaria limitato all’abstract di Dunican et al., JCI 2018;128:997–1009, DOI 10.1172/JCI95693. Distinte associazioni cliniche e modello sperimentale del gel; nessuna prova terapeutica, protocollo TC o indicazione ai mucolitici dedotta. Figure e testo completo dello studio non revisionati.",
-    "GINA 2026: pagina ufficiale corrente verificata; testo PDF 161 e 165, editoriali 160 e 164, riletto nella copia ufficiale archiviata per interpretazione dei biomarcatori ed esiti. Nessun nuovo download o confronto di hash corrente; resta il precedente limite HTTP 403. Figure e rapporto completo non revisionati.",
-    "Katzung, Rang e appunti storici riconciliati con i meccanismi già integrati. Tabelle FDA del 2022, dosi, soglie, percentuali, criteri di sospensione e confronti di superiorità non trasferiti. Sintesi didattica e controllo editoriale dell’integratore, non revisione clinica indipendente.",
+    "Cinque nuove pagine del corso I PDF 741–745 lette nel testo disponibile e nei rendering, deduplicate rispetto a 127 registri; due integrate e tre non integrate. Cumulativo 172 pagine controllate e 120 integrate. Nessuna nuova pagina di libri o Farmacologia II attribuita.",
+    "Brusselle e Koppelman, NEJM 2022;386:157–171, DOI 10.1056/NEJMra2032506: copia del corso letta cumulativamente solo PDF 735–745, editoriali 157–167. In questo lotto figura 2, legenda e tabella 2 controllate senza riproduzione. Editoriali 168–171, supplementi e studi citati non letti per questo.",
+    "GINA 2026: pagina ufficiale corrente verificata; testo PDF 166–168, editoriali 165–167, letto nella copia ufficiale archiviata. Integrati solo passaggi anti-TSLP, predittori ed esiti; dosi e tabella di indicazioni aggiuntive non trasferite. Nessun nuovo download o confronto di hash corrente; precedente limite HTTP 403 conservato. Figure non revisionate.",
+    "Tezspire: RCP europeo corrente consultato online, sezioni 4.1, 4.4 e passaggi 5.1 su meccanismo, farmacodinamica e popolazioni degli studi; non intero RCP né figure o studi primari. Prima apertura della pagina EMA con errore 429; PDF ufficiale accessibile e letto senza aggiramenti.",
+    "Riconciliati i meccanismi generali già integrati da Katzung, Rang e appunti storici, senza attribuire nuove letture. Tabella e algoritmo del 2022 non trasformati in raccomandazioni attuali; conflitto sul biomarcatore esplicitato nel registro. Sintesi didattica del solo integratore, non revisione clinica indipendente.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Completare il lotto 736–740 prima di altro lavoro. Al ciclo successivo deduplicare solo corso I PDF 741–745; contenuti non ancora letti. Farmaci, profili e laboratori nel backlog.",
+  "nextBatch": "Completare il lotto 741–745 prima di altro lavoro. Al ciclo successivo deduplicare solo corso I PDF 746–750; contenuti non ancora letti. Farmaci, profili e laboratori nel backlog.",
   "previousSourceOnlyBatch": "theory-course-726-730"
 }
