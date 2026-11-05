@@ -18,7 +18,7 @@ for(const f of ['elix-theory-asthma.js','data/asma-e-broncodilatatori-reading.js
 assert.ok(c.sources.includes('gina-2026')&&c.sources.includes('gold-2026'));assert.deepEqual(c.targets,['ADRB2','CHRM3','CYSLTR1']);
 console.log('Asthma PASS: existing chapter, bounded deduplicated coverage, source links and offline assets.');
 
-assert.equal(l.chapterSourcePdfPages,99);assert.equal(l.chapterReviewedPdfPages,122);assert.equal(l.previousCoverage.chapterSourcePdfPages,97);
+assert.equal(l.chapterSourcePdfPages,101);assert.equal(l.chapterReviewedPdfPages,127);assert.equal(l.previousCoverage.chapterSourcePdfPages,99);
 
 const seenRead=new Set(),seenIntegrated=new Set();
 for(let p=l;p;p=p.previousCoverage)for(const s of p.sources||[]){for(const n of s.pdfPagesRead)seenRead.add(s.sha256+":"+n);for(const n of s.integratedPdfPages)seenIntegrated.add(s.sha256+":"+n);}
