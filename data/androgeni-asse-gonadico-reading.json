@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "androgeni-asse-gonadico",
+  "batch": "theory-course-756-760",
+  "updatedAt": "2026-11-05T11:54:53.024564+00:00",
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "sources": [
+    {
+      "id": "CFI",
+      "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
+      "edition": "AA 2025–26",
+      "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
+      "pdfPagesRead": [
+        756,
+        757,
+        758,
+        759,
+        760
+      ],
+      "visuallyCheckedPdfPages": [
+        756,
+        757,
+        758,
+        759,
+        760
+      ],
+      "newlyReadTextPages": [
+        756,
+        757,
+        758,
+        759,
+        760
+      ],
+      "reusedPreviouslyReadPages": [],
+      "integratedPdfPages": [
+        757,
+        758,
+        759,
+        760
+      ],
+      "readButNotIntegratedPdfPages": [
+        756
+      ],
+      "availableExtractedTextReadPages": [
+        756,
+        757,
+        758,
+        759,
+        760
+      ],
+      "substantiveExtractedTextReadPages": [],
+      "imageTextReadPages": [
+        756,
+        757,
+        758,
+        759,
+        760
+      ],
+      "readingMethod": "Testo estratto disponibile e testo completo nelle immagini; estrazione solo parziale o assente.",
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "scope": "PDF 756–760, etichette 754–758. Cinque pagine lette nel testo disponibile e nelle immagini; integrate 757–760. La 756 sui progestinici resta fuori dal capitolo. Riquadri 756 e 759 confrontati con Rang & Dale 671 e 673: contenuto condiviso, non conferme indipendenti."
+    },
+    {
+      "id": "KAT",
+      "title": "Katzung · Farmacologia generale e clinica",
+      "edition": "IX italiana 2014 / XII originale 2012",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "pdfPagesRead": [
+        845,
+        846,
+        847,
+        848,
+        849,
+        850,
+        851,
+        852
+      ],
+      "visuallyCheckedPdfPages": [
+        845,
+        846,
+        847,
+        848,
+        849,
+        850,
+        851,
+        852
+      ],
+      "newlyReadTextPages": [
+        845,
+        846,
+        847,
+        848,
+        849,
+        850,
+        851,
+        852
+      ],
+      "reusedPreviouslyReadPages": [],
+      "integratedPdfPages": [
+        845,
+        846,
+        847,
+        848,
+        849,
+        850,
+        851
+      ],
+      "readButNotIntegratedPdfPages": [
+        852
+      ],
+      "availableExtractedTextReadPages": [
+        845,
+        846,
+        847,
+        848,
+        849,
+        850,
+        851,
+        852
+      ],
+      "substantiveExtractedTextReadPages": [
+        845,
+        846,
+        847,
+        848,
+        849,
+        850,
+        851,
+        852
+      ],
+      "imageTextReadPages": [],
+      "readingMethod": "Testo estratto letto interamente, poi tutte le pagine controllate visivamente.",
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "scope": "IX italiana 2014 / XII americana 2012, capitolo 40, PDF 845–852, editoriali 825–832. Otto pagine lette e controllate visivamente; passaggi integrati da 845–851. Figura 40-6, tabelle 40-5 e 40-6 e strutture viste; nessuna riproduzione o validazione strutturale atomo per atomo. Bibliografia citata non letta per questo."
+    },
+    {
+      "id": "RAN",
+      "title": "Rang & Dale · Farmacologia",
+      "edition": "VIII italiana 2016 / originale 2015",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "pdfPagesRead": [
+        671,
+        672,
+        673,
+        674
+      ],
+      "visuallyCheckedPdfPages": [
+        671,
+        672,
+        673,
+        674
+      ],
+      "newlyReadTextPages": [
+        671,
+        672,
+        673,
+        674
+      ],
+      "reusedPreviouslyReadPages": [],
+      "integratedPdfPages": [
+        671,
+        672,
+        673,
+        674
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "availableExtractedTextReadPages": [
+        671,
+        672,
+        673,
+        674
+      ],
+      "substantiveExtractedTextReadPages": [
+        671,
+        672,
+        673,
+        674
+      ],
+      "imageTextReadPages": [],
+      "readingMethod": "Testo estratto letto interamente, poi tutte le pagine controllate visivamente.",
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "scope": "VIII italiana 2016 / originale 2015, capitolo 35, PDF 671–674. Quattro pagine lette e controllate visivamente, figura 35.5 compresa. Numeri di pagina editoriale non identificati nella copia impaginata. Integrati solo passaggi su androgeni e GnRH, senza posologie o indicazioni ginecologiche storiche."
+    }
+  ],
+  "deduplication": {
+    "recordsChecked": 133,
+    "overlapPages": [],
+    "sharedContent": [
+      {
+        "pages": [
+          "CFI:756",
+          "RAN:671"
+        ],
+        "integrated": false
+      },
+      {
+        "pages": [
+          "CFI:759",
+          "RAN:673"
+        ],
+        "integrated": true
+      }
+    ],
+    "independentConfirmationsFromSharedBoxes": 0
+  },
+  "newReadPdfPages": 17,
+  "newCourseReadPdfPages": 5,
+  "newBookReadPdfPages": 12,
+  "totalReadPdfPages": 17,
+  "newIntegratedPdfPages": 15,
+  "totalIntegratedPdfPages": 15,
+  "chapterReviewedPdfPages": 17,
+  "chapterSourcePdfPages": 15,
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "newChapters": 1,
+  "expandedExistingChapters": 0,
+  "fullSourceReconciliationComplete": false,
+  "limits": [
+    "17 pagine fisiche nuove lette, 15 con passaggi integrati: corso I PDF 756–760; Katzung PDF 845–852, editoriali 825–832; Rang & Dale PDF 671–674. Le pagine miste non sono integrate per intero.",
+    "CFI: cinque pagine lette nelle immagini e nel testo estraibile disponibile; nessuna estrazione sostanziale completa attribuita. Nei due libri tutte le dodici pagine lette nel testo estratto e controllate visivamente.",
+    "Riquadri CFI 756/Rang 671 e CFI 759/Rang 673 condivisi: pagine fisiche distinte, nessuna conferma indipendente o duplicazione dei contenuti. Dosi storiche non trasferite.",
+    "Figure e tabelle locali controllate senza riproduzione; formule chimiche viste ma non validate atomo per atomo. Nessuna lettura integrale di libri o corsi e nessuna nuova lettura attribuita agli altri materiali autorizzati.",
+    "EAU ed EMA consultati soltanto nelle sezioni dichiarate; nessuna lettura integrale dei RCP o delle linee guida, nessuna nuova verifica visuale dei loro PDF o degli studi citati.",
+    "Sintesi didattica del solo integratore, non revisione clinica indipendente. Parti ginecologiche, contraccezione e trattazione completa dell’oncologia prostatica escluse.",
+    "Verifiche del browser su dimensioni simulate, non su dispositivi fisici."
+  ]
+}

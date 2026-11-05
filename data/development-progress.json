@@ -1,24 +1,23 @@
 {
-  "updatedAt": "2026-11-05T10:09:57.916515+00:00",
-  "batch": "theory-course-741-745",
+  "updatedAt": "2026-11-05T11:58:54.113457+00:00",
+  "batch": "theory-course-756-760",
   "status": "locally_verified_pending_CI_and_publication",
-  "release": "0.88.0",
-  "branch": "feat/theory-course-741-745",
-  "baseCommit": "4f303a24018a640ed6542dc62d2b4b30ad597510",
+  "release": "0.89.0",
+  "branch": "feat/theory-course-756-760",
+  "baseCommit": "87d1e77c1f439b08a72a9d1e292e1b97c03afbda",
   "previousBatch": {
-    "batch": "theory-course-736-740",
+    "batch": "theory-course-741-745",
     "status": "published_and_live_verified",
-    "release": "0.87.0",
-    "commit": "4f303a24018a640ed6542dc62d2b4b30ad597510"
+    "release": "0.88.0",
+    "commit": "87d1e77c1f439b08a72a9d1e292e1b97c03afbda"
   },
   "scope": [
-    "TSLP: segnale epiteliale, bersaglio diretto, biomarcatori ed esiti distinti."
+    "Nuovo capitolo androgeni e GnRH: asse, recettore, conversioni e bersagli farmacologici."
   ],
   "completed": [
-    "Una nuova sezione nel capitolo respiratorio: 17759 parole, 47 sezioni, 53 domande, 36 schemi originali.",
-    "Cinque nuove pagine controllate, due integrate; cumulativo 172/120 senza duplicare letture precedenti.",
-    "Copia NEJM biologici letta fino a editoriale 167, ancora parziale; figura 2 e tabella 2 controllate senza riproduzione.",
-    "45 controlli dati superati; otto configurazioni e otto schermate ispezionate; aggiornamento reale 0.87.0→0.88.0, offline e dati salvati verificati."
+    "Lettura completa circoscritta e controllo visivo di 17 pagine; 15 integrate.",
+    "Nuovo capitolo originale androgeni/GnRH integrato: 2390 parole, 11 sezioni, 12 domande e 6 schemi.",
+    "46 controlli dati superati; otto configurazioni e otto schermate ispezionate; aggiornamento reale 0.88.0→0.89.0 con dati salvati conservati; tutti i 61 capitoli precedenti identici."
   ],
   "remaining": [
     "CI, deploy concluso e riscontro online."
@@ -30,8 +29,8 @@
     "pkFields": 420,
     "importedLabelsWithoutEditorial": 93,
     "targetProfiles": 36,
-    "chapters": 61,
-    "extendedChapters": 17,
+    "chapters": 62,
+    "extendedChapters": 18,
     "briefChapters": 44
   },
   "changes": {
@@ -39,29 +38,30 @@
     "newDrugSummaries": 0,
     "newProductPKContexts": 0,
     "newPKFields": 0,
-    "newChapters": 0,
-    "expandedChapters": 1,
+    "newChapters": 1,
+    "expandedChapters": 0,
     "newInteractiveLabs": 0,
-    "newSections": 1,
+    "newSections": 11,
     "expandedSections": 0,
-    "coverageParagraphUpdated": true,
-    "newLinksToExistingIdentities": 0,
-    "newStaticOriginalSchemas": 1,
-    "updatedStaticOriginalSchemas": 0,
-    "newSelfChecks": 2,
-    "updatedSelfChecks": 0
+    "newLinksToExistingIdentities": 13,
+    "newStaticOriginalSchemas": 6,
+    "newSelfChecks": 12
   },
   "readingManifests": [
-    "data/asma-e-broncodilatatori-reading.json"
+    "data/androgeni-asse-gonadico-reading.json"
   ],
   "limits": [
-    "Cinque nuove pagine del corso I PDF 741–745 lette nel testo disponibile e nei rendering, deduplicate rispetto a 127 registri; due integrate e tre non integrate. Cumulativo 172 pagine controllate e 120 integrate. Nessuna nuova pagina di libri o Farmacologia II attribuita.",
-    "Brusselle e Koppelman, NEJM 2022;386:157–171, DOI 10.1056/NEJMra2032506: copia del corso letta cumulativamente solo PDF 735–745, editoriali 157–167. In questo lotto figura 2, legenda e tabella 2 controllate senza riproduzione. Editoriali 168–171, supplementi e studi citati non letti per questo.",
-    "GINA 2026: pagina ufficiale corrente verificata; testo PDF 166–168, editoriali 165–167, letto nella copia ufficiale archiviata. Integrati solo passaggi anti-TSLP, predittori ed esiti; dosi e tabella di indicazioni aggiuntive non trasferite. Nessun nuovo download o confronto di hash corrente; precedente limite HTTP 403 conservato. Figure non revisionate.",
-    "Tezspire: RCP europeo corrente consultato online, sezioni 4.1, 4.4 e passaggi 5.1 su meccanismo, farmacodinamica e popolazioni degli studi; non intero RCP né figure o studi primari. Prima apertura della pagina EMA con errore 429; PDF ufficiale accessibile e letto senza aggiramenti.",
-    "Riconciliati i meccanismi generali già integrati da Katzung, Rang e appunti storici, senza attribuire nuove letture. Tabella e algoritmo del 2022 non trasformati in raccomandazioni attuali; conflitto sul biomarcatore esplicitato nel registro. Sintesi didattica del solo integratore, non revisione clinica indipendente.",
-    "Chromium con dimensioni simulate, non dispositivi fisici."
+    "17 pagine fisiche nuove lette, 15 con passaggi integrati: corso I PDF 756–760; Katzung PDF 845–852, editoriali 825–832; Rang & Dale PDF 671–674. Le pagine miste non sono integrate per intero.",
+    "CFI: cinque pagine lette nelle immagini e nel testo estraibile disponibile; nessuna estrazione sostanziale completa attribuita. Nei due libri tutte le dodici pagine lette nel testo estratto e controllate visivamente.",
+    "Riquadri CFI 756/Rang 671 e CFI 759/Rang 673 condivisi: pagine fisiche distinte, nessuna conferma indipendente o duplicazione dei contenuti. Dosi storiche non trasferite.",
+    "Figure e tabelle locali controllate senza riproduzione; formule chimiche viste ma non validate atomo per atomo. Nessuna lettura integrale di libri o corsi e nessuna nuova lettura attribuita agli altri materiali autorizzati.",
+    "EAU ed EMA consultati soltanto nelle sezioni dichiarate; nessuna lettura integrale dei RCP o delle linee guida, nessuna nuova verifica visuale dei loro PDF o degli studi citati.",
+    "Sintesi didattica del solo integratore, non revisione clinica indipendente. Parti ginecologiche, contraccezione e trattazione completa dell’oncologia prostatica escluse.",
+    "Verifiche del browser su dimensioni simulate, non su dispositivi fisici."
   ],
-  "nextBatch": "Completare il lotto 741–745 prima di altro lavoro. Al ciclo successivo deduplicare solo corso I PDF 746–750; contenuti non ancora letti. Farmaci, profili e laboratori nel backlog.",
-  "previousSourceOnlyBatch": "theory-course-726-730"
+  "nextBatch": "Completare il lotto 756–760. Al ciclo successivo deduplicare solo corso I PDF 761–765; non ancora letti. Teoria prima di farmaci, profili e laboratori.",
+  "previousSourceOnlyBatches": [
+    "theory-course-746-750",
+    "theory-course-751-755"
+  ]
 }
