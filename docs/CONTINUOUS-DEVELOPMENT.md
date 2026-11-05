@@ -8,29 +8,29 @@ Usare «appunti e diapositive del corso di Farmacologia», con anno, lezione, da
 
 ## Lotto corrente
 
-theory-course-736-740, candidato 0.87.0. Una sezione aggiunta su reclutamento eosinofilo e secrezioni, due domande e uno schema originale. Totali: 46 sezioni, 17226 parole, 51 domande, 35 schemi e 43 riferimenti. Nessuna nuova identità, sintesi farmacologica, profilo, capitolo o laboratorio.
+theory-course-741-745, candidato 0.88.0. Una sezione aggiunta su TSLP, due domande e uno schema originale. Totali: 47 sezioni, 17759 parole, 53 domande, 36 schemi e 44 riferimenti. Nessuna nuova identità, sintesi farmacologica, profilo, capitolo o laboratorio.
 
-0.86.0 pubblicata e verificata al commit fb51fec30103e7de74cf071d9b77f4b779cd023c. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sui checkpoint preparatori.
+0.87.0 pubblicata e verificata al commit 4f303a24018a640ed6542dc62d2b4b30ad597510. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sui checkpoint preparatori.
 
-PDF 736, etichetta 734, editoriale 158: figura 1 completa, pannelli A e B, etichette e rendering letti. Integrata selettivamente la sequenza eosinofilo–reclutamento–secrezioni, non riprodotta la figura. Nessuna indicazione clinica dedotta da una freccia.
+PDF 741, etichetta 739, editoriale 163: testo disponibile interamente letto e rendering controllato, compresa la continuazione sui rischi di reslizumab, anti-IL5/5R, dupilumab e l’inizio dei mediatori epiteliali. Non integrata: meccanismi e limiti dei biomarcatori già trattati; risultati BPCO e autorizzazioni del 2022 non trasferiti.
 
-PDF 737, etichetta 735, editoriale 159: legenda completa, testo sul tipo 2 e inizio anti-IgE letti. Integrati reclutamento attraverso chemochine/adesione, ruoli di IL-4/IL-13 e collegamento iNOS–FeNO; non trasferita la semplificazione che attribuisce indistintamente IL-4 alle ILC2.
+PDF 742, etichetta 740, editoriale 164: testo disponibile interamente letto e rendering controllato. Integrati selettivamente razionale anti-TSLP, bersaglio diretto rispetto agli effetti successivi, cinetiche dei marcatori e limiti dello studio tissutale. Dosi, percentuali, molecole sperimentali anti-IL33/ST2 e risultati COVID non trasferiti.
 
-PDF 738, etichetta 736, editoriale 160: prima parte della tabella 1, quattro righe con meccanismi, formulazioni, dosi, età, efficacia e rischi, interamente letta nel testo disponibile e nel rendering ruotato. Non integrata: meccanismi già descritti; autorizzazioni e dosaggi del 2022 non trasferiti.
+PDF 743, etichetta 741, editoriale 165: testo disponibile interamente letto e rendering controllato. Integrata la distinzione fra riacutizzazioni e risparmio di corticosteroidi, confrontata con GINA 2026. Dati pediatrici, dosaggi, percentuali e inferenze fra studi non trasferiti; i concetti di selezione iniziale erano già trattati.
 
-PDF 739, etichetta 737, editoriale 161: completamento tabella 1 e note, testo su omalizumab e inizio anti-IL5/5R, letti integralmente nel testo disponibile e rendering. Non integrata: distinzioni ligando/recettore, IgE ed esiti già trattate. Dosi, percentuali di rischio e indicazioni FDA storiche non trasferite.
+PDF 744, etichetta 742, editoriale 166: figura 2 interamente controllata, inclusi rami, soglie, rivalutazione ed esiti. Non integrata né riprodotta: algoritmo prescrittivo storico e concetti generali già presenti.
 
-PDF 740, etichetta 738, editoriale 162: glossario completo e testo sui primi studi anti-IL5 letti, rendering controllato. Non integrata: fenotipo/endotipo, biomarcatori e popolazioni selezionate già trattati. Ultima frase sugli eventi indesiderati prosegue nella pagina successiva, non anticipata.
+PDF 745, etichetta 743, editoriale 167: legenda figura 2, tabella 2 completa con note e testo disponibile sul monitoraggio letti; rendering controllato. Non integrata. Registrata formulazione ambigua della legenda sulla conta eosinofila crescente: non trasferita come aumento favorevole durante terapia; distinti predittore iniziale e variazione successiva. Ultima frase del testo sul monitoraggio continua nella pagina seguente, non anticipata.
 
-Brusselle e Koppelman, Biologic Therapies for Severe Asthma, NEJM 2022;386:157–171, DOI 10.1056/NEJMra2032506: copia del corso letta cumulativamente solo PDF 735–740, editoriali 157–162. Figura 1, legenda, tabella 1 e glossario controllati, non riprodotti. Resto dell’articolo, appendici e studi citati non letti per questo.
+Brusselle e Koppelman, NEJM 2022;386:157–171, DOI 10.1056/NEJMra2032506: copia del corso letta cumulativamente solo PDF 735–745, editoriali 157–167. In questo lotto figura 2, legenda e tabella 2 controllate senza riproduzione. Editoriali 168–171, supplementi e studi citati non letti per questo.
 
-Confronto con la ricerca primaria limitato all’abstract di Dunican et al., JCI 2018;128:997–1009, DOI 10.1172/JCI95693. Distinte associazioni cliniche e modello sperimentale del gel; nessuna prova terapeutica, protocollo TC o indicazione ai mucolitici dedotta. Figure e testo completo dello studio non revisionati.
+GINA 2026: pagina ufficiale corrente verificata; testo PDF 166–168, editoriali 165–167, letto nella copia ufficiale archiviata. Integrati solo passaggi anti-TSLP, predittori ed esiti; dosi e tabella di indicazioni aggiuntive non trasferite. Nessun nuovo download o confronto di hash corrente; precedente limite HTTP 403 conservato. Figure non revisionate.
 
-GINA 2026: pagina ufficiale corrente verificata; testo PDF 161 e 165, editoriali 160 e 164, riletto nella copia ufficiale archiviata per interpretazione dei biomarcatori ed esiti. Nessun nuovo download o confronto di hash corrente; resta il precedente limite HTTP 403. Figure e rapporto completo non revisionati.
+Tezspire: RCP europeo corrente consultato online, sezioni 4.1, 4.4 e passaggi 5.1 su meccanismo, farmacodinamica e popolazioni degli studi; non intero RCP né figure o studi primari. Prima apertura della pagina EMA con errore 429; PDF ufficiale accessibile e letto senza aggiramenti.
 
-Katzung, Rang e appunti storici riconciliati con i meccanismi già integrati. Tabelle FDA del 2022, dosi, soglie, percentuali, criteri di sospensione e confronti di superiorità non trasferiti. Sintesi didattica e controllo editoriale dell’integratore, non revisione clinica indipendente.
+Riconciliati i meccanismi generali già integrati da Katzung, Rang e appunti storici, senza attribuire nuove letture. Tabella e algoritmo del 2022 non trasformati in raccomandazioni attuali; conflitto sul biomarcatore esplicitato nel registro. Sintesi didattica del solo integratore, non revisione clinica indipendente.
 
-Controlli locali completati: 45 verifiche dati, otto configurazioni desktop/mobile nei due temi, otto schermate ispezionate, navigazione e ricerche, offline e aggiornamento reale 0.86.0→0.87.0 con dati salvati conservati. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-736-740-2026-11-05/. Ricevuta soltanto dopo deploy verificato.
+Controlli locali completati: 45 verifiche dati, otto configurazioni desktop/mobile nei due temi, otto schermate ispezionate, navigazione e ricerche, offline e aggiornamento reale 0.87.0→0.88.0 con dati salvati conservati. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-741-745-2026-11-05/. Ricevuta soltanto dopo deploy verificato.
 
 ## Regole
 
@@ -42,4 +42,4 @@ Controlli locali completati: 45 verifiche dati, otto configurazioni desktop/mobi
 
 ## Prossimo intervallo
 
-Completare il lotto 736–740 prima di altro lavoro. Al ciclo successivo deduplicare solo corso I PDF 741–745; contenuti non ancora letti. Farmaci, profili e laboratori nel backlog.
+Completare il lotto 741–745 prima di altro lavoro. Al ciclo successivo deduplicare solo corso I PDF 746–750; contenuti non ancora letti. Farmaci, profili e laboratori nel backlog.
