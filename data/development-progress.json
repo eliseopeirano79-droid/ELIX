@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-05T07:52:00.473253+00:00",
-  "batch": "theory-course-721-725",
+  "updatedAt": "2026-11-05T08:59:29.233335+00:00",
+  "batch": "theory-course-731-735",
   "status": "locally_verified_pending_CI_and_publication",
-  "release": "0.85.0",
-  "branch": "feat/theory-course-721-725",
-  "baseCommit": "f2af177d2a6b2a0c01521950e92e151e458a4585",
+  "release": "0.86.0",
+  "branch": "feat/theory-course-731-735",
+  "baseCommit": "023ead1cf4067468ba096a97867288eb3a0176ab",
   "previousBatch": {
-    "batch": "theory-course-716-720",
+    "batch": "theory-course-721-725",
     "status": "published_and_live_verified",
-    "release": "0.84.0",
-    "commit": "f2af177d2a6b2a0c01521950e92e151e458a4585"
+    "release": "0.85.0",
+    "commit": "023ead1cf4067468ba096a97867288eb3a0176ab"
   },
   "scope": [
-    "Dispositivo, esposizione e bersaglio; complementarità della riabilitazione e obiettivi funzionali."
+    "Remissione clinica e fisiopatologica, durante/fuori trattamento e modifica durevole della malattia."
   ],
   "completed": [
-    "Una nuova sezione e una ampliata nel capitolo respiratorio: 15898 parole, 44 sezioni, 47 domande, 33 schemi originali.",
-    "Cinque nuove pagine controllate, due integrate; cumulativo 152/114.",
-    "Figura 3 controllata, non riprodotta; testo narrativo COPD fino alla conclusione, bibliografia ancora incompleta.",
-    "45 controlli dati superati; otto configurazioni, otto schermate ispezionate, aggiornamento reale 0.84.0→0.85.0, offline e conservazione dei dati verificati."
+    "Una nuova sezione nel capitolo respiratorio: 16654 parole, 45 sezioni, 49 domande, 34 schemi originali.",
+    "Cinque nuove pagine controllate, due integrate; cinque letture precedenti riportate nel registro una sola volta; cumulativo 162/116.",
+    "Viewpoint completato nella copia del corso, figura e Panel controllati senza riproduzione; NEJM biologici solo prima pagina.",
+    "45 controlli dati superati; otto configurazioni e otto schermate ispezionate; aggiornamento reale 0.85.0→0.86.0, offline e dati salvati verificati."
   ],
   "remaining": [
     "CI, deploy concluso e riscontro online."
@@ -43,7 +43,7 @@
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
     "newSections": 1,
-    "expandedSections": 1,
+    "expandedSections": 0,
     "coverageParagraphUpdated": true,
     "newLinksToExistingIdentities": 0,
     "newStaticOriginalSchemas": 1,
@@ -55,12 +55,13 @@
     "data/asma-e-broncodilatatori-reading.json"
   ],
   "limits": [
-    "Cinque nuove pagine PDF 721–725 del corso I lette integralmente nel testo disponibile e controllate nei rendering dopo deduplicazione di 119 registri; due integrate, tre non integrate. Cumulativo del capitolo: 152 pagine controllate, 114 integrate.",
-    "Seminar COPD di Christenson, Smith, Bafadhel e Putcha, Lancet 2022;399:2227–2242, DOI 10.1016/S0140-6736(22)00470-6: copertura cumulativa PDF 714–725, editoriali 2227–2238. Testo narrativo e conclusione raggiunti, bibliografia letta fino al riferimento 109 e ancora incompleta. Figura 3 e legenda controllate, non riprodotte; studi primari e appendici non letti.",
-    "Confronto ufficiale circoscritto: NHLBI Pulmonary Rehabilitation, spiegazione del programma e delle componenti; SmPC britannici Spiriva Respimat e Symbicort Turbohaler, soli passaggi identificati sull’erogazione e il gesto inspiratorio. Nessuna nuova indicazione, dose, equivalenza, protocollo riabilitativo o raccomandazione di scelta individuale.",
-    "NICE NG115: primo accesso fallito, successivo HTTP 403; ATS via PMC: verifica automatica di accesso. Nessun aggiramento, nessuna lettura integrale o integrazione dichiarata. GOLD 2026 già presente nel capitolo riconciliato senza nuova lettura; limite precedente conservato. Sintesi didattica, non revisione clinica indipendente.",
-    "Katzung, Rang e appunti storici riconciliati con i meccanismi già integrati; nessuna nuova pagina di libri o Farmacologia II letta. Fonti originali invariate; immagini, trascrizioni, soglie e algoritmi storici non pubblicati.",
+    "Cinque nuove pagine del corso I PDF 731–735 lette nel testo e nei rendering, deduplicate rispetto a 123 registri; due integrate, tre non integrate. Le cinque pagine 726–730 erano state lette nel lotto precedente senza pubblicazione: recuperate una sola volta nel registro pubblico, non contate come nuove letture del lotto. Cumulativo 162 pagine controllate e 116 integrate.",
+    "Viewpoint di Lommatzsch e colleghi, Lancet 2022;399:1664–1668: copia PDF 730–734 completata cumulativamente, figura e Panel controllati e non riprodotti. Bibliografia letta, studi citati non letti. Proposta terminologica distinta da classificazione condivisa, autorizzazioni e prova di modifica durevole.",
+    "Copia COPD PDF 714–729 completata cumulativamente nel lotto precedente, inclusa bibliografia 1–243; studi citati e appendici non letti. Nuovo articolo NEJM sui biologici: soltanto prima pagina PDF 735/editoriale 157 letta, nessuna sua figura ancora controllata.",
+    "GINA 2026 consultata selettivamente nella copia ufficiale archiviata: testo PDF 56–58 e 168–169, editoriali 55–57 e 167–168. Pagina ufficiale corrente verificata; apertura web del PDF impedita dalla dimensione e nuovo download diretto HTTP 403. Nessun aggiramento, nessuna nuova identità di hash corrente dichiarata. Copia ufficiale verificata in un lotto precedente; figure e rapporto completo non revisionati.",
+    "Katzung, Rang e appunti storici riconciliati con meccanismi già integrati, senza nuove pagine di libri o Farmacologia II lette. Nessuna dose, regola di sospensione, soglia o percentuale clinica introdotta; sintesi didattica, non revisione clinica indipendente.",
     "Chromium con dimensioni simulate, non dispositivi fisici."
   ],
-  "nextBatch": "Completare il lotto 721–725 prima di altro lavoro. Al ciclo successivo deduplicare solo corso I PDF 726–730; contenuti non ancora letti. Farmaci, profili e laboratori nel backlog."
+  "nextBatch": "Completare il lotto 731–735 prima di altro lavoro. Al ciclo successivo deduplicare solo corso I PDF 736–740; contenuti non ancora letti. Farmaci, profili e laboratori nel backlog.",
+  "previousSourceOnlyBatch": "theory-course-726-730"
 }
