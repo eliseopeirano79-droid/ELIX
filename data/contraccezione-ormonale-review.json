@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "contraccezione-ormonale",
+  "batch": "theory-course-766-770",
+  "reviewedAt": "2026-11-15T23:46:55.937754+00:00",
+  "outcome": "pass",
+  "reviewType": "bounded_editorial_review_by_integrator",
+  "independentClinicalReview": false,
+  "clinicalValidation": false,
+  "moduleSha256": "3b3a80996fd13bb10892fbf71a4c898aa7ebd5cc08b63ecb292deb08b633207c",
+  "checks": [
+    "Rilette sintesi, quesiti e riferimenti; distinti composizione, via e schema temporale.",
+    "Distinti ER/PR, segnali FSH/LH, ovulazione e contributi periferici.",
+    "Corretti divieto di uso continuativo, generalizzazioni sui progestinici e unità dei dispositivi.",
+    "Confronto mirato delle interazioni e del rischio con i documenti ufficiali indicati; nessun protocollo individuale.",
+    "Provenienza e limiti della riga coperta e delle figure condivise espliciti."
+  ],
+  "conflicts": [
+    {
+      "id": "primary-mechanism",
+      "issue": "Le fonti didattiche associano effetti centrali e periferici; la figura può far apparire dominante l’ostacolo all’impianto.",
+      "resolution": "La bozza distingue effetto principale e risposte tissutali; non attribuisce percentuali di contributo ai singoli organi.",
+      "status": "resolved_for_foundational_draft"
+    },
+    {
+      "id": "progestin-only",
+      "issue": "La composizione con solo progestinico non determina da sola il contributo dell’inibizione ovulatoria.",
+      "resolution": "Controesempio documentato dell’impianto di etonogestrel; evitare una regola unica per l’intera classe.",
+      "status": "resolved_for_foundational_draft"
+    },
+    {
+      "id": "vaginal-term-overlap",
+      "issue": "Elenco con dispositivo vaginale e anello vaginale.",
+      "resolution": "Trattati come etichette sovrapposte, non due identità di metodo da conteggiare.",
+      "status": "resolved"
+    },
+    {
+      "id": "historical-mpt",
+      "issue": "Figura di panoramica con sviluppi futuri e richiamo a Science 2023.",
+      "resolution": "Non trasferire lo status di ricerca a uso autorizzato. Articolo originale e stato corrente dei prodotti sperimentali non verificati.",
+      "status": "excluded_from_clinical_claims"
+    },
+    {
+      "id": "table-units",
+      "issue": "La scansione mostra 120 mg nella riga etonogestrel/anello e 68/die per l’impianto. Sono incongruenti con il rilascio medio di 0,120 mg/24 h dell’anello e il contenuto di 68 mg dell’impianto nei documenti britannici consultati.",
+      "resolution": "Nessun numero storico ripubblicato; usare la distinzione fra contenuto e rilascio, con fonte e formulazione esplicite.",
+      "status": "resolved_for_specific_UK_comparison_Italy_not_verified"
+    },
+    {
+      "id": "oral-etonogestrel",
+      "issue": "La frase storica che descrive etonogestrel anche come contraccettivo orale può confondere molecola e metabolita.",
+      "resolution": "Non trasferita. Qualunque confronto con desogestrel richiederà un RCP della specifica preparazione orale.",
+      "status": "excluded_pending_product_check"
+    },
+    {
+      "id": "historical-risk-and-uses",
+      "issue": "Rischi numerici, uso continuativo, allattamento ed effetti sul tono dell’umore provengono da edizioni datate.",
+      "resolution": "Confronto mirato completato con AIFA2024, checklist2021, CDC2024 e SmPC2026. Allattamento, umore e altri usi restano esclusi.",
+      "status": "resolved_for_bounded_chapter"
+    },
+    {
+      "id": "figure-attribution",
+      "issue": "Figura 45.2 non identificata come estratto di uno dei libri confrontati.",
+      "resolution": "Non riprodotta; nessuna attribuzione inventata né doppio conteggio come conferma indipendente.",
+      "status": "bounded_uncertainty"
+    },
+    {
+      "id": "continuous-regimens",
+      "issue": "Divieto categorico di uso continuativo contraddice gli schemi ammessi.",
+      "resolution": "Descritti schemi prolungati/continui senza indicazioni operative individuali.",
+      "status": "resolved"
+    },
+    {
+      "id": "event-free-first-year",
+      "issue": "Nessun evento iniziale non dimostra sicurezza futura.",
+      "resolution": "Rischio variabile e rivalutazione; nessuna graduatoria numerica.",
+      "status": "resolved"
+    },
+    {
+      "id": "induction-route",
+      "issue": "Induzione non limitata alla via orale; tempi storici non universali.",
+      "resolution": "Distinzione primo passaggio/clearance; nessun protocollo temporale trasferito.",
+      "status": "resolved"
+    },
+    {
+      "id": "lamotrigine-direction",
+      "issue": "La riduzione riguarda lamotrigina, non necessariamente il contraccettivo.",
+      "resolution": "Freccia distinta nella sintesi.",
+      "status": "resolved"
+    },
+    {
+      "id": "hcv-alt",
+      "issue": "Interazione con specifici regimi HCV ha esito ALT, non semplice riduzione di efficacia.",
+      "resolution": "Distinto rischio epatico; niente equivalenza con tutti gli antivirali.",
+      "status": "resolved"
+    },
+    {
+      "id": "shared-figure-app307",
+      "issue": "Stessa figura45.2; fonte editoriale non identificata.",
+      "resolution": "Nessuna doppia conferma e nessuna immagine pubblicata.",
+      "status": "bounded_uncertainty"
+    },
+    {
+      "id": "covered-app329",
+      "issue": "Riga della tabella sulle dimenticanze coperta.",
+      "resolution": "Non dichiarata lettura della parte nascosta, non integrate istruzioni.",
+      "status": "excluded"
+    }
+  ],
+  "limits": [
+    "Sintesi didattica di un solo integratore, non revisione clinica indipendente.",
+    "Solo18pagine locali documentate; nessuna lettura integrale di libri, corsi o guide.",
+    "APP329: riga coperta non leggibile; testo disponibile e resto del rendering controllati.",
+    "Disponibilità, durate autorizzate e istruzioni italiane dei singoli prodotti non verificate; documenti britannici usati per meccanismi/unità/interazioni dichiarati.",
+    "Esclusi emergenza contraccettiva, protocolli per dimenticanze, allattamento, indicazioni oncologiche e trattamento dell’infertilità.",
+    "PDF ufficiali AIFA non verificati visivamente dopo errori di accesso; usati solo passaggi testuali, nessuna tabella numerica.",
+    "Figura45.2 condivisa APP307/CFI769: origine editoriale non identificata; nessuna conferma indipendente. Bibliografia richiamata non dichiarata letta.",
+    "Riconciliazione limitata agli intervalli di Farmacologia I 2025–26 e II 2026–27 elencati; nessuna nuova lettura di Farmacologia generale e molecolare.",
+    "Intervalli precedenti di lettura respiratoria e ginecologica non integrati conservati nei registri di continuità, senza ricontarli qui."
+  ]
+}
