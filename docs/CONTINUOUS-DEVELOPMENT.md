@@ -8,19 +8,19 @@ Usare «appunti e diapositive del corso di Farmacologia», con anno, lezione, da
 
 ## Lotto corrente
 
-theory-course-766-770, candidato 0.91.0. Nuovo capitolo «Contraccezione ormonale»: 1995 parole, 10 sezioni, 11 domande, 6 schemi originali, 14 riferimenti e 10 collegamenti a identità esistenti. Zero nuove identità, sintesi di farmaci, profili o laboratori. Totale 63 capitoli, 19 estesi e 44 sintetici. I 62 capitoli precedenti devono restare identici.
+theory-course-771-775, candidato 0.92.0. Ampliamento del capitolo esistente «Contraccezione ormonale»: 2776 parole, 12 sezioni, 14 domande, 8 schemi originali, 16 riferimenti e 11 collegamenti a identità esistenti. Il lotto aggiunge 2 sezioni, amplia 2 sezioni, aggiunge 3 domande, 2 schemi e 1 collegamento. Zero nuovi capitoli, identità, sintesi di farmaci, profili o laboratori. Totale 63 capitoli, 19 estesi e 44 sintetici; gli altri 62 capitoli devono restare identici.
 
-0.90.0 pubblicata e verificata al commit a5c6cf1f073bb8533b928966483c14d005fe596d. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sui checkpoint preparatori.
+0.91.0 pubblicata e verificata al commit bbcace 495 a 4 b 3 fe 895 d 397 d 90407 ef 4 f 9673 c 3 c 9. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sui checkpoint preparatori.
 
-18 nuove pagine locali lette e controllate visivamente, con passaggi selezionati integrati: corso principale PDF 766–770, Katzung PDF 835–836, Rang PDF 667,669,675–676; appunti I PDF 307,325,328–329; altre diapositive I PDF 486; II antibatterici PDF 374 e antivirali PDF 117. Anni, edizioni e pagine editoriali nei registri. APP 329 contiene una riga coperta non leggibile. L’intestazione a PDF 293 è stata solo verificata come metadato e non conta come pagina letta.
+9 nuove pagine locali lette e controllate visivamente, con passaggi selezionati integrati: corso principale PDF 771–775, Katzung 831–833 (editoriali 811–813), appunti I 326 (stampata 321, lezione 19 del 1 dicembre 2025). Riutilizzate 18 pagine del capitolo precedente; Rang 669 riletto ma non ricontato. Totale 27 pagine:18 di corso e 9 di libri. Altri contributi conservati senza nuova lettura; anni, edizioni e pagine nei registri.
 
-Separati inventario, estrazione, lettura del testo disponibile, lettura nelle immagini e revisione. Deduplicazione prima della lettura su 138 registri; figura 45.2 condivisa fra appunti e diapositive non è una conferma indipendente. Nessuna figura originale pubblicata, nessuna bibliografia richiamata dichiarata automaticamente letta.
+Deduplicazione prima dell’estrazione su 141 registri. Separati testo estratto, lettura, immagini e revisione. CFI 775 e APP 326 condividono la tabella 44-2 con note inferiori mancanti: nessuna conferma indipendente, nessuna ricostruzione. Piccole etichette della figuraER in APP 326 non validate integralmente; figura non utilizzata. Conservato il limite della riga coperta in APP 329.
 
-Corretti unità storiche dei dispositivi, divieto categorico di uso continuativo e generalizzazioni sul solo progestinico. Confronto selettivo con CDC, FSRH, AIFA e documenti britannici: meccanismi, schemi, rischio vascolare, induzione, lamotrigina e ALT con specifici regimi HCV. PDF ufficiali non verificati visivamente, tabella dei rischi non riprodotta. Non verificati disponibilità, durate e istruzioni italiane dei singoli prodotti.
+Distinti dose, biodisponibilità, attività e indicazione; progesterone micronizzato verificato nei soli passaggi dichiarati dello SmPC britannico. Generazioni dei progestinici trattate come classificazione storica variabile con riscontro EMA; tabelle multi-specie non trasformate in graduatorie cliniche. Grafici fisiologici distinti da dosi e concentrazioni durante trattamento; regimi ricontrollati nell’Overview CDC. Nessun protocollo individuale né disponibilità italiana dedotta dai documenti britannici.
 
-Sintesi didattica del solo integratore, non revisione clinica indipendente. Nessuna lettura integrale di corsi o libri. Emergenza contraccettiva, dimenticanze, allattamento e usi oncologici esclusi. Conservare gli intervalli respiratori e ginecologici precedenti non integrati.
+Sintesi didattica del solo integratore, non revisione clinica indipendente. Nessuna lettura integrale di corsi, libri o guide. Conservare tutti i precedenti intervalli non integrati e il backlog di visualizzazioni, farmaci e profili.
 
-Controlli locali completati: 47 verifiche dati; otto configurazioni e otto schermate ispezionate; ricerca, navigazione, tastiera, riferimenti, offline e aggiornamento reale 0.90.0→0.91.0 con dati salvati conservati. Tutti i 62 capitoli precedenti identici. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-766-770-2026-11-15/. Ricevuta soltanto dopo deploy verificato.
+Controlli locali completati: 47 verifiche dati; otto configurazioni e otto schermate ispezionate; ricerca, navigazione, tastiera, riferimenti, offline e aggiornamento reale 0.91.0→0.92.0 con dati salvati conservati. Gli altri 62 capitoli sono identici. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-771-775-2026-11-16/. Ricevuta soltanto dopo deploy verificato.
 
 ## Regole
 
@@ -32,4 +32,4 @@ Controlli locali completati: 47 verifiche dati; otto configurazioni e otto scher
 
 ## Prossimo intervallo
 
-Completare 766–770 e la pubblicazione del nuovo capitolo; solo dopo, deduplicare 771–775. Teoria prima di farmaci, profili e laboratori.
+Completare 771–775 e verificarne la pubblicazione. 776–780 non iniziato, riservato al ciclo successivo. Teoria prima di farmaci, profili e laboratori.
