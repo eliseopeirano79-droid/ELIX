@@ -3,7 +3,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 (async()=>{
  const base=process.env.ELIX_BASE_URL||'http://127.0.0.1:8765/',out=process.env.ELIX_RTK_OUTPUT||'/tmp/elix-audit/rtk';fs.mkdirSync(out,{recursive:true});
  const expected={rest:['Non attivo','Non attivo','Non attivo'],ligand:['Attivo','Attivo','Attivo'],external:['Non attivo','Non attivo','Non attivo'],kinase:['Non attivo','Non attivo','Non attivo'],bypass:['Non attivo','Attivo','Attivo']};
- const browser=await chromium.launch(),errors=[],matrix=[];
+ const browser=await chromium.launch(process.env.ELIX_BROWSER_CHANNEL?{channel:process.env.ELIX_BROWSER_CHANNEL}:{}),errors=[],matrix=[];
  try{
   const ctx=await browser.newContext({serviceWorkers:'block',reducedMotion:'reduce'}),p=await ctx.newPage();p.on('pageerror',e=>errors.push(e.message));
   for(const width of [1440,768,390,320])for(const theme of ['dark','light']){
@@ -34,7 +34,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
   }
   await p.goto(base+'#/textbook');await p.locator('#ex-book-search').fill('trans-fosforilazione');await p.locator('.ex-volume a[href="#/textbook/tirosinchinasi"]').click();await p.waitForSelector('elix-rtk-explorer');
   await p.locator('[data-act="search-open"]').click();await p.locator('#global-search').fill('trans-fosforilazione');await p.locator('#global-results a[href="#/textbook/tirosinchinasi"]').click();await p.waitForSelector('elix-rtk-explorer');
-  await p.goto(base+'#/textbook');await p.locator('#ex-book-search').fill('');assert.equal(await p.locator('.ex-chapter-status').filter({hasText:'Stesura estesa'}).count(),21);await ctx.close();
+  await p.goto(base+'#/textbook');await p.locator('#ex-book-search').fill('');assert.equal(await p.locator('.ex-chapter-status').filter({hasText:'Stesura estesa'}).count(),22);await ctx.close();
   const off=await browser.newContext(),page=await off.newPage();page.on('pageerror',e=>errors.push(e.message));await page.goto(base+'#/textbook/tirosinchinasi');await page.waitForSelector('elix-rtk-explorer');await page.waitForFunction(()=>!!navigator.serviceWorker.controller);await off.setOffline(true);await page.reload();await page.waitForSelector('elix-rtk-explorer');await page.locator('[data-rtk-mode="bypass"]').click();assert.deepEqual(await page.locator('[data-rtk-state] dd').allTextContents(),expected.bypass);
   assert.deepEqual(await page.evaluate(async()=>{const l=await fetch('./data/tirosinchinasi-reading.json').then(r=>r.json()),r=await fetch('./data/tirosinchinasi-review.json').then(r=>r.json());return [l.chapterId,l.fullCorpusRead,r.outcome]}),['tirosinchinasi',false,'pass']);await off.close();
   assert.deepEqual(errors,[]);const report={passed:true,base,configurations:matrix.length,matrix,chapterSections:18,selfChecks:8,existingMoleculeLinks:4,search:true,globalSearch:true,offlineChapterModelAndRecords:true,errors};fs.writeFileSync(out+'/report.json',JSON.stringify(report,null,2));console.log(JSON.stringify({passed:true,configurations:matrix.length,offline:true,errors}));
