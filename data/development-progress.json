@@ -1,25 +1,26 @@
 {
-  "updatedAt": "2026-11-16T16:58:15.073452+00:00",
-  "batch": "theory-course-816-820",
+  "updatedAt": "2026-11-16T17:45:54.927407+00:00",
+  "batch": "theory-course-821-825",
   "status": "locally_verified_pending_publication",
-  "release": "0.101.0",
-  "branch": "feat/theory-course-816-820",
-  "baseCommit": "abdd0cfc92377bff542d496ef0fb2a64e6349e2f",
+  "release": "0.102.0",
+  "branch": "feat/theory-course-821-825",
+  "baseCommit": "ad2e0c912839d2572161bf3bff6795003454da43",
   "previousBatch": {
-    "batch": "theory-course-811-815",
+    "batch": "theory-course-816-820",
     "status": "published_and_live_verified",
-    "release": "0.100.0",
-    "commit": "abdd0cfc92377bff542d496ef0fb2a64e6349e2f"
+    "release": "0.101.0",
+    "commit": "ad2e0c912839d2572161bf3bff6795003454da43"
   },
   "scope": [
-    "Ampliamento tiroideo: controllo, remissione, radioiodio e funzione residua dopo interventi sul tessuto."
+    "Ampliamento tiroideo: origine della tireotossicosi, gozzo, funzione e definizioni subcliniche."
   ],
   "completed": [
-    "Due sezioni nuove;18sezioni,4812parole,19quesiti e17schemi. Sedici sezioni conservate.",
-    "Dieci pagine nuove lette e controllate:sei pertinenti alla tiroide,quattro di altri argomenti registrate privatamente. Quattro pagine contribuiscono al nuovo testo.",
-    "50 controlli dati superati; otto configurazioni desktop/mobile e temi, otto schermate finali ispezionate.",
-    "Navigazione, ricerca, tastiera, fonti, collegamenti e offline verificati; aggiornamento reale 0.100.0 → 0.101.0 con preferiti, studio e tema conservati.",
-    "Gli altri 64 capitoli e quattro PDF sorgente sono invariati."
+    "Due sezioni nuove; 20 sezioni, 5442 parole, 21 quesiti e 19 schemi. Diciotto sezioni conservate.",
+    "Otto pagine lette e controllate: sette nuove e una riletta. Cinque pertinenti alla tiroide contribuiscono al nuovo testo; tre di altri argomenti registrate privatamente.",
+    "50 controlli dati superati; otto configurazioni desktop/mobile e temi, navigazione, ricerca, fonti, tastiera e offline verificati.",
+    "Aggiornamento reale 0.101.0 → 0.102.0 con preferiti, studio e tema conservati.",
+    "Gli altri 64 capitoli, le 18 sezioni precedenti e i tre PDF sorgente sono invariati.",
+    "Otto schermate ispezionate; esempio e quesito finali precisano FT4 e FT3."
   ],
   "remaining": [
     "Commit, CI, deploy e riscontro online."
@@ -49,21 +50,21 @@
     "newLinksToExistingIdentities": 0,
     "newStaticOriginalSchemas": 2,
     "newSelfChecks": 2,
-    "unchangedSections": 16
+    "unchangedSections": 18
   },
   "readingManifests": [
     "data/terapia-tiroidea-reading.json"
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente o validazione specialistica.",
-    "Questo capitolo:6pagine nuove lette e controllate,4 con passaggi integrati; cumulativo45lette e41integrate. Nessun libro o corso interamente letto.",
-    "Quattro altre pagine lette nel lotto restano nel registro privato:tre su contraccezione e una di inizio argomento osseo; escluse dalla copertura tiroidea.",
-    "Le due tabelle del corso riprendono rassegne2023/2024: letti solo gli estratti visibili, non gli articoli integrali. Dosi, percentuali e indicazioni universali non trasferite.",
-    "Katzung794 e Rang658 letti come contesto; curva34.5 non riprodotta. Le rassicurazioni storiche sul radioiodio non sono state convalidate.",
-    "NICE consultato nei soli passaggi ufficiali indicizzati, accesso diretto403; schedeATA informative, con data di revisione non indicata. Non effettuata revisione sistematica.",
-    "Contributi precedenti di appuntiI e corsiII conservati senza nuova lettura. Non verificati protocolli italiani, dosimetria, gravidanza o disponibilità locale."
+    "Copertura tiroidea del lotto: 5 pagine lette e controllate, 4 nuove e 1 riletta; cumulativo 49 uniche lette e 46 integrate. Nessun libro o corso interamente letto.",
+    "Tre pagine del corso su un altro argomento, compresa una pagina di permessi editoriali, restano private e non aumentano la copertura tiroidea.",
+    "Della rassegna Lancet 2024 lette soltanto le prime due pagine, con ricerca dichiarata fino a settembre 2022. Nessuna stima epidemiologica, dose o gerarchia terapeutica trasferita.",
+    "Rang 656 già letto: rilettura senza incremento delle pagine uniche. Escluso il riferimento discordante al recettore TRH. Katzung 796–798 non letti; urgenze, gravidanza e terapie storiche escluse.",
+    "NICE verificato nei soli passaggi ufficiali indicizzati, accesso diretto 403. Schede ATA informative con data di revisione non indicata; nessuna revisione sistematica.",
+    "Contributi precedenti degli appunti I e dei corsi II mantenuti senza nuova lettura; protocolli locali e soglie individuali di intervento non verificati."
   ],
-  "nextBatch": "Completare816–820;821–825 non iniziato.",
+  "nextBatch": "Completare 821–825; 826–830 non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755"

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "batch": "theory-course-816-820",
+  "batch": "theory-course-821-825",
   "chapterId": "terapia-tiroidea",
-  "updatedAt": "2026-11-16T16:45:19.649380+00:00",
+  "updatedAt": "2026-11-16T17:42:44.262598+00:00",
   "fullCorpusRead": false,
   "clinicalValidation": false,
   "newIdentities": 0,
@@ -11,18 +11,18 @@
   "newTargetProfiles": 0,
   "newChapters": 0,
   "expandedExistingChapters": 1,
-  "newReadPdfPages": 6,
+  "newReadPdfPages": 4,
   "newCourseReadPdfPages": 2,
-  "newBookReadPdfPages": 4,
+  "newBookReadPdfPages": 2,
   "newMainCoursePages": 2,
   "newOtherSlidesPages": 0,
   "newAppuntiPages": 0,
-  "reusedReadPdfPages": 0,
-  "totalReadPdfPages": 6,
-  "chapterReviewedPdfPages": 45,
-  "chapterSourcePdfPages": 45,
+  "reusedReadPdfPages": 1,
+  "totalReadPdfPages": 5,
+  "chapterReviewedPdfPages": 49,
+  "chapterSourcePdfPages": 49,
   "newIntegratedPdfPages": 4,
-  "chapterIntegratedPdfPages": 41,
+  "chapterIntegratedPdfPages": 46,
   "sources": [
     {
       "id": "CFI",
@@ -32,32 +32,35 @@
       "sourceUnchanged": true,
       "allContentsRead": false,
       "pdfPagesRead": [
-        816,
-        817
+        824,
+        825
       ],
       "visuallyCheckedPdfPages": [
-        816,
-        817
+        824,
+        825
       ],
       "newlyReadTextPages": [
-        816,
-        817
+        824,
+        825
       ],
       "reusedPreviouslyReadPages": [],
       "integratedPdfPages": [
-        816,
-        817
+        824,
+        825
       ],
       "readButNotIntegratedPdfPages": [],
       "imageTextReadPages": [
-        816,
-        817
+        824,
+        825
       ],
-      "substantiveExtractedTextReadPages": [],
-      "integrationScope": "Solo passaggi selezionati; figure controllate e non ripubblicate.",
+      "substantiveExtractedTextReadPages": [
+        824,
+        825
+      ],
+      "integrationScope": "Solo passaggi selezionati; nessuna figura o tabella della fonte ripubblicata.",
       "printedPageLabels": {
-        "816": "814 di934",
-        "817": "815 di934"
+        "824": "822 di 934; Lancet 768",
+        "825": "823 di 934; Lancet 769"
       }
     },
     {
@@ -68,36 +71,35 @@
       "sourceUnchanged": true,
       "allContentsRead": false,
       "pdfPagesRead": [
-        794,
-        795
+        799,
+        800
       ],
       "visuallyCheckedPdfPages": [
-        794,
-        795
+        799,
+        800
       ],
       "newlyReadTextPages": [
-        794,
-        795
+        799,
+        800
       ],
       "reusedPreviouslyReadPages": [],
       "integratedPdfPages": [
-        795
+        799,
+        800
       ],
-      "readButNotIntegratedPdfPages": [
-        794
-      ],
+      "readButNotIntegratedPdfPages": [],
       "imageTextReadPages": [
-        794,
-        795
+        799,
+        800
       ],
       "substantiveExtractedTextReadPages": [
-        794,
-        795
+        799,
+        800
       ],
-      "integrationScope": "Solo passaggi selezionati; figure controllate e non ripubblicate.",
+      "integrationScope": "Solo passaggi selezionati; nessuna figura o tabella della fonte ripubblicata.",
       "printedPageLabels": {
-        "794": "774",
-        "795": "775"
+        "799": "779",
+        "800": "780"
       }
     },
     {
@@ -108,36 +110,28 @@
       "sourceUnchanged": true,
       "allContentsRead": false,
       "pdfPagesRead": [
-        658,
-        659
+        656
       ],
       "visuallyCheckedPdfPages": [
-        658,
-        659
+        656
       ],
-      "newlyReadTextPages": [
-        658,
-        659
+      "newlyReadTextPages": [],
+      "reusedPreviouslyReadPages": [
+        656
       ],
-      "reusedPreviouslyReadPages": [],
       "integratedPdfPages": [
-        659
+        656
       ],
-      "readButNotIntegratedPdfPages": [
-        658
-      ],
+      "readButNotIntegratedPdfPages": [],
       "imageTextReadPages": [
-        658,
-        659
+        656
       ],
       "substantiveExtractedTextReadPages": [
-        658,
-        659
+        656
       ],
-      "integrationScope": "Solo passaggi selezionati; figure controllate e non ripubblicate.",
+      "integrationScope": "Solo passaggi selezionati; nessuna figura o tabella della fonte ripubblicata.",
       "printedPageLabels": {
-        "658": "Numero editoriale non visibile",
-        "659": "Numero editoriale non visibile"
+        "656": "Numero editoriale non visibile"
       }
     }
   ],
@@ -145,7 +139,7 @@
     {
       "id": "NICE",
       "title": "NICE NG145 · Thyroid disease: assessment and management · aggiornamento 2023",
-      "detail": "Consultazione 16 novembre 2026 dei passaggi ufficiali indicizzati: §§1.1.2,1.2.8–1.2.11,1.3.3–1.3.4,1.4.1–1.4.4,1.6.1 e1.6.5. Apertura diretta HTML/PDF negata (403); non dichiarata lettura integrale. In questo lotto confrontati i passaggi ufficiali indicizzati1.1.5 e1.6.9–1.6.17; apertura diretta403. Non trasferito un algoritmo terapeutico.",
+      "detail": "Consultazione 16 novembre 2026 dei passaggi ufficiali indicizzati: §§1.1.2,1.2.8–1.2.11,1.3.3–1.3.4,1.4.1–1.4.4,1.6.1 e1.6.5. Apertura diretta HTML/PDF negata (403); non dichiarata lettura integrale. In questo lotto confrontati i passaggi ufficiali indicizzati1.1.5 e1.6.9–1.6.17; apertura diretta403. Non trasferito un algoritmo terapeutico. In questo lotto: sezioni 1.6, 1.8, 1.9 e definizioni, nei soli passaggi ufficiali indicizzati; apertura diretta 403. Confrontati meccanismo della tireotossicosi, profilo subclinico e distinzione volume/funzione; nessuna soglia automatica trasferita.",
       "url": "https://www.nice.org.uk/guidance/ng145/chapter/Recommendations"
     },
     {
@@ -201,25 +195,41 @@
       "title": "American Thyroid Association · Graves’ Disease",
       "detail": "Consultato16novembre2026: causa immunologica e trattamento, per anticorpi al recettore delTSH e possibilità di remissione. Informazione ufficiale per pazienti; data di revisione non indicata. Nessun regime o calendario trasferito.",
       "url": "https://www.thyroid.org/graves-disease/"
+    },
+    {
+      "id": "ATAT",
+      "title": "American Thyroid Association · Thyroiditis",
+      "detail": "Consultato il 16 novembre 2026: testo delle sezioni su sintomi, decorso e trattamento; liberazione di riserve, possibile fase ipotiroidea e limite degli antitiroidei nella fase distruttiva. Informazione ufficiale per pazienti, data di revisione non indicata. Nessuna dose, percentuale o durata trasferita.",
+      "url": "https://www.thyroid.org/thyroiditis/"
+    },
+    {
+      "id": "ATAGO",
+      "title": "American Thyroid Association · Goiter",
+      "detail": "Consultato il 16 novembre 2026: definizione e cause; volume distinto dalla funzione e risposta allo stimolo del TSH. Informazione ufficiale per pazienti, data di revisione non indicata. Nessun algoritmo terapeutico trasferito.",
+      "url": "https://www.thyroid.org/goiter/"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente o validazione specialistica.",
-    "Questo capitolo:6pagine nuove lette e controllate,4 con passaggi integrati; cumulativo45lette e41integrate. Nessun libro o corso interamente letto.",
-    "Quattro altre pagine lette nel lotto restano nel registro privato:tre su contraccezione e una di inizio argomento osseo; escluse dalla copertura tiroidea.",
-    "Le due tabelle del corso riprendono rassegne2023/2024: letti solo gli estratti visibili, non gli articoli integrali. Dosi, percentuali e indicazioni universali non trasferite.",
-    "Katzung794 e Rang658 letti come contesto; curva34.5 non riprodotta. Le rassicurazioni storiche sul radioiodio non sono state convalidate.",
-    "NICE consultato nei soli passaggi ufficiali indicizzati, accesso diretto403; schedeATA informative, con data di revisione non indicata. Non effettuata revisione sistematica.",
-    "Contributi precedenti di appuntiI e corsiII conservati senza nuova lettura. Non verificati protocolli italiani, dosimetria, gravidanza o disponibilità locale."
+    "Copertura tiroidea del lotto: 5 pagine lette e controllate, 4 nuove e 1 riletta; cumulativo 49 uniche lette e 46 integrate. Nessun libro o corso interamente letto.",
+    "Tre pagine del corso su un altro argomento, compresa una pagina di permessi editoriali, restano private e non aumentano la copertura tiroidea.",
+    "Della rassegna Lancet 2024 lette soltanto le prime due pagine, con ricerca dichiarata fino a settembre 2022. Nessuna stima epidemiologica, dose o gerarchia terapeutica trasferita.",
+    "Rang 656 già letto: rilettura senza incremento delle pagine uniche. Escluso il riferimento discordante al recettore TRH. Katzung 796–798 non letti; urgenze, gravidanza e terapie storiche escluse.",
+    "NICE verificato nei soli passaggi ufficiali indicizzati, accesso diretto 403. Schede ATA informative con data di revisione non indicata; nessuna revisione sistematica.",
+    "Contributi precedenti degli appunti I e dei corsi II mantenuti senza nuova lettura; protocolli locali e soglie individuali di intervento non verificati."
   ],
   "deduplication": {
-    "recordsChecked": 162,
+    "recordsChecked": 164,
     "method": "Preserved prior explicit reading map and reconciled all listed records by exact SHA256 and explicit read-page fields. Inventory/planned/extracted ranges excluded.",
-    "reused": {},
+    "reused": {
+      "RANG": [
+        656
+      ]
+    },
     "sharedFigures": [],
     "independentCorroborationFromSharedFigures": false
   },
-  "batchIntegratedPdfPages": 4,
+  "batchIntegratedPdfPages": 5,
   "cumulativeSources": [
     {
       "id": "CFI",
@@ -241,7 +251,9 @@
         814,
         815,
         816,
-        817
+        817,
+        824,
+        825
       ],
       "visuallyCheckedPdfPages": [
         801,
@@ -260,7 +272,9 @@
         814,
         815,
         816,
-        817
+        817,
+        824,
+        825
       ],
       "integratedPdfPages": [
         801,
@@ -278,7 +292,9 @@
         814,
         815,
         816,
-        817
+        817,
+        824,
+        825
       ],
       "allContentsRead": false
     },
@@ -296,7 +312,9 @@
         792,
         793,
         794,
-        795
+        795,
+        799,
+        800
       ],
       "visuallyCheckedPdfPages": [
         785,
@@ -309,7 +327,9 @@
         792,
         793,
         794,
-        795
+        795,
+        799,
+        800
       ],
       "integratedPdfPages": [
         785,
@@ -321,7 +341,9 @@
         791,
         792,
         793,
-        795
+        795,
+        799,
+        800
       ],
       "allContentsRead": false
     },
@@ -356,6 +378,7 @@
         653,
         654,
         655,
+        656,
         657,
         659
       ],
@@ -430,7 +453,7 @@
       "allContentsRead": false
     }
   ],
-  "coverageSemantics": "sources,totalReadPdfPages e cumulativeSources riguardano solo la tiroide. Il lotto complessivo ha10pagine nuove lette;4 di altri argomenti restano private e non contano nella copertura del capitolo. Nessuna nuova rilettura dei contributi precedenti.",
-  "batchAllTopicsReadPdfPages": 10,
-  "otherTopicReadPdfPages": 4
+  "coverageSemantics": "sources, totalReadPdfPages e cumulativeSources riguardano soltanto la tiroide. Il lotto complessivo comprende 8 pagine lette, 7 nuove e 1 riletta; 3 di altro argomento restano private. Rang 656 contribuisce ora alla sintesi, ma non è una nuova pagina letta.",
+  "batchAllTopicsReadPdfPages": 8,
+  "otherTopicReadPdfPages": 3
 }
