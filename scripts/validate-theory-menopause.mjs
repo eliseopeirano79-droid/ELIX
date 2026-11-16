@@ -29,14 +29,14 @@ for(const s of l.sources){
  pages+=s.pdfPagesRead.length;added+=s.newlyReadTextPages.length;reused+=s.reusedPreviouslyReadPages.length;integrated+=s.integratedPdfPages.length;
  newIntegrated+=s.integratedPdfPages.filter(p=>s.newlyReadTextPages.includes(p)).length;
 }
-assert.deepEqual([pages,added,reused,integrated,newIntegrated],[16,15,1,15,14]);
+assert.deepEqual([pages,added,reused,integrated,newIntegrated],[22,5,17,22,5]);
 assert.deepEqual([l.totalReadPdfPages,l.newReadPdfPages,l.reusedReadPdfPages,l.chapterIntegratedPdfPages,l.newIntegratedPdfPages],[pages,added,reused,integrated,newIntegrated]);
-assert.deepEqual(l.sources.find(s=>s.id==='KATZ').readButNotIntegratedPdfPages,[830]);
+assert.deepEqual(l.sources.find(s=>s.id==='KATZ').readButNotIntegratedPdfPages,[]);
 assert.deepEqual(l.sources.find(s=>s.id==='CFI').partiallyOccludedPdfPages,[789]);
-assert.deepEqual(l.sources.find(s=>s.id==='RANG').reusedPreviouslyReadPages,[669]);
+assert.deepEqual(l.sources.find(s=>s.id==='RANG').reusedPreviouslyReadPages,[668,669,670,671]);
 assert.equal(l.newMainCoursePages+l.newOtherSlidesPages+l.newAppuntiPages,l.newCourseReadPdfPages);
 assert.equal(l.newCourseReadPdfPages+l.newBookReadPdfPages,added);
-assert.deepEqual([l.fullCorpusRead,l.clinicalValidation,l.newIdentities,l.newDrugSummaries,l.newPKProfiles,l.newTargetProfiles,l.newChapters,l.expandedExistingChapters],[false,false,0,0,0,0,1,0]);
+assert.deepEqual([l.fullCorpusRead,l.clinicalValidation,l.newIdentities,l.newDrugSummaries,l.newPKProfiles,l.newTargetProfiles,l.newChapters,l.expandedExistingChapters],[false,false,0,0,0,0,0,1]);
 assert.equal(r.independentClinicalReview,false);assert.equal(r.clinicalValidation,false);assert.equal(r.outcome,'pass');
 assert.equal(r.moduleSha256,createHash('sha256').update(read('elix-theory-menopause.js')).digest('hex'));
 assert.ok(r.conflicts.some(x=>x.id==='guideline-label'&&x.status==='difference_preserved'));
@@ -47,8 +47,8 @@ const p=JSON.parse(read('data/development-progress.json'));
 assert.equal(p.counts.chapters,ELIX_CHAPTERS.length);
 assert.equal(p.counts.extendedChapters,ELIX_CHAPTERS.filter(x=>x.format==='extended').length);
 if(p.batch===l.batch){
- assert.equal(p.changes.newChapters,1);assert.equal(p.changes.expandedChapters,0);
- assert.equal(p.changes.newSections,c.sections.length);assert.equal(p.changes.newSelfChecks,c.checks.length);
- assert.equal(p.changes.newStaticOriginalSchemas,c.sections.filter(s=>s.formula).length);
+ assert.equal(p.changes.newChapters,0);assert.equal(p.changes.expandedChapters,1);
+ assert.equal(p.changes.newSections,c.sections.length-10);assert.equal(p.changes.newSelfChecks,c.checks.length-12);
+ assert.equal(p.changes.newStaticOriginalSchemas,c.sections.filter(s=>s.formula).length-8);
 }
-console.log('Menopause PASS: 15 new and 1 reused source pages, 15 integrated, 1 read-only; new theory chapter, existing identities, explicit guideline-label difference and offline records.');
+console.log('Menopause PASS: 5 new and 17 reused source pages, 22 integrated; existing theory chapter expanded, existing identities, explicit guideline-label difference and offline records.');

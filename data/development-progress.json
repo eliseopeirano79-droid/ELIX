@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-16T10:32:41.448895+00:00",
-  "batch": "theory-course-786-790",
+  "updatedAt": "2026-11-16T11:19:39.151637+00:00",
+  "batch": "theory-course-791-795",
   "status": "local_verified_pending_publication",
-  "release": "0.95.0",
-  "branch": "feat/theory-course-786-790",
-  "baseCommit": "78ca0e4c7bc809e356f89cfd561ef749f59541ba",
+  "release": "0.96.0",
+  "branch": "feat/theory-course-791-795",
+  "baseCommit": "defd7d81deb5ba7f726f024c516fc815657b88f7",
   "previousBatch": {
-    "batch": "theory-course-781-785",
+    "batch": "theory-course-786-790",
     "status": "published_and_live_verified",
-    "release": "0.94.0",
-    "commit": "78ca0e4c7bc809e356f89cfd561ef749f59541ba"
+    "release": "0.95.0",
+    "commit": "defd7d81deb5ba7f726f024c516fc815657b88f7"
   },
   "scope": [
-    "Nuovo capitolo di teoria dedicato a menopausa, recettori, vie, endometrio e interpretazione del rischio; nessun ampliamento conteggiato di capitoli esistenti."
+    "Ampliamento del capitolo menopausa: prevenzione, tempo di inizio, circuito KNDy e sicurezza dei trattamenti non ormonali."
   ],
   "completed": [
-    "15 nuove pagine lette e controllate visivamente;1 già documentata riutilizzata.",
-    "10 sezioni,12 domande,8 schemi originali,7 riferimenti e4 collegamenti a identità esistenti.",
-    "48 controlli dati superati;8 configurazioni browser e10 immagini ispezionate;ricerca,tastiera,fonti e offline verificati.",
-    "Aggiornamento reale0.94.0→0.95.0 con preferiti,progressi e tema conservati;63 capitoli precedenti identici."
+    "Cinque nuove pagine lette e controllate visivamente; tre già documentate rilette.",
+    "Quattro nuove sezioni (1028 parole), quattro quesiti, tre schemi originali, cinque riferimenti e un collegamento a identità esistente.",
+    "48 controlli dati superati; otto configurazioni browser, dodici schermate ispezionate, ricerca, tastiera, fonti e offline verificati.",
+    "Aggiornamento reale0.95.0→0.96.0 con preferiti,progressi e tema conservati;63 capitoli e le10 sezioni precedenti identici."
   ],
   "remaining": [
     "CI, deploy e riscontro online."
@@ -40,14 +40,14 @@
     "newProductPKContexts": 0,
     "newPKFields": 0,
     "newTargetProfiles": 0,
-    "newChapters": 1,
-    "expandedChapters": 0,
+    "newChapters": 0,
+    "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 10,
+    "newSections": 4,
     "expandedSections": 0,
-    "newLinksToExistingIdentities": 4,
-    "newStaticOriginalSchemas": 8,
-    "newSelfChecks": 12
+    "newLinksToExistingIdentities": 1,
+    "newStaticOriginalSchemas": 3,
+    "newSelfChecks": 4
   },
   "readingManifests": [
     "data/menopausa-terapia-ormonale-reading.json"
@@ -60,10 +60,13 @@
     "NICE NG23: accesso diretto HTML/PDF negato403; risultati indicizzati usati soltanto per ricerca, non come verifica clinica completa.",
     "Confronto ESE limitato a enunciati e passaggi selezionati; divergenza guida/SmPC sulla storia oncologica mantenuta.",
     "Riconciliazione degli altri libri e di Farmacologia II/degli altri contributi del corso resta da ampliare; nessuna nuova lettura di tali contributi in questo lotto.",
-    "Terapie non ormonali, travaglio, DES e tabelle storiche non integrati. Metaboliti del progesterone inRang670 non trasferiti.",
-    "PDF786–790 costituisce l’unico intervallo nuovo del corso principale;791–795 non iniziato."
+    "Nuovo confronto: USPSTF2022 limitato a sintesi della raccomandazione; Cochrane2015 al solo abstract, non alla revisione completa o ai forest plot. Nessuna stima quantitativa trasferita.",
+    "Elinzanetant: passaggi selezionati dello SmPC europeo, non intero documento; fezolinetant: SmPC britannico e nota AIFA. Disponibilità italiana dei prodotti non verificata.",
+    "EPAR HTML Lynkuet e PDF EMA Veoza non accessibili429; non dichiarati letti. Fonti alternative ufficiali indicate con ambito distinto.",
+    "Katzung830 e Rang671 già lette: ora integrate solo per distinguere bersagli ed esiti. Dosi, DES, travaglio, protocolli e rassicurazioni oncologiche storiche esclusi.",
+    "Unico nuovo intervallo del corso principale PDF791–795. Altre17 pagine del capitolo già documentate; soltanto8 ricontrollate visivamente in questo ciclo.796–800 non iniziato."
   ],
-  "nextBatch": "Completare786–790 e pubblicazione verificata;791–795 non iniziato.",
+  "nextBatch": "Completare791–795; successivo796–800 non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755"

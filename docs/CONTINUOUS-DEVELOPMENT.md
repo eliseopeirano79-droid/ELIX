@@ -8,17 +8,17 @@ Usare «appunti e diapositive del corso di Farmacologia», con anno, lezione, da
 
 ## Lotto corrente
 
-theory-course-786-790, candidato 0.95.0. Nuovo capitolo «Menopausa: recettori, tessuti e terapia ormonale»: 2431 parole, 10 sezioni, 12 domande, 8 schemi originali, 7 riferimenti e 4 collegamenti a identità esistenti. È un nuovo capitolo, non un ampliamento di un capitolo preesistente. Zero nuove identità, sintesi di farmaci, profili o laboratori. Totale 64 capitoli, 20 estesi e 44 sintetici; i 63 precedenti verificati identici.
+theory-course-791-795, candidato 0.96.0. Ampliamento del capitolo menopausa con quattro sezioni (1028 parole), quattro quesiti, tre schemi qualitativi originali, cinque riferimenti e un collegamento a fezolinetant già presente. Totali del capitolo:3459 parole,14 sezioni,16 domande,11 schemi,12 riferimenti e5 collegamenti. Zero nuovi capitoli, identità, sintesi di farmaci, profili o laboratori. Totale64 capitoli,20 estesi e44 sintetici; conservati gli altri63 e le dieci sezioni precedenti.
 
-0.94.0 pubblicata e verificata al commit 78ca0e4c7bc809e356f89cfd561ef749f59541ba. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparatorio.
+0.95.0 pubblicata e verificata al commit defd7d81deb5ba7f726f024c516fc815657b88f7. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparatorio.
 
-Quindici nuove pagine locali lette e controllate visivamente: corso principale PDF786–790, Katzung PDF825–830 (editoriali805–810), Rang PDF668 e670, appunti I PDF331–332 (stampate326–327, lezione19 del1 dicembre2025). Rang669 riletta e ricontrollata ma già documentata: totale16 lette. Passaggi selezionati integrati da15; Katzung830 letta ma non integrata. Deduplicazione preventiva su147 registri.
+Cinque nuove pagine lette e controllate visivamente: corso principale PDF791–795 (etichette789–793). Riletti e ricontrollati Katzung830 (editoriale810), Rang671 (numero editoriale non visibile) e appuntiI332 (stampata327, lezione19 del1 dicembre2025), già documentati. Deduplicazione preventiva su150 registri. Copertura cumulativa del capitolo22 pagine, tutte integrate per passaggi selezionati:5 nuove e17 già lette; solo8 ricontrollate in questo ciclo. Katzung830 e Rang671 ora integrati senza contarli come nuove letture.
 
-Distinti recettori ER/PR, risposte tissutali, primo passaggio e clearance, via vaginale ed esposizione sistemica, schemi temporali e sanguinamento. Riconciliazione mirata con ESE2025 e due SmPC britannici. Esplicita la divergenza fra guida e SmPC per la storia oncologica; nessun algoritmo clinico ricostruito. Figure condivise non contate come conferme indipendenti. Pannelli sovrapposti aCFI789 e frammento di algoritmo a790: letto soltanto ciò che è visibile.
+Distinti impiego sintomatico e prevenzione, mortalità totale e cardiovascolare, sottogruppi temporali ed equivalenza. Circuito KNDy, elinzanetant NK1/NK3 e fezolinetant NK3 collegati ai bersagli, agli esiti e ai rischi specifici. Confronto mirato con USPSTF2022, abstract Cochrane2015, ESE2025, documento EMA Lynkuet, SmPC britannico Veoza e nota AIFA2025. Nessun algoritmo o figura delle fonti riprodotto. Elinzanetant resta nel backlog delle identità mancanti.
 
-Sintesi didattica del solo integratore, non revisione clinica indipendente. Nessuna dose o percentuale clinica trasferita. NICE non consultabile direttamente (403); non usato come fonte clinica verificata. Nessuna lettura integrale di corsi, libri o guide. Altri contributi del corso e libri restano da ampliare. Conservati gli intervalli precedenti non integrati e il backlog di visualizzazioni, farmaci e profili.
+Sintesi didattica con controllo editoriale del solo integratore, senza revisione clinica indipendente. Abstract Cochrane e passaggi regolatori selezionati non equivalgono a lettura integrale. Nessuna dose, soglia di monitoraggio o stima di rischio trasferita. Resta esplicita la divergenza guida/SmPC sulla storia oncologica già documentata. Articolo JAMA2019 non letto integralmente; figure condivise non sono conferme indipendenti. Accessi negati: NICE403 già registrato, HTML Lynkuet e PDF EMA Veoza429; fonti alternative dichiarate. Disponibilità italiana dei prodotti non verificata. Nessuna nuova lettura di FarmacologiaII o degli altri contributi del corso.
 
-48 controlli dati superati; otto configurazioni desktop/mobile e dieci schermate ispezionate. Ricerca, tastiera, fonti e offline verificati. Aggiornamento reale0.94.0→0.95.0 con dati conservati;63 capitoli precedenti identici. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-786-790-2026-11-16/. Ricevuta soltanto dopo deploy verificato.
+48 controlli dati superati; otto configurazioni desktop/mobile, dodici schermate ispezionate, ricerca, tastiera, fonti e offline verificati. Aggiornamento reale0.95.0→0.96.0 con dati conservati. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-791-795-2026-11-16/. Ricevuta soltanto dopo deploy verificato.
 
 ## Regole
 
@@ -30,4 +30,4 @@ Sintesi didattica del solo integratore, non revisione clinica indipendente. Ness
 
 ## Prossimo intervallo
 
-Completare786–790 e verificarne la pubblicazione.791–795 non iniziato, riservato al ciclo successivo. Teoria prima di farmaci, profili e laboratori.
+Completare791–795 e verificarne la pubblicazione.796–800 non iniziato, riservato al ciclo successivo. Teoria prima di farmaci, profili e laboratori.

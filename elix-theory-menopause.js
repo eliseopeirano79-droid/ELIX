@@ -116,6 +116,54 @@ export const THEORY_MENOPAUSE = Object.freeze({
         "PROG"
       ],
       "text": "Estradiolo e progesterone permettono di collegare questo capitolo ai recettori ER e PR e alla teoria della farmacocinetica. Estradiolo identifica il ligando; orale o transdermico indica il percorso; sistemico o prevalentemente locale descrive l’esposizione e l’obiettivo. Tenere separati questi livelli aiuta a leggere correttamente una scheda farmacologica.\n\nL’estriolo appartiene anch’esso agli estrogeni descritti nei libri, ma il nome di classe non autorizza a sostituire prodotti o dosi. Il medrossiprogesterone acetato compare come esempio di progestinico nelle trattazioni degli schemi sostitutivi: non viene qui presentato come equivalente al progesterone per ogni effetto o rischio. I collegamenti alle identità del catalogo servono a orientare lo studio delle molecole; non rappresentano nuove schede cliniche complete.\n\nIl collegamento con la contraccezione riguarda segnali condivisi e obiettivi differenti. La modulazione di un endometrio o il miglioramento di sintomi menopausali non provano la soppressione efficace dell’ovulazione. Per la stessa ragione, riconoscere estrogeno e progestinico in due preparazioni non consente di trasferire automaticamente fra esse indicazioni, dosi o precauzioni.\n\nIl percorso di ripasso può partire dal recettore, proseguire attraverso distribuzione e primo passaggio, e arrivare al tessuto che produce il beneficio o il rischio. Si torna poi all’obiettivo iniziale: quale problema viene affrontato e quale esito dimostra il risultato? Questo ordine collega teoria, farmaci e patologie senza ridurre la terapia ormonale a un elenco di marchi."
+    },
+    {
+      "id": "prevenzione-e-sintomi",
+      "title": "Curare i sintomi e prevenire una malattia sono domande diverse",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "RANG",
+        "USPSTF",
+        "ESE"
+      ],
+      "text": "Quando si valuta un trattamento, bisogna formulare prima la domanda a cui dovrebbe rispondere. Ridurre vampate che interferiscono con la vita quotidiana e prevenire eventi futuri in una persona senza sintomi richiedono confronti diversi. Nel primo caso si misura un disturbo presente; nel secondo si deve dimostrare che l’esposizione prolungata riduca eventi clinici abbastanza da giustificarne gli effetti indesiderati. La somiglianza del farmaco non rende identiche le due decisioni.\n\nLa raccomandazione statunitense USPSTF del 2022 riguarda la prevenzione primaria delle condizioni croniche nelle persone in postmenopausa senza sintomi: sconsiglia sia estrogeni associati a progestinico sia estrogeni soli in chi ha subito isterectomia per questo scopo. Il documento esclude esplicitamente dal proprio ambito il trattamento dei sintomi, l’insufficienza ovarica prematura e la menopausa chirurgica. Leggerlo come un divieto di ogni terapia ormonale cancellerebbe la domanda a cui risponde.\n\nAnche una tabella con effetti favorevoli e sfavorevoli va interpretata per organo. La risposta dell’endometrio a un progestinico non riassume il comportamento della mammella. Analogamente, un effetto sul rimodellamento osseo e un evento trombotico non sono quantità che si possano cancellare con una semplice somma di frecce. Katzung e Rang rendono comprensibile questa pluralità di bersagli, mentre le loro stime storiche richiedono un contesto che una sintesi non può ricostruire automaticamente.\n\nPer studiare il bilancio è quindi utile conservare separati obiettivo, popolazione e risultato. L’efficacia sintomatica non prova una prevenzione generalizzata delle malattie croniche. La distinzione permette di discutere un beneficio senza trasformarlo in una promessa per tutti gli organi e per ogni durata di trattamento.",
+      "formula": "Obiettivo sintomatico → variazione del disturbo. Obiettivo preventivo → eventi futuri nel confronto studiato. Lo stesso trattamento non dimostra automaticamente entrambi. Schema originale qualitativo."
+    },
+    {
+      "id": "tempo-e-rischio",
+      "title": "La finestra temporale non è una garanzia di protezione",
+      "refs": [
+        "CFI",
+        "APP",
+        "COCH",
+        "ESE"
+      ],
+      "text": "Il tempo trascorso dalla menopausa può modificare il contesto in cui viene introdotto un segnale estrogenico. Età, condizioni vascolari, comorbilità e storia dell’esposizione non descrivono però un solo interruttore. L’idea che un endotelio più sano possa rispondere diversamente è un’ipotesi biologica utile; non dimostra che iniziare il più presto possibile prevenga la malattia cardiovascolare.\n\nLa revisione Cochrane del 2015 citata nelle diapositive analizzava studi randomizzati di terapia ormonale orale. Nell’analisi esplorativa dell’inizio entro dieci anni dalla menopausa emergevano risultati più favorevoli per mortalità totale e malattia coronarica, insieme a un aumento del tromboembolismo venoso. Non risultava una prova forte di un effetto sull’ictus in quel sottogruppo. Queste osservazioni non vanno trasferite automaticamente ad altre vie o a tutte le preparazioni; inoltre l’età veniva usata come approssimazione quando mancava il tempo dalla menopausa. Qui è stato confrontato l’abstract degli autori, senza rianalizzare gli studi.\n\nDue dettagli cambiano la lettura delle frecce. Mortalità per tutte le cause e mortalità cardiovascolare sono esiti distinti: la prima comprende anche decessi per cause diverse. Inoltre, non rilevare una differenza convincente non dimostra equivalenza né assenza di rischio. Per interpretare un confronto servirebbero anche precisione della stima, numero di eventi e durata, non soltanto una freccia orizzontale.\n\nESE 2025 considera il momento di inizio nella valutazione della terapia per i sintomi, ma non ne raccomanda l’uso per prevenzione cardiovascolare primaria o secondaria. I frammenti di algoritmo del corso restano perciò strumenti per capire quali variabili contano, non una regola automatica di prescrizione. Il tempo aiuta a formulare la valutazione; non sostituisce l’indicazione né la storia individuale.",
+      "formula": "Tempo dalla menopausa + contesto individuale → interpretazione del beneficio e del rischio. Un sottogruppo favorevole non crea da solo un’indicazione preventiva. Schema originale qualitativo."
+    },
+    {
+      "id": "circuito-kndy",
+      "title": "Dagli estrogeni al circuito KNDy: un altro bersaglio per le vampate",
+      "refs": [
+        "CFI",
+        "APP",
+        "LYN",
+        "VEO"
+      ],
+      "text": "Il collegamento fra estrogeni e vampate può essere seguito anche dentro il sistema nervoso centrale. KNDy indica una popolazione di neuroni ipotalamici caratterizzata da kisspeptina, neurochinina B e dinorfina. Nel modello presentato dal corso, il calo del segnale estrogenico modifica l’attività di questo circuito e il suo rapporto con i centri che regolano la temperatura. La vampata viene così collegata a una risposta termoregolatoria, non soltanto al valore di un ormone nel sangue.\n\nQuesto modello permette di individuare un punto di intervento successivo al segnale estrogenico. Un farmaco che antagonizza recettori delle neurochinine può modificare la trasmissione nel circuito senza fornire estrogeni ai diversi tessuti. La distinzione farmacologica riguarda il bersaglio: i recettori NK sono recettori di membrana accoppiati a proteine G, mentre ER appartiene al sistema dei recettori degli steroidi descritto all’inizio del capitolo. Non si tratta quindi di due modi equivalenti di sostituire lo stesso ligando.\n\nElinzanetant antagonizza selettivamente NK1 e NK3; fezolinetant è selettivo per NK3. La documentazione regolatoria descrive il riequilibrio dell’attività neuronale e della termoregolazione come spiegazione proposta dell’effetto. È opportuno conservare questo livello di certezza, evitando di presentare un circuito illustrato come dimostrazione completa di ogni passaggio causale nell’essere umano.\n\nDa questa separazione derivano limiti importanti per lo studio. Ridurre i sintomi vasomotori attraverso NK non dimostra il ripristino della funzione ovarica, né implica gli stessi effetti estrogenici su epitelio genitale, endometrio e osso. E avere due bersagli invece di uno non prova, da solo, una superiorità clinica: un confronto fra farmaci richiede studi appropriati, con esiti e popolazioni comparabili.",
+      "formula": "Calo del segnale estrogenico → cambiamento del circuito ipotalamico KNDy → risposta termoregolatoria. NK1/NK3 e NK3 offrono punti di intervento distinti da ER. Modello originale qualitativo, non una simulazione clinica."
+    },
+    {
+      "id": "nk-e-sicurezza",
+      "title": "Non ormonale: il meccanismo cambia, la sicurezza resta specifica",
+      "refs": [
+        "LYN",
+        "VEO",
+        "AIFA",
+        "APP"
+      ],
+      "text": "L’espressione non ormonale descrive il meccanismo, ma non riassume indicazioni, interazioni e sicurezza. Anche un antagonista delle neurochinine viene assorbito, distribuito e metabolizzato; la sua concentrazione può cambiare se un altro farmaco interferisce con le vie di eliminazione. Il bersaglio utile e il percorso farmacocinetico rispondono a domande differenti.\n\nPer elinzanetant, lo SmPC europeo consultato include sintomi vasomotori associati alla menopausa e quelli causati dalla terapia endocrina adiuvante del carcinoma mammario. Riporta inoltre possibili sonnolenza e affaticamento e interazioni attraverso CYP3A4. Questo ambito oncologico specifico non autorizza a dedurre sicurezza in qualsiasi tumore, fase o associazione terapeutica: «non stimola direttamente ER» e «adatto a ogni storia oncologica» non sono conclusioni equivalenti.\n\nFezolinetant segue un profilo diverso: il documento britannico consultato indica un metabolismo prevalentemente tramite CYP1A2 e controindica l’associazione con inibitori moderati o forti di questo enzima. La nota AIFA del gennaio 2025 segnala anche danno epatico grave e la necessità di controllare la funzionalità epatica prima e durante il trattamento. Queste informazioni impediscono di trattare non ormonale come sinonimo di privo di monitoraggio. Non vengono qui ricavati dosaggi, soglie operative o un piano di controlli individuale.\n\nIl confronto mette in relazione tre livelli: recettore, esposizione e popolazione studiata. Le differenze fra molecole devono rimanere visibili anche quando entrambe vengono presentate come trattamenti delle vampate. Una figura comune nelle slide e negli appunti facilita il riconoscimento del circuito, ma non costituisce una seconda prova indipendente di efficacia o sicurezza. La sintesi serve a comprendere il ragionamento farmacologico; non sostituisce la verifica della scheda del prodotto e del contesto clinico."
     }
   ],
   "checks": [
@@ -166,28 +214,44 @@ export const THEORY_MENOPAUSE = Object.freeze({
     {
       "question": "Un progesterone assorbito per bocca è necessariamente contraccettivo?",
       "answer": "No. La formulazione micronizzata consultata documenta assorbimento e impiego sostitutivo, ma esclude l’uso contraccettivo."
+    },
+    {
+      "question": "Una raccomandazione contro la prevenzione primaria delle condizioni croniche vieta ogni impiego sintomatico della terapia ormonale?",
+      "answer": "No. Popolazione e obiettivo sono diversi; bisogna conservare l’ambito della raccomandazione."
+    },
+    {
+      "question": "Una freccia senza differenza per ictus significa rischio nullo?",
+      "answer": "No. Mancanza di evidenza convincente di una differenza, equivalenza e assenza di rischio non coincidono."
+    },
+    {
+      "question": "Qual è la differenza recettoriale fra elinzanetant e fezolinetant?",
+      "answer": "Elinzanetant antagonizza NK1 e NK3; fezolinetant è selettivo per NK3. Il numero di bersagli non stabilisce una graduatoria clinica."
+    },
+    {
+      "question": "Perché non ormonale non significa senza interazioni o controlli?",
+      "answer": "Il meccanismo recettoriale non elimina metabolismo, interazioni e rischi specifici di ciascuna molecola."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF786–790 (etichette784–788): vie, obiettivi e valutazione del rischio. Testo visibile e figure controllati; pannelli sovrapposti a789 e algoritmo incompleto a790. Nessuna riproduzione delle figure o degli elenchi come protocollo."
+      "detail": "PDF786–795 (etichette784–793): vie, obiettivi, rischio, prevenzione e circuito KNDy. Nuove letture791–795; precedenti786–790 riutilizzate. Pannelli sovrapposti a789; frammenti di algoritmo a790 e792, articolo completo non letto. Nessuna figura riprodotta."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica · IX italiana 2014 / XII originale 2012",
-      "detail": "Capitolo40, PDF825–830 / editoriali805–810: recettori, PK, risposte tissutali e terapia sostitutiva. Passaggi integrati da825–829;830 letta ma non integrata. Dosi, stime storiche e generalizzazioni cliniche non adottate."
+      "detail": "Capitolo40, PDF825–830 / editoriali805–810: recettori, PK, risposte tissutali e terapia sostitutiva. PDF830 già letta, ora integrata limitatamente alla distinzione dei bersagli oncologici. Dosi, stime e generalizzazioni storiche non adottate."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia · VIII italiana 2016 / originale 2015",
-      "detail": "PDF668–670, numerazione editoriale non visibile: PK estrogenica, ER/PR e introduzione alla terapia sostitutiva. PDF669 già documentata in un lotto precedente, riletta senza ricontarla come nuova."
+      "detail": "PDF668–671, numerazione editoriale non visibile: PK estrogenica, ER/PR, terapia sostitutiva e distinzione degli esiti. Pagine già documentate,671 riletta e integrata senza ricontarla come nuova. Non adottata la rassicurazione temporale storica sul rischio mammario."
     },
     {
       "id": "APP",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26 · lezione19, 1 dicembre2025",
-      "detail": "PDF331–332 / stampate326–327, pagine7–8 della lezione: schemi, vie e rischio. Figure condivise con le slide non contate come conferme indipendenti. Terapie non ormonali e travaglio restano fuori dal capitolo."
+      "detail": "PDF331–332 / stampate326–327, pagine7–8 della lezione: schemi, vie, rischio e KNDy. PDF332 riletta, senza nuova copertura. Figure condivise non sono conferme indipendenti; nome e bersagli di elinzanetant verificati sul documento EMA. Travaglio escluso."
     },
     {
       "id": "ESE",
@@ -206,6 +270,36 @@ export const THEORY_MENOPAUSE = Object.freeze({
       "title": "Progesterone 100 mg Soft Capsules · SmPC britannico · Flamingo Pharma",
       "detail": "Revisione3 settembre2025; §§4.1–4.4,5.1 e assorbimento in5.2. Controllati endometrio, sanguinamento, distinzione dalla contraccezione e limiti del rischio mammario. Consultazione16 novembre2026; nessun regime quantitativo trasferito.",
       "url": "https://www.medicines.org.uk/emc/product/101492/smpc"
+    },
+    {
+      "id": "USPSTF",
+      "title": "USPSTF · terapia ormonale per prevenzione primaria delle condizioni croniche · 2022",
+      "detail": "Recommendation Summary e Clinician Summary, popolazione e limiti di applicazione; consultati il 16 novembre 2026. Non riguarda la gestione dei sintomi; non lettura integrale della revisione delle evidenze.",
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/menopausal-hormone-therapy-preventive-medication"
+    },
+    {
+      "id": "COCH",
+      "title": "Boardman et al. · Cochrane 2015 · Hormone therapy for preventing cardiovascular disease in post-menopausal women",
+      "detail": "Abstract degli autori, PMID25754617, DOI10.1002/14651858.CD002229.pub4: studi orali e sottogruppi temporali. Ricerca fino al febbraio2014; consultazione16 novembre2026. Revisione completa e forest plot non letti; nessuna stima numerica trasferita.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25754617/"
+    },
+    {
+      "id": "LYN",
+      "title": "EMA · Lynkuet (elinzanetant) · informazioni europee sul prodotto",
+      "detail": "Testo selezionato §§4.1,4.3–4.5,4.7–4.8 e5.1, PDF2–5 e7, consultato16 novembre2026: indicazioni, doppio bersaglio, interazioni e sicurezza. Non lettura integrale dello SmPC; nessuna disponibilità italiana o confronto di superiorità dedotto.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/lynkuet-epar-product-information_en.pdf"
+    },
+    {
+      "id": "VEO",
+      "title": "Veoza (fezolinetant) · SmPC britannico · Astellas Pharma",
+      "detail": "Passaggi §§4.3–4.5 e5.1 su NK3, interazioni e avvertenze; consultazione16 novembre2026. Usato con ambito britannico dichiarato, non come RCP italiano.",
+      "url": "https://www.medicines.org.uk/emc/product/15361/smpc"
+    },
+    {
+      "id": "AIFA",
+      "title": "AIFA · nota informativa su fezolinetant e danno epatico · 13 gennaio2025",
+      "detail": "Nota di tre pagine letta nel testo: rischio epatico e necessità del monitoraggio; consultazione16 novembre2026. Nessuna soglia o calendario operativo trasferito.",
+      "url": "https://www.aifa.gov.it/documents/20142/2690608/2025.01.13_NII_Veoza-fezolinetant_IT.pdf"
     }
   ],
   "moleculeLinks": [
@@ -224,6 +318,10 @@ export const THEORY_MENOPAUSE = Object.freeze({
     {
       "id": "CHEMBL717",
       "label": "MEDROXYPROGESTERONE ACETATE"
+    },
+    {
+      "id": "CHEMBL3608680",
+      "label": "FEZOLINETANT"
     }
   ],
   "relatedExistingChapterIds": [
@@ -237,6 +335,6 @@ export const THEORY_MENOPAUSE = Object.freeze({
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-16",
   "readingManifest": "./data/menopausa-terapia-ormonale-reading.json",
-  "coverage": "16 pagine locali lette e controllate visivamente:15 nuove e1 già documentata. Passaggi selezionati integrati da 15 pagine; Katzung PDF830 letta ma non integrata. nessuna lettura integrale di libri o corsi. Figure condivise, pannelli sovrapposti e limiti clinici dichiarati. Sintesi didattica del solo integratore, senza revisione clinica indipendente.",
-  "wordCount": 2431
+  "coverage": "22 pagine locali lette e controllate visivamente nel percorso del capitolo: 5 nuove in questo lotto e 17 già documentate. Passaggi selezionati integrati da tutte e22; 8 pagine rilette e ricontrollate in questo ciclo. Nessuna lettura integrale di libri, corsi o linee guida. Figure condivise, pannelli sovrapposti e limiti clinici dichiarati. Sintesi didattica del solo integratore, senza revisione clinica indipendente.",
+  "wordCount": 3459
 });
