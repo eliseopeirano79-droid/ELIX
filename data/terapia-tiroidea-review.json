@@ -1,19 +1,20 @@
 {
   "schemaVersion": 1,
   "chapterId": "terapia-tiroidea",
-  "batch": "theory-course-816-820",
-  "reviewedAt": "2026-11-16T16:45:19.649380+00:00",
+  "batch": "theory-course-821-825",
+  "reviewedAt": "2026-11-16T17:42:44.262598+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "e24439c0d175f5db9179efcf10ebcb23db6eb7603f8ffa78d8586ea01618d708",
+  "moduleSha256": "6888f51df40fcf1cb75bc368583ec0136f2318e56aae617fc14e08301edd81ea",
   "checks": [
-    "Revisione editoriale delle due sezioni nuove;18sezioni,4812parole,19quesiti,17schemi e17riferimenti. Sedici sezioni precedenti conservate.",
-    "Distinti controllo durante terapia, remissione, causa autoimmune e autonomia nodulare.",
-    "Separati captazione ioduro, radiazione beta, asportazione, funzione residua e rischi di strutture diverse.",
-    "Zero nuovi capitoli, identità, sintesi di farmaci, profili o laboratori; collegamenti esistenti mantenuti.",
-    "Revisione del solo integratore; nessuna convalida delle affermazioni escluse dalle fonti."
+    "Due nuove sezioni originali; 20 sezioni, 5442 parole, 21 quesiti, 19 schemi e 19 riferimenti. Diciotto sezioni precedenti conservate.",
+    "Distinti produzione, rilascio di riserve e apporto esterno; bersaglio TPO separato dal controllo dei sintomi.",
+    "Separati volume, stimolo trofico, funzione e definizione biochimica di ipertiroidismo subclinico.",
+    "Zero nuovi capitoli, identità, sintesi di farmaci, profili o laboratori. Sei collegamenti a molecole e sei a capitoli esistenti mantenuti.",
+    "Revisione editoriale del solo integratore, senza convalida clinica delle affermazioni escluse.",
+    "Esplicitate FT4 e FT3 anche nell’esempio e nel quesito per non confondere frazioni libere e ormoni totali."
   ],
   "conflicts": [
     {
@@ -219,15 +220,45 @@
       "issue": "Dopo817 il corso cambia argomento; appunti336 iniziano una nuova lezione.",
       "resolution": "Quattro pagine di altri argomenti registrate privatamente, nessun aumento della copertura tiroidea.",
       "status": "topic_separated"
+    },
+    {
+      "id": "rang-trh-mutation",
+      "issue": "Rang PDF 656 riporta nel testo stampato mutazioni del recettore TRH per forme nodulari; la tabella del corso PDF 825 indica mutazioni attivanti del recettore TSH.",
+      "resolution": "Conflitto verificato anche sulla pagina visualizzata. Frase di Rang esclusa; nessuna modifica alla fonte e nessuna generalizzazione genetica nel nuovo testo.",
+      "status": "excluded_conflicting_source_statement"
+    },
+    {
+      "id": "destructive-thyroiditis-terminology",
+      "issue": "Katzung PDF 799 usa ipertiroidismo anche per la liberazione di riserve nella tiroidite.",
+      "resolution": "Distinti tireotossicosi e aumentata produzione seguendo rassegna del corso e fonti ufficiali NICE e ATA.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "subclinical-thresholds-history",
+      "issue": "Katzung PDF 800 presenta soglie terapeutiche storiche; una T4 normale può accompagnarsi a T3 elevata.",
+      "resolution": "Pubblicata soltanto la definizione con FT4 e FT3 nei rispettivi intervalli e il ruolo della persistenza/contesto; nessuna soglia automatica o dose.",
+      "status": "excluded_prescriptive_transfer"
+    },
+    {
+      "id": "goiter-compensation",
+      "issue": "Letture sintetiche possono equiparare gozzo, carenza di iodio e ipotiroidismo, oppure gozzo e iperproduzione.",
+      "resolution": "Separati volume, stimolo del TSH e funzione; compensazione possibile, senza algoritmo diagnostico o terapeutico.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "course-lancet-scope",
+      "issue": "La rassegna incorporata è del 2024 con ricerca fino a settembre 2022; sono state lette soltanto le prime due pagine.",
+      "resolution": "Data, ambito adulto e intervallo di lettura conservati. Epidemiologia e preferenze terapeutiche non trasferite come raccomandazioni attuali.",
+      "status": "scope_limited"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente o validazione specialistica.",
-    "Questo capitolo:6pagine nuove lette e controllate,4 con passaggi integrati; cumulativo45lette e41integrate. Nessun libro o corso interamente letto.",
-    "Quattro altre pagine lette nel lotto restano nel registro privato:tre su contraccezione e una di inizio argomento osseo; escluse dalla copertura tiroidea.",
-    "Le due tabelle del corso riprendono rassegne2023/2024: letti solo gli estratti visibili, non gli articoli integrali. Dosi, percentuali e indicazioni universali non trasferite.",
-    "Katzung794 e Rang658 letti come contesto; curva34.5 non riprodotta. Le rassicurazioni storiche sul radioiodio non sono state convalidate.",
-    "NICE consultato nei soli passaggi ufficiali indicizzati, accesso diretto403; schedeATA informative, con data di revisione non indicata. Non effettuata revisione sistematica.",
-    "Contributi precedenti di appuntiI e corsiII conservati senza nuova lettura. Non verificati protocolli italiani, dosimetria, gravidanza o disponibilità locale."
+    "Copertura tiroidea del lotto: 5 pagine lette e controllate, 4 nuove e 1 riletta; cumulativo 49 uniche lette e 46 integrate. Nessun libro o corso interamente letto.",
+    "Tre pagine del corso su un altro argomento, compresa una pagina di permessi editoriali, restano private e non aumentano la copertura tiroidea.",
+    "Della rassegna Lancet 2024 lette soltanto le prime due pagine, con ricerca dichiarata fino a settembre 2022. Nessuna stima epidemiologica, dose o gerarchia terapeutica trasferita.",
+    "Rang 656 già letto: rilettura senza incremento delle pagine uniche. Escluso il riferimento discordante al recettore TRH. Katzung 796–798 non letti; urgenze, gravidanza e terapie storiche escluse.",
+    "NICE verificato nei soli passaggi ufficiali indicizzati, accesso diretto 403. Schede ATA informative con data di revisione non indicata; nessuna revisione sistematica.",
+    "Contributi precedenti degli appunti I e dei corsi II mantenuti senza nuova lettura; protocolli locali e soglie individuali di intervento non verificati."
   ]
 }

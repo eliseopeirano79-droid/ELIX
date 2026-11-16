@@ -98,6 +98,31 @@ export const THEORY_THYROID = Object.freeze({
       "text": "Gli ormoni tiroidei partecipano alla regolazione del metabolismo energetico e allo sviluppo. In molti tessuti aumentano il ricambio dei substrati, il consumo di energia e la produzione di calore. Le vie dei carboidrati, dei lipidi e delle proteine interagiscono con insulina, catecolamine e altri segnali: non sono interruttori isolati che T3 accende sempre nella stessa direzione.\n\nL’aumento della sintesi di determinate proteine può convivere con un maggiore turnover e, nell’eccesso ormonale, con perdita di massa e debolezza. Analogamente, una maggiore mobilizzazione degli acidi grassi non equivale a un beneficio metabolico. Il cambiamento di una singola via va interpretato insieme al bilancio complessivo di produzione, consumo e disponibilità dei substrati.\n\nIl cuore rende evidente il collegamento fra regolazione molecolare e funzione d’organo. Una maggiore attività tiroidea può aumentare frequenza e lavoro cardiaco; un’esposizione eccessiva favorisce palpitazioni e aritmie. La risposta cardiovascolare contribuisce ai sintomi dell’ipertiroidismo e spiega perché la sostituzione ormonale richieda particolare attenzione quando la riserva cardiaca è ridotta. Non basta conoscere il recettore per prevedere la tolleranza del paziente.\n\nCrescita, maturazione scheletrica e sviluppo del sistema nervoso richiedono una disponibilità ormonale adeguata nei rispettivi periodi della vita. Le manifestazioni della carenza o dell’eccesso dipendono pertanto anche dall’età e dalla durata dell’alterazione. Intolleranza al freddo, stanchezza, tremore o variazioni di peso possono orientare il ragionamento, ma nessuno di questi elementi isolati è una misura specifica della funzione tiroidea.\n\nNel confronto fra carenza ed eccesso, la cute fredda e secca o la maggiore sudorazione riflettono aspetti della termoregolazione; rallentamento e agitazione descrivono possibili manifestazioni, non criteri diagnostici autosufficienti. Anche la debolezza può comparire in quadri diversi. L’orbitopatia associata a Graves, invece, rimanda a un contesto autoimmune specifico e non è una conseguenza obbligata di qualsiasi tireotossicosi. Una tabella di segni serve a organizzare ipotesi, non a classificare una persona sulla base di una singola voce.\n\nUna parte delle manifestazioni cardiovascolari e del tremore richiama la stimolazione adrenergica, ma non richiede necessariamente un aumento delle catecolamine circolanti. Gli ormoni tiroidei possono modificare l’espressione dei recettori β e la risposta dei sistemi di segnalazione: a parità di segnale adrenergico, il tessuto può rispondere diversamente. Occorre quindi distinguere la quantità del mediatore dalla sensibilità del bersaglio. Questo collegamento integra gli effetti diretti della regolazione tiroidea e spiega perché un sintomo apparentemente «adrenergico» non identifichi da solo la sua causa."
     },
     {
+      "id": "origine-della-tireotossicosi",
+      "title": "Da dove viene l’ormone in eccesso?",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "NICE",
+        "ATAT"
+      ],
+      "text": "Due persone possono avere un eccesso di azione degli ormoni tiroidei per processi diversi. Nel Graves e nell’autonomia nodulare aumenta la produzione: la ghiandola continua ad alimentare il flusso di ormone. In una tiroidite distruttiva, invece, il danno follicolare rende disponibili riserve già formate. Un terzo percorso è l’apporto di ormone dall’esterno. La tireotossicosi descrive il risultato sul sistema; identificarne l’origine permette di capire quale passaggio potrebbe essere modificato da un farmaco.\n\nNel Graves il segnale degli anticorpi stimolanti raggiunge il recettore del TSH e sostiene l’attività delle cellule follicolari. Nelle forme autonome, la produzione può proseguire senza dipendere normalmente dallo stimolo ipofisario. Nel processo distruttivo, al contrario, non serve postulare un’accelerazione della sintesi per spiegare l’aumento dell’ormone circolante: viene alterato il contenitore delle riserve. Il colloide, già incontrato come deposito fisiologico, diventa così centrale per comprendere una malattia che inizialmente espone i tessuti a troppo ormone anche senza vera iperproduzione.\n\nQuesta differenza chiarisce il limite delle tionamidi. Se il problema è la nuova sintesi, inibire le reazioni della TPO interviene su un passaggio pertinente. Nella fase tireotossica puramente distruttiva, quel blocco non arresta la fuoriuscita dell’ormone già immagazzinato: le indicazioni ufficiali distinguono quindi questo quadro dall’ipertiroidismo da aumentata produzione. Anche nell’eccesso di ormone assunto dall’esterno, bloccare la fabbrica tiroidea non coincide con correggere la fonte dell’esposizione. La somiglianza dei sintomi non rende equivalenti i bersagli.\n\nIl decorso di una tiroidite può inoltre cambiare direzione. Mentre le riserve si consumano, un tessuto danneggiato può non riuscire a ricostituirle e l’esposizione può diventare insufficiente. La fase ipotiroidea non è obbligatoria, né la ripresa funzionale è garantita in tutte le forme. Seguire l’andamento nel tempo serve dunque a distinguere un deposito che si svuota da una produzione persistentemente aumentata. Attenuare tremore o palpitazioni agisce su un altro livello ancora: la risposta del tessuto bersaglio. Il miglioramento di un sintomo, da solo, non dimostra che sia stata rimossa la causa.",
+      "formula": "Produzione aumentata → nuova sintesi; danno follicolare → riserve liberate; apporto esterno → altra fonte. Sintomi simili, passaggi farmacologici diversi."
+    },
+    {
+      "id": "gozzo-funzione-e-subclinico",
+      "title": "Volume della tiroide, funzione e alterazioni subcliniche",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "RANG",
+        "NICE",
+        "ATAGO"
+      ],
+      "text": "Il gozzo descrive un aumento di volume della tiroide. Non specifica quanto ormone venga prodotto, se la crescita sia diffusa o nodulare, né quale processo l’abbia determinata. Una ghiandola ingrandita può accompagnarsi a funzione normale, ridotta o aumentata. Per collegare l’aspetto anatomico alla farmacologia occorre quindi separare tre domande: come è fatto il tessuto, quale stimolo ne sostiene l’attività e quale esposizione ormonale raggiunge l’organismo.\n\nIl TSH aiuta a collegare crescita e funzione senza confonderle. Oltre a stimolare i processi secretori, sostiene la crescita delle cellule follicolari. Quando lo ioduro disponibile limita la sintesi, il circuito di feedback può aumentare lo stimolo sulla tiroide. L’ingrandimento può rappresentare una risposta compensatoria: la presenza di gozzo non dimostra che la compensazione abbia fallito e che sia già presente ipotiroidismo. Nel Graves, invece, la stimolazione del recettore del TSH da parte degli anticorpi può sostenere sia crescita sia produzione. Una somiglianza di volume può perciò nascondere circuiti causali differenti.\n\nAnche la parola «subclinico» richiede una lettura precisa. Nell’ipertiroidismo subclinico il TSH è inferiore all’intervallo di riferimento, mentre FT4 e FT3 restano nei rispettivi intervalli. È una definizione biochimica: non significa semplicemente che non siano riferiti sintomi. Se la FT3 è aumentata, una FT4 normale non basta a classificare il quadro come subclinico. Questo esempio mostra perché selezionare un solo valore possa cancellare una parte essenziale del profilo ormonale.\n\nUn singolo risultato, infine, non definisce automaticamente persistenza, causa e scelta terapeutica. Le raccomandazioni NICE considerano la ripetizione dell’alterazione e il contesto clinico nel percorso di valutazione. L’assenza di un evidente eccesso ormonale non risolve neppure ogni problema anatomico: un aumento di volume può avere conseguenze compressive da valutare separatamente. Ridurre la sintesi, sostituire un ormone mancante e intervenire su una massa che comprime strutture vicine rispondono a problemi diversi. Il collegamento fra laboratorio, anatomia e sintomi permette di formulare la domanda terapeutica prima di scegliere il farmaco.",
+      "formula": "Gozzo = volume aumentato. Funzione: normale, ridotta o aumentata. Subclinico: TSH basso con FT4 e FT3 nei rispettivi intervalli."
+    },
+    {
       "id": "tempi-e-cinetica",
       "title": "Tre tempi diversi: esposizione, risposta e feedback",
       "refs": [
@@ -303,23 +328,31 @@ export const THEORY_THYROID = Object.freeze({
     {
       "question": "Perché la levotiroxina può essere necessaria dopo un trattamento dell’ipertiroidismo?",
       "answer": "Se l’asportazione o il danno del tessuto riducono la funzione tiroidea fino all’ipotiroidismo, occorre sostituire l’ormone mancante. Controllare l’eccesso e conservare la capacità secretoria sono esiti differenti."
+    },
+    {
+      "question": "Perché una tionamide non corregge il meccanismo di una tireotossicosi puramente distruttiva?",
+      "answer": "Inibisce la nuova sintesi sostenuta dalla TPO, mentre il danno follicolare libera ormone già formato. La causa dell’esposizione è lo svuotamento delle riserve; controllo dei sintomi e controllo della produzione sono obiettivi diversi."
+    },
+    {
+      "question": "Un gozzo con FT4 normale e FT3 aumentata dimostra ipertiroidismo subclinico?",
+      "answer": "No. Il gozzo descrive il volume e non determina la funzione. La definizione subclinica richiede TSH basso e sia FT4 sia FT3 nei rispettivi intervalli: una FT3 aumentata non soddisfa quel profilo."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · AA 2025–26",
-      "detail": "PDF801–817, etichette799–815, in quattro lotti. In questo lotto PDF816–817: tabelle interamente lette come immagini, tratte da rassegne JAMA del17ottobre2023 e Lancet del24febbraio2024; articoli originali non letti integralmente. Percentuali, dosi e gerarchie universali escluse. Nessuna immagine riprodotta."
+      "detail": "PDF 801–817 e 824–825, etichette 799–815 e 822–823, in cinque lotti. In questo lotto letti testo e tabella delle sole prime due pagine della rassegna Chaker et al., Hyperthyroidism, Lancet 2024;403:768–780, DOI 10.1016/S0140-6736(23)02016-0; ricerca bibliografica dichiarata fino al 16 settembre 2022. Distinzioni causali e definizioni integrate; articolo non letto integralmente, nessuna tabella riprodotta."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica · IX italiana 2014 / XII originale 2012",
-      "detail": "Capitolo38, PDF785–795, editoriali765–775, in quattro lotti. PDF794–795 letti in questo lotto; integrati soltanto passaggi meccanicistici di795,794 come contesto. Nessuna dose, frequenza di rischio, rassicurazione oncologica storica o emivita dell’isotopo trasferita."
+      "detail": "Capitolo 38, PDF 785–795 e 799–800, editoriali 765–775 e 779–780. In questo lotto PDF 799–800 letti e controllati: liberazione di riserve, gozzo e profili biochimici. Terminologia storica della tiroidite, dosi, urgenze, gravidanza e soglie automatiche di trattamento non trasferite. PDF 796–798 non letti."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia · VIII italiana 2016 / originale 2015",
-      "detail": "Capitolo34, PDF651–659, numero editoriale non visibile. In questo lotto PDF658–659: testo, figura34.5 e riquadro controllati;658 come contesto,659 per il meccanismo. Curva storica, generalizzazioni sulle radiazioni e terapie storiche escluse."
+      "detail": "Capitolo 34, PDF 651–659, numero editoriale non visibile. PDF 656 riletto in questo lotto, senza ricontarlo come nuova lettura; integrati passaggi su gozzo e compensazione. Il riferimento stampato a mutazioni del recettore TRH è discordante con la tabella del corso sul recettore TSH ed è escluso. Nessuna figura riprodotta."
     },
     {
       "id": "APP",
@@ -329,7 +362,7 @@ export const THEORY_THYROID = Object.freeze({
     {
       "id": "NICE",
       "title": "NICE NG145 · Thyroid disease: assessment and management · aggiornamento 2023",
-      "detail": "Consultazione 16 novembre 2026 dei passaggi ufficiali indicizzati: §§1.1.2,1.2.8–1.2.11,1.3.3–1.3.4,1.4.1–1.4.4,1.6.1 e1.6.5. Apertura diretta HTML/PDF negata (403); non dichiarata lettura integrale. In questo lotto confrontati i passaggi ufficiali indicizzati1.1.5 e1.6.9–1.6.17; apertura diretta403. Non trasferito un algoritmo terapeutico.",
+      "detail": "Consultazione 16 novembre 2026 dei passaggi ufficiali indicizzati: §§1.1.2,1.2.8–1.2.11,1.3.3–1.3.4,1.4.1–1.4.4,1.6.1 e1.6.5. Apertura diretta HTML/PDF negata (403); non dichiarata lettura integrale. In questo lotto confrontati i passaggi ufficiali indicizzati1.1.5 e1.6.9–1.6.17; apertura diretta403. Non trasferito un algoritmo terapeutico. In questo lotto: sezioni 1.6, 1.8, 1.9 e definizioni, nei soli passaggi ufficiali indicizzati; apertura diretta 403. Confrontati meccanismo della tireotossicosi, profilo subclinico e distinzione volume/funzione; nessuna soglia automatica trasferita.",
       "url": "https://www.nice.org.uk/guidance/ng145/chapter/Recommendations"
     },
     {
@@ -400,6 +433,18 @@ export const THEORY_THYROID = Object.freeze({
       "title": "American Thyroid Association · Graves’ Disease",
       "detail": "Consultato16novembre2026: causa immunologica e trattamento, per anticorpi al recettore delTSH e possibilità di remissione. Informazione ufficiale per pazienti; data di revisione non indicata. Nessun regime o calendario trasferito.",
       "url": "https://www.thyroid.org/graves-disease/"
+    },
+    {
+      "id": "ATAT",
+      "title": "American Thyroid Association · Thyroiditis",
+      "detail": "Consultato il 16 novembre 2026: testo delle sezioni su sintomi, decorso e trattamento; liberazione di riserve, possibile fase ipotiroidea e limite degli antitiroidei nella fase distruttiva. Informazione ufficiale per pazienti, data di revisione non indicata. Nessuna dose, percentuale o durata trasferita.",
+      "url": "https://www.thyroid.org/thyroiditis/"
+    },
+    {
+      "id": "ATAGO",
+      "title": "American Thyroid Association · Goiter",
+      "detail": "Consultato il 16 novembre 2026: definizione e cause; volume distinto dalla funzione e risposta allo stimolo del TSH. Informazione ufficiale per pazienti, data di revisione non indicata. Nessun algoritmo terapeutico trasferito.",
+      "url": "https://www.thyroid.org/goiter/"
     }
   ],
   "moleculeLinks": [
@@ -440,6 +485,6 @@ export const THEORY_THYROID = Object.freeze({
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-16",
   "readingManifest": "./data/terapia-tiroidea-reading.json",
-  "coverage": "45 pagine locali uniche pertinenti alla tiroide lette,41 con passaggi integrati. In questo ampliamento:6 pagine nuove lette e controllate,4 contribuiscono alla sintesi. Altre4 pagine di argomenti diversi restano nel registro privato e non aumentano la copertura del capitolo. Nessun libro o corso interamente letto; nessuna revisione clinica indipendente.",
-  "wordCount": 4812
+  "coverage": "49 pagine locali uniche pertinenti alla tiroide lette, 46 con passaggi integrati. In questo ampliamento: 4 pagine nuove e 1 riletta, tutte controllate visivamente e utilizzate per passaggi selezionati. Altre 3 pagine del corso restano nel registro privato e non aumentano la copertura tiroidea. Nessun libro o corso interamente letto; nessuna revisione clinica indipendente.",
+  "wordCount": 5442
 });
