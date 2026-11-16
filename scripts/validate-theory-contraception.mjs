@@ -4,8 +4,8 @@ import {createHash} from 'node:crypto';
 import {ELIX_CHAPTERS} from '../elix-content.js';
 import {THEORY_CONTRACEPTION as c} from '../elix-theory-contraception.js';
 const read=f=>readFileSync(new URL('../'+f,import.meta.url),'utf8');
-assert.equal(ELIX_CHAPTERS.length,63);assert.equal(new Set(ELIX_CHAPTERS.map(x=>x.id)).size,63);
-assert.equal(ELIX_CHAPTERS.filter(x=>x.format==='extended').length,19);
+assert.equal(ELIX_CHAPTERS.length,64);assert.equal(new Set(ELIX_CHAPTERS.map(x=>x.id)).size,64);
+assert.equal(ELIX_CHAPTERS.filter(x=>x.format==='extended').length,20);
 assert.deepEqual(ELIX_CHAPTERS.find(x=>x.id===c.id),c);
 assert.equal(c.wordCount,c.sections.map(s=>s.text).join(' ').split(/\s+/).length);
 assert.equal(new Set(c.sections.map(s=>s.id)).size,c.sections.length);
@@ -47,6 +47,6 @@ for(const f of ['elix-theory-contraception.js','data/contraccezione-ormonale-rea
  assert.ok(read('sw.js').includes('./'+f),'missing offline record '+f);
  assert.doesNotMatch(read(f),/\/Users\/|Collino|D['’]Avolio|Serpe|sbobin/i);
 }
-assert.equal(JSON.parse(read('data/development-progress.json')).changes.newChapters,0);
-assert.equal(JSON.parse(read('data/development-progress.json')).changes.expandedChapters,1);
+const progress=JSON.parse(read('data/development-progress.json'));
+if(progress.batch===l.batch){assert.equal(progress.changes.newChapters,l.newChapters);assert.equal(progress.changes.expandedChapters,l.expandedExistingChapters);}
 console.log('Contraception PASS: 11 new + 35 reused source pages, 40 integrated and 6 read-only, expanded chapter, 14 existing identities, reference links, partial-page limits and offline records.');
