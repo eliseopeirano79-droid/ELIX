@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "chapterId": "terapia-tiroidea",
-  "batch": "theory-course-811-815",
-  "reviewedAt": "2026-11-16T15:54:57.244555+00:00",
+  "batch": "theory-course-816-820",
+  "reviewedAt": "2026-11-16T16:45:19.649380+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "9e421c888f0df6070f302f93b40be9b82eebb7d618a2788f36afef89754a6a5c",
+  "moduleSha256": "e24439c0d175f5db9179efcf10ebcb23db6eb7603f8ffa78d8586ea01618d708",
   "checks": [
-    "Revisione editoriale mirata delle cinque sezioni nuove o ampliate; capitolo complessivo di16sezioni,4258parole,17quesiti,15schemi e15riferimenti. Le undici sezioni conservate mantengono la revisione precedente.",
-    "Due nuove sezioni, tre ampliate, undici conservate; gli altri capitoli da confrontare strutturalmente.",
-    "Distinti sensibilità beta-adrenergica, stato stazionario e feedback, riserva surrenalica, TPO e ormone preformato.",
-    "Sei collegamenti a identità già esistenti mantenuti; zero nuove identità, sintesi di farmaci o profili.",
-    "Rilettura del solo integratore; le affermazioni escluse dalle pagine non sono convalidate."
+    "Revisione editoriale delle due sezioni nuove;18sezioni,4812parole,19quesiti,17schemi e17riferimenti. Sedici sezioni precedenti conservate.",
+    "Distinti controllo durante terapia, remissione, causa autoimmune e autonomia nodulare.",
+    "Separati captazione ioduro, radiazione beta, asportazione, funzione residua e rischi di strutture diverse.",
+    "Zero nuovi capitoli, identità, sintesi di farmaci, profili o laboratori; collegamenti esistenti mantenuti.",
+    "Revisione del solo integratore; nessuna convalida delle affermazioni escluse dalle fonti."
   ],
   "conflicts": [
     {
@@ -189,16 +189,45 @@
       "issue": "Effetto periferico del PTU potrebbe essere scambiato per superiorità universale.",
       "resolution": "Separati meccanismo aggiuntivo e valutazione beneficio/rischio; rischi epatici ed ematologici confrontati con documenti di prodotto.",
       "status": "resolved_for_scope"
+    },
+    {
+      "id": "radioiodine-cancer-history",
+      "issue": "Katzung795 rassicura sul rischio oncologico; le tabelle del corso2023/2024 riportano possibilità o evidenza conflittuale.",
+      "resolution": "Nessuna stima o rassicurazione pubblicata; quesito non risolto da questa revisione limitata.",
+      "status": "unresolved_not_transferred"
+    },
+    {
+      "id": "treatment-endpoints",
+      "issue": "Le tabelle affiancano remissione, normalizzazione e trattamento definitivo con percentuali non equivalenti.",
+      "resolution": "Distinti gli esiti e la causa senza trasferire le percentuali.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "radioiodine-kinetics",
+      "issue": "Katzung795 indica cinque giorni senza distinguere chiaramente emivita fisica, biologica ed efficace; Rang descrive località in termini assoluti.",
+      "resolution": "Nessun numero o garanzia di località assoluta; descritti captazione e danno progressivo.",
+      "status": "excluded_quantitative_transfer"
+    },
+    {
+      "id": "treatment-table-pregnancy",
+      "issue": "La tabella2024 richiede lettura della nota di eccezione al secondo trimestre; regimi e calendari dipendono dal contesto.",
+      "resolution": "Gravidanza, dosi e calendari esclusi dal nuovo testo.",
+      "status": "excluded_out_of_scope"
+    },
+    {
+      "id": "thyroid-topic-boundary",
+      "issue": "Dopo817 il corso cambia argomento; appunti336 iniziano una nuova lezione.",
+      "resolution": "Quattro pagine di altri argomenti registrate privatamente, nessun aumento della copertura tiroidea.",
+      "status": "topic_separated"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente o validazione specialistica.",
-    "Questo lotto: 12 pagine locali lette e controllate visivamente, 10 nuove e 2 rilette. Cumulativo: 39 pagine uniche lette, 37 con passaggi integrati; nessun libro o corso interamente letto.",
-    "PDF 656 di Rang letto come contesto, senza nuovi passaggi integrati; 657 integrato soltanto per i meccanismi. Algoritmi, dosi e regole universali delle fonti esclusi.",
-    "Appunti I PDF334–335 riletti; PDF333 e gli intervalli di Farmacologia II dei lotti precedenti conservati senza nuova lettura. Figure condivise non considerate conferme indipendenti.",
-    "Per NICE consultati passaggi ufficiali indicizzati; accesso diretto limitato. Nessuna lettura integrale della linea guida o revisione sistematica.",
-    "SmPC britannici di levotiroxina e di due prodotti di propiltiouracile confrontati nei soli passaggi dichiarati; non verificati RCP italiani o disponibilità locale.",
-    "Escluse posologie, equivalenze dei preparati storici, gravidanza, algoritmi di emergenza e trattamento del sovradosaggio. Latenza dei segni non interpretata come finestra di sicurezza.",
-    "Contributi pregressi su amiodarone e checkpoint mantenuti; altri intervalli di libri e corsi restano da riconciliare."
+    "Questo capitolo:6pagine nuove lette e controllate,4 con passaggi integrati; cumulativo45lette e41integrate. Nessun libro o corso interamente letto.",
+    "Quattro altre pagine lette nel lotto restano nel registro privato:tre su contraccezione e una di inizio argomento osseo; escluse dalla copertura tiroidea.",
+    "Le due tabelle del corso riprendono rassegne2023/2024: letti solo gli estratti visibili, non gli articoli integrali. Dosi, percentuali e indicazioni universali non trasferite.",
+    "Katzung794 e Rang658 letti come contesto; curva34.5 non riprodotta. Le rassicurazioni storiche sul radioiodio non sono state convalidate.",
+    "NICE consultato nei soli passaggi ufficiali indicizzati, accesso diretto403; schedeATA informative, con data di revisione non indicata. Non effettuata revisione sistematica.",
+    "Contributi precedenti di appuntiI e corsiII conservati senza nuova lettura. Non verificati protocolli italiani, dosimetria, gravidanza o disponibilità locale."
   ]
 }

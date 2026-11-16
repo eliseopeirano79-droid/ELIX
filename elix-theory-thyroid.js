@@ -150,6 +150,31 @@ export const THEORY_THYROID = Object.freeze({
       "formula": "TPO inibita → minore nuova sintesi; ormone già formato ancora disponibile → risposta differita"
     },
     {
+      "id": "controllo-e-remissione",
+      "title": "Controllo biochimico, remissione e causa dell’ipertiroidismo",
+      "refs": [
+        "CFI",
+        "NICE",
+        "ATAG",
+        "ATAH"
+      ],
+      "text": "Una concentrazione ormonale rientrata nell’intervallo di riferimento può descrivere il risultato di un trattamento ancora in corso. Non dimostra, da sola, che il processo responsabile dell’ipertiroidismo sia terminato. Il controllo biochimico e la remissione sono quindi esiti diversi: nel primo si osserva la funzione tiroidea sotto l’effetto della terapia; nel secondo si valuta se il miglioramento persiste anche dopo la conclusione del trattamento, nel tempo e con i controlli appropriati.\n\nLa distinzione diventa più chiara confrontando due cause di aumentata sintesi. Nella malattia di Graves, anticorpi stimolanti attivano il recettore del TSH sulla cellula follicolare. Una tionamide interviene più a valle, sulle reazioni di sintesi sostenute dalla TPO: il suo effetto farmacologico non equivale a neutralizzare direttamente quegli anticorpi. Durante il trattamento può verificarsi una remissione della malattia, ma non è garantita dal semplice blocco enzimatico. Nelle forme nodulari autonome, invece, ridurre la sintesi non elimina il tessuto responsabile dell’autonomia. La stessa risposta iniziale al farmaco può perciò avere significati diversi per l’evoluzione successiva.\n\nNICE distingue esplicitamente Graves e gozzo nodulare tossico nel discutere le opzioni terapeutiche. La causa, la probabilità di remissione, i problemi compressivi e l’eventuale interessamento oculare partecipano alla scelta. Questo spiega perché una tabella con una sola percentuale di «successo» possa essere fuorviante: normalizzazione durante la terapia, assenza di recidiva dopo la sospensione e controllo ottenuto eliminando tessuto funzionante non misurano lo stesso risultato. Prima di confrontare due trattamenti bisogna dunque definire quale esito viene contato e dopo quanto tempo, oltre alla popolazione studiata.",
+      "formula": "Causa → produzione aumentata; farmaco → controllo della sintesi. Controllo durante terapia ≠ remissione dopo terapia."
+    },
+    {
+      "id": "radioiodio-e-tessuto-funzionante",
+      "title": "Radioiodio e chirurgia: intervenire sul tessuto funzionante",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "RANG",
+        "NICE",
+        "ATAH"
+      ],
+      "text": "Lo iodio radioattivo sfrutta una proprietà già incontrata nella fisiologia follicolare: la tiroide concentra ioduro per costruire gli ormoni. Il trasporto contribuisce a portare lo iodio-131 nel tessuto, mentre l’emissione di radiazione beta produce il danno cellulare che sostiene l’effetto terapeutico. Captazione e danno sono due passaggi della stessa strategia. Il bersaglio finale è il tessuto capace di produrre ormone; non si tratta di occupare TR come antagonista né di bloccare soltanto la TPO.\n\nLa distinzione dallo ioduro non radioattivo è essenziale. Un carico di ioduro può modificare temporaneamente i processi tiroidei; nel radioiodio interviene anche il decadimento dell’isotopo. La comune presenza di iodio non rende equivalenti gli effetti. Inoltre, captare il radionuclide non significa ottenere immediatamente il risultato endocrino: il danno del tessuto e la variazione dell’esposizione ormonale si sviluppano nel tempo. Come per le tionamidi, occorre distinguere l’evento iniziale dalla risposta misurata; il passaggio che determina il ritardo, però, non è identico.\n\nLa tiroidectomia riduce invece la capacità secretoria asportando tessuto. L’asportazione totale e quella limitata a una parte della ghiandola lasciano riserve funzionali differenti. Dopo la rimozione completa viene meno la fonte tiroidea di ormone e diventa necessaria la sostituzione; dopo un intervento parziale la funzione residua va valutata. Anche il radioiodio può condurre a ipotiroidismo. Il successivo impiego di levotiroxina può quindi appartenere al percorso terapeutico conseguente al controllo dell’ipertiroidismo, senza rappresentare di per sé una contraddizione farmacologica.\n\nLa funzione della tiroide non è l’unico esito rilevante. L’orbitopatia di Graves richiede una valutazione distinta e il radioiodio può peggiorarla. Per la chirurgia, le strutture vicine aiutano a comprendere rischi diversi: il danno alle paratiroidi può compromettere il controllo della calcemia, quello ai nervi laringei la funzione vocale. Queste differenze spiegano perché il confronto debba includere organi coinvolti, rapidità, persistenza e conseguenze del trattamento. Una percentuale di efficacia isolata non sostituisce questo ragionamento.",
+      "formula": "Iodio-131: captazione → danno del tessuto → produzione ridotta. Chirurgia: asportazione → capacità secretoria residua. Dopo entrambi: funzione tiroidea da rivalutare."
+    },
+    {
       "id": "farmaci-e-sedi-di-interazione",
       "title": "Dove agisce l’interazione: ghiandola, distribuzione o metabolismo?",
       "refs": [
@@ -270,33 +295,41 @@ export const THEORY_THYROID = Object.freeze({
     {
       "question": "Una tionamide blocca direttamente la liberazione di tutto l’ormone già formato?",
       "answer": "No. Riduce la nuova sintesi; depositi già costituiti e ormone circolante contribuiscono al ritardo della risposta. Il propiltiouracile aggiunge un effetto sulla conversione periferica."
+    },
+    {
+      "question": "Una funzione tiroidea normale durante una tionamide dimostra la remissione della malattia?",
+      "answer": "No. Dimostra il controllo nel momento osservato; la remissione richiede una valutazione dopo il trattamento. La causa conta: Graves e autonomia nodulare non hanno la stessa evoluzione."
+    },
+    {
+      "question": "Perché la levotiroxina può essere necessaria dopo un trattamento dell’ipertiroidismo?",
+      "answer": "Se l’asportazione o il danno del tessuto riducono la funzione tiroidea fino all’ipotiroidismo, occorre sostituire l’ormone mancante. Controllare l’eccesso e conservare la capacità secretoria sono esiti differenti."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · AA 2025–26",
-      "detail": "PDF 801–815, etichette 799–813, in tre lotti. In questo lotto PDF 811–815: testo, tabelle e figure letti integralmente. Algoritmo e dosi di PDF 813 esclusi; figure condivise con gli appunti non considerate conferme indipendenti. Vignetta 810 già esclusa. Nessuna immagine riprodotta."
+      "detail": "PDF801–817, etichette799–815, in quattro lotti. In questo lotto PDF816–817: tabelle interamente lette come immagini, tratte da rassegne JAMA del17ottobre2023 e Lancet del24febbraio2024; articoli originali non letti integralmente. Percentuali, dosi e gerarchie universali escluse. Nessuna immagine riprodotta."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica · IX italiana 2014 / XII originale 2012",
-      "detail": "Capitolo 38, PDF 785–793, pagine editoriali 765–773, in tre lotti. PDF 791–793 letti integralmente in questo lotto, comprese tabella 38-4 e strutture 38-5. Integrati passaggi selezionati; dosi, equivalenze, disponibilità storiche e categorie di gravidanza escluse."
+      "detail": "Capitolo38, PDF785–795, editoriali765–775, in quattro lotti. PDF794–795 letti in questo lotto; integrati soltanto passaggi meccanicistici di795,794 come contesto. Nessuna dose, frequenza di rischio, rassicurazione oncologica storica o emivita dell’isotopo trasferita."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia · VIII italiana 2016 / originale 2015",
-      "detail": "Capitolo 34, PDF 651–657, numero editoriale non visibile. In questo lotto PDF 656–657 letti integralmente: 656 come contesto, 657 per i bersagli antitiroidei. Figure 34.1–34.4 controllate nei lotti precedenti. Dosi e regole terapeutiche universali non trasferite."
+      "detail": "Capitolo34, PDF651–659, numero editoriale non visibile. In questo lotto PDF658–659: testo, figura34.5 e riquadro controllati;658 come contesto,659 per il meccanismo. Curva storica, generalizzazioni sulle radiazioni e terapie storiche escluse."
     },
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I · AA 2025–26",
-      "detail": "Lezione 19 del 1 dicembre 2025, PDF 333–335, stampate 328–330. PDF 334–335 riletti in questo lotto; 333 conservato dal precedente. Tabelle e schemi condivisi con le diapositive non sono conferme indipendenti. Algoritmo, dosi e generalizzazioni terapeutiche esclusi."
+      "detail": "Lezione19 del1dicembre2025, PDF333–335, stampate328–330, letti nei lotti precedenti e mantenuti senza nuova lettura. Figure condivise non considerate conferme indipendenti; algoritmo, dosi e generalizzazioni esclusi."
     },
     {
       "id": "NICE",
       "title": "NICE NG145 · Thyroid disease: assessment and management · aggiornamento 2023",
-      "detail": "Consultazione 16 novembre 2026 dei passaggi ufficiali indicizzati: §§1.1.2,1.2.8–1.2.11,1.3.3–1.3.4,1.4.1–1.4.4,1.6.1 e1.6.5. Apertura diretta HTML/PDF negata (403); non dichiarata lettura integrale.",
+      "detail": "Consultazione 16 novembre 2026 dei passaggi ufficiali indicizzati: §§1.1.2,1.2.8–1.2.11,1.3.3–1.3.4,1.4.1–1.4.4,1.6.1 e1.6.5. Apertura diretta HTML/PDF negata (403); non dichiarata lettura integrale. In questo lotto confrontati i passaggi ufficiali indicizzati1.1.5 e1.6.9–1.6.17; apertura diretta403. Non trasferito un algoritmo terapeutico.",
       "url": "https://www.nice.org.uk/guidance/ng145/chapter/Recommendations"
     },
     {
@@ -355,6 +388,18 @@ export const THEORY_THYROID = Object.freeze({
       "title": "Propiltiouracile · SmPC britannico Wockhardt · testo 6 febbraio 2026",
       "detail": "Prodotto 3123, consultato 16 novembre 2026: §§4.4,4.8 per rischi ematologici ed epatici; §5.1 per sintesi e latenza dell’effetto. Documento di un altro prodotto, mantenuto distinto. Frequenze, protocolli e gravidanza non trasferiti.",
       "url": "https://www.medicines.org.uk/emc/product/3123/smpc"
+    },
+    {
+      "id": "ATAH",
+      "title": "American Thyroid Association · Hyperthyroidism",
+      "detail": "Consultato16novembre2026: sezioni su antitiroidei, radioiodio e chirurgia, per controllo/remissione, tessuto funzionante, funzione residua e rischi oculari/paratiroidei/laringei. Informazione ufficiale per pazienti; data di revisione non indicata. Nessuna dose o frequenza trasferita.",
+      "url": "https://www.thyroid.org/hyperthyroidism/"
+    },
+    {
+      "id": "ATAG",
+      "title": "American Thyroid Association · Graves’ Disease",
+      "detail": "Consultato16novembre2026: causa immunologica e trattamento, per anticorpi al recettore delTSH e possibilità di remissione. Informazione ufficiale per pazienti; data di revisione non indicata. Nessun regime o calendario trasferito.",
+      "url": "https://www.thyroid.org/graves-disease/"
     }
   ],
   "moleculeLinks": [
@@ -395,6 +440,6 @@ export const THEORY_THYROID = Object.freeze({
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-16",
   "readingManifest": "./data/terapia-tiroidea-reading.json",
-  "coverage": "39 pagine locali uniche lette nei tre lotti, 37 con passaggi integrati. In questo ampliamento: 12 pagine lette e controllate visivamente, 10 nuove e 2 rilette; 11 contribuiscono alla sintesi. Nessun libro o corso interamente letto. Confronto ufficiale mirato; revisione clinica indipendente non eseguita.",
-  "wordCount": 4258
+  "coverage": "45 pagine locali uniche pertinenti alla tiroide lette,41 con passaggi integrati. In questo ampliamento:6 pagine nuove lette e controllate,4 contribuiscono alla sintesi. Altre4 pagine di argomenti diversi restano nel registro privato e non aumentano la copertura del capitolo. Nessun libro o corso interamente letto; nessuna revisione clinica indipendente.",
+  "wordCount": 4812
 });
