@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "menopausa-terapia-ormonale",
+  "batch": "theory-course-786-790",
+  "reviewedAt": "2026-11-16T10:22:44.541814+00:00",
+  "outcome": "pass",
+  "reviewType": "bounded_editorial_review_by_integrator",
+  "independentClinicalReview": false,
+  "clinicalValidation": false,
+  "moduleSha256": "fa2c11eec0eccee5b3a34613fce8876d3b86b85236bd22e8cd6cd002dcf94de9",
+  "checks": [
+    "Rilette le dieci sezioni, i dodici quesiti e i sette riferimenti.",
+    "Distinti ER/PR, organi bersaglio, primo passaggio e clearance, esposizione locale e sistemica.",
+    "Riconciliati i passaggi selezionati sui rischi con documenti ufficiali; conflitto guida/SmPC mantenuto.",
+    "Regimi e numeri storici esclusi; distinte indicazione sostitutiva e contraccezione.",
+    "Quindici nuove pagine e una riutilizzata; quindici integrate e una soltanto letta.",
+    "Schemi originali qualitativi, senza riproduzioni di figure delle fonti."
+  ],
+  "conflicts": [
+    {
+      "id": "local-systemic",
+      "issue": "Katzung829 generalizza quasi completo assorbimento e schemi ciclici degli estrogeni locali.",
+      "resolution": "Distinta via da esposizione; confronto limitato al prodotto vaginale britannico consultato.",
+      "status": "resolved_for_specific_product"
+    },
+    {
+      "id": "first-pass-clearance",
+      "issue": "Katzung828 usa la scorciatoia secondo cui le vie non orali non passano attraverso il fegato.",
+      "resolution": "Precisato che evitare il primo transito portale non elimina distribuzione epatica e clearance.",
+      "status": "resolved"
+    },
+    {
+      "id": "breast-risk-guarantee",
+      "issue": "Katzung828 offre una rassicurazione categorica per i primi sette anni se l’inizio è immediato.",
+      "resolution": "Garanzia non adottata; distinzione di composizione e durata verificata nello SmPC progesterone.",
+      "status": "excluded_historical_generalization"
+    },
+    {
+      "id": "no-assessment",
+      "issue": "APP331 sembra dispensare da ulteriori controlli per età e intervallo dalla menopausa.",
+      "resolution": "Non adottata; valutazione individuale mantenuta.",
+      "status": "resolved"
+    },
+    {
+      "id": "bone-endothelium",
+      "issue": "APP331 collega il beneficio osseo alla presenza di endotelio sano.",
+      "resolution": "Separati rimodellamento osseo e ragionamento vascolare.",
+      "status": "resolved"
+    },
+    {
+      "id": "continuous-bleeding",
+      "issue": "APP331 rappresenta lo schema continuo combinato senza sanguinamento.",
+      "resolution": "Distinta risposta attesa da garanzia; possibili perdite e necessità di chiarirne la causa verificate nello SmPC.",
+      "status": "resolved"
+    },
+    {
+      "id": "symptoms-poi",
+      "issue": "APP331 generalizza l’avvio soltanto in presenza di sintomi.",
+      "resolution": "Distinto il contesto di insufficienza ovarica prematura.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "contraindications",
+      "issue": "CFI788–789 sovrappone liste generali e dettagli specifici.",
+      "resolution": "Distinti fattori di rischio, controllo della malattia e controindicazioni di prodotto; nessuna lista prescrittiva pubblicata.",
+      "status": "bounded_reconciliation"
+    },
+    {
+      "id": "guideline-label",
+      "issue": "ESE contempla uso vaginale in casi selezionati con storia di carcinoma mammario; lo SmPC consultato conserva la controindicazione.",
+      "resolution": "Divergenza esplicita, nessuna regola per superare il documento regolatorio.",
+      "status": "difference_preserved"
+    },
+    {
+      "id": "oral-progesterone",
+      "issue": "Rang669 descrive il progesterone orale come virtualmente inattivo.",
+      "resolution": "Specificata la formulazione micronizzata e distinta l’indicazione sostitutiva da quella contraccettiva.",
+      "status": "resolved_for_specific_product"
+    },
+    {
+      "id": "shared-figures",
+      "issue": "CFI786/APP331 condividono diagramma delle vie; APP331 richiama schema già visibile inCFI785. APP332 mostra continuazione del diagramma2019 diCFI790.",
+      "resolution": "Nessuna conferma indipendente o riproduzione; CFI785 non ricontata o dichiarata integrata in questo lotto.",
+      "status": "deduplicated_conceptually"
+    },
+    {
+      "id": "occlusion",
+      "issue": "CFI789 contiene pannelli sovrapposti; CFI790 soltanto frammento dell’algoritmo2019.",
+      "resolution": "Letto il contenuto visibile, nessuna ricostruzione del coperto o lettura dell’articolo intero dichiarata.",
+      "status": "bounded_uncertainty"
+    },
+    {
+      "id": "elinzanetant",
+      "issue": "APP332 ha denominazione imprecisa e testo NK3 a fronte di figura con NK1/NK3.",
+      "resolution": "Non integrato; verifica regolatoria dei trattamenti non ormonali fuori da questo lotto.",
+      "status": "deferred_not_clinically_adopted"
+    },
+    {
+      "id": "historical-scope",
+      "issue": "Dosi, stime, DES, protocolli ostetrici e PK di metaboliti descritti nei libri eccedono il lotto.",
+      "resolution": "Testo delle pagine letto, contenuti non trasferiti. Nessuna graduatoria di molecole o schemi numerici.",
+      "status": "excluded"
+    }
+  ],
+  "limits": [
+    "Sintesi didattica del solo integratore, senza revisione clinica indipendente o lettura integrale di libri, corsi e linee guida.",
+    "CFI789: pannelli sovrapposti; verificato solo il contenuto visibile. CFI790: frammento di algoritmo, articolo JAMA2019 non letto.",
+    "Figure condivise fra appunti e slide non considerate conferme indipendenti. Edizione del diagramma delle vie attribuito a Rossi–Cuomo–Riccardi non identificata.",
+    "Fonti britanniche usate per preparazioni e passaggi dichiarati; disponibilità, RCP e percorsi italiani non verificati. Dosi e regimi numerici non pubblicati.",
+    "NICE NG23: accesso diretto HTML/PDF negato403; risultati indicizzati usati soltanto per ricerca, non come verifica clinica completa.",
+    "Confronto ESE limitato a enunciati e passaggi selezionati; divergenza guida/SmPC sulla storia oncologica mantenuta.",
+    "Riconciliazione degli altri libri e di Farmacologia II/degli altri contributi del corso resta da ampliare; nessuna nuova lettura di tali contributi in questo lotto.",
+    "Terapie non ormonali, travaglio, DES e tabelle storiche non integrati. Metaboliti del progesterone inRang670 non trasferiti.",
+    "PDF786–790 costituisce l’unico intervallo nuovo del corso principale;791–795 non iniziato."
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "batch": "theory-course-786-790",
+  "chapterId": "menopausa-terapia-ormonale",
+  "updatedAt": "2026-11-16T10:22:44.541814+00:00",
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "newTargetProfiles": 0,
+  "newChapters": 1,
+  "expandedExistingChapters": 0,
+  "newReadPdfPages": 15,
+  "newCourseReadPdfPages": 7,
+  "newBookReadPdfPages": 8,
+  "newMainCoursePages": 5,
+  "newOtherSlidesPages": 0,
+  "newAppuntiPages": 2,
+  "reusedReadPdfPages": 1,
+  "totalReadPdfPages": 16,
+  "chapterReviewedPdfPages": 16,
+  "chapterSourcePdfPages": 15,
+  "newIntegratedPdfPages": 14,
+  "chapterIntegratedPdfPages": 15,
+  "sources": [
+    {
+      "id": "CFI",
+      "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
+      "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
+      "edition": "AA 2025–26",
+      "pdfPagesRead": [
+        786,
+        787,
+        788,
+        789,
+        790
+      ],
+      "visuallyCheckedPdfPages": [
+        786,
+        787,
+        788,
+        789,
+        790
+      ],
+      "integratedPdfPages": [
+        786,
+        787,
+        788,
+        789,
+        790
+      ],
+      "allContentsRead": false,
+      "substantiveExtractedTextReadPages": [
+        787,
+        788
+      ],
+      "imageTextReadPages": [
+        786,
+        789,
+        790
+      ],
+      "sourceUnchanged": true,
+      "readButNotIntegratedPdfPages": [],
+      "newlyReadTextPages": [
+        786,
+        787,
+        788,
+        789,
+        790
+      ],
+      "reusedPreviouslyReadPages": [],
+      "printedPageLabels": {
+        "786": "784 di934",
+        "787": "785 di934",
+        "788": "786 di934",
+        "789": "787 di934",
+        "790": "788 di934"
+      },
+      "partiallyOccludedPdfPages": [
+        789
+      ],
+      "partialPageLimit": "Pannelli sovrapposti a789, solo contenuto visibile; frammento di algoritmo a790, nessuna lettura del documento2019 completo.",
+      "integrationScope": "Passaggi selezionati e confronto critico dichiarato; non tutto il contenuto della pagina adottato."
+    },
+    {
+      "id": "KATZ",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "title": "Katzung, Farmacologia generale e clinica",
+      "edition": "IX italiana 2014 / XII originale 2012",
+      "pdfPagesRead": [
+        825,
+        826,
+        827,
+        828,
+        829,
+        830
+      ],
+      "visuallyCheckedPdfPages": [
+        825,
+        826,
+        827,
+        828,
+        829,
+        830
+      ],
+      "integratedPdfPages": [
+        825,
+        826,
+        827,
+        828,
+        829
+      ],
+      "allContentsRead": false,
+      "substantiveExtractedTextReadPages": [
+        825,
+        826,
+        827,
+        828,
+        829,
+        830
+      ],
+      "imageTextReadPages": [],
+      "sourceUnchanged": true,
+      "readButNotIntegratedPdfPages": [
+        830
+      ],
+      "newlyReadTextPages": [
+        825,
+        826,
+        827,
+        828,
+        829,
+        830
+      ],
+      "reusedPreviouslyReadPages": [],
+      "printedPageLabels": {
+        "825": "805",
+        "826": "806",
+        "827": "807",
+        "828": "808",
+        "829": "809",
+        "830": "810"
+      },
+      "integrationScope": "Passaggi selezionati e confronto critico dichiarato; non tutto il contenuto della pagina adottato."
+    },
+    {
+      "id": "RANG",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "title": "Rang & Dale, Farmacologia",
+      "edition": "VIII italiana 2016 / originale 2015",
+      "pdfPagesRead": [
+        668,
+        669,
+        670
+      ],
+      "visuallyCheckedPdfPages": [
+        668,
+        669,
+        670
+      ],
+      "integratedPdfPages": [
+        668,
+        669,
+        670
+      ],
+      "allContentsRead": false,
+      "substantiveExtractedTextReadPages": [
+        668,
+        669,
+        670
+      ],
+      "imageTextReadPages": [],
+      "sourceUnchanged": true,
+      "readButNotIntegratedPdfPages": [],
+      "newlyReadTextPages": [
+        668,
+        670
+      ],
+      "reusedPreviouslyReadPages": [
+        669
+      ],
+      "printedPageLabels": {
+        "668": null,
+        "669": null,
+        "670": null
+      },
+      "integrationScope": "Passaggi selezionati e confronto critico dichiarato; non tutto il contenuto della pagina adottato."
+    },
+    {
+      "id": "APP",
+      "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+      "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26 · lezione 19, 1 dicembre 2025",
+      "edition": "AA 2025–26",
+      "pdfPagesRead": [
+        331,
+        332
+      ],
+      "visuallyCheckedPdfPages": [
+        331,
+        332
+      ],
+      "integratedPdfPages": [
+        331,
+        332
+      ],
+      "allContentsRead": false,
+      "substantiveExtractedTextReadPages": [
+        331,
+        332
+      ],
+      "imageTextReadPages": [],
+      "sourceUnchanged": true,
+      "readButNotIntegratedPdfPages": [],
+      "newlyReadTextPages": [
+        331,
+        332
+      ],
+      "reusedPreviouslyReadPages": [],
+      "printedPageLabels": {
+        "331": "326; lezione7",
+        "332": "327; lezione8"
+      },
+      "integrationScope": "Passaggi selezionati e confronto critico dichiarato; non tutto il contenuto della pagina adottato."
+    }
+  ],
+  "officialSourceScopes": [
+    {
+      "id": "ESE",
+      "title": "European Society of Endocrinology · linea guida sulla menopausa · 13 ottobre2025",
+      "detail": "Enunciati R2.3–2.11 e R3.2–3.10; passaggi esplicativi selezionati su endometrio, POI, vie e rischio. Non lettura integrale né revisione indipendente degli studi. Consultazione 16 novembre 2026.",
+      "url": "https://academic.oup.com/ejendo/article/193/4/G49/8281862"
+    },
+    {
+      "id": "VAG",
+      "title": "Estradiol 10 mcg Vaginal Tablets · SmPC britannico · ADVANZ Pharma",
+      "detail": "Revisione5 gennaio2026, pagina emc16 gennaio2026; §§4.1–4.4,5.1–5.2 nei passaggi su obiettivo locale, esposizione, endometrio e controindicazioni. Consultazione16 novembre2026; nessuna disponibilità o istruzione italiana dedotta.",
+      "url": "https://www.medicines.org.uk/emc/product/11779/smpc"
+    },
+    {
+      "id": "PROG",
+      "title": "Progesterone 100 mg Soft Capsules · SmPC britannico · Flamingo Pharma",
+      "detail": "Revisione3 settembre2025; §§4.1–4.4,5.1 e assorbimento in5.2. Controllati endometrio, sanguinamento, distinzione dalla contraccezione e limiti del rischio mammario. Consultazione16 novembre2026; nessun regime quantitativo trasferito.",
+      "url": "https://www.medicines.org.uk/emc/product/101492/smpc"
+    }
+  ],
+  "limits": [
+    "Sintesi didattica del solo integratore, senza revisione clinica indipendente o lettura integrale di libri, corsi e linee guida.",
+    "CFI789: pannelli sovrapposti; verificato solo il contenuto visibile. CFI790: frammento di algoritmo, articolo JAMA2019 non letto.",
+    "Figure condivise fra appunti e slide non considerate conferme indipendenti. Edizione del diagramma delle vie attribuito a Rossi–Cuomo–Riccardi non identificata.",
+    "Fonti britanniche usate per preparazioni e passaggi dichiarati; disponibilità, RCP e percorsi italiani non verificati. Dosi e regimi numerici non pubblicati.",
+    "NICE NG23: accesso diretto HTML/PDF negato403; risultati indicizzati usati soltanto per ricerca, non come verifica clinica completa.",
+    "Confronto ESE limitato a enunciati e passaggi selezionati; divergenza guida/SmPC sulla storia oncologica mantenuta.",
+    "Riconciliazione degli altri libri e di Farmacologia II/degli altri contributi del corso resta da ampliare; nessuna nuova lettura di tali contributi in questo lotto.",
+    "Terapie non ormonali, travaglio, DES e tabelle storiche non integrati. Metaboliti del progesterone inRang670 non trasferiti.",
+    "PDF786–790 costituisce l’unico intervallo nuovo del corso principale;791–795 non iniziato."
+  ],
+  "deduplication": {
+    "priorRecordsChecked": 147,
+    "method": "SHA-256 del file e numero di pagina, solo campi espliciti di lettura; inventario ed estrazione esclusi dal conteggio.",
+    "independentConfirmationsFromSharedFigures": 0,
+    "reusedPages": {
+      "RANG": [
+        669
+      ]
+    }
+  }
+}

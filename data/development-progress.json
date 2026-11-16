@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-16T09:30:28.450862+00:00",
-  "batch": "theory-course-781-785",
+  "updatedAt": "2026-11-16T10:32:41.448895+00:00",
+  "batch": "theory-course-786-790",
   "status": "local_verified_pending_publication",
-  "release": "0.94.0",
-  "branch": "feat/theory-course-781-785",
-  "baseCommit": "39656a0477c60fd6b67cc02eb76ed295c09c5aa1",
+  "release": "0.95.0",
+  "branch": "feat/theory-course-786-790",
+  "baseCommit": "78ca0e4c7bc809e356f89cfd561ef749f59541ba",
   "previousBatch": {
-    "batch": "theory-course-776-780",
+    "batch": "theory-course-781-785",
     "status": "published_and_live_verified",
-    "release": "0.93.0",
-    "commit": "39656a0477c60fd6b67cc02eb76ed295c09c5aa1"
+    "release": "0.94.0",
+    "commit": "78ca0e4c7bc809e356f89cfd561ef749f59541ba"
   },
   "scope": [
-    "Ampliamento della contraccezione: emergenza e fase ovarica, peso ed evidenza, antagonismo di PR e misoprostolo."
+    "Nuovo capitolo di teoria dedicato a menopausa, recettori, vie, endometrio e interpretazione del rischio; nessun ampliamento conteggiato di capitoli esistenti."
   ],
   "completed": [
-    "11 nuove pagine lette e controllate visivamente;6 con passaggi integrati,35 precedenti riutilizzate.",
-    "Capitolo ampliato: 4416 parole, 17 sezioni, 22 domande, 13 schemi,23 riferimenti e 14 collegamenti a identità esistenti.",
-    "47 controlli dati,8 configurazioni browser,10 immagini ispezionate; ricerca, tastiera, fonti e offline verificati.",
-    "Aggiornamento reale0.93.0→0.94.0 con preferiti, progressi e tema conservati;62 altri capitoli e14 sezioni precedenti identici."
+    "15 nuove pagine lette e controllate visivamente;1 già documentata riutilizzata.",
+    "10 sezioni,12 domande,8 schemi originali,7 riferimenti e4 collegamenti a identità esistenti.",
+    "48 controlli dati superati;8 configurazioni browser e10 immagini ispezionate;ricerca,tastiera,fonti e offline verificati.",
+    "Aggiornamento reale0.94.0→0.95.0 con preferiti,progressi e tema conservati;63 capitoli precedenti identici."
   ],
   "remaining": [
     "CI, deploy e riscontro online."
@@ -30,8 +30,8 @@
     "pkFields": 420,
     "importedLabelsWithoutEditorial": 93,
     "targetProfiles": 36,
-    "chapters": 63,
-    "extendedChapters": 19,
+    "chapters": 64,
+    "extendedChapters": 20,
     "briefChapters": 44
   },
   "changes": {
@@ -40,46 +40,30 @@
     "newProductPKContexts": 0,
     "newPKFields": 0,
     "newTargetProfiles": 0,
-    "newChapters": 0,
-    "expandedChapters": 1,
+    "newChapters": 1,
+    "expandedChapters": 0,
     "newInteractiveLabs": 0,
-    "newSections": 3,
+    "newSections": 10,
     "expandedSections": 0,
-    "newLinksToExistingIdentities": 3,
-    "newStaticOriginalSchemas": 3,
-    "newSelfChecks": 4
+    "newLinksToExistingIdentities": 4,
+    "newStaticOriginalSchemas": 8,
+    "newSelfChecks": 12
   },
   "readingManifests": [
-    "data/contraccezione-ormonale-reading.json"
+    "data/menopausa-terapia-ormonale-reading.json"
   ],
   "limits": [
-    "Sintesi didattica di un solo integratore, non revisione clinica indipendente.",
-    "APP329: riga coperta non leggibile; testo disponibile e resto del rendering controllati.",
-    "Disponibilità, durate autorizzate e istruzioni italiane dei singoli prodotti non verificate; documenti britannici usati per meccanismi/unità/interazioni dichiarati.",
-    "PDF ufficiali AIFA non verificati visivamente dopo errori di accesso; usati solo passaggi testuali, nessuna tabella numerica.",
-    "Figura45.2 condivisa APP307/CFI769: origine editoriale non identificata; nessuna conferma indipendente. Bibliografia richiamata non dichiarata letta.",
-    "Riconciliazione limitata agli intervalli di Farmacologia I 2025–26 e II 2026–27 elencati; nessuna nuova lettura di Farmacologia generale e molecolare.",
-    "Intervalli precedenti di lettura respiratoria e ginecologica non integrati conservati nei registri di continuità, senza ricontarli qui.",
-    "CFI775 e APP326: stessa tabella44-2 con note inferiori mancanti; origine editoriale non identificata, nessuna conferma indipendente.",
-    "APP326: figura ER non integrata perché le etichette minute non sono state validate integralmente; confronti clinici senza fonte esclusi.",
-    "Katzung832: attività ricavate da specie e parametri diversi non trasferite come graduatoria clinica; dosi e usi storici esclusi.",
-    "CFI776 ripropone la figura ER di APP326: etichette leggibili nella diapositiva, senza retrodatare la lettura della figura più piccola.",
-    "CFI777–778 e APP327 condividono figure; articolo della copertina mostrata a777 non letto. Nessuna conferma indipendente.",
-    "Freccia lipidica di CFI778/APP327 ambigua: non trasferita. Androgenicità, profilo lipidico ed eventi clinici non equiparati.",
-    "Esclusa la deduzione secondo cui basse dosi annullino il rischio o stabiliscano da sole gli esami necessari.",
-    "CFI780: riga delle dimenticanze coperta, note mancanti e istruzioni generalizzate non adottate; CDC usato per eterogeneità dei meccanismi e dosi attive/placebo, senza protocolli.",
-    "Rang676 riletto e ricontrollato visivamente ma già contato; stime numeriche storiche non adottate. Nessuna nuova lettura degli altri contributi conservati.",
-    "EMA 2013–2014 consultata per distinzioni concettuali; tabella storica non usata come stima attuale. AIFA2024 ricontrollata nel testo; documenti non letti integralmente.",
-    "Emergenza e antagonismo di PR integrati solo nei meccanismi e nei limiti di interpretazione. Esclusi protocolli per dimenticanze, allattamento, gestione dell’interruzione, dosi, limiti gestazionali e raccomandazioni individuali.",
-    "46 pagine lette:11 nuove,35 già documentate;40 con passaggi integrati. Non integrate CFI784–785, Katzung838–840 e Rang677. Nessuna lettura integrale di libri, corsi o guide.",
-    "CFI785: testo estratto limitato al titolo ma diagramma TOS letto visivamente; nessuna etichetta di sola intestazione. Diagramma non integrato e origine non identificata.",
-    "CFI782–783/Appunti330: comunicato2013 e infografica condivisi; non conferme indipendenti. Curve e regimi storici esclusi; mifepristone distinto da misoprostolo.",
-    "Katzung841: spiegazione anti-impianto per ulipristal e tabella40-4 non adottate. Raffronto con OMS e scheda AEMPS, nessun regime ripubblicato.",
-    "PDF EMA di ellaOne non accessibile (429); usati passaggi HTML AEMPS/CIMA, con data di revisione non accertabile perché segnaposto. Nessuna lettura integrale dichiarata.",
-    "Fonti ufficiali spagnole usate per meccanismi e limiti dichiarati; disponibilità, RCP e percorsi italiani non riesaminati.",
-    "Katzung839–840 e Rang677: rischi e precauzioni storiche non rivalutati; Rang678: integrato soltanto contesto fisiologico uterino, non protocolli ostetrici o descrizione strutturale dell’ossitocina."
+    "Sintesi didattica del solo integratore, senza revisione clinica indipendente o lettura integrale di libri, corsi e linee guida.",
+    "CFI789: pannelli sovrapposti; verificato solo il contenuto visibile. CFI790: frammento di algoritmo, articolo JAMA2019 non letto.",
+    "Figure condivise fra appunti e slide non considerate conferme indipendenti. Edizione del diagramma delle vie attribuito a Rossi–Cuomo–Riccardi non identificata.",
+    "Fonti britanniche usate per preparazioni e passaggi dichiarati; disponibilità, RCP e percorsi italiani non verificati. Dosi e regimi numerici non pubblicati.",
+    "NICE NG23: accesso diretto HTML/PDF negato403; risultati indicizzati usati soltanto per ricerca, non come verifica clinica completa.",
+    "Confronto ESE limitato a enunciati e passaggi selezionati; divergenza guida/SmPC sulla storia oncologica mantenuta.",
+    "Riconciliazione degli altri libri e di Farmacologia II/degli altri contributi del corso resta da ampliare; nessuna nuova lettura di tali contributi in questo lotto.",
+    "Terapie non ormonali, travaglio, DES e tabelle storiche non integrati. Metaboliti del progesterone inRang670 non trasferiti.",
+    "PDF786–790 costituisce l’unico intervallo nuovo del corso principale;791–795 non iniziato."
   ],
-  "nextBatch": "Completare 781–785 e pubblicazione verificata;786–790 non iniziato.",
+  "nextBatch": "Completare786–790 e pubblicazione verificata;791–795 non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755"
