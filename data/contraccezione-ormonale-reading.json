@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "batch": "theory-course-766-770",
+  "chapterId": "contraccezione-ormonale",
+  "updatedAt": "2026-11-15T23:46:55.937754+00:00",
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "newTargetProfiles": 0,
+  "newChapters": 1,
+  "expandedExistingChapters": 0,
+  "newReadPdfPages": 18,
+  "newCourseReadPdfPages": 12,
+  "newBookReadPdfPages": 6,
+  "newMainCoursePages": 5,
+  "newOtherSlidesPages": 3,
+  "newAppuntiPages": 4,
+  "reusedReadPdfPages": 0,
+  "totalReadPdfPages": 18,
+  "chapterReviewedPdfPages": 18,
+  "chapterSourcePdfPages": 18,
+  "sources": [
+    {
+      "id": "CFI",
+      "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
+      "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
+      "edition": "AA 2025–26",
+      "pdfPagesRead": [
+        766,
+        767,
+        768,
+        769,
+        770
+      ],
+      "visuallyCheckedPdfPages": [
+        766,
+        767,
+        768,
+        769,
+        770
+      ],
+      "substantiveExtractedTextReadPages": [
+        766,
+        767,
+        770
+      ],
+      "imageTextReadPages": [
+        768,
+        769
+      ],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "newlyReadTextPages": [
+        766,
+        767,
+        768,
+        769,
+        770
+      ],
+      "reusedPreviouslyReadPages": [],
+      "integratedPdfPages": [
+        766,
+        767,
+        768,
+        769,
+        770
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "partiallyOccludedPdfPages": [],
+      "integrationScope": "Passaggi selezionati; non tutta la pagina riprodotta o adottata.",
+      "printedPageLabels": {
+        "766": "764 di 934",
+        "767": "765 di 934",
+        "768": "766 di 934",
+        "769": "767 di 934",
+        "770": "768 di 934"
+      }
+    },
+    {
+      "id": "KATZ",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "title": "Katzung, Farmacologia generale e clinica",
+      "edition": "IX italiana 2014 / XII originale 2012",
+      "pdfPagesRead": [
+        835,
+        836
+      ],
+      "visuallyCheckedPdfPages": [
+        835,
+        836
+      ],
+      "substantiveExtractedTextReadPages": [
+        836
+      ],
+      "imageTextReadPages": [
+        835
+      ],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "newlyReadTextPages": [
+        835,
+        836
+      ],
+      "reusedPreviouslyReadPages": [],
+      "integratedPdfPages": [
+        835,
+        836
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "partiallyOccludedPdfPages": [],
+      "integrationScope": "Passaggi selezionati; non tutta la pagina riprodotta o adottata.",
+      "printedPageLabels": {
+        "835": "815",
+        "836": "816"
+      }
+    },
+    {
+      "id": "RANG",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "title": "Rang & Dale, Farmacologia",
+      "edition": "VIII italiana 2016 / originale 2015",
+      "pdfPagesRead": [
+        667,
+        669,
+        675,
+        676
+      ],
+      "visuallyCheckedPdfPages": [
+        667,
+        669,
+        675,
+        676
+      ],
+      "substantiveExtractedTextReadPages": [
+        667,
+        669,
+        675,
+        676
+      ],
+      "imageTextReadPages": [],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "newlyReadTextPages": [
+        667,
+        669,
+        675,
+        676
+      ],
+      "reusedPreviouslyReadPages": [],
+      "integratedPdfPages": [
+        667,
+        669,
+        675,
+        676
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "partiallyOccludedPdfPages": [],
+      "integrationScope": "Passaggi selezionati; non tutta la pagina riprodotta o adottata.",
+      "printedPageLabels": {
+        "675": null,
+        "676": null,
+        "667": null,
+        "669": null
+      }
+    },
+    {
+      "id": "APP",
+      "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+      "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26 · lezione 19, 1 dicembre 2025",
+      "edition": "AA 2025–26",
+      "pdfPagesRead": [
+        307,
+        325,
+        328,
+        329
+      ],
+      "visuallyCheckedPdfPages": [
+        307,
+        325,
+        328,
+        329
+      ],
+      "substantiveExtractedTextReadPages": [
+        307,
+        325,
+        328,
+        329
+      ],
+      "imageTextReadPages": [],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "newlyReadTextPages": [
+        307,
+        325,
+        328,
+        329
+      ],
+      "reusedPreviouslyReadPages": [],
+      "integratedPdfPages": [
+        307,
+        325,
+        328,
+        329
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "partiallyOccludedPdfPages": [
+        329
+      ],
+      "integrationScope": "Passaggi selezionati; non tutta la pagina riprodotta o adottata.",
+      "lessonMetadata": [
+        {
+          "pdfPages": [
+            307
+          ],
+          "printedPages": [
+            302
+          ],
+          "lesson": 17,
+          "date": "2025-11-25",
+          "headerOnlyPdfPage": 293
+        },
+        {
+          "pdfPages": [
+            325,
+            328,
+            329
+          ],
+          "printedPages": [
+            320,
+            323,
+            324
+          ],
+          "lesson": 19,
+          "date": "2025-12-01"
+        }
+      ],
+      "printedPageLabels": {
+        "307": "302",
+        "325": "320",
+        "328": "323",
+        "329": "324"
+      }
+    },
+    {
+      "id": "SFI",
+      "sha256": "2aa41f52273c94a370c48f7baf801b521912e442c875ceb5dabf0bf634fc9e95",
+      "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
+      "edition": "AA 2025–26",
+      "pdfPagesRead": [
+        486
+      ],
+      "visuallyCheckedPdfPages": [
+        486
+      ],
+      "substantiveExtractedTextReadPages": [
+        486
+      ],
+      "imageTextReadPages": [],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "newlyReadTextPages": [
+        486
+      ],
+      "reusedPreviouslyReadPages": [],
+      "integratedPdfPages": [
+        486
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "partiallyOccludedPdfPages": [],
+      "integrationScope": "Passaggi selezionati; non tutta la pagina riprodotta o adottata.",
+      "printedPageLabels": {
+        "486": "484 di 566"
+      }
+    },
+    {
+      "id": "DAB",
+      "sha256": "e42abac9e89ea4c51ad4bb45e8ef4888955bb511a5e7fb5fc1fcf4ca5882ebe2",
+      "title": "Appunti e diapositive del corso di Farmacologia II · 2026–27 · antibatterici",
+      "edition": "AA 2026–27",
+      "pdfPagesRead": [
+        374
+      ],
+      "visuallyCheckedPdfPages": [
+        374
+      ],
+      "substantiveExtractedTextReadPages": [
+        374
+      ],
+      "imageTextReadPages": [],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "newlyReadTextPages": [
+        374
+      ],
+      "reusedPreviouslyReadPages": [],
+      "integratedPdfPages": [
+        374
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "partiallyOccludedPdfPages": [],
+      "integrationScope": "Passaggi selezionati; non tutta la pagina riprodotta o adottata.",
+      "printedPageLabels": {
+        "374": null
+      }
+    },
+    {
+      "id": "DAV",
+      "sha256": "5bcf1690acad9a4fd9f404939a1bc4804b77fe5697382f400242f7637f814cd5",
+      "title": "Appunti e diapositive del corso di Farmacologia II · 2026–27 · antivirali",
+      "edition": "AA 2026–27",
+      "pdfPagesRead": [
+        117
+      ],
+      "visuallyCheckedPdfPages": [
+        117
+      ],
+      "substantiveExtractedTextReadPages": [
+        117
+      ],
+      "imageTextReadPages": [],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "newlyReadTextPages": [
+        117
+      ],
+      "reusedPreviouslyReadPages": [],
+      "integratedPdfPages": [
+        117
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "partiallyOccludedPdfPages": [],
+      "integrationScope": "Passaggi selezionati; non tutta la pagina riprodotta o adottata.",
+      "printedPageLabels": {
+        "117": "123"
+      }
+    }
+  ],
+  "officialSourceScopes": [
+    {
+      "id": "FSRH",
+      "title": "FSRH · Combined hormonal contraception · 2019, emendata ottobre 2023",
+      "detail": "§5.3, p.5 editoriale / PDF19; solo confronto del meccanismo principale, non lettura integrale.",
+      "url": "https://www.fsrh.org/Common/Uploaded%20files/documents/fsrh-guideline-combined-hormonal-contraception-october-2023.pdf"
+    },
+    {
+      "id": "CDC",
+      "title": "CDC · U.S. Selected Practice Recommendations · 2024",
+      "detail": "Overview: composizione, schemi prolungati/continui e mancata protezione dalle infezioni; non lettura integrale della guida.",
+      "url": "https://www.cdc.gov/contraception/hcp/usspr/combined-hormonal-contraceptives.html"
+    },
+    {
+      "id": "NUV",
+      "title": "NuvaRing · SmPC britannico, Organon · pagina emc aggiornata 15 giugno 2026",
+      "detail": "§§1–2 e 4.5: unità, rilascio e interazioni selezionate. Non istruzioni italiane né revisione integrale del prodotto.",
+      "url": "https://www.medicines.org.uk/emc/product/6449/smpc"
+    },
+    {
+      "id": "NEX",
+      "title": "Nexplanon · SmPC britannico, Organon · pagina emc aggiornata 15 maggio 2026",
+      "detail": "§2 e §5.1, meccanismo iniziale: contenuto, recettore del progesterone e inibizione ovulatoria. Durata autorizzata non generalizzata all’Italia.",
+      "url": "https://www.medicines.org.uk/emc/product/5720/smpc"
+    },
+    {
+      "id": "AIFA",
+      "title": "AIFA · nota informativa clormadinone/etinilestradiolo · 22 marzo 2024",
+      "detail": "Passaggi testuali PDF1–3 su rischio di TEV e rivalutazione; tabella numerica non riprodotta, PDF non verificato visivamente.",
+      "url": "https://www.aifa.gov.it/documents/20142/2254729/2024.03.22_NII_clormardinone-acetato-etinilestradiolo_IT.pdf"
+    },
+    {
+      "id": "AIFAC",
+      "title": "AIFA · lista di controllo per i prescrittori di contraccettivi combinati · file maggio 2021",
+      "detail": "Passaggi PDF1–2 su controindicazioni e rischio individuale; da usare insieme al RCP. Nel documento la data di approvazione finale è un segnaposto. Nessun algoritmo completo ripubblicato.",
+      "url": "https://www.aifa.gov.it/documents/20142/1313724/2021.05.17_lista_controllo_per_prescrittori.pdf"
+    }
+  ],
+  "limits": [
+    "Sintesi didattica di un solo integratore, non revisione clinica indipendente.",
+    "Solo18pagine locali documentate; nessuna lettura integrale di libri, corsi o guide.",
+    "APP329: riga coperta non leggibile; testo disponibile e resto del rendering controllati.",
+    "Disponibilità, durate autorizzate e istruzioni italiane dei singoli prodotti non verificate; documenti britannici usati per meccanismi/unità/interazioni dichiarati.",
+    "Esclusi emergenza contraccettiva, protocolli per dimenticanze, allattamento, indicazioni oncologiche e trattamento dell’infertilità.",
+    "PDF ufficiali AIFA non verificati visivamente dopo errori di accesso; usati solo passaggi testuali, nessuna tabella numerica.",
+    "Figura45.2 condivisa APP307/CFI769: origine editoriale non identificata; nessuna conferma indipendente. Bibliografia richiamata non dichiarata letta.",
+    "Riconciliazione limitata agli intervalli di Farmacologia I 2025–26 e II 2026–27 elencati; nessuna nuova lettura di Farmacologia generale e molecolare.",
+    "Intervalli precedenti di lettura respiratoria e ginecologica non integrati conservati nei registri di continuità, senza ricontarli qui."
+  ],
+  "deduplication": {
+    "recordsCheckedBeforeExtraction": 138,
+    "sourcePageOverlap": [],
+    "method": "Hash del file più pagine documentate nei registri precedenti; inventario ed estrazione non equivalgono a lettura.",
+    "sharedFigure": "APP307 e CFI769: stessa figura45.2, origine editoriale non identificata.",
+    "independentConfirmationsFromSharedFigures": 0
+  }
+}
