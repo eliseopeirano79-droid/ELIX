@@ -1,20 +1,19 @@
 {
   "schemaVersion": 1,
   "chapterId": "menopausa-terapia-ormonale",
-  "batch": "theory-course-786-790",
-  "reviewedAt": "2026-11-16T10:22:44.541814+00:00",
+  "batch": "theory-course-791-795",
+  "reviewedAt": "2026-11-16T11:17:36.059069+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "fa2c11eec0eccee5b3a34613fce8876d3b86b85236bd22e8cd6cd002dcf94de9",
+  "moduleSha256": "fd465515c9b20cffcc4a70ba9184ac1e5575ed81dac04874d297c5a0c6b0ce1b",
   "checks": [
-    "Rilette le dieci sezioni, i dodici quesiti e i sette riferimenti.",
-    "Distinti ER/PR, organi bersaglio, primo passaggio e clearance, esposizione locale e sistemica.",
-    "Riconciliati i passaggi selezionati sui rischi con documenti ufficiali; conflitto guida/SmPC mantenuto.",
-    "Regimi e numeri storici esclusi; distinte indicazione sostitutiva e contraccezione.",
-    "Quindici nuove pagine e una riutilizzata; quindici integrate e una soltanto letta.",
-    "Schemi originali qualitativi, senza riproduzioni di figure delle fonti."
+    "Rilette le quattro nuove sezioni, quattro domande e cinque nuovi riferimenti; dieci sezioni precedenti conservate.",
+    "Distinti sintomi e prevenzione, mortalità totale e cardiovascolare, assenza di evidenza ed equivalenza.",
+    "Separati ER, circuito KNDy, NK1/NK3 e NK3; sicurezza e metabolismo specifici del prodotto.",
+    "Cinque nuove pagine, diciassette già documentate; ventidue integrate per passaggi selezionati.",
+    "Tre nuovi schemi originali qualitativi; nessuna figura delle fonti riprodotta."
   ],
   "conflicts": [
     {
@@ -79,7 +78,7 @@
     },
     {
       "id": "shared-figures",
-      "issue": "CFI786/APP331 condividono diagramma delle vie; APP331 richiama schema già visibile inCFI785. APP332 mostra continuazione del diagramma2019 diCFI790.",
+      "issue": "CFI786/APP331 condividono diagramma delle vie; APP331 richiama schema già visibile inCFI785. APP332 mostra continuazione del diagramma2019 diCFI790. CFI792 e795 ripetono rispettivamente algoritmo e circuito presenti inAPP332.",
       "resolution": "Nessuna conferma indipendente o riproduzione; CFI785 non ricontata o dichiarata integrata in questo lotto.",
       "status": "deduplicated_conceptually"
     },
@@ -92,14 +91,38 @@
     {
       "id": "elinzanetant",
       "issue": "APP332 ha denominazione imprecisa e testo NK3 a fronte di figura con NK1/NK3.",
-      "resolution": "Non integrato; verifica regolatoria dei trattamenti non ormonali fuori da questo lotto.",
-      "status": "deferred_not_clinically_adopted"
+      "resolution": "Denominazione elinzanetant e antagonismo NK1/NK3 verificati in EMA5.1; indicazione oncologica limitata al contesto regolatorio specifico.",
+      "status": "resolved_for_scope"
     },
     {
       "id": "historical-scope",
       "issue": "Dosi, stime, DES, protocolli ostetrici e PK di metaboliti descritti nei libri eccedono il lotto.",
       "resolution": "Testo delle pagine letto, contenuti non trasferiti. Nessuna graduatoria di molecole o schemi numerici.",
       "status": "excluded"
+    },
+    {
+      "id": "universal-early-prevention",
+      "issue": "CFI793 suggerisce inizio quanto prima e funzione preventiva con endotelio sano.",
+      "resolution": "Distinte ipotesi biologica, scelta sintomatica e indicazione preventiva; ESE e USPSTF conservati nei rispettivi ambiti.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "mortality-outcome",
+      "issue": "CFI794 accosta mortalità per qualsiasi causa e cardiovascolare; frecce comprimono sottogruppi storici.",
+      "resolution": "Distinti esiti, oralità, sottogruppo esplorativo e assenza di prova; nessun numero estrapolato dal solo abstract.",
+      "status": "resolved"
+    },
+    {
+      "id": "first-nonhormonal",
+      "issue": "CFI795 riporta titolo2025 con generica prima terapia non ormonale.",
+      "resolution": "Primogenitura non adottata: EMA documenta autorizzazione di fezolinetant nel2023; nessuna graduatoria terapeutica.",
+      "status": "excluded_overbroad_headline"
+    },
+    {
+      "id": "post-stop-breast-risk",
+      "issue": "Rang671 propone scomparsa del rischio mammario entro cinque anni dalla sospensione.",
+      "resolution": "Rassicurazione temporale storica non trasferita; mantenuta distinzione di tessuti ed esiti.",
+      "status": "excluded_historical_generalization"
     }
   ],
   "limits": [
@@ -110,7 +133,10 @@
     "NICE NG23: accesso diretto HTML/PDF negato403; risultati indicizzati usati soltanto per ricerca, non come verifica clinica completa.",
     "Confronto ESE limitato a enunciati e passaggi selezionati; divergenza guida/SmPC sulla storia oncologica mantenuta.",
     "Riconciliazione degli altri libri e di Farmacologia II/degli altri contributi del corso resta da ampliare; nessuna nuova lettura di tali contributi in questo lotto.",
-    "Terapie non ormonali, travaglio, DES e tabelle storiche non integrati. Metaboliti del progesterone inRang670 non trasferiti.",
-    "PDF786–790 costituisce l’unico intervallo nuovo del corso principale;791–795 non iniziato."
+    "Nuovo confronto: USPSTF2022 limitato a sintesi della raccomandazione; Cochrane2015 al solo abstract, non alla revisione completa o ai forest plot. Nessuna stima quantitativa trasferita.",
+    "Elinzanetant: passaggi selezionati dello SmPC europeo, non intero documento; fezolinetant: SmPC britannico e nota AIFA. Disponibilità italiana dei prodotti non verificata.",
+    "EPAR HTML Lynkuet e PDF EMA Veoza non accessibili429; non dichiarati letti. Fonti alternative ufficiali indicate con ambito distinto.",
+    "Katzung830 e Rang671 già lette: ora integrate solo per distinguere bersagli ed esiti. Dosi, DES, travaglio, protocolli e rassicurazioni oncologiche storiche esclusi.",
+    "Unico nuovo intervallo del corso principale PDF791–795. Altre17 pagine del capitolo già documentate; soltanto8 ricontrollate visivamente in questo ciclo.796–800 non iniziato."
   ]
 }
