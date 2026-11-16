@@ -60,15 +60,39 @@ export const THEORY_CONTRACEPTION = Object.freeze({
       "text": "Dire che un metodo contiene soltanto un progestinico chiarisce l’assenza del componente estrogenico. Non specifica però quale progestinico sia utilizzato, con quale esposizione né attraverso quale preparazione. Non consente quindi di concludere che tutti questi metodi lascino invariata l’ovulazione.\n\nI libri descrivono preparazioni nelle quali l’inibizione ovulatoria non è costante e acquistano rilievo altri effetti, come quello sul muco cervicale. Questa osservazione va mantenuta legata alla preparazione descritta. Non può diventare la regola generale secondo cui un progestinico agirebbe sempre più debolmente o esclusivamente alla periferia.\n\nUn controesempio concreto è l’impianto di etonogestrel. Il relativo SmPC britannico identifica il recettore del progesterone fra i bersagli della molecola e l’inibizione dell’ovulazione come meccanismo contraccettivo principale, insieme a cambiamenti del muco cervicale. È quindi possibile avere un metodo senza estrogeno che esercita una marcata azione sul processo ovulatorio.\n\nIl ragionamento farmacologico deve proseguire dal nome della classe alla molecola e alla formulazione. L’etichetta comune orienta lo studio; le proprietà specifiche determinano ciò che è lecito prevedere."
     },
     {
+      "id": "dose-biodisponibilita",
+      "title": "Dose, attività e biodisponibilità descrivono cose diverse",
+      "refs": [
+        "CFI",
+        "KAT",
+        "RAN",
+        "PROG"
+      ],
+      "text": "Il dosaggio estrogenico è un criterio utile soltanto se si identifica anche la sostanza. Nelle classificazioni del corso, le categorie di dose riguardano soprattutto l’etinilestradiolo; le preparazioni contenenti estradiolo vengono descritte separatamente. Confrontare due numeri richiede prima di verificare molecola, unità e formulazione. Convertire milligrammi in microgrammi rende confrontabili le unità, ma non dimostra che masse uguali di ormoni diversi producano la stessa risposta.\n\nLa dose indica quanto farmaco viene somministrato. La biodisponibilità riguarda la frazione della dose che raggiunge la circolazione sistemica; l’attività farmacologica dipende anche dalle interazioni con i recettori e dal tessuto che risponde. Fra la compressa e l’effetto sull’asse ovarico ci sono quindi più passaggi. Una minore massa nella confezione non dimostra, da sola, una minore attività, una minore esposizione o un rischio inferiore.\n\nIl progesterone offre un esempio del ruolo della formulazione. Il metabolismo epatico presistemico limita l’esposizione dopo somministrazione orale delle preparazioni convenzionali descritte nei libri. Il problema non consiste nell’incapacità dell’ormone di attivare PR: riguarda la quantità che arriva ai tessuti dopo il passaggio attraverso il fegato. Lo sviluppo di progestinici di sintesi ha perseguito anche proprietà adatte alla somministrazione orale.\n\nLa frase secondo cui il progesterone sarebbe sempre inattivo per bocca richiede però una precisazione. Katzung descrive preparazioni micronizzate con attività orale, e lo SmPC britannico di progesterone micronizzato consultato documenta l’assorbimento per questa via. La formulazione conta anche quando la molecola conserva lo stesso nome.\n\nAssorbimento e indicazione restano distinti. Quella specifica preparazione di progesterone è destinata all’associazione con estrogeni nella terapia ormonale sostitutiva della donna in postmenopausa con utero; il documento precisa che non è adatta come contraccettivo. Ottenere un effetto progestinico sull’endometrio non basta dunque a dimostrare protezione contraccettiva. Il collegamento fra farmacocinetica, recettore e obiettivo clinico deve essere ricostruito per il prodotto considerato.",
+      "formula": "Dose somministrata → esposizione disponibile → interazione recettoriale → risposta del tessuto. Ogni passaggio aggiunge informazioni; la sola massa non stabilisce equivalenza o indicazione. Schema originale qualitativo."
+    },
+    {
+      "id": "generazioni-progestinici",
+      "title": "Generazioni e attività accessorie dei progestinici",
+      "refs": [
+        "CFI",
+        "KAT",
+        "EMAgen"
+      ],
+      "text": "Le generazioni dei progestinici sono un modo di ordinare lo sviluppo dei prodotti. Nel corso, il levonorgestrel compare fra quelli di seconda generazione e il desogestrel fra quelli di terza. Queste etichette aiutano a riconoscere una classificazione, ma non descrivono una scala di potenza crescente. L’EMA segnala che il raggruppamento non è standardizzato e può cambiare fra pubblicazioni e istituzioni.\n\nPer capire le differenze farmacologiche bisogna tornare alle molecole. I progestinici condividono l’attività sul sistema del progesterone, ma non costituiscono un gruppo uniforme per tutte le altre azioni. Katzung distingue proprietà progestiniche, androgeniche, antiandrogeniche e altre attività: un effetto comune su PR non rende identico l’intero profilo biologico. Anche il contesto cellulare contribuisce alla risposta, attraverso recettori, coregolatori e fattori di trascrizione.\n\nL’attività androgenica e quella progestinica rispondono quindi a domande diverse. La prima riguarda effetti riconducibili al sistema degli androgeni; la seconda collega il composto alle risposte del progesterone, fra cui quelle dell’endometrio e dell’asse riproduttivo. Descrivere un composto come meno androgenico non equivale a dimostrare che sia meno attivo come progestinico, né che presenti un rischio vascolare inferiore. Il rischio clinico richiede dati sulla preparazione e sulla popolazione in cui viene utilizzata.\n\nOccorre inoltre interpretare le tabelle sperimentali prima di trasformarle in classifiche. La tabella di Katzung avverte che alcune attività derivano da specie e parametri differenti e possono non valere nell’uomo. Un segno positivo in una colonna non quantifica un beneficio o un rischio per una persona; un segno negativo non costituisce una garanzia generale di sicurezza.\n\nPer lo studio conviene dunque associare al nome del progestinico tre domande: quale attività sostiene l’effetto desiderato, quali altre azioni sono documentate e in quale contesto sono state osservate. La generazione orienta nella storia dei prodotti; non sostituisce questa analisi.",
+      "formula": "Generazione: classificazione storica. Profilo farmacologico: attività della molecola. Rischio clinico: esito della preparazione in un contesto definito. Tre informazioni complementari, senza una graduatoria automatica. Schema originale."
+    },
+    {
       "id": "fasi-sanguinamento",
       "title": "Fasi della preparazione e sanguinamento da privazione",
       "refs": [
         "KAT",
         "RAN",
         "APP19",
-        "CDC"
+        "CDC",
+        "CFI"
       ],
-      "text": "Nelle preparazioni monofasiche le dosi attive mantengono la stessa composizione. Nelle preparazioni multifasiche la quantità di uno o di entrambi i componenti varia in passaggi programmati. La distinzione riguarda la confezione e la sequenza di assunzione, non l’idea che nell’organismo agisca un solo ormone per volta.\n\nUn secondo asse di classificazione è la presenza di intervalli senza ormoni. I testi descrivono il tradizionale schema con giorni di trattamento seguiti da una pausa, durante la quale può comparire un sanguinamento da privazione. Il termine privazione chiarisce il nesso con la diminuzione dell’esposizione ormonale: quel sanguinamento non dimostra che sia avvenuta una normale ovulazione.\n\nNon esiste però un obbligo farmacologico generale di riprodurre un sanguinamento mensile. Le raccomandazioni CDC descrivono anche schemi prolungati o continui con intervalli poco frequenti o assenti. La distinzione fra dosi attive e pausa resta valida, ma non coincide con una regola che vieti ogni uso continuativo. La formulazione e lo schema specifico devono essere identificati prima di interpretare la confezione.\n\nNumero delle fasi, durata dell’intervallo e composizione restano dunque tre informazioni distinte. Una confezione con compresse placebo non deve essere interpretata come se tutte le compresse fornissero la medesima dose attiva. Analogamente, il conteggio totale delle compresse non dice da solo quanti giorni di esposizione ormonale siano previsti.\n\nPer lo studio è utile ricostruire una sequenza: prima la composizione delle dosi attive, poi la loro distribuzione nel tempo, infine l’eventuale intervallo. Questa sequenza serve a comprendere il trattamento; le istruzioni operative devono invece riferirsi alla specifica preparazione.",
+      "text": "Nelle preparazioni monofasiche le dosi attive mantengono la stessa composizione. Nelle preparazioni multifasiche la quantità di uno o di entrambi i componenti varia in passaggi programmati. La distinzione riguarda la confezione e la sequenza di assunzione, non l’idea che nell’organismo agisca un solo ormone per volta.\n\nUn secondo asse di classificazione è la presenza di intervalli senza ormoni. I testi descrivono il tradizionale schema con giorni di trattamento seguiti da una pausa, durante la quale può comparire un sanguinamento da privazione. Il termine privazione chiarisce il nesso con la diminuzione dell’esposizione ormonale: quel sanguinamento non dimostra che sia avvenuta una normale ovulazione.\n\nNon esiste però un obbligo farmacologico generale di riprodurre un sanguinamento mensile. Le raccomandazioni CDC descrivono anche schemi prolungati o continui con intervalli poco frequenti o assenti. La distinzione fra dosi attive e pausa resta valida, ma non coincide con una regola che vieti ogni uso continuativo. La formulazione e lo schema specifico devono essere identificati prima di interpretare la confezione.\n\nNumero delle fasi, durata dell’intervallo e composizione restano dunque tre informazioni distinte. Una confezione con compresse placebo non deve essere interpretata come se tutte le compresse fornissero la medesima dose attiva. Analogamente, il conteggio totale delle compresse non dice da solo quanti giorni di esposizione ormonale siano previsti.\n\nPer lo studio è utile ricostruire una sequenza: prima la composizione delle dosi attive, poi la loro distribuzione nel tempo, infine l’eventuale intervallo. Questa sequenza serve a comprendere il trattamento; le istruzioni operative devono invece riferirsi alla specifica preparazione.\n\nUn grafico del ciclo ovarico spontaneo, con picchi di estradiolo e progesterone, non rappresenta automaticamente ciò che accade durante il trattamento. Analogamente, le altezze dei riquadri di uno schema di confezione possono indicare dosi programmate, non concentrazioni plasmatiche misurate. Una sequenza multifasica non dimostra quindi la riproduzione di un ciclo ovulatorio normale. Per leggere la figura occorre riconoscere se mostra secrezione endogena, quantità somministrata o concentrazione nel sangue.\n\nAnche la pausa di sette giorni appartiene a determinati schemi: non è una proprietà obbligatoria di tutte le preparazioni. Il CDC descrive anche intervalli più brevi e regimi con pause infrequenti o assenti. Non si deve modificare una confezione per adattarla a un disegno didattico; il disegno serve a distinguere le variabili, mentre la sequenza concreta appartiene alla documentazione del prodotto.",
       "formula": "Dosi attive costanti ≠ assenza di intervallo; variazione delle dosi ≠ cambio obbligato di molecola; sanguinamento da privazione ≠ prova di ovulazione. Confronti concettuali originali."
     },
     {
@@ -77,9 +101,11 @@ export const THEORY_CONTRACEPTION = Object.freeze({
       "refs": [
         "KAT",
         "NUV",
-        "NEX"
+        "NEX",
+        "CFI",
+        "APP19"
       ],
-      "text": "Una compressa, un anello e un impianto possono riportare numeri espressi in milligrammi o microgrammi, ma quei numeri non descrivono necessariamente la stessa grandezza. Il contenuto totale di un dispositivo è una quantità di sostanza; la velocità di rilascio è una quantità per unità di tempo. Confonderli rende sbagliato il confronto prima ancora di considerare assorbimento e risposta farmacologica.\n\nPer esempio, lo SmPC britannico di NuvaRing distingue il contenuto dell’anello dal rilascio medio giornaliero: etonogestrel 0,120 mg e etinilestradiolo 0,015 mg nelle 24 ore. Il dato riguarda quella preparazione. La presenza del tempo al denominatore è essenziale per comprenderlo.\n\nAnche i 68 mg indicati per l’impianto di etonogestrel rappresentano il contenuto del dispositivo, non una dose giornaliera di 68 mg. La quantità liberata nel tempo deve essere cercata separatamente nella documentazione della formulazione.\n\nUna tabella didattica può accostare contenuti, dosi somministrate e velocità di rilascio. Prima di usarla occorre controllare l’intestazione e l’unità di ciascuna riga. Il confronto fra metodi non può partire dal solo numero più piccolo: richiede di chiarire che cosa è stato misurato.",
+      "text": "Una compressa, un anello e un impianto possono riportare numeri espressi in milligrammi o microgrammi, ma quei numeri non descrivono necessariamente la stessa grandezza. Il contenuto totale di un dispositivo è una quantità di sostanza; la velocità di rilascio è una quantità per unità di tempo. Confonderli rende sbagliato il confronto prima ancora di considerare assorbimento e risposta farmacologica.\n\nPer esempio, lo SmPC britannico di NuvaRing distingue il contenuto dell’anello dal rilascio medio giornaliero: etonogestrel 0,120 mg e etinilestradiolo 0,015 mg nelle 24 ore. Il dato riguarda quella preparazione. La presenza del tempo al denominatore è essenziale per comprenderlo.\n\nAnche i 68 mg indicati per l’impianto di etonogestrel rappresentano il contenuto del dispositivo, non una dose giornaliera di 68 mg. La quantità liberata nel tempo deve essere cercata separatamente nella documentazione della formulazione.\n\nUna tabella didattica può accostare contenuti, dosi somministrate e velocità di rilascio. Prima di usarla occorre controllare l’intestazione e l’unità di ciascuna riga. Il confronto fra metodi non può partire dal solo numero più piccolo: richiede di chiarire che cosa è stato misurato.\n\nNelle tabelle delle associazioni orali anche due colonne affiancate possono usare unità diverse: microgrammi per un componente e milligrammi per l’altro. La conversione delle unità è necessaria per leggere correttamente le quantità, ma non trasforma quei numeri in una misura comune di potenza. Il numero di compresse associato a una riga descrive inoltre quante dosi appartengono a quella fase, un’informazione distinta dalla dose contenuta in ciascuna compressa.",
       "formula": "Contenuto [massa] ≠ rilascio [massa/tempo] ≠ concentrazione [massa/volume]. Schema originale delle grandezze, senza conversioni in equivalenze terapeutiche."
     },
     {
@@ -159,6 +185,18 @@ export const THEORY_CONTRACEPTION = Object.freeze({
     {
       "question": "Perché l’associazione di etinilestradiolo con alcuni regimi HCV richiede un ragionamento distinto?",
       "answer": "L’esito richiamato è un rischio di aumento delle ALT, non soltanto un possibile calo della protezione contraccettiva."
+    },
+    {
+      "question": "Basta convertire milligrammi in microgrammi per confrontare l’attività di due ormoni diversi?",
+      "answer": "No. La conversione confronta masse; attività ed esposizione richiedono anche identità della molecola, formulazione e proprietà farmacologiche. Non dimostra equivalenza terapeutica."
+    },
+    {
+      "question": "Una preparazione orale di progesterone assorbita dall’organismo è automaticamente un contraccettivo?",
+      "answer": "No. Assorbimento, risposta progestinica e protezione contraccettiva sono aspetti distinti. Il prodotto micronizzato consultato ha un’indicazione sostitutiva e non è adatto alla contraccezione."
+    },
+    {
+      "question": "Una generazione più recente garantisce maggiore potenza o minore rischio?",
+      "answer": "No. Le generazioni sono raggruppamenti storici non standardizzati. Profilo recettoriale e rischio clinico richiedono informazioni specifiche, e i risultati ottenuti in specie diverse non si trasferiscono automaticamente all’uomo."
     }
   ],
   "moleculeLinks": [
@@ -201,6 +239,10 @@ export const THEORY_CONTRACEPTION = Object.freeze({
     {
       "id": "CHEMBL3545123",
       "label": "PIBRENTASVIR"
+    },
+    {
+      "id": "CHEMBL103",
+      "label": "PROGESTERONE"
     }
   ],
   "relatedExistingChapterIds": [
@@ -209,23 +251,24 @@ export const THEORY_CONTRACEPTION = Object.freeze({
     "pro-farmaci-metaboliti-attivi",
     "recettori-e-legame",
     "metabolismo-trasportatori",
-    "emicrania"
+    "emicrania",
+    "first-pass-avanzato"
   ],
-  "wordCount": 1995,
+  "wordCount": 2776,
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
-  "reviewedAt": "2026-11-15",
+  "reviewedAt": "2026-11-16",
   "readingManifest": "./data/contraccezione-ormonale-reading.json",
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 766–770; una parte della terminologia e delle figure richiede le correzioni documentate nel registro privato."
+      "detail": "PDF 766–775; grafici fisiologici distinti da dosi e concentrazioni sotto trattamento. Note inferiori mancanti nella tabella a PDF775, non ricostruite."
     },
     {
       "id": "KAT",
       "title": "Katzung · IX edizione italiana 2014 / XII originale 2012",
-      "detail": "PDF 835–836, editoriali 815–816; tabella 40-3 non riprodotta; dosi e disponibilità storiche non adottate."
+      "detail": "PDF 831–833 e 835–836, editoriali 811–813 e 815–816. Formulazione, attività accessorie e limiti della tabella multi-specie; figure, dosi e disponibilità storiche non riprodotte."
     },
     {
       "id": "RAN",
@@ -241,7 +284,7 @@ export const THEORY_CONTRACEPTION = Object.freeze({
     {
       "id": "CDC",
       "title": "CDC · U.S. Selected Practice Recommendations · 2024",
-      "detail": "Overview: composizione, schemi prolungati/continui e mancata protezione dalle infezioni; non lettura integrale della guida.",
+      "detail": "Overview: composizione, intervalli, schemi prolungati/continui e mancata protezione dalle infezioni; passaggio sui regimi ricontrollato 16 novembre 2026. Non lettura integrale della guida.",
       "url": "https://www.cdc.gov/contraception/hcp/usspr/combined-hormonal-contraceptives.html"
     },
     {
@@ -264,7 +307,7 @@ export const THEORY_CONTRACEPTION = Object.freeze({
     {
       "id": "APP19",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26 · lezione 19, 1 dicembre 2025",
-      "detail": "PDF325,328–329, stampate320,323–324: schemi, rischio e interazioni; riga coperta della tabella329 non leggibile. Emergenza contraccettiva non trattata."
+      "detail": "PDF325–326,328–329, stampate320–321,323–324: schemi, rischio e interazioni; note mancanti della tabella326 e riga coperta della tabella329 non leggibili. Etichette minute della figura326 non validate integralmente e confronti clinici senza fonte esclusi. Emergenza contraccettiva non trattata."
     },
     {
       "id": "SFI",
@@ -292,7 +335,19 @@ export const THEORY_CONTRACEPTION = Object.freeze({
       "title": "AIFA · lista di controllo per i prescrittori di contraccettivi combinati · file maggio 2021",
       "detail": "Passaggi PDF1–2 su controindicazioni e rischio individuale; da usare insieme al RCP. Nel documento la data di approvazione finale è un segnaposto. Nessun algoritmo completo ripubblicato.",
       "url": "https://www.aifa.gov.it/documents/20142/1313724/2021.05.17_lista_controllo_per_prescrittori.pdf"
+    },
+    {
+      "id": "PROG",
+      "title": "Progesterone 100 mg Soft Capsules · SmPC britannico, Flamingo Pharma",
+      "detail": "Testo revisionato 3 settembre 2025, pagina emc aggiornata 24 ottobre 2025; consultati §2, §4.1, avvertenza iniziale §4.4 e passaggio sull’assorbimento in §5.2. Formulazione micronizzata, indicazione sostitutiva e assenza di indicazione contraccettiva; nessuna istruzione italiana o dose trasferita.",
+      "url": "https://www.medicines.org.uk/emc/product/101492/smpc"
+    },
+    {
+      "id": "EMAgen",
+      "title": "EMA · Combined hormonal contraceptives · procedura 2013–2014",
+      "detail": "Paragrafo sulle generazioni: classificazione storica non standardizzata, consultato 16 novembre 2026. Tabelle numeriche di rischio e ricostruzione storica della prima generazione non adottate.",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/referral-procedures-human-medicines/combined-hormonal-contraceptives"
     }
   ],
-  "coverage": "18 pagine locali esaminate e con passaggi integrati: 12 di appunti/diapositive e 6 di libri. Riga coperta a PDF329 degli appunti non leggibile. Fonti ufficiali consultate nei soli passaggi dichiarati; nessuna lettura integrale né revisione clinica indipendente. Emergenza contraccettiva e istruzioni operative escluse."
+  "coverage": "27 pagine locali esaminate con passaggi integrati: 18 di appunti/diapositive e 9 di libri. In questo ampliamento, 9 nuove pagine e 18 già documentate; nessun doppio conteggio. Note mancanti nelle tabelle PDF775 del corso e PDF326 degli appunti, riga coperta a PDF329 e piccole etichette della figura326 non validate integralmente. Fonti ufficiali consultate nei soli passaggi dichiarati; nessuna lettura integrale né revisione clinica indipendente. Emergenza contraccettiva e istruzioni operative escluse."
 });

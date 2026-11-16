@@ -1,19 +1,23 @@
 {
   "schemaVersion": 1,
   "chapterId": "contraccezione-ormonale",
-  "batch": "theory-course-766-770",
-  "reviewedAt": "2026-11-15T23:46:55.937754+00:00",
+  "batch": "theory-course-771-775",
+  "reviewedAt": "2026-11-16T00:42:51.347623+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "3b3a80996fd13bb10892fbf71a4c898aa7ebd5cc08b63ecb292deb08b633207c",
+  "moduleSha256": "91e8de0c43f68af8ad85a4912ab94b26da3e937cb2eba07148ecc93f69085aec",
   "checks": [
     "Rilette sintesi, quesiti e riferimenti; distinti composizione, via e schema temporale.",
     "Distinti ER/PR, segnali FSH/LH, ovulazione e contributi periferici.",
     "Corretti divieto di uso continuativo, generalizzazioni sui progestinici e unità dei dispositivi.",
     "Confronto mirato delle interazioni e del rischio con i documenti ufficiali indicati; nessun protocollo individuale.",
-    "Provenienza e limiti della riga coperta e delle figure condivise espliciti."
+    "Provenienza e limiti della riga coperta e delle figure condivise espliciti.",
+    "Riletto ampliamento: dose, frazione biodisponibile, attività recettoriale e indicazione distinti; progesterone micronizzato non generalizzato a contraccezione.",
+    "Generazioni storiche non equiparate a potenza o sicurezza; limite delle tabelle multi-specie mantenuto.",
+    "Grafici fisiologici, dosi e concentrazioni distinti; note mancanti e confronti clinici senza fonte esclusi.",
+    "Riconciliati 9 nuovi passaggi e 18 pagine precedenti, senza conteggiare di nuovo la rilettura di Rang669."
   ],
   "conflicts": [
     {
@@ -105,17 +109,64 @@
       "issue": "Riga della tabella sulle dimenticanze coperta.",
       "resolution": "Non dichiarata lettura della parte nascosta, non integrate istruzioni.",
       "status": "excluded"
+    },
+    {
+      "id": "oral-progesterone-formulation",
+      "issue": "Inattività orale generalizzata senza specificare la preparazione.",
+      "resolution": "Distinti metabolismo presistemico e formulazione micronizzata; assorbimento non implica indicazione contraccettiva.",
+      "status": "resolved_for_bounded_chapter"
+    },
+    {
+      "id": "generation-ranking",
+      "issue": "Generazioni possono apparire come scala biologica o di sicurezza.",
+      "resolution": "Classificazione storica variabile; evitare graduatorie automatiche e trasferimento di attività da specie diverse.",
+      "status": "resolved_for_bounded_chapter"
+    },
+    {
+      "id": "all-regimens-21-7",
+      "issue": "Tutte le preparazioni21+7 contraddice la pagina precedente e i regimi attuali.",
+      "resolution": "Pausa appartiene alla preparazione; nessun obbligo universale e nessun protocollo individuale.",
+      "status": "resolved"
+    },
+    {
+      "id": "physiology-versus-dose",
+      "issue": "Curve fisiologiche e dosi possono essere confuse con concentrazioni sotto trattamento.",
+      "resolution": "Distinguere secrezione, dose e concentrazione; non inferire ovulazione dalla figura.",
+      "status": "resolved"
+    },
+    {
+      "id": "unattributed-clinical-comparison",
+      "issue": "Migliore tollerabilità/spotting e altri vantaggi dichiarati tratti da internet senza fonte.",
+      "resolution": "Non adottati né usati come conferma indipendente.",
+      "status": "excluded"
+    },
+    {
+      "id": "table44-2-missing-notes",
+      "issue": "Stessa tabella, attribuzione editoriale non identificata e note tagliate.",
+      "resolution": "Nessuna doppia conferma, nessuna ricostruzione delle note e nessuna dose trasferita.",
+      "status": "bounded_uncertainty"
+    },
+    {
+      "id": "historical-secondary-claims",
+      "issue": "Numeri, disponibilità e spiegazioni storiche fuori dallo scopo.",
+      "resolution": "Esclusi valori di emivita, equivalenze HRT, usi in gravidanza e origine delle isoforme PR; della pagina EMA usata solo la non standardizzazione delle generazioni.",
+      "status": "excluded"
     }
   ],
   "limits": [
     "Sintesi didattica di un solo integratore, non revisione clinica indipendente.",
-    "Solo18pagine locali documentate; nessuna lettura integrale di libri, corsi o guide.",
+    "27 pagine locali documentate, di cui 9 nuove in questo lotto e 18 già lette; nessuna lettura integrale di libri, corsi o guide.",
     "APP329: riga coperta non leggibile; testo disponibile e resto del rendering controllati.",
     "Disponibilità, durate autorizzate e istruzioni italiane dei singoli prodotti non verificate; documenti britannici usati per meccanismi/unità/interazioni dichiarati.",
     "Esclusi emergenza contraccettiva, protocolli per dimenticanze, allattamento, indicazioni oncologiche e trattamento dell’infertilità.",
     "PDF ufficiali AIFA non verificati visivamente dopo errori di accesso; usati solo passaggi testuali, nessuna tabella numerica.",
     "Figura45.2 condivisa APP307/CFI769: origine editoriale non identificata; nessuna conferma indipendente. Bibliografia richiamata non dichiarata letta.",
     "Riconciliazione limitata agli intervalli di Farmacologia I 2025–26 e II 2026–27 elencati; nessuna nuova lettura di Farmacologia generale e molecolare.",
-    "Intervalli precedenti di lettura respiratoria e ginecologica non integrati conservati nei registri di continuità, senza ricontarli qui."
+    "Intervalli precedenti di lettura respiratoria e ginecologica non integrati conservati nei registri di continuità, senza ricontarli qui.",
+    "CFI775 e APP326: stessa tabella44-2 con note inferiori mancanti; origine editoriale non identificata, nessuna conferma indipendente.",
+    "APP326: figura ER non integrata perché le etichette minute non sono state validate integralmente; confronti clinici senza fonte esclusi.",
+    "Katzung832: attività ricavate da specie e parametri diversi non trasferite come graduatoria clinica; dosi e usi storici esclusi.",
+    "EMA: soltanto il paragrafo storico sulla non standardizzazione delle generazioni, non la tabella dei rischi. Progesterone micronizzato: documentazione della specifica preparazione britannica.",
+    "Rang669 riletto nel lotto corrente ma già contato; nessuna nuova lettura degli altri contributi didattici conservati."
   ]
 }

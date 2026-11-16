@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-11-15T23:50:42.007393+00:00",
-  "batch": "theory-course-766-770",
+  "updatedAt": "2026-11-16T00:45:08.941556+00:00",
+  "batch": "theory-course-771-775",
   "status": "locally_verified_pending_CI_and_publication",
-  "release": "0.91.0",
-  "branch": "feat/theory-course-766-770",
-  "baseCommit": "a5c6cf1f073bb8533b928966483c14d005fe596d",
+  "release": "0.92.0",
+  "branch": "feat/theory-course-771-775",
+  "baseCommit": "bbcace495a4b3fe895d397d90407ef4f9673c3c9",
   "previousBatch": {
-    "batch": "theory-course-761-765",
+    "batch": "theory-course-766-770",
     "status": "published_and_live_verified",
-    "release": "0.90.0",
-    "commit": "a5c6cf1f073bb8533b928966483c14d005fe596d"
+    "release": "0.91.0",
+    "commit": "bbcace495a4b3fe895d397d90407ef4f9673c3c9"
   },
   "scope": [
-    "Nuovo capitolo originale: contraccezione ormonale, recettori, formulazioni, rischio e interazioni."
+    "Ampliamento del capitolo esistente sulla contraccezione: dose, biodisponibilità, generazioni dei progestinici e lettura degli schemi."
   ],
   "completed": [
-    "18 pagine locali lette con limiti, rendering controllati e confronto mirato con fonti ufficiali.",
-    "Capitolo integrato: 1995 parole, 10 sezioni, 11 domande, 6 schemi e 10 collegamenti a identità esistenti.",
-    "47 controlli dati superati; otto configurazioni desktop/mobile nei due temi e otto schermate ispezionate; ricerche, tastiera, riferimenti e offline verificati. Aggiornamento reale0.90.0→0.91.0 con dati conservati;62capitoli precedenti identici."
+    "9 nuove pagine locali lette con limiti e rendering controllati; 18 pagine precedenti riutilizzate senza doppio conteggio.",
+    "Capitolo ampliato: 2776 parole, 12 sezioni, 14 domande, 8 schemi, 16 riferimenti e 11 collegamenti a identità esistenti.",
+    "47 controlli dati superati; otto configurazioni desktop/mobile nei due temi e otto schermate ispezionate. Ricerca, tastiera, riferimenti e offline verificati. Aggiornamento reale 0.91.0→0.92.0 con dati conservati; altri 62 capitoli identici."
   ],
   "remaining": [
     "CI, deploy concluso e riscontro online."
@@ -39,30 +39,35 @@
     "newProductPKContexts": 0,
     "newPKFields": 0,
     "newTargetProfiles": 0,
-    "newChapters": 1,
-    "expandedChapters": 0,
+    "newChapters": 0,
+    "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 10,
-    "expandedSections": 0,
-    "newLinksToExistingIdentities": 10,
-    "newStaticOriginalSchemas": 6,
-    "newSelfChecks": 11
+    "newSections": 2,
+    "expandedSections": 2,
+    "newLinksToExistingIdentities": 1,
+    "newStaticOriginalSchemas": 2,
+    "newSelfChecks": 3
   },
   "readingManifests": [
     "data/contraccezione-ormonale-reading.json"
   ],
   "limits": [
     "Sintesi didattica di un solo integratore, non revisione clinica indipendente.",
-    "Solo18pagine locali documentate; nessuna lettura integrale di libri, corsi o guide.",
+    "27 pagine locali documentate, di cui 9 nuove in questo lotto e 18 già lette; nessuna lettura integrale di libri, corsi o guide.",
     "APP329: riga coperta non leggibile; testo disponibile e resto del rendering controllati.",
     "Disponibilità, durate autorizzate e istruzioni italiane dei singoli prodotti non verificate; documenti britannici usati per meccanismi/unità/interazioni dichiarati.",
     "Esclusi emergenza contraccettiva, protocolli per dimenticanze, allattamento, indicazioni oncologiche e trattamento dell’infertilità.",
     "PDF ufficiali AIFA non verificati visivamente dopo errori di accesso; usati solo passaggi testuali, nessuna tabella numerica.",
     "Figura45.2 condivisa APP307/CFI769: origine editoriale non identificata; nessuna conferma indipendente. Bibliografia richiamata non dichiarata letta.",
     "Riconciliazione limitata agli intervalli di Farmacologia I 2025–26 e II 2026–27 elencati; nessuna nuova lettura di Farmacologia generale e molecolare.",
-    "Intervalli precedenti di lettura respiratoria e ginecologica non integrati conservati nei registri di continuità, senza ricontarli qui."
+    "Intervalli precedenti di lettura respiratoria e ginecologica non integrati conservati nei registri di continuità, senza ricontarli qui.",
+    "CFI775 e APP326: stessa tabella44-2 con note inferiori mancanti; origine editoriale non identificata, nessuna conferma indipendente.",
+    "APP326: figura ER non integrata perché le etichette minute non sono state validate integralmente; confronti clinici senza fonte esclusi.",
+    "Katzung832: attività ricavate da specie e parametri diversi non trasferite come graduatoria clinica; dosi e usi storici esclusi.",
+    "EMA: soltanto il paragrafo storico sulla non standardizzazione delle generazioni, non la tabella dei rischi. Progesterone micronizzato: documentazione della specifica preparazione britannica.",
+    "Rang669 riletto nel lotto corrente ma già contato; nessuna nuova lettura degli altri contributi didattici conservati."
   ],
-  "nextBatch": "Completare 766–770; soltanto dopo pubblicazione verificata affrontare 771–775 senza ricontare letture già documentate.",
+  "nextBatch": "Completare 771–775 e la pubblicazione verificata; il prossimo intervallo 776–780 resta non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755"
