@@ -159,6 +159,47 @@ export const THEORY_CONTRACEPTION = Object.freeze({
       "formula": "Induttore → esposizione contraccettiva ↓; contraccettivo → esposizione a lamotrigina ↓; etinilestradiolo + specifici regimi HCV → rischio di aumento ALT. Tre esiti distinti, schema originale senza stime quantitative."
     },
     {
+      "id": "emergenza-ovulazione",
+      "title": "Contraccezione d’emergenza: il tempo del rapporto e il tempo dell’ovaio",
+      "refs": [
+        "CFI",
+        "KAT",
+        "WHOEC",
+        "CDCEC",
+        "UPA"
+      ],
+      "text": "La contraccezione d’emergenza interviene dopo un rapporto a rischio, ma il rapporto sessuale e l’ovulazione non sono lo stesso evento. Il primo fornisce un riferimento temporale osservabile; il secondo appartiene alla sequenza endocrina ovarica. Due persone che richiedono un trattamento dopo lo stesso numero di ore possono trovarsi in momenti diversi di quella sequenza. Per capire il meccanismo occorre tenere insieme entrambe le informazioni.\n\nLe pillole d’emergenza con levonorgestrel o ulipristal acetato prevengono o ritardano l’ovulazione. Il levonorgestrel è un progestinico; ulipristal è invece un modulatore selettivo del recettore del progesterone, con elevata affinità per PR. Condividere un bersaglio non significa esercitare la stessa azione recettoriale. Il risultato osservato dipende dal tipo di ligando e dal momento in cui il sistema riproduttivo viene esposto.\n\nLa scheda tecnica di ulipristal descrive la possibilità di ritardare la rottura follicolare anche quando LH ha già iniziato ad aumentare. Questo dato farmacodinamico non dimostra un’efficacia universale in qualsiasi fase: il documento precisa che il prodotto non è efficace dopo l’ovulazione. Non si può quindi trasformare la finestra temporale autorizzata dopo il rapporto in una garanzia biologica indipendente dallo stato del follicolo.\n\nL’OMS distingue chiaramente questi metodi dall’interruzione di una gravidanza già instaurata. Gli effetti endometriali riportati in alcuni testi storici non bastano a identificare un meccanismo clinico anti-impianto per ulipristal usato come contraccettivo d’emergenza. Una modificazione di laboratorio del tessuto e la dimostrazione del meccanismo che sostiene l’efficacia sono livelli di evidenza diversi.\n\nAnche il regime va identificato correttamente. Le raccomandazioni CDC distinguono una somministrazione unica di levonorgestrel da un diverso schema che suddivide la dose complessiva. La presenza di un intervallo fra due somministrazioni in una tabella non autorizza a ripetere automaticamente la dose di un’altra preparazione. Molecola, quantità per somministrazione e dose totale devono essere lette insieme; le istruzioni del singolo prodotto completano il ragionamento.",
+      "formula": "Rapporto a rischio → tempo trascorso; asse ovarico → fase della sequenza ovulatoria. Il risultato dipende anche da quando il farmaco incontra il processo biologico. Schema originale qualitativo, senza dosi o finestra operativa."
+    },
+    {
+      "id": "peso-evidenza",
+      "title": "Peso corporeo ed efficacia: leggere un segnale senza inventare una soglia",
+      "refs": [
+        "CFI",
+        "APP19",
+        "EMAEC",
+        "WHOEC",
+        "CDCEC",
+        "UPA"
+      ],
+      "text": "Il peso corporeo può essere una variabile rilevante negli studi sulla contraccezione d’emergenza, ma una relazione osservata in un gruppo non definisce necessariamente un punto oltre il quale il farmaco smette di agire. La distinzione è essenziale quando si confrontano materiali di anni diversi.\n\nUna comunicazione del 2013, ripresa nei materiali del corso, proponeva soglie rigide per levonorgestrel. La successiva procedura europea del 2014 ha giudicato i dati insufficienti per sostenere quelle conclusioni categoriche e ha richiesto la rimozione delle relative affermazioni dal prodotto considerato. Questo cambiamento documenta una revisione dell’interpretazione, non la dimostrazione che il peso sia irrilevante.\n\nLe fonti consultate mantengono infatti delle cautele: l’OMS segnala minore efficacia delle pillole nell’obesità e il CDC una possibile minore efficacia di levonorgestrel rispetto a ulipristal in questo gruppo, mentre la scheda di ulipristal descrive dati limitati e non conclusivi. L’OMS precisa inoltre che l’obesità non deve comportare il rifiuto dell’accesso alla contraccezione d’emergenza. Incertezza sulla dimensione di un effetto e assenza di accesso al trattamento sono questioni differenti.\n\nPer interpretare il dato bisogna specificare quale farmaco è stato studiato, come erano distribuiti peso e indice di massa corporea e quanto erano precise le stime. Il peso in chilogrammi e l’indice di massa corporea non sono misure intercambiabili. Una curva didattica priva di popolazione, denominatore e fonte non permette di calcolare la probabilità individuale di gravidanza né di ricavare autonomamente un aggiustamento della dose.",
+      "formula": "Associazione osservata → valutare popolazione e precisione → delimitare la conclusione. Dato incerto ≠ effetto certamente nullo; segnale di minore efficacia ≠ soglia certa di inefficacia. Schema originale."
+    },
+    {
+      "id": "antagonismo-progesterone",
+      "title": "Mifepristone e misoprostolo: due bersagli, due funzioni complementari",
+      "refs": [
+        "CFI",
+        "APP19",
+        "KAT",
+        "RAN",
+        "MIFE",
+        "MISO"
+      ],
+      "text": "Il passaggio dalla contraccezione all’interruzione farmacologica di gravidanza richiede di cambiare la domanda biologica. Nel primo caso si cerca di prevenire una gravidanza; nel secondo si interviene su una gravidanza in corso. La vicinanza dei farmaci nei capitoli sugli ormoni riproduttivi non rende equivalenti questi obiettivi.\n\nMifepristone è uno steroide con attività antiprogestinica: compete con il progesterone per i suoi recettori e ne antagonizza gli effetti endometriali e miometriali. Il segnale progesteronico contribuisce al mantenimento della gravidanza; contrastarlo modifica il sostegno ormonale dei tessuti coinvolti. La scheda tecnica descrive anche una maggiore sensibilità del miometrio all’azione contrattile delle prostaglandine e modificazioni della cervice. Non è necessario postulare un blocco diretto di hCG per spiegare il primo passaggio farmacologico: il bersaglio iniziale qui considerato è PR.\n\nMisoprostolo appartiene a una famiglia diversa: è un analogo sintetico della prostaglandina E1. La sua azione favorisce la contrazione delle fibre muscolari lisce del miometrio e il rilasciamento della cervice. È quindi scorretto chiamare mifepristone «analogo di PGE1»: questa proprietà riguarda misoprostolo. I nomi devono restare associati alla rispettiva classe, anche quando i farmaci compaiono nello stesso percorso terapeutico.\n\nL’associazione rende evidente una complementarità funzionale: modificare la risposta al progesterone e promuovere l’attività uterina sono interventi diversi. Rang ricorda che la risposta dell’utero varia con il ciclo e con la gravidanza; la stessa azione contrattile non produce un risultato identico in qualsiasi contesto fisiologico. Un diagramma con una sola freccia «farmaco → espulsione» perderebbe queste distinzioni.\n\nInfine, il sanguinamento è un segno osservabile, non una prova sufficiente di completamento del processo. La documentazione di misoprostolo lo distingue espressamente dalla verifica dell’esito. Dosi, sequenze, limiti gestazionali e controlli appartengono a protocolli specifici: non possono essere ricavati da un’infografica storica né dall’identificazione del recettore.",
+      "formula": "Mifepristone → antagonismo di PR e risposta uterina alle prostaglandine. Misoprostolo → analogo di PGE1, attività contrattile e cervicale. Funzioni complementari in un contesto definito; sanguinamento ≠ conferma dell’esito. Schema originale."
+    },
+    {
       "id": "obiettivi-distinti",
       "title": "Prevenzione della gravidanza e prevenzione delle infezioni",
       "refs": [
@@ -240,6 +281,22 @@ export const THEORY_CONTRACEPTION = Object.freeze({
     {
       "question": "La dicitura solo progestinico garantisce che tutte le compresse della confezione contengano ormone?",
       "answer": "No. La composizione del metodo non descrive da sola lo schema: alcune preparazioni comprendono anche compresse placebo."
+    },
+    {
+      "question": "Perché le ore trascorse dal rapporto non descrivono da sole la possibilità di ritardare l’ovulazione?",
+      "answer": "Perché il rapporto è un riferimento temporale distinto dalla fase ovarica. Il farmaco può incontrare una sequenza ovulatoria in stadi diversi, anche a parità di ore trascorse."
+    },
+    {
+      "question": "Una possibile minore efficacia associata al peso dimostra una soglia certa di inefficacia?",
+      "answer": "No. Occorre valutare farmaco, popolazione e precisione delle stime. Il superamento delle soglie storiche non dimostra neppure che il peso sia irrilevante."
+    },
+    {
+      "question": "Quale differenza separa mifepristone e misoprostolo?",
+      "answer": "Mifepristone antagonizza il recettore del progesterone; misoprostolo è un analogo della prostaglandina E1 con azione sul miometrio e sulla cervice. Le due funzioni si completano senza coincidere."
+    },
+    {
+      "question": "La comparsa di sanguinamento dimostra da sola il completamento dell’interruzione farmacologica?",
+      "answer": "No. Il sanguinamento è un segno, mentre la verifica dell’esito richiede i controlli previsti nel percorso clinico."
     }
   ],
   "moleculeLinks": [
@@ -286,6 +343,18 @@ export const THEORY_CONTRACEPTION = Object.freeze({
     {
       "id": "CHEMBL103",
       "label": "PROGESTERONE"
+    },
+    {
+      "id": "CHEMBL260538",
+      "label": "ULIPRISTAL ACETATE"
+    },
+    {
+      "id": "CHEMBL1276308",
+      "label": "MIFEPRISTONE"
+    },
+    {
+      "id": "CHEMBL606",
+      "label": "MISOPROSTOL"
     }
   ],
   "relatedExistingChapterIds": [
@@ -297,7 +366,7 @@ export const THEORY_CONTRACEPTION = Object.freeze({
     "emicrania",
     "first-pass-avanzato"
   ],
-  "wordCount": 3593,
+  "wordCount": 4416,
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-16",
@@ -306,17 +375,17 @@ export const THEORY_CONTRACEPTION = Object.freeze({
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 766–780; passaggi selezionati su composizione, recettori, emostasi e formulazioni. Note mancanti a PDF775 e riga coperta a PDF780 non ricostruite; dosi e istruzioni operative non trasferite."
+      "detail": "PDF766–785: passaggi selezionati integrati fino a783; PDF784–785 letti ma non integrati. Note mancanti a775 e riga coperta a780 non ricostruite. Emergenza e antagonismo di PR riconciliati con fonti ufficiali; curve, soglie storiche, dosi e istruzioni non trasferite."
     },
     {
       "id": "KAT",
       "title": "Katzung · IX edizione italiana 2014 / XII originale 2012",
-      "detail": "PDF 831–833 e 835–838, editoriali 811–813 e 815–818. Passaggi integrati fino a PDF837; PDF838 letta ma non integrata perché fuori dallo scopo e contenente indicazioni storiche. Attività, formulazione e risposte epatiche/emostatiche; nessuna graduatoria clinica da tabelle sperimentali."
+      "detail": "IX italiana2014/XII originale2012: PDF831–833 e835–841, editoriali811–813 e815–821. PDF838–840 letti ma non integrati. PDF841 usata per confronto di classi e bersagli, con correzione del meccanismo attribuito a ulipristal; tabella40-4, regimi e stime storiche esclusi."
     },
     {
       "id": "RAN",
       "title": "Rang & Dale · VIII italiana 2016 / originale 2015",
-      "detail": "Capitolo 35, PDF 667, 669, 675–676; pagina editoriale non stampata. Recettori, classificazione e meccanismi; osservazioni animali e raccomandazioni storiche non trasferite."
+      "detail": "Capitolo 35, PDF 667, 669, 675–676; pagina editoriale non stampata. Recettori, classificazione e meccanismi; osservazioni animali e raccomandazioni storiche non trasferite. PDF 677–678 letti e controllati; solo il passaggio di678 sulla variabilità fisiologica della risposta uterina integrato. PDF 677 non integrata; schemi storici e altri argomenti di678 esclusi."
     },
     {
       "id": "FSRH",
@@ -350,7 +419,7 @@ export const THEORY_CONTRACEPTION = Object.freeze({
     {
       "id": "APP19",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26 · lezione 19, 1 dicembre 2025",
-      "detail": "PDF325–329, stampate320–324: composizione, schemi, emostasi, rischio e interazioni. Note mancanti a326 e riga coperta a329; etichette minute della figura326 non validate integralmente. Figure condivise con le diapositive: nessuna conferma indipendente. Escluse equivalenze fra androgenicità e rischio e deduzioni sugli esami dalla sola dose."
+      "detail": "PDF325–329, stampate320–324: composizione, schemi, emostasi, rischio e interazioni. Note mancanti a326 e riga coperta a329; etichette minute della figura326 non validate integralmente. Figure condivise con le diapositive: nessuna conferma indipendente. Escluse equivalenze fra androgenicità e rischio e deduzioni sugli esami dalla sola dose. PDF 330, stampata 325/lezione6, letta anche nelle immagini: corretta l’attribuzione di PGE1, distinto comunicato2013 da revisione successiva. Stesse figure delle diapositive, nessuna conferma indipendente; TOS fuori dal lotto."
     },
     {
       "id": "SFI",
@@ -396,7 +465,43 @@ export const THEORY_CONTRACEPTION = Object.freeze({
       "title": "CDC · U.S. Selected Practice Recommendations 2024 · Progestin-Only Pills",
       "detail": "Overview, commenti sui meccanismi e passaggi su compresse attive/placebo nella sezione Missed POPs; consultati il 16 novembre 2026. Contesto statunitense: nessuna disponibilità italiana dedotta, nessuna istruzione per dimenticanze ripubblicata.",
       "url": "https://www.cdc.gov/contraception/hcp/usspr/progestin-only-pills.html"
+    },
+    {
+      "id": "WHOEC",
+      "title": "OMS · Emergency contraception · 9 novembre 2021",
+      "detail": "Consultati il 16 novembre 2026: definizione, meccanismo, regimi distinti e paragrafi su efficacia e obesità. Solo confronto concettuale; nessun protocollo o istruzione per il vomito trasferiti.",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/emergency-contraception"
+    },
+    {
+      "id": "EMAEC",
+      "title": "EMA · Emergency contraceptives · procedura europea 2014",
+      "detail": "Overview e conclusione della revisione sul peso: superamento delle affermazioni categoriche del 2013. Documento storico ricontrollato il 16 novembre 2026, non prova di assenza di un effetto del peso; tabelle numeriche non adottate.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/emergency-contraceptives"
+    },
+    {
+      "id": "CDCEC",
+      "title": "CDC · U.S. Selected Practice Recommendations 2024 · Emergency Contraception",
+      "detail": "Consultati il 16 novembre 2026: tipi di pillole e Comments and Evidence Summary sull’efficacia, compreso il confronto nell’obesità. Contesto statunitense; quantità e istruzioni operative non ripubblicate.",
+      "url": "https://www.cdc.gov/contraception/hcp/usspr/emergency-contraception.html"
+    },
+    {
+      "id": "UPA",
+      "title": "AEMPS/CIMA · ellaOne · scheda tecnica",
+      "detail": "§4.4 e inizio §5.1: ovulazione, gravidanza esistente, dati sul peso e modulazione di PR. Consultati il 16 novembre 2026 nella scheda spagnola; §10 contiene un segnaposto, data di revisione non accertata. PDF EMA non accessibile; tabelle e regimi non adottati.",
+      "url": "https://cima.aemps.es/cima/dochtml/ft/109522003/FT_109522003.html"
+    },
+    {
+      "id": "MIFE",
+      "title": "AEMPS/CIMA · Mifegyne · scheda tecnica, revisione luglio 2024",
+      "detail": "§5.1, passaggi iniziali: antagonismo del progesterone, risposta endometriale/miometriale e sensibilità alle prostaglandine; consultati il 16 novembre 2026. Fonte spagnola per meccanismi, senza dosi o limiti gestazionali trasferiti all’Italia.",
+      "url": "https://cima.aemps.es/cima/dochtml/ft/84219/FT_84219.html"
+    },
+    {
+      "id": "MISO",
+      "title": "AEMPS/CIMA · MisoOne · scheda tecnica, revisione giugno 2024",
+      "detail": "§5.1 iniziale e §4.4, paragrafo sul sanguinamento: analogo di PGE1, miometrio/cervice e distinzione fra segno ed esito. Consultati il 16 novembre 2026; nessuna lettura clinica integrale né protocollo italiano.",
+      "url": "https://cima.aemps.es/cima/dochtml/ft/77146/FT_77146.html"
     }
   ],
-  "coverage": "35 pagine locali esaminate: 24 di appunti/diapositive e 11 di libri; passaggi selezionati integrati da 34. In questo lotto, 8 nuove pagine e 27 già documentate. Katzung PDF838 letta ma non integrata. Parti coperte o mancanti e figure condivise sono dichiarate nei registri; non ricostruite e non contate come conferme indipendenti. Fonti ufficiali consultate nei soli passaggi indicati, senza lettura integrale o revisione clinica indipendente. Nessun protocollo individuale."
+  "coverage": "46 pagine locali esaminate: 30 di appunti/diapositive e 16 di libri; passaggi selezionati integrati da 40. In questo lotto 11 nuove pagine e 35 già documentate. Non integrate: corso principale PDF784–785, Katzung838–840 e Rang677. Parti coperte o mancanti e figure condivise dichiarate nei registri, senza ricostruzioni né conferme indipendenti. Fonti ufficiali consultate nei soli passaggi indicati; nessuna lettura integrale o revisione clinica indipendente. Nessun protocollo individuale."
 });
