@@ -2,7 +2,7 @@ export const THEORY_THYROID = Object.freeze({
   "id": "terapia-tiroidea",
   "volume": 10,
   "title": "Ormoni tiroidei e antitiroidei",
-  "lead": "Asse, follicolo, deiodinasi e recettori nucleari: comprendere la disponibilità di T3/T4 e il razionale dei farmaci.",
+  "lead": "Asse, follicolo e recettori nucleari; destino degli ormoni, interazioni e disfunzioni associate ai farmaci.",
   "sections": [
     {
       "id": "asse-e-feedback",
@@ -48,7 +48,7 @@ export const THEORY_THYROID = Object.freeze({
         "KATZ",
         "RANG"
       ],
-      "text": "Nel sangue T4 e T3 circolano soprattutto legate a proteine, fra cui la globulina legante la tiroxina, TBG. Il legame è reversibile: la quota legata e quella libera sono in equilibrio. Misurare l’ormone totale significa sommare entrambe; misurare la frazione libera risponde a una domanda diversa. Una concentrazione totale elevata non dimostra automaticamente un eccesso di segnale nei tessuti.\n\nLe proteine di legame costituiscono un compartimento di distribuzione e una riserva circolante. Se aumenta la TBG, inizialmente più ormone può essere trattenuto nella forma legata. In un sistema integro, gli adattamenti della secrezione e del metabolismo possono ristabilire la disponibilità libera, mentre il valore totale rimane diverso. La situazione di equilibrio va distinta dalla fase di transizione e da quella di una persona la cui disponibilità dipende dalla terapia sostitutiva.\n\nTBG e recettore tiroideo hanno funzioni radicalmente differenti. La prima lega l’ormone nel plasma; il secondo contribuisce a trasformare il segnale in una risposta cellulare. Non si può dedurre l’attivazione recettoriale dalla sola quantità legata a TBG, né considerare una variazione della proteina di trasporto equivalente a una nuova malattia della ghiandola.\n\nAnche il passaggio dal sangue alla cellula richiede attenzione. Trasportatori specifici, fra cui MCT8, contribuiscono all’accesso degli ormoni ai compartimenti cellulari. La disponibilità finale dipende quindi da distribuzione, trasporto e metabolismo locale. La quota libera è essenziale per interpretare l’esposizione, ma non riassume da sola tutte le condizioni che determinano l’effetto in un singolo tessuto.",
+      "text": "Nel sangue T4 e T3 circolano soprattutto legate a proteine, fra cui la globulina legante la tiroxina, TBG. Il legame è reversibile: la quota legata e quella libera sono in equilibrio. Misurare l’ormone totale significa sommare entrambe; misurare la frazione libera risponde a una domanda diversa. Una concentrazione totale elevata non dimostra automaticamente un eccesso di segnale nei tessuti.\n\nLe proteine di legame costituiscono un compartimento di distribuzione e una riserva circolante. Se aumenta la TBG, inizialmente più ormone può essere trattenuto nella forma legata. In un sistema integro, gli adattamenti della secrezione e del metabolismo possono ristabilire la disponibilità libera, mentre il valore totale rimane diverso. La situazione di equilibrio va distinta dalla fase di transizione e da quella di una persona la cui disponibilità dipende dalla terapia sostitutiva.\n\nTBG e recettore tiroideo hanno funzioni radicalmente differenti. La prima lega l’ormone nel plasma; il secondo contribuisce a trasformare il segnale in una risposta cellulare. Non si può dedurre l’attivazione recettoriale dalla sola quantità legata a TBG, né considerare una variazione della proteina di trasporto equivalente a una nuova malattia della ghiandola.\n\nAnche il passaggio dal sangue alla cellula richiede attenzione. Trasportatori specifici, fra cui MCT8, contribuiscono all’accesso degli ormoni ai compartimenti cellulari. La disponibilità finale dipende quindi da distribuzione, trasporto e metabolismo locale. La quota libera è essenziale per interpretare l’esposizione, ma non riassume da sola tutte le condizioni che determinano l’effetto in un singolo tessuto.\n\nIl sistema nervoso rende evidente questa organizzazione per compartimenti. Nel plesso coroideo, trasportatori di membrana e proteine di legame partecipano al passaggio degli ormoni fra sangue, cellule e liquido cerebrospinale. Una freccia fra due compartimenti rappresenta un trasporto, non l’attivazione automatica del recettore. Lo schema aiuta a distinguere accesso al tessuto e risposta del tessuto, senza attribuire a tutti gli organi gli stessi trasportatori o le stesse concentrazioni.",
       "formula": "Ormone totale = quota legata + quota libera; TBG ≠ trasportatore di membrana ≠ recettore TR"
     },
     {
@@ -62,6 +62,17 @@ export const THEORY_THYROID = Object.freeze({
       ],
       "text": "La tiroide libera soprattutto T4, mentre una parte importante della T3 disponibile deriva dalla conversione periferica. T4 può quindi funzionare come precursore e riserva per il segnale mediato da T3. Questa descrizione è utile per comprendere la fisiologia e la terapia, purché non venga trasformata nell’affermazione che ogni effetto tiroideo segua un unico percorso obbligato.\n\nLe deiodinasi delle iodotironine rimuovono iodio in posizioni differenti. D1 e D2 possono contribuire alla formazione di T3 da T4; D2 è particolarmente utile per comprendere la regolazione della disponibilità intracellulare. D3 segue invece una direzione inattivante: converte T4 in T3 inversa, o rT3, e T3 in derivati meno attivi come T2. Raggruppare tutte e tre le isoforme fra gli enzimi che producono T3 cancella una distinzione fondamentale.\n\nIl segnale locale risulta dall’equilibrio fra ingresso del substrato, attivazione e inattivazione. Due tessuti esposti alla stessa concentrazione plasmatica possono perciò elaborarla diversamente. La concentrazione nel sangue è un’informazione sul sistema, non una lettura diretta della quantità di ligando che raggiunge ogni recettore nucleare.\n\nAnche malattia sistemica, stato nutrizionale e farmaci possono modificare il metabolismo periferico. Un cambiamento di T3 non identifica da solo una carenza di produzione tiroidea. Il propiltiouracile offre un collegamento farmacologico: oltre ad appartenere alle tionamidi che interferiscono con la sintesi, può ridurre la conversione periferica di T4 in T3. Questo effetto aggiuntivo non rende intercambiabili tutti gli antitiroidei.",
       "formula": "D1/D2: T4 → T3; D3: T4 → rT3 e T3 → T2"
+    },
+    {
+      "id": "coniugazione-e-ricircolo",
+      "title": "Eliminazione e ricircolo: il percorso oltre le deiodinasi",
+      "refs": [
+        "CFI",
+        "RANG",
+        "KATZ"
+      ],
+      "text": "La deiodazione modifica l’attività delle iodotironine, ma non esaurisce il loro destino. Fegato e rene partecipano anche a reazioni di coniugazione: l’aggiunta di gruppi glucuronide o solfato rende i derivati più adatti al trasporto e all’escrezione. Occorre distinguere la trasformazione chimica dalla perdita definitiva dell’ormone dall’organismo. Un composto trasferito nella bile ha lasciato il sangue, ma può ancora trovarsi in un circuito dal quale una parte ritorna disponibile.\n\nDopo il passaggio biliare, i coniugati raggiungono l’intestino. La deconiugazione, alla quale contribuisce il microbiota, può liberare materiale riassorbibile; un’altra parte procede verso l’eliminazione fecale. Le vie urinarie contribuiscono a loro volta all’escrezione di derivati. Il circolo enteroepatico è dunque un ricircolo fra compartimenti, non una nuova sintesi tiroidea. Non va confuso neppure con il recupero dello iodio da MIT e DIT all’interno del tireocita.\n\nQuesto percorso aiuta a interpretare le interazioni intestinali. Una sostanza che trattiene l’ormone nel lume può ridurre la quantità che raggiunge o ritorna al sangue. Il risultato può assomigliare a quello di un metabolismo più rapido, pur avendo una sede diversa. Anche per questo la concentrazione finale non si deduce dalla sola dose ingerita.\n\nIl modello rimane qualitativo: non assegna al microbiota una percentuale fissa della disponibilità ormonale e non permette di prevedere l’effetto di un probiotico o di una malattia intestinale nel singolo individuo. Serve a seguire il bilancio fra ingresso, trasformazione, ritorno ed eliminazione, collegando fisiologia tiroidea e farmacocinetica.",
+      "formula": "Coniugazione → bile → intestino → eliminazione oppure deconiugazione e riassorbimento"
     },
     {
       "id": "tr-e-trascrizione",
@@ -80,9 +91,11 @@ export const THEORY_THYROID = Object.freeze({
       "refs": [
         "CFI",
         "RANG",
-        "APP"
+        "APP",
+        "KATZ",
+        "NICE"
       ],
-      "text": "Gli ormoni tiroidei partecipano alla regolazione del metabolismo energetico e allo sviluppo. In molti tessuti aumentano il ricambio dei substrati, il consumo di energia e la produzione di calore. Le vie dei carboidrati, dei lipidi e delle proteine interagiscono con insulina, catecolamine e altri segnali: non sono interruttori isolati che T3 accende sempre nella stessa direzione.\n\nL’aumento della sintesi di determinate proteine può convivere con un maggiore turnover e, nell’eccesso ormonale, con perdita di massa e debolezza. Analogamente, una maggiore mobilizzazione degli acidi grassi non equivale a un beneficio metabolico. Il cambiamento di una singola via va interpretato insieme al bilancio complessivo di produzione, consumo e disponibilità dei substrati.\n\nIl cuore rende evidente il collegamento fra regolazione molecolare e funzione d’organo. Una maggiore attività tiroidea può aumentare frequenza e lavoro cardiaco; un’esposizione eccessiva favorisce palpitazioni e aritmie. La risposta cardiovascolare contribuisce ai sintomi dell’ipertiroidismo e spiega perché la sostituzione ormonale richieda particolare attenzione quando la riserva cardiaca è ridotta. Non basta conoscere il recettore per prevedere la tolleranza del paziente.\n\nCrescita, maturazione scheletrica e sviluppo del sistema nervoso richiedono una disponibilità ormonale adeguata nei rispettivi periodi della vita. Le manifestazioni della carenza o dell’eccesso dipendono pertanto anche dall’età e dalla durata dell’alterazione. Intolleranza al freddo, stanchezza, tremore o variazioni di peso possono orientare il ragionamento, ma nessuno di questi elementi isolati è una misura specifica della funzione tiroidea."
+      "text": "Gli ormoni tiroidei partecipano alla regolazione del metabolismo energetico e allo sviluppo. In molti tessuti aumentano il ricambio dei substrati, il consumo di energia e la produzione di calore. Le vie dei carboidrati, dei lipidi e delle proteine interagiscono con insulina, catecolamine e altri segnali: non sono interruttori isolati che T3 accende sempre nella stessa direzione.\n\nL’aumento della sintesi di determinate proteine può convivere con un maggiore turnover e, nell’eccesso ormonale, con perdita di massa e debolezza. Analogamente, una maggiore mobilizzazione degli acidi grassi non equivale a un beneficio metabolico. Il cambiamento di una singola via va interpretato insieme al bilancio complessivo di produzione, consumo e disponibilità dei substrati.\n\nIl cuore rende evidente il collegamento fra regolazione molecolare e funzione d’organo. Una maggiore attività tiroidea può aumentare frequenza e lavoro cardiaco; un’esposizione eccessiva favorisce palpitazioni e aritmie. La risposta cardiovascolare contribuisce ai sintomi dell’ipertiroidismo e spiega perché la sostituzione ormonale richieda particolare attenzione quando la riserva cardiaca è ridotta. Non basta conoscere il recettore per prevedere la tolleranza del paziente.\n\nCrescita, maturazione scheletrica e sviluppo del sistema nervoso richiedono una disponibilità ormonale adeguata nei rispettivi periodi della vita. Le manifestazioni della carenza o dell’eccesso dipendono pertanto anche dall’età e dalla durata dell’alterazione. Intolleranza al freddo, stanchezza, tremore o variazioni di peso possono orientare il ragionamento, ma nessuno di questi elementi isolati è una misura specifica della funzione tiroidea.\n\nNel confronto fra carenza ed eccesso, la cute fredda e secca o la maggiore sudorazione riflettono aspetti della termoregolazione; rallentamento e agitazione descrivono possibili manifestazioni, non criteri diagnostici autosufficienti. Anche la debolezza può comparire in quadri diversi. L’orbitopatia associata a Graves, invece, rimanda a un contesto autoimmune specifico e non è una conseguenza obbligata di qualsiasi tireotossicosi. Una tabella di segni serve a organizzare ipotesi, non a classificare una persona sulla base di una singola voce."
     },
     {
       "id": "tempi-e-cinetica",
@@ -110,15 +123,52 @@ export const THEORY_THYROID = Object.freeze({
       "formula": "Levotiroxina → apporto di T4; tionamidi → nuova sintesi; propiltiouracile → anche conversione periferica"
     },
     {
+      "id": "farmaci-e-sedi-di-interazione",
+      "title": "Dove agisce l’interazione: ghiandola, distribuzione o metabolismo?",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "DII14",
+        "LT4"
+      ],
+      "text": "La stessa espressione, «un farmaco modifica gli esami tiroidei», può descrivere fenomeni differenti. Il primo livello è la ghiandola: interferire con sintesi o liberazione dell’ormone cambia la produzione endogena. Il secondo è la distribuzione: modificare le proteine plasmatiche può cambiare soprattutto l’ormone totale. Il terzo è il metabolismo periferico, che comprende conversione e rimozione. Un quarto livello riguarda la misura stessa, quando il metodo analitico restituisce un risultato alterato senza un corrispondente cambiamento biologico.\n\nLa rifampicina permette di collegare questi concetti alla farmacologia degli antibatterici. Il suo bersaglio antimicrobico è la RNA-polimerasi batterica; l’induzione di sistemi metabolici dell’ospite è un effetto distinto, rilevante per le interazioni. Katzung e lo SmPC della levotiroxina segnalano un aumento del metabolismo dell’ormone durante l’associazione. Non bisogna quindi cercare un antagonismo della rifampicina sul recettore TR per spiegare una minore esposizione alla terapia sostitutiva.\n\nUna tiroide funzionante può compensare in parte le variazioni del destino periferico attraverso il feedback. Questa possibilità è diversa da quella di chi dipende prevalentemente dall’apporto farmacologico. Identica interazione non significa perciò identico effetto finale in tutte le persone. Inoltre, l’avvio e la cessazione di un trattamento possono cambiare l’equilibrio in direzioni opposte, con tempi che non coincidono necessariamente con quelli dell’assunzione.\n\nLa sede dell’interazione precede la scelta della risposta clinica. Ridotto assorbimento, metabolismo accelerato e interferenza analitica non si risolvono automaticamente nello stesso modo. Nello studio è utile ricostruire il passaggio coinvolto prima di trasformare un valore di laboratorio in una conclusione sulla funzione della ghiandola.",
+      "formula": "Produzione → distribuzione → conversione ed eliminazione → misura: quattro livelli da distinguere"
+    },
+    {
+      "id": "amiodarone-e-tiroide",
+      "title": "Amiodarone: più meccanismi dietro un unico farmaco",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "CII5",
+        "AMIO",
+        "ETA"
+      ],
+      "text": "L’amiodarone è studiato come antiaritmico capace di interferire con più correnti ioniche. Questa descrizione spiega una parte della sua azione cardiaca, ma non basta a spiegare tutte le conseguenze endocrine. La molecola contiene iodio e può modificare il metabolismo degli ormoni tiroidei; il rapporto con la tiroide va ricostruito separatamente dal suo inquadramento nella classificazione degli antiaritmici.\n\nUn primo fenomeno è la riduzione della conversione periferica di T4 in T3. Lo SmPC distingue le conseguenti variazioni biochimiche, possibili anche in persone clinicamente eutiroidee, da una vera disfunzione tiroidea. Non ogni aumento di FT4 durante il trattamento significa quindi che la ghiandola stia producendo ormone in eccesso. Non si tratta necessariamente di un errore dello strumento: può essere cambiata la fisiologia del sistema misurato.\n\nEsistono però anche ipotiroidismo e tireotossicosi associati all’amiodarone. Le linee guida ETA del 2018 distinguono, per la tireotossicosi, un meccanismo di aumentata sintesi favorito dal carico iodato e un meccanismo distruttivo, con liberazione di riserve da tessuto danneggiato. Sono possibili forme miste. Il primo e il secondo processo coinvolgono passaggi diversi del follicolo e non diventano equivalenti solo perché entrambi aumentano l’esposizione ormonale.\n\nLa persistenza del farmaco nei tessuti aggiunge una dimensione temporale: la fine dell’assunzione non equivale alla scomparsa immediata dell’esposizione. Le fonti riportano emivite variabili; il numero isolato non predice la durata di una complicanza. Il capitolo utilizza queste distinzioni per spiegare i meccanismi, senza proporre una regola automatica di sospensione o un algoritmo per le diverse forme.",
+      "formula": "Amiodarone → conversione periferica modificata; carico iodato o danno follicolare → possibili disfunzioni"
+    },
+    {
+      "id": "checkpoint-e-asse-tiroideo",
+      "title": "Checkpoint immunitari: dalla risposta antitumorale all’asse endocrino",
+      "refs": [
+        "CFI",
+        "SII10",
+        "EMA"
+      ],
+      "text": "CTLA-4 e PD-1 partecipano al controllo dell’attivazione dei linfociti T. Gli anticorpi diretti contro questi checkpoint riducono segnali inibitori e possono sostenere la risposta antitumorale. Ipilimumab agisce su CTLA-4; nivolumab su PD-1. La rimozione di un freno immunitario ha però conseguenze che possono estendersi ai tessuti sani: il collegamento con la tiroide riguarda la regolazione dell’immunità, non un legame di questi anticorpi al recettore nucleare TR.\n\nLe informazioni EMA di nivolumab descrivono endocrinopatie immunomediate, comprese alterazioni tiroidee e ipofisite. È una distinzione anatomica decisiva. Un danno alla tiroide riguarda il compartimento che produce e conserva l’ormone; un interessamento ipofisario può compromettere il comando a monte e coinvolgere altri assi endocrini. Limitare il ragionamento alla sola ghiandola tiroidea rischia quindi di perdere una parte del problema.\n\nStanchezza e variazioni delle condizioni generali hanno molte possibili spiegazioni nel contesto oncologico. Il loro significato dipende dall’andamento temporale, dai trattamenti e dalla funzione endocrina nel suo insieme. Il confronto con la fonte regolatoria conferma la necessità di distinguere sedi e meccanismi, senza trasferire qui frequenze, schemi oncologici o protocolli di gestione delle reazioni avverse.\n\nQuesto esempio mostra come un bersaglio farmacologico lontano dalla tiroide possa modificarne indirettamente la funzione. Per collegare recettore, farmaco e patologia bisogna seguire la catena causale: blocco del checkpoint, cambiamento della risposta immunitaria, possibile interessamento di un organo endocrino e conseguenze sul circuito ormonale.",
+      "formula": "Blocco di CTLA-4 o PD-1 → risposta immunitaria modificata → possibile danno endocrino periferico o centrale"
+    },
+    {
       "id": "esposizione-e-laboratorio",
       "title": "Interpretare esposizione, interazioni e laboratorio",
       "refs": [
         "KATZ",
         "APP",
         "NICE",
-        "LT4"
+        "LT4",
+        "CFI"
       ],
-      "text": "La dose nominale di levotiroxina non coincide con la quantità assorbita. Cibo, formulazione e condizioni gastrointestinali possono modificare l’esposizione. Il riassunto delle caratteristiche del prodotto consultato segnala interazioni con ferro, calcio e antiacidi, oltre all’effetto del pH gastrico durante uso di inibitori di pompa protonica. Questo è un problema di assorbimento, distinto dall’ingresso dell’ormone nelle cellule bersaglio: una generica competizione con tutte le proteine alimentari non ne costituisce una spiegazione adeguata.\n\nUn risultato inatteso può dipendere da esposizione variabile, legame plasmatico, metabolismo o interferenza della misura. La biotina può alterare alcuni immunodosaggi senza produrre una corrispondente alterazione fisiologica. NICE distingue inoltre l’interpretazione del TSH quando si sospetta una disfunzione centrale, situazione in cui è necessario considerare anche FT4. Il dato deve essere letto nel contesto dell’asse, non come comando automatico alla prescrizione.\n\nPer la sostituzione nell’ipotiroidismo primario, NICE richiama l’obiettivo di evitare soppressione del TSH e tireotossicosi. Il prodotto consultato segnala rischi cardiovascolari e ossei dell’eccesso di esposizione. Una risposta lenta, da sola, non dimostra che occorra aumentare subito l’apporto.\n\nL’esempio riunisce i livelli del capitolo: identificare la sede del problema, distinguere ormone totale e libero, considerare conversione e tempi di adattamento, poi interpretare sintomi e laboratorio. Dosi, intervalli dei controlli, emergenze, gravidanza e gestione specialistica degli antitiroidei restano fuori da questa sintesi didattica e richiedono fonti specifiche aggiornate.",
+      "text": "La dose nominale di levotiroxina non coincide con la quantità assorbita. Cibo, formulazione e condizioni gastrointestinali possono modificare l’esposizione. Il riassunto delle caratteristiche del prodotto consultato segnala interazioni con ferro, calcio e antiacidi, oltre all’effetto del pH gastrico durante uso di inibitori di pompa protonica. Questo è un problema di assorbimento, distinto dall’ingresso dell’ormone nelle cellule bersaglio: una generica competizione con tutte le proteine alimentari non ne costituisce una spiegazione adeguata.\n\nSeparare temporalmente due assunzioni e modificare il pH gastrico non sono lo stesso intervento. Le indicazioni sugli intervalli rispetto a cibo, ferro o calcio dipendono dal prodotto e dalla situazione; non è corretto estendere una sola regola a tutte le interazioni. In particolare, l’effetto degli inibitori di pompa sul pH non si interpreta come una semplice competizione simultanea nel lume.\n\nUn risultato inatteso può dipendere da esposizione variabile, legame plasmatico, metabolismo o interferenza della misura. La biotina può alterare alcuni immunodosaggi senza produrre una corrispondente alterazione fisiologica. NICE distingue inoltre l’interpretazione del TSH quando si sospetta una disfunzione centrale, situazione in cui è necessario considerare anche FT4. Il dato deve essere letto nel contesto dell’asse, non come comando automatico alla prescrizione.\n\nPer la sostituzione nell’ipotiroidismo primario, NICE richiama l’obiettivo di evitare soppressione del TSH e tireotossicosi. Il prodotto consultato segnala rischi cardiovascolari e ossei dell’eccesso di esposizione. Una risposta lenta, da sola, non dimostra che occorra aumentare subito l’apporto.\n\nL’esempio riunisce i livelli del capitolo: identificare la sede del problema, distinguere ormone totale e libero, considerare conversione e tempi di adattamento, poi interpretare sintomi e laboratorio. Dosi, intervalli dei controlli, emergenze, gravidanza e gestione specialistica degli antitiroidei restano fuori da questa sintesi didattica e richiedono fonti specifiche aggiornate.",
       "formula": "Dose assunta → assorbimento → distribuzione → metabolismo → risposta; il test misura solo una parte del sistema"
     }
   ],
@@ -165,13 +215,29 @@ export const THEORY_THYROID = Object.freeze({
     {
       "question": "Un test discordante implica sempre una nuova disfunzione tiroidea?",
       "answer": "No: esposizione, tempi, proteine di legame e interferenze analitiche possono contribuire; serve il contesto clinico."
+    },
+    {
+      "question": "Il passaggio nella bile equivale sempre a eliminazione definitiva?",
+      "answer": "No: una parte dei coniugati può essere deconiugata nell’intestino e riassorbita; ricircolo e nuova sintesi sono processi diversi."
+    },
+    {
+      "question": "La rifampicina riduce l’esposizione alla levotiroxina bloccando TR?",
+      "answer": "No: l’interazione descritta riguarda l’aumento del metabolismo dell’ormone, distinto dal bersaglio antibatterico della rifampicina."
+    },
+    {
+      "question": "Ogni variazione degli ormoni durante amiodarone dimostra nuova iperproduzione tiroidea?",
+      "answer": "No: conversione periferica, aumentata sintesi e danno follicolare sono meccanismi distinti; possono esistere anche variazioni biochimiche in persone eutiroidee."
+    },
+    {
+      "question": "Le endocrinopatie da checkpoint riguardano soltanto la tiroide?",
+      "answer": "No: il possibile interessamento ipofisario coinvolge il comando centrale e può riguardare più assi endocrini."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · AA 2025–26",
-      "detail": "PDF 801–805, etichette 799–803: testo e figure controllati. PDF 802 letto dall’immagine perché l’estrazione non restituisce il contenuto. Intervallo circoscritto, non corso intero."
+      "detail": "PDF 801–810, etichette 799–808: testo e figure controllati in due lotti. PDF 802,809 e810 letti soprattutto dall’immagine. La vignetta810 è esclusa dalla sintesi; nessuna figura riprodotta."
     },
     {
       "id": "KATZ",
@@ -205,6 +271,39 @@ export const THEORY_THYROID = Object.freeze({
       "title": "Levothyroxine / Eltroxin · SmPC britannico · testo 16 ottobre 2026",
       "detail": "Prodotto 5682, consultato 16 novembre 2026: §§4.1,4.3–4.5,4.8,5.1–5.2 per sostituzione, interazioni, interferenze analitiche e rischi. Fonte di prodotto britannica; non RCP italiano. Dosi, gravidanza e gestione del sovradosaggio escluse.",
       "url": "https://www.medicines.org.uk/emc/product/5682/smpc"
+    },
+    {
+      "id": "CII5",
+      "title": "Appunti e diapositive del corso di Farmacologia II · AA 2025–26",
+      "detail": "Lezione 5 del 5 novembre 2025, PDF e stampate 2–3: testo completo controllato; nessuna figura. Integrati multicanalità e persistenza dell’amiodarone. Discussione su integratori esclusa."
+    },
+    {
+      "id": "SII10",
+      "title": "Appunti e diapositive del corso di Farmacologia II · AA 2025–26",
+      "detail": "Lezione 10 del 18 novembre 2025, PDF e stampate 10–11: testo e schemi CTLA-4/PD-1 controllati. Integrati meccanismi e rischio endocrino; indicazioni oncologiche, schemi e premedicazioni non trasferiti."
+    },
+    {
+      "id": "DII14",
+      "title": "Appunti e diapositive del corso di Farmacologia II · AA 2025–26",
+      "detail": "Lezione 14 del 13 gennaio 2026, PDF e stampata 25: testo completo e figura controllati. Integrato soltanto il collegamento fra rifampicina e induzione metabolica; terapia della tubercolosi e figura NAT2 escluse."
+    },
+    {
+      "id": "AMIO",
+      "title": "Amiodarone · SmPC britannico · testo 7 ottobre 2026",
+      "detail": "Prodotto 101141, consultato il 16 novembre 2026: §4.4 endocrinologia e §5.2 persistenza; distinte variazioni biochimiche e disfunzione. Fonte britannica, non RCP italiano; nessuna posologia o istruzione di sospensione trasferita.",
+      "url": "https://www.medicines.org.uk/emc/product/101141/smpc"
+    },
+    {
+      "id": "ETA",
+      "title": "European Thyroid Association · disfunzione tiroidea associata ad amiodarone · 2018",
+      "detail": "Consultazione del 16 novembre 2026 dell’abstract ufficiale indicizzato: distinzione fra aumentata sintesi, danno distruttivo e forme miste. Apertura PMC fermata dalla verifica del browser; non dichiarata lettura integrale né revisione aggiornata di tutta la letteratura.",
+      "url": "https://doi.org/10.1159/000486957"
+    },
+    {
+      "id": "EMA",
+      "title": "EMA · Opdivo · informazioni del prodotto",
+      "detail": "Documento corrente consultato il 16 novembre 2026: §4.4 endocrinopatie, PDF 18; §5.1 meccanismo, PDF 45. Letti i soli passaggi pertinenti, non tutte le 308 pagine. Posologie, frequenze e algoritmi esclusi.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/opdivo-epar-product-information_en.pdf"
     }
   ],
   "moleculeLinks": [
@@ -223,18 +322,28 @@ export const THEORY_THYROID = Object.freeze({
     {
       "id": "CHEMBL1518",
       "label": "PROPYLTHIOURACIL"
+    },
+    {
+      "id": "CHEMBL633",
+      "label": "AMIODARONE"
+    },
+    {
+      "id": "CHEMBL2108738",
+      "label": "NIVOLUMAB"
     }
   ],
   "relatedExistingChapterIds": [
     "gpcr",
     "modelli-pk",
     "metabolismo-trasportatori",
-    "popolazioni-speciali"
+    "popolazioni-speciali",
+    "antiaritmici",
+    "anticorpi-biologici"
   ],
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-16",
   "readingManifest": "./data/terapia-tiroidea-reading.json",
-  "coverage": "19 pagine locali lette e controllate visivamente: 18 nuove e una già documentata. Passaggi selezionati riconciliati con fonti ufficiali nei soli ambiti dichiarati. Nessun libro o corso interamente letto; revisione clinica indipendente non eseguita.",
-  "wordCount": 2268
+  "coverage": "29 pagine locali documentate nei due lotti,28 con passaggi integrati. In questo ampliamento:16 pagine lette e controllate visivamente,10 nuove e6 rilette;13 contribuiscono alla sintesi. Nessun libro o corso interamente letto. Confronto ufficiale mirato; revisione clinica indipendente non eseguita.",
+  "wordCount": 3419
 });

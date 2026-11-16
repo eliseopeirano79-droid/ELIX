@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "chapterId": "terapia-tiroidea",
-  "batch": "theory-course-801-805",
-  "reviewedAt": "2026-11-16T13:32:18.329040+00:00",
+  "batch": "theory-course-806-810",
+  "reviewedAt": "2026-11-16T14:59:24.090352+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "85e8219e6fb31d75914aa3ddf22620f905e0c8dce700d59831f89e04245ca368",
+  "moduleSha256": "ffcc7ef7a4c4a9e5d16fc35c1bab2c3cd89f9fea82352216a9f32331c0a17aaa",
   "checks": [
-    "Rilette10sezioni,10quesiti,9schemi qualitativi e7riferimenti;2268parole.",
-    "Controllati collegamenti fra asse,TSHR,follicolo,TPO,TBG,D1/D2/D3,TR e patologie.",
-    "Distinti captazione,sintesi,deposito,rilascio,esposizione e risposta;nessuna posologia.",
-    "Quattro collegamenti a identità esistenti;zero nuove identità,sintesi o profili.",
-    "Riconciliati errori e divergenze dei soli intervalli letti;nessuna validazione clinica indipendente."
+    "Rilette14sezioni,14quesiti,13schemi originali e13riferimenti;3419parole.",
+    "Quattro nuove sezioni,tre ampliate,sette conservate;nessun nuovo capitolo.",
+    "Coniugazione/ricircolo,interazioni,amiodarone e checkpoint collegati a recettori,farmaci e patologie.",
+    "Due nuovi collegamenti a identità già esistenti;zero nuove identità,sintesi o profili.",
+    "Revisione editoriale dei passaggi integrati;non convalidati i contenuti delle pagine esclusi dall’ampliamento."
   ],
   "conflicts": [
     {
@@ -81,16 +81,70 @@
       "issue": "CFI805 e modelli classici presentano conversione/attivazione come sequenza assoluta.",
       "resolution": "Modello nucleare circoscritto;distinti geni e coregolatori,riconosciute azioni non genomiche.",
       "status": "resolved_for_scope"
+    },
+    {
+      "id": "spacing",
+      "issue": "CFI806 suggerisce intervalli temporali accomunando interazioni diverse.",
+      "resolution": "Distinti pH gastrico e legame nel lume;nessun intervallo universale.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "thyrotoxicosis-term",
+      "issue": "CFI809 affianca tireotossicosi e ipertiroidismo come sinonimi.",
+      "resolution": "Distinte azione ormonale e aumentata sintesi;orbitopatia legata aGraves.",
+      "status": "resolved"
+    },
+    {
+      "id": "amio-labs",
+      "issue": "CFI808 raggruppa modifiche biologiche e interferenze analitiche.",
+      "resolution": "Amiodarone può modificare fisiologia e provocare malattia;biotina può alterare il metodo.",
+      "status": "resolved"
+    },
+    {
+      "id": "amio-time",
+      "issue": "AppuntiII lezione5p3 riporta58giorni;SmPC circa50conampia variabilità.",
+      "resolution": "Persistenza qualitativa;nessun numero universale né equivalenza tra sospensione ed eliminazione.",
+      "status": "difference_preserved"
+    },
+    {
+      "id": "amio-management",
+      "issue": "SmPC suggerisce sospensione nell’ipertiroidismo;ETA richiede decisione individualizzata per rischio cardiaco.",
+      "resolution": "Nessuna regola di sospensione o algoritmo pubblicato;registrata divergenza di contesto.",
+      "status": "management_not_transferred"
+    },
+    {
+      "id": "ici-scope",
+      "issue": "AppuntiII lezione10 includono indicazioni,intervalli e premedicazioni generalizzati.",
+      "resolution": "Integrati solo checkpoint e rischio endocrino,confrontati conEMA;altre affermazioni escluse.",
+      "status": "excluded_out_of_scope"
+    },
+    {
+      "id": "rifampicin-scope",
+      "issue": "AppuntiII lezione14p25 contiene ancheTBC,resistenze,NAT2.",
+      "resolution": "Integrati solo bersaglio batterico e induzione,confronto interazione conKatzung/SmPC;resto non convalidato.",
+      "status": "excluded_out_of_scope"
+    },
+    {
+      "id": "source-cartoon",
+      "issue": "CFI810 paragona sostituzione ormonale a carburante.",
+      "resolution": "Vignetta esclusa:ormoni come segnali regolatori;nessuna immagine riprodotta.",
+      "status": "excluded"
+    },
+    {
+      "id": "collection-duplicates",
+      "issue": "Cinque pagine delle lezioniII corrispondono a pagine della raccolta.",
+      "resolution": "Alias registrati prima della lettura,nessun doppio conteggio o conferma indipendente.",
+      "status": "deduplicated"
     }
   ],
   "limits": [
-    "Sintesi didattica e revisione editoriale del solo integratore; nessuna validazione o revisione clinica indipendente.",
-    "Letti soltanto gli intervalli dichiarati:19pagine,18nuove e1riletta. Nessun libro,capitolo di libro o corso interamente letto.",
-    "PDF802 del corso principale ha contenuto sostanziale letto dall’immagine; estrazione automatica insufficiente.",
-    "APP333 già documentata. Schema del follicolo condiviso conCFI803; riuso riconosciuto, non conferma indipendente.",
-    "NICE: letti passaggi ufficiali indicizzati delle raccomandazioni e della sorveglianza2025; apertura diretta HTML/PDF403. Non dichiarata lettura integrale.",
-    "SmPC britannico di levotiroxina usato nei passaggi dichiarati; RCP italiani,disponibilità locale e linee guida per gravidanza/emergenze non verificati.",
-    "Non trasferiti dosi,algoritmi,range universali,equivalenzeT3/T4 o indicazioni storiche. Rischi specifici e scelta degli antitiroidei richiedono un lotto dedicato.",
-    "FarmacologiaII,altri contributi del corso e altri libri autorizzati ancora da riconciliare; nessuna loro nuova lettura dichiarata."
+    "Sintesi didattica e revisione editoriale del solo integratore;nessuna revisione clinica indipendente o validazione specialistica.",
+    "Questo lotto:16pagine locali lette e controllate visivamente,10nuove e6rilette. Copertura cumulativa29pagine,28integrate;nessun libro o corso interamente letto.",
+    "CFI809–810 letti dall’immagine;vignetta810 esclusa. Rang652–653 riletti come contesto già integrato,senza nuovi passaggi trasferiti in questo lotto.",
+    "AppuntiI333–335 conservati dal lotto precedente,non riletti in questo lotto. Le raccolte duplicate diFarmacologiaII non sono fonti indipendenti o pagine aggiuntive.",
+    "NICE e abstractETA consultati nei passaggi ufficiali indicizzati;accesso diretto limitato. Nessuna lettura integrale o revisione sistematica dichiarata.",
+    "SmPC britannici di levotiroxina e amiodarone,passaggiEMA di nivolumab:confronto mirato. RCP italiani,disponibilità locale,gravidanza,emergenze e protocolli oncologici non verificati.",
+    "Dosi,percentuali postchirurgiche,schemi antitubercolari,indicazioni oncologiche,integratori e algoritmi delle fonti esclusi. Persistenze ed emivite non trattate come costanti universali.",
+    "Altri intervalli dei libri e dei corsi restano da riconciliare;la lettura delle pagine selezionate non attesta revisione integrale della lezione."
   ]
 }

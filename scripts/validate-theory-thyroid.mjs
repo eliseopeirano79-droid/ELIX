@@ -8,7 +8,7 @@ const l=JSON.parse(read('data/terapia-tiroidea-reading.json')),r=JSON.parse(read
 assert.deepEqual(ELIX_CHAPTERS.find(x=>x.id===c.id),c);
 assert.equal(ELIX_CHAPTERS.length,65);assert.equal(new Set(ELIX_CHAPTERS.map(x=>x.id)).size,65);
 assert.equal(ELIX_CHAPTERS.filter(x=>x.format==='extended').length,22);
-assert.equal(c.wordCount,c.sections.map(s=>s.text).join(' ').split(/\s+/).length);assert.ok(c.wordCount>=2000);
+assert.equal(c.wordCount,c.sections.map(s=>s.text).join(' ').split(/\s+/).length);assert.ok(c.wordCount>=3000);
 assert.equal(new Set(c.sections.map(s=>s.id)).size,c.sections.length);
 const refs=new Set(c.references.map(r=>r.id));
 for(const s of c.sections){assert.ok(s.text&&s.refs.length);for(const id of s.refs)assert.ok(refs.has(id));}
@@ -26,10 +26,10 @@ for(const s of l.sources){
  pages+=s.pdfPagesRead.length;added+=s.newlyReadTextPages.length;reused+=s.reusedPreviouslyReadPages.length;integrated+=s.integratedPdfPages.length;
  newIntegrated+=s.integratedPdfPages.filter(p=>s.newlyReadTextPages.includes(p)).length;
 }
-assert.deepEqual([pages,added,reused,integrated,newIntegrated],[19,18,1,19,18]);
-assert.deepEqual([l.totalReadPdfPages,l.newReadPdfPages,l.reusedReadPdfPages,l.chapterIntegratedPdfPages,l.newIntegratedPdfPages],[pages,added,reused,integrated,newIntegrated]);
+assert.deepEqual([pages,added,reused,integrated,newIntegrated],[16,10,6,13,9]);
+assert.deepEqual([l.totalReadPdfPages,l.newReadPdfPages,l.reusedReadPdfPages,l.batchIntegratedPdfPages,l.newIntegratedPdfPages],[pages,added,reused,integrated,newIntegrated]);
 assert.deepEqual(l.sources.find(s=>s.id==='KATZ').readButNotIntegratedPdfPages,[]);
-assert.deepEqual(l.sources.find(s=>s.id==='APP').readButNotIntegratedPdfPages,[]);
+assert.deepEqual(l.sources.find(s=>s.id==='CFI').readButNotIntegratedPdfPages,[810]);
 assert.equal(l.newMainCoursePages+l.newOtherSlidesPages+l.newAppuntiPages,l.newCourseReadPdfPages);
 assert.equal(l.newCourseReadPdfPages+l.newBookReadPdfPages,added);
 assert.deepEqual([l.fullCorpusRead,l.clinicalValidation,l.newIdentities,l.newDrugSummaries,l.newPKProfiles,l.newTargetProfiles,l.newChapters,l.expandedExistingChapters],[false,false,0,0,0,0,0,1]);
@@ -41,11 +41,22 @@ for(const f of ['elix-theory-thyroid.js','data/terapia-tiroidea-reading.json','d
 }
 const p=JSON.parse(read('data/development-progress.json'));
 assert.equal(p.counts.chapters,ELIX_CHAPTERS.length);assert.equal(p.counts.extendedChapters,ELIX_CHAPTERS.filter(x=>x.format==='extended').length);
-if(p.batch===l.batch){assert.equal(p.changes.newChapters,0);assert.equal(p.changes.expandedChapters,1);assert.equal(p.changes.newSections+p.changes.expandedSections,c.sections.length);assert.equal(p.changes.newSelfChecks,c.checks.length);assert.equal(p.changes.newStaticOriginalSchemas,c.sections.filter(s=>s.formula).length);}
-assert.deepEqual(l.sources.find(s=>s.id==='CFI').substantiveExtractedTextReadPages,[801,803,804,805]);
-assert.deepEqual(l.sources.find(s=>s.id==='APP').reusedPreviouslyReadPages,[333]);
+if(p.batch===l.batch){assert.equal(p.changes.newChapters,0);assert.equal(p.changes.expandedChapters,1);assert.equal(p.changes.newSections+p.changes.expandedSections+p.changes.unchangedSections,c.sections.length);assert.equal(p.changes.newSelfChecks+10,c.checks.length);assert.equal(p.changes.newStaticOriginalSchemas+9,c.sections.filter(s=>s.formula).length);}
+assert.deepEqual(l.sources.find(s=>s.id==='CFI').substantiveExtractedTextReadPages,[806,807,808]);
+assert.deepEqual(l.sources.find(s=>s.id==='KATZ').reusedPreviouslyReadPages,[787,788,789]);
 assert.match(c.sections.find(s=>s.id==='deiodinasi').text,/D3.*inattivante/s);
 assert.match(c.sections.find(s=>s.id==='follicolo-e-ioduro').text,/NIS.*simporto/s);
-assert.equal(c.moleculeLinks.length,4);
-assert.equal(c.checks.length,10);
-console.log('Thyroid PASS: existing chapter expanded;19 source pages,18 new and1 reused; D3 direction,source provenance,identities and offline records.');
+assert.equal(c.moleculeLinks.length,6);
+assert.equal(c.checks.length,14);
+const cumulativeRead=new Set(),cumulativeIntegrated=new Set();
+for(const source of l.cumulativeSources){
+ for(const page of source.pdfPagesRead)cumulativeRead.add(source.sha256+':'+page);
+ for(const page of source.integratedPdfPages){assert.ok(source.pdfPagesRead.includes(page));cumulativeIntegrated.add(source.sha256+':'+page);}
+}
+assert.equal(cumulativeRead.size,29);assert.equal(cumulativeIntegrated.size,28);
+assert.equal(l.chapterReviewedPdfPages,cumulativeRead.size);assert.equal(l.chapterIntegratedPdfPages,cumulativeIntegrated.size);
+for(const key of seen)assert.ok(cumulativeRead.has(key));
+assert.deepEqual(l.cumulativeSources.find(s=>s.id==='APP').pdfPagesRead,[333,334,335]);
+assert.equal(l.sources.some(s=>s.id==='APP'),false);
+assert.equal(l.sources.filter(s=>s.collectionAlias).reduce((n,s)=>n+Object.keys(s.collectionAlias.pages).length,0),5);
+console.log('Thyroid PASS:14 sections;16 batch pages,10new/6reread;29 cumulative pages,28 integrated; no duplicate lecture counting.');
