@@ -5,7 +5,7 @@ import {ELIX_CHAPTERS} from '../elix-content.js';
 import {THEORY_CONTRACEPTION as c} from '../elix-theory-contraception.js';
 const read=f=>readFileSync(new URL('../'+f,import.meta.url),'utf8');
 assert.equal(ELIX_CHAPTERS.length,65);assert.equal(new Set(ELIX_CHAPTERS.map(x=>x.id)).size,65);
-assert.equal(ELIX_CHAPTERS.filter(x=>x.format==='extended').length,21);
+assert.equal(ELIX_CHAPTERS.filter(x=>x.format==='extended').length,22);
 assert.deepEqual(ELIX_CHAPTERS.find(x=>x.id===c.id),c);
 assert.equal(c.wordCount,c.sections.map(s=>s.text).join(' ').split(/\s+/).length);
 assert.equal(new Set(c.sections.map(s=>s.id)).size,c.sections.length);
