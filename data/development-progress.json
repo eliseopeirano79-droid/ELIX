@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-11-16T16:00:13.231464+00:00",
-  "batch": "theory-course-811-815",
+  "updatedAt": "2026-11-16T16:58:15.073452+00:00",
+  "batch": "theory-course-816-820",
   "status": "locally_verified_pending_publication",
-  "release": "0.100.0",
-  "branch": "feat/theory-course-811-815",
-  "baseCommit": "d9e311d515839dda734a10886d1967de1cd4f2bd",
+  "release": "0.101.0",
+  "branch": "feat/theory-course-816-820",
+  "baseCommit": "abdd0cfc92377bff542d496ef0fb2a64e6349e2f",
   "previousBatch": {
-    "batch": "theory-course-806-810",
+    "batch": "theory-course-811-815",
     "status": "published_and_live_verified",
-    "release": "0.99.0",
-    "commit": "d9e311d515839dda734a10886d1967de1cd4f2bd"
+    "release": "0.100.0",
+    "commit": "abdd0cfc92377bff542d496ef0fb2a64e6349e2f"
   },
   "scope": [
-    "Ampliamento tiroide: tempi della sostituzione, sensibilità adrenergica, riserva surrenalica, tionamidi e ormone preformato."
+    "Ampliamento tiroideo: controllo, remissione, radioiodio e funzione residua dopo interventi sul tessuto."
   ],
   "completed": [
-    "12 pagine lette e controllate, 10 nuove e 2 rilette; 9 nuove con passaggi integrati.",
-    "16 sezioni, 4258 parole, 17 quesiti, 15 schemi e 15 riferimenti; 65 capitoli invariati nel numero.",
-    "50 controlli dati superati; otto configurazioni desktop/mobile e temi, 14 schermate ispezionate.",
-    "Navigazione, ricerca, tastiera, collegamenti e offline verificati; aggiornamento reale0.99.0→0.100.0 con preferiti, studio e tema conservati.",
-    "Gli altri64capitoli sono strutturalmente identici; quattroPDF sorgente ricontrollati e invariati."
+    "Due sezioni nuove;18sezioni,4812parole,19quesiti e17schemi. Sedici sezioni conservate.",
+    "Dieci pagine nuove lette e controllate:sei pertinenti alla tiroide,quattro di altri argomenti registrate privatamente. Quattro pagine contribuiscono al nuovo testo.",
+    "50 controlli dati superati; otto configurazioni desktop/mobile e temi, otto schermate finali ispezionate.",
+    "Navigazione, ricerca, tastiera, fonti, collegamenti e offline verificati; aggiornamento reale 0.100.0 → 0.101.0 con preferiti, studio e tema conservati.",
+    "Gli altri 64 capitoli e quattro PDF sorgente sono invariati."
   ],
   "remaining": [
     "Commit, CI, deploy e riscontro online."
@@ -45,26 +45,25 @@
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
     "newSections": 2,
-    "expandedSections": 3,
+    "expandedSections": 0,
     "newLinksToExistingIdentities": 0,
     "newStaticOriginalSchemas": 2,
-    "newSelfChecks": 3,
-    "unchangedSections": 11
+    "newSelfChecks": 2,
+    "unchangedSections": 16
   },
   "readingManifests": [
     "data/terapia-tiroidea-reading.json"
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente o validazione specialistica.",
-    "Questo lotto: 12 pagine locali lette e controllate visivamente, 10 nuove e 2 rilette. Cumulativo: 39 pagine uniche lette, 37 con passaggi integrati; nessun libro o corso interamente letto.",
-    "PDF 656 di Rang letto come contesto, senza nuovi passaggi integrati; 657 integrato soltanto per i meccanismi. Algoritmi, dosi e regole universali delle fonti esclusi.",
-    "Appunti I PDF334–335 riletti; PDF333 e gli intervalli di Farmacologia II dei lotti precedenti conservati senza nuova lettura. Figure condivise non considerate conferme indipendenti.",
-    "Per NICE consultati passaggi ufficiali indicizzati; accesso diretto limitato. Nessuna lettura integrale della linea guida o revisione sistematica.",
-    "SmPC britannici di levotiroxina e di due prodotti di propiltiouracile confrontati nei soli passaggi dichiarati; non verificati RCP italiani o disponibilità locale.",
-    "Escluse posologie, equivalenze dei preparati storici, gravidanza, algoritmi di emergenza e trattamento del sovradosaggio. Latenza dei segni non interpretata come finestra di sicurezza.",
-    "Contributi pregressi su amiodarone e checkpoint mantenuti; altri intervalli di libri e corsi restano da riconciliare."
+    "Questo capitolo:6pagine nuove lette e controllate,4 con passaggi integrati; cumulativo45lette e41integrate. Nessun libro o corso interamente letto.",
+    "Quattro altre pagine lette nel lotto restano nel registro privato:tre su contraccezione e una di inizio argomento osseo; escluse dalla copertura tiroidea.",
+    "Le due tabelle del corso riprendono rassegne2023/2024: letti solo gli estratti visibili, non gli articoli integrali. Dosi, percentuali e indicazioni universali non trasferite.",
+    "Katzung794 e Rang658 letti come contesto; curva34.5 non riprodotta. Le rassicurazioni storiche sul radioiodio non sono state convalidate.",
+    "NICE consultato nei soli passaggi ufficiali indicizzati, accesso diretto403; schedeATA informative, con data di revisione non indicata. Non effettuata revisione sistematica.",
+    "Contributi precedenti di appuntiI e corsiII conservati senza nuova lettura. Non verificati protocolli italiani, dosimetria, gravidanza o disponibilità locale."
   ],
-  "nextBatch": "Completare811–815 e verificarne la pubblicazione;816–820 non iniziato.",
+  "nextBatch": "Completare816–820;821–825 non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755"

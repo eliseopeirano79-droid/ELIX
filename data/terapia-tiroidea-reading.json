@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "batch": "theory-course-811-815",
+  "batch": "theory-course-816-820",
   "chapterId": "terapia-tiroidea",
-  "updatedAt": "2026-11-16T15:54:57.244555+00:00",
+  "updatedAt": "2026-11-16T16:45:19.649380+00:00",
   "fullCorpusRead": false,
   "clinicalValidation": false,
   "newIdentities": 0,
@@ -11,199 +11,141 @@
   "newTargetProfiles": 0,
   "newChapters": 0,
   "expandedExistingChapters": 1,
-  "newReadPdfPages": 10,
-  "newCourseReadPdfPages": 5,
-  "newBookReadPdfPages": 5,
-  "newMainCoursePages": 5,
+  "newReadPdfPages": 6,
+  "newCourseReadPdfPages": 2,
+  "newBookReadPdfPages": 4,
+  "newMainCoursePages": 2,
   "newOtherSlidesPages": 0,
   "newAppuntiPages": 0,
-  "reusedReadPdfPages": 2,
-  "totalReadPdfPages": 12,
-  "chapterReviewedPdfPages": 39,
-  "chapterSourcePdfPages": 39,
-  "newIntegratedPdfPages": 9,
-  "chapterIntegratedPdfPages": 37,
+  "reusedReadPdfPages": 0,
+  "totalReadPdfPages": 6,
+  "chapterReviewedPdfPages": 45,
+  "chapterSourcePdfPages": 45,
+  "newIntegratedPdfPages": 4,
+  "chapterIntegratedPdfPages": 41,
   "sources": [
     {
       "id": "CFI",
       "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
+      "title": "Appunti e diapositive del corso di Farmacologia I",
       "edition": "AA2025–26",
-      "pdfPagesRead": [
-        811,
-        812,
-        813,
-        814,
-        815
-      ],
-      "visuallyCheckedPdfPages": [
-        811,
-        812,
-        813,
-        814,
-        815
-      ],
       "sourceUnchanged": true,
       "allContentsRead": false,
-      "substantiveExtractedTextReadPages": [
-        811,
-        812,
-        813,
-        814,
-        815
+      "pdfPagesRead": [
+        816,
+        817
       ],
-      "imageTextReadPages": [
-        811,
-        812,
-        813,
-        814,
-        815
+      "visuallyCheckedPdfPages": [
+        816,
+        817
       ],
-      "printedPageLabels": {
-        "811": "809 di 934",
-        "812": "810 di 934",
-        "813": "811 di 934",
-        "814": "812 di 934",
-        "815": "813 di 934"
-      },
-      "title": "Appunti e diapositive del corso di Farmacologia I · AA 2025–26",
       "newlyReadTextPages": [
-        811,
-        812,
-        813,
-        814,
-        815
+        816,
+        817
       ],
       "reusedPreviouslyReadPages": [],
       "integratedPdfPages": [
-        811,
-        812,
-        813,
-        814,
-        815
+        816,
+        817
       ],
       "readButNotIntegratedPdfPages": [],
-      "integrationScope": "Passaggi selezionati, non tutte le affermazioni della pagina. Figure controllate, non pubblicate."
+      "imageTextReadPages": [
+        816,
+        817
+      ],
+      "substantiveExtractedTextReadPages": [],
+      "integrationScope": "Solo passaggi selezionati; figure controllate e non ripubblicate.",
+      "printedPageLabels": {
+        "816": "814 di934",
+        "817": "815 di934"
+      }
     },
     {
       "id": "KATZ",
       "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "title": "Katzung · Farmacologia generale e clinica",
       "edition": "IX italiana2014 / XII originale2012",
-      "pdfPagesRead": [
-        791,
-        792,
-        793
-      ],
-      "visuallyCheckedPdfPages": [
-        791,
-        792,
-        793
-      ],
       "sourceUnchanged": true,
       "allContentsRead": false,
-      "substantiveExtractedTextReadPages": [
-        791,
-        792,
-        793
+      "pdfPagesRead": [
+        794,
+        795
       ],
-      "printedPageLabels": {
-        "791": "771",
-        "792": "772",
-        "793": "773"
-      },
-      "title": "Katzung · Farmacologia generale e clinica · IX italiana 2014 / XII originale 2012",
+      "visuallyCheckedPdfPages": [
+        794,
+        795
+      ],
       "newlyReadTextPages": [
-        791,
-        792,
-        793
+        794,
+        795
       ],
       "reusedPreviouslyReadPages": [],
       "integratedPdfPages": [
-        791,
-        792,
-        793
+        795
       ],
-      "readButNotIntegratedPdfPages": [],
-      "integrationScope": "Passaggi selezionati, non tutte le affermazioni della pagina. Figure controllate, non pubblicate."
+      "readButNotIntegratedPdfPages": [
+        794
+      ],
+      "imageTextReadPages": [
+        794,
+        795
+      ],
+      "substantiveExtractedTextReadPages": [
+        794,
+        795
+      ],
+      "integrationScope": "Solo passaggi selezionati; figure controllate e non ripubblicate.",
+      "printedPageLabels": {
+        "794": "774",
+        "795": "775"
+      }
     },
     {
       "id": "RANG",
       "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "title": "Rang & Dale · Farmacologia",
       "edition": "VIII italiana2016 / originale2015",
-      "pdfPagesRead": [
-        656,
-        657
-      ],
-      "visuallyCheckedPdfPages": [
-        656,
-        657
-      ],
       "sourceUnchanged": true,
       "allContentsRead": false,
-      "substantiveExtractedTextReadPages": [
-        656,
-        657
+      "pdfPagesRead": [
+        658,
+        659
       ],
-      "printedPageLabels": {
-        "656": "Numero editoriale non visibile",
-        "657": "Numero editoriale non visibile"
-      },
-      "title": "Rang & Dale · Farmacologia · VIII italiana 2016 / originale 2015",
+      "visuallyCheckedPdfPages": [
+        658,
+        659
+      ],
       "newlyReadTextPages": [
-        656,
-        657
+        658,
+        659
       ],
       "reusedPreviouslyReadPages": [],
       "integratedPdfPages": [
-        657
+        659
       ],
       "readButNotIntegratedPdfPages": [
-        656
+        658
       ],
-      "integrationScope": "Passaggi selezionati, non tutte le affermazioni della pagina. Figure controllate, non pubblicate."
-    },
-    {
-      "id": "APP",
-      "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
-      "edition": "AA2025–26; lezione19,1 dicembre2025",
-      "pdfPagesRead": [
-        334,
-        335
+      "imageTextReadPages": [
+        658,
+        659
       ],
-      "visuallyCheckedPdfPages": [
-        334,
-        335
-      ],
-      "sourceUnchanged": true,
-      "allContentsRead": false,
       "substantiveExtractedTextReadPages": [
-        334,
-        335
+        658,
+        659
       ],
+      "integrationScope": "Solo passaggi selezionati; figure controllate e non ripubblicate.",
       "printedPageLabels": {
-        "334": "329; lezione19 p10",
-        "335": "330; lezione19 p11"
-      },
-      "lesson": 19,
-      "lessonDate": "2025-12-01",
-      "title": "Appunti del corso di Farmacologia I · AA 2025–26",
-      "newlyReadTextPages": [],
-      "reusedPreviouslyReadPages": [
-        334,
-        335
-      ],
-      "integratedPdfPages": [
-        334,
-        335
-      ],
-      "readButNotIntegratedPdfPages": [],
-      "integrationScope": "Passaggi selezionati, non tutte le affermazioni della pagina. Figure controllate, non pubblicate."
+        "658": "Numero editoriale non visibile",
+        "659": "Numero editoriale non visibile"
+      }
     }
   ],
   "officialSourceScopes": [
     {
       "id": "NICE",
       "title": "NICE NG145 · Thyroid disease: assessment and management · aggiornamento 2023",
-      "detail": "Consultazione 16 novembre 2026 dei passaggi ufficiali indicizzati: §§1.1.2,1.2.8–1.2.11,1.3.3–1.3.4,1.4.1–1.4.4,1.6.1 e1.6.5. Apertura diretta HTML/PDF negata (403); non dichiarata lettura integrale.",
+      "detail": "Consultazione 16 novembre 2026 dei passaggi ufficiali indicizzati: §§1.1.2,1.2.8–1.2.11,1.3.3–1.3.4,1.4.1–1.4.4,1.6.1 e1.6.5. Apertura diretta HTML/PDF negata (403); non dichiarata lettura integrale. In questo lotto confrontati i passaggi ufficiali indicizzati1.1.5 e1.6.9–1.6.17; apertura diretta403. Non trasferito un algoritmo terapeutico.",
       "url": "https://www.nice.org.uk/guidance/ng145/chapter/Recommendations"
     },
     {
@@ -247,53 +189,37 @@
       "title": "Propiltiouracile · SmPC britannico Wockhardt · testo 6 febbraio 2026",
       "detail": "Prodotto 3123, consultato 16 novembre 2026: §§4.4,4.8 per rischi ematologici ed epatici; §5.1 per sintesi e latenza dell’effetto. Documento di un altro prodotto, mantenuto distinto. Frequenze, protocolli e gravidanza non trasferiti.",
       "url": "https://www.medicines.org.uk/emc/product/3123/smpc"
+    },
+    {
+      "id": "ATAH",
+      "title": "American Thyroid Association · Hyperthyroidism",
+      "detail": "Consultato16novembre2026: sezioni su antitiroidei, radioiodio e chirurgia, per controllo/remissione, tessuto funzionante, funzione residua e rischi oculari/paratiroidei/laringei. Informazione ufficiale per pazienti; data di revisione non indicata. Nessuna dose o frequenza trasferita.",
+      "url": "https://www.thyroid.org/hyperthyroidism/"
+    },
+    {
+      "id": "ATAG",
+      "title": "American Thyroid Association · Graves’ Disease",
+      "detail": "Consultato16novembre2026: causa immunologica e trattamento, per anticorpi al recettore delTSH e possibilità di remissione. Informazione ufficiale per pazienti; data di revisione non indicata. Nessun regime o calendario trasferito.",
+      "url": "https://www.thyroid.org/graves-disease/"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente o validazione specialistica.",
-    "Questo lotto: 12 pagine locali lette e controllate visivamente, 10 nuove e 2 rilette. Cumulativo: 39 pagine uniche lette, 37 con passaggi integrati; nessun libro o corso interamente letto.",
-    "PDF 656 di Rang letto come contesto, senza nuovi passaggi integrati; 657 integrato soltanto per i meccanismi. Algoritmi, dosi e regole universali delle fonti esclusi.",
-    "Appunti I PDF334–335 riletti; PDF333 e gli intervalli di Farmacologia II dei lotti precedenti conservati senza nuova lettura. Figure condivise non considerate conferme indipendenti.",
-    "Per NICE consultati passaggi ufficiali indicizzati; accesso diretto limitato. Nessuna lettura integrale della linea guida o revisione sistematica.",
-    "SmPC britannici di levotiroxina e di due prodotti di propiltiouracile confrontati nei soli passaggi dichiarati; non verificati RCP italiani o disponibilità locale.",
-    "Escluse posologie, equivalenze dei preparati storici, gravidanza, algoritmi di emergenza e trattamento del sovradosaggio. Latenza dei segni non interpretata come finestra di sicurezza.",
-    "Contributi pregressi su amiodarone e checkpoint mantenuti; altri intervalli di libri e corsi restano da riconciliare."
+    "Questo capitolo:6pagine nuove lette e controllate,4 con passaggi integrati; cumulativo45lette e41integrate. Nessun libro o corso interamente letto.",
+    "Quattro altre pagine lette nel lotto restano nel registro privato:tre su contraccezione e una di inizio argomento osseo; escluse dalla copertura tiroidea.",
+    "Le due tabelle del corso riprendono rassegne2023/2024: letti solo gli estratti visibili, non gli articoli integrali. Dosi, percentuali e indicazioni universali non trasferite.",
+    "Katzung794 e Rang658 letti come contesto; curva34.5 non riprodotta. Le rassicurazioni storiche sul radioiodio non sono state convalidate.",
+    "NICE consultato nei soli passaggi ufficiali indicizzati, accesso diretto403; schedeATA informative, con data di revisione non indicata. Non effettuata revisione sistematica.",
+    "Contributi precedenti di appuntiI e corsiII conservati senza nuova lettura. Non verificati protocolli italiani, dosimetria, gravidanza o disponibilità locale."
   ],
   "deduplication": {
-    "recordsChecked": 160,
-    "method": "Exact SHA256 and explicit read-page records before extraction; inventory, planned pages and metadata do not count as reading. Shared figures checked visually.",
-    "reused": {
-      "APP": [
-        334,
-        335
-      ]
-    },
-    "sharedFigures": [
-      {
-        "pages": [
-          "CFI813",
-          "APP334"
-        ],
-        "type": "excluded dose algorithm"
-      },
-      {
-        "pages": [
-          "CFI812",
-          "APP335"
-        ],
-        "type": "same table"
-      },
-      {
-        "pages": [
-          "CFI815",
-          "APP335"
-        ],
-        "type": "same diagram; adaptation of earlier book edition"
-      }
-    ],
+    "recordsChecked": 162,
+    "method": "Preserved prior explicit reading map and reconciled all listed records by exact SHA256 and explicit read-page fields. Inventory/planned/extracted ranges excluded.",
+    "reused": {},
+    "sharedFigures": [],
     "independentCorroborationFromSharedFigures": false
   },
-  "batchIntegratedPdfPages": 11,
+  "batchIntegratedPdfPages": 4,
   "cumulativeSources": [
     {
       "id": "CFI",
@@ -313,7 +239,9 @@
         812,
         813,
         814,
-        815
+        815,
+        816,
+        817
       ],
       "visuallyCheckedPdfPages": [
         801,
@@ -330,7 +258,9 @@
         812,
         813,
         814,
-        815
+        815,
+        816,
+        817
       ],
       "integratedPdfPages": [
         801,
@@ -346,7 +276,9 @@
         812,
         813,
         814,
-        815
+        815,
+        816,
+        817
       ],
       "allContentsRead": false
     },
@@ -362,7 +294,9 @@
         790,
         791,
         792,
-        793
+        793,
+        794,
+        795
       ],
       "visuallyCheckedPdfPages": [
         785,
@@ -373,7 +307,9 @@
         790,
         791,
         792,
-        793
+        793,
+        794,
+        795
       ],
       "integratedPdfPages": [
         785,
@@ -384,7 +320,8 @@
         790,
         791,
         792,
-        793
+        793,
+        795
       ],
       "allContentsRead": false
     },
@@ -398,7 +335,9 @@
         654,
         655,
         656,
-        657
+        657,
+        658,
+        659
       ],
       "visuallyCheckedPdfPages": [
         651,
@@ -407,7 +346,9 @@
         654,
         655,
         656,
-        657
+        657,
+        658,
+        659
       ],
       "integratedPdfPages": [
         651,
@@ -415,7 +356,8 @@
         653,
         654,
         655,
-        657
+        657,
+        659
       ],
       "allContentsRead": false
     },
@@ -488,5 +430,7 @@
       "allContentsRead": false
     }
   ],
-  "coverageSemantics": "sources and totalReadPdfPages describe this batch only; cumulativeSources and chapter* are deduplicated across batches. APP334–335 reread, APP333 and selected courseII contributions retained without rereading. Shared figures do not constitute independent corroboration."
+  "coverageSemantics": "sources,totalReadPdfPages e cumulativeSources riguardano solo la tiroide. Il lotto complessivo ha10pagine nuove lette;4 di altri argomenti restano private e non contano nella copertura del capitolo. Nessuna nuova rilettura dei contributi precedenti.",
+  "batchAllTopicsReadPdfPages": 10,
+  "otherTopicReadPdfPages": 4
 }
