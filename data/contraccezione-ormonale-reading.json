@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-course-776-780",
+  "batch": "theory-course-781-785",
   "chapterId": "contraccezione-ormonale",
-  "updatedAt": "2026-11-16T01:20:12.001390+00:00",
+  "updatedAt": "2026-11-16T09:26:43.714993+00:00",
   "fullCorpusRead": false,
   "clinicalValidation": false,
   "newIdentities": 0,
@@ -11,16 +11,16 @@
   "newTargetProfiles": 0,
   "newChapters": 0,
   "expandedExistingChapters": 1,
-  "newReadPdfPages": 8,
+  "newReadPdfPages": 11,
   "newCourseReadPdfPages": 6,
-  "newBookReadPdfPages": 2,
+  "newBookReadPdfPages": 5,
   "newMainCoursePages": 5,
   "newOtherSlidesPages": 0,
   "newAppuntiPages": 1,
-  "reusedReadPdfPages": 27,
-  "totalReadPdfPages": 35,
-  "chapterReviewedPdfPages": 35,
-  "chapterSourcePdfPages": 34,
+  "reusedReadPdfPages": 35,
+  "totalReadPdfPages": 46,
+  "chapterReviewedPdfPages": 46,
+  "chapterSourcePdfPages": 40,
   "sources": [
     {
       "id": "CFI",
@@ -42,7 +42,12 @@
         777,
         778,
         779,
-        780
+        780,
+        781,
+        782,
+        783,
+        784,
+        785
       ],
       "visuallyCheckedPdfPages": [
         766,
@@ -59,7 +64,12 @@
         777,
         778,
         779,
-        780
+        780,
+        781,
+        782,
+        783,
+        784,
+        785
       ],
       "substantiveExtractedTextReadPages": [
         766,
@@ -72,22 +82,27 @@
         777,
         778,
         779,
-        780
+        780,
+        781,
+        782,
+        783,
+        784
       ],
       "imageTextReadPages": [
         768,
         769,
         775,
-        776
+        776,
+        785
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
       "newlyReadTextPages": [
-        776,
-        777,
-        778,
-        779,
-        780
+        781,
+        782,
+        783,
+        784,
+        785
       ],
       "reusedPreviouslyReadPages": [
         766,
@@ -99,7 +114,12 @@
         772,
         773,
         774,
-        775
+        775,
+        776,
+        777,
+        778,
+        779,
+        780
       ],
       "integratedPdfPages": [
         766,
@@ -116,9 +136,15 @@
         777,
         778,
         779,
-        780
+        780,
+        781,
+        782,
+        783
       ],
-      "readButNotIntegratedPdfPages": [],
+      "readButNotIntegratedPdfPages": [
+        784,
+        785
+      ],
       "partiallyOccludedPdfPages": [
         775,
         780
@@ -139,9 +165,15 @@
         "777": "775",
         "778": "776",
         "779": "777",
-        "780": "778"
+        "780": "778",
+        "781": "779",
+        "782": "780",
+        "783": "781",
+        "784": "782",
+        "785": "783"
       },
-      "partialPageLimit": "PDF775: note inferiori della tabella44-2 mancanti; celle visibili esaminate, note non ricostruite. PDF780: riga delle dimenticanze coperta e note mancanti; visibili altre celle e testo, non adottate le istruzioni universali."
+      "partialPageLimit": "PDF775: note inferiori della tabella44-2 mancanti; celle visibili esaminate, note non ricostruite. PDF780: riga delle dimenticanze coperta e note mancanti; visibili altre celle e testo, non adottate le istruzioni universali.",
+      "notIntegratedReason": "Pagine lette e controllate visivamente; nessun passaggio adottato perché fuori dal lotto o contenente indicazioni storiche non rivalutate."
     },
     {
       "id": "KATZ",
@@ -155,7 +187,10 @@
         835,
         836,
         837,
-        838
+        838,
+        839,
+        840,
+        841
       ],
       "visuallyCheckedPdfPages": [
         831,
@@ -164,14 +199,20 @@
         835,
         836,
         837,
-        838
+        838,
+        839,
+        840,
+        841
       ],
       "substantiveExtractedTextReadPages": [
         831,
         833,
         836,
         837,
-        838
+        838,
+        839,
+        840,
+        841
       ],
       "imageTextReadPages": [
         832,
@@ -180,15 +221,18 @@
       "allContentsRead": false,
       "sourceUnchanged": true,
       "newlyReadTextPages": [
-        837,
-        838
+        839,
+        840,
+        841
       ],
       "reusedPreviouslyReadPages": [
         831,
         832,
         833,
         835,
-        836
+        836,
+        837,
+        838
       ],
       "integratedPdfPages": [
         831,
@@ -196,10 +240,13 @@
         833,
         835,
         836,
-        837
+        837,
+        841
       ],
       "readButNotIntegratedPdfPages": [
-        838
+        838,
+        839,
+        840
       ],
       "partiallyOccludedPdfPages": [],
       "integrationScope": "Passaggi selezionati; non tutta la pagina riprodotta o adottata.",
@@ -210,9 +257,12 @@
         "832": "812",
         "833": "813",
         "837": "817",
-        "838": "818"
+        "838": "818",
+        "839": "819",
+        "840": "820",
+        "841": "821"
       },
-      "notIntegratedReason": "PDF838: lettura completa del testo disponibile e controllo visivo, ma nessun passaggio adottato; usi clinici e indicazioni storiche fuori dal lotto."
+      "notIntegratedReason": "Pagine lette e controllate visivamente; nessun passaggio adottato perché fuori dal lotto o contenente indicazioni storiche non rivalutate."
     },
     {
       "id": "RANG",
@@ -223,24 +273,33 @@
         667,
         669,
         675,
-        676
+        676,
+        677,
+        678
       ],
       "visuallyCheckedPdfPages": [
         667,
         669,
         675,
-        676
+        676,
+        677,
+        678
       ],
       "substantiveExtractedTextReadPages": [
         667,
         669,
         675,
-        676
+        676,
+        677,
+        678
       ],
       "imageTextReadPages": [],
       "allContentsRead": false,
       "sourceUnchanged": true,
-      "newlyReadTextPages": [],
+      "newlyReadTextPages": [
+        677,
+        678
+      ],
       "reusedPreviouslyReadPages": [
         667,
         669,
@@ -251,17 +310,23 @@
         667,
         669,
         675,
-        676
+        676,
+        678
       ],
-      "readButNotIntegratedPdfPages": [],
+      "readButNotIntegratedPdfPages": [
+        677
+      ],
       "partiallyOccludedPdfPages": [],
       "integrationScope": "Passaggi selezionati; non tutta la pagina riprodotta o adottata.",
       "printedPageLabels": {
         "675": null,
         "676": null,
         "667": null,
-        "669": null
-      }
+        "669": null,
+        "677": null,
+        "678": null
+      },
+      "notIntegratedReason": "Pagine lette e controllate visivamente; nessun passaggio adottato perché fuori dal lotto o contenente indicazioni storiche non rivalutate."
     },
     {
       "id": "APP",
@@ -274,7 +339,8 @@
         326,
         327,
         328,
-        329
+        329,
+        330
       ],
       "visuallyCheckedPdfPages": [
         307,
@@ -282,7 +348,8 @@
         326,
         327,
         328,
-        329
+        329,
+        330
       ],
       "substantiveExtractedTextReadPages": [
         307,
@@ -290,18 +357,20 @@
         326,
         327,
         328,
-        329
+        329,
+        330
       ],
       "imageTextReadPages": [],
       "allContentsRead": false,
       "sourceUnchanged": true,
       "newlyReadTextPages": [
-        327
+        330
       ],
       "reusedPreviouslyReadPages": [
         307,
         325,
         326,
+        327,
         328,
         329
       ],
@@ -311,7 +380,8 @@
         326,
         327,
         328,
-        329
+        329,
+        330
       ],
       "readButNotIntegratedPdfPages": [],
       "partiallyOccludedPdfPages": [
@@ -337,14 +407,16 @@
             326,
             327,
             328,
-            329
+            329,
+            330
           ],
           "printedPages": [
             320,
             321,
             322,
             323,
-            324
+            324,
+            325
           ],
           "lesson": 19,
           "date": "2025-12-01"
@@ -356,7 +428,8 @@
         "328": "323",
         "329": "324",
         "326": "321",
-        "327": "322"
+        "327": "322",
+        "330": "325"
       },
       "partialPageLimit": "PDF326: note della tabella mancanti e figura ER con etichette minute non validate integralmente, non utilizzata. PDF329: riga coperta."
     },
@@ -508,13 +581,48 @@
       "title": "CDC · U.S. Selected Practice Recommendations 2024 · Progestin-Only Pills",
       "detail": "Overview, commenti sui meccanismi e passaggi su compresse attive/placebo nella sezione Missed POPs; consultati il 16 novembre 2026. Contesto statunitense: nessuna disponibilità italiana dedotta, nessuna istruzione per dimenticanze ripubblicata.",
       "url": "https://www.cdc.gov/contraception/hcp/usspr/progestin-only-pills.html"
+    },
+    {
+      "id": "WHOEC",
+      "title": "OMS · Emergency contraception · 9 novembre 2021",
+      "detail": "Consultati il 16 novembre 2026: definizione, meccanismo, regimi distinti e paragrafi su efficacia e obesità. Solo confronto concettuale; nessun protocollo o istruzione per il vomito trasferiti.",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/emergency-contraception"
+    },
+    {
+      "id": "EMAEC",
+      "title": "EMA · Emergency contraceptives · procedura europea 2014",
+      "detail": "Overview e conclusione della revisione sul peso: superamento delle affermazioni categoriche del 2013. Documento storico ricontrollato il 16 novembre 2026, non prova di assenza di un effetto del peso; tabelle numeriche non adottate.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/emergency-contraceptives"
+    },
+    {
+      "id": "CDCEC",
+      "title": "CDC · U.S. Selected Practice Recommendations 2024 · Emergency Contraception",
+      "detail": "Consultati il 16 novembre 2026: tipi di pillole e Comments and Evidence Summary sull’efficacia, compreso il confronto nell’obesità. Contesto statunitense; quantità e istruzioni operative non ripubblicate.",
+      "url": "https://www.cdc.gov/contraception/hcp/usspr/emergency-contraception.html"
+    },
+    {
+      "id": "UPA",
+      "title": "AEMPS/CIMA · ellaOne · scheda tecnica",
+      "detail": "§4.4 e inizio §5.1: ovulazione, gravidanza esistente, dati sul peso e modulazione di PR. Consultati il 16 novembre 2026 nella scheda spagnola; §10 contiene un segnaposto, data di revisione non accertata. PDF EMA non accessibile; tabelle e regimi non adottati.",
+      "url": "https://cima.aemps.es/cima/dochtml/ft/109522003/FT_109522003.html"
+    },
+    {
+      "id": "MIFE",
+      "title": "AEMPS/CIMA · Mifegyne · scheda tecnica, revisione luglio 2024",
+      "detail": "§5.1, passaggi iniziali: antagonismo del progesterone, risposta endometriale/miometriale e sensibilità alle prostaglandine; consultati il 16 novembre 2026. Fonte spagnola per meccanismi, senza dosi o limiti gestazionali trasferiti all’Italia.",
+      "url": "https://cima.aemps.es/cima/dochtml/ft/84219/FT_84219.html"
+    },
+    {
+      "id": "MISO",
+      "title": "AEMPS/CIMA · MisoOne · scheda tecnica, revisione giugno 2024",
+      "detail": "§5.1 iniziale e §4.4, paragrafo sul sanguinamento: analogo di PGE1, miometrio/cervice e distinzione fra segno ed esito. Consultati il 16 novembre 2026; nessuna lettura clinica integrale né protocollo italiano.",
+      "url": "https://cima.aemps.es/cima/dochtml/ft/77146/FT_77146.html"
     }
   ],
   "limits": [
     "Sintesi didattica di un solo integratore, non revisione clinica indipendente.",
     "APP329: riga coperta non leggibile; testo disponibile e resto del rendering controllati.",
     "Disponibilità, durate autorizzate e istruzioni italiane dei singoli prodotti non verificate; documenti britannici usati per meccanismi/unità/interazioni dichiarati.",
-    "Esclusi emergenza contraccettiva, protocolli per dimenticanze, allattamento, indicazioni oncologiche e trattamento dell’infertilità.",
     "PDF ufficiali AIFA non verificati visivamente dopo errori di accesso; usati solo passaggi testuali, nessuna tabella numerica.",
     "Figura45.2 condivisa APP307/CFI769: origine editoriale non identificata; nessuna conferma indipendente. Bibliografia richiamata non dichiarata letta.",
     "Riconciliazione limitata agli intervalli di Farmacologia I 2025–26 e II 2026–27 elencati; nessuna nuova lettura di Farmacologia generale e molecolare.",
@@ -522,17 +630,24 @@
     "CFI775 e APP326: stessa tabella44-2 con note inferiori mancanti; origine editoriale non identificata, nessuna conferma indipendente.",
     "APP326: figura ER non integrata perché le etichette minute non sono state validate integralmente; confronti clinici senza fonte esclusi.",
     "Katzung832: attività ricavate da specie e parametri diversi non trasferite come graduatoria clinica; dosi e usi storici esclusi.",
-    "35 pagine locali esaminate: 8 nuove e 27 già documentate; passaggi integrati da 34. Katzung838 letta ma non integrata. Nessuna lettura integrale di libri, corsi o linee guida.",
     "CFI776 ripropone la figura ER di APP326: etichette leggibili nella diapositiva, senza retrodatare la lettura della figura più piccola.",
     "CFI777–778 e APP327 condividono figure; articolo della copertina mostrata a777 non letto. Nessuna conferma indipendente.",
     "Freccia lipidica di CFI778/APP327 ambigua: non trasferita. Androgenicità, profilo lipidico ed eventi clinici non equiparati.",
     "Esclusa la deduzione secondo cui basse dosi annullino il rischio o stabiliscano da sole gli esami necessari.",
     "CFI780: riga delle dimenticanze coperta, note mancanti e istruzioni generalizzate non adottate; CDC usato per eterogeneità dei meccanismi e dosi attive/placebo, senza protocolli.",
     "Rang676 riletto e ricontrollato visivamente ma già contato; stime numeriche storiche non adottate. Nessuna nuova lettura degli altri contributi conservati.",
-    "EMA 2013–2014 consultata per distinzioni concettuali; tabella storica non usata come stima attuale. AIFA2024 ricontrollata nel testo; documenti non letti integralmente."
+    "EMA 2013–2014 consultata per distinzioni concettuali; tabella storica non usata come stima attuale. AIFA2024 ricontrollata nel testo; documenti non letti integralmente.",
+    "Emergenza e antagonismo di PR integrati solo nei meccanismi e nei limiti di interpretazione. Esclusi protocolli per dimenticanze, allattamento, gestione dell’interruzione, dosi, limiti gestazionali e raccomandazioni individuali.",
+    "46 pagine lette:11 nuove,35 già documentate;40 con passaggi integrati. Non integrate CFI784–785, Katzung838–840 e Rang677. Nessuna lettura integrale di libri, corsi o guide.",
+    "CFI785: testo estratto limitato al titolo ma diagramma TOS letto visivamente; nessuna etichetta di sola intestazione. Diagramma non integrato e origine non identificata.",
+    "CFI782–783/Appunti330: comunicato2013 e infografica condivisi; non conferme indipendenti. Curve e regimi storici esclusi; mifepristone distinto da misoprostolo.",
+    "Katzung841: spiegazione anti-impianto per ulipristal e tabella40-4 non adottate. Raffronto con OMS e scheda AEMPS, nessun regime ripubblicato.",
+    "PDF EMA di ellaOne non accessibile (429); usati passaggi HTML AEMPS/CIMA, con data di revisione non accertabile perché segnaposto. Nessuna lettura integrale dichiarata.",
+    "Fonti ufficiali spagnole usate per meccanismi e limiti dichiarati; disponibilità, RCP e percorsi italiani non riesaminati.",
+    "Katzung839–840 e Rang677: rischi e precauzioni storiche non rivalutati; Rang678: integrato soltanto contesto fisiologico uterino, non protocolli ostetrici o descrizione strutturale dell’ossitocina."
   ],
   "deduplication": {
-    "recordsCheckedBeforeExtraction": 143,
+    "recordsCheckedBeforeExtraction": 145,
     "sourcePageOverlap": [],
     "method": "Hash del file più pagine documentate nei registri precedenti; inventario ed estrazione non equivalgono a lettura.",
     "sharedFigure": "APP307 e CFI769: stessa figura45.2, origine editoriale non identificata.",
@@ -540,9 +655,10 @@
     "sharedTable": "CFI775 e APP326: stessa tabella44-2 con note mancanti; origine editoriale non identificata.",
     "additionalSharedFigures": [
       "CFI776/APP326: vie ER",
-      "CFI777–778/APP327: emostasi e formulazioni"
+      "CFI777–778/APP327: emostasi e formulazioni",
+      "CFI782–783/Appunti330: comunicato2013 e infografica"
     ]
   },
-  "newIntegratedPdfPages": 7,
-  "chapterIntegratedPdfPages": 34
+  "newIntegratedPdfPages": 6,
+  "chapterIntegratedPdfPages": 40
 }

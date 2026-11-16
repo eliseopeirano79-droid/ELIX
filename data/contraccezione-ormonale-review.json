@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "chapterId": "contraccezione-ormonale",
-  "batch": "theory-course-776-780",
-  "reviewedAt": "2026-11-16T01:20:12.001390+00:00",
+  "batch": "theory-course-781-785",
+  "reviewedAt": "2026-11-16T09:26:43.714993+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "6d9faf5dd876fa82f7cdfee0d056e153d27d904822c16fb0034079dbcb0ba6ff",
+  "moduleSha256": "dcf607d353fbb02e7c931a045b9378524388e1df09a52d1da247e24f0b35656e",
   "checks": [
     "Rilette sintesi, quesiti e riferimenti; distinti composizione, via e schema temporale.",
     "Distinti ER/PR, segnali FSH/LH, ovulazione e contributi periferici.",
@@ -19,7 +19,9 @@
     "Grafici fisiologici, dosi e concentrazioni distinti; note mancanti e confronti clinici senza fonte esclusi.",
     "Riconciliati 9 nuovi passaggi e 18 pagine precedenti, senza conteggiare di nuovo la rilettura di Rang669.",
     "Riletto ampliamento su vie ER, risposta emostatica, indicatori/eventi e eterogeneità delle pillole con solo progestinico; escluse inferenze cliniche non supportate.",
-    "Verificati conteggi separati: 8 nuove pagine lette, 7 con passaggi integrati, 27 riutilizzate, 35 lette totali e 34 integrate."
+    "Verificati conteggi separati: 8 nuove pagine lette, 7 con passaggi integrati, 27 riutilizzate, 35 lette totali e 34 integrate.",
+    "Rilette le tre sezioni nuove e i quattro quesiti: distinti fase ovarica, tempo dal rapporto, PR/PGE1 e segno/esito; quantità e protocolli non pubblicati.",
+    "Riconciliati11 nuovi intervalli di pagina:6 integrati,5 non integrati;35 precedenti conservati, totale 46 letti e40 integrati."
   ],
   "conflicts": [
     {
@@ -189,13 +191,60 @@
       "issue": "CFI776/APP326 e CFI777–778/APP327 condividono figure.",
       "resolution": "Nessuna conferma indipendente. Figura ER leggibile a776; articolo citato a777 non letto, immagini delle fonti non pubblicate.",
       "status": "bounded_uncertainty"
+    },
+    {
+      "id": "lng-regimen-repetition",
+      "issue": "CFI781 e Rang678 generalizzano la ripetizione; la curva di CFI781 è etichettata con una dose diversa dallo schema frazionato.",
+      "resolution": "Distinte dose singola e dose totale frazionata tramite CDC/OMS; nessuna dose o ripetizione automatica pubblicata. Curva senza fonte e denominatori esclusa.",
+      "status": "resolved_for_bounded_chapter"
+    },
+    {
+      "id": "ec-weight-2013",
+      "issue": "CFI782 e Appunti330 riportano il comunicato del 2013 con soglie rigide.",
+      "resolution": "Ricostruita revisione EMA2014 e confronto mirato con OMS, CDC e scheda di ulipristal. Escluse soglie certe e deduzione opposta di irrilevanza del peso.",
+      "status": "resolved_for_bounded_chapter"
+    },
+    {
+      "id": "upa-implantation",
+      "issue": "Katzung841 attribuisce a ulipristal un meccanismo postovulatorio anti-impianto e accosta regimi diversi nella tabella40-4.",
+      "resolution": "Priorità alla scheda attuale e OMS: prevenzione/ritardo ovulatorio, assenza di interruzione di gravidanza già instaurata. Tabella, numeri e nomenclatura storica non trasferiti.",
+      "status": "resolved_for_bounded_chapter"
+    },
+    {
+      "id": "mifepristone-pge1-misattribution",
+      "issue": "Appunti330 attribuisce erroneamente a mifepristone la classe analogo di PGE1; la didascalia della figura identifica invece misoprostolo.",
+      "resolution": "Mifepristone antagonista di PR e misoprostolo analogo di PGE1 distinti secondo le schede AEMPS. Originale non modificato.",
+      "status": "resolved_for_bounded_chapter"
+    },
+    {
+      "id": "pregnancy-sequence-outcomes",
+      "issue": "CFI783 e Appunti330 presentano tempi storici e una catena semplificata fra hCG, supporto ormonale ed espulsione.",
+      "resolution": "Ricondotto il primo passaggio a PR e distinta funzione uterotonica; nessun limite gestazionale, dose, percentuale o uso dell’ossitocina trasferito. Sanguinamento non prova sufficiente dell’esito.",
+      "status": "resolved_for_bounded_chapter"
+    },
+    {
+      "id": "shared-ec-pregnancy-figures",
+      "issue": "CFI782–783 e Appunti330 riprendono lo stesso comunicato e la stessa infografica.",
+      "resolution": "Nessuna conferma indipendente da copie condivise; nessuna immagine pubblicata. Fonte giornalistica non usata come verifica clinica.",
+      "status": "bounded_uncertainty"
+    },
+    {
+      "id": "read-not-integrated-781-785",
+      "issue": "Alcune pagine lette appartengono a impieghi non contraccettivi, TOS o rischi/precauzioni storici fuori dal lotto.",
+      "resolution": "CFI784–785, Katzung839–840 e Rang677 letti e controllati visivamente ma non integrati; conservato anche Katzung838 già escluso. A CFI785 diagramma TOS effettivamente letto nell’immagine.",
+      "status": "excluded"
+    },
+    {
+      "id": "historical-book-errors",
+      "issue": "Katzung839 associa impropriamente fattore V Leiden alla produzione della proteina C; Rang678 definisce l’ossitocina octapeptide. Altre indicazioni/precauzioni storiche non riesaminate.",
+      "resolution": "Passaggi esclusi dal contenuto: non serve correggere o generalizzare le fonti originali per il lotto su PR ed emergenza. Correzione completa dei capitoli sorgente non dichiarata.",
+      "status": "excluded"
     }
   ],
   "limits": [
     "Sintesi didattica di un solo integratore, non revisione clinica indipendente.",
     "APP329: riga coperta non leggibile; testo disponibile e resto del rendering controllati.",
     "Disponibilità, durate autorizzate e istruzioni italiane dei singoli prodotti non verificate; documenti britannici usati per meccanismi/unità/interazioni dichiarati.",
-    "Esclusi emergenza contraccettiva, protocolli per dimenticanze, allattamento, indicazioni oncologiche e trattamento dell’infertilità.",
     "PDF ufficiali AIFA non verificati visivamente dopo errori di accesso; usati solo passaggi testuali, nessuna tabella numerica.",
     "Figura45.2 condivisa APP307/CFI769: origine editoriale non identificata; nessuna conferma indipendente. Bibliografia richiamata non dichiarata letta.",
     "Riconciliazione limitata agli intervalli di Farmacologia I 2025–26 e II 2026–27 elencati; nessuna nuova lettura di Farmacologia generale e molecolare.",
@@ -203,13 +252,20 @@
     "CFI775 e APP326: stessa tabella44-2 con note inferiori mancanti; origine editoriale non identificata, nessuna conferma indipendente.",
     "APP326: figura ER non integrata perché le etichette minute non sono state validate integralmente; confronti clinici senza fonte esclusi.",
     "Katzung832: attività ricavate da specie e parametri diversi non trasferite come graduatoria clinica; dosi e usi storici esclusi.",
-    "35 pagine locali esaminate: 8 nuove e 27 già documentate; passaggi integrati da 34. Katzung838 letta ma non integrata. Nessuna lettura integrale di libri, corsi o linee guida.",
     "CFI776 ripropone la figura ER di APP326: etichette leggibili nella diapositiva, senza retrodatare la lettura della figura più piccola.",
     "CFI777–778 e APP327 condividono figure; articolo della copertina mostrata a777 non letto. Nessuna conferma indipendente.",
     "Freccia lipidica di CFI778/APP327 ambigua: non trasferita. Androgenicità, profilo lipidico ed eventi clinici non equiparati.",
     "Esclusa la deduzione secondo cui basse dosi annullino il rischio o stabiliscano da sole gli esami necessari.",
     "CFI780: riga delle dimenticanze coperta, note mancanti e istruzioni generalizzate non adottate; CDC usato per eterogeneità dei meccanismi e dosi attive/placebo, senza protocolli.",
     "Rang676 riletto e ricontrollato visivamente ma già contato; stime numeriche storiche non adottate. Nessuna nuova lettura degli altri contributi conservati.",
-    "EMA 2013–2014 consultata per distinzioni concettuali; tabella storica non usata come stima attuale. AIFA2024 ricontrollata nel testo; documenti non letti integralmente."
+    "EMA 2013–2014 consultata per distinzioni concettuali; tabella storica non usata come stima attuale. AIFA2024 ricontrollata nel testo; documenti non letti integralmente.",
+    "Emergenza e antagonismo di PR integrati solo nei meccanismi e nei limiti di interpretazione. Esclusi protocolli per dimenticanze, allattamento, gestione dell’interruzione, dosi, limiti gestazionali e raccomandazioni individuali.",
+    "46 pagine lette:11 nuove,35 già documentate;40 con passaggi integrati. Non integrate CFI784–785, Katzung838–840 e Rang677. Nessuna lettura integrale di libri, corsi o guide.",
+    "CFI785: testo estratto limitato al titolo ma diagramma TOS letto visivamente; nessuna etichetta di sola intestazione. Diagramma non integrato e origine non identificata.",
+    "CFI782–783/Appunti330: comunicato2013 e infografica condivisi; non conferme indipendenti. Curve e regimi storici esclusi; mifepristone distinto da misoprostolo.",
+    "Katzung841: spiegazione anti-impianto per ulipristal e tabella40-4 non adottate. Raffronto con OMS e scheda AEMPS, nessun regime ripubblicato.",
+    "PDF EMA di ellaOne non accessibile (429); usati passaggi HTML AEMPS/CIMA, con data di revisione non accertabile perché segnaposto. Nessuna lettura integrale dichiarata.",
+    "Fonti ufficiali spagnole usate per meccanismi e limiti dichiarati; disponibilità, RCP e percorsi italiani non riesaminati.",
+    "Katzung839–840 e Rang677: rischi e precauzioni storiche non rivalutati; Rang678: integrato soltanto contesto fisiologico uterino, non protocolli ostetrici o descrizione strutturale dell’ossitocina."
   ]
 }

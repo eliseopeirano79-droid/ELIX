@@ -8,17 +8,17 @@ Usare «appunti e diapositive del corso di Farmacologia», con anno, lezione, da
 
 ## Lotto corrente
 
-theory-course-776-780, candidato 0.93.0. Ampliato il capitolo esistente «Contraccezione ormonale»: 3593 parole, 14 sezioni, 18 domande, 10 schemi originali, 17 riferimenti e 11 collegamenti esistenti. Due nuove sezioni, due ampliate, quattro domande e due schemi aggiunti. Zero nuovi capitoli, identità, sintesi di farmaci, profili o laboratori. Totale 63 capitoli, 19 estesi e 44 sintetici; altri 62 verificati identici.
+theory-course-781-785, candidato 0.94.0. Ampliato il capitolo esistente «Contraccezione ormonale»: 4416 parole, 17 sezioni, 22 domande, 13 schemi originali, 23 riferimenti e 14 collegamenti esistenti. Tre nuove sezioni, quattro domande, tre schemi e tre collegamenti aggiunti. Zero nuovi capitoli, identità, sintesi di farmaci, profili o laboratori. Totale 63 capitoli, 19 estesi e 44 sintetici; altri 62 verificati identici.
 
-0.92.0 pubblicata e verificata al commit 3fd5e109cd1fab85241dff804f303fdc45110c8d. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparatorio.
+0.93.0 pubblicata e verificata al commit 39656a0477c60fd6b67cc02eb76ed295c09c5aa1. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparatorio.
 
-Otto nuove pagine locali lette e controllate visivamente: corso principale PDF 776–780, Katzung PDF 837–838 (editoriali 817–818), appunti I PDF 327 (stampata 322, lezione 19 del 1 dicembre 2025). Passaggi integrati da sette; Katzung 838 letta ma non integrata. Riutilizzate 27 pagine precedenti: totale 35 lette, 34 con passaggi integrati. Rang 676 riletto e ricontrollato senza nuovo conteggio.
+Undici nuove pagine locali lette e controllate visivamente: corso principale PDF 781–785, Katzung PDF 839–841 (editoriali 819–821), Rang PDF 677–678 (nessuna pagina editoriale visibile), appunti I PDF 330 (stampata 325, lezione 19 del 1 dicembre 2025). Sei con passaggi integrati; CFI784–785, Katzung839–840 e Rang677 non integrati. Riutilizzate 35 pagine precedenti, compresa Katzung838 già letta ma non integrata: totale 46 lette, 40 con passaggi integrati.
 
-Deduplicazione preventiva su 143 registri. Vie ER, proteine emostatiche e indicatori/eventi riconciliati con i limiti delle figure condivise. Articolo mostrato nella copertina a PDF777 non letto. Freccia lipidica ambigua, deduzioni sugli esami dalla dose e graduatoria di sicurezza dall’androgenicità escluse. A PDF780 riga coperta e note mancanti; istruzioni generalizzate non adottate. CDC POP usato nei passaggi su meccanismi e compresse attive/placebo, senza protocollo. EMA storica usata per distinzioni concettuali; AIFA 2024 ricontrollata nel testo, nessuna tabella numerica pubblicata.
+Deduplicazione preventiva su 145 registri. Distinti tempo del rapporto e fase ovarica, segnale sul peso e soglia certa, antagonismo di PR e analogo PGE1. Rettificata nella sintesi l’attribuzione a mifepristone della classe di misoprostolo. Comunicato2013 riconciliato con revisione EMA2014 e fonti ufficiali consultabili. CFI785 contiene un diagramma TOS letto nell’immagine; non è solo intestazione, ma resta fuori dal lotto.
 
-Sintesi didattica del solo integratore, non revisione clinica indipendente. Nessuna lettura integrale di corsi, libri o guide. Conservati tutti i precedenti intervalli non integrati e il backlog di visualizzazioni, farmaci e profili.
+Sintesi didattica del solo integratore, non revisione clinica indipendente. Fonti ufficiali usate nei passaggi dichiarati; nessuna dose, finestra, procedura italiana o percentuale clinica trasferita. PDF EMA non accessibile; scheda HTML AEMPS di ellaOne con data di revisione segnaposto. Nessuna lettura integrale di corsi, libri o guide. Conservati gli intervalli non integrati e il backlog di visualizzazioni, farmaci e profili.
 
-47 controlli dati superati; otto configurazioni desktop/mobile nei due temi e otto schermate ispezionate. Ricerca, tastiera, riferimenti e offline verificati. Aggiornamento reale 0.92.0→0.93.0 con dati conservati; altri 62 capitoli identici. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-776-780-2026-11-16/. Ricevuta soltanto dopo deploy verificato.
+47 controlli dati superati; otto configurazioni desktop/mobile e dieci schermate ispezionate. Ricerca, tastiera, fonti e offline verificati. Aggiornamento reale 0.93.0→0.94.0 con dati conservati; altri 62 capitoli e 14 sezioni precedenti identici. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-781-785-2026-11-16/. Ricevuta soltanto dopo deploy verificato.
 
 ## Regole
 
@@ -30,4 +30,4 @@ Sintesi didattica del solo integratore, non revisione clinica indipendente. Ness
 
 ## Prossimo intervallo
 
-Completare 776–780 e verificarne la pubblicazione. 781–785 non iniziato, riservato al ciclo successivo. Teoria prima di farmaci, profili e laboratori.
+Completare 781–785 e verificarne la pubblicazione. 786–790 non iniziato, riservato al ciclo successivo. Teoria prima di farmaci, profili e laboratori.
