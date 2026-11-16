@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "batch": "theory-course-796-800",
+  "chapterId": "utero-ossitocina-prostaglandine",
+  "updatedAt": "2026-11-16T12:35:16.962927+00:00",
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "newTargetProfiles": 0,
+  "newChapters": 1,
+  "expandedExistingChapters": 0,
+  "newReadPdfPages": 12,
+  "newCourseReadPdfPages": 6,
+  "newBookReadPdfPages": 6,
+  "newMainCoursePages": 5,
+  "newOtherSlidesPages": 0,
+  "newAppuntiPages": 1,
+  "reusedReadPdfPages": 2,
+  "totalReadPdfPages": 14,
+  "chapterReviewedPdfPages": 14,
+  "chapterSourcePdfPages": 12,
+  "newIntegratedPdfPages": 10,
+  "chapterIntegratedPdfPages": 12,
+  "sources": [
+    {
+      "id": "CFI",
+      "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
+      "title": "Appunti e diapositive del corso di Farmacologia I",
+      "edition": "AA2025–26",
+      "pdfPagesRead": [
+        796,
+        797,
+        798,
+        799,
+        800
+      ],
+      "visuallyCheckedPdfPages": [
+        796,
+        797,
+        798,
+        799,
+        800
+      ],
+      "integratedPdfPages": [
+        796,
+        797,
+        798,
+        799,
+        800
+      ],
+      "imageTextReadPages": [
+        796,
+        797,
+        798,
+        799,
+        800
+      ],
+      "substantiveExtractedTextReadPages": [
+        797,
+        798,
+        799,
+        800
+      ],
+      "newlyReadTextPages": [
+        796,
+        797,
+        798,
+        799,
+        800
+      ],
+      "reusedPreviouslyReadPages": [],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "readButNotIntegratedPdfPages": [],
+      "printedPageLabels": {
+        "796": "794 di934",
+        "797": "795 di934",
+        "798": "796 di934",
+        "799": "797 di934",
+        "800": "798 di934"
+      },
+      "integrationScope": "Passaggi selezionati; non adottati tutti i contenuti di ciascuna pagina. Esclusioni e discrepanze nel registro di revisione."
+    },
+    {
+      "id": "KATZ",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "title": "Katzung · Farmacologia generale e clinica",
+      "edition": "IX italiana2014 / XII originale2012",
+      "pdfPagesRead": [
+        385,
+        386,
+        778,
+        779
+      ],
+      "visuallyCheckedPdfPages": [
+        385,
+        386,
+        778,
+        779
+      ],
+      "integratedPdfPages": [
+        385,
+        778,
+        779
+      ],
+      "sourceUnchanged": true,
+      "newlyReadTextPages": [
+        385,
+        386,
+        778,
+        779
+      ],
+      "reusedPreviouslyReadPages": [],
+      "allContentsRead": false,
+      "readButNotIntegratedPdfPages": [
+        386
+      ],
+      "printedPageLabels": {
+        "385": "365",
+        "386": "366",
+        "778": "758",
+        "779": "759"
+      },
+      "substantiveExtractedTextReadPages": [
+        385,
+        386,
+        778,
+        779
+      ],
+      "imageTextReadPages": [],
+      "integrationScope": "Passaggi selezionati; non adottati tutti i contenuti di ciascuna pagina. Esclusioni e discrepanze nel registro di revisione."
+    },
+    {
+      "id": "RANG",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "title": "Rang & Dale · Farmacologia",
+      "edition": "VIII italiana2016 / originale2015",
+      "pdfPagesRead": [
+        678,
+        679,
+        680
+      ],
+      "visuallyCheckedPdfPages": [
+        678,
+        679,
+        680
+      ],
+      "integratedPdfPages": [
+        678,
+        679,
+        680
+      ],
+      "sourceUnchanged": true,
+      "newlyReadTextPages": [
+        679,
+        680
+      ],
+      "reusedPreviouslyReadPages": [
+        678
+      ],
+      "allContentsRead": false,
+      "readButNotIntegratedPdfPages": [],
+      "printedPageLabels": {
+        "678": null,
+        "679": null,
+        "680": null
+      },
+      "substantiveExtractedTextReadPages": [
+        678,
+        679,
+        680
+      ],
+      "imageTextReadPages": [],
+      "integrationScope": "Passaggi selezionati; non adottati tutti i contenuti di ciascuna pagina. Esclusioni e discrepanze nel registro di revisione."
+    },
+    {
+      "id": "APP",
+      "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+      "title": "Appunti del corso di Farmacologia I",
+      "edition": "AA2025–26; lezione19,1 dicembre2025",
+      "pdfPagesRead": [
+        332,
+        333
+      ],
+      "visuallyCheckedPdfPages": [
+        332,
+        333
+      ],
+      "integratedPdfPages": [
+        332
+      ],
+      "sourceUnchanged": true,
+      "newlyReadTextPages": [
+        333
+      ],
+      "reusedPreviouslyReadPages": [
+        332
+      ],
+      "allContentsRead": false,
+      "readButNotIntegratedPdfPages": [
+        333
+      ],
+      "printedPageLabels": {
+        "332": "327",
+        "333": "328"
+      },
+      "substantiveExtractedTextReadPages": [
+        332,
+        333
+      ],
+      "imageTextReadPages": [],
+      "integrationScope": "Passaggi selezionati; non adottati tutti i contenuti di ciascuna pagina. Esclusioni e discrepanze nel registro di revisione."
+    }
+  ],
+  "officialSourceScopes": [
+    {
+      "id": "OXY",
+      "title": "Oxytocin Panpharma · SmPC britannico",
+      "detail": "Consultazione16 novembre2026: passaggi §§4.1–4.5,4.8 e5.1 su indicazioni, controllo dell’apporto, iperstimolazione, antidiuresi e identità del nonapeptide. Ambito britannico, non RCP italiano.",
+      "url": "https://www.medicines.org.uk/emc/product/9457/smpc"
+    },
+    {
+      "id": "PROP",
+      "title": "Propess / dinoprostone · SmPC britannico",
+      "detail": "Consultazione16 novembre2026: §§2,4.1–4.6,5.1–5.2 del prodotto100896. Identità PGE2, maturazione cervicale, sorgente recuperabile e sequenza con ossitocina; nessun regime operativo trasferito.",
+      "url": "https://www.medicines.org.uk/emc/product/100896/smpc"
+    },
+    {
+      "id": "ANG",
+      "title": "Angusta (misoprostolo) · SmPC britannico",
+      "detail": "Consultazione16 novembre2026: §§4.1–4.4, indicazione all’induzione, via orale, condizioni d’impiego e uso concomitante. Il prodotto specifico supera l’etichetta storica universale di impiego non autorizzato.",
+      "url": "https://www.medicines.org.uk/emc/product/12147/smpc"
+    },
+    {
+      "id": "AIFA",
+      "title": "AIFA · comunicazione su Prepidil e Propess · 15 luglio2021",
+      "detail": "Letta la sintesi HTML della comunicazione: iperstimolazione, rottura uterina, conseguenze fetali/neonatali e restrizioni d’impiego. Consultazione16 novembre2026; non equivale alla lettura degli interi RCP italiani.",
+      "url": "https://www.aifa.gov.it/en/-/nota-informativa-importante-su-prepidil-e-propess-dinoprostone-"
+    },
+    {
+      "id": "WHO",
+      "title": "OMS · Postpartum haemorrhage, quick card · aggiornamento luglio2026",
+      "detail": "Letto il testo della scheda ufficiale di una pagina: distinzione prevenzione, identificazione e risposta all’emorragia. Non dichiarata lettura integrale delle linee guida consolidate2025 o del manuale d’implementazione2026; dosi e algoritmo non riprodotti.",
+      "url": "https://cdn.who.int/media/docs/default-source/integrated-health-services-(ihs)/csy/pph-quick-card.pdf"
+    }
+  ],
+  "limits": [
+    "Sintesi didattica e revisione editoriale del solo integratore; nessuna validazione o revisione clinica indipendente.",
+    "Unico intervallo nuovo del corso principale PDF796–800. Libri e appunti letti solo nelle pagine elencate, senza dichiarare interi capitoli o corsi letti.",
+    "PDF332 degli appunti e678 di Rang erano già documentate: rilette senza ricontarle. Figura di APP332 condivisa conCFI799, non conferma indipendente.",
+    "PDF386 di Katzung e333 degli appunti lette ma non integrate: rassicurazioni storiche e argomenti esterni al lotto esclusi.",
+    "SmPC britannici usati per prodotti e sezioni specifici; RCP italiani completi, disponibilità e percorsi locali non verificati. AIFA letta nella sintesi HTML della comunicazione2021.",
+    "NICE NG207 HTML/PDF:403; indice consultato per orientamento, nessuna lettura integrale o raccomandazione specifica attribuita al testo non accessibile. WHO2025 completo:403; NCBI richiede verifica browser.",
+    "OMS: letto il testo della sola quick card aggiornata luglio2026; figura non verificata (download locale403). Nessun algoritmo, dose o soglia riprodotto.",
+    "Riconciliazione di FarmacologiaII e degli altri contributi del corso, inclusi gli altri docenti, e degli altri libri autorizzati ancora da ampliare; nessuna loro nuova lettura dichiarata.",
+    "Schema EP mantenuto qualitativo: nessuna equivalenza di agonisti o profilazione completa dei sottotipi; IUPHAR introduzione reindirizza a login, non dichiarata letta.",
+    "Travaglio pretermine, tocolisi, regimi abortivi, protocolli di emorragia e paragoni di efficacia quantitativa fuori ambito."
+  ],
+  "deduplication": {
+    "recordsChecked": 152,
+    "method": "Exact source SHA256 and explicit read-page fields checked before extraction; inventory and planned ranges excluded.",
+    "reused": {
+      "RANG": [
+        678
+      ],
+      "APP": [
+        332
+      ]
+    }
+  }
+}
