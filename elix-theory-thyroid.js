@@ -95,7 +95,7 @@ export const THEORY_THYROID = Object.freeze({
         "KATZ",
         "NICE"
       ],
-      "text": "Gli ormoni tiroidei partecipano alla regolazione del metabolismo energetico e allo sviluppo. In molti tessuti aumentano il ricambio dei substrati, il consumo di energia e la produzione di calore. Le vie dei carboidrati, dei lipidi e delle proteine interagiscono con insulina, catecolamine e altri segnali: non sono interruttori isolati che T3 accende sempre nella stessa direzione.\n\nL’aumento della sintesi di determinate proteine può convivere con un maggiore turnover e, nell’eccesso ormonale, con perdita di massa e debolezza. Analogamente, una maggiore mobilizzazione degli acidi grassi non equivale a un beneficio metabolico. Il cambiamento di una singola via va interpretato insieme al bilancio complessivo di produzione, consumo e disponibilità dei substrati.\n\nIl cuore rende evidente il collegamento fra regolazione molecolare e funzione d’organo. Una maggiore attività tiroidea può aumentare frequenza e lavoro cardiaco; un’esposizione eccessiva favorisce palpitazioni e aritmie. La risposta cardiovascolare contribuisce ai sintomi dell’ipertiroidismo e spiega perché la sostituzione ormonale richieda particolare attenzione quando la riserva cardiaca è ridotta. Non basta conoscere il recettore per prevedere la tolleranza del paziente.\n\nCrescita, maturazione scheletrica e sviluppo del sistema nervoso richiedono una disponibilità ormonale adeguata nei rispettivi periodi della vita. Le manifestazioni della carenza o dell’eccesso dipendono pertanto anche dall’età e dalla durata dell’alterazione. Intolleranza al freddo, stanchezza, tremore o variazioni di peso possono orientare il ragionamento, ma nessuno di questi elementi isolati è una misura specifica della funzione tiroidea.\n\nNel confronto fra carenza ed eccesso, la cute fredda e secca o la maggiore sudorazione riflettono aspetti della termoregolazione; rallentamento e agitazione descrivono possibili manifestazioni, non criteri diagnostici autosufficienti. Anche la debolezza può comparire in quadri diversi. L’orbitopatia associata a Graves, invece, rimanda a un contesto autoimmune specifico e non è una conseguenza obbligata di qualsiasi tireotossicosi. Una tabella di segni serve a organizzare ipotesi, non a classificare una persona sulla base di una singola voce."
+      "text": "Gli ormoni tiroidei partecipano alla regolazione del metabolismo energetico e allo sviluppo. In molti tessuti aumentano il ricambio dei substrati, il consumo di energia e la produzione di calore. Le vie dei carboidrati, dei lipidi e delle proteine interagiscono con insulina, catecolamine e altri segnali: non sono interruttori isolati che T3 accende sempre nella stessa direzione.\n\nL’aumento della sintesi di determinate proteine può convivere con un maggiore turnover e, nell’eccesso ormonale, con perdita di massa e debolezza. Analogamente, una maggiore mobilizzazione degli acidi grassi non equivale a un beneficio metabolico. Il cambiamento di una singola via va interpretato insieme al bilancio complessivo di produzione, consumo e disponibilità dei substrati.\n\nIl cuore rende evidente il collegamento fra regolazione molecolare e funzione d’organo. Una maggiore attività tiroidea può aumentare frequenza e lavoro cardiaco; un’esposizione eccessiva favorisce palpitazioni e aritmie. La risposta cardiovascolare contribuisce ai sintomi dell’ipertiroidismo e spiega perché la sostituzione ormonale richieda particolare attenzione quando la riserva cardiaca è ridotta. Non basta conoscere il recettore per prevedere la tolleranza del paziente.\n\nCrescita, maturazione scheletrica e sviluppo del sistema nervoso richiedono una disponibilità ormonale adeguata nei rispettivi periodi della vita. Le manifestazioni della carenza o dell’eccesso dipendono pertanto anche dall’età e dalla durata dell’alterazione. Intolleranza al freddo, stanchezza, tremore o variazioni di peso possono orientare il ragionamento, ma nessuno di questi elementi isolati è una misura specifica della funzione tiroidea.\n\nNel confronto fra carenza ed eccesso, la cute fredda e secca o la maggiore sudorazione riflettono aspetti della termoregolazione; rallentamento e agitazione descrivono possibili manifestazioni, non criteri diagnostici autosufficienti. Anche la debolezza può comparire in quadri diversi. L’orbitopatia associata a Graves, invece, rimanda a un contesto autoimmune specifico e non è una conseguenza obbligata di qualsiasi tireotossicosi. Una tabella di segni serve a organizzare ipotesi, non a classificare una persona sulla base di una singola voce.\n\nUna parte delle manifestazioni cardiovascolari e del tremore richiama la stimolazione adrenergica, ma non richiede necessariamente un aumento delle catecolamine circolanti. Gli ormoni tiroidei possono modificare l’espressione dei recettori β e la risposta dei sistemi di segnalazione: a parità di segnale adrenergico, il tessuto può rispondere diversamente. Occorre quindi distinguere la quantità del mediatore dalla sensibilità del bersaglio. Questo collegamento integra gli effetti diretti della regolazione tiroidea e spiega perché un sintomo apparentemente «adrenergico» non identifichi da solo la sua causa."
     },
     {
       "id": "tempi-e-cinetica",
@@ -104,9 +104,10 @@ export const THEORY_THYROID = Object.freeze({
         "CFI",
         "KATZ",
         "RANG",
-        "APP"
+        "APP",
+        "NICE"
       ],
-      "text": "La farmacologia tiroidea richiede di distinguere almeno tre processi temporali. Il primo è la variazione della quantità di ormone nei compartimenti corporei. Il secondo è l’adattamento dei tessuti, che comprende regolazione genica e modificazioni delle proteine. Il terzo è il riassestamento del sistema di feedback. Un cambiamento nel primo processo non implica che gli altri due siano già completati.\n\nT4 permane generalmente più a lungo di T3 e sostiene una riserva dalla quale può derivare ormone attivo. Le emivite riportate nei testi dipendono però dallo stato tiroideo e dalle condizioni studiate. È più utile capire la differenza di persistenza che memorizzare un numero come costante universale. Anche la durata dell’effetto non coincide necessariamente con l’emivita plasmatica.\n\nUna curva ottenuta dopo una singola somministrazione non descrive automaticamente l’esposizione durante un trattamento ripetuto. Con somministrazioni successive, quanto viene introdotto si somma a quanto non è ancora stato eliminato. Il raggiungimento di un nuovo equilibrio richiede tempo; contemporaneamente cambiano conversione periferica e risposta dei tessuti. Il confronto fra picchi dopo boli equimolari non fornisce da solo un rapporto di sostituzione fra farmaci.\n\nLa stessa cautela vale per gli antitiroidei: bloccare la produzione futura lascia inizialmente disponibili riserve già formate. Un ritardo dell’effetto può quindi riflettere deposito, eliminazione e adattamento, senza dimostrare assenza di azione sul bersaglio. D’altra parte, un miglioramento rapido di un sintomo non dimostra che l’intero asse sia tornato in equilibrio.",
+      "text": "La farmacologia tiroidea richiede di distinguere almeno tre processi temporali. Il primo è la variazione della quantità di ormone nei compartimenti corporei. Il secondo è l’adattamento dei tessuti, che comprende regolazione genica e modificazioni delle proteine. Il terzo è il riassestamento del sistema di feedback. Un cambiamento nel primo processo non implica che gli altri due siano già completati.\n\nT4 permane generalmente più a lungo di T3 e sostiene una riserva dalla quale può derivare ormone attivo. Le emivite riportate nei testi dipendono però dallo stato tiroideo e dalle condizioni studiate. È più utile capire la differenza di persistenza che memorizzare un numero come costante universale. Anche la durata dell’effetto non coincide necessariamente con l’emivita plasmatica.\n\nUna curva ottenuta dopo una singola somministrazione non descrive automaticamente l’esposizione durante un trattamento ripetuto. Con somministrazioni successive, quanto viene introdotto si somma a quanto non è ancora stato eliminato. Il raggiungimento di un nuovo equilibrio richiede tempo; contemporaneamente cambiano conversione periferica e risposta dei tessuti. Il confronto fra picchi dopo boli equimolari non fornisce da solo un rapporto di sostituzione fra farmaci.\n\nLa stessa cautela vale per gli antitiroidei: bloccare la produzione futura lascia inizialmente disponibili riserve già formate. Un ritardo dell’effetto può quindi riflettere deposito, eliminazione e adattamento, senza dimostrare assenza di azione sul bersaglio. D’altra parte, un miglioramento rapido di un sintomo non dimostra che l’intero asse sia tornato in equilibrio.\n\nPer la sostituzione ripetuta, lo stato stazionario farmacocinetico indica un equilibrio fra apporto ed eliminazione nelle condizioni considerate. Non certifica che sintomi e TSH abbiano già raggiunto il loro assetto finale. Le settimane indicate nelle tabelle didattiche per T4 descrivono una scala temporale, non una scadenza clinica universale. NICE segnala che, dopo una carenza prolungata o un TSH iniziale molto elevato, il riassestamento del TSH può richiedere mesi. Un valore ancora alterato va quindi interpretato rispetto alla storia del trattamento e dell’asse; il solo tempo trascorso non autorizza una correzione automatica.",
       "formula": "Variazione dell’apporto → nuova esposizione → adattamento tissutale e feedback, con tempi distinti"
     },
     {
@@ -119,8 +120,34 @@ export const THEORY_THYROID = Object.freeze({
         "NICE",
         "SURV"
       ],
-      "text": "La levotiroxina corrisponde a T4 e fornisce substrato per la produzione periferica di T3. Nelle raccomandazioni NICE per l’ipotiroidismo primario è il trattamento di prima scelta. La liotironina corrisponde a T3: il fatto che sia già attiva e abbia una cinetica diversa non dimostra una superiorità clinica generale. NICE non ne raccomanda l’impiego di routine, da sola o in associazione; la sorveglianza del 2025 non ha modificato questa indicazione.\n\nGli antitiroidei intervengono invece su un sistema che produce ormone. Le tionamidi, come metimazolo e propiltiouracile, interferiscono con reazioni sostenute dalla tireoperossidasi. Il loro bersaglio non è il recettore nucleare TR e non neutralizzano direttamente tutto l’ormone già circolante. Il propiltiouracile aggiunge un effetto sulla conversione periferica: appartenenza di classe ed effetti aggiuntivi vanno tenuti insieme.\n\nLo ioduro mostra un’altra distinzione fra fisiologia e farmacologia. È un substrato indispensabile, ma un carico elevato può anche frenare temporaneamente processi tiroidei, compresa la liberazione dell’ormone. La risposta dipende dallo stato della ghiandola e non autorizza l’idea che assumere più iodio curi qualsiasi disfunzione.\n\nInfine, la tireotossicosi descrive l’eccesso di azione ormonale, mentre l’ipertiroidismo indica un’aumentata produzione della ghiandola. La distinzione, richiamata da NICE, spiega perché ridurre la sintesi e gestire la liberazione di riserve siano problemi differenti. Questi collegamenti orientano lo studio dei farmaci; scelta fra terapie, chirurgia e radioiodio richiede una valutazione dedicata alla causa e al contesto.",
+      "text": "La levotiroxina corrisponde a T4 e fornisce substrato per la produzione periferica di T3. Nelle raccomandazioni NICE per l’ipotiroidismo primario è il trattamento di prima scelta. La liotironina corrisponde a T3: il fatto che sia già attiva e abbia una cinetica diversa non dimostra una superiorità clinica generale. NICE non ne raccomanda l’impiego di routine, da sola o in associazione; la sorveglianza del 2025 non ha modificato questa indicazione.\n\nGli antitiroidei intervengono invece su un sistema che produce ormone. Le tionamidi, come metimazolo e propiltiouracile, interferiscono con reazioni sostenute dalla tireoperossidasi. Il loro bersaglio non è il recettore nucleare TR e non neutralizzano direttamente tutto l’ormone già circolante. Il propiltiouracile aggiunge un effetto sulla conversione periferica: appartenenza di classe ed effetti aggiuntivi vanno tenuti insieme.\n\nLo ioduro mostra un’altra distinzione fra fisiologia e farmacologia. È un substrato indispensabile, ma un carico elevato può anche frenare temporaneamente processi tiroidei, compresa la liberazione dell’ormone. La risposta dipende dallo stato della ghiandola e non autorizza l’idea che assumere più iodio curi qualsiasi disfunzione.\n\nInfine, la tireotossicosi descrive l’eccesso di azione ormonale, mentre l’ipertiroidismo indica un’aumentata produzione della ghiandola. La distinzione, richiamata da NICE, spiega perché ridurre la sintesi e gestire la liberazione di riserve siano problemi differenti. Questi collegamenti orientano lo studio dei farmaci; scelta fra terapie, chirurgia e radioiodio richiede una valutazione dedicata alla causa e al contesto.\n\nLa maggiore persistenza di T4 attenua le oscillazioni fra apporti successivi e lascia ai tessuti un substrato da convertire. Questa proprietà aiuta a comprendere il razionale della sostituzione con levotiroxina, senza attribuirle una capacità di autoregolazione perfetta: assorbimento, conversione e fabbisogno possono cambiare. La maggiore rapidità di T3, invece, è una caratteristica farmacologica e non un’indicazione generica per ogni situazione «acuta». Un confronto di velocità, emivita o attività molecolare non sostituisce la dimostrazione di beneficio e sicurezza nel contesto clinico considerato.",
       "formula": "Levotiroxina → apporto di T4; tionamidi → nuova sintesi; propiltiouracile → anche conversione periferica"
+    },
+    {
+      "id": "sostituzione-e-riserva-surrenalica",
+      "title": "Sostituzione ormonale e riserva surrenalica",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "APP",
+        "LT4"
+      ],
+      "text": "Correggere una carenza tiroidea modifica un organismo che si è adattato a quella carenza. La ripresa del metabolismo interessa anche il turnover degli altri ormoni: per questo la tiroide non si studia come un sistema chiuso. Un collegamento particolarmente rilevante riguarda il cortisolo, la cui disponibilità dipende dal rapporto fra secrezione ed eliminazione.\n\nSe aumenta la clearance del cortisolo, una concentrazione adeguata richiede che la produzione possa compensare. Quando la riserva surrenalica è ridotta, questa compensazione può mancare. L’introduzione dell’ormone tiroideo può quindi rendere evidente o aggravare un’insufficienza surrenalica non riconosciuta. Il punto non è un antagonismo fra T3 e il recettore dei glucocorticoidi: il problema riguarda l’equilibrio fra capacità di risposta endocrina e nuovo stato metabolico.\n\nIl collegamento è particolarmente chiaro nel deficit ipofisario, che può compromettere sia il comando tiroideo sia quello corticosurrenalico. TSH e FT4 descrivono una parte del quadro; non misurano la riserva dell’asse ACTH–cortisolo. Il riassunto delle caratteristiche della levotiroxina consultato richiama la necessità di affrontare un’insufficienza surrenalica prima di iniziare la sostituzione tiroidea. Questo principio non implica l’aggiunta sistematica di glucocorticoidi a ogni trattamento dell’ipotiroidismo e non costituisce uno schema posologico.\n\nAnche l’eccesso di sostituzione si comprende partendo dalla fisiologia. Se l’apporto supera il fabbisogno, il trattamento può generare un eccesso di azione ormonale: tremore, intolleranza al caldo e palpitazioni non diventano benefici perché l’ormone proviene da un farmaco. Vanno inoltre distinti eccesso protratto e ingestione acuta. La possibile comparsa ritardata dei segni dopo un sovradosaggio non offre un intervallo di sicurezza né permette di escludere il rischio in assenza di sintomi iniziali.",
+      "formula": "Riserva surrenalica ridotta + aumento della clearance del cortisolo → possibile insufficienza clinicamente evidente"
+    },
+    {
+      "id": "tionamidi-deposito-e-sicurezza",
+      "title": "Tionamidi: bersaglio, deposito e limiti dell’effetto",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "RANG",
+        "APP",
+        "PTUM",
+        "PTUS"
+      ],
+      "text": "Le tionamidi agiscono sulla costruzione di nuovi ormoni nel follicolo. Inibendo reazioni sostenute dalla tireoperossidasi, ostacolano l’organificazione dello ioduro e l’accoppiamento dei residui iodati sulla tireoglobulina. Metimazolo e propiltiouracile appartengono quindi alla stessa famiglia funzionale, pur avendo caratteristiche differenti. Il carbimazolo descritto nei testi è un profarmaco del metimazolo: questa relazione chimica non dimostra che prodotti e disponibilità locali siano intercambiabili.\n\nDopo il blocco della sintesi, il colloide contiene ancora materiale formato in precedenza. Le tionamidi non distruggono immediatamente questa riserva e non neutralizzano l’ormone già in circolo. Il calo dell’esposizione dipende anche dall’esaurimento delle riserve e dall’eliminazione dell’ormone. Nel descrivere il risultato complessivo, dire che «arriva meno ormone al sangue» non equivale dunque a identificare un blocco diretto della liberazione. Questa distinzione chiarisce il ritardo fra azione sul bersaglio e piena risposta biologica.\n\nAnche il farmaco ha una distribuzione da considerare. La sua permanenza nella ghiandola può differire da quella nel plasma: l’emivita plasmatica, da sola, non riassume la durata dell’inibizione intratiroidea. A questo si aggiunge, per il propiltiouracile, l’inibizione della conversione periferica di T4 in T3. È un effetto ulteriore su un altro passaggio del sistema; non trasforma il farmaco in un antagonista di TR e non ne dimostra una superiorità universale.\n\nL’effetto desiderato non esaurisce il profilo farmacologico. I documenti di prodotto del propiltiouracile segnalano agranulocitosi e danno epatico anche grave. Febbre o mal di gola durante il trattamento richiedono un contatto medico immediato per il possibile problema ematologico; non sono una misura dell’efficacia antitiroidea. La risposta della tiroide e la tossicità a carico di altri organi sono dimensioni distinte della valutazione.\n\nInfine, frenare la sintesi con una tionamide, ridurre temporaneamente processi tiroidei con ioduro e danneggiare il tessuto funzionante mediante radioiodio sono interventi diversi. La parola «antitiroideo» non basta a renderli equivalenti. La causa della tireotossicosi determina quali passaggi siano realmente aumentati: un deposito che si svuota per danno follicolare pone un problema differente da una ghiandola che continua a sintetizzare troppo ormone.",
+      "formula": "TPO inibita → minore nuova sintesi; ormone già formato ancora disponibile → risposta differita"
     },
     {
       "id": "farmaci-e-sedi-di-interazione",
@@ -231,28 +258,40 @@ export const THEORY_THYROID = Object.freeze({
     {
       "question": "Le endocrinopatie da checkpoint riguardano soltanto la tiroide?",
       "answer": "No: il possibile interessamento ipofisario coinvolge il comando centrale e può riguardare più assi endocrini."
+    },
+    {
+      "question": "Lo stato stazionario di T4 garantisce che il TSH abbia già completato il proprio adattamento?",
+      "answer": "No. Equilibrio fra apporto ed eliminazione, risposta tissutale e feedback sono processi distinti; la storia della carenza e del trattamento influenza il riassestamento."
+    },
+    {
+      "question": "Perché la riserva surrenalica è rilevante prima della sostituzione tiroidea?",
+      "answer": "L’aumento della clearance del cortisolo può rendere insufficiente una produzione non in grado di compensare. Nei deficit ipofisari possono essere coinvolti più assi; ciò non implica glucocorticoidi per ogni ipotiroidismo."
+    },
+    {
+      "question": "Una tionamide blocca direttamente la liberazione di tutto l’ormone già formato?",
+      "answer": "No. Riduce la nuova sintesi; depositi già costituiti e ormone circolante contribuiscono al ritardo della risposta. Il propiltiouracile aggiunge un effetto sulla conversione periferica."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · AA 2025–26",
-      "detail": "PDF 801–810, etichette 799–808: testo e figure controllati in due lotti. PDF 802,809 e810 letti soprattutto dall’immagine. La vignetta810 è esclusa dalla sintesi; nessuna figura riprodotta."
+      "detail": "PDF 801–815, etichette 799–813, in tre lotti. In questo lotto PDF 811–815: testo, tabelle e figure letti integralmente. Algoritmo e dosi di PDF 813 esclusi; figure condivise con gli appunti non considerate conferme indipendenti. Vignetta 810 già esclusa. Nessuna immagine riprodotta."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica · IX italiana 2014 / XII originale 2012",
-      "detail": "Capitolo 38, PDF 785–790, pagine editoriali 765–770: testo completo e figure/tabelle controllati; integrati solo i passaggi pertinenti. Posologie, range e disponibilità storiche esclusi."
+      "detail": "Capitolo 38, PDF 785–793, pagine editoriali 765–773, in tre lotti. PDF 791–793 letti integralmente in questo lotto, comprese tabella 38-4 e strutture 38-5. Integrati passaggi selezionati; dosi, equivalenze, disponibilità storiche e categorie di gravidanza escluse."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia · VIII italiana 2016 / originale 2015",
-      "detail": "Capitolo 34, PDF 651–655, pagina editoriale non visibile: testo e figure 34.1–34.4 controllati. La curva storica non è riprodotta e non costituisce un’equivalenza posologica."
+      "detail": "Capitolo 34, PDF 651–657, numero editoriale non visibile. In questo lotto PDF 656–657 letti integralmente: 656 come contesto, 657 per i bersagli antitiroidei. Figure 34.1–34.4 controllate nei lotti precedenti. Dosi e regole terapeutiche universali non trasferite."
     },
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I · AA 2025–26",
-      "detail": "Lezione 19 del 1 dicembre 2025, PDF 333–335, stampate 328–330. PDF 333 già documentato e riletto; testo e figure controllati. Corretti struttura delle iodotironine, trasporto e semplificazioni terapeutiche; algoritmo e dosi non trasferiti."
+      "detail": "Lezione 19 del 1 dicembre 2025, PDF 333–335, stampate 328–330. PDF 334–335 riletti in questo lotto; 333 conservato dal precedente. Tabelle e schemi condivisi con le diapositive non sono conferme indipendenti. Algoritmo, dosi e generalizzazioni terapeutiche esclusi."
     },
     {
       "id": "NICE",
@@ -269,7 +308,7 @@ export const THEORY_THYROID = Object.freeze({
     {
       "id": "LT4",
       "title": "Levothyroxine / Eltroxin · SmPC britannico · testo 16 ottobre 2026",
-      "detail": "Prodotto 5682, consultato 16 novembre 2026: §§4.1,4.3–4.5,4.8,5.1–5.2 per sostituzione, interazioni, interferenze analitiche e rischi. Fonte di prodotto britannica; non RCP italiano. Dosi, gravidanza e gestione del sovradosaggio escluse.",
+      "detail": "Prodotto 5682, testo 16 ottobre 2026, consultato 16 novembre 2026. In questo lotto §§4.3–4.4,4.8 e5.1–5.2; §4.9 soltanto per la possibile latenza dei segni. Già consultato §4.5. Fonte britannica, non RCP italiano; posologie e gestione del sovradosaggio non trasferite.",
       "url": "https://www.medicines.org.uk/emc/product/5682/smpc"
     },
     {
@@ -304,6 +343,18 @@ export const THEORY_THYROID = Object.freeze({
       "title": "EMA · Opdivo · informazioni del prodotto",
       "detail": "Documento corrente consultato il 16 novembre 2026: §4.4 endocrinopatie, PDF 18; §5.1 meccanismo, PDF 45. Letti i soli passaggi pertinenti, non tutte le 308 pagine. Posologie, frequenze e algoritmi esclusi.",
       "url": "https://www.ema.europa.eu/en/documents/product-information/opdivo-epar-product-information_en.pdf"
+    },
+    {
+      "id": "PTUM",
+      "title": "Propiltiouracile · SmPC britannico Morningside · testo 10 marzo 2022",
+      "detail": "Prodotto 14252, consultato 16 novembre 2026: §5.1 per TPO, ormone preformato e conversione periferica; §5.2 per ritenzione tiroidea. Confronto mirato, non RCP italiano né revisione integrale del documento. Posologie e trattamento del sovradosaggio esclusi.",
+      "url": "https://www.medicines.org.uk/emc/product/14252/smpc"
+    },
+    {
+      "id": "PTUS",
+      "title": "Propiltiouracile · SmPC britannico Wockhardt · testo 6 febbraio 2026",
+      "detail": "Prodotto 3123, consultato 16 novembre 2026: §§4.4,4.8 per rischi ematologici ed epatici; §5.1 per sintesi e latenza dell’effetto. Documento di un altro prodotto, mantenuto distinto. Frequenze, protocolli e gravidanza non trasferiti.",
+      "url": "https://www.medicines.org.uk/emc/product/3123/smpc"
     }
   ],
   "moleculeLinks": [
@@ -344,6 +395,6 @@ export const THEORY_THYROID = Object.freeze({
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-16",
   "readingManifest": "./data/terapia-tiroidea-reading.json",
-  "coverage": "29 pagine locali documentate nei due lotti,28 con passaggi integrati. In questo ampliamento:16 pagine lette e controllate visivamente,10 nuove e6 rilette;13 contribuiscono alla sintesi. Nessun libro o corso interamente letto. Confronto ufficiale mirato; revisione clinica indipendente non eseguita.",
-  "wordCount": 3419
+  "coverage": "39 pagine locali uniche lette nei tre lotti, 37 con passaggi integrati. In questo ampliamento: 12 pagine lette e controllate visivamente, 10 nuove e 2 rilette; 11 contribuiscono alla sintesi. Nessun libro o corso interamente letto. Confronto ufficiale mirato; revisione clinica indipendente non eseguita.",
+  "wordCount": 4258
 });

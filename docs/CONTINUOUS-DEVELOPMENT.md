@@ -8,19 +8,19 @@ Usare «appunti e diapositive del corso di Farmacologia», con anno, lezione, da
 
 ## Lotto corrente
 
-theory-course-806-810, candidato 0.99.0. Prosegue il capitolo esistente «Ormoni tiroidei e antitiroidei»: da 10 a 14 sezioni, da 2268 a 3419 parole, 14 quesiti, 13 schemi qualitativi originali e 13 riferimenti. Quattro sezioni nuove, tre ampliate e sette conservate. Due nuovi collegamenti a identità esistenti, sei complessivi. Zero nuovi capitoli, identità, sintesi di farmaci, profili o laboratori. Totale 65 capitoli: 22 estesi e 43 sintetici.
+theory-course-811-815, candidato 0.100.0. Ampliato il capitolo esistente «Ormoni tiroidei e antitiroidei»: da 14 a 16 sezioni, da 3419 a 4258 parole, 17 quesiti, 15 schemi qualitativi originali e 15 riferimenti. Due sezioni nuove, tre ampliate e undici conservate. Sei collegamenti a identità esistenti mantenuti. Zero nuovi capitoli, identità, sintesi di farmaci, profili o laboratori. Totale 65 capitoli: 22 estesi e 43 sintetici.
 
-0.98.0 pubblicata e verificata al commit 150cd75a2d9ebf007886be8ae0bfd6d08e51281a. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparatorio.
+0.99.0 pubblicata e verificata al commit d9e311d515839dda734a10886d1967de1cd4f2bd. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparatorio.
 
-Deduplicazione preventiva su 158 registri e confronto delle lezioni singole con la raccolta. Lette integralmente e controllate visivamente 16 pagine locali: 10 nuove e sei rilette. Corso I PDF806–810 (etichette804–808); corso II, lezione5 del5 novembre2025 PDF2–3, lezione10 del18 novembre2025 PDF10–11, lezione14 del13 gennaio2026 PDF25; Katzung PDF787–789 (editoriali767–769), Rang PDF652–653 e655 (numero editoriale non visibile), tutti AA2025–26 per i corsi. Le cinque pagine delle lezioni II hanno alias nella raccolta: non sono contate due volte. La verifica delle intestazioni non conta come lettura completa della prima pagina.
+Deduplicazione preventiva su 160 registri per impronta e pagine effettivamente lette. Lette integralmente e controllate visivamente 12 pagine: 10 nuove e due rilette. Corso I AA2025–26 PDF811–815 (etichette809–813); Katzung IX italiana2014/XII originale2012 PDF791–793 (editoriali771–773); Rang VIII italiana2016/originale2015 PDF656–657 (numero editoriale non visibile); appunti I AA2025–26, lezione19 del1 dicembre2025, PDF334–335 (stampate329–330), riletti.
 
-Integrati passaggi da 13 pagine del lotto, nove nuove. Esclusa la vignetta810; Rang652–653 riletti come contesto senza aggiungere nuovi passaggi. Copertura cumulativa del capitolo:29 pagine uniche lette,28 integrate. AppuntiI333–335 conservati dal lotto precedente, non riletti in questo. Nessun corso o libro integralmente letto.
+Integrati passaggi da 11 pagine del lotto, nove nuove. Rang656 letto come contesto. Copertura cumulativa del capitolo:39 pagine uniche lette,37 integrate. AppuntiI333 e contributi di FarmacologiaII dei lotti precedenti mantenuti senza nuova lettura. Tabelle, algoritmo e figura condivisi fra diapositive e appunti non costituiscono conferme indipendenti. L’adattamento da un’edizione precedente riportato in una figura non equivale a lettura del libro citato.
 
-Approfonditi coniugazione e ricircolo enteroepatico, sedi delle interazioni, amiodarone e checkpoint immunitari. Distinti danno alla ghiandola, alterazioni periferiche, interessamento ipofisario e interferenze analitiche. Esclusi percentuali postchirurgiche, intervalli universali di assunzione, posologie e protocolli delle fonti.
+Approfonditi sensibilità beta-adrenergica, differenza fra stato stazionario e feedback, riserva surrenalica, TPO e ormone preformato. Distinti ritenzione intratiroidea, emivita plasmatica e ritardo della risposta. Confronto mirato con SmPC britannico della levotiroxina e due prodotti di propiltiouracile, e passaggi ufficiali indicizzati NICE. Nessuna revisione clinica indipendente.
 
-Confronto mirato con SmPC britannici della levotiroxina e dell’amiodarone, passaggi EMA di nivolumab e testo ufficiale indicizzato NICE. Abstract ETA2018 consultato per i meccanismi; accesso PMC limitato, non lettura integrale o rassegna aggiornata di tutta la letteratura. Divergenze di contesto sulla sospensione dell’amiodarone registrate, senza trasformarle in un algoritmo. Nessuna revisione clinica indipendente.
+Esclusi algoritmi, dosi, equivalenze sospette, disponibilità storiche, categorie di gravidanza e generalizzazioni sul radioiodio. La possibile latenza dei segni di sovradosaggio non è presentata come finestra di sicurezza. Non verificati RCP italiani, disponibilità locale, protocolli di emergenza o gravidanza.
 
-50 controlli dati superati; otto configurazioni desktop/mobile e temi, 14 schermate ispezionate. Navigazione, ricerca, tastiera, collegamenti e offline verificati. Aggiornamento reale 0.98.0 → 0.99.0 con preferiti, studio e tema conservati. Gli altri 64 capitoli e i sei PDF sorgente controllati sono invariati. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-806-810-2026-11-16/. Ricevuta soltanto dopo deploy verificato.
+50 controlli dati superati; otto configurazioni desktop/mobile e temi, 14 schermate ispezionate. Navigazione, ricerca, tastiera, collegamenti, offline e aggiornamento reale0.99.0→0.100.0 verificati; preferiti, studio e tema conservati. Gli altri64capitoli e i quattroPDF sorgente sono invariati. Primo caricamento locale scaduto, diagnosi e ripetizione completa superate senza modifiche applicative. Commit, CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-811-815-2026-11-16/. Ricevuta soltanto dopo deploy verificato.
 
 ## Regole
 
@@ -32,4 +32,4 @@ Confronto mirato con SmPC britannici della levotiroxina e dell’amiodarone, pas
 
 ## Prossimo intervallo
 
-Completare806–810 e verificarne la pubblicazione.811–815 non iniziato,riservato al ciclo successivo. Teoria prima di farmaci,profili e laboratori.
+Completare811–815 e verificarne la pubblicazione.816–820 non iniziato, riservato al ciclo successivo. Teoria prima di farmaci, profili e laboratori.

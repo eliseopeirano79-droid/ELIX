@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "chapterId": "terapia-tiroidea",
-  "batch": "theory-course-806-810",
-  "reviewedAt": "2026-11-16T14:59:24.090352+00:00",
+  "batch": "theory-course-811-815",
+  "reviewedAt": "2026-11-16T15:54:57.244555+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "ffcc7ef7a4c4a9e5d16fc35c1bab2c3cd89f9fea82352216a9f32331c0a17aaa",
+  "moduleSha256": "9e421c888f0df6070f302f93b40be9b82eebb7d618a2788f36afef89754a6a5c",
   "checks": [
-    "Rilette14sezioni,14quesiti,13schemi originali e13riferimenti;3419parole.",
-    "Quattro nuove sezioni,tre ampliate,sette conservate;nessun nuovo capitolo.",
-    "Coniugazione/ricircolo,interazioni,amiodarone e checkpoint collegati a recettori,farmaci e patologie.",
-    "Due nuovi collegamenti a identità già esistenti;zero nuove identità,sintesi o profili.",
-    "Revisione editoriale dei passaggi integrati;non convalidati i contenuti delle pagine esclusi dall’ampliamento."
+    "Revisione editoriale mirata delle cinque sezioni nuove o ampliate; capitolo complessivo di16sezioni,4258parole,17quesiti,15schemi e15riferimenti. Le undici sezioni conservate mantengono la revisione precedente.",
+    "Due nuove sezioni, tre ampliate, undici conservate; gli altri capitoli da confrontare strutturalmente.",
+    "Distinti sensibilità beta-adrenergica, stato stazionario e feedback, riserva surrenalica, TPO e ormone preformato.",
+    "Sei collegamenti a identità già esistenti mantenuti; zero nuove identità, sintesi di farmaci o profili.",
+    "Rilettura del solo integratore; le affermazioni escluse dalle pagine non sono convalidate."
   ],
   "conflicts": [
     {
@@ -135,16 +135,70 @@
       "issue": "Cinque pagine delle lezioniII corrispondono a pagine della raccolta.",
       "resolution": "Alias registrati prima della lettura,nessun doppio conteggio o conferma indipendente.",
       "status": "deduplicated"
+    },
+    {
+      "id": "duplicate-thyroid-figures",
+      "issue": "Diapositive811–815 e appunti334–335 riusano tabelle, algoritmo e schema.",
+      "resolution": "Lettura dei testi distinta; figure condivise registrate senza conferma indipendente o ripubblicazione.",
+      "status": "deduplicated"
+    },
+    {
+      "id": "dose-algorithm",
+      "issue": "AlgoritmoCFI813/APP334 contiene unità per peso incongrue per anziano/cardiopatico.",
+      "resolution": "Esclusi intero algoritmo e dosi; nessuna correzione posologica inferita da pubblicare.",
+      "status": "excluded"
+    },
+    {
+      "id": "steady-state-feedback",
+      "issue": "CFI811 indica settimane per equilibrio T4.",
+      "resolution": "Separati equilibrio farmacocinetico e riassestamento TSH; confronto mirato conNICE1.4.2.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "delayed-toxicity",
+      "issue": "CFI814 e SmPCLT4 riportano intervalli diversi per comparsa dei segni dopo sovradosaggio.",
+      "resolution": "Mantenuta soltanto possibile latenza, senza intervallo numerico o rassicurazione; gestione esclusa.",
+      "status": "difference_preserved"
+    },
+    {
+      "id": "adrenal-reserve",
+      "issue": "CFI814 richiama aumento clearance glucocorticoidi.",
+      "resolution": "Collegato a riserva insufficiente e deficit di più assi; SmPC4.4 confrontato, senza steroidi sistematici o dosi.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "thionamide-release",
+      "issue": "Rang657 descrive una riduzione del rilascio dopo il blocco enzimatico.",
+      "resolution": "Distinto risultato netto da blocco diretto: PTUSmPC5.1 specifica nessuna azione sull’ormone preformato o sulla sua liberazione.",
+      "status": "resolved"
+    },
+    {
+      "id": "historical-thyroid-products",
+      "issue": "Katzung792–793 contiene equivalenze sospette, disponibilità e categorie di gravidanza storiche.",
+      "resolution": "Integrati meccanismi e cinetica qualitativa; equivalenze, disponibilità, dosi e categorie non trasferite.",
+      "status": "excluded_out_of_scope"
+    },
+    {
+      "id": "radioiodine-generalizations",
+      "issue": "Rang657 contiene generalizzazioni su radiazioni, eliminazione e scelte terapeutiche.",
+      "resolution": "Integrato solo il meccanismo distinto dal blocco TPO; restanti affermazioni non convalidate.",
+      "status": "excluded_out_of_scope"
+    },
+    {
+      "id": "ptu-more-targets",
+      "issue": "Effetto periferico del PTU potrebbe essere scambiato per superiorità universale.",
+      "resolution": "Separati meccanismo aggiuntivo e valutazione beneficio/rischio; rischi epatici ed ematologici confrontati con documenti di prodotto.",
+      "status": "resolved_for_scope"
     }
   ],
   "limits": [
-    "Sintesi didattica e revisione editoriale del solo integratore;nessuna revisione clinica indipendente o validazione specialistica.",
-    "Questo lotto:16pagine locali lette e controllate visivamente,10nuove e6rilette. Copertura cumulativa29pagine,28integrate;nessun libro o corso interamente letto.",
-    "CFI809–810 letti dall’immagine;vignetta810 esclusa. Rang652–653 riletti come contesto già integrato,senza nuovi passaggi trasferiti in questo lotto.",
-    "AppuntiI333–335 conservati dal lotto precedente,non riletti in questo lotto. Le raccolte duplicate diFarmacologiaII non sono fonti indipendenti o pagine aggiuntive.",
-    "NICE e abstractETA consultati nei passaggi ufficiali indicizzati;accesso diretto limitato. Nessuna lettura integrale o revisione sistematica dichiarata.",
-    "SmPC britannici di levotiroxina e amiodarone,passaggiEMA di nivolumab:confronto mirato. RCP italiani,disponibilità locale,gravidanza,emergenze e protocolli oncologici non verificati.",
-    "Dosi,percentuali postchirurgiche,schemi antitubercolari,indicazioni oncologiche,integratori e algoritmi delle fonti esclusi. Persistenze ed emivite non trattate come costanti universali.",
-    "Altri intervalli dei libri e dei corsi restano da riconciliare;la lettura delle pagine selezionate non attesta revisione integrale della lezione."
+    "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente o validazione specialistica.",
+    "Questo lotto: 12 pagine locali lette e controllate visivamente, 10 nuove e 2 rilette. Cumulativo: 39 pagine uniche lette, 37 con passaggi integrati; nessun libro o corso interamente letto.",
+    "PDF 656 di Rang letto come contesto, senza nuovi passaggi integrati; 657 integrato soltanto per i meccanismi. Algoritmi, dosi e regole universali delle fonti esclusi.",
+    "Appunti I PDF334–335 riletti; PDF333 e gli intervalli di Farmacologia II dei lotti precedenti conservati senza nuova lettura. Figure condivise non considerate conferme indipendenti.",
+    "Per NICE consultati passaggi ufficiali indicizzati; accesso diretto limitato. Nessuna lettura integrale della linea guida o revisione sistematica.",
+    "SmPC britannici di levotiroxina e di due prodotti di propiltiouracile confrontati nei soli passaggi dichiarati; non verificati RCP italiani o disponibilità locale.",
+    "Escluse posologie, equivalenze dei preparati storici, gravidanza, algoritmi di emergenza e trattamento del sovradosaggio. Latenza dei segni non interpretata come finestra di sicurezza.",
+    "Contributi pregressi su amiodarone e checkpoint mantenuti; altri intervalli di libri e corsi restano da riconciliare."
   ]
 }

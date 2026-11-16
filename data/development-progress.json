@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-11-16T15:02:07.103411+00:00",
-  "batch": "theory-course-806-810",
+  "updatedAt": "2026-11-16T16:00:13.231464+00:00",
+  "batch": "theory-course-811-815",
   "status": "locally_verified_pending_publication",
-  "release": "0.99.0",
-  "branch": "feat/theory-course-806-810",
-  "baseCommit": "150cd75a2d9ebf007886be8ae0bfd6d08e51281a",
+  "release": "0.100.0",
+  "branch": "feat/theory-course-811-815",
+  "baseCommit": "d9e311d515839dda734a10886d1967de1cd4f2bd",
   "previousBatch": {
-    "batch": "theory-course-801-805",
+    "batch": "theory-course-806-810",
     "status": "published_and_live_verified",
-    "release": "0.98.0",
-    "commit": "150cd75a2d9ebf007886be8ae0bfd6d08e51281a"
+    "release": "0.99.0",
+    "commit": "d9e311d515839dda734a10886d1967de1cd4f2bd"
   },
   "scope": [
-    "Ampliamento tiroide:coniugazione e ricircolo,interazioni,amiodarone,checkpoint e interpretazione dei segni."
+    "Ampliamento tiroide: tempi della sostituzione, sensibilità adrenergica, riserva surrenalica, tionamidi e ormone preformato."
   ],
   "completed": [
-    "16pagine lette e controllate,10nuove e6rilette;9nuove integrate.",
-    "14sezioni,3419parole,14quesiti,13schemi e13riferimenti;65capitoli invariati nel numero.",
-    "50 controlli dati superati;otto configurazioni desktop/mobile e temi,14 schermate ispezionate.",
-    "Navigazione,ricerca,tastiera,collegamenti e offline verificati;aggiornamento reale0.98.0→0.99.0 con preferiti,studio e tema conservati.",
-    "Gli altri64capitoli sono strutturalmente identici;seiPDF sorgente ricontrollati e invariati."
+    "12 pagine lette e controllate, 10 nuove e 2 rilette; 9 nuove con passaggi integrati.",
+    "16 sezioni, 4258 parole, 17 quesiti, 15 schemi e 15 riferimenti; 65 capitoli invariati nel numero.",
+    "50 controlli dati superati; otto configurazioni desktop/mobile e temi, 14 schermate ispezionate.",
+    "Navigazione, ricerca, tastiera, collegamenti e offline verificati; aggiornamento reale0.99.0→0.100.0 con preferiti, studio e tema conservati.",
+    "Gli altri64capitoli sono strutturalmente identici; quattroPDF sorgente ricontrollati e invariati."
   ],
   "remaining": [
-    "Commit,CI,deploy e riscontro online."
+    "Commit, CI, deploy e riscontro online."
   ],
   "counts": {
     "identities": 4225,
@@ -44,27 +44,27 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 4,
+    "newSections": 2,
     "expandedSections": 3,
-    "newLinksToExistingIdentities": 2,
-    "newStaticOriginalSchemas": 4,
-    "newSelfChecks": 4,
-    "unchangedSections": 7
+    "newLinksToExistingIdentities": 0,
+    "newStaticOriginalSchemas": 2,
+    "newSelfChecks": 3,
+    "unchangedSections": 11
   },
   "readingManifests": [
     "data/terapia-tiroidea-reading.json"
   ],
   "limits": [
-    "Sintesi didattica e revisione editoriale del solo integratore;nessuna revisione clinica indipendente o validazione specialistica.",
-    "Questo lotto:16pagine locali lette e controllate visivamente,10nuove e6rilette. Copertura cumulativa29pagine,28integrate;nessun libro o corso interamente letto.",
-    "CFI809–810 letti dall’immagine;vignetta810 esclusa. Rang652–653 riletti come contesto già integrato,senza nuovi passaggi trasferiti in questo lotto.",
-    "AppuntiI333–335 conservati dal lotto precedente,non riletti in questo lotto. Le raccolte duplicate diFarmacologiaII non sono fonti indipendenti o pagine aggiuntive.",
-    "NICE e abstractETA consultati nei passaggi ufficiali indicizzati;accesso diretto limitato. Nessuna lettura integrale o revisione sistematica dichiarata.",
-    "SmPC britannici di levotiroxina e amiodarone,passaggiEMA di nivolumab:confronto mirato. RCP italiani,disponibilità locale,gravidanza,emergenze e protocolli oncologici non verificati.",
-    "Dosi,percentuali postchirurgiche,schemi antitubercolari,indicazioni oncologiche,integratori e algoritmi delle fonti esclusi. Persistenze ed emivite non trattate come costanti universali.",
-    "Altri intervalli dei libri e dei corsi restano da riconciliare;la lettura delle pagine selezionate non attesta revisione integrale della lezione."
+    "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente o validazione specialistica.",
+    "Questo lotto: 12 pagine locali lette e controllate visivamente, 10 nuove e 2 rilette. Cumulativo: 39 pagine uniche lette, 37 con passaggi integrati; nessun libro o corso interamente letto.",
+    "PDF 656 di Rang letto come contesto, senza nuovi passaggi integrati; 657 integrato soltanto per i meccanismi. Algoritmi, dosi e regole universali delle fonti esclusi.",
+    "Appunti I PDF334–335 riletti; PDF333 e gli intervalli di Farmacologia II dei lotti precedenti conservati senza nuova lettura. Figure condivise non considerate conferme indipendenti.",
+    "Per NICE consultati passaggi ufficiali indicizzati; accesso diretto limitato. Nessuna lettura integrale della linea guida o revisione sistematica.",
+    "SmPC britannici di levotiroxina e di due prodotti di propiltiouracile confrontati nei soli passaggi dichiarati; non verificati RCP italiani o disponibilità locale.",
+    "Escluse posologie, equivalenze dei preparati storici, gravidanza, algoritmi di emergenza e trattamento del sovradosaggio. Latenza dei segni non interpretata come finestra di sicurezza.",
+    "Contributi pregressi su amiodarone e checkpoint mantenuti; altri intervalli di libri e corsi restano da riconciliare."
   ],
-  "nextBatch": "Completare806–810 e la sua pubblicazione;811–815 non iniziato.",
+  "nextBatch": "Completare811–815 e verificarne la pubblicazione;816–820 non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755"
