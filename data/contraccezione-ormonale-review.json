@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "chapterId": "contraccezione-ormonale",
-  "batch": "theory-course-771-775",
-  "reviewedAt": "2026-11-16T00:42:51.347623+00:00",
+  "batch": "theory-course-776-780",
+  "reviewedAt": "2026-11-16T01:20:12.001390+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "91e8de0c43f68af8ad85a4912ab94b26da3e937cb2eba07148ecc93f69085aec",
+  "moduleSha256": "6d9faf5dd876fa82f7cdfee0d056e153d27d904822c16fb0034079dbcb0ba6ff",
   "checks": [
     "Rilette sintesi, quesiti e riferimenti; distinti composizione, via e schema temporale.",
     "Distinti ER/PR, segnali FSH/LH, ovulazione e contributi periferici.",
@@ -17,7 +17,9 @@
     "Riletto ampliamento: dose, frazione biodisponibile, attività recettoriale e indicazione distinti; progesterone micronizzato non generalizzato a contraccezione.",
     "Generazioni storiche non equiparate a potenza o sicurezza; limite delle tabelle multi-specie mantenuto.",
     "Grafici fisiologici, dosi e concentrazioni distinti; note mancanti e confronti clinici senza fonte esclusi.",
-    "Riconciliati 9 nuovi passaggi e 18 pagine precedenti, senza conteggiare di nuovo la rilettura di Rang669."
+    "Riconciliati 9 nuovi passaggi e 18 pagine precedenti, senza conteggiare di nuovo la rilettura di Rang669.",
+    "Riletto ampliamento su vie ER, risposta emostatica, indicatori/eventi e eterogeneità delle pillole con solo progestinico; escluse inferenze cliniche non supportate.",
+    "Verificati conteggi separati: 8 nuove pagine lette, 7 con passaggi integrati, 27 riutilizzate, 35 lette totali e 34 integrate."
   ],
   "conflicts": [
     {
@@ -149,13 +151,48 @@
     {
       "id": "historical-secondary-claims",
       "issue": "Numeri, disponibilità e spiegazioni storiche fuori dallo scopo.",
-      "resolution": "Esclusi valori di emivita, equivalenze HRT, usi in gravidanza e origine delle isoforme PR; della pagina EMA usata solo la non standardizzazione delle generazioni.",
+      "resolution": "Esclusi valori di emivita, equivalenze HRT, usi in gravidanza e origine delle isoforme PR. Nel lotto 771–775 era stato usato soltanto il paragrafo EMA sulle generazioni; nel lotto corrente aggiunti i passaggi che distinguono esiti venosi e arteriosi, senza adottare tabelle storiche come stime attuali.",
       "status": "excluded"
+    },
+    {
+      "id": "hemostasis-activation",
+      "issue": "Sintesi proteica, generazione di trombina e bilancio emostatico accostati nelle fonti.",
+      "resolution": "Distinti precursori, attivazione, anticoagulanti e fibrinolisi; nessun effetto quantitativo universale attribuito a tutte le preparazioni.",
+      "status": "resolved_for_bounded_chapter"
+    },
+    {
+      "id": "lipids-versus-events",
+      "issue": "Freccia LDL/HDL ambigua e deduzione di minore rischio dalle nuove molecole meno androgeniche.",
+      "resolution": "Non trasferita la freccia; separati indicatore biologico, esito venoso e arterioso. Nessuna graduatoria automatica.",
+      "status": "resolved_for_bounded_chapter"
+    },
+    {
+      "id": "low-dose-screening",
+      "issue": "Appunti327 collegano basse dosi alla soluzione del rischio e agli esami necessari.",
+      "resolution": "Inferenza esclusa; il modello biologico non decide da solo la valutazione individuale.",
+      "status": "excluded"
+    },
+    {
+      "id": "pop-generalization",
+      "issue": "CFI780 mostra placebo nella tabella ma generalizza assenza di pause e finestre orarie.",
+      "resolution": "Riconciliato con CDC: formulazioni eterogenee e compresse attive/placebo; nessuna finestra operativa pubblicata, riga coperta non ricostruita.",
+      "status": "resolved_for_bounded_chapter"
+    },
+    {
+      "id": "historical-estimates",
+      "issue": "Stime e istruzioni storiche in Rang676 e Katzung838.",
+      "resolution": "Numeri e istruzioni esclusi; Katzung838 registrata letta ma non integrata.",
+      "status": "excluded"
+    },
+    {
+      "id": "shared-figures-new",
+      "issue": "CFI776/APP326 e CFI777–778/APP327 condividono figure.",
+      "resolution": "Nessuna conferma indipendente. Figura ER leggibile a776; articolo citato a777 non letto, immagini delle fonti non pubblicate.",
+      "status": "bounded_uncertainty"
     }
   ],
   "limits": [
     "Sintesi didattica di un solo integratore, non revisione clinica indipendente.",
-    "27 pagine locali documentate, di cui 9 nuove in questo lotto e 18 già lette; nessuna lettura integrale di libri, corsi o guide.",
     "APP329: riga coperta non leggibile; testo disponibile e resto del rendering controllati.",
     "Disponibilità, durate autorizzate e istruzioni italiane dei singoli prodotti non verificate; documenti britannici usati per meccanismi/unità/interazioni dichiarati.",
     "Esclusi emergenza contraccettiva, protocolli per dimenticanze, allattamento, indicazioni oncologiche e trattamento dell’infertilità.",
@@ -166,7 +203,13 @@
     "CFI775 e APP326: stessa tabella44-2 con note inferiori mancanti; origine editoriale non identificata, nessuna conferma indipendente.",
     "APP326: figura ER non integrata perché le etichette minute non sono state validate integralmente; confronti clinici senza fonte esclusi.",
     "Katzung832: attività ricavate da specie e parametri diversi non trasferite come graduatoria clinica; dosi e usi storici esclusi.",
-    "EMA: soltanto il paragrafo storico sulla non standardizzazione delle generazioni, non la tabella dei rischi. Progesterone micronizzato: documentazione della specifica preparazione britannica.",
-    "Rang669 riletto nel lotto corrente ma già contato; nessuna nuova lettura degli altri contributi didattici conservati."
+    "35 pagine locali esaminate: 8 nuove e 27 già documentate; passaggi integrati da 34. Katzung838 letta ma non integrata. Nessuna lettura integrale di libri, corsi o linee guida.",
+    "CFI776 ripropone la figura ER di APP326: etichette leggibili nella diapositiva, senza retrodatare la lettura della figura più piccola.",
+    "CFI777–778 e APP327 condividono figure; articolo della copertina mostrata a777 non letto. Nessuna conferma indipendente.",
+    "Freccia lipidica di CFI778/APP327 ambigua: non trasferita. Androgenicità, profilo lipidico ed eventi clinici non equiparati.",
+    "Esclusa la deduzione secondo cui basse dosi annullino il rischio o stabiliscano da sole gli esami necessari.",
+    "CFI780: riga delle dimenticanze coperta, note mancanti e istruzioni generalizzate non adottate; CDC usato per eterogeneità dei meccanismi e dosi attive/placebo, senza protocolli.",
+    "Rang676 riletto e ricontrollato visivamente ma già contato; stime numeriche storiche non adottate. Nessuna nuova lettura degli altri contributi conservati.",
+    "EMA 2013–2014 consultata per distinzioni concettuali; tabella storica non usata come stima attuale. AIFA2024 ricontrollata nel testo; documenti non letti integralmente."
   ]
 }

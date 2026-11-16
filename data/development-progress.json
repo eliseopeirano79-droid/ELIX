@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-11-16T00:45:08.941556+00:00",
-  "batch": "theory-course-771-775",
+  "updatedAt": "2026-11-16T01:23:02.009173+00:00",
+  "batch": "theory-course-776-780",
   "status": "locally_verified_pending_CI_and_publication",
-  "release": "0.92.0",
-  "branch": "feat/theory-course-771-775",
-  "baseCommit": "bbcace495a4b3fe895d397d90407ef4f9673c3c9",
+  "release": "0.93.0",
+  "branch": "feat/theory-course-776-780",
+  "baseCommit": "3fd5e109cd1fab85241dff804f303fdc45110c8d",
   "previousBatch": {
-    "batch": "theory-course-766-770",
+    "batch": "theory-course-771-775",
     "status": "published_and_live_verified",
-    "release": "0.91.0",
-    "commit": "bbcace495a4b3fe895d397d90407ef4f9673c3c9"
+    "release": "0.92.0",
+    "commit": "3fd5e109cd1fab85241dff804f303fdc45110c8d"
   },
   "scope": [
-    "Ampliamento del capitolo esistente sulla contraccezione: dose, biodisponibilità, generazioni dei progestinici e lettura degli schemi."
+    "Ampliamento del capitolo sulla contraccezione: vie recettoriali, emostasi, indicatori ed eventi vascolari, eterogeneità delle pillole con solo progestinico."
   ],
   "completed": [
-    "9 nuove pagine locali lette con limiti e rendering controllati; 18 pagine precedenti riutilizzate senza doppio conteggio.",
-    "Capitolo ampliato: 2776 parole, 12 sezioni, 14 domande, 8 schemi, 16 riferimenti e 11 collegamenti a identità esistenti.",
-    "47 controlli dati superati; otto configurazioni desktop/mobile nei due temi e otto schermate ispezionate. Ricerca, tastiera, riferimenti e offline verificati. Aggiornamento reale 0.91.0→0.92.0 con dati conservati; altri 62 capitoli identici."
+    "8 nuove pagine lette e controllate visivamente; 7 con passaggi integrati, 27 pagine precedenti riutilizzate.",
+    "Capitolo ampliato: 3593 parole, 14 sezioni, 18 domande, 10 schemi, 17 riferimenti e 11 collegamenti a identità esistenti.",
+    "47 controlli dati superati; otto configurazioni desktop/mobile nei due temi e otto schermate ispezionate. Ricerca, tastiera, riferimenti e offline verificati. Aggiornamento reale 0.92.0→0.93.0 con dati conservati; altri 62 capitoli identici."
   ],
   "remaining": [
     "CI, deploy concluso e riscontro online."
@@ -44,16 +44,15 @@
     "newInteractiveLabs": 0,
     "newSections": 2,
     "expandedSections": 2,
-    "newLinksToExistingIdentities": 1,
+    "newLinksToExistingIdentities": 0,
     "newStaticOriginalSchemas": 2,
-    "newSelfChecks": 3
+    "newSelfChecks": 4
   },
   "readingManifests": [
     "data/contraccezione-ormonale-reading.json"
   ],
   "limits": [
     "Sintesi didattica di un solo integratore, non revisione clinica indipendente.",
-    "27 pagine locali documentate, di cui 9 nuove in questo lotto e 18 già lette; nessuna lettura integrale di libri, corsi o guide.",
     "APP329: riga coperta non leggibile; testo disponibile e resto del rendering controllati.",
     "Disponibilità, durate autorizzate e istruzioni italiane dei singoli prodotti non verificate; documenti britannici usati per meccanismi/unità/interazioni dichiarati.",
     "Esclusi emergenza contraccettiva, protocolli per dimenticanze, allattamento, indicazioni oncologiche e trattamento dell’infertilità.",
@@ -64,10 +63,16 @@
     "CFI775 e APP326: stessa tabella44-2 con note inferiori mancanti; origine editoriale non identificata, nessuna conferma indipendente.",
     "APP326: figura ER non integrata perché le etichette minute non sono state validate integralmente; confronti clinici senza fonte esclusi.",
     "Katzung832: attività ricavate da specie e parametri diversi non trasferite come graduatoria clinica; dosi e usi storici esclusi.",
-    "EMA: soltanto il paragrafo storico sulla non standardizzazione delle generazioni, non la tabella dei rischi. Progesterone micronizzato: documentazione della specifica preparazione britannica.",
-    "Rang669 riletto nel lotto corrente ma già contato; nessuna nuova lettura degli altri contributi didattici conservati."
+    "35 pagine locali esaminate: 8 nuove e 27 già documentate; passaggi integrati da 34. Katzung838 letta ma non integrata. Nessuna lettura integrale di libri, corsi o linee guida.",
+    "CFI776 ripropone la figura ER di APP326: etichette leggibili nella diapositiva, senza retrodatare la lettura della figura più piccola.",
+    "CFI777–778 e APP327 condividono figure; articolo della copertina mostrata a777 non letto. Nessuna conferma indipendente.",
+    "Freccia lipidica di CFI778/APP327 ambigua: non trasferita. Androgenicità, profilo lipidico ed eventi clinici non equiparati.",
+    "Esclusa la deduzione secondo cui basse dosi annullino il rischio o stabiliscano da sole gli esami necessari.",
+    "CFI780: riga delle dimenticanze coperta, note mancanti e istruzioni generalizzate non adottate; CDC usato per eterogeneità dei meccanismi e dosi attive/placebo, senza protocolli.",
+    "Rang676 riletto e ricontrollato visivamente ma già contato; stime numeriche storiche non adottate. Nessuna nuova lettura degli altri contributi conservati.",
+    "EMA 2013–2014 consultata per distinzioni concettuali; tabella storica non usata come stima attuale. AIFA2024 ricontrollata nel testo; documenti non letti integralmente."
   ],
-  "nextBatch": "Completare 771–775 e la pubblicazione verificata; il prossimo intervallo 776–780 resta non iniziato.",
+  "nextBatch": "Completare 776–780 e la pubblicazione verificata; 781–785 non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755"

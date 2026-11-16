@@ -9,8 +9,8 @@ assert.equal(ELIX_CHAPTERS.filter(x=>x.format==='extended').length,19);
 assert.deepEqual(ELIX_CHAPTERS.find(x=>x.id===c.id),c);
 assert.equal(c.wordCount,c.sections.map(s=>s.text).join(' ').split(/\s+/).length);
 assert.equal(new Set(c.sections.map(s=>s.id)).size,c.sections.length);
-assert.deepEqual([c.sections.length,c.checks.length,c.sections.filter(s=>s.formula).length],[12,14,8]);
-const refs=new Set(c.references.map(r=>r.id));assert.equal(refs.size,16);
+assert.deepEqual([c.sections.length,c.checks.length,c.sections.filter(s=>s.formula).length],[14,18,10]);
+const refs=new Set(c.references.map(r=>r.id));assert.equal(refs.size,17);
 for(const s of c.sections){assert.ok(s.refs.length);for(const r of s.refs)assert.ok(refs.has(r),'unresolved source '+r);}
 for(const r of c.references){assert.ok(r.title&&r.detail);assert.ok(c.sections.some(s=>s.refs.includes(r.id)));}
 const catalog=JSON.parse(read('data/catalog.json')).molecules;
@@ -19,25 +19,25 @@ for(const m of c.moleculeLinks)assert.ok(catalog.some(x=>x.id===m.id&&x.name===m
 for(const id of c.relatedExistingChapterIds)assert.ok(id!==c.id&&ELIX_CHAPTERS.some(x=>x.id===id));
 const l=JSON.parse(read('data/contraccezione-ormonale-reading.json')),r=JSON.parse(read('data/contraccezione-ormonale-review.json'));
 assert.deepEqual([l.fullCorpusRead,l.clinicalValidation,l.newIdentities,l.newDrugSummaries,l.newPKProfiles,l.newTargetProfiles,l.newChapters,l.expandedExistingChapters],[false,false,0,0,0,0,0,1]);
-const previous={CFI:[766,767,768,769,770],KATZ:[835,836],RANG:[667,669,675,676],APP:[307,325,328,329],SFI:[486],DAB:[374],DAV:[117]};
-const added={CFI:[771,772,773,774,775],KATZ:[831,832,833],APP:[326]};
+const previous={"CFI": [766, 767, 768, 769, 770, 771, 772, 773, 774, 775], "KATZ": [831, 832, 833, 835, 836], "RANG": [667, 669, 675, 676], "APP": [307, 325, 326, 328, 329], "SFI": [486], "DAB": [374], "DAV": [117]};
+const added={"CFI": [776, 777, 778, 779, 780], "KATZ": [837, 838], "APP": [327]};
 const expected=Object.fromEntries(Object.entries(previous).map(([id,pages])=>[id,[...pages,...(added[id]||[])].sort((a,b)=>a-b)]));
 const seen=new Set();let pages=0,newPages=0,reusedPages=0;
 for(const s of l.sources){
  assert.ok(!s.path&&!s.lecturer);assert.equal(s.allContentsRead,false);assert.equal(s.sourceUnchanged,true);
  assert.deepEqual(s.pdfPagesRead,expected[s.id]);assert.deepEqual(s.pdfPagesRead,s.visuallyCheckedPdfPages);
- assert.deepEqual(s.pdfPagesRead,s.integratedPdfPages);assert.deepEqual(s.readButNotIntegratedPdfPages,[]);
+ assert.deepEqual(s.integratedPdfPages,s.pdfPagesRead.filter(p=>!(s.id==='KATZ'&&p===838)));assert.deepEqual(s.readButNotIntegratedPdfPages,s.id==='KATZ'?[838]:[]);
  assert.deepEqual(s.newlyReadTextPages,added[s.id]||[]);assert.deepEqual(s.reusedPreviouslyReadPages,previous[s.id]);
  assert.deepEqual([...s.newlyReadTextPages,...s.reusedPreviouslyReadPages].sort((a,b)=>a-b),s.pdfPagesRead);
  newPages+=s.newlyReadTextPages.length;reusedPages+=s.reusedPreviouslyReadPages.length;
  for(const p of s.pdfPagesRead){const k=s.sha256+':'+p;assert.ok(!seen.has(k));seen.add(k);}
  pages+=s.pdfPagesRead.length;
 }
-assert.equal(pages,27);assert.equal(newPages,9);assert.equal(reusedPages,18);assert.equal(l.newReadPdfPages,newPages);assert.equal(l.reusedReadPdfPages,reusedPages);assert.equal(l.totalReadPdfPages,pages);assert.equal(l.chapterSourcePdfPages,pages);
+assert.equal(pages,35);assert.equal(newPages,8);assert.equal(reusedPages,27);assert.equal(l.newReadPdfPages,newPages);assert.equal(l.reusedReadPdfPages,reusedPages);assert.equal(l.totalReadPdfPages,pages);assert.equal(l.chapterSourcePdfPages,34);assert.equal(l.chapterIntegratedPdfPages,34);assert.equal(l.newIntegratedPdfPages,7);
 assert.equal(l.newCourseReadPdfPages+l.newBookReadPdfPages,newPages);
 assert.equal(l.newMainCoursePages+l.newOtherSlidesPages+l.newAppuntiPages,l.newCourseReadPdfPages);
 assert.deepEqual(l.sources.find(s=>s.id==='APP').partiallyOccludedPdfPages,[326,329]);
-assert.deepEqual(l.sources.find(s=>s.id==='CFI').partiallyOccludedPdfPages,[775]);
+assert.deepEqual(l.sources.find(s=>s.id==='CFI').partiallyOccludedPdfPages,[775,780]);
 assert.ok(!l.sources.find(s=>s.id==='APP').pdfPagesRead.includes(293),'header-only page counted as read');
 assert.equal(l.deduplication.independentConfirmationsFromSharedFigures,0);
 assert.equal(r.independentClinicalReview,false);assert.equal(r.clinicalValidation,false);assert.equal(r.outcome,'pass');
@@ -48,4 +48,4 @@ for(const f of ['elix-theory-contraception.js','data/contraccezione-ormonale-rea
 }
 assert.equal(JSON.parse(read('data/development-progress.json')).changes.newChapters,0);
 assert.equal(JSON.parse(read('data/development-progress.json')).changes.expandedChapters,1);
-console.log('Contraception PASS: 9 new + 18 reused source pages, expanded chapter, 11 existing identities, reference links, partial-page limits and offline records.');
+console.log('Contraception PASS: 8 new + 27 reused source pages, 34 integrated and 1 read-only, expanded chapter, 11 existing identities, reference links, partial-page limits and offline records.');

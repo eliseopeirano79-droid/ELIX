@@ -21,9 +21,10 @@ export const THEORY_CONTRACEPTION = Object.freeze({
       "title": "Recettori steroidei: dal ligando alla risposta del tessuto",
       "refs": [
         "RAN",
-        "NEX"
+        "NEX",
+        "CFI"
       ],
-      "text": "Un estrogeno e un progestinico non sono messaggi indistinguibili. Gli estrogeni esercitano importanti effetti attraverso ERα ed ERβ, recettori intracellulari capaci di regolare l’espressione genica. Il progesterone e i progestinici attivano il recettore del progesterone, PR. Il legame con un recettore collega la presenza della molecola a cambiamenti nella produzione di proteine e nel comportamento della cellula. È un livello diverso dal semplice aumento o calo di una concentrazione nel sangue.\n\nLa risposta dipende anche dal contesto. Un tessuto deve possedere i recettori e l’organizzazione cellulare necessari per interpretare il segnale. Inoltre, i segnali possono modificare la disponibilità dei recettori: Rang descrive, per esempio, la regolazione estrogenica dell’espressione dei recettori del progesterone. L’effetto di uno steroide può quindi preparare o modificare la risposta a un altro. Questo rapporto aiuta a comprendere perché la sequenza temporale degli ormoni sia rilevante nell’endometrio.\n\nIl modello dei recettori nucleari non esaurisce tutte le risposte estrogeniche: il testo descrive anche segnali rapidi associati a GPER. Riconoscerli evita di identificare ogni effetto con una sola via, ma non permette di attribuire a GPER il meccanismo contraccettivo predominante.\n\nFSH e LH appartengono a un altro livello della spiegazione: sono gonadotropine il cui controllo viene modificato dal feedback degli steroidi. Non sono nomi alternativi di ER o PR. La catena concettuale procede dal farmaco al recettore, dalla risposta dei tessuti alla regolazione dell’asse, e infine all’esito riproduttivo. I diversi livelli si collegano senza diventare sinonimi.",
+      "text": "Un estrogeno e un progestinico non sono messaggi indistinguibili. Gli estrogeni esercitano importanti effetti attraverso ERα ed ERβ, recettori intracellulari capaci di regolare l’espressione genica. Il progesterone e i progestinici attivano il recettore del progesterone, PR. Il legame con un recettore collega la presenza della molecola a cambiamenti nella produzione di proteine e nel comportamento della cellula. È un livello diverso dal semplice aumento o calo di una concentrazione nel sangue.\n\nLa risposta dipende anche dal contesto. Un tessuto deve possedere i recettori e l’organizzazione cellulare necessari per interpretare il segnale. Inoltre, i segnali possono modificare la disponibilità dei recettori: Rang descrive, per esempio, la regolazione estrogenica dell’espressione dei recettori del progesterone. L’effetto di uno steroide può quindi preparare o modificare la risposta a un altro. Questo rapporto aiuta a comprendere perché la sequenza temporale degli ormoni sia rilevante nell’endometrio.\n\nIl modello dei recettori nucleari non esaurisce tutte le risposte estrogeniche: il testo descrive anche segnali rapidi associati a GPER. Riconoscerli evita di identificare ogni effetto con una sola via, ma non permette di attribuire a GPER il meccanismo contraccettivo predominante.\n\nFSH e LH appartengono a un altro livello della spiegazione: sono gonadotropine il cui controllo viene modificato dal feedback degli steroidi. Non sono nomi alternativi di ER o PR. La catena concettuale procede dal farmaco al recettore, dalla risposta dei tessuti alla regolazione dell’asse, e infine all’esito riproduttivo. I diversi livelli si collegano senza diventare sinonimi.\n\nLa figura delle vie estrogeniche permette di precisare il passaggio dal recettore al gene. Il complesso recettoriale può regolare la trascrizione attraverso elementi di risposta del DNA, detti ERE, oppure attraverso l’interazione con altri fattori di trascrizione. Le vie rapide di segnalazione intracellulare, rappresentate fra l’altro da MAPK e PI3K–AKT, possono a loro volta convergere sulla regolazione genica. «Rapido» e «genomico» aiutano dunque a distinguere passaggi del segnale, senza dividere la cellula in due sistemi isolati. Il disegno non stabilisce tempi identici per tutti i tessuti né una sequenza obbligatoria di trasferimento dal citoplasma al nucleo. Per collegarlo a un effetto bisogna identificare il recettore, il contesto cellulare e la risposta osservata.",
       "formula": "Ligando steroideo → ER o PR → risposta dipendente dal contesto cellulare → effetti centrali e periferici. FSH e LH sono segnali dell’asse, non recettori degli steroidi. Schema originale qualitativo."
     },
     {
@@ -55,9 +56,10 @@ export const THEORY_CONTRACEPTION = Object.freeze({
       "refs": [
         "KAT",
         "RAN",
-        "NEX"
+        "NEX",
+        "CDCPOP"
       ],
-      "text": "Dire che un metodo contiene soltanto un progestinico chiarisce l’assenza del componente estrogenico. Non specifica però quale progestinico sia utilizzato, con quale esposizione né attraverso quale preparazione. Non consente quindi di concludere che tutti questi metodi lascino invariata l’ovulazione.\n\nI libri descrivono preparazioni nelle quali l’inibizione ovulatoria non è costante e acquistano rilievo altri effetti, come quello sul muco cervicale. Questa osservazione va mantenuta legata alla preparazione descritta. Non può diventare la regola generale secondo cui un progestinico agirebbe sempre più debolmente o esclusivamente alla periferia.\n\nUn controesempio concreto è l’impianto di etonogestrel. Il relativo SmPC britannico identifica il recettore del progesterone fra i bersagli della molecola e l’inibizione dell’ovulazione come meccanismo contraccettivo principale, insieme a cambiamenti del muco cervicale. È quindi possibile avere un metodo senza estrogeno che esercita una marcata azione sul processo ovulatorio.\n\nIl ragionamento farmacologico deve proseguire dal nome della classe alla molecola e alla formulazione. L’etichetta comune orienta lo studio; le proprietà specifiche determinano ciò che è lecito prevedere."
+      "text": "Dire che un metodo contiene soltanto un progestinico chiarisce l’assenza del componente estrogenico. Non specifica però quale progestinico sia utilizzato, con quale esposizione né attraverso quale preparazione. Non consente quindi di concludere che tutti questi metodi lascino invariata l’ovulazione.\n\nI libri descrivono preparazioni nelle quali l’inibizione ovulatoria non è costante e acquistano rilievo altri effetti, come quello sul muco cervicale. Questa osservazione va mantenuta legata alla preparazione descritta. Non può diventare la regola generale secondo cui un progestinico agirebbe sempre più debolmente o esclusivamente alla periferia.\n\nUn controesempio concreto è l’impianto di etonogestrel. Il relativo SmPC britannico identifica il recettore del progesterone fra i bersagli della molecola e l’inibizione dell’ovulazione come meccanismo contraccettivo principale, insieme a cambiamenti del muco cervicale. È quindi possibile avere un metodo senza estrogeno che esercita una marcata azione sul processo ovulatorio.\n\nIl ragionamento farmacologico deve proseguire dal nome della classe alla molecola e alla formulazione. L’etichetta comune orienta lo studio; le proprietà specifiche determinano ciò che è lecito prevedere.\n\nAnche fra le pillole la composizione comune non rende uniforme il meccanismo. Il CDC distingue le preparazioni statunitensi con noretisterone o norgestrel, nelle quali l’inibizione ovulatoria è variabile, da quella con drospirenone, per cui la soppressione dell’ovulazione è primaria. È un confronto fra preparazioni definite, non una descrizione della disponibilità italiana.\n\n«Solo progestinico» non significa neppure «senza intervallo ormonale»: la preparazione di drospirenone descritta comprende compresse attive e placebo. Contare le compresse senza distinguerle può quindi far interpretare male lo schema. Per lo stesso motivo, le regole per una dose dimenticata non sono trasferibili da una pillola all’altra. Servono le istruzioni del prodotto; una finestra oraria universale non si ricava dal nome della classe."
     },
     {
       "id": "dose-biodisponibilita",
@@ -107,6 +109,31 @@ export const THEORY_CONTRACEPTION = Object.freeze({
       ],
       "text": "Una compressa, un anello e un impianto possono riportare numeri espressi in milligrammi o microgrammi, ma quei numeri non descrivono necessariamente la stessa grandezza. Il contenuto totale di un dispositivo è una quantità di sostanza; la velocità di rilascio è una quantità per unità di tempo. Confonderli rende sbagliato il confronto prima ancora di considerare assorbimento e risposta farmacologica.\n\nPer esempio, lo SmPC britannico di NuvaRing distingue il contenuto dell’anello dal rilascio medio giornaliero: etonogestrel 0,120 mg e etinilestradiolo 0,015 mg nelle 24 ore. Il dato riguarda quella preparazione. La presenza del tempo al denominatore è essenziale per comprenderlo.\n\nAnche i 68 mg indicati per l’impianto di etonogestrel rappresentano il contenuto del dispositivo, non una dose giornaliera di 68 mg. La quantità liberata nel tempo deve essere cercata separatamente nella documentazione della formulazione.\n\nUna tabella didattica può accostare contenuti, dosi somministrate e velocità di rilascio. Prima di usarla occorre controllare l’intestazione e l’unità di ciascuna riga. Il confronto fra metodi non può partire dal solo numero più piccolo: richiede di chiarire che cosa è stato misurato.\n\nNelle tabelle delle associazioni orali anche due colonne affiancate possono usare unità diverse: microgrammi per un componente e milligrammi per l’altro. La conversione delle unità è necessaria per leggere correttamente le quantità, ma non trasforma quei numeri in una misura comune di potenza. Il numero di compresse associato a una riga descrive inoltre quante dosi appartengono a quella fase, un’informazione distinta dalla dose contenuta in ciascuna compressa.",
       "formula": "Contenuto [massa] ≠ rilascio [massa/tempo] ≠ concentrazione [massa/volume]. Schema originale delle grandezze, senza conversioni in equivalenze terapeutiche."
+    },
+    {
+      "id": "risposta-emostatica",
+      "title": "Dalla risposta estrogenica all’equilibrio emostatico",
+      "refs": [
+        "CFI",
+        "KAT",
+        "APP19"
+      ],
+      "text": "Gli effetti degli estrogeni non si limitano all’asse riproduttivo. Anche il fegato risponde ai segnali ormonali modificando la sintesi di proteine plasmatiche. Questo collegamento rende comprensibile il passaggio, nei testi, dalla farmacologia recettoriale agli effetti emostatici. Per seguirlo occorre però distinguere le funzioni dei diversi componenti: un elenco di proteine aumentate o diminuite non è ancora una spiegazione del rischio.\n\nUn primo livello riguarda le piastrine e la loro adesione alla parete vascolare danneggiata, alla quale partecipa il fattore di von Willebrand. Un secondo livello riguarda le reazioni della coagulazione: la protrombina viene attivata a trombina, e questa favorisce la trasformazione del fibrinogeno in fibrina. Sintetizzare un precursore e generare l’enzima attivo sono processi collegati, ma diversi. Parlare genericamente di «produzione di trombina» può nascondere proprio il passaggio di attivazione che si vuole spiegare.\n\nL’organismo possiede inoltre sistemi che limitano la propagazione della coagulazione, fra cui antitrombina e sistema della proteina C con la proteina S. La fibrinolisi svolge un’altra funzione: attraverso la plasmina contribuisce alla degradazione della fibrina. Frenare la formazione del coagulo e favorirne la rimozione non sono la stessa operazione, anche se entrambe partecipano all’equilibrio complessivo.\n\nLe fonti didattiche descrivono modificazioni estrogeniche che interessano più livelli e possono favorire un assetto protrombotico. Un aumento contemporaneo della fibrinolisi non dimostra che l’effetto sia neutralizzato: l’esito dipende dall’insieme delle modificazioni, non dal conteggio delle frecce in un diagramma. Analogamente, una singola proteina non riassume tutta la risposta emostatica.\n\nQuesto modello chiarisce una plausibilità biologica. Non quantifica da solo la probabilità di una trombosi, non dimostra che ogni preparazione modifichi ogni fattore nello stesso modo e non stabilisce quali esami richiedere a una persona. Queste sono domande cliniche ulteriori, che richiedono dati e criteri specifici.",
+      "formula": "Adesione piastrinica + generazione di fibrina ↔ sistemi anticoagulanti e fibrinolisi. Funzioni distinte, risposta complessiva: il bilancio non si ottiene contando le frecce. Schema concettuale originale, non modello predittivo."
+    },
+    {
+      "id": "indicatori-eventi",
+      "title": "Indicatori biologici ed eventi vascolari: quale rischio si sta misurando?",
+      "refs": [
+        "CFI",
+        "KAT",
+        "RAN",
+        "APP19",
+        "EMAgen",
+        "AIFA"
+      ],
+      "text": "La parola cardiovascolare raccoglie fenomeni diversi e può rendere ambiguo un confronto. Il tromboembolismo venoso comprende eventi come trombosi venosa profonda ed embolia polmonare. Gli eventi trombotici arteriosi comprendono invece, fra gli esiti considerati nelle valutazioni regolatorie, infarto miocardico e ictus ischemico. Specificare il tipo di evento è necessario prima di affermare che una preparazione comporti un rischio maggiore o minore.\n\nIl profilo lipidico appartiene a un altro livello. LDL e HDL sono misure biologiche, non conteggi di trombosi. Katzung descrive effetti lipidici dei componenti estrogenici e progestinici che possono contrastarsi; ciò non autorizza a tradurre una variazione di laboratorio in una graduatoria complessiva di sicurezza. In particolare, una minore attività androgenica non dimostra automaticamente una minore incidenza di tromboembolismo venoso. Passare dal recettore al metabolismo, e dal metabolismo a un evento clinico, richiede evidenze per ciascun collegamento.\n\nAnche una differenza osservata per gli eventi venosi non va trasferita automaticamente agli eventi arteriosi. La procedura EMA del 2013–2014 ha trattato separatamente questi esiti; il fatto che condividano la presenza di un trombo non rende intercambiabili i risultati. La documentazione successiva sul singolo prodotto deve comunque essere verificata: una tabella storica non descrive necessariamente tutte le conoscenze disponibili oggi.\n\nPer leggere un confronto conviene ricostruire quattro elementi: preparazione studiata, popolazione, evento misurato e periodo di osservazione. Il rischio relativo confronta la frequenza dell’evento fra gruppi; il rischio assoluto descrive quanto spesso esso si verifica nel gruppo considerato e nell’intervallo definito. Una variazione relativa non dice, da sola, quante persone avranno un evento. La distinzione rimane utile anche quando non si riportano numeri.\n\nIl percorso di studio arriva così dalla molecola alla patologia senza saltare i passaggi intermedi. Un effetto recettoriale aiuta a formulare una spiegazione; una misura biologica documenta una risposta; i dati sugli eventi descrivono gli esiti clinici. Nessuno di questi livelli sostituisce automaticamente gli altri.",
+      "formula": "Recettore → risposta biologica → evento clinico: ogni collegamento richiede evidenza. Confronto del rischio = preparazione + popolazione + evento + tempo; distinguere frequenza assoluta e confronto relativo. Schema originale."
     },
     {
       "id": "rischio-contesto",
@@ -197,6 +224,22 @@ export const THEORY_CONTRACEPTION = Object.freeze({
     {
       "question": "Una generazione più recente garantisce maggiore potenza o minore rischio?",
       "answer": "No. Le generazioni sono raggruppamenti storici non standardizzati. Profilo recettoriale e rischio clinico richiedono informazioni specifiche, e i risultati ottenuti in specie diverse non si trasferiscono automaticamente all’uomo."
+    },
+    {
+      "question": "Perché un aumento della fibrinolisi non dimostra che un effetto protrombotico sia annullato?",
+      "answer": "Perché formazione, limitazione e rimozione della fibrina dipendono da processi diversi che possono cambiare insieme. Una freccia favorevole non misura il bilancio complessivo."
+    },
+    {
+      "question": "Una variazione di LDL o HDL equivale a una variazione dimostrata degli eventi trombotici?",
+      "answer": "No. Un indicatore biologico e un evento clinico sono esiti diversi; occorrono dati riferiti alla preparazione e all’evento considerati."
+    },
+    {
+      "question": "Un confronto sul tromboembolismo venoso si applica automaticamente anche a infarto e ictus ischemico?",
+      "answer": "No. Gli esiti venosi e arteriosi devono essere identificati e valutati separatamente, insieme a popolazione e periodo di osservazione."
+    },
+    {
+      "question": "La dicitura solo progestinico garantisce che tutte le compresse della confezione contengano ormone?",
+      "answer": "No. La composizione del metodo non descrive da sola lo schema: alcune preparazioni comprendono anche compresse placebo."
     }
   ],
   "moleculeLinks": [
@@ -254,7 +297,7 @@ export const THEORY_CONTRACEPTION = Object.freeze({
     "emicrania",
     "first-pass-avanzato"
   ],
-  "wordCount": 2776,
+  "wordCount": 3593,
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-16",
@@ -263,12 +306,12 @@ export const THEORY_CONTRACEPTION = Object.freeze({
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 766–775; grafici fisiologici distinti da dosi e concentrazioni sotto trattamento. Note inferiori mancanti nella tabella a PDF775, non ricostruite."
+      "detail": "PDF 766–780; passaggi selezionati su composizione, recettori, emostasi e formulazioni. Note mancanti a PDF775 e riga coperta a PDF780 non ricostruite; dosi e istruzioni operative non trasferite."
     },
     {
       "id": "KAT",
       "title": "Katzung · IX edizione italiana 2014 / XII originale 2012",
-      "detail": "PDF 831–833 e 835–836, editoriali 811–813 e 815–816. Formulazione, attività accessorie e limiti della tabella multi-specie; figure, dosi e disponibilità storiche non riprodotte."
+      "detail": "PDF 831–833 e 835–838, editoriali 811–813 e 815–818. Passaggi integrati fino a PDF837; PDF838 letta ma non integrata perché fuori dallo scopo e contenente indicazioni storiche. Attività, formulazione e risposte epatiche/emostatiche; nessuna graduatoria clinica da tabelle sperimentali."
     },
     {
       "id": "RAN",
@@ -307,7 +350,7 @@ export const THEORY_CONTRACEPTION = Object.freeze({
     {
       "id": "APP19",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26 · lezione 19, 1 dicembre 2025",
-      "detail": "PDF325–326,328–329, stampate320–321,323–324: schemi, rischio e interazioni; note mancanti della tabella326 e riga coperta della tabella329 non leggibili. Etichette minute della figura326 non validate integralmente e confronti clinici senza fonte esclusi. Emergenza contraccettiva non trattata."
+      "detail": "PDF325–329, stampate320–324: composizione, schemi, emostasi, rischio e interazioni. Note mancanti a326 e riga coperta a329; etichette minute della figura326 non validate integralmente. Figure condivise con le diapositive: nessuna conferma indipendente. Escluse equivalenze fra androgenicità e rischio e deduzioni sugli esami dalla sola dose."
     },
     {
       "id": "SFI",
@@ -327,7 +370,7 @@ export const THEORY_CONTRACEPTION = Object.freeze({
     {
       "id": "AIFA",
       "title": "AIFA · nota informativa clormadinone/etinilestradiolo · 22 marzo 2024",
-      "detail": "Passaggi testuali PDF1–3 su rischio di TEV e rivalutazione; tabella numerica non riprodotta, PDF non verificato visivamente.",
+      "detail": "Passaggi testuali PDF1–3 su TEV/TEA, rischio e rivalutazione, ricontrollati il 16 novembre 2026. Tabella numerica non riprodotta; controllo visivo non riuscito, nessuna lettura integrale dichiarata.",
       "url": "https://www.aifa.gov.it/documents/20142/2254729/2024.03.22_NII_clormardinone-acetato-etinilestradiolo_IT.pdf"
     },
     {
@@ -345,9 +388,15 @@ export const THEORY_CONTRACEPTION = Object.freeze({
     {
       "id": "EMAgen",
       "title": "EMA · Combined hormonal contraceptives · procedura 2013–2014",
-      "detail": "Paragrafo sulle generazioni: classificazione storica non standardizzata, consultato 16 novembre 2026. Tabelle numeriche di rischio e ricostruzione storica della prima generazione non adottate.",
+      "detail": "Consultati il paragrafo sulle generazioni e i passaggi che distinguono eventi venosi e arteriosi; procedura storica 2013–2014 ricontrollata il 16 novembre 2026. Nessuna tabella numerica adottata come stima attuale; il prodotto richiede documentazione aggiornata.",
       "url": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/referral-procedures-human-medicines/combined-hormonal-contraceptives"
+    },
+    {
+      "id": "CDCPOP",
+      "title": "CDC · U.S. Selected Practice Recommendations 2024 · Progestin-Only Pills",
+      "detail": "Overview, commenti sui meccanismi e passaggi su compresse attive/placebo nella sezione Missed POPs; consultati il 16 novembre 2026. Contesto statunitense: nessuna disponibilità italiana dedotta, nessuna istruzione per dimenticanze ripubblicata.",
+      "url": "https://www.cdc.gov/contraception/hcp/usspr/progestin-only-pills.html"
     }
   ],
-  "coverage": "27 pagine locali esaminate con passaggi integrati: 18 di appunti/diapositive e 9 di libri. In questo ampliamento, 9 nuove pagine e 18 già documentate; nessun doppio conteggio. Note mancanti nelle tabelle PDF775 del corso e PDF326 degli appunti, riga coperta a PDF329 e piccole etichette della figura326 non validate integralmente. Fonti ufficiali consultate nei soli passaggi dichiarati; nessuna lettura integrale né revisione clinica indipendente. Emergenza contraccettiva e istruzioni operative escluse."
+  "coverage": "35 pagine locali esaminate: 24 di appunti/diapositive e 11 di libri; passaggi selezionati integrati da 34. In questo lotto, 8 nuove pagine e 27 già documentate. Katzung PDF838 letta ma non integrata. Parti coperte o mancanti e figure condivise sono dichiarate nei registri; non ricostruite e non contate come conferme indipendenti. Fonti ufficiali consultate nei soli passaggi indicati, senza lettura integrale o revisione clinica indipendente. Nessun protocollo individuale."
 });
