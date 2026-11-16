@@ -1,29 +1,28 @@
 {
-  "updatedAt": "2026-11-16T13:44:37.889231+00:00",
-  "batch": "theory-course-801-805",
+  "updatedAt": "2026-11-16T15:02:07.103411+00:00",
+  "batch": "theory-course-806-810",
   "status": "locally_verified_pending_publication",
-  "release": "0.98.0",
-  "branch": "feat/theory-course-801-805",
-  "baseCommit": "97d59e1bdda2c940ca69d8a34b46cb6438d18b7b",
+  "release": "0.99.0",
+  "branch": "feat/theory-course-806-810",
+  "baseCommit": "150cd75a2d9ebf007886be8ae0bfd6d08e51281a",
   "previousBatch": {
-    "batch": "theory-course-796-800",
+    "batch": "theory-course-801-805",
     "status": "published_and_live_verified",
-    "release": "0.97.0",
-    "commit": "97d59e1bdda2c940ca69d8a34b46cb6438d18b7b"
+    "release": "0.98.0",
+    "commit": "150cd75a2d9ebf007886be8ae0bfd6d08e51281a"
   },
   "scope": [
-    "Ampliamento del capitolo esistente Ormoni tiroidei e antitiroidei: asse,follicolo,trasporto,deiodinasi,TR e razionale farmacologico."
+    "Ampliamento tiroide:coniugazione e ricircolo,interazioni,amiodarone,checkpoint e interpretazione dei segni."
   ],
   "completed": [
-    "19pagine locali lette e controllate visivamente:18nuove,1già letta;passaggi selezionati da19pagine.",
-    "Sintesi originale di2268parole,10sezioni,10quesiti,9schemi e7riferimenti.",
-    "Confronto ufficiale mirato e revisione editoriale del solo integratore.",
-    "50 controlli dati superati; otto configurazioni desktop/mobile, dieci schermate ispezionate.",
-    "Navigazione, tastiera, ricerca, collegamenti e offline verificati; aggiornamento reale 0.97.0 → 0.98.0 con preferiti, studio e tema conservati.",
-    "Tutti gli altri 64 capitoli strutturalmente identici; quattro PDF sorgente invariati."
+    "16pagine lette e controllate,10nuove e6rilette;9nuove integrate.",
+    "14sezioni,3419parole,14quesiti,13schemi e13riferimenti;65capitoli invariati nel numero.",
+    "50 controlli dati superati;otto configurazioni desktop/mobile e temi,14 schermate ispezionate.",
+    "Navigazione,ricerca,tastiera,collegamenti e offline verificati;aggiornamento reale0.98.0→0.99.0 con preferiti,studio e tema conservati.",
+    "Gli altri64capitoli sono strutturalmente identici;seiPDF sorgente ricontrollati e invariati."
   ],
   "remaining": [
-    "Commit, CI, deploy e riscontro online."
+    "Commit,CI,deploy e riscontro online."
   ],
   "counts": {
     "identities": 4225,
@@ -45,26 +44,27 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 6,
-    "expandedSections": 4,
-    "newLinksToExistingIdentities": 4,
-    "newStaticOriginalSchemas": 9,
-    "newSelfChecks": 10
+    "newSections": 4,
+    "expandedSections": 3,
+    "newLinksToExistingIdentities": 2,
+    "newStaticOriginalSchemas": 4,
+    "newSelfChecks": 4,
+    "unchangedSections": 7
   },
   "readingManifests": [
     "data/terapia-tiroidea-reading.json"
   ],
   "limits": [
-    "Sintesi didattica e revisione editoriale del solo integratore; nessuna validazione o revisione clinica indipendente.",
-    "Letti soltanto gli intervalli dichiarati:19pagine,18nuove e1riletta. Nessun libro,capitolo di libro o corso interamente letto.",
-    "PDF802 del corso principale ha contenuto sostanziale letto dall’immagine; estrazione automatica insufficiente.",
-    "APP333 già documentata. Schema del follicolo condiviso conCFI803; riuso riconosciuto, non conferma indipendente.",
-    "NICE: letti passaggi ufficiali indicizzati delle raccomandazioni e della sorveglianza2025; apertura diretta HTML/PDF403. Non dichiarata lettura integrale.",
-    "SmPC britannico di levotiroxina usato nei passaggi dichiarati; RCP italiani,disponibilità locale e linee guida per gravidanza/emergenze non verificati.",
-    "Non trasferiti dosi,algoritmi,range universali,equivalenzeT3/T4 o indicazioni storiche. Rischi specifici e scelta degli antitiroidei richiedono un lotto dedicato.",
-    "FarmacologiaII,altri contributi del corso e altri libri autorizzati ancora da riconciliare; nessuna loro nuova lettura dichiarata."
+    "Sintesi didattica e revisione editoriale del solo integratore;nessuna revisione clinica indipendente o validazione specialistica.",
+    "Questo lotto:16pagine locali lette e controllate visivamente,10nuove e6rilette. Copertura cumulativa29pagine,28integrate;nessun libro o corso interamente letto.",
+    "CFI809–810 letti dall’immagine;vignetta810 esclusa. Rang652–653 riletti come contesto già integrato,senza nuovi passaggi trasferiti in questo lotto.",
+    "AppuntiI333–335 conservati dal lotto precedente,non riletti in questo lotto. Le raccolte duplicate diFarmacologiaII non sono fonti indipendenti o pagine aggiuntive.",
+    "NICE e abstractETA consultati nei passaggi ufficiali indicizzati;accesso diretto limitato. Nessuna lettura integrale o revisione sistematica dichiarata.",
+    "SmPC britannici di levotiroxina e amiodarone,passaggiEMA di nivolumab:confronto mirato. RCP italiani,disponibilità locale,gravidanza,emergenze e protocolli oncologici non verificati.",
+    "Dosi,percentuali postchirurgiche,schemi antitubercolari,indicazioni oncologiche,integratori e algoritmi delle fonti esclusi. Persistenze ed emivite non trattate come costanti universali.",
+    "Altri intervalli dei libri e dei corsi restano da riconciliare;la lettura delle pagine selezionate non attesta revisione integrale della lezione."
   ],
-  "nextBatch": "Completare801–805;806–810 non iniziato.",
+  "nextBatch": "Completare806–810 e la sua pubblicazione;811–815 non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755"

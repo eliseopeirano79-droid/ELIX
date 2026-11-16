@@ -8,17 +8,19 @@ Usare «appunti e diapositive del corso di Farmacologia», con anno, lezione, da
 
 ## Lotto corrente
 
-theory-course-801-805, candidato 0.98.0. Ampliato il capitolo esistente «Ormoni tiroidei e antitiroidei»: da 4 sezioni sintetiche a 10 sezioni, 2268 parole, 10 quesiti, 9 schemi qualitativi originali, 7 riferimenti e 4 collegamenti a identità esistenti. Un ampliamento; zero nuovi capitoli, identità, sintesi di farmaci, profili o laboratori. Totale 65 capitoli: 22 estesi e 43 sintetici. Tutti gli altri 64 capitoli risultano strutturalmente identici.
+theory-course-806-810, candidato 0.99.0. Prosegue il capitolo esistente «Ormoni tiroidei e antitiroidei»: da 10 a 14 sezioni, da 2268 a 3419 parole, 14 quesiti, 13 schemi qualitativi originali e 13 riferimenti. Quattro sezioni nuove, tre ampliate e sette conservate. Due nuovi collegamenti a identità esistenti, sei complessivi. Zero nuovi capitoli, identità, sintesi di farmaci, profili o laboratori. Totale 65 capitoli: 22 estesi e 43 sintetici.
 
-0.97.0 pubblicata e verificata al commit 97d59e1bdda2c940ca69d8a34b46cb6438d18b7b. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparatorio.
+0.98.0 pubblicata e verificata al commit 150cd75a2d9ebf007886be8ae0bfd6d08e51281a. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparatorio.
 
-Deduplicazione preventiva su 155 registri. Lette integralmente e controllate visivamente 19 pagine locali: 18 nuove e una già documentata. Corso principale PDF 801–805 (etichette 799–803), Katzung PDF 785–790 (editoriali 765–770), Rang PDF 651–655 (numero editoriale non visibile), appunti I PDF 333–335 (stampate 328–330, lezione 19 del 1 dicembre 2025). Appunti 333 è una rilettura; figura follicolare condivisa con il corso 803, non conferma indipendente. PDF 802 contiene testo e schema letti dall’immagine, non recuperati dall’estrazione automatica. Integrati passaggi selezionati da tutte le 19 pagine, senza adottare ogni loro affermazione.
+Deduplicazione preventiva su 158 registri e confronto delle lezioni singole con la raccolta. Lette integralmente e controllate visivamente 16 pagine locali: 10 nuove e sei rilette. Corso I PDF806–810 (etichette804–808); corso II, lezione5 del5 novembre2025 PDF2–3, lezione10 del18 novembre2025 PDF10–11, lezione14 del13 gennaio2026 PDF25; Katzung PDF787–789 (editoriali767–769), Rang PDF652–653 e655 (numero editoriale non visibile), tutti AA2025–26 per i corsi. Le cinque pagine delle lezioni II hanno alias nella raccolta: non sono contate due volte. La verifica delle intestazioni non conta come lettura completa della prima pagina.
 
-Collegati asse TRH/TSH, follicolo, NIS e TPO, deposito colloidale, TBG, D1/D2/D3, TR e adattamento dei tessuti. Corrette le semplificazioni su struttura degli ormoni, direzione di D3, endocitosi, trasporto, interpretazione del TSH e propiltiouracile. Differenze delle emivite conservate nel registro; nessuna media o equivalenza posologica. Nessuna dose, algoritmo o figura delle fonti pubblicati.
+Integrati passaggi da 13 pagine del lotto, nove nuove. Esclusa la vignetta810; Rang652–653 riletti come contesto senza aggiungere nuovi passaggi. Copertura cumulativa del capitolo:29 pagine uniche lette,28 integrate. AppuntiI333–335 conservati dal lotto precedente, non riletti in questo. Nessun corso o libro integralmente letto.
 
-Confronto mirato con i passaggi ufficiali indicizzati di NICE NG145 e sorveglianza 2025; apertura diretta HTML/PDF negata (403), non dichiarata lettura integrale. Letti passaggi dello SmPC britannico della levotiroxina aggiornato il 16 ottobre 2026. RCP italiani, disponibilità locale, emergenze, gravidanza e gestione specialistica degli antitiroidei non verificati in questo lotto. Sintesi didattica e revisione editoriale del solo integratore, senza revisione clinica indipendente. Farmacologia II, altri contributi del corso e altri libri autorizzati rimangono da riconciliare.
+Approfonditi coniugazione e ricircolo enteroepatico, sedi delle interazioni, amiodarone e checkpoint immunitari. Distinti danno alla ghiandola, alterazioni periferiche, interessamento ipofisario e interferenze analitiche. Esclusi percentuali postchirurgiche, intervalli universali di assunzione, posologie e protocolli delle fonti.
 
-50 controlli dati superati; otto configurazioni desktop/mobile e temi, dieci schermate ispezionate, ricerca, tastiera, collegamenti e offline verificati. Aggiornamento reale 0.97.0 → 0.98.0 con preferiti, progresso di studio e tema conservati. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-801-805-2026-11-16/. Ricevuta soltanto dopo deploy verificato.
+Confronto mirato con SmPC britannici della levotiroxina e dell’amiodarone, passaggi EMA di nivolumab e testo ufficiale indicizzato NICE. Abstract ETA2018 consultato per i meccanismi; accesso PMC limitato, non lettura integrale o rassegna aggiornata di tutta la letteratura. Divergenze di contesto sulla sospensione dell’amiodarone registrate, senza trasformarle in un algoritmo. Nessuna revisione clinica indipendente.
+
+50 controlli dati superati; otto configurazioni desktop/mobile e temi, 14 schermate ispezionate. Navigazione, ricerca, tastiera, collegamenti e offline verificati. Aggiornamento reale 0.98.0 → 0.99.0 con preferiti, studio e tema conservati. Gli altri 64 capitoli e i sei PDF sorgente controllati sono invariati. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-806-810-2026-11-16/. Ricevuta soltanto dopo deploy verificato.
 
 ## Regole
 
@@ -30,4 +32,4 @@ Confronto mirato con i passaggi ufficiali indicizzati di NICE NG145 e sorveglian
 
 ## Prossimo intervallo
 
-Completare 801–805 e verificarne la pubblicazione. 806–810 non iniziato, riservato al ciclo successivo. Teoria prima di farmaci, profili e laboratori.
+Completare806–810 e verificarne la pubblicazione.811–815 non iniziato,riservato al ciclo successivo. Teoria prima di farmaci,profili e laboratori.
