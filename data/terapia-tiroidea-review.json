@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "terapia-tiroidea",
+  "batch": "theory-course-801-805",
+  "reviewedAt": "2026-11-16T13:32:18.329040+00:00",
+  "outcome": "pass",
+  "reviewType": "bounded_editorial_review_by_integrator",
+  "independentClinicalReview": false,
+  "clinicalValidation": false,
+  "moduleSha256": "85e8219e6fb31d75914aa3ddf22620f905e0c8dce700d59831f89e04245ca368",
+  "checks": [
+    "Rilette10sezioni,10quesiti,9schemi qualitativi e7riferimenti;2268parole.",
+    "Controllati collegamenti fra asse,TSHR,follicolo,TPO,TBG,D1/D2/D3,TR e patologie.",
+    "Distinti captazione,sintesi,deposito,rilascio,esposizione e risposta;nessuna posologia.",
+    "Quattro collegamenti a identità esistenti;zero nuove identità,sintesi o profili.",
+    "Riconciliati errori e divergenze dei soli intervalli letti;nessuna validazione clinica indipendente."
+  ],
+  "conflicts": [
+    {
+      "id": "d3-direction",
+      "issue": "CFI804 raggruppa D1/D2/D3 come attivanti; la figura distingue D3.",
+      "resolution": "Distinte D1/D2 attivanti e D3 inattivante,come nel diagrammaCFI802/804.",
+      "status": "resolved"
+    },
+    {
+      "id": "hormone-structure",
+      "issue": "APP333 definisceT3/T4 proteine,NIS canale e azione solo citoplasmatica.",
+      "resolution": "Iodotironine distinte da tireoglobulina;NIS simporto;TR nucleare.",
+      "status": "resolved"
+    },
+    {
+      "id": "endocytosis",
+      "issue": "Katzung786 usa esocitosi nel passaggio di liberazione dalla tireoglobulina.",
+      "resolution": "Distinte secrezione della tireoglobulina,endocitosi del colloide e proteolisi,secondoRang653 eCFI803.",
+      "status": "resolved"
+    },
+    {
+      "id": "food-transport",
+      "issue": "APP333 attribuisce gli effetti alimentari a competizione generica per ingresso cellulare.",
+      "resolution": "Separati assorbimento gastrointestinale e trasporto di membrana;confrontoSmPC4.5.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "laboratory-treatment",
+      "issue": "APP334 riduce il trattamento aTSH alterato e suggerisceT3 per ogni quadro acuto.",
+      "resolution": "Rimossi automatismi;distinti contesto centrale,esposizione e scelta clinica;NICE1.2/1.3.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "half-life",
+      "issue": "T3:corso1,5giorni,Katzung1giorno,Rangalcuneore.",
+      "resolution": "Differenze conservate nel registro;testo qualitativo,nessuna media o equivalenza posologica.",
+      "status": "difference_preserved"
+    },
+    {
+      "id": "ptu-class",
+      "issue": "APP335 separaPTU dalle tionamidi e tiroidectomia come casi estremi.",
+      "resolution": "PTU appartiene alle tionamidi e aggiunge effetto periferico;nessun ordine universale delle opzioni.",
+      "status": "resolved"
+    },
+    {
+      "id": "figures-doses",
+      "issue": "APP334 contiene algoritmo con unità apparentemente incoerenti;Rang655 curva storica dopo singola somministrazione.",
+      "resolution": "Nessuna dose,algoritmo o curva riprodotti; confronto clinico limitato ai principi.",
+      "status": "excluded_quantitative_transfer"
+    },
+    {
+      "id": "shared-figure",
+      "issue": "APP333 riprende lo schema follicolareCFI803.",
+      "resolution": "Duplicazione concettuale registrata,non fonte indipendente;nessuna copia pubblicata.",
+      "status": "deduplicated_conceptually"
+    },
+    {
+      "id": "historic-claims",
+      "issue": "Rang654 didascaliaTRH/isotopo incoerente;Katzung789 disponibilitàIV storica.",
+      "resolution": "Passaggi non trasferiti;nessuna affermazione attuale su disponibilità.",
+      "status": "excluded_out_of_scope"
+    },
+    {
+      "id": "tr-generalization",
+      "issue": "CFI805 e modelli classici presentano conversione/attivazione come sequenza assoluta.",
+      "resolution": "Modello nucleare circoscritto;distinti geni e coregolatori,riconosciute azioni non genomiche.",
+      "status": "resolved_for_scope"
+    }
+  ],
+  "limits": [
+    "Sintesi didattica e revisione editoriale del solo integratore; nessuna validazione o revisione clinica indipendente.",
+    "Letti soltanto gli intervalli dichiarati:19pagine,18nuove e1riletta. Nessun libro,capitolo di libro o corso interamente letto.",
+    "PDF802 del corso principale ha contenuto sostanziale letto dall’immagine; estrazione automatica insufficiente.",
+    "APP333 già documentata. Schema del follicolo condiviso conCFI803; riuso riconosciuto, non conferma indipendente.",
+    "NICE: letti passaggi ufficiali indicizzati delle raccomandazioni e della sorveglianza2025; apertura diretta HTML/PDF403. Non dichiarata lettura integrale.",
+    "SmPC britannico di levotiroxina usato nei passaggi dichiarati; RCP italiani,disponibilità locale e linee guida per gravidanza/emergenze non verificati.",
+    "Non trasferiti dosi,algoritmi,range universali,equivalenzeT3/T4 o indicazioni storiche. Rischi specifici e scelta degli antitiroidei richiedono un lotto dedicato.",
+    "FarmacologiaII,altri contributi del corso e altri libri autorizzati ancora da riconciliare; nessuna loro nuova lettura dichiarata."
+  ]
+}

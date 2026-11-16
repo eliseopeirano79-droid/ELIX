@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "batch": "theory-course-801-805",
+  "chapterId": "terapia-tiroidea",
+  "updatedAt": "2026-11-16T13:32:18.329040+00:00",
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "newTargetProfiles": 0,
+  "newChapters": 0,
+  "expandedExistingChapters": 1,
+  "newReadPdfPages": 18,
+  "newCourseReadPdfPages": 7,
+  "newBookReadPdfPages": 11,
+  "newMainCoursePages": 5,
+  "newOtherSlidesPages": 0,
+  "newAppuntiPages": 2,
+  "reusedReadPdfPages": 1,
+  "totalReadPdfPages": 19,
+  "chapterReviewedPdfPages": 19,
+  "chapterSourcePdfPages": 19,
+  "newIntegratedPdfPages": 18,
+  "chapterIntegratedPdfPages": 19,
+  "sources": [
+    {
+      "id": "CFI",
+      "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
+      "title": "Appunti e diapositive del corso di Farmacologia I",
+      "edition": "AA2025–26",
+      "pdfPagesRead": [
+        801,
+        802,
+        803,
+        804,
+        805
+      ],
+      "visuallyCheckedPdfPages": [
+        801,
+        802,
+        803,
+        804,
+        805
+      ],
+      "integratedPdfPages": [
+        801,
+        802,
+        803,
+        804,
+        805
+      ],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "substantiveExtractedTextReadPages": [
+        801,
+        803,
+        804,
+        805
+      ],
+      "imageTextReadPages": [
+        801,
+        802,
+        803,
+        804,
+        805
+      ],
+      "printedPageLabels": {
+        "801": "799 di934",
+        "802": "800 di934",
+        "803": "801 di934",
+        "804": "802 di934",
+        "805": "803 di934"
+      },
+      "newlyReadTextPages": [
+        801,
+        802,
+        803,
+        804,
+        805
+      ],
+      "reusedPreviouslyReadPages": [],
+      "readButNotIntegratedPdfPages": [],
+      "integrationScope": "Passaggi selezionati, non ogni affermazione della pagina. Figure lette ma non riprodotte; discrepanze documentate."
+    },
+    {
+      "id": "KATZ",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "title": "Katzung · Farmacologia generale e clinica",
+      "edition": "IX italiana2014 / XII originale2012",
+      "pdfPagesRead": [
+        785,
+        786,
+        787,
+        788,
+        789,
+        790
+      ],
+      "visuallyCheckedPdfPages": [
+        785,
+        786,
+        787,
+        788,
+        789,
+        790
+      ],
+      "integratedPdfPages": [
+        785,
+        786,
+        787,
+        788,
+        789,
+        790
+      ],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "substantiveExtractedTextReadPages": [
+        785,
+        786,
+        787,
+        788,
+        789,
+        790
+      ],
+      "imageTextReadPages": [
+        785,
+        786,
+        787,
+        788,
+        789,
+        790
+      ],
+      "newlyReadTextPages": [
+        785,
+        786,
+        787,
+        788,
+        789,
+        790
+      ],
+      "reusedPreviouslyReadPages": [],
+      "printedPageLabels": {
+        "785": "765",
+        "786": "766",
+        "787": "767",
+        "788": "768",
+        "789": "769",
+        "790": "770"
+      },
+      "readButNotIntegratedPdfPages": [],
+      "integrationScope": "Passaggi selezionati, non ogni affermazione della pagina. Figure lette ma non riprodotte; discrepanze documentate."
+    },
+    {
+      "id": "RANG",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "title": "Rang & Dale · Farmacologia",
+      "edition": "VIII italiana2016 / originale2015",
+      "pdfPagesRead": [
+        651,
+        652,
+        653,
+        654,
+        655
+      ],
+      "visuallyCheckedPdfPages": [
+        651,
+        652,
+        653,
+        654,
+        655
+      ],
+      "integratedPdfPages": [
+        651,
+        652,
+        653,
+        654,
+        655
+      ],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "substantiveExtractedTextReadPages": [
+        651,
+        652,
+        653,
+        654,
+        655
+      ],
+      "imageTextReadPages": [
+        651,
+        652,
+        653,
+        654,
+        655
+      ],
+      "newlyReadTextPages": [
+        651,
+        652,
+        653,
+        654,
+        655
+      ],
+      "reusedPreviouslyReadPages": [],
+      "printedPageLabels": {
+        "651": null,
+        "652": null,
+        "653": null,
+        "654": null,
+        "655": null
+      },
+      "readButNotIntegratedPdfPages": [],
+      "integrationScope": "Passaggi selezionati, non ogni affermazione della pagina. Figure lette ma non riprodotte; discrepanze documentate."
+    },
+    {
+      "id": "APP",
+      "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+      "title": "Appunti del corso di Farmacologia I",
+      "edition": "AA2025–26; lezione19,1 dicembre2025",
+      "pdfPagesRead": [
+        333,
+        334,
+        335
+      ],
+      "visuallyCheckedPdfPages": [
+        333,
+        334,
+        335
+      ],
+      "integratedPdfPages": [
+        333,
+        334,
+        335
+      ],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "substantiveExtractedTextReadPages": [
+        333,
+        334,
+        335
+      ],
+      "imageTextReadPages": [
+        333,
+        334,
+        335
+      ],
+      "newlyReadTextPages": [
+        334,
+        335
+      ],
+      "reusedPreviouslyReadPages": [
+        333
+      ],
+      "printedPageLabels": {
+        "333": "328",
+        "334": "329",
+        "335": "330"
+      },
+      "readButNotIntegratedPdfPages": [],
+      "integrationScope": "Passaggi selezionati, non ogni affermazione della pagina. Figure lette ma non riprodotte; discrepanze documentate."
+    }
+  ],
+  "officialSourceScopes": [
+    {
+      "id": "NICE",
+      "title": "NICE NG145 · Thyroid disease: assessment and management · aggiornamento 2023",
+      "detail": "Consultazione 16 novembre 2026 dei passaggi ufficiali indicizzati: §§1.1.2,1.2.8–1.2.11,1.3.3–1.3.4,1.4.1–1.4.4,1.6.1 e1.6.5. Apertura diretta HTML/PDF negata (403); non dichiarata lettura integrale.",
+      "url": "https://www.nice.org.uk/guidance/ng145/chapter/Recommendations"
+    },
+    {
+      "id": "SURV",
+      "title": "NICE NG145 · sorveglianza eccezionale · 3 ottobre 2025",
+      "detail": "Letto il testo ufficiale indicizzato della decisione sulla liotironina: raccomandazioni non modificate. Apertura diretta negata; nessuna revisione indipendente degli studi.",
+      "url": "https://www.nice.org.uk/guidance/ng145/resources/october-2025-exceptional-surveillance-of-thyroid-disease-assessment-and-management-nice-guideline-ng145-pdf-20067764708293"
+    },
+    {
+      "id": "LT4",
+      "title": "Levothyroxine / Eltroxin · SmPC britannico · testo 16 ottobre 2026",
+      "detail": "Prodotto 5682, consultato 16 novembre 2026: §§4.1,4.3–4.5,4.8,5.1–5.2 per sostituzione, interazioni, interferenze analitiche e rischi. Fonte di prodotto britannica; non RCP italiano. Dosi, gravidanza e gestione del sovradosaggio escluse.",
+      "url": "https://www.medicines.org.uk/emc/product/5682/smpc"
+    }
+  ],
+  "limits": [
+    "Sintesi didattica e revisione editoriale del solo integratore; nessuna validazione o revisione clinica indipendente.",
+    "Letti soltanto gli intervalli dichiarati:19pagine,18nuove e1riletta. Nessun libro,capitolo di libro o corso interamente letto.",
+    "PDF802 del corso principale ha contenuto sostanziale letto dall’immagine; estrazione automatica insufficiente.",
+    "APP333 già documentata. Schema del follicolo condiviso conCFI803; riuso riconosciuto, non conferma indipendente.",
+    "NICE: letti passaggi ufficiali indicizzati delle raccomandazioni e della sorveglianza2025; apertura diretta HTML/PDF403. Non dichiarata lettura integrale.",
+    "SmPC britannico di levotiroxina usato nei passaggi dichiarati; RCP italiani,disponibilità locale e linee guida per gravidanza/emergenze non verificati.",
+    "Non trasferiti dosi,algoritmi,range universali,equivalenzeT3/T4 o indicazioni storiche. Rischi specifici e scelta degli antitiroidei richiedono un lotto dedicato.",
+    "FarmacologiaII,altri contributi del corso e altri libri autorizzati ancora da riconciliare; nessuna loro nuova lettura dichiarata."
+  ],
+  "deduplication": {
+    "recordsChecked": 155,
+    "method": "Exact source SHA256 and explicit read-page fields before extraction; inventory and planned ranges excluded.",
+    "reused": {
+      "APP": [
+        333
+      ]
+    }
+  }
+}

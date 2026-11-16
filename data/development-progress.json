@@ -1,25 +1,26 @@
 {
-  "updatedAt": "2026-11-16T12:43:15.598297+00:00",
-  "batch": "theory-course-796-800",
+  "updatedAt": "2026-11-16T13:44:37.889231+00:00",
+  "batch": "theory-course-801-805",
   "status": "locally_verified_pending_publication",
-  "release": "0.97.0",
-  "branch": "feat/theory-course-796-800",
-  "baseCommit": "51c090b3d0cfddd72e2b4c0444ba6c9ffc3eddb5",
+  "release": "0.98.0",
+  "branch": "feat/theory-course-801-805",
+  "baseCommit": "97d59e1bdda2c940ca69d8a34b46cb6438d18b7b",
   "previousBatch": {
-    "batch": "theory-course-791-795",
+    "batch": "theory-course-796-800",
     "status": "published_and_live_verified",
-    "release": "0.96.0",
-    "commit": "51c090b3d0cfddd72e2b4c0444ba6c9ffc3eddb5"
+    "release": "0.97.0",
+    "commit": "97d59e1bdda2c940ca69d8a34b46cb6438d18b7b"
   },
   "scope": [
-    "Nuovo capitolo teorico:ossitocina,prostaglandine,cervice,travaglio e distinzione dal postpartum."
+    "Ampliamento del capitolo esistente Ormoni tiroidei e antitiroidei: asse,follicolo,trasporto,deiodinasi,TR e razionale farmacologico."
   ],
   "completed": [
-    "Lettura e controllo visivo di14 pagine locali,12 nuove e2 già documentate;12 integrate.",
-    "Stesura e revisione editoriale di2250 parole,10 sezioni,10 quesiti e9 schemi originali.",
-    "49 controlli dati superati; otto configurazioni browser e dieci schermate ispezionate.",
-    "Navigazione, tastiera, ricerca, offline e aggiornamento reale 0.96.0→0.97.0 verificati con dati conservati.",
-    "Confronto strutturale: tutti i 64 capitoli precedenti identici."
+    "19pagine locali lette e controllate visivamente:18nuove,1già letta;passaggi selezionati da19pagine.",
+    "Sintesi originale di2268parole,10sezioni,10quesiti,9schemi e7riferimenti.",
+    "Confronto ufficiale mirato e revisione editoriale del solo integratore.",
+    "50 controlli dati superati; otto configurazioni desktop/mobile, dieci schermate ispezionate.",
+    "Navigazione, tastiera, ricerca, collegamenti e offline verificati; aggiornamento reale 0.97.0 → 0.98.0 con preferiti, studio e tema conservati.",
+    "Tutti gli altri 64 capitoli strutturalmente identici; quattro PDF sorgente invariati."
   ],
   "remaining": [
     "Commit, CI, deploy e riscontro online."
@@ -32,8 +33,8 @@
     "importedLabelsWithoutEditorial": 93,
     "targetProfiles": 36,
     "chapters": 65,
-    "extendedChapters": 21,
-    "briefChapters": 44
+    "extendedChapters": 22,
+    "briefChapters": 43
   },
   "changes": {
     "newIdentities": 0,
@@ -41,31 +42,29 @@
     "newProductPKContexts": 0,
     "newPKFields": 0,
     "newTargetProfiles": 0,
-    "newChapters": 1,
-    "expandedChapters": 0,
+    "newChapters": 0,
+    "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 10,
-    "expandedSections": 0,
-    "newLinksToExistingIdentities": 3,
+    "newSections": 6,
+    "expandedSections": 4,
+    "newLinksToExistingIdentities": 4,
     "newStaticOriginalSchemas": 9,
     "newSelfChecks": 10
   },
   "readingManifests": [
-    "data/utero-ossitocina-prostaglandine-reading.json"
+    "data/terapia-tiroidea-reading.json"
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna validazione o revisione clinica indipendente.",
-    "Unico intervallo nuovo del corso principale PDF796–800. Libri e appunti letti solo nelle pagine elencate, senza dichiarare interi capitoli o corsi letti.",
-    "PDF332 degli appunti e678 di Rang erano già documentate: rilette senza ricontarle. Figura di APP332 condivisa conCFI799, non conferma indipendente.",
-    "PDF386 di Katzung e333 degli appunti lette ma non integrate: rassicurazioni storiche e argomenti esterni al lotto esclusi.",
-    "SmPC britannici usati per prodotti e sezioni specifici; RCP italiani completi, disponibilità e percorsi locali non verificati. AIFA letta nella sintesi HTML della comunicazione2021.",
-    "NICE NG207 HTML/PDF:403; indice consultato per orientamento, nessuna lettura integrale o raccomandazione specifica attribuita al testo non accessibile. WHO2025 completo:403; NCBI richiede verifica browser.",
-    "OMS: letto il testo della sola quick card aggiornata luglio2026; figura non verificata (download locale403). Nessun algoritmo, dose o soglia riprodotto.",
-    "Riconciliazione di FarmacologiaII e degli altri contributi del corso, inclusi gli altri docenti, e degli altri libri autorizzati ancora da ampliare; nessuna loro nuova lettura dichiarata.",
-    "Schema EP mantenuto qualitativo: nessuna equivalenza di agonisti o profilazione completa dei sottotipi; IUPHAR introduzione reindirizza a login, non dichiarata letta.",
-    "Travaglio pretermine, tocolisi, regimi abortivi, protocolli di emorragia e paragoni di efficacia quantitativa fuori ambito."
+    "Letti soltanto gli intervalli dichiarati:19pagine,18nuove e1riletta. Nessun libro,capitolo di libro o corso interamente letto.",
+    "PDF802 del corso principale ha contenuto sostanziale letto dall’immagine; estrazione automatica insufficiente.",
+    "APP333 già documentata. Schema del follicolo condiviso conCFI803; riuso riconosciuto, non conferma indipendente.",
+    "NICE: letti passaggi ufficiali indicizzati delle raccomandazioni e della sorveglianza2025; apertura diretta HTML/PDF403. Non dichiarata lettura integrale.",
+    "SmPC britannico di levotiroxina usato nei passaggi dichiarati; RCP italiani,disponibilità locale e linee guida per gravidanza/emergenze non verificati.",
+    "Non trasferiti dosi,algoritmi,range universali,equivalenzeT3/T4 o indicazioni storiche. Rischi specifici e scelta degli antitiroidei richiedono un lotto dedicato.",
+    "FarmacologiaII,altri contributi del corso e altri libri autorizzati ancora da riconciliare; nessuna loro nuova lettura dichiarata."
   ],
-  "nextBatch": "Completare796–800; successivo801–805 non iniziato.",
+  "nextBatch": "Completare801–805;806–810 non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755"

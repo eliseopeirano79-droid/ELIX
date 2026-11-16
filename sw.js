@@ -1,12 +1,15 @@
 /* ELIX • servizio offline e aggiornamenti delle versioni pubblicate */
 // Scoped caches let old links coexist without deleting another app or path.
 const CACHE_PREFIX = 'elix@'+new URL(self.registration.scope).pathname+'::';
-const CACHE = CACHE_PREFIX+'0.97.0';
+const CACHE = CACHE_PREFIX+'0.98.0';
 const RUNTIME=CACHE+'-runtime';
 const MAX_RUNTIME=120;
 const FILES = ['./elix-theory-contraception.js',
   './elix-theory-menopause.js',
   './elix-theory-uterotonics.js',
+  './elix-theory-thyroid.js',
+  './data/terapia-tiroidea-reading.json',
+  './data/terapia-tiroidea-review.json',
   './data/utero-ossitocina-prostaglandine-reading.json',
   './data/utero-ossitocina-prostaglandine-review.json',
   './data/menopausa-terapia-ormonale-reading.json',
