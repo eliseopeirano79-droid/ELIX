@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "utero-ossitocina-prostaglandine",
+  "batch": "theory-course-796-800",
+  "reviewedAt": "2026-11-16T12:35:16.962927+00:00",
+  "outcome": "pass",
+  "reviewType": "bounded_editorial_review_by_integrator",
+  "independentClinicalReview": false,
+  "clinicalValidation": false,
+  "moduleSha256": "c7d3f0e8bbb9b7f93d3547711e9bba0a69a5cc6781963f18f0ffd58775405349",
+  "checks": [
+    "Rilette dieci sezioni originali,dieci quesiti,nove schemi qualitativi e nove riferimenti.",
+    "Verificati OXTR/PLC/IP3/Ca/calmodulina/MLCK, distinzione cervice-miometrio e identitàPGE2/PGE1.",
+    "Separati induzione,potenziamento,prevenzione e trattamento dell’emorragia.",
+    "Nessun dosaggio,algoritmo clinico,figura originale o equivalenza fra preparati.",
+    "Deduplicazione14 pagine:12 nuove,2riusate;12integrate,2escluse.",
+    "Tre link a identità preesistenti; nessuna nuova identità,sintesi o profilo."
+  ],
+  "conflicts": [
+    {
+      "id": "nonapeptide",
+      "issue": "Rang678 riporta octapeptide.",
+      "resolution": "Nove residui confermati da Katzung778–779,CFI797 eSmPC5.1; corretta la sintesi.",
+      "status": "resolved"
+    },
+    {
+      "id": "pge2-identity",
+      "issue": "CFI800 eAPP332 chiamano dinoprostone analogo diPGE2.",
+      "resolution": "Precisato dinoprostone=PGE2 e misoprostolo=analogoPGE1.",
+      "status": "resolved"
+    },
+    {
+      "id": "cervix-muscle",
+      "issue": "APP332 descrive genericamente preparazione della componente muscolare.",
+      "resolution": "Distinti miometrio e rimodellamento della matrice cervicale.",
+      "status": "resolved"
+    },
+    {
+      "id": "topical-safety",
+      "issue": "CFI800 associa uso topico a riduzione degli effetti sistemici; Katzung386 contiene rassicurazioni storiche.",
+      "resolution": "Nessuna garanzia di sicurezza locale; confronto conAIFA eSmPC;386 esclusa.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "low-dose-cervix",
+      "issue": "CFI800 separa basse dosi cervicali e alte dosi contrattili.",
+      "resolution": "Nessuna soglia che garantisca assenza di attività miometriale.",
+      "status": "resolved"
+    },
+    {
+      "id": "sequential-intervals",
+      "issue": "SmPC ossitocina cita6ore dopoPG vaginali;Propess30min dalla rimozione;Angusta4ore.",
+      "resolution": "Tempi diversi mantenuti nel registro privato e non armonizzati; nessun intervallo numerico pubblicato.",
+      "status": "difference_preserved"
+    },
+    {
+      "id": "historic-offlabel",
+      "issue": "Rang680 indica misoprostolo non autorizzato nell’induzione.",
+      "resolution": "Distinto il prodotto orale britannicoAngusta oggi autorizzato; nessuna generalizzazione a tutte le formulazioni o all’Italia.",
+      "status": "resolved_for_specific_product"
+    },
+    {
+      "id": "preterm-generalization",
+      "issue": "CFI800 deduce genericamente impiego prima del termine dalla sensibilità allePG.",
+      "resolution": "Nessuna indicazione universale; contesto gestazionale specifico e tocolisi esclusi.",
+      "status": "excluded_generalization"
+    },
+    {
+      "id": "shared-figure",
+      "issue": "APP332 eCFI799 condividono schema.",
+      "resolution": "Riconosciuto riuso, nessuna conferma indipendente o copia pubblicata.",
+      "status": "deduplicated_conceptually"
+    },
+    {
+      "id": "rang-other-errors",
+      "issue": "Rang679 associaPG a ritardo del parto;680 parla di ritardata chiusura del dotto con inibitoriCOX.",
+      "resolution": "Passaggi incoerenti non trasferiti; tocolisi e rischi fetali specifici richiedono futuro confronto dedicato.",
+      "status": "excluded_out_of_scope"
+    },
+    {
+      "id": "source-counts",
+      "issue": "APP333 eKatzung386 lette per delimitare il tema.",
+      "resolution": "12 nuove pagine,2 già lette,14 controllate;12 integrate (10 nuove e2 già lette).",
+      "status": "resolved"
+    }
+  ],
+  "limits": [
+    "Sintesi didattica e revisione editoriale del solo integratore; nessuna validazione o revisione clinica indipendente.",
+    "Unico intervallo nuovo del corso principale PDF796–800. Libri e appunti letti solo nelle pagine elencate, senza dichiarare interi capitoli o corsi letti.",
+    "PDF332 degli appunti e678 di Rang erano già documentate: rilette senza ricontarle. Figura di APP332 condivisa conCFI799, non conferma indipendente.",
+    "PDF386 di Katzung e333 degli appunti lette ma non integrate: rassicurazioni storiche e argomenti esterni al lotto esclusi.",
+    "SmPC britannici usati per prodotti e sezioni specifici; RCP italiani completi, disponibilità e percorsi locali non verificati. AIFA letta nella sintesi HTML della comunicazione2021.",
+    "NICE NG207 HTML/PDF:403; indice consultato per orientamento, nessuna lettura integrale o raccomandazione specifica attribuita al testo non accessibile. WHO2025 completo:403; NCBI richiede verifica browser.",
+    "OMS: letto il testo della sola quick card aggiornata luglio2026; figura non verificata (download locale403). Nessun algoritmo, dose o soglia riprodotto.",
+    "Riconciliazione di FarmacologiaII e degli altri contributi del corso, inclusi gli altri docenti, e degli altri libri autorizzati ancora da ampliare; nessuna loro nuova lettura dichiarata.",
+    "Schema EP mantenuto qualitativo: nessuna equivalenza di agonisti o profilazione completa dei sottotipi; IUPHAR introduzione reindirizza a login, non dichiarata letta.",
+    "Travaglio pretermine, tocolisi, regimi abortivi, protocolli di emorragia e paragoni di efficacia quantitativa fuori ambito."
+  ]
+}

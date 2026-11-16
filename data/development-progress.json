@@ -1,27 +1,28 @@
 {
-  "updatedAt": "2026-11-16T11:19:39.151637+00:00",
-  "batch": "theory-course-791-795",
-  "status": "local_verified_pending_publication",
-  "release": "0.96.0",
-  "branch": "feat/theory-course-791-795",
-  "baseCommit": "defd7d81deb5ba7f726f024c516fc815657b88f7",
+  "updatedAt": "2026-11-16T12:43:15.598297+00:00",
+  "batch": "theory-course-796-800",
+  "status": "locally_verified_pending_publication",
+  "release": "0.97.0",
+  "branch": "feat/theory-course-796-800",
+  "baseCommit": "51c090b3d0cfddd72e2b4c0444ba6c9ffc3eddb5",
   "previousBatch": {
-    "batch": "theory-course-786-790",
+    "batch": "theory-course-791-795",
     "status": "published_and_live_verified",
-    "release": "0.95.0",
-    "commit": "defd7d81deb5ba7f726f024c516fc815657b88f7"
+    "release": "0.96.0",
+    "commit": "51c090b3d0cfddd72e2b4c0444ba6c9ffc3eddb5"
   },
   "scope": [
-    "Ampliamento del capitolo menopausa: prevenzione, tempo di inizio, circuito KNDy e sicurezza dei trattamenti non ormonali."
+    "Nuovo capitolo teorico:ossitocina,prostaglandine,cervice,travaglio e distinzione dal postpartum."
   ],
   "completed": [
-    "Cinque nuove pagine lette e controllate visivamente; tre già documentate rilette.",
-    "Quattro nuove sezioni (1028 parole), quattro quesiti, tre schemi originali, cinque riferimenti e un collegamento a identità esistente.",
-    "48 controlli dati superati; otto configurazioni browser, dodici schermate ispezionate, ricerca, tastiera, fonti e offline verificati.",
-    "Aggiornamento reale0.95.0→0.96.0 con preferiti,progressi e tema conservati;63 capitoli e le10 sezioni precedenti identici."
+    "Lettura e controllo visivo di14 pagine locali,12 nuove e2 già documentate;12 integrate.",
+    "Stesura e revisione editoriale di2250 parole,10 sezioni,10 quesiti e9 schemi originali.",
+    "49 controlli dati superati; otto configurazioni browser e dieci schermate ispezionate.",
+    "Navigazione, tastiera, ricerca, offline e aggiornamento reale 0.96.0→0.97.0 verificati con dati conservati.",
+    "Confronto strutturale: tutti i 64 capitoli precedenti identici."
   ],
   "remaining": [
-    "CI, deploy e riscontro online."
+    "Commit, CI, deploy e riscontro online."
   ],
   "counts": {
     "identities": 4225,
@@ -30,8 +31,8 @@
     "pkFields": 420,
     "importedLabelsWithoutEditorial": 93,
     "targetProfiles": 36,
-    "chapters": 64,
-    "extendedChapters": 20,
+    "chapters": 65,
+    "extendedChapters": 21,
     "briefChapters": 44
   },
   "changes": {
@@ -40,33 +41,31 @@
     "newProductPKContexts": 0,
     "newPKFields": 0,
     "newTargetProfiles": 0,
-    "newChapters": 0,
-    "expandedChapters": 1,
+    "newChapters": 1,
+    "expandedChapters": 0,
     "newInteractiveLabs": 0,
-    "newSections": 4,
+    "newSections": 10,
     "expandedSections": 0,
-    "newLinksToExistingIdentities": 1,
-    "newStaticOriginalSchemas": 3,
-    "newSelfChecks": 4
+    "newLinksToExistingIdentities": 3,
+    "newStaticOriginalSchemas": 9,
+    "newSelfChecks": 10
   },
   "readingManifests": [
-    "data/menopausa-terapia-ormonale-reading.json"
+    "data/utero-ossitocina-prostaglandine-reading.json"
   ],
   "limits": [
-    "Sintesi didattica del solo integratore, senza revisione clinica indipendente o lettura integrale di libri, corsi e linee guida.",
-    "CFI789: pannelli sovrapposti; verificato solo il contenuto visibile. CFI790: frammento di algoritmo, articolo JAMA2019 non letto.",
-    "Figure condivise fra appunti e slide non considerate conferme indipendenti. Edizione del diagramma delle vie attribuito a Rossi–Cuomo–Riccardi non identificata.",
-    "Fonti britanniche usate per preparazioni e passaggi dichiarati; disponibilità, RCP e percorsi italiani non verificati. Dosi e regimi numerici non pubblicati.",
-    "NICE NG23: accesso diretto HTML/PDF negato403; risultati indicizzati usati soltanto per ricerca, non come verifica clinica completa.",
-    "Confronto ESE limitato a enunciati e passaggi selezionati; divergenza guida/SmPC sulla storia oncologica mantenuta.",
-    "Riconciliazione degli altri libri e di Farmacologia II/degli altri contributi del corso resta da ampliare; nessuna nuova lettura di tali contributi in questo lotto.",
-    "Nuovo confronto: USPSTF2022 limitato a sintesi della raccomandazione; Cochrane2015 al solo abstract, non alla revisione completa o ai forest plot. Nessuna stima quantitativa trasferita.",
-    "Elinzanetant: passaggi selezionati dello SmPC europeo, non intero documento; fezolinetant: SmPC britannico e nota AIFA. Disponibilità italiana dei prodotti non verificata.",
-    "EPAR HTML Lynkuet e PDF EMA Veoza non accessibili429; non dichiarati letti. Fonti alternative ufficiali indicate con ambito distinto.",
-    "Katzung830 e Rang671 già lette: ora integrate solo per distinguere bersagli ed esiti. Dosi, DES, travaglio, protocolli e rassicurazioni oncologiche storiche esclusi.",
-    "Unico nuovo intervallo del corso principale PDF791–795. Altre17 pagine del capitolo già documentate; soltanto8 ricontrollate visivamente in questo ciclo.796–800 non iniziato."
+    "Sintesi didattica e revisione editoriale del solo integratore; nessuna validazione o revisione clinica indipendente.",
+    "Unico intervallo nuovo del corso principale PDF796–800. Libri e appunti letti solo nelle pagine elencate, senza dichiarare interi capitoli o corsi letti.",
+    "PDF332 degli appunti e678 di Rang erano già documentate: rilette senza ricontarle. Figura di APP332 condivisa conCFI799, non conferma indipendente.",
+    "PDF386 di Katzung e333 degli appunti lette ma non integrate: rassicurazioni storiche e argomenti esterni al lotto esclusi.",
+    "SmPC britannici usati per prodotti e sezioni specifici; RCP italiani completi, disponibilità e percorsi locali non verificati. AIFA letta nella sintesi HTML della comunicazione2021.",
+    "NICE NG207 HTML/PDF:403; indice consultato per orientamento, nessuna lettura integrale o raccomandazione specifica attribuita al testo non accessibile. WHO2025 completo:403; NCBI richiede verifica browser.",
+    "OMS: letto il testo della sola quick card aggiornata luglio2026; figura non verificata (download locale403). Nessun algoritmo, dose o soglia riprodotto.",
+    "Riconciliazione di FarmacologiaII e degli altri contributi del corso, inclusi gli altri docenti, e degli altri libri autorizzati ancora da ampliare; nessuna loro nuova lettura dichiarata.",
+    "Schema EP mantenuto qualitativo: nessuna equivalenza di agonisti o profilazione completa dei sottotipi; IUPHAR introduzione reindirizza a login, non dichiarata letta.",
+    "Travaglio pretermine, tocolisi, regimi abortivi, protocolli di emorragia e paragoni di efficacia quantitativa fuori ambito."
   ],
-  "nextBatch": "Completare791–795; successivo796–800 non iniziato.",
+  "nextBatch": "Completare796–800; successivo801–805 non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755"
