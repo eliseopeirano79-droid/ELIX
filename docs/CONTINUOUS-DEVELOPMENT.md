@@ -1,6 +1,6 @@
 # Sviluppo continuativo ELIX
 
-Un solo lotto e un solo integratore alla volta. Questa chat integra e pubblica. Non riattivare vecchi checkout o aggiornatori, né assegnare capitoli già consegnati.
+Un solo lotto e un solo integratore alla volta. Questa chat integra e pubblica; nessun incarico ad altre chat né riattivazione di vecchi checkout.
 
 ## Denominazioni pubbliche delle fonti
 
@@ -8,19 +8,17 @@ Usare «appunti e diapositive del corso di Farmacologia», con anno, lezione, da
 
 ## Lotto corrente
 
-theory-course-771-775, candidato 0.92.0. Ampliamento del capitolo esistente «Contraccezione ormonale»: 2776 parole, 12 sezioni, 14 domande, 8 schemi originali, 16 riferimenti e 11 collegamenti a identità esistenti. Il lotto aggiunge 2 sezioni, amplia 2 sezioni, aggiunge 3 domande, 2 schemi e 1 collegamento. Zero nuovi capitoli, identità, sintesi di farmaci, profili o laboratori. Totale 63 capitoli, 19 estesi e 44 sintetici; gli altri 62 capitoli devono restare identici.
+theory-course-776-780, candidato 0.93.0. Ampliato il capitolo esistente «Contraccezione ormonale»: 3593 parole, 14 sezioni, 18 domande, 10 schemi originali, 17 riferimenti e 11 collegamenti esistenti. Due nuove sezioni, due ampliate, quattro domande e due schemi aggiunti. Zero nuovi capitoli, identità, sintesi di farmaci, profili o laboratori. Totale 63 capitoli, 19 estesi e 44 sintetici; altri 62 verificati identici.
 
-0.91.0 pubblicata e verificata al commit bbcace 495 a 4 b 3 fe 895 d 397 d 90407 ef 4 f 9673 c 3 c 9. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sui checkpoint preparatori.
+0.92.0 pubblicata e verificata al commit 3fd5e109cd1fab85241dff804f303fdc45110c8d. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparatorio.
 
-9 nuove pagine locali lette e controllate visivamente, con passaggi selezionati integrati: corso principale PDF 771–775, Katzung 831–833 (editoriali 811–813), appunti I 326 (stampata 321, lezione 19 del 1 dicembre 2025). Riutilizzate 18 pagine del capitolo precedente; Rang 669 riletto ma non ricontato. Totale 27 pagine:18 di corso e 9 di libri. Altri contributi conservati senza nuova lettura; anni, edizioni e pagine nei registri.
+Otto nuove pagine locali lette e controllate visivamente: corso principale PDF 776–780, Katzung PDF 837–838 (editoriali 817–818), appunti I PDF 327 (stampata 322, lezione 19 del 1 dicembre 2025). Passaggi integrati da sette; Katzung 838 letta ma non integrata. Riutilizzate 27 pagine precedenti: totale 35 lette, 34 con passaggi integrati. Rang 676 riletto e ricontrollato senza nuovo conteggio.
 
-Deduplicazione prima dell’estrazione su 141 registri. Separati testo estratto, lettura, immagini e revisione. CFI 775 e APP 326 condividono la tabella 44-2 con note inferiori mancanti: nessuna conferma indipendente, nessuna ricostruzione. Piccole etichette della figuraER in APP 326 non validate integralmente; figura non utilizzata. Conservato il limite della riga coperta in APP 329.
+Deduplicazione preventiva su 143 registri. Vie ER, proteine emostatiche e indicatori/eventi riconciliati con i limiti delle figure condivise. Articolo mostrato nella copertina a PDF777 non letto. Freccia lipidica ambigua, deduzioni sugli esami dalla dose e graduatoria di sicurezza dall’androgenicità escluse. A PDF780 riga coperta e note mancanti; istruzioni generalizzate non adottate. CDC POP usato nei passaggi su meccanismi e compresse attive/placebo, senza protocollo. EMA storica usata per distinzioni concettuali; AIFA 2024 ricontrollata nel testo, nessuna tabella numerica pubblicata.
 
-Distinti dose, biodisponibilità, attività e indicazione; progesterone micronizzato verificato nei soli passaggi dichiarati dello SmPC britannico. Generazioni dei progestinici trattate come classificazione storica variabile con riscontro EMA; tabelle multi-specie non trasformate in graduatorie cliniche. Grafici fisiologici distinti da dosi e concentrazioni durante trattamento; regimi ricontrollati nell’Overview CDC. Nessun protocollo individuale né disponibilità italiana dedotta dai documenti britannici.
+Sintesi didattica del solo integratore, non revisione clinica indipendente. Nessuna lettura integrale di corsi, libri o guide. Conservati tutti i precedenti intervalli non integrati e il backlog di visualizzazioni, farmaci e profili.
 
-Sintesi didattica del solo integratore, non revisione clinica indipendente. Nessuna lettura integrale di corsi, libri o guide. Conservare tutti i precedenti intervalli non integrati e il backlog di visualizzazioni, farmaci e profili.
-
-Controlli locali completati: 47 verifiche dati; otto configurazioni e otto schermate ispezionate; ricerca, navigazione, tastiera, riferimenti, offline e aggiornamento reale 0.91.0→0.92.0 con dati salvati conservati. Gli altri 62 capitoli sono identici. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-771-775-2026-11-16/. Ricevuta soltanto dopo deploy verificato.
+47 controlli dati superati; otto configurazioni desktop/mobile nei due temi e otto schermate ispezionate. Ricerca, tastiera, riferimenti e offline verificati. Aggiornamento reale 0.92.0→0.93.0 con dati conservati; altri 62 capitoli identici. CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-776-780-2026-11-16/. Ricevuta soltanto dopo deploy verificato.
 
 ## Regole
 
@@ -32,4 +30,4 @@ Controlli locali completati: 47 verifiche dati; otto configurazioni e otto scher
 
 ## Prossimo intervallo
 
-Completare 771–775 e verificarne la pubblicazione. 776–780 non iniziato, riservato al ciclo successivo. Teoria prima di farmaci, profili e laboratori.
+Completare 776–780 e verificarne la pubblicazione. 781–785 non iniziato, riservato al ciclo successivo. Teoria prima di farmaci, profili e laboratori.
