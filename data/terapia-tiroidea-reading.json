@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "batch": "theory-course-826-830",
+  "batch": "theory-course-831-835",
   "chapterId": "terapia-tiroidea",
-  "updatedAt": "2026-11-19T06:56:34.892728+00:00",
+  "updatedAt": "2026-11-19T07:59:10.297225+00:00",
   "fullCorpusRead": false,
   "clinicalValidation": false,
   "newIdentities": 0,
@@ -11,165 +11,184 @@
   "newTargetProfiles": 0,
   "newChapters": 0,
   "expandedExistingChapters": 1,
-  "newReadPdfPages": 8,
+  "newReadPdfPages": 5,
   "newCourseReadPdfPages": 5,
-  "newBookReadPdfPages": 3,
+  "newBookReadPdfPages": 0,
   "newMainCoursePages": 5,
   "newOtherSlidesPages": 0,
   "newAppuntiPages": 0,
-  "reusedReadPdfPages": 2,
-  "totalReadPdfPages": 10,
-  "chapterReviewedPdfPages": 57,
-  "chapterSourcePdfPages": 57,
-  "newIntegratedPdfPages": 5,
-  "chapterIntegratedPdfPages": 51,
+  "reusedReadPdfPages": 4,
+  "totalReadPdfPages": 9,
+  "chapterReviewedPdfPages": 62,
+  "chapterSourcePdfPages": 62,
+  "newIntegratedPdfPages": 1,
+  "chapterIntegratedPdfPages": 53,
   "sources": [
     {
       "id": "CFI",
       "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
       "title": "Appunti e diapositive del corso di Farmacologia I",
       "edition": "AA2025–26",
-      "sourceUnchanged": true,
-      "allContentsRead": false,
       "pdfPagesRead": [
-        817,
-        826,
-        827,
-        828,
-        829,
-        830
+        831,
+        832,
+        833,
+        834,
+        835
       ],
       "visuallyCheckedPdfPages": [
-        817,
-        826,
-        827,
-        828,
-        829,
-        830
-      ],
-      "newlyReadTextPages": [
-        826,
-        827,
-        828,
-        829,
-        830
-      ],
-      "reusedPreviouslyReadPages": [
-        817
+        831,
+        832,
+        833,
+        834,
+        835
       ],
       "integratedPdfPages": [
-        827,
-        828,
-        829
+        832
       ],
-      "readButNotIntegratedPdfPages": [
-        817,
-        826,
-        830
-      ],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
       "imageTextReadPages": [
-        817,
-        826,
-        827,
-        828,
-        829,
-        830
+        831,
+        832,
+        833,
+        834,
+        835
       ],
       "substantiveExtractedTextReadPages": [
-        826,
-        827,
-        828,
-        829,
-        830
+        831,
+        832,
+        833
       ],
-      "integrationScope": "Solo passaggi selezionati; nessuna figura o tabella della fonte ripubblicata.",
+      "bibliographyOnlyPdfPages": [
+        834,
+        835
+      ],
+      "newlyReadTextPages": [
+        831,
+        832,
+        833,
+        834,
+        835
+      ],
+      "reusedPreviouslyReadPages": [],
+      "readButNotIntegratedPdfPages": [
+        831,
+        833,
+        834,
+        835
+      ],
       "printedPageLabels": {
-        "826": "824 di 934; Lancet 770",
-        "827": "825 di 934; Lancet 771",
-        "828": "826 di 934; Lancet 772",
-        "829": "827 di 934; Lancet 773",
-        "830": "828 di 934; Lancet 774",
-        "817": "815 di934; estratto tabella3 Lancet2024"
-      }
+        "831": "829 di934; Lancet775",
+        "832": "830 di934; Lancet776",
+        "833": "831 di934; Lancet777",
+        "834": "832 di934; Lancet778",
+        "835": "833 di934; Lancet779"
+      },
+      "integrationScope": "Solo il passaggio su carico iodico e iperproduzione a832.831/833 contesto;834/835 bibliografia letta, non lettura degli articoli citati."
     },
     {
       "id": "KATZ",
       "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
       "title": "Katzung · Farmacologia generale e clinica",
       "edition": "IX italiana2014 / XII originale2012",
-      "sourceUnchanged": true,
-      "allContentsRead": false,
       "pdfPagesRead": [
-        796,
-        797,
-        798
+        788,
+        794
       ],
       "visuallyCheckedPdfPages": [
-        796,
-        797,
-        798
-      ],
-      "newlyReadTextPages": [
-        796,
-        797,
-        798
-      ],
-      "reusedPreviouslyReadPages": [],
-      "integratedPdfPages": [
-        797,
-        798
-      ],
-      "readButNotIntegratedPdfPages": [
-        796
+        788,
+        794
       ],
       "imageTextReadPages": [
-        796,
-        797,
-        798
+        788,
+        794
       ],
       "substantiveExtractedTextReadPages": [
-        796,
-        797,
-        798
+        788,
+        794
       ],
-      "integrationScope": "Solo passaggi selezionati; nessuna figura o tabella della fonte ripubblicata.",
+      "newlyReadTextPages": [],
+      "reusedPreviouslyReadPages": [
+        788,
+        794
+      ],
+      "integratedPdfPages": [
+        788,
+        794
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
       "printedPageLabels": {
-        "796": "776",
-        "797": "777",
-        "798": "778"
-      }
+        "788": "768",
+        "794": "774"
+      },
+      "integrationScope": "Passaggi selezionati rilette pagine già presenti, senza nuova copertura unica."
     },
     {
       "id": "RANG",
       "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
-      "title": "Rang & Dale · Farmacologia",
       "edition": "VIII italiana2016 / originale2015",
-      "sourceUnchanged": true,
-      "allContentsRead": false,
       "pdfPagesRead": [
-        657
+        656
       ],
       "visuallyCheckedPdfPages": [
-        657
+        656
+      ],
+      "imageTextReadPages": [
+        656
+      ],
+      "substantiveExtractedTextReadPages": [
+        656
       ],
       "newlyReadTextPages": [],
       "reusedPreviouslyReadPages": [
-        657
+        656
       ],
       "integratedPdfPages": [
-        657
+        656
       ],
       "readButNotIntegratedPdfPages": [],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "printedPageLabels": {
+        "656": "Numero editoriale non visibile"
+      },
+      "integrationScope": "Passaggi selezionati rilette pagine già presenti, senza nuova copertura unica.",
+      "title": "Rang & Dale · Farmacologia"
+    },
+    {
+      "id": "APP",
+      "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+      "title": "Appunti del corso di Farmacologia I",
+      "edition": "AA2025–26; lezione19,1 dicembre2025",
+      "pdfPagesRead": [
+        335
+      ],
+      "visuallyCheckedPdfPages": [
+        335
+      ],
       "imageTextReadPages": [
-        657
+        335
       ],
       "substantiveExtractedTextReadPages": [
-        657
+        335
       ],
-      "integrationScope": "Solo passaggi selezionati; nessuna figura o tabella della fonte ripubblicata.",
+      "newlyReadTextPages": [],
+      "reusedPreviouslyReadPages": [
+        335
+      ],
+      "integratedPdfPages": [
+        335
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "sourceUnchanged": true,
+      "allContentsRead": false,
       "printedPageLabels": {
-        "657": "Numero editoriale non visibile"
-      }
+        "335": "330; lezione19p11"
+      },
+      "integrationScope": "Passaggi selezionati rilette pagine già presenti, senza nuova copertura unica."
     }
   ],
   "officialSourceScopes": [
@@ -256,25 +275,41 @@
       "title": "American Thyroid Association · Thyroid Function Tests",
       "detail": "Consultazione 19 novembre2026: sezioni Tests, Thyroid Antibody Tests e Non-Blood Tests. Distinti funzione, anticorpi e captazione. Scheda informativa ufficiale per pazienti, data di revisione non indicata; figura non riprodotta e nessuna indicazione numerica trasferita.",
       "url": "https://www.thyroid.org/thyroid-function-tests/"
+    },
+    {
+      "id": "ETAI",
+      "title": "European Thyroid Association · disfunzione tiroidea da mezzi di contrasto iodati · 2021",
+      "detail": "Consultazione 19 novembre 2026 del testo primario: Monitoring/Does ICM exposure affect thyroid function tests e passaggi su eziologia di iper- e ipotiroidismo. Distinti blocco di Wolff–Chaikoff, adattamento, mancata fuga e Jod–Basedow. Lettura circoscritta; nessuna revisione completa delle linee guida, dose, calendario o algoritmo trasferito.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8314764/"
+    },
+    {
+      "id": "KI",
+      "title": "Potassium iodide 65 mg · G.L Pharma UK · SmPC britannico",
+      "detail": "Consultato 19 novembre 2026; pagina emc aggiornata il 25 agosto 2026. §4.1 per l’indicazione radioprotettiva specifica; §§4.4–4.5 per rischio nei predisposti e interferenza radioiodica. Fonte britannica, non RCP italiano. Nessuna dose, indicazione per ipertiroidismo o procedura radioprotettiva trasferita.",
+      "url": "https://www.medicines.org.uk/emc/product/15911/smpc"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente o validazione specialistica.",
-    "Dieci pagine lette e controllate:otto nuove e due rilette. Sei contribuiscono con passaggi selezionati; quattro restano contesto. Cumulativo57uniche lette e51integrate.",
-    "Rassegna Lancet2024: lette solo pagine768–774, ricerca dichiarata fino a settembre2022. Tabella3 duplicata nel corso a817/830, senza corroborazione indipendente.",
-    "Katzung796 è contesto; dosi, urgenze, gravidanza, protocolli storici e soglie automatiche non trasferiti. Rang657 riletto, senza nuove pagine uniche.",
-    "NICE verificato nei passaggi ufficiali indicizzati, accesso diretto403; ETA2018 consultata nelle sole sezioni pertinenti. Ruolo dell’ecografia diverso nei due documenti, senza algoritmo combinato.",
-    "AppuntiI e corsiII già riconciliati nei lotti precedenti conservati senza nuova lettura. Nessun libro o corso interamente letto; protocolli locali non verificati."
+    "Nove pagine lette e controllate: cinque nuove e quattro rilette. Cinque contribuiscono con passaggi selezionati. Cumulativo 62 uniche lette e 53 integrate: una nuova pagina integrata e una già letta ora integrata.",
+    "Rassegna Lancet 2024: lette solo pagine 768–779, ricerca dichiarata fino a settembre 2022. PDF 834–835 sono bibliografia, non lettura degli studi citati; pagina 780 non letta. Nessuno stato regolatorio 2026 delle terapie innovative dedotto dalla rassegna.",
+    "Katzung 788/794, Rang 656 e appunti I 335 rilette senza nuova copertura unica. Figure condivise non costituiscono conferme indipendenti. Dosi, urgenze, gravidanza, integratori, stime di rischio e protocolli storici esclusi.",
+    "ETA 2021 letta nei soli passaggi pertinenti al carico da contrasto; SmPC britannico KI consultato per rischi e interferenze nel contesto della sua indicazione specifica, senza trasferire protocolli o raccomandazioni generali.",
+    "Contributi dei corsi II e riferimenti precedenti conservati con i rispettivi anni e limiti, senza nuova lettura. Nessun libro o corso interamente letto; protocolli locali non verificati."
   ],
   "deduplication": {
-    "recordsChecked": 166,
+    "recordsChecked": 168,
     "method": "Preserved prior explicit reading map and reconciled all listed records by exact SHA256 and explicit read-page fields. Inventory/planned/extracted ranges excluded.",
     "reused": {
-      "CFI": [
-        817
+      "KATZ": [
+        788,
+        794
       ],
       "RANG": [
-        657
+        656
+      ],
+      "APP": [
+        335
       ]
     },
     "sharedFigures": [
@@ -288,9 +323,10 @@
         "independentCorroboration": false
       }
     ],
-    "independentCorroborationFromSharedFigures": false
+    "independentCorroborationFromSharedFigures": false,
+    "bibliographyDoesNotCountAsCitedArticlesRead": true
   },
-  "batchIntegratedPdfPages": 6,
+  "batchIntegratedPdfPages": 5,
   "cumulativeSources": [
     {
       "id": "CFI",
@@ -319,7 +355,12 @@
         827,
         828,
         829,
-        830
+        830,
+        831,
+        832,
+        833,
+        834,
+        835
       ],
       "visuallyCheckedPdfPages": [
         801,
@@ -340,7 +381,17 @@
         816,
         817,
         824,
-        825
+        825,
+        826,
+        827,
+        828,
+        829,
+        830,
+        831,
+        832,
+        833,
+        834,
+        835
       ],
       "integratedPdfPages": [
         801,
@@ -363,7 +414,8 @@
         825,
         827,
         828,
-        829
+        829,
+        832
       ],
       "allContentsRead": false
     },
@@ -400,6 +452,9 @@
         793,
         794,
         795,
+        796,
+        797,
+        798,
         799,
         800
       ],
@@ -413,6 +468,7 @@
         791,
         792,
         793,
+        794,
         795,
         797,
         798,
@@ -527,7 +583,14 @@
       "allContentsRead": false
     }
   ],
-  "coverageSemantics": "Dieci pagine pertinenti alla tiroide lette e controllate:otto nuove,due rilette. CFI817 è un confronto del solo estratto tabellare già presente a830; non corroborazione indipendente. Sei pagine sostengono passaggi selezionati,quattro restano contesto.",
-  "batchAllTopicsReadPdfPages": 10,
-  "otherTopicReadPdfPages": 0
+  "coverageSemantics": "Nove pagine del lotto: sette con testo sostanziale e due di sola bibliografia. Cinque pagine sostengono passaggi selezionati; una è nuova (CFI832), una già letta è integrata per la prima volta (KATZ794). Le altre tre sono riletture già integrate. Cinque nuove pagine uniche lette; due nuove pagine uniche integrate.",
+  "batchAllTopicsReadPdfPages": 9,
+  "otherTopicReadPdfPages": 0,
+  "previouslyReadNewlyIntegratedPages": {
+    "KATZ": [
+      794
+    ]
+  },
+  "substantiveTextReadPdfPages": 7,
+  "bibliographyOnlyPdfPages": 2
 }

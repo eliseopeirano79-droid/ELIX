@@ -1,28 +1,29 @@
 {
-  "updatedAt": "2026-11-19T07:04:40.272532+00:00",
-  "batch": "theory-course-826-830",
+  "updatedAt": "2026-11-19T08:01:51.805662+00:00",
+  "batch": "theory-course-831-835",
   "status": "locally_verified_pending_publication",
-  "release": "0.103.0",
-  "branch": "feat/theory-course-826-830",
-  "baseCommit": "09a914d25626052b10392ef2494d038df43fcde3",
+  "release": "0.104.0",
+  "branch": "feat/theory-course-831-835",
+  "baseCommit": "4643e2ed5da738c4715ee2529746e98a698df115",
   "previousBatch": {
-    "batch": "theory-course-821-825",
-    "release": "0.102.0",
-    "commit": "09a914d25626052b10392ef2494d038df43fcde3",
+    "batch": "theory-course-826-830",
+    "release": "0.103.0",
+    "commit": "4643e2ed5da738c4715ee2529746e98a698df115",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Ampliamento tiroideo: indizi della causa e recupero del feedback durante trattamento antitiroideo."
+    "Ampliamento tiroideo: autoregolazione da ioduro, fuga dal blocco e iperproduzione nella ghiandola suscettibile."
   ],
   "completed": [
-    "Una sezione nuova e una ampliata:21sezioni,6053parole,23quesiti e20schemi;19sezioni conservate.",
-    "Dieci pagine lette e controllate:otto nuove e due rilette; sei con passaggi integrati.",
-    "50controlli dati,otto configurazioni desktop/mobile e temi,navigazione,fonti,tastiera,ricerca e offline superati.",
-    "Aggiornamento reale0.102.0→0.103.0 con preferiti,studio e tema conservati.",
-    "Otto schermate ispezionate;64altri capitoli e trePDFsorgente invariati."
+    "Una sezione nuova: 22 sezioni, 6517 parole, 25 quesiti, 21 schemi; 21 sezioni conservate.",
+    "Nove pagine lette e controllate: cinque nuove e quattro rilette; cinque con passaggi integrati.",
+    "Confronto mirato con ETA2021 e SmPC KI; revisione editoriale del solo integratore.",
+    "50 controlli dati, otto configurazioni desktop/mobile e temi, navigazione, fonti, tastiera, ricerca e offline superati.",
+    "Aggiornamento reale 0.103.0→0.104.0 con preferiti, studio e tema conservati.",
+    "Otto schermate ispezionate; 64 altri capitoli, 21 sezioni precedenti e quattro PDF sorgente invariati."
   ],
   "remaining": [
-    "Commit,CI,deploy e riscontro online."
+    "Commit, CI, deploy e riscontro online."
   ],
   "counts": {
     "identities": 4225,
@@ -45,24 +46,24 @@
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
     "newSections": 1,
-    "expandedSections": 1,
+    "expandedSections": 0,
     "newLinksToExistingIdentities": 0,
     "newStaticOriginalSchemas": 1,
     "newSelfChecks": 2,
-    "unchangedSections": 19
+    "unchangedSections": 21
   },
   "readingManifests": [
     "data/terapia-tiroidea-reading.json"
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente o validazione specialistica.",
-    "Dieci pagine lette e controllate:otto nuove e due rilette. Sei contribuiscono con passaggi selezionati; quattro restano contesto. Cumulativo57uniche lette e51integrate.",
-    "Rassegna Lancet2024: lette solo pagine768–774, ricerca dichiarata fino a settembre2022. Tabella3 duplicata nel corso a817/830, senza corroborazione indipendente.",
-    "Katzung796 è contesto; dosi, urgenze, gravidanza, protocolli storici e soglie automatiche non trasferiti. Rang657 riletto, senza nuove pagine uniche.",
-    "NICE verificato nei passaggi ufficiali indicizzati, accesso diretto403; ETA2018 consultata nelle sole sezioni pertinenti. Ruolo dell’ecografia diverso nei due documenti, senza algoritmo combinato.",
-    "AppuntiI e corsiII già riconciliati nei lotti precedenti conservati senza nuova lettura. Nessun libro o corso interamente letto; protocolli locali non verificati."
+    "Nove pagine lette e controllate: cinque nuove e quattro rilette. Cinque contribuiscono con passaggi selezionati. Cumulativo 62 uniche lette e 53 integrate: una nuova pagina integrata e una già letta ora integrata.",
+    "Rassegna Lancet 2024: lette solo pagine 768–779, ricerca dichiarata fino a settembre 2022. PDF 834–835 sono bibliografia, non lettura degli studi citati; pagina 780 non letta. Nessuno stato regolatorio 2026 delle terapie innovative dedotto dalla rassegna.",
+    "Katzung 788/794, Rang 656 e appunti I 335 rilette senza nuova copertura unica. Figure condivise non costituiscono conferme indipendenti. Dosi, urgenze, gravidanza, integratori, stime di rischio e protocolli storici esclusi.",
+    "ETA 2021 letta nei soli passaggi pertinenti al carico da contrasto; SmPC britannico KI consultato per rischi e interferenze nel contesto della sua indicazione specifica, senza trasferire protocolli o raccomandazioni generali.",
+    "Contributi dei corsi II e riferimenti precedenti conservati con i rispettivi anni e limiti, senza nuova lettura. Nessun libro o corso interamente letto; protocolli locali non verificati."
   ],
-  "nextBatch": "Completare826–830;831–835 non iniziato.",
+  "nextBatch": "Completare 831–835; 836–840 non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755"

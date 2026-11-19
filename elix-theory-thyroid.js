@@ -190,6 +190,20 @@ export const THEORY_THYROID = Object.freeze({
       "formula": "TPO inibita → minore nuova sintesi; ormone già formato ancora disponibile → risposta differita"
     },
     {
+      "id": "ioduro-autoregolazione",
+      "title": "Ioduro: substrato, freno transitorio e risposta della ghiandola",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "RANG",
+        "APP",
+        "ETAI",
+        "KI"
+      ],
+      "text": "Lo ioduro è necessario per costruire T3 e T4, ma la risposta della tiroide non cresce semplicemente in proporzione alla quantità disponibile. Occorre distinguere l’apporto del substrato, il suo ingresso nel tireocita e le reazioni che lo incorporano nella tireoglobulina. NIS contribuisce al trasporto; la TPO sostiene organificazione e accoppiamento. La disponibilità di ioduro si inserisce quindi in un sistema regolato, non in una produzione che accelera senza limiti.\n\nAccanto al controllo esercitato dal TSH esiste un’autoregolazione locale. Un carico elevato di ioduro può inibire temporaneamente l’organificazione: è l’effetto di Wolff–Chaikoff. L’evento riguarda la sintesi nella ghiandola e non corrisponde a un antagonismo del recettore nucleare TR nei tessuti. Gli ioduri possono anche ridurre la liberazione dell’ormone già formato, attraverso processi che coinvolgono la proteolisi della tireoglobulina. Inibire la costruzione di nuovo ormone e ridurre l’uscita dalle riserve sono due azioni da tenere distinte, anche quando concorrono allo stesso calo dell’esposizione.\n\nIl freno iniziale non è necessariamente permanente. Si parla di «fuga» dal blocco quando la sintesi riprende nonostante persista un apporto elevato. Questo recupero funzionale non significa che tutto lo iodio sia già stato eliminato. Le linee guida ETA sui mezzi di contrasto iodati distinguono tale adattamento dal suo fallimento, che può contribuire a ipotiroidismo nei soggetti predisposti. La sequenza temporale conta quanto la direzione dell’effetto iniziale: osservare un’inibizione non dimostra che la ghiandola resterà indefinitamente inibita.\n\nIl fenomeno di Jod–Basedow descrive invece un aumento della produzione ormonale favorito dall’eccesso di iodio in una tiroide suscettibile. Il tessuto nodulare autonomo e il Graves latente sono contesti rilevanti. Una maggiore disponibilità di substrato può alimentare un apparato sintetico già predisposto a produrre troppo. Non va confuso con il normale recupero dopo il blocco acuto: «fuga» e ipertiroidismo indotto da iodio non sono sinonimi. Il nome della sostanza, da solo, non permette perciò di prevedere se prevalgano adattamento, ipofunzione o iperfunzione.\n\nQuesta distinzione aiuta a leggere insieme farmaci ed esposizioni. Mezzi di contrasto iodati e amiodarone possono aumentare il carico iodico; per l’amiodarone restano inoltre rilevanti gli effetti sulla conversione periferica e il possibile danno follicolare descritti nella sezione dedicata. Una coincidenza temporale non identifica automaticamente un unico meccanismo. Anche le informazioni di prodotto dello ioduro di potassio richiamano il rischio di ipertiroidismo nei soggetti predisposti e l’interferenza con indagini e trattamenti radioiodici: l’effetto farmacologico va interpretato nel contesto della specifica indicazione.\n\nIl confronto con le tionamidi chiarisce infine il bersaglio. Metimazolo e propiltiouracile frenano la nuova sintesi; un carico di ioduro può agire transitoriamente su più processi, compresa la liberazione dell’ormone già formato. Nessuna delle due descrizioni autorizza a usare lo iodio come sostituto generico di un antitiroideo. Il ragionamento deve collegare stato della ghiandola, quantità e durata dell’esposizione, produzione e deposito. È questa combinazione a spiegare il comportamento apparentemente opposto dello stesso elemento.",
+      "formula": "Carico di ioduro → possibile freno transitorio. Adattamento → ripresa della sintesi; mancato adattamento → possibile ipofunzione. Tiroide predisposta → possibile iperproduzione."
+    },
+    {
       "id": "controllo-e-remissione",
       "title": "Controllo biochimico, remissione e causa dell’ipertiroidismo",
       "refs": [
@@ -359,28 +373,36 @@ export const THEORY_THYROID = Object.freeze({
     {
       "question": "Un TSH ancora soppresso mentre FT4 e T3 diminuiscono dimostra che una tionamide non sta agendo?",
       "answer": "No. All’inizio del trattamento il TSH può recuperare più lentamente degli ormoni circolanti. Servono andamento di FT4 e T3, quadro clinico e fase terapeutica; il solo TSH non autorizza una variazione automatica della dose."
+    },
+    {
+      "question": "La fuga dall’effetto di Wolff–Chaikoff significa che lo iodio è stato eliminato o che è comparso Jod–Basedow?",
+      "answer": "Nessuna delle due conclusioni è automatica. La fuga indica ripresa della sintesi nonostante il carico iodico; Jod–Basedow indica iperproduzione indotta dall’eccesso di iodio in una tiroide suscettibile. Adattamento, eliminazione e malattia sono fenomeni distinti."
+    },
+    {
+      "question": "Perché ioduro e tionamidi non sono equivalenti anche se entrambi possono ridurre l’esposizione agli ormoni tiroidei?",
+      "answer": "Le tionamidi inibiscono la nuova sintesi sostenuta dalla TPO. Un carico elevato di ioduro può inibire transitoriamente l’organificazione e la liberazione dalle riserve, con una risposta dipendente dallo stato della ghiandola e dall’adattamento. Un risultato finale simile non dimostra identità di meccanismo o intercambiabilità terapeutica."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · AA 2025–26",
-      "detail": "PDF801–817 e824–830, etichette799–815 e822–828. In questo lotto PDF826–830 (Lancet770–774) letti e controllati; PDF817 riletto per deduplicare la tabella3 presente anche a830. Rassegna Chaker et al., Hyperthyroidism, Lancet2024;403:768–780, DOI10.1016/S0140-6736(23)02016-0; ricerca dichiarata fino al16settembre2022. Lette complessivamente soltanto le pagine768–774; nessuna figura o tabella riprodotta."
+      "detail": "PDF 801–817 e 824–835, etichette 799–815 e 822–833, letti per intervalli. In questo lotto PDF 831–835 (Lancet 775–779): testo e impaginazione controllati; integrato il passaggio sul carico iodico a 832. PDF 834–835 sono bibliografia: gli articoli citati non sono stati letti singolarmente. Chaker et al., Hyperthyroidism, Lancet 2024;403:768–780, DOI 10.1016/S0140-6736(23)02016-0; ricerca dichiarata fino al 16 settembre 2022. Lettura cumulativa limitata a 768–779; pagina 780 non letta. Nessuna figura o tabella riprodotta."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica · IX italiana 2014 / XII originale 2012",
-      "detail": "Capitolo38, PDF785–800, editoriali765–780, letti per intervalli. In questo lotto PDF796–798 (editoriali776–778): tabella e testo controllati; integrati solo passaggi selezionati797–798 su recettore, diagnosi e risposta. PDF796 resta contesto. Dosi, urgenze, gravidanza, soglie e preferenze terapeutiche storiche escluse."
+      "detail": "Capitolo 38, PDF 785–800, editoriali 765–780, letti per intervalli. In questo lotto rilette e controllate PDF 788 e 794 (editoriali 768 e 774) per autoregolazione e azione degli ioduri su organificazione e liberazione. PDF 794, prima di contesto, ora contribuisce con passaggi selezionati. Dosi, urgenze, gravidanza e protocolli storici esclusi."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia · VIII italiana 2016 / originale 2015",
-      "detail": "Capitolo34, PDF651–659, numero editoriale non visibile. PDF657 riletto e controllato in questo lotto, senza incremento della copertura unica; passaggio sulla captazione come test confrontato con corso e fonti ufficiali. Rassicurazioni radiobiologiche assolute e regole terapeutiche storiche non trasferite. Nessuna figura riprodotta."
+      "detail": "Capitolo 34, PDF 651–659, numero editoriale non visibile. PDF 656 riletto e controllato per il rapporto fra carico iodico, amiodarone e funzione tiroidea, senza nuove pagine uniche. Frase conflittuale sul recettore TRH e gerarchie terapeutiche storiche escluse. Nessuna figura riprodotta."
     },
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I · AA 2025–26",
-      "detail": "Lezione19 del1dicembre2025, PDF333–335, stampate328–330, letti nei lotti precedenti e mantenuti senza nuova lettura. Figure condivise non considerate conferme indipendenti; algoritmo, dosi e generalizzazioni esclusi."
+      "detail": "Lezione 19 del 1 dicembre 2025, PDF 333–335, stampate 328–330. In questo lotto PDF 335 (stampata 330; lezione p.11) riletto e controllato per azione degli ioduri sulla liberazione. Figure condivise non considerate conferme indipendenti; classificazione impropria del PTU, algoritmi, dosi e gerarchie terapeutiche esclusi."
     },
     {
       "id": "NICE",
@@ -480,6 +502,18 @@ export const THEORY_THYROID = Object.freeze({
       "title": "American Thyroid Association · Thyroid Function Tests",
       "detail": "Consultazione 19 novembre2026: sezioni Tests, Thyroid Antibody Tests e Non-Blood Tests. Distinti funzione, anticorpi e captazione. Scheda informativa ufficiale per pazienti, data di revisione non indicata; figura non riprodotta e nessuna indicazione numerica trasferita.",
       "url": "https://www.thyroid.org/thyroid-function-tests/"
+    },
+    {
+      "id": "ETAI",
+      "title": "European Thyroid Association · disfunzione tiroidea da mezzi di contrasto iodati · 2021",
+      "detail": "Consultazione 19 novembre 2026 del testo primario: Monitoring/Does ICM exposure affect thyroid function tests e passaggi su eziologia di iper- e ipotiroidismo. Distinti blocco di Wolff–Chaikoff, adattamento, mancata fuga e Jod–Basedow. Lettura circoscritta; nessuna revisione completa delle linee guida, dose, calendario o algoritmo trasferito.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8314764/"
+    },
+    {
+      "id": "KI",
+      "title": "Potassium iodide 65 mg · G.L Pharma UK · SmPC britannico",
+      "detail": "Consultato 19 novembre 2026; pagina emc aggiornata il 25 agosto 2026. §4.1 per l’indicazione radioprotettiva specifica; §§4.4–4.5 per rischio nei predisposti e interferenza radioiodica. Fonte britannica, non RCP italiano. Nessuna dose, indicazione per ipertiroidismo o procedura radioprotettiva trasferita.",
+      "url": "https://www.medicines.org.uk/emc/product/15911/smpc"
     }
   ],
   "moleculeLinks": [
@@ -520,6 +554,6 @@ export const THEORY_THYROID = Object.freeze({
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-19",
   "readingManifest": "./data/terapia-tiroidea-reading.json",
-  "coverage": "57 pagine locali uniche pertinenti alla tiroide lette,51 con passaggi integrati. Questo lotto:8pagine nuove e2rilette,10controllate visivamente;6con passaggi selezionati utilizzati,4di contesto. La tabella condivisa non costituisce una conferma indipendente. Nessun libro o corso interamente letto; nessuna revisione clinica indipendente.",
-  "wordCount": 6053
+  "coverage": "62 pagine locali uniche pertinenti alla tiroide lette, 53 con passaggi integrati. Questo lotto: 5 pagine nuove e 4 rilette, tutte 9 controllate visivamente; 5 sostengono passaggi selezionati. Due pagine contengono solo bibliografia: non equivalgono alla lettura degli articoli citati. Nessun libro o corso interamente letto; nessuna revisione clinica indipendente.",
+  "wordCount": 6517
 });
