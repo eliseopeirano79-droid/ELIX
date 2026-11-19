@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-course-856-860",
+  "batch": "theory-course-861-865",
   "chapterId": "rimodellamento-osseo-osteoporosi",
-  "updatedAt": "2026-11-19T13:28:08.084675+00:00",
+  "updatedAt": "2026-11-19T14:22:34.129679+00:00",
   "fullCorpusRead": false,
   "clinicalValidation": false,
   "newIdentities": 0,
   "newDrugSummaries": 0,
   "newPKProfiles": 0,
   "newTargetProfiles": 0,
-  "newChapters": 1,
-  "expandedExistingChapters": 0,
-  "newReadPdfPages": 11,
-  "reusedReadPdfPages": 2,
-  "totalReadPdfPages": 13,
-  "newReviewedPdfPages": 12,
-  "chapterReviewedPdfPages": 14,
+  "newChapters": 0,
+  "expandedExistingChapters": 1,
+  "newReadPdfPages": 18,
+  "reusedReadPdfPages": 13,
+  "totalReadPdfPages": 31,
+  "newReviewedPdfPages": 18,
+  "chapterReviewedPdfPages": 32,
   "partiallyReadPdfPages": 1,
-  "chapterSourcePdfPages": 13,
-  "chapterIntegratedPdfPages": 13,
-  "newIntegratedPdfPages": 11,
-  "newlyIntegratedPreviouslyReadPdfPages": 2,
+  "chapterSourcePdfPages": 31,
+  "chapterIntegratedPdfPages": 25,
+  "newIntegratedPdfPages": 12,
+  "newlyIntegratedPreviouslyReadPdfPages": 0,
   "sources": [
     {
       "id": "CFI",
@@ -32,7 +32,12 @@
         856,
         857,
         858,
-        859
+        859,
+        861,
+        862,
+        863,
+        864,
+        865
       ],
       "visuallyCheckedPdfPages": [
         855,
@@ -40,25 +45,40 @@
         857,
         858,
         859,
-        860
+        860,
+        861,
+        862,
+        863,
+        864,
+        865
       ],
       "integratedPdfPages": [
         855,
         856,
         857,
         858,
-        859
+        859,
+        861,
+        862,
+        863,
+        864,
+        865
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
       "newlyReadTextPages": [
+        861,
+        862,
+        863,
+        864,
+        865
+      ],
+      "reusedPreviouslyReadPages": [
+        855,
         856,
         857,
         858,
         859
-      ],
-      "reusedPreviouslyReadPages": [
-        855
       ],
       "partiallyReadPdfPages": [
         860
@@ -67,14 +87,23 @@
       "integrationScope": "Solo passaggi selezionati, con esclusioni registrate nella revisione.",
       "substantiveExtractedTextReadPages": [
         857,
-        858
+        858,
+        862,
+        863,
+        864,
+        865
       ],
       "imageTextReadPages": [
         855,
         856,
         857,
         858,
-        859
+        859,
+        861,
+        862,
+        863,
+        864,
+        865
       ],
       "printedPageLabels": {
         "855": "853 di934",
@@ -82,7 +111,12 @@
         "857": "855 di934",
         "858": "856 di934",
         "859": "857 di934",
-        "860": "858 di934"
+        "860": "858 di934",
+        "861": "859 di934",
+        "862": "860 di934",
+        "863": "861 di934",
+        "864": "862 di934",
+        "865": "863 di934"
       }
     },
     {
@@ -94,44 +128,76 @@
         884,
         885,
         886,
-        887
+        887,
+        888,
+        889,
+        890,
+        891,
+        892
       ],
       "visuallyCheckedPdfPages": [
         884,
         885,
         886,
-        887
+        887,
+        888,
+        889,
+        890,
+        891,
+        892
       ],
       "integratedPdfPages": [
         884,
         885,
         886,
-        887
+        887,
+        891,
+        892
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
       "newlyReadTextPages": [
+        888,
+        889,
+        890,
+        891,
+        892
+      ],
+      "reusedPreviouslyReadPages": [
         884,
         885,
         886,
         887
       ],
-      "reusedPreviouslyReadPages": [],
       "partiallyReadPdfPages": [],
-      "readButNotIntegratedPdfPages": [],
+      "readButNotIntegratedPdfPages": [
+        888,
+        889,
+        890
+      ],
       "integrationScope": "Solo passaggi selezionati, con esclusioni registrate nella revisione.",
       "substantiveExtractedTextReadPages": [
         884,
         885,
         886,
-        887
+        887,
+        888,
+        889,
+        890,
+        891,
+        892
       ],
       "imageTextReadPages": [],
       "printedPageLabels": {
         "884": "864",
         "885": "865",
         "886": "866",
-        "887": "867"
+        "887": "867",
+        "888": "868",
+        "889": "869",
+        "890": "870",
+        "891": "871",
+        "892": "872"
       }
     },
     {
@@ -142,39 +208,71 @@
       "pdfPagesRead": [
         685,
         686,
-        687
+        687,
+        688,
+        689,
+        692,
+        693,
+        694
       ],
       "visuallyCheckedPdfPages": [
         685,
         686,
-        687
+        687,
+        688,
+        689,
+        692,
+        693,
+        694
       ],
       "integratedPdfPages": [
         685,
         686,
-        687
+        687,
+        692,
+        693
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
       "newlyReadTextPages": [
+        688,
+        689,
+        692,
+        693,
+        694
+      ],
+      "reusedPreviouslyReadPages": [
         685,
         686,
         687
       ],
-      "reusedPreviouslyReadPages": [],
       "partiallyReadPdfPages": [],
-      "readButNotIntegratedPdfPages": [],
+      "readButNotIntegratedPdfPages": [
+        688,
+        689,
+        694
+      ],
       "integrationScope": "Solo passaggi selezionati, con esclusioni registrate nella revisione.",
       "substantiveExtractedTextReadPages": [
         685,
         686,
-        687
+        687,
+        688,
+        689,
+        692,
+        693,
+        694
       ],
       "imageTextReadPages": [],
       "printedPageLabels": {
         "685": null,
         "686": null,
-        "687": null
+        "687": null,
+        "688": null,
+        "689": null,
+        "692": null,
+        "693": null,
+        "694": null
       }
     },
     {
@@ -183,17 +281,26 @@
       "edition": "AA2025–26; lezione20 del3 dicembre2025",
       "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
       "pdfPagesRead": [
-        336
+        336,
+        337,
+        338
       ],
       "visuallyCheckedPdfPages": [
-        336
+        336,
+        337,
+        338
       ],
       "integratedPdfPages": [
-        336
+        336,
+        337,
+        338
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
-      "newlyReadTextPages": [],
+      "newlyReadTextPages": [
+        337,
+        338
+      ],
       "reusedPreviouslyReadPages": [
         336
       ],
@@ -201,12 +308,51 @@
       "readButNotIntegratedPdfPages": [],
       "integrationScope": "Solo passaggi selezionati, con esclusioni registrate nella revisione.",
       "substantiveExtractedTextReadPages": [
-        336
+        336,
+        337,
+        338
       ],
       "imageTextReadPages": [],
       "printedPageLabels": {
-        "336": "331; lezione pagina1 di9"
+        "336": "331; lezione pagina1 di9",
+        "337": "332",
+        "338": "333"
       }
+    },
+    {
+      "id": "FII-B",
+      "title": "Appunti del corso di Farmacologia II, canale B",
+      "edition": "AA2024–25",
+      "sha256": "507f96d4b65f15159c912ed9d9d666fcc60e560c42f205f8e48cf82963ce4f39",
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "pdfPagesRead": [
+        54
+      ],
+      "visuallyCheckedPdfPages": [
+        54
+      ],
+      "integratedPdfPages": [
+        54
+      ],
+      "partiallyReadPdfPages": [],
+      "substantiveExtractedTextReadPages": [
+        54
+      ],
+      "imageTextReadPages": [],
+      "printedPageLabels": {
+        "54": "53"
+      },
+      "integrationScope": "Solo richiamo al deposito osseo, confronto con i libri.",
+      "reusedPreviouslyReadPages": [],
+      "newlyReadTextPages": [
+        54
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "figureReviewLimit": "Ispezionata pagina54; minuscole etichette figure antiaritmiche non verificate integralmente, escluse dalla sintesi.",
+      "metadataOnlyPages": [
+        45
+      ]
     }
   ],
   "officialSourceScopes": [
@@ -225,7 +371,7 @@
     {
       "id": "NOGG6",
       "title": "NOGG2024 · Opzioni farmacologiche, sezione6",
-      "detail": "Versione ufficiale con aggiornamento dicembre 2024, consultata 19 novembre 2026: raccomandazioni iniziali e quadro dei meccanismi. Ambito britannico; nessuna lettura integrale della linea guida.",
+      "detail": "Versione ufficiale con aggiornamento dicembre 2024, consultata 19 novembre 2026: raccomandazioni iniziali e quadro dei meccanismi. Ambito britannico; nessuna lettura integrale della linea guida. In questo lotto: passaggi specifici sui bisfosfonati, vie e differenze degli esiti.",
       "url": "https://www.nogg.org.uk/full-guideline/section-6-pharmacological-treatment-options"
     },
     {
@@ -251,37 +397,57 @@
       "title": "EMA · Osseor, autorizzazione ritirata",
       "detail": "Consultazione 19 novembre 2026: avviso relativo al prodotto e all’autorizzazione europea, ritirata 14 aprile 2020.",
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/osseor"
+    },
+    {
+      "id": "EMA-ACLASTA",
+      "title": "EMA · Aclasta / acido zoledronico, informazioni del prodotto",
+      "detail": "Consultazione 19 novembre 2026: passaggi selezionati §§4.2–4.4, 5.1 e 5.2, PDF 3–5,10,15–16; meccanismo, distribuzione, via e rischi. Documento inglese, aggiornamento della pagina EMA 20 aprile 2026; RCP completo non letto.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/aclasta-epar-product-information_en.pdf"
+    },
+    {
+      "id": "EMA-BONVIVA",
+      "title": "EMA · Bonviva / acido ibandronico, sintesi pubblica",
+      "detail": "Consultazione 19 novembre 2026: prima pagina della sintesi ufficiale indicizzata, formulazioni ed esiti di frattura. Confrontata la pagina delle presentazioni autorizzate; non lettura dell’intero RCP, disponibilità italiana non verificata.",
+      "url": "https://www.ema.europa.eu/en/documents/overview/bonviva-epar-summary-public_en.pdf"
+    },
+    {
+      "id": "EMC-RISED",
+      "title": "emc · Risedronate sodium 35 mg, scheda del prodotto",
+      "detail": "Consultazione 19 novembre 2026: §§4.2–4.4 e passaggi 4.5/5.2; assorbimento, cationi e precauzioni. Scheda britannica del produttore, non intero documento né RCP italiano.",
+      "url": "https://www.medicines.org.uk/emc/product/3028/smpc"
     }
   ],
   "limits": [
-    "Sintesi didattica e controllo editoriale del solo integratore; revisione clinica indipendente non eseguita.",
-    "14 pagine esaminate: 12 nuove identità di pagina e 2 già lette. Lettura completa del testo di 13 pagine (11 nuove e 2 rilette); CFI860 solo parziale per margine destro della tabella tagliato. Figure ispezionate su tutte le14 pagine.",
-    "Passaggi selezionati da13 pagine integrati; CFI860 esclusa. Le figure condivise da appunti e diapositive costituiscono riuso, non conferma indipendente.",
-    "Libri e corsi consultati solo nelle pagine elencate. Nessuna lettura di CFI861–865, KATZ888 o RANG688; i capitoli dei libri proseguono oltre il limite letto.",
-    "Confronto ufficiale limitato alle sezioni registrate. NOGG ha ambito britannico, FDA statunitense, EMA europeo; nessun RCP italiano completo o percorso locale verificato.",
-    "Evenity: sintesi ufficiale indicizzata letta; accesso diretto429. IUPHAR reindirizza a login: scheda recettoriale non dichiarata letta.",
-    "Riconciliazione dei contributi di FarmacologiaII e degli altri materiali del corso ancora incompleta: sola ricerca automatica di occorrenze in estrazioni preesistenti, nessuna nuova lettura loro attribuita.",
-    "Dosi, soglie diagnostiche, calendari di sospensione o transizione e confronti quantitativi di efficacia non trasferiti. Singoli bisfosfonati, altri agenti e cause secondarie richiedono approfondimenti successivi."
+    "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
+    "Questo lotto aggiunge18 testi principali completi e18 pagine ispezionate;12 pagine con passaggi integrati,6 lette senza nuova integrazione. Il capitolo documenta cumulativamente31 testi completi,32 pagine ispezionate e25 pagine integrate;13 testi e14 ispezioni provengono dal lotto precedente.",
+    "CFI860 resta parziale per il margine destro tagliato ed esclusa dalla sintesi. In FII-B54 il testo principale è completo; le etichette minute delle figure antiaritmiche non sono verificate integralmente e le figure restano fuori scopo.",
+    "CFI861–865,APP337–338,KATZ888–892,RANG688–689/692–694 eFII-B54 sono intervalli circoscritti. RANG690–691 e CFI866–870 non letti; nessun libro o corso intero dichiarato letto.",
+    "Figure condivise da appunti e diapositive riconosciute come riuso. Nessun PDF, trascrizione, fotografia clinica o figura originale pubblicati.",
+    "Fonti ufficiali consultate nelle sole sezioni registrate: EMA europea, NOGG e scheda emc britanniche, FDA statunitense. Nessun RCP italiano completo o disponibilità locale verificati.",
+    "La pagina di FarmacologiaII è del2024–25 e integra solo un richiamo al deposito; riconciliazione degli altri anni, lezioni e contributi ancora incompleta. IntestazionePDF45 verificata come solo metadato, esclusa dai conteggi di lettura.",
+    "Nessuna dose, soglia diagnostica o calendario di sospensione trasferito. Profili dei singoli farmaci, altri agenti e cause secondarie restano da approfondire.",
+    "Evenity resta documentato da sintesi ufficiale indicizzata del lotto precedente; accesso diretto429. IUPHAR non letto (login). Bonviva: sintesi e presentazioni indicizzate; nessuna lettura completa delRCP."
   ],
   "deduplication": {
-    "recordsChecked": 180,
-    "method": "SHA256 esatto e soli campi di lettura esplicita; pianificazione ed estrazione escluse.",
+    "recordsChecked": 183,
+    "method": "SHA256 e soli campi di lettura esplicita; estrazione e pianificazione escluse.13 testi precedenti conservati, non nuove letture.",
     "normalizedText": {
-      "method": "Recursive prior per-page extracts; remove CFI footer, normalize whitespace/case; ignore text shorter than120characters (image-only pages require visual comparison).",
-      "priorDistinctTextHashes": 326,
-      "currentTextPagesCompared": 9
+      "priorDistinctTextHashes": 335,
+      "currentTextPagesCompared": 18,
+      "priorExactMatches": 0
     },
     "visualDuplicates": [
       {
-        "current": "CFI856",
-        "previous": "APP336",
-        "scope": "Right microscopic normal/osteoporotic pair; same source figure, not independent evidence."
+        "current": "CFI862",
+        "previous": "APP338",
+        "scope": "Chemical structure/potency panel; not independent evidence."
       },
       {
-        "current": "CFI859",
-        "previous": "APP336",
-        "scope": "Four-stage remodeling diagram; same source figure."
+        "current": "CFI863",
+        "previous": "APP337",
+        "scope": "Mineral adsorption and osteoclast diagram; not independent evidence."
       }
     ]
-  }
+  },
+  "newPartiallyReadPdfPages": 0
 }

@@ -78,8 +78,63 @@ export const THEORY_BONE = Object.freeze({
         "CFI",
         "NOGG7"
       ],
-      "text": "Un antiriassorbitivo interviene principalmente sul versante osteoclastico del rimodellamento. Poiché le fasi del ciclo sono accoppiate, la riduzione del riassorbimento può accompagnarsi a una riduzione secondaria della formazione. Questo andamento non è, da solo, prova di inefficacia: il bilancio dipende dalla differenza fra tessuto rimosso e restituito e dall’evoluzione della struttura ossea.\n\nI bisfosfonati costituiscono un esempio di farmaci che si localizzano nella componente minerale e raggiungono gli osteoclasti durante il riassorbimento. Lo schema mette in relazione sede di deposito e cellula effettrice. La persistenza nel tessuto osseo aiuta a comprendere perché la durata dell’azione non coincida necessariamente con la sola presenza del farmaco nel sangue. L’approfondimento dei diversi meccanismi intracellulari della classe richiede un intervallo dedicato.\n\nL’inibizione del riassorbimento può essere ottenuta anche bloccando un segnale extracellulare, come avviene con denosumab. Due farmaci che riducono lo stesso processo possono quindi differire per bersaglio, distribuzione e persistenza. La categoria «antiriassorbitivo» descrive un effetto prevalente, non un’identità farmacologica completa.\n\nAnche il contesto ormonale partecipa al controllo del rimodellamento. Il collegamento con il capitolo sulla menopausa permette di collocare estrogeni e modulatori del loro recettore nel quadro generale, conservando le rispettive differenze. Per confrontare trattamenti conviene seguire una sequenza: sede dell’azione, segnale modificato, effetto cellulare e conseguenza sul ciclo. Solo dopo viene il confronto degli esiti clinici, che richiede studi appropriati.",
+      "text": "Un antiriassorbitivo interviene principalmente sul versante osteoclastico del rimodellamento. Poiché le fasi del ciclo sono accoppiate, la riduzione del riassorbimento può accompagnarsi a una riduzione secondaria della formazione. Questo andamento non è, da solo, prova di inefficacia: il bilancio dipende dalla differenza fra tessuto rimosso e restituito e dall’evoluzione della struttura ossea.\n\nI bisfosfonati costituiscono un esempio di farmaci che si localizzano nella componente minerale e raggiungono gli osteoclasti durante il riassorbimento. Lo schema mette in relazione sede di deposito e cellula effettrice. La persistenza nel tessuto osseo aiuta a comprendere perché la durata dell’azione non coincida necessariamente con la sola presenza del farmaco nel sangue. Le sezioni successive seguono questa relazione fino ai meccanismi intracellulari e alle differenze fra i prodotti.\n\nL’inibizione del riassorbimento può essere ottenuta anche bloccando un segnale extracellulare, come avviene con denosumab. Due farmaci che riducono lo stesso processo possono quindi differire per bersaglio, distribuzione e persistenza. La categoria «antiriassorbitivo» descrive un effetto prevalente, non un’identità farmacologica completa.\n\nAnche il contesto ormonale partecipa al controllo del rimodellamento. Il collegamento con il capitolo sulla menopausa permette di collocare estrogeni e modulatori del loro recettore nel quadro generale, conservando le rispettive differenze. Per confrontare trattamenti conviene seguire una sequenza: sede dell’azione, segnale modificato, effetto cellulare e conseguenza sul ciclo. Solo dopo viene il confronto degli esiti clinici, che richiede studi appropriati.",
       "formula": "Meno riassorbimento → meno attivazione dei cicli e modifica della formazione accoppiata. L’effetto netto non coincide con un singolo indicatore."
+    },
+    {
+      "id": "bisfosfonati-minerale",
+      "title": "Bisfosfonati: la struttura chimica dirige il farmaco verso il minerale",
+      "refs": [
+        "CFI",
+        "APP",
+        "KATZ",
+        "RANG"
+      ],
+      "text": "I bisfosfonati sono analoghi del pirofosfato nei quali il ponte P–O–P è sostituito da un ponte P–C–P. Questa modifica rende la struttura più resistente alla degradazione enzimatica. I gruppi fosfonato interagiscono con la componente minerale dell’osso, in particolare con l’idrossiapatite. La chimica della molecola contribuisce quindi a determinarne la distribuzione: il bersaglio viene raggiunto attraverso un deposito nel tessuto.\n\nIl legame al minerale è un adsorbimento alla superficie dei cristalli. È distinto dall’assorbimento intestinale, che indica il passaggio dal lume al circolo. È distinto anche dal riconoscimento di un recettore: l’affinità per l’idrossiapatite non implica l’attivazione di una proteina di membrana. In questo caso la distribuzione crea una concentrazione locale favorevole all’incontro con la cellula effettrice.\n\nQuando l’osteoclasto riassorbe una superficie mineralizzata, incontra il farmaco legato al tessuto e può internalizzarlo. Il percorso collega tre livelli: deposito extracellulare, captazione da parte della cellula e azione su processi intracellulari. Le superfici interessate dal rimodellamento sono particolarmente rilevanti perché rendono il deposito accessibile agli osteoclasti. L’affinità per l’osso, da sola, non descrive però il meccanismo con cui la cellula perde la capacità di riassorbire.\n\nI sostituenti legati al carbonio centrale modificano le proprietà dei diversi bisfosfonati. Per studiarli conviene distinguere affinità per il minerale e attività sul bersaglio intracellulare. Una tabella di potenza relativa misura un confronto in condizioni definite: non dimostra una riduzione delle fratture proporzionale al numero riportato. Anche una molecola molto potente deve raggiungere la sede d’azione, essere somministrata con una formulazione appropriata e mostrare un beneficio negli studi clinici.",
+      "formula": "Struttura P–C–P → legame alla superficie minerale → incontro con l’osteoclasto durante il riassorbimento → ingresso nella cellula."
+    },
+    {
+      "id": "bisfosfonati-fpps-prenilazione",
+      "title": "Dentro l’osteoclasto: analoghi dell’ATP e inibizione della FPPS",
+      "refs": [
+        "CFI",
+        "APP",
+        "KATZ",
+        "RANG",
+        "EMA-ACLASTA"
+      ],
+      "text": "La classe condivide una destinazione scheletrica, ma comprende meccanismi intracellulari differenti. I bisfosfonati non azotati, come etidronato e clodronato, possono essere convertiti nella cellula in analoghi dell’ATP non normalmente idrolizzabili. Il loro accumulo interferisce con funzioni cellulari e può condurre alla morte dell’osteoclasto. Il passaggio decisivo è quindi la formazione di metaboliti intracellulari capaci di alterare il funzionamento della cellula.\n\nNei bisfosfonati azotati, fra cui alendronato, risedronato, ibandronato e zoledronato, un bersaglio fondamentale è la farnesil-pirofosfato sintasi, abbreviata FPPS. Questo enzima appartiene alla via del mevalonato e contribuisce alla produzione di intermedi isoprenoidi. Il RCP europeo di Aclasta conferma la FPPS come principale bersaglio molecolare dello zoledronato nell’osteoclasto. Si tratta di un enzima intracellulare, mentre RANK è un recettore di superficie e RANKL il suo ligando.\n\nGli intermedi farnesilici e geranilgeranilici servono alla prenilazione di diverse proteine. La prenilazione aggiunge gruppi lipidici che ne favoriscono la corretta localizzazione e funzione. Nell’osteoclasto, proteine regolatrici così modificate partecipano all’organizzazione del citoscheletro, al traffico delle vescicole e alla trasmissione dei segnali. Ridurre la disponibilità degli intermedi può compromettere questi processi e, di conseguenza, l’apparato necessario al riassorbimento.\n\nLa perdita di funzione può accompagnarsi all’apoptosi, ma descrivere tutto come semplice «uccisione degli osteoclasti» nasconde la catena biochimica. La sequenza utile è enzima, intermedi, modificazione delle proteine, organizzazione cellulare e riassorbimento. La via del mevalonato è coinvolta anche nell’azione delle statine, che hanno come bersaglio la HMG-CoA reduttasi: ciò non rende equivalenti i due gruppi. Per i bisfosfonati azotati qui considerati il collegamento didattico principale è FPPS–prenilazione–osteoclasto, non una generica riduzione del colesterolo.",
+      "formula": "Non azotati → analoghi intracellulari dell’ATP. Azotati → inibizione FPPS → meno intermedi per la prenilazione → alterata funzione osteoclastica."
+    },
+    {
+      "id": "bisfosfonati-assorbimento-deposito",
+      "title": "Tre tempi diversi: assorbimento, circolazione e permanenza nell’osso",
+      "refs": [
+        "CFI",
+        "APP",
+        "KATZ",
+        "RANG",
+        "FII-B",
+        "EMC-RISED"
+      ],
+      "text": "Per interpretare la farmacocinetica dei bisfosfonati occorre seguire la dose attraverso compartimenti diversi. Dopo somministrazione orale, soltanto una piccola quota raggiunge il circolo. Cibo e cationi polivalenti possono ridurne ulteriormente l’assorbimento: la scheda del risedronato richiama, fra gli altri, calcio, magnesio, ferro e alluminio. La necessità di distanziare un preparato orale da determinati alimenti o medicinali nasce dunque da un’interazione nel tratto gastrointestinale.\n\nLa quantità che rimane nel lume e viene eliminata con le feci non coincide con quella assorbita e successivamente eliminata dal rene. Confondere queste due quote porta a descrivere come eliminazione sistemica ciò che non è mai entrato nella circolazione. Inoltre, percentuali misurate per un prodotto e in particolari condizioni non costituiscono una costante dell’intera classe. Per ricostruire un bilancio della dose occorrono dati riferiti alla stessa molecola, via, formulazione e finestra temporale.\n\nUna parte del farmaco circolante viene trattenuta nel minerale osseo; la quota sistemicamente disponibile può essere eliminata per via renale senza trasformazioni metaboliche rilevanti. Per questo la rapida diminuzione della concentrazione plasmatica non dimostra che tutto il farmaco sia già uscito dall’organismo. Una frazione può essere passata in un deposito dal quale il ritorno al circolo avviene lentamente, in relazione anche al rimodellamento del tessuto.\n\nL’esempio del deposito osseo compare anche nei materiali di Farmacologia II, come richiamo alla persistenza dei farmaci. Il collegamento è utile purché si distingua il legame al minerale dall’accumulo di medicinali lipofili in altri tessuti. Per i bisfosfonati il deposito non richiede di attribuire alla classe un’elevata liposolubilità. Infine, persistenza nel tessuto, durata dell’inibizione del riassorbimento e tempo necessario a osservare una riduzione delle fratture sono grandezze differenti: una sola emivita non le riassume.",
+      "formula": "Dose orale → quota non assorbita / quota assorbita. Dal circolo → deposito osseo + eliminazione renale. Calo plasmatico ≠ esaurimento del deposito."
+    },
+    {
+      "id": "bisfosfonati-vie-e-rischi",
+      "title": "Dalla classe al prodotto: via, tollerabilità e prova del beneficio",
+      "refs": [
+        "CFI",
+        "APP",
+        "KATZ",
+        "RANG",
+        "NOGG6",
+        "EMA-ACLASTA",
+        "EMA-BONVIVA",
+        "EMC-RISED"
+      ],
+      "text": "La via di somministrazione appartiene al prodotto concreto. NOGG descrive alendronato e risedronato orali e zoledronato endovenoso; per ibandronato esistono preparazioni orali ed endovenose, documentate anche da EMA per Bonviva. Questi esempi correggono una lettura troppo uniforme della classe. Le presentazioni autorizzate non dimostrano, da sole, la disponibilità commerciale di ogni formulazione in ogni Paese.\n\nPer i preparati orali, la scarsa biodisponibilità e il contatto con la mucosa spiegano due problemi distinti: quanto farmaco viene assorbito e come viene tollerata la somministrazione. Il risedronato richiede specifiche modalità di assunzione e precauzioni esofagee secondo la propria scheda. Non è corretto dedurre che qualsiasi disturbo si risolva automaticamente con un gastroprotettore o con una riduzione della dose; le condizioni del paziente e le istruzioni del prodotto restano determinanti.\n\nLa somministrazione endovenosa evita il passaggio dell’assorbimento intestinale, ma conserva altri aspetti da valutare. Per Aclasta, EMA segnala ipocalcemia, limitazioni legate alla funzione renale e reazioni di fase acuta dopo l’infusione. La stessa documentazione descrive osteonecrosi della mandibola e fratture femorali atipiche e considera, per il rischio orale, esposizione cumulativa, malattie concomitanti e condizioni odontoiatriche. Il solo nome della via non riassume quindi il profilo di sicurezza.\n\nAnche il beneficio va specificato per esito e popolazione. La sintesi EMA di Bonviva distingue la riduzione delle fratture vertebrali dall’efficacia sulle fratture del collo femorale, che non risulta stabilita. Questo esempio mostra perché la comune inibizione del riassorbimento non autorizzi a trasferire automaticamente ogni risultato fra molecole. Per un confronto corretto vanno tenuti insieme meccanismo, esposizione, contesto clinico ed esito studiato. La mappa del capitolo aiuta a porre queste domande; non sostituisce una scelta terapeutica individuale.",
+      "formula": "Meccanismo di classe → prodotto e via → esposizione e tollerabilità → esito studiato nella popolazione pertinente."
     },
     {
       "id": "denosumab-e-romosozumab",
@@ -114,7 +169,7 @@ export const THEORY_BONE = Object.freeze({
         "RANG",
         "EMA-OSSEOR"
       ],
-      "text": "Il percorso di studio può essere organizzato in quattro domande. Quale struttura o processo contribuisce alla fragilità? Quale cellula lo controlla? Quale segnale raggiunge quella cellula? Quale farmaco modifica il segnale o la sua risposta? In questo modo la patologia si collega a recettori e medicinali attraverso passaggi espliciti.\n\nLa distinzione tra farmaci antiriassorbitivi e farmaci che favoriscono la formazione rimane utile, purché si ricordi l’accoppiamento del ciclo. Un trattamento può ridurre secondariamente anche la formazione o modificare entrambi i versanti. Il saldo finale e la riduzione delle fratture richiedono un livello di osservazione ulteriore rispetto alla sola azione su una cellula.\n\nLe tabelle storiche aiutano a ricostruire l’evoluzione della materia, ma non definiscono automaticamente le opzioni oggi disponibili. Per esempio, EMA riporta il ritiro dell’autorizzazione europea di Osseor, a base di ranelato di stronzio, nel 2020 su richiesta del titolare per ragioni commerciali. Il dato riguarda quel prodotto e quell’ambito regolatorio; non autorizza conclusioni universali su tutti i Paesi.\n\nQuesto capitolo sviluppa i fondamenti del rimodellamento e una prima mappa dei bersagli. Sono ancora da approfondire i singoli bisfosfonati, gli altri agenti che promuovono la formazione, le cause secondarie e i confronti terapeutici. Le pagine esaminate dei libri e dei materiali del corso sostengono una sintesi didattica circoscritta. Le verifiche ufficiali selezionate aggiornano alcuni punti clinici, senza costituire una revisione clinica indipendente o un protocollo di trattamento.",
+      "text": "Il percorso di studio può essere organizzato in quattro domande. Quale struttura o processo contribuisce alla fragilità? Quale cellula lo controlla? Quale segnale raggiunge quella cellula? Quale farmaco modifica il segnale o la sua risposta? In questo modo la patologia si collega a recettori e medicinali attraverso passaggi espliciti.\n\nLa distinzione tra farmaci antiriassorbitivi e farmaci che favoriscono la formazione rimane utile, purché si ricordi l’accoppiamento del ciclo. Un trattamento può ridurre secondariamente anche la formazione o modificare entrambi i versanti. Il saldo finale e la riduzione delle fratture richiedono un livello di osservazione ulteriore rispetto alla sola azione su una cellula.\n\nLe tabelle storiche aiutano a ricostruire l’evoluzione della materia, ma non definiscono automaticamente le opzioni oggi disponibili. Per esempio, EMA riporta il ritiro dell’autorizzazione europea di Osseor, a base di ranelato di stronzio, nel 2020 su richiesta del titolare per ragioni commerciali. Il dato riguarda quel prodotto e quell’ambito regolatorio; non autorizza conclusioni universali su tutti i Paesi.\n\nQuesto capitolo sviluppa i fondamenti del rimodellamento e collega struttura, distribuzione e meccanismi dei bisfosfonati. Sono ancora da approfondire i profili completi dei singoli prodotti, gli altri agenti che promuovono la formazione, le cause secondarie e i confronti terapeutici. Le pagine esaminate dei libri e dei materiali del corso sostengono una sintesi didattica circoscritta. Le verifiche ufficiali selezionate aggiornano alcuni punti clinici, senza costituire una revisione clinica indipendente o un protocollo di trattamento.",
       "formula": "Patologia → processo → cellula → segnale → farmaco → esiti clinici. Ogni passaggio richiede una prova appropriata."
     }
   ],
@@ -162,28 +217,48 @@ export const THEORY_BONE = Object.freeze({
     {
       "question": "Una tabella del corso dimostra che un prodotto è attualmente disponibile?",
       "answer": "No. Disponibilità e autorizzazione dipendono dal prodotto, dal Paese e dal momento; occorre una verifica regolatoria aggiornata."
+    },
+    {
+      "question": "Il legame all’idrossiapatite equivale al legame a un recettore?",
+      "answer": "No. È un’interazione con il minerale che indirizza la distribuzione; l’azione intracellulare degli azotati coinvolge poi la FPPS."
+    },
+    {
+      "question": "Come differiscono i principali meccanismi dei bisfosfonati non azotati e azotati?",
+      "answer": "I non azotati possono formare analoghi intracellulari dell’ATP; gli azotati inibiscono la FPPS e compromettono la disponibilità di intermedi per la prenilazione."
+    },
+    {
+      "question": "Perché la prenilazione è rilevante per il riassorbimento osseo?",
+      "answer": "Aiuta diverse proteine a localizzarsi e funzionare correttamente; la sua alterazione compromette segnali, citoscheletro e traffico vescicolare dell’osteoclasto."
+    },
+    {
+      "question": "Una concentrazione plasmatica bassa indica che il bisfosfonato è tutto eliminato?",
+      "answer": "No. Una parte può trovarsi nel deposito minerale; andamento plasmatico, permanenza ossea e beneficio clinico hanno tempi distinti."
+    },
+    {
+      "question": "Una maggiore potenza sul riassorbimento prova una maggiore prevenzione di ogni frattura?",
+      "answer": "No. La prova clinica dipende da molecola, esposizione, popolazione ed esito; non si ricava da una scala sperimentale di potenza."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 855–860, etichette 853–858. PDF 855 già letta;856–860 nuove. Testo e figure esaminati; tabella 860 con margine destro tagliato, dosi escluse. Passaggi selezionati integrati da 855–859."
+      "detail": "PDF 855–865, etichette 853–863. In questo lotto lette 861–865; 855–859 già documentate. La 860 resta parziale per il margine tagliato ed è esclusa. Integrati passaggi di dieci pagine; figure condivise riconosciute."
     },
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I · 2025–26",
-      "detail": "Lezione 20 del 3 dicembre 2025, PDF 336, stampata 331, pagina 1 della lezione. Pagina già letta e riletta; figure condivise con le diapositive, non prove indipendenti."
+      "detail": "Lezione 20 del 3 dicembre 2025: PDF 336–338, stampate 331–333, pagine 1–3 della lezione. 337–338 nuove letture; 336 già documentata. Figure condivise con le diapositive; note di anno precedente senza attribuzione autonoma."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX edizione italiana 2014 / XII originale 2012. PDF 884–887, pagine editoriali 864–867: inizio del capitolo 42, figure 42-1/42-2 e tabella 42-1. Testo e figure controllati; capitolo intero non letto."
+      "detail": "IX italiana 2014 / XII originale 2012. PDF 884–892, editoriali 864–872. 888–892 nuove letture; integrati solo passaggi selezionati di 891–892 nel lotto attuale. 888–890 lette come contesto senza nuova integrazione; nessuna lettura dell’intero capitolo."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII edizione italiana 2016 / originale 2015. PDF 685–687, inizio del capitolo 36, figure 36.1 e 36.2. Testo e figure controllati; numerazione editoriale non visibile; prosecuzione a 688 non letta."
+      "detail": "VIII italiana 2016 / originale 2015. PDF 685–689 e 692–694: nuove letture 688–689 e 692–694, integrati nel lotto solo passaggi 692–693. 690–691 non lette; numerazione editoriale non visibile. Figure 36.3–36.5 controllate; libro non letto integralmente."
     },
     {
       "id": "ODS",
@@ -200,7 +275,7 @@ export const THEORY_BONE = Object.freeze({
     {
       "id": "NOGG6",
       "title": "NOGG2024 · Opzioni farmacologiche, sezione6",
-      "detail": "Versione ufficiale con aggiornamento dicembre 2024, consultata 19 novembre 2026: raccomandazioni iniziali e quadro dei meccanismi. Ambito britannico; nessuna lettura integrale della linea guida.",
+      "detail": "Versione ufficiale con aggiornamento dicembre 2024, consultata 19 novembre 2026: raccomandazioni iniziali e quadro dei meccanismi. Ambito britannico; nessuna lettura integrale della linea guida. In questo lotto: passaggi specifici sui bisfosfonati, vie e differenze degli esiti.",
       "url": "https://www.nogg.org.uk/full-guideline/section-6-pharmacological-treatment-options"
     },
     {
@@ -226,6 +301,29 @@ export const THEORY_BONE = Object.freeze({
       "title": "EMA · Osseor, autorizzazione ritirata",
       "detail": "Consultazione 19 novembre 2026: avviso relativo al prodotto e all’autorizzazione europea, ritirata 14 aprile 2020.",
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/osseor"
+    },
+    {
+      "id": "FII-B",
+      "title": "Appunti del corso di Farmacologia II · canale B · 2024–25",
+      "detail": "PDF 54, stampata 53: testo principale letto e pagina ispezionata. Integrato solo richiamo al deposito osseo. Figure antiaritmiche fuori scopo, etichette minute non controllate integralmente. Intestazione del blocco: lezione 4, 15 ottobre 2024, PDF 45 verificata solo come metadato."
+    },
+    {
+      "id": "EMA-ACLASTA",
+      "title": "EMA · Aclasta / acido zoledronico, informazioni del prodotto",
+      "detail": "Consultazione 19 novembre 2026: passaggi selezionati §§4.2–4.4, 5.1 e 5.2, PDF 3–5,10,15–16; meccanismo, distribuzione, via e rischi. Documento inglese, aggiornamento della pagina EMA 20 aprile 2026; RCP completo non letto.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/aclasta-epar-product-information_en.pdf"
+    },
+    {
+      "id": "EMA-BONVIVA",
+      "title": "EMA · Bonviva / acido ibandronico, sintesi pubblica",
+      "detail": "Consultazione 19 novembre 2026: prima pagina della sintesi ufficiale indicizzata, formulazioni ed esiti di frattura. Confrontata la pagina delle presentazioni autorizzate; non lettura dell’intero RCP, disponibilità italiana non verificata.",
+      "url": "https://www.ema.europa.eu/en/documents/overview/bonviva-epar-summary-public_en.pdf"
+    },
+    {
+      "id": "EMC-RISED",
+      "title": "emc · Risedronate sodium 35 mg, scheda del prodotto",
+      "detail": "Consultazione 19 novembre 2026: §§4.2–4.4 e passaggi 4.5/5.2; assorbimento, cationi e precauzioni. Scheda britannica del produttore, non intero documento né RCP italiano.",
+      "url": "https://www.medicines.org.uk/emc/product/3028/smpc"
     }
   ],
   "moleculeLinks": [
@@ -248,6 +346,18 @@ export const THEORY_BONE = Object.freeze({
     {
       "id": "CHEMBL846",
       "label": "CALCITRIOL"
+    },
+    {
+      "id": "CHEMBL923",
+      "label": "RISEDRONIC ACID"
+    },
+    {
+      "id": "CHEMBL4303669",
+      "label": "ZOLEDRONIC ACID"
+    },
+    {
+      "id": "CHEMBL997",
+      "label": "IBANDRONIC ACID"
     }
   ],
   "relatedExistingChapterIds": [
@@ -261,6 +371,6 @@ export const THEORY_BONE = Object.freeze({
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-19",
   "readingManifest": "./data/rimodellamento-osseo-osteoporosi-reading.json",
-  "coverage": "14 pagine locali esaminate: 12 nuove e 2 già documentate. Testo completo di 13 pagine; lettura parziale della tabella 860, con margine destro tagliato. Figure controllate su 14 pagine; passaggi selezionati da 13 integrati. Verifiche ufficiali circoscritte; corsi e libri non letti integralmente. Nessuna revisione clinica indipendente.",
-  "wordCount": 2251
+  "coverage": "18 nuove pagine di testo principale lette; 12 con passaggi integrati. Copertura cumulativa: 31 testi completi, 32 pagine ispezionate e 25 integrate. Tabella 860 parziale; figure antiaritmiche della pagina 54 fuori scopo. Libri e corsi consultati per intervalli; verifica ufficiale circoscritta, nessuna revisione clinica indipendente.",
+  "wordCount": 3315
 });

@@ -1,19 +1,20 @@
 {
   "schemaVersion": 1,
   "chapterId": "rimodellamento-osseo-osteoporosi",
-  "batch": "theory-course-856-860",
+  "batch": "theory-course-861-865",
   "reviewedAt": "2026-11-19T13:28:08.084675+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "0c0801bb34b71e5eac32f77729f56d6d0aae48afc9797cebffdda860a6332e1f",
+  "moduleSha256": "4d446014401005786cac7e870dc12557260d77001bfc85850d4a7f8632dbec05",
   "checks": [
-    "Rilette10sezioni originali,11quesiti,10schemi qualitativi e11riferimenti.",
-    "Verificati ruoliOB/OC/osteociti, matrice-mineralizzazione, RANK/RANKL/OPG, PTHintermittente, targetdenosumab e duplice effettoromosozumab.",
-    "Dati storici e ambiti regolatori distinti; nessuna dose o istruzione autonoma di sospensione.",
-    "13testi completi e1tabella parziale distinti;13pagine con passaggi integrati.",
-    "Cinque collegamenti a identità esistenti; nessuna nuova sintesi o profilo farmacologico."
+    "Rilette le quattro nuove sezioni, cinque quesiti e quattro schemi; controllata continuità con le dieci sezioni precedenti.",
+    "Separati affinità minerale, bersaglio intracellulare e recettore; distinti non azotati/analoghiATP e azotati/FPPS/prenilazione.",
+    "Distinti mancato assorbimento, escrezione renale, deposito osseo e tempo del beneficio; nessuna percentuale generale.",
+    "Vie e rischi riferiti ai prodotti e alle fonti ufficiali selezionate, esito vertebrale distinto da frattura del collo femorale.",
+    "31 testi principali completi e una pagina parziale nel cumulativo; limite delle figureFII-B54 esplicito.13 testi precedenti non ricontati come nuove letture.",
+    "Nessuna nuova identità o profilo; tre collegamenti a molecole già presenti e65 altri capitoli preservati da verificare strutturalmente."
   ],
   "conflicts": [
     {
@@ -87,16 +88,96 @@
       "issue": "KATZ887 prosa sulle forme disponibili non coincide con ampiezza della tabella42-1.",
       "resolution": "Usato solo percorso metabolico, nessuna disponibilità commerciale dedotta.",
       "status": "excluded_availability_claim"
+    },
+    {
+      "id": "bp-shared-figures",
+      "issue": "CFI862/APP338 e CFI863/APP337 condividono pannelli.",
+      "resolution": "Deduplicazione visiva; nessuna conferma indipendente o ripubblicazione.",
+      "status": "deduplicated"
+    },
+    {
+      "id": "bp-routes",
+      "issue": "CFI862 attribuisce vie IV/IM a risedronato e IM a zoledronato; ibandronato solo orale.",
+      "resolution": "Corretto quadro dei prodotti con NOGG, EMA e scheda del risedronato; nessuna disponibilità nazionale dedotta.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "bp-potency",
+      "issue": "Potenza relativa presentata come efficacia; tabella generazioni incoerente con zoledronato azotato in RANG692.",
+      "resolution": "Distinti meccanismo e risultato clinico; escluse scale numeriche e classificazione per generazioni.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "bp-bioavailability",
+      "issue": "CFI865: testo1–5% e immagine<1%; appunti con frazioni universali.",
+      "resolution": "Descrizione qualitativa, distinti mancato assorbimento e escrezione renale; scheda di prodotto per i dettagli.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "bp-prenylation",
+      "issue": "Diagramma CFI864 semplifica via verso colesterolo; FPPS può essere confusa con bersaglio delle statine.",
+      "resolution": "Esplicitata prenilazione e distinto bersaglio HMG-CoA reduttasi; non azotati e analoghiATP da RANG692.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "bp-strontium",
+      "issue": "APP337 associa stronzio ad analoghiPTH e tumore osseo.",
+      "resolution": "Associazione errata esclusa; ranelato non presentato come analogo del PTH.",
+      "status": "excluded"
+    },
+    {
+      "id": "bp-time",
+      "issue": "APP337 contrappone effettoIV6mesi ad anni e FII-B54 accosta deposito osseo a liposolubilità nel discorso su amiodarone.",
+      "resolution": "Distinti assorbimento, plasma, deposito e tempo degli esiti; liposolubilità non attribuita ai BP.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "bp-gastroprotection",
+      "issue": "APP338 suggerisce riduzione dose e gastroprotezione automatiche.",
+      "resolution": "Non trasferite; spiegati livelli distinti di assorbimento/tollerabilità con precauzioni della scheda risedronato.",
+      "status": "excluded"
+    },
+    {
+      "id": "bp-renal",
+      "issue": "KATZ892 propone riduzione dose generalizzata in insufficienza renale.",
+      "resolution": "Rischio e limitazioni dipendono dal prodotto; nessuna riduzione universale. Confronto Aclasta e risedronato.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "bp-old-safety",
+      "issue": "KATZ892 minimizza effetti avversi e riporta assenza segnalazioni ONJ/AFF per denosumab.",
+      "resolution": "Non trasferite affermazioni storiche; quadro aggiornato di rischi già presente e confronto EMA per Aclasta.",
+      "status": "excluded"
+    },
+    {
+      "id": "bp-out-of-scope-endocrine",
+      "issue": "RANG688: OPG identica aRANK e calcio libero/totalemal etichettati; RANG689 conversione alfacalcidolo ambigua.",
+      "resolution": "Passaggi non integrati; capitolo mantiene distinzione OPG/RANK e calcio totale/ionizzato.",
+      "status": "excluded"
+    },
+    {
+      "id": "bp-out-of-scope-694",
+      "issue": "RANG694 contiene generalizzazioni su PTH1/PTH2, metabolita raloxifene e risoluzione osteoporosi.",
+      "resolution": "Pagina letta ma non integrata; nessuna nuova conclusione clinica su queste molecole.",
+      "status": "excluded"
+    },
+    {
+      "id": "bp-fii-figure-limit",
+      "issue": "FII-B54 contiene figure antiaritmiche con etichette minute.",
+      "resolution": "Testo principale completo, pagina ispezionata; figure estranee non analizzate integralmente e non integrate.",
+      "status": "unresolved_source_limit"
     }
   ],
   "limits": [
-    "Sintesi didattica e controllo editoriale del solo integratore; revisione clinica indipendente non eseguita.",
-    "14 pagine esaminate: 12 nuove identità di pagina e 2 già lette. Lettura completa del testo di 13 pagine (11 nuove e 2 rilette); CFI860 solo parziale per margine destro della tabella tagliato. Figure ispezionate su tutte le14 pagine.",
-    "Passaggi selezionati da13 pagine integrati; CFI860 esclusa. Le figure condivise da appunti e diapositive costituiscono riuso, non conferma indipendente.",
-    "Libri e corsi consultati solo nelle pagine elencate. Nessuna lettura di CFI861–865, KATZ888 o RANG688; i capitoli dei libri proseguono oltre il limite letto.",
-    "Confronto ufficiale limitato alle sezioni registrate. NOGG ha ambito britannico, FDA statunitense, EMA europeo; nessun RCP italiano completo o percorso locale verificato.",
-    "Evenity: sintesi ufficiale indicizzata letta; accesso diretto429. IUPHAR reindirizza a login: scheda recettoriale non dichiarata letta.",
-    "Riconciliazione dei contributi di FarmacologiaII e degli altri materiali del corso ancora incompleta: sola ricerca automatica di occorrenze in estrazioni preesistenti, nessuna nuova lettura loro attribuita.",
-    "Dosi, soglie diagnostiche, calendari di sospensione o transizione e confronti quantitativi di efficacia non trasferiti. Singoli bisfosfonati, altri agenti e cause secondarie richiedono approfondimenti successivi."
-  ]
+    "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
+    "Questo lotto aggiunge18 testi principali completi e18 pagine ispezionate;12 pagine con passaggi integrati,6 lette senza nuova integrazione. Il capitolo documenta cumulativamente31 testi completi,32 pagine ispezionate e25 pagine integrate;13 testi e14 ispezioni provengono dal lotto precedente.",
+    "CFI860 resta parziale per il margine destro tagliato ed esclusa dalla sintesi. In FII-B54 il testo principale è completo; le etichette minute delle figure antiaritmiche non sono verificate integralmente e le figure restano fuori scopo.",
+    "CFI861–865,APP337–338,KATZ888–892,RANG688–689/692–694 eFII-B54 sono intervalli circoscritti. RANG690–691 e CFI866–870 non letti; nessun libro o corso intero dichiarato letto.",
+    "Figure condivise da appunti e diapositive riconosciute come riuso. Nessun PDF, trascrizione, fotografia clinica o figura originale pubblicati.",
+    "Fonti ufficiali consultate nelle sole sezioni registrate: EMA europea, NOGG e scheda emc britanniche, FDA statunitense. Nessun RCP italiano completo o disponibilità locale verificati.",
+    "La pagina di FarmacologiaII è del2024–25 e integra solo un richiamo al deposito; riconciliazione degli altri anni, lezioni e contributi ancora incompleta. IntestazionePDF45 verificata come solo metadato, esclusa dai conteggi di lettura.",
+    "Nessuna dose, soglia diagnostica o calendario di sospensione trasferito. Profili dei singoli farmaci, altri agenti e cause secondarie restano da approfondire.",
+    "Evenity resta documentato da sintesi ufficiale indicizzata del lotto precedente; accesso diretto429. IUPHAR non letto (login). Bonviva: sintesi e presentazioni indicizzate; nessuna lettura completa delRCP."
+  ],
+  "updatedAt": "2026-11-19T14:24:03.250968+00:00"
 }
