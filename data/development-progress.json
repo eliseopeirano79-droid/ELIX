@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-11-19T13:33:38.542655+00:00",
-  "batch": "theory-course-856-860",
+  "updatedAt": "2026-11-19T14:26:48.160101+00:00",
+  "batch": "theory-course-861-865",
   "status": "locally_verified_pending_publication",
-  "release": "0.108.0",
-  "branch": "feat/theory-course-856-860",
-  "baseCommit": "aff3ac5f759be8b04bb683e332751bc949c7aaf9",
+  "release": "0.109.0",
+  "branch": "feat/theory-course-861-865",
+  "baseCommit": "6a0531d52c89cd802cf280d6ae7dbb2b111c9a47",
   "previousBatch": {
-    "batch": "theory-course-846-850",
-    "release": "0.107.0",
-    "commit": "aff3ac5f759be8b04bb683e332751bc949c7aaf9",
+    "batch": "theory-course-856-860",
+    "release": "0.108.0",
+    "commit": "6a0531d52c89cd802cf280d6ae7dbb2b111c9a47",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Nuovo capitolo esteso: rimodellamento osseo, osteoporosi e primi bersagli farmacologici."
+    "Ampliamento del capitolo osseo: struttura, meccanismi, distribuzione e limiti clinici dei bisfosfonati."
   ],
   "completed": [
-    "10sezioni,2251parole,11quesiti,10schemi originali;65capitoli precedenti preservati.",
-    "14pagine esaminate,13testi completi e1tabella parziale;13pagine integrate.",
-    "Confronto ufficiale mirato e revisione editoriale del solo integratore.",
-    "Superati51 validatori e8 configurazioni desktop/mobile nei due temi; navigazione,tastiera,ricerche e offline verificati.",
-    "Otto immagini ispezionate; aggiornamento reale0.107.0→0.108.0 conserva preferiti,progressi e tema.65capitoli precedenti invariati."
+    "18 testi principali completi e18 pagine ispezionate;12 nuove pagine con passaggi integrati.",
+    "Quattro nuove sezioni,cinque quesiti,quattro schemi originali; tre nuovi collegamenti a identità esistenti.",
+    "Revisione editoriale mirata eseguita dal solo integratore; nessuna revisione clinica indipendente.",
+    "Superati51 validatori,8 configurazioni desktop/mobile nei due temi,ricerca,link,tastiera e offline.",
+    "12 immagini ispezionate; aggiornamento reale0.108.0→0.109.0 conserva preferiti,progressi e tema.65 altri capitoli invariati."
   ],
   "remaining": [
-    "Commit, CI, deploy e riscontro online."
+    "Commit,CI,deploy e riscontro online."
   ],
   "counts": {
     "identities": 4225,
@@ -41,30 +41,31 @@
     "newProductPKContexts": 0,
     "newPKFields": 0,
     "newTargetProfiles": 0,
-    "newChapters": 1,
-    "expandedChapters": 0,
+    "newChapters": 0,
+    "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 10,
-    "expandedSections": 0,
-    "newLinksToExistingIdentities": 5,
-    "newStaticOriginalSchemas": 10,
-    "newSelfChecks": 11,
+    "newSections": 4,
+    "expandedSections": 2,
+    "newLinksToExistingIdentities": 3,
+    "newStaticOriginalSchemas": 4,
+    "newSelfChecks": 5,
     "unchangedExistingChapters": 65
   },
   "readingManifests": [
     "data/rimodellamento-osseo-osteoporosi-reading.json"
   ],
   "limits": [
-    "Sintesi didattica e controllo editoriale del solo integratore; revisione clinica indipendente non eseguita.",
-    "14 pagine esaminate: 12 nuove identità di pagina e 2 già lette. Lettura completa del testo di 13 pagine (11 nuove e 2 rilette); CFI860 solo parziale per margine destro della tabella tagliato. Figure ispezionate su tutte le14 pagine.",
-    "Passaggi selezionati da13 pagine integrati; CFI860 esclusa. Le figure condivise da appunti e diapositive costituiscono riuso, non conferma indipendente.",
-    "Libri e corsi consultati solo nelle pagine elencate. Nessuna lettura di CFI861–865, KATZ888 o RANG688; i capitoli dei libri proseguono oltre il limite letto.",
-    "Confronto ufficiale limitato alle sezioni registrate. NOGG ha ambito britannico, FDA statunitense, EMA europeo; nessun RCP italiano completo o percorso locale verificato.",
-    "Evenity: sintesi ufficiale indicizzata letta; accesso diretto429. IUPHAR reindirizza a login: scheda recettoriale non dichiarata letta.",
-    "Riconciliazione dei contributi di FarmacologiaII e degli altri materiali del corso ancora incompleta: sola ricerca automatica di occorrenze in estrazioni preesistenti, nessuna nuova lettura loro attribuita.",
-    "Dosi, soglie diagnostiche, calendari di sospensione o transizione e confronti quantitativi di efficacia non trasferiti. Singoli bisfosfonati, altri agenti e cause secondarie richiedono approfondimenti successivi."
+    "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
+    "Questo lotto aggiunge18 testi principali completi e18 pagine ispezionate;12 pagine con passaggi integrati,6 lette senza nuova integrazione. Il capitolo documenta cumulativamente31 testi completi,32 pagine ispezionate e25 pagine integrate;13 testi e14 ispezioni provengono dal lotto precedente.",
+    "CFI860 resta parziale per il margine destro tagliato ed esclusa dalla sintesi. In FII-B54 il testo principale è completo; le etichette minute delle figure antiaritmiche non sono verificate integralmente e le figure restano fuori scopo.",
+    "CFI861–865,APP337–338,KATZ888–892,RANG688–689/692–694 eFII-B54 sono intervalli circoscritti. RANG690–691 e CFI866–870 non letti; nessun libro o corso intero dichiarato letto.",
+    "Figure condivise da appunti e diapositive riconosciute come riuso. Nessun PDF, trascrizione, fotografia clinica o figura originale pubblicati.",
+    "Fonti ufficiali consultate nelle sole sezioni registrate: EMA europea, NOGG e scheda emc britanniche, FDA statunitense. Nessun RCP italiano completo o disponibilità locale verificati.",
+    "La pagina di FarmacologiaII è del2024–25 e integra solo un richiamo al deposito; riconciliazione degli altri anni, lezioni e contributi ancora incompleta. IntestazionePDF45 verificata come solo metadato, esclusa dai conteggi di lettura.",
+    "Nessuna dose, soglia diagnostica o calendario di sospensione trasferito. Profili dei singoli farmaci, altri agenti e cause secondarie restano da approfondire.",
+    "Evenity resta documentato da sintesi ufficiale indicizzata del lotto precedente; accesso diretto429. IUPHAR non letto (login). Bonviva: sintesi e presentazioni indicizzate; nessuna lettura completa delRCP."
   ],
-  "nextBatch": "Completare856–860;861–865 non iniziato.",
+  "nextBatch": "Completare861–865;866–870 non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",
