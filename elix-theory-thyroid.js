@@ -98,6 +98,20 @@ export const THEORY_THYROID = Object.freeze({
       "text": "Gli ormoni tiroidei partecipano alla regolazione del metabolismo energetico e allo sviluppo. In molti tessuti aumentano il ricambio dei substrati, il consumo di energia e la produzione di calore. Le vie dei carboidrati, dei lipidi e delle proteine interagiscono con insulina, catecolamine e altri segnali: non sono interruttori isolati che T3 accende sempre nella stessa direzione.\n\nL’aumento della sintesi di determinate proteine può convivere con un maggiore turnover e, nell’eccesso ormonale, con perdita di massa e debolezza. Analogamente, una maggiore mobilizzazione degli acidi grassi non equivale a un beneficio metabolico. Il cambiamento di una singola via va interpretato insieme al bilancio complessivo di produzione, consumo e disponibilità dei substrati.\n\nIl cuore rende evidente il collegamento fra regolazione molecolare e funzione d’organo. Una maggiore attività tiroidea può aumentare frequenza e lavoro cardiaco; un’esposizione eccessiva favorisce palpitazioni e aritmie. La risposta cardiovascolare contribuisce ai sintomi dell’ipertiroidismo e spiega perché la sostituzione ormonale richieda particolare attenzione quando la riserva cardiaca è ridotta. Non basta conoscere il recettore per prevedere la tolleranza del paziente.\n\nCrescita, maturazione scheletrica e sviluppo del sistema nervoso richiedono una disponibilità ormonale adeguata nei rispettivi periodi della vita. Le manifestazioni della carenza o dell’eccesso dipendono pertanto anche dall’età e dalla durata dell’alterazione. Intolleranza al freddo, stanchezza, tremore o variazioni di peso possono orientare il ragionamento, ma nessuno di questi elementi isolati è una misura specifica della funzione tiroidea.\n\nNel confronto fra carenza ed eccesso, la cute fredda e secca o la maggiore sudorazione riflettono aspetti della termoregolazione; rallentamento e agitazione descrivono possibili manifestazioni, non criteri diagnostici autosufficienti. Anche la debolezza può comparire in quadri diversi. L’orbitopatia associata a Graves, invece, rimanda a un contesto autoimmune specifico e non è una conseguenza obbligata di qualsiasi tireotossicosi. Una tabella di segni serve a organizzare ipotesi, non a classificare una persona sulla base di una singola voce.\n\nUna parte delle manifestazioni cardiovascolari e del tremore richiama la stimolazione adrenergica, ma non richiede necessariamente un aumento delle catecolamine circolanti. Gli ormoni tiroidei possono modificare l’espressione dei recettori β e la risposta dei sistemi di segnalazione: a parità di segnale adrenergico, il tessuto può rispondere diversamente. Occorre quindi distinguere la quantità del mediatore dalla sensibilità del bersaglio. Questo collegamento integra gli effetti diretti della regolazione tiroidea e spiega perché un sintomo apparentemente «adrenergico» non identifichi da solo la sua causa."
     },
     {
+      "id": "ipotiroidismo-sede-e-funzione",
+      "title": "Ipotiroidismo: distinguere la ghiandola dal comando centrale",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "RANG",
+        "APP",
+        "ETAC",
+        "ATAHA"
+      ],
+      "text": "Il termine ipotiroidismo descrive una disponibilità o un’azione insufficiente degli ormoni tiroidei; per comprenderne il trattamento occorre individuare dove nasce il difetto. Stanchezza, intolleranza al freddo, rallentamento e stipsi sono compatibili con una riduzione degli effetti dell’ormone, ma non ne dimostrano da soli la causa. Il legame fra sintomo e bersaglio passa attraverso trasporto cellulare, conversione locale e recettori nucleari TR: una descrizione clinica non equivale a misurare direttamente il segnale in ogni tessuto.\n\nNel deficit primario è la ghiandola a rispondere insufficientemente alla richiesta. Se il sistema ipotalamo–ipofisario è integro, la riduzione del feedback tende a far aumentare il TSH. Il profilo biochimico della forma primaria manifesta associa quindi FT4 bassa e TSH elevato. Nella forma primaria subclinica il TSH è elevato mentre FT4 rimane nell’intervallo di riferimento: il termine descrive questa combinazione e non garantisce l’assenza di disturbi. Per interpretare il risultato contano persistenza e contesto; non si ricava una prescrizione dal semplice fatto che un valore superi il limite del laboratorio.\n\nLa tiroidite di Hashimoto è una possibile causa del deficit primario, non un sinonimo della sua misura funzionale. L’infiltrazione immunitaria e i mediatori infiammatori possono compromettere progressivamente il tessuto follicolare e la capacità di produrre ormone. Gli anticorpi anti-TPO o anti-tireoglobulina aiutano a riconoscere il contesto autoimmune, ma possono essere presenti anche quando la funzione è conservata. TPO indica qui lo stesso enzima incontrato nella sintesi ormonale: misurare anticorpi diretti contro di esso non misura la sua attività catalitica e non significa che serva un farmaco che lo inibisce. La ghiandola può essere aumentata di volume oppure perdere tessuto; il volume non quantifica il deficit. Altre cause, come rimozione chirurgica, danno da radioiodio o alterazioni della sintesi, raggiungono un esito funzionale simile attraverso meccanismi differenti.\n\nNel deficit centrale il problema riguarda invece il comando ipofisario o ipotalamico. Una FT4 bassa può accompagnarsi a TSH basso, normale o talvolta lievemente elevato, ma inadeguato rispetto alla carenza. “Nel normale intervallo” non significa dunque “risposta fisiologicamente adeguata”. Il sospetto richiede conferma e valutazione di malattia intercorrente, farmaci e interferenze analitiche: un singolo prelievo non basta a localizzare il difetto. Anche la gravità non si deduce dalla sola sede centrale.\n\nLa levotiroxina fornisce T4 quando occorre sostituire l’ormone mancante; alimenta così anche la formazione periferica di T3 e il segnale ai recettori TR. Il suo scopo non è eliminare gli autoanticorpi. La loro sola presenza con funzione normale non costituisce un’indicazione alla sostituzione. Nel deficit centrale FT4 assume un ruolo essenziale nel monitoraggio e il TSH isolato può essere fuorviante. Questo collega la sede del danno alla lettura della risposta al farmaco, mentre le differenze fra formulazioni e assorbimento restano quelle discusse nelle sezioni successive. Il possibile coinvolgimento di altri assi, già illustrato per la riserva surrenalica e le endocrinopatie da immunoterapia, completa il ragionamento senza trasformarlo in una regola automatica di dose.",
+      "formula": "Deficit primario: FT4 ↓ e risposta del TSH ↑ | Deficit centrale: FT4 ↓ e comando inadeguato. Modelli da interpretare nel contesto, non un algoritmo terapeutico."
+    },
+    {
       "id": "origine-della-tireotossicosi",
       "title": "Da dove viene l’ormone in eccesso?",
       "refs": [
@@ -381,28 +395,36 @@ export const THEORY_THYROID = Object.freeze({
     {
       "question": "Perché ioduro e tionamidi non sono equivalenti anche se entrambi possono ridurre l’esposizione agli ormoni tiroidei?",
       "answer": "Le tionamidi inibiscono la nuova sintesi sostenuta dalla TPO. Un carico elevato di ioduro può inibire transitoriamente l’organificazione e la liberazione dalle riserve, con una risposta dipendente dallo stato della ghiandola e dall’adattamento. Un risultato finale simile non dimostra identità di meccanismo o intercambiabilità terapeutica."
+    },
+    {
+      "question": "Un TSH normale esclude sempre un deficit di ormone tiroideo?",
+      "answer": "No: nella forma centrale va interpretato insieme a FT4 e al contesto del paziente."
+    },
+    {
+      "question": "Anti-TPO positivi e funzione normale significano che manca ormone da sostituire?",
+      "answer": "No: l’autoimmunità descrive la causa possibile, mentre il deficit richiede una valutazione funzionale."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · AA 2025–26",
-      "detail": "PDF 801–817 e 824–835, etichette 799–815 e 822–833, letti per intervalli. In questo lotto PDF 831–835 (Lancet 775–779): testo e impaginazione controllati; integrato il passaggio sul carico iodico a 832. PDF 834–835 sono bibliografia: gli articoli citati non sono stati letti singolarmente. Chaker et al., Hyperthyroidism, Lancet 2024;403:768–780, DOI 10.1016/S0140-6736(23)02016-0; ricerca dichiarata fino al 16 settembre 2022. Lettura cumulativa limitata a 768–779; pagina 780 non letta. Nessuna figura o tabella riprodotta."
+      "detail": "PDF 801–817 e 824–840, etichette 799–815 e 822–838, letti per intervalli. PDF836 conclude la bibliografia di Chaker et al., Hyperthyroidism, Lancet2024;403:768–780, DOI10.1016/S0140-6736(23)02016-0: ora lette le13 pagine, non i lavori citati; ricerca dichiarata fino a settembre2022. PDF837–840: Chaker et al., Hypothyroidism, Nature Reviews Disease Primers2022;8:30, DOI10.1038/s41572-022-00357-7, sole pagine1–4. Integrati sede del deficit, autoimmunità e danno follicolare; figure1–2 controllate, non riprodotte. Nessun dato epidemiologico o algoritmo trasferito."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica · IX italiana 2014 / XII originale 2012",
-      "detail": "Capitolo 38, PDF 785–800, editoriali 765–780, letti per intervalli. In questo lotto rilette e controllate PDF 788 e 794 (editoriali 768 e 774) per autoregolazione e azione degli ioduri su organificazione e liberazione. PDF 794, prima di contesto, ora contribuisce con passaggi selezionati. Dosi, urgenze, gravidanza e protocolli storici esclusi."
+      "detail": "Capitolo38, PDF785–800, editoriali765–780, letti per intervalli. In questo lotto rilette PDF795–796 (775–776): ipotiroidismo, cause e sostituzione;796 ora contribuisce con passaggi selezionati. Distinti deficit primario e centrale; la gravità fissa nella tabella38-5 non è generalizzata. Dosi e target storici esclusi."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia · VIII italiana 2016 / originale 2015",
-      "detail": "Capitolo 34, PDF 651–659, numero editoriale non visibile. PDF 656 riletto e controllato per il rapporto fra carico iodico, amiodarone e funzione tiroidea, senza nuove pagine uniche. Frase conflittuale sul recettore TRH e gerarchie terapeutiche storiche escluse. Nessuna figura riprodotta."
+      "detail": "Capitolo34, PDF651–659, numero editoriale non visibile. PDF656 riletto per Hashimoto e perdita di tessuto funzionante; non tutte le forme di ipotiroidismo sono autoimmuni. Conflitto sul recettoreTRH e gerarchie storiche esclusi. Nessuna figura riprodotta."
     },
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I · AA 2025–26",
-      "detail": "Lezione 19 del 1 dicembre 2025, PDF 333–335, stampate 328–330. In questo lotto PDF 335 (stampata 330; lezione p.11) riletto e controllato per azione degli ioduri sulla liberazione. Figure condivise non considerate conferme indipendenti; classificazione impropria del PTU, algoritmi, dosi e gerarchie terapeutiche esclusi."
+      "detail": "Lezione19 del1dicembre2025, PDF333–335, stampate328–330. In questo lotto PDF334 (stampata329; lezione p.10) riletto: sostituzione conT4 e contesto farmacologico. TSH isolato riconciliato con FT4 e sede del deficit. Algoritmo visivo controllato ma non trasferito; escluse dose con unità sospetta, sospensione generalizzata e preferenza automatica perT3 nelle urgenze."
     },
     {
       "id": "NICE",
@@ -514,6 +536,18 @@ export const THEORY_THYROID = Object.freeze({
       "title": "Potassium iodide 65 mg · G.L Pharma UK · SmPC britannico",
       "detail": "Consultato 19 novembre 2026; pagina emc aggiornata il 25 agosto 2026. §4.1 per l’indicazione radioprotettiva specifica; §§4.4–4.5 per rischio nei predisposti e interferenza radioiodica. Fonte britannica, non RCP italiano. Nessuna dose, indicazione per ipertiroidismo o procedura radioprotettiva trasferita.",
       "url": "https://www.medicines.org.uk/emc/product/15911/smpc"
+    },
+    {
+      "id": "ETAC",
+      "title": "European Thyroid Association · ipotiroidismo centrale · 2018",
+      "detail": "Consultazione 19 novembre 2026: passaggi su diagnosi, tabella3 e monitoraggio con FT4. Lettura mirata del testo primario, non dell’intera linea guida; esclusi dosi e calendari. DOI10.1159/000491388.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6198777/"
+    },
+    {
+      "id": "ATAHA",
+      "title": "American Thyroid Association · Hashimoto’s Thyroiditis",
+      "detail": "Consultazione 19 novembre 2026: sezioni diagnosi e trattamento. Informazione ufficiale per pazienti; data di revisione non indicata. Distinta positività anticorpale da deficit funzionale.",
+      "url": "https://www.thyroid.org/hashimotos-thyroiditis/"
     }
   ],
   "moleculeLinks": [
@@ -554,6 +588,6 @@ export const THEORY_THYROID = Object.freeze({
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-19",
   "readingManifest": "./data/terapia-tiroidea-reading.json",
-  "coverage": "62 pagine locali uniche pertinenti alla tiroide lette, 53 con passaggi integrati. Questo lotto: 5 pagine nuove e 4 rilette, tutte 9 controllate visivamente; 5 sostengono passaggi selezionati. Due pagine contengono solo bibliografia: non equivalgono alla lettura degli articoli citati. Nessun libro o corso interamente letto; nessuna revisione clinica indipendente.",
-  "wordCount": 6517
+  "coverage": "67 pagine locali uniche pertinenti alla tiroide lette, 58 con passaggi integrati. Questo lotto: 5 pagine nuove e 4 rilette, tutte 9 controllate visivamente; 8 sostengono passaggi selezionati. Una pagina contiene sola bibliografia: non equivale alla lettura degli articoli citati. Nessun libro o corso interamente letto; nessuna revisione clinica indipendente.",
+  "wordCount": 6990
 });

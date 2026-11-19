@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "chapterId": "terapia-tiroidea",
-  "batch": "theory-course-831-835",
-  "reviewedAt": "2026-11-19T07:59:10.297225+00:00",
+  "batch": "theory-course-836-840",
+  "reviewedAt": "2026-11-19T08:55:41.204460+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "5cdd42f9b60ee76a0e66febeb8579958f2e8ba6c1bfb479882dbc8dda97d05cb",
+  "moduleSha256": "3118e407971d9a870c5bd50af192455657938bdc6db9f18bb74414689b9c6fd1",
   "checks": [
-    "Una sezione nuova sullo ioduro; 21 sezioni precedenti invariate.",
-    "Distinti substrato, organificazione, liberazione, adattamento e Jod–Basedow.",
-    "Collegati NIS, TPO e TR, tionamidi, amiodarone, nodularità e Graves senza equivalenza terapeutica.",
-    "Una sintesi schematica originale e due quesiti nuovi; sei collegamenti a molecole e sei a capitoli esistenti conservati.",
-    "Nessuna dose, algoritmo terapeutico, trascrizione, figura o tabella delle fonti riprodotti.",
-    "Revisione editoriale circoscritta del solo integratore; bibliografia letta distinta dagli studi citati."
+    "Una sezione nuova sul deficit primario e centrale;22 sezioni precedenti conservate.",
+    "Distinti sede del deficit, profilo biochimico e causa autoimmune.",
+    "Collegati follicolo, TPO, recettoriTR e sostituzione conT4 senza equiparare anticorpi e indicazione terapeutica.",
+    "Uno schema originale e due quesiti nuovi; collegamenti esistenti conservati.",
+    "Nessuna dose, algoritmo, trascrizione, figura o tabella delle fonti pubblicati.",
+    "Revisione editoriale mirata del solo integratore, non revisione clinica indipendente."
   ],
   "conflicts": [
     {
@@ -247,8 +247,8 @@
     },
     {
       "id": "course-lancet-scope",
-      "issue": "Rassegna 2024 con ricerca fino a settembre 2022; lettura cumulativa limitata a dodici pagine su tredici.",
-      "resolution": "Solo pagine 768–779 lette; pagina 780 non letta. Bibliografia non equivale a lettura dei lavori citati. Dosi, gerarchie terapeutiche e stato regolatorio attuale non trasferiti.",
+      "issue": "Rassegna2024 con ricerca fino a settembre2022, ora letta per intervalli nelle13 pagine.",
+      "resolution": "PDF836 completa la bibliografia; nessuna lettura degli studi citati né revisione clinica completa dedotta.",
       "status": "scope_limited"
     },
     {
@@ -298,14 +298,38 @@
       "issue": "CFI834–835 elencano riferimenti; CFI832 discute terapie innovative nel contesto della rassegna2024.",
       "resolution": "Nessuna dichiarazione di lettura degli studi citati o di stato regolatorio2026; passaggi terapeutici non trasferiti.",
       "status": "excluded_out_of_scope"
+    },
+    {
+      "id": "primary-versus-central-biochemistry",
+      "issue": "Katzung795 e introduzione Primer2022 descrivono FT4 bassa e TSH alto senza sempre ripetere il qualificatore primario; appunti334 semplificano TSH alterato→terapia.",
+      "resolution": "Profilo circoscritto al deficit primario; centrale interpretato conFT4, conferma e contesto. Nessuna prescrizione da TSH isolato.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "central-severity-generalization",
+      "issue": "Katzung796 tabella38-5 indica lieve per la forma secondaria.",
+      "resolution": "Gravità fissa non trasferita; ETA2018 include forme centrali severe.",
+      "status": "excluded_conflicting_source_statement"
+    },
+    {
+      "id": "hashimoto-cause-versus-function",
+      "issue": "Rang656 può suggerire origine immunologica di ogni ipotiroidismo; anticorpi possono essere scambiati per misura del deficit.",
+      "resolution": "Distinte cause multiple, autoimmunità e funzione; levotiroxina non prescritta per la sola positività anticorpale.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "primer-2022-partial-reading",
+      "issue": "CFI837–840 contengono solo le prime4 pagine del Primer2022 e mappe epidemiologiche storiche.",
+      "resolution": "Nessuna lettura integrale o dato attuale/individuale dedotto dalle mappe; studi citati, dosi e integratori non trasferiti.",
+      "status": "scope_limited"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente o validazione specialistica.",
-    "Nove pagine lette e controllate: cinque nuove e quattro rilette. Cinque contribuiscono con passaggi selezionati. Cumulativo 62 uniche lette e 53 integrate: una nuova pagina integrata e una già letta ora integrata.",
-    "Rassegna Lancet 2024: lette solo pagine 768–779, ricerca dichiarata fino a settembre 2022. PDF 834–835 sono bibliografia, non lettura degli studi citati; pagina 780 non letta. Nessuno stato regolatorio 2026 delle terapie innovative dedotto dalla rassegna.",
-    "Katzung 788/794, Rang 656 e appunti I 335 rilette senza nuova copertura unica. Figure condivise non costituiscono conferme indipendenti. Dosi, urgenze, gravidanza, integratori, stime di rischio e protocolli storici esclusi.",
-    "ETA 2021 letta nei soli passaggi pertinenti al carico da contrasto; SmPC britannico KI consultato per rischi e interferenze nel contesto della sua indicazione specifica, senza trasferire protocolli o raccomandazioni generali.",
-    "Contributi dei corsi II e riferimenti precedenti conservati con i rispettivi anni e limiti, senza nuova lettura. Nessun libro o corso interamente letto; protocolli locali non verificati."
+    "Nove pagine lette e controllate: cinque nuove e quattro rilette. Otto contribuiscono con passaggi selezionati. Cumulativo67 uniche lette e58 integrate: quattro nuove pagine integrate e una già letta ora integrata.",
+    "Lancet2024 ora letto nelle13 pagine768–780, per intervalli; ricerca fino a settembre2022. Bibliografia non equivale a lettura degli studi citati. Primer2022 letto solo nelle pagine1–4 (PDF837–840); nessuna lettura integrale dichiarata.",
+    "Katzung795/796, Rang656 e appuntiI334 rilette senza nuova copertura unica. Figure controllate e non riprodotte; mappe epidemiologiche storiche non trasferite.",
+    "ETA2018 sul deficit centrale e scheda ATA su Hashimoto consultate nei soli passaggi pertinenti. Dosi, calendari, soglie terapeutiche, urgenze, gravidanza, integratori e stime di rischio esclusi.",
+    "Contributi dei corsiII e riferimenti precedenti conservati con anni e limiti, senza nuova lettura. Nessun libro o corso interamente letto; protocolli locali non verificati."
   ]
 }
