@@ -207,6 +207,20 @@ export const THEORY_THYROID = Object.freeze({
       "formula": "Riserva surrenalica ridotta + aumento della clearance del cortisolo → possibile insufficienza clinicamente evidente"
     },
     {
+      "id": "risposta-clinica-e-terapia-combinata",
+      "title": "T4, T3 e sintomi persistenti: dal meccanismo alla prova clinica",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "APP",
+        "NICE",
+        "SURV",
+        "BTAT3"
+      ],
+      "text": "La sostituzione con levotiroxina mette in relazione tre risultati che possono non procedere in parallelo: disponibilità ormonale, risposta del sistema di controllo e benessere percepito. Nell’ipotiroidismo primario il TSH informa sull’equilibrio del circuito, mentre stanchezza, difficoltà di concentrazione o ridotta qualità della vita descrivono l’esperienza della persona. La normalizzazione del laboratorio non implica che ogni disturbo debba scomparire; la persistenza di un disturbo, a sua volta, non dimostra che la dose sia insufficiente. Prendere sul serio i sintomi richiede quindi di chiarire quale processo li sostenga.\n\nLa levotiroxina fornisce T4 e alimenta la formazione periferica di T3. Fra il farmaco assunto e il recettore nucleare TR si interpongono assorbimento, distribuzione, ingresso cellulare e deiodazione. Questo percorso conserva una regolazione locale, ma non permette di dedurre da un unico valore ematico l’esposizione di tutti i tessuti. È comprensibile chiedersi se una sostituzione basata su T4 ricostruisca ogni aspetto della fisiologia; è un’altra questione dimostrare che aggiungere T3 migliori un esito rilevante per il paziente. Un meccanismo plausibile orienta una domanda sperimentale, non fornisce già la risposta.\n\nLa liotironina apporta direttamente T3, con una persistenza più breve rispetto a T4. Modifica perciò anche l’andamento temporale dell’esposizione: raggiungere il medesimo bersaglio recettoriale non significa riprodurre la stessa disponibilità nel tempo. Il confronto riguarda insieme beneficio, oscillazioni del segnale e rischio di eccesso. La maggiore rapidità non equivale a una superiorità generale, né rende corretto trasformare una proporzione fra ormoni circolanti in una proporzione prescrittiva. Queste differenze collegano farmacocinetica e farmacodinamica senza autorizzare sostituzioni autonome fra preparazioni.\n\nPrima di attribuire una risposta insoddisfacente alla conversione T4–T3, occorre distinguere esposizione effettiva e cause concomitanti. Assunzione irregolare, interazioni o problemi di assorbimento possono modificare la quantità disponibile, come discusso nella sezione sul laboratorio. Anemia, disturbi del sonno e altre condizioni possono invece contribuire alla stanchezza anche con funzione tiroidea compensata. Non sono spiegazioni obbligatorie: mostrano perché un sintomo condiviso da molte malattie richieda un ragionamento più ampio. Aumentare indiscriminatamente l’ormone può esporre a eccesso senza correggere la causa del disturbo.\n\nLe varianti comuni di DIO2, gene della deiodinasi D2, sono state studiate come possibile spiegazione di risposte differenti. Nel consenso BTA/SfE del 2023 le prove genetiche rimangono insufficienti: la categoria proposta dei «cattivi convertitori» non è una diagnosi dimostrata da assegnare automaticamente a chi resta sintomatico. Il legame fra variante, disponibilità intracellulare e beneficio terapeutico richiede passaggi di verifica distinti.\n\nNICE NG145 non raccomanda l’uso routinario della liotironina, da sola o associata; la sorveglianza del 2025 ha mantenuto questa posizione. Il consenso BTA/SfE 2023 considera invece una prova combinata specialistica in adulti non in gravidanza, con ipotiroidismo primario manifesto documentato, sostituzione adeguata e altre cause dei disturbi escluse. Sono ambiti decisionali differenti: una possibilità selezionata non diventa uno standard universale. Qui servono a comprendere i limiti delle prove e il motivo del confronto, senza trasferire dosi, obiettivi numerici, calendari o istruzioni per iniziare o sospendere una terapia.",
+      "formula": "Esposizione al farmaco → segnale nei tessuti → esiti da valutare. TSH, sintomi e qualità della vita rispondono a domande diverse; plausibilità biologica ≠ beneficio dimostrato."
+    },
+    {
       "id": "tionamidi-deposito-e-sicurezza",
       "title": "Tionamidi: bersaglio, deposito e limiti dell’effetto",
       "refs": [
@@ -428,39 +442,47 @@ export const THEORY_THYROID = Object.freeze({
     {
       "question": "Un’interferenza da biotina significa che la tiroide ha cambiato realmente produzione?",
       "answer": "No. Nei metodi suscettibili può cambiare il risultato della misura senza una corrispondente variazione biologica. La discordanza va verificata con il laboratorio e interpretata nel contesto."
+    },
+    {
+      "question": "Un TSH compensato e sintomi persistenti dimostrano automaticamente un difetto di conversione T4–T3?",
+      "answer": "No. Il laboratorio e i sintomi descrivono aspetti differenti. Occorre distinguere esposizione effettiva, malattie concomitanti e ipotesi sui meccanismi; il sintomo isolato non identifica un difetto enzimatico."
+    },
+    {
+      "question": "Perché una spiegazione basata sulle deiodinasi non dimostra da sola la superiorità della terapia combinata?",
+      "answer": "Perché la plausibilità del meccanismo va distinta dagli esiti clinici: servono prove di beneficio e sicurezza. Modificare il segnale non garantisce di migliorare la qualità della vita."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · AA 2025–26",
-      "detail": "PDF801–817 e824–845, etichette799–815 e822–843, letti per intervalli. Chaker et al., Hyperthyroidism, Lancet2024;403:768–780, DOI10.1016/S0140-6736(23)02016-0:13 pagine lette, non gli studi citati. Hypothyroidism, Nature Reviews Disease Primers2022;8:30, DOI10.1038/s41572-022-00357-7: sole pagine1–9. Lotto attuale PDF841–845 (pp.5–9): tutte lette e controllate;842–845 sostengono passaggi su asse, sintomi, recupero e laboratorio. Tabelle e figure3–5 controllate, non riprodotte; cause di841, percentuali, dosi, screening e algoritmo esclusi."
+      "detail": "PDF 801–817 e 824–850, etichette 799–815 e 822–848, letti per intervalli. Chaker et al., Hyperthyroidism, Lancet 2024;403:768–780, DOI 10.1016/S0140-6736(23)02016-0: 13 pagine lette, non gli studi citati. Hypothyroidism, Nature Reviews Disease Primers 2022;8:30, DOI 10.1038/s41572-022-00357-7: sole pagine 1–14. Lotto attuale PDF 846–850 (pp.10–14): tutte lette e controllate; 846–848 e850 sostengono passaggi su sintomi persistenti, conversione e qualità della vita. 849 letta per contesto, non integrata. Tabelle2–3 controllate, non riprodotte; dosi, gravidanza, dati quantitativi e prospettive dei trial del2022 escluse."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica · IX italiana 2014 / XII originale 2012",
-      "detail": "Capitolo38, PDF785–800, editoriali765–780, letti per intervalli. Lotto attuale: rilette788–789 e795 (768–769 e775); tabelle38-2/38-3 e distinzione fra deficit, farmaci e misura. Profili tipici non trasformati in regole universali; valori di riferimento e posologie storiche esclusi."
+      "detail": "Capitolo38, PDF785–800, editoriali765–780, letti per intervalli. Lotto attuale: rilette791 e795 (771 e775) per conversione, recettore TR, persistenza T4/T3 e sostituzione. Rapporti posologici, costi e generalizzazioni storiche esclusi."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia · VIII italiana 2016 / originale 2015",
-      "detail": "Capitolo34, PDF651–659, numero editoriale non visibile. PDF656 riletto per manifestazioni dell’ipotiroidismo e confronto con malattie della ghiandola. Sintomi non equiparati a diagnosi; generalizzazioni autoimmuni, conflitto sul recettoreTRH e gerarchie storiche esclusi."
+      "detail": "Capitolo34, PDF651–659, numero editoriale non visibile. PDF656 riletto per confronto sulle manifestazioni del deficit; nessun nuovo passaggio integrato in questo lotto. Contributo precedente conservato; generalizzazioni autoimmuni, conflitto sul recettore TRH e gerarchie storiche esclusi."
     },
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I · AA 2025–26",
-      "detail": "Lezione19 del1dicembre2025, PDF333–335, stampate328–330. Lotto attuale PDF334 (stampata329; lezione p.10) riletto per interazioni e interpretazione del laboratorio. Diagramma con malattia non tiroidea controllato ma non trasferito; escluse terapia automatica daTSH, preferenza generale perT3 nell’acuto, sospensione generalizzata e unità posologica sospetta."
+      "detail": "Lezione19 del1 dicembre2025, PDF333–335, stampate328–330. Lotto attuale PDF334 (stampata329; lezione p.10) riletto per T4 come riserva e tempi della risposta. Diagramma controllato ma non trasferito; escluse terapia automatica da TSH, preferenza generale per T3 nell’acuto e unità posologica sospetta."
     },
     {
       "id": "NICE",
       "title": "NICE NG145 · Thyroid disease: assessment and management · aggiornamento 2023",
-      "detail": "Consultazione 16 novembre 2026 dei passaggi ufficiali indicizzati: §§1.1.2,1.2.8–1.2.11,1.3.3–1.3.4,1.4.1–1.4.4,1.6.1 e1.6.5. Apertura diretta HTML/PDF negata (403); non dichiarata lettura integrale. In questo lotto confrontati i passaggi ufficiali indicizzati1.1.5 e1.6.9–1.6.17; apertura diretta403. Non trasferito un algoritmo terapeutico. In questo lotto: sezioni 1.6, 1.8, 1.9 e definizioni, nei soli passaggi ufficiali indicizzati; apertura diretta 403. Confrontati meccanismo della tireotossicosi, profilo subclinico e distinzione volume/funzione; nessuna soglia automatica trasferita. Lotto826–830: il19novembre2026 confrontati i passaggi ufficiali indicizzati1.2.8–1.2.11,1.6.1–1.6.2 e1.7.9. Accesso diretto403; nessuna lettura integrale. Ruolo di TRAb/imaging e monitoraggio distinto da posologia e calendario. Lotto841–845:19novembre2026, passaggi ufficiali indicizzati1.2.6 e1.2.8–1.2.11 su malattia acuta,FT4 e biotina. Apertura diretta403; nessuna lettura integrale.",
+      "detail": "Consultazione 16 novembre 2026 dei passaggi ufficiali indicizzati: §§1.1.2,1.2.8–1.2.11,1.3.3–1.3.4,1.4.1–1.4.4,1.6.1 e1.6.5. Apertura diretta HTML/PDF negata (403); non dichiarata lettura integrale. In questo lotto confrontati i passaggi ufficiali indicizzati1.1.5 e1.6.9–1.6.17; apertura diretta403. Non trasferito un algoritmo terapeutico. In questo lotto: sezioni 1.6, 1.8, 1.9 e definizioni, nei soli passaggi ufficiali indicizzati; apertura diretta 403. Confrontati meccanismo della tireotossicosi, profilo subclinico e distinzione volume/funzione; nessuna soglia automatica trasferita. Lotto826–830: il19novembre2026 confrontati i passaggi ufficiali indicizzati1.2.8–1.2.11,1.6.1–1.6.2 e1.7.9. Accesso diretto403; nessuna lettura integrale. Ruolo di TRAb/imaging e monitoraggio distinto da posologia e calendario. Lotto841–845:19novembre2026, passaggi ufficiali indicizzati1.2.6 e1.2.8–1.2.11 su malattia acuta,FT4 e biotina. Apertura diretta403; nessuna lettura integrale. Lotto846–850: 19 novembre2026, riletti i passaggi ufficiali indicizzati1.3.3–1.3.5 e1.4.1; accesso diretto403.",
       "url": "https://www.nice.org.uk/guidance/ng145/chapter/Recommendations"
     },
     {
       "id": "SURV",
       "title": "NICE NG145 · sorveglianza eccezionale · 3 ottobre 2025",
-      "detail": "Letto il testo ufficiale indicizzato della decisione sulla liotironina: raccomandazioni non modificate. Apertura diretta negata; nessuna revisione indipendente degli studi.",
+      "detail": "Letto il testo ufficiale indicizzato della decisione sulla liotironina: raccomandazioni non modificate. Apertura diretta negata; nessuna revisione indipendente degli studi. Ricontrollata il19 novembre2026; non verificato lo stato attuale dei trial citati.",
       "url": "https://www.nice.org.uk/guidance/ng145/resources/october-2025-exceptional-surveillance-of-thyroid-disease-assessment-and-management-nice-guideline-ng145-pdf-20067764708293"
     },
     {
@@ -585,6 +607,12 @@ export const THEORY_THYROID = Object.freeze({
       "title": "American Thyroid Association · sostituzione nell’ipotiroidismo · 2014",
       "detail": "Jonklaas et al., DOI10.1089/thy.2014.0028. Consultazione19novembre2026 dei passaggi primari indicizzati: §20, discussione su ipotiroidismo preesistente e malattia critica; raccomandazioni22a–22b. Documento ancora presente nell’indice ATA consultato; apertura diretta editore non riuscita, PMC fermato dalla verifica del browser. Nessuna lettura integrale o revisione indipendente degli studi.",
       "url": "https://doi.org/10.1089/thy.2014.0028"
+    },
+    {
+      "id": "BTAT3",
+      "title": "British Thyroid Association / Society for Endocrinology · consenso sulla liotironina · 2023",
+      "detail": "Ahluwalia et al., DOI10.1111/cen.14935. Consultati il19 novembre2026 abstract, contesto/metodi, §5.1.2, Box2 e§9.1 nell’HTML primario; PDF403. Non lettura integrale, supplementi o figure. Ambito britannico; parametri numerici esclusi.",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/cen.14935"
     }
   ],
   "moleculeLinks": [
@@ -625,6 +653,6 @@ export const THEORY_THYROID = Object.freeze({
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-19",
   "readingManifest": "./data/terapia-tiroidea-reading.json",
-  "coverage": "72 pagine locali uniche pertinenti alla tiroide lette,62 con passaggi integrati. Questo lotto:5 pagine nuove e5 rilette,tutte10 controllate visivamente;9 sostengono passaggi selezionati. Nessun libro o corso interamente letto; nessuna revisione clinica indipendente.",
-  "wordCount": 7476
+  "coverage": "77 pagine locali uniche pertinenti alla tiroide lette, 66 con passaggi integrati. Questo lotto: 5 pagine nuove e4 rilette, tutte9 controllate visivamente; 7 sostengono passaggi selezionati. Nessun libro o corso interamente letto; nessuna revisione clinica indipendente.",
+  "wordCount": 7957
 });

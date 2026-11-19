@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "batch": "theory-course-841-845",
+  "batch": "theory-course-846-850",
   "chapterId": "terapia-tiroidea",
-  "updatedAt": "2026-11-19T10:21:36.957926+00:00",
+  "updatedAt": "2026-11-19T11:39:29.639402+00:00",
   "fullCorpusRead": false,
   "clinicalValidation": false,
   "newIdentities": 0,
@@ -17,12 +17,12 @@
   "newMainCoursePages": 5,
   "newOtherSlidesPages": 0,
   "newAppuntiPages": 0,
-  "reusedReadPdfPages": 5,
-  "totalReadPdfPages": 10,
-  "chapterReviewedPdfPages": 72,
-  "chapterSourcePdfPages": 72,
+  "reusedReadPdfPages": 4,
+  "totalReadPdfPages": 9,
+  "chapterReviewedPdfPages": 77,
+  "chapterSourcePdfPages": 77,
   "newIntegratedPdfPages": 4,
-  "chapterIntegratedPdfPages": 62,
+  "chapterIntegratedPdfPages": 66,
   "sources": [
     {
       "id": "CFI",
@@ -30,83 +30,83 @@
       "title": "Appunti e diapositive del corso di Farmacologia I",
       "edition": "AA2025–26",
       "plannedPages": [
-        841,
-        842,
-        843,
-        844,
-        845
+        846,
+        847,
+        848,
+        849,
+        850
       ],
       "previouslyReadPages": [],
       "pdfPagesRead": [
-        841,
-        842,
-        843,
-        844,
-        845
+        846,
+        847,
+        848,
+        849,
+        850
       ],
       "visuallyCheckedPdfPages": [
-        841,
-        842,
-        843,
-        844,
-        845
+        846,
+        847,
+        848,
+        849,
+        850
       ],
       "integratedPdfPages": [
-        842,
-        843,
-        844,
-        845
+        846,
+        847,
+        848,
+        850
       ],
       "textExtractedNow": [
-        841,
-        842,
-        843,
-        844,
-        845
+        846,
+        847,
+        848,
+        849,
+        850
       ],
       "renderedPages": [
-        841,
-        842,
-        843,
-        844,
-        845
+        846,
+        847,
+        848,
+        849,
+        850
       ],
       "sourceUnchanged": true,
       "allContentsRead": false,
       "imageTextReadPages": [
-        841,
-        842,
-        843,
-        844,
-        845
+        846,
+        847,
+        848,
+        849,
+        850
       ],
       "substantiveExtractedTextReadPages": [
-        841,
-        842,
-        843,
-        844,
-        845
+        846,
+        847,
+        848,
+        849,
+        850
       ],
       "newlyReadTextPages": [
-        841,
-        842,
-        843,
-        844,
-        845
+        846,
+        847,
+        848,
+        849,
+        850
       ],
       "reusedPreviouslyReadPages": [],
       "readButNotIntegratedPdfPages": [
-        841
+        849
       ],
       "bibliographyOnlyPdfPages": [],
       "printedPageLabels": {
-        "841": "839 di934; Nature Reviews Disease Primers2022 p.5",
-        "842": "840 di934; Nature Reviews Disease Primers2022 p.6",
-        "843": "841 di934; Nature Reviews Disease Primers2022 p.7",
-        "844": "842 di934; Nature Reviews Disease Primers2022 p.8",
-        "845": "843 di934; Nature Reviews Disease Primers2022 p.9"
+        "846": "844 di 934; Nature Reviews Disease Primers 2022 p. 10",
+        "847": "845 di 934; Nature Reviews Disease Primers 2022 p. 11",
+        "848": "846 di 934; Nature Reviews Disease Primers 2022 p. 12",
+        "849": "847 di 934; Nature Reviews Disease Primers 2022 p. 13",
+        "850": "848 di 934; Nature Reviews Disease Primers 2022 p. 14"
       },
-      "integrationScope": "842: fisiologia e farmaci che modificano il comando;843: sintomi non specifici;844: recupero dalla malattia, interferenze e persistenza;845: distinzione dei profili, senza algoritmo.841 letto e controllato, cause già trattate e quantitativi non trasferiti."
+      "integrationScope": "846: obiettivi e sintomi non specifici; 847: conversione e disturbi persistenti; 848: qualità della vita; 850: ipotesi DIO2 e limiti. 849 letto per contesto, non integrato. Tabelle 2–3 controllate, non riprodotte; dosi, gravidanza e prospettive di trial del 2022 escluse."
     },
     {
       "id": "KATZ",
@@ -114,44 +114,36 @@
       "title": "Katzung · Farmacologia generale e clinica",
       "edition": "IX italiana2014 / XII originale2012",
       "plannedPages": [
-        788,
-        789,
+        791,
         795
       ],
       "previouslyReadPages": [
-        788,
-        789,
+        791,
         795
       ],
       "pdfPagesRead": [
-        788,
-        789,
+        791,
         795
       ],
       "visuallyCheckedPdfPages": [
-        788,
-        789,
+        791,
         795
       ],
       "imageTextReadPages": [
-        788,
-        789,
+        791,
         795
       ],
       "substantiveExtractedTextReadPages": [
-        788,
-        789,
+        791,
         795
       ],
       "newlyReadTextPages": [],
       "reusedPreviouslyReadPages": [
-        788,
-        789,
+        791,
         795
       ],
       "integratedPdfPages": [
-        788,
-        789,
+        791,
         795
       ],
       "readButNotIntegratedPdfPages": [],
@@ -160,11 +152,11 @@
       "sourceUnchanged": true,
       "allContentsRead": false,
       "printedPageLabels": {
-        "788": "768",
-        "789": "769",
+        "791": "771",
         "795": "775"
       },
-      "integrationScope": "788: tabella38-2 e limiti del profilo;789: tabella38-3, farmaci e secrezione TSH;795: carenza e sostituzione come confronto, non algoritmo."
+      "integrationScope": "791: conversione, TR e diversa persistenza T4/T3; 795: sostituzione del deficit. Dosi e generalizzazioni storiche escluse.",
+      "bibliographyOnlyPdfPages": []
     },
     {
       "id": "RANG",
@@ -192,10 +184,10 @@
       "reusedPreviouslyReadPages": [
         656
       ],
-      "integratedPdfPages": [
+      "integratedPdfPages": [],
+      "readButNotIntegratedPdfPages": [
         656
       ],
-      "readButNotIntegratedPdfPages": [],
       "textExtractedNow": [],
       "renderedPages": [],
       "sourceUnchanged": true,
@@ -203,7 +195,8 @@
       "printedPageLabels": {
         "656": "Numero editoriale non visibile"
       },
-      "integrationScope": "656: manifestazioni del deficit e malattia ghiandolare come confronto; nessuna equivalenza fra sintomo e diagnosi."
+      "integrationScope": "656 riletto per confronto sulle manifestazioni; nessun nuovo passaggio integrato in questo lotto. Contributo cumulativo precedente conservato.",
+      "bibliographyOnlyPdfPages": []
     },
     {
       "id": "APP",
@@ -243,20 +236,21 @@
       "printedPageLabels": {
         "334": "329; lezione19p10"
       },
-      "integrationScope": "334: limiti della semplificazione TSH alterato/terapia e T3/acuto; diagramma comprende NTIS, non riprodotto."
+      "integrationScope": "334: T4 come riserva e tempi della risposta; generalizzazione T3/acuto, automatismo da TSH e unità posologica sospetta esclusi.",
+      "bibliographyOnlyPdfPages": []
     }
   ],
   "officialSourceScopes": [
     {
       "id": "NICE",
       "title": "NICE NG145 · Thyroid disease: assessment and management · aggiornamento 2023",
-      "detail": "Consultazione 16 novembre 2026 dei passaggi ufficiali indicizzati: §§1.1.2,1.2.8–1.2.11,1.3.3–1.3.4,1.4.1–1.4.4,1.6.1 e1.6.5. Apertura diretta HTML/PDF negata (403); non dichiarata lettura integrale. In questo lotto confrontati i passaggi ufficiali indicizzati1.1.5 e1.6.9–1.6.17; apertura diretta403. Non trasferito un algoritmo terapeutico. In questo lotto: sezioni 1.6, 1.8, 1.9 e definizioni, nei soli passaggi ufficiali indicizzati; apertura diretta 403. Confrontati meccanismo della tireotossicosi, profilo subclinico e distinzione volume/funzione; nessuna soglia automatica trasferita. Lotto826–830: il19novembre2026 confrontati i passaggi ufficiali indicizzati1.2.8–1.2.11,1.6.1–1.6.2 e1.7.9. Accesso diretto403; nessuna lettura integrale. Ruolo di TRAb/imaging e monitoraggio distinto da posologia e calendario. Lotto841–845:19novembre2026, passaggi ufficiali indicizzati1.2.6 e1.2.8–1.2.11 su malattia acuta,FT4 e biotina. Apertura diretta403; nessuna lettura integrale.",
+      "detail": "Consultazione 16 novembre 2026 dei passaggi ufficiali indicizzati: §§1.1.2,1.2.8–1.2.11,1.3.3–1.3.4,1.4.1–1.4.4,1.6.1 e1.6.5. Apertura diretta HTML/PDF negata (403); non dichiarata lettura integrale. In questo lotto confrontati i passaggi ufficiali indicizzati1.1.5 e1.6.9–1.6.17; apertura diretta403. Non trasferito un algoritmo terapeutico. In questo lotto: sezioni 1.6, 1.8, 1.9 e definizioni, nei soli passaggi ufficiali indicizzati; apertura diretta 403. Confrontati meccanismo della tireotossicosi, profilo subclinico e distinzione volume/funzione; nessuna soglia automatica trasferita. Lotto826–830: il19novembre2026 confrontati i passaggi ufficiali indicizzati1.2.8–1.2.11,1.6.1–1.6.2 e1.7.9. Accesso diretto403; nessuna lettura integrale. Ruolo di TRAb/imaging e monitoraggio distinto da posologia e calendario. Lotto841–845:19novembre2026, passaggi ufficiali indicizzati1.2.6 e1.2.8–1.2.11 su malattia acuta,FT4 e biotina. Apertura diretta403; nessuna lettura integrale. Lotto846–850: 19 novembre2026, riletti i passaggi ufficiali indicizzati1.3.3–1.3.5 e1.4.1; accesso diretto403.",
       "url": "https://www.nice.org.uk/guidance/ng145/chapter/Recommendations"
     },
     {
       "id": "SURV",
       "title": "NICE NG145 · sorveglianza eccezionale · 3 ottobre 2025",
-      "detail": "Letto il testo ufficiale indicizzato della decisione sulla liotironina: raccomandazioni non modificate. Apertura diretta negata; nessuna revisione indipendente degli studi.",
+      "detail": "Letto il testo ufficiale indicizzato della decisione sulla liotironina: raccomandazioni non modificate. Apertura diretta negata; nessuna revisione indipendente degli studi. Ricontrollata il19 novembre2026; non verificato lo stato attuale dei trial citati.",
       "url": "https://www.nice.org.uk/guidance/ng145/resources/october-2025-exceptional-surveillance-of-thyroid-disease-assessment-and-management-nice-guideline-ng145-pdf-20067764708293"
     },
     {
@@ -366,24 +360,29 @@
       "title": "American Thyroid Association · sostituzione nell’ipotiroidismo · 2014",
       "detail": "Jonklaas et al., DOI10.1089/thy.2014.0028. Consultazione19novembre2026 dei passaggi primari indicizzati: §20, discussione su ipotiroidismo preesistente e malattia critica; raccomandazioni22a–22b. Documento ancora presente nell’indice ATA consultato; apertura diretta editore non riuscita, PMC fermato dalla verifica del browser. Nessuna lettura integrale o revisione indipendente degli studi.",
       "url": "https://doi.org/10.1089/thy.2014.0028"
+    },
+    {
+      "id": "BTAT3",
+      "title": "British Thyroid Association / Society for Endocrinology · consenso sulla liotironina · 2023",
+      "detail": "Ahluwalia et al., DOI10.1111/cen.14935. Consultati il19 novembre2026 abstract, contesto/metodi, §5.1.2, Box2 e§9.1 nell’HTML primario; PDF403. Non lettura integrale, supplementi o figure. Ambito britannico; parametri numerici esclusi.",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/cen.14935"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente o validazione specialistica.",
-    "Dieci pagine lette e controllate: cinque nuove e cinque rilette. Nove sostengono passaggi selezionati. Cumulativo72 uniche lette e62 integrate; quattro nuove pagine integrate, nessuna pagina già letta integrata per la prima volta.",
-    "Primer2022 letto solo nelle pagine1–9 (PDF837–845); nessuna lettura integrale o lettura degli studi citati. Pagina841 sulle cause letta ma non integrata in questo lotto.",
-    "Katzung788,789,795; Rang656; appuntiI334 rilette senza nuova copertura unica. Tabelle e figure controllate e non riprodotte.",
-    "Confronto mirato NICE,ETA2018,SmPCLT4 e rassegna commissionata ATA2023; ATA2014 nei passaggi primari indicizzati. Accessi diretti NICE403, ATA2014 editore non riuscito e PMC verifica browser. Nessuna lettura integrale delle linee guida o dei supplementi ATA2023.",
-    "Dosi, calendari, soglie terapeutiche, gestione delle urgenze, gravidanza, screening e stime di rischio esclusi. La raccomandazione sulla sola NTIS non implica sospensione della sostituzione per ipotiroidismo accertato.",
+    "Nove pagine lette e controllate: cinque nuove e quattro rilette. Sette sostengono passaggi selezionati. Cumulativo77 uniche lette e66 integrate; quattro nuove integrate, nessuna pagina già letta integrata per la prima volta.",
+    "Primer2022 letto solo nelle pagine1–14 (PDF837–850); nessuna lettura integrale o lettura degli studi citati. PDF849 letta per contesto, non integrata;850 include testo e inizio bibliografia.",
+    "Katzung791 e795, Rang656 e appuntiI334 rilette senza nuova copertura unica. Rang656 non integrata nuovamente. Tabelle e figure controllate e non riprodotte.",
+    "Confronto circoscritto NICE NG145 e sorveglianza2025 nei passaggi ufficiali indicizzati (apertura diretta403); BTA/SfE2023 nei soli passaggi HTML indicati. Figure e supplementi BTA non esaminati; nessuna lettura integrale o ricerca sistematica della letteratura.",
+    "Dosi, target numerici, calendari, urgenze e gestione della gravidanza esclusi. Differenti ambiti NICE e BTA preservati; nessuna istruzione autonoma di avvio o sospensione. Prospettive di trial del2022 non presentate come stato corrente.",
     "Contributi dei corsiII e riferimenti precedenti conservati con anni e limiti, senza nuova lettura. Nessun libro o corso interamente letto; protocolli locali non verificati."
   ],
   "deduplication": {
-    "recordsChecked": 172,
+    "recordsChecked": 176,
     "method": "Preserved prior explicit reading map and reconciled all listed records by exact SHA256 and explicit read-page fields. Inventory/planned/extracted ranges excluded.",
     "reused": {
       "KATZ": [
-        788,
-        789,
+        791,
         795
       ],
       "RANG": [
@@ -406,9 +405,14 @@
     ],
     "independentCorroborationFromSharedFigures": false,
     "bibliographyDoesNotCountAsCitedArticlesRead": true,
-    "currentNormalizedTextDuplicatePages": []
+    "currentNormalizedTextDuplicatePages": [],
+    "normalizedTextComparison": {
+      "previousPageArtifactsChecked": 240,
+      "duplicates": [],
+      "method": "Whitespace-normalized complete extracted page text; visual inspection separately completed."
+    }
   },
-  "batchIntegratedPdfPages": 9,
+  "batchIntegratedPdfPages": 7,
   "cumulativeSources": [
     {
       "id": "CFI",
@@ -452,7 +456,12 @@
         842,
         843,
         844,
-        845
+        845,
+        846,
+        847,
+        848,
+        849,
+        850
       ],
       "visuallyCheckedPdfPages": [
         801,
@@ -493,7 +502,12 @@
         842,
         843,
         844,
-        845
+        845,
+        846,
+        847,
+        848,
+        849,
+        850
       ],
       "integratedPdfPages": [
         801,
@@ -525,7 +539,11 @@
         842,
         843,
         844,
-        845
+        845,
+        846,
+        847,
+        848,
+        850
       ],
       "allContentsRead": false
     },
@@ -694,10 +712,10 @@
       "allContentsRead": false
     }
   ],
-  "coverageSemantics": "Dieci pagine con testo completo e controllo visivo:cinque nuove e cinque rilette. Nove sostengono passaggi selezionati,quattro nuovi (CFI842–845) e cinque già integrati. CFI841 non integrata. Cinque nuove pagine uniche lette e quattro nuove integrate.",
-  "batchAllTopicsReadPdfPages": 10,
+  "coverageSemantics": "Nove pagine con testo completo e controllo visivo: cinque nuove e quattro rilette. Sette sostengono passaggi selezionati, quattro nuovi (CFI846–848 e850) e tre già integrati (Katzung791/795 e appunti334). CFI849 e Rang656 lette per confronto, non integrate in questo lotto.",
+  "batchAllTopicsReadPdfPages": 9,
   "otherTopicReadPdfPages": 0,
   "previouslyReadNewlyIntegratedPages": {},
-  "substantiveTextReadPdfPages": 10,
+  "substantiveTextReadPdfPages": 9,
   "bibliographyOnlyPdfPages": 0
 }

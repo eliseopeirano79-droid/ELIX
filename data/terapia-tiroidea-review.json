@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
   "chapterId": "terapia-tiroidea",
-  "batch": "theory-course-841-845",
-  "reviewedAt": "2026-11-19T10:21:36.957926+00:00",
+  "batch": "theory-course-846-850",
+  "reviewedAt": "2026-11-19T11:39:29.639402+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "81a439f95101f13b762ebc3b95cf61822922621c594c814b364859899bddf60a",
+  "moduleSha256": "093b88d9c7e3b75d94c057cead065e8b7297be754042c1857e0ffb43eb78b918",
   "checks": [
-    "Una sezione nuova e486 parole;23 sezioni precedenti conservate.",
-    "Distinti deficit, malattia non tiroidea, farmaci e interferenza analitica.",
+    "Una sezione originale nuova e481 parole;24 sezioni precedenti conservate.",
+    "Distinti esposizione, risposta del controllo, sintomi e qualità della vita.",
+    "Plausibilità della conversione distinta da beneficio clinico dimostrato.",
     "Due quesiti e uno schema originale nuovi; collegamenti esistenti conservati.",
-    "NTIS distinta da ipotiroidismo accertato; nessuna istruzione di sospensione.",
     "Nessuna dose, algoritmo, trascrizione, figura o tabella delle fonti pubblicati.",
     "Revisione editoriale mirata del solo integratore, non revisione clinica indipendente."
   ],
@@ -319,8 +319,8 @@
     },
     {
       "id": "primer-2022-partial-reading",
-      "issue": "CFI837–845 contengono solo le prime9 pagine del Primer2022.",
-      "resolution": "Lettura limitata a1–9; figure3–5 e tabella1 controllate, non riprodotte. Non trasferiti screening, dosi, percentuali e algoritmo.",
+      "issue": "CFI837–850 contengono solo le prime14 pagine del Primer2022.",
+      "resolution": "Lettura limitata a1–14; figure3–5 e tabelle1–3 controllate per intervalli, non riprodotte. Non letti gli studi citati; prospettive dei trial del2022 non aggiornate per inferenza.",
       "status": "scope_limited"
     },
     {
@@ -340,15 +340,33 @@
       "issue": "Anticorpi interferenti e anti-TPO possono essere confusi; un risultato discordante può essere etichettato come falso senza verifica.",
       "resolution": "Distinti bersagli e funzioni; biotina dipendente dal metodo, macro-TSH e anticorpi ai reagenti confrontati con ATA2023, senza procedure di laboratorio.",
       "status": "resolved_for_scope"
+    },
+    {
+      "id": "persistent-symptoms-and-conversion",
+      "issue": "Un meccanismo ipotizzato può essere scambiato per spiegazione dimostrata dei sintomi.",
+      "resolution": "Separati plausibilità, associazione genetica e prova di beneficio; nessuna selezione automatica da sintomo o variante.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "nice-bta-combination-scope",
+      "issue": "NICE e BTA/SfE hanno ambiti e parametri decisionali differenti.",
+      "resolution": "Conservati documento, data e contesto; nessun protocollo numerico unificato.",
+      "status": "difference_preserved"
+    },
+    {
+      "id": "primer-2022-trial-outlook",
+      "issue": "CFI850 descrive ricerca futura dal punto di vista del2022.",
+      "resolution": "Nessuna affermazione sullo stato o esito dei trial nel2026; tabella gravidanza esclusa.",
+      "status": "excluded_out_of_scope"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente o validazione specialistica.",
-    "Dieci pagine lette e controllate: cinque nuove e cinque rilette. Nove sostengono passaggi selezionati. Cumulativo72 uniche lette e62 integrate; quattro nuove pagine integrate, nessuna pagina già letta integrata per la prima volta.",
-    "Primer2022 letto solo nelle pagine1–9 (PDF837–845); nessuna lettura integrale o lettura degli studi citati. Pagina841 sulle cause letta ma non integrata in questo lotto.",
-    "Katzung788,789,795; Rang656; appuntiI334 rilette senza nuova copertura unica. Tabelle e figure controllate e non riprodotte.",
-    "Confronto mirato NICE,ETA2018,SmPCLT4 e rassegna commissionata ATA2023; ATA2014 nei passaggi primari indicizzati. Accessi diretti NICE403, ATA2014 editore non riuscito e PMC verifica browser. Nessuna lettura integrale delle linee guida o dei supplementi ATA2023.",
-    "Dosi, calendari, soglie terapeutiche, gestione delle urgenze, gravidanza, screening e stime di rischio esclusi. La raccomandazione sulla sola NTIS non implica sospensione della sostituzione per ipotiroidismo accertato.",
+    "Nove pagine lette e controllate: cinque nuove e quattro rilette. Sette sostengono passaggi selezionati. Cumulativo77 uniche lette e66 integrate; quattro nuove integrate, nessuna pagina già letta integrata per la prima volta.",
+    "Primer2022 letto solo nelle pagine1–14 (PDF837–850); nessuna lettura integrale o lettura degli studi citati. PDF849 letta per contesto, non integrata;850 include testo e inizio bibliografia.",
+    "Katzung791 e795, Rang656 e appuntiI334 rilette senza nuova copertura unica. Rang656 non integrata nuovamente. Tabelle e figure controllate e non riprodotte.",
+    "Confronto circoscritto NICE NG145 e sorveglianza2025 nei passaggi ufficiali indicizzati (apertura diretta403); BTA/SfE2023 nei soli passaggi HTML indicati. Figure e supplementi BTA non esaminati; nessuna lettura integrale o ricerca sistematica della letteratura.",
+    "Dosi, target numerici, calendari, urgenze e gestione della gravidanza esclusi. Differenti ambiti NICE e BTA preservati; nessuna istruzione autonoma di avvio o sospensione. Prospettive di trial del2022 non presentate come stato corrente.",
     "Contributi dei corsiII e riferimenti precedenti conservati con anni e limiti, senza nuova lettura. Nessun libro o corso interamente letto; protocolli locali non verificati."
   ]
 }
