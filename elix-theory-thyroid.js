@@ -137,6 +137,23 @@ export const THEORY_THYROID = Object.freeze({
       "formula": "Gozzo = volume aumentato. Funzione: normale, ridotta o aumentata. Subclinico: TSH basso con FT4 e FT3 nei rispettivi intervalli."
     },
     {
+      "id": "malattia-acuta-e-interferenze",
+      "title": "Quando il laboratorio cambia senza un nuovo deficit tiroideo",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "RANG",
+        "APP",
+        "NICE",
+        "ETAC",
+        "LT4",
+        "ATALAB",
+        "ATASOST"
+      ],
+      "text": "La combinazione di sintomi e risultati di laboratorio va interpretata rispetto alla situazione in cui è stata osservata. Stanchezza, rallentamento e variazioni di peso possono comparire nell’ipotiroidismo, ma anche in malattie che non nascono nella tiroide. Un risultato fuori intervallo aggiunge un’informazione: non identifica automaticamente una lesione del follicolo, un difetto ipofisario o la necessità di sostituzione. La prima distinzione è fra cambiamento biologico dell’asse e alterazione della misura.\n\nDurante una malattia sistemica importante possono modificarsi conversione periferica, disponibilità degli ormoni e comando centrale. La riduzione di T3 è caratteristica della sindrome da malattia non tiroidea, spesso indicata come NTIS; nelle forme più gravi possono ridursi anche TSH e T4. Le deiodinasi collegano questo quadro alla fisiologia già descritta: il sangue riflette anche come i tessuti trasformano l’ormone, non soltanto quanto ne secerne la ghiandola. Una T3 bassa isolata non dimostra quindi che manchi substrato da fornire ai recettori TR. Nella fase di recupero il TSH può aumentare transitoriamente: leggere quel prelievo come prova definitiva di ipotiroidismo primario trascura la traiettoria del sistema.\n\nI farmaci aggiungono un altro livello. Dopamina e glucocorticoidi possono ridurre la secrezione di TSH; un comando basso in questo contesto non equivale necessariamente a distruzione delle cellule ipofisarie. Analogamente, l’effetto di un farmaco sulla conversione di T4 in T3 è diverso dall’inibizione della sintesi follicolare. Le raccomandazioni NICE sconsigliano la ricerca indiscriminata di disfunzione tiroidea durante una malattia acuta, salvo il sospetto che sia proprio la tiroide a causarla. Questo limite non elimina la possibilità che una vera patologia tiroidea e una malattia intercorrente coesistano.\n\nL’interferenza analitica riguarda invece il segnale prodotto dal metodo di misura. Alcuni immunodosaggi utilizzano il sistema biotina–streptavidina: la biotina assunta può falsarne il risultato, in direzioni diverse secondo il test. Anticorpi che interagiscono con i reagenti possono produrre altre discrepanze; il macro-TSH, legato ad anticorpi, può essere rilevato come TSH elevato senza rappresentare un equivalente aumento dello stimolo biologico. Questi fenomeni sono distinti dagli anti-TPO usati come indizio di autoimmunità tiroidea. Una discordanza fra risultati e quadro clinico richiede confronto con il laboratorio, non la presunzione che ogni valore inatteso sia falso.\n\nPer esempio, TSH elevato e FT4 normale dopo una malattia importante possono riflettere un’alterazione persistente oppure una fase transitoria di recupero; un risultato discordante può inoltre richiedere verifica del metodo. La stessa coppia di valori non risolve da sola queste alternative. Contano storia, farmaci, misure precedenti e valutazione della persistenza, senza applicare qui un calendario universale.\n\nLa conseguenza farmacologica è precisa: correggere un numero non coincide necessariamente con correggere una carenza. Le linee guida ATA del 2014 sconsigliano levotiroxina o liotironina come trattamento della sola NTIS nel paziente adulto critico ricoverato. Questa raccomandazione non riguarda allo stesso modo chi ha un ipotiroidismo già accertato e necessita della sostituzione; non autorizza a interromperla durante un ricovero. Distinguere deficit, adattamento alla malattia e interferenza evita di attribuire a T4 o T3 un’indicazione ricavata dal solo risultato analitico.",
+      "formula": "Risultato inatteso → distinguere funzione tiroidea, malattia e farmaci, metodo di misura → interpretare nel contesto. Nessuna dose si ricava da questo schema."
+    },
+    {
       "id": "indizi-della-causa",
       "title": "Dalla funzione alla causa: anticorpi, captazione e struttura",
       "refs": [
@@ -403,33 +420,41 @@ export const THEORY_THYROID = Object.freeze({
     {
       "question": "Anti-TPO positivi e funzione normale significano che manca ormone da sostituire?",
       "answer": "No: l’autoimmunità descrive la causa possibile, mentre il deficit richiede una valutazione funzionale."
+    },
+    {
+      "question": "Una T3 bassa durante una malattia sistemica dimostra da sola la necessità di liotironina?",
+      "answer": "No. Può riflettere la sindrome da malattia non tiroidea e modificazioni del metabolismo ormonale. La sola misura non dimostra un deficit da sostituire; l’ipotiroidismo già accertato resta un problema distinto."
+    },
+    {
+      "question": "Un’interferenza da biotina significa che la tiroide ha cambiato realmente produzione?",
+      "answer": "No. Nei metodi suscettibili può cambiare il risultato della misura senza una corrispondente variazione biologica. La discordanza va verificata con il laboratorio e interpretata nel contesto."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · AA 2025–26",
-      "detail": "PDF 801–817 e 824–840, etichette 799–815 e 822–838, letti per intervalli. PDF836 conclude la bibliografia di Chaker et al., Hyperthyroidism, Lancet2024;403:768–780, DOI10.1016/S0140-6736(23)02016-0: ora lette le13 pagine, non i lavori citati; ricerca dichiarata fino a settembre2022. PDF837–840: Chaker et al., Hypothyroidism, Nature Reviews Disease Primers2022;8:30, DOI10.1038/s41572-022-00357-7, sole pagine1–4. Integrati sede del deficit, autoimmunità e danno follicolare; figure1–2 controllate, non riprodotte. Nessun dato epidemiologico o algoritmo trasferito."
+      "detail": "PDF801–817 e824–845, etichette799–815 e822–843, letti per intervalli. Chaker et al., Hyperthyroidism, Lancet2024;403:768–780, DOI10.1016/S0140-6736(23)02016-0:13 pagine lette, non gli studi citati. Hypothyroidism, Nature Reviews Disease Primers2022;8:30, DOI10.1038/s41572-022-00357-7: sole pagine1–9. Lotto attuale PDF841–845 (pp.5–9): tutte lette e controllate;842–845 sostengono passaggi su asse, sintomi, recupero e laboratorio. Tabelle e figure3–5 controllate, non riprodotte; cause di841, percentuali, dosi, screening e algoritmo esclusi."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica · IX italiana 2014 / XII originale 2012",
-      "detail": "Capitolo38, PDF785–800, editoriali765–780, letti per intervalli. In questo lotto rilette PDF795–796 (775–776): ipotiroidismo, cause e sostituzione;796 ora contribuisce con passaggi selezionati. Distinti deficit primario e centrale; la gravità fissa nella tabella38-5 non è generalizzata. Dosi e target storici esclusi."
+      "detail": "Capitolo38, PDF785–800, editoriali765–780, letti per intervalli. Lotto attuale: rilette788–789 e795 (768–769 e775); tabelle38-2/38-3 e distinzione fra deficit, farmaci e misura. Profili tipici non trasformati in regole universali; valori di riferimento e posologie storiche esclusi."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia · VIII italiana 2016 / originale 2015",
-      "detail": "Capitolo34, PDF651–659, numero editoriale non visibile. PDF656 riletto per Hashimoto e perdita di tessuto funzionante; non tutte le forme di ipotiroidismo sono autoimmuni. Conflitto sul recettoreTRH e gerarchie storiche esclusi. Nessuna figura riprodotta."
+      "detail": "Capitolo34, PDF651–659, numero editoriale non visibile. PDF656 riletto per manifestazioni dell’ipotiroidismo e confronto con malattie della ghiandola. Sintomi non equiparati a diagnosi; generalizzazioni autoimmuni, conflitto sul recettoreTRH e gerarchie storiche esclusi."
     },
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I · AA 2025–26",
-      "detail": "Lezione19 del1dicembre2025, PDF333–335, stampate328–330. In questo lotto PDF334 (stampata329; lezione p.10) riletto: sostituzione conT4 e contesto farmacologico. TSH isolato riconciliato con FT4 e sede del deficit. Algoritmo visivo controllato ma non trasferito; escluse dose con unità sospetta, sospensione generalizzata e preferenza automatica perT3 nelle urgenze."
+      "detail": "Lezione19 del1dicembre2025, PDF333–335, stampate328–330. Lotto attuale PDF334 (stampata329; lezione p.10) riletto per interazioni e interpretazione del laboratorio. Diagramma con malattia non tiroidea controllato ma non trasferito; escluse terapia automatica daTSH, preferenza generale perT3 nell’acuto, sospensione generalizzata e unità posologica sospetta."
     },
     {
       "id": "NICE",
       "title": "NICE NG145 · Thyroid disease: assessment and management · aggiornamento 2023",
-      "detail": "Consultazione 16 novembre 2026 dei passaggi ufficiali indicizzati: §§1.1.2,1.2.8–1.2.11,1.3.3–1.3.4,1.4.1–1.4.4,1.6.1 e1.6.5. Apertura diretta HTML/PDF negata (403); non dichiarata lettura integrale. In questo lotto confrontati i passaggi ufficiali indicizzati1.1.5 e1.6.9–1.6.17; apertura diretta403. Non trasferito un algoritmo terapeutico. In questo lotto: sezioni 1.6, 1.8, 1.9 e definizioni, nei soli passaggi ufficiali indicizzati; apertura diretta 403. Confrontati meccanismo della tireotossicosi, profilo subclinico e distinzione volume/funzione; nessuna soglia automatica trasferita. Lotto826–830: il19novembre2026 confrontati i passaggi ufficiali indicizzati1.2.8–1.2.11,1.6.1–1.6.2 e1.7.9. Accesso diretto403; nessuna lettura integrale. Ruolo di TRAb/imaging e monitoraggio distinto da posologia e calendario.",
+      "detail": "Consultazione 16 novembre 2026 dei passaggi ufficiali indicizzati: §§1.1.2,1.2.8–1.2.11,1.3.3–1.3.4,1.4.1–1.4.4,1.6.1 e1.6.5. Apertura diretta HTML/PDF negata (403); non dichiarata lettura integrale. In questo lotto confrontati i passaggi ufficiali indicizzati1.1.5 e1.6.9–1.6.17; apertura diretta403. Non trasferito un algoritmo terapeutico. In questo lotto: sezioni 1.6, 1.8, 1.9 e definizioni, nei soli passaggi ufficiali indicizzati; apertura diretta 403. Confrontati meccanismo della tireotossicosi, profilo subclinico e distinzione volume/funzione; nessuna soglia automatica trasferita. Lotto826–830: il19novembre2026 confrontati i passaggi ufficiali indicizzati1.2.8–1.2.11,1.6.1–1.6.2 e1.7.9. Accesso diretto403; nessuna lettura integrale. Ruolo di TRAb/imaging e monitoraggio distinto da posologia e calendario. Lotto841–845:19novembre2026, passaggi ufficiali indicizzati1.2.6 e1.2.8–1.2.11 su malattia acuta,FT4 e biotina. Apertura diretta403; nessuna lettura integrale.",
       "url": "https://www.nice.org.uk/guidance/ng145/chapter/Recommendations"
     },
     {
@@ -441,7 +466,7 @@ export const THEORY_THYROID = Object.freeze({
     {
       "id": "LT4",
       "title": "Levothyroxine / Eltroxin · SmPC britannico · testo 16 ottobre 2026",
-      "detail": "Prodotto 5682, testo 16 ottobre 2026, consultato 16 novembre 2026. In questo lotto §§4.3–4.4,4.8 e5.1–5.2; §4.9 soltanto per la possibile latenza dei segni. Già consultato §4.5. Fonte britannica, non RCP italiano; posologie e gestione del sovradosaggio non trasferite.",
+      "detail": "Prodotto 5682, testo 16 ottobre 2026, consultato 16 novembre 2026. In questo lotto §§4.3–4.4,4.8 e5.1–5.2; §4.9 soltanto per la possibile latenza dei segni. Già consultato §4.5. Fonte britannica, non RCP italiano; posologie e gestione del sovradosaggio non trasferite. Lotto841–845:19novembre2026, §4.4 sulle interferenze biotina–streptavidina riletto; pagina emc aggiornata28ottobre2026.",
       "url": "https://www.medicines.org.uk/emc/product/5682/smpc"
     },
     {
@@ -540,7 +565,7 @@ export const THEORY_THYROID = Object.freeze({
     {
       "id": "ETAC",
       "title": "European Thyroid Association · ipotiroidismo centrale · 2018",
-      "detail": "Consultazione 19 novembre 2026: passaggi su diagnosi, tabella3 e monitoraggio con FT4. Lettura mirata del testo primario, non dell’intera linea guida; esclusi dosi e calendari. DOI10.1159/000491388.",
+      "detail": "Consultazione 19 novembre 2026: passaggi su diagnosi, tabella3 e monitoraggio con FT4. Lettura mirata del testo primario, non dell’intera linea guida; esclusi dosi e calendari. DOI10.1159/000491388. Lotto841–845: rilette tabella3 e diagnosi per malattia non tiroidea, farmaci e interferenze; FT3 bassa isolata non identifica deficit centrale.",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6198777/"
     },
     {
@@ -548,6 +573,18 @@ export const THEORY_THYROID = Object.freeze({
       "title": "American Thyroid Association · Hashimoto’s Thyroiditis",
       "detail": "Consultazione 19 novembre 2026: sezioni diagnosi e trattamento. Informazione ufficiale per pazienti; data di revisione non indicata. Distinta positività anticorpale da deficit funzionale.",
       "url": "https://www.thyroid.org/hashimotos-thyroiditis/"
+    },
+    {
+      "id": "ATALAB",
+      "title": "American Thyroid Association · rassegna commissionata sui test tiroidei · 2023",
+      "detail": "Van Uytfanghe et al., DOI10.1089/thy.2023.0169. Consultazione19novembre2026: Box1, passaggi su T3/malattia non tiroidea e interferenze, tabella5. Rassegna di stato, non linea guida né revisione sistematica; supplementi non letti. Nessuna prevalenza o procedura analitica trasferita.",
+      "url": "https://journals.sagepub.com/doi/full/10.1089/thy.2023.0169"
+    },
+    {
+      "id": "ATASOST",
+      "title": "American Thyroid Association · sostituzione nell’ipotiroidismo · 2014",
+      "detail": "Jonklaas et al., DOI10.1089/thy.2014.0028. Consultazione19novembre2026 dei passaggi primari indicizzati: §20, discussione su ipotiroidismo preesistente e malattia critica; raccomandazioni22a–22b. Documento ancora presente nell’indice ATA consultato; apertura diretta editore non riuscita, PMC fermato dalla verifica del browser. Nessuna lettura integrale o revisione indipendente degli studi.",
+      "url": "https://doi.org/10.1089/thy.2014.0028"
     }
   ],
   "moleculeLinks": [
@@ -588,6 +625,6 @@ export const THEORY_THYROID = Object.freeze({
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-19",
   "readingManifest": "./data/terapia-tiroidea-reading.json",
-  "coverage": "67 pagine locali uniche pertinenti alla tiroide lette, 58 con passaggi integrati. Questo lotto: 5 pagine nuove e 4 rilette, tutte 9 controllate visivamente; 8 sostengono passaggi selezionati. Una pagina contiene sola bibliografia: non equivale alla lettura degli articoli citati. Nessun libro o corso interamente letto; nessuna revisione clinica indipendente.",
-  "wordCount": 6990
+  "coverage": "72 pagine locali uniche pertinenti alla tiroide lette,62 con passaggi integrati. Questo lotto:5 pagine nuove e5 rilette,tutte10 controllate visivamente;9 sostengono passaggi selezionati. Nessun libro o corso interamente letto; nessuna revisione clinica indipendente.",
+  "wordCount": 7476
 });
