@@ -8,15 +8,15 @@ Usare «appunti e diapositive del corso di Farmacologia», con anno, lezione, da
 
 ## Lotto corrente
 
-theory-course-826-830, candidato0.103.0. Ampliato «Ormoni tiroidei e antitiroidei»:21sezioni, 6053parole,23quesiti,20schemi originali,21riferimenti. Una sezione nuova sugli indizi della causa e una ampliata sul recupero del feedback;19sezioni conservate. Zero nuovi capitoli,identità,sintesi di farmaci,profili o laboratori. Sei collegamenti a molecole e sei a capitoli esistenti mantenuti.
+theory-course-831-835, candidato 0.104.0. Ampliato «Ormoni tiroidei e antitiroidei»: 22 sezioni, 6517 parole, 25 quesiti, 21 schemi originali, 23 riferimenti. Una sezione nuova sull’autoregolazione da ioduro; 21 sezioni conservate. Zero nuovi capitoli, identità, sintesi di farmaci, profili o laboratori. Sei collegamenti a molecole e sei a capitoli esistenti mantenuti.
 
-Ultima consegna verificata0.102.0 al commit09a914d25626052b10392ef2494d038df43fcde3; la ricevuta successiva al deploy prevale sul checkpoint preparatorio. La nuova ricevuta sarà aggiornata soltanto dopo pubblicazione verificata.
+Ultima consegna verificata 0.103.0 al commit 4643e2ed5da738c4715ee2529746e98a698df115; la ricevuta successiva al deploy prevale sul checkpoint preparatorio. La nuova ricevuta sarà aggiornata soltanto dopo pubblicazione verificata.
 
-Deduplicazione preventiva su166registri:10pagine lette e controllate,8nuove e2rilette. CorsoI AA2025–26 PDF826–830 (etichette824–828,Lancet770–774), con rilettura della tabella a817; Katzung IXitaliana2014/XIIoriginale2012 PDF796–798 (editoriali776–778); Rang VIIIitaliana2016/originale2015 PDF657 già letto. Sei pagine con passaggi integrati:corso827–829,Katzung797–798,Rang657. Quattro restano contesto. Cumulativo57pagine uniche lette e51integrate. AppuntiI e corsiII precedenti conservati senza nuova lettura.
+Deduplicazione preventiva su 168 registri: 9 pagine lette e controllate, 5 nuove e 4 rilette. Corso I AA2025–26 PDF831–835 (etichette829–833, Lancet775–779); Katzung IX italiana2014/XII originale2012 PDF788 e794 (editoriali768 e774); Rang VIII italiana2016/originale2015 PDF656; appunti I lezione19 del1dicembre2025 PDF335 (stampata330). Cinque pagine con passaggi integrati: corso832, Katzung788/794, Rang656, appunti335. Cumulativo62 pagine uniche lette e53 integrate; una nuova pagina integrata e una già letta ora integrata. I contributi precedenti dei corsi II sono conservati senza nuova lettura.
 
-Rassegna Lancet2024 letta soltanto nelle pagine768–774; tabella3 duplicata a817/830 non è una conferma indipendente. Distinti funzione,anticorpi,captazione e struttura. Confrontati NICE nei passaggi ufficiali indicizzati(accesso diretto403), ETA2018 nelle sezioni pertinenti e scheda ATA. Differenza sul ruolo dell’ecografia mantenuta. Dosi,urgenze,gravidanza e soglie automatiche escluse; nessuna figura o tabella originale pubblicata. Nessuna revisione clinica indipendente.
+Rassegna Lancet2024 letta solo nelle pagine768–779; 834–835 contengono sola bibliografia e non equivalgono alla lettura dei lavori citati. Distinti Wolff–Chaikoff, adattamento, mancata fuga e Jod–Basedow. Confrontati i passaggi pertinenti di ETA2021 e SmPC britannico dello ioduro di potassio nel contesto specifico del prodotto. Dosi, urgenze, gravidanza, integratori, stime di rischio e stato regolatorio delle terapie innovative esclusi. Nessuna fonte originale ripubblicata e nessuna revisione clinica indipendente.
 
-50controlli dati e otto configurazioni desktop/mobile e temi superati; navigazione,fonti,tastiera,ricerca e offline verificati. Aggiornamento reale0.102.0→0.103.0 con dati conservati. Otto schermate ispezionate; altri64capitoli,19sezioni preesistenti e trePDFsorgente invariati. Commit,CI,deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-826-830-2026-11-16/.
+50 controlli dati e otto configurazioni desktop/mobile e temi superati; navigazione, fonti, tastiera, ricerca e offline verificati. Aggiornamento reale 0.103.0→0.104.0 con dati conservati. Otto schermate ispezionate; altri 64 capitoli, 21 sezioni preesistenti e quattro PDF sorgente invariati. Commit, CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-831-835-2026-11-19/.
 
 ## Regole
 
@@ -28,4 +28,4 @@ Rassegna Lancet2024 letta soltanto nelle pagine768–774; tabella3 duplicata a81
 
 ## Prossimo intervallo
 
-Completare826–830 e verificarne la pubblicazione.831–835 non iniziato. Teoria prima di farmaci,profili e laboratori.
+Completare 831–835 e verificarne la pubblicazione. 836–840 non iniziato. Teoria prima di farmaci, profili e laboratori.

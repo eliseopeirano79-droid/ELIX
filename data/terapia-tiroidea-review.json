@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "chapterId": "terapia-tiroidea",
-  "batch": "theory-course-826-830",
-  "reviewedAt": "2026-11-19T06:56:34.892728+00:00",
+  "batch": "theory-course-831-835",
+  "reviewedAt": "2026-11-19T07:59:10.297225+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "1382c389ce3216acac005c753125b253aa5461ee5bf9c80f0068e1b177c2d8b5",
+  "moduleSha256": "5cdd42f9b60ee76a0e66febeb8579958f2e8ba6c1bfb479882dbc8dda97d05cb",
   "checks": [
-    "Una sezione nuova e una ampliata;19sezioni precedenti invariate.",
-    "Distinti funzione, recettore, attività biologica degli anticorpi, captazione e struttura.",
-    "Esplicitati effetto del carico iodico, limiti del TSH iniziale e differenza NICE/ETA sull’imaging.",
-    "Nessuna dose, algoritmo terapeutico, figura o tabella delle fonti riprodotti.",
-    "Due quesiti nuovi; sei collegamenti a molecole e sei a capitoli esistenti conservati.",
-    "Revisione editoriale circoscritta del solo integratore."
+    "Una sezione nuova sullo ioduro; 21 sezioni precedenti invariate.",
+    "Distinti substrato, organificazione, liberazione, adattamento e Jod–Basedow.",
+    "Collegati NIS, TPO e TR, tionamidi, amiodarone, nodularità e Graves senza equivalenza terapeutica.",
+    "Una sintesi schematica originale e due quesiti nuovi; sei collegamenti a molecole e sei a capitoli esistenti conservati.",
+    "Nessuna dose, algoritmo terapeutico, trascrizione, figura o tabella delle fonti riprodotti.",
+    "Revisione editoriale circoscritta del solo integratore; bibliografia letta distinta dagli studi citati."
   ],
   "conflicts": [
     {
@@ -247,8 +247,8 @@
     },
     {
       "id": "course-lancet-scope",
-      "issue": "Rassegna2024 con ricerca fino a settembre2022; lettura cumulativa limitata alle prime sette pagine.",
-      "resolution": "Solo pagine768–774 lette; epidemiologia, dosi e gerarchie terapeutiche non trasferite come raccomandazioni attuali.",
+      "issue": "Rassegna 2024 con ricerca fino a settembre 2022; lettura cumulativa limitata a dodici pagine su tredici.",
+      "resolution": "Solo pagine 768–779 lette; pagina 780 non letta. Bibliografia non equivale a lettura dei lavori citati. Dosi, gerarchie terapeutiche e stato regolatorio attuale non trasferiti.",
       "status": "scope_limited"
     },
     {
@@ -280,14 +280,32 @@
       "issue": "Libri2014/2016 contengono gerarchie terapeutiche, dosi e rassicurazioni assolute non direttamente trasferibili.",
       "resolution": "Usati solo i passaggi meccanicistici e diagnostici pertinenti; resto registrato come contesto non convalidato.",
       "status": "scope_limited"
+    },
+    {
+      "id": "iodide-escape-versus-jod-basedow",
+      "issue": "Ripresa della sintesi, eliminazione del carico iodico e iperproduzione possono essere confusi.",
+      "resolution": "Distinti adattamento durante esposizione persistente, mancata fuga e iperproduzione nella tiroide suscettibile, confrontando libri e ETA2021.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "potassium-iodide-product-context",
+      "issue": "Lo SmPC consultato riguarda radioprotezione; i libri descrivono anche usi tiroidei storici.",
+      "resolution": "Usato soltanto per rischi nei predisposti e interferenza radioiodica; nessuna nuova indicazione, dose o procedura trasferita.",
+      "status": "scope_limited"
+    },
+    {
+      "id": "bibliography-and-innovative-therapies",
+      "issue": "CFI834–835 elencano riferimenti; CFI832 discute terapie innovative nel contesto della rassegna2024.",
+      "resolution": "Nessuna dichiarazione di lettura degli studi citati o di stato regolatorio2026; passaggi terapeutici non trasferiti.",
+      "status": "excluded_out_of_scope"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente o validazione specialistica.",
-    "Dieci pagine lette e controllate:otto nuove e due rilette. Sei contribuiscono con passaggi selezionati; quattro restano contesto. Cumulativo57uniche lette e51integrate.",
-    "Rassegna Lancet2024: lette solo pagine768–774, ricerca dichiarata fino a settembre2022. Tabella3 duplicata nel corso a817/830, senza corroborazione indipendente.",
-    "Katzung796 è contesto; dosi, urgenze, gravidanza, protocolli storici e soglie automatiche non trasferiti. Rang657 riletto, senza nuove pagine uniche.",
-    "NICE verificato nei passaggi ufficiali indicizzati, accesso diretto403; ETA2018 consultata nelle sole sezioni pertinenti. Ruolo dell’ecografia diverso nei due documenti, senza algoritmo combinato.",
-    "AppuntiI e corsiII già riconciliati nei lotti precedenti conservati senza nuova lettura. Nessun libro o corso interamente letto; protocolli locali non verificati."
+    "Nove pagine lette e controllate: cinque nuove e quattro rilette. Cinque contribuiscono con passaggi selezionati. Cumulativo 62 uniche lette e 53 integrate: una nuova pagina integrata e una già letta ora integrata.",
+    "Rassegna Lancet 2024: lette solo pagine 768–779, ricerca dichiarata fino a settembre 2022. PDF 834–835 sono bibliografia, non lettura degli studi citati; pagina 780 non letta. Nessuno stato regolatorio 2026 delle terapie innovative dedotto dalla rassegna.",
+    "Katzung 788/794, Rang 656 e appunti I 335 rilette senza nuova copertura unica. Figure condivise non costituiscono conferme indipendenti. Dosi, urgenze, gravidanza, integratori, stime di rischio e protocolli storici esclusi.",
+    "ETA 2021 letta nei soli passaggi pertinenti al carico da contrasto; SmPC britannico KI consultato per rischi e interferenze nel contesto della sua indicazione specifica, senza trasferire protocolli o raccomandazioni generali.",
+    "Contributi dei corsi II e riferimenti precedenti conservati con i rispettivi anni e limiti, senza nuova lettura. Nessun libro o corso interamente letto; protocolli locali non verificati."
   ]
 }
