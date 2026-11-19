@@ -123,6 +123,20 @@ export const THEORY_THYROID = Object.freeze({
       "formula": "Gozzo = volume aumentato. Funzione: normale, ridotta o aumentata. Subclinico: TSH basso con FT4 e FT3 nei rispettivi intervalli."
     },
     {
+      "id": "indizi-della-causa",
+      "title": "Dalla funzione alla causa: anticorpi, captazione e struttura",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "RANG",
+        "NICE",
+        "ETAG",
+        "ATAF"
+      ],
+      "text": "Un profilo ormonale documenta come sta funzionando l’asse, ma non identifica sempre il processo che ha prodotto l’alterazione. Davanti a una tireotossicosi, distinguere l’aumento della sintesi dalla liberazione di ormone già formato cambia il significato dei farmaci disponibili. La misura degli ormoni, gli anticorpi e le immagini rispondono quindi a domande complementari: quanto ormone circola, quale stimolo agisce sulla ghiandola e come si distribuisce il tessuto funzionante.\n\nNel Graves, il collegamento con il recettore è particolarmente diretto. Gli anticorpi stimolanti riconoscono il recettore del TSH e sostengono l’attività della cellula follicolare anche quando il TSH ipofisario è soppresso dal feedback. I TRAb misurati con comuni saggi di legame indicano la presenza di anticorpi contro quel recettore; il risultato non descrive necessariamente se il loro effetto sia stimolante o bloccante. La concentrazione di anticorpi e l’attività biologica sono proprietà diverse, distinguibili con metodi appropriati. Questo chiarisce anche perché anticorpi anti-TPO e TRAb non siano intercambiabili: riconoscono bersagli differenti. La TPO è inoltre il bersaglio enzimatico delle tionamidi; inibirla non significa antagonizzare direttamente il recettore del TSH.\n\nLa captazione di un tracciante esplora un altro livello. La tiroide concentra ioduro attraverso NIS; usando un radioisotopo dello iodio si può osservare l’accumulo nella ghiandola, mentre la scintigrafia ne mostra la distribuzione. Nel Graves non trattato l’attività è tipicamente diffusa; un nodulo autonomo può invece concentrare il tracciante in modo focale, con minore attività del tessuto circostante. Una tiroidite distruttiva può determinare concentrazioni ormonali elevate e captazione bassa: il sangue riceve le riserve liberate dai follicoli, senza che questo richieda un corrispondente aumento della nuova sintesi.\n\nAnche questa relazione ha condizioni di validità. Un carico recente di iodio può ridurre l’accumulo del radiotracciante e rendere una captazione bassa meno specifica per distruzione follicolare. Il dato va quindi confrontato con esposizioni, farmaci e altri risultati. L’attività somministrata a scopo diagnostico e il trattamento con radioiodio rispondono a obiettivi diversi: osservare il comportamento della ghiandola oppure ridurne il tessuto funzionante. Condividere il trasporto dello ioduro non rende i due interventi equivalenti.\n\nL’ecografia descrive volume e struttura; il Doppler aggiunge informazioni sulla vascolarizzazione. Un nodulo visto all’ecografia, da solo, non dimostra autonomia secretoria. Le linee guida consultate attribuiscono un ruolo diverso agli esami nel percorso: NICE considera TRAb e, se negativi, la scintigrafia, riservando l’ecografia nell’adulto con tireotossicosi al nodulo palpabile; ETA 2018 include ecografia e Doppler a supporto della diagnosi di Graves. Questa differenza va conservata, senza costruire una sequenza universale sommando le raccomandazioni.\n\nIl ragionamento farmacologico finale collega la causa al bersaglio: una produzione sostenuta dal recettore o da tessuto autonomo rende pertinente l’inibizione della sintesi; il rilascio distruttivo delle riserve richiede un’interpretazione diversa. Nessun singolo valore anticorpale o reperto d’immagine sostituisce questa ricostruzione.",
+      "formula": "Ormoni → stato funzionale; TRAb → indizio immunologico; captazione → attività e distribuzione; ecografia → struttura."
+    },
+    {
       "id": "tempi-e-cinetica",
       "title": "Tre tempi diversi: esposizione, risposta e feedback",
       "refs": [
@@ -130,9 +144,10 @@ export const THEORY_THYROID = Object.freeze({
         "KATZ",
         "RANG",
         "APP",
-        "NICE"
+        "NICE",
+        "ETAG"
       ],
-      "text": "La farmacologia tiroidea richiede di distinguere almeno tre processi temporali. Il primo è la variazione della quantità di ormone nei compartimenti corporei. Il secondo è l’adattamento dei tessuti, che comprende regolazione genica e modificazioni delle proteine. Il terzo è il riassestamento del sistema di feedback. Un cambiamento nel primo processo non implica che gli altri due siano già completati.\n\nT4 permane generalmente più a lungo di T3 e sostiene una riserva dalla quale può derivare ormone attivo. Le emivite riportate nei testi dipendono però dallo stato tiroideo e dalle condizioni studiate. È più utile capire la differenza di persistenza che memorizzare un numero come costante universale. Anche la durata dell’effetto non coincide necessariamente con l’emivita plasmatica.\n\nUna curva ottenuta dopo una singola somministrazione non descrive automaticamente l’esposizione durante un trattamento ripetuto. Con somministrazioni successive, quanto viene introdotto si somma a quanto non è ancora stato eliminato. Il raggiungimento di un nuovo equilibrio richiede tempo; contemporaneamente cambiano conversione periferica e risposta dei tessuti. Il confronto fra picchi dopo boli equimolari non fornisce da solo un rapporto di sostituzione fra farmaci.\n\nLa stessa cautela vale per gli antitiroidei: bloccare la produzione futura lascia inizialmente disponibili riserve già formate. Un ritardo dell’effetto può quindi riflettere deposito, eliminazione e adattamento, senza dimostrare assenza di azione sul bersaglio. D’altra parte, un miglioramento rapido di un sintomo non dimostra che l’intero asse sia tornato in equilibrio.\n\nPer la sostituzione ripetuta, lo stato stazionario farmacocinetico indica un equilibrio fra apporto ed eliminazione nelle condizioni considerate. Non certifica che sintomi e TSH abbiano già raggiunto il loro assetto finale. Le settimane indicate nelle tabelle didattiche per T4 descrivono una scala temporale, non una scadenza clinica universale. NICE segnala che, dopo una carenza prolungata o un TSH iniziale molto elevato, il riassestamento del TSH può richiedere mesi. Un valore ancora alterato va quindi interpretato rispetto alla storia del trattamento e dell’asse; il solo tempo trascorso non autorizza una correzione automatica.",
+      "text": "La farmacologia tiroidea richiede di distinguere almeno tre processi temporali. Il primo è la variazione della quantità di ormone nei compartimenti corporei. Il secondo è l’adattamento dei tessuti, che comprende regolazione genica e modificazioni delle proteine. Il terzo è il riassestamento del sistema di feedback. Un cambiamento nel primo processo non implica che gli altri due siano già completati.\n\nT4 permane generalmente più a lungo di T3 e sostiene una riserva dalla quale può derivare ormone attivo. Le emivite riportate nei testi dipendono però dallo stato tiroideo e dalle condizioni studiate. È più utile capire la differenza di persistenza che memorizzare un numero come costante universale. Anche la durata dell’effetto non coincide necessariamente con l’emivita plasmatica.\n\nUna curva ottenuta dopo una singola somministrazione non descrive automaticamente l’esposizione durante un trattamento ripetuto. Con somministrazioni successive, quanto viene introdotto si somma a quanto non è ancora stato eliminato. Il raggiungimento di un nuovo equilibrio richiede tempo; contemporaneamente cambiano conversione periferica e risposta dei tessuti. Il confronto fra picchi dopo boli equimolari non fornisce da solo un rapporto di sostituzione fra farmaci.\n\nLa stessa cautela vale per gli antitiroidei: bloccare la produzione futura lascia inizialmente disponibili riserve già formate. Un ritardo dell’effetto può quindi riflettere deposito, eliminazione e adattamento, senza dimostrare assenza di azione sul bersaglio. D’altra parte, un miglioramento rapido di un sintomo non dimostra che l’intero asse sia tornato in equilibrio.\n\nPer la sostituzione ripetuta, lo stato stazionario farmacocinetico indica un equilibrio fra apporto ed eliminazione nelle condizioni considerate. Non certifica che sintomi e TSH abbiano già raggiunto il loro assetto finale. Le settimane indicate nelle tabelle didattiche per T4 descrivono una scala temporale, non una scadenza clinica universale. NICE segnala che, dopo una carenza prolungata o un TSH iniziale molto elevato, il riassestamento del TSH può richiedere mesi. Un valore ancora alterato va quindi interpretato rispetto alla storia del trattamento e dell’asse; il solo tempo trascorso non autorizza una correzione automatica.\n\nDurante il trattamento antitiroideo del Graves si osserva una seconda forma di ritardo del feedback. FT4 e T3 possono diminuire mentre il TSH resta ancora soppresso: la risposta ipofisaria riflette anche la precedente esposizione all’eccesso ormonale. Un TSH basso isolato, in questa fase, non quantifica quindi la produzione ancora presente e non dimostra automaticamente insufficiente azione di metimazolo o propiltiouracile. Le linee guida ETA richiamano questo limite nella valutazione iniziale della risposta; NICE considera insieme TSH, FT4 e FT3 nel monitoraggio iniziale degli antitiroidei.\n\nSi può rappresentare il problema con un esempio qualitativo: due controlli mostrano FT4 e T3 in diminuzione e TSH ancora basso. Il dato suggerisce che i diversi componenti dell’asse si stanno modificando con velocità differenti; non consente, da solo, di scegliere una nuova dose. Per interpretarlo servono andamento complessivo, quadro clinico e fase del trattamento. Lo stesso valore di TSH ha quindi un significato diverso prima della terapia, durante il recupero del feedback e dopo una stabilizzazione prolungata.",
       "formula": "Variazione dell’apporto → nuova esposizione → adattamento tissutale e feedback, con tempi distinti"
     },
     {
@@ -336,23 +351,31 @@ export const THEORY_THYROID = Object.freeze({
     {
       "question": "Un gozzo con FT4 normale e FT3 aumentata dimostra ipertiroidismo subclinico?",
       "answer": "No. Il gozzo descrive il volume e non determina la funzione. La definizione subclinica richiede TSH basso e sia FT4 sia FT3 nei rispettivi intervalli: una FT3 aumentata non soddisfa quel profilo."
+    },
+    {
+      "question": "TRAb, ecografia e captazione misurano la stessa proprietà della tiroide?",
+      "answer": "No. I TRAb forniscono un indizio immunologico legato al recettore del TSH; l’ecografia descrive struttura e, con Doppler, vascolarizzazione; la captazione e la scintigrafia studiano accumulo e distribuzione del tracciante. I dati vanno integrati con funzione ed esposizioni, perché un carico di iodio può ridurre la captazione."
+    },
+    {
+      "question": "Un TSH ancora soppresso mentre FT4 e T3 diminuiscono dimostra che una tionamide non sta agendo?",
+      "answer": "No. All’inizio del trattamento il TSH può recuperare più lentamente degli ormoni circolanti. Servono andamento di FT4 e T3, quadro clinico e fase terapeutica; il solo TSH non autorizza una variazione automatica della dose."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · AA 2025–26",
-      "detail": "PDF 801–817 e 824–825, etichette 799–815 e 822–823, in cinque lotti. In questo lotto letti testo e tabella delle sole prime due pagine della rassegna Chaker et al., Hyperthyroidism, Lancet 2024;403:768–780, DOI 10.1016/S0140-6736(23)02016-0; ricerca bibliografica dichiarata fino al 16 settembre 2022. Distinzioni causali e definizioni integrate; articolo non letto integralmente, nessuna tabella riprodotta."
+      "detail": "PDF801–817 e824–830, etichette799–815 e822–828. In questo lotto PDF826–830 (Lancet770–774) letti e controllati; PDF817 riletto per deduplicare la tabella3 presente anche a830. Rassegna Chaker et al., Hyperthyroidism, Lancet2024;403:768–780, DOI10.1016/S0140-6736(23)02016-0; ricerca dichiarata fino al16settembre2022. Lette complessivamente soltanto le pagine768–774; nessuna figura o tabella riprodotta."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica · IX italiana 2014 / XII originale 2012",
-      "detail": "Capitolo 38, PDF 785–795 e 799–800, editoriali 765–775 e 779–780. In questo lotto PDF 799–800 letti e controllati: liberazione di riserve, gozzo e profili biochimici. Terminologia storica della tiroidite, dosi, urgenze, gravidanza e soglie automatiche di trattamento non trasferite. PDF 796–798 non letti."
+      "detail": "Capitolo38, PDF785–800, editoriali765–780, letti per intervalli. In questo lotto PDF796–798 (editoriali776–778): tabella e testo controllati; integrati solo passaggi selezionati797–798 su recettore, diagnosi e risposta. PDF796 resta contesto. Dosi, urgenze, gravidanza, soglie e preferenze terapeutiche storiche escluse."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia · VIII italiana 2016 / originale 2015",
-      "detail": "Capitolo 34, PDF 651–659, numero editoriale non visibile. PDF 656 riletto in questo lotto, senza ricontarlo come nuova lettura; integrati passaggi su gozzo e compensazione. Il riferimento stampato a mutazioni del recettore TRH è discordante con la tabella del corso sul recettore TSH ed è escluso. Nessuna figura riprodotta."
+      "detail": "Capitolo34, PDF651–659, numero editoriale non visibile. PDF657 riletto e controllato in questo lotto, senza incremento della copertura unica; passaggio sulla captazione come test confrontato con corso e fonti ufficiali. Rassicurazioni radiobiologiche assolute e regole terapeutiche storiche non trasferite. Nessuna figura riprodotta."
     },
     {
       "id": "APP",
@@ -362,7 +385,7 @@ export const THEORY_THYROID = Object.freeze({
     {
       "id": "NICE",
       "title": "NICE NG145 · Thyroid disease: assessment and management · aggiornamento 2023",
-      "detail": "Consultazione 16 novembre 2026 dei passaggi ufficiali indicizzati: §§1.1.2,1.2.8–1.2.11,1.3.3–1.3.4,1.4.1–1.4.4,1.6.1 e1.6.5. Apertura diretta HTML/PDF negata (403); non dichiarata lettura integrale. In questo lotto confrontati i passaggi ufficiali indicizzati1.1.5 e1.6.9–1.6.17; apertura diretta403. Non trasferito un algoritmo terapeutico. In questo lotto: sezioni 1.6, 1.8, 1.9 e definizioni, nei soli passaggi ufficiali indicizzati; apertura diretta 403. Confrontati meccanismo della tireotossicosi, profilo subclinico e distinzione volume/funzione; nessuna soglia automatica trasferita.",
+      "detail": "Consultazione 16 novembre 2026 dei passaggi ufficiali indicizzati: §§1.1.2,1.2.8–1.2.11,1.3.3–1.3.4,1.4.1–1.4.4,1.6.1 e1.6.5. Apertura diretta HTML/PDF negata (403); non dichiarata lettura integrale. In questo lotto confrontati i passaggi ufficiali indicizzati1.1.5 e1.6.9–1.6.17; apertura diretta403. Non trasferito un algoritmo terapeutico. In questo lotto: sezioni 1.6, 1.8, 1.9 e definizioni, nei soli passaggi ufficiali indicizzati; apertura diretta 403. Confrontati meccanismo della tireotossicosi, profilo subclinico e distinzione volume/funzione; nessuna soglia automatica trasferita. Lotto826–830: il19novembre2026 confrontati i passaggi ufficiali indicizzati1.2.8–1.2.11,1.6.1–1.6.2 e1.7.9. Accesso diretto403; nessuna lettura integrale. Ruolo di TRAb/imaging e monitoraggio distinto da posologia e calendario.",
       "url": "https://www.nice.org.uk/guidance/ng145/chapter/Recommendations"
     },
     {
@@ -445,6 +468,18 @@ export const THEORY_THYROID = Object.freeze({
       "title": "American Thyroid Association · Goiter",
       "detail": "Consultato il 16 novembre 2026: definizione e cause; volume distinto dalla funzione e risposta allo stimolo del TSH. Informazione ufficiale per pazienti, data di revisione non indicata. Nessun algoritmo terapeutico trasferito.",
       "url": "https://www.thyroid.org/goiter/"
+    },
+    {
+      "id": "ETAG",
+      "title": "European Thyroid Association · linea guida sul Graves · 2018",
+      "detail": "Consultazione 19 novembre 2026 del testo primario: sezioni Diagnosis/Serology, Imaging e passaggi iniziali Medical Treatment, per saggi TRAb, ruolo dell’imaging e ritardo del TSH. Differenza con NICE sull’ecografia conservata. Documento del2018, non interamente letto né revisione di tutte le linee guida; dosi, calendari e algoritmi esclusi.",
+      "url": "https://doi.org/10.1159/000490384"
+    },
+    {
+      "id": "ATAF",
+      "title": "American Thyroid Association · Thyroid Function Tests",
+      "detail": "Consultazione 19 novembre2026: sezioni Tests, Thyroid Antibody Tests e Non-Blood Tests. Distinti funzione, anticorpi e captazione. Scheda informativa ufficiale per pazienti, data di revisione non indicata; figura non riprodotta e nessuna indicazione numerica trasferita.",
+      "url": "https://www.thyroid.org/thyroid-function-tests/"
     }
   ],
   "moleculeLinks": [
@@ -483,8 +518,8 @@ export const THEORY_THYROID = Object.freeze({
   ],
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
-  "reviewedAt": "2026-11-16",
+  "reviewedAt": "2026-11-19",
   "readingManifest": "./data/terapia-tiroidea-reading.json",
-  "coverage": "49 pagine locali uniche pertinenti alla tiroide lette, 46 con passaggi integrati. In questo ampliamento: 4 pagine nuove e 1 riletta, tutte controllate visivamente e utilizzate per passaggi selezionati. Altre 3 pagine del corso restano nel registro privato e non aumentano la copertura tiroidea. Nessun libro o corso interamente letto; nessuna revisione clinica indipendente.",
-  "wordCount": 5442
+  "coverage": "57 pagine locali uniche pertinenti alla tiroide lette,51 con passaggi integrati. Questo lotto:8pagine nuove e2rilette,10controllate visivamente;6con passaggi selezionati utilizzati,4di contesto. La tabella condivisa non costituisce una conferma indipendente. Nessun libro o corso interamente letto; nessuna revisione clinica indipendente.",
+  "wordCount": 6053
 });

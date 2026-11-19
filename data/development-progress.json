@@ -1,29 +1,28 @@
 {
-  "updatedAt": "2026-11-16T17:45:54.927407+00:00",
-  "batch": "theory-course-821-825",
+  "updatedAt": "2026-11-19T07:04:40.272532+00:00",
+  "batch": "theory-course-826-830",
   "status": "locally_verified_pending_publication",
-  "release": "0.102.0",
-  "branch": "feat/theory-course-821-825",
-  "baseCommit": "ad2e0c912839d2572161bf3bff6795003454da43",
+  "release": "0.103.0",
+  "branch": "feat/theory-course-826-830",
+  "baseCommit": "09a914d25626052b10392ef2494d038df43fcde3",
   "previousBatch": {
-    "batch": "theory-course-816-820",
-    "status": "published_and_live_verified",
-    "release": "0.101.0",
-    "commit": "ad2e0c912839d2572161bf3bff6795003454da43"
+    "batch": "theory-course-821-825",
+    "release": "0.102.0",
+    "commit": "09a914d25626052b10392ef2494d038df43fcde3",
+    "status": "published_and_live_verified"
   },
   "scope": [
-    "Ampliamento tiroideo: origine della tireotossicosi, gozzo, funzione e definizioni subcliniche."
+    "Ampliamento tiroideo: indizi della causa e recupero del feedback durante trattamento antitiroideo."
   ],
   "completed": [
-    "Due sezioni nuove; 20 sezioni, 5442 parole, 21 quesiti e 19 schemi. Diciotto sezioni conservate.",
-    "Otto pagine lette e controllate: sette nuove e una riletta. Cinque pertinenti alla tiroide contribuiscono al nuovo testo; tre di altri argomenti registrate privatamente.",
-    "50 controlli dati superati; otto configurazioni desktop/mobile e temi, navigazione, ricerca, fonti, tastiera e offline verificati.",
-    "Aggiornamento reale 0.101.0 → 0.102.0 con preferiti, studio e tema conservati.",
-    "Gli altri 64 capitoli, le 18 sezioni precedenti e i tre PDF sorgente sono invariati.",
-    "Otto schermate ispezionate; esempio e quesito finali precisano FT4 e FT3."
+    "Una sezione nuova e una ampliata:21sezioni,6053parole,23quesiti e20schemi;19sezioni conservate.",
+    "Dieci pagine lette e controllate:otto nuove e due rilette; sei con passaggi integrati.",
+    "50controlli dati,otto configurazioni desktop/mobile e temi,navigazione,fonti,tastiera,ricerca e offline superati.",
+    "Aggiornamento reale0.102.0→0.103.0 con preferiti,studio e tema conservati.",
+    "Otto schermate ispezionate;64altri capitoli e trePDFsorgente invariati."
   ],
   "remaining": [
-    "Commit, CI, deploy e riscontro online."
+    "Commit,CI,deploy e riscontro online."
   ],
   "counts": {
     "identities": 4225,
@@ -45,26 +44,25 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 2,
-    "expandedSections": 0,
+    "newSections": 1,
+    "expandedSections": 1,
     "newLinksToExistingIdentities": 0,
-    "newStaticOriginalSchemas": 2,
+    "newStaticOriginalSchemas": 1,
     "newSelfChecks": 2,
-    "unchangedSections": 18
+    "unchangedSections": 19
   },
   "readingManifests": [
     "data/terapia-tiroidea-reading.json"
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente o validazione specialistica.",
-    "Copertura tiroidea del lotto: 5 pagine lette e controllate, 4 nuove e 1 riletta; cumulativo 49 uniche lette e 46 integrate. Nessun libro o corso interamente letto.",
-    "Tre pagine del corso su un altro argomento, compresa una pagina di permessi editoriali, restano private e non aumentano la copertura tiroidea.",
-    "Della rassegna Lancet 2024 lette soltanto le prime due pagine, con ricerca dichiarata fino a settembre 2022. Nessuna stima epidemiologica, dose o gerarchia terapeutica trasferita.",
-    "Rang 656 già letto: rilettura senza incremento delle pagine uniche. Escluso il riferimento discordante al recettore TRH. Katzung 796–798 non letti; urgenze, gravidanza e terapie storiche escluse.",
-    "NICE verificato nei soli passaggi ufficiali indicizzati, accesso diretto 403. Schede ATA informative con data di revisione non indicata; nessuna revisione sistematica.",
-    "Contributi precedenti degli appunti I e dei corsi II mantenuti senza nuova lettura; protocolli locali e soglie individuali di intervento non verificati."
+    "Dieci pagine lette e controllate:otto nuove e due rilette. Sei contribuiscono con passaggi selezionati; quattro restano contesto. Cumulativo57uniche lette e51integrate.",
+    "Rassegna Lancet2024: lette solo pagine768–774, ricerca dichiarata fino a settembre2022. Tabella3 duplicata nel corso a817/830, senza corroborazione indipendente.",
+    "Katzung796 è contesto; dosi, urgenze, gravidanza, protocolli storici e soglie automatiche non trasferiti. Rang657 riletto, senza nuove pagine uniche.",
+    "NICE verificato nei passaggi ufficiali indicizzati, accesso diretto403; ETA2018 consultata nelle sole sezioni pertinenti. Ruolo dell’ecografia diverso nei due documenti, senza algoritmo combinato.",
+    "AppuntiI e corsiII già riconciliati nei lotti precedenti conservati senza nuova lettura. Nessun libro o corso interamente letto; protocolli locali non verificati."
   ],
-  "nextBatch": "Completare 821–825; 826–830 non iniziato.",
+  "nextBatch": "Completare826–830;831–835 non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755"
