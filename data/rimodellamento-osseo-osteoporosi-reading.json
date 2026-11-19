@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "batch": "theory-course-856-860",
+  "chapterId": "rimodellamento-osseo-osteoporosi",
+  "updatedAt": "2026-11-19T13:28:08.084675+00:00",
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "newTargetProfiles": 0,
+  "newChapters": 1,
+  "expandedExistingChapters": 0,
+  "newReadPdfPages": 11,
+  "reusedReadPdfPages": 2,
+  "totalReadPdfPages": 13,
+  "newReviewedPdfPages": 12,
+  "chapterReviewedPdfPages": 14,
+  "partiallyReadPdfPages": 1,
+  "chapterSourcePdfPages": 13,
+  "chapterIntegratedPdfPages": 13,
+  "newIntegratedPdfPages": 11,
+  "newlyIntegratedPreviouslyReadPdfPages": 2,
+  "sources": [
+    {
+      "id": "CFI",
+      "title": "Appunti e diapositive del corso di Farmacologia I",
+      "edition": "AA2025–26",
+      "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
+      "pdfPagesRead": [
+        855,
+        856,
+        857,
+        858,
+        859
+      ],
+      "visuallyCheckedPdfPages": [
+        855,
+        856,
+        857,
+        858,
+        859,
+        860
+      ],
+      "integratedPdfPages": [
+        855,
+        856,
+        857,
+        858,
+        859
+      ],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "newlyReadTextPages": [
+        856,
+        857,
+        858,
+        859
+      ],
+      "reusedPreviouslyReadPages": [
+        855
+      ],
+      "partiallyReadPdfPages": [
+        860
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "integrationScope": "Solo passaggi selezionati, con esclusioni registrate nella revisione.",
+      "substantiveExtractedTextReadPages": [
+        857,
+        858
+      ],
+      "imageTextReadPages": [
+        855,
+        856,
+        857,
+        858,
+        859
+      ],
+      "printedPageLabels": {
+        "855": "853 di934",
+        "856": "854 di934",
+        "857": "855 di934",
+        "858": "856 di934",
+        "859": "857 di934",
+        "860": "858 di934"
+      }
+    },
+    {
+      "id": "KATZ",
+      "title": "Katzung · Farmacologia generale e clinica",
+      "edition": "IX italiana2014 / XII originale2012",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "pdfPagesRead": [
+        884,
+        885,
+        886,
+        887
+      ],
+      "visuallyCheckedPdfPages": [
+        884,
+        885,
+        886,
+        887
+      ],
+      "integratedPdfPages": [
+        884,
+        885,
+        886,
+        887
+      ],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "newlyReadTextPages": [
+        884,
+        885,
+        886,
+        887
+      ],
+      "reusedPreviouslyReadPages": [],
+      "partiallyReadPdfPages": [],
+      "readButNotIntegratedPdfPages": [],
+      "integrationScope": "Solo passaggi selezionati, con esclusioni registrate nella revisione.",
+      "substantiveExtractedTextReadPages": [
+        884,
+        885,
+        886,
+        887
+      ],
+      "imageTextReadPages": [],
+      "printedPageLabels": {
+        "884": "864",
+        "885": "865",
+        "886": "866",
+        "887": "867"
+      }
+    },
+    {
+      "id": "RANG",
+      "title": "Rang & Dale · Farmacologia",
+      "edition": "VIII italiana2016 / originale2015",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "pdfPagesRead": [
+        685,
+        686,
+        687
+      ],
+      "visuallyCheckedPdfPages": [
+        685,
+        686,
+        687
+      ],
+      "integratedPdfPages": [
+        685,
+        686,
+        687
+      ],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "newlyReadTextPages": [
+        685,
+        686,
+        687
+      ],
+      "reusedPreviouslyReadPages": [],
+      "partiallyReadPdfPages": [],
+      "readButNotIntegratedPdfPages": [],
+      "integrationScope": "Solo passaggi selezionati, con esclusioni registrate nella revisione.",
+      "substantiveExtractedTextReadPages": [
+        685,
+        686,
+        687
+      ],
+      "imageTextReadPages": [],
+      "printedPageLabels": {
+        "685": null,
+        "686": null,
+        "687": null
+      }
+    },
+    {
+      "id": "APP",
+      "title": "Appunti del corso di Farmacologia I",
+      "edition": "AA2025–26; lezione20 del3 dicembre2025",
+      "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+      "pdfPagesRead": [
+        336
+      ],
+      "visuallyCheckedPdfPages": [
+        336
+      ],
+      "integratedPdfPages": [
+        336
+      ],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "newlyReadTextPages": [],
+      "reusedPreviouslyReadPages": [
+        336
+      ],
+      "partiallyReadPdfPages": [],
+      "readButNotIntegratedPdfPages": [],
+      "integrationScope": "Solo passaggi selezionati, con esclusioni registrate nella revisione.",
+      "substantiveExtractedTextReadPages": [
+        336
+      ],
+      "imageTextReadPages": [],
+      "printedPageLabels": {
+        "336": "331; lezione pagina1 di9"
+      }
+    }
+  ],
+  "officialSourceScopes": [
+    {
+      "id": "ODS",
+      "title": "NIH ODS · Calcium, scheda per professionisti",
+      "detail": "Consultazione 19 novembre 2026: introduzione e valutazione dello stato del calcio; distinzione totale/ionizzato. Solo questi passaggi, non l’intera scheda.",
+      "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+    },
+    {
+      "id": "FDA",
+      "title": "FDA · Forteo, informazioni del prodotto · agosto2026",
+      "detail": "Consultazione 19 novembre 2026: §§11 e 12.1, PDF 7–8, identità e meccanismo della teriparatide. Ambito statunitense; testo completo del prodotto non letto.",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/021318Orig1s059lbl.pdf"
+    },
+    {
+      "id": "NOGG6",
+      "title": "NOGG2024 · Opzioni farmacologiche, sezione6",
+      "detail": "Versione ufficiale con aggiornamento dicembre 2024, consultata 19 novembre 2026: raccomandazioni iniziali e quadro dei meccanismi. Ambito britannico; nessuna lettura integrale della linea guida.",
+      "url": "https://www.nogg.org.uk/full-guideline/section-6-pharmacological-treatment-options"
+    },
+    {
+      "id": "NOGG7",
+      "title": "NOGG2024 · Strategie e rischio, sezione7",
+      "detail": "Consultazione 19 novembre 2026: passaggi iniziali su durata, rivalutazione e rischi rari. Ambito britannico; nessun calendario operativo trasferito.",
+      "url": "https://www.nogg.org.uk/full-guideline/section-7-strategies-management-osteoporosis-and-fracture-risk"
+    },
+    {
+      "id": "EMA-PROLIA",
+      "title": "EMA · Prolia / denosumab",
+      "detail": "Consultazione 19 novembre 2026: sintesi ufficiale su bersaglio, impieghi e rischi. Non lettura dell’intero RCP.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/prolia"
+    },
+    {
+      "id": "EMA-EVENITY",
+      "title": "EMA · Evenity / romosozumab",
+      "detail": "Consultazione 19 novembre 2026: sintesi ufficiale indicizzata su bersaglio, duplice effetto e controindicazioni. Apertura diretta 429; nessuna lettura dell’intero RCP.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/evenity"
+    },
+    {
+      "id": "EMA-OSSEOR",
+      "title": "EMA · Osseor, autorizzazione ritirata",
+      "detail": "Consultazione 19 novembre 2026: avviso relativo al prodotto e all’autorizzazione europea, ritirata 14 aprile 2020.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/osseor"
+    }
+  ],
+  "limits": [
+    "Sintesi didattica e controllo editoriale del solo integratore; revisione clinica indipendente non eseguita.",
+    "14 pagine esaminate: 12 nuove identità di pagina e 2 già lette. Lettura completa del testo di 13 pagine (11 nuove e 2 rilette); CFI860 solo parziale per margine destro della tabella tagliato. Figure ispezionate su tutte le14 pagine.",
+    "Passaggi selezionati da13 pagine integrati; CFI860 esclusa. Le figure condivise da appunti e diapositive costituiscono riuso, non conferma indipendente.",
+    "Libri e corsi consultati solo nelle pagine elencate. Nessuna lettura di CFI861–865, KATZ888 o RANG688; i capitoli dei libri proseguono oltre il limite letto.",
+    "Confronto ufficiale limitato alle sezioni registrate. NOGG ha ambito britannico, FDA statunitense, EMA europeo; nessun RCP italiano completo o percorso locale verificato.",
+    "Evenity: sintesi ufficiale indicizzata letta; accesso diretto429. IUPHAR reindirizza a login: scheda recettoriale non dichiarata letta.",
+    "Riconciliazione dei contributi di FarmacologiaII e degli altri materiali del corso ancora incompleta: sola ricerca automatica di occorrenze in estrazioni preesistenti, nessuna nuova lettura loro attribuita.",
+    "Dosi, soglie diagnostiche, calendari di sospensione o transizione e confronti quantitativi di efficacia non trasferiti. Singoli bisfosfonati, altri agenti e cause secondarie richiedono approfondimenti successivi."
+  ],
+  "deduplication": {
+    "recordsChecked": 180,
+    "method": "SHA256 esatto e soli campi di lettura esplicita; pianificazione ed estrazione escluse.",
+    "normalizedText": {
+      "method": "Recursive prior per-page extracts; remove CFI footer, normalize whitespace/case; ignore text shorter than120characters (image-only pages require visual comparison).",
+      "priorDistinctTextHashes": 326,
+      "currentTextPagesCompared": 9
+    },
+    "visualDuplicates": [
+      {
+        "current": "CFI856",
+        "previous": "APP336",
+        "scope": "Right microscopic normal/osteoporotic pair; same source figure, not independent evidence."
+      },
+      {
+        "current": "CFI859",
+        "previous": "APP336",
+        "scope": "Four-stage remodeling diagram; same source figure."
+      }
+    ]
+  }
+}
