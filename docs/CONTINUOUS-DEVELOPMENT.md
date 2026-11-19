@@ -8,19 +8,15 @@ Usare «appunti e diapositive del corso di Farmacologia», con anno, lezione, da
 
 ## Lotto corrente
 
-theory-course-821-825, candidato 0.102.0. Ampliato il capitolo «Ormoni tiroidei e antitiroidei»: da 18 a 20 sezioni, da 4812 a 5442 parole, 21 quesiti, 19 schemi qualitativi originali e 19 riferimenti. Due sezioni nuove, diciotto conservate. Sei collegamenti a identità esistenti e sei a capitoli mantenuti. Zero nuovi capitoli, identità, sintesi di farmaci, profili o laboratori. Totale 65 capitoli: 22 estesi e 43 sintetici.
+theory-course-826-830, candidato0.103.0. Ampliato «Ormoni tiroidei e antitiroidei»:21sezioni, 6053parole,23quesiti,20schemi originali,21riferimenti. Una sezione nuova sugli indizi della causa e una ampliata sul recupero del feedback;19sezioni conservate. Zero nuovi capitoli,identità,sintesi di farmaci,profili o laboratori. Sei collegamenti a molecole e sei a capitoli esistenti mantenuti.
 
-0.101.0 pubblicata e verificata al commit ad2e0c912839d2572161bf3bff6795003454da43. Per batch e versione coincidenti la ricevuta successiva al deploy prevale sul checkpoint preparatorio.
+Ultima consegna verificata0.102.0 al commit09a914d25626052b10392ef2494d038df43fcde3; la ricevuta successiva al deploy prevale sul checkpoint preparatorio. La nuova ricevuta sarà aggiornata soltanto dopo pubblicazione verificata.
 
-Deduplicazione preventiva su 164 registri per impronta e pagine effettivamente lette. Otto pagine lette integralmente e controllate visivamente: sette nuove e una riletta. Cinque pertinenti alla tiroide: corso I AA2025–26 PDF824–825 (etichette822–823, Lancet768–769), Katzung IXitaliana2014/XIIoriginale2012 PDF799–800 (editoriali779–780), Rang VIIIitaliana2016/originale2015 PDF656 (numero editoriale non visibile). Tutte e cinque contribuiscono con passaggi selezionati; Rang656 era già letto e non incrementa la copertura unica. Cumulativo tiroideo:49 pagine uniche lette,46 integrate.
+Deduplicazione preventiva su166registri:10pagine lette e controllate,8nuove e2rilette. CorsoI AA2025–26 PDF826–830 (etichette824–828,Lancet770–774), con rilettura della tabella a817; Katzung IXitaliana2014/XIIoriginale2012 PDF796–798 (editoriali776–778); Rang VIIIitaliana2016/originale2015 PDF657 già letto. Sei pagine con passaggi integrati:corso827–829,Katzung797–798,Rang657. Quattro restano contesto. Cumulativo57pagine uniche lette e51integrate. AppuntiI e corsiII precedenti conservati senza nuova lettura.
 
-Le altre tre pagine restano private: corso I PDF821–822 completano l’articolo Science2023 sulla contraccezione, iniziato nel lotto precedente; PDF823 è la pagina di permessi. Non aumentano la copertura tiroidea e non modificano capitoli già consegnati. Appunti I333–335 e contributi II precedenti conservati senza nuova lettura. Katzung796–798 non letti.
+Rassegna Lancet2024 letta soltanto nelle pagine768–774; tabella3 duplicata a817/830 non è una conferma indipendente. Distinti funzione,anticorpi,captazione e struttura. Confrontati NICE nei passaggi ufficiali indicizzati(accesso diretto403), ETA2018 nelle sezioni pertinenti e scheda ATA. Differenza sul ruolo dell’ecografia mantenuta. Dosi,urgenze,gravidanza e soglie automatiche escluse; nessuna figura o tabella originale pubblicata. Nessuna revisione clinica indipendente.
 
-Approfonditi origine dell’eccesso ormonale, rilascio di riserve, pertinenza del bersaglio TPO, gozzo, compensazione e definizione biochimica subclinica. Rassegna Lancet2024 letta soltanto nelle prime due pagine; ricerca dichiarata fino a settembre2022. Confronto con passaggi ufficiali NICE indicizzati e schede ATA. Nessuna revisione clinica indipendente.
-
-Conflitti di terminologia e recettore registrati; esclusi dosi, urgenze, gravidanza e soglie terapeutiche automatiche. Nessuna figura o tabella originale pubblicata.
-
-50 controlli dati superati; otto configurazioni desktop/mobile e temi, navigazione, ricerca, fonti, tastiera e offline verificati. Aggiornamento reale 0.101.0 → 0.102.0 con dati conservati. Gli altri 64 capitoli, le 18 sezioni precedenti e i tre PDF sorgente sono invariati. Otto schermate ispezionate, con catture della sezione aggiornata nuovamente controllate dopo la precisazione FT4/FT3. Commit, CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-821-825-2026-11-16/. Ricevuta soltanto dopo deploy verificato.
+50controlli dati e otto configurazioni desktop/mobile e temi superati; navigazione,fonti,tastiera,ricerca e offline verificati. Aggiornamento reale0.102.0→0.103.0 con dati conservati. Otto schermate ispezionate; altri64capitoli,19sezioni preesistenti e trePDFsorgente invariati. Commit,CI,deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-826-830-2026-11-16/.
 
 ## Regole
 
@@ -32,4 +28,4 @@ Conflitti di terminologia e recettore registrati; esclusi dosi, urgenze, gravida
 
 ## Prossimo intervallo
 
-Completare 821–825 e verificarne la pubblicazione. 826–830 non iniziato, riservato al ciclo successivo. Conservare separatamente le pagine di altri argomenti già lette. Teoria prima di farmaci, profili e laboratori.
+Completare826–830 e verificarne la pubblicazione.831–835 non iniziato. Teoria prima di farmaci,profili e laboratori.
