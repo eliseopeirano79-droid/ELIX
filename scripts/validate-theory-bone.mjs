@@ -27,7 +27,7 @@ for(const s of l.sources){
  pages+=s.pdfPagesRead.length;added+=s.newlyReadTextPages.length;reused+=s.reusedPreviouslyReadPages.length;integrated+=s.integratedPdfPages.length;
  newIntegrated+=s.integratedPdfPages.filter(p=>s.newlyReadTextPages.includes(p)).length;
 }
-assert.deepEqual([pages,added,reused,integrated,newIntegrated],[31,18,13,25,12]);
+assert.deepEqual([pages,added,reused,integrated,newIntegrated],[39,8,31,32,6]);
 assert.deepEqual([l.totalReadPdfPages,l.newReadPdfPages,l.reusedReadPdfPages,l.chapterIntegratedPdfPages,l.newIntegratedPdfPages],[pages,added,reused,integrated,newIntegrated]);
 assert.deepEqual(l.sources.find(s=>s.id==='CFI').partiallyReadPdfPages,[860]);
 assert.equal(l.chapterReviewedPdfPages,l.sources.reduce((n,s)=>n+s.visuallyCheckedPdfPages.length,0));
@@ -41,7 +41,8 @@ for(const f of ['elix-theory-bone.js','data/rimodellamento-osseo-osteoporosi-rea
 }
 const p=JSON.parse(read('data/development-progress.json'));
 assert.equal(p.counts.chapters,ELIX_CHAPTERS.length);assert.equal(p.counts.extendedChapters,ELIX_CHAPTERS.filter(x=>x.format==='extended').length);
-if(p.batch===l.batch){assert.equal(p.changes.newChapters,0);assert.equal(p.changes.expandedChapters,1);assert.equal(p.changes.newSections,4);assert.equal(p.changes.newSelfChecks,5);assert.equal(p.changes.newStaticOriginalSchemas,4);}
+if(p.batch===l.batch){assert.equal(p.changes.newChapters,0);assert.equal(p.changes.expandedChapters,1);assert.equal(p.changes.newSections,3);assert.equal(p.changes.newSelfChecks,5);assert.equal(p.changes.newStaticOriginalSchemas,3);}
 assert.equal(l.sources.find(s=>s.id==='FII-B').metadataOnlyPages.includes(45),true);
 assert.ok(!l.sources.find(s=>s.id==='FII-B').pdfPagesRead.includes(45));
-console.log('Bone PASS:18 new complete main texts,13 prior;25 integrated; partial table and figure limits preserved.');
+assert.equal(l.newlyIntegratedPreviouslyReadPdfPages,1);
+console.log('Bone PASS:8 new complete main texts,31 prior;32 integrated; partial table and figure limits preserved.');

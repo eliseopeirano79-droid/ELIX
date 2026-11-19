@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-11-19T14:26:48.160101+00:00",
-  "batch": "theory-course-861-865",
+  "updatedAt": "2026-11-19T15:49:45.070005+00:00",
+  "batch": "theory-course-866-870",
   "status": "locally_verified_pending_publication",
-  "release": "0.109.0",
-  "branch": "feat/theory-course-861-865",
-  "baseCommit": "6a0531d52c89cd802cf280d6ae7dbb2b111c9a47",
+  "release": "0.110.0",
+  "branch": "feat/theory-course-866-870",
+  "baseCommit": "2ef67c81656561ff99e7392945e900c5a9132647",
   "previousBatch": {
-    "batch": "theory-course-856-860",
-    "release": "0.108.0",
-    "commit": "6a0531d52c89cd802cf280d6ae7dbb2b111c9a47",
+    "batch": "theory-course-861-865",
+    "release": "0.109.0",
+    "commit": "2ef67c81656561ff99e7392945e900c5a9132647",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Ampliamento del capitolo osseo: struttura, meccanismi, distribuzione e limiti clinici dei bisfosfonati."
+    "Ampliamento del capitolo osseo: deposito e osteonecrosi, selettività tissutale dei SERM, raloxifene ed esiti."
   ],
   "completed": [
-    "18 testi principali completi e18 pagine ispezionate;12 nuove pagine con passaggi integrati.",
-    "Quattro nuove sezioni,cinque quesiti,quattro schemi originali; tre nuovi collegamenti a identità esistenti.",
-    "Revisione editoriale mirata eseguita dal solo integratore; nessuna revisione clinica indipendente.",
-    "Superati51 validatori,8 configurazioni desktop/mobile nei due temi,ricerca,link,tastiera e offline.",
-    "12 immagini ispezionate; aggiornamento reale0.108.0→0.109.0 conserva preferiti,progressi e tema.65 altri capitoli invariati."
+    "8 nuove letture,2riletture;10 pagine ispezionate.",
+    "Tre nuove sezioni,5 quesiti,3 schemi e3 collegamenti a identità esistenti.",
+    "Revisione editoriale mirata del solo integratore,conflitti e limiti registrati.",
+    "Superati 51 validatori, otto configurazioni desktop/mobile, collegamenti, ricerca, tastiera e offline; dieci immagini ispezionate.",
+    "Aggiornamento reale0.109.0→0.110.0: preferiti, progressi e tema conservati.65 altri capitoli invariati e cinque fonti inalterate."
   ],
   "remaining": [
-    "Commit,CI,deploy e riscontro online."
+    "Commit, CI, deploy concluso e riscontro online."
   ],
   "counts": {
     "identities": 4225,
@@ -44,10 +44,10 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 4,
-    "expandedSections": 2,
+    "newSections": 3,
+    "expandedSections": 1,
     "newLinksToExistingIdentities": 3,
-    "newStaticOriginalSchemas": 4,
+    "newStaticOriginalSchemas": 3,
     "newSelfChecks": 5,
     "unchangedExistingChapters": 65
   },
@@ -56,16 +56,17 @@
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
-    "Questo lotto aggiunge18 testi principali completi e18 pagine ispezionate;12 pagine con passaggi integrati,6 lette senza nuova integrazione. Il capitolo documenta cumulativamente31 testi completi,32 pagine ispezionate e25 pagine integrate;13 testi e14 ispezioni provengono dal lotto precedente.",
-    "CFI860 resta parziale per il margine destro tagliato ed esclusa dalla sintesi. In FII-B54 il testo principale è completo; le etichette minute delle figure antiaritmiche non sono verificate integralmente e le figure restano fuori scopo.",
-    "CFI861–865,APP337–338,KATZ888–892,RANG688–689/692–694 eFII-B54 sono intervalli circoscritti. RANG690–691 e CFI866–870 non letti; nessun libro o corso intero dichiarato letto.",
-    "Figure condivise da appunti e diapositive riconosciute come riuso. Nessun PDF, trascrizione, fotografia clinica o figura originale pubblicati.",
-    "Fonti ufficiali consultate nelle sole sezioni registrate: EMA europea, NOGG e scheda emc britanniche, FDA statunitense. Nessun RCP italiano completo o disponibilità locale verificati.",
-    "La pagina di FarmacologiaII è del2024–25 e integra solo un richiamo al deposito; riconciliazione degli altri anni, lezioni e contributi ancora incompleta. IntestazionePDF45 verificata come solo metadato, esclusa dai conteggi di lettura.",
-    "Nessuna dose, soglia diagnostica o calendario di sospensione trasferito. Profili dei singoli farmaci, altri agenti e cause secondarie restano da approfondire.",
-    "Evenity resta documentato da sintesi ufficiale indicizzata del lotto precedente; accesso diretto429. IUPHAR non letto (login). Bonviva: sintesi e presentazioni indicizzate; nessuna lettura completa delRCP."
+    "Questo lotto aggiunge8 testi principali completi e8 pagine ispezionate;2 pagine precedenti sono state rilette e ispezionate senza nuova copertura. Passaggi di6 nuove pagine e di1 pagina già letta ora integrati. Cumulativo:39 testi completi,40 pagine ispezionate,32 integrate.",
+    "CFI860 resta parziale ed esclusa. Figure minute CFI870 e APP339 non validate integralmente; fotografieCFI867 non diagnosticate. Limite precedente delle figure antiaritmicheFII-B54 conservato.",
+    "CFI868: letta la tabella incorporata JAMA Insights del26novembre2019, non l’articolo completo; dosi,soglie e calendario non integrati. APP340 letta come contesto ma non integrata; errori o ambiguità su anticorpi esclusi.",
+    "Libri e corsi consultati per intervalli. RANG690–691 e CFI871–875 non letti. La nuova letturaKATZ893 non equivale a capitolo o libro completo.",
+    "Nessun PDF, trascrizione, fotografia clinica o figura originale pubblicati. Figure condivise precedentemente riconosciute restano materiale di confronto, non conferme indipendenti.",
+    "Fonti ufficiali consultate nei soli passaggi registrati: EMA europea,NOGG ed emc britanniche,FDA statunitense. Nessun RCP italiano completo o disponibilità locale verificati.",
+    "FarmacologiaII e altri contributi restano parzialmente riconciliati. Ricerca automatica nel testo di altri due corsi non equivale a lettura e non esclude contenuti nelle immagini.",
+    "Nessuna dose,soglia diagnostica o calendario di sospensione trasferito. Profili dei farmaci,altri agenti,interazioni complete e cause secondarie restano da approfondire.",
+    "Evenity e Bonviva conservano i limiti precedenti. Faslodex: meccanismo letto nel testo ufficiale indicizzato; overview diretta429. Nessun RCP completo letto."
   ],
-  "nextBatch": "Completare861–865;866–870 non iniziato.",
+  "nextBatch": "Completare866–870;871–875 non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",
