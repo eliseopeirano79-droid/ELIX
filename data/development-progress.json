@@ -1,29 +1,28 @@
 {
-  "updatedAt": "2026-11-19T09:03:14.946811+00:00",
-  "batch": "theory-course-836-840",
+  "updatedAt": "2026-11-19T10:31:16.928025+00:00",
+  "batch": "theory-course-841-845",
   "status": "locally_verified_pending_publication",
-  "release": "0.105.0",
-  "branch": "feat/theory-course-836-840",
-  "baseCommit": "92acd39e3d192ff9c521a862e21959b71f14f854",
+  "release": "0.106.0",
+  "branch": "feat/theory-course-841-845",
+  "baseCommit": "353246e09c886e6e7f989ff83527a943f61d24d9",
   "previousBatch": {
-    "batch": "theory-course-831-835",
-    "release": "0.104.0",
-    "commit": "92acd39e3d192ff9c521a862e21959b71f14f854",
+    "batch": "theory-course-836-840",
+    "release": "0.105.0",
+    "commit": "353246e09c886e6e7f989ff83527a943f61d24d9",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Ampliamento tiroideo: sede del deficit, Hashimoto e funzione, significato diTSH/FT4 nella sostituzione."
+    "Ampliamento tiroideo: malattia non tiroidea, farmaci che modificano TSH e interferenze analitiche."
   ],
   "completed": [
-    "Una sezione nuova:23 sezioni,6990 parole,27 quesiti,22 schemi;22 sezioni conservate.",
-    "Nove pagine lette e controllate,cinque nuove e quattro rilette;otto con passaggi integrati.",
-    "Confronto mirato ETA2018 e ATAHashimoto; revisione editoriale del solo integratore.",
-    "50 controlli dati, otto configurazioni desktop/mobile e temi, navigazione, fonti, tastiera, ricerca e offline superati.",
-    "Aggiornamento reale0.104.0→0.105.0 con preferiti, studio e tema conservati.",
-    "Otto schermate ispezionate;64 altri capitoli,22 sezioni precedenti e quattro PDF sorgente invariati."
+    "Una sezione nuova: 24 sezioni, 7476 parole, 29 quesiti, 23 schemi; 23 sezioni conservate.",
+    "Dieci pagine lette e controllate, cinque nuove e cinque rilette; nove con passaggi integrati.",
+    "Confronto mirato con fonti ufficiali e revisione editoriale del solo integratore.",
+    "Superati 50 validatori, otto configurazioni desktop/mobile e temi, navigazione, tastiera e offline; otto immagini ispezionate.",
+    "Aggiornamento reale 0.105.0 → 0.106.0 con preferiti, progressi e tema conservati; 64 altri capitoli invariati."
   ],
   "remaining": [
-    "Commit, CI, deploy e riscontro online."
+    "Commit, controlli CI, deploy e riscontro online."
   ],
   "counts": {
     "identities": 4225,
@@ -50,20 +49,21 @@
     "newLinksToExistingIdentities": 0,
     "newStaticOriginalSchemas": 1,
     "newSelfChecks": 2,
-    "unchangedSections": 22
+    "unchangedSections": 23
   },
   "readingManifests": [
     "data/terapia-tiroidea-reading.json"
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente o validazione specialistica.",
-    "Nove pagine lette e controllate: cinque nuove e quattro rilette. Otto contribuiscono con passaggi selezionati. Cumulativo67 uniche lette e58 integrate: quattro nuove pagine integrate e una già letta ora integrata.",
-    "Lancet2024 ora letto nelle13 pagine768–780, per intervalli; ricerca fino a settembre2022. Bibliografia non equivale a lettura degli studi citati. Primer2022 letto solo nelle pagine1–4 (PDF837–840); nessuna lettura integrale dichiarata.",
-    "Katzung795/796, Rang656 e appuntiI334 rilette senza nuova copertura unica. Figure controllate e non riprodotte; mappe epidemiologiche storiche non trasferite.",
-    "ETA2018 sul deficit centrale e scheda ATA su Hashimoto consultate nei soli passaggi pertinenti. Dosi, calendari, soglie terapeutiche, urgenze, gravidanza, integratori e stime di rischio esclusi.",
+    "Dieci pagine lette e controllate: cinque nuove e cinque rilette. Nove sostengono passaggi selezionati. Cumulativo72 uniche lette e62 integrate; quattro nuove pagine integrate, nessuna pagina già letta integrata per la prima volta.",
+    "Primer2022 letto solo nelle pagine1–9 (PDF837–845); nessuna lettura integrale o lettura degli studi citati. Pagina841 sulle cause letta ma non integrata in questo lotto.",
+    "Katzung788,789,795; Rang656; appuntiI334 rilette senza nuova copertura unica. Tabelle e figure controllate e non riprodotte.",
+    "Confronto mirato NICE,ETA2018,SmPCLT4 e rassegna commissionata ATA2023; ATA2014 nei passaggi primari indicizzati. Accessi diretti NICE403, ATA2014 editore non riuscito e PMC verifica browser. Nessuna lettura integrale delle linee guida o dei supplementi ATA2023.",
+    "Dosi, calendari, soglie terapeutiche, gestione delle urgenze, gravidanza, screening e stime di rischio esclusi. La raccomandazione sulla sola NTIS non implica sospensione della sostituzione per ipotiroidismo accertato.",
     "Contributi dei corsiII e riferimenti precedenti conservati con anni e limiti, senza nuova lettura. Nessun libro o corso interamente letto; protocolli locali non verificati."
   ],
-  "nextBatch": "Completare836–840;841–845 non iniziato.",
+  "nextBatch": "Completare 841–845; 846–850 non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755"

@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
   "chapterId": "terapia-tiroidea",
-  "batch": "theory-course-836-840",
-  "reviewedAt": "2026-11-19T08:55:41.204460+00:00",
+  "batch": "theory-course-841-845",
+  "reviewedAt": "2026-11-19T10:21:36.957926+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "3118e407971d9a870c5bd50af192455657938bdc6db9f18bb74414689b9c6fd1",
+  "moduleSha256": "81a439f95101f13b762ebc3b95cf61822922621c594c814b364859899bddf60a",
   "checks": [
-    "Una sezione nuova sul deficit primario e centrale;22 sezioni precedenti conservate.",
-    "Distinti sede del deficit, profilo biochimico e causa autoimmune.",
-    "Collegati follicolo, TPO, recettoriTR e sostituzione conT4 senza equiparare anticorpi e indicazione terapeutica.",
-    "Uno schema originale e due quesiti nuovi; collegamenti esistenti conservati.",
+    "Una sezione nuova e486 parole;23 sezioni precedenti conservate.",
+    "Distinti deficit, malattia non tiroidea, farmaci e interferenza analitica.",
+    "Due quesiti e uno schema originale nuovi; collegamenti esistenti conservati.",
+    "NTIS distinta da ipotiroidismo accertato; nessuna istruzione di sospensione.",
     "Nessuna dose, algoritmo, trascrizione, figura o tabella delle fonti pubblicati.",
     "Revisione editoriale mirata del solo integratore, non revisione clinica indipendente."
   ],
@@ -319,17 +319,36 @@
     },
     {
       "id": "primer-2022-partial-reading",
-      "issue": "CFI837–840 contengono solo le prime4 pagine del Primer2022 e mappe epidemiologiche storiche.",
-      "resolution": "Nessuna lettura integrale o dato attuale/individuale dedotto dalle mappe; studi citati, dosi e integratori non trasferiti.",
+      "issue": "CFI837–845 contengono solo le prime9 pagine del Primer2022.",
+      "resolution": "Lettura limitata a1–9; figure3–5 e tabella1 controllate, non riprodotte. Non trasferiti screening, dosi, percentuali e algoritmo.",
       "status": "scope_limited"
+    },
+    {
+      "id": "acute-illness-versus-replacement",
+      "issue": "Appunti334 semplificano T3 per quadro acuto e trattamento daTSH alterato; figura5 del Primer2022 propone un algoritmo.",
+      "resolution": "Distinti NTIS, deficit accertato e metodo; confronto ATA2014§20/22 e NICE1.2.6. Algoritmi esclusi, nessuna sospensione della sostituzione dedotta.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "primer-screening-and-emergency",
+      "issue": "CFI844–845 riportano mortalità storica, protocolli e posizioni diverse sullo screening; figura5 contiene soglie e dosi.",
+      "resolution": "Letti e controllati ma non trasferiti; attualità clinica di questi temi non verificata nel lotto.",
+      "status": "excluded_out_of_scope"
+    },
+    {
+      "id": "assay-versus-thyroid-autoimmunity",
+      "issue": "Anticorpi interferenti e anti-TPO possono essere confusi; un risultato discordante può essere etichettato come falso senza verifica.",
+      "resolution": "Distinti bersagli e funzioni; biotina dipendente dal metodo, macro-TSH e anticorpi ai reagenti confrontati con ATA2023, senza procedure di laboratorio.",
+      "status": "resolved_for_scope"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente o validazione specialistica.",
-    "Nove pagine lette e controllate: cinque nuove e quattro rilette. Otto contribuiscono con passaggi selezionati. Cumulativo67 uniche lette e58 integrate: quattro nuove pagine integrate e una già letta ora integrata.",
-    "Lancet2024 ora letto nelle13 pagine768–780, per intervalli; ricerca fino a settembre2022. Bibliografia non equivale a lettura degli studi citati. Primer2022 letto solo nelle pagine1–4 (PDF837–840); nessuna lettura integrale dichiarata.",
-    "Katzung795/796, Rang656 e appuntiI334 rilette senza nuova copertura unica. Figure controllate e non riprodotte; mappe epidemiologiche storiche non trasferite.",
-    "ETA2018 sul deficit centrale e scheda ATA su Hashimoto consultate nei soli passaggi pertinenti. Dosi, calendari, soglie terapeutiche, urgenze, gravidanza, integratori e stime di rischio esclusi.",
+    "Dieci pagine lette e controllate: cinque nuove e cinque rilette. Nove sostengono passaggi selezionati. Cumulativo72 uniche lette e62 integrate; quattro nuove pagine integrate, nessuna pagina già letta integrata per la prima volta.",
+    "Primer2022 letto solo nelle pagine1–9 (PDF837–845); nessuna lettura integrale o lettura degli studi citati. Pagina841 sulle cause letta ma non integrata in questo lotto.",
+    "Katzung788,789,795; Rang656; appuntiI334 rilette senza nuova copertura unica. Tabelle e figure controllate e non riprodotte.",
+    "Confronto mirato NICE,ETA2018,SmPCLT4 e rassegna commissionata ATA2023; ATA2014 nei passaggi primari indicizzati. Accessi diretti NICE403, ATA2014 editore non riuscito e PMC verifica browser. Nessuna lettura integrale delle linee guida o dei supplementi ATA2023.",
+    "Dosi, calendari, soglie terapeutiche, gestione delle urgenze, gravidanza, screening e stime di rischio esclusi. La raccomandazione sulla sola NTIS non implica sospensione della sostituzione per ipotiroidismo accertato.",
     "Contributi dei corsiII e riferimenti precedenti conservati con anni e limiti, senza nuova lettura. Nessun libro o corso interamente letto; protocolli locali non verificati."
   ]
 }

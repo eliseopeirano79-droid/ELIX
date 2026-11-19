@@ -26,10 +26,10 @@ for(const s of l.sources){
  pages+=s.pdfPagesRead.length;added+=s.newlyReadTextPages.length;reused+=s.reusedPreviouslyReadPages.length;integrated+=s.integratedPdfPages.length;
  newIntegrated+=s.integratedPdfPages.filter(p=>s.newlyReadTextPages.includes(p)).length;
 }
-assert.deepEqual([pages,added,reused,integrated,newIntegrated],[9,5,4,8,4]);
+assert.deepEqual([pages,added,reused,integrated,newIntegrated],[10,5,5,9,4]);
 assert.deepEqual([l.totalReadPdfPages,l.newReadPdfPages,l.reusedReadPdfPages,l.batchIntegratedPdfPages,l.newIntegratedPdfPages],[pages,added,reused,integrated,newIntegrated]);
 assert.deepEqual(l.sources.find(s=>s.id==='KATZ').readButNotIntegratedPdfPages,[]);
-assert.deepEqual(l.sources.find(s=>s.id==='CFI').readButNotIntegratedPdfPages,[836]);
+assert.deepEqual(l.sources.find(s=>s.id==='CFI').readButNotIntegratedPdfPages,[841]);
 assert.equal(l.newMainCoursePages+l.newOtherSlidesPages+l.newAppuntiPages,l.newCourseReadPdfPages);
 assert.equal(l.newCourseReadPdfPages+l.newBookReadPdfPages,added);
 assert.deepEqual([l.fullCorpusRead,l.clinicalValidation,l.newIdentities,l.newDrugSummaries,l.newPKProfiles,l.newTargetProfiles,l.newChapters,l.expandedExistingChapters],[false,false,0,0,0,0,0,1]);
@@ -41,23 +41,23 @@ for(const f of ['elix-theory-thyroid.js','data/terapia-tiroidea-reading.json','d
 }
 const p=JSON.parse(read('data/development-progress.json'));
 assert.equal(p.counts.chapters,ELIX_CHAPTERS.length);assert.equal(p.counts.extendedChapters,ELIX_CHAPTERS.filter(x=>x.format==='extended').length);
-if(p.batch===l.batch){assert.equal(p.changes.newChapters,0);assert.equal(p.changes.expandedChapters,1);assert.equal(p.changes.newSections+p.changes.expandedSections+p.changes.unchangedSections,c.sections.length);assert.equal(p.changes.newSelfChecks+25,c.checks.length);assert.equal(p.changes.newStaticOriginalSchemas+21,c.sections.filter(s=>s.formula).length);}
-assert.deepEqual(l.sources.find(s=>s.id==='CFI').substantiveExtractedTextReadPages,[837,838,839,840]);
-assert.deepEqual(l.sources.find(s=>s.id==='KATZ').reusedPreviouslyReadPages,[795,796]);
+if(p.batch===l.batch){assert.equal(p.changes.newChapters,0);assert.equal(p.changes.expandedChapters,1);assert.equal(p.changes.newSections+p.changes.expandedSections+p.changes.unchangedSections,c.sections.length);assert.equal(p.changes.newSelfChecks+27,c.checks.length);assert.equal(p.changes.newStaticOriginalSchemas+22,c.sections.filter(s=>s.formula).length);}
+assert.deepEqual(l.sources.find(s=>s.id==='CFI').substantiveExtractedTextReadPages,[841,842,843,844,845]);
+assert.deepEqual(l.sources.find(s=>s.id==='KATZ').reusedPreviouslyReadPages,[788,789,795]);
 assert.match(c.sections.find(s=>s.id==='deiodinasi').text,/D3.*inattivante/s);
 assert.match(c.sections.find(s=>s.id==='follicolo-e-ioduro').text,/NIS.*simporto/s);
 assert.equal(c.moleculeLinks.length,6);
-assert.equal(c.checks.length,27);
+assert.equal(c.checks.length,29);
 assert.deepEqual(l.sources.find(s=>s.id==='RANG').reusedPreviouslyReadPages,[656]);
-assert.deepEqual(l.previouslyReadNewlyIntegratedPages,{KATZ:[796]});
-assert.deepEqual(l.sources.find(s=>s.id==='CFI').bibliographyOnlyPdfPages,[836]);
+assert.deepEqual(l.previouslyReadNewlyIntegratedPages,{});
+assert.deepEqual(l.sources.find(s=>s.id==='CFI').bibliographyOnlyPdfPages,[]);
 const cumulativeRead=new Set(),cumulativeIntegrated=new Set();
 for(const source of l.cumulativeSources){
  assert.deepEqual(source.visuallyCheckedPdfPages,source.pdfPagesRead);
  for(const page of source.pdfPagesRead)cumulativeRead.add(source.sha256+':'+page);
  for(const page of source.integratedPdfPages){assert.ok(source.pdfPagesRead.includes(page));cumulativeIntegrated.add(source.sha256+':'+page);}
 }
-assert.equal(cumulativeRead.size,67);assert.equal(cumulativeIntegrated.size,58);
+assert.equal(cumulativeRead.size,72);assert.equal(cumulativeIntegrated.size,62);
 assert.equal(l.chapterReviewedPdfPages,cumulativeRead.size);assert.equal(l.chapterIntegratedPdfPages,cumulativeIntegrated.size);
 assert.equal(l.batchAllTopicsReadPdfPages,l.totalReadPdfPages+l.otherTopicReadPdfPages);
 assert.equal(l.otherTopicReadPdfPages,0);
@@ -65,4 +65,4 @@ for(const key of seen)assert.ok(cumulativeRead.has(key));
 assert.deepEqual(l.cumulativeSources.find(s=>s.id==='APP').pdfPagesRead,[333,334,335]);
 assert.equal(l.sources.some(s=>s.id==='APP'),true);
 assert.equal(l.sources.filter(s=>s.collectionAlias).reduce((n,s)=>n+Object.keys(s.collectionAlias.pages).length,0),0);
-console.log('Thyroid PASS:23 sections;9 batch pages,5 new/4 reread;67 cumulative pages,58 integrated.');
+console.log('Thyroid PASS:24 sections;10 batch pages,5 new/5 reread;72 cumulative pages,62 integrated.');

@@ -8,15 +8,15 @@ Usare «appunti e diapositive del corso di Farmacologia», con anno, lezione, da
 
 ## Lotto corrente
 
-theory-course-836-840, candidato0.105.0. Ampliato «Ormoni tiroidei e antitiroidei»:23 sezioni,6990 parole,27 quesiti,22 schemi originali,25 riferimenti. Una nuova sezione su sede del deficit, Hashimoto e funzione;22 sezioni conservate. Zero nuovi capitoli, identità, sintesi di farmaci, profili o laboratori. Sei collegamenti a molecole e sei a capitoli esistenti mantenuti.
+theory-course-841-845, candidato0.106.0. Ampliato «Ormoni tiroidei e antitiroidei»:24 sezioni,7476 parole,29 quesiti,23 schemi originali,27 riferimenti. Una nuova sezione su malattia non tiroidea, farmaci e interferenze analitiche;23 sezioni conservate. Zero nuovi capitoli, identità, sintesi di farmaci, profili o laboratori. Sei collegamenti a molecole e sei a capitoli esistenti mantenuti.
 
-Ultima consegna verificata0.104.0 al commit92acd39e3d192ff9c521a862e21959b71f14f854. La ricevuta successiva al deploy prevale sul checkpoint preparatorio; nuova ricevuta solo dopo pubblicazione verificata.
+Ultima consegna verificata0.105.0 al commit353246e09c886e6e7f989ff83527a943f61d24d9. La ricevuta successiva al deploy prevale sul checkpoint preparatorio; nuova ricevuta solo dopo pubblicazione verificata.
 
-Deduplicazione preventiva su170 registri:9 pagine lette e controllate,5 nuove e4 rilette. CorsoI AA2025–26 PDF836–840 (etichette834–838); Katzung IX italiana2014/XII originale2012 PDF795–796 (editoriali775–776); Rang VIII italiana2016/originale2015 PDF656; appuntiI lezione19 del1dicembre2025 PDF334 (stampata329). Otto pagine con passaggi integrati. Cumulativo67 pagine uniche lette e58 integrate; quattro nuove pagine integrate e una già letta ora integrata. Contributi dei corsiII conservati senza nuova lettura.
+Deduplicazione preventiva su172 registri:10 pagine lette e controllate,5 nuove e5 rilette. CorsoI AA2025–26 PDF841–845 (etichette839–843; Primer2022pp.5–9); Katzung IX italiana2014/XII originale2012 PDF788–789 e795 (editoriali768–769 e775); Rang VIII italiana2016/originale2015 PDF656; appuntiI lezione19 del1dicembre2025 PDF334 (stampata329). Nove pagine con passaggi integrati;841 esclusa dall’integrazione. Cumulativo72 uniche lette e62 integrate. Contributi dei corsiII conservati senza nuova lettura.
 
-PDF836 conclude la bibliografia di Hyperthyroidism, Lancet2024: ora lette13 pagine, non gli studi citati. PDF837–840 sono le sole pagine1–4 di Hypothyroidism, Nature Reviews Disease Primers2022. Distinti deficit primario/centrale, causa autoimmune, funzione e sostituzione. Confrontati passaggi pertinenti ETA2018 e ATAHashimoto. Dosi, calendari, urgenze, gravidanza, integratori e mappe epidemiologiche esclusi. Nessuna fonte originale ripubblicata né revisione clinica indipendente.
+Primer2022 letto solo nelle pagine1–9, non gli studi citati. Confrontati NICE1.2,ETA2018,SmPCLT4, rassegna commissionata ATA2023 e passaggi primari indicizzati ATA2014§20/22. Accessi diretti NICE403 e ATA2014 non riusciti; limiti registrati. Distinti deficit,malattia,farmaci e misura; nessuna sospensione della sostituzione per ipotiroidismo accertato dedotta dalla raccomandazione sulla solaNTIS. Dosi,calendari,urgenze,gravidanza,screening e dati quantitativi esclusi. Nessuna fonte originale ripubblicata né revisione clinica indipendente.
 
-50 controlli dati e otto configurazioni desktop/mobile e temi superati; navigazione, fonti, tastiera, ricerca e offline verificati. Aggiornamento reale0.104.0→0.105.0 con dati conservati. Otto schermate ispezionate; altri64 capitoli,22 sezioni preesistenti e quattro PDF sorgente invariati. Commit, CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-836-840-2026-11-19/.
+Superati 50 validatori e otto configurazioni desktop/mobile nei due temi, con navigazione, tastiera e offline. Ispezionate otto immagini. Aggiornamento reale 0.105.0 → 0.106.0 verificato con preferiti, progressi e tema conservati; 64 altri capitoli invariati. Commit, CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-841-845-2026-11-19/.
 
 ## Regole
 
@@ -28,4 +28,4 @@ PDF836 conclude la bibliografia di Hyperthyroidism, Lancet2024: ora lette13 pagi
 
 ## Prossimo intervallo
 
-Completare836–840 e verificarne la pubblicazione.841–845 non iniziato. Teoria prima di farmaci, profili e laboratori.
+Completare841–845 e verificarne la pubblicazione.846–850 non iniziato. Teoria prima di farmaci,profili e laboratori.
