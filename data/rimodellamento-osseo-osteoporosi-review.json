@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "rimodellamento-osseo-osteoporosi",
+  "batch": "theory-course-856-860",
+  "reviewedAt": "2026-11-19T13:28:08.084675+00:00",
+  "outcome": "pass",
+  "reviewType": "bounded_editorial_review_by_integrator",
+  "independentClinicalReview": false,
+  "clinicalValidation": false,
+  "moduleSha256": "0c0801bb34b71e5eac32f77729f56d6d0aae48afc9797cebffdda860a6332e1f",
+  "checks": [
+    "Rilette10sezioni originali,11quesiti,10schemi qualitativi e11riferimenti.",
+    "Verificati ruoliOB/OC/osteociti, matrice-mineralizzazione, RANK/RANKL/OPG, PTHintermittente, targetdenosumab e duplice effettoromosozumab.",
+    "Dati storici e ambiti regolatori distinti; nessuna dose o istruzione autonoma di sospensione.",
+    "13testi completi e1tabella parziale distinti;13pagine con passaggi integrati.",
+    "Cinque collegamenti a identità esistenti; nessuna nuova sintesi o profilo farmacologico."
+  ],
+  "conflicts": [
+    {
+      "id": "calcium-total-ionized",
+      "issue": "CFI855 associa etichettaCa2+ a intervallo compatibile con calcio totale.",
+      "resolution": "Distinti calcio totale e ionizzato con NIHODS; nessun intervallo numerico riprodotto.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "matrix-deposition",
+      "issue": "CFI855 parla di deposizione negli osteoblasti.",
+      "resolution": "Matrice e mineralizzazione distinte dalle cellule che organizzano il processo; confrontoRANG685–687.",
+      "status": "resolved"
+    },
+    {
+      "id": "calcium-flows",
+      "issue": "CFI855 presenta valori di flusso intestinale/renale e ruolo pediatrico della calcitonina non verificati.",
+      "resolution": "Esclusi numeri, raccomandazione dietetica uniforme e generalizzazione sulla calcitonina.",
+      "status": "excluded"
+    },
+    {
+      "id": "shared-figures",
+      "issue": "CFI856/859 condividono figure conAPP336.",
+      "resolution": "Deduplicazione concettuale registrata; nessuna figura ripubblicata.",
+      "status": "deduplicated"
+    },
+    {
+      "id": "micrograph-comparison",
+      "issue": "CFI857 confronta immagini di persone diverse per età e sesso.",
+      "resolution": "Descrizione qualitativa, senza attribuire effetti causali o quantitativi al confronto.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "automatic-drug-holiday",
+      "issue": "CFI858 suggerisce sospensione dopo3–5anni in condizioni stabili.",
+      "resolution": "NOGG7 richiede rivalutazione del rischio; nessuna sospensione automatica e distinzione da denosumab.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "romosozumab-classification",
+      "issue": "Classificazione anabolica semplificataCFI858.",
+      "resolution": "EMA conferma aumento formazione e riduzione riassorbimento; esplicitata duplice azione.",
+      "status": "resolved"
+    },
+    {
+      "id": "historical-market-table",
+      "issue": "CFI860 intitola attualmente in uso una tabella storica con stronzio; NOGGUK lo elenca ancora.",
+      "resolution": "Non trasferita disponibilità universale; EMAOsseor riguarda il solo prodotto e autorizzazioneEU ritirata2020.",
+      "status": "jurisdiction_difference_preserved"
+    },
+    {
+      "id": "clipped-table",
+      "issue": "CFI860 colonna dosaggi tagliata sul margine destro.",
+      "resolution": "Pagina registrata come esaminata e letta parzialmente, esclusa dai13testi completi e dalla sintesi.",
+      "status": "unresolved_source_limit"
+    },
+    {
+      "id": "weight-and-aging",
+      "issue": "APP336 propone riduzione ponderale generale e semplifica invecchiamento come spegnimento delle popolazioni.",
+      "resolution": "Escluse raccomandazione universale e equivalenza con fisiologia dell’invecchiamento.",
+      "status": "excluded"
+    },
+    {
+      "id": "transcription",
+      "issue": "APP336 contiene classici pirogici; citazione interna di appunti anno precedente senza provenienza autonoma.",
+      "resolution": "Nessuna equivalenza farmacologica dedotta; non attribuita nuova lettura del corso precedente.",
+      "status": "excluded"
+    },
+    {
+      "id": "old-vitamin-preparations",
+      "issue": "KATZ887 prosa sulle forme disponibili non coincide con ampiezza della tabella42-1.",
+      "resolution": "Usato solo percorso metabolico, nessuna disponibilità commerciale dedotta.",
+      "status": "excluded_availability_claim"
+    }
+  ],
+  "limits": [
+    "Sintesi didattica e controllo editoriale del solo integratore; revisione clinica indipendente non eseguita.",
+    "14 pagine esaminate: 12 nuove identità di pagina e 2 già lette. Lettura completa del testo di 13 pagine (11 nuove e 2 rilette); CFI860 solo parziale per margine destro della tabella tagliato. Figure ispezionate su tutte le14 pagine.",
+    "Passaggi selezionati da13 pagine integrati; CFI860 esclusa. Le figure condivise da appunti e diapositive costituiscono riuso, non conferma indipendente.",
+    "Libri e corsi consultati solo nelle pagine elencate. Nessuna lettura di CFI861–865, KATZ888 o RANG688; i capitoli dei libri proseguono oltre il limite letto.",
+    "Confronto ufficiale limitato alle sezioni registrate. NOGG ha ambito britannico, FDA statunitense, EMA europeo; nessun RCP italiano completo o percorso locale verificato.",
+    "Evenity: sintesi ufficiale indicizzata letta; accesso diretto429. IUPHAR reindirizza a login: scheda recettoriale non dichiarata letta.",
+    "Riconciliazione dei contributi di FarmacologiaII e degli altri materiali del corso ancora incompleta: sola ricerca automatica di occorrenze in estrazioni preesistenti, nessuna nuova lettura loro attribuita.",
+    "Dosi, soglie diagnostiche, calendari di sospensione o transizione e confronti quantitativi di efficacia non trasferiti. Singoli bisfosfonati, altri agenti e cause secondarie richiedono approfondimenti successivi."
+  ]
+}
