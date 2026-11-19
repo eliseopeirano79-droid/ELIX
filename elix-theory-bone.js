@@ -137,6 +137,46 @@ export const THEORY_BONE = Object.freeze({
       "formula": "Meccanismo di classe → prodotto e via → esposizione e tollerabilità → esito studiato nella popolazione pertinente."
     },
     {
+      "id": "bisfosfonati-rischio-mascellari",
+      "title": "Deposito osseo e osteonecrosi: distinguere esposizione, sede e contesto",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "RANG",
+        "NOGG7"
+      ],
+      "text": "La permanenza dei bisfosfonati nello scheletro collega la farmacocinetica alla storia del trattamento. Il farmaco depositato può restare disponibile durante successivi cicli di rimodellamento; perciò la concentrazione plasmatica del momento descrive soltanto una parte dell’esposizione. Un disegno che mostra un accumulo progressivo aiuta a immaginare il deposito, ma non costituisce una misura della quantità trattenuta né un calendario valido per ogni molecola e formulazione.\n\nL’osteonecrosi dei mascellari è un evento da distinguere dalla comune fragilità osteoporotica. Il problema riguarda una lesione locale del tessuto osseo, mentre il beneficio ricercato dal trattamento è la riduzione delle fratture. Le immagini di una lesione già presente mostrano l’aspetto del danno: non ne misurano la frequenza e non dimostrano da sole quale passaggio biologico lo abbia causato. Anche la semplice presenza di un deposito osseo non consente di prevedere chi svilupperà la complicanza.\n\nIl contesto modifica il significato del rischio. Katzung distingue l’impiego nell’osteoporosi dalle esposizioni più elevate in alcune indicazioni oncologiche; NOGG conferma che l’evento è molto raro nel trattamento dell’osteoporosi e più frequente nei regimi oncologici ad alte dosi. Via, dose cumulativa, patologia trattata e condizioni del cavo orale vanno quindi considerate insieme. Equiparare ogni somministrazione endovenosa a uno stesso rischio perderebbe queste differenze.\n\nLa valutazione non si esaurisce nel nome del farmaco. NOGG richiama igiene orale, malattie dentali, interventi odontoiatrici e altri fattori clinici. Raccomanda cure dentali regolari e una gestione individuale delle procedure necessarie; non dispone di prove che una sospensione per l’intervento riduca il rischio di osteonecrosi. Il deposito persistente spiega perché una breve interruzione non equivalga ad azzerare l’esposizione, ma la decisione clinica non può essere ricavata soltanto da questo ragionamento farmacocinetico.",
+      "formula": "Deposito persistente ≠ rischio uguale per tutti. Esposizione + indicazione + condizioni locali → valutazione del beneficio e del rischio."
+    },
+    {
+      "id": "serm-selettivita-tissutale",
+      "title": "SERM: lo stesso recettore può sostenere risposte diverse nei tessuti",
+      "refs": [
+        "CFI",
+        "APP",
+        "KATZ",
+        "RANG",
+        "EMA-EVISTA",
+        "EMA-FASLODEX"
+      ],
+      "text": "I modulatori selettivi del recettore degli estrogeni, o SERM, mostrano perché «agonista» e «antagonista» debbano essere riferiti a una risposta e a un contesto. Queste molecole possono sostenere alcune azioni estrogeniche e contrastarne altre. La selettività non significa necessariamente che il farmaco raggiunga un solo organo: significa che il complesso formato con il recettore produce risultati differenti nelle cellule che lo ospitano.\n\nNel modello nucleare, il ligando modifica la conformazione del recettore estrogenico. Il complesso interagisce con sistemi che regolano l’espressione dei geni; il risultato dipende anche dai coattivatori e dai corepressori disponibili. I sottotipi ERα ed ERβ partecipano alla diversità delle risposte, ma non rappresentano una coppia di interruttori ai quali assegnare rigidamente osso e mammella. Cambiano insieme ligando, recettore, apparato di regolazione e geni sui quali il segnale può agire. Il capitolo sulla menopausa sviluppa il quadro endocrino di questo meccanismo.\n\nIl confronto tra tamoxifene e raloxifene chiarisce la conseguenza. Per il tamoxifene, i materiali del corso distinguono l’antagonismo nel tessuto mammario dalle azioni agoniste sull’endometrio e sull’osso. Il raloxifene conserva un’azione estrogenica utile nello scheletro senza riprodurre lo stesso profilo endometriale. Non si può dunque trasferire a tutta la classe ogni effetto di un singolo SERM. Analogamente, una risposta in un tessuto sperimentale non stabilisce da sola l’indicazione di un medicinale.\n\nVa distinta anche la modulazione selettiva dal semplice fatto di legare ER. Fulvestrant, riportato accanto ai SERM in alcune schematizzazioni, è descritto da EMA come antagonista privo di attività agonista parziale, associato alla riduzione dei livelli della proteina recettoriale. La condivisione del bersaglio non rende identici i meccanismi. Per collegare questi farmaci all’osteoporosi occorre quindi identificare sia il tipo di intervento sul recettore sia la risposta scheletrica documentata.",
+      "formula": "Ligando + conformazione di ER + regolatori cellulari → espressione genica dipendente dal tessuto → risposta biologica."
+    },
+    {
+      "id": "raloxifene-osso-esiti",
+      "title": "Raloxifene: dall’effetto antiriassorbitivo agli esiti da dimostrare",
+      "refs": [
+        "CFI",
+        "APP",
+        "KATZ",
+        "RANG",
+        "NOGG6",
+        "EMA-EVISTA"
+      ],
+      "text": "Nel tessuto osseo il raloxifene sostiene una risposta estrogenica che riduce il riassorbimento. Questa azione lo colloca fra gli antiriassorbitivi: non va confusa con una stimolazione anabolica selettiva della formazione. Poiché riassorbimento e formazione sono accoppiati, descrivere il farmaco soltanto come «attivatore degli osteoblasti» non basta a spiegare il comportamento dell’intera unità di rimodellamento. Il collegamento utile è ER, regolazione cellulare, ricambio osseo ed esito clinico.\n\nL’efficacia va specificata. L’indicazione europea di Evista riguarda prevenzione e trattamento dell’osteoporosi dopo la menopausa; è documentata una riduzione delle fratture vertebrali, mentre non è dimostrata quella delle fratture dell’anca. La densità minerale e il numero di fratture rispondono a domande diverse: un cambiamento favorevole della prima non autorizza a presumere lo stesso beneficio per tutte le sedi di frattura. NOGG mantiene distinta anche l’assenza di efficacia dimostrata sulle fratture non vertebrali.\n\nLa selettività conserva limiti fuori dall’osso. Raloxifene può provocare vampate e aumenta il rischio tromboembolico venoso; una storia di tromboembolia costituisce una controindicazione. EMA richiama inoltre il segnale di mortalità per ictus osservato in donne con coronaropatia o maggior rischio coronarico. La riduzione del colesterolo non equivale dunque a protezione cardiovascolare. Anche gli effetti osservati sul rischio di tumore mammario non dimostrano un trattamento di un tumore già presente: prevenzione, terapia e indicazione autorizzata restano concetti distinti.\n\nUn ultimo collegamento riguarda l’esposizione. L’assorbimento intestinale può essere seguito da un’estesa glucuronidazione presistemica; il ricircolo enteroepatico contribuisce alla persistenza del raloxifene. È un esempio diverso dal deposito minerale dei bisfosfonati: bassa disponibilità sistemica, permanenza del farmaco e selettività tissutale descrivono livelli differenti. Tenerli separati aiuta a capire il medicinale senza ridurlo a un generico «estrogeno per l’osso».",
+      "formula": "ER → minore riassorbimento. Beneficio vertebrale, altri esiti e rischi vascolari richiedono valutazioni distinte."
+    },
+    {
       "id": "denosumab-e-romosozumab",
       "title": "Due anticorpi, due bersagli: RANKL e sclerostina",
       "refs": [
@@ -169,7 +209,7 @@ export const THEORY_BONE = Object.freeze({
         "RANG",
         "EMA-OSSEOR"
       ],
-      "text": "Il percorso di studio può essere organizzato in quattro domande. Quale struttura o processo contribuisce alla fragilità? Quale cellula lo controlla? Quale segnale raggiunge quella cellula? Quale farmaco modifica il segnale o la sua risposta? In questo modo la patologia si collega a recettori e medicinali attraverso passaggi espliciti.\n\nLa distinzione tra farmaci antiriassorbitivi e farmaci che favoriscono la formazione rimane utile, purché si ricordi l’accoppiamento del ciclo. Un trattamento può ridurre secondariamente anche la formazione o modificare entrambi i versanti. Il saldo finale e la riduzione delle fratture richiedono un livello di osservazione ulteriore rispetto alla sola azione su una cellula.\n\nLe tabelle storiche aiutano a ricostruire l’evoluzione della materia, ma non definiscono automaticamente le opzioni oggi disponibili. Per esempio, EMA riporta il ritiro dell’autorizzazione europea di Osseor, a base di ranelato di stronzio, nel 2020 su richiesta del titolare per ragioni commerciali. Il dato riguarda quel prodotto e quell’ambito regolatorio; non autorizza conclusioni universali su tutti i Paesi.\n\nQuesto capitolo sviluppa i fondamenti del rimodellamento e collega struttura, distribuzione e meccanismi dei bisfosfonati. Sono ancora da approfondire i profili completi dei singoli prodotti, gli altri agenti che promuovono la formazione, le cause secondarie e i confronti terapeutici. Le pagine esaminate dei libri e dei materiali del corso sostengono una sintesi didattica circoscritta. Le verifiche ufficiali selezionate aggiornano alcuni punti clinici, senza costituire una revisione clinica indipendente o un protocollo di trattamento.",
+      "text": "Il percorso di studio può essere organizzato in quattro domande. Quale struttura o processo contribuisce alla fragilità? Quale cellula lo controlla? Quale segnale raggiunge quella cellula? Quale farmaco modifica il segnale o la sua risposta? In questo modo la patologia si collega a recettori e medicinali attraverso passaggi espliciti.\n\nLa distinzione tra farmaci antiriassorbitivi e farmaci che favoriscono la formazione rimane utile, purché si ricordi l’accoppiamento del ciclo. Un trattamento può ridurre secondariamente anche la formazione o modificare entrambi i versanti. Il saldo finale e la riduzione delle fratture richiedono un livello di osservazione ulteriore rispetto alla sola azione su una cellula.\n\nLe tabelle storiche aiutano a ricostruire l’evoluzione della materia, ma non definiscono automaticamente le opzioni oggi disponibili. Per esempio, EMA riporta il ritiro dell’autorizzazione europea di Osseor, a base di ranelato di stronzio, nel 2020 su richiesta del titolare per ragioni commerciali. Il dato riguarda quel prodotto e quell’ambito regolatorio; non autorizza conclusioni universali su tutti i Paesi.\n\nQuesto capitolo sviluppa i fondamenti del rimodellamento e collega struttura, distribuzione e meccanismi dei bisfosfonati, rischio osseo e selettività tissutale dei SERM. Sono ancora da approfondire i profili completi dei singoli prodotti, gli altri agenti che promuovono la formazione, le cause secondarie e i confronti terapeutici. Le pagine esaminate dei libri e dei materiali del corso sostengono una sintesi didattica circoscritta. Le verifiche ufficiali selezionate aggiornano alcuni punti clinici, senza costituire una revisione clinica indipendente o un protocollo di trattamento.",
       "formula": "Patologia → processo → cellula → segnale → farmaco → esiti clinici. Ogni passaggio richiede una prova appropriata."
     }
   ],
@@ -237,28 +277,48 @@ export const THEORY_BONE = Object.freeze({
     {
       "question": "Una maggiore potenza sul riassorbimento prova una maggiore prevenzione di ogni frattura?",
       "answer": "No. La prova clinica dipende da molecola, esposizione, popolazione ed esito; non si ricava da una scala sperimentale di potenza."
+    },
+    {
+      "question": "Perché la via endovenosa da sola non quantifica il rischio di osteonecrosi dei mascellari?",
+      "answer": "Il rischio dipende anche dall’esposizione, dall’indicazione, dalle condizioni orali e dal contesto clinico; i regimi per osteoporosi e quelli oncologici non sono equivalenti."
+    },
+    {
+      "question": "Che cosa rende selettivo un SERM se può raggiungere più organi?",
+      "answer": "La risposta dipende dal complesso ligando-recettore e dai regolatori cellulari presenti nel tessuto, oltre che dai sottotipi recettoriali; selettività della risposta e distribuzione non sono sinonimi."
+    },
+    {
+      "question": "Perché fulvestrant non è un esempio intercambiabile con raloxifene?",
+      "answer": "EMA descrive fulvestrant come antagonista senza attività agonista parziale, associato a riduzione dei livelli di ER. La condivisione del recettore non rende uguali i meccanismi."
+    },
+    {
+      "question": "Quale distinzione serve per leggere gli effetti del raloxifene sulle fratture?",
+      "answer": "La riduzione delle fratture vertebrali non dimostra automaticamente una riduzione delle fratture dell’anca o di tutte le fratture non vertebrali."
+    },
+    {
+      "question": "Un effetto favorevole sui lipidi dimostra protezione cardiovascolare?",
+      "answer": "No. Il cambiamento di un parametro intermedio va distinto dagli eventi clinici; con raloxifene restano rilevanti rischio tromboembolico e specifiche avvertenze vascolari."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF 855–865, etichette 853–863. In questo lotto lette 861–865; 855–859 già documentate. La 860 resta parziale per il margine tagliato ed è esclusa. Integrati passaggi di dieci pagine; figure condivise riconosciute."
+      "detail": "PDF855–870, etichette853–868. Nuove letture866–870, compreso il testo nelle immagini;868 contiene una tabella storica JAMA2019, letta ma non integrata.860 resta parziale ed esclusa. Diagrammi e fotografie ispezionati, non riprodotti."
     },
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I · 2025–26",
-      "detail": "Lezione 20 del 3 dicembre 2025: PDF 336–338, stampate 331–333, pagine 1–3 della lezione. 337–338 nuove letture; 336 già documentata. Figure condivise con le diapositive; note di anno precedente senza attribuzione autonoma."
+      "detail": "Lezione20 del3dicembre2025: PDF336–340, stampate331–335, pagine1–5 della lezione.339–340 nuove letture; solo passaggi339 integrati nel lotto. Note di anno precedente senza attribuzione autonoma; figure minute non verificate integralmente."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX italiana 2014 / XII originale 2012. PDF 884–892, editoriali 864–872. 888–892 nuove letture; integrati solo passaggi selezionati di 891–892 nel lotto attuale. 888–890 lette come contesto senza nuova integrazione; nessuna lettura dell’intero capitolo."
+      "detail": "IX italiana2014 / XII originale2012. PDF884–893, editoriali864–873.893 nuova lettura,892 riletta senza nuova copertura. Solo passaggi selezionati; dati clinici storici non trasferiti automaticamente."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII italiana 2016 / originale 2015. PDF 685–689 e 692–694: nuove letture 688–689 e 692–694, integrati nel lotto solo passaggi 692–693. 690–691 non lette; numerazione editoriale non visibile. Figure 36.3–36.5 controllate; libro non letto integralmente."
+      "detail": "VIII italiana2016 / originale2015. PDF685–689 e692–694 già letti;694 riletta e ora integrata limitatamente a SERM e farmacocinetica qualitativa.690–691 non lette; numerazione editoriale non visibile. Generalizzazioni e metabolita attivo esclusi."
     },
     {
       "id": "ODS",
@@ -275,13 +335,13 @@ export const THEORY_BONE = Object.freeze({
     {
       "id": "NOGG6",
       "title": "NOGG2024 · Opzioni farmacologiche, sezione6",
-      "detail": "Versione ufficiale con aggiornamento dicembre 2024, consultata 19 novembre 2026: raccomandazioni iniziali e quadro dei meccanismi. Ambito britannico; nessuna lettura integrale della linea guida. In questo lotto: passaggi specifici sui bisfosfonati, vie e differenze degli esiti.",
+      "detail": "Versione ufficiale consultata19novembre2026. Passaggi precedenti preservati; nel lotto866–870 sezione raloxifene ed esiti vertebrali/non vertebrali. Ambito britannico, non intera linea guida.",
       "url": "https://www.nogg.org.uk/full-guideline/section-6-pharmacological-treatment-options"
     },
     {
       "id": "NOGG7",
       "title": "NOGG2024 · Strategie e rischio, sezione7",
-      "detail": "Consultazione 19 novembre 2026: passaggi iniziali su durata, rivalutazione e rischi rari. Ambito britannico; nessun calendario operativo trasferito.",
+      "detail": "Consultazione19novembre2026: durata e rivalutazione; nel lotto866–870 raccomandazioni9–11 e passaggi sui rischi orali e sul contesto oncologico. Ambito britannico; nessun calendario operativo trasferito.",
       "url": "https://www.nogg.org.uk/full-guideline/section-7-strategies-management-osteoporosis-and-fracture-risk"
     },
     {
@@ -324,6 +384,18 @@ export const THEORY_BONE = Object.freeze({
       "title": "emc · Risedronate sodium 35 mg, scheda del prodotto",
       "detail": "Consultazione 19 novembre 2026: §§4.2–4.4 e passaggi 4.5/5.2; assorbimento, cationi e precauzioni. Scheda britannica del produttore, non intero documento né RCP italiano.",
       "url": "https://www.medicines.org.uk/emc/product/3028/smpc"
+    },
+    {
+      "id": "EMA-EVISTA",
+      "title": "EMA · Evista / raloxifene, informazioni del prodotto",
+      "detail": "Consultazione19novembre2026. DocumentoEN, pagina aggiornata1aprile2025: passaggi4.1,4.3–4.4,5.1 e5.2 (PDF2–3,8–11); meccanismo, esiti, rischi e glucuronidazione/ricircolo. Non lettura integrale delRCP. Overview consultata separatamente.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/evista-epar-product-information_en.pdf"
+    },
+    {
+      "id": "EMA-FASLODEX",
+      "title": "EMA · Faslodex / fulvestrant, meccanismo d’azione",
+      "detail": "Consultazione19novembre2026: solo paragrafo indicizzato5.1 sull’antagonismo senza agonismo parziale e riduzione dei livelli recettoriali. Paginaoverview diretta429; nessuna lettura completa delRCP.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/faslodex-epar-product-information_en.pdf"
     }
   ],
   "moleculeLinks": [
@@ -358,6 +430,18 @@ export const THEORY_BONE = Object.freeze({
     {
       "id": "CHEMBL997",
       "label": "IBANDRONIC ACID"
+    },
+    {
+      "id": "CHEMBL81",
+      "label": "RALOXIFENE"
+    },
+    {
+      "id": "CHEMBL83",
+      "label": "TAMOXIFEN"
+    },
+    {
+      "id": "CHEMBL1358",
+      "label": "FULVESTRANT"
     }
   ],
   "relatedExistingChapterIds": [
@@ -371,6 +455,6 @@ export const THEORY_BONE = Object.freeze({
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-19",
   "readingManifest": "./data/rimodellamento-osseo-osteoporosi-reading.json",
-  "coverage": "18 nuove pagine di testo principale lette; 12 con passaggi integrati. Copertura cumulativa: 31 testi completi, 32 pagine ispezionate e 25 integrate. Tabella 860 parziale; figure antiaritmiche della pagina 54 fuori scopo. Libri e corsi consultati per intervalli; verifica ufficiale circoscritta, nessuna revisione clinica indipendente.",
-  "wordCount": 3315
+  "coverage": "8 nuove pagine di testo principale lette e ispezionate;2 pagine precedenti rilette. Copertura cumulativa:39 testi completi,40 pagine ispezionate e32 con passaggi integrati. Tabella860 parziale; limiti delle figure dichiarati. Fonti ufficiali consultate per passaggi; nessuna revisione clinica indipendente.",
+  "wordCount": 4151
 });

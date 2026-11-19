@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "chapterId": "rimodellamento-osseo-osteoporosi",
-  "batch": "theory-course-861-865",
-  "reviewedAt": "2026-11-19T13:28:08.084675+00:00",
+  "batch": "theory-course-866-870",
+  "reviewedAt": "2026-11-19T15:40:27.662119+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "4d446014401005786cac7e870dc12557260d77001bfc85850d4a7f8632dbec05",
+  "moduleSha256": "a593c1364239b2618cb7ad899f827139c5d8d277f2eb68ab3b2433d67c227ac9",
   "checks": [
-    "Rilette le quattro nuove sezioni, cinque quesiti e quattro schemi; controllata continuità con le dieci sezioni precedenti.",
-    "Separati affinità minerale, bersaglio intracellulare e recettore; distinti non azotati/analoghiATP e azotati/FPPS/prenilazione.",
-    "Distinti mancato assorbimento, escrezione renale, deposito osseo e tempo del beneficio; nessuna percentuale generale.",
-    "Vie e rischi riferiti ai prodotti e alle fonti ufficiali selezionate, esito vertebrale distinto da frattura del collo femorale.",
-    "31 testi principali completi e una pagina parziale nel cumulativo; limite delle figureFII-B54 esplicito.13 testi precedenti non ricontati come nuove letture.",
-    "Nessuna nuova identità o profilo; tre collegamenti a molecole già presenti e65 altri capitoli preservati da verificare strutturalmente."
+    "Rilette3 sezioni nuove,5 quesiti e3 schemi; solo raccordo conclusivo modificato nelle14 sezioni precedenti.",
+    "Distinti deposito,esposizione e rischio individuale; nessuna stima universale ONJ o sospensione automatica.",
+    "SERM collegati aER,conformazione e coregolatori; fulvestrant distinto secondo EMA.",
+    "Raloxifene: attività antiriassorbitiva,esiti vertebrali distinti,lipidi non equivalenti a beneficio cardiovascolare,prevenzione distinta dalla terapia tumorale.",
+    "Conteggi39 testi/40 ispezioni/32 integrazioni;8 nuove letture,2riletture,6 nuove pagine integrate e1pagina precedente ora integrata.",
+    "Tre collegamenti a identità esistenti; nessuna nuova identità,sintesi o profilo;65 altri capitoli da verificare invariati."
   ],
   "conflicts": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "clipped-table",
       "issue": "CFI860 colonna dosaggi tagliata sul margine destro.",
-      "resolution": "Pagina registrata come esaminata e letta parzialmente, esclusa dai13testi completi e dalla sintesi.",
+      "resolution": "Pagina esaminata e letta parzialmente, esclusa dai testi completi e dalla sintesi.",
       "status": "unresolved_source_limit"
     },
     {
@@ -158,26 +158,69 @@
     {
       "id": "bp-out-of-scope-694",
       "issue": "RANG694 contiene generalizzazioni su PTH1/PTH2, metabolita raloxifene e risoluzione osteoporosi.",
-      "resolution": "Pagina letta ma non integrata; nessuna nuova conclusione clinica su queste molecole.",
-      "status": "excluded"
+      "resolution": "Nel lotto861–865 pagina non integrata. Nel lotto866–870 integrati solo passaggi SERM/PK riconciliati con EMA; metabolita attivo,PTH1/PTH2 e risoluzione osteoporosi ancora esclusi.",
+      "status": "selected_passages_reconciled_other_claims_excluded"
     },
     {
       "id": "bp-fii-figure-limit",
       "issue": "FII-B54 contiene figure antiaritmiche con etichette minute.",
       "resolution": "Testo principale completo, pagina ispezionata; figure estranee non analizzate integralmente e non integrate.",
       "status": "unresolved_source_limit"
+    },
+    {
+      "id": "jaw-depot-timetable",
+      "issue": "CFI866 presenta intervalli diversi per accumulo orale/IV senza un modello quantitativo generalizzabile.",
+      "resolution": "Usato solo collegamento qualitativo al deposito; nessuna scala temporale riprodotta.",
+      "status": "excluded_numbers"
+    },
+    {
+      "id": "jaw-preferential-accumulation",
+      "issue": "CFI867 attribuisce accumulo prevalente nei mascellari a vascolarizzazione,turnover e colonizzazione.",
+      "resolution": "Non presentata come spiegazione causale dimostrata. Rischio contestualizzato con NOGG7,indicazione,esposizione e condizioni orali.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "jama2019-table",
+      "issue": "CFI868 riporta una tabella storica con dosi,soglie renali e durata.",
+      "resolution": "Letta la tabella visibile in immagine; pagina non integrata e nessuna lettura dell’articolo completo.",
+      "status": "read_not_integrated"
+    },
+    {
+      "id": "fulvestrant-serm",
+      "issue": "CFI869 affianca fulvestrant ai SERM.",
+      "resolution": "Distinto l’antagonismo senza agonismo parziale e la riduzione di ER secondo il paragrafo EMA5.1 indicizzato.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "raloxifene-tumour-treatment",
+      "issue": "APP339 confonde effetti sul rischio tumorale con trattamento dei tumori mammario/endometriale.",
+      "resolution": "Separati prevenzione,terapia e indicazione europea ossea. Nessuna indicazione oncologica trasferita.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "raloxifene-cardiovascular",
+      "issue": "RANG694 descrive azione agonista cardiovascolare e metabolita attivo.",
+      "resolution": "Beneficio sui lipidi distinto dagli eventi vascolari; glucuronidazione/ricircolo secondo EMA senza nuovo metabolita attivo.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "antibody-boundary340",
+      "issue": "APP340 contiene generalizzazioni su vie,endovena,rene e cadenze degli anticorpi.",
+      "resolution": "Pagina interamente letta come contesto ma non integrata; nessuna rassicurazione renale o cadenza trasferita.",
+      "status": "excluded_pending_related_interval"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
-    "Questo lotto aggiunge18 testi principali completi e18 pagine ispezionate;12 pagine con passaggi integrati,6 lette senza nuova integrazione. Il capitolo documenta cumulativamente31 testi completi,32 pagine ispezionate e25 pagine integrate;13 testi e14 ispezioni provengono dal lotto precedente.",
-    "CFI860 resta parziale per il margine destro tagliato ed esclusa dalla sintesi. In FII-B54 il testo principale è completo; le etichette minute delle figure antiaritmiche non sono verificate integralmente e le figure restano fuori scopo.",
-    "CFI861–865,APP337–338,KATZ888–892,RANG688–689/692–694 eFII-B54 sono intervalli circoscritti. RANG690–691 e CFI866–870 non letti; nessun libro o corso intero dichiarato letto.",
-    "Figure condivise da appunti e diapositive riconosciute come riuso. Nessun PDF, trascrizione, fotografia clinica o figura originale pubblicati.",
-    "Fonti ufficiali consultate nelle sole sezioni registrate: EMA europea, NOGG e scheda emc britanniche, FDA statunitense. Nessun RCP italiano completo o disponibilità locale verificati.",
-    "La pagina di FarmacologiaII è del2024–25 e integra solo un richiamo al deposito; riconciliazione degli altri anni, lezioni e contributi ancora incompleta. IntestazionePDF45 verificata come solo metadato, esclusa dai conteggi di lettura.",
-    "Nessuna dose, soglia diagnostica o calendario di sospensione trasferito. Profili dei singoli farmaci, altri agenti e cause secondarie restano da approfondire.",
-    "Evenity resta documentato da sintesi ufficiale indicizzata del lotto precedente; accesso diretto429. IUPHAR non letto (login). Bonviva: sintesi e presentazioni indicizzate; nessuna lettura completa delRCP."
+    "Questo lotto aggiunge8 testi principali completi e8 pagine ispezionate;2 pagine precedenti sono state rilette e ispezionate senza nuova copertura. Passaggi di6 nuove pagine e di1 pagina già letta ora integrati. Cumulativo:39 testi completi,40 pagine ispezionate,32 integrate.",
+    "CFI860 resta parziale ed esclusa. Figure minute CFI870 e APP339 non validate integralmente; fotografieCFI867 non diagnosticate. Limite precedente delle figure antiaritmicheFII-B54 conservato.",
+    "CFI868: letta la tabella incorporata JAMA Insights del26novembre2019, non l’articolo completo; dosi,soglie e calendario non integrati. APP340 letta come contesto ma non integrata; errori o ambiguità su anticorpi esclusi.",
+    "Libri e corsi consultati per intervalli. RANG690–691 e CFI871–875 non letti. La nuova letturaKATZ893 non equivale a capitolo o libro completo.",
+    "Nessun PDF, trascrizione, fotografia clinica o figura originale pubblicati. Figure condivise precedentemente riconosciute restano materiale di confronto, non conferme indipendenti.",
+    "Fonti ufficiali consultate nei soli passaggi registrati: EMA europea,NOGG ed emc britanniche,FDA statunitense. Nessun RCP italiano completo o disponibilità locale verificati.",
+    "FarmacologiaII e altri contributi restano parzialmente riconciliati. Ricerca automatica nel testo di altri due corsi non equivale a lettura e non esclude contenuti nelle immagini.",
+    "Nessuna dose,soglia diagnostica o calendario di sospensione trasferito. Profili dei farmaci,altri agenti,interazioni complete e cause secondarie restano da approfondire.",
+    "Evenity e Bonviva conservano i limiti precedenti. Faslodex: meccanismo letto nel testo ufficiale indicizzato; overview diretta429. Nessun RCP completo letto."
   ],
-  "updatedAt": "2026-11-19T14:24:03.250968+00:00"
+  "updatedAt": "2026-11-19T15:40:27.662119+00:00"
 }
