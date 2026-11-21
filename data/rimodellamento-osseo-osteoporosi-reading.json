@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-course-896-900",
+  "batch": "theory-course-901-905",
   "chapterId": "rimodellamento-osseo-osteoporosi",
-  "updatedAt": "2026-11-21T15:21:52.955413+00:00",
+  "updatedAt": "2026-11-21T16:06:49.587429+00:00",
   "fullCorpusRead": false,
   "clinicalValidation": false,
   "newIdentities": 0,
@@ -11,16 +11,16 @@
   "newTargetProfiles": 0,
   "newChapters": 0,
   "expandedExistingChapters": 1,
-  "newReadPdfPages": 6,
-  "reusedReadPdfPages": 62,
-  "totalReadPdfPages": 68,
-  "newReviewedPdfPages": 6,
-  "chapterReviewedPdfPages": 73,
+  "newReadPdfPages": 1,
+  "reusedReadPdfPages": 68,
+  "totalReadPdfPages": 69,
+  "newReviewedPdfPages": 1,
+  "chapterReviewedPdfPages": 74,
   "partiallyReadPdfPages": 5,
-  "chapterSourcePdfPages": 68,
-  "chapterIntegratedPdfPages": 55,
-  "newIntegratedPdfPages": 4,
-  "newlyIntegratedPreviouslyReadPdfPages": 2,
+  "chapterSourcePdfPages": 69,
+  "chapterIntegratedPdfPages": 57,
+  "newIntegratedPdfPages": 1,
+  "newlyIntegratedPreviouslyReadPdfPages": 1,
   "sources": [
     {
       "id": "CFI",
@@ -68,7 +68,8 @@
         897,
         898,
         899,
-        900
+        900,
+        901
       ],
       "visuallyCheckedPdfPages": [
         855,
@@ -116,7 +117,8 @@
         897,
         898,
         899,
-        900
+        900,
+        901
       ],
       "integratedPdfPages": [
         855,
@@ -148,16 +150,13 @@
         893,
         897,
         899,
-        900
+        900,
+        901
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
       "newlyReadTextPages": [
-        896,
-        897,
-        898,
-        899,
-        900
+        901
       ],
       "reusedPreviouslyReadPages": [
         855,
@@ -195,7 +194,12 @@
         891,
         892,
         893,
-        895
+        895,
+        896,
+        897,
+        898,
+        899,
+        900
       ],
       "partiallyReadPdfPages": [
         860,
@@ -217,7 +221,7 @@
         896,
         898
       ],
-      "integrationScope": "Passaggi selezionati; letture e integrazioni precedenti preservate. Lotto881–885:881,882,884 raccordoPTH/teriparatide;883 esclusa e885 non integrata. Lotto886–890: solo886, raccordo qualitativo rischio/strategia confrontato conNOGG. Lotto891–895:892–893, rete ossea e raccordoGIOP; sperimentazione distinta dalla pratica clinica, soglie escluse. Lotto896–900:897,899,900 solo via metabolica e distinzioneD2/D3; esclusi quote fisse90/10,dosi e sicurezza assoluta.",
+      "integrationScope": "Passaggi selezionati; letture e integrazioni precedenti preservate. Lotto881–885:881,882,884 raccordoPTH/teriparatide;883 esclusa e885 non integrata. Lotto886–890: solo886, raccordo qualitativo rischio/strategia confrontato conNOGG. Lotto891–895:892–893, rete ossea e raccordoGIOP; sperimentazione distinta dalla pratica clinica, soglie escluse. Lotto896–900:897,899,900 solo via metabolica e distinzioneD2/D3; esclusi quote fisse90/10,dosi e sicurezza assoluta. Lotto901–905: solo901, confronto dei punti di ingresso metabolici; niente emivite,vie generiche o uso universale nella malattia renale.",
       "substantiveExtractedTextReadPages": [
         857,
         858,
@@ -286,7 +290,8 @@
         897,
         898,
         899,
-        900
+        900,
+        901
       ],
       "printedPageLabels": {
         "855": "853 di934",
@@ -334,9 +339,10 @@
         "897": "895 di934",
         "898": "896 di934",
         "899": "897 di934",
-        "900": "898 di934"
+        "900": "898 di934",
+        "901": "899 di934"
       },
-      "figureReviewLimit": "Limiti precedenti preservati.872–873 contengono zone coperte;875 tabella parzialmente coperta e testo solo parziale; nessuna ricostruzione dei contenuti nascosti. 877 schema condiviso conAPP340, valutato qualitativamente;878 copertinaEMA non lettura rapporto;879 schema sperimentale;880 riga senza intestazione, numeri esclusi. 882: residui individuali della sequenza peptidica non validati;883 intestazione destra tagliata, lettura parziale.884 tabella visibile letta, non intero articolo né validazione numerica.885 tabella storica letta ma non integrata. 886 algoritmo e testo visibili letti, non intero articoloJAMA.887–889 testi principali visibili completi, note non presenti; nessuna validazione di dosi, prezzi, percentuali o simboli.890tabella incompleta e parzialmente coperta: lettura parziale esclusa. 891 tabellaNEJM2023 visibile letta, note esterne non lette;892 schema qualitativo ispezionato;893 tabella confrontata conACR/NOGG, note esterne non lette;894tabella tagliata in basso,parziale esclusa;895notizia2022 storica. Nessun articolo completo letto. 896 schema qualitativo,periferia destra tagliata;897 etichetta7-deidrocolesterolo come enzima corretta;898 percentuali e soglie tossiche escluse;899 percorso ispezionato,CYP27A1 non esclusivo;900 figura condivisa conKATZ888,non prova indipendente. Strutture atomiche non validate integralmente."
+      "figureReviewLimit": "Limiti precedenti preservati.872–873 contengono zone coperte;875 tabella parzialmente coperta e testo solo parziale; nessuna ricostruzione dei contenuti nascosti. 877 schema condiviso conAPP340, valutato qualitativamente;878 copertinaEMA non lettura rapporto;879 schema sperimentale;880 riga senza intestazione, numeri esclusi. 882: residui individuali della sequenza peptidica non validati;883 intestazione destra tagliata, lettura parziale.884 tabella visibile letta, non intero articolo né validazione numerica.885 tabella storica letta ma non integrata. 886 algoritmo e testo visibili letti, non intero articoloJAMA.887–889 testi principali visibili completi, note non presenti; nessuna validazione di dosi, prezzi, percentuali o simboli.890tabella incompleta e parzialmente coperta: lettura parziale esclusa. 891 tabellaNEJM2023 visibile letta, note esterne non lette;892 schema qualitativo ispezionato;893 tabella confrontata conACR/NOGG, note esterne non lette;894tabella tagliata in basso,parziale esclusa;895notizia2022 storica. Nessun articolo completo letto. 896 schema qualitativo,periferia destra tagliata;897 etichetta7-deidrocolesterolo come enzima corretta;898 percentuali e soglie tossiche escluse;899 percorso ispezionato,CYP27A1 non esclusivo;900 figura condivisa conKATZ888,non prova indipendente. Strutture atomiche non validate integralmente. PDF901: testo tabellare visibile letto; intestazione dei numeri cinetici non presente, interpretazione esclusa."
     },
     {
       "id": "KATZ",
@@ -373,6 +379,7 @@
         886,
         887,
         888,
+        889,
         891,
         892,
         893
@@ -394,10 +401,9 @@
       ],
       "partiallyReadPdfPages": [],
       "readButNotIntegratedPdfPages": [
-        889,
         890
       ],
-      "integrationScope": "Passaggi selezionati; letture e integrazioni precedenti preservate. Lotto881–885:886–887 recettore, mediazioneRANKL e compartimenti; nessuna dose storica trasferita. Lotto886–890:891, raccordo glucocorticoidi/formazione; nessuna prescrizione storica. Lotto891–895: riletta891, formazione e bilancio del calcio; nessuna indicazione storica trasferita. Lotto896–900:887–888 via metabolica e trasporto;888 ora integrata.889 riletta non integrata; nessuna indicazione storica trasferita.",
+      "integrationScope": "Passaggi selezionati; letture e integrazioni precedenti preservate. Lotto881–885:886–887 recettore, mediazioneRANKL e compartimenti; nessuna dose storica trasferita. Lotto886–890:891, raccordo glucocorticoidi/formazione; nessuna prescrizione storica. Lotto891–895: riletta891, formazione e bilancio del calcio; nessuna indicazione storica trasferita. Lotto896–900:887–888 via metabolica e trasporto;888 ora integrata.889 riletta non integrata; nessuna indicazione storica trasferita. Lotto901–905: tabella42-2,PDF889,effetti qualitativi su calcio/fosfato; dettagli genetici e recettoriali non integrati.",
       "substantiveExtractedTextReadPages": [
         884,
         885,
@@ -477,7 +483,7 @@
       ],
       "partiallyReadPdfPages": [],
       "readButNotIntegratedPdfPages": [],
-      "integrationScope": "Passaggi selezionati; letture e integrazioni precedenti preservate. Lotto881–885:688 solo circuitoCaSR/PTH; OPG=RANK e calcitonina escluse. Lotto886–890:695, solo identità denosumab/RANKL. Lotto896–900:689 precursore/metabolita attivo; didascalia distinta dalle frecce ambigue sull’alfacalcidolo,che resta fuori sintesi.",
+      "integrationScope": "Passaggi selezionati; letture e integrazioni precedenti preservate. Lotto881–885:688 solo circuitoCaSR/PTH; OPG=RANK e calcitonina escluse. Lotto886–890:695, solo identità denosumab/RANKL. Lotto896–900:689 precursore/metabolita attivo; didascalia distinta dalle frecce ambigue sull’alfacalcidolo,che resta fuori sintesi. Lotto901–905: attivazione epatica dell’alfacalcidolo dalla didascalia,riconciliata con scheda del prodotto; freccia non usata come sede anatomica.",
       "substantiveExtractedTextReadPages": [
         685,
         686,
@@ -536,16 +542,15 @@
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
-      "newlyReadTextPages": [
-        342
-      ],
+      "newlyReadTextPages": [],
       "reusedPreviouslyReadPages": [
         336,
         337,
         338,
         339,
         340,
-        341
+        341,
+        342
       ],
       "partiallyReadPdfPages": [],
       "readButNotIntegratedPdfPages": [],
@@ -770,95 +775,69 @@
       "title": "AIFA · FAQ sui farmaci a base di vitamina D",
       "url": "https://www.aifa.gov.it/it/domande-e-risposte-sui-farmaci-a-base-di-vitamina-d",
       "detail": "Pagina aggiornata21febbraio2023, consultata21novembre2026: misurazione e contesti clinici. Verificata anche la paginaNota96; non lettura integrale della Nota o del relativo algoritmo. Nessuna soglia di rimborso trasferita."
+    },
+    {
+      "id": "EMC-ALFA",
+      "title": "emc · Alfacalcidol, scheda del prodotto",
+      "detail": "Consultazione21 novembre2026: §§4.1,4.4,5.1–5.2 selezionati. Ambito britannico; documento completo e disponibilità italiana non verificati.",
+      "url": "https://www.medicines.org.uk/emc/product/14385/smpc"
+    },
+    {
+      "id": "KDIGO-MBD",
+      "title": "KDIGO2017 · Malattia minerale e ossea nella CKD",
+      "detail": "Consultazione21 novembre2026: raccomandazioni4.1.1,4.2.1–4.2.2, PDF17. Passaggi selezionati, non intera linea guida.",
+      "url": "https://kdigo.org/wp-content/uploads/2026/04/KDIGO-2017-CKD-MBD-Guideline.pdf"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
-    "Lotto:6 nuovi testi principali completi(CFI896–900,APP342),4 riletture(KATZ887–889,RANG689),10 ispezioni. Cumulativo68 testi completi,73 pagine ispezionate,55 integrate;4 nuove pagine integrate e2 precedentemente lette ora integrate.",
-    "CFI860,875,883,890,894 restano parziali escluse. Limiti figurativi precedenti preservati.896 margine figurativo tagliato ma testo principale completo;896 e898 lette non integrate.",
-    "CFI897:7-deidrocolesterolo è precursore,non enzima.899:CYP27A1 non descrive da solo la25-idrossilazione; evidenza umanaCYP2R1 limitata all’abstract,non intero studio. NCBIGene bloccato da verifica browser,non letto.",
-    "CFI898:nessun trasferimento di dosi tossiche,quote90/10 o sicurezza assoluta.900:equivalenza di attività non significa identica risposta25(OH)D; D2 non intermedia traD3 ecalcitriolo.",
-    "APP342:escluse assenza di ipervitaminosi e definizione normativa farmaco/integratore basata su accumulo. Interazioni descritte come principio,senza prescrizioni o monitoraggio universale.",
-    "RANG689:solo distinzione precursore/metabolita attivo. Didascalia dell’alfacalcidolo distinta dalla freccia ambigua; composto non sviluppato.",
-    "ODS,Endocrine Society eAIFA:passaggi selezionati consultati21novembre2026; nessuna lettura integrale di schede,linee guida oNota96. Raccomandazioni per sani non estese a indicazioni cliniche presenti. Nessuna soglia o dose trasferita.",
-    "Libri e corsi letti per intervalli. RANG690–691 eCFI901–905 non letti; FarmacologiaII e altri contributi ancora parzialmente riconciliati.",
+    "Per il capitolo:1 nuova lettura completa visibile(CFI901),2 riletture(KATZ889,RANG689),3 ispezioni. Cumulativo69 testi completi,74 ispezioni,57 pagine integrate;1 nuova pagina integrata e1 precedentemente letta ora integrata.",
+    "CFI860,875,883,890,894 restano parziali escluse; tutti i limiti figurativi precedenti conservati.901 presenta tabella senza intestazioni cinetiche: numeri e unità non interpretati né pubblicati.",
+    "CFI901:D2 non precursore dellaD3; vie generiche,emivite e uso dei derivati attivi in ogni grave malattia renale esclusi. Paricalcitolo e diidrotachisterolo non sviluppati.",
+    "RANG689:attivazione epatica dell’alfacalcidolo riconciliata con didascalia e scheda ufficiale; freccia ambigua non riprodotta. KATZ889:solo confronto qualitativo dei minerali,nessuna estensione alle patologie genetiche.",
+    "Scheda britannica dell’alfacalcidolo:passaggi selezionati,non intero documento oRCP italiano. KDIGO2017:raccomandazioni selezionate,non revisione completa; pagina indice diretta403,documento e indice ufficiale indicizzato accessibili. Nessuna dose,soglia operativa o calendario trasferiti.",
+    "CFI902–905 eAPP343:5 testi principali completi e5 ispezioni su anemia,conservati nel registro privato separato e non integrati. Non conteggiati come letture del capitolo osseo. Riconciliazione clinica e libraria dell’anemia ancora da svolgere.",
+    "Libri e corsi letti per intervalli. RANG690–691 eCFI906–910 non letti; FarmacologiaII e altri contributi ancora parzialmente riconciliati.",
     "Nessun PDF,trascrizione o figura originale pubblicati. Identità,sintesi di farmaci,profili e laboratori interattivi restano nel backlog."
   ],
   "deduplication": {
-    "method": "Source SHA256 and explicit complete-read page records; inventories and extractions excluded.",
-    "recordsChecked": 197,
+    "method": "SHA256 e registri espliciti di lettura completa; inventari ed estrazioni esclusi.",
+    "recordsChecked": 199,
     "newPagesBeforeReading": {
       "CFI": [
-        896,
-        897,
-        898,
-        899,
-        900
-      ],
-      "APP": [
-        342
+        901
       ]
     },
     "sameImageNotIndependentEvidence": [
-      "CFI900,KATZ888 eAPP342 condividono la via metabolica; non conferme indipendenti.",
-      "CFI896 riprende rete cellulare già trattata."
+      "CFI901 è tabella didattica senza intestazioni cinetiche; nessuna nuova prova di efficacia."
     ],
     "previousReadingPreserved": true
   },
   "newPartiallyReadPdfPages": 0,
-  "currentBatchRereadPages": 4,
-  "currentBatchVisualPages": 10,
+  "currentBatchRereadPages": 2,
+  "currentBatchVisualPages": 3,
   "currentBatchSourceReading": {
     "CFI": {
       "newTextRead": [
-        896,
-        897,
-        898,
-        899,
-        900
+        901
       ],
       "partial": [],
       "visual": [
-        896,
-        897,
-        898,
-        899,
-        900
+        901
       ],
       "integrated": [
-        897,
-        899,
-        900
-      ],
-      "readNotIntegrated": [
-        896,
-        898
-      ]
-    },
-    "APP": {
-      "newTextRead": [
-        342
-      ],
-      "visual": [
-        342
-      ],
-      "integrated": [
-        342
+        901
       ]
     },
     "KATZ": {
       "reread": [
-        887,
-        888,
         889
       ],
       "visual": [
-        887,
-        888,
         889
       ],
       "newlyIntegratedPreviouslyRead": [
-        888
+        889
       ]
     },
     "RANG": {
@@ -868,9 +847,7 @@
       "visual": [
         689
       ],
-      "newlyIntegratedPreviouslyRead": [
-        689
-      ]
+      "newlyIntegratedPreviouslyRead": []
     }
   }
 }
