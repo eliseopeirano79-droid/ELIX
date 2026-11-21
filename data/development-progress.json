@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-21T14:05:50.112598+00:00",
-  "batch": "theory-course-886-890",
+  "updatedAt": "2026-11-21T14:45:43.019924+00:00",
+  "batch": "theory-course-891-895",
   "status": "locally_verified_pending_publication",
-  "release": "0.114.0",
-  "branch": "feat/theory-course-886-890",
-  "baseCommit": "9c4d5ecc2efc5816a4eb76a376ded7d368744373",
+  "release": "0.115.0",
+  "branch": "feat/theory-course-891-895",
+  "baseCommit": "b59e64fce8d000d18f23872bbaf881330cd90a0a",
   "previousBatch": {
-    "batch": "theory-course-881-885",
-    "release": "0.113.0",
-    "commit": "9c4d5ecc2efc5816a4eb76a376ded7d368744373",
+    "batch": "theory-course-886-890",
+    "release": "0.114.0",
+    "commit": "b59e64fce8d000d18f23872bbaf881330cd90a0a",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Ampliamento osseo: rischio dinamico, beneficio assoluto e ordine dei trattamenti."
+    "Ampliamento osseo:glucocorticoidi,GR,metabolismo locale e prevenzione della fragilità."
   ],
   "completed": [
-    "5 nuovi testi principali completi,1 parziale;2 riletture e8 ispezioni.",
-    "Due sezioni originali,5 quesiti e2 schemi;23 sezioni precedenti preservate.",
+    "4 nuovi testi principali completi,1 parziale;2 riletture e7 ispezioni.",
+    "Due sezioni originali,5 quesiti e2 schemi;25 sezioni precedenti preservate.",
     "Revisione editoriale mirata completata.",
-    "Superati51 validatori e8 configurazioni desktop/mobile,ricerche,collegamenti,tastiera e offline;8 immagini ispezionate. Aggiornamento reale0.113.0→0.114.0 con preferiti,progressi e tema conservati.65 altri capitoli,23 sezioni e36 quesiti precedenti invariati;5 fonti inalterate."
+    "Superati51 validatori e8 configurazioni desktop/mobile,ricerche,collegamenti,tastiera e offline;8 immagini ispezionate. Aggiornamento reale0.114.0→0.115.0 con dati salvati conservati.65 altri capitoli,25 sezioni e41 quesiti precedenti invariati;5 fonti inalterate."
   ],
   "remaining": [
     "Commit,CI,deploy concluso e riscontro online."
@@ -55,16 +55,17 @@
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
-    "Lotto:5 nuovi testi principali completi(CFI886–889,APP341),2 riletture(KATZ891,RANG695),8 ispezioni. Cumulativo58 testi completi,62 pagine ispezionate,47 integrate;2 nuove pagine integrate.",
-    "CFI860,875,883,890 parziali ed escluse dalle letture complete e dall’integrazione.890tabella incompleta, copertura dell’intestazione e note mancanti. Limiti delle figure precedenti preservati.",
-    "CFI887–889 testi visibili letti ma non integrati: tabelle2019/2023, note mancanti, stato autorizzativo storico, prezzi e dosi non trasferiti. Nessuna lettura dei rispettivi articoli completi.",
-    "CFI886 algoritmoJAMA2025 riconciliato qualitativamente conNOGG; nessuna prosecuzione indefinita universale di denosumab, soglia o calendario prescrittivo trasferito.",
-    "APP341 contiene errori di classificazione di denosumab, azionePTH e sequenza obbligatoria: esclusi e riconciliati con i capitoli precedenti, libri e fonti ufficiali. CriteriAIFA riportati negli appunti non verificati né trasferiti.",
-    "DATA-Switch: abstract e primi paragrafi della discussione, non studio completo o figure; densità minerale distinta dagli esiti di frattura. Esempio percentuale nel testo puramente aritmetico, non dato di efficacia.",
-    "Libri e corsi letti per intervalli. RANG690–691 eCFI891–895 non letti; FarmacologiaII e altri contributi ancora parzialmente riconciliati.",
+    "Lotto:4 nuovi testi principali completi(CFI891–893,895),2 riletture(KATZ891,APP341),7 ispezioni. Cumulativo62 testi completi,67 pagine ispezionate,49 integrate;2 nuove pagine integrate.",
+    "CFI860,875,883,890,894 parziali escluse da lettura completa e integrazione.894tabella tagliata; limiti precedenti preservati.",
+    "CFI891 e895 lette non integrate: tabella2023 con note esterne mancanti e notizia2022. Articoli riprodotti non letti integralmente; nessuna dose, percentuale o disponibilità attuale dedotta.",
+    "CFI892: cortisone distinto da cortisolo. H-type vessels,ferroptosi e varianti genetiche non sviluppati né trasformati in raccomandazioni. StudioHSD1: abstract/introduzione, non intero articolo o figure; modello murino distinto da efficacia clinica.",
+    "CFI893: confronto selettivo conNOGG7 eACR. Tabelle di linee guida non equivalgono alla lettura dei documenti completi. NOGG non prescrive terapia indistintamente a tutti; raccomandazioni forti/condizionali distinte.",
+    "Nota79: pagina attuale26settembre2025 e testo PDF1–4 consultati; non intero documento. Immagine della tabella ufficiale non verificata:download403. Nessuna soglia numerica trasferita; criteri di rimborso separati da valutazione clinica.",
+    "APP341: generalizzazione attesa di tre mesi ed età unica non trasferita; indicazione clinica,rischio e rimborso distinti. Errori pregressi di bersaglio e sequenza restano esclusi.",
+    "Libri e corsi letti per intervalli. RANG690–691 eCFI896–900 non letti; FarmacologiaII e altri contributi ancora parzialmente riconciliati.",
     "Nessun PDF, trascrizione o figura originale pubblicati. Identità,sintesi di farmaci,profili e laboratori interattivi restano nel backlog."
   ],
-  "nextBatch": "Completare886–890;891–895 non iniziato.",
+  "nextBatch": "Completare891–895;896–900 non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",
