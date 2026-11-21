@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-11-21T10:43:56.468194+00:00",
-  "batch": "theory-course-871-875",
+  "updatedAt": "2026-11-21T11:53:14.227032+00:00",
+  "batch": "theory-course-876-880",
   "status": "locally_verified_pending_publication",
-  "release": "0.111.0",
-  "branch": "feat/theory-course-871-875",
-  "baseCommit": "7f139709106e71966c77a05db525ce449879a3c4",
+  "release": "0.112.0",
+  "branch": "feat/theory-course-876-880",
+  "baseCommit": "82aa75d5b029dc92003d6c88347f36b4909755ec",
   "previousBatch": {
-    "batch": "theory-course-866-870",
-    "release": "0.110.0",
-    "commit": "7f139709106e71966c77a05db525ce449879a3c4",
+    "batch": "theory-course-871-875",
+    "release": "0.111.0",
+    "commit": "82aa75d5b029dc92003d6c88347f36b4909755ec",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Ampliamento del capitolo osseo: neutralizzazione di RANKL,persistenza,rene e ipocalcemia."
+    "Ampliamento osseo: sclerostina/Wnt, marcatori e stronzio/DXA."
   ],
   "completed": [
     "Lettura e confronto mirato delle fonti; limiti e conflitti registrati.",
-    "Due sezioni originali,5 quesiti e2 schemi; nessun nuovo profilo o laboratorio.",
+    "Due sezioni originali,5 quesiti e2 schemi;19 sezioni precedenti preservate.",
     "Revisione editoriale mirata del solo integratore completata.",
-    "Superati 51 validatori,8 configurazioni desktop/mobile,ricerca,collegamenti,tastiera e offline;8 immagini ispezionate.",
-    "Aggiornamento reale0.110.0→0.111.0: preferiti,progressi e tema conservati.65 altri capitoli e17 sezioni precedenti invariati;5 fonti ricalcolate e inalterate."
+    "Superati51 validatori e8 configurazioni desktop/mobile, ricerca,collegamenti,tastiera e offline;8 immagini ispezionate.",
+    "Aggiornamento reale0.111.0→0.112.0: preferiti,progressi e tema conservati.65 altri capitoli,19 sezioni e26 quesiti precedenti invariati;5 fonti ricalcolate e inalterate."
   ],
   "remaining": [
     "Commit, CI, deploy concluso e riscontro online."
@@ -56,17 +56,17 @@
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
-    "Lotto:4 nuovi testi principali completi,1 nuova pagina parziale,4 pagine precedenti rilette;9 ispezioni. Cumulativo43 testi completi,45 pagine ispezionate,36 integrate. Nuove integrazioni:3 nuove pagine e1 precedente.",
-    "CFI860 e875 parziali ed escluse dalle letture complete e dall’integrazione. Zone coperte nelle figure872–873 non validate. Restano i limiti di CFI870, APP339 e FII-B54; fotografieCFI867 non diagnosticate.",
-    "CFI871 non integrata;874 tabella JAMA2019 selezionata solo qualitativamente, non articolo completo.875 ripete la riga denosumab874. Nessuna dose,soglia o calendario riprodotto.",
-    "APP340 ora integrata selettivamente; esclusi endovena, rassicurazione renale generale, spiegazione semplicistica ONJ e cadenze contraddittorie romosozumab.",
-    "Libri e corsi consultati per intervalli, non letti integralmente. RANG690–691 eCFI876–880 non letti. RANG694 riletta senza nuova integrazione.",
-    "Nessun PDF, trascrizione o figura della fonte pubblicati. Pannelli condivisi non considerati conferme indipendenti.",
-    "Fonti ufficiali consultate solo nei passaggi registrati, con ambito europeo, britannico o statunitense distinto. Nessun RCP italiano completo o disponibilità locale verificati.",
-    "FarmacologiaII e altri contributi restano parzialmente riconciliati; i precedenti localizzatori automatici non equivalgono a lettura di interi corsi.",
-    "Profili dei farmaci, interazioni complete, cause secondarie e laboratorio interattivo restano nel backlog. Limiti precedenti di Evenity, Bonviva e Faslodex preservati."
+    "Lotto:6 nuovi testi principali completi(CFI876–880 eRANG695),3 riletture(APP340,KATZ893,RANG694),9 ispezioni. Cumulativo49 testi completi,51 pagine ispezionate,41 integrate;5 nuove pagine integrate.",
+    "CFI860 e875 restano parziali ed escluse dalle letture complete e dall’integrazione. Restano i limiti delle figureCFI870,872–873,APP339 eFII-B54 e delle fotografieCFI867.",
+    "CFI876 letto ma non integrato: nuove identità e marchi nel backlog, stato regolatorio non verificato. CFI877 articolo2016 non equivale ad autorizzazione attuale;878 copertinaEMA2020 non equivale a lettura del rapporto.",
+    "CFI877 eAPP340 condividono il pannello Wnt: nessuna conferma indipendente o figura ripubblicata. CFI880 riga60[R] priva di intestazione: significato non inferito, dati numerici non trasferiti.",
+    "APP340 contiene intervalli romosozumab discordanti; distinti somministrazione e numero di iniezioni secondo RCP, senza calendari operativi. Esclusi endovena, rassicurazione renale generale e spiegazione semplicistica ONJ.",
+    "RANG695 letto nel testo completo; integrato solo lo stronzio. CaSR/OPG presentati come raccordo proposto; esclusa causalità cardiovascolare unica da blocco dei canaliK e rassicurazione generale ben tollerato.",
+    "EMAEvenity: letti i soli passaggi registrati, file corrente con dicituraDraft. OsseorRCP storico e ritiro commercialeEU distinti da linea guidaUK; nessun RCP italiano completo o disponibilità locale verificati.",
+    "Libri e corsi consultati per intervalli, non integralmente. RANG690–691 eCFI881–885 non letti. FarmacologiaII e altri contributi ancora parzialmente riconciliati; localizzatori automatici non equivalgono a lettura.",
+    "Nessun PDF, trascrizione o figura delle fonti pubblicati. Dosi, percentuali e correzioni individualiDXA escluse; profili, interazioni complete, cause secondarie e laboratorio interattivo restano nel backlog."
   ],
-  "nextBatch": "Completare871–875;876–880 non iniziato.",
+  "nextBatch": "Completare876–880;881–885 non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",

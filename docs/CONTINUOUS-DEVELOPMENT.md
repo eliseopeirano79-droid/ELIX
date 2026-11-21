@@ -8,15 +8,15 @@ Usare «appunti e diapositive del corso di Farmacologia», con anno, lezione, da
 
 ## Lotto corrente
 
-theory-course-871-875, candidato0.111.0. Due sezioni sul blocco di RANKL, persistenza dell’effetto, funzione renale e ipocalcemia. Ora19 sezioni,4805 parole,26 quesiti e19 schemi qualitativi. Nessuna nuova identità,sintesi di farmaco,profilo o laboratorio;17 sezioni precedenti preservate.
+theory-course-876-880, candidato0.112.0. Due sezioni su sclerostina/Wnt e stronzio/DXA. Ora21 sezioni,5561 parole,31 quesiti e21 schemi qualitativi. Nessuna nuova identità,sintesi di farmaco,profilo o laboratorio;19 sezioni precedenti preservate.
 
-Ultima consegna verificata0.110.0,commit7f139709106e71966c77a05db525ce449879a3c4. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
+Ultima consegna verificata0.111.0,commit82aa75d5b029dc92003d6c88347f36b4909755ec. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
 
-Deduplicazione su187 registri.4 nuove letture complete(CFI871–874),1 nuova parziale(875),4 riletture(APP339–340,KATZ892,RANG694),9 ispezioni. Cumulativo43 testi completi,45 pagine ispezionate,36 integrate. SelezionatiCFI872–874 eAPP340;871 esclusa e875 parziale. Figure coperte e duplicati registrati.
+Deduplicazione su189 registri.6 nuove letture complete(CFI876–880,RANG695),3 riletture(APP340,KATZ893,RANG694),9 ispezioni. Cumulativo49 testi completi,51 pagine ispezionate,41 integrate. SelezionatiCFI877–880 eRANG695;876non integrata. CFI860 e875 restano parziali.
 
-Confronto mirato21novembre2026 con RCP EMAProlia,NOGG6 e comunicazioneFDA2024 sulla malattia renale avanzata. Corretta distinzione fra assenza di aggiustamento renale e sicurezza; RANKL distinto daRANK. Nessuna dose o calendario trasferiti,nessuna revisione clinica indipendente.
+Confronto mirato21novembre2026 con EMAEvenity,RCP storicoOsseor eNOGG6. Distinti freno extracellulare e agonismo, segnali di turnover ed esiti, composizione minerale e misuraDXA. Separati effetti in vitro, meccanismo proposto, rischi e stato regolatorio. Nessuna dose o calendario trasferiti,nessuna revisione clinica indipendente.
 
-Revisione editoriale mirata completata; superati 51 validatori,8 configurazioni desktop/mobile nei due temi,ricerca,collegamenti,tastiera e offline;8 immagini ispezionate. Aggiornamento reale0.110.0→0.111.0 verificato con preferiti,progressi e tema conservati;65 altri capitoli e17 sezioni precedenti invariati.5 fonti inalterate. Commit,CI,deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-871-875-2026-11-20/.
+Revisione editoriale mirata completata; superati51 validatori,8 configurazioni desktop/mobile,ricerca,collegamenti,tastiera e offline;8 immagini ispezionate. Aggiornamento reale0.111.0→0.112.0 con preferiti,progressi e tema conservati.65 altri capitoli,19 sezioni e26 quesiti precedenti invariati;5 fonti inalterate. Commit,CI,deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-876-880-2026-11-21/.
 
 ## Regole
 
@@ -28,4 +28,4 @@ Revisione editoriale mirata completata; superati 51 validatori,8 configurazioni 
 
 ## Prossimo intervallo
 
-Completare871–875 e verificarne la pubblicazione.876–880 non iniziato. Teoria prima di farmaci,profili e laboratori.
+Completare876–880 e verificarne la pubblicazione.881–885 non iniziato. Teoria prima di farmaci,profili e laboratori.
