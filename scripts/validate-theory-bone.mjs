@@ -27,9 +27,9 @@ for(const s of l.sources){
  pages+=s.pdfPagesRead.length;added+=s.newlyReadTextPages.length;reused+=s.reusedPreviouslyReadPages.length;integrated+=s.integratedPdfPages.length;
  newIntegrated+=s.integratedPdfPages.filter(p=>s.newlyReadTextPages.includes(p)).length;
 }
-assert.deepEqual([pages,added,reused,integrated,newIntegrated],[58,5,53,47,2]);
+assert.deepEqual([pages,added,reused,integrated,newIntegrated],[62,4,58,49,2]);
 assert.deepEqual([l.totalReadPdfPages,l.newReadPdfPages,l.reusedReadPdfPages,l.chapterIntegratedPdfPages,l.newIntegratedPdfPages],[pages,added,reused,integrated,newIntegrated]);
-assert.deepEqual(l.sources.find(s=>s.id==='CFI').partiallyReadPdfPages,[860,875,883,890]);
+assert.deepEqual(l.sources.find(s=>s.id==='CFI').partiallyReadPdfPages,[860,875,883,890,894]);
 assert.equal(l.chapterReviewedPdfPages,l.sources.reduce((n,s)=>n+s.visuallyCheckedPdfPages.length,0));
 assert.equal(l.newReviewedPdfPages,l.newReadPdfPages+l.newPartiallyReadPdfPages);
 assert.deepEqual([l.fullCorpusRead,l.clinicalValidation,l.newIdentities,l.newDrugSummaries,l.newPKProfiles,l.newTargetProfiles,l.newChapters,l.expandedExistingChapters],[false,false,0,0,0,0,0,1]);
@@ -45,4 +45,4 @@ if(p.batch===l.batch){assert.equal(p.changes.newChapters,0);assert.equal(p.chang
 assert.equal(l.sources.find(s=>s.id==='FII-B').metadataOnlyPages.includes(45),true);
 assert.ok(!l.sources.find(s=>s.id==='FII-B').pdfPagesRead.includes(45));
 assert.equal(l.newlyIntegratedPreviouslyReadPdfPages,0);
-console.log('Bone PASS:5 new complete main texts,53 prior;47 integrated;4 partial pages and figure limits preserved.');
+console.log('Bone PASS:4 new complete main texts,58 prior;49 integrated;5 partial pages and figure limits preserved.');

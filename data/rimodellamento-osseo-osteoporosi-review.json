@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "chapterId": "rimodellamento-osseo-osteoporosi",
-  "batch": "theory-course-886-890",
-  "reviewedAt": "2026-11-21T14:03:44.754303+00:00",
+  "batch": "theory-course-891-895",
+  "reviewedAt": "2026-11-21T14:43:56.249779+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "2304f74991e1ce63d2989532b25dfd671ebcb84510d6a86ab4f6f39835ae8c18",
+  "moduleSha256": "d707b79bddbf2c38d3286c1cf001f1fc32e71bbd5fd987f8a39d34833f8e8305",
   "checks": [
-    "Due sezioni,5 quesiti e2 schemi aggiunti;23 sezioni e36 quesiti preservati.",
-    "Rischio di frattura distinto da densità, rischio relativo distinto da beneficio assoluto.",
-    "Sequenza distinta da associazione;PTH1R distinto daRANKL.",
-    "Conteggi58testi/62ispezioni/47integrazioni;5 nuove letture complete.",
-    "DATA-Switch descritto entro popolazione ed esiti misurati; nessuna superiorità sulle fratture dedotta.",
-    "Revisione editoriale mirata completata: attribuzioni, limiti delle prove, esempio aritmetico e nessun calendario/dose; verifiche tecniche separate."
+    "Due sezioni,5 quesiti e2 schemi aggiunti;25 sezioni e41 quesiti preservati.",
+    "Formazione ossea,GR e metabolismo prerecettoriale distinti.",
+    "Evidenza sperimentale murina non presentata come indicazione clinica.",
+    "Valutazione del rischio distinta da soglia amministrativa; raccomandazioni circoscritte.",
+    "Conteggi62testi/67ispezioni/49integrazioni;4 nuove letture complete.",
+    "Revisione editoriale: formulazioni originali,nessuna dose o soglia numerica; limiti e provenienza espliciti."
   ],
   "conflicts": [
     {
@@ -340,18 +340,49 @@
       "issue": "Risposta densitometrica scambiabile per efficacia sulle fratture.",
       "resolution": "DATA-Switch eNOGG distinti per popolazione,sede,misura e limiti; nessuna equivalenza automatica.",
       "status": "resolved_for_scope"
+    },
+    {
+      "id": "historic-table-891",
+      "issue": "TabellaNEJM2023 prosegue righe storiche senza note complete.",
+      "resolution": "Testo visibile letto non integrato; niente percentuali,dosi o validazione attuale dedotta.",
+      "status": "read_not_integrated"
+    },
+    {
+      "id": "gc-local-metabolism",
+      "issue": "CFI892 accosta cortisone bioattivo e diagramma cortisolo/cortisone.",
+      "resolution": "Distinta rigenerazione del cortisolo da inattivazione; evidenzaHSD1 murina separata dalla clinica.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "gc-guideline-all",
+      "issue": "CFI893 sintetizza UK2024 come tutti i pazienti.",
+      "resolution": "NOGG7 identifica gruppi specifici; nessuna terapia universale. ACR valutata per raccomandazioni principali indicizzate.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "aifa-clipped894",
+      "issue": "TabellaCFI894 tagliata; appunti generalizzano età e attesa.",
+      "resolution": "Pagina parziale esclusa; confronto con testo ufficialeAIFA, senza pubblicare soglie. Trattamento previsto distinto da periodo già completato.",
+      "status": "unresolved_source_limit"
+    },
+    {
+      "id": "aifa-history895",
+      "issue": "Notizia2022 non descrive tutti gli aggiornamenti successivi.",
+      "resolution": "Letta non integrata; verificata paginaAIFA aggiornata26settembre2025.",
+      "status": "read_not_integrated"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
-    "Lotto:5 nuovi testi principali completi(CFI886–889,APP341),2 riletture(KATZ891,RANG695),8 ispezioni. Cumulativo58 testi completi,62 pagine ispezionate,47 integrate;2 nuove pagine integrate.",
-    "CFI860,875,883,890 parziali ed escluse dalle letture complete e dall’integrazione.890tabella incompleta, copertura dell’intestazione e note mancanti. Limiti delle figure precedenti preservati.",
-    "CFI887–889 testi visibili letti ma non integrati: tabelle2019/2023, note mancanti, stato autorizzativo storico, prezzi e dosi non trasferiti. Nessuna lettura dei rispettivi articoli completi.",
-    "CFI886 algoritmoJAMA2025 riconciliato qualitativamente conNOGG; nessuna prosecuzione indefinita universale di denosumab, soglia o calendario prescrittivo trasferito.",
-    "APP341 contiene errori di classificazione di denosumab, azionePTH e sequenza obbligatoria: esclusi e riconciliati con i capitoli precedenti, libri e fonti ufficiali. CriteriAIFA riportati negli appunti non verificati né trasferiti.",
-    "DATA-Switch: abstract e primi paragrafi della discussione, non studio completo o figure; densità minerale distinta dagli esiti di frattura. Esempio percentuale nel testo puramente aritmetico, non dato di efficacia.",
-    "Libri e corsi letti per intervalli. RANG690–691 eCFI891–895 non letti; FarmacologiaII e altri contributi ancora parzialmente riconciliati.",
+    "Lotto:4 nuovi testi principali completi(CFI891–893,895),2 riletture(KATZ891,APP341),7 ispezioni. Cumulativo62 testi completi,67 pagine ispezionate,49 integrate;2 nuove pagine integrate.",
+    "CFI860,875,883,890,894 parziali escluse da lettura completa e integrazione.894tabella tagliata; limiti precedenti preservati.",
+    "CFI891 e895 lette non integrate: tabella2023 con note esterne mancanti e notizia2022. Articoli riprodotti non letti integralmente; nessuna dose, percentuale o disponibilità attuale dedotta.",
+    "CFI892: cortisone distinto da cortisolo. H-type vessels,ferroptosi e varianti genetiche non sviluppati né trasformati in raccomandazioni. StudioHSD1: abstract/introduzione, non intero articolo o figure; modello murino distinto da efficacia clinica.",
+    "CFI893: confronto selettivo conNOGG7 eACR. Tabelle di linee guida non equivalgono alla lettura dei documenti completi. NOGG non prescrive terapia indistintamente a tutti; raccomandazioni forti/condizionali distinte.",
+    "Nota79: pagina attuale26settembre2025 e testo PDF1–4 consultati; non intero documento. Immagine della tabella ufficiale non verificata:download403. Nessuna soglia numerica trasferita; criteri di rimborso separati da valutazione clinica.",
+    "APP341: generalizzazione attesa di tre mesi ed età unica non trasferita; indicazione clinica,rischio e rimborso distinti. Errori pregressi di bersaglio e sequenza restano esclusi.",
+    "Libri e corsi letti per intervalli. RANG690–691 eCFI896–900 non letti; FarmacologiaII e altri contributi ancora parzialmente riconciliati.",
     "Nessun PDF, trascrizione o figura originale pubblicati. Identità,sintesi di farmaci,profili e laboratori interattivi restano nel backlog."
   ],
-  "updatedAt": "2026-11-21T14:02:37.215250+00:00"
+  "updatedAt": "2026-11-21T14:43:19.314177+00:00"
 }

@@ -308,6 +308,30 @@ export const THEORY_BONE = {
       "formula": "Farmaco A → stato del tessuto modificato → risposta a B. Invertire A e B non garantisce lo stesso risultato; variazione della densità ≠ dimostrazione di riduzione delle fratture."
     },
     {
+      "id": "glucocorticoidi-rete-ossea",
+      "title": "Glucocorticoidi e osso: dal recettore alla perdita di formazione",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "HSD1-STUDIO"
+      ],
+      "text": "L’osteoporosi da glucocorticoidi collega la farmacologia di un recettore intracellulare alla fragilità di un intero tessuto. Il recettore dei glucocorticoidi, GR, appartiene alla famiglia dei recettori nucleari: il segnale modifica programmi di espressione genica nelle cellule bersaglio. Un’esposizione prolungata ed eccessiva può alterare il lavoro delle cellule ossee. Ridurre questo fenomeno a una generica «perdita di calcio» nasconde il ruolo della formazione della matrice.\n\nNel quadro illustrato dal corso, gli osteoblasti diminuiscono la propria attività e il riassorbimento può essere favorito attraverso la rete osteoclastica. Il punto decisivo è il rapporto fra tessuto rimosso e tessuto ricostruito. Se il compartimento formativo non riesce a sostituire quanto viene riassorbito, il bilancio delle unità di rimodellamento diventa negativo. Non occorre immaginare un aumento permanente e uniforme dell’attività osteoclastica per spiegare una perdita progressiva di osso: anche una formazione persistentemente insufficiente può sostenerla. Il diagramma del corso è un modello qualitativo, non una misura temporale del turnover nel singolo paziente.\n\nL’esposizione del recettore dipende anche dal metabolismo che precede il legame. Nell’uomo la 11β-idrossisteroido-deidrogenasi di tipo 1, o 11β-HSD1, può rigenerare cortisolo attivo dal cortisone; la 11β-HSD2 opera l’inattivazione nella direzione opposta. I due nomi non indicano recettori differenti e cortisolo e cortisone non sono sinonimi. La conversione locale contribuisce a spiegare perché la concentrazione circolante, da sola, non descriva ogni aspetto dell’esposizione tissutale. Questo schema non significa che ogni glucocorticoide di sintesi venga metabolizzato allo stesso modo.\n\nUn lavoro sperimentale del 2019 ha confrontato topi normali e topi privi di 11β-HSD1 esposti a corticosterone. Nei secondi la perdita trabecolare risultava fortemente attenuata e la riduzione degli osteoblasti parzialmente limitata. Il dato sostiene un ruolo del metabolismo prerecettoriale nel modello studiato. Non dimostra che inibire l’enzima prevenga le fratture nell’uomo e non equivale a un’indicazione terapeutica. Specie, ormone utilizzato e condizioni sperimentali fanno parte del significato del risultato.\n\nKatzung aggiunge al danno formativo le alterazioni del bilancio del calcio, con minore assorbimento intestinale e maggiore perdita renale. Il corso richiama inoltre effetti extrascheletrici, come il catabolismo muscolare, che possono contribuire alle cadute. Si incontrano così due percorsi: un osso meno resistente e una maggiore probabilità di sottoporlo a un trauma. La stessa quantità di minerale misurata non riassume necessariamente entrambi.\n\nIl raccordo con i farmaci del capitolo diventa più preciso: i bisfosfonati e il blocco di RANKL limitano il versante riassorbitivo, mentre la stimolazione di PTH1R con teriparatide può favorire quello formativo. Il razionale biologico orienta la comprensione delle opzioni; non seleziona automaticamente il trattamento. La scelta richiede prove cliniche e valutazione del rischio nel contesto specifico.",
+      "formula": "Esposizione tissutale → GR → alterazione del lavoro cellulare → formazione insufficiente rispetto al riassorbimento. Fragilità ossea + fattori di caduta → rischio di frattura."
+    },
+    {
+      "id": "osteoporosi-da-glucocorticoidi",
+      "title": "Dalla causa secondaria alla prevenzione: rischio, prove e rimborsabilità",
+      "refs": [
+        "CFI",
+        "APP",
+        "NOGG7",
+        "ACR-GIOP",
+        "AIFA79"
+      ],
+      "text": "Quando una terapia può danneggiare l’osso, la prevenzione non coincide con l’attesa della prima frattura. Nell’osteoporosi associata ai glucocorticoidi occorre collegare esposizione prevista, condizioni della persona e rischio scheletrico. Una durata riportata in una tabella può delimitare una popolazione studiata o una condizione amministrativa: non identifica necessariamente il momento biologico in cui il rischio inizia.\n\nLe raccomandazioni NOGG sottolineano che il rischio aumenta precocemente dopo l’avvio di glucocorticoidi orali. In gruppi specifici ad alto rischio prevedono una protezione ossea contestuale, senza attendere la densitometria. Non è una raccomandazione indistinta per chiunque riceva un corticosteroide. La dose, la durata, la storia di fratture e il contesto clinico partecipano alla valutazione; le soglie britanniche non diventano automaticamente criteri italiani.\n\nLa linea guida ACR 2022, pubblicata nel 2023, richiede una valutazione iniziale precoce nelle persone comprese nel proprio ambito: storia clinica, densità e ricerca di fratture vertebrali, con strumenti di stima appropriati all’età. Distingue categorie di rischio e formulazioni forti o condizionali delle raccomandazioni. In condizioni selezionate di rischio elevato considera anche un trattamento iniziale che stimoli la formazione. Il confronto con gli appunti corregge quindi l’idea di una progressione obbligatoria uguale per tutti.\n\nPer NOGG, bisfosfonati orali o zoledronato sono opzioni iniziali comuni; denosumab è un’alternativa e teriparatide può essere considerata inizialmente nel rischio molto alto. L’adeguatezza di calcio e vitamina D accompagna la strategia. Questa indicazione generale non rende intercambiabili i prodotti: bersaglio, persistenza, limitazioni e gestione della conclusione del trattamento rimangono quelli discussi nelle sezioni precedenti.\n\nAnche la prova di efficacia va letta nel contesto giusto. Un aumento della densità in persone trattate con glucocorticoidi documenta una risposta scheletrica; da solo non misura quante fratture siano state evitate. Le tabelle che accostano studi diversi possono mescolare popolazioni, esiti e grado di certezza. La distinzione fra meccanismo, risposta densitometrica ed evento clinico evita di trasformare la plausibilità di una strategia in una superiorità non dimostrata.\n\nLa Nota 79 AIFA risponde a un’altra domanda: in quali condizioni la prescrizione è a carico del Servizio sanitario nazionale. La versione ufficiale collegata alla pagina aggiornata nel settembre 2025 distingue prevenzione primaria e secondaria e include, per i glucocorticoidi, anche trattamenti previsti. Non richiede quindi in ogni caso di aver già completato un periodo di esposizione. Le condizioni comprendono più elementi: non si possono riassumere nella sola età o in una durata isolata. La nota richiama inoltre il rispetto delle indicazioni e delle avvertenze dei singoli medicinali.\n\nRischio biologico, raccomandazione clinica e rimborsabilità sono dunque tre livelli da leggere insieme. Questo raccordo serve a comprendere il ragionamento farmacologico; non fornisce una prescrizione individuale né sostituisce la verifica del documento ufficiale applicabile al caso.",
+      "formula": "Causa ed esposizione → valutazione del rischio → scelta sostenuta da prove e indicazioni → verifica delle condizioni di rimborso. Una soglia amministrativa non è l’inizio biologico del rischio."
+    },
+    {
       "id": "integrare-senza-generalizzare",
       "title": "Dalla fisiologia al trattamento: leggere le prove nel loro contesto",
       "refs": [
@@ -485,23 +509,43 @@ export const THEORY_BONE = {
     {
       "question": "Che cosa dimostra DATA-Switch sull’ordine dei trattamenti?",
       "answer": "Nella popolazione studiata, invertire teriparatide e denosumab modificava l’andamento della densità minerale, con differenze tra sedi. Non dimostra direttamente una diversa riduzione delle fratture né una regola per ogni farmaco."
+    },
+    {
+      "question": "Perché l’osteoporosi da glucocorticoidi non si spiega soltanto con la perdita di calcio?",
+      "answer": "Il segnale modifica anche l’attività delle cellule ossee e può ridurre persistentemente la formazione. Il bilancio tra riassorbimento e ricostruzione, insieme ai fattori di caduta, contribuisce alla fragilità."
+    },
+    {
+      "question": "Quale conversione distingue 11β-HSD1 e 11β-HSD2 nello schema cortisone/cortisolo?",
+      "answer": "La 11β-HSD1 può rigenerare cortisolo attivo dal cortisone; la 11β-HSD2 lo inattiva nella direzione opposta. Non sono recettori e il comportamento non è automaticamente identico per tutti i glucocorticoidi sintetici."
+    },
+    {
+      "question": "Lo studio su topi privi di 11β-HSD1 dimostra una terapia preventiva delle fratture umane?",
+      "answer": "No. Dimostra un contributo dell’enzima alla perdita trabecolare nel modello sperimentale. Specie, ormone, disegno ed esiti non consentono di dedurre un’indicazione clinica."
+    },
+    {
+      "question": "Una soglia di durata in una raccomandazione impone sempre di attendere prima di valutare l’osso?",
+      "answer": "No. Il rischio può aumentare precocemente; NOGG identifica gruppi in cui avviare protezione senza attendere la densitometria e ACR richiede una valutazione iniziale precoce nel proprio ambito."
+    },
+    {
+      "question": "Che differenza c’è fra raccomandazione clinica e Nota 79?",
+      "answer": "La raccomandazione orienta la decisione secondo rischio e prove. La Nota 79 definisce condizioni di prescrizione a carico del SSN, nel rispetto di indicazioni e avvertenze: non sostituisce la valutazione individuale."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF855–885, etichette853–883. Lotto881–885: testi principali completi881,882,884,885; integrati881,882,884.883tabella tagliata: parziale ed esclusa.885tabella2017 letta non integrata.860 e875 restano parziali; limiti figurativi precedenti conservati. Lotto886–890: testi principali visibili886–889 completi, solo886 integrata;890parziale. Tabelle storiche887–889 non integrate, note mancanti e numeri esclusi."
+      "detail": "PDF855–885, etichette853–883. Lotto881–885: testi principali completi881,882,884,885; integrati881,882,884.883tabella tagliata: parziale ed esclusa.885tabella2017 letta non integrata.860 e875 restano parziali; limiti figurativi precedenti conservati. Lotto886–890: testi principali visibili886–889 completi, solo886 integrata;890parziale. Tabelle storiche887–889 non integrate, note mancanti e numeri esclusi. Lotto891–895: testi principali visibili891–893 e895 completi;892–893 integrati.894tabella tagliata, parziale esclusa.891 e895 lette non integrate; articoli riprodotti non letti integralmente."
     },
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I · 2025–26",
-      "detail": "Lezione20 del3dicembre2025: PDF336–340, stampate331–335. Nel lotto876–880 riletta340(stampa335,lezione5di9) per sclerostina. Pannelli condivisi conCFI871–872 e877: confronto dipendente. Vie e cadenze contraddittorie escluse. Lotto881–885: riletta337(stampata332), esclusa l’identificazione erronea dello stronzio con un analogoPTH. Lotto886–890: letta341(stampata336,lezione6/9); integrato solo il raccordo critico fra meccanismi e strategia. Errori suPTH/denosumab e regole prescrittive esclusi."
+      "detail": "Lezione20 del3dicembre2025: PDF336–340, stampate331–335. Nel lotto876–880 riletta340(stampa335,lezione5di9) per sclerostina. Pannelli condivisi conCFI871–872 e877: confronto dipendente. Vie e cadenze contraddittorie escluse. Lotto881–885: riletta337(stampata332), esclusa l’identificazione erronea dello stronzio con un analogoPTH. Lotto886–890: letta341(stampata336,lezione6/9); integrato solo il raccordo critico fra meccanismi e strategia. Errori suPTH/denosumab e regole prescrittive esclusi. Lotto891–895: riletta341; descrizione temporale/rimborsabilità riconciliata conAIFA eNOGG, senza soglie trasferite."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX italiana2014 / XII originale2012. PDF884–893, editoriali864–873. Nel lotto876–880 riletta893 per sclerostina e stronzio; anti-sclerostina ancora sperimentale nell’edizione storica. Indicazioni e sicurezza non trasferite automaticamente. Lotto881–885: rilette886–887(stampate866–867), mediazioneRANKL e azioni renali; dosi storiche escluse. Lotto886–890: riletta891(stampata871), solo raccordo glucocorticoidi/formazione ossea."
+      "detail": "IX italiana2014 / XII originale2012. PDF884–893, editoriali864–873. Nel lotto876–880 riletta893 per sclerostina e stronzio; anti-sclerostina ancora sperimentale nell’edizione storica. Indicazioni e sicurezza non trasferite automaticamente. Lotto881–885: rilette886–887(stampate866–867), mediazioneRANKL e azioni renali; dosi storiche escluse. Lotto886–890: riletta891(stampata871), solo raccordo glucocorticoidi/formazione ossea. Lotto891–895: riletta891, formazione e bilancio del calcio."
     },
     {
       "id": "RANG",
@@ -529,7 +573,7 @@ export const THEORY_BONE = {
     {
       "id": "NOGG7",
       "title": "NOGG2024 · Strategie e rischio, sezione7",
-      "detail": "Consultazione19novembre2026: durata e rivalutazione; nel lotto866–870 raccomandazioni9–11 e passaggi sui rischi orali e sul contesto oncologico. Ambito britannico; nessun calendario operativo trasferito. Consultazione21novembre2026: raccomandazione5 su aderenza e cause secondarie in caso di frattura durante trattamento.",
+      "detail": "Consultazione19novembre2026: durata e rivalutazione; nel lotto866–870 raccomandazioni9–11 e passaggi sui rischi orali e sul contesto oncologico. Ambito britannico; nessun calendario operativo trasferito. Consultazione21novembre2026: raccomandazione5 su aderenza e cause secondarie in caso di frattura durante trattamento. Lotto891–895: raccomandazioni16–21 e passaggiGIOP, consultazione21novembre2026; ambito britannico, soglie non trasferite.",
       "url": "https://www.nogg.org.uk/full-guideline/section-7-strategies-management-osteoporosis-and-fracture-risk"
     },
     {
@@ -632,6 +676,24 @@ export const THEORY_BONE = {
       "title": "DATA-Switch · Sequenze di denosumab e teriparatide",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4620731/",
       "detail": "Leder et al., Lancet2015, DOI10.1016/S0140-6736(15)61120-5. Consultati abstract e primi paragrafi della discussione il21novembre2026; non intero articolo né figure. Studio primario su densità minerale, non prova diretta sugli esiti di frattura."
+    },
+    {
+      "id": "HSD1-STUDIO",
+      "title": "Metabolismo locale dei glucocorticoidi · studio sperimentale",
+      "url": "https://link.springer.com/article/10.1186/s13075-019-1972-1",
+      "detail": "Fenton et al., Arthritis Research & Therapy2019. Consultati abstract e introduzione il21novembre2026, non intero articolo né figure. Modello murino, distinto dall’efficacia clinica."
+    },
+    {
+      "id": "ACR-GIOP",
+      "title": "ACR2022 · Osteoporosi indotta da glucocorticoidi",
+      "url": "https://acrjournals.onlinelibrary.wiley.com/doi/full/10.1002/art.42646",
+      "detail": "Pubblicazione2023. Consultati abstract e raccomandazioni principali indicizzati il21novembre2026; non intero documento né appendici. Ambito statunitense."
+    },
+    {
+      "id": "AIFA79",
+      "title": "AIFA · Nota79, aggiornamento26settembre2025",
+      "url": "https://www.aifa.gov.it/nota-79",
+      "detail": "Consultazione21novembre2026 della pagina e del PDF collegato: testo selezionato PDF1–4, soprattutto prevenzione primaria e considerazioni generali. Non lettura integrale; tabella ufficiale non ispezionata in immagine, scaricamento locale403. Nessuna soglia numerica trasferita."
     }
   ],
   "moleculeLinks": [
@@ -691,6 +753,6 @@ export const THEORY_BONE = {
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-21",
   "readingManifest": "./data/rimodellamento-osseo-osteoporosi-reading.json",
-  "coverage": "5 nuove pagine di testo principale complete;2 riletture. Cumulativo58 testi completi,62 pagine ispezionate,47 con passaggi integrati.4 pagine parziali escluse. Limiti figurativi e clinici dichiarati; nessuna revisione clinica indipendente.",
-  "wordCount": 7004
+  "coverage": "4 nuove pagine di testo principale complete;2 riletture. Cumulativo62 testi completi,67 pagine ispezionate,49 con passaggi integrati.5 pagine parziali escluse. Limiti figurativi e clinici dichiarati; nessuna revisione clinica indipendente.",
+  "wordCount": 7866
 };

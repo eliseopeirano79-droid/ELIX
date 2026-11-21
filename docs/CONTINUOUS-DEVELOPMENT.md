@@ -4,19 +4,19 @@ Un solo lotto e un solo integratore alla volta. Questa chat integra e pubblica; 
 
 ## Denominazioni pubbliche delle fonti
 
-Usare appunti e diapositive del corso di Farmacologia, con anno,lezione,data e pagine. Docenti e denominazioni informali nei registri privati.
+Usare appunti e diapositive del corso di Farmacologia,con anno,lezione,data e pagine. Docenti e denominazioni informali nei registri privati.
 
 ## Lotto corrente
 
-theory-course-886-890, candidato0.114.0. Rischio dinamico,beneficio assoluto e ordine dei trattamenti. Ora25 sezioni,7004 parole,41 quesiti e25 schemi qualitativi. Nessuna nuova identità,sintesi,profilo o laboratorio.
+theory-course-891-895,candidato0.115.0. Glucocorticoidi,GR,metabolismo locale e prevenzione della fragilità. Ora27 sezioni,7866 parole,46 quesiti e27 schemi qualitativi. Nessuna nuova identità,sintesi,profilo o laboratorio.
 
-Ultima consegna verificata0.113.0,commit9c4d5ecc2efc5816a4eb76a376ded7d368744373. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
+Ultima consegna verificata0.114.0,commitb59e64fce8d000d18f23872bbaf881330cd90a0a. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
 
-Deduplicazione su193 registri.5 nuove letture complete,1 parziale,2 riletture e8 ispezioni. Cumulativo58 testi completi,62 pagine ispezionate,47 integrate. SelezionatiCFI886 eAPP341;887–889 lette non integrate;890parziale esclusa.
+Deduplicazione su195 registri.4 nuove letture complete,1 parziale,2 riletture e7 ispezioni. Cumulativo62 testi completi,67 pagine ispezionate,49 integrate. SelezionatiCFI892–893;891 e895 lette non integrate;894parziale esclusa.
 
-Confronto mirato21novembre2026:NOGG4,6,7 e abstract/primi paragrafi discussioneDATA-Switch. Densità distinta da fratture; erroriAPP341 riconciliati. Nessuna dose,criterioAIFA o calendario trasferiti. Revisione clinica indipendente aperta.
+Confronto mirato21novembre2026:NOGG7,ACR,Nota79AIFA e studio murinoHSD1. Distinti sperimentazione,indicazione clinica e rimborso. Nessuna dose o soglia numerica trasferita; revisione clinica indipendente aperta.
 
-Revisione editoriale mirata completata. Superati51 validatori e8 configurazioni desktop/mobile,ricerche,collegamenti,tastiera e offline;8 immagini ispezionate. Aggiornamento reale0.113.0→0.114.0 con preferiti,progressi e tema conservati.65 altri capitoli,23 sezioni e36 quesiti precedenti invariati;5 fonti inalterate. Commit,CI,deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-886-890-2026-11-21/.
+Revisione editoriale e verifiche locali superate:51 validatori,8 configurazioni desktop/mobile,8 immagini controllate,offline e aggiornamento reale0.114.0→0.115.0. Commit,CI,deploy e riscontro online ancora da completare. Prove private in ../../outputs/ELIX-course-891-895-2026-11-21/.
 
 ## Regole
 
@@ -28,4 +28,4 @@ Revisione editoriale mirata completata. Superati51 validatori e8 configurazioni 
 
 ## Prossimo intervallo
 
-Completare886–890 e verificarne la pubblicazione.891–895 non iniziato. Teoria prima di farmaci,profili e laboratori.
+Completare891–895 e verificarne la pubblicazione.896–900 non iniziato. Teoria prima di farmaci,profili e laboratori.
