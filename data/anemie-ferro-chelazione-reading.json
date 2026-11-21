@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "batch": "theory-course-906-910",
+  "chapterId": "anemie-ferro-chelazione",
+  "updatedAt": "2026-11-21T17:25:51.056743+00:00",
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "newTargetProfiles": 0,
+  "newChapters": 1,
+  "expandedExistingChapters": 0,
+  "newReadPdfPages": 16,
+  "reusedReadPdfPages": 5,
+  "totalReadPdfPages": 21,
+  "newReviewedPdfPages": 16,
+  "chapterReviewedPdfPages": 21,
+  "newPartiallyReadPdfPages": 0,
+  "partiallyReadPdfPages": 0,
+  "chapterSourcePdfPages": 21,
+  "chapterIntegratedPdfPages": 21,
+  "newIntegratedPdfPages": 16,
+  "newlyIntegratedPreviouslyReadPdfPages": 5,
+  "sources": [
+    {
+      "id": "CFI",
+      "title": "Appunti e diapositive del corso di Farmacologia I",
+      "edition": "AA 2025–26",
+      "sha256": "5eb2a8936ae6dafdc5b0334c6148ad70441c33df707c6e5a93636eca0fd1b72b",
+      "pdfPagesRead": [
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
+        910
+      ],
+      "newlyReadTextPages": [
+        906,
+        907,
+        908,
+        909,
+        910
+      ],
+      "reusedPreviouslyReadPages": [
+        902,
+        903,
+        904,
+        905
+      ],
+      "partiallyReadPdfPages": [],
+      "visuallyCheckedPdfPages": [
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
+        910
+      ],
+      "newlyVisuallyCheckedPdfPages": [
+        906,
+        907,
+        908,
+        909,
+        910
+      ],
+      "integratedPdfPages": [
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
+        910
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "printedPageLabels": {
+        "902": "900 di 934",
+        "903": "901 di 934",
+        "904": "902 di 934",
+        "905": "903 di 934",
+        "906": "904 di 934",
+        "907": "905 di 934",
+        "908": "906 di 934",
+        "909": "907 di 934",
+        "910": "908 di 934"
+      },
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "integrationScope": "Passaggi selezionati sul bilancio del ferro e sulle anemie; non tutti i contenuti della pagina sono riproposti.",
+      "figureReviewLimit": "Testo visibile completo. PDF 903: nota con asterisco non disponibile. PDF 907: intestazioni delle colonne cinetiche assenti; numeri esclusi. PDF 908: testo della tabella letto dalla pagina renderizzata; citazioni e note esterne non consultate. Strutture chimiche ispezionate qualitativamente, non validate atomo per atomo. PDF 909: frecce e legenda lette come modello qualitativo, non prova clinica. PDF 910: solo introduzione a B12/folati."
+    },
+    {
+      "id": "APP",
+      "title": "Appunti del corso di Farmacologia I",
+      "edition": "AA 2025–26; lezione 20 del 3 dicembre 2025",
+      "sha256": "b7fc604f876b1476dcddb6316de93e8ff57ba03b28817b3bfa51f2c2b3b00b4d",
+      "pdfPagesRead": [
+        343
+      ],
+      "newlyReadTextPages": [],
+      "reusedPreviouslyReadPages": [
+        343
+      ],
+      "partiallyReadPdfPages": [],
+      "visuallyCheckedPdfPages": [
+        343
+      ],
+      "newlyVisuallyCheckedPdfPages": [],
+      "integratedPdfPages": [
+        343
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "printedPageLabels": {
+        "343": "338; lezione pagina 8 di 9"
+      },
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "integrationScope": "Passaggi selezionati sul bilancio del ferro e sulle anemie; non tutti i contenuti della pagina sono riproposti.",
+      "figureReviewLimit": "Testo e figura già ispezionati nel lotto 901–905. Generalizzazioni sulla via orale, sulla sola profilassi con folato e sulla chelazione dopo ogni trasfusione escluse."
+    },
+    {
+      "id": "KATZ",
+      "title": "Katzung · Farmacologia generale e clinica",
+      "edition": "IX italiana 2014 / XII originale 2012",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "pdfPagesRead": [
+        673,
+        674,
+        675,
+        676,
+        677,
+        678
+      ],
+      "newlyReadTextPages": [
+        673,
+        674,
+        675,
+        676,
+        677,
+        678
+      ],
+      "reusedPreviouslyReadPages": [],
+      "partiallyReadPdfPages": [],
+      "visuallyCheckedPdfPages": [
+        673,
+        674,
+        675,
+        676,
+        677,
+        678
+      ],
+      "newlyVisuallyCheckedPdfPages": [
+        673,
+        674,
+        675,
+        676,
+        677,
+        678
+      ],
+      "integratedPdfPages": [
+        673,
+        674,
+        675,
+        676,
+        677,
+        678
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "printedPageLabels": {
+        "673": "653",
+        "674": "654",
+        "675": "655",
+        "676": "656",
+        "677": "657",
+        "678": "658"
+      },
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "integrationScope": "Passaggi selezionati sul bilancio del ferro e sulle anemie; non tutti i contenuti della pagina sono riproposti.",
+      "figureReviewLimit": "Figure e tabelle visibili ispezionate; caso di Schilling e riquadro sulla drepanocitosi letti ma non sviluppati. Soglie, dosi e procedure storiche escluse. HCP1 non adottato come trasportatore contemporaneo dell’eme. Refuso ferroso/ferrico nella transferrina risolto con il confronto fra testo e altra fonte."
+    },
+    {
+      "id": "RANG",
+      "title": "Rang & Dale · Farmacologia",
+      "edition": "VIII italiana 2016 / originale 2015",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "pdfPagesRead": [
+        486,
+        487,
+        488,
+        489,
+        490
+      ],
+      "newlyReadTextPages": [
+        486,
+        487,
+        488,
+        489,
+        490
+      ],
+      "reusedPreviouslyReadPages": [],
+      "partiallyReadPdfPages": [],
+      "visuallyCheckedPdfPages": [
+        486,
+        487,
+        488,
+        489,
+        490
+      ],
+      "newlyVisuallyCheckedPdfPages": [
+        486,
+        487,
+        488,
+        489,
+        490
+      ],
+      "integratedPdfPages": [
+        486,
+        487,
+        488,
+        489,
+        490
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "printedPageLabels": {
+        "486": null,
+        "487": null,
+        "488": null,
+        "489": null,
+        "490": null
+      },
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "integrationScope": "Passaggi selezionati sul bilancio del ferro e sulle anemie; non tutti i contenuti della pagina sono riproposti.",
+      "figureReviewLimit": "Numerazione stampata non identificabile. Figure e tabelle visibili ispezionate qualitativamente; quantità corporee, dosi, procedure storiche e note bibliografiche esterne non integrate. PDF 490 termina all’avvio della B12: letto tutto il testo visibile della pagina, non la continuazione in 491."
+    }
+  ],
+  "limits": [
+    "Sintesi originale didattica; revisione editoriale del solo integratore, senza revisione clinica indipendente.",
+    "16 nuove letture complete del testo visibile e 16 nuove ispezioni; 5 pagine già lette e ispezionate riutilizzate. Totale pertinente 21 pagine, non interi libri o corsi.",
+    "La pagina 908 contiene una tabella in immagine: il testo visibile è stato letto sulla resa grafica. Mancano intestazioni cinetiche in 907 e note esterne in alcune tabelle; valori non ricostruiti.",
+    "Dosi, prezzi, disponibilità storiche, graduatorie di efficacia e procedure obsolete esclusi. Nessuna soglia operativa o schema posologico individuale pubblicato.",
+    "BSG: passaggi selezionati della linea guida 2021, indice revisionato nel 2026; aggiornamento FIT 2025 non letto né integrato. ASH 2026 e NICE NG239: solo passaggi ufficiali indicizzati, accesso diretto negato. NHS: revisione 2023 con controllo previsto nel 2026, limite temporale dichiarato.",
+    "EMA: passaggi selezionati delle schede di deferasirox e deferiprone, non intere schede. Deferoxamina: record DailyMed aggiornato nel 2025 con testo revisionato nel 2022, distinta giurisdizione USA.",
+    "Riconciliazione con Farmacologia II e altri contributi didattici ancora incompleta. La ricerca in estrazioni già presenti non equivale alla lettura dei corsi e non dimostra assenza di materiale pertinente.",
+    "B12/folati solo raccordo introduttivo: CFI 911–915, continuazione Katzung da 679, Rang da 491 e appunti da 344 non letti in questo lotto.",
+    "Nessun PDF, trascrizione o figura delle fonti pubblicati; strutture chimiche e grandezze sperimentali non validate integralmente."
+  ]
+}
