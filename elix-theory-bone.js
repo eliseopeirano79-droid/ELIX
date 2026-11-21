@@ -71,6 +71,33 @@ export const THEORY_BONE = {
       "formula": "Stesso sistema recettoriale + diversa distribuzione temporale del segnale → diverso bilancio fra formazione e riassorbimento."
     },
     {
+      "id": "pth1r-rete-cellulare",
+      "title": "PTH1R: dal segnale intracellulare al dialogo tra cellule ossee",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "RANG",
+        "PTH1R-STUDIO",
+        "EMA-FORSTEO-RCP"
+      ],
+      "text": "La teriparatide conserva la porzione iniziale biologicamente attiva del PTH. Il suo bersaglio scheletrico va però descritto indicando anche la cellula che riceve il segnale: una freccia diretta verso l’osso non identifica automaticamente un recettore sull’osteoclasto. Il recettore PTH1R appartiene ai recettori di membrana accoppiati a proteine G. Nelle cellule bersaglio traduce il riconoscimento del peptide in risposte intracellulari, che successivamente modificano il comportamento della rete cellulare.\n\nDue vie aiutano a leggere questo passaggio. L’accoppiamento a Gs stimola l’adenilato ciclasi, aumenta il cAMP e attiva la protein chinasi A. L’accoppiamento a Gq attiva la fosfolipasi C, con produzione di IP3 e diacilglicerolo, mobilizzazione di calcio intracellulare e attivazione della protein chinasi C. Sono vie di trasduzione, non due indicazioni terapeutiche: dal loro nome non si può ricavare una previsione clinica del beneficio. Anche il calcio mobilizzato dentro una cellula e la concentrazione di calcio nel sangue appartengono a livelli diversi di osservazione.\n\nNel compartimento osseo l’azione sugli osteoblasti sostiene la formazione, ma può anche aumentare la disponibilità di RANKL. Questo ligando raggiunge RANK sui precursori osteoclastici e ne favorisce differenziamento e attività. La stimolazione del riassorbimento può dunque risultare da un passaggio tra cellule, senza postulare un’azione diretta del PTH sull’osteoclasto. L’osteoprotegerina intercetta RANKL come recettore solubile di richiamo: non è identica a RANK e non va disegnata come il suo equivalente sulla membrana del precursore.\n\nSi può così confrontare il punto di intervento dei farmaci. La teriparatide attiva un recettore ormonale a monte; denosumab intercetta RANKL a valle; i bisfosfonati agiscono sull’osteoclasto che li incorpora durante il riassorbimento. Agire sulla stessa unità di rimodellamento non significa avere lo stesso bersaglio o lo stesso effetto netto. Nel trattamento intermittente la prevalenza della formazione non richiede che ogni segnale verso gli osteoclasti sia azzerato. Il confronto con lo stimolo persistente descritto sopra riguarda la dinamica dell’intero sistema, non un cambio di identità del recettore.",
+      "formula": "PTH → PTH1R nell’osteoblasto → risposta cellulare e RANKL → RANK nel precursore osteoclastico. Segnale diretto e risposta indiretta sono passaggi distinti."
+    },
+    {
+      "id": "teriparatide-calcemia-e-osso",
+      "title": "Teriparatide: calcemia, fragilità e significato degli esiti",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "RANG",
+        "APP",
+        "EMA-FORSTEO-RCP",
+        "NOGG6"
+      ],
+      "text": "Un farmaco capace di favorire la formazione ossea può anche aumentare transitoriamente la calcemia. La contraddizione scompare distinguendo i compartimenti: la concentrazione nel sangue dipende dagli scambi con osso, rene e intestino, mentre il bilancio della matrice ossea emerge nel tempo. Il PTH favorisce il recupero renale di calcio e l’eliminazione di fosfato; la maggiore produzione renale di calcitriolo contribuisce all’assorbimento intestinale. Una freccia PTH–intestino riassume quindi anche una mediazione ormonale, non dimostra da sola un’azione diretta sull’enterocita.\n\nIl CaSR delle paratiroidi svolge un’altra funzione: rileva il calcio extracellulare e contribuisce a regolare la secrezione del PTH. Va distinto da PTH1R, che riceve il segnale dell’ormone nei tessuti bersaglio. Questa separazione tra sensore, ormone e recettore evita di confondere il controllo a monte della secrezione con l’impiego farmacologico di un frammento attivo. Il ranelato di stronzio, inoltre, non è un analogo peptidico del PTH: collocarlo fra gli agenti che possono influenzare la formazione non autorizza a identificarlo con teriparatide.\n\nLa scheda europea di Forsteo descrive un aumento della calcemia lieve e transitorio dopo l’iniezione: il momento del prelievo modifica pertanto l’interpretazione del risultato. Questo effetto non è una misura del beneficio antifratturativo e non rende appropriato il farmaco in chi ha già ipercalcemia. Il documento distingue l’osteoporosi da altre malattie metaboliche dell’osso, fra cui iperparatiroidismo e malattia di Paget, ed esclude l’insufficienza renale grave. Il collegamento fisiopatologico aiuta a capire queste delimitazioni; non sostituisce la valutazione clinica né l’intero profilo di sicurezza.\n\nAnche gli esiti richiedono una lettura precisa. Il RCP europeo riporta una riduzione delle fratture vertebrali e non vertebrali nelle donne in postmenopausa, senza dimostrazione specifica per le fratture dell’anca. NOGG discute invece evidenze aggregate sull’anca, precisando l’assenza di dati da un esito primario di efficacia dedicato. Le due formulazioni descrivono basi documentali differenti: non vanno appiattite in un generico «efficace su tutte le fratture» o in «nessuna evidenza». Sede, popolazione e tipo di analisi accompagnano sempre l’affermazione. Una tabella storica di approvazioni o un aumento della densità ossea, da soli, non aggiornano questi confini.",
+      "formula": "Sensore CaSR → secrezione PTH → recettore PTH1R → risposte di osso e rene. Calcemia nel breve periodo ≠ bilancio osseo nel tempo ≠ esito di frattura."
+    },
+    {
       "id": "antiriassorbitivi-e-accoppiamento",
       "title": "Antiriassorbitivi: ridurre la perdita modifica anche la formazione",
       "refs": [
@@ -390,28 +417,48 @@ export const THEORY_BONE = {
     {
       "question": "L’interferenza dello stronzio sulla DXA rende automaticamente nulli gli studi sulle fratture?",
       "answer": "No. La misura densitometrica e l’esito clinico sono livelli distinti: occorre valutarli separatamente, senza dedurre né efficacia né inefficacia dal solo artefatto."
+    },
+    {
+      "question": "Perché una freccia PTH → riassorbimento non dimostra un recettore del PTH sull’osteoclasto?",
+      "answer": "Il segnale può partire dagli osteoblasti e raggiungere i precursori osteoclastici attraverso RANKL e RANK. Occorre distinguere cellula bersaglio diretta ed effetto della rete."
+    },
+    {
+      "question": "CaSR e PTH1R svolgono lo stesso ruolo?",
+      "answer": "No. Il CaSR paratiroideo rileva il calcio extracellulare e regola la secrezione ormonale; PTH1R riceve il segnale del PTH nei tessuti bersaglio."
+    },
+    {
+      "question": "L’aumento di calcio intracellulare nella via Gq equivale a un aumento della calcemia?",
+      "answer": "No. La trasduzione in una cellula e la concentrazione nel sangue sono grandezze diverse; la calcemia dipende dall’insieme degli scambi tra organi."
+    },
+    {
+      "question": "Un aumento transitorio della calcemia durante teriparatide misura quanto osso si sta formando?",
+      "answer": "No. La concentrazione circolante riflette anche azioni renali e intestinali e il tempo trascorso dalla somministrazione; non misura direttamente formazione o protezione dalle fratture."
+    },
+    {
+      "question": "Come si conciliano RCP e linea guida quando descrivono diversamente le prove sulle fratture dell’anca?",
+      "answer": "Specificando la base dell’affermazione: esito primario dedicato, dati di sicurezza e analisi aggregate non sono equivalenti. Popolazione, sede e tipo di analisi vanno mantenuti visibili."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF855–880, etichette853–878. Nel lotto876–880 cinque testi principali completi; integrati877–880 e876esclusa.860 e875 restano parziali. Figure872–873 con zone coperte;877condivisa conAPP340. Numeri della riga880 senza intestazione esclusi."
+      "detail": "PDF855–885, etichette853–883. Lotto881–885: testi principali completi881,882,884,885; integrati881,882,884.883tabella tagliata: parziale ed esclusa.885tabella2017 letta non integrata.860 e875 restano parziali; limiti figurativi precedenti conservati."
     },
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I · 2025–26",
-      "detail": "Lezione20 del3dicembre2025: PDF336–340, stampate331–335. Nel lotto876–880 riletta340(stampa335,lezione5di9) per sclerostina. Pannelli condivisi conCFI871–872 e877: confronto dipendente. Vie e cadenze contraddittorie escluse."
+      "detail": "Lezione20 del3dicembre2025: PDF336–340, stampate331–335. Nel lotto876–880 riletta340(stampa335,lezione5di9) per sclerostina. Pannelli condivisi conCFI871–872 e877: confronto dipendente. Vie e cadenze contraddittorie escluse. Lotto881–885: riletta337(stampata332), esclusa l’identificazione erronea dello stronzio con un analogoPTH."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX italiana2014 / XII originale2012. PDF884–893, editoriali864–873. Nel lotto876–880 riletta893 per sclerostina e stronzio; anti-sclerostina ancora sperimentale nell’edizione storica. Indicazioni e sicurezza non trasferite automaticamente."
+      "detail": "IX italiana2014 / XII originale2012. PDF884–893, editoriali864–873. Nel lotto876–880 riletta893 per sclerostina e stronzio; anti-sclerostina ancora sperimentale nell’edizione storica. Indicazioni e sicurezza non trasferite automaticamente. Lotto881–885: rilette886–887(stampate866–867), mediazioneRANKL e azioni renali; dosi storiche escluse."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII italiana2016 / originale2015. Testi principali letti:PDF685–689 e692–695;690–691 non lette. Nel lotto876–880 riletta694 e letta695: integrato selettivamente lo stronzio. Numerazione editoriale non visibile; limiti precedenti preservati."
+      "detail": "VIII italiana2016 / originale2015. Testi principali letti:PDF685–689 e692–695;690–691 non lette. Nel lotto876–880 riletta694 e letta695: integrato selettivamente lo stronzio. Numerazione editoriale non visibile; limiti precedenti preservati. Lotto881–885: riletta688, integrato solo il circuitoCaSR/PTH; esclusa l’identitàOPG=RANK e l’impiego storico della calcitonina."
     },
     {
       "id": "ODS",
@@ -428,7 +475,7 @@ export const THEORY_BONE = {
     {
       "id": "NOGG6",
       "title": "NOGG2024 · Opzioni farmacologiche, sezione6",
-      "detail": "Consultazioni19 e21novembre2026. Nel lotto871–875: raccomandazioni7–9 e paragrafo denosumab, soprattutto cessazione e continuità. Ambito britannico; nessun calendario operativo trasferito. Non lettura dell’intera linea guida. Confronto21novembre2026: raccomandazione14 e paragrafi sullo stronzio, limiti del meccanismo e della DXA; ambito britannico.",
+      "detail": "Consultazioni19 e21novembre2026. Nel lotto871–875: raccomandazioni7–9 e paragrafo denosumab, soprattutto cessazione e continuità. Ambito britannico; nessun calendario operativo trasferito. Non lettura dell’intera linea guida. Confronto21novembre2026: raccomandazione14 e paragrafi sullo stronzio, limiti del meccanismo e della DXA; ambito britannico. Lotto881–885: paragrafi introduttivi sugli anabolici e paragrafo teriparatide, soprattutto differenza tra esiti primari e prove aggregate sull’anca.",
       "url": "https://www.nogg.org.uk/full-guideline/section-6-pharmacological-treatment-options"
     },
     {
@@ -513,6 +560,18 @@ export const THEORY_BONE = {
       "title": "EMA · Osseor, informazioni storiche del prodotto",
       "detail": "RCP del prodotto non più autorizzato, aggiornamento7dicembre2018. Consultazione21novembre2026 limitata a§5.1: esperimenti in vitro, adsorzione/sostituzione nel minerale e interpretazione DXA. Non usato come prescrizione attuale.",
       "url": "https://www.ema.europa.eu/en/documents/product-information/osseor-epar-product-information_en.pdf"
+    },
+    {
+      "id": "EMA-FORSTEO-RCP",
+      "title": "EMA · Forsteo / teriparatide, informazioni del prodotto",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/forsteo-epar-product-information_en.pdf",
+      "detail": "Consultazione21novembre2026: passaggi4.1–4.4 e5.1, PDF2–4 e7; indicazioni, delimitazioni, calcemia e meccanismo. TestoEN, ambitoUE; non lettura dell’intero RCP né istruzioni terapeutiche individuali."
+    },
+    {
+      "id": "PTH1R-STUDIO",
+      "title": "Studio sperimentale · Accoppiamento di PTH1R a Gq e Gs",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12002267/",
+      "detail": "Allosteric mechanism in the distinctive coupling of Gq and Gs to the parathyroid hormone type1 receptor,2025. Letti i paragrafi introduttivi sulla trasduzione il21novembre2026; non intero studio né figure sperimentali. Usato solo per il raccordo recettoriale."
     }
   ],
   "moleculeLinks": [
@@ -572,6 +631,6 @@ export const THEORY_BONE = {
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-21",
   "readingManifest": "./data/rimodellamento-osseo-osteoporosi-reading.json",
-  "coverage": "6 nuove pagine di testo principale complete;3 pagine precedenti rilette. Cumulativo:49 testi completi,51 pagine ispezionate e41 con passaggi integrati. Limiti delle figure e dei confronti clinici dichiarati; nessuna revisione clinica indipendente.",
-  "wordCount": 5561
+  "coverage": "4 nuove pagine di testo principale complete;4 pagine precedenti rilette. Cumulativo:53 testi completi,56 pagine ispezionate e45 con passaggi integrati.3 pagine parziali escluse; limiti delle figure e dei confronti clinici dichiarati. Nessuna revisione clinica indipendente.",
+  "wordCount": 6211
 };

@@ -4,19 +4,19 @@ Un solo lotto e un solo integratore alla volta. Questa chat integra e pubblica; 
 
 ## Denominazioni pubbliche delle fonti
 
-Usare «appunti e diapositive del corso di Farmacologia», con anno, lezione, data e pagine. Nomi dei docenti e denominazioni informali restano nei registri privati; libri e fonti ufficiali mantengono autori e titoli.
+Usare «appunti e diapositive del corso di Farmacologia», con anno,lezione,data e pagine. Nomi dei docenti e denominazioni informali restano nei registri privati.
 
 ## Lotto corrente
 
-theory-course-876-880, candidato0.112.0. Due sezioni su sclerostina/Wnt e stronzio/DXA. Ora21 sezioni,5561 parole,31 quesiti e21 schemi qualitativi. Nessuna nuova identità,sintesi di farmaco,profilo o laboratorio;19 sezioni precedenti preservate.
+theory-course-881-885, candidato0.113.0. Due sezioni suPTH1R, dialogo cellulare, calcemia e lettura degli esiti. Ora23 sezioni,6211 parole,36 quesiti e23 schemi qualitativi. Nessuna nuova identità,sintesi,profilo o laboratorio;21 sezioni precedenti preservate.
 
-Ultima consegna verificata0.111.0,commit82aa75d5b029dc92003d6c88347f36b4909755ec. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
+Ultima consegna verificata0.112.0,commit697bec052cd168485213bfd07832fa392f452a58. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
 
-Deduplicazione su189 registri.6 nuove letture complete(CFI876–880,RANG695),3 riletture(APP340,KATZ893,RANG694),9 ispezioni. Cumulativo49 testi completi,51 pagine ispezionate,41 integrate. SelezionatiCFI877–880 eRANG695;876non integrata. CFI860 e875 restano parziali.
+Deduplicazione su191 registri.4 nuove letture complete,1 parziale,4 riletture e9 ispezioni. Cumulativo53 testi completi,56 pagine ispezionate,45 integrate. SelezionatiCFI881,882,884 e la precedenteRANG688;885 non integrata. CFI860,875,883 restano parziali.
 
-Confronto mirato21novembre2026 con EMAEvenity,RCP storicoOsseor eNOGG6. Distinti freno extracellulare e agonismo, segnali di turnover ed esiti, composizione minerale e misuraDXA. Separati effetti in vitro, meccanismo proposto, rischi e stato regolatorio. Nessuna dose o calendario trasferiti,nessuna revisione clinica indipendente.
+Confronto mirato21novembre2026 conRCPForsteo,NOGG6 e introduzione di uno studioPTH1R. Distinti trasduzione, rete cellulare, compartimenti e livelli delle prove cliniche. Nessuna dose o calendario trasferiti,nessuna revisione clinica indipendente.
 
-Revisione editoriale mirata completata; superati51 validatori,8 configurazioni desktop/mobile,ricerca,collegamenti,tastiera e offline;8 immagini ispezionate. Aggiornamento reale0.111.0→0.112.0 con preferiti,progressi e tema conservati.65 altri capitoli,19 sezioni e26 quesiti precedenti invariati;5 fonti inalterate. Commit,CI,deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-876-880-2026-11-21/.
+Revisione editoriale mirata completata. Superati51 validatori e8 configurazioni desktop/mobile,tastiera,ricerca,collegamenti e offline;8 immagini ispezionate. Aggiornamento reale0.112.0→0.113.0 con dati salvati e tema conservati.65 altri capitoli,21 sezioni e31 quesiti precedenti invariati;5 fonti inalterate. Commit,CI,deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-881-885-2026-11-21/.
 
 ## Regole
 
@@ -28,4 +28,4 @@ Revisione editoriale mirata completata; superati51 validatori,8 configurazioni d
 
 ## Prossimo intervallo
 
-Completare876–880 e verificarne la pubblicazione.881–885 non iniziato. Teoria prima di farmaci,profili e laboratori.
+Completare881–885 e verificarne la pubblicazione.886–890 non iniziato. Teoria prima di farmaci,profili e laboratori.
