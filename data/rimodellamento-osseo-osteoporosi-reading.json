@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-course-866-870",
+  "batch": "theory-course-871-875",
   "chapterId": "rimodellamento-osseo-osteoporosi",
-  "updatedAt": "2026-11-19T15:40:27.662119+00:00",
+  "updatedAt": "2026-11-21T10:20:53.280888+00:00",
   "fullCorpusRead": false,
   "clinicalValidation": false,
   "newIdentities": 0,
@@ -11,15 +11,15 @@
   "newTargetProfiles": 0,
   "newChapters": 0,
   "expandedExistingChapters": 1,
-  "newReadPdfPages": 8,
-  "reusedReadPdfPages": 31,
-  "totalReadPdfPages": 39,
-  "newReviewedPdfPages": 8,
-  "chapterReviewedPdfPages": 40,
-  "partiallyReadPdfPages": 1,
-  "chapterSourcePdfPages": 39,
-  "chapterIntegratedPdfPages": 32,
-  "newIntegratedPdfPages": 6,
+  "newReadPdfPages": 4,
+  "reusedReadPdfPages": 39,
+  "totalReadPdfPages": 43,
+  "newReviewedPdfPages": 5,
+  "chapterReviewedPdfPages": 45,
+  "partiallyReadPdfPages": 2,
+  "chapterSourcePdfPages": 43,
+  "chapterIntegratedPdfPages": 36,
+  "newIntegratedPdfPages": 3,
   "newlyIntegratedPreviouslyReadPdfPages": 1,
   "sources": [
     {
@@ -42,7 +42,11 @@
         867,
         868,
         869,
-        870
+        870,
+        871,
+        872,
+        873,
+        874
       ],
       "visuallyCheckedPdfPages": [
         855,
@@ -60,7 +64,12 @@
         867,
         868,
         869,
-        870
+        870,
+        871,
+        872,
+        873,
+        874,
+        875
       ],
       "integratedPdfPages": [
         855,
@@ -76,16 +85,18 @@
         866,
         867,
         869,
-        870
+        870,
+        872,
+        873,
+        874
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
       "newlyReadTextPages": [
-        866,
-        867,
-        868,
-        869,
-        870
+        871,
+        872,
+        873,
+        874
       ],
       "reusedPreviouslyReadPages": [
         855,
@@ -97,13 +108,20 @@
         862,
         863,
         864,
-        865
+        865,
+        866,
+        867,
+        868,
+        869,
+        870
       ],
       "partiallyReadPdfPages": [
-        860
+        860,
+        875
       ],
       "readButNotIntegratedPdfPages": [
-        868
+        868,
+        871
       ],
       "integrationScope": "Solo passaggi selezionati, con esclusioni registrate nella revisione.",
       "substantiveExtractedTextReadPages": [
@@ -132,7 +150,11 @@
         867,
         868,
         869,
-        870
+        870,
+        871,
+        872,
+        873,
+        874
       ],
       "printedPageLabels": {
         "855": "853 di934",
@@ -150,9 +172,14 @@
         "867": "865 di934",
         "868": "866 di934",
         "869": "867 di934",
-        "870": "868 di934"
+        "870": "868 di934",
+        "871": "869 di934",
+        "872": "870 di934",
+        "873": "871 di934",
+        "874": "872 di934",
+        "875": "873 di934"
       },
-      "figureReviewLimit": "870: schema qualitativo, etichette minute e strutture chimiche non validate integralmente; fotografie867 non diagnosticate."
+      "figureReviewLimit": "Limiti precedenti preservati.872–873 contengono zone coperte;875 tabella parzialmente coperta e testo solo parziale; nessuna ricostruzione dei contenuti nascosti."
     },
     {
       "id": "KATZ",
@@ -194,9 +221,7 @@
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
-      "newlyReadTextPages": [
-        893
-      ],
+      "newlyReadTextPages": [],
       "reusedPreviouslyReadPages": [
         884,
         885,
@@ -206,7 +231,8 @@
         889,
         890,
         891,
-        892
+        892,
+        893
       ],
       "partiallyReadPdfPages": [],
       "readButNotIntegratedPdfPages": [
@@ -337,23 +363,21 @@
         336,
         337,
         338,
-        339
-      ],
-      "allContentsRead": false,
-      "sourceUnchanged": true,
-      "newlyReadTextPages": [
         339,
         340
       ],
+      "allContentsRead": false,
+      "sourceUnchanged": true,
+      "newlyReadTextPages": [],
       "reusedPreviouslyReadPages": [
         336,
         337,
-        338
-      ],
-      "partiallyReadPdfPages": [],
-      "readButNotIntegratedPdfPages": [
+        338,
+        339,
         340
       ],
+      "partiallyReadPdfPages": [],
+      "readButNotIntegratedPdfPages": [],
       "integrationScope": "Solo passaggi selezionati, con esclusioni registrate nella revisione.",
       "substantiveExtractedTextReadPages": [
         336,
@@ -368,7 +392,7 @@
         "339": "334, pagina4 di9",
         "340": "335, pagina5 di9"
       },
-      "figureReviewLimit": "Pannello comparativo339 con etichette minute non letto integralmente; figura340 fuori scopo. Nessuna conclusione clinica ricavata da questi pannelli."
+      "figureReviewLimit": "339: pannelli condivisi conCFI871–872 riconosciuti; etichette minute non validate integralmente nella copia ridotta.340: figura romosozumab ispezionata ma fuori integrazione."
     },
     {
       "id": "FII-B",
@@ -422,7 +446,7 @@
     {
       "id": "NOGG6",
       "title": "NOGG2024 · Opzioni farmacologiche, sezione6",
-      "detail": "Versione ufficiale consultata19novembre2026. Passaggi precedenti preservati; nel lotto866–870 sezione raloxifene ed esiti vertebrali/non vertebrali. Ambito britannico, non intera linea guida.",
+      "detail": "Consultazioni19 e21novembre2026. Nel lotto871–875: raccomandazioni7–9 e paragrafo denosumab, soprattutto cessazione e continuità. Ambito britannico; nessun calendario operativo trasferito. Non lettura dell’intera linea guida.",
       "url": "https://www.nogg.org.uk/full-guideline/section-6-pharmacological-treatment-options"
     },
     {
@@ -478,24 +502,36 @@
       "title": "EMA · Faslodex / fulvestrant, meccanismo d’azione",
       "detail": "Consultazione19novembre2026: solo paragrafo indicizzato5.1 sull’antagonismo senza agonismo parziale e riduzione dei livelli recettoriali. Paginaoverview diretta429; nessuna lettura completa delRCP.",
       "url": "https://www.ema.europa.eu/en/documents/product-information/faslodex-epar-product-information_en.pdf"
+    },
+    {
+      "id": "EMA-PROLIA-RCP",
+      "title": "EMA · Prolia, informazioni del prodotto",
+      "detail": "Consultazione21novembre2026: passaggi selezionati §§2,4.1–4.4,4.8,5.1–5.2; PDF2–4,6–9,14. Bersaglio, natura dell’anticorpo, farmacocinetica e sicurezza. Non lettura integrale del RCP; dati quantitativi non trasferiti.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/prolia-epar-product-information_en.pdf"
+    },
+    {
+      "id": "FDA-PROLIA-CKD",
+      "title": "FDA · Denosumab e ipocalcemia nella malattia renale avanzata",
+      "detail": "Comunicazione19gennaio2024 consultata21novembre2026: passaggi su rischio, valutazione e monitoraggio. Ambito statunitense; usata per sicurezza, non per identificare il bersaglio.",
+      "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-adds-boxed-warning-increased-risk-severe-hypocalcemia-patients-advanced-chronic-kidney-disease"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
-    "Questo lotto aggiunge8 testi principali completi e8 pagine ispezionate;2 pagine precedenti sono state rilette e ispezionate senza nuova copertura. Passaggi di6 nuove pagine e di1 pagina già letta ora integrati. Cumulativo:39 testi completi,40 pagine ispezionate,32 integrate.",
-    "CFI860 resta parziale ed esclusa. Figure minute CFI870 e APP339 non validate integralmente; fotografieCFI867 non diagnosticate. Limite precedente delle figure antiaritmicheFII-B54 conservato.",
-    "CFI868: letta la tabella incorporata JAMA Insights del26novembre2019, non l’articolo completo; dosi,soglie e calendario non integrati. APP340 letta come contesto ma non integrata; errori o ambiguità su anticorpi esclusi.",
-    "Libri e corsi consultati per intervalli. RANG690–691 e CFI871–875 non letti. La nuova letturaKATZ893 non equivale a capitolo o libro completo.",
-    "Nessun PDF, trascrizione, fotografia clinica o figura originale pubblicati. Figure condivise precedentemente riconosciute restano materiale di confronto, non conferme indipendenti.",
-    "Fonti ufficiali consultate nei soli passaggi registrati: EMA europea,NOGG ed emc britanniche,FDA statunitense. Nessun RCP italiano completo o disponibilità locale verificati.",
-    "FarmacologiaII e altri contributi restano parzialmente riconciliati. Ricerca automatica nel testo di altri due corsi non equivale a lettura e non esclude contenuti nelle immagini.",
-    "Nessuna dose,soglia diagnostica o calendario di sospensione trasferito. Profili dei farmaci,altri agenti,interazioni complete e cause secondarie restano da approfondire.",
-    "Evenity e Bonviva conservano i limiti precedenti. Faslodex: meccanismo letto nel testo ufficiale indicizzato; overview diretta429. Nessun RCP completo letto."
+    "Lotto:4 nuovi testi principali completi,1 nuova pagina parziale,4 pagine precedenti rilette;9 ispezioni. Cumulativo43 testi completi,45 pagine ispezionate,36 integrate. Nuove integrazioni:3 nuove pagine e1 precedente.",
+    "CFI860 e875 parziali ed escluse dalle letture complete e dall’integrazione. Zone coperte nelle figure872–873 non validate. Restano i limiti di CFI870, APP339 e FII-B54; fotografieCFI867 non diagnosticate.",
+    "CFI871 non integrata;874 tabella JAMA2019 selezionata solo qualitativamente, non articolo completo.875 ripete la riga denosumab874. Nessuna dose,soglia o calendario riprodotto.",
+    "APP340 ora integrata selettivamente; esclusi endovena, rassicurazione renale generale, spiegazione semplicistica ONJ e cadenze contraddittorie romosozumab.",
+    "Libri e corsi consultati per intervalli, non letti integralmente. RANG690–691 eCFI876–880 non letti. RANG694 riletta senza nuova integrazione.",
+    "Nessun PDF, trascrizione o figura della fonte pubblicati. Pannelli condivisi non considerati conferme indipendenti.",
+    "Fonti ufficiali consultate solo nei passaggi registrati, con ambito europeo, britannico o statunitense distinto. Nessun RCP italiano completo o disponibilità locale verificati.",
+    "FarmacologiaII e altri contributi restano parzialmente riconciliati; i precedenti localizzatori automatici non equivalgono a lettura di interi corsi.",
+    "Profili dei farmaci, interazioni complete, cause secondarie e laboratorio interattivo restano nel backlog. Limiti precedenti di Evenity, Bonviva e Faslodex preservati."
   ],
   "deduplication": {
-    "recordsChecked": 185,
-    "method": "Identità SHA256 e lettura esplicita prima dell’estrazione;31 testi precedenti conservati,2 rilette senza nuova copertura.",
-    "normalizedText": {
+    "recordsChecked": 187,
+    "method": "SHA256 e pagine esplicitamente lette prima dell’estrazione.39 pagine precedenti conservate;4 rilette senza nuova copertura. Testo automatico scarso: lettura delle immagini distinta.",
+    "previousBatchNormalizedTextCheck": {
       "priorDistinctTextHashes": 311,
       "currentTextPagesCompared": 8,
       "priorExactMatches": 0
@@ -510,11 +546,25 @@
         "current": "CFI863",
         "previous": "APP337",
         "scope": "Mineral adsorption and osteoclast diagram; not independent evidence."
+      },
+      {
+        "current": "CFI871",
+        "previous": "APP339",
+        "scope": "Pannello HRT/SERM/Ideal SERM condiviso; nessuna integrazione del nuovo pannello."
+      },
+      {
+        "current": "CFI872",
+        "previous": "APP339",
+        "scope": "Diagramma RANKL condiviso, copia CFI parzialmente coperta."
+      },
+      {
+        "current": "CFI875",
+        "previous": "CFI874",
+        "scope": "Riga denosumab ripetuta; pagina875 parziale, non ricontata come testo completo o integrata."
       }
-    ],
-    "visualComparisonLimit": "Le nuove immagini non provano indipendenza tra diapositive, appunti e libri; nessun nuovo pannello identico confermato nella selezione esaminata."
+    ]
   },
-  "newPartiallyReadPdfPages": 0,
-  "currentBatchRereadPages": 2,
-  "currentBatchVisualPages": 10
+  "newPartiallyReadPdfPages": 1,
+  "currentBatchRereadPages": 4,
+  "currentBatchVisualPages": 9
 }

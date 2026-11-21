@@ -27,9 +27,9 @@ for(const s of l.sources){
  pages+=s.pdfPagesRead.length;added+=s.newlyReadTextPages.length;reused+=s.reusedPreviouslyReadPages.length;integrated+=s.integratedPdfPages.length;
  newIntegrated+=s.integratedPdfPages.filter(p=>s.newlyReadTextPages.includes(p)).length;
 }
-assert.deepEqual([pages,added,reused,integrated,newIntegrated],[39,8,31,32,6]);
+assert.deepEqual([pages,added,reused,integrated,newIntegrated],[43,4,39,36,3]);
 assert.deepEqual([l.totalReadPdfPages,l.newReadPdfPages,l.reusedReadPdfPages,l.chapterIntegratedPdfPages,l.newIntegratedPdfPages],[pages,added,reused,integrated,newIntegrated]);
-assert.deepEqual(l.sources.find(s=>s.id==='CFI').partiallyReadPdfPages,[860]);
+assert.deepEqual(l.sources.find(s=>s.id==='CFI').partiallyReadPdfPages,[860,875]);
 assert.equal(l.chapterReviewedPdfPages,l.sources.reduce((n,s)=>n+s.visuallyCheckedPdfPages.length,0));
 assert.equal(l.newReviewedPdfPages,l.newReadPdfPages+l.newPartiallyReadPdfPages);
 assert.deepEqual([l.fullCorpusRead,l.clinicalValidation,l.newIdentities,l.newDrugSummaries,l.newPKProfiles,l.newTargetProfiles,l.newChapters,l.expandedExistingChapters],[false,false,0,0,0,0,0,1]);
@@ -41,8 +41,8 @@ for(const f of ['elix-theory-bone.js','data/rimodellamento-osseo-osteoporosi-rea
 }
 const p=JSON.parse(read('data/development-progress.json'));
 assert.equal(p.counts.chapters,ELIX_CHAPTERS.length);assert.equal(p.counts.extendedChapters,ELIX_CHAPTERS.filter(x=>x.format==='extended').length);
-if(p.batch===l.batch){assert.equal(p.changes.newChapters,0);assert.equal(p.changes.expandedChapters,1);assert.equal(p.changes.newSections,3);assert.equal(p.changes.newSelfChecks,5);assert.equal(p.changes.newStaticOriginalSchemas,3);}
+if(p.batch===l.batch){assert.equal(p.changes.newChapters,0);assert.equal(p.changes.expandedChapters,1);assert.equal(p.changes.newSections,2);assert.equal(p.changes.newSelfChecks,5);assert.equal(p.changes.newStaticOriginalSchemas,2);}
 assert.equal(l.sources.find(s=>s.id==='FII-B').metadataOnlyPages.includes(45),true);
 assert.ok(!l.sources.find(s=>s.id==='FII-B').pdfPagesRead.includes(45));
 assert.equal(l.newlyIntegratedPreviouslyReadPdfPages,1);
-console.log('Bone PASS:8 new complete main texts,31 prior;32 integrated; partial table and figure limits preserved.');
+console.log('Bone PASS:4 new complete main texts,39 prior;36 integrated;2 partial pages and figure limits preserved.');

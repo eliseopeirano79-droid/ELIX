@@ -1,20 +1,19 @@
 {
   "schemaVersion": 1,
   "chapterId": "rimodellamento-osseo-osteoporosi",
-  "batch": "theory-course-866-870",
-  "reviewedAt": "2026-11-19T15:40:27.662119+00:00",
+  "batch": "theory-course-871-875",
+  "reviewedAt": "2026-11-21T10:21:37.735094+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "a593c1364239b2618cb7ad899f827139c5d8d277f2eb68ab3b2433d67c227ac9",
+  "moduleSha256": "7fb350c17d30ee1f5f8040fbf20d69e646d13372c38e1863cc249b04b1ce992d",
   "checks": [
-    "Rilette3 sezioni nuove,5 quesiti e3 schemi; solo raccordo conclusivo modificato nelle14 sezioni precedenti.",
-    "Distinti deposito,esposizione e rischio individuale; nessuna stima universale ONJ o sospensione automatica.",
-    "SERM collegati aER,conformazione e coregolatori; fulvestrant distinto secondo EMA.",
-    "Raloxifene: attività antiriassorbitiva,esiti vertebrali distinti,lipidi non equivalenti a beneficio cardiovascolare,prevenzione distinta dalla terapia tumorale.",
-    "Conteggi39 testi/40 ispezioni/32 integrazioni;8 nuove letture,2riletture,6 nuove pagine integrate e1pagina precedente ora integrata.",
-    "Tre collegamenti a identità esistenti; nessuna nuova identità,sintesi o profilo;65 altri capitoli da verificare invariati."
+    "Due nuove sezioni,5 quesiti e2 schemi originali;17 sezioni e21 quesiti precedenti preservati.",
+    "Distinti RANKL,RANK,OPG e FPPS; natura umanaIgG2 secondo RCP.",
+    "Distinti eliminazione, vulnerabilità minerale e continuità della terapia; nessuna istruzione posologica.",
+    "Conteggi43 testi/45 ispezioni/36 integrazioni;4 nuove letture complete e1parziale.",
+    "Revisione editoriale mirata: raccordi fisiologici distinti da raccomandazioni, assenza di dosi e affermazioni universali; prove tecniche registrate separatamente."
   ],
   "conflicts": [
     {
@@ -206,21 +205,57 @@
     {
       "id": "antibody-boundary340",
       "issue": "APP340 contiene generalizzazioni su vie,endovena,rene e cadenze degli anticorpi.",
-      "resolution": "Pagina interamente letta come contesto ma non integrata; nessuna rassicurazione renale o cadenza trasferita.",
-      "status": "excluded_pending_related_interval"
+      "resolution": "Lotto871–875: selezionato solo raccordo sul blocco di RANKL; vie, rene e cadenze riconciliati con fonti ufficiali o esclusi.",
+      "status": "selected_passages_reconciled_other_claims_excluded"
+    },
+    {
+      "id": "denosumab-renal-reassurance",
+      "issue": "CFI875 eAPP340 escludono genericamente necessità di valutare il rene.",
+      "resolution": "Distinta assenza di aggiustamento posologico da rischio di ipocalcemia nella malattia renale; confronto EMA eFDA.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "denosumab-occluded-table",
+      "issue": "CFI875 tabella coperta;872–873 diagrammi parzialmente mascherati.",
+      "resolution": "875 parziale ed esclusa; nessuna inferenza dalle celle nascoste o vuote.872–873 testo principale completo, figura non integralmente verificata.",
+      "status": "unresolved_source_limit"
+    },
+    {
+      "id": "denosumab-human-antibody",
+      "issue": "KATZ892 eNOGG usano nomenclatura umanizzato.",
+      "resolution": "Identità umanaIgG2 secondo EMA; nessun trasferimento della nomenclatura discordante.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "denosumab-fda-target",
+      "issue": "La comunicazioneFDA abbrevia il bersaglio in RANK.",
+      "resolution": "RANKL identificato da EMA e libri; FDA usata solo per sicurezza renale.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "denosumab-route-and-oncology",
+      "issue": "APP340 include endovena;KATZ892 semplifica indicazioni oncologiche.",
+      "resolution": "Nessuna viaIV o indicazione oncologica generale trasferita; prodotto europeo distinto dalle altre formulazioni.",
+      "status": "excluded"
+    },
+    {
+      "id": "denosumab-jama-repeat",
+      "issue": "CFI874 tabella storica e875 riga ripetuta.",
+      "resolution": "Solo confronto qualitativo874, riconciliato con fonti attuali; nessuna scala numerica o intero articolo dichiarato letto.",
+      "status": "deduplicated"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
-    "Questo lotto aggiunge8 testi principali completi e8 pagine ispezionate;2 pagine precedenti sono state rilette e ispezionate senza nuova copertura. Passaggi di6 nuove pagine e di1 pagina già letta ora integrati. Cumulativo:39 testi completi,40 pagine ispezionate,32 integrate.",
-    "CFI860 resta parziale ed esclusa. Figure minute CFI870 e APP339 non validate integralmente; fotografieCFI867 non diagnosticate. Limite precedente delle figure antiaritmicheFII-B54 conservato.",
-    "CFI868: letta la tabella incorporata JAMA Insights del26novembre2019, non l’articolo completo; dosi,soglie e calendario non integrati. APP340 letta come contesto ma non integrata; errori o ambiguità su anticorpi esclusi.",
-    "Libri e corsi consultati per intervalli. RANG690–691 e CFI871–875 non letti. La nuova letturaKATZ893 non equivale a capitolo o libro completo.",
-    "Nessun PDF, trascrizione, fotografia clinica o figura originale pubblicati. Figure condivise precedentemente riconosciute restano materiale di confronto, non conferme indipendenti.",
-    "Fonti ufficiali consultate nei soli passaggi registrati: EMA europea,NOGG ed emc britanniche,FDA statunitense. Nessun RCP italiano completo o disponibilità locale verificati.",
-    "FarmacologiaII e altri contributi restano parzialmente riconciliati. Ricerca automatica nel testo di altri due corsi non equivale a lettura e non esclude contenuti nelle immagini.",
-    "Nessuna dose,soglia diagnostica o calendario di sospensione trasferito. Profili dei farmaci,altri agenti,interazioni complete e cause secondarie restano da approfondire.",
-    "Evenity e Bonviva conservano i limiti precedenti. Faslodex: meccanismo letto nel testo ufficiale indicizzato; overview diretta429. Nessun RCP completo letto."
+    "Lotto:4 nuovi testi principali completi,1 nuova pagina parziale,4 pagine precedenti rilette;9 ispezioni. Cumulativo43 testi completi,45 pagine ispezionate,36 integrate. Nuove integrazioni:3 nuove pagine e1 precedente.",
+    "CFI860 e875 parziali ed escluse dalle letture complete e dall’integrazione. Zone coperte nelle figure872–873 non validate. Restano i limiti di CFI870, APP339 e FII-B54; fotografieCFI867 non diagnosticate.",
+    "CFI871 non integrata;874 tabella JAMA2019 selezionata solo qualitativamente, non articolo completo.875 ripete la riga denosumab874. Nessuna dose,soglia o calendario riprodotto.",
+    "APP340 ora integrata selettivamente; esclusi endovena, rassicurazione renale generale, spiegazione semplicistica ONJ e cadenze contraddittorie romosozumab.",
+    "Libri e corsi consultati per intervalli, non letti integralmente. RANG690–691 eCFI876–880 non letti. RANG694 riletta senza nuova integrazione.",
+    "Nessun PDF, trascrizione o figura della fonte pubblicati. Pannelli condivisi non considerati conferme indipendenti.",
+    "Fonti ufficiali consultate solo nei passaggi registrati, con ambito europeo, britannico o statunitense distinto. Nessun RCP italiano completo o disponibilità locale verificati.",
+    "FarmacologiaII e altri contributi restano parzialmente riconciliati; i precedenti localizzatori automatici non equivalgono a lettura di interi corsi.",
+    "Profili dei farmaci, interazioni complete, cause secondarie e laboratorio interattivo restano nel backlog. Limiti precedenti di Evenity, Bonviva e Faslodex preservati."
   ],
-  "updatedAt": "2026-11-19T15:40:27.662119+00:00"
+  "updatedAt": "2026-11-21T10:21:37.735094+00:00"
 }
