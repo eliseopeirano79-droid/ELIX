@@ -280,6 +280,34 @@ export const THEORY_BONE = {
       "formula": "Effetto del trattamento + persistenza + rischio attuale → necessità di rivalutazione e pianificazione della sequenza."
     },
     {
+      "id": "rischio-dinamico-beneficio",
+      "title": "Il rischio di frattura cambia nel tempo: leggere densità, eventi e beneficio",
+      "refs": [
+        "CFI",
+        "APP",
+        "KATZ",
+        "NOGG4",
+        "NOGG7"
+      ],
+      "text": "La densità minerale descrive una parte della resistenza scheletrica. Il rischio di frattura riguarda invece un evento futuro, prodotto dall’incontro tra fragilità dell’osso, sollecitazioni e contesto della persona. Confondere le due grandezze porta a trasformare un valore densitometrico in una decisione automatica. L’architettura, già discussa all’inizio del capitolo, spiega perché la quantità di minerale non esaurisce la qualità meccanica del tessuto.\n\nNOGG distingue probabilità a dieci anni e rischio particolarmente elevato nel periodo successivo a una frattura. La recenza e la molteplicità delle fratture, soprattutto vertebrali, modificano l’inquadramento insieme alla densità e ad altri fattori clinici. Una stima di lungo periodo può quindi non rappresentare da sola l’urgenza della situazione presente. Le categorie e le soglie della linea guida appartengono al contesto britannico e non sono criteri italiani di rimborsabilità.\n\nIl materiale del corso propone una distinzione fra rischio alto e molto alto, utile per collegare la scelta al problema biologico. Nella seconda situazione NOGG considera una valutazione specialistica e, in persone selezionate, un trattamento iniziale che promuova la formazione. Questo rende inadeguata una successione obbligatoria in cui ogni paziente debba prima ricevere un antiriassorbitivo e soltanto dopo un anabolico. Non ne deriva però una preferenza universale: caratteristiche della persona, indicazioni e rischi del singolo medicinale restano determinanti.\n\nAnche una terapia concomitante può modificare il sistema. Il capitolo di Katzung sull’omeostasi minerale descrive i glucocorticoidi come causa di perdita ossea attraverso effetti sulla formazione e sul bilancio del calcio. Il collegamento didattico è tra causa secondaria e rimodellamento: intervenire su un solo segnale non cancella necessariamente gli altri determinanti della fragilità. I criteri prescrittivi riportati negli appunti non sono qui trasferiti come regole attuali.\n\nIl beneficio assoluto dipende inoltre dal rischio di partenza. In un esempio puramente aritmetico, con esito e durata identici, dimezzare un rischio ipotetico del 2% produce una riduzione di un punto percentuale; dimezzare un rischio del 20% ne produce dieci. Non sono stime di efficacia dei farmaci del capitolo. L’esempio mostra perché una percentuale relativa isolata non basta a confrontare studi con popolazioni e tempi differenti.\n\nDurante il trattamento una nuova frattura richiede di rivalutare il quadro. NOGG richiama la verifica dell’aderenza e la ricerca di cause secondarie. Un evento non dimostra da solo l’assenza di ogni beneficio: un farmaco può ridurre un rischio senza annullarlo. Occorre distinguere esposizione effettiva al trattamento, andamento clinico e misura della risposta.",
+      "formula": "Densità + storia delle fratture + tempo dall’evento + fattori clinici → rischio attuale. A parità di effetto relativo, il beneficio assoluto dipende dal rischio iniziale."
+    },
+    {
+      "id": "sequenza-e-storia-terapeutica",
+      "title": "L’ordine dei trattamenti: perché invertire la sequenza cambia la risposta",
+      "refs": [
+        "CFI",
+        "APP",
+        "RANG",
+        "NOGG6",
+        "DATA-SWITCH",
+        "EMA-PROLIA-RCP",
+        "EMA-FORSTEO-RCP"
+      ],
+      "text": "Una sequenza farmacologica agisce su un tessuto già modificato dal trattamento precedente. Il secondo farmaco incontra una diversa attività delle unità di rimodellamento, superfici in fasi differenti del ciclo e, per alcune classi, un deposito ancora presente nel minerale. La storia terapeutica è quindi una condizione iniziale del sistema, non soltanto una voce nell’elenco dei medicinali assunti.\n\nPer orientarsi conviene tornare ai bersagli. I bisfosfonati si legano al minerale e raggiungono gli osteoclasti durante il riassorbimento; denosumab intercetta RANKL; teriparatide stimola PTH1R nelle cellule bersaglio. Denosumab non è un frammento del paratormone. La somministrazione sottocutanea comune a due prodotti non implica identità di recettore, durata dell’azione o comportamento alla sospensione. Il confronto fra appunti, Rang e informazioni europee dei prodotti consente di mantenere separate queste proprietà.\n\nNOGG richiede che la conclusione di denosumab e dei trattamenti che promuovono la formazione sia inserita in un piano successivo. Dopo un anabolico, una terapia antiriassorbitiva può contribuire a conservare il guadagno ottenuto. Il razionale è controllare il riassorbimento quando viene meno lo stimolo che ha favorito la formazione. La scelta e i tempi della transizione richiedono una valutazione clinica; questo schema non stabilisce un calendario.\n\nUn esempio sperimentale dell’importanza dell’ordine viene da DATA-Switch, estensione di uno studio randomizzato in donne con osteoporosi postmenopausale. Nel passaggio da teriparatide a denosumab la densità minerale continuava ad aumentare; nel passaggio opposto si osservava una perdita transitoria alla colonna e all’anca e progressiva al radio. Le risposte differivano dunque anche secondo la sede scheletrica. Sono osservazioni sulla densità e sui marcatori, non una dimostrazione diretta di superiorità nella prevenzione delle fratture. Il risultato non va esteso automaticamente a ogni anabolico, antiriassorbitivo o popolazione.\n\nNOGG segnala a sua volta che alcune risposte densitometriche dipendono dall’esposizione precedente e che il loro significato sugli esiti di frattura non è definito. La distinzione è essenziale: conoscere il bersaglio aiuta a formulare un’ipotesi; osservare un cambiamento della densità documenta una risposta; dimostrare meno fratture richiede prove cliniche adeguate a quell’esito.\n\nLa sequenza va anche distinta dall’associazione contemporanea. Sostituire un farmaco, aggiungerne un secondo e programmare il trattamento dopo la fine di un ciclo sono interventi diversi sul rimodellamento. Non si possono dedurre l’uno dall’altro leggendo una freccia in uno schema. La domanda utile è quale stato del tessuto viene lasciato dal primo intervento e quale processo il successivo modifica: questo collega recettori, persistenza farmacologica e malattia senza trasformare il meccanismo in una prescrizione.",
+      "formula": "Farmaco A → stato del tessuto modificato → risposta a B. Invertire A e B non garantisce lo stesso risultato; variazione della densità ≠ dimostrazione di riduzione delle fratture."
+    },
+    {
       "id": "integrare-senza-generalizzare",
       "title": "Dalla fisiologia al trattamento: leggere le prove nel loro contesto",
       "refs": [
@@ -437,28 +465,48 @@ export const THEORY_BONE = {
     {
       "question": "Come si conciliano RCP e linea guida quando descrivono diversamente le prove sulle fratture dell’anca?",
       "answer": "Specificando la base dell’affermazione: esito primario dedicato, dati di sicurezza e analisi aggregate non sono equivalenti. Popolazione, sede e tipo di analisi vanno mantenuti visibili."
+    },
+    {
+      "question": "Perché una probabilità di frattura a dieci anni non descrive da sola il periodo subito dopo una frattura?",
+      "answer": "L’orizzonte medio di lungo periodo non esprime necessariamente il rischio più elevato associato a un evento recente. Recenza, sede e numero delle fratture contribuiscono alla valutazione."
+    },
+    {
+      "question": "Una riduzione relativa uguale produce sempre lo stesso beneficio assoluto?",
+      "answer": "No. A parità di esito, durata e altre condizioni, la riduzione assoluta dipende dal rischio di partenza. L’esempio aritmetico del testo non è una stima di efficacia di un farmaco."
+    },
+    {
+      "question": "Una frattura durante terapia dimostra automaticamente che il farmaco non funziona?",
+      "answer": "No. Il rischio può essere ridotto senza scomparire. Vanno rivalutati aderenza, esposizione effettiva, cause secondarie e situazione clinica."
+    },
+    {
+      "question": "Perché denosumab e teriparatide non sono intercambiabili anche se somministrati per via sottocutanea?",
+      "answer": "Agiscono su bersagli diversi: RANKL e PTH1R. Via di somministrazione, meccanismo, persistenza ed effetti della transizione sono proprietà distinte."
+    },
+    {
+      "question": "Che cosa dimostra DATA-Switch sull’ordine dei trattamenti?",
+      "answer": "Nella popolazione studiata, invertire teriparatide e denosumab modificava l’andamento della densità minerale, con differenze tra sedi. Non dimostra direttamente una diversa riduzione delle fratture né una regola per ogni farmaco."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF855–885, etichette853–883. Lotto881–885: testi principali completi881,882,884,885; integrati881,882,884.883tabella tagliata: parziale ed esclusa.885tabella2017 letta non integrata.860 e875 restano parziali; limiti figurativi precedenti conservati."
+      "detail": "PDF855–885, etichette853–883. Lotto881–885: testi principali completi881,882,884,885; integrati881,882,884.883tabella tagliata: parziale ed esclusa.885tabella2017 letta non integrata.860 e875 restano parziali; limiti figurativi precedenti conservati. Lotto886–890: testi principali visibili886–889 completi, solo886 integrata;890parziale. Tabelle storiche887–889 non integrate, note mancanti e numeri esclusi."
     },
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I · 2025–26",
-      "detail": "Lezione20 del3dicembre2025: PDF336–340, stampate331–335. Nel lotto876–880 riletta340(stampa335,lezione5di9) per sclerostina. Pannelli condivisi conCFI871–872 e877: confronto dipendente. Vie e cadenze contraddittorie escluse. Lotto881–885: riletta337(stampata332), esclusa l’identificazione erronea dello stronzio con un analogoPTH."
+      "detail": "Lezione20 del3dicembre2025: PDF336–340, stampate331–335. Nel lotto876–880 riletta340(stampa335,lezione5di9) per sclerostina. Pannelli condivisi conCFI871–872 e877: confronto dipendente. Vie e cadenze contraddittorie escluse. Lotto881–885: riletta337(stampata332), esclusa l’identificazione erronea dello stronzio con un analogoPTH. Lotto886–890: letta341(stampata336,lezione6/9); integrato solo il raccordo critico fra meccanismi e strategia. Errori suPTH/denosumab e regole prescrittive esclusi."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX italiana2014 / XII originale2012. PDF884–893, editoriali864–873. Nel lotto876–880 riletta893 per sclerostina e stronzio; anti-sclerostina ancora sperimentale nell’edizione storica. Indicazioni e sicurezza non trasferite automaticamente. Lotto881–885: rilette886–887(stampate866–867), mediazioneRANKL e azioni renali; dosi storiche escluse."
+      "detail": "IX italiana2014 / XII originale2012. PDF884–893, editoriali864–873. Nel lotto876–880 riletta893 per sclerostina e stronzio; anti-sclerostina ancora sperimentale nell’edizione storica. Indicazioni e sicurezza non trasferite automaticamente. Lotto881–885: rilette886–887(stampate866–867), mediazioneRANKL e azioni renali; dosi storiche escluse. Lotto886–890: riletta891(stampata871), solo raccordo glucocorticoidi/formazione ossea."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII italiana2016 / originale2015. Testi principali letti:PDF685–689 e692–695;690–691 non lette. Nel lotto876–880 riletta694 e letta695: integrato selettivamente lo stronzio. Numerazione editoriale non visibile; limiti precedenti preservati. Lotto881–885: riletta688, integrato solo il circuitoCaSR/PTH; esclusa l’identitàOPG=RANK e l’impiego storico della calcitonina."
+      "detail": "VIII italiana2016 / originale2015. Testi principali letti:PDF685–689 e692–695;690–691 non lette. Nel lotto876–880 riletta694 e letta695: integrato selettivamente lo stronzio. Numerazione editoriale non visibile; limiti precedenti preservati. Lotto881–885: riletta688, integrato solo il circuitoCaSR/PTH; esclusa l’identitàOPG=RANK e l’impiego storico della calcitonina. Lotto886–890: riletta695, distinzione denosumab/RANKL; indicazioni e prescrizioni storiche escluse."
     },
     {
       "id": "ODS",
@@ -475,13 +523,13 @@ export const THEORY_BONE = {
     {
       "id": "NOGG6",
       "title": "NOGG2024 · Opzioni farmacologiche, sezione6",
-      "detail": "Consultazioni19 e21novembre2026. Nel lotto871–875: raccomandazioni7–9 e paragrafo denosumab, soprattutto cessazione e continuità. Ambito britannico; nessun calendario operativo trasferito. Non lettura dell’intera linea guida. Confronto21novembre2026: raccomandazione14 e paragrafi sullo stronzio, limiti del meccanismo e della DXA; ambito britannico. Lotto881–885: paragrafi introduttivi sugli anabolici e paragrafo teriparatide, soprattutto differenza tra esiti primari e prove aggregate sull’anca.",
+      "detail": "Consultazioni19 e21novembre2026. Nel lotto871–875: raccomandazioni7–9 e paragrafo denosumab, soprattutto cessazione e continuità. Ambito britannico; nessun calendario operativo trasferito. Non lettura dell’intera linea guida. Confronto21novembre2026: raccomandazione14 e paragrafi sullo stronzio, limiti del meccanismo e della DXA; ambito britannico. Lotto881–885: paragrafi introduttivi sugli anabolici e paragrafo teriparatide, soprattutto differenza tra esiti primari e prove aggregate sull’anca. Lotto886–890: passaggi sulla sequenza, cessazione e risposta dopo denosumab; nessun calendario operativo.",
       "url": "https://www.nogg.org.uk/full-guideline/section-6-pharmacological-treatment-options"
     },
     {
       "id": "NOGG7",
       "title": "NOGG2024 · Strategie e rischio, sezione7",
-      "detail": "Consultazione19novembre2026: durata e rivalutazione; nel lotto866–870 raccomandazioni9–11 e passaggi sui rischi orali e sul contesto oncologico. Ambito britannico; nessun calendario operativo trasferito.",
+      "detail": "Consultazione19novembre2026: durata e rivalutazione; nel lotto866–870 raccomandazioni9–11 e passaggi sui rischi orali e sul contesto oncologico. Ambito britannico; nessun calendario operativo trasferito. Consultazione21novembre2026: raccomandazione5 su aderenza e cause secondarie in caso di frattura durante trattamento.",
       "url": "https://www.nogg.org.uk/full-guideline/section-7-strategies-management-osteoporosis-and-fracture-risk"
     },
     {
@@ -572,6 +620,18 @@ export const THEORY_BONE = {
       "title": "Studio sperimentale · Accoppiamento di PTH1R a Gq e Gs",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12002267/",
       "detail": "Allosteric mechanism in the distinctive coupling of Gq and Gs to the parathyroid hormone type1 receptor,2025. Letti i paragrafi introduttivi sulla trasduzione il21novembre2026; non intero studio né figure sperimentali. Usato solo per il raccordo recettoriale."
+    },
+    {
+      "id": "NOGG4",
+      "title": "NOGG2024 · Soglie e strategia, sezione4",
+      "url": "https://www.nogg.org.uk/full-guideline/section-4-intervention-thresholds-and-strategy",
+      "detail": "Consultazione21novembre2026: raccomandazioni iniziali e passaggi su rischio alto/molto alto, recenza delle fratture e FRAX. Ambito britannico; soglie non trasferite in Italia. Non lettura dell’intera linea guida."
+    },
+    {
+      "id": "DATA-SWITCH",
+      "title": "DATA-Switch · Sequenze di denosumab e teriparatide",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4620731/",
+      "detail": "Leder et al., Lancet2015, DOI10.1016/S0140-6736(15)61120-5. Consultati abstract e primi paragrafi della discussione il21novembre2026; non intero articolo né figure. Studio primario su densità minerale, non prova diretta sugli esiti di frattura."
     }
   ],
   "moleculeLinks": [
@@ -631,6 +691,6 @@ export const THEORY_BONE = {
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-21",
   "readingManifest": "./data/rimodellamento-osseo-osteoporosi-reading.json",
-  "coverage": "4 nuove pagine di testo principale complete;4 pagine precedenti rilette. Cumulativo:53 testi completi,56 pagine ispezionate e45 con passaggi integrati.3 pagine parziali escluse; limiti delle figure e dei confronti clinici dichiarati. Nessuna revisione clinica indipendente.",
-  "wordCount": 6211
+  "coverage": "5 nuove pagine di testo principale complete;2 riletture. Cumulativo58 testi completi,62 pagine ispezionate,47 con passaggi integrati.4 pagine parziali escluse. Limiti figurativi e clinici dichiarati; nessuna revisione clinica indipendente.",
+  "wordCount": 7004
 };

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-course-881-885",
+  "batch": "theory-course-886-890",
   "chapterId": "rimodellamento-osseo-osteoporosi",
-  "updatedAt": "2026-11-21T12:51:32.215193+00:00",
+  "updatedAt": "2026-11-21T14:02:37.215250+00:00",
   "fullCorpusRead": false,
   "clinicalValidation": false,
   "newIdentities": 0,
@@ -11,16 +11,16 @@
   "newTargetProfiles": 0,
   "newChapters": 0,
   "expandedExistingChapters": 1,
-  "newReadPdfPages": 4,
-  "reusedReadPdfPages": 49,
-  "totalReadPdfPages": 53,
-  "newReviewedPdfPages": 5,
-  "chapterReviewedPdfPages": 56,
-  "partiallyReadPdfPages": 3,
-  "chapterSourcePdfPages": 53,
-  "chapterIntegratedPdfPages": 45,
-  "newIntegratedPdfPages": 3,
-  "newlyIntegratedPreviouslyReadPdfPages": 1,
+  "newReadPdfPages": 5,
+  "reusedReadPdfPages": 53,
+  "totalReadPdfPages": 58,
+  "newReviewedPdfPages": 6,
+  "chapterReviewedPdfPages": 62,
+  "partiallyReadPdfPages": 4,
+  "chapterSourcePdfPages": 58,
+  "chapterIntegratedPdfPages": 47,
+  "newIntegratedPdfPages": 2,
+  "newlyIntegratedPreviouslyReadPdfPages": 0,
   "sources": [
     {
       "id": "CFI",
@@ -55,7 +55,11 @@
         881,
         882,
         884,
-        885
+        885,
+        886,
+        887,
+        888,
+        889
       ],
       "visuallyCheckedPdfPages": [
         855,
@@ -88,7 +92,12 @@
         882,
         883,
         884,
-        885
+        885,
+        886,
+        887,
+        888,
+        889,
+        890
       ],
       "integratedPdfPages": [
         855,
@@ -114,15 +123,16 @@
         880,
         881,
         882,
-        884
+        884,
+        886
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
       "newlyReadTextPages": [
-        881,
-        882,
-        884,
-        885
+        886,
+        887,
+        888,
+        889
       ],
       "reusedPreviouslyReadPages": [
         855,
@@ -148,20 +158,28 @@
         877,
         878,
         879,
-        880
+        880,
+        881,
+        882,
+        884,
+        885
       ],
       "partiallyReadPdfPages": [
         860,
         875,
-        883
+        883,
+        890
       ],
       "readButNotIntegratedPdfPages": [
         868,
         871,
         876,
-        885
+        885,
+        887,
+        888,
+        889
       ],
-      "integrationScope": "Passaggi selezionati; letture e integrazioni precedenti preservate. Lotto881–885:881,882,884 raccordoPTH/teriparatide;883 esclusa e885 non integrata.",
+      "integrationScope": "Passaggi selezionati; letture e integrazioni precedenti preservate. Lotto881–885:881,882,884 raccordoPTH/teriparatide;883 esclusa e885 non integrata. Lotto886–890: solo886, raccordo qualitativo rischio/strategia confrontato conNOGG.",
       "substantiveExtractedTextReadPages": [
         857,
         858,
@@ -178,7 +196,8 @@
         879,
         880,
         881,
-        882
+        882,
+        886
       ],
       "imageTextReadPages": [
         855,
@@ -208,7 +227,11 @@
         881,
         882,
         884,
-        885
+        885,
+        886,
+        887,
+        888,
+        889
       ],
       "printedPageLabels": {
         "855": "853 di934",
@@ -241,9 +264,14 @@
         "882": "880 di934",
         "883": "881 di934",
         "884": "882 di934",
-        "885": "883 di934"
+        "885": "883 di934",
+        "886": "884 di934",
+        "887": "885 di934",
+        "888": "886 di934",
+        "889": "887 di934",
+        "890": "888 di934"
       },
-      "figureReviewLimit": "Limiti precedenti preservati.872–873 contengono zone coperte;875 tabella parzialmente coperta e testo solo parziale; nessuna ricostruzione dei contenuti nascosti. 877 schema condiviso conAPP340, valutato qualitativamente;878 copertinaEMA non lettura rapporto;879 schema sperimentale;880 riga senza intestazione, numeri esclusi. 882: residui individuali della sequenza peptidica non validati;883 intestazione destra tagliata, lettura parziale.884 tabella visibile letta, non intero articolo né validazione numerica.885 tabella storica letta ma non integrata."
+      "figureReviewLimit": "Limiti precedenti preservati.872–873 contengono zone coperte;875 tabella parzialmente coperta e testo solo parziale; nessuna ricostruzione dei contenuti nascosti. 877 schema condiviso conAPP340, valutato qualitativamente;878 copertinaEMA non lettura rapporto;879 schema sperimentale;880 riga senza intestazione, numeri esclusi. 882: residui individuali della sequenza peptidica non validati;883 intestazione destra tagliata, lettura parziale.884 tabella visibile letta, non intero articolo né validazione numerica.885 tabella storica letta ma non integrata. 886 algoritmo e testo visibili letti, non intero articoloJAMA.887–889 testi principali visibili completi, note non presenti; nessuna validazione di dosi, prezzi, percentuali o simboli.890tabella incompleta e parzialmente coperta: lettura parziale esclusa."
     },
     {
       "id": "KATZ",
@@ -304,7 +332,7 @@
         889,
         890
       ],
-      "integrationScope": "Passaggi selezionati; letture e integrazioni precedenti preservate. Lotto881–885:886–887 recettore, mediazioneRANKL e compartimenti; nessuna dose storica trasferita.",
+      "integrationScope": "Passaggi selezionati; letture e integrazioni precedenti preservate. Lotto881–885:886–887 recettore, mediazioneRANKL e compartimenti; nessuna dose storica trasferita. Lotto886–890:891, raccordo glucocorticoidi/formazione; nessuna prescrizione storica.",
       "substantiveExtractedTextReadPages": [
         884,
         885,
@@ -385,7 +413,7 @@
       "readButNotIntegratedPdfPages": [
         689
       ],
-      "integrationScope": "Passaggi selezionati; letture e integrazioni precedenti preservate. Lotto881–885:688 solo circuitoCaSR/PTH; OPG=RANK e calcitonina escluse.",
+      "integrationScope": "Passaggi selezionati; letture e integrazioni precedenti preservate. Lotto881–885:688 solo circuitoCaSR/PTH; OPG=RANK e calcitonina escluse. Lotto886–890:695, solo identità denosumab/RANKL.",
       "substantiveExtractedTextReadPages": [
         685,
         686,
@@ -420,25 +448,30 @@
         337,
         338,
         339,
-        340
+        340,
+        341
       ],
       "visuallyCheckedPdfPages": [
         336,
         337,
         338,
         339,
-        340
+        340,
+        341
       ],
       "integratedPdfPages": [
         336,
         337,
         338,
         339,
-        340
+        340,
+        341
       ],
       "allContentsRead": false,
       "sourceUnchanged": true,
-      "newlyReadTextPages": [],
+      "newlyReadTextPages": [
+        341
+      ],
       "reusedPreviouslyReadPages": [
         336,
         337,
@@ -448,21 +481,25 @@
       ],
       "partiallyReadPdfPages": [],
       "readButNotIntegratedPdfPages": [],
-      "integrationScope": "Passaggi selezionati; letture e integrazioni precedenti preservate. Lotto881–885:337 riletta per conflitto stronzio/PTH, passaggio erroneo escluso.",
+      "integrationScope": "Passaggi selezionati; letture e integrazioni precedenti preservate. Lotto881–885:337 riletta per conflitto stronzio/PTH, passaggio erroneo escluso. Lotto886–890:341, confronto critico tra bersaglio, via e strategia; esclusi denosumab analogoPTH, assenza di azione diretta delPTH sulle cellule ossee e generalizzazione della sequenza. Criteri di rimborso non verificati né trasferiti.",
       "substantiveExtractedTextReadPages": [
         336,
         337,
-        338
+        338,
+        341
       ],
-      "imageTextReadPages": [],
+      "imageTextReadPages": [
+        341
+      ],
       "printedPageLabels": {
         "336": "331; lezione pagina1 di9",
         "337": "332",
         "338": "333",
         "339": "334, pagina4 di9",
-        "340": "335, pagina5 di9"
+        "340": "335, pagina5 di9",
+        "341": "336, pagina6 di9"
       },
-      "figureReviewLimit": "339: pannelli condivisi conCFI871–872 riconosciuti; etichette minute non validate integralmente nella copia ridotta.340: figura romosozumab ispezionata ma fuori integrazione."
+      "figureReviewLimit": "339: pannelli condivisi conCFI871–872 riconosciuti; etichette minute non validate integralmente nella copia ridotta.340: figura romosozumab ispezionata ma fuori integrazione. 341 testo principale completo e figuraPTH ispezionata; intestazione destra della tabella tagliata. Dosi e tempi esclusi."
     },
     {
       "id": "FII-B",
@@ -516,13 +553,13 @@
     {
       "id": "NOGG6",
       "title": "NOGG2024 · Opzioni farmacologiche, sezione6",
-      "detail": "Consultazioni19 e21novembre2026. Nel lotto871–875: raccomandazioni7–9 e paragrafo denosumab, soprattutto cessazione e continuità. Ambito britannico; nessun calendario operativo trasferito. Non lettura dell’intera linea guida. Confronto21novembre2026: raccomandazione14 e paragrafi sullo stronzio, limiti del meccanismo e della DXA; ambito britannico. Lotto881–885: paragrafi introduttivi sugli anabolici e paragrafo teriparatide, soprattutto differenza tra esiti primari e prove aggregate sull’anca.",
+      "detail": "Consultazioni19 e21novembre2026. Nel lotto871–875: raccomandazioni7–9 e paragrafo denosumab, soprattutto cessazione e continuità. Ambito britannico; nessun calendario operativo trasferito. Non lettura dell’intera linea guida. Confronto21novembre2026: raccomandazione14 e paragrafi sullo stronzio, limiti del meccanismo e della DXA; ambito britannico. Lotto881–885: paragrafi introduttivi sugli anabolici e paragrafo teriparatide, soprattutto differenza tra esiti primari e prove aggregate sull’anca. Lotto886–890: passaggi sulla sequenza, cessazione e risposta dopo denosumab; nessun calendario operativo.",
       "url": "https://www.nogg.org.uk/full-guideline/section-6-pharmacological-treatment-options"
     },
     {
       "id": "NOGG7",
       "title": "NOGG2024 · Strategie e rischio, sezione7",
-      "detail": "Consultazione19novembre2026: durata e rivalutazione; nel lotto866–870 raccomandazioni9–11 e passaggi sui rischi orali e sul contesto oncologico. Ambito britannico; nessun calendario operativo trasferito.",
+      "detail": "Consultazione19novembre2026: durata e rivalutazione; nel lotto866–870 raccomandazioni9–11 e passaggi sui rischi orali e sul contesto oncologico. Ambito britannico; nessun calendario operativo trasferito. Consultazione21novembre2026: raccomandazione5 su aderenza e cause secondarie in caso di frattura durante trattamento.",
       "url": "https://www.nogg.org.uk/full-guideline/section-7-strategies-management-osteoporosis-and-fracture-risk"
     },
     {
@@ -608,91 +645,102 @@
       "title": "Studio sperimentale · Accoppiamento di PTH1R a Gq e Gs",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12002267/",
       "detail": "Allosteric mechanism in the distinctive coupling of Gq and Gs to the parathyroid hormone type1 receptor,2025. Letti i paragrafi introduttivi sulla trasduzione il21novembre2026; non intero studio né figure sperimentali. Usato solo per il raccordo recettoriale."
+    },
+    {
+      "id": "NOGG4",
+      "title": "NOGG2024 · Soglie e strategia, sezione4",
+      "url": "https://www.nogg.org.uk/full-guideline/section-4-intervention-thresholds-and-strategy",
+      "detail": "Consultazione21novembre2026: raccomandazioni iniziali e passaggi su rischio alto/molto alto, recenza delle fratture e FRAX. Ambito britannico; soglie non trasferite in Italia. Non lettura dell’intera linea guida."
+    },
+    {
+      "id": "DATA-SWITCH",
+      "title": "DATA-Switch · Sequenze di denosumab e teriparatide",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4620731/",
+      "detail": "Leder et al., Lancet2015, DOI10.1016/S0140-6736(15)61120-5. Consultati abstract e primi paragrafi della discussione il21novembre2026; non intero articolo né figure. Studio primario su densità minerale, non prova diretta sugli esiti di frattura."
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
-    "Lotto:4 nuovi testi principali completi(CFI881,882,884,885),4 riletture(KATZ886–887,RANG688,APP337),9 ispezioni. Cumulativo53 testi completi,56 pagine ispezionate,45 integrate;3 nuove pagine integrate e1 precedente integrata ora.",
-    "CFI860,875,883 parziali: escluse dalle letture complete e dall’integrazione.883 intestazione destra tagliata.882 residui minuti del peptide non validati. Limiti figurativi precedenti preservati nel registro delle fonti.",
-    "CFI884 tabellaJAMA2025 letta, non l’intero articolo: dosi e percentuali escluse; riga romosozumab con criterioUSA non trasferita inUE.885 tabellaNature2017 storica, letta non integrata; stato autorizzativo attuale non dedotto.",
-    "APP337 confonde stronzio e analogoPTH; RANG688 definisceOPG identica aRANK: esclusi entrambi i passaggi. La frecciaPTH-osso non equivale a un recettore osteoclastico diretto.",
-    "RCPForsteoUE eNOGGUK distinguono prove sull’anca e livelli di analisi. Conflitto documentale esplicitato senza revisione delle metanalisi originali. Nessuna dose o calendario terapeutico trasferito.",
-    "StudioPTH1R: letti i passaggi introduttivi sulla trasduzione, non metodi, risultati o figure completi. Nessuna efficacia clinica dedotta dai secondi messaggeri.",
-    "Libri e corsi consultati per intervalli. RANG690–691 eCFI886–890 non letti. FarmacologiaII e altri contributi ancora parzialmente riconciliati; localizzatori automatici non equivalgono a lettura.",
-    "Nessun PDF, trascrizione o figura delle fonti pubblicati. Nuove identità, sintesi di farmaci, profili e laboratori interattivi restano nel backlog."
+    "Lotto:5 nuovi testi principali completi(CFI886–889,APP341),2 riletture(KATZ891,RANG695),8 ispezioni. Cumulativo58 testi completi,62 pagine ispezionate,47 integrate;2 nuove pagine integrate.",
+    "CFI860,875,883,890 parziali ed escluse dalle letture complete e dall’integrazione.890tabella incompleta, copertura dell’intestazione e note mancanti. Limiti delle figure precedenti preservati.",
+    "CFI887–889 testi visibili letti ma non integrati: tabelle2019/2023, note mancanti, stato autorizzativo storico, prezzi e dosi non trasferiti. Nessuna lettura dei rispettivi articoli completi.",
+    "CFI886 algoritmoJAMA2025 riconciliato qualitativamente conNOGG; nessuna prosecuzione indefinita universale di denosumab, soglia o calendario prescrittivo trasferito.",
+    "APP341 contiene errori di classificazione di denosumab, azionePTH e sequenza obbligatoria: esclusi e riconciliati con i capitoli precedenti, libri e fonti ufficiali. CriteriAIFA riportati negli appunti non verificati né trasferiti.",
+    "DATA-Switch: abstract e primi paragrafi della discussione, non studio completo o figure; densità minerale distinta dagli esiti di frattura. Esempio percentuale nel testo puramente aritmetico, non dato di efficacia.",
+    "Libri e corsi letti per intervalli. RANG690–691 eCFI891–895 non letti; FarmacologiaII e altri contributi ancora parzialmente riconciliati.",
+    "Nessun PDF, trascrizione o figura originale pubblicati. Identità,sintesi di farmaci,profili e laboratori interattivi restano nel backlog."
   ],
   "deduplication": {
     "method": "Source SHA256 and explicit complete-read page records; inventories and extractions excluded.",
-    "recordsChecked": 191,
+    "recordsChecked": 193,
     "newPagesBeforeReading": {
       "CFI": [
-        881,
-        882,
-        883,
-        884,
-        885
+        886,
+        887,
+        888,
+        889,
+        890
+      ],
+      "APP": [
+        341
       ]
     },
     "sameImageNotIndependentEvidence": [
       "CFI877/APP340",
-      "TabelleCFI884/CFI874: confronto ripetuto, non prova indipendente"
+      "TabelleCFI887–889: contenuti storici e righe già riprodotte nel corso, non nuove prove indipendenti"
     ],
     "previousReadingPreserved": true
   },
   "newPartiallyReadPdfPages": 1,
-  "currentBatchRereadPages": 4,
-  "currentBatchVisualPages": 9,
+  "currentBatchRereadPages": 2,
+  "currentBatchVisualPages": 8,
   "currentBatchSourceReading": {
     "CFI": {
       "newTextRead": [
-        881,
-        882,
-        884,
-        885
+        886,
+        887,
+        888,
+        889
       ],
       "partial": [
-        883
+        890
       ],
       "visual": [
-        881,
-        882,
-        883,
-        884,
-        885
+        886,
+        887,
+        888,
+        889,
+        890
       ],
       "integrated": [
-        881,
-        882,
-        884
+        886
+      ]
+    },
+    "APP": {
+      "newTextRead": [
+        341
+      ],
+      "visual": [
+        341
+      ],
+      "integrated": [
+        341
       ]
     },
     "KATZ": {
       "reread": [
-        886,
-        887
+        891
       ],
       "visual": [
-        886,
-        887
+        891
       ]
     },
     "RANG": {
       "reread": [
-        688
+        695
       ],
       "visual": [
-        688
-      ],
-      "newlyIntegratedPreviouslyRead": [
-        688
-      ]
-    },
-    "APP": {
-      "reread": [
-        337
-      ],
-      "visual": [
-        337
+        695
       ]
     }
   }

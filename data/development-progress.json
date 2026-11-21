@@ -1,25 +1,24 @@
 {
-  "updatedAt": "2026-11-21T13:00:49.045299+00:00",
-  "batch": "theory-course-881-885",
+  "updatedAt": "2026-11-21T14:05:50.112598+00:00",
+  "batch": "theory-course-886-890",
   "status": "locally_verified_pending_publication",
-  "release": "0.113.0",
-  "branch": "feat/theory-course-881-885",
-  "baseCommit": "697bec052cd168485213bfd07832fa392f452a58",
+  "release": "0.114.0",
+  "branch": "feat/theory-course-886-890",
+  "baseCommit": "9c4d5ecc2efc5816a4eb76a376ded7d368744373",
   "previousBatch": {
-    "batch": "theory-course-876-880",
-    "release": "0.112.0",
-    "commit": "697bec052cd168485213bfd07832fa392f452a58",
+    "batch": "theory-course-881-885",
+    "release": "0.113.0",
+    "commit": "9c4d5ecc2efc5816a4eb76a376ded7d368744373",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Ampliamento osseo: PTH1R, mediazione cellulare e teriparatide fra calcemia ed esiti."
+    "Ampliamento osseo: rischio dinamico, beneficio assoluto e ordine dei trattamenti."
   ],
   "completed": [
-    "Lettura e confronto mirato:4 nuovi testi completi,1 parziale;4 riletture.",
-    "Due nuove sezioni originali,5 quesiti e2 schemi;21 sezioni precedenti preservate.",
-    "Revisione editoriale mirata completata dal solo integratore.",
-    "Superati51 validatori,8 configurazioni desktop/mobile,ricerca,collegamenti,tastiera e offline;8 immagini ispezionate.",
-    "Aggiornamento reale0.112.0→0.113.0 con preferiti,progressi e tema conservati.65 altri capitoli,21 sezioni e31 quesiti precedenti invariati;5 fonti inalterate."
+    "5 nuovi testi principali completi,1 parziale;2 riletture e8 ispezioni.",
+    "Due sezioni originali,5 quesiti e2 schemi;23 sezioni precedenti preservate.",
+    "Revisione editoriale mirata completata.",
+    "Superati51 validatori e8 configurazioni desktop/mobile,ricerche,collegamenti,tastiera e offline;8 immagini ispezionate. Aggiornamento reale0.113.0→0.114.0 con preferiti,progressi e tema conservati.65 altri capitoli,23 sezioni e36 quesiti precedenti invariati;5 fonti inalterate."
   ],
   "remaining": [
     "Commit,CI,deploy concluso e riscontro online."
@@ -56,16 +55,16 @@
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
-    "Lotto:4 nuovi testi principali completi(CFI881,882,884,885),4 riletture(KATZ886–887,RANG688,APP337),9 ispezioni. Cumulativo53 testi completi,56 pagine ispezionate,45 integrate;3 nuove pagine integrate e1 precedente integrata ora.",
-    "CFI860,875,883 parziali: escluse dalle letture complete e dall’integrazione.883 intestazione destra tagliata.882 residui minuti del peptide non validati. Limiti figurativi precedenti preservati nel registro delle fonti.",
-    "CFI884 tabellaJAMA2025 letta, non l’intero articolo: dosi e percentuali escluse; riga romosozumab con criterioUSA non trasferita inUE.885 tabellaNature2017 storica, letta non integrata; stato autorizzativo attuale non dedotto.",
-    "APP337 confonde stronzio e analogoPTH; RANG688 definisceOPG identica aRANK: esclusi entrambi i passaggi. La frecciaPTH-osso non equivale a un recettore osteoclastico diretto.",
-    "RCPForsteoUE eNOGGUK distinguono prove sull’anca e livelli di analisi. Conflitto documentale esplicitato senza revisione delle metanalisi originali. Nessuna dose o calendario terapeutico trasferito.",
-    "StudioPTH1R: letti i passaggi introduttivi sulla trasduzione, non metodi, risultati o figure completi. Nessuna efficacia clinica dedotta dai secondi messaggeri.",
-    "Libri e corsi consultati per intervalli. RANG690–691 eCFI886–890 non letti. FarmacologiaII e altri contributi ancora parzialmente riconciliati; localizzatori automatici non equivalgono a lettura.",
-    "Nessun PDF, trascrizione o figura delle fonti pubblicati. Nuove identità, sintesi di farmaci, profili e laboratori interattivi restano nel backlog."
+    "Lotto:5 nuovi testi principali completi(CFI886–889,APP341),2 riletture(KATZ891,RANG695),8 ispezioni. Cumulativo58 testi completi,62 pagine ispezionate,47 integrate;2 nuove pagine integrate.",
+    "CFI860,875,883,890 parziali ed escluse dalle letture complete e dall’integrazione.890tabella incompleta, copertura dell’intestazione e note mancanti. Limiti delle figure precedenti preservati.",
+    "CFI887–889 testi visibili letti ma non integrati: tabelle2019/2023, note mancanti, stato autorizzativo storico, prezzi e dosi non trasferiti. Nessuna lettura dei rispettivi articoli completi.",
+    "CFI886 algoritmoJAMA2025 riconciliato qualitativamente conNOGG; nessuna prosecuzione indefinita universale di denosumab, soglia o calendario prescrittivo trasferito.",
+    "APP341 contiene errori di classificazione di denosumab, azionePTH e sequenza obbligatoria: esclusi e riconciliati con i capitoli precedenti, libri e fonti ufficiali. CriteriAIFA riportati negli appunti non verificati né trasferiti.",
+    "DATA-Switch: abstract e primi paragrafi della discussione, non studio completo o figure; densità minerale distinta dagli esiti di frattura. Esempio percentuale nel testo puramente aritmetico, non dato di efficacia.",
+    "Libri e corsi letti per intervalli. RANG690–691 eCFI891–895 non letti; FarmacologiaII e altri contributi ancora parzialmente riconciliati.",
+    "Nessun PDF, trascrizione o figura originale pubblicati. Identità,sintesi di farmaci,profili e laboratori interattivi restano nel backlog."
   ],
-  "nextBatch": "Completare881–885;886–890 non iniziato.",
+  "nextBatch": "Completare886–890;891–895 non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",

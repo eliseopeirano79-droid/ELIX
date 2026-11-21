@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "chapterId": "rimodellamento-osseo-osteoporosi",
-  "batch": "theory-course-881-885",
-  "reviewedAt": "2026-11-21T12:53:52.102870+00:00",
+  "batch": "theory-course-886-890",
+  "reviewedAt": "2026-11-21T14:03:44.754303+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "8def9c0dca1eac970753d87ef79225d4f26311eef932aafc50cb7440c95df20f",
+  "moduleSha256": "2304f74991e1ce63d2989532b25dfd671ebcb84510d6a86ab4f6f39835ae8c18",
   "checks": [
-    "Due nuove sezioni e5 quesiti;21 sezioni e31 quesiti precedenti preservati.",
-    "DistintiCaSR,PTH1R,viaGs/Gq,calcio intracellulare e calcemia.",
-    "Distinti effetto diretto e reteRANKL; nessuna equivalenzaOPG=RANK.",
-    "Conteggi53testi/56ispezioni/45integrazioni;4 nuove letture complete.",
-    "RCPUE eNOGGUK: basi diverse per gli esiti dell’anca; revisione delle prove originali non svolta.",
-    "Revisione editoriale mirata completata: segnali distinti da esiti, nessuna dose, capitoli precedenti conservati; prove tecniche separate."
+    "Due sezioni,5 quesiti e2 schemi aggiunti;23 sezioni e36 quesiti preservati.",
+    "Rischio di frattura distinto da densità, rischio relativo distinto da beneficio assoluto.",
+    "Sequenza distinta da associazione;PTH1R distinto daRANKL.",
+    "Conteggi58testi/62ispezioni/47integrazioni;5 nuove letture complete.",
+    "DATA-Switch descritto entro popolazione ed esiti misurati; nessuna superiorità sulle fratture dedotta.",
+    "Revisione editoriale mirata completata: attribuzioni, limiti delle prove, esempio aritmetico e nessun calendario/dose; verifiche tecniche separate."
   ],
   "conflicts": [
     {
@@ -310,18 +310,48 @@
       "issue": "DatabaseIUPHAR: timeout e accesso con registrazione.",
       "resolution": "Nessuna lettura completa dichiarata; raccordoGs/Gq verificato nei paragrafi dello studio sperimentale accessibile.",
       "status": "alternative_source_used"
+    },
+    {
+      "id": "algorithm-886",
+      "issue": "Algoritmo riprodotto con prosecuzione indefinita di denosumab e soglie specifiche.",
+      "resolution": "Raccordo qualitativo conNOGG: piano individuale e rischio attuale,nessuna regola universale o dose.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "historic-tables-887-889",
+      "issue": "Tabelle2019/2023 con note mancanti,prezzi e stato autorizzativo storico.",
+      "resolution": "Testi principali letti non integrati; nessuna disponibilità o efficacia numerica dedotta.",
+      "status": "read_not_integrated"
+    },
+    {
+      "id": "incomplete-table-890",
+      "issue": "Tabella incompleta e sovrapposizione nell’intestazione.",
+      "resolution": "Lettura parziale esclusa; nessuna percentuale trasferita.",
+      "status": "unresolved_source_limit"
+    },
+    {
+      "id": "app341-target-sequence",
+      "issue": "Denosumab classificato analogoPTH;PTH senza bersaglio osseo diretto;antiriassorbitivo sempre iniziale.",
+      "resolution": "RANKL/PTH1R e segnale cellulare distinti; rischio molto alto e sequenza spiegati conNOGG eDATA-Switch. CriteriAIFA non verificati esclusi.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "sequence-endpoints",
+      "issue": "Risposta densitometrica scambiabile per efficacia sulle fratture.",
+      "resolution": "DATA-Switch eNOGG distinti per popolazione,sede,misura e limiti; nessuna equivalenza automatica.",
+      "status": "resolved_for_scope"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
-    "Lotto:4 nuovi testi principali completi(CFI881,882,884,885),4 riletture(KATZ886–887,RANG688,APP337),9 ispezioni. Cumulativo53 testi completi,56 pagine ispezionate,45 integrate;3 nuove pagine integrate e1 precedente integrata ora.",
-    "CFI860,875,883 parziali: escluse dalle letture complete e dall’integrazione.883 intestazione destra tagliata.882 residui minuti del peptide non validati. Limiti figurativi precedenti preservati nel registro delle fonti.",
-    "CFI884 tabellaJAMA2025 letta, non l’intero articolo: dosi e percentuali escluse; riga romosozumab con criterioUSA non trasferita inUE.885 tabellaNature2017 storica, letta non integrata; stato autorizzativo attuale non dedotto.",
-    "APP337 confonde stronzio e analogoPTH; RANG688 definisceOPG identica aRANK: esclusi entrambi i passaggi. La frecciaPTH-osso non equivale a un recettore osteoclastico diretto.",
-    "RCPForsteoUE eNOGGUK distinguono prove sull’anca e livelli di analisi. Conflitto documentale esplicitato senza revisione delle metanalisi originali. Nessuna dose o calendario terapeutico trasferito.",
-    "StudioPTH1R: letti i passaggi introduttivi sulla trasduzione, non metodi, risultati o figure completi. Nessuna efficacia clinica dedotta dai secondi messaggeri.",
-    "Libri e corsi consultati per intervalli. RANG690–691 eCFI886–890 non letti. FarmacologiaII e altri contributi ancora parzialmente riconciliati; localizzatori automatici non equivalgono a lettura.",
-    "Nessun PDF, trascrizione o figura delle fonti pubblicati. Nuove identità, sintesi di farmaci, profili e laboratori interattivi restano nel backlog."
+    "Lotto:5 nuovi testi principali completi(CFI886–889,APP341),2 riletture(KATZ891,RANG695),8 ispezioni. Cumulativo58 testi completi,62 pagine ispezionate,47 integrate;2 nuove pagine integrate.",
+    "CFI860,875,883,890 parziali ed escluse dalle letture complete e dall’integrazione.890tabella incompleta, copertura dell’intestazione e note mancanti. Limiti delle figure precedenti preservati.",
+    "CFI887–889 testi visibili letti ma non integrati: tabelle2019/2023, note mancanti, stato autorizzativo storico, prezzi e dosi non trasferiti. Nessuna lettura dei rispettivi articoli completi.",
+    "CFI886 algoritmoJAMA2025 riconciliato qualitativamente conNOGG; nessuna prosecuzione indefinita universale di denosumab, soglia o calendario prescrittivo trasferito.",
+    "APP341 contiene errori di classificazione di denosumab, azionePTH e sequenza obbligatoria: esclusi e riconciliati con i capitoli precedenti, libri e fonti ufficiali. CriteriAIFA riportati negli appunti non verificati né trasferiti.",
+    "DATA-Switch: abstract e primi paragrafi della discussione, non studio completo o figure; densità minerale distinta dagli esiti di frattura. Esempio percentuale nel testo puramente aritmetico, non dato di efficacia.",
+    "Libri e corsi letti per intervalli. RANG690–691 eCFI891–895 non letti; FarmacologiaII e altri contributi ancora parzialmente riconciliati.",
+    "Nessun PDF, trascrizione o figura originale pubblicati. Identità,sintesi di farmaci,profili e laboratori interattivi restano nel backlog."
   ],
-  "updatedAt": "2026-11-21T12:53:52.102870+00:00"
+  "updatedAt": "2026-11-21T14:02:37.215250+00:00"
 }
