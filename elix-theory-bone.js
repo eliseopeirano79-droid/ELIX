@@ -215,6 +215,33 @@ export const THEORY_BONE = {
       "formula": "Nessun aggiustamento renale della dose ≠ assenza di rischio nella malattia renale. Esposizione al farmaco e capacità di mantenere la calcemia sono variabili distinte."
     },
     {
+      "id": "romosozumab-sclerostina-wnt",
+      "title": "Sclerostina e Wnt: liberare un segnale di formazione",
+      "refs": [
+        "CFI",
+        "APP",
+        "KATZ",
+        "EMA-EVENITY-RCP",
+        "NOGG6"
+      ],
+      "text": "L’osteocita non è soltanto una cellula rimasta intrappolata nella matrice: partecipa alla regolazione delle cellule che ne costruiscono di nuova. La sclerostina che produce agisce all’esterno delle cellule e limita il segnale Wnt. Nello schema del corso il punto di controllo è il complesso recettoriale della linea osteoblastica: Wnt coopera con Frizzled e con i corecettori LRP5/6, mentre la sclerostina ostacola questa comunicazione attraverso LRP5/6. Sono quindi distinguibili la cellula che invia il freno, la proteina extracellulare e l’apparato che riceve il segnale formativo.\n\nRomosozumab lega la sclerostina. Non sostituisce Wnt, non è un agonista di Frizzled e non va rappresentato come un anticorpo che occupa RANK. Neutralizzare un regolatore negativo permette al segnale di formazione di operare con minore inibizione. L’esempio chiarisce un principio farmacologico generale: un farmaco può aumentare una funzione senza attivare direttamente il recettore che la sostiene. Il segno dell’effetto finale dipende anche dal segno della funzione bloccata.\n\nLa risposta del tessuto coinvolge reclutamento di precursori, attività delle cellule osteoblastiche e produzione di matrice. Alla maggiore formazione si accompagna una riduzione del riassorbimento, mediata da cambiamenti nei segnali che raggiungono la linea osteoclastica. Parlare di doppio effetto descrive due versanti della risposta; non dimostra che l’anticorpo possieda due bersagli indipendenti. Per la stessa ragione, definire la sclerostina semplicemente come una sostanza che distrugge l’osso nasconde il passaggio attraverso la regolazione della formazione.\n\nI marcatori aiutano a seguire la dinamica: P1NP informa sulla formazione di collagene di tipo I, mentre CTX ne riflette la degradazione associata al riassorbimento. Nei dati farmacodinamici di Evenity l’aumento iniziale di P1NP si attenua nel corso del trattamento, mentre CTX rimane ridotto rispetto al placebo. La neutralizzazione del bersaglio non implica dunque un incremento formativo costante nel tempo. Due frecce in un diagramma indicano una direzione, non la durata né l’entità del beneficio.\n\nIl raccordo con l’osteoporosi richiede infine di distinguere risposta cellulare, marcatori, densità e fratture. Nessuno di questi livelli può essere sostituito automaticamente da quello precedente. Il confronto con teriparatide è istruttivo: entrambi possono favorire la formazione, ma agiscono su controlli differenti e non producono una firma identica sul rimodellamento. Anche la scelta della sequenza terapeutica e la valutazione dei rischi restano questioni cliniche ulteriori, già distinte dal meccanismo nelle sezioni precedenti.",
+      "formula": "Osteocita → sclerostina ⊣ segnale Wnt–Frizzled/LRP5/6 → formazione. Romosozumab ⊣ sclerostina. Schema qualitativo: nessuna misura di efficacia o durata."
+    },
+    {
+      "id": "stronzio-minerale-e-dxa",
+      "title": "Stronzio e densitometria: quando cambia anche il materiale misurato",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "RANG",
+        "EMA-OSSEOR-RCP",
+        "EMA-OSSEOR",
+        "NOGG6"
+      ],
+      "text": "Il ranelato di stronzio offre un esempio utile per separare azione sulle cellule e distribuzione nel minerale. Le fonti didattiche descrivono effetti favorevoli alla formazione e sfavorevoli al riassorbimento. Rang collega inoltre lo stronzio ai sensori del calcio e alla produzione di osteoprotegerina: è un raccordo proposto fra riconoscimento dello ione, differenziamento osteoblastico e comunicazione con gli osteoclasti. Il meccanismo complessivo rimane però incompletamente chiarito; questa sequenza non va presentata come una spiegazione unica e definitivamente dimostrata nell’uomo.\n\nIl RCP storico di Osseor colloca gli effetti su precursori osteoblastici, sintesi di collagene e differenziamento osteoclastico nel contesto degli esperimenti in vitro. Questa precisazione cambia la lettura delle frecce: una risposta osservata in coltura non descrive da sola il contributo relativo di ogni processo nel paziente. Il termine doppia azione, presente anche per romosozumab, non rende equivalenti né il grado di definizione del bersaglio né le prove che collegano il bersaglio agli esiti.\n\nLo stronzio raggiunge anche la componente minerale. Può associarsi alla superficie dei cristalli e sostituire in parte il calcio nell’apatite; il documento di Osseor distingue la prevalente adsorzione dalla sostituzione più limitata. Questo è un fenomeno diverso dal legame di un anticorpo a una proteina. È anche diverso dall’affinità dei bisfosfonati per il minerale: condividere una destinazione non significa condividere struttura chimica, bersaglio intracellulare o conseguenze sulla misura.\n\nLa DXA stima la densità minerale attraverso l’attenuazione dei raggi X. Lo stronzio attenua più del calcio: quando entra nel tessuto, una parte dell’aumento misurato può dipendere dalla composizione del materiale, oltre che dai cambiamenti biologici dell’osso. La lettura del risultato deve quindi tenere conto della storia di esposizione. Una variazione densitometrica non può essere interpretata integralmente come nuova matrice prodotta; l’interferenza può inoltre persistere dopo l’interruzione, mentre lo stronzio rimane nel tessuto.\n\nQuesto limite della misura non annulla automaticamente eventuali risultati degli studi sulle fratture: impone di giudicare separatamente l’esito clinico e il suo indicatore strumentale. Non consente neppure di ricavare una correzione individuale della DXA da uno schema generale. Sul piano dell’impiego attuale, il ritiro europeo di Osseor e il posto ancora circoscritto attribuito allo stronzio dalla linea guida britannica vanno mantenuti distinti. NOGG richiama rischi cardiovascolari e tromboembolici e un bilancio specialistico; il caso resta qui un approfondimento farmacologico e metrologico, non una proposta terapeutica né una verifica della disponibilità italiana.",
+      "formula": "Stronzio nell’osso → cambiamento della composizione + possibili effetti biologici. DXA → attenuazione dei raggi X. Aumento della misura ≠ aumento equivalente della matrice né prova autonoma di riduzione delle fratture."
+    },
+    {
       "id": "durata-sequenza-e-rischio",
       "title": "Durata e sequenza: la terapia modifica un sistema che continua a cambiare",
       "refs": [
@@ -343,28 +370,48 @@ export const THEORY_BONE = {
     {
       "question": "Una casella vuota in una tabella di tossicità esclude un evento avverso?",
       "answer": "No. La tabella è una sintesi; l’assenza di un segno non sostituisce le informazioni aggiornate del prodotto e il contesto clinico."
+    },
+    {
+      "question": "Perché neutralizzare la sclerostina può favorire la formazione senza essere un agonismo diretto del recettore Wnt?",
+      "answer": "La sclerostina limita il segnale attraverso LRP5/6. Romosozumab rimuove questo freno extracellulare; non sostituisce Wnt né attiva direttamente Frizzled."
+    },
+    {
+      "question": "Doppio effetto di romosozumab significa due bersagli molecolari indipendenti?",
+      "answer": "No. Il bersaglio è la sclerostina; formazione e riassorbimento descrivono i due versanti della risposta della rete cellulare."
+    },
+    {
+      "question": "P1NP e CTX possono sostituire la valutazione delle fratture?",
+      "answer": "No. Descrivono aspetti del turnover e la loro dinamica; non misurano direttamente il beneficio clinico né ne stabiliscono da soli durata ed entità."
+    },
+    {
+      "question": "Perché lo stronzio può aumentare la densità misurata dalla DXA senza un aumento equivalente della matrice?",
+      "answer": "La DXA dipende dall’attenuazione dei raggi X. Lo stronzio incorporato nel tessuto modifica la composizione e attenua più del calcio, aggiungendo una componente strumentale alla variazione biologica."
+    },
+    {
+      "question": "L’interferenza dello stronzio sulla DXA rende automaticamente nulli gli studi sulle fratture?",
+      "answer": "No. La misura densitometrica e l’esito clinico sono livelli distinti: occorre valutarli separatamente, senza dedurre né efficacia né inefficacia dal solo artefatto."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF855–875, etichette853–873. Nuovi testi principali completi871–874;875 parziale per sovrapposizioni. Selezionati872–874;871 esclusa.860 resta parziale. Figure872–873 con zone coperte, non validate integralmente."
+      "detail": "PDF855–880, etichette853–878. Nel lotto876–880 cinque testi principali completi; integrati877–880 e876esclusa.860 e875 restano parziali. Figure872–873 con zone coperte;877condivisa conAPP340. Numeri della riga880 senza intestazione esclusi."
     },
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I · 2025–26",
-      "detail": "Lezione20 del3dicembre2025: PDF336–340, stampate331–335.339–340 rilette;340 ora integrata solo per il raccordo anti-RANKL. Pannelli condivisi conCFI871–872: confronto dipendente, non prova indipendente."
+      "detail": "Lezione20 del3dicembre2025: PDF336–340, stampate331–335. Nel lotto876–880 riletta340(stampa335,lezione5di9) per sclerostina. Pannelli condivisi conCFI871–872 e877: confronto dipendente. Vie e cadenze contraddittorie escluse."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX italiana2014 / XII originale2012. PDF884–893, editoriali864–873.892 riletta per RANKL e persistenza dei bisfosfonati; nessuna nuova pagina. Indicazioni e sicurezza storiche non trasferite automaticamente."
+      "detail": "IX italiana2014 / XII originale2012. PDF884–893, editoriali864–873. Nel lotto876–880 riletta893 per sclerostina e stronzio; anti-sclerostina ancora sperimentale nell’edizione storica. Indicazioni e sicurezza non trasferite automaticamente."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII italiana2016 / originale2015. PDF685–689 e692–694 già letti;694 riletta come contesto, senza nuova integrazione.690–691 non lette; numerazione editoriale non visibile. Limiti precedenti preservati."
+      "detail": "VIII italiana2016 / originale2015. Testi principali letti:PDF685–689 e692–695;690–691 non lette. Nel lotto876–880 riletta694 e letta695: integrato selettivamente lo stronzio. Numerazione editoriale non visibile; limiti precedenti preservati."
     },
     {
       "id": "ODS",
@@ -381,7 +428,7 @@ export const THEORY_BONE = {
     {
       "id": "NOGG6",
       "title": "NOGG2024 · Opzioni farmacologiche, sezione6",
-      "detail": "Consultazioni19 e21novembre2026. Nel lotto871–875: raccomandazioni7–9 e paragrafo denosumab, soprattutto cessazione e continuità. Ambito britannico; nessun calendario operativo trasferito. Non lettura dell’intera linea guida.",
+      "detail": "Consultazioni19 e21novembre2026. Nel lotto871–875: raccomandazioni7–9 e paragrafo denosumab, soprattutto cessazione e continuità. Ambito britannico; nessun calendario operativo trasferito. Non lettura dell’intera linea guida. Confronto21novembre2026: raccomandazione14 e paragrafi sullo stronzio, limiti del meccanismo e della DXA; ambito britannico.",
       "url": "https://www.nogg.org.uk/full-guideline/section-6-pharmacological-treatment-options"
     },
     {
@@ -454,6 +501,18 @@ export const THEORY_BONE = {
       "title": "FDA · Denosumab e ipocalcemia nella malattia renale avanzata",
       "detail": "Comunicazione19gennaio2024 consultata21novembre2026: passaggi su rischio, valutazione e monitoraggio. Ambito statunitense; usata per sicurezza, non per identificare il bersaglio.",
       "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-adds-boxed-warning-increased-risk-severe-hypocalcemia-patients-advanced-chronic-kidney-disease"
+    },
+    {
+      "id": "EMA-EVENITY-RCP",
+      "title": "EMA · Evenity, informazioni del prodotto",
+      "detail": "Consultazione21novembre2026: passaggi selezionati §§4.1–4.4 e5.1 su bersaglio, risposta e marcatori. Il file corrente reca la dicitura Draft; nessuna lettura integrale né trasferimento di dosi o percentuali. Ambito europeo.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/evenity-epar-product-information_en.pdf"
+    },
+    {
+      "id": "EMA-OSSEOR-RCP",
+      "title": "EMA · Osseor, informazioni storiche del prodotto",
+      "detail": "RCP del prodotto non più autorizzato, aggiornamento7dicembre2018. Consultazione21novembre2026 limitata a§5.1: esperimenti in vitro, adsorzione/sostituzione nel minerale e interpretazione DXA. Non usato come prescrizione attuale.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/osseor-epar-product-information_en.pdf"
     }
   ],
   "moleculeLinks": [
@@ -513,6 +572,6 @@ export const THEORY_BONE = {
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-21",
   "readingManifest": "./data/rimodellamento-osseo-osteoporosi-reading.json",
-  "coverage": "4 nuove pagine di testo principale complete e1 nuova parziale;4 pagine precedenti rilette. Cumulativo:43 testi completi,45 pagine ispezionate e36 con passaggi integrati. Limiti delle figure e dei confronti clinici dichiarati; nessuna revisione clinica indipendente.",
-  "wordCount": 4805
+  "coverage": "6 nuove pagine di testo principale complete;3 pagine precedenti rilette. Cumulativo:49 testi completi,51 pagine ispezionate e41 con passaggi integrati. Limiti delle figure e dei confronti clinici dichiarati; nessuna revisione clinica indipendente.",
+  "wordCount": 5561
 };

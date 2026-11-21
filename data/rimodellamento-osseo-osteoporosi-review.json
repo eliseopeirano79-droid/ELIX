@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "chapterId": "rimodellamento-osseo-osteoporosi",
-  "batch": "theory-course-871-875",
-  "reviewedAt": "2026-11-21T10:21:37.735094+00:00",
+  "batch": "theory-course-876-880",
+  "reviewedAt": "2026-11-21T11:45:47.341536+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "7fb350c17d30ee1f5f8040fbf20d69e646d13372c38e1863cc249b04b1ce992d",
+  "moduleSha256": "e7ce6bab29a461e8d6fa94a24afa1ba7ed46934d84cb4d054e18a7a93a749d8a",
   "checks": [
-    "Due nuove sezioni,5 quesiti e2 schemi originali;17 sezioni e21 quesiti precedenti preservati.",
-    "Distinti RANKL,RANK,OPG e FPPS; natura umanaIgG2 secondo RCP.",
-    "Distinti eliminazione, vulnerabilità minerale e continuità della terapia; nessuna istruzione posologica.",
-    "Conteggi43 testi/45 ispezioni/36 integrazioni;4 nuove letture complete e1parziale.",
-    "Revisione editoriale mirata: raccordi fisiologici distinti da raccomandazioni, assenza di dosi e affermazioni universali; prove tecniche registrate separatamente."
+    "Due nuove sezioni e5 quesiti;19 sezioni e26 quesiti precedenti preservati.",
+    "Distinti bersaglio extracellulare, recettore e risposta della rete; nessun doppio bersaglio dedotto.",
+    "Distinti meccanismo proposto, effetti in vitro, DXA ed esiti clinici.",
+    "Conteggi49 testi/51ispezioni/41integrazioni;6 nuove letture complete.",
+    "Revisione editoriale mirata completata: fonti e livelli di evidenza distinti, assenza di dosi o causalità non dimostrate; prove tecniche registrate separatamente."
   ],
   "conflicts": [
     {
@@ -243,19 +243,55 @@
       "issue": "CFI874 tabella storica e875 riga ripetuta.",
       "resolution": "Solo confronto qualitativo874, riconciliato con fonti attuali; nessuna scala numerica o intero articolo dichiarato letto.",
       "status": "deduplicated"
+    },
+    {
+      "id": "romosozumab-shared-wnt",
+      "issue": "CFI877/APP340 pannello identico; sclerostina descritta come litica.",
+      "resolution": "Schema deduplicato; spiegato freno della formazione, senza agonismo diretto osteoclastico.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "romosozumab-calendar-history",
+      "issue": "APP340 cadenze discordanti; CFI877 notizia2016;878 numero di iniezioni.",
+      "resolution": "Distinti cronologia e somministrazione; confronto RCP4.2 senza pubblicazione del calendario.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "strontium-evidence-level",
+      "issue": "CFI879 e libri semplificano doppia azione; RANG695 propone CaSR/OPG e spiegazione cardiovascolare.",
+      "resolution": "Meccanismo non completamente chiarito; effetti in vitro separati. Escluse causalità cardiovascolare unica e rassicurazione generale.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "strontium-dxa",
+      "issue": "CFI880 distribuzione nel minerale e tabella senza intestazione.",
+      "resolution": "Riconciliata prevalente adsorzione/limitata sostituzione con RCP storico; distinto artefattoDXA dagli esiti. Numeri esclusi.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "strontium-missing-header",
+      "issue": "CFI880 riga60[R] senza intestazione.",
+      "resolution": "Letto il contenuto visibile ma significato non inferito. Nessun numero trasferito.",
+      "status": "unresolved_source_limit"
+    },
+    {
+      "id": "biosimilar-876",
+      "issue": "CFI876 marchi biosimilari nella notizia2025.",
+      "resolution": "Pagina letta non integrata; nuove identità rimangono nel backlog.",
+      "status": "read_not_integrated"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
-    "Lotto:4 nuovi testi principali completi,1 nuova pagina parziale,4 pagine precedenti rilette;9 ispezioni. Cumulativo43 testi completi,45 pagine ispezionate,36 integrate. Nuove integrazioni:3 nuove pagine e1 precedente.",
-    "CFI860 e875 parziali ed escluse dalle letture complete e dall’integrazione. Zone coperte nelle figure872–873 non validate. Restano i limiti di CFI870, APP339 e FII-B54; fotografieCFI867 non diagnosticate.",
-    "CFI871 non integrata;874 tabella JAMA2019 selezionata solo qualitativamente, non articolo completo.875 ripete la riga denosumab874. Nessuna dose,soglia o calendario riprodotto.",
-    "APP340 ora integrata selettivamente; esclusi endovena, rassicurazione renale generale, spiegazione semplicistica ONJ e cadenze contraddittorie romosozumab.",
-    "Libri e corsi consultati per intervalli, non letti integralmente. RANG690–691 eCFI876–880 non letti. RANG694 riletta senza nuova integrazione.",
-    "Nessun PDF, trascrizione o figura della fonte pubblicati. Pannelli condivisi non considerati conferme indipendenti.",
-    "Fonti ufficiali consultate solo nei passaggi registrati, con ambito europeo, britannico o statunitense distinto. Nessun RCP italiano completo o disponibilità locale verificati.",
-    "FarmacologiaII e altri contributi restano parzialmente riconciliati; i precedenti localizzatori automatici non equivalgono a lettura di interi corsi.",
-    "Profili dei farmaci, interazioni complete, cause secondarie e laboratorio interattivo restano nel backlog. Limiti precedenti di Evenity, Bonviva e Faslodex preservati."
+    "Lotto:6 nuovi testi principali completi(CFI876–880 eRANG695),3 riletture(APP340,KATZ893,RANG694),9 ispezioni. Cumulativo49 testi completi,51 pagine ispezionate,41 integrate;5 nuove pagine integrate.",
+    "CFI860 e875 restano parziali ed escluse dalle letture complete e dall’integrazione. Restano i limiti delle figureCFI870,872–873,APP339 eFII-B54 e delle fotografieCFI867.",
+    "CFI876 letto ma non integrato: nuove identità e marchi nel backlog, stato regolatorio non verificato. CFI877 articolo2016 non equivale ad autorizzazione attuale;878 copertinaEMA2020 non equivale a lettura del rapporto.",
+    "CFI877 eAPP340 condividono il pannello Wnt: nessuna conferma indipendente o figura ripubblicata. CFI880 riga60[R] priva di intestazione: significato non inferito, dati numerici non trasferiti.",
+    "APP340 contiene intervalli romosozumab discordanti; distinti somministrazione e numero di iniezioni secondo RCP, senza calendari operativi. Esclusi endovena, rassicurazione renale generale e spiegazione semplicistica ONJ.",
+    "RANG695 letto nel testo completo; integrato solo lo stronzio. CaSR/OPG presentati come raccordo proposto; esclusa causalità cardiovascolare unica da blocco dei canaliK e rassicurazione generale ben tollerato.",
+    "EMAEvenity: letti i soli passaggi registrati, file corrente con dicituraDraft. OsseorRCP storico e ritiro commercialeEU distinti da linea guidaUK; nessun RCP italiano completo o disponibilità locale verificati.",
+    "Libri e corsi consultati per intervalli, non integralmente. RANG690–691 eCFI881–885 non letti. FarmacologiaII e altri contributi ancora parzialmente riconciliati; localizzatori automatici non equivalgono a lettura.",
+    "Nessun PDF, trascrizione o figura delle fonti pubblicati. Dosi, percentuali e correzioni individualiDXA escluse; profili, interazioni complete, cause secondarie e laboratorio interattivo restano nel backlog."
   ],
-  "updatedAt": "2026-11-21T10:21:37.735094+00:00"
+  "updatedAt": "2026-11-21T11:45:47.341536+00:00"
 }
