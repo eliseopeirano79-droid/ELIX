@@ -1,4 +1,4 @@
-export const THEORY_BONE = Object.freeze({
+export const THEORY_BONE = {
   "id": "rimodellamento-osseo-osteoporosi",
   "volume": 10,
   "title": "Rimodellamento osseo e osteoporosi",
@@ -189,6 +189,32 @@ export const THEORY_BONE = Object.freeze({
       "formula": "Denosumab → RANKL → riduzione dell’attività osteoclastica. Romosozumab → sclerostina → aumento della formazione e riduzione del riassorbimento."
     },
     {
+      "id": "denosumab-segnale-e-persistenza",
+      "title": "Denosumab: neutralizzare un ligando cambia il tempo dell’inibizione",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "APP",
+        "EMA-PROLIA-RCP",
+        "NOGG6"
+      ],
+      "text": "Per capire denosumab conviene seguire il segnale dall’esterno della cellula. RANKL rende possibile l’attivazione di RANK sulla linea osteoclastica; intercettare il ligando riduce quindi lo stimolo che sostiene la formazione, la funzione e la sopravvivenza degli osteoclasti. L’anticorpo non deve entrare nella cellula per inibire un enzima della via del mevalonato. Il confronto con i bisfosfonati azotati riguarda proprio questo passaggio: una stessa direzione del bilancio, meno riassorbimento, può essere ottenuta intervenendo prima del recettore oppure su processi intracellulari dell’osteoclasto.\n\nL’osteoprotegerina aiuta a comprendere il principio dell’intercettazione, ma non va identificata con il farmaco. È un regolatore endogeno della disponibilità di RANKL; denosumab è invece un anticorpo umano IgG2 diretto contro quel ligando. La somiglianza funzionale non implica identità molecolare. Inoltre, parlare di dialogo fra cellule non significa che l’anticorpo ricostruisca una comunicazione fisiologica completa: blocca uno specifico segnale. L’osteoporosi non si riduce a un unico messaggio troppo intenso e il miglioramento del bilancio dipende dal sistema sul quale si interviene.\n\nAnche il tempo va collegato al meccanismo. Nel caso del bisfosfonato una parte dell’esposizione è legata alla permanenza nel minerale; per denosumab il punto decisivo è la disponibilità dell’anticorpo a neutralizzare il ligando. La distanza fra somministrazioni non dimostra, da sola, la presenza di un deposito osseo. Occorre distinguere durata dell’esposizione, durata dell’effetto cellulare e persistenza del beneficio: sono tre domande diverse, anche quando il trattamento aumenta la densità minerale.\n\nNOGG descrive dopo la cessazione di denosumab una rapida perdita di densità e una ripresa del turnover, che può superare il livello precedente al trattamento, con rischio di fratture vertebrali multiple. Per questo richiede un piano di continuità e di eventuale terapia successiva. Il termine rebound descrive questa dinamica, non una dipendenza del paziente dal farmaco. La persistenza dei bisfosfonati e la reversibilità del blocco del ligando spiegano perché una strategia d’interruzione non possa essere trasferita automaticamente fra le due classi; non definiscono da sole quando o come cambiare trattamento.",
+      "formula": "Ligando disponibile → attivazione di RANK → risposta osteoclastica. Neutralizzazione del ligando → riduzione dello stimolo; la continuità dell’effetto dipende dall’esposizione."
+    },
+    {
+      "id": "denosumab-rene-e-calcio",
+      "title": "Rene e calcio: distinguere eliminazione del farmaco e vulnerabilità del paziente",
+      "refs": [
+        "CFI",
+        "APP",
+        "KATZ",
+        "EMA-PROLIA-RCP",
+        "FDA-PROLIA-CKD"
+      ],
+      "text": "Dire che un farmaco non richiede un aggiustamento della dose per la funzione renale risponde a una domanda limitata: come varia l’esposizione al farmaco? Non risponde automaticamente alla domanda più ampia: che cosa può accadere quando quel farmaco modifica un organismo con malattia renale? È la distinzione fra farmacocinetica e contesto farmacodinamico. Un confronto basato soltanto sulla via di eliminazione può quindi essere corretto nel primo ambito e fuorviante nel secondo.\n\nIl RCP europeo descrive per denosumab una degradazione attesa attraverso le vie delle immunoglobuline, fino a peptidi e amminoacidi, e non richiede un aggiustamento della dose nell’insufficienza renale. Allo stesso tempo richiama il rischio di ipocalcemia, particolarmente rilevante nell’insufficienza renale severa e in dialisi. Queste due informazioni sono compatibili: la diversa gestione della molecola non elimina la vulnerabilità dell’omeostasi minerale.\n\nL’osso partecipa allo scambio di calcio con il compartimento extracellulare. Ridurre il riassorbimento modifica una delle vie attraverso cui il minerale può essere mobilizzato; intestino, rene, vitamina D e PTH contribuiscono alla risposta complessiva. Questa rete, già descritta nel capitolo, permette di leggere la calcemia come risultato di flussi e regolazioni, non come semplice misura del calcio immagazzinato nello scheletro. È un raccordo fisiologico: non consente di prevedere quantitativamente la risposta del singolo paziente dal solo bersaglio farmacologico.\n\nLa comunicazione FDA del gennaio 2024 evidenzia ipocalcemia grave nella malattia renale cronica avanzata, soprattutto in dialisi e in presenza delle alterazioni minerali e ossee associate alla malattia renale, indicate come CKD-MBD. Richiama valutazione della funzione renale, del calcio e del quadro minerale, competenza clinica specifica e monitoraggio. Il messaggio didattico è che il rene rimane centrale nella selezione e nella sorveglianza, anche quando non determina un aggiustamento posologico.\n\nLa stessa cautela serve per leggere una tabella comparativa di tossicità. Una casella vuota non dimostra che un evento sia impossibile: il RCP riporta anche dolore muscoloscheletrico, oltre ai rischi ossei già discussi. Le differenze fra classi aiutano a organizzare il ragionamento, ma non sostituiscono la valutazione dei singoli eventi e delle condizioni del paziente.",
+      "formula": "Nessun aggiustamento renale della dose ≠ assenza di rischio nella malattia renale. Esposizione al farmaco e capacità di mantenere la calcemia sono variabili distinte."
+    },
+    {
       "id": "durata-sequenza-e-rischio",
       "title": "Durata e sequenza: la terapia modifica un sistema che continua a cambiare",
       "refs": [
@@ -297,28 +323,48 @@ export const THEORY_BONE = Object.freeze({
     {
       "question": "Un effetto favorevole sui lipidi dimostra protezione cardiovascolare?",
       "answer": "No. Il cambiamento di un parametro intermedio va distinto dagli eventi clinici; con raloxifene restano rilevanti rischio tromboembolico e specifiche avvertenze vascolari."
+    },
+    {
+      "question": "Perché intercettare RANKL non equivale a inibire la FPPS?",
+      "answer": "Il primo intervento neutralizza un segnale extracellulare prima dell’attivazione di RANK; il secondo riguarda una via intracellulare dell’osteoclasto. Entrambi possono ridurre il riassorbimento con meccanismi e persistenza differenti."
+    },
+    {
+      "question": "Una somministrazione distanziata dimostra un deposito nel minerale?",
+      "answer": "No. L’intervallo non identifica il meccanismo della persistenza; per distinguere i farmaci occorre considerare distribuzione, disponibilità al bersaglio e reversibilità della risposta."
+    },
+    {
+      "question": "Come si conciliano assenza di aggiustamento renale e rischio di ipocalcemia?",
+      "answer": "La prima riguarda la gestione dell’esposizione al farmaco; il secondo dipende anche dalla vulnerabilità dell’omeostasi minerale, che può essere maggiore nella malattia renale avanzata."
+    },
+    {
+      "question": "Che cosa descrive il rebound dopo cessazione di denosumab?",
+      "answer": "La ripresa del turnover, che può superare il livello precedente, accompagnata da perdita ossea e rischio vertebrale. È una dinamica della risposta che richiede pianificazione clinica, non una dipendenza."
+    },
+    {
+      "question": "Una casella vuota in una tabella di tossicità esclude un evento avverso?",
+      "answer": "No. La tabella è una sintesi; l’assenza di un segno non sostituisce le informazioni aggiornate del prodotto e il contesto clinico."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF855–870, etichette853–868. Nuove letture866–870, compreso il testo nelle immagini;868 contiene una tabella storica JAMA2019, letta ma non integrata.860 resta parziale ed esclusa. Diagrammi e fotografie ispezionati, non riprodotti."
+      "detail": "PDF855–875, etichette853–873. Nuovi testi principali completi871–874;875 parziale per sovrapposizioni. Selezionati872–874;871 esclusa.860 resta parziale. Figure872–873 con zone coperte, non validate integralmente."
     },
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I · 2025–26",
-      "detail": "Lezione20 del3dicembre2025: PDF336–340, stampate331–335, pagine1–5 della lezione.339–340 nuove letture; solo passaggi339 integrati nel lotto. Note di anno precedente senza attribuzione autonoma; figure minute non verificate integralmente."
+      "detail": "Lezione20 del3dicembre2025: PDF336–340, stampate331–335.339–340 rilette;340 ora integrata solo per il raccordo anti-RANKL. Pannelli condivisi conCFI871–872: confronto dipendente, non prova indipendente."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX italiana2014 / XII originale2012. PDF884–893, editoriali864–873.893 nuova lettura,892 riletta senza nuova copertura. Solo passaggi selezionati; dati clinici storici non trasferiti automaticamente."
+      "detail": "IX italiana2014 / XII originale2012. PDF884–893, editoriali864–873.892 riletta per RANKL e persistenza dei bisfosfonati; nessuna nuova pagina. Indicazioni e sicurezza storiche non trasferite automaticamente."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII italiana2016 / originale2015. PDF685–689 e692–694 già letti;694 riletta e ora integrata limitatamente a SERM e farmacocinetica qualitativa.690–691 non lette; numerazione editoriale non visibile. Generalizzazioni e metabolita attivo esclusi."
+      "detail": "VIII italiana2016 / originale2015. PDF685–689 e692–694 già letti;694 riletta come contesto, senza nuova integrazione.690–691 non lette; numerazione editoriale non visibile. Limiti precedenti preservati."
     },
     {
       "id": "ODS",
@@ -335,7 +381,7 @@ export const THEORY_BONE = Object.freeze({
     {
       "id": "NOGG6",
       "title": "NOGG2024 · Opzioni farmacologiche, sezione6",
-      "detail": "Versione ufficiale consultata19novembre2026. Passaggi precedenti preservati; nel lotto866–870 sezione raloxifene ed esiti vertebrali/non vertebrali. Ambito britannico, non intera linea guida.",
+      "detail": "Consultazioni19 e21novembre2026. Nel lotto871–875: raccomandazioni7–9 e paragrafo denosumab, soprattutto cessazione e continuità. Ambito britannico; nessun calendario operativo trasferito. Non lettura dell’intera linea guida.",
       "url": "https://www.nogg.org.uk/full-guideline/section-6-pharmacological-treatment-options"
     },
     {
@@ -396,6 +442,18 @@ export const THEORY_BONE = Object.freeze({
       "title": "EMA · Faslodex / fulvestrant, meccanismo d’azione",
       "detail": "Consultazione19novembre2026: solo paragrafo indicizzato5.1 sull’antagonismo senza agonismo parziale e riduzione dei livelli recettoriali. Paginaoverview diretta429; nessuna lettura completa delRCP.",
       "url": "https://www.ema.europa.eu/en/documents/product-information/faslodex-epar-product-information_en.pdf"
+    },
+    {
+      "id": "EMA-PROLIA-RCP",
+      "title": "EMA · Prolia, informazioni del prodotto",
+      "detail": "Consultazione21novembre2026: passaggi selezionati §§2,4.1–4.4,4.8,5.1–5.2; PDF2–4,6–9,14. Bersaglio, natura dell’anticorpo, farmacocinetica e sicurezza. Non lettura integrale del RCP; dati quantitativi non trasferiti.",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/prolia-epar-product-information_en.pdf"
+    },
+    {
+      "id": "FDA-PROLIA-CKD",
+      "title": "FDA · Denosumab e ipocalcemia nella malattia renale avanzata",
+      "detail": "Comunicazione19gennaio2024 consultata21novembre2026: passaggi su rischio, valutazione e monitoraggio. Ambito statunitense; usata per sicurezza, non per identificare il bersaglio.",
+      "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-adds-boxed-warning-increased-risk-severe-hypocalcemia-patients-advanced-chronic-kidney-disease"
     }
   ],
   "moleculeLinks": [
@@ -453,8 +511,8 @@ export const THEORY_BONE = Object.freeze({
   ],
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
-  "reviewedAt": "2026-11-19",
+  "reviewedAt": "2026-11-21",
   "readingManifest": "./data/rimodellamento-osseo-osteoporosi-reading.json",
-  "coverage": "8 nuove pagine di testo principale lette e ispezionate;2 pagine precedenti rilette. Copertura cumulativa:39 testi completi,40 pagine ispezionate e32 con passaggi integrati. Tabella860 parziale; limiti delle figure dichiarati. Fonti ufficiali consultate per passaggi; nessuna revisione clinica indipendente.",
-  "wordCount": 4151
-});
+  "coverage": "4 nuove pagine di testo principale complete e1 nuova parziale;4 pagine precedenti rilette. Cumulativo:43 testi completi,45 pagine ispezionate e36 con passaggi integrati. Limiti delle figure e dei confronti clinici dichiarati; nessuna revisione clinica indipendente.",
+  "wordCount": 4805
+};

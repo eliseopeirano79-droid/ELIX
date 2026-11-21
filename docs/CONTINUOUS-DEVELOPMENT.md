@@ -8,17 +8,15 @@ Usare «appunti e diapositive del corso di Farmacologia», con anno, lezione, da
 
 ## Lotto corrente
 
-theory-course-866-870, candidato0.110.0. Ampliamento del capitolo osseo: tre sezioni su deposito/osteonecrosi, selettività tissutale dei SERM e raloxifene. Ora17 sezioni,4151 parole,21 quesiti;3 nuovi schemi e3 collegamenti a identità esistenti. Nessuna nuova identità,sintesi di farmaco,profilo o laboratorio.65 altri capitoli preservati.
+theory-course-871-875, candidato0.111.0. Due sezioni sul blocco di RANKL, persistenza dell’effetto, funzione renale e ipocalcemia. Ora19 sezioni,4805 parole,26 quesiti e19 schemi qualitativi. Nessuna nuova identità,sintesi di farmaco,profilo o laboratorio;17 sezioni precedenti preservate.
 
-Ultima consegna verificata0.109.0,commit2ef67c81656561ff99e7392945e900c5a9132647. Ricevuta successiva al deploy prevalente sul checkpoint preparatorio; nuova ricevuta solo dopo pubblicazione verificata.
+Ultima consegna verificata0.110.0,commit7f139709106e71966c77a05db525ce449879a3c4. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
 
-Deduplicazione su185 registri;8 nuove pagine di testo principale lette e2 rilette,10 ispezionate. Cumulativo39 testi completi,40 pagine ispezionate e32 con passaggi integrati. CFI866–870 nuove;APP339–340 nuove;KATZ893 nuova e892 riletta;RANG694 riletta e ora selettivamente integrata.6 nuove pagine e1 pagina precedente aggiunte all’integrazione. CFI868(tabellaJAMA2019) eAPP340 lette ma non integrate. CFI860 resta parziale. Figure minute e passaggi fuori scopo restano dichiarati.
+Deduplicazione su187 registri.4 nuove letture complete(CFI871–874),1 nuova parziale(875),4 riletture(APP339–340,KATZ892,RANG694),9 ispezioni. Cumulativo43 testi completi,45 pagine ispezionate,36 integrate. SelezionatiCFI872–874 eAPP340;871 esclusa e875 parziale. Figure coperte e duplicati registrati.
 
-Confronto mirato NOGG6/7 ed EMAEvista; meccanismo Faslodex da testo ufficiale indicizzato(overview429). Distinti esiti vertebrali,effetti sui lipidi,rischi vascolari e trattamento dei tumori. Nessuna dose o calendario riprodotto; nessuna revisione clinica indipendente.
+Confronto mirato21novembre2026 con RCP EMAProlia,NOGG6 e comunicazioneFDA2024 sulla malattia renale avanzata. Corretta distinzione fra assenza di aggiustamento renale e sicurezza; RANKL distinto daRANK. Nessuna dose o calendario trasferiti,nessuna revisione clinica indipendente.
 
-Ricerca automatica separata su CorsoII2026–27 e CorsoI2025–26: non lettura di interi corsi. Dettagli di anno,docente e provenienza nei registri privati. Nessun incarico ad altre chat.
-
-Revisione editoriale mirata completata dal solo integratore. Superati 51 validatori, otto configurazioni desktop/mobile nei due temi, ricerca, collegamenti, tastiera e offline; dieci immagini ispezionate. Aggiornamento reale 0.109.0→0.110.0 verificato con preferiti, progressi e tema conservati; 65 altri capitoli invariati. Commit, CI, deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-866-870-2026-11-19/.
+Revisione editoriale mirata completata; superati 51 validatori,8 configurazioni desktop/mobile nei due temi,ricerca,collegamenti,tastiera e offline;8 immagini ispezionate. Aggiornamento reale0.110.0→0.111.0 verificato con preferiti,progressi e tema conservati;65 altri capitoli e17 sezioni precedenti invariati.5 fonti inalterate. Commit,CI,deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-871-875-2026-11-20/.
 
 ## Regole
 
@@ -30,4 +28,4 @@ Revisione editoriale mirata completata dal solo integratore. Superati 51 validat
 
 ## Prossimo intervallo
 
-Completare866–870 e verificarne la pubblicazione.871–875 non iniziato. Teoria prima di farmaci,profili e laboratori.
+Completare871–875 e verificarne la pubblicazione.876–880 non iniziato. Teoria prima di farmaci,profili e laboratori.
