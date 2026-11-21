@@ -8,15 +8,15 @@ Usare appunti e diapositive del corso di Farmacologia,con anno,lezione,data e pa
 
 ## Lotto corrente
 
-theory-course-891-895,candidato0.115.0. Glucocorticoidi,GR,metabolismo locale e prevenzione della fragilità. Ora27 sezioni,7866 parole,46 quesiti e27 schemi qualitativi. Nessuna nuova identità,sintesi,profilo o laboratorio.
+theory-course-896-900,candidato0.116.0. VitaminaD:bioattivazione,forme chimiche e significato delle misure. Ora29 sezioni,8682 parole,51 quesiti e29 schemi qualitativi. Nessuna nuova identità,sintesi,profilo o laboratorio.
 
-Ultima consegna verificata0.114.0,commitb59e64fce8d000d18f23872bbaf881330cd90a0a. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
+Ultima consegna verificata0.115.0,commit52cc9265892a365a56a5a71787667e5895ab5ee3. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
 
-Deduplicazione su195 registri.4 nuove letture complete,1 parziale,2 riletture e7 ispezioni. Cumulativo62 testi completi,67 pagine ispezionate,49 integrate. SelezionatiCFI892–893;891 e895 lette non integrate;894parziale esclusa.
+Deduplicazione su197 registri.6 nuove letture complete,4 riletture e10 ispezioni. Cumulativo68 testi completi,73 pagine ispezionate,55 integrate. SelezionatiCFI897,899,900 eAPP342;896 e898 lette non integrate. KATZ888 eRANG689 già lette,ora integrate.
 
-Confronto mirato21novembre2026:NOGG7,ACR,Nota79AIFA e studio murinoHSD1. Distinti sperimentazione,indicazione clinica e rimborso. Nessuna dose o soglia numerica trasferita; revisione clinica indipendente aperta.
+Confronto mirato21novembre2026:ODS,Endocrine Society,AIFA96FAQ e studio geneticoCYP2R1. Nessuna dose o soglia trasferita; revisione clinica indipendente aperta.
 
-Revisione editoriale e verifiche locali superate:51 validatori,8 configurazioni desktop/mobile,8 immagini controllate,offline e aggiornamento reale0.114.0→0.115.0. Commit,CI,deploy e riscontro online ancora da completare. Prove private in ../../outputs/ELIX-course-891-895-2026-11-21/.
+Revisione editoriale e controlli locali superati:51 validatori,8 configurazioni,8 immagini ispezionate,aggiornamento reale e offline. Pubblicazione e verifica online ancora da concludere. Prove private in ../../outputs/ELIX-course-896-900-2026-11-21/.
 
 ## Regole
 
@@ -28,4 +28,4 @@ Revisione editoriale e verifiche locali superate:51 validatori,8 configurazioni 
 
 ## Prossimo intervallo
 
-Completare891–895 e verificarne la pubblicazione.896–900 non iniziato. Teoria prima di farmaci,profili e laboratori.
+Completare896–900 e verificarne la pubblicazione.901–905 non iniziato. Teoria prima di farmaci,profili e laboratori.

@@ -61,6 +61,34 @@ export const THEORY_BONE = {
       "formula": "Vitamina D → metabolita 25-idrossilato → calcitriolo → recettore e risposta dei tessuti. Substrato minerale e controllo del rimodellamento sono livelli distinti."
     },
     {
+      "id": "vitamina-d-attivazione",
+      "title": "Vitamina D: precursore, enzima e segnale recettoriale",
+      "refs": [
+        "CFI",
+        "APP",
+        "KATZ",
+        "RANG",
+        "CYP2R1-STUDIO"
+      ],
+      "text": "Per seguire il percorso della vitamina D bisogna distinguere la molecola trasformata dall’enzima che catalizza la trasformazione. Nella cute il 7-deidrocolesterolo è un precursore sterolico: l’energia della radiazione ultravioletta produce previtamina D3, che si riarrangia termicamente in colecalciferolo. Il 7-deidrocolesterolo non è quindi una «idrossilasi». La produzione cutanea e l’ingresso dall’alimentazione alimentano il sistema prima delle successive modificazioni metaboliche.\n\nL’idrossilazione aggiunge un gruppo ossidrilico in una posizione definita della molecola. Nel percorso della D3, la trasformazione epatica in posizione 25 genera calcifediolo, o calcidiolo; quella in posizione 1α produce calcitriolo. I nomi 25(OH)D3 e 1,25(OH)2D3 descrivono sostanze differenti. Il rene è la sede principale della seconda tappa del circuito endocrino, catalizzata da CYP27B1 e regolata da segnali che riflettono l’omeostasi minerale. PTH e FGF23 orientano questa regolazione in direzioni opposte, come discusso nel circuito fra intestino, osso e rene.\n\nAttribuire tutta la prima idrossilazione a CYP27A1, come fa un diagramma del corso, lascia invece fuori un componente essenziale. CYP2R1 è una 25-idrossilasi biologicamente rilevante: uno studio genetico umano ha identificato una variante che aboliva l’attività enzimatica in una persona con bassi livelli del metabolita 25-idrossilato e manifestazioni di carenza. L’esempio mostra come un difetto di trasformazione possa interrompere il percorso anche quando il precursore esiste. Non autorizza a considerare ogni carenza un difetto genetico, né dimostra che CYP2R1 sia l’unico enzima con questa attività.\n\nLa sequenza metabolica aiuta anche a leggere i nomi dei preparati. Il colecalciferolo entra a monte delle due idrossilazioni; il calcifediolo si colloca dopo la tappa in posizione 25; il calcitriolo è già il metabolita attivo del ramo D3. Confrontarli significa confrontare punti di ingresso differenti. Una risposta ridotta a un precursore e una risposta ridotta al segnale attivo sono problemi farmacologici distinti: nel primo caso conta anche la capacità di trasformazione, nel secondo il percorso a valle resta da valutare. Questo ragionamento non fornisce rapporti di conversione delle dosi.\n\nKatzung descrive inoltre una proteina plasmatica di trasporto per vitamina D e metaboliti, con affinità differenti, e un deposito della vitamina nel tessuto adiposo. Il trasportatore circolante non coincide con VDR, il recettore attraverso cui il metabolita attivo regola la risposta cellulare. Trasporto, bioattivazione e riconoscimento recettoriale sono tre passaggi distinti: confonderli impedisce di capire perché molecole della stessa famiglia possano avere cinetiche diverse pur convergendo sullo stesso sistema endocrino.",
+      "formula": "7-deidrocolesterolo → previtamina D3 → colecalciferolo → 25(OH)D3 → 1,25(OH)2D3 → VDR. Precursore, idrossilasi, trasportatore e recettore hanno ruoli diversi."
+    },
+    {
+      "id": "vitamina-d-forme-e-misure",
+      "title": "D2, D3 e misure ematiche: che cosa descrive un valore",
+      "refs": [
+        "CFI",
+        "APP",
+        "KATZ",
+        "RANG",
+        "ODS-D",
+        "ENDO-D",
+        "AIFA96-FAQ"
+      ],
+      "text": "Le sigle D2 e D3 identificano due forme di partenza, rispettivamente ergocalciferolo e colecalciferolo. L’ergosterolo è il precursore della D2. Le differenze della catena laterale non trasformano la D2 in una tappa intermedia fra colecalciferolo e calcitriolo: anche il ramo D2 comprende metaboliti idrossilati propri. Uno schema che disegna soltanto il ramo D3 deve essere letto come una semplificazione, senza convertire ogni composto nella stessa identità chimica.\n\nKatzung accosta attività biologiche comparabili a differenze farmacocinetiche; perciò la frase «potenza equivalente» richiede di specificare l’esito confrontato. La scheda NIH ODS riporta che entrambe le forme possono aumentare la 25(OH)D, mentre la D3 tende a produrre un aumento maggiore e più persistente. Questo confronto non stabilisce da solo quale preparato riduca maggiormente le fratture.\n\nLa 25(OH)D è il principale indicatore ematico dello stato vitaminico. Il calcitriolo ha durata circolante più breve e concentrazioni strettamente regolate: non sostituisce abitualmente quel parametro nella valutazione dello stato vitaminico. La sua mancata riduzione non esclude una carenza. Quantità del precursore, concentrazione dell’ormone e risposta del tessuto sono variabili distinte.\n\nLa scelta di un indicatore non comporta che sia utile misurarlo sistematicamente in tutta la popolazione. La linea guida Endocrine Society 2024 sulla prevenzione, nelle raccomandazioni dedicate agli adulti generalmente sani, suggerisce di evitare il dosaggio routinario della 25(OH)D; precisa che queste indicazioni non riguardano chi presenta già una ragione clinica specifica per il test. La popolazione di riferimento fa parte della raccomandazione: non si può estenderla automaticamente a ipocalcemia, osteopatie accertate o disturbi della trasformazione metabolica.\n\nAnche le FAQ AIFA distinguono la misurazione su indicazione medica dalle condizioni che sostengono una prescrizione rimborsabile. Richiamano, fra gli altri contesti, malassorbimento e terapie che interferiscono con il metabolismo vitaminico. Il collegamento con gli appunti è utile per ragionare sulle interazioni: occorre chiedersi quale passaggio venga modificato, non limitarsi alla parola «induzione». Accelerare una trasformazione attivante e accelerare l’eliminazione non sono la stessa operazione. La direzione dell’effetto non si deduce senza conoscere molecola e via coinvolte.\n\nL’appartenenza alla famiglia delle vitamine non garantisce innocuità: un apporto eccessivo può causare ipercalcemia e ipercalciuria, fino a danno renale nei casi gravi. I meccanismi cutanei che limitano la produzione non proteggono da un’assunzione eccessiva. Non esiste quindi una regola generale secondo cui una dose multipla del fabbisogno sia automaticamente sicura.\n\nPer interpretare il quadro bisogna infine tornare al problema iniziale. Documentare lo stato vitaminico, correggere un deficit e trattare il rischio di frattura sono obiettivi collegati, ma richiedono prove e decisioni proprie. La collocazione di un preparato nella via metabolica spiega parte del suo comportamento; non sostituisce indicazioni, caratteristiche del prodotto e valutazione clinica.",
+      "formula": "Forma somministrata → trasformazioni → metabolita misurato → risposta biologica → esito clinico. Identità chimica, concentrazione ed efficacia non sono sinonimi."
+    },
+    {
       "id": "pth-e-tempo",
       "title": "PTH e teriparatide: il tempo del segnale cambia il bilancio",
       "refs": [
@@ -529,28 +557,48 @@ export const THEORY_BONE = {
     {
       "question": "Che differenza c’è fra raccomandazione clinica e Nota 79?",
       "answer": "La raccomandazione orienta la decisione secondo rischio e prove. La Nota 79 definisce condizioni di prescrizione a carico del SSN, nel rispetto di indicazioni e avvertenze: non sostituisce la valutazione individuale."
+    },
+    {
+      "question": "Il 7-deidrocolesterolo è l’enzima che attiva la vitamina D?",
+      "answer": "No: è il precursore sterolico cutaneo. CYP2R1 e CYP27B1 sono invece enzimi coinvolti nelle successive idrossilazioni in posizioni differenti."
+    },
+    {
+      "question": "Perché colecalciferolo, calcifediolo e calcitriolo non occupano lo stesso punto del percorso?",
+      "answer": "Il primo precede le due idrossilazioni; il secondo ha già il gruppo in posizione 25; il terzo è il metabolita attivo del ramo D3. La posizione nella via non fornisce una conversione automatica delle dosi."
+    },
+    {
+      "question": "L’ergocalciferolo è una forma intermedia fra D3 e calcitriolo?",
+      "answer": "No. È la vitamina D2, con un proprio ramo di metaboliti idrossilati. D2 e D3 differiscono nella catena laterale."
+    },
+    {
+      "question": "Perché concentrazione del calcitriolo e stato vitaminico non coincidono?",
+      "answer": "Il calcitriolo è un segnale regolato, mentre per lo stato vitaminico si utilizza principalmente la 25(OH)D. Un indicatore utile non implica uno screening universale."
+    },
+    {
+      "question": "Che cosa occorre chiarire quando un farmaco modifica il metabolismo della vitamina D?",
+      "answer": "Quale molecola, enzima e tappa siano coinvolti: bioattivazione ed eliminazione possono avere conseguenze differenti. Il solo termine induzione non determina la direzione dell’effetto."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF855–885, etichette853–883. Lotto881–885: testi principali completi881,882,884,885; integrati881,882,884.883tabella tagliata: parziale ed esclusa.885tabella2017 letta non integrata.860 e875 restano parziali; limiti figurativi precedenti conservati. Lotto886–890: testi principali visibili886–889 completi, solo886 integrata;890parziale. Tabelle storiche887–889 non integrate, note mancanti e numeri esclusi. Lotto891–895: testi principali visibili891–893 e895 completi;892–893 integrati.894tabella tagliata, parziale esclusa.891 e895 lette non integrate; articoli riprodotti non letti integralmente."
+      "detail": "PDF855–885, etichette853–883. Lotto881–885: testi principali completi881,882,884,885; integrati881,882,884.883tabella tagliata: parziale ed esclusa.885tabella2017 letta non integrata.860 e875 restano parziali; limiti figurativi precedenti conservati. Lotto886–890: testi principali visibili886–889 completi, solo886 integrata;890parziale. Tabelle storiche887–889 non integrate, note mancanti e numeri esclusi. Lotto891–895: testi principali visibili891–893 e895 completi;892–893 integrati.894tabella tagliata, parziale esclusa.891 e895 lette non integrate; articoli riprodotti non letti integralmente. Lotto896–900: testi principali visibili completi, selezionate897,899,900.896 e898 lette non integrate. Corrette le distinzioni precursore/enzima eD2/D3; numeri e affermazioni assolute di sicurezza esclusi."
     },
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I · 2025–26",
-      "detail": "Lezione20 del3dicembre2025: PDF336–340, stampate331–335. Nel lotto876–880 riletta340(stampa335,lezione5di9) per sclerostina. Pannelli condivisi conCFI871–872 e877: confronto dipendente. Vie e cadenze contraddittorie escluse. Lotto881–885: riletta337(stampata332), esclusa l’identificazione erronea dello stronzio con un analogoPTH. Lotto886–890: letta341(stampata336,lezione6/9); integrato solo il raccordo critico fra meccanismi e strategia. Errori suPTH/denosumab e regole prescrittive esclusi. Lotto891–895: riletta341; descrizione temporale/rimborsabilità riconciliata conAIFA eNOGG, senza soglie trasferite."
+      "detail": "Lezione20 del3dicembre2025: PDF336–340, stampate331–335. Nel lotto876–880 riletta340(stampa335,lezione5di9) per sclerostina. Pannelli condivisi conCFI871–872 e877: confronto dipendente. Vie e cadenze contraddittorie escluse. Lotto881–885: riletta337(stampata332), esclusa l’identificazione erronea dello stronzio con un analogoPTH. Lotto886–890: letta341(stampata336,lezione6/9); integrato solo il raccordo critico fra meccanismi e strategia. Errori suPTH/denosumab e regole prescrittive esclusi. Lotto891–895: riletta341; descrizione temporale/rimborsabilità riconciliata conAIFA eNOGG, senza soglie trasferite. Lotto896–900: letta342(stampata337,pagina7/9), confronto sulla bioattivazione. EscluseD2 intermedia,assenza di ipervitaminosi e classificazione normativa basata sull’accumulo."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX italiana2014 / XII originale2012. PDF884–893, editoriali864–873. Nel lotto876–880 riletta893 per sclerostina e stronzio; anti-sclerostina ancora sperimentale nell’edizione storica. Indicazioni e sicurezza non trasferite automaticamente. Lotto881–885: rilette886–887(stampate866–867), mediazioneRANKL e azioni renali; dosi storiche escluse. Lotto886–890: riletta891(stampata871), solo raccordo glucocorticoidi/formazione ossea. Lotto891–895: riletta891, formazione e bilancio del calcio."
+      "detail": "IX italiana2014 / XII originale2012. PDF884–893, editoriali864–873. Nel lotto876–880 riletta893 per sclerostina e stronzio; anti-sclerostina ancora sperimentale nell’edizione storica. Indicazioni e sicurezza non trasferite automaticamente. Lotto881–885: rilette886–887(stampate866–867), mediazioneRANKL e azioni renali; dosi storiche escluse. Lotto886–890: riletta891(stampata871), solo raccordo glucocorticoidi/formazione ossea. Lotto891–895: riletta891, formazione e bilancio del calcio. Lotto896–900: rilette887–889(stampate867–869); integrata per la prima volta888,solo trasporto/cinetica e via metabolica.889 non integrata."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII italiana2016 / originale2015. Testi principali letti:PDF685–689 e692–695;690–691 non lette. Nel lotto876–880 riletta694 e letta695: integrato selettivamente lo stronzio. Numerazione editoriale non visibile; limiti precedenti preservati. Lotto881–885: riletta688, integrato solo il circuitoCaSR/PTH; esclusa l’identitàOPG=RANK e l’impiego storico della calcitonina. Lotto886–890: riletta695, distinzione denosumab/RANKL; indicazioni e prescrizioni storiche escluse."
+      "detail": "VIII italiana2016 / originale2015. Testi principali letti:PDF685–689 e692–695;690–691 non lette. Nel lotto876–880 riletta694 e letta695: integrato selettivamente lo stronzio. Numerazione editoriale non visibile; limiti precedenti preservati. Lotto881–885: riletta688, integrato solo il circuitoCaSR/PTH; esclusa l’identitàOPG=RANK e l’impiego storico della calcitonina. Lotto886–890: riletta695, distinzione denosumab/RANKL; indicazioni e prescrizioni storiche escluse. Lotto896–900: riletta689,integrata per la prima volta solo la distinzione fra precursori e metabolita attivo; frecce ambigue relative ad alfacalcidolo escluse."
     },
     {
       "id": "ODS",
@@ -694,6 +742,30 @@ export const THEORY_BONE = {
       "title": "AIFA · Nota79, aggiornamento26settembre2025",
       "url": "https://www.aifa.gov.it/nota-79",
       "detail": "Consultazione21novembre2026 della pagina e del PDF collegato: testo selezionato PDF1–4, soprattutto prevenzione primaria e considerazioni generali. Non lettura integrale; tabella ufficiale non ispezionata in immagine, scaricamento locale403. Nessuna soglia numerica trasferita."
+    },
+    {
+      "id": "CYP2R1-STUDIO",
+      "title": "CYP2R1 · evidenza genetica umana",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15128933/",
+      "detail": "Cheng et al.,PNAS2004,DOI10.1073/pnas.0402490101. Abstract letto21novembre2026; non intero articolo né figure. Evidenza di attività biologicamente rilevante, non esclusività dell’enzima."
+    },
+    {
+      "id": "ODS-D",
+      "title": "NIH ODS · Vitamina D, scheda per professionisti",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+      "detail": "Consultazione21novembre2026: passaggi su indicatore25(OH)D,formeD2/D3 e tossicità. Solo passaggi selezionati; nessun dosaggio o soglia trasferiti."
+    },
+    {
+      "id": "ENDO-D",
+      "title": "Endocrine Society2024 · Vitamina D nella prevenzione",
+      "url": "https://www.endocrine.org/clinical-practice-guidelines/vitamin-d-for-prevention-of-disease",
+      "detail": "Consultazione21novembre2026: ambito e raccomandazioni3,5,7 con note sugli adulti generalmente sani. Non intera linea guida; non estesa a indicazioni cliniche già presenti."
+    },
+    {
+      "id": "AIFA96-FAQ",
+      "title": "AIFA · FAQ sui farmaci a base di vitamina D",
+      "url": "https://www.aifa.gov.it/it/domande-e-risposte-sui-farmaci-a-base-di-vitamina-d",
+      "detail": "Pagina aggiornata21febbraio2023, consultata21novembre2026: misurazione e contesti clinici. Verificata anche la paginaNota96; non lettura integrale della Nota o del relativo algoritmo. Nessuna soglia di rimborso trasferita."
     }
   ],
   "moleculeLinks": [
@@ -753,6 +825,6 @@ export const THEORY_BONE = {
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-21",
   "readingManifest": "./data/rimodellamento-osseo-osteoporosi-reading.json",
-  "coverage": "4 nuove pagine di testo principale complete;2 riletture. Cumulativo62 testi completi,67 pagine ispezionate,49 con passaggi integrati.5 pagine parziali escluse. Limiti figurativi e clinici dichiarati; nessuna revisione clinica indipendente.",
-  "wordCount": 7866
+  "coverage": "6 nuove pagine di testo principale complete;4 riletture. Cumulativo68 testi completi,73 pagine ispezionate,55 con passaggi integrati.5 pagine parziali precedenti escluse. Limiti figurativi e clinici dichiarati; nessuna revisione clinica indipendente.",
+  "wordCount": 8682
 };
