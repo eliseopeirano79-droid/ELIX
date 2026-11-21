@@ -1,19 +1,20 @@
 {
   "schemaVersion": 1,
   "chapterId": "rimodellamento-osseo-osteoporosi",
-  "batch": "theory-course-876-880",
-  "reviewedAt": "2026-11-21T11:45:47.341536+00:00",
+  "batch": "theory-course-881-885",
+  "reviewedAt": "2026-11-21T12:53:52.102870+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "e7ce6bab29a461e8d6fa94a24afa1ba7ed46934d84cb4d054e18a7a93a749d8a",
+  "moduleSha256": "8def9c0dca1eac970753d87ef79225d4f26311eef932aafc50cb7440c95df20f",
   "checks": [
-    "Due nuove sezioni e5 quesiti;19 sezioni e26 quesiti precedenti preservati.",
-    "Distinti bersaglio extracellulare, recettore e risposta della rete; nessun doppio bersaglio dedotto.",
-    "Distinti meccanismo proposto, effetti in vitro, DXA ed esiti clinici.",
-    "Conteggi49 testi/51ispezioni/41integrazioni;6 nuove letture complete.",
-    "Revisione editoriale mirata completata: fonti e livelli di evidenza distinti, assenza di dosi o causalità non dimostrate; prove tecniche registrate separatamente."
+    "Due nuove sezioni e5 quesiti;21 sezioni e31 quesiti precedenti preservati.",
+    "DistintiCaSR,PTH1R,viaGs/Gq,calcio intracellulare e calcemia.",
+    "Distinti effetto diretto e reteRANKL; nessuna equivalenzaOPG=RANK.",
+    "Conteggi53testi/56ispezioni/45integrazioni;4 nuove letture complete.",
+    "RCPUE eNOGGUK: basi diverse per gli esiti dell’anca; revisione delle prove originali non svolta.",
+    "Revisione editoriale mirata completata: segnali distinti da esiti, nessuna dose, capitoli precedenti conservati; prove tecniche separate."
   ],
   "conflicts": [
     {
@@ -279,19 +280,48 @@
       "issue": "CFI876 marchi biosimilari nella notizia2025.",
       "resolution": "Pagina letta non integrata; nuove identità rimangono nel backlog.",
       "status": "read_not_integrated"
+    },
+    {
+      "id": "pth-cell-relay",
+      "issue": "CFI881–882 frecce sintetiche non identificano la cellula bersaglio.",
+      "resolution": "RaccordoKATZ886–887: osteoblasto,RANKL,RANK; effetti diretti e indiretti distinti.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "clipped-table-883",
+      "issue": "Intestazione destra tagliata.",
+      "resolution": "Pagina parziale; esclusa da lettura completa e integrazione.",
+      "status": "unresolved_source_limit"
+    },
+    {
+      "id": "historical-table-885",
+      "issue": "TabellaNature2017 con statoFDA/EMA storico.",
+      "resolution": "Letta ma non integrata; nessuna disponibilità attuale dedotta.",
+      "status": "read_not_integrated"
+    },
+    {
+      "id": "pth-hip-evidence",
+      "issue": "RCPForsteo senza dimostrazione specifica sull’anca; NOGG descrive evidenze aggregate.",
+      "resolution": "Entrambe le formulazioni attribuite alla rispettiva base documentale; non riletti gli studi primari.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "pth-receptor-access",
+      "issue": "DatabaseIUPHAR: timeout e accesso con registrazione.",
+      "resolution": "Nessuna lettura completa dichiarata; raccordoGs/Gq verificato nei paragrafi dello studio sperimentale accessibile.",
+      "status": "alternative_source_used"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
-    "Lotto:6 nuovi testi principali completi(CFI876–880 eRANG695),3 riletture(APP340,KATZ893,RANG694),9 ispezioni. Cumulativo49 testi completi,51 pagine ispezionate,41 integrate;5 nuove pagine integrate.",
-    "CFI860 e875 restano parziali ed escluse dalle letture complete e dall’integrazione. Restano i limiti delle figureCFI870,872–873,APP339 eFII-B54 e delle fotografieCFI867.",
-    "CFI876 letto ma non integrato: nuove identità e marchi nel backlog, stato regolatorio non verificato. CFI877 articolo2016 non equivale ad autorizzazione attuale;878 copertinaEMA2020 non equivale a lettura del rapporto.",
-    "CFI877 eAPP340 condividono il pannello Wnt: nessuna conferma indipendente o figura ripubblicata. CFI880 riga60[R] priva di intestazione: significato non inferito, dati numerici non trasferiti.",
-    "APP340 contiene intervalli romosozumab discordanti; distinti somministrazione e numero di iniezioni secondo RCP, senza calendari operativi. Esclusi endovena, rassicurazione renale generale e spiegazione semplicistica ONJ.",
-    "RANG695 letto nel testo completo; integrato solo lo stronzio. CaSR/OPG presentati come raccordo proposto; esclusa causalità cardiovascolare unica da blocco dei canaliK e rassicurazione generale ben tollerato.",
-    "EMAEvenity: letti i soli passaggi registrati, file corrente con dicituraDraft. OsseorRCP storico e ritiro commercialeEU distinti da linea guidaUK; nessun RCP italiano completo o disponibilità locale verificati.",
-    "Libri e corsi consultati per intervalli, non integralmente. RANG690–691 eCFI881–885 non letti. FarmacologiaII e altri contributi ancora parzialmente riconciliati; localizzatori automatici non equivalgono a lettura.",
-    "Nessun PDF, trascrizione o figura delle fonti pubblicati. Dosi, percentuali e correzioni individualiDXA escluse; profili, interazioni complete, cause secondarie e laboratorio interattivo restano nel backlog."
+    "Lotto:4 nuovi testi principali completi(CFI881,882,884,885),4 riletture(KATZ886–887,RANG688,APP337),9 ispezioni. Cumulativo53 testi completi,56 pagine ispezionate,45 integrate;3 nuove pagine integrate e1 precedente integrata ora.",
+    "CFI860,875,883 parziali: escluse dalle letture complete e dall’integrazione.883 intestazione destra tagliata.882 residui minuti del peptide non validati. Limiti figurativi precedenti preservati nel registro delle fonti.",
+    "CFI884 tabellaJAMA2025 letta, non l’intero articolo: dosi e percentuali escluse; riga romosozumab con criterioUSA non trasferita inUE.885 tabellaNature2017 storica, letta non integrata; stato autorizzativo attuale non dedotto.",
+    "APP337 confonde stronzio e analogoPTH; RANG688 definisceOPG identica aRANK: esclusi entrambi i passaggi. La frecciaPTH-osso non equivale a un recettore osteoclastico diretto.",
+    "RCPForsteoUE eNOGGUK distinguono prove sull’anca e livelli di analisi. Conflitto documentale esplicitato senza revisione delle metanalisi originali. Nessuna dose o calendario terapeutico trasferito.",
+    "StudioPTH1R: letti i passaggi introduttivi sulla trasduzione, non metodi, risultati o figure completi. Nessuna efficacia clinica dedotta dai secondi messaggeri.",
+    "Libri e corsi consultati per intervalli. RANG690–691 eCFI886–890 non letti. FarmacologiaII e altri contributi ancora parzialmente riconciliati; localizzatori automatici non equivalgono a lettura.",
+    "Nessun PDF, trascrizione o figura delle fonti pubblicati. Nuove identità, sintesi di farmaci, profili e laboratori interattivi restano nel backlog."
   ],
-  "updatedAt": "2026-11-21T11:45:47.341536+00:00"
+  "updatedAt": "2026-11-21T12:53:52.102870+00:00"
 }
