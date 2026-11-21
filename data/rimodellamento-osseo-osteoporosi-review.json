@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "chapterId": "rimodellamento-osseo-osteoporosi",
-  "batch": "theory-course-896-900",
-  "reviewedAt": "2026-11-21T15:22:49.324115+00:00",
+  "batch": "theory-course-901-905",
+  "reviewedAt": "2026-11-21T16:09:10.211217+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "840cccbcfba79e0477bd792c6c8843264cb205f5090c9b321bbafc899c94237d",
+  "moduleSha256": "6c8750684a50c06c4c3c74bf506999f99fca4e0c7367c2548952430fc57543be",
   "checks": [
-    "Due sezioni,5 quesiti e2 schemi aggiunti;27 sezioni e46 quesiti preservati.",
-    "Precursore,enzima,trasportatore eVDR distinti.",
-    "D2 non intermedia; forma attiva e indicatore distinti.",
-    "Raccomandazioni circoscritte,nessuna dose o soglia numerica.",
-    "Conteggi68testi/73ispezioni/55integrazioni;6 nuove letture complete,2 precedenti ora integrate.",
-    "Revisione editoriale delle816 parole nuove e5 risposte: confronto dei passaggi con fonti e limiti,assenza di dosi,distinzione didattica/clinica; formulazioni originali."
+    "Due sezioni originali,5 quesiti e2 schemi;29 sezioni e51 quesiti precedenti preservati.",
+    "Rilette668 parole aggiunte e5 risposte; profarmaco,metabolita attivo e posizione dell’idrossilazione distinti.",
+    "Alfacalcidolo:conversione epatica confermata daRANG689 e scheda5.2; la freccia renale non è trasferita.",
+    "Popolazione adultaG3a–G5 non dializzata delimitata; nessuna dose,soglia operativa o calendario individuale.",
+    "CFI901 completa per il testo visibile,limite delle intestazioni dichiarato.5 altre letture su anemia escluse dai conteggi ossei e dalla pubblicazione.",
+    "69 testi completi,74 ispezioni e57 pagine integrate; nessuna dichiarazione di lettura integrale di corsi,libri,schede olinee guida."
   ],
   "conflicts": [
     {
@@ -404,21 +404,38 @@
     {
       "id": "vitd-alfacalcidol-arrow",
       "issue": "RANG689 freccia dell’alfacalcidolo ambigua rispetto alla didascalia.",
-      "resolution": "Alfacalcidolo escluso dalla sintesi del lotto; limite conservato.",
+      "resolution": "Lotto901–905:conversione epatica riconciliata con didascalia e scheda del prodotto; nessuna riproduzione della freccia ambigua.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "vitd-901-table",
+      "issue": "CFI901:colonna cinetica senza intestazione,forme e vie generalizzate.",
+      "resolution": "Solo testo metabolico selezionato; numeri,vie e disponibilità esclusi.",
       "status": "unresolved_source_limit"
+    },
+    {
+      "id": "vitd-901-d2",
+      "issue": "CFI901 chiamaD2 precursore metabolico dellaD3.",
+      "resolution": "Rami distinti già chiariti nel capitolo; nessun trasferimento della frase.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "vitd-renal-routine",
+      "issue": "CFI901 suggerisce derivati attivi per ogni grave patologia renale.",
+      "resolution": "Razionale metabolico distinto da popolazione e indicazioniKDIGO; nessuna prescrizione universale.",
+      "status": "resolved_for_scope"
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
-    "Lotto:6 nuovi testi principali completi(CFI896–900,APP342),4 riletture(KATZ887–889,RANG689),10 ispezioni. Cumulativo68 testi completi,73 pagine ispezionate,55 integrate;4 nuove pagine integrate e2 precedentemente lette ora integrate.",
-    "CFI860,875,883,890,894 restano parziali escluse. Limiti figurativi precedenti preservati.896 margine figurativo tagliato ma testo principale completo;896 e898 lette non integrate.",
-    "CFI897:7-deidrocolesterolo è precursore,non enzima.899:CYP27A1 non descrive da solo la25-idrossilazione; evidenza umanaCYP2R1 limitata all’abstract,non intero studio. NCBIGene bloccato da verifica browser,non letto.",
-    "CFI898:nessun trasferimento di dosi tossiche,quote90/10 o sicurezza assoluta.900:equivalenza di attività non significa identica risposta25(OH)D; D2 non intermedia traD3 ecalcitriolo.",
-    "APP342:escluse assenza di ipervitaminosi e definizione normativa farmaco/integratore basata su accumulo. Interazioni descritte come principio,senza prescrizioni o monitoraggio universale.",
-    "RANG689:solo distinzione precursore/metabolita attivo. Didascalia dell’alfacalcidolo distinta dalla freccia ambigua; composto non sviluppato.",
-    "ODS,Endocrine Society eAIFA:passaggi selezionati consultati21novembre2026; nessuna lettura integrale di schede,linee guida oNota96. Raccomandazioni per sani non estese a indicazioni cliniche presenti. Nessuna soglia o dose trasferita.",
-    "Libri e corsi letti per intervalli. RANG690–691 eCFI901–905 non letti; FarmacologiaII e altri contributi ancora parzialmente riconciliati.",
+    "Per il capitolo:1 nuova lettura completa visibile(CFI901),2 riletture(KATZ889,RANG689),3 ispezioni. Cumulativo69 testi completi,74 ispezioni,57 pagine integrate;1 nuova pagina integrata e1 precedentemente letta ora integrata.",
+    "CFI860,875,883,890,894 restano parziali escluse; tutti i limiti figurativi precedenti conservati.901 presenta tabella senza intestazioni cinetiche: numeri e unità non interpretati né pubblicati.",
+    "CFI901:D2 non precursore dellaD3; vie generiche,emivite e uso dei derivati attivi in ogni grave malattia renale esclusi. Paricalcitolo e diidrotachisterolo non sviluppati.",
+    "RANG689:attivazione epatica dell’alfacalcidolo riconciliata con didascalia e scheda ufficiale; freccia ambigua non riprodotta. KATZ889:solo confronto qualitativo dei minerali,nessuna estensione alle patologie genetiche.",
+    "Scheda britannica dell’alfacalcidolo:passaggi selezionati,non intero documento oRCP italiano. KDIGO2017:raccomandazioni selezionate,non revisione completa; pagina indice diretta403,documento e indice ufficiale indicizzato accessibili. Nessuna dose,soglia operativa o calendario trasferiti.",
+    "CFI902–905 eAPP343:5 testi principali completi e5 ispezioni su anemia,conservati nel registro privato separato e non integrati. Non conteggiati come letture del capitolo osseo. Riconciliazione clinica e libraria dell’anemia ancora da svolgere.",
+    "Libri e corsi letti per intervalli. RANG690–691 eCFI906–910 non letti; FarmacologiaII e altri contributi ancora parzialmente riconciliati.",
     "Nessun PDF,trascrizione o figura originale pubblicati. Identità,sintesi di farmaci,profili e laboratori interattivi restano nel backlog."
   ],
-  "updatedAt": "2026-11-21T15:22:49.324115+00:00"
+  "updatedAt": "2026-11-21T16:09:10.211217+00:00"
 }

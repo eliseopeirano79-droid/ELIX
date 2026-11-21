@@ -89,6 +89,30 @@ export const THEORY_BONE = {
       "formula": "Forma somministrata → trasformazioni → metabolita misurato → risposta biologica → esito clinico. Identità chimica, concentrazione ed efficacia non sono sinonimi."
     },
     {
+      "id": "alfacalcidolo-calcitriolo",
+      "title": "Alfacalcidolo e calcitriolo: quale trasformazione resta da compiere",
+      "refs": [
+        "CFI",
+        "RANG",
+        "KATZ",
+        "EMC-ALFA"
+      ],
+      "text": "L’alfacalcidolo permette di mettere alla prova la mappa delle idrossilazioni. È il derivato 1α-idrossilato della vitamina D3: possiede già il gruppo in posizione 1α, ma deve ancora acquisire quello in posizione 25 per diventare calcitriolo. La conversione avviene nel fegato. Il calcifediolo presenta la situazione complementare: è già idrossilato in posizione 25 e, nel percorso endocrino, richiede la trasformazione renale in posizione 1α. Il calcitriolo possiede entrambe le modificazioni.\n\nQuesti tre nomi non descrivono tre dosaggi della stessa sostanza. Identificano molecole che raggiungono il segnale attivo attraverso passaggi differenti. L’alfacalcidolo è un profarmaco; il calcitriolo è il metabolita attivo che si lega a VDR. La didascalia di Rang & Dale specifica l’attivazione epatica dell’alfacalcidolo, confermata dalla scheda del prodotto. Una freccia collocata vicino al rene nel disegno non deve quindi essere interpretata come sede della sua trasformazione in calcitriolo.\n\nLa distinzione diventa rilevante quando la capacità renale di 1α-idrossilazione è compromessa. Somministrare un precursore che richiede quella tappa e impiegare una molecola che la evita rispondono a problemi diversi. Il principio farmacologico consiste nell’individuare il passaggio limitante e il punto di ingresso del composto; non nel considerare «più attivo» sempre equivalente a «più adatto». Il tessuto bersaglio, l’equilibrio minerale e l’obiettivo terapeutico rimangono parte del ragionamento.\n\nSuperata la trasformazione, il segnale converge sul sistema del calcitriolo. L’aumento dell’assorbimento intestinale riguarda sia il calcio sia il fosfato, mentre la risposta paratiroidea e gli scambi con l’osso modificano il bilancio complessivo. La tabella di Katzung aiuta a distinguere questo profilo da quello del PTH, che favorisce invece l’eliminazione renale del fosfato. Una somiglianza nell’effetto sul calcio non implica identità di tutti gli effetti sui minerali.\n\nIl confronto fra le molecole chiarisce il meccanismo senza stabilire equivalenze di dose, vie disponibili o tempi di controllo. Questi dati appartengono al singolo prodotto e al contesto clinico. Anche un profarmaco che evita una tappa renale conserva la necessità di una valutazione del rene, perché il rene continua a partecipare all’omeostasi che il trattamento modifica.",
+      "formula": "Calcifediolo: 25-OH presente → serve 1α-OH. Alfacalcidolo: 1α-OH presente → serve 25-OH epatico. Calcitriolo: entrambe presenti → segnale VDR."
+    },
+    {
+      "id": "vitamina-d-malattia-renale",
+      "title": "Vitamina D nella malattia renale: dal meccanismo alla scelta clinica",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "EMC-ALFA",
+        "KDIGO-MBD"
+      ],
+      "text": "La malattia renale modifica contemporaneamente la gestione del fosfato, la produzione del segnale vitaminico e la risposta paratiroidea. Il problema non si esaurisce quindi nella disponibilità di una singola molecola. PTH, calcitriolo e FGF23 appartengono a una rete di regolazione; intervenire su uno dei suoi nodi può cambiare anche gli altri. Le alterazioni minerali e ossee associate alla malattia renale cronica, indicate come CKD-MBD, richiedono di collegare questa rete al quadro del paziente.\n\nLa possibilità di evitare una trasformazione renale spiega il razionale di alcuni preparati, ma non fonda una prescrizione per ogni insufficienza renale. KDIGO 2017, tuttora presente nella raccolta ufficiale consultata, suggerisce di non usare routinariamente calcitriolo e analoghi negli adulti con CKD G3a–G5 non in dialisi. Considera ragionevole riservarli, negli stadi G4–G5, a iperparatiroidismo grave e progressivo. La popolazione, lo stadio e l’andamento della malattia delimitano questa indicazione; la frase non si trasferisce automaticamente ai pazienti in dialisi o ai bambini.\n\nKDIGO invita inoltre a considerare insieme le valutazioni successive di calcio, fosfato e PTH. Un singolo valore elevato del PTH non descrive da solo tutta la situazione: un aumento progressivo o persistente richiede di valutare fattori modificabili, fra cui alterazioni del calcio e del fosfato e carenza vitaminica. Il dato va letto come parte di un andamento, non come un interruttore automatico del trattamento.\n\nL’effetto sui minerali spiega anche perché la sorveglianza non diventi superflua quando la trasformazione renale viene evitata. La scheda dell’alfacalcidolo richiama il rischio di ipercalcemia e la necessità di controllare calcio, fosfato e funzione renale. Aumentare la disponibilità del segnale attivo può modificare variabili che il paziente gestisce già con difficoltà. L’obiettivo non è ottenere il massimo effetto biochimico possibile, ma un effetto appropriato al problema clinico.\n\nQuesta distinzione completa il collegamento fra farmacologia e patologia: il meccanismo spiega come un composto possa agire; la raccomandazione identifica quando quell’azione abbia un ruolo. Correggere una carenza vitaminica, controllare un iperparatiroidismo e trattare la fragilità scheletrica restano obiettivi da distinguere. La sintesi non propone dosi, soglie operative o un programma individuale di monitoraggio.",
+      "formula": "Punto di ingresso metabolico → effetti su calcio, fosfato e PTH → valutazione congiunta nel tempo. Razionale farmacologico e indicazione clinica richiedono prove distinte."
+    },
+    {
       "id": "pth-e-tempo",
       "title": "PTH e teriparatide: il tempo del segnale cambia il bilancio",
       "refs": [
@@ -577,13 +601,33 @@ export const THEORY_BONE = {
     {
       "question": "Che cosa occorre chiarire quando un farmaco modifica il metabolismo della vitamina D?",
       "answer": "Quale molecola, enzima e tappa siano coinvolti: bioattivazione ed eliminazione possono avere conseguenze differenti. Il solo termine induzione non determina la direzione dell’effetto."
+    },
+    {
+      "question": "Quale trasformazione serve all’alfacalcidolo per diventare calcitriolo?",
+      "answer": "La 25-idrossilazione epatica: il gruppo in posizione 1α è già presente. La tappa renale di 1α-idrossilazione non è richiesta per questa conversione."
+    },
+    {
+      "question": "Perché calcifediolo e alfacalcidolo non sono due nomi equivalenti?",
+      "answer": "Nel primo è presente il gruppo 25-OH, nel secondo il gruppo 1α-OH. Per ottenere calcitriolo manca quindi una trasformazione diversa."
+    },
+    {
+      "question": "Perché evitare una tappa metabolica renale non elimina la necessità di valutare il rene?",
+      "answer": "Il rene continua a contribuire al bilancio minerale. Indipendenza da una trasformazione e sicurezza dell’effetto nell’organismo sono questioni differenti."
+    },
+    {
+      "question": "La malattia renale comporta sempre l’impiego di calcitriolo?",
+      "answer": "No. KDIGO distingue stadio, dialisi e gravità dell’iperparatiroidismo; negli adulti G3a–G5 non dializzati ne sconsiglia l’uso routinario."
+    },
+    {
+      "question": "Perché PTH, calcio e fosfato vanno letti insieme e nel tempo?",
+      "answer": "Appartengono alla stessa rete di regolazione. Un valore isolato non riassume né le cause dell’alterazione né la risposta complessiva a un trattamento."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF855–885, etichette853–883. Lotto881–885: testi principali completi881,882,884,885; integrati881,882,884.883tabella tagliata: parziale ed esclusa.885tabella2017 letta non integrata.860 e875 restano parziali; limiti figurativi precedenti conservati. Lotto886–890: testi principali visibili886–889 completi, solo886 integrata;890parziale. Tabelle storiche887–889 non integrate, note mancanti e numeri esclusi. Lotto891–895: testi principali visibili891–893 e895 completi;892–893 integrati.894tabella tagliata, parziale esclusa.891 e895 lette non integrate; articoli riprodotti non letti integralmente. Lotto896–900: testi principali visibili completi, selezionate897,899,900.896 e898 lette non integrate. Corrette le distinzioni precursore/enzima eD2/D3; numeri e affermazioni assolute di sicurezza esclusi."
+      "detail": "PDF855–885, etichette853–883. Lotto881–885: testi principali completi881,882,884,885; integrati881,882,884.883tabella tagliata: parziale ed esclusa.885tabella2017 letta non integrata.860 e875 restano parziali; limiti figurativi precedenti conservati. Lotto886–890: testi principali visibili886–889 completi, solo886 integrata;890parziale. Tabelle storiche887–889 non integrate, note mancanti e numeri esclusi. Lotto891–895: testi principali visibili891–893 e895 completi;892–893 integrati.894tabella tagliata, parziale esclusa.891 e895 lette non integrate; articoli riprodotti non letti integralmente. Lotto896–900: testi principali visibili completi, selezionate897,899,900.896 e898 lette non integrate. Corrette le distinzioni precursore/enzima eD2/D3; numeri e affermazioni assolute di sicurezza esclusi. Lotto901–905: PDF901, tabella visibile; intestazioni cinetiche mancanti, numeri esclusi.902–905 riguardano altro argomento e non rientrano nel capitolo."
     },
     {
       "id": "APP",
@@ -593,12 +637,12 @@ export const THEORY_BONE = {
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX italiana2014 / XII originale2012. PDF884–893, editoriali864–873. Nel lotto876–880 riletta893 per sclerostina e stronzio; anti-sclerostina ancora sperimentale nell’edizione storica. Indicazioni e sicurezza non trasferite automaticamente. Lotto881–885: rilette886–887(stampate866–867), mediazioneRANKL e azioni renali; dosi storiche escluse. Lotto886–890: riletta891(stampata871), solo raccordo glucocorticoidi/formazione ossea. Lotto891–895: riletta891, formazione e bilancio del calcio. Lotto896–900: rilette887–889(stampate867–869); integrata per la prima volta888,solo trasporto/cinetica e via metabolica.889 non integrata."
+      "detail": "IX italiana2014 / XII originale2012. PDF884–893, editoriali864–873. Nel lotto876–880 riletta893 per sclerostina e stronzio; anti-sclerostina ancora sperimentale nell’edizione storica. Indicazioni e sicurezza non trasferite automaticamente. Lotto881–885: rilette886–887(stampate866–867), mediazioneRANKL e azioni renali; dosi storiche escluse. Lotto886–890: riletta891(stampata871), solo raccordo glucocorticoidi/formazione ossea. Lotto891–895: riletta891, formazione e bilancio del calcio. Lotto896–900: rilette887–889(stampate867–869); integrata per la prima volta888,solo trasporto/cinetica e via metabolica.889 non integrata. PDF889, stampa869: integrato il confronto qualitativo della tabella42-2; altri passaggi non trasferiti."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII italiana2016 / originale2015. Testi principali letti:PDF685–689 e692–695;690–691 non lette. Nel lotto876–880 riletta694 e letta695: integrato selettivamente lo stronzio. Numerazione editoriale non visibile; limiti precedenti preservati. Lotto881–885: riletta688, integrato solo il circuitoCaSR/PTH; esclusa l’identitàOPG=RANK e l’impiego storico della calcitonina. Lotto886–890: riletta695, distinzione denosumab/RANKL; indicazioni e prescrizioni storiche escluse. Lotto896–900: riletta689,integrata per la prima volta solo la distinzione fra precursori e metabolita attivo; frecce ambigue relative ad alfacalcidolo escluse."
+      "detail": "VIII italiana2016 / originale2015. Testi principali letti:PDF685–689 e692–695;690–691 non lette. Nel lotto876–880 riletta694 e letta695: integrato selettivamente lo stronzio. Numerazione editoriale non visibile; limiti precedenti preservati. Lotto881–885: riletta688, integrato solo il circuitoCaSR/PTH; esclusa l’identitàOPG=RANK e l’impiego storico della calcitonina. Lotto886–890: riletta695, distinzione denosumab/RANKL; indicazioni e prescrizioni storiche escluse. Lotto896–900: riletta689,integrata per la prima volta solo la distinzione fra precursori e metabolita attivo; frecce ambigue relative ad alfacalcidolo escluse. Riletta PDF689, figura36.4 e didascalia: attivazione epatica dell’alfacalcidolo verificata con la scheda del prodotto."
     },
     {
       "id": "ODS",
@@ -766,6 +810,18 @@ export const THEORY_BONE = {
       "title": "AIFA · FAQ sui farmaci a base di vitamina D",
       "url": "https://www.aifa.gov.it/it/domande-e-risposte-sui-farmaci-a-base-di-vitamina-d",
       "detail": "Pagina aggiornata21febbraio2023, consultata21novembre2026: misurazione e contesti clinici. Verificata anche la paginaNota96; non lettura integrale della Nota o del relativo algoritmo. Nessuna soglia di rimborso trasferita."
+    },
+    {
+      "id": "EMC-ALFA",
+      "title": "emc · Alfacalcidol, scheda del prodotto",
+      "detail": "Consultazione21 novembre2026: §§4.1,4.4,5.1–5.2 selezionati. Ambito britannico; documento completo e disponibilità italiana non verificati.",
+      "url": "https://www.medicines.org.uk/emc/product/14385/smpc"
+    },
+    {
+      "id": "KDIGO-MBD",
+      "title": "KDIGO2017 · Malattia minerale e ossea nella CKD",
+      "detail": "Consultazione21 novembre2026: raccomandazioni4.1.1,4.2.1–4.2.2, PDF17. Passaggi selezionati, non intera linea guida.",
+      "url": "https://kdigo.org/wp-content/uploads/2026/04/KDIGO-2017-CKD-MBD-Guideline.pdf"
     }
   ],
   "moleculeLinks": [
@@ -823,8 +879,8 @@ export const THEORY_BONE = {
   ],
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
-  "reviewedAt": "2026-11-21",
+  "reviewedAt": "2026-11-21T16:06:49.587429+00:00",
   "readingManifest": "./data/rimodellamento-osseo-osteoporosi-reading.json",
-  "coverage": "6 nuove pagine di testo principale complete;4 riletture. Cumulativo68 testi completi,73 pagine ispezionate,55 con passaggi integrati.5 pagine parziali precedenti escluse. Limiti figurativi e clinici dichiarati; nessuna revisione clinica indipendente.",
-  "wordCount": 8682
+  "coverage": "1 nuova pagina di testo visibile completa per il capitolo;2 riletture. Cumulativo69 testi completi,74 pagine ispezionate,57 con passaggi integrati.5 pagine parziali precedenti escluse. Altre5 nuove letture su anemia conservate separatamente e non integrate. Nessuna revisione clinica indipendente.",
+  "wordCount": 9350
 };

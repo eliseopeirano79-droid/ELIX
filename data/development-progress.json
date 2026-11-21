@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-21T15:24:57.799922+00:00",
-  "batch": "theory-course-896-900",
+  "updatedAt": "2026-11-21T16:11:41.103100+00:00",
+  "batch": "theory-course-901-905",
   "status": "locally_verified_pending_publication",
-  "release": "0.116.0",
-  "branch": "feat/theory-course-896-900",
-  "baseCommit": "52cc9265892a365a56a5a71787667e5895ab5ee3",
+  "release": "0.117.0",
+  "branch": "feat/theory-course-901-905",
+  "baseCommit": "7f11a674564c395b2bea4b00c99cc644b63c2162",
   "previousBatch": {
-    "batch": "theory-course-891-895",
-    "release": "0.115.0",
-    "commit": "52cc9265892a365a56a5a71787667e5895ab5ee3",
+    "batch": "theory-course-896-900",
+    "release": "0.116.0",
+    "commit": "7f11a674564c395b2bea4b00c99cc644b63c2162",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Ampliamento osseo:vitaminaD,bioattivazione,forme chimiche e significato delle misure."
+    "Chiusura del raccordo osseo:alfacalcidolo,calcitriolo e limiti dell’impiego nella malattia renale."
   ],
   "completed": [
-    "6 nuovi testi principali completi,4 riletture e10 ispezioni.",
-    "Due sezioni originali,5 quesiti e2 schemi;27 sezioni precedenti preservate.",
-    "Revisione editoriale mirata completata.",
-    "Superati51 validatori e8 configurazioni desktop/mobile,ricerche,collegamenti,tastiera e offline;8 immagini ispezionate. Aggiornamento reale0.115.0→0.116.0 con dati salvati conservati.65 altri capitoli,27 sezioni e46 quesiti precedenti invariati;5 fonti inalterate."
+    "CFI901–905 eAPP343:6 nuove letture;1 ossea,5 su anemia conservate separatamente.",
+    "Due sezioni originali,5 quesiti e2 schemi;29 sezioni e51 quesiti precedenti preservati.",
+    "Revisione editoriale delle668 parole nuove e5 quesiti completata.",
+    "Superati51 validatori e8 configurazioni desktop/mobile,ricerche,collegamenti,tastiera e offline;8 immagini ispezionate. Aggiornamento reale0.116.0→0.117.0 con dati salvati conservati.65 altri capitoli,29 sezioni e51 quesiti precedenti invariati;5 fonti inalterate."
   ],
   "remaining": [
     "Commit,CI,deploy concluso e riscontro online."
@@ -55,17 +55,16 @@
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
-    "Lotto:6 nuovi testi principali completi(CFI896–900,APP342),4 riletture(KATZ887–889,RANG689),10 ispezioni. Cumulativo68 testi completi,73 pagine ispezionate,55 integrate;4 nuove pagine integrate e2 precedentemente lette ora integrate.",
-    "CFI860,875,883,890,894 restano parziali escluse. Limiti figurativi precedenti preservati.896 margine figurativo tagliato ma testo principale completo;896 e898 lette non integrate.",
-    "CFI897:7-deidrocolesterolo è precursore,non enzima.899:CYP27A1 non descrive da solo la25-idrossilazione; evidenza umanaCYP2R1 limitata all’abstract,non intero studio. NCBIGene bloccato da verifica browser,non letto.",
-    "CFI898:nessun trasferimento di dosi tossiche,quote90/10 o sicurezza assoluta.900:equivalenza di attività non significa identica risposta25(OH)D; D2 non intermedia traD3 ecalcitriolo.",
-    "APP342:escluse assenza di ipervitaminosi e definizione normativa farmaco/integratore basata su accumulo. Interazioni descritte come principio,senza prescrizioni o monitoraggio universale.",
-    "RANG689:solo distinzione precursore/metabolita attivo. Didascalia dell’alfacalcidolo distinta dalla freccia ambigua; composto non sviluppato.",
-    "ODS,Endocrine Society eAIFA:passaggi selezionati consultati21novembre2026; nessuna lettura integrale di schede,linee guida oNota96. Raccomandazioni per sani non estese a indicazioni cliniche presenti. Nessuna soglia o dose trasferita.",
-    "Libri e corsi letti per intervalli. RANG690–691 eCFI901–905 non letti; FarmacologiaII e altri contributi ancora parzialmente riconciliati.",
+    "Per il capitolo:1 nuova lettura completa visibile(CFI901),2 riletture(KATZ889,RANG689),3 ispezioni. Cumulativo69 testi completi,74 ispezioni,57 pagine integrate;1 nuova pagina integrata e1 precedentemente letta ora integrata.",
+    "CFI860,875,883,890,894 restano parziali escluse; tutti i limiti figurativi precedenti conservati.901 presenta tabella senza intestazioni cinetiche: numeri e unità non interpretati né pubblicati.",
+    "CFI901:D2 non precursore dellaD3; vie generiche,emivite e uso dei derivati attivi in ogni grave malattia renale esclusi. Paricalcitolo e diidrotachisterolo non sviluppati.",
+    "RANG689:attivazione epatica dell’alfacalcidolo riconciliata con didascalia e scheda ufficiale; freccia ambigua non riprodotta. KATZ889:solo confronto qualitativo dei minerali,nessuna estensione alle patologie genetiche.",
+    "Scheda britannica dell’alfacalcidolo:passaggi selezionati,non intero documento oRCP italiano. KDIGO2017:raccomandazioni selezionate,non revisione completa; pagina indice diretta403,documento e indice ufficiale indicizzato accessibili. Nessuna dose,soglia operativa o calendario trasferiti.",
+    "CFI902–905 eAPP343:5 testi principali completi e5 ispezioni su anemia,conservati nel registro privato separato e non integrati. Non conteggiati come letture del capitolo osseo. Riconciliazione clinica e libraria dell’anemia ancora da svolgere.",
+    "Libri e corsi letti per intervalli. RANG690–691 eCFI906–910 non letti; FarmacologiaII e altri contributi ancora parzialmente riconciliati.",
     "Nessun PDF,trascrizione o figura originale pubblicati. Identità,sintesi di farmaci,profili e laboratori interattivi restano nel backlog."
   ],
-  "nextBatch": "Completare896–900;901–905 non iniziato.",
+  "nextBatch": "Completare901–905. Poi906–910,riconciliazione della teoria dell’anemia,conservando902–905 eAPP343 già lette.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",
