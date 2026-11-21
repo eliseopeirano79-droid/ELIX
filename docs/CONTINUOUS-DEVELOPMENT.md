@@ -4,19 +4,19 @@ Un solo lotto e un solo integratore alla volta. Questa chat integra e pubblica; 
 
 ## Denominazioni pubbliche delle fonti
 
-Usare «appunti e diapositive del corso di Farmacologia», con anno,lezione,data e pagine. Nomi dei docenti e denominazioni informali restano nei registri privati.
+Usare appunti e diapositive del corso di Farmacologia, con anno,lezione,data e pagine. Docenti e denominazioni informali nei registri privati.
 
 ## Lotto corrente
 
-theory-course-881-885, candidato0.113.0. Due sezioni suPTH1R, dialogo cellulare, calcemia e lettura degli esiti. Ora23 sezioni,6211 parole,36 quesiti e23 schemi qualitativi. Nessuna nuova identità,sintesi,profilo o laboratorio;21 sezioni precedenti preservate.
+theory-course-886-890, candidato0.114.0. Rischio dinamico,beneficio assoluto e ordine dei trattamenti. Ora25 sezioni,7004 parole,41 quesiti e25 schemi qualitativi. Nessuna nuova identità,sintesi,profilo o laboratorio.
 
-Ultima consegna verificata0.112.0,commit697bec052cd168485213bfd07832fa392f452a58. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
+Ultima consegna verificata0.113.0,commit9c4d5ecc2efc5816a4eb76a376ded7d368744373. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
 
-Deduplicazione su191 registri.4 nuove letture complete,1 parziale,4 riletture e9 ispezioni. Cumulativo53 testi completi,56 pagine ispezionate,45 integrate. SelezionatiCFI881,882,884 e la precedenteRANG688;885 non integrata. CFI860,875,883 restano parziali.
+Deduplicazione su193 registri.5 nuove letture complete,1 parziale,2 riletture e8 ispezioni. Cumulativo58 testi completi,62 pagine ispezionate,47 integrate. SelezionatiCFI886 eAPP341;887–889 lette non integrate;890parziale esclusa.
 
-Confronto mirato21novembre2026 conRCPForsteo,NOGG6 e introduzione di uno studioPTH1R. Distinti trasduzione, rete cellulare, compartimenti e livelli delle prove cliniche. Nessuna dose o calendario trasferiti,nessuna revisione clinica indipendente.
+Confronto mirato21novembre2026:NOGG4,6,7 e abstract/primi paragrafi discussioneDATA-Switch. Densità distinta da fratture; erroriAPP341 riconciliati. Nessuna dose,criterioAIFA o calendario trasferiti. Revisione clinica indipendente aperta.
 
-Revisione editoriale mirata completata. Superati51 validatori e8 configurazioni desktop/mobile,tastiera,ricerca,collegamenti e offline;8 immagini ispezionate. Aggiornamento reale0.112.0→0.113.0 con dati salvati e tema conservati.65 altri capitoli,21 sezioni e31 quesiti precedenti invariati;5 fonti inalterate. Commit,CI,deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-881-885-2026-11-21/.
+Revisione editoriale mirata completata. Superati51 validatori e8 configurazioni desktop/mobile,ricerche,collegamenti,tastiera e offline;8 immagini ispezionate. Aggiornamento reale0.113.0→0.114.0 con preferiti,progressi e tema conservati.65 altri capitoli,23 sezioni e36 quesiti precedenti invariati;5 fonti inalterate. Commit,CI,deploy e riscontro online da completare. Prove private in ../../outputs/ELIX-course-886-890-2026-11-21/.
 
 ## Regole
 
@@ -28,4 +28,4 @@ Revisione editoriale mirata completata. Superati51 validatori e8 configurazioni 
 
 ## Prossimo intervallo
 
-Completare881–885 e verificarne la pubblicazione.886–890 non iniziato. Teoria prima di farmaci,profili e laboratori.
+Completare886–890 e verificarne la pubblicazione.891–895 non iniziato. Teoria prima di farmaci,profili e laboratori.
