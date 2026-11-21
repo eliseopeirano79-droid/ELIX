@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-21T14:45:43.019924+00:00",
-  "batch": "theory-course-891-895",
+  "updatedAt": "2026-11-21T15:24:57.799922+00:00",
+  "batch": "theory-course-896-900",
   "status": "locally_verified_pending_publication",
-  "release": "0.115.0",
-  "branch": "feat/theory-course-891-895",
-  "baseCommit": "b59e64fce8d000d18f23872bbaf881330cd90a0a",
+  "release": "0.116.0",
+  "branch": "feat/theory-course-896-900",
+  "baseCommit": "52cc9265892a365a56a5a71787667e5895ab5ee3",
   "previousBatch": {
-    "batch": "theory-course-886-890",
-    "release": "0.114.0",
-    "commit": "b59e64fce8d000d18f23872bbaf881330cd90a0a",
+    "batch": "theory-course-891-895",
+    "release": "0.115.0",
+    "commit": "52cc9265892a365a56a5a71787667e5895ab5ee3",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Ampliamento osseo:glucocorticoidi,GR,metabolismo locale e prevenzione della fragilità."
+    "Ampliamento osseo:vitaminaD,bioattivazione,forme chimiche e significato delle misure."
   ],
   "completed": [
-    "4 nuovi testi principali completi,1 parziale;2 riletture e7 ispezioni.",
-    "Due sezioni originali,5 quesiti e2 schemi;25 sezioni precedenti preservate.",
+    "6 nuovi testi principali completi,4 riletture e10 ispezioni.",
+    "Due sezioni originali,5 quesiti e2 schemi;27 sezioni precedenti preservate.",
     "Revisione editoriale mirata completata.",
-    "Superati51 validatori e8 configurazioni desktop/mobile,ricerche,collegamenti,tastiera e offline;8 immagini ispezionate. Aggiornamento reale0.114.0→0.115.0 con dati salvati conservati.65 altri capitoli,25 sezioni e41 quesiti precedenti invariati;5 fonti inalterate."
+    "Superati51 validatori e8 configurazioni desktop/mobile,ricerche,collegamenti,tastiera e offline;8 immagini ispezionate. Aggiornamento reale0.115.0→0.116.0 con dati salvati conservati.65 altri capitoli,27 sezioni e46 quesiti precedenti invariati;5 fonti inalterate."
   ],
   "remaining": [
     "Commit,CI,deploy concluso e riscontro online."
@@ -55,17 +55,17 @@
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
-    "Lotto:4 nuovi testi principali completi(CFI891–893,895),2 riletture(KATZ891,APP341),7 ispezioni. Cumulativo62 testi completi,67 pagine ispezionate,49 integrate;2 nuove pagine integrate.",
-    "CFI860,875,883,890,894 parziali escluse da lettura completa e integrazione.894tabella tagliata; limiti precedenti preservati.",
-    "CFI891 e895 lette non integrate: tabella2023 con note esterne mancanti e notizia2022. Articoli riprodotti non letti integralmente; nessuna dose, percentuale o disponibilità attuale dedotta.",
-    "CFI892: cortisone distinto da cortisolo. H-type vessels,ferroptosi e varianti genetiche non sviluppati né trasformati in raccomandazioni. StudioHSD1: abstract/introduzione, non intero articolo o figure; modello murino distinto da efficacia clinica.",
-    "CFI893: confronto selettivo conNOGG7 eACR. Tabelle di linee guida non equivalgono alla lettura dei documenti completi. NOGG non prescrive terapia indistintamente a tutti; raccomandazioni forti/condizionali distinte.",
-    "Nota79: pagina attuale26settembre2025 e testo PDF1–4 consultati; non intero documento. Immagine della tabella ufficiale non verificata:download403. Nessuna soglia numerica trasferita; criteri di rimborso separati da valutazione clinica.",
-    "APP341: generalizzazione attesa di tre mesi ed età unica non trasferita; indicazione clinica,rischio e rimborso distinti. Errori pregressi di bersaglio e sequenza restano esclusi.",
-    "Libri e corsi letti per intervalli. RANG690–691 eCFI896–900 non letti; FarmacologiaII e altri contributi ancora parzialmente riconciliati.",
-    "Nessun PDF, trascrizione o figura originale pubblicati. Identità,sintesi di farmaci,profili e laboratori interattivi restano nel backlog."
+    "Lotto:6 nuovi testi principali completi(CFI896–900,APP342),4 riletture(KATZ887–889,RANG689),10 ispezioni. Cumulativo68 testi completi,73 pagine ispezionate,55 integrate;4 nuove pagine integrate e2 precedentemente lette ora integrate.",
+    "CFI860,875,883,890,894 restano parziali escluse. Limiti figurativi precedenti preservati.896 margine figurativo tagliato ma testo principale completo;896 e898 lette non integrate.",
+    "CFI897:7-deidrocolesterolo è precursore,non enzima.899:CYP27A1 non descrive da solo la25-idrossilazione; evidenza umanaCYP2R1 limitata all’abstract,non intero studio. NCBIGene bloccato da verifica browser,non letto.",
+    "CFI898:nessun trasferimento di dosi tossiche,quote90/10 o sicurezza assoluta.900:equivalenza di attività non significa identica risposta25(OH)D; D2 non intermedia traD3 ecalcitriolo.",
+    "APP342:escluse assenza di ipervitaminosi e definizione normativa farmaco/integratore basata su accumulo. Interazioni descritte come principio,senza prescrizioni o monitoraggio universale.",
+    "RANG689:solo distinzione precursore/metabolita attivo. Didascalia dell’alfacalcidolo distinta dalla freccia ambigua; composto non sviluppato.",
+    "ODS,Endocrine Society eAIFA:passaggi selezionati consultati21novembre2026; nessuna lettura integrale di schede,linee guida oNota96. Raccomandazioni per sani non estese a indicazioni cliniche presenti. Nessuna soglia o dose trasferita.",
+    "Libri e corsi letti per intervalli. RANG690–691 eCFI901–905 non letti; FarmacologiaII e altri contributi ancora parzialmente riconciliati.",
+    "Nessun PDF,trascrizione o figura originale pubblicati. Identità,sintesi di farmaci,profili e laboratori interattivi restano nel backlog."
   ],
-  "nextBatch": "Completare891–895;896–900 non iniziato.",
+  "nextBatch": "Completare896–900;901–905 non iniziato.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",
