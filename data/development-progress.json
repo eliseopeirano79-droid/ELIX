@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-11-26T15:24:59.558446+00:00",
-  "batch": "theory-course-916-920",
+  "updatedAt": "2026-11-26T17:00:04.641418+00:00",
+  "batch": "theory-course-921-925",
   "status": "locally_verified_pending_publication",
-  "release": "0.120.0",
-  "branch": "feat/theory-course-916-920",
-  "baseCommit": "7ca7a2db0e9f6a2015d11f72e1b068cd75a8fc58",
+  "release": "0.121.0",
+  "branch": "feat/theory-course-921-925",
+  "baseCommit": "58b6943a20ddf2321f6256eb32f3003a24da315e",
   "previousBatch": {
-    "batch": "theory-course-911-915",
-    "release": "0.119.0",
-    "commit": "7ca7a2db0e9f6a2015d11f72e1b068cd75a8fc58",
+    "batch": "theory-course-916-920",
+    "release": "0.120.0",
+    "commit": "58b6943a20ddf2321f6256eb32f3003a24da315e",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Ampliamento del capitolo sulle anemie con EPO, fattori mieloidi e agonisti della trombopoietina."
+    "Ampliamento del capitolo osseo: misura DXA, precisione eLSC, VFA,TBS e rischio di frattura."
   ],
   "completed": [
-    "16 nuove letture complete del testo visibile e ispezioni,38 pagine riutilizzate; deduplicazione su 207 registri.",
-    "10 nuove sezioni,1 raccordo aggiornato,12 nuovi quesiti e 10 schemi qualitativi. Totale: 7266 parole,28 sezioni e 42 quesiti. Revisione editoriale del solo integratore completata.",
-    "Superati 52 validatori e 8 configurazioni desktop/mobile, temi, tastiera, collegamenti, ricerche e offline. Ispezionate 24 immagini. Aggiornamento reale 0.119.0→0.120.0 con preferiti, avanzamento e tema conservati."
+    "5 nuove pagine lette e ispezionate;3 con passaggi integrati. Deduplicazione su276 registri.",
+    "3 sezioni,6 quesiti e3 schemi originali;10131 parole e34 sezioni complessive.",
+    "Superati52 validatori,8 configurazioni desktop/mobile,temi,tastiera,collegamenti,ricerche eoffline;10 immagini ispezionate. Aggiornamento reale0.120.0→0.121.0 con dati e tema conservati."
   ],
   "remaining": [
-    "Commit, CI, deploy concluso e riscontro online."
+    "Commit,CI,deploy concluso e riscontro online."
   ],
   "counts": {
     "identities": 4225,
@@ -42,32 +42,32 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 10,
-    "expandedSections": 1,
-    "newLinksToExistingIdentities": 10,
-    "newStaticOriginalSchemas": 10,
-    "newSelfChecks": 12,
+    "newSections": 3,
+    "expandedSections": 0,
+    "newLinksToExistingIdentities": 0,
+    "newStaticOriginalSchemas": 3,
+    "newSelfChecks": 6,
     "unchangedExistingChapters": 66
   },
   "readingManifests": [
-    "data/anemie-ferro-chelazione-reading.json"
+    "data/rimodellamento-osseo-osteoporosi-reading.json"
   ],
   "limits": [
-    "Sintesi originale didattica; revisione editoriale del solo integratore, senza revisione clinica indipendente.",
-    "16 nuove letture complete del testo visibile e 16 nuove ispezioni; 38 pagine precedenti riutilizzate. Totale 54: integrate selezioni dalle 16 nuove pagine e dalle 4 già lette ma rinviate. Non tutti i contenuti delle pagine sono integrati.",
-    "La pagina 908 contiene una tabella in immagine: il testo visibile è stato letto sulla resa grafica. Mancano intestazioni cinetiche in 907 e note esterne in alcune tabelle; valori non ricostruiti.",
-    "Dosi, prezzi, disponibilità storiche, graduatorie di efficacia e procedure obsolete esclusi. Nessuna soglia operativa o schema posologico individuale pubblicato.",
-    "BSG: passaggi selezionati della linea guida 2021, indice revisionato nel 2026; aggiornamento FIT 2025 non letto né integrato. ASH 2026 e NICE NG239: solo passaggi ufficiali indicizzati, accesso diretto negato. NHS: revisione 2023 con controllo previsto nel 2026, limite temporale dichiarato.",
-    "EMA: passaggi selezionati delle schede di deferasirox e deferiprone, non intere schede. Deferoxamina: record DailyMed aggiornato nel 2025 con testo revisionato nel 2022, distinta giurisdizione USA.",
-    "Contributi di Farmacologia II limitati alla lezione 2 PDF 9/14 e alla lezione 14 PDF 21. La ricerca nelle altre estrazioni non equivale alla lettura integrale di corsi o libri; nessuna nuova pagina della lezione 14 letta in questo lotto.",
-    "CFI913–915 e APP344 ripresi e integrati limitatamente ai passaggi riconciliati. Il riquadro di anno precedente in APP344 mantiene anno e attribuzione non identificati. Oltre gli intervalli dichiarati le continuazioni non sono lette.",
-    "Rang 492: unità incongrue anche nella resa grafica, escluse. Sede di assorbimento dei folati, nomenclatura, selettività della DHFR e bypass con folinato riconciliati senza numeri clinici.",
-    "Nuovo confronto ufficiale del 26 novembre 2026 limitato a passaggi selezionati di NIH, NICE, MHRA, Ministero e DailyMed. Per NICE disponibili solo passaggi indicizzati. Nessuna intera linea guida o scheda dichiarata letta.",
-    "Fattori ematopoietici: confronto del 26 novembre 2026 con selezioni KDIGO2026, ASCO2026 e ASCO/ASH2019 e schede EMA. ASCO-CSF e parte delle schede disponibili solo tramite passaggi indicizzati. Nessuna intera linea guida o scheda dichiarata letta; nessuna revisione clinica indipendente.",
-    "Tabelle storiche EPO, grafico dei casi di aplasia eritroide, protocolli di mobilizzazione, IL-11 e disponibilità dei prodotti non trasferiti come raccomandazioni correnti. Rang 497: parte sull’emolisi letta ma fuori ambito e non aggiornata clinicamente.",
-    "Nessun PDF, trascrizione o figura delle fonti pubblicati; strutture chimiche e grandezze sperimentali non validate integralmente."
+    "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
+    "CFI860,875,883,890,894 restano parziali escluse; tutti i limiti figurativi precedenti conservati.901 presenta tabella senza intestazioni cinetiche: numeri e unità non interpretati né pubblicati.",
+    "CFI901:D2 non precursore dellaD3; vie generiche,emivite e uso dei derivati attivi in ogni grave malattia renale esclusi. Paricalcitolo e diidrotachisterolo non sviluppati.",
+    "RANG689:attivazione epatica dell’alfacalcidolo riconciliata con didascalia e scheda ufficiale; freccia ambigua non riprodotta. KATZ889:solo confronto qualitativo dei minerali,nessuna estensione alle patologie genetiche.",
+    "Scheda britannica dell’alfacalcidolo:passaggi selezionati,non intero documento oRCP italiano. KDIGO2017:raccomandazioni selezionate,non revisione completa; pagina indice diretta403,documento e indice ufficiale indicizzato accessibili. Nessuna dose,soglia operativa o calendario trasferiti.",
+    "Nessun PDF,trascrizione o figura originale pubblicati. Identità,sintesi di farmaci,profili e laboratori interattivi restano nel backlog.",
+    "Lotto921–925:5 nuove letture complete del testo visibile e5 ispezioni;3 pagine con selezioni integrate. Le69 pagine pregresse sono copertura ereditata, non nuove riletture. Totale74 complete,79 ispezionate,60 integrate.",
+    "Il contenitore del corso include un articolo JAMA del2025: E1–E5 lette; E6 e seguenti, bibliografia e studi citati non letti.921–922 non integrati;923–925 integrati solo per densitometria e valutazione del rischio.",
+    "Radiografie di924 ispezionate con la didascalia, senza revisione radiologica indipendente. Nessuna immagine riprodotta. La prosecuzione sui bisfosfonati a926 non è stata letta.",
+    "Soglie terapeutiche, screening di popolazione, sospensioni automatiche dei bisfosfonati, dosi e risultati quantitativi clinici del review non trasferiti. LSC distinta dalla prova individuale di beneficio; numeri del solo esempio didattico verificati aritmeticamente.",
+    "Passaggi ufficiali selezionati ISCD,NOGG eNIAMS confrontati il26novembre2026; NIAMS limitato al testo indicizzato. Nessuna revisione clinica indipendente o intera linea guida dichiarata letta.",
+    "La riconciliazione cumulativa con Katzung,Rang,appunti di Farmacologia I e contributo di Farmacologia II già presente è conservata. Nessuna nuova lettura di libri o altri corsi in questo lotto; eventuali ulteriori contributi restano da riconciliare.",
+    "Le pagine CFI902–920 eAPP343–344 appartengono al lavoro sulle anemie consegnato separatamente fino alla0.120.0; non sono incluse nei conteggi del capitolo osseo. Prossimo intervallo926–930 non iniziato."
   ],
-  "nextBatch": "Completare 916–920; poi un solo intervallo 921–925, ancora non iniziato. Farmaci, profili e laboratori restano nel backlog.",
+  "nextBatch": "Completare921–925; poi un solo intervallo926–930, non iniziato. Farmaci,profili e laboratori nel backlog.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",
