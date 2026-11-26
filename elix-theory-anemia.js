@@ -2,7 +2,7 @@ export const THEORY_ANEMIA = {
   "id": "anemie-ferro-chelazione",
   "volume": 7,
   "title": "Anemie, ferro e chelazione",
-  "lead": "Dalla produzione eritroide al bilancio del ferro: trasportatori, depositi, terapia marziale e rimozione del metallo in eccesso. Un percorso originale con raccordo introduttivo a B12 e folati.",
+  "lead": "Ferro, vitamina B12 e folati: assorbimento, recettori, cofattori, cause di carenza e bersagli farmacologici. Il percorso distingue sostituzione dei nutrienti, rimozione del ferro in eccesso e azione degli antifolati.",
   "sections": [
     {
       "id": "anemia-e-meccanismo",
@@ -14,7 +14,7 @@ export const THEORY_ANEMIA = {
         "RANG",
         "NICE-B12"
       ],
-      "text": "La concentrazione di emoglobina esprime la quantità di pigmento che il sangue mette a disposizione per trasportare ossigeno. Quando è ridotta rispetto al riferimento pertinente, si parla di anemia. Questa definizione descrive un risultato, mentre la scelta farmacologica richiede di ricostruirne il meccanismo. Il midollo può produrre troppo pochi eritrociti, gli eritrociti possono essere persi con un sanguinamento oppure distrutti più rapidamente. Nella stessa persona possono coesistere più processi.\n\nLa produzione richiede materie prime e segnali. Il ferro entra nell’eme; folati e vitamina B12 partecipano a processi necessari alla sintesi del DNA e alla maturazione cellulare. L’eritropoietina è invece un segnale ormonale che sostiene la produzione eritroide. Aggiungere un nutriente e stimolare una popolazione di precursori sono interventi diversi. Se il fattore limitante resta irrisolto, aumentare un altro componente non garantisce una risposta adeguata.\n\nLe dimensioni degli eritrociti aiutano a orientarsi: microcitosi, normocitosi e macrocitosi sono descrizioni morfologiche, non diagnosi eziologiche. La carenza di ferro può condurre a microcitosi; la carenza di B12 o folati può produrre un quadro megaloblastico. Queste associazioni non sono equivalenze esclusive. Una carenza iniziale o un quadro misto possono non presentare la morfologia attesa. NICE sottolinea inoltre che l’assenza di anemia o macrocitosi non esclude una carenza di B12.\n\nIl capitolo approfondisce soprattutto il ferro: come arriva ai precursori, perché può diventare indisponibile e come cambia il significato della terapia quando il problema è un eccesso. Le altre anemie richiedono percorsi propri. Questa distinzione evita di trasformare la parola «antianemico» in una classe di farmaci intercambiabili.",
+      "text": "La concentrazione di emoglobina esprime la quantità di pigmento che il sangue mette a disposizione per trasportare ossigeno. Quando è ridotta rispetto al riferimento pertinente, si parla di anemia. Questa definizione descrive un risultato, mentre la scelta farmacologica richiede di ricostruirne il meccanismo. Il midollo può produrre troppo pochi eritrociti, gli eritrociti possono essere persi con un sanguinamento oppure distrutti più rapidamente. Nella stessa persona possono coesistere più processi.\n\nLa produzione richiede materie prime e segnali. Il ferro entra nell’eme; folati e vitamina B12 partecipano a processi necessari alla sintesi del DNA e alla maturazione cellulare. L’eritropoietina è invece un segnale ormonale che sostiene la produzione eritroide. Aggiungere un nutriente e stimolare una popolazione di precursori sono interventi diversi. Se il fattore limitante resta irrisolto, aumentare un altro componente non garantisce una risposta adeguata.\n\nLe dimensioni degli eritrociti aiutano a orientarsi: microcitosi, normocitosi e macrocitosi sono descrizioni morfologiche, non diagnosi eziologiche. La carenza di ferro può condurre a microcitosi; la carenza di B12 o folati può produrre un quadro megaloblastico. Queste associazioni non sono equivalenze esclusive. Una carenza iniziale o un quadro misto possono non presentare la morfologia attesa. NICE sottolinea inoltre che l’assenza di anemia o macrocitosi non esclude una carenza di B12.\n\nIl capitolo segue il ferro fino ai depositi e alla chelazione, poi approfondisce B12 e folati fino ai cofattori e ai bersagli dei farmaci. Il filo comune è riconoscere il fattore limitante: disponibilità di metallo, maturazione del DNA e segnale eritropoietico indicano problemi diversi. Le altre cause di anemia richiedono percorsi propri; il nome «antianemico» non identifica trattamenti intercambiabili.",
       "formula": "Ridotta produzione, perdita o distruzione accelerata → anemia. Il meccanismo orienta il bersaglio terapeutico."
     },
     {
@@ -129,12 +129,99 @@ export const THEORY_ANEMIA = {
       "refs": [
         "CFI",
         "APP",
+        "KATZ",
         "RANG",
-        "NICE-B12",
         "NHS-FOLATI"
       ],
-      "text": "Il ferro partecipa direttamente all’eme, mentre folati e vitamina B12 sostengono processi necessari alla sintesi del DNA. Quando la maturazione nucleare dei precursori è compromessa, l’eritropoiesi può diventare inefficace e comparire un quadro megaloblastico. È un problema differente dalla sola disponibilità di metallo. Il collegamento fra queste carenze spiega perché un’etichetta morfologica orienti l’indagine ma non basti a scegliere il nutriente da reintegrare.\n\nLo schema dei folati mette in rapporto il trasferimento di unità a un carbonio con la produzione di componenti del DNA. La B12 partecipa al recupero di forme utilizzabili del folato attraverso la reazione della metionina sintasi. I due sistemi sono connessi, ma le vitamine non sono sostituibili l’una con l’altra. Una descrizione introduttiva non esaurisce il metabolismo della B12, le sue funzioni neurologiche o le cause del suo malassorbimento.\n\nL’acido folico ha anche un impiego terapeutico nella carenza di folati: non appartiene soltanto alla prevenzione. Prima di trattare una sospetta carenza con folato isolato occorre considerare la B12. Il miglioramento del quadro ematologico può mascherare una carenza di B12 che rimane irrisolta, con conseguenze neurologiche. NICE ricorda inoltre che il sospetto di carenza di B12 non dipende obbligatoriamente dalla presenza di anemia o macrocitosi.\n\nQuesto raccordo delimita il passaggio al successivo approfondimento: assorbimento delle vitamine, cause della carenza e modalità di sostituzione richiedono una trattazione dedicata. Il principio comune resta riconoscere il fattore limitante. Nutriente, segnale eritropoietico e chelante agiscono su problemi diversi; il nome della malattia e il valore dell’emoglobina acquistano significato farmacologico solo quando vengono collegati a quel problema.",
+      "text": "Il ferro partecipa direttamente all’eme, mentre folati e vitamina B12 sostengono processi necessari alla sintesi del DNA. Quando la maturazione nucleare dei precursori è compromessa, l’eritropoiesi può diventare inefficace e comparire un quadro megaloblastico. È un problema differente dalla sola disponibilità di metallo. Il collegamento fra queste carenze spiega perché un’etichetta morfologica orienti l’indagine ma non basti a scegliere il nutriente da reintegrare.\n\nIl metabolismo dei folati mette in rapporto il trasferimento di unità a un carbonio con la produzione di componenti del DNA. La B12 partecipa al recupero di forme utilizzabili del folato attraverso la reazione della metionina sintasi, ma svolge anche una funzione coenzimatica distinta nella conversione del metilmalonil-CoA. I due sistemi condividono un nodo senza coincidere: correggere il metabolismo dei folati non significa ripristinare tutte le funzioni della cobalamina.\n\nL’acido folico ha un impiego terapeutico nella carenza di folati, oltre al ruolo preventivo. Il miglioramento del sangue sotto folato isolato può però lasciare irrisolta una carenza di B12 con coinvolgimento neurologico. Il bersaglio da correggere deve perciò essere identificato, senza attribuire alla sola risposta ematologica il significato di guarigione completa.\n\nLe sezioni successive ricostruiscono i due percorsi dall’assorbimento alla cellula e distinguono sostituzione, prevenzione e interferenza farmacologica. Un nutriente rende disponibile un cofattore; un antifolato può ostacolare la sintesi dei nucleotidi; un chelante rimuove metallo in eccesso. Collegare problema, bersaglio ed effetto rende comprensibile la scelta farmacologica senza trasformare il capitolo in un protocollo terapeutico.",
       "formula": "Ferro → eme; folati e B12 → maturazione cellulare. Correggere una carenza non rende intercambiabili i trattamenti."
+    },
+    {
+      "id": "b12-assorbimento-trasporto",
+      "title": "Vitamina B12: una catena di passaggi dall’alimento alla cellula",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "RANG",
+        "NIH-B12"
+      ],
+      "text": "La cobalamina alimentare è in gran parte legata a proteine. Per utilizzarla, l’apparato digerente deve liberarla e trasferirla fra proteine di legame diverse. Nello stomaco, acidità e digestione favoriscono il distacco dalla matrice alimentare; la vitamina si associa all’aptocorrina, indicata anche come proteina R. Il fattore intrinseco è prodotto dalle cellule parietali gastriche, ma il suo ruolo non consiste nel distruggere le proteine dell’alimento.\n\nNel tenue prossimale, le proteasi pancreatiche degradano l’aptocorrina e rendono possibile il trasferimento della B12 al fattore intrinseco. Il complesso raggiunge l’ileo terminale, dove viene riconosciuto da un sistema recettoriale e internalizzato. Nel sangue, il trasporto verso i tessuti coinvolge la transcobalamina. Proteina R, fattore intrinseco e transcobalamina svolgono quindi compiti successivi: protezione e passaggio nel lume, riconoscimento per l’assorbimento, distribuzione sistemica. Non sono nomi alternativi dello stesso trasportatore.\n\nQuesta sequenza permette di localizzare le cause di carenza. Un’alimentazione priva di apporti adeguati riduce il materiale iniziale; la gastrite autoimmune può compromettere il fattore intrinseco; una patologia o resezione ileale può interrompere l’ultima tappa intestinale. In queste condizioni la dieta può contenere la vitamina, ma la sua utilizzazione essere insufficiente. Le riserve, soprattutto epatiche, possono ritardare la comparsa della carenza: il tempo trascorso dalla modifica alimentare non coincide necessariamente con il momento in cui diventano evidenti i sintomi.\n\nAnche i farmaci entrano nel ragionamento causale. La soppressione dell’acidità può ostacolare la liberazione della B12 legata agli alimenti; la metformina può ridurne l’assorbimento. Sono fattori da considerare nel contesto, non una diagnosi automatica di carenza né un motivo per sospendere autonomamente una terapia. Distinguere la vitamina legata all’alimento da quella già libera aiuta infine a capire perché la disponibilità di una formulazione non si deduca soltanto dalla quantità di B12 presente nel pasto.",
+      "formula": "B12 alimentare → proteina R → fattore intrinseco → riconoscimento ileale → transcobalamina → tessuti. Ogni passaggio può diventare limitante."
+    },
+    {
+      "id": "b12-reazioni-trappola",
+      "title": "Due reazioni della B12 e la trappola del metilfolato",
+      "refs": [
+        "KATZ",
+        "RANG",
+        "NIH-B12"
+      ],
+      "text": "Nelle cellule la vitamina B12 viene utilizzata in forme coenzimatiche diverse. La metilcobalamina partecipa alla reazione della metionina sintasi: il gruppo metile del 5-metiltetraidrofolato viene trasferito all’omocisteina, formando metionina e rigenerando tetraidrofolato. Questa reazione collega il metabolismo degli amminoacidi alla disponibilità delle forme di folato necessarie ad altre trasformazioni. La B12 non fornisce il ferro dell’eme e non sostituisce il folato come trasportatore di unità a un carbonio.\n\nQuando la reazione rallenta per carenza di B12, aumenta la difficoltà a recuperare il folato dalla forma metilata. La «trappola del metilfolato» descrive questa riduzione funzionale delle forme disponibili per altri impieghi, anche quando il problema iniziale non è una mancanza alimentare di folati. La sintesi dei nucleotidi ne risente e i precursori cellulari possono maturare in modo anomalo. Si comprende così perché due carenze distinte possano condividere una manifestazione megaloblastica.\n\nL’adenosilcobalamina sostiene invece la metilmalonil-CoA mutasi, che converte metilmalonil-CoA in succinil-CoA. L’alterazione di questo percorso contribuisce all’aumento dell’acido metilmalonico, spesso abbreviato MMA. È un collegamento metabolico diverso da quello dell’omocisteina: una carenza isolata di folati non blocca direttamente questa reazione. I due indicatori non sono perciò intercambiabili.\n\nIl coinvolgimento neurologico della carenza di B12 richiede una cautela ulteriore. I circuiti metabolici spiegano perché la vitamina interessi tessuti diversi dal midollo, ma non autorizzano a ridurre tutti i danni neurologici a un’unica freccia o a una sola sostanza accumulata. Il miglioramento della sintesi del DNA dopo folato non dimostra che le funzioni dipendenti dalla cobalamina siano state ripristinate. Il modello è utile proprio quando conserva la distinzione fra risposta ematologica, metabolismo e funzione nervosa.",
+      "formula": "Metil-B12: omocisteina → metionina e recupero del THF. Adenosil-B12: metilmalonil-CoA → succinil-CoA. Due reazioni, conseguenze differenti."
+    },
+    {
+      "id": "folati-ciclo-carbonio",
+      "title": "Folati: assorbimento e circolazione delle unità a un carbonio",
+      "refs": [
+        "KATZ",
+        "RANG",
+        "NIH-FOLATI",
+        "PCFT"
+      ],
+      "text": "Il termine folati comprende molecole correlate che partecipano al trasferimento di unità a un carbonio. Nei cibi molte forme sono poliglutamate: prima dell’assorbimento, la catena di glutammati deve essere accorciata. Il trasporto intestinale si svolge soprattutto nel tenue prossimale. Il trasportatore accoppiato ai protoni PCFT, codificato da SLC46A1, collega l’ingresso della vitamina al microambiente acido della superficie intestinale. Questa sede va distinta dall’ileo terminale, centrale nel percorso del complesso B12–fattore intrinseco.\n\nAll’interno delle cellule il tetraidrofolato, o THF, funziona come supporto per gruppi a un carbonio in stati chimici differenti. Le forme metilate, metileniche e formilate non svolgono tutte lo stesso compito. Il 5,10-metilen-THF partecipa alla conversione di dUMP in dTMP catalizzata dalla timidilato sintasi; il 10-formil-THF contribuisce alla sintesi delle purine. Il 5-metil-THF alimenta invece la reazione della metionina sintasi dipendente da B12. Confondere «metile» e «metilene» nasconde dunque una differenza funzionale, non soltanto un dettaglio di nomenclatura.\n\nDurante la produzione di dTMP, il cofattore folato viene ossidato a diidrofolato, o DHF. La diidrofolato reduttasi, DHFR, lo riporta allo stato ridotto utilizzabile. Questo riciclo mantiene disponibile la riserva di cofattori e rende l’enzima un bersaglio farmacologico. L’acido folico impiegato in molti medicinali e integratori è una forma ossidata che deve essere convertita; il folinato è già un folato ridotto. La parentela chimica non rende identici i loro impieghi.\n\nLe riserve di folati sono meno durevoli di quelle della B12. Una disponibilità insufficiente può emergere quando diminuisce l’apporto, si altera l’assorbimento o aumenta la richiesta di proliferazione. Le cellule che producono nuovo DNA risentono particolarmente del deficit. La carenza non interessa quindi esclusivamente l’emoglobina: il suo centro biologico è l’insufficiente sostegno alla sintesi dei nucleotidi.",
+      "formula": "THF + unità a un carbonio → purine, timidilato e metionina. DHFR ricicla DHF; B12 sostiene il recupero del folato metilato."
+    },
+    {
+      "id": "vitamine-indicatori-neurologia",
+      "title": "Megaloblastosi e indicatori: leggere insieme sangue e sistema nervoso",
+      "refs": [
+        "KATZ",
+        "RANG",
+        "NIH-B12",
+        "NICE-B12"
+      ],
+      "text": "La megaloblastosi nasce da una maturazione nucleare inadeguata rispetto alla crescita della cellula. Nel midollo, il difetto di sintesi del DNA può rendere inefficace la produzione: alcuni precursori non arrivano a diventare elementi circolanti funzionali. La macrocitosi descrive invece le dimensioni degli eritrociti nel sangue. Le due parole sono collegate, ma non sono sinonimi; esistono macrocitosi con altri meccanismi e carenze vitaminiche senza il quadro morfologico completo.\n\nPer separare B12 e folati è utile interrogare percorsi differenti. La concentrazione della vitamina offre un’informazione sulla disponibilità misurata; gli indicatori metabolici possono aggiungere informazioni sull’attività delle reazioni che ne dipendono. Un aumento dell’omocisteina può comparire sia nel deficit di folati sia in quello di B12. L’MMA è più direttamente collegato alla reazione dipendente dalla cobalamina, ma risente anche della funzione renale e di altri fattori. Nessuno dei due risultati va trasformato in una diagnosi isolata dal contesto.\n\nUn esempio didattico è una persona con alterazioni sensitive e un emocromo senza evidente macrocitosi: la morfologia non basta a escludere il problema. Un secondo esempio è la coesistenza di carenza di ferro e di vitamine: effetti diversi sulle dimensioni cellulari possono rendere meno riconoscibile il quadro atteso. Il ragionamento deve quindi collegare anamnesi alimentare, malattie gastrointestinali, farmaci, sintomi e risultati di laboratorio.\n\nQuando possibile, NICE raccomanda di raccogliere i campioni diagnostici prima della sostituzione; in presenza di sospetta anemia megaloblastica con sintomi neurologici, la B12 non va però ritardata in attesa dei risultati. È una distinzione fra accuratezza dell’inquadramento e tempestività della cura. Anche il controllo della risposta deve conservare più dimensioni: normalizzare un dato ematologico non certifica il recupero neurologico né la rimozione della causa del malassorbimento.",
+      "formula": "Morfologia ≠ causa. Omocisteina: via condivisa B12–folati; MMA: via della B12, con possibili confondenti. Risposta del sangue ≠ recupero neurologico."
+    },
+    {
+      "id": "b12-sostituzione-causa",
+      "title": "Sostituire la B12: la via dipende dall’ostacolo e dalla causa",
+      "refs": [
+        "KATZ",
+        "RANG",
+        "NICE-B12",
+        "MHRA-COBALTO"
+      ],
+      "text": "La sostituzione della cobalamina mira a rendere nuovamente disponibile il cofattore, ma deve anche considerare perché sia mancato. Idrossocobalamina e cianocobalamina sono forme impiegate nei medicinali che l’organismo può convertire nelle forme coenzimatiche. La presenza di nomi chimici diversi non permette, da sola, di dedurre quale preparazione sia adatta a una specifica persona. Formulazione, via autorizzata e contesto della carenza restano elementi distinti.\n\nLa via orale deve confrontarsi con il percorso digestivo; una quota della vitamina libera può essere assorbita anche indipendentemente dal fattore intrinseco. La via intramuscolare supera invece la barriera intestinale. Questi principi spiegano perché «manca il fattore intrinseco» e «nessuna B12 orale può essere assorbita» non siano affermazioni equivalenti. Non stabiliscono però, da soli, la scelta terapeutica: il modello di assorbimento non sostituisce la valutazione della causa, della gravità e della risposta.\n\nNICE NG239 indica la sostituzione intramuscolare permanente per gastrite autoimmune, gastrectomia totale o resezione completa dell’ileo terminale; distingue queste condizioni dalle carenze alimentari e da altre forme di malassorbimento. Per queste ultime la scelta va contestualizzata. Il punto didattico è riconoscere un ostacolo persistente rispetto a uno correggibile: recuperare i depositi non fa ricomparire un tratto intestinale asportato. La durata della necessità di sostituzione non si ricava quindi dal solo miglioramento iniziale.\n\nLa definizione di vitamina non equivale ad assenza di rischi. Idrossocobalamina e cianocobalamina contengono cobalto; la MHRA richiama possibili reazioni di sensibilità nelle persone allergiche a questo metallo. Una storia di sola allergia cutanea non costituisce automaticamente una controindicazione, mentre reazioni importanti richiedono una valutazione individuale. La distinzione fra correzione di un deficit, caratteristiche del prodotto e sorveglianza della risposta resta necessaria anche per una sostanza fisiologicamente indispensabile.",
+      "formula": "Causa della carenza → ostacolo correggibile o persistente → scelta della sostituzione e controllo della risposta. La via supera una barriera; non rimuove necessariamente la causa."
+    },
+    {
+      "id": "folati-terapia-prevenzione",
+      "title": "Acido folico: trattare una carenza e prevenire un difetto sono obiettivi diversi",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "RANG",
+        "NIH-FOLATI",
+        "NHS-FOLATI",
+        "MIN-SALUTE"
+      ],
+      "text": "L’acido folico può essere impiegato per correggere una carenza documentata di folati. La terapia non si esaurisce nel fornire il nutriente: occorre ricostruire se il bilancio sia alterato dall’alimentazione, dal malassorbimento, da un aumento della richiesta o da farmaci che interferiscono con il metabolismo. La risposta ematologica dimostra che il sistema dispone nuovamente di un fattore utile, ma non identifica retrospettivamente tutte le cause del deficit.\n\nLa relazione con la B12 pone un limite preciso all’interpretazione della risposta. Il folato può migliorare l’anemia anche quando persiste una carenza di cobalamina, senza correggerne il coinvolgimento neurologico. Prima di trattare un sospetto deficit con folato isolato, la possibilità di una carenza di B12 deve quindi essere considerata. Non si tratta di negare l’efficacia dell’acido folico: il problema è attribuire a un miglioramento parziale il significato di una correzione completa.\n\nLa prevenzione dei difetti del tubo neurale ha un’altra logica. La disponibilità di folati è rilevante in una fase molto precoce dello sviluppo, perciò l’intervento preventivo riguarda già il periodo preconcezionale e l’inizio della gravidanza. Il Ministero della Salute sottolinea questo anticipo temporale rispetto al riconoscimento di molte gravidanze. È un esempio di prevenzione legata alla finestra biologica di un processo, non al trattamento di un’anemia già comparsa. Situazioni di rischio e formulazioni richiedono indicazioni pertinenti, senza ricavare dosi universali da questo schema.\n\nInfine, il ruolo dei folati nel trasferimento di gruppi a un carbonio non autorizza a promettere una protezione generale da malattie cardiovascolari o tumori. Una sostanza essenziale può essere necessaria per una via metabolica senza che aumentarne indiscriminatamente l’apporto migliori ogni esito associato a quella via. Indicazione, stato nutrizionale e obiettivo devono restare espliciti.",
+      "formula": "Carenza di folati → sostituzione e ricerca della causa. Prevenzione dei difetti del tubo neurale → disponibilità precoce. Folato isolato non corregge una carenza di B12."
+    },
+    {
+      "id": "antifolati-bersagli-salvataggio",
+      "title": "DHFR, timidilato sintasi e folinato: il collegamento con i farmaci",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "SII2",
+        "DII14",
+        "DM-FOLINATO",
+        "DM-TRIM"
+      ],
+      "text": "Il ciclo dei folati permette di collegare l’anemia alla farmacologia antitumorale e antibatterica. Il metotrexato può entrare nelle cellule tramite sistemi di trasporto ed essere trasformato in derivati poliglutamati, che ne modificano la permanenza e l’azione intracellulare. L’inibizione della DHFR riduce il recupero dei folati ridotti e ostacola la sintesi dei nucleotidi. Questo è un passaggio fondamentale del suo impiego citotossico; non esaurisce i meccanismi degli impieghi antinfiammatori a basse dosi.\n\nIl fluorouracile raggiunge un altro nodo: un suo metabolita inibisce la timidilato sintasi, che utilizza il 5,10-metilen-THF nella formazione di dTMP. L’effetto comune sulla produzione del DNA nasce dunque da bersagli differenti. Ridurre tutto a «blocco dei folati» farebbe perdere la posizione dell’intervento e impedirebbe di comprendere perché il rapporto con un folato somministrato dall’esterno possa cambiare da un trattamento all’altro.\n\nIl folinato, o leucovorina, è un folato già ridotto. Può alimentare il metabolismo a valle della DHFR bloccata e trova impiego nel salvataggio previsto da specifici trattamenti con metotrexato. Non riattiva l’enzima inibito e non è semplicemente acido folico con un nome diverso. Può contrastare anche l’effetto terapeutico dell’antagonista: tempi e modalità del salvataggio appartengono quindi a protocolli specialistici, non a una regola di automedicazione. Neppure la presenza di un antifolato autorizza ad aggiungere autonomamente una vitamina.\n\nSul versante antibatterico, il trimetoprim inibisce la DHFR con maggiore affinità per l’enzima batterico rispetto a quello dei mammiferi. I sulfamidici agiscono più a monte, nella sintesi microbica dei folati a partire dal PABA. L’essere umano assume folati dall’esterno e non possiede quella stessa via sintetica iniziale. Separare il tratto esclusivamente microbico dalle trasformazioni condivise rende leggibile la selettività farmacologica e impedisce di trasferire alla cellula umana una figura costruita per spiegare un antibiotico.",
+      "formula": "Metotrexato → DHFR; metabolita del fluorouracile → timidilato sintasi; folinato → apporto a valle della DHFR. Trimetoprim e sulfamidici colpiscono nodi distinti del percorso batterico."
     }
   ],
   "checks": [
@@ -217,28 +304,68 @@ export const THEORY_ANEMIA = {
     {
       "question": "Perché il folato isolato non risolve una carenza di B12?",
       "answer": "Le vitamine sono connesse ma non intercambiabili. Il folato può migliorare il quadro ematologico lasciando irrisolta la carenza di B12 e il problema neurologico."
+    },
+    {
+      "question": "Perché fattore intrinseco e transcobalamina non sono sinonimi?",
+      "answer": "Il fattore intrinseco accompagna la B12 nel lume fino al riconoscimento ileale; la transcobalamina partecipa al trasporto sistemico verso i tessuti."
+    },
+    {
+      "question": "Quale differenza separa una dieta carente da un malassorbimento della B12?",
+      "answer": "La prima limita l’apporto; il secondo interrompe l’utilizzazione anche in presenza di un apporto. Le due cause possono coesistere."
+    },
+    {
+      "question": "Che cosa descrive la trappola del metilfolato?",
+      "answer": "La difficoltà a recuperare THF dal 5-metil-THF quando la reazione della metionina sintasi dipendente da B12 è compromessa."
+    },
+    {
+      "question": "Quale reazione collega B12 e acido metilmalonico?",
+      "answer": "La conversione di metilmalonil-CoA in succinil-CoA dipende dall’adenosilcobalamina; il suo deficit può aumentare l’MMA, che risente anche di confondenti come la funzione renale."
+    },
+    {
+      "question": "Il 5-metil-THF e il 5,10-metilen-THF svolgono lo stesso compito?",
+      "answer": "No. Il primo partecipa alla reazione della metionina sintasi; il secondo alla produzione di timidilato. La diversa forma dell’unità a un carbonio cambia la funzione."
+    },
+    {
+      "question": "Una risposta dell’emoglobina al folato esclude una carenza di B12?",
+      "answer": "No. Il quadro ematologico può migliorare mentre restano irrisolte la carenza di cobalamina e le sue conseguenze neurologiche."
+    },
+    {
+      "question": "Perché la durata della sostituzione non coincide sempre con il recupero iniziale?",
+      "answer": "Una causa persistente, per esempio la perdita della sede di assorbimento, può mantenere la necessità di sostituzione anche dopo il miglioramento."
+    },
+    {
+      "question": "Perché la prevenzione con folati riguarda il periodo preconcezionale?",
+      "answer": "La formazione del tubo neurale avviene molto presto: la disponibilità del nutriente deve precedere il momento in cui molte gravidanze vengono riconosciute."
+    },
+    {
+      "question": "La leucovorina riattiva la DHFR bloccata dal metotrexato?",
+      "answer": "No. Fornisce un folato già ridotto che può alimentare vie a valle dell’enzima; il salvataggio richiede un protocollo e può contrastare anche l’effetto terapeutico."
+    },
+    {
+      "question": "Quale parte della via illustrata per sulfamidici e trimetoprim non va attribuita all’uomo?",
+      "answer": "La sintesi microbica iniziale dei folati a partire dal PABA, bersaglio dei sulfamidici. L’uomo utilizza folati assunti dall’esterno; la DHFR è invece presente anche nelle cellule umane."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I",
-      "detail": "AA 2025–26. PDF 902–910, numerazione visibile 900–908. Testo visibile e figure esaminati per intervalli; tabelle storiche e intestazioni mancanti delimitano il confronto."
+      "detail": "AA 2025–26. PDF 902–915, numerazione visibile 900–913. Testo visibile e figure esaminati per intervalli; integrati passaggi di 902–912. Fattori ematopoietici di 913–915 letti ma rinviati. Tabelle storiche e intestazioni mancanti delimitano il confronto."
     },
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I",
-      "detail": "AA 2025–26; lezione 20 del 3 dicembre 2025. PDF 343, pagina 338, pagina 8/9 della lezione. Lettura e ispezione già registrate nel lotto precedente, riutilizzate senza duplicare il conteggio."
+      "detail": "AA 2025–26; lezione 20 del 3 dicembre 2025. PDF 343–344, pagine 338–339, 8–9/9 della lezione. Integrata 343 già letta; 344 letta ma rinviata, con riquadro attribuito genericamente all’anno precedente."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX edizione italiana 2014 / XII originale 2012. Capitolo 33, PDF 673–678, pagine stampate 653–658. Letto il testo visibile; confrontate figure e tabelle. Dosi, procedure e disponibilità storiche non trasferite."
+      "detail": "IX edizione italiana 2014 / XII originale 2012. Capitolo 33, PDF 673–684, pagine stampate 653–664. Testo visibile e figure esaminati. Dosi, procedure e disponibilità storiche non trasferite; parte sui fattori ematopoietici in 684 rinviata, continuazione 685 non letta."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII edizione italiana 2016 / originale 2015. Capitolo 25, PDF 486–490. Numerazione stampata non identificabile nel file riformattato. Testo visibile e figure esaminati; continuazione sulla B12 non ancora letta."
+      "detail": "VIII edizione italiana 2016 / originale 2015. Capitolo 25, PDF 486–493. Numerazione stampata non identificabile nel file riformattato. Testo e figure esaminati; errori di unità e generalizzazioni cliniche esclusi. In 493 integrato solo il tratto sulla B12."
     },
     {
       "id": "BSG",
@@ -279,7 +406,7 @@ export const THEORY_ANEMIA = {
     {
       "id": "NICE-B12",
       "title": "NICE NG239 · Vitamin B12 deficiency",
-      "detail": "Raccomandazione 1.2.3: l’assenza di anemia o macrocitosi non esclude la carenza. Consultato il testo indicizzato ufficiale; accesso diretto negato, documento non letto integralmente.",
+      "detail": "NG239, 2024. Consultati il 26 novembre 2026 passaggi ufficiali indicizzati: 1.2.3, 1.3.4/6 e 1.5.3, oltre a selezioni su dieta e malassorbimento. Accesso diretto a pagina e PDF negato; non lettura integrale. Nessun dosaggio trasferito.",
       "url": "https://www.nice.org.uk/guidance/ng239/chapter/recommendations"
     },
     {
@@ -287,6 +414,58 @@ export const THEORY_ANEMIA = {
       "title": "NHS · Trattamento della carenza di B12 o folati",
       "detail": "Passaggi su terapia della carenza di folati e necessità di considerare la B12. Pagina revisionata nel 2023, revisione indicata come dovuta nel 2026; limite temporale conservato. Nessuna dose o durata trasferita.",
       "url": "https://www.nhs.uk/conditions/vitamin-b12-or-folate-deficiency-anaemia/treatment/"
+    },
+    {
+      "id": "SII2",
+      "title": "Appunti del corso di Farmacologia II · lezione 2",
+      "detail": "AA 2025–26, 29 ottobre 2025, PDF e pagina stampata 14. Testo e figura del salvataggio folinico letti; distinzione fra bypass e riattivazione della DHFR verificata con la scheda regolatoria. Nessuna lettura integrale del corso."
+    },
+    {
+      "id": "DII14",
+      "title": "Appunti del corso di Farmacologia II · lezione 14",
+      "detail": "AA 2025–26, 13 gennaio 2026, PDF e pagina stampata 21. Letti testo e figura: DHFR e percorso microbico dei folati. Confronto qualitativo della selettività, senza adottare il rapporto numerico ambiguo."
+    },
+    {
+      "id": "NIH-B12",
+      "title": "NIH ODS · Vitamin B12, Health Professional Fact Sheet",
+      "detail": "Consultati il 26 novembre 2026 passaggi su assorbimento, cofattori, indicatori, riserve e interazioni con farmaci. Non lettura integrale; soglie e dosi non trasferite.",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+    },
+    {
+      "id": "NIH-FOLATI",
+      "title": "NIH ODS · Folate, Health Professional Fact Sheet",
+      "detail": "Consultati il 26 novembre 2026 passaggi su forme, metabolismo, interazioni e rischi dell’eccesso. Non lettura integrale e nessuna promessa preventiva generale.",
+      "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+    },
+    {
+      "id": "PCFT",
+      "title": "Visentin, Zhao e Goldman · Trasporto di folati e antifolati",
+      "detail": "Molecular Pharmacology 2012;82:209–216. Consultati abstract e introduzione, in particolare la distinzione fra PCFT intestinale e RFC. Dati sperimentali, figure e intervento con AICAR non integrati; nessuna raccomandazione clinica dedotta.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3400841/"
+    },
+    {
+      "id": "MHRA-COBALTO",
+      "title": "MHRA · Vitamina B12 e allergia al cobalto",
+      "detail": "Comunicazione del 18 dicembre 2023, consultata il 26 novembre 2026: sensibilità a idrossocobalamina/cianocobalamina e distinzione fra allergia cutanea e reazioni importanti.",
+      "url": "https://www.gov.uk/drug-safety-update/vitamin-b12-hydroxocobalamin-cyanocobalamin-advise-patients-with-known-cobalt-allergy-to-be-vigilant-for-sensitivity-reactions"
+    },
+    {
+      "id": "MIN-SALUTE",
+      "title": "Ministero della Salute · Salute preconcezionale",
+      "detail": "Pagina aggiornata il 5 aprile 2024, consultata il 26 novembre 2026. Passaggio selezionato sulla disponibilità di acido folico prima e all’inizio della gravidanza; nessuna posologia trasferita.",
+      "url": "https://www.salute.gov.it/new/it/tema/salute-della-donna/salute-preconcezionale/"
+    },
+    {
+      "id": "DM-FOLINATO",
+      "title": "DailyMed · Leucovorin calcium, scheda statunitense",
+      "detail": "Consultato il 26 novembre 2026 il meccanismo: folato già ridotto, indipendente dalla riduzione da parte della DHFR, antagonismo anche dell’effetto terapeutico del metotrexato. Non lettura integrale né RCP italiano.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9df20901-6980-4d4e-89ec-40f3c1f91852"
+    },
+    {
+      "id": "DM-TRIM",
+      "title": "DailyMed · Trimethoprim, scheda statunitense",
+      "detail": "Consultato il 26 novembre 2026 il passaggio sul meccanismo e sulla maggiore affinità per la DHFR batterica. Indicazioni, resistenze e posologie non sviluppate; non è un RCP italiano.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597"
     }
   ],
   "moleculeLinks": [
@@ -325,6 +504,26 @@ export const THEORY_ANEMIA = {
     {
       "id": "CHEMBL2110563",
       "label": "CYANOCOBALAMIN"
+    },
+    {
+      "id": "CHEMBL34259",
+      "label": "METHOTREXATE"
+    },
+    {
+      "id": "CHEMBL185",
+      "label": "FLUOROURACIL"
+    },
+    {
+      "id": "CHEMBL1679",
+      "label": "LEUCOVORIN"
+    },
+    {
+      "id": "CHEMBL22",
+      "label": "TRIMETHOPRIM"
+    },
+    {
+      "id": "CHEMBL1431",
+      "label": "METFORMIN"
     }
   ],
   "relatedExistingChapterIds": [
@@ -336,8 +535,8 @@ export const THEORY_ANEMIA = {
   ],
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
-  "reviewedAt": "2026-11-21T17:24:13.947Z",
+  "reviewedAt": "2026-11-26T14:24:18.106083+00:00",
   "readingManifest": "./data/anemie-ferro-chelazione-reading.json",
-  "coverage": "16 nuove pagine lette e ispezionate; 5 già lette riutilizzate. Totale 21 pagine con passaggi selezionati integrati. Libri e corsi consultati per intervalli; riconciliazione con gli altri contributi ancora incompleta. Sintesi didattica con revisione editoriale, senza revisione clinica indipendente.",
-  "wordCount": 2779
+  "coverage": "17 nuove pagine lette e ispezionate, 21 già pubblicate riutilizzate: 38 in totale. Passaggi selezionati integrati da 34 pagine; 4 pagine sui fattori ematopoietici rinviate. Riconciliazione limitata agli intervalli dichiarati, con revisione editoriale senza revisione clinica indipendente.",
+  "wordCount": 4703
 };
