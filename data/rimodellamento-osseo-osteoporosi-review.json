@@ -1,20 +1,19 @@
 {
   "schemaVersion": 1,
   "chapterId": "rimodellamento-osseo-osteoporosi",
-  "batch": "theory-course-901-905",
-  "reviewedAt": "2026-11-21T16:09:10.211217+00:00",
+  "batch": "theory-course-921-925",
+  "reviewedAt": "2026-11-26T16:48:33.623910+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "6c8750684a50c06c4c3c74bf506999f99fca4e0c7367c2548952430fc57543be",
+  "moduleSha256": "68d45ffe5f00421074853c47066f2cb2d002e9ba46dc70e3df86b605528e563b",
   "checks": [
-    "Due sezioni originali,5 quesiti e2 schemi;29 sezioni e51 quesiti precedenti preservati.",
-    "Rilette668 parole aggiunte e5 risposte; profarmaco,metabolita attivo e posizione dell’idrossilazione distinti.",
-    "Alfacalcidolo:conversione epatica confermata daRANG689 e scheda5.2; la freccia renale non è trasferita.",
-    "Popolazione adultaG3a–G5 non dializzata delimitata; nessuna dose,soglia operativa o calendario individuale.",
-    "CFI901 completa per il testo visibile,limite delle intestazioni dichiarato.5 altre letture su anemia escluse dai conteggi ossei e dalla pubblicazione.",
-    "69 testi completi,74 ispezioni e57 pagine integrate; nessuna dichiarazione di lettura integrale di corsi,libri,schede olinee guida."
+    "3 sezioni originali e6 quesiti riletti;31 sezioni e56 quesiti precedenti conservati integralmente.",
+    "T-score,Z-score,LSC,VFA,TBS eFRAX distinti; nessun algoritmo individuale o soglia terapeutica aggiunti.",
+    "Esempio aritmetico ipotetico verificato:0,812−0,800=0,012;0,830−0,800=0,030,confrontati con0,020.",
+    "5 nuove letture,3 selezioni integrate; copertura storica preservata senza ricontarla come nuova lettura.",
+    "Controllo editoriale del solo integratore; revisione clinica indipendente aperta."
   ],
   "conflicts": [
     {
@@ -424,18 +423,52 @@
       "issue": "CFI901 suggerisce derivati attivi per ogni grave patologia renale.",
       "resolution": "Razionale metabolico distinto da popolazione e indicazioniKDIGO; nessuna prescrizione universale.",
       "status": "resolved_for_scope"
+    },
+    {
+      "id": "jama2025-lsc-outcome",
+      "status": "resolved_for_scope",
+      "resolution": "LSC indica significatività statistica della differenza, non prova individuale di riduzione delle fratture; confronto FAQ ISCD."
+    },
+    {
+      "id": "jama2025-holiday",
+      "status": "excluded_from_new_scope",
+      "resolution": "La formulazione di sospensione tipica automatica dopo3–5anni non trasferita; resta il testo precedente sulla rivalutazione individuale."
+    },
+    {
+      "id": "jama2025-trauma-screening",
+      "status": "excluded_from_new_scope",
+      "resolution": "Nessuna regola generale su traumi ad alta energia o screening maschile importata; giurisdizioni e popolazioni non assimilate."
+    },
+    {
+      "id": "jama2025-nutrition-numbers",
+      "status": "unresolved_source_limit",
+      "resolution": "Tassi,RD e arrotondamenti riportati nella nutrizione non ricostruiti né validati sugli studi primari; esclusi insieme a dosi e conclusioni sul rischio cardiovascolare."
+    },
+    {
+      "id": "jama2025-article-boundary",
+      "status": "unresolved_source_limit",
+      "resolution": "Letto solo il testo visibile E1–E5; ultimo paragrafo e articolo proseguono oltre intervallo. Nessuna lettura degli studi citati attribuita al progetto."
+    },
+    {
+      "id": "dxa-tbs-vfa",
+      "status": "resolved_for_scope",
+      "resolution": "Densità, trama dell’immagine e deformità vertebrale distinte. TBS non misura diretta della microarchitettura né criterio terapeutico isolato; figura senza interpretazione diagnostica indipendente."
     }
   ],
   "limits": [
     "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
-    "Per il capitolo:1 nuova lettura completa visibile(CFI901),2 riletture(KATZ889,RANG689),3 ispezioni. Cumulativo69 testi completi,74 ispezioni,57 pagine integrate;1 nuova pagina integrata e1 precedentemente letta ora integrata.",
     "CFI860,875,883,890,894 restano parziali escluse; tutti i limiti figurativi precedenti conservati.901 presenta tabella senza intestazioni cinetiche: numeri e unità non interpretati né pubblicati.",
     "CFI901:D2 non precursore dellaD3; vie generiche,emivite e uso dei derivati attivi in ogni grave malattia renale esclusi. Paricalcitolo e diidrotachisterolo non sviluppati.",
     "RANG689:attivazione epatica dell’alfacalcidolo riconciliata con didascalia e scheda ufficiale; freccia ambigua non riprodotta. KATZ889:solo confronto qualitativo dei minerali,nessuna estensione alle patologie genetiche.",
     "Scheda britannica dell’alfacalcidolo:passaggi selezionati,non intero documento oRCP italiano. KDIGO2017:raccomandazioni selezionate,non revisione completa; pagina indice diretta403,documento e indice ufficiale indicizzato accessibili. Nessuna dose,soglia operativa o calendario trasferiti.",
-    "CFI902–905 eAPP343:5 testi principali completi e5 ispezioni su anemia,conservati nel registro privato separato e non integrati. Non conteggiati come letture del capitolo osseo. Riconciliazione clinica e libraria dell’anemia ancora da svolgere.",
-    "Libri e corsi letti per intervalli. RANG690–691 eCFI906–910 non letti; FarmacologiaII e altri contributi ancora parzialmente riconciliati.",
-    "Nessun PDF,trascrizione o figura originale pubblicati. Identità,sintesi di farmaci,profili e laboratori interattivi restano nel backlog."
+    "Nessun PDF,trascrizione o figura originale pubblicati. Identità,sintesi di farmaci,profili e laboratori interattivi restano nel backlog.",
+    "Lotto921–925:5 nuove letture complete del testo visibile e5 ispezioni;3 pagine con selezioni integrate. Le69 pagine pregresse sono copertura ereditata, non nuove riletture. Totale74 complete,79 ispezionate,60 integrate.",
+    "Il contenitore del corso include un articolo JAMA del2025: E1–E5 lette; E6 e seguenti, bibliografia e studi citati non letti.921–922 non integrati;923–925 integrati solo per densitometria e valutazione del rischio.",
+    "Radiografie di924 ispezionate con la didascalia, senza revisione radiologica indipendente. Nessuna immagine riprodotta. La prosecuzione sui bisfosfonati a926 non è stata letta.",
+    "Soglie terapeutiche, screening di popolazione, sospensioni automatiche dei bisfosfonati, dosi e risultati quantitativi clinici del review non trasferiti. LSC distinta dalla prova individuale di beneficio; numeri del solo esempio didattico verificati aritmeticamente.",
+    "Passaggi ufficiali selezionati ISCD,NOGG eNIAMS confrontati il26novembre2026; NIAMS limitato al testo indicizzato. Nessuna revisione clinica indipendente o intera linea guida dichiarata letta.",
+    "La riconciliazione cumulativa con Katzung,Rang,appunti di Farmacologia I e contributo di Farmacologia II già presente è conservata. Nessuna nuova lettura di libri o altri corsi in questo lotto; eventuali ulteriori contributi restano da riconciliare.",
+    "Le pagine CFI902–920 eAPP343–344 appartengono al lavoro sulle anemie consegnato separatamente fino alla0.120.0; non sono incluse nei conteggi del capitolo osseo. Prossimo intervallo926–930 non iniziato."
   ],
-  "updatedAt": "2026-11-21T16:09:10.211217+00:00"
+  "updatedAt": "2026-11-26T16:48:33.623910+00:00"
 }

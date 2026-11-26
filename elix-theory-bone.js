@@ -17,6 +17,18 @@ export const THEORY_BONE = {
       "formula": "Matrice + minerale + architettura → proprietà meccaniche. La fragilità dipende dall’intero sistema."
     },
     {
+      "id": "dxa-misura-e-riferimenti",
+      "title": "DXA, T-score e Z-score: dalla misura alla domanda clinica",
+      "refs": [
+        "JAMA-OSTEO-2025",
+        "NIAMS-DXA",
+        "ISCD-2023",
+        "NOGG3"
+      ],
+      "text": "La densitometria DXA restituisce una densità minerale areale, espressa in g/cm². Il numero descrive il minerale rilevato nella regione analizzata; non ricostruisce da solo la rete trabecolare, il collagene o tutti i determinanti della resistenza. Per leggere il risultato occorre quindi separare tre domande: che cosa è stato misurato, rispetto a quale riferimento e per quale decisione.\n\nIl T-score confronta la BMD con quella di una popolazione di giovani adulti, esprimendo lo scostamento in deviazioni standard. Lo Z-score utilizza un riferimento confrontabile per età e altre caratteristiche demografiche. Nelle donne dopo la menopausa e negli uomini dai 50 anni si usa la classificazione densitometrica basata sul T-score; prima di queste condizioni si preferisce lo Z-score. Un punteggio basso rispetto ai coetanei richiede un’interpretazione delle cause, senza trasformarsi automaticamente nella stessa diagnosi utilizzata nella popolazione anziana.\n\nLa soglia densitometrica di T-score pari o inferiore a −2,5, applicata alle sedi e alle popolazioni appropriate, classifica l’osteoporosi. Non è però una soglia biologica oltre la quale soltanto iniziano le fratture. Una frattura pregressa e il contesto clinico possono rendere rilevante il rischio anche quando il valore non raggiunge quel limite. All’opposto, un singolo numero non stabilisce quale farmaco, sequenza o durata siano adatti a una persona.\n\nAnche la qualità della misura conta: alterazioni degenerative possono aumentare apparentemente la BMD vertebrale. Densità ridotta e difetto di mineralizzazione non sono sinonimi, ma l’osteomalacia può presentare una BMD bassa. Il collegamento con i capitoli su vitamina D e rimodellamento serve proprio a chiedersi quale processo sia alterato prima di attribuire ogni risultato all’osteoporosi.",
+      "formula": "Misura DXA → riferimento T o Z → interpretazione clinica. La classificazione densitometrica è una parte della valutazione."
+    },
+    {
       "id": "cellule-e-ciclo",
       "title": "Osteoclasti, osteoblasti e osteociti nel ciclo di rimodellamento",
       "refs": [
@@ -321,6 +333,28 @@ export const THEORY_BONE = {
       "formula": "Stronzio nell’osso → cambiamento della composizione + possibili effetti biologici. DXA → attenuazione dei raggi X. Aumento della misura ≠ aumento equivalente della matrice né prova autonoma di riduzione delle fratture."
     },
     {
+      "id": "dxa-variazione-e-precisione",
+      "title": "Seguire la BMD nel tempo: precisione, LSC ed esiti",
+      "refs": [
+        "ISCD-PRECISION",
+        "ISCD-2023",
+        "JAMA-OSTEO-2025"
+      ],
+      "text": "Due referti diversi non dimostrano necessariamente che l’osso sia cambiato. La precisione indica quanto una misurazione sia riproducibile; dipende anche dalla sede analizzata e dall’acquisizione. Per distinguere una variazione dal rumore della misura si usa la least significant change, o LSC: una soglia di significatività statistica determinata dal centro. Il confronto riguarda i valori di BMD, non il semplice spostamento del T-score.\n\nImmaginiamo un esempio puramente didattico: una BMD passa da 0,800 a 0,812 g/cm², con LSC locale ipotetica di 0,020 g/cm². La differenza è 0,012 g/cm²: in queste condizioni non basta per concludere che esista un aumento misurabile oltre l’incertezza prevista. Se il secondo valore fosse 0,830 g/cm², la differenza di 0,030 supererebbe quella soglia. Questi numeri illustrano un confronto, non indicano valori normali, obiettivi terapeutici o prestazioni richieste a un apparecchio.\n\nSuperare la LSC non dimostra da solo un beneficio clinico: un incremento può risentire anche di alterazioni degenerative o deformazioni vertebrali. Occorre inoltre verificare che gli esami siano confrontabili; apparecchi non sottoposti a calibrazione incrociata non consentono di attribuire direttamente al paziente una differenza quantitativa. Per questo la lettura di una traiettoria comincia dalla validità dei suoi punti.\n\nNel ragionamento farmacologico vanno tenuti distinti il segnale biologico, la misura densitometrica e l’esito di frattura. Dimostrare che un farmaco modifica la BMD in uno studio non equivale a dimostrare che quel singolo paziente abbia ottenuto una specifica riduzione del rischio. La domanda «la misura è cambiata?» viene prima di «che significato ha questo cambiamento?», ma non la sostituisce.",
+      "formula": "ΔBMD = BMD successiva − BMD iniziale. Confrontabilità + LSC → significatività della variazione; il significato clinico richiede altri elementi."
+    },
+    {
+      "id": "vertebre-tbs-e-rischio",
+      "title": "Fratture vertebrali, TBS e FRAX: informazioni complementari",
+      "refs": [
+        "JAMA-OSTEO-2025",
+        "ISCD-2023",
+        "NOGG3"
+      ],
+      "text": "Una vertebra può essersi fratturata senza un episodio doloroso riconosciuto. La storia di riduzione della statura o la cifosi possono orientare una valutazione, ma non costituiscono da sole una diagnosi. L’imaging laterale, mediante radiografia o vertebral fracture assessment con DXA, permette di cercare deformità compatibili con frattura. La sola forma a cuneo non autorizza una conclusione: l’interpretazione considera morfologia, qualità delle immagini e diagnosi alternative.\n\nIl trabecular bone score, o TBS, è invece un indice di trama ricavato dall’immagine densitometrica lombare. Non rappresenta una conta diretta delle trabecole né una biopsia virtuale. Può integrare la stima del rischio, soprattutto quando un’informazione aggiuntiva può modificare la classificazione rispetto a una soglia decisionale. Le posizioni ISCD ne escludono l’uso isolato per decidere la terapia e non raccomandano di seguirne routinariamente le variazioni come risposta al trattamento.\n\nFRAX combina fattori clinici, con eventuale BMD del collo femorale, per stimare la probabilità a dieci anni di frattura dell’anca e di frattura osteoporotica maggiore. Quest’ultima comprende vertebra clinica, anca, avambraccio e omero. La calibrazione dipende dalla popolazione; il risultato non incorpora con la stessa granularità ogni circostanza clinica. Un rischio di caduta, per esempio, richiede attenzione anche se non compare come voce autonoma nel modello di base.\n\nNeppure calcolatori diversi sono intercambiabili: QFracture e FRAX usano impostazioni differenti e le soglie NOGG, elaborate nel contesto britannico, non vanno applicate a un risultato ottenuto con un altro strumento. Qui il collegamento terapeutico è concettuale: intervenire sul rimodellamento osseo non risolve automaticamente tutti i fattori che portano a una frattura. Una valutazione coerente mette insieme struttura, precedenti eventi e circostanze del paziente; nessuno di questi indici seleziona autonomamente un bersaglio farmacologico.",
+      "formula": "DXA: densità · VFA: deformità vertebrali · TBS: trama dell’immagine · FRAX: probabilità. Informazioni differenti, da interpretare insieme."
+    },
+    {
       "id": "durata-sequenza-e-rischio",
       "title": "Durata e sequenza: la terapia modifica un sistema che continua a cambiare",
       "refs": [
@@ -621,6 +655,30 @@ export const THEORY_BONE = {
     {
       "question": "Perché PTH, calcio e fosfato vanno letti insieme e nel tempo?",
       "answer": "Appartengono alla stessa rete di regolazione. Un valore isolato non riassume né le cause dell’alterazione né la risposta complessiva a un trattamento."
+    },
+    {
+      "question": "T-score e Z-score rispondono alla stessa domanda?",
+      "answer": "Usano riferimenti diversi: giovani adulti per il T-score, persone confrontabili per età e altre caratteristiche per lo Z-score."
+    },
+    {
+      "question": "Una BMD bassa identifica sempre la stessa alterazione del tessuto?",
+      "answer": "No. Il contesto può includere un difetto di mineralizzazione: la misura non sostituisce l’interpretazione delle cause."
+    },
+    {
+      "question": "Nell’esempio, una variazione di 0,012 supera una LSC di 0,020 g/cm²?",
+      "answer": "No. La differenza non raggiunge la soglia ipotetica utilizzata per distinguere la variazione dal rumore."
+    },
+    {
+      "question": "Superare la LSC dimostra direttamente una riduzione delle fratture?",
+      "answer": "No. La significatività statistica della misura e il beneficio clinico sono questioni distinte."
+    },
+    {
+      "question": "Una vertebra a cuneo e un TBS basso sono la stessa informazione?",
+      "answer": "No. La prima è un reperto morfologico da interpretare; il secondo deriva dalla trama dell’immagine densitometrica."
+    },
+    {
+      "question": "Si possono applicare le stesse soglie a tutti i calcolatori di rischio?",
+      "answer": "No. Modello, esito stimato e contesto della soglia devono corrispondere."
     }
   ],
   "references": [
@@ -822,6 +880,36 @@ export const THEORY_BONE = {
       "title": "KDIGO2017 · Malattia minerale e ossea nella CKD",
       "detail": "Consultazione21 novembre2026: raccomandazioni4.1.1,4.2.1–4.2.2, PDF17. Passaggi selezionati, non intera linea guida.",
       "url": "https://kdigo.org/wp-content/uploads/2026/04/KDIGO-2017-CKD-MBD-Guideline.pdf"
+    },
+    {
+      "id": "JAMA-OSTEO-2025",
+      "title": "Morin, Leslie e Schousboe · Osteoporosis: A Review",
+      "url": "https://doi.org/10.1001/jama.2025.6003",
+      "detail": "JAMA, pubblicazione online 30 giugno 2025. Letti testo visibile e immagini delle sole E1–E5, incluse in Farmacologia I AA2025–26 PDF921–925 (stampa919–923). Integrati passaggi E3–E5; non intero articolo né studi citati. Figura1 ispezionata come illustrazione, senza validazione radiologica indipendente; tabella1 letta. Il paragrafo sui bisfosfonati continua fuori intervallo."
+    },
+    {
+      "id": "NIAMS-DXA",
+      "title": "NIH NIAMS · Interpretare i risultati densitometrici",
+      "url": "https://www.niams.nih.gov/health-topics/bone-mineral-density-tests-what-numbers-mean",
+      "detail": "Consultazione 26 novembre 2026 dei passaggi ufficiali indicizzati su T-score e Z-score; non lettura completa della pagina."
+    },
+    {
+      "id": "ISCD-2023",
+      "title": "ISCD · Posizioni ufficiali per adulti, 2023",
+      "url": "https://iscd.org/official-positions-2023/",
+      "detail": "Consultazione 26 novembre 2026: selezioni su classificazione, confronto degli esami, VFA e TBS. Non intero documento né protocolli operativi."
+    },
+    {
+      "id": "ISCD-PRECISION",
+      "title": "ISCD · Precisione e least significant change",
+      "url": "https://iscd.org/resources/precision-assessment-calculator-faqs/",
+      "detail": "Consultazione 26 novembre 2026: FAQ ufficiali su precisione, LSC e interpretazione del confronto. Esempio numerico originale, ipotetico e non prescrittivo."
+    },
+    {
+      "id": "NOGG3",
+      "title": "NOGG · Valutazione del rischio di frattura, sezione 3",
+      "url": "https://www.nogg.org.uk/full-guideline/section-3-fracture-risk-assessment-and-case-finding",
+      "detail": "Consultazione 26 novembre 2026: selezioni su BMD, fattori clinici e strumenti di rischio. Contesto britannico; nessuna soglia terapeutica trasferita in Italia. Non intera linea guida."
     }
   ],
   "moleculeLinks": [
@@ -879,8 +967,8 @@ export const THEORY_BONE = {
   ],
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
-  "reviewedAt": "2026-11-21T16:06:49.587429+00:00",
+  "reviewedAt": "2026-11-26T16:48:33.623910+00:00",
   "readingManifest": "./data/rimodellamento-osseo-osteoporosi-reading.json",
-  "coverage": "1 nuova pagina di testo visibile completa per il capitolo;2 riletture. Cumulativo69 testi completi,74 pagine ispezionate,57 con passaggi integrati.5 pagine parziali precedenti escluse. Altre5 nuove letture su anemia conservate separatamente e non integrate. Nessuna revisione clinica indipendente.",
-  "wordCount": 9350
+  "coverage": "5 nuove pagine lette nel testo visibile e ispezionate; selezioni da 3 integrate. Cumulativo 74 testi completi,79 pagine ispezionate,60 con passaggi integrati.5 pagine parziali precedenti escluse. Libri e corsi non letti integralmente; nessuna revisione clinica indipendente.",
+  "wordCount": 10131
 };
