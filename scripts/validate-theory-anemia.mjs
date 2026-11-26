@@ -27,7 +27,7 @@ for(const s of l.sources){
  pages+=s.pdfPagesRead.length;added+=s.newlyReadTextPages.length;reused+=s.reusedPreviouslyReadPages.length;integrated+=s.integratedPdfPages.length;
  newIntegrated+=s.integratedPdfPages.filter(p=>s.newlyReadTextPages.includes(p)).length;
 }
-assert.deepEqual([pages,added,reused,integrated,newIntegrated],[38,17,21,34,13]);
+assert.deepEqual([pages,added,reused,integrated,newIntegrated],[54,16,38,54,16]);
 assert.deepEqual([l.totalReadPdfPages,l.newReadPdfPages,l.reusedReadPdfPages,l.chapterIntegratedPdfPages,l.newIntegratedPdfPages],[pages,added,reused,integrated,newIntegrated]);
 assert.deepEqual(l.sources.find(s=>s.id==='CFI').partiallyReadPdfPages,[]);
 assert.equal(l.chapterReviewedPdfPages,l.sources.reduce((n,s)=>n+s.visuallyCheckedPdfPages.length,0));
@@ -41,11 +41,11 @@ for(const f of ['elix-theory-anemia.js','data/anemie-ferro-chelazione-reading.js
 }
 const p=JSON.parse(read('data/development-progress.json'));
 assert.equal(p.counts.chapters,ELIX_CHAPTERS.length);assert.equal(p.counts.extendedChapters,ELIX_CHAPTERS.filter(x=>x.format==='extended').length);
-if(p.batch===l.batch){assert.equal(p.changes.newChapters,0);assert.equal(p.changes.expandedChapters,1);assert.equal(p.changes.newSections,7);assert.equal(p.changes.expandedSections,2);assert.equal(p.changes.newSelfChecks,10);assert.equal(p.changes.newStaticOriginalSchemas,7);}
-assert.equal(l.newlyIntegratedPreviouslyReadPdfPages,0);
-assert.deepEqual(l.sources.map(s=>[s.id,s.newlyReadTextPages.length,s.reusedPreviouslyReadPages.length]),[['CFI',5,9],['APP',1,1],['KATZ',6,6],['RANG',3,5],['SII2',1,0],['DII14',1,0]]);
-assert.equal(c.volume,7);assert.equal(c.checks.length,30);assert.equal(c.moleculeLinks.length,14);
+if(p.batch===l.batch){assert.equal(p.changes.newChapters,0);assert.equal(p.changes.expandedChapters,1);assert.equal(p.changes.newSections,10);assert.equal(p.changes.expandedSections,1);assert.equal(p.changes.newSelfChecks,12);assert.equal(p.changes.newStaticOriginalSchemas,10);}
+assert.equal(l.newlyIntegratedPreviouslyReadPdfPages,4);
+assert.deepEqual(l.sources.map(s=>[s.id,s.newlyReadTextPages.length,s.reusedPreviouslyReadPages.length]),[['CFI',5,14],['APP',0,2],['KATZ',6,12],['RANG',4,8],['SII2',1,1],['DII14',0,1]]);
+assert.equal(c.volume,7);assert.equal(c.checks.length,42);assert.equal(c.moleculeLinks.length,24);
 assert.ok(c.sections.find(s=>s.id==='chelanti-confronto').text.includes('fecale'));
 assert.ok(c.sections.find(s=>s.id==='ferro-endovenoso').text.includes('dose di prova'));
 assert.doesNotMatch(c.sections.map(s=>s.text).join(' '),/\d+\s*(?:mg|µg|mcg|ng\/mL)\b/);
-console.log('Anemia PASS:18 sections,30 checks;17 new and21 reused pages;4 read pages deferred;clinical review remains open.');
+console.log('Anemia PASS:28 sections,42 checks;16 new and38 reused pages;4 previously deferred pages integrated;clinical review remains open.');
