@@ -3,7 +3,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 (async()=>{
  const base=process.env.ELIX_BASE_URL||'http://127.0.0.1:8765/',out=process.env.ELIX_COMPLEMENTARY_OUTPUT||'/tmp/elix-audit/complementary';fs.mkdirSync(out,{recursive:true});
  const chapters=[['modelli-pk',16,'serbatoio anatomico'],['gpcr',15,'AKAP'],['desensibilizzazione-tolleranza',16,'tachifilassi']];
- const b=await chromium.launch(),errors=[],matrix=[];
+ const b=await chromium.launch(process.env.ELIX_BROWSER_CHANNEL?{channel:process.env.ELIX_BROWSER_CHANNEL}:{}),errors=[],matrix=[];
  try{
  const ctx=await b.newContext({serviceWorkers:'block',reducedMotion:'reduce'}),p=await ctx.newPage();p.on('pageerror',e=>errors.push(e.message));
  for(const [id,n] of chapters)for(const width of [1440,768,390,320])for(const theme of ['dark','light']){
@@ -31,7 +31,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
   await p.goto(base+'#/textbook');await p.locator('#ex-book-search').fill(term);await p.locator('.ex-volume a[href="#/textbook/'+id+'"]').click();await p.waitForSelector('.ex-reading');
   await p.locator('[data-act="search-open"]').click();await p.locator('#global-search').fill(term);await p.locator('#global-results a[href="#/textbook/'+id+'"]').click();await p.waitForSelector('.ex-reading');
  }
- await p.goto(base+'#/textbook');await p.locator('#ex-book-search').fill('');assert.equal(await p.locator('.ex-chapter-status').filter({hasText:'Stesura estesa'}).count(),23);await ctx.close();
+ await p.goto(base+'#/textbook');await p.locator('#ex-book-search').fill('');assert.equal(await p.locator('.ex-chapter-status').filter({hasText:'Stesura estesa'}).count(),24);await ctx.close();
  const off=await b.newContext(),page=await off.newPage();page.on('pageerror',e=>errors.push(e.message));await page.goto(base+'#/textbook/modelli-pk');await page.waitForSelector('.ex-reading');await page.waitForFunction(()=>!!navigator.serviceWorker.controller);await off.setOffline(true);
  for(const [id,n]of chapters){await page.goto(base+'#/textbook/'+id);await page.reload();await page.waitForSelector('[data-reading-manifest]');assert.equal(await page.locator('.ex-reading > section[data-section]').count(),n);const result=await page.evaluate(async id=>{const l=await fetch('./data/'+id+'-reading.json').then(x=>x.json()),r=await fetch('./data/'+id+'-review.json').then(x=>x.json());return[l.chapterId,l.fullCorpusRead,r.outcome]},id);assert.deepEqual(result,[id,false,'pass']);}
  await off.close();assert.deepEqual(errors,[]);const report={passed:true,base,matrix,search:true,globalSearch:true,offlineChaptersAndRecords:true,errors};fs.writeFileSync(out+'/report.json',JSON.stringify(report,null,2));console.log(JSON.stringify({passed:true,configurations:matrix.length,offline:true,globalSearch:true,errors}));
