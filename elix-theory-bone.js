@@ -418,6 +418,29 @@ export const THEORY_BONE = {
       "formula": "Causa ed esposizione → valutazione del rischio → scelta sostenuta da prove e indicazioni → verifica delle condizioni di rimborso. Una soglia amministrativa non è l’inizio biologico del rischio."
     },
     {
+      "id": "prove-fratture-denominatori",
+      "title": "Leggere gli studi sulle fratture: esito, denominatore e confronto",
+      "refs": [
+        "JAMA-OSTEO-2025",
+        "COCHRANE6",
+        "EMA-EVENITY"
+      ],
+      "text": "Una prova di efficacia comincia dalla definizione dell’evento contato. Una frattura vertebrale riconosciuta sulle immagini e una frattura vertebrale che porta a una valutazione clinica non identificano necessariamente lo stesso insieme di eventi. Le fratture dell’anca costituiscono un altro esito; la categoria «qualsiasi frattura clinica» ne riunisce più sedi. Il beneficio osservato per una categoria non si trasferisce automaticamente alle altre. È lo stesso problema già incontrato con ibandronato e raloxifene: il bersaglio farmacologico organizza l’ipotesi, mentre il risultato va dimostrato per l’esito dichiarato.\n\nOccorre poi leggere il denominatore. La proporzione di persone con almeno una frattura durante un periodo definito differisce da un tasso riferito agli anni-persona di osservazione. Contare le persone che hanno avuto un evento e contare tutti gli eventi ricorrenti sono operazioni diverse. Una cifra «per 1.000 anni-persona» non va riscritta come percentuale senza tempo; neppure basta dividere due conteggi aggregati per ricostruire una metanalisi.\n\nIl rapporto di rischio confronta due probabilità e ha valore neutro 1; la differenza fra rischi ha valore neutro 0. Un intervallo di confidenza descrive l’incertezza della stima. Prima di interpretare una barra occorre riconoscere la misura usata: un grafico può affiancare rapporti e differenze su scale differenti. La posizione del punto, isolata dal suo intervallo e dal disegno dello studio, non stabilisce una graduatoria terapeutica.\n\nPer esempio, in un confronto interamente ipotetico con osservazione completa e identica di due anni, 20 persone su 1.000 con una frattura nel gruppo di confronto e 10 su 1.000 nel gruppo trattato corrispondono a rischi del 2% e dell’1%. Il rapporto è 0,5 e la differenza, trattati meno controllo, è −1 punto percentuale. Sono numeri inventati per distinguere le operazioni, non risultati attribuiti a un farmaco né una previsione individuale.\n\nAnche il comparatore cambia la domanda. La documentazione EMA di romosozumab descrive uno studio contro placebo e uno contro alendronato, con popolazioni e sequenze successive specifiche. Confrontare direttamente due riduzioni ottenute in studi separati contro placebo non equivale a randomizzare quei due farmaci uno contro l’altro. La lettura deve conservare popolazione, durata, trattamento successivo ed esito; soltanto dopo può chiedersi quale decisione il risultato sostenga.",
+      "formula": "Domanda dello studio → evento contato → denominatore e durata → comparatore → stima e incertezza. Un bersaglio comune non rende equivalenti tutte le prove."
+    },
+    {
+      "id": "continuita-cura-frattura",
+      "title": "Dopo una frattura: esposizione reale, aderenza e continuità della cura",
+      "refs": [
+        "JAMA-OSTEO-2025",
+        "NOGG7",
+        "NOGG9",
+        "NOGG6"
+      ],
+      "text": "Una frattura da fragilità apre due problemi collegati: recuperare funzione e autonomia dopo l’evento e ridurre il rischio di un altro evento. Il primo coinvolge dolore, riabilitazione e mobilità; il secondo richiede di ricostruire fragilità scheletrica, possibili cause secondarie, rischio di caduta e storia terapeutica. Un intervento sul rimodellamento agisce su una parte di questo sistema. Migliorare la resistenza dell’osso non elimina automaticamente le condizioni che provocano una caduta.\n\nIl Fracture Liaison Service, o FLS, è un modello di coordinamento della prevenzione dopo una frattura. NOGG collega identificazione dei pazienti, valutazione, avvio degli interventi appropriati e comunicazione fra ospedale e cure territoriali. Il punto didattico è la continuità: riconoscere il rischio e scrivere una raccomandazione non garantiscono che una persona riceva e prosegua il trattamento. Il modello britannico illustra questa funzione organizzativa; non descrive la disponibilità di un servizio specifico in Italia.\n\nPer la farmacologia, l’aderenza collega il trattamento prescritto all’esposizione realmente ottenuta. Con un bisfosfonato orale contano anche le modalità di assunzione che ne condizionano l’assorbimento; con denosumab una somministrazione precedente non crea lo stesso deposito minerale di un bisfosfonato. Perciò contare semplicemente le prescrizioni non ricostruisce l’azione sul tessuto. Il mancato avvio, un’assunzione non corretta e un’interruzione sono situazioni differenti, da distinguere prima di attribuire ogni evento a una mancata risposta del bersaglio.\n\nLa rivalutazione serve a ricostruire che cosa è accaduto. NOGG richiama aderenza e cause secondarie quando compare una frattura durante il trattamento. Nel capitolo questo si traduce in un ragionamento: quale esposizione è stata effettivamente raggiunta, quale evento si è verificato e quali nuovi fattori modificano il rischio? La BMD contribuisce alla valutazione, ma non riassume da sola cadute, tollerabilità e continuità della terapia. Nessuna singola misura risponde a tutte queste domande.\n\nInformazioni comprensibili e una decisione condivisa aiutano a chiarire il beneficio atteso e le difficoltà pratiche. NOGG raccomanda di esplorare dubbi ed effetti indesiderati e di riesaminare il trattamento quando seguirlo è difficile. Non si tratta di attribuire una colpa al paziente: occorre capire quale ostacolo impedisce di realizzare il piano. Le eventuali modifiche e transizioni restano cliniche; l’esempio di denosumab mostra perché una difficoltà non vada tradotta in un’interruzione autonoma.",
+      "formula": "Prescrizione → avvio e assunzione effettivi → esposizione → risposta del tessuto. Il controllo clinico collega questa catena a fratture, cadute e tollerabilità."
+    },
+    {
       "id": "integrare-senza-generalizzare",
       "title": "Dalla fisiologia al trattamento: leggere le prove nel loro contesto",
       "refs": [
@@ -679,13 +702,29 @@ export const THEORY_BONE = {
     {
       "question": "Si possono applicare le stesse soglie a tutti i calcolatori di rischio?",
       "answer": "No. Modello, esito stimato e contesto della soglia devono corrispondere."
+    },
+    {
+      "question": "Una frequenza per 1.000 anni-persona è una percentuale di pazienti senza altre informazioni?",
+      "answer": "No. Il denominatore contiene tempo di osservazione; tasso, rischio e conteggio delle persone non sono intercambiabili."
+    },
+    {
+      "question": "Nell’esempio ipotetico, passare dal 2% all’1% significa ridurre il rischio di 50 punti percentuali?",
+      "answer": "No. La riduzione relativa è del 50%, mentre quella assoluta è di 1 punto percentuale nei due anni considerati."
+    },
+    {
+      "question": "Due risultati contro placebo dimostrano da soli quale dei due farmaci sia superiore?",
+      "answer": "No. Non costituiscono un confronto diretto randomizzato fra quei farmaci e possono differire per popolazione, durata ed esito."
+    },
+    {
+      "question": "Perché una prescrizione non dimostra l’esposizione effettiva al farmaco?",
+      "answer": "Occorre verificare avvio, modalità di assunzione e continuità; assorbimento e persistenza dell’effetto dipendono anche dal prodotto."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I · 2025–26",
-      "detail": "PDF855–885, etichette853–883. Lotto881–885: testi principali completi881,882,884,885; integrati881,882,884.883tabella tagliata: parziale ed esclusa.885tabella2017 letta non integrata.860 e875 restano parziali; limiti figurativi precedenti conservati. Lotto886–890: testi principali visibili886–889 completi, solo886 integrata;890parziale. Tabelle storiche887–889 non integrate, note mancanti e numeri esclusi. Lotto891–895: testi principali visibili891–893 e895 completi;892–893 integrati.894tabella tagliata, parziale esclusa.891 e895 lette non integrate; articoli riprodotti non letti integralmente. Lotto896–900: testi principali visibili completi, selezionate897,899,900.896 e898 lette non integrate. Corrette le distinzioni precursore/enzima eD2/D3; numeri e affermazioni assolute di sicurezza esclusi. Lotto901–905: PDF901, tabella visibile; intestazioni cinetiche mancanti, numeri esclusi.902–905 riguardano altro argomento e non rientrano nel capitolo."
+      "detail": "PDF855–885, etichette853–883. Lotto881–885: testi principali completi881,882,884,885; integrati881,882,884.883tabella tagliata: parziale ed esclusa.885tabella2017 letta non integrata.860 e875 restano parziali; limiti figurativi precedenti conservati. Lotto886–890: testi principali visibili886–889 completi, solo886 integrata;890parziale. Tabelle storiche887–889 non integrate, note mancanti e numeri esclusi. Lotto891–895: testi principali visibili891–893 e895 completi;892–893 integrati.894tabella tagliata, parziale esclusa.891 e895 lette non integrate; articoli riprodotti non letti integralmente. Lotto896–900: testi principali visibili completi, selezionate897,899,900.896 e898 lette non integrate. Corrette le distinzioni precursore/enzima eD2/D3; numeri e affermazioni assolute di sicurezza esclusi. Lotto901–905: PDF901, tabella visibile; intestazioni cinetiche mancanti, numeri esclusi.902–905 riguardano altro argomento e non rientrano nel capitolo. Lotto926–930 (stampa924–928): articolo incorporato distinto dal corso; selezioni927 e930 integrate."
     },
     {
       "id": "APP",
@@ -885,7 +924,7 @@ export const THEORY_BONE = {
       "id": "JAMA-OSTEO-2025",
       "title": "Morin, Leslie e Schousboe · Osteoporosis: A Review",
       "url": "https://doi.org/10.1001/jama.2025.6003",
-      "detail": "JAMA, pubblicazione online 30 giugno 2025. Letti testo visibile e immagini delle sole E1–E5, incluse in Farmacologia I AA2025–26 PDF921–925 (stampa919–923). Integrati passaggi E3–E5; non intero articolo né studi citati. Figura1 ispezionata come illustrazione, senza validazione radiologica indipendente; tabella1 letta. Il paragrafo sui bisfosfonati continua fuori intervallo."
+      "detail": "JAMA,online30giugno2025. Copertura cumulativa: testo visibile e immagini E1–E10, Farmacologia I AA2025–26 PDF921–930 (stampa919–928). In questo lotto nuove E6–E10; integrate selezioni E7 ed E10 per interpretazione delle prove e continuità. Tabelle e figure ispezionate; nessun dato clinico numerico o algoritmo riprodotto. Conclusioni proseguono oltreE10: non intero articolo,bibliografia o studi citati."
     },
     {
       "id": "NIAMS-DXA",
@@ -910,6 +949,18 @@ export const THEORY_BONE = {
       "title": "NOGG · Valutazione del rischio di frattura, sezione 3",
       "url": "https://www.nogg.org.uk/full-guideline/section-3-fracture-risk-assessment-and-case-finding",
       "detail": "Consultazione 26 novembre 2026: selezioni su BMD, fattori clinici e strumenti di rischio. Contesto britannico; nessuna soglia terapeutica trasferita in Italia. Non intera linea guida."
+    },
+    {
+      "id": "COCHRANE6",
+      "title": "Cochrane Handbook · Misure dell’effetto, capitolo6",
+      "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-06",
+      "detail": "Higgins,Li eDeeks; versione6.5,2024,capitolo aggiornato agosto2023. Consultazione26novembre2026 dei soli passaggi6.1.2,6.4.1 e6.7 su rapporti,differenze,incertezza e denominatori. Non intero manuale; esempio aritmetico originale e ipotetico."
+    },
+    {
+      "id": "NOGG9",
+      "title": "NOGG · Modelli di cura per prevenire le fratture, sezione9",
+      "url": "https://www.nogg.org.uk/full-guideline/section-9-models-care-fracture-prevention",
+      "detail": "Consultazione26novembre2026: raccomandazioni e passaggi suFLS,continuità e sostegno all’aderenza. Contesto britannico; nessun calendario assistenziale trasferito né disponibilità locale italiana verificata."
     }
   ],
   "moleculeLinks": [
@@ -967,8 +1018,8 @@ export const THEORY_BONE = {
   ],
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
-  "reviewedAt": "2026-11-26T16:48:33.623910+00:00",
+  "reviewedAt": "2026-11-26T18:22:20.871949+00:00",
   "readingManifest": "./data/rimodellamento-osseo-osteoporosi-reading.json",
-  "coverage": "5 nuove pagine lette nel testo visibile e ispezionate; selezioni da 3 integrate. Cumulativo 74 testi completi,79 pagine ispezionate,60 con passaggi integrati.5 pagine parziali precedenti escluse. Libri e corsi non letti integralmente; nessuna revisione clinica indipendente.",
-  "wordCount": 10131
+  "coverage": "5 nuove pagine lette nel testo visibile e ispezionate; selezioni da2 integrate. Cumulativo79 testi completi,84 pagine ispezionate,62 con passaggi integrati.5 pagine parziali precedenti escluse. Libri,corsi e articolo non letti integralmente; nessuna revisione clinica indipendente.",
+  "wordCount": 10840
 };

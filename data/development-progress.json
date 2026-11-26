@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-11-26T17:00:04.641418+00:00",
-  "batch": "theory-course-921-925",
+  "updatedAt": "2026-11-26T18:25:47.882593+00:00",
+  "batch": "theory-course-926-930",
   "status": "locally_verified_pending_publication",
-  "release": "0.121.0",
-  "branch": "feat/theory-course-921-925",
-  "baseCommit": "58b6943a20ddf2321f6256eb32f3003a24da315e",
+  "release": "0.122.0",
+  "branch": "feat/theory-course-926-930",
+  "baseCommit": "6678603bae8adb98017cbcc6e6b7a1ec7dcccde1",
   "previousBatch": {
-    "batch": "theory-course-916-920",
-    "release": "0.120.0",
-    "commit": "58b6943a20ddf2321f6256eb32f3003a24da315e",
+    "batch": "theory-course-921-925",
+    "release": "0.121.0",
+    "commit": "6678603bae8adb98017cbcc6e6b7a1ec7dcccde1",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Ampliamento del capitolo osseo: misura DXA, precisione eLSC, VFA,TBS e rischio di frattura."
+    "Ampliamento del capitolo osseo:interpretazione delle prove sulle fratture e continuità della cura."
   ],
   "completed": [
-    "5 nuove pagine lette e ispezionate;3 con passaggi integrati. Deduplicazione su276 registri.",
-    "3 sezioni,6 quesiti e3 schemi originali;10131 parole e34 sezioni complessive.",
-    "Superati52 validatori,8 configurazioni desktop/mobile,temi,tastiera,collegamenti,ricerche eoffline;10 immagini ispezionate. Aggiornamento reale0.120.0→0.121.0 con dati e tema conservati."
+    "5 nuove pagine lette e ispezionate;2 con selezioni integrate. Deduplicazione su381 registri.",
+    "2 sezioni,4 quesiti e2 schemi originali;10840 parole e36 sezioni complessive.",
+    "Superati52 validatori,8 configurazioni desktop/mobile,temi,tastiera,collegamenti,ricerche eoffline;8 immagini ispezionate. Aggiornamento reale0.121.0→0.122.0 con dati e tema conservati."
   ],
   "remaining": [
     "Commit,CI,deploy concluso e riscontro online."
@@ -42,11 +42,11 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 3,
+    "newSections": 2,
     "expandedSections": 0,
     "newLinksToExistingIdentities": 0,
-    "newStaticOriginalSchemas": 3,
-    "newSelfChecks": 6,
+    "newStaticOriginalSchemas": 2,
+    "newSelfChecks": 4,
     "unchangedExistingChapters": 66
   },
   "readingManifests": [
@@ -59,15 +59,19 @@
     "RANG689:attivazione epatica dell’alfacalcidolo riconciliata con didascalia e scheda ufficiale; freccia ambigua non riprodotta. KATZ889:solo confronto qualitativo dei minerali,nessuna estensione alle patologie genetiche.",
     "Scheda britannica dell’alfacalcidolo:passaggi selezionati,non intero documento oRCP italiano. KDIGO2017:raccomandazioni selezionate,non revisione completa; pagina indice diretta403,documento e indice ufficiale indicizzato accessibili. Nessuna dose,soglia operativa o calendario trasferiti.",
     "Nessun PDF,trascrizione o figura originale pubblicati. Identità,sintesi di farmaci,profili e laboratori interattivi restano nel backlog.",
-    "Lotto921–925:5 nuove letture complete del testo visibile e5 ispezioni;3 pagine con selezioni integrate. Le69 pagine pregresse sono copertura ereditata, non nuove riletture. Totale74 complete,79 ispezionate,60 integrate.",
-    "Il contenitore del corso include un articolo JAMA del2025: E1–E5 lette; E6 e seguenti, bibliografia e studi citati non letti.921–922 non integrati;923–925 integrati solo per densitometria e valutazione del rischio.",
-    "Radiografie di924 ispezionate con la didascalia, senza revisione radiologica indipendente. Nessuna immagine riprodotta. La prosecuzione sui bisfosfonati a926 non è stata letta.",
     "Soglie terapeutiche, screening di popolazione, sospensioni automatiche dei bisfosfonati, dosi e risultati quantitativi clinici del review non trasferiti. LSC distinta dalla prova individuale di beneficio; numeri del solo esempio didattico verificati aritmeticamente.",
     "Passaggi ufficiali selezionati ISCD,NOGG eNIAMS confrontati il26novembre2026; NIAMS limitato al testo indicizzato. Nessuna revisione clinica indipendente o intera linea guida dichiarata letta.",
     "La riconciliazione cumulativa con Katzung,Rang,appunti di Farmacologia I e contributo di Farmacologia II già presente è conservata. Nessuna nuova lettura di libri o altri corsi in questo lotto; eventuali ulteriori contributi restano da riconciliare.",
-    "Le pagine CFI902–920 eAPP343–344 appartengono al lavoro sulle anemie consegnato separatamente fino alla0.120.0; non sono incluse nei conteggi del capitolo osseo. Prossimo intervallo926–930 non iniziato."
+    "Lotto926–930:5 nuove letture complete del testo visibile e5 ispezioni;2 pagine con selezioni integrate.74 pagine pregresse ereditate,non nuove riletture. Totale79 complete,84 ispezionate,62 integrate.",
+    "JAMA2025 E1–E10 lette cumulativamente; soloE6–E10 nuove in questo lotto. Conclusioni proseguono a931; bibliografia e studi citati non letti.926,928,929 non integrati;927 e930 integrati selettivamente.",
+    "Tabella2,figura2 efigura3 ispezionate con note; nessuna riproduzione. Infigura2 rapporti e differenze per anni-persona sono distinti; conteggi e stime non ricalcolati come metanalisi. I numeri clinici non sono stati validati sugli studi primari.",
+    "La formulazione tabellare su sclerostina/Wnt è ambigua; resta il meccanismo già corretto. Il limite statunitense di12mesi dopoinfarto/ictus non sostituisce la controindicazioneEMA per pregressi eventi. Nessuna nuova istruzione terapeutica o di sospensione aggiunta.",
+    "Figura3 dichiara che l’algoritmo non è validato: soglie,calendari e classificazioni terapeutiche non trasferiti. Sospensione automatica dei bisfosfonati e prosecuzione indefinita universale di denosumab escluse; mantenuta la pianificazione individuale.",
+    "Il valoreRD e il suo intervallo nel paragrafo suromosozumab a928 presentano segni non coerenti con il confronto descritto: dato non usato né corretto per congettura. Non riesaminati gli studi primari.",
+    "FLS e aderenza: principio organizzativo confrontato conNOGG; nessuna verifica della disponibilità di servizi italiani. Esempio2%→1% interamente ipotetico,non efficacia attribuita a un medicinale.",
+    "Radiografie924 già ispezionate nel lotto precedente,senza diagnosi indipendente; non nuove ispezioni. CFI902–920 eAPP343–344 restano copertura separata delle anemie. Prossimo intervallo931–935 non iniziato."
   ],
-  "nextBatch": "Completare921–925; poi un solo intervallo926–930, non iniziato. Farmaci,profili e laboratori nel backlog.",
+  "nextBatch": "Completare926–930; poi un solo intervallo931–935,non iniziato. Farmaci,profili e laboratori nel backlog.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",
