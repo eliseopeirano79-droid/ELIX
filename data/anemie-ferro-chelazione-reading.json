@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "batch": "theory-course-911-915",
+  "batch": "theory-course-916-920",
   "chapterId": "anemie-ferro-chelazione",
-  "updatedAt": "2026-11-26T14:24:18.106083+00:00",
+  "updatedAt": "2026-11-26T15:21:09.912748+00:00",
   "fullCorpusRead": false,
   "clinicalValidation": false,
   "newIdentities": 0,
@@ -11,17 +11,17 @@
   "newTargetProfiles": 0,
   "newChapters": 0,
   "expandedExistingChapters": 1,
-  "newReadPdfPages": 17,
-  "reusedReadPdfPages": 21,
-  "totalReadPdfPages": 38,
-  "newReviewedPdfPages": 17,
-  "chapterReviewedPdfPages": 38,
+  "newReadPdfPages": 16,
+  "reusedReadPdfPages": 38,
+  "totalReadPdfPages": 54,
+  "newReviewedPdfPages": 16,
+  "chapterReviewedPdfPages": 54,
   "newPartiallyReadPdfPages": 0,
   "partiallyReadPdfPages": 0,
-  "chapterSourcePdfPages": 38,
-  "chapterIntegratedPdfPages": 34,
-  "newIntegratedPdfPages": 13,
-  "newlyIntegratedPreviouslyReadPdfPages": 0,
+  "chapterSourcePdfPages": 54,
+  "chapterIntegratedPdfPages": 54,
+  "newIntegratedPdfPages": 16,
+  "newlyIntegratedPreviouslyReadPdfPages": 4,
   "sources": [
     {
       "id": "CFI",
@@ -42,14 +42,19 @@
         912,
         913,
         914,
-        915
+        915,
+        916,
+        917,
+        918,
+        919,
+        920
       ],
       "newlyReadTextPages": [
-        911,
-        912,
-        913,
-        914,
-        915
+        916,
+        917,
+        918,
+        919,
+        920
       ],
       "reusedPreviouslyReadPages": [
         902,
@@ -60,7 +65,12 @@
         907,
         908,
         909,
-        910
+        910,
+        911,
+        912,
+        913,
+        914,
+        915
       ],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
@@ -77,14 +87,19 @@
         912,
         913,
         914,
-        915
+        915,
+        916,
+        917,
+        918,
+        919,
+        920
       ],
       "newlyVisuallyCheckedPdfPages": [
-        911,
-        912,
-        913,
-        914,
-        915
+        916,
+        917,
+        918,
+        919,
+        920
       ],
       "integratedPdfPages": [
         902,
@@ -97,13 +112,17 @@
         909,
         910,
         911,
-        912
-      ],
-      "readButNotIntegratedPdfPages": [
+        912,
         913,
         914,
-        915
+        915,
+        916,
+        917,
+        918,
+        919,
+        920
       ],
+      "readButNotIntegratedPdfPages": [],
       "printedPageLabels": {
         "902": "900 di 934",
         "903": "901 di 934",
@@ -118,12 +137,17 @@
         "912": "910 di 934",
         "913": "911 di 934",
         "914": "912 di 934",
-        "915": "913 di 934"
+        "915": "913 di 934",
+        "916": "914 di 934",
+        "917": "915 di 934",
+        "918": "916 di 934",
+        "919": "917 di 934",
+        "920": "918 di 934"
       },
       "allContentsRead": false,
       "sourceUnchanged": true,
-      "integrationScope": "Passaggi selezionati sul ferro e sulle vitamine; lettura completa del testo visibile non equivale a pubblicazione di tutti i contenuti.",
-      "figureReviewLimit": "Testo visibile completo. PDF 903: nota con asterisco non disponibile. PDF 907: intestazioni delle colonne cinetiche assenti; numeri esclusi. PDF 908: testo della tabella letto dalla pagina renderizzata; citazioni e note esterne non consultate. Strutture chimiche ispezionate qualitativamente, non validate atomo per atomo. PDF 909: frecce e legenda lette come modello qualitativo, non prova clinica. PDF 910: solo introduzione a B12/folati. Nuovo intervallo: 911: testo della figura letto sulla resa grafica; 912: via batterica distinta da metabolismo umano; 913–915: fattori ematopoietici letti ma rinviati."
+      "integrationScope": "Passaggi selezionati su nutrienti, farmaci e fattori ematopoietici; leggere una pagina intera non significa integrarne tutti gli argomenti.",
+      "figureReviewLimit": "PDF 903: nota esterna non disponibile; PDF 907: intestazioni cinetiche assenti; PDF 908 e 916–918: testo letto dalle immagini. PDF 913 figura condivisa con Rang 493, conteggiata come una sola evidenza. Schemi qualitativi, tabelle storiche e sequenze molecolari non validati integralmente. PDF 916–920 ispezionate, errori e limiti riconciliati nel registro di revisione."
     },
     {
       "id": "APP",
@@ -134,34 +158,30 @@
         343,
         344
       ],
-      "newlyReadTextPages": [
-        344
-      ],
+      "newlyReadTextPages": [],
       "reusedPreviouslyReadPages": [
-        343
+        343,
+        344
       ],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
         343,
         344
       ],
-      "newlyVisuallyCheckedPdfPages": [
-        344
-      ],
+      "newlyVisuallyCheckedPdfPages": [],
       "integratedPdfPages": [
-        343
-      ],
-      "readButNotIntegratedPdfPages": [
+        343,
         344
       ],
+      "readButNotIntegratedPdfPages": [],
       "printedPageLabels": {
         "343": "338; lezione pagina 8 di 9",
         "344": "339; lezione 9 di 9"
       },
       "allContentsRead": false,
       "sourceUnchanged": true,
-      "integrationScope": "Passaggi selezionati sul ferro e sulle vitamine; lettura completa del testo visibile non equivale a pubblicazione di tutti i contenuti.",
-      "figureReviewLimit": "Testo e figura già ispezionati nel lotto 901–905. Generalizzazioni sulla via orale, sulla sola profilassi con folato e sulla chelazione dopo ogni trasfusione escluse. Nuovo intervallo: Riquadro esplicitamente integrato da anno precedente non identificato; non attribuito interamente al docente/anno corrente. Fattori ematopoietici rinviati."
+      "integrationScope": "Passaggi selezionati su nutrienti, farmaci e fattori ematopoietici; leggere una pagina intera non significa integrarne tutti gli argomenti.",
+      "figureReviewLimit": "PDF 344 già letta e ispezionata nel lotto precedente, ora ripresa senza nuova lettura conteggiata. Riquadro integrato da anno precedente non identificato: attribuzione distinta. Via di romiplostim ed emivita/intervallo corretti col confronto ufficiale."
     },
     {
       "id": "KATZ",
@@ -180,15 +200,21 @@
         681,
         682,
         683,
-        684
+        684,
+        685,
+        686,
+        687,
+        688,
+        689,
+        690
       ],
       "newlyReadTextPages": [
-        679,
-        680,
-        681,
-        682,
-        683,
-        684
+        685,
+        686,
+        687,
+        688,
+        689,
+        690
       ],
       "reusedPreviouslyReadPages": [
         673,
@@ -196,7 +222,13 @@
         675,
         676,
         677,
-        678
+        678,
+        679,
+        680,
+        681,
+        682,
+        683,
+        684
       ],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
@@ -211,15 +243,21 @@
         681,
         682,
         683,
-        684
+        684,
+        685,
+        686,
+        687,
+        688,
+        689,
+        690
       ],
       "newlyVisuallyCheckedPdfPages": [
-        679,
-        680,
-        681,
-        682,
-        683,
-        684
+        685,
+        686,
+        687,
+        688,
+        689,
+        690
       ],
       "integratedPdfPages": [
         673,
@@ -233,7 +271,13 @@
         681,
         682,
         683,
-        684
+        684,
+        685,
+        686,
+        687,
+        688,
+        689,
+        690
       ],
       "readButNotIntegratedPdfPages": [],
       "printedPageLabels": {
@@ -248,12 +292,18 @@
         "681": "661",
         "682": "662",
         "683": "663",
-        "684": "664"
+        "684": "664",
+        "685": "665",
+        "686": "666",
+        "687": "667",
+        "688": "668",
+        "689": "669",
+        "690": "670"
       },
       "allContentsRead": false,
       "sourceUnchanged": true,
-      "integrationScope": "Passaggi selezionati sul ferro e sulle vitamine; lettura completa del testo visibile non equivale a pubblicazione di tutti i contenuti.",
-      "figureReviewLimit": "Figure e tabelle visibili ispezionate; caso di Schilling e riquadro sulla drepanocitosi letti ma non sviluppati. Soglie, dosi e procedure storiche escluse. HCP1 non adottato come trasportatore contemporaneo dell’eme. Refuso ferroso/ferrico nella transferrina risolto con il confronto fra testo e altra fonte. Nuovo intervallo: Testo visibile completo, figure 33-2/3/4 ispezionate qualitativamente. Folati e B12 integrati; crescita ematopoietica finale di 684 rinviata, continuazione 685 non letta."
+      "integrationScope": "Passaggi selezionati su nutrienti, farmaci e fattori ematopoietici; leggere una pagina intera non significa integrarne tutti gli argomenti.",
+      "figureReviewLimit": "Figure visibili ispezionate qualitativamente. Casi, dosi, procedure e disponibilità storiche esclusi; refusi già registrati conservati nel registro. PDF 685–690: testo visibile completo e figure/tabelle ispezionate. Figura 33-5 qualitativa; soglie, dosi, protocollo di mobilizzazione e disponibilità storiche esclusi. PDF 690 integrata soltanto per fattori trombopoietici, non la tabella finale del ferro."
     },
     {
       "id": "RANG",
@@ -268,19 +318,27 @@
         490,
         491,
         492,
-        493
+        493,
+        494,
+        495,
+        496,
+        497
       ],
       "newlyReadTextPages": [
-        491,
-        492,
-        493
+        494,
+        495,
+        496,
+        497
       ],
       "reusedPreviouslyReadPages": [
         486,
         487,
         488,
         489,
-        490
+        490,
+        491,
+        492,
+        493
       ],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
@@ -291,12 +349,17 @@
         490,
         491,
         492,
-        493
+        493,
+        494,
+        495,
+        496,
+        497
       ],
       "newlyVisuallyCheckedPdfPages": [
-        491,
-        492,
-        493
+        494,
+        495,
+        496,
+        497
       ],
       "integratedPdfPages": [
         486,
@@ -306,7 +369,11 @@
         490,
         491,
         492,
-        493
+        493,
+        494,
+        495,
+        496,
+        497
       ],
       "readButNotIntegratedPdfPages": [],
       "printedPageLabels": {
@@ -317,12 +384,16 @@
         "490": null,
         "491": null,
         "492": null,
-        "493": null
+        "493": null,
+        "494": null,
+        "495": null,
+        "496": null,
+        "497": null
       },
       "allContentsRead": false,
       "sourceUnchanged": true,
-      "integrationScope": "Passaggi selezionati sul ferro e sulle vitamine; lettura completa del testo visibile non equivale a pubblicazione di tutti i contenuti.",
-      "figureReviewLimit": "Numerazione stampata non identificabile. Figure e tabelle visibili ispezionate qualitativamente; quantità corporee, dosi, procedure storiche e note bibliografiche esterne non integrate. PDF 490 termina all’avvio della B12; la continuazione 491–493 è stata letta in questo lotto. Nuovo intervallo: Numerazione stampata non identificabile. 493: integrate solo considerazioni B12; figura 25.2 ematopoietica identica a CFI 913, non evidenza indipendente."
+      "integrationScope": "Passaggi selezionati su nutrienti, farmaci e fattori ematopoietici; leggere una pagina intera non significa integrarne tutti gli argomenti.",
+      "figureReviewLimit": "Numerazione stampata non identificabile. Figure e tabelle ispezionate qualitativamente; unità incongrue di 492 escluse. Figura 493 duplicata in CFI913, non evidenza indipendente. PDF 494–497: testo visibile completo e immagini ispezionate. Figura 25.3 storica non utilizzata per incidenza; PDF 497 integrate solo le righe iniziali sulla sicurezza dei fattori mieloidi. Emolisi e altri trattamenti letti ma fuori ambito, figura 25.4 della continuazione non letta."
     },
     {
       "id": "SII2",
@@ -330,30 +401,36 @@
       "edition": "AA 2025–26; lezione 2 del 2025-10-29",
       "sha256": "e476517b1ea1e3cdd7c10389d28a85fdec6f565dfaeb06b8e08199d377d28380",
       "pdfPagesRead": [
+        9,
         14
       ],
       "newlyReadTextPages": [
+        9
+      ],
+      "reusedPreviouslyReadPages": [
         14
       ],
-      "reusedPreviouslyReadPages": [],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
+        9,
         14
       ],
       "newlyVisuallyCheckedPdfPages": [
-        14
+        9
       ],
       "integratedPdfPages": [
+        9,
         14
       ],
       "readButNotIntegratedPdfPages": [],
       "printedPageLabels": {
-        "14": "14"
+        "14": "14",
+        "9": "9"
       },
       "allContentsRead": false,
       "sourceUnchanged": true,
-      "integrationScope": "Solo passaggi pertinenti ai folati e ai bersagli farmacologici.",
-      "figureReviewLimit": "Testo completo e figura del salvataggio folinico ispezionati. Cristalluria, pemetrexed e incipit tiopurine esclusi dalla sintesi."
+      "integrationScope": "Passaggi selezionati su nutrienti, farmaci e fattori ematopoietici; leggere una pagina intera non significa integrarne tutti gli argomenti.",
+      "figureReviewLimit": "Testo completo e figura del salvataggio folinico ispezionati. Cristalluria, pemetrexed e incipit tiopurine esclusi dalla sintesi. PDF 9: testo visibile completo e diagramma della mielosoppressione ispezionati. Integrato soltanto il contesto midollare della chemioterapia, non le graduatorie dei citotossici né altri effetti avversi."
     },
     {
       "id": "DII14",
@@ -363,17 +440,15 @@
       "pdfPagesRead": [
         21
       ],
-      "newlyReadTextPages": [
+      "newlyReadTextPages": [],
+      "reusedPreviouslyReadPages": [
         21
       ],
-      "reusedPreviouslyReadPages": [],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
         21
       ],
-      "newlyVisuallyCheckedPdfPages": [
-        21
-      ],
+      "newlyVisuallyCheckedPdfPages": [],
       "integratedPdfPages": [
         21
       ],
@@ -383,21 +458,23 @@
       },
       "allContentsRead": false,
       "sourceUnchanged": true,
-      "integrationScope": "Solo passaggi pertinenti ai folati e ai bersagli farmacologici.",
+      "integrationScope": "Passaggi selezionati su nutrienti, farmaci e fattori ematopoietici; leggere una pagina intera non significa integrarne tutti gli argomenti.",
       "figureReviewLimit": "Testo completo e figura letti. Integrati solo DHFR e distinzione via microbica/umana; chinoloni, indicazioni antibiotiche e resistenze non sviluppati."
     }
   ],
   "limits": [
     "Sintesi originale didattica; revisione editoriale del solo integratore, senza revisione clinica indipendente.",
-    "17 nuove letture complete del testo visibile e 17 nuove ispezioni; 21 pagine già pubblicate riutilizzate. Totale 38, con passaggi selezionati integrati da 34; 4 sui fattori ematopoietici lette ma non integrate.",
+    "16 nuove letture complete del testo visibile e 16 nuove ispezioni; 38 pagine precedenti riutilizzate. Totale 54: integrate selezioni dalle 16 nuove pagine e dalle 4 già lette ma rinviate. Non tutti i contenuti delle pagine sono integrati.",
     "La pagina 908 contiene una tabella in immagine: il testo visibile è stato letto sulla resa grafica. Mancano intestazioni cinetiche in 907 e note esterne in alcune tabelle; valori non ricostruiti.",
     "Dosi, prezzi, disponibilità storiche, graduatorie di efficacia e procedure obsolete esclusi. Nessuna soglia operativa o schema posologico individuale pubblicato.",
     "BSG: passaggi selezionati della linea guida 2021, indice revisionato nel 2026; aggiornamento FIT 2025 non letto né integrato. ASH 2026 e NICE NG239: solo passaggi ufficiali indicizzati, accesso diretto negato. NHS: revisione 2023 con controllo previsto nel 2026, limite temporale dichiarato.",
     "EMA: passaggi selezionati delle schede di deferasirox e deferiprone, non intere schede. Deferoxamina: record DailyMed aggiornato nel 2025 con testo revisionato nel 2022, distinta giurisdizione USA.",
-    "Contributi di Farmacologia II limitati alla lezione 2 PDF14 e alla lezione 14 PDF21. Ricerca nelle estrazioni e deduplicazione non equivalgono a lettura integrale di altri corsi o libri.",
-    "CFI913–915 e APP344 sui fattori ematopoietici rinviati; errori di via, emivita e attribuzione all’anno precedente registrati. Le continuazioni oltre gli intervalli dichiarati non sono lette.",
-    "Rang492: unità incongrue anche nella resa grafica, escluse. Sede di assorbimento dei folati, nomenclatura, selettività della DHFR e bypass con folinato riconciliati senza numeri clinici.",
+    "Contributi di Farmacologia II limitati alla lezione 2 PDF 9/14 e alla lezione 14 PDF 21. La ricerca nelle altre estrazioni non equivale alla lettura integrale di corsi o libri; nessuna nuova pagina della lezione 14 letta in questo lotto.",
+    "CFI913–915 e APP344 ripresi e integrati limitatamente ai passaggi riconciliati. Il riquadro di anno precedente in APP344 mantiene anno e attribuzione non identificati. Oltre gli intervalli dichiarati le continuazioni non sono lette.",
+    "Rang 492: unità incongrue anche nella resa grafica, escluse. Sede di assorbimento dei folati, nomenclatura, selettività della DHFR e bypass con folinato riconciliati senza numeri clinici.",
     "Nuovo confronto ufficiale del 26 novembre 2026 limitato a passaggi selezionati di NIH, NICE, MHRA, Ministero e DailyMed. Per NICE disponibili solo passaggi indicizzati. Nessuna intera linea guida o scheda dichiarata letta.",
+    "Fattori ematopoietici: confronto del 26 novembre 2026 con selezioni KDIGO2026, ASCO2026 e ASCO/ASH2019 e schede EMA. ASCO-CSF e parte delle schede disponibili solo tramite passaggi indicizzati. Nessuna intera linea guida o scheda dichiarata letta; nessuna revisione clinica indipendente.",
+    "Tabelle storiche EPO, grafico dei casi di aplasia eritroide, protocolli di mobilizzazione, IL-11 e disponibilità dei prodotti non trasferiti come raccomandazioni correnti. Rang 497: parte sull’emolisi letta ma fuori ambito e non aggiornata clinicamente.",
     "Nessun PDF, trascrizione o figura delle fonti pubblicati; strutture chimiche e grandezze sperimentali non validate integralmente."
   ]
 }

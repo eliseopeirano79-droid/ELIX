@@ -1,8 +1,8 @@
 export const THEORY_ANEMIA = {
   "id": "anemie-ferro-chelazione",
   "volume": 7,
-  "title": "Anemie, ferro e chelazione",
-  "lead": "Ferro, vitamina B12 e folati: assorbimento, recettori, cofattori, cause di carenza e bersagli farmacologici. Il percorso distingue sostituzione dei nutrienti, rimozione del ferro in eccesso e azione degli antifolati.",
+  "title": "Anemie, ferro e fattori di crescita",
+  "lead": "Dai nutrienti ai segnali ematopoietici: ferro, B12, folati, eritropoietina, fattori mieloidi e trombopoietina. Cause di citopenia, recettori, farmaci e limiti clinici sono collegati in un percorso che distingue substrati, produzione cellulare e sicurezza.",
   "sections": [
     {
       "id": "anemia-e-meccanismo",
@@ -14,7 +14,7 @@ export const THEORY_ANEMIA = {
         "RANG",
         "NICE-B12"
       ],
-      "text": "La concentrazione di emoglobina esprime la quantità di pigmento che il sangue mette a disposizione per trasportare ossigeno. Quando è ridotta rispetto al riferimento pertinente, si parla di anemia. Questa definizione descrive un risultato, mentre la scelta farmacologica richiede di ricostruirne il meccanismo. Il midollo può produrre troppo pochi eritrociti, gli eritrociti possono essere persi con un sanguinamento oppure distrutti più rapidamente. Nella stessa persona possono coesistere più processi.\n\nLa produzione richiede materie prime e segnali. Il ferro entra nell’eme; folati e vitamina B12 partecipano a processi necessari alla sintesi del DNA e alla maturazione cellulare. L’eritropoietina è invece un segnale ormonale che sostiene la produzione eritroide. Aggiungere un nutriente e stimolare una popolazione di precursori sono interventi diversi. Se il fattore limitante resta irrisolto, aumentare un altro componente non garantisce una risposta adeguata.\n\nLe dimensioni degli eritrociti aiutano a orientarsi: microcitosi, normocitosi e macrocitosi sono descrizioni morfologiche, non diagnosi eziologiche. La carenza di ferro può condurre a microcitosi; la carenza di B12 o folati può produrre un quadro megaloblastico. Queste associazioni non sono equivalenze esclusive. Una carenza iniziale o un quadro misto possono non presentare la morfologia attesa. NICE sottolinea inoltre che l’assenza di anemia o macrocitosi non esclude una carenza di B12.\n\nIl capitolo segue il ferro fino ai depositi e alla chelazione, poi approfondisce B12 e folati fino ai cofattori e ai bersagli dei farmaci. Il filo comune è riconoscere il fattore limitante: disponibilità di metallo, maturazione del DNA e segnale eritropoietico indicano problemi diversi. Le altre cause di anemia richiedono percorsi propri; il nome «antianemico» non identifica trattamenti intercambiabili.",
+      "text": "La concentrazione di emoglobina esprime la quantità di pigmento che il sangue mette a disposizione per trasportare ossigeno. Quando è ridotta rispetto al riferimento pertinente, si parla di anemia. Questa definizione descrive un risultato, mentre la scelta farmacologica richiede di ricostruirne il meccanismo. Il midollo può produrre troppo pochi eritrociti, gli eritrociti possono essere persi con un sanguinamento oppure distrutti più rapidamente. Nella stessa persona possono coesistere più processi.\n\nLa produzione richiede materie prime e segnali. Il ferro entra nell’eme; folati e vitamina B12 partecipano a processi necessari alla sintesi del DNA e alla maturazione cellulare. L’eritropoietina è invece un segnale ormonale che sostiene la produzione eritroide. Aggiungere un nutriente e stimolare una popolazione di precursori sono interventi diversi. Se il fattore limitante resta irrisolto, aumentare un altro componente non garantisce una risposta adeguata.\n\nLe dimensioni degli eritrociti aiutano a orientarsi: microcitosi, normocitosi e macrocitosi sono descrizioni morfologiche, non diagnosi eziologiche. La carenza di ferro può condurre a microcitosi; la carenza di B12 o folati può produrre un quadro megaloblastico. Queste associazioni non sono equivalenze esclusive. Una carenza iniziale o un quadro misto possono non presentare la morfologia attesa. NICE sottolinea inoltre che l’assenza di anemia o macrocitosi non esclude una carenza di B12.\n\nIl capitolo segue il ferro fino ai depositi e alla chelazione, approfondisce B12 e folati e passa poi ai segnali che sostengono le diverse linee del sangue. Il filo comune è riconoscere il fattore limitante: disponibilità di nutrienti, maturazione cellulare, segnale di crescita e integrità del midollo indicano problemi diversi. EPO, G-CSF e agonisti della trombopoietina collegano recettori e produzione cellulare a contesti clinici distinti; il nome «fattore di crescita» non identifica trattamenti intercambiabili.",
       "formula": "Ridotta produzione, perdita o distruzione accelerata → anemia. Il meccanismo orienta il bersaglio terapeutico."
     },
     {
@@ -222,6 +222,132 @@ export const THEORY_ANEMIA = {
       ],
       "text": "Il ciclo dei folati permette di collegare l’anemia alla farmacologia antitumorale e antibatterica. Il metotrexato può entrare nelle cellule tramite sistemi di trasporto ed essere trasformato in derivati poliglutamati, che ne modificano la permanenza e l’azione intracellulare. L’inibizione della DHFR riduce il recupero dei folati ridotti e ostacola la sintesi dei nucleotidi. Questo è un passaggio fondamentale del suo impiego citotossico; non esaurisce i meccanismi degli impieghi antinfiammatori a basse dosi.\n\nIl fluorouracile raggiunge un altro nodo: un suo metabolita inibisce la timidilato sintasi, che utilizza il 5,10-metilen-THF nella formazione di dTMP. L’effetto comune sulla produzione del DNA nasce dunque da bersagli differenti. Ridurre tutto a «blocco dei folati» farebbe perdere la posizione dell’intervento e impedirebbe di comprendere perché il rapporto con un folato somministrato dall’esterno possa cambiare da un trattamento all’altro.\n\nIl folinato, o leucovorina, è un folato già ridotto. Può alimentare il metabolismo a valle della DHFR bloccata e trova impiego nel salvataggio previsto da specifici trattamenti con metotrexato. Non riattiva l’enzima inibito e non è semplicemente acido folico con un nome diverso. Può contrastare anche l’effetto terapeutico dell’antagonista: tempi e modalità del salvataggio appartengono quindi a protocolli specialistici, non a una regola di automedicazione. Neppure la presenza di un antifolato autorizza ad aggiungere autonomamente una vitamina.\n\nSul versante antibatterico, il trimetoprim inibisce la DHFR con maggiore affinità per l’enzima batterico rispetto a quello dei mammiferi. I sulfamidici agiscono più a monte, nella sintesi microbica dei folati a partire dal PABA. L’essere umano assume folati dall’esterno e non possiede quella stessa via sintetica iniziale. Separare il tratto esclusivamente microbico dalle trasformazioni condivise rende leggibile la selettività farmacologica e impedisce di trasferire alla cellula umana una figura costruita per spiegare un antibiotico.",
       "formula": "Metotrexato → DHFR; metabolita del fluorouracile → timidilato sintasi; folinato → apporto a valle della DHFR. Trimetoprim e sulfamidici colpiscono nodi distinti del percorso batterico."
+    },
+    {
+      "id": "linee-ematopoietiche",
+      "title": "Dai nutrienti ai segnali: le linee ematopoietiche",
+      "refs": [
+        "CFI",
+        "APP",
+        "KATZ",
+        "RANG",
+        "SII2"
+      ],
+      "text": "Il midollo emopoietico produce cellule con funzioni e durate di vita differenti. Dalle cellule staminali derivano progenitori progressivamente impegnati verso le linee eritroide, granulocitaria, monocitaria e megacariocitaria, oltre a quelle linfatiche. Il disegno ad albero aiuta a orientarsi, ma non descrive compartimenti isolati: segnali solubili, contatti con il microambiente e disponibilità di nutrienti cooperano per mantenere una produzione adeguata. Un fattore di crescita agisce soltanto se esistono cellule capaci di riconoscerlo e di proseguire il programma maturativo.\n\nQuesto raccordo chiarisce la differenza tra ferro, vitamine e citochine. Il ferro rende possibile la sintesi dell’eme; B12 e folati sostengono reazioni indispensabili alla maturazione cellulare; l’eritropoietina fornisce soprattutto un segnale di sopravvivenza e sviluppo ai precursori eritroidi. Aumentare quel segnale non ricrea un deposito di ferro esaurito né rimuove un blocco della sintesi del DNA. Allo stesso modo, aggiungere un nutriente già sufficiente non sostituisce un segnale carente o una popolazione midollare gravemente compromessa.\n\nLa specificità relativa dei recettori spiega perché i fattori non siano intercambiabili. EPO orienta la risposta eritroide; G-CSF sostiene soprattutto la linea neutrofila; GM-CSF interessa un insieme più ampio di progenitori e cellule mieloidi; trombopoietina, o TPO, regola lo sviluppo megacariocitario e la produzione piastrinica. Una via intracellulare condivisa non annulla queste differenze di cellule bersaglio.\n\nLa chemioterapia rende evidente il problema: il danno ai precursori può ridurre più componenti dell’emocromo, ma anemia, neutropenia e trombocitopenia hanno conseguenze diverse. Prima di collegare un farmaco a una citopenia occorre quindi riconoscere quale linea è limitante, quanto midollo funzionale rimane e quale obiettivo clinico si vuole ottenere. La stessa parola «stimolazione» comprende interventi biologicamente distinti.",
+      "formula": "Nutrienti disponibili + progenitori vitali + segnale appropriato → produzione della linea bersaglio"
+    },
+    {
+      "id": "epo-rene-midollo",
+      "title": "Eritropoietina: il circuito tra rene e midollo",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "RANG"
+      ],
+      "text": "Nell’adulto il rene è la sede principale della produzione di eritropoietina. La ridotta disponibilità di ossigeno attiva una risposta che aumenta il segnale diretto al midollo. La relazione è funzionale: il rene segnala una necessità dell’organismo, mentre i precursori eritroidi eseguono il programma che porterà a nuovi globuli rossi. Quando migliora il trasporto di ossigeno, lo stimolo tende a ridursi. Questo circuito lega produzione ormonale, capacità midollare e massa eritrocitaria senza renderle grandezze equivalenti.\n\nIl recettore dell’EPO appartiene alla famiglia dei recettori per citochine. Non è un canale ionico e non possiede una propria attività tirosin-chinasica intrinseca: trasmette il segnale attraverso proteine associate, tra cui JAK2, e fattori di trascrizione della famiglia STAT. L’attivazione coordina programmi di sopravvivenza, proliferazione e differenziamento dei precursori sensibili. Il risultato non è una conversione immediata di tutte le cellule staminali in eritrociti, ma il sostegno a fasi definite della linea eritroide.\n\nLa distinzione è utile nella malattia renale cronica. Una risposta eritropoietinica inadeguata può contribuire all’anemia, insieme a infiammazione, minore disponibilità del ferro, perdite e altri fattori. Il farmaco può compensare una parte del difetto di segnalazione; non elimina automaticamente le altre cause. Anche una concentrazione ormonale misurabile va interpretata in relazione alla gravità dell’anemia, senza trasformare un valore isolato in una spiegazione completa.\n\nIl globulo rosso maturo è il prodotto finale del circuito, non il principale bersaglio proliferativo dell’EPO. Questa separazione tra sede di produzione dell’ormone, recettore sui precursori e funzione della cellula circolante aiuta a capire sia il ritardo dell’effetto sia i limiti della risposta quando il compartimento midollare è danneggiato.",
+      "formula": "Ridotta ossigenazione → segnale renale EPO → recettore/JAK2–STAT nei precursori → eritropoiesi"
+    },
+    {
+      "id": "epo-tempi-risposta",
+      "title": "Concentrazione del farmaco, reticolociti ed emoglobina",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "RANG"
+      ],
+      "text": "La concentrazione di un agente stimolante l’eritropoiesi, o ESA, e l’emoglobina descrivono momenti diversi della stessa catena. La prima riguarda l’esposizione al farmaco; i reticolociti segnalano l’uscita in circolo di cellule giovani; l’emoglobina riflette anche l’accumulo e la sopravvivenza della popolazione eritrocitaria. Tra legame recettoriale e risultato sull’emocromo intervengono maturazione cellulare, disponibilità di substrati e bilancio tra produzione e perdita.\n\nUn aumento del segnale può quindi precedere una risposta reticolocitaria, che a sua volta può precedere una variazione più evidente dell’emoglobina. La concentrazione del farmaco può essere già diminuita mentre continuano a circolare cellule prodotte sotto il suo stimolo. Un grafico didattico con curve sfalsate serve a riconoscere questo ritardo; non fornisce un calendario universale di controllo né permette di confrontare prodotti somministrati con schemi differenti.\n\nLa risposta non dipende soltanto dall’intensità dello stimolo. Il ferro deve raggiungere i precursori nel momento in cui aumenta la richiesta; B12 e folati devono sostenere la maturazione; il midollo deve mantenere una capacità produttiva. Un sanguinamento persistente o una sopravvivenza eritrocitaria ridotta possono inoltre attenuare il cambiamento dell’emoglobina anche quando la produzione cresce. Per questo gli indicatori vanno collegati alla fisiologia che rappresentano.\n\nIl confronto con una trasfusione chiarisce il meccanismo: la trasfusione introduce cellule già formate, mentre un ESA richiede una risposta dell’organismo. Le due strategie non hanno la stessa rapidità né gli stessi rischi. Il capitolo illustra questa differenza senza stabilire quando una persona debba ricevere l’una o l’altra. Soprattutto, un’assenza iniziale di variazione dell’emoglobina non autorizza a dedurre automaticamente inefficacia recettoriale o necessità di aumentare il farmaco.",
+      "formula": "Esposizione al farmaco → maturazione dei precursori → reticolociti → variazione della massa eritrocitaria"
+    },
+    {
+      "id": "esa-struttura-durata",
+      "title": "Epoetine, darbepoetina e CERA: struttura e permanenza",
+      "refs": [
+        "CFI",
+        "APP",
+        "KATZ",
+        "RANG",
+        "EMA-MIRCERA"
+      ],
+      "text": "Le epoetine alfa e beta sono proteine ricombinanti che riproducono l’azione dell’eritropoietina sul suo recettore. Le caratteristiche della molecola e della sua glicosilazione contribuiscono al comportamento nell’organismo. Il bersaglio farmacologico rimane quello eritroide; le differenze tra preparazioni non corrispondono alla comparsa di una nuova linea cellulare bersaglio. La valutazione di un prodotto richiede inoltre qualità e dati specifici, non soltanto il nome della classe.\n\nLa darbepoetina è stata modificata in modo da aumentare la glicosilazione e prolungare la permanenza rispetto alle epoetine convenzionali. La metossipolietilenglicole-epoetina beta, indicata anche come CERA, è invece un coniugato con polietilenglicole. Questi esempi mostrano come l’ingegneria di una proteina possa modificare l’esposizione e consentire intervalli di somministrazione differenti, mantenendo una finalità eritropoietica comune. Non ne deriva una superiorità clinica universale per il prodotto con durata maggiore.\n\nEmivita, durata dell’effetto e intervallo prescritto devono restare separati. L’emivita descrive la diminuzione della concentrazione in condizioni definite; l’effetto dipende anche dai tempi della risposta midollare; l’intervallo deriva da uno schema studiato per un prodotto, una via e una popolazione. Una somministrazione distanziata di settimane non significa che la relativa emivita coincida con quelle settimane.\n\nLe informazioni di Mircera distinguono somministrazione endovenosa e sottocutanea, uso renale e schemi specifici, comprese condizioni particolari per la conversione pediatrica. Questi dettagli impediscono di trattare una tabella storica come una griglia automatica di sostituzione. Il confronto qui riguarda il rapporto struttura–esposizione–risposta: non propone equivalenze di dose, passaggi tra medicinali o calendari terapeutici.",
+      "formula": "Modifica della proteina → diversa esposizione; emivita ≠ durata dell’effetto ≠ intervallo di somministrazione"
+    },
+    {
+      "id": "esa-contesti-clinici",
+      "title": "ESA: distinguere l’anemia renale dall’anemia oncologica",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "SII2",
+        "KDIGO-2026",
+        "ASCO-ESA",
+        "EMA-MIRCERA"
+      ],
+      "text": "L’effetto eritropoietico non basta a definire un’indicazione. Nella malattia renale cronica la decisione su un ESA considera cause reversibili dell’anemia, sintomi, necessità di trasfusioni e rischi individuali. KDIGO 2026 mantiene questa valutazione personalizzata e non propone di ricondurre automaticamente l’emoglobina ai valori di una persona senza malattia renale. Correggere un segnale insufficiente e normalizzare un numero sono obiettivi differenti.\n\nIn oncologia il quadro cambia. La chemioterapia può ridurre la produzione midollare, ma l’anemia può derivare anche da sanguinamento, infiammazione, deficit nutrizionali o infiltrazione. Le raccomandazioni ASCO/ASH del 2019 circoscrivono l’impiego degli ESA a situazioni selezionate, soprattutto anemia associata a chemioterapia con intento non curativo; non lo estendono alla maggior parte delle anemie senza chemioterapia. Esistono eccezioni definite, come alcuni contesti mielodisplastici, che richiedono una valutazione specifica.\n\nL’obiettivo di ridurre il ricorso alle trasfusioni deve essere confrontato con il rischio tromboembolico e con i problemi di sicurezza osservati in determinati contesti oncologici. Una risposta dell’emoglobina non dimostra da sola un beneficio sulla sopravvivenza o sul controllo della neoplasia. La finalità del trattamento antitumorale contribuisce quindi alla decisione, insieme alle caratteristiche della persona e del medicinale.\n\nGli elenchi didattici che accostano insufficienza renale, chemioterapia e varie malattie non rappresentano un’unica autorizzazione valida per ogni ESA. Il meccanismo comune rende comprensibile l’ipotesi terapeutica; prove cliniche, raccomandazioni e scheda del prodotto ne delimitano l’impiego. Questo confronto usa passaggi selezionati delle fonti ufficiali e non costituisce una revisione clinica indipendente né una procedura per scegliere il trattamento di un singolo paziente.",
+      "formula": "Stesso bersaglio eritroide → decisioni diverse secondo causa, finalità della terapia e rapporto beneficio–rischio"
+    },
+    {
+      "id": "esa-iporesposta-rischi",
+      "title": "Iporisposta, pressione e immunogenicità degli ESA",
+      "refs": [
+        "KATZ",
+        "RANG",
+        "EMA-MIRCERA",
+        "KDIGO-2026"
+      ],
+      "text": "Un’iporesposta a un ESA è un problema da spiegare. Può indicare che il segnale eritropoietico non è l’unico fattore limitante: carenza di ferro, indisponibilità del ferro durante l’infiammazione, deficit vitaminici, perdite persistenti e malattie midollari possono ostacolare il risultato. L’asse epcidina–ferroportina discusso in precedenza torna così rilevante: depositi presenti non garantiscono che il metallo venga consegnato ai precursori quando aumenta la richiesta.\n\nLa rivalutazione della causa precede l’idea di ottenere sempre una risposta aumentando lo stimolo. La curva biologica non è una promessa di beneficio indefinito, e una maggiore esposizione può accompagnarsi a rischi. Per gli ESA sono rilevanti pressione arteriosa ed eventi trombotici; nelle informazioni di Mircera l’ipertensione non controllata è una controindicazione. Il monitoraggio segue il prodotto e il contesto clinico, senza poter essere ricavato da un unico valore bersaglio storico.\n\nUn meccanismo raro ma particolarmente istruttivo è l’aplasia pura della serie rossa mediata da anticorpi anti-eritropoietina. La risposta immunitaria può neutralizzare anche l’ormone endogeno: il problema non consiste semplicemente in un farmaco che dura troppo poco. Una perdita inattesa di risposta, nel quadro clinico appropriato, richiede quindi accertamenti specifici. Le indicazioni regolatorie non permettono di risolvere una sospetta forma anticorpale passando autonomamente a un altro ESA.\n\nLe segnalazioni storiche di immunogenicità mostrano anche l’importanza di formulazione, produzione e modalità d’impiego delle proteine terapeutiche. Un grafico di casi segnalati non misura automaticamente l’incidenza attuale e non dimostra che tutti i prodotti ricombinanti o biosimilari condividano lo stesso rischio. Il dato farmacologico va collegato alla preparazione studiata, al periodo osservato e alla qualità delle prove.",
+      "formula": "Risposta insufficiente → ricercare fattori limitanti; più stimolo non equivale automaticamente a più beneficio"
+    },
+    {
+      "id": "gcsf-gmcsf",
+      "title": "G-CSF e GM-CSF: recettori e cellule mieloidi",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "RANG",
+        "EMA-ZARZIO",
+        "EMA-NEULASTA"
+      ],
+      "text": "Il G-CSF, fattore stimolante le colonie granulocitarie, agisce soprattutto sul sistema dei neutrofili. Il suo recettore collega un segnale extracellulare alla sopravvivenza e allo sviluppo dei precursori granulocitari e modula funzioni delle cellule mature. Come altri recettori per citochine, utilizza proteine di segnalazione associate, comprese vie JAK–STAT. Condividere una famiglia di vie intracellulari con EPO non rende identiche le risposte: cambiano la distribuzione del recettore e il programma della cellula che lo esprime.\n\nFilgrastim è una forma ricombinante non glicosilata di G-CSF; lenograstim è glicosilato. Pegfilgrastim è una forma coniugata con polietilenglicole, che ne modifica la permanenza. Queste differenze illustrano due livelli del confronto: riconoscimento del sistema bersaglio e comportamento del medicinale nell’organismo. Non autorizzano una sostituzione basata soltanto su analogia di nome, durata o quantità.\n\nLa cinetica di pegfilgrastim mostra inoltre una relazione interessante tra farmaco e risposta. La sua eliminazione è in larga parte mediata dai neutrofili ed è non lineare: quando la popolazione neutrofila recupera, la concentrazione del farmaco può diminuire più rapidamente. Il bersaglio cellulare contribuisce così anche a regolare l’esposizione. Il concetto spiega perché una semplice emivita fissa non descriva tutto il comportamento del prodotto.\n\nIl GM-CSF, rappresentato tra i farmaci da sargramostim, ha un’azione mieloide più ampia, comprendente compartimenti granulocitari e monocitario-macrofagici. Una maggiore ampiezza biologica non significa un’opzione migliore in ogni neutropenia: possono cambiare impieghi, risposta infiammatoria e tollerabilità. Anche la biosimilarità è una valutazione specifica: l’EPAR di Zarzio riguarda il confronto regolatorio di quel filgrastim con il medicinale di riferimento, non una dichiarazione di equivalenza tra G-CSF e GM-CSF.",
+      "formula": "Recettore espresso + programma della cellula → specificità di linea; G-CSF e GM-CSF non sono sinonimi"
+    },
+    {
+      "id": "gcsf-neutropenia-mobilizzazione",
+      "title": "Neutropenia febbrile e mobilizzazione: due obiettivi del G-CSF",
+      "refs": [
+        "CFI",
+        "KATZ",
+        "RANG",
+        "SII2",
+        "ASCO-CSF",
+        "EMA-NEULASTA"
+      ],
+      "text": "Durante una chemioterapia il numero dei neutrofili può diminuire quando il danno ai precursori supera la capacità di rinnovo. Il nadir indica il punto più basso di quella variazione, mentre profondità e durata della neutropenia contribuiscono al rischio infettivo. Un fattore di crescita può sostenere il recupero in contesti appropriati, ma non elimina la tossicità di ogni citotossico né sostituisce la valutazione di una febbre o il trattamento di un’infezione.\n\nLa profilassi con CSF è una decisione collegata al rischio di neutropenia febbrile, al regime antitumorale e ai fattori individuali. La linea guida ASCO del 2026 considera anche la disponibilità di regimi di pari efficacia e sicurezza che non richiedano il fattore. Una conta neutrofila isolata o la sola etichetta «chemioterapia» non bastano a trasferire la stessa scelta a tutti i pazienti. La selezione e la collocazione rispetto ai cicli seguono raccomandazioni e informazioni del prodotto.\n\nUn secondo impiego ha un obiettivo diverso: la mobilizzazione dei progenitori emopoietici dal midollo al sangue periferico, per consentirne la raccolta in programmi di trapianto. Qui interessa rendere disponibili cellule progenitrici circolanti, non soltanto aumentare i neutrofili. È una procedura specialistica, distinta dalla profilassi febbrile anche quando utilizza lo stesso sistema di segnalazione.\n\nLa stimolazione può causare dolore osseo; le schede segnalano anche eventi rari ma seri, tra cui complicanze spleniche e polmonari, sindrome da perdita capillare e glomerulonefrite. Nelle malattie mieloidi il rapporto con cellule patologiche e indicazioni autorizzate richiede particolare attenzione. Non è quindi corretto dedurre dal sostegno al midollo un’assenza generale di rischi o estendere indistintamente ogni fattore a tutte le forme di citopenia.",
+      "formula": "G-CSF → recupero neutrofilo oppure mobilizzazione di progenitori: obiettivi, contesti e controlli distinti"
+    },
+    {
+      "id": "tpo-recettore-agonisti",
+      "title": "Trombopoietina e agonisti del recettore MPL",
+      "refs": [
+        "CFI",
+        "APP",
+        "KATZ",
+        "RANG",
+        "EMA-NPLATE",
+        "EMA-REVOLADE"
+      ],
+      "text": "La trombopoietina collega il controllo della produzione piastrinica allo sviluppo dei megacariociti. Attraverso il suo recettore, MPL, sostiene sopravvivenza, proliferazione e maturazione di cellule del compartimento megacariocitario; le piastrine derivano poi dai megacariociti maturi. La segnalazione coinvolge proteine associate, tra cui JAK2, e vie STAT e MAPK. Il recettore è quindi parte di un programma produttivo, non un interruttore che trasforma immediatamente una cellula qualsiasi in una piastrina.\n\nGli agonisti del recettore della TPO dimostrano che molecole molto diverse possono convergere sullo stesso sistema. Romiplostim combina peptidi capaci di attivare il recettore con una porzione proteica di supporto: è spesso descritto come peptibody. Eltrombopag è invece una piccola molecola che interagisce con la regione transmembrana del recettore. La somiglianza dell’effetto finale non implica una struttura simile alla TPO o lo stesso punto di interazione.\n\nQuesta differenza si riflette anche nella somministrazione: romiplostim è sottocutaneo, eltrombopag orale. È una distinzione concreta da conservare quando si passa dal diagramma recettoriale al farmaco. La via orale non è una caratteristica comune di tutti gli agonisti della TPO e non rende i due prodotti equivalenti quanto a assorbimento, interazioni o modalità d’uso.\n\nL’interleuchina 11 rappresenta un altro segnale capace di sostenere componenti dell’ematopoiesi e della maturazione megacariocitaria. I suoi esempi farmacologici storici non devono però essere confusi con gli agonisti di MPL né considerati, per sola presenza nei manuali, raccomandazioni attuali. Per interpretare una terapia piastrinica occorre mantenere separati ligando fisiologico, recettore attivato, struttura del medicinale e contesto nel quale è stato valutato.",
+      "formula": "TPO → MPL → sviluppo megacariocitario → piastrine; romiplostim SC ed eltrombopag orale convergono sul sistema"
+    },
+    {
+      "id": "tpo-contesto-sicurezza",
+      "title": "Produzione piastrinica, ITP e interazioni di eltrombopag",
+      "refs": [
+        "KATZ",
+        "EMA-NPLATE",
+        "EMA-REVOLADE"
+      ],
+      "text": "Nella trombocitopenia immune, o ITP, la riduzione delle piastrine può riflettere sia distruzione aumentata sia produzione inadeguata. Stimolare il recettore della TPO agisce sul versante produttivo e può aiutare a compensare lo squilibrio. Non equivale a rimuovere direttamente tutti i meccanismi immunitari della malattia. Questa distinzione spiega perché il recupero della conta non dimostri automaticamente la scomparsa della causa e perché, dopo l’interruzione, possa ricomparire trombocitopenia.\n\nL’impiego di romiplostim ed eltrombopag è delimitato dalle rispettive indicazioni e dalla storia terapeutica. Una conta bassa dovuta a chemioterapia, malattia epatica, consumo o insufficienza midollare non è automaticamente assimilabile all’ITP. Anche quando lo stesso medicinale possiede più indicazioni, ciascuna dipende da prove e condizioni proprie. Il capitolo usa l’ITP come collegamento fra fisiopatologia e bersaglio, senza proporre un algoritmo terapeutico.\n\nL’obiettivo clinico non coincide con l’aumento massimo possibile delle piastrine. Le informazioni regolatorie segnalano rischi trombotici e richiedono valutazioni specifiche; per romiplostim è rilevante anche la possibile crescita della reticolina midollare. Per eltrombopag assumono particolare importanza la funzionalità epatica e il rischio di danno epatico. La risposta dell’emocromo va quindi letta insieme alla sicurezza, non come unico indicatore di successo.\n\nEltrombopag offre infine un raccordo con la teoria del ferro: la formazione di complessi con cationi polivalenti può ridurne l’assorbimento orale. Integratori di ferro o calcio e altri prodotti contenenti questi cationi possono interferire con l’esposizione; la gestione concreta segue la scheda del medicinale. Questa chelazione nel tratto gastrointestinale è un’interazione farmacocinetica e non costituisce un’indicazione a trattare il sovraccarico marziale, come avviene per i chelanti discussi all’inizio del capitolo.",
+      "formula": "Aumentare la produzione ≠ eliminare la causa immune; cationi polivalenti + eltrombopag → possibile riduzione dell’assorbimento"
     }
   ],
   "checks": [
@@ -344,28 +470,76 @@ export const THEORY_ANEMIA = {
     {
       "question": "Quale parte della via illustrata per sulfamidici e trimetoprim non va attribuita all’uomo?",
       "answer": "La sintesi microbica iniziale dei folati a partire dal PABA, bersaglio dei sulfamidici. L’uomo utilizza folati assunti dall’esterno; la DHFR è invece presente anche nelle cellule umane."
+    },
+    {
+      "question": "Perché EPO non sostituisce il ferro in una carenza marziale?",
+      "answer": "EPO sostiene i precursori eritroidi; il ferro fornisce il substrato per l’eme. Se il substrato limita la risposta, aumentare il segnale non ricrea le riserve."
+    },
+    {
+      "question": "Qual è il collegamento fra EPO e JAK2?",
+      "answer": "Il recettore per EPO non possiede una chinasi intrinseca: usa proteine associate, tra cui JAK2, per attivare programmi cellulari anche attraverso STAT."
+    },
+    {
+      "question": "Perché la curva dell’emoglobina non segue immediatamente quella dell’ESA?",
+      "answer": "Tra esposizione e risposta intervengono maturazione, uscita dei reticolociti e bilancio della massa eritrocitaria. L’effetto può continuare dopo la diminuzione del farmaco."
+    },
+    {
+      "question": "Una somministrazione ogni alcune settimane dimostra un’emivita altrettanto lunga?",
+      "answer": "No. L’intervallo studiato per il prodotto, la sua emivita e la durata dell’effetto biologico sono grandezze diverse."
+    },
+    {
+      "question": "Perché non basta la parola anemia per scegliere un ESA?",
+      "answer": "Servono causa, finalità del trattamento e rapporto beneficio–rischio. Anemia renale e anemia associata al cancro hanno condizioni d’impiego differenti."
+    },
+    {
+      "question": "Quali cause possono spiegare un’iporesposta all’ESA oltre al recettore?",
+      "answer": "Carenze, ferro non disponibile durante l’infiammazione, perdite e malattie midollari. Una rara forma anticorpale può neutralizzare anche l’EPO endogena."
+    },
+    {
+      "question": "Filgrastim e lenograstim hanno la stessa glicosilazione?",
+      "answer": "No: filgrastim è non glicosilato, lenograstim è glicosilato. Entrambi agiscono sul sistema G-CSF, ma i prodotti mantengono caratteristiche specifiche."
+    },
+    {
+      "question": "Come può il recupero neutrofilo modificare l’esposizione a pegfilgrastim?",
+      "answer": "I neutrofili contribuiscono alla sua eliminazione; il loro recupero può accelerare la diminuzione della concentrazione. La cinetica è non lineare."
+    },
+    {
+      "question": "Mobilizzazione e profilassi della neutropenia febbrile perseguono lo stesso obiettivo?",
+      "answer": "No. La prima rende disponibili progenitori nel sangue per la raccolta; la seconda riduce il rischio di complicanze in contesti selezionati di chemioterapia."
+    },
+    {
+      "question": "Romiplostim ed eltrombopag sono entrambi orali?",
+      "answer": "No. Romiplostim è sottocutaneo; eltrombopag è orale e interagisce con la regione transmembrana del recettore MPL."
+    },
+    {
+      "question": "Una risposta agli agonisti della TPO dimostra che l’ITP è risolta?",
+      "answer": "No. Il sostegno alla produzione può compensare il deficit senza eliminare la causa immune; conta, rischio emorragico e sicurezza richiedono una valutazione complessiva."
+    },
+    {
+      "question": "La chelazione dei cationi da parte di eltrombopag equivale alla terapia chelante del sovraccarico di ferro?",
+      "answer": "No. Nel tratto gastrointestinale può ridurre l’assorbimento di eltrombopag: è un’interazione, non una finalità terapeutica di rimozione dei depositi."
     }
   ],
   "references": [
     {
       "id": "CFI",
       "title": "Appunti e diapositive del corso di Farmacologia I",
-      "detail": "AA 2025–26. PDF 902–915, numerazione visibile 900–913. Testo visibile e figure esaminati per intervalli; integrati passaggi di 902–912. Fattori ematopoietici di 913–915 letti ma rinviati. Tabelle storiche e intestazioni mancanti delimitano il confronto."
+      "detail": "AA 2025–26. PDF 902–920, numerazione visibile 900–918. Testo visibile e figure esaminati per intervalli. Ripresi i passaggi ematopoietici di 913–915 e integrate selezioni di 916–920. Tabelle, vie e disponibilità storiche non trasferite come raccomandazioni attuali."
     },
     {
       "id": "APP",
       "title": "Appunti del corso di Farmacologia I",
-      "detail": "AA 2025–26; lezione 20 del 3 dicembre 2025. PDF 343–344, pagine 338–339, 8–9/9 della lezione. Integrata 343 già letta; 344 letta ma rinviata, con riquadro attribuito genericamente all’anno precedente."
+      "detail": "AA 2025–26; lezione 20 del 3 dicembre 2025. PDF 343–344, pagine 338–339,8–9/9 della lezione. Pagine già lette riutilizzate; ora integrati anche passaggi di 344. Il riquadro attribuito all’anno precedente mantiene provenienza incompleta, distinta dall’anno del documento."
     },
     {
       "id": "KATZ",
       "title": "Katzung · Farmacologia generale e clinica",
-      "detail": "IX edizione italiana 2014 / XII originale 2012. Capitolo 33, PDF 673–684, pagine stampate 653–664. Testo visibile e figure esaminati. Dosi, procedure e disponibilità storiche non trasferite; parte sui fattori ematopoietici in 684 rinviata, continuazione 685 non letta."
+      "detail": "IX edizione italiana 2014 / XII originale 2012. Capitolo 33, PDF 673–690, pagine stampate 653–670. Testo visibile e figure esaminati. Integrati nutrienti e fattori ematopoietici; soglie, protocolli, dosi e disponibilità storiche esclusi."
     },
     {
       "id": "RANG",
       "title": "Rang & Dale · Farmacologia",
-      "detail": "VIII edizione italiana 2016 / originale 2015. Capitolo 25, PDF 486–493. Numerazione stampata non identificabile nel file riformattato. Testo e figure esaminati; errori di unità e generalizzazioni cliniche esclusi. In 493 integrato solo il tratto sulla B12."
+      "detail": "VIII edizione italiana 2016 / originale 2015. Capitolo 25, PDF 486–497; numerazione stampata non identificabile. Testo e figure esaminati. Integrati passaggi selezionati, in 497 solo la conclusione sui fattori mieloidi. Emolisi fuori ambito; continuazione 498 non letta."
     },
     {
       "id": "BSG",
@@ -418,7 +592,7 @@ export const THEORY_ANEMIA = {
     {
       "id": "SII2",
       "title": "Appunti del corso di Farmacologia II · lezione 2",
-      "detail": "AA 2025–26, 29 ottobre 2025, PDF e pagina stampata 14. Testo e figura del salvataggio folinico letti; distinzione fra bypass e riattivazione della DHFR verificata con la scheda regolatoria. Nessuna lettura integrale del corso."
+      "detail": "AA 2025–26; lezione 2 del 29 ottobre 2025. PDF 9 e 14, numerazione visibile coincidente. Integrati il contesto della mielosoppressione e il salvataggio folinico; esclusi altri effetti avversi e graduatorie generali dei citotossici."
     },
     {
       "id": "DII14",
@@ -466,6 +640,54 @@ export const THEORY_ANEMIA = {
       "title": "DailyMed · Trimethoprim, scheda statunitense",
       "detail": "Consultato il 26 novembre 2026 il passaggio sul meccanismo e sulla maggiore affinità per la DHFR batterica. Indicazioni, resistenze e posologie non sviluppate; non è un RCP italiano.",
       "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597"
+    },
+    {
+      "id": "KDIGO-2026",
+      "title": "KDIGO · Anemia nella malattia renale cronica, 2026",
+      "url": "https://kdigo.org/wp-content/uploads/2026/01/KDIGO-2026-Anemia-in-CKD-Guideline.pdf",
+      "detail": "Consultazione del 26 novembre 2026. Passaggi ufficiali indicizzati delle raccomandazioni 3.2.1, 3.2.2 e 3.3.1, più selezioni della sintesi esecutiva: correggere le cause reversibili, individualizzare l’ESA, evitare la normalizzazione dell’emoglobina. Non lettura integrale."
+    },
+    {
+      "id": "ASCO-ESA",
+      "title": "ASCO/ASH · Anemia associata al cancro, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30969847/",
+      "detail": "Consultazione del 26 novembre 2026. Abstract della linea guida e raccomandazioni ufficiali indicizzate, DOI 10.1200/JCO.18.02142: ESA in contesti selezionati di chemioterapia non curativa, eccezioni definite e obiettivo di ridurre le trasfusioni. Non aggiornamento 2026 né lettura integrale."
+    },
+    {
+      "id": "ASCO-CSF",
+      "title": "ASCO · Fattori di crescita leucocitari, 2026",
+      "url": "https://ascopubs.org/doi/full/10.1200/JCO-25-02938",
+      "detail": "Consultazione del 26 novembre 2026. Abstract e raccomandazioni ufficiali indicizzate della linea guida del 25 febbraio 2026: rischio di neutropenia febbrile e mobilizzazione. Accesso diretto negato; non lettura integrale, nessun protocollo posologico."
+    },
+    {
+      "id": "EMA-MIRCERA",
+      "title": "EMA · Mircera, informazioni sul prodotto",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/mircera-epar-product-information_en.pdf",
+      "detail": "Consultazione del 26 novembre 2026. Sezioni selezionate 4.1–4.4 e 5.2: indicazione renale, vie IV/SC, rischi, iporesposta e distinzione tra emivita e intervallo di somministrazione. Non intera scheda."
+    },
+    {
+      "id": "EMA-ZARZIO",
+      "title": "EMA · Zarzio, filgrastim",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zarzio",
+      "detail": "Consultazione del 26 novembre 2026. Panoramica EPAR e passaggi ufficiali indicizzati del RCP 4.4. RCP diretto non accessibile: nessuna lettura integrale. Distinti meccanismo G-CSF e valutazione regolatoria del biosimilare."
+    },
+    {
+      "id": "EMA-NEULASTA",
+      "title": "EMA · Neulasta, informazioni sul prodotto",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/neulasta-epar-product-information_en.pdf",
+      "detail": "Consultazione del 26 novembre 2026. Sezioni selezionate 4.1, 4.2, 4.4 e 5.2: chemioterapia, precauzioni e clearance mediata dai neutrofili. Non intera scheda; nessun calendario terapeutico trasferito."
+    },
+    {
+      "id": "EMA-NPLATE",
+      "title": "EMA · Nplate, informazioni sul prodotto",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/nplate-epar-product-information_en.pdf",
+      "detail": "Consultazione del 26 novembre 2026. Passaggi ufficiali indicizzati 4.1, 4.2 e 4.4: ITP, via sottocutanea, reticolina, trombosi e ricomparsa della trombocitopenia. Accesso diretto limitato; non intera scheda."
+    },
+    {
+      "id": "EMA-REVOLADE",
+      "title": "EMA · Revolade, informazioni sul prodotto",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/revolade-epar-product-information_en.pdf",
+      "detail": "Consultazione del 26 novembre 2026. Panoramica EPAR e passaggi ufficiali indicizzati 5.1, 4.5 e foglio illustrativo: sito transmembrana, cationi polivalenti, fegato e trombosi. Accesso diretto limitato; non intera scheda."
     }
   ],
   "moleculeLinks": [
@@ -524,6 +746,46 @@ export const THEORY_ANEMIA = {
     {
       "id": "CHEMBL1431",
       "label": "METFORMIN"
+    },
+    {
+      "id": "CHEMBL1201565",
+      "label": "EPOETIN ALFA"
+    },
+    {
+      "id": "CHEMBL2109092",
+      "label": "EPOETIN BETA"
+    },
+    {
+      "id": "CHEMBL1201566",
+      "label": "DARBEPOETIN ALFA"
+    },
+    {
+      "id": "CHEMBL3707314",
+      "label": "METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA"
+    },
+    {
+      "id": "CHEMBL1201567",
+      "label": "FILGRASTIM"
+    },
+    {
+      "id": "CHEMBL1201568",
+      "label": "PEGFILGRASTIM"
+    },
+    {
+      "id": "CHEMBL2109128",
+      "label": "LENOGRASTIM"
+    },
+    {
+      "id": "CHEMBL1201670",
+      "label": "SARGRAMOSTIM"
+    },
+    {
+      "id": "CHEMBL1201832",
+      "label": "ROMIPLOSTIM"
+    },
+    {
+      "id": "CHEMBL461101",
+      "label": "ELTROMBOPAG"
     }
   ],
   "relatedExistingChapterIds": [
@@ -531,12 +793,13 @@ export const THEORY_ANEMIA = {
     "metabolismo-trasportatori",
     "formulazioni-sali-bioequivalenza",
     "malattie-infiammatorie-intestinali",
-    "oncologia-citotossici"
+    "oncologia-citotossici",
+    "gpcr"
   ],
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
-  "reviewedAt": "2026-11-26T14:24:18.106083+00:00",
+  "reviewedAt": "2026-11-26T15:21:09.912748+00:00",
   "readingManifest": "./data/anemie-ferro-chelazione-reading.json",
-  "coverage": "17 nuove pagine lette e ispezionate, 21 già pubblicate riutilizzate: 38 in totale. Passaggi selezionati integrati da 34 pagine; 4 pagine sui fattori ematopoietici rinviate. Riconciliazione limitata agli intervalli dichiarati, con revisione editoriale senza revisione clinica indipendente.",
-  "wordCount": 4703
+  "coverage": "16 nuove pagine lette e ispezionate, 38 già lette riutilizzate: 54 in totale. Integrati passaggi selezionati dalle nuove pagine e dalle 4 precedentemente rinviate. Riconciliazione limitata agli intervalli dichiarati, con revisione editoriale senza revisione clinica indipendente.",
+  "wordCount": 7266
 };

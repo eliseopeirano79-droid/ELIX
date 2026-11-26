@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-11-26T14:30:13.467209+00:00",
-  "batch": "theory-course-911-915",
+  "updatedAt": "2026-11-26T15:24:59.558446+00:00",
+  "batch": "theory-course-916-920",
   "status": "locally_verified_pending_publication",
-  "release": "0.119.0",
-  "branch": "feat/theory-course-911-915",
-  "baseCommit": "313fba0447cd92fce616fd2ec19f4ec5e8271097",
+  "release": "0.120.0",
+  "branch": "feat/theory-course-916-920",
+  "baseCommit": "7ca7a2db0e9f6a2015d11f72e1b068cd75a8fc58",
   "previousBatch": {
-    "batch": "theory-course-906-910",
-    "release": "0.118.0",
-    "commit": "313fba0447cd92fce616fd2ec19f4ec5e8271097",
+    "batch": "theory-course-911-915",
+    "release": "0.119.0",
+    "commit": "7ca7a2db0e9f6a2015d11f72e1b068cd75a8fc58",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Ampliamento del capitolo sulle anemie con B12, folati e bersagli farmacologici."
+    "Ampliamento del capitolo sulle anemie con EPO, fattori mieloidi e agonisti della trombopoietina."
   ],
   "completed": [
-    "17 nuove letture complete del testo visibile e ispezioni, 21 pagine riutilizzate; deduplicazione su 205 registri.",
-    "7 nuove sezioni, 2 raccordi aggiornati, 10 nuovi quesiti e 7 schemi qualitativi. Totale: 4703 parole, 18 sezioni e 30 quesiti. Revisione editoriale del solo integratore completata.",
-    "Superati 52 validatori e 8 configurazioni desktop/mobile, temi, tastiera, collegamenti, entrambe le ricerche e offline. Ispezionate 18 immagini. Aggiornamento reale 0.118.0→0.119.0 con preferiti, avanzamento e tema conservati."
+    "16 nuove letture complete del testo visibile e ispezioni,38 pagine riutilizzate; deduplicazione su 207 registri.",
+    "10 nuove sezioni,1 raccordo aggiornato,12 nuovi quesiti e 10 schemi qualitativi. Totale: 7266 parole,28 sezioni e 42 quesiti. Revisione editoriale del solo integratore completata.",
+    "Superati 52 validatori e 8 configurazioni desktop/mobile, temi, tastiera, collegamenti, ricerche e offline. Ispezionate 24 immagini. Aggiornamento reale 0.119.0→0.120.0 con preferiti, avanzamento e tema conservati."
   ],
   "remaining": [
     "Commit, CI, deploy concluso e riscontro online."
@@ -42,11 +42,11 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 7,
-    "expandedSections": 2,
-    "newLinksToExistingIdentities": 5,
-    "newStaticOriginalSchemas": 7,
-    "newSelfChecks": 10,
+    "newSections": 10,
+    "expandedSections": 1,
+    "newLinksToExistingIdentities": 10,
+    "newStaticOriginalSchemas": 10,
+    "newSelfChecks": 12,
     "unchangedExistingChapters": 66
   },
   "readingManifests": [
@@ -54,18 +54,20 @@
   ],
   "limits": [
     "Sintesi originale didattica; revisione editoriale del solo integratore, senza revisione clinica indipendente.",
-    "17 nuove letture complete del testo visibile e 17 nuove ispezioni; 21 pagine già pubblicate riutilizzate. Totale 38, con passaggi selezionati integrati da 34; 4 sui fattori ematopoietici lette ma non integrate.",
+    "16 nuove letture complete del testo visibile e 16 nuove ispezioni; 38 pagine precedenti riutilizzate. Totale 54: integrate selezioni dalle 16 nuove pagine e dalle 4 già lette ma rinviate. Non tutti i contenuti delle pagine sono integrati.",
     "La pagina 908 contiene una tabella in immagine: il testo visibile è stato letto sulla resa grafica. Mancano intestazioni cinetiche in 907 e note esterne in alcune tabelle; valori non ricostruiti.",
     "Dosi, prezzi, disponibilità storiche, graduatorie di efficacia e procedure obsolete esclusi. Nessuna soglia operativa o schema posologico individuale pubblicato.",
     "BSG: passaggi selezionati della linea guida 2021, indice revisionato nel 2026; aggiornamento FIT 2025 non letto né integrato. ASH 2026 e NICE NG239: solo passaggi ufficiali indicizzati, accesso diretto negato. NHS: revisione 2023 con controllo previsto nel 2026, limite temporale dichiarato.",
     "EMA: passaggi selezionati delle schede di deferasirox e deferiprone, non intere schede. Deferoxamina: record DailyMed aggiornato nel 2025 con testo revisionato nel 2022, distinta giurisdizione USA.",
-    "Contributi di Farmacologia II limitati alla lezione 2 PDF14 e alla lezione 14 PDF21. Ricerca nelle estrazioni e deduplicazione non equivalgono a lettura integrale di altri corsi o libri.",
-    "CFI913–915 e APP344 sui fattori ematopoietici rinviati; errori di via, emivita e attribuzione all’anno precedente registrati. Le continuazioni oltre gli intervalli dichiarati non sono lette.",
-    "Rang492: unità incongrue anche nella resa grafica, escluse. Sede di assorbimento dei folati, nomenclatura, selettività della DHFR e bypass con folinato riconciliati senza numeri clinici.",
+    "Contributi di Farmacologia II limitati alla lezione 2 PDF 9/14 e alla lezione 14 PDF 21. La ricerca nelle altre estrazioni non equivale alla lettura integrale di corsi o libri; nessuna nuova pagina della lezione 14 letta in questo lotto.",
+    "CFI913–915 e APP344 ripresi e integrati limitatamente ai passaggi riconciliati. Il riquadro di anno precedente in APP344 mantiene anno e attribuzione non identificati. Oltre gli intervalli dichiarati le continuazioni non sono lette.",
+    "Rang 492: unità incongrue anche nella resa grafica, escluse. Sede di assorbimento dei folati, nomenclatura, selettività della DHFR e bypass con folinato riconciliati senza numeri clinici.",
     "Nuovo confronto ufficiale del 26 novembre 2026 limitato a passaggi selezionati di NIH, NICE, MHRA, Ministero e DailyMed. Per NICE disponibili solo passaggi indicizzati. Nessuna intera linea guida o scheda dichiarata letta.",
+    "Fattori ematopoietici: confronto del 26 novembre 2026 con selezioni KDIGO2026, ASCO2026 e ASCO/ASH2019 e schede EMA. ASCO-CSF e parte delle schede disponibili solo tramite passaggi indicizzati. Nessuna intera linea guida o scheda dichiarata letta; nessuna revisione clinica indipendente.",
+    "Tabelle storiche EPO, grafico dei casi di aplasia eritroide, protocolli di mobilizzazione, IL-11 e disponibilità dei prodotti non trasferiti come raccomandazioni correnti. Rang 497: parte sull’emolisi letta ma fuori ambito e non aggiornata clinicamente.",
     "Nessun PDF, trascrizione o figura delle fonti pubblicati; strutture chimiche e grandezze sperimentali non validate integralmente."
   ],
-  "nextBatch": "Completare 911–915; poi un solo intervallo 916–920 sui fattori ematopoietici, riprendendo le 4 pagine già lette e non integrate. Farmaci, profili e laboratori restano nel backlog.",
+  "nextBatch": "Completare 916–920; poi un solo intervallo 921–925, ancora non iniziato. Farmaci, profili e laboratori restano nel backlog.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",
