@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "chapterId": "anemie-ferro-chelazione",
-  "batch": "theory-course-906-910",
-  "reviewedAt": "2026-11-21T17:25:51.056743+00:00",
+  "batch": "theory-course-911-915",
+  "reviewedAt": "2026-11-26T14:24:18.106083+00:00",
   "outcome": "pass",
   "reviewType": "bounded_editorial_review_by_integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "500670ec46c933f4f80621cece95e5c7b476c943b3f76ad1bd34d949503caada",
+  "moduleSha256": "40afcd8834f520627871b67a91600272f77bb7ce7ca804505429ac8ca68d6440",
   "checks": [
-    "Rilette tutte le 11 sezioni originali, 20 risposte e 11 schemi qualitativi.",
-    "Confrontati recettore della transferrina, ferroportina, epcidina e distinzione fra deposito e disponibilità.",
-    "Separati meccanismo didattico, indicazione regolatoria e validazione clinica; niente dosi né soglie operative.",
-    "Controllati i conteggi e la provenienza: 16 nuove pagine, 5 riutilizzate; nessun intero corpus dichiarato letto.",
-    "Nessuna nuova identità, sintesi farmacologica o profilo: 9 collegamenti a identità già esistenti."
+    "Rilette le 7 nuove sezioni, le 2 sezioni raccordate, i 10 nuovi quesiti e i relativi schemi; 18 sezioni e 30 quesiti complessivi.",
+    "Distinti assorbimento B12/folati, le due reazioni della cobalamina, cofattori metile/metilene e cause della carenza.",
+    "Riconciliati indicazioni e rischi entro i passaggi ufficiali dichiarati; niente dosi, soglie o protocolli individuali.",
+    "Conteggi: 17 nuove pagine, 21 riutilizzate; 13 nuove integrate e 4 rinviate. Nessun libro o corso intero dichiarato letto.",
+    "Nessuna nuova identità, sintesi farmacologica o profilo: 5 nuovi collegamenti a identità già presenti, 14 totali."
   ],
   "conflicts": [
     {
@@ -93,17 +93,85 @@
       "issue": "Riconciliazione di altri corsi e contributi non completa.",
       "resolution": "Lacuna mantenuta nel registro e nel prossimo intervallo; nessuna lettura fittizia.",
       "status": "open_coverage_gap"
+    },
+    {
+      "id": "folate-location",
+      "issue": "Rang PDF491 colloca l’assorbimento dei folati nell’ileo, in contrasto con Katzung PDF682.",
+      "resolution": "Adottato tenue prossimale, con riscontro sul trasporto PCFT nella fonte primaria e in GeneReviews; distinta B12 ileale.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "b12-units",
+      "issue": "Rang PDF492 mostra mg anche nell’immagine, non un semplice errore dell’estrazione.",
+      "resolution": "Unità incongrue con NIH; quantità, dosi e fabbisogni storici esclusi.",
+      "status": "excluded"
+    },
+    {
+      "id": "folate-labels",
+      "issue": "Nomi metile/metilene e refuso malonico/metilmalonico possono confondere reazioni diverse.",
+      "resolution": "Separati 5-metil-THF, 5,10-metilen-THF e MMA mediante confronto testuale e figure.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "human-bacterial-pathway",
+      "issue": "La figura CFI912 comprende PABA, sulfamidici e sintesi microbica.",
+      "resolution": "Separato il tratto esclusivamente batterico dal metabolismo umano, confronto con figura DII14 PDF21.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "leucovorin-bypass",
+      "issue": "SII2 PDF14 descrive il salvataggio come riattivazione della DHFR.",
+      "resolution": "Folinato già ridotto a valle della DHFR: concordanza con figura e DailyMed. Nessun protocollo numerico.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "trim-selectivity",
+      "issue": "DII14 PDF21 contiene un confronto numerico di affinità con riferimento ambiguo/invertito.",
+      "resolution": "Adottata solo maggiore affinità del trimetoprim per la DHFR batterica, confermata da DailyMed.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "b12-route-safety",
+      "issue": "Rang propone via iniettiva e assenza di effetti avversi come generalizzazioni.",
+      "resolution": "Vie distinte secondo causa con NICE; sensibilità al cobalto con MHRA. Nessun automatismo o posologia.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "folate-benefits",
+      "issue": "Riquadri storici su prevenzione cardiovascolare/neoplastica e innocuità delle alte dosi.",
+      "resolution": "Non dedotto beneficio clinico universale da via metabolica o associazione osservazionale.",
+      "status": "excluded"
+    },
+    {
+      "id": "growth-factor-errors",
+      "issue": "CFI913–915 e APP344: EPO precursore/matura, sede dei sensori, route e disponibilità storiche; romiplostim orale e CERA con emivita di quattro settimane.",
+      "resolution": "Pagine lette ma non integrate. EMA Nplate conferma via sottocutanea; Mircera distingue emivita e intervallo. Altri punti richiedono il prossimo lotto.",
+      "status": "deferred_not_published"
+    },
+    {
+      "id": "cross-source-figure",
+      "issue": "CFI913 e Rang493 condividono la figura delle linee ematopoietiche.",
+      "resolution": "Deduplicata come una figura, non due evidenze indipendenti. Non pubblicata.",
+      "status": "deduplicated"
+    },
+    {
+      "id": "app-previous-year",
+      "issue": "APP344 comprende un’integrazione indicata come dell’anno precedente senza metadati completi.",
+      "resolution": "Anno di provenienza di quel riquadro non inventato; contenuto non integrato.",
+      "status": "unresolved_source_limit"
     }
   ],
   "limits": [
     "Sintesi originale didattica; revisione editoriale del solo integratore, senza revisione clinica indipendente.",
-    "16 nuove letture complete del testo visibile e 16 nuove ispezioni; 5 pagine già lette e ispezionate riutilizzate. Totale pertinente 21 pagine, non interi libri o corsi.",
+    "17 nuove letture complete del testo visibile e 17 nuove ispezioni; 21 pagine già pubblicate riutilizzate. Totale 38, con passaggi selezionati integrati da 34; 4 sui fattori ematopoietici lette ma non integrate.",
     "La pagina 908 contiene una tabella in immagine: il testo visibile è stato letto sulla resa grafica. Mancano intestazioni cinetiche in 907 e note esterne in alcune tabelle; valori non ricostruiti.",
     "Dosi, prezzi, disponibilità storiche, graduatorie di efficacia e procedure obsolete esclusi. Nessuna soglia operativa o schema posologico individuale pubblicato.",
     "BSG: passaggi selezionati della linea guida 2021, indice revisionato nel 2026; aggiornamento FIT 2025 non letto né integrato. ASH 2026 e NICE NG239: solo passaggi ufficiali indicizzati, accesso diretto negato. NHS: revisione 2023 con controllo previsto nel 2026, limite temporale dichiarato.",
     "EMA: passaggi selezionati delle schede di deferasirox e deferiprone, non intere schede. Deferoxamina: record DailyMed aggiornato nel 2025 con testo revisionato nel 2022, distinta giurisdizione USA.",
-    "Riconciliazione con Farmacologia II e altri contributi didattici ancora incompleta. La ricerca in estrazioni già presenti non equivale alla lettura dei corsi e non dimostra assenza di materiale pertinente.",
-    "B12/folati solo raccordo introduttivo: CFI 911–915, continuazione Katzung da 679, Rang da 491 e appunti da 344 non letti in questo lotto.",
+    "Contributi di Farmacologia II limitati alla lezione 2 PDF14 e alla lezione 14 PDF21. Ricerca nelle estrazioni e deduplicazione non equivalgono a lettura integrale di altri corsi o libri.",
+    "CFI913–915 e APP344 sui fattori ematopoietici rinviati; errori di via, emivita e attribuzione all’anno precedente registrati. Le continuazioni oltre gli intervalli dichiarati non sono lette.",
+    "Rang492: unità incongrue anche nella resa grafica, escluse. Sede di assorbimento dei folati, nomenclatura, selettività della DHFR e bypass con folinato riconciliati senza numeri clinici.",
+    "Nuovo confronto ufficiale del 26 novembre 2026 limitato a passaggi selezionati di NIH, NICE, MHRA, Ministero e DailyMed. Per NICE disponibili solo passaggi indicizzati. Nessuna intera linea guida o scheda dichiarata letta.",
     "Nessun PDF, trascrizione o figura delle fonti pubblicati; strutture chimiche e grandezze sperimentali non validate integralmente."
   ]
 }

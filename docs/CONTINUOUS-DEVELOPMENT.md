@@ -8,13 +8,13 @@ Usare appunti e diapositive del corso di Farmacologia, con anno, lezione, data e
 
 ## Lotto corrente
 
-theory-course-906-910, candidato 0.118.0. Nuovo capitolo «Anemie, ferro e chelazione»: 11 sezioni, 2779 parole, 20 quesiti e 11 schemi qualitativi. 9 collegamenti a identità già presenti; nessuna nuova identità, sintesi farmacologica, profilo o laboratorio. I 66 capitoli precedenti sono invariati.
+theory-course-911-915, candidato 0.119.0. Ampliato «Anemie, ferro e chelazione» con B12, folati e bersagli farmacologici: 7 nuove sezioni, 2 raccordi aggiornati, 10 nuovi quesiti e 7 schemi qualitativi. Totale 18 sezioni, 4703 parole e 30 quesiti. 5 nuovi collegamenti a identità esistenti; nessuna nuova identità, sintesi, profilo o laboratorio.
 
-Ultima consegna verificata 0.117.0, commit 20b1264101d6b2f3ddbb5834c58db16a8258dabc. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
+Ultima consegna verificata 0.118.0, commit 313fba0447cd92fce616fd2ec19f4ec5e8271097. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
 
-Deduplicazione su 202 registri: 16 nuove letture complete del testo visibile e 16 ispezioni (CFI 906–910, Katzung 673–678, Rang 486–490); riutilizzate CFI 902–905 e APP 343. Totale 21 pagine con passaggi selezionati integrati. Letture, figure, conflitti e limiti sono distinti nel registro privato.
+Deduplicazione su 205 registri: 17 nuove pagine lette e ispezionate (CFI911–915, APP344, Katzung679–684, Rang491–493, Farmacologia II lezione2 PDF14 e lezione14 PDF21); 21 pagine precedenti riutilizzate. Totale 38, integrate selezioni da 34; 4 pagine sui fattori ematopoietici rinviate. Originali e altri 66 capitoli invariati.
 
-Revisione editoriale e controlli locali superati: 52 validatori, 8 configurazioni e 8 immagini ispezionate, aggiornamento reale con dati salvati conservati e offline. Pubblicazione e riscontro online da concludere. Prove private in ../../outputs/ELIX-course-906-910-2026-11-21/.
+Revisione editoriale e verifiche locali completate: 52 validatori, 8 configurazioni, 18 immagini ispezionate, ricerche e offline; aggiornamento reale con dati salvati conservati. Commit, CI, deploy e riscontro online da concludere. Prove private in ../../outputs/ELIX-course-911-915-2026-11-26/.
 
 ## Regole
 
@@ -26,4 +26,4 @@ Revisione editoriale e controlli locali superati: 52 validatori, 8 configurazion
 
 ## Prossimo intervallo
 
-Completare 906–910. Poi 911–915, B12 e folati: continuazioni di Katzung da 679, Rang da 491 e appunti da 344 non lette in questo lotto. Riconciliazione con Farmacologia II e altri contributi ancora incompleta. Farmaci, profili e laboratori restano nel backlog. Nessuna revisione clinica indipendente dichiarata.
+Completare 911–915; poi 916–920, fattori ematopoietici, riprendendo le 4 pagine già lette e non integrate e riconciliando gli errori registrati. Riconciliazione complessiva dei libri e dei corsi ancora incompleta. Farmaci, profili e laboratori restano nel backlog. Nessuna revisione clinica indipendente dichiarata.
