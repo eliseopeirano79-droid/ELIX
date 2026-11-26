@@ -1,27 +1,26 @@
 {
-  "updatedAt": "2026-11-21T16:11:41.103100+00:00",
-  "batch": "theory-course-901-905",
+  "updatedAt": "2026-11-21T17:35:15.695624+00:00",
+  "batch": "theory-course-906-910",
   "status": "locally_verified_pending_publication",
-  "release": "0.117.0",
-  "branch": "feat/theory-course-901-905",
-  "baseCommit": "7f11a674564c395b2bea4b00c99cc644b63c2162",
+  "release": "0.118.0",
+  "branch": "feat/theory-course-906-910",
+  "baseCommit": "20b1264101d6b2f3ddbb5834c58db16a8258dabc",
   "previousBatch": {
-    "batch": "theory-course-896-900",
-    "release": "0.116.0",
-    "commit": "7f11a674564c395b2bea4b00c99cc644b63c2162",
+    "batch": "theory-course-901-905",
+    "release": "0.117.0",
+    "commit": "20b1264101d6b2f3ddbb5834c58db16a8258dabc",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Chiusura del raccordo osseo:alfacalcidolo,calcitriolo e limiti dell’impiego nella malattia renale."
+    "Nuovo capitolo teorico su anemie, ferro e chelazione; raccordo introduttivo a B12 e folati."
   ],
   "completed": [
-    "CFI901–905 eAPP343:6 nuove letture;1 ossea,5 su anemia conservate separatamente.",
-    "Due sezioni originali,5 quesiti e2 schemi;29 sezioni e51 quesiti precedenti preservati.",
-    "Revisione editoriale delle668 parole nuove e5 quesiti completata.",
-    "Superati51 validatori e8 configurazioni desktop/mobile,ricerche,collegamenti,tastiera e offline;8 immagini ispezionate. Aggiornamento reale0.116.0→0.117.0 con dati salvati conservati.65 altri capitoli,29 sezioni e51 quesiti precedenti invariati;5 fonti inalterate."
+    "16 nuove letture e ispezioni, 5 pagine riutilizzate; fonti distinte e deduplicate su 202 registri.",
+    "11 sezioni originali, 2779 parole, 20 quesiti e 11 schemi qualitativi; revisione editoriale completata.",
+    "Superati 52 validatori e 8 configurazioni desktop/mobile, temi, tastiera, ricerche, collegamenti e offline; 8 immagini ispezionate. Aggiornamento reale 0.117.0→0.118.0 con dati salvati conservati; 66 capitoli e catalogo precedenti invariati."
   ],
   "remaining": [
-    "Commit,CI,deploy concluso e riscontro online."
+    "Commit, CI, deploy concluso e riscontro online."
   ],
   "counts": {
     "identities": 4225,
@@ -30,8 +29,8 @@
     "pkFields": 420,
     "importedLabelsWithoutEditorial": 93,
     "targetProfiles": 36,
-    "chapters": 66,
-    "extendedChapters": 23,
+    "chapters": 67,
+    "extendedChapters": 24,
     "briefChapters": 43
   },
   "changes": {
@@ -40,31 +39,31 @@
     "newProductPKContexts": 0,
     "newPKFields": 0,
     "newTargetProfiles": 0,
-    "newChapters": 0,
-    "expandedChapters": 1,
+    "newChapters": 1,
+    "expandedChapters": 0,
     "newInteractiveLabs": 0,
-    "newSections": 2,
+    "newSections": 11,
     "expandedSections": 0,
-    "newLinksToExistingIdentities": 0,
-    "newStaticOriginalSchemas": 2,
-    "newSelfChecks": 5,
-    "unchangedExistingChapters": 65
+    "newLinksToExistingIdentities": 9,
+    "newStaticOriginalSchemas": 11,
+    "newSelfChecks": 20,
+    "unchangedExistingChapters": 66
   },
   "readingManifests": [
-    "data/rimodellamento-osseo-osteoporosi-reading.json"
+    "data/anemie-ferro-chelazione-reading.json"
   ],
   "limits": [
-    "Sintesi didattica e revisione editoriale del solo integratore; nessuna revisione clinica indipendente.",
-    "Per il capitolo:1 nuova lettura completa visibile(CFI901),2 riletture(KATZ889,RANG689),3 ispezioni. Cumulativo69 testi completi,74 ispezioni,57 pagine integrate;1 nuova pagina integrata e1 precedentemente letta ora integrata.",
-    "CFI860,875,883,890,894 restano parziali escluse; tutti i limiti figurativi precedenti conservati.901 presenta tabella senza intestazioni cinetiche: numeri e unità non interpretati né pubblicati.",
-    "CFI901:D2 non precursore dellaD3; vie generiche,emivite e uso dei derivati attivi in ogni grave malattia renale esclusi. Paricalcitolo e diidrotachisterolo non sviluppati.",
-    "RANG689:attivazione epatica dell’alfacalcidolo riconciliata con didascalia e scheda ufficiale; freccia ambigua non riprodotta. KATZ889:solo confronto qualitativo dei minerali,nessuna estensione alle patologie genetiche.",
-    "Scheda britannica dell’alfacalcidolo:passaggi selezionati,non intero documento oRCP italiano. KDIGO2017:raccomandazioni selezionate,non revisione completa; pagina indice diretta403,documento e indice ufficiale indicizzato accessibili. Nessuna dose,soglia operativa o calendario trasferiti.",
-    "CFI902–905 eAPP343:5 testi principali completi e5 ispezioni su anemia,conservati nel registro privato separato e non integrati. Non conteggiati come letture del capitolo osseo. Riconciliazione clinica e libraria dell’anemia ancora da svolgere.",
-    "Libri e corsi letti per intervalli. RANG690–691 eCFI906–910 non letti; FarmacologiaII e altri contributi ancora parzialmente riconciliati.",
-    "Nessun PDF,trascrizione o figura originale pubblicati. Identità,sintesi di farmaci,profili e laboratori interattivi restano nel backlog."
+    "Sintesi originale didattica; revisione editoriale del solo integratore, senza revisione clinica indipendente.",
+    "16 nuove letture complete del testo visibile e 16 nuove ispezioni; 5 pagine già lette e ispezionate riutilizzate. Totale pertinente 21 pagine, non interi libri o corsi.",
+    "La pagina 908 contiene una tabella in immagine: il testo visibile è stato letto sulla resa grafica. Mancano intestazioni cinetiche in 907 e note esterne in alcune tabelle; valori non ricostruiti.",
+    "Dosi, prezzi, disponibilità storiche, graduatorie di efficacia e procedure obsolete esclusi. Nessuna soglia operativa o schema posologico individuale pubblicato.",
+    "BSG: passaggi selezionati della linea guida 2021, indice revisionato nel 2026; aggiornamento FIT 2025 non letto né integrato. ASH 2026 e NICE NG239: solo passaggi ufficiali indicizzati, accesso diretto negato. NHS: revisione 2023 con controllo previsto nel 2026, limite temporale dichiarato.",
+    "EMA: passaggi selezionati delle schede di deferasirox e deferiprone, non intere schede. Deferoxamina: record DailyMed aggiornato nel 2025 con testo revisionato nel 2022, distinta giurisdizione USA.",
+    "Riconciliazione con Farmacologia II e altri contributi didattici ancora incompleta. La ricerca in estrazioni già presenti non equivale alla lettura dei corsi e non dimostra assenza di materiale pertinente.",
+    "B12/folati solo raccordo introduttivo: CFI 911–915, continuazione Katzung da 679, Rang da 491 e appunti da 344 non letti in questo lotto.",
+    "Nessun PDF, trascrizione o figura delle fonti pubblicati; strutture chimiche e grandezze sperimentali non validate integralmente."
   ],
-  "nextBatch": "Completare901–905. Poi906–910,riconciliazione della teoria dell’anemia,conservando902–905 eAPP343 già lette.",
+  "nextBatch": "Completare 906–910; poi 911–915, B12/folati, con lettura delle continuazioni librarie e ricerca dei contributi pertinenti ancora mancanti.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",

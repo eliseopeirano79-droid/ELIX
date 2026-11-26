@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "anemie-ferro-chelazione",
+  "batch": "theory-course-906-910",
+  "reviewedAt": "2026-11-21T17:25:51.056743+00:00",
+  "outcome": "pass",
+  "reviewType": "bounded_editorial_review_by_integrator",
+  "independentClinicalReview": false,
+  "clinicalValidation": false,
+  "moduleSha256": "500670ec46c933f4f80621cece95e5c7b476c943b3f76ad1bd34d949503caada",
+  "checks": [
+    "Rilette tutte le 11 sezioni originali, 20 risposte e 11 schemi qualitativi.",
+    "Confrontati recettore della transferrina, ferroportina, epcidina e distinzione fra deposito e disponibilità.",
+    "Separati meccanismo didattico, indicazione regolatoria e validazione clinica; niente dosi né soglie operative.",
+    "Controllati i conteggi e la provenienza: 16 nuove pagine, 5 riutilizzate; nessun intero corpus dichiarato letto.",
+    "Nessuna nuova identità, sintesi farmacologica o profilo: 9 collegamenti a identità già esistenti."
+  ],
+  "conflicts": [
+    {
+      "id": "morphology",
+      "issue": "Associazione esclusiva tra microcitosi e ferro oppure macrocitosi e vitamine.",
+      "resolution": "Morfologia distinta dalla causa; confronto con Rang e NICE.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "oral-iron",
+      "issue": "Assorbimento fisso e superiorità generale della via iniettiva; attribuzione psicologica dei disturbi.",
+      "resolution": "Distingue dose e assorbimento; effetti gastrointestinali e ruolo della via orale confrontati con BSG.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "renal-arrow",
+      "issue": "Freccia renale apparentemente comune ai tre chelanti nella figura 906.",
+      "resolution": "Deferasirox: eliminazione del ferro soprattutto fecale; deferiprone: prevalente via renale, confronto con EMA.",
+      "status": "resolved"
+    },
+    {
+      "id": "acute-chronic",
+      "issue": "La diapositiva 907 accosta chelanti orali e intossicazione senza delimitare acuto e cronico.",
+      "resolution": "Distinti i contesti e le indicazioni delle schede correnti consultate.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "missing-headings",
+      "issue": "Tabella 907 priva delle intestazioni dei parametri cinetici; valori non concordanti con 908.",
+      "resolution": "Nessuna emivita, dose o unità inferita; mantenuto il limite della fonte.",
+      "status": "unresolved_source_limit"
+    },
+    {
+      "id": "historical-table",
+      "issue": "Tabella 908 con prezzi, licenze, dosi e superiorità cardiaca generalizzata.",
+      "resolution": "Esclusi valori e graduatorie; riprese solo differenze qualitative sostenute dalle schede.",
+      "status": "excluded"
+    },
+    {
+      "id": "shuttle",
+      "issue": "Il modello di navetta 909 potrebbe essere interpretato come raccomandazione universale di associazione.",
+      "resolution": "Razionale distinto dalla prova clinica; indicazione EMA circoscritta.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "test-dose",
+      "issue": "Manuali storici raccomandano una dose di prova per ferro parenterale.",
+      "resolution": "Confronto EMA: non affidabile come strategia generale, restano preparazione e osservazione.",
+      "status": "resolved"
+    },
+    {
+      "id": "transferrin-oxidation",
+      "issue": "Katzung 676 alterna ferroso e ferrico per il ferro legato alla transferrina.",
+      "resolution": "Adottato ferro ferrico, coerente con Rang 489 e il resto del percorso descritto.",
+      "status": "resolved"
+    },
+    {
+      "id": "old-transport-model",
+      "issue": "Rang 489 descrive regolazione come incerta; Katzung presenta HCP1 per l’eme.",
+      "resolution": "Epcidina/ferroportina dal testo Katzung e BSG; identificazione storica di HCP1 esclusa.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "folate-only-prevention",
+      "issue": "Gli appunti limitano i folati alla profilassi.",
+      "resolution": "Distinta la terapia della carenza; rapporto con B12 confrontato con NHS e NICE.",
+      "status": "resolved_for_scope"
+    },
+    {
+      "id": "historic-procedures",
+      "issue": "Caso Schilling e procedure di decontaminazione/intossicazione storiche.",
+      "resolution": "Non trasferiti nella sintesi e nessuna istruzione operativa per emergenze.",
+      "status": "excluded"
+    },
+    {
+      "id": "other-courses",
+      "issue": "Riconciliazione di altri corsi e contributi non completa.",
+      "resolution": "Lacuna mantenuta nel registro e nel prossimo intervallo; nessuna lettura fittizia.",
+      "status": "open_coverage_gap"
+    }
+  ],
+  "limits": [
+    "Sintesi originale didattica; revisione editoriale del solo integratore, senza revisione clinica indipendente.",
+    "16 nuove letture complete del testo visibile e 16 nuove ispezioni; 5 pagine già lette e ispezionate riutilizzate. Totale pertinente 21 pagine, non interi libri o corsi.",
+    "La pagina 908 contiene una tabella in immagine: il testo visibile è stato letto sulla resa grafica. Mancano intestazioni cinetiche in 907 e note esterne in alcune tabelle; valori non ricostruiti.",
+    "Dosi, prezzi, disponibilità storiche, graduatorie di efficacia e procedure obsolete esclusi. Nessuna soglia operativa o schema posologico individuale pubblicato.",
+    "BSG: passaggi selezionati della linea guida 2021, indice revisionato nel 2026; aggiornamento FIT 2025 non letto né integrato. ASH 2026 e NICE NG239: solo passaggi ufficiali indicizzati, accesso diretto negato. NHS: revisione 2023 con controllo previsto nel 2026, limite temporale dichiarato.",
+    "EMA: passaggi selezionati delle schede di deferasirox e deferiprone, non intere schede. Deferoxamina: record DailyMed aggiornato nel 2025 con testo revisionato nel 2022, distinta giurisdizione USA.",
+    "Riconciliazione con Farmacologia II e altri contributi didattici ancora incompleta. La ricerca in estrazioni già presenti non equivale alla lettura dei corsi e non dimostra assenza di materiale pertinente.",
+    "B12/folati solo raccordo introduttivo: CFI 911–915, continuazione Katzung da 679, Rang da 491 e appunti da 344 non letti in questo lotto.",
+    "Nessun PDF, trascrizione o figura delle fonti pubblicati; strutture chimiche e grandezze sperimentali non validate integralmente."
+  ]
+}
