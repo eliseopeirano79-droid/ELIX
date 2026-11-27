@@ -7,7 +7,7 @@ const read=f=>readFileSync(new URL('../'+f,import.meta.url),'utf8');
 const l=JSON.parse(read('data/rimodellamento-osseo-osteoporosi-reading.json')),r=JSON.parse(read('data/rimodellamento-osseo-osteoporosi-review.json'));
 assert.deepEqual(ELIX_CHAPTERS.find(x=>x.id===c.id),c);
 assert.equal(ELIX_CHAPTERS.length,67);assert.equal(new Set(ELIX_CHAPTERS.map(x=>x.id)).size,67);
-assert.equal(ELIX_CHAPTERS.filter(x=>x.format==='extended').length,24);
+assert.equal(ELIX_CHAPTERS.filter(x=>x.format==='extended').length,25);
 assert.equal(c.wordCount,c.sections.map(s=>s.text).join(' ').split(/\s+/).length);assert.ok(c.wordCount>=2000);
 assert.equal(new Set(c.sections.map(s=>s.id)).size,c.sections.length);
 const refs=new Set(c.references.map(r=>r.id));
