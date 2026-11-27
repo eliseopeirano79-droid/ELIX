@@ -27,6 +27,17 @@ export const THEORY_ANTIBACTERIALS = {
       "formula": "Differenza biologica sfruttabile → azione preferenziale sul batterio; sicurezza nell’ospite da valutare separatamente."
     },
     {
+      "id": "involucro-e-accesso",
+      "title": "Gram, parete e membrane: il percorso fino al bersaglio",
+      "refs": [
+        "DAB-INV",
+        "KATZ-INV",
+        "RANG-INV"
+      ],
+      "text": "La colorazione di Gram è una prima descrizione del batterio, non un antibiogramma. La differenza osservata al microscopio richiama due organizzazioni tipiche dell’involucro cellulare. È utile studiarle come un percorso dall’ambiente esterno verso il bersaglio del farmaco: la presenza di un bersaglio non garantisce che una molecola riesca a raggiungerlo. Colore e forma, inoltre, sono informazioni diverse; non si deve identificare ogni cocco con un Gram positivo o ogni bacillo con un Gram negativo.\n\nNei Gram positivi lo spesso reticolo di peptidoglicano si trova all’esterno della membrana citoplasmatica. Gli acidi teicoici e lipoteicoici partecipano all’organizzazione dell’involucro; questi ultimi sono ancorati alla membrana. Peptidoglicano e membrana non sono due nomi per la stessa struttura: il primo contribuisce alla resistenza meccanica della cellula, mentre la seconda delimita il compartimento citoplasmatico. Questa distinzione permette di separare i farmaci che ostacolano la costruzione della parete da quelli che alterano direttamente la funzione della membrana.\n\nNei Gram negativi una membrana esterna si aggiunge alla membrana citoplasmatica. Fra le due si trova il compartimento periplasmatico, che comprende lo strato sottile di peptidoglicano e può contenere enzimi capaci di inattivare antibiotici. La membrana esterna presenta lipopolisaccaride sulla superficie rivolta all’ambiente, ma non è costituita soltanto da lipopolisaccaridi: comprende anche componenti lipidiche e proteiche. Descrivere tre semplici strati sovrapposti rischia di perdere la differenza fra una membrana, un compartimento e una rete strutturale.\n\nLe porine sono proteine che formano canali nella membrana esterna e consentono il passaggio di determinate molecole idrofile. Non rappresentano un’apertura indiscriminata per qualsiasi antibiotico. L’accessibilità dipende dal composto e dalle caratteristiche dell’involucro; la barriera esterna aiuta a spiegare perché due farmaci con un bersaglio simile possano avere spettri differenti. Lo spessore del peptidoglicano, preso isolatamente, non permette quindi di ordinare i batteri dal più al meno sensibile.\n\nPer un β-lattamico il percorso conduce alle penicillin-binding proteins, o PBP, coinvolte nella formazione dei legami del peptidoglicano. Nei Gram negativi questi bersagli sono accessibili dal lato periplasmatico: raggiungerli non richiede necessariamente l’ingresso del farmaco nel citoplasma. Una β-lattamasi presente nello stesso compartimento può inattivare la molecola prima dell’interazione utile. Barriera, enzima inattivante e bersaglio sono tre elementi distinti, non tre sinonimi di resistenza.\n\nAmoxicillina, già collegata a questo capitolo, serve a ritrovare il rapporto fra β-lattamico e PBP; daptomicina richiama invece l’azione sulla membrana descritta nella sezione sulla selettività. Il confronto chiarisce la posizione del bersaglio senza proporre un’alternativa terapeutica. Anche in una polmonite o in un’infezione urinaria, conoscere il Gram resta un passaggio iniziale da integrare con specie, sensibilità, sede ed esposizione.",
+      "formula": "Gram positivo: parete spessa → membrana citoplasmatica. Gram negativo: membrana esterna → periplasma con peptidoglicano → membrana citoplasmatica. Schema qualitativo, non in scala."
+    },
+    {
       "id": "identita-sede-e-spettro",
       "title": "Identificare il patogeno senza perdere la sede dell’infezione",
       "refs": [
@@ -47,6 +58,17 @@ export const THEORY_ANTIBACTERIALS = {
       ],
       "text": "La concentrazione minima inibente, o MIC, è la più bassa concentrazione che impedisce la crescita visibile del microrganismo nelle condizioni definite dal test. Il risultato appartiene quindi a una coppia isolato–farmaco e a un metodo standardizzato. Non è una dose da somministrare e non descrive direttamente la quantità di farmaco presente nel sangue o nel tessuto infetto.\n\nIl termine «visibile» è importante. Non osservare crescita non equivale a dimostrare che ogni cellula sia stata uccisa. La concentrazione minima battericida, o MBC, riguarda invece un criterio di uccisione verificato con una procedura distinta. Nella pratica ordinaria la MIC è il riferimento più comune; ciò non autorizza a definire la MBC inesistente o priva di qualsiasi impiego. Il manuale distingue infatti la routine microbiologica dalle valutazioni particolari.\n\nBatteriostatico e battericida descrivono effetti osservati sulla crescita o sulla sopravvivenza. Non sono sinonimi rispettivamente di debole e forte. Anche l’equivalenza fra battericidia e lisi è scorretta: una cellula può morire senza una rottura rilevante, come illustra il meccanismo riportato per daptomicina. La mappa dei bersagli e la classificazione dell’effetto rispondono dunque a domande differenti.\n\nIl passaggio al paziente richiede informazioni aggiuntive. Una misura in vitro non rappresenta le difese immunitarie, l’accessibilità di un focolaio o l’andamento temporale delle concentrazioni. L’etichetta di attività non basta per stabilire la superiorità clinica di un trattamento o per decidere che il contributo dell’ospite sia diventato irrilevante.\n\nUn esercizio utile consiste nel leggere due risultati separatamente: «la crescita è inibita nel test» e «l’infezione si risolve nella persona». Il primo può sostenere il secondo, ma non lo contiene. Fra i due si collocano esposizione, sede, sicurezza, controllo del focolaio e prove cliniche.",
       "formula": "MIC → inibizione della crescita nel test. MBC → criterio di uccisione. Esito clinico → integrazione di più fattori."
+    },
+    {
+      "id": "alone-e-mic",
+      "title": "Dall’alone alla categoria: ciò che il test misura",
+      "refs": [
+        "EUCAST-DD",
+        "EUCAST-MIC",
+        "EUCAST-CORR"
+      ],
+      "text": "Una piastra con dischetti e zone prive di crescita mostra un risultato di diffusione in agar. Il dato letto è il diametro della zona di inibizione, espresso in millimetri. La MIC è invece una concentrazione: indica il limite di crescita osservato con un metodo che la determina. Una fotografia con un righello accanto agli aloni non diventa una misura diretta della MIC soltanto perché viene presentata sotto quel titolo.\n\nNella diffusione da dischetto il composto si distribuisce nell’agar e interagisce con il microrganismo durante il test. Il diametro finale dipende da condizioni definite, non soltanto dalla sensibilità biologica: contano anche inoculo, terreno, dischetto e modalità di esecuzione e lettura. EUCAST richiede una procedura standardizzata e controlli di qualità; l’immagine didattica di una piastra non contiene da sola le informazioni necessarie a produrre un referto.\n\nI criteri per interpretare i diametri sono calibrati rispetto ai breakpoint della MIC. Questa relazione consente di attribuire categorie di sensibilità quando il metodo e la combinazione microrganismo–farmaco sono appropriati. Non autorizza a trasformare qualsiasi diametro in un valore di concentrazione mediante una regola universale. I dati di correlazione riguardano combinazioni definite e vengono aggiornati quando cambiano conoscenze, agenti o criteri interpretativi.\n\nPer la determinazione della MIC, EUCAST distingue il metodo di riferimento in microdiluizione dai sistemi che devono essere valutati rispetto a quel riferimento. Il numero riportato deve quindi essere letto insieme al metodo utilizzato e ai suoi controlli. In entrambi i percorsi, misura e interpretazione restano passaggi separati: prima si ottiene un risultato, poi lo si confronta con criteri pertinenti.\n\nDue dischetti contenenti antibiotici diversi possono produrre aloni differenti. Scegliere il farmaco con l’alone maggiore, senza i relativi criteri, confonde una dimensione geometrica con una graduatoria terapeutica. Lo stesso errore si presenta quando si confrontano numeri di MIC di farmaci diversi senza considerare i rispettivi breakpoint e l’esposizione. L’antibiogramma fornisce informazioni da interpretare; non elimina i vincoli della sede e dell’ospite già discussi.",
+      "formula": "Diffusione da dischetto → diametro in mm → criteri per quella combinazione. Determinazione della MIC → concentrazione → breakpoint pertinente. Nessuna conversione universale mm↔MIC."
     },
     {
       "id": "sir-esposizione",
@@ -124,6 +146,18 @@ export const THEORY_ANTIBACTERIALS = {
     {
       "question": "Perché rivalutare una terapia empirica anche quando era inizialmente ragionevole?",
       "answer": "Identificazione, sensibilità e andamento clinico riducono o modificano l’incertezza iniziale e possono rendere appropriata una scelta diversa."
+    },
+    {
+      "question": "Il peptidoglicano più spesso rende automaticamente un batterio meno sensibile a ogni antibiotico?",
+      "answer": "No. Contano il bersaglio, l’accessibilità del composto e gli eventuali meccanismi di inattivazione. Nei Gram negativi la membrana esterna aggiunge una barriera pur in presenza di un peptidoglicano più sottile."
+    },
+    {
+      "question": "Per raggiungere le PBP di un Gram negativo un β-lattamico deve necessariamente entrare nel citoplasma?",
+      "answer": "No. Le PBP coinvolte nella costruzione della parete sono raggiungibili dal lato periplasmatico. Occorre distinguere attraversamento della membrana esterna e ingresso nel citoplasma."
+    },
+    {
+      "question": "Il dischetto con l’alone maggiore identifica da solo l’antibiotico clinicamente migliore?",
+      "answer": "No. Il diametro va interpretato con i criteri della specifica combinazione microrganismo–farmaco e del metodo. Non è una MIC diretta né una graduatoria di efficacia clinica."
     }
   ],
   "references": [
@@ -182,15 +216,48 @@ export const THEORY_ANTIBACTERIALS = {
       "title": "CDC · Hospital Antibiotic Stewardship",
       "url": "https://www.cdc.gov/antibiotic-use/hcp/core-elements/hospital.html",
       "detail": "Pagina16novembre2026,consultata27novembre2026. Quadro organizzativo2019 e priorità2022 distinti dalla data della pagina; selezioni introduttive e risorse,non intere linee guida."
+    },
+    {
+      "id": "DAB-INV",
+      "title": "Diapositive del corso di Farmacologia II · AA 2026–27 · Involucro batterico",
+      "detail": "PDF 6–10 esaminati. Testo e figure visibili di 6–9 controllati e integrati; pagina 10 parziale: foto di diffusione da dischetto, etichette e scala non interamente leggibili. Nessuna figura riprodotta o misura ricavata dalla fotografia."
+    },
+    {
+      "id": "KATZ-INV",
+      "title": "Katzung · Parete batterica e β-lattamici",
+      "detail": "IX edizione italiana 2014, da XII originale 2012. Capitolo 43, PDF 907–909, stampa 887–889: testo visibile e figure controllati. Integrati i passaggi completi e la figura 43.3 di PDF 909 mediante sintesi originale. Fine pagina interrotta; prosecuzione non inferita. PDF 907–908 letti, non integrati."
+    },
+    {
+      "id": "RANG-INV",
+      "title": "Rang & Dale · Involucro e accesso al bersaglio",
+      "detail": "VIII edizione italiana 2016, originale 2015. Capitolo 51, PDF 951–952. PDF 951 parziale: tabella raster non interamente verificata; escluso dall’integrazione. PDF 952 letto e controllato, integrato solo il passaggio sull’involucro. Numerazione tipografica assente nella resa ebook."
+    },
+    {
+      "id": "EUCAST-DD",
+      "title": "EUCAST · Disk diffusion method, versione 13.0",
+      "url": "https://www.eucast.org/fileadmin/eucast/pdf/disk_test_documents/2025/Manual_v_13.0_EUCAST_Disk_Test_2025.pdf",
+      "detail": "Gennaio 2025; indice corrente e selezioni del manuale consultati il 27 novembre 2026: PDF 5 (introduzione), 8 (§3.3), 15 (§8.5–8.6). Standardizzazione, diametro e calibrazione. Non intero manuale; nessun protocollo operativo o valore numerico trasferito."
+    },
+    {
+      "id": "EUCAST-MIC",
+      "title": "EUCAST · MIC determination",
+      "url": "https://www.eucast.org/bacteria/methodology-and-instructions/mic-determination/",
+      "detail": "Introduzione e sezioni sul metodo di riferimento e sui metodi commerciali consultate il 27 novembre 2026. Raccomandazione di settembre 2026 identificata nell’indice, ma documento collegato non letto."
+    },
+    {
+      "id": "EUCAST-CORR",
+      "title": "EUCAST · MIC:Zone diameter correlations",
+      "url": "https://www.eucast.org/bacteria/development-of-clinical-breakpoints-and-ecoffs/mic-zone-diameter-correlations/",
+      "detail": "Introduzione consultata il 27 novembre 2026: calibrazione dei criteri per diametro rispetto alla MIC. Dataset per specie e grafici collegati non letti; nessuna formula di conversione proposta."
     }
   ],
   "drugs": [],
   "targets": [],
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
-  "reviewedAt": "2026-11-27T22:03:38.579986+00:00",
+  "reviewedAt": "2026-11-27T22:58:21.970974+00:00",
   "readingManifest": "./data/antibatterici-principi-reading.json",
-  "coverage": "Lettura circoscritta:14 pagine complete del testo visibile,di cui2 di metadati;15 ispezioni visive,1 pagina parziale esclusa.12 pagine con passaggi integrati. Nessun libro,corso o articolo intero dichiarato letto. Sintesi didattica,senza revisione clinica indipendente.",
+  "coverage": "Copertura cumulativa circoscritta: 23 pagine complete del testo visibile (2 di metadati), 3 pagine parziali escluse e 26 ispezioni visive; 18 pagine con passaggi integrati. In questo lotto: 9 nuove pagine complete, 2 parziali, 11 ispezioni e 6 pagine integrate. Nessun intero libro o corso letto. Sintesi didattica, senza revisione clinica indipendente.",
   "moleculeLinks": [
     {
       "id": "CHEMBL1082",
@@ -209,5 +276,5 @@ export const THEORY_ANTIBACTERIALS = {
     "antibiotici-beta-lattamici",
     "metabolismo-trasportatori"
   ],
-  "wordCount": 2139
+  "wordCount": 2875
 };

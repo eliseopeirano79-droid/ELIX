@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-11-27T22:06:36.547925+00:00",
-  "batch": "theory-dab-001-005",
+  "updatedAt": "2026-11-27T23:00:03.304669+00:00",
+  "batch": "theory-dab-006-010",
   "status": "locally_verified_pending_publication",
-  "release": "0.123.0",
-  "branch": "feat/theory-dab-001-005",
-  "baseCommit": "741d9bc05cbd2d56c406510a04264cab043481e4",
+  "release": "0.124.0",
+  "branch": "feat/theory-dab-006-010",
+  "baseCommit": "15e109cedeab49d479eae55b6d0156e9cc1e589c",
   "previousBatch": {
-    "batch": "theory-course-926-930",
-    "release": "0.122.0",
-    "commit": "741d9bc05cbd2d56c406510a04264cab043481e4",
+    "batch": "theory-dab-001-005",
+    "release": "0.123.0",
+    "commit": "15e109cedeab49d479eae55b6d0156e9cc1e589c",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Ampliamento di un capitolo esistente sui principi della terapia antibatterica."
+    "Due sezioni originali sull’involucro batterico e sulla distinzione fra alone di inibizione e MIC."
   ],
   "completed": [
-    "8 sezioni originali,2139 parole,8 quesiti,5 schemi e3 collegamenti a identità esistenti.",
-    "14 pagine complete del testo visibile (2 metadati),1 parziale,15 ispezioni;12 pagine integrate.",
-    "53 validatori superati;8 configurazioni browser,tastiera,ricerche,collegamenti,offline;8 immagini ispezionate. Aggiornamento reale0.122→0.123 con dati e tema conservati."
+    "Capitolo ampliato a10 sezioni,2875 parole,11 quesiti e7 schemi originali. Le8 sezioni precedenti conservate.",
+    "9 nuove pagine complete del testo visibile,2 parziali,11 ispezioni e6 pagine integrate. Deduplicazione per fonte e pagina.",
+    "53 validatori superati;8 configurazioni browser,tastiera,ricerche,collegamenti e offline;8 immagini ispezionate. Aggiornamento reale0.123→0.124 con preferiti,progressi e tema conservati.66 altri capitoli e8 sezioni precedenti invariati."
   ],
   "remaining": [
     "Commit,CI,deploy concluso e verifica online."
@@ -42,11 +42,11 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 4,
-    "expandedSections": 4,
-    "newLinksToExistingIdentities": 3,
-    "newStaticOriginalSchemas": 5,
-    "newSelfChecks": 8,
+    "newSections": 2,
+    "expandedSections": 0,
+    "newLinksToExistingIdentities": 0,
+    "newStaticOriginalSchemas": 2,
+    "newSelfChecks": 3,
     "unchangedExistingChapters": 66
   },
   "readingManifests": [
@@ -55,9 +55,14 @@
   "limits": [
     "DAB3: citation overlay hides central labels; only visible image text read. Excluded from fully read and integrated pages. Article DOI10.3390/pharmaceutics16091137 identified; not read in full, original figure not inspected independently.",
     "PDF935 final trimethoprim sentence continues936. Whole visible page read; continuation and quantitative selectivity not inferred. RANG ebook print-page labels not invented.",
-    "Only named intervals read. Other FarmacoI/II lessons and contributions from other lecturers not newly read for this introductory batch. Broader reconciliation remains open."
+    "Only named intervals read. Other FarmacoI/II lessons and contributions from other lecturers not newly read for this introductory batch. Broader reconciliation remains open.",
+    "DAB10: disk-diffusion plate photographs do not provide readable disk identities and ruler graduations or sufficient method metadata. Partial page excluded from complete reading and integration; no diameter or MIC inferred.",
+    "RANG951: body text read, embedded raster table not fully verified; conservatively counted as partial and excluded from integration.",
+    "KATZ909 ends mid-word before PDF910; only completed mechanism text and complete figure43.3 used. KATZ907–908 and APP-II25 fully read as visible pages but not integrated. Continuations not inferred.",
+    "Embedded figure credits (Tortora1989 and McGraw-Hill) recorded privately; underlying originals not independently inspected. No source image reproduced.",
+    "EUCAST manual selections and web introductions only; no numerical breakpoint tables, species correlation datasets, complete manual or September2026 linked MIC document read."
   ],
-  "nextBatch": "Completare DAB1–5. Poi DAB6–10,non iniziato; farmaci,profili e laboratori nel backlog.",
+  "nextBatch": "Completare DAB6–10; poi DAB11–15,non iniziato. Farmaci,profili e laboratori nel backlog.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",
