@@ -54,9 +54,10 @@ export const THEORY_ANTIBACTERIALS = {
       "refs": [
         "APP-II",
         "KATZ",
-        "EMA-DAP"
+        "EMA-DAP",
+        "DAB-DIAG"
       ],
-      "text": "La concentrazione minima inibente, o MIC, è la più bassa concentrazione che impedisce la crescita visibile del microrganismo nelle condizioni definite dal test. Il risultato appartiene quindi a una coppia isolato–farmaco e a un metodo standardizzato. Non è una dose da somministrare e non descrive direttamente la quantità di farmaco presente nel sangue o nel tessuto infetto.\n\nIl termine «visibile» è importante. Non osservare crescita non equivale a dimostrare che ogni cellula sia stata uccisa. La concentrazione minima battericida, o MBC, riguarda invece un criterio di uccisione verificato con una procedura distinta. Nella pratica ordinaria la MIC è il riferimento più comune; ciò non autorizza a definire la MBC inesistente o priva di qualsiasi impiego. Il manuale distingue infatti la routine microbiologica dalle valutazioni particolari.\n\nBatteriostatico e battericida descrivono effetti osservati sulla crescita o sulla sopravvivenza. Non sono sinonimi rispettivamente di debole e forte. Anche l’equivalenza fra battericidia e lisi è scorretta: una cellula può morire senza una rottura rilevante, come illustra il meccanismo riportato per daptomicina. La mappa dei bersagli e la classificazione dell’effetto rispondono dunque a domande differenti.\n\nIl passaggio al paziente richiede informazioni aggiuntive. Una misura in vitro non rappresenta le difese immunitarie, l’accessibilità di un focolaio o l’andamento temporale delle concentrazioni. L’etichetta di attività non basta per stabilire la superiorità clinica di un trattamento o per decidere che il contributo dell’ospite sia diventato irrilevante.\n\nUn esercizio utile consiste nel leggere due risultati separatamente: «la crescita è inibita nel test» e «l’infezione si risolve nella persona». Il primo può sostenere il secondo, ma non lo contiene. Fra i due si collocano esposizione, sede, sicurezza, controllo del focolaio e prove cliniche.",
+      "text": "La concentrazione minima inibente, o MIC, è la più bassa concentrazione che impedisce la crescita visibile del microrganismo nelle condizioni definite dal test. Il risultato appartiene quindi a una coppia isolato–farmaco e a un metodo standardizzato. Non è una dose da somministrare e non descrive direttamente la quantità di farmaco presente nel sangue o nel tessuto infetto.\n\nIl termine «visibile» è importante. Non osservare crescita non equivale a dimostrare che ogni cellula sia stata uccisa. La concentrazione minima battericida, o MBC, riguarda invece un criterio di uccisione verificato con una procedura distinta. Nella pratica ordinaria la MIC è il riferimento più comune; ciò non autorizza a definire la MBC inesistente o priva di qualsiasi impiego. Il manuale distingue infatti la routine microbiologica dalle valutazioni particolari.\n\nIl principio delle diluizioni in serie chiarisce che cosa si osserva. Si confronta la crescita del medesimo isolato in condizioni controllate, in presenza di concentrazioni note e crescenti di antibiotico. Se la prova e i suoi controlli sono validi, la prima concentrazione della serie senza crescita visibile identifica la MIC nelle condizioni del test. Le provette sono una rappresentazione didattica: il formato del dispositivo non cambia la distinzione fra concentrazione saggiata e risposta osservata.\n\nL’assenza di torbidità, tuttavia, non dimostra da sola l’eliminazione dei batteri. Una valutazione distinta della sopravvivenza può mostrare che cellule non cresciute durante l’esposizione sono ancora vitali. Il confronto con una successiva subcoltura aiuta a capire il concetto di attività battericida, ma non autorizza a dedurre una MBC quantitativa da un disegno privo di criteri di lettura. Tempi, controlli ed endpoint appartengono al metodo specifico; uno schema non è un protocollo universale.\n\nBatteriostatico e battericida descrivono effetti osservati sulla crescita o sulla sopravvivenza. Non sono sinonimi rispettivamente di debole e forte. Anche l’equivalenza fra battericidia e lisi è scorretta: una cellula può morire senza una rottura rilevante, come illustra il meccanismo riportato per daptomicina. La mappa dei bersagli e la classificazione dell’effetto rispondono dunque a domande differenti.\n\nIl passaggio al paziente richiede informazioni aggiuntive. Una misura in vitro non rappresenta le difese immunitarie, l’accessibilità di un focolaio o l’andamento temporale delle concentrazioni. L’etichetta di attività non basta per stabilire la superiorità clinica di un trattamento o per decidere che il contributo dell’ospite sia diventato irrilevante.\n\nUn esercizio utile consiste nel leggere due risultati separatamente: «la crescita è inibita nel test» e «l’infezione si risolve nella persona». Il primo può sostenere il secondo, ma non lo contiene. Fra i due si collocano esposizione, sede, sicurezza, controllo del focolaio e prove cliniche.",
       "formula": "MIC → inibizione della crescita nel test. MBC → criterio di uccisione. Esito clinico → integrazione di più fattori."
     },
     {
@@ -80,6 +81,31 @@ export const THEORY_ANTIBACTERIALS = {
         "EUCAST-TABLES"
       ],
       "text": "EUCAST distingue S, sensibile con regime standard; I, sensibile con esposizione aumentata; R, resistente, con elevata probabilità di fallimento anche aumentando l’esposizione. I appartiene quindi alle categorie sensibili e non va sommata a R come se entrambe significassero resistenza. L’esposizione dipende da dose, intervallo, modalità di somministrazione, distribuzione ed eliminazione: non coincide soltanto con la quantità assunta.\n\nLa categoria traduce un risultato microbiologico nel contesto di condizioni di impiego definite. Non è una promessa individuale di guarigione. Rimane necessario verificare che il farmaco sia appropriato per la sede e che l’esposizione prevista sia compatibile con la situazione dell’ospite. Allo stesso modo, modificare il regime richiede valutazioni cliniche e informazioni specifiche del medicinale; la lettera I non è un invito ad aumentare autonomamente una dose.\n\nLa MIC e il breakpoint hanno ruoli diversi. La prima è il risultato della misura; il secondo è il criterio usato per interpretarla. Se cambia il criterio, può cambiare la categoria assegnata senza che sia cambiato il valore misurato. Per seguire nel tempo un risultato occorre quindi conoscere metodo, specie, farmaco e versione del riferimento.\n\nAlla consultazione del 27 novembre 2026, l’indice ufficiale EUCAST riporta tabelle cliniche versione 16.1, valide dal 24 giugno al 31 dicembre 2026. Qui è verificata la versione dell’indice; non sono riprodotti breakpoint numerici né dichiarata una lettura completa delle tabelle. Questo capitolo spiega il significato delle categorie e rinvia al riferimento aggiornato per la loro applicazione."
+    },
+    {
+      "id": "ecoff-e-breakpoint",
+      "title": "ECOFF e breakpoint clinico: due domande diverse",
+      "refs": [
+        "DAB-DIAG",
+        "EUCAST-ECOFF",
+        "EUCAST-SET",
+        "EUCAST"
+      ],
+      "text": "Una MIC può essere confrontata con la distribuzione dei risultati di altri isolati della stessa specie oppure con un criterio orientato al trattamento. I due confronti hanno finalità diverse. Il primo descrive il fenotipo del microrganismo rispetto a una popolazione di riferimento; il secondo collega la misura microbiologica alla probabilità di successo con una determinata esposizione. Chiamarli entrambi semplicemente «soglia di resistenza» nasconde questa differenza.\n\nPer una specifica coppia specie–antibiotico, la popolazione wild type comprende gli isolati senza meccanismi acquisiti di resistenza rilevabili fenotipicamente. L’ECOFF, o valore soglia epidemiologico, delimita l’estremità superiore della sua distribuzione di MIC. Superare questo limite colloca il risultato nel gruppo non-wild type. La classificazione riguarda quel composto e quel metodo di misura: non equivale a una descrizione completa del batterio contro ogni antibiotico.\n\nNon è corretto sostituire questa valutazione con una regola universale secondo cui la resistenza biologica richiederebbe una concentrazione dieci volte maggiore di quella efficace sulla maggioranza dei ceppi. Una distribuzione non si riassume con quel moltiplicatore. Occorrono dati pertinenti alla specie, al composto e al metodo, con criteri definiti per stimare il limite della popolazione di riferimento.\n\nIl breakpoint clinico risponde invece alla domanda terapeutica. Nella sua definizione entrano distribuzioni delle MIC, meccanismi di resistenza, farmacocinetica e farmacodinamica, modalità di somministrazione, infezioni considerate ed esiti clinici. EUCAST descrive una valutazione integrata di questi elementi, non una formula capace di convertirli automaticamente in un’unica soglia. Anche il solo confronto fra MIC e concentrazione raggiungibile nel sangue è insufficiente: il ragionamento deve arrivare all’esposizione nella sede dell’infezione.\n\nSi considerino due risultati astratti. Il primo appartiene alla popolazione wild type; il secondo supera l’ECOFF. Da queste sole informazioni non si possono assegnare rispettivamente S e R: per entrambi serve il confronto con i criteri clinici pertinenti. Questa distinzione evita di trasformare un dato sulla popolazione batterica in una promessa di efficacia, oppure di confondere ogni scostamento fenotipico con il medesimo rischio terapeutico.\n\nAnche l’uso epidemiologico richiede attenzione. Il database EUCAST raccoglie distribuzioni provenienti da luoghi, periodi e selezioni differenti. La quota di valori elevati in quel materiale aggregato non rappresenta automaticamente la prevalenza locale della resistenza. Il riferimento per riconoscere un fenotipo e la misura della frequenza di quel fenotipo in una popolazione sono informazioni distinte.",
+      "formula": "ECOFF → posizione rispetto alla popolazione wild type. Breakpoint clinico → categoria rispetto a un’esposizione terapeutica. WT/non-WT e S/I/R non sono etichette intercambiabili."
+    },
+    {
+      "id": "referto-e-versione",
+      "title": "Leggere il referto: isolato, metodo e data dei criteri",
+      "refs": [
+        "DAB-DIAG",
+        "EUCAST-VERS",
+        "EUCAST-TABLES",
+        "EUCAST",
+        "KATZ"
+      ],
+      "text": "Un referto microbiologico unisce informazioni di natura diversa: ciò che è stato isolato, il risultato di una prova e l’interpretazione applicata a quel risultato. Separare questi livelli permette di capire che cosa sia stato misurato e che cosa dipenda dai criteri adottati. La categoria attribuita a una coppia isolato–farmaco va inoltre distinta dalla diagnosi dell’infezione: la presenza del microrganismo deve essere interpretata nel quadro clinico.\n\nLa misura va letta con la sua unità e il metodo utilizzato. Il diametro di un alone e la MIC rimangono grandezze diverse, come discusso nelle sezioni precedenti. Una lettera riassuntiva aiuta la comunicazione, ma non sostituisce l’identità del microrganismo, quella dell’antibiotico e il contesto interpretativo. Questo è particolarmente importante quando si confrontano documenti di epoche differenti.\n\nUn referto storico non va riletto attribuendo retroattivamente alle sue lettere il significato odierno. Nel sistema EUCAST la ridefinizione del 2019 ha reso I una categoria di sensibilità associata a maggiore esposizione. Una legenda più vecchia che riporti «intermedio» deve essere riconosciuta come appartenente al proprio periodo e standard. Cambiare il nome della categoria senza riesaminare metodo, valori e criteri originari non costituisce una nuova interpretazione validata.\n\nLe tabelle EUCAST sono aggiornate periodicamente e possono ricevere correzioni o integrazioni durante l’anno. Di conseguenza, la versione dei criteri è parte dell’informazione necessaria a comprendere un risultato. In un esempio puramente logico, se la MIC di un isolato resta identica ma cambia il breakpoint applicabile, la categoria può cambiare senza che ciò dimostri una mutazione del microrganismo. Viceversa, due lettere uguali non provano che due misure quantitative siano identiche.\n\nIl passaggio conclusivo torna al quadro dell’infezione. La presenza di un isolato e la sua categoria di sensibilità vanno collegate alla qualità del campione, alla sede e alla plausibilità del suo ruolo eziologico. Leggere bene l’antibiogramma significa preservare queste informazioni lungo il ragionamento: il referto sostiene una scelta clinica, ma non la produce da solo.",
+      "formula": "Isolato e campione → misura con metodo e unità → criteri identificati per standard e versione → interpretazione nel contesto dell’infezione."
     },
     {
       "id": "ospite-esposizione-sicurezza",
@@ -158,6 +184,22 @@ export const THEORY_ANTIBACTERIALS = {
     {
       "question": "Il dischetto con l’alone maggiore identifica da solo l’antibiotico clinicamente migliore?",
       "answer": "No. Il diametro va interpretato con i criteri della specifica combinazione microrganismo–farmaco e del metodo. Non è una MIC diretta né una graduatoria di efficacia clinica."
+    },
+    {
+      "question": "Una provetta senza crescita visibile dimostra da sola che tutti i batteri sono morti?",
+      "answer": "No. La MIC riguarda l’inibizione della crescita nelle condizioni del test. La sopravvivenza e l’attività battericida richiedono una valutazione distinta."
+    },
+    {
+      "question": "Un isolato wild type è necessariamente classificato S?",
+      "answer": "No. Wild type e non-wild type descrivono il confronto con una popolazione di riferimento. Le categorie cliniche richiedono i breakpoint e l’esposizione pertinenti."
+    },
+    {
+      "question": "La resistenza biologica si definisce sempre moltiplicando per dieci una MIC abituale?",
+      "answer": "No. L’ECOFF riguarda la distribuzione della specifica coppia specie–farmaco secondo criteri definiti; non esiste quel moltiplicatore universale."
+    },
+    {
+      "question": "Una diversa categoria in due referti prova da sola che il batterio abbia acquisito una mutazione?",
+      "answer": "No. Occorre confrontare isolato, misura, metodo e versione dei criteri. Un cambiamento del breakpoint può modificare l’interpretazione anche a MIC invariata."
     }
   ],
   "references": [
@@ -191,7 +233,7 @@ export const THEORY_ANTIBACTERIALS = {
       "id": "EUCAST",
       "title": "EUCAST · Definizioni S,I eR",
       "url": "https://www.eucast.org/bacteria/clinical-breakpoints-and-interpretation/definition-of-s-i-and-r/",
-      "detail": "Consultazione27novembre2026: definizioni ed esposizione. Nessun algoritmo prescrittivo."
+      "detail": "Consultazione27novembre2026: definizioni ed esposizione. Nessun algoritmo prescrittivo. Riconsultate anche le sezioni wild type/ECOFF e terminologia il27novembre2026."
     },
     {
       "id": "EUCAST-TABLES",
@@ -249,15 +291,38 @@ export const THEORY_ANTIBACTERIALS = {
       "title": "EUCAST · MIC:Zone diameter correlations",
       "url": "https://www.eucast.org/bacteria/development-of-clinical-breakpoints-and-ecoffs/mic-zone-diameter-correlations/",
       "detail": "Introduzione consultata il 27 novembre 2026: calibrazione dei criteri per diametro rispetto alla MIC. Dataset per specie e grafici collegati non letti; nessuna formula di conversione proposta."
+    },
+    {
+      "id": "DAB-DIAG",
+      "title": "Diapositive del corso di Farmacologia II · AA 2026–27 · Misura e interpretazione",
+      "detail": "PDF 11–15 esaminati: testo e figure di11,13–15 controllati e integrati mediante sintesi originale. PDF12 parziale per metadati oscurati nel referto storico: escluso dalla copertura completa e dall’integrazione; valori, dati personali e immagine non trasferiti. Definizioni sintetiche riconciliate con EUCAST corrente."
+    },
+    {
+      "id": "EUCAST-ECOFF",
+      "title": "EUCAST · Distribuzioni MIC ed ECOFF",
+      "url": "https://mic.eucast.org/",
+      "detail": "Introduzione, sezioni su ECOFF/TECOFF e limiti consultate il27novembre2026. Nessun dataset per specie o grafico estratto; nessuna prevalenza di resistenza calcolata."
+    },
+    {
+      "id": "EUCAST-SET",
+      "title": "EUCAST · Setting breakpoints",
+      "url": "https://www.eucast.org/bacteria/development-of-clinical-breakpoints-and-ecoffs/setting-breakpoints/",
+      "detail": "Introduzione sul processo di definizione dei breakpoint consultata il27novembre2026. Documenti SOP e articoli collegati non letti integralmente."
+    },
+    {
+      "id": "EUCAST-VERS",
+      "title": "EUCAST · About Clinical Breakpoint Tables",
+      "url": "https://www.eucast.org/bacteria/development-of-clinical-breakpoints-and-ecoffs/about-clinical-breakpoints/",
+      "detail": "Introduzione e paragrafo su aggiornamenti, correzioni e addenda consultati il27novembre2026. Esempi numerici della pagina non trasferiti come criteri clinici."
     }
   ],
   "drugs": [],
   "targets": [],
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
-  "reviewedAt": "2026-11-27T22:58:21.970974+00:00",
+  "reviewedAt": "2026-11-27T23:34:57.406360+00:00",
   "readingManifest": "./data/antibatterici-principi-reading.json",
-  "coverage": "Copertura cumulativa circoscritta: 23 pagine complete del testo visibile (2 di metadati), 3 pagine parziali escluse e 26 ispezioni visive; 18 pagine con passaggi integrati. In questo lotto: 9 nuove pagine complete, 2 parziali, 11 ispezioni e 6 pagine integrate. Nessun intero libro o corso letto. Sintesi didattica, senza revisione clinica indipendente.",
+  "coverage": "Copertura cumulativa circoscritta:27 pagine complete del testo visibile (2 metadati),4 parziali escluse,31 ispezioni visive e22 pagine con passaggi integrati. Questo lotto aggiunge4 pagine complete,1 parziale,5 ispezioni e4 pagine integrate;5 pagine già lette sono state ricontrollate nel testo. Nessun intero libro o corso letto; nessuna revisione clinica indipendente.",
   "moleculeLinks": [
     {
       "id": "CHEMBL1082",
@@ -276,5 +341,5 @@ export const THEORY_ANTIBACTERIALS = {
     "antibiotici-beta-lattamici",
     "metabolismo-trasportatori"
   ],
-  "wordCount": 2875
+  "wordCount": 3706
 };

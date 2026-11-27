@@ -1,6 +1,6 @@
 {
-  "batch": "theory-dab-006-010",
-  "updatedAt": "2026-11-27T22:58:21.970974+00:00",
+  "batch": "theory-dab-011-015",
+  "updatedAt": "2026-11-27T23:34:57.406360+00:00",
   "chapterId": "antibiotico-resistenze",
   "sources": [
     {
@@ -14,11 +14,16 @@
         6,
         7,
         8,
-        9
+        9,
+        11,
+        13,
+        14,
+        15
       ],
       "partiallyReadPdfPages": [
         3,
-        10
+        10,
+        12
       ],
       "visuallyCheckedPdfPages": [
         1,
@@ -30,7 +35,12 @@
         7,
         8,
         9,
-        10
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
       ],
       "integratedPdfPages": [
         4,
@@ -38,7 +48,11 @@
         6,
         7,
         8,
-        9
+        9,
+        11,
+        13,
+        14,
+        15
       ],
       "metadataOnlyPages": [
         1,
@@ -54,43 +68,53 @@
         "7": "absent",
         "8": "absent",
         "9": "absent",
-        "10": "absent"
+        "10": "absent",
+        "11": "absent",
+        "13": "absent",
+        "14": "absent",
+        "15": "absent",
+        "12": "absent"
       },
       "edition": "2026-27",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        6,
-        7,
-        8,
-        9
+        11,
+        13,
+        14,
+        15
       ],
       "reusedPreviouslyReadPages": [
         1,
         2,
         4,
-        5
+        5,
+        6,
+        7,
+        8,
+        9
       ],
       "readButNotIntegratedPdfPages": [
         1,
         2
       ],
       "newlyPartiallyReadPdfPages": [
-        10
+        12
       ],
       "newlyVisuallyCheckedPdfPages": [
-        6,
-        7,
-        8,
-        9,
-        10
+        11,
+        12,
+        13,
+        14,
+        15
       ],
       "newlyIntegratedPdfPages": [
-        6,
-        7,
-        8,
-        9
-      ]
+        11,
+        13,
+        14,
+        15
+      ],
+      "recheckedTextPagesThisBatch": []
     },
     {
       "id": "KATZ",
@@ -130,12 +154,11 @@
       "edition": "IX italiana 2014 / XII originale 2012",
       "sourceUnchanged": true,
       "allContentsRead": false,
-      "newlyReadTextPages": [
+      "newlyReadTextPages": [],
+      "reusedPreviouslyReadPages": [
         907,
         908,
-        909
-      ],
-      "reusedPreviouslyReadPages": [
+        909,
         1030,
         1031,
         1032
@@ -145,13 +168,11 @@
         908
       ],
       "newlyPartiallyReadPdfPages": [],
-      "newlyVisuallyCheckedPdfPages": [
-        907,
-        908,
-        909
-      ],
-      "newlyIntegratedPdfPages": [
-        909
+      "newlyVisuallyCheckedPdfPages": [],
+      "newlyIntegratedPdfPages": [],
+      "recheckedTextPagesThisBatch": [
+        1031,
+        1032
       ]
     },
     {
@@ -190,25 +211,18 @@
       "edition": "VIII italiana 2016 / originale 2015",
       "sourceUnchanged": true,
       "allContentsRead": false,
-      "newlyReadTextPages": [
-        952
-      ],
+      "newlyReadTextPages": [],
       "reusedPreviouslyReadPages": [
         933,
         934,
-        935
+        935,
+        952
       ],
       "readButNotIntegratedPdfPages": [],
-      "newlyPartiallyReadPdfPages": [
-        951
-      ],
-      "newlyVisuallyCheckedPdfPages": [
-        951,
-        952
-      ],
-      "newlyIntegratedPdfPages": [
-        952
-      ]
+      "newlyPartiallyReadPdfPages": [],
+      "newlyVisuallyCheckedPdfPages": [],
+      "newlyIntegratedPdfPages": [],
+      "recheckedTextPagesThisBatch": []
     },
     {
       "id": "FII-B",
@@ -245,32 +259,34 @@
       "edition": "AA2024–25",
       "sourceUnchanged": true,
       "allContentsRead": false,
-      "newlyReadTextPages": [
-        25
-      ],
+      "newlyReadTextPages": [],
       "reusedPreviouslyReadPages": [
         21,
         22,
         23,
-        24
+        24,
+        25
       ],
       "readButNotIntegratedPdfPages": [
         25
       ],
       "lesson": "3;14ottobre2024",
       "newlyPartiallyReadPdfPages": [],
-      "newlyVisuallyCheckedPdfPages": [
-        25
-      ],
-      "newlyIntegratedPdfPages": []
+      "newlyVisuallyCheckedPdfPages": [],
+      "newlyIntegratedPdfPages": [],
+      "recheckedTextPagesThisBatch": [
+        22,
+        23,
+        24
+      ]
     }
   ],
-  "totalReadPdfPages": 23,
-  "newReadPdfPages": 9,
-  "reusedReadPdfPages": 14,
-  "newPartiallyReadPdfPages": 2,
-  "chapterReviewedPdfPages": 26,
-  "chapterIntegratedPdfPages": 18,
+  "totalReadPdfPages": 27,
+  "newReadPdfPages": 4,
+  "reusedReadPdfPages": 23,
+  "newPartiallyReadPdfPages": 1,
+  "chapterReviewedPdfPages": 31,
+  "chapterIntegratedPdfPages": 22,
   "metadataOnlyPdfPages": 2,
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -281,9 +297,9 @@
   "newChapters": 0,
   "expandedExistingChapters": 1,
   "deduplication": {
-    "registryFiles": 477,
-    "uniqueRegistryContents": 414,
-    "method": "Source SHA256 and explicit page records; no overlap in newly read requested intervals. Previous14 complete chapter pages reused, not counted as newly read."
+    "registryFiles": 478,
+    "uniqueRegistryContents": 415,
+    "method": "Source SHA256 and explicit page records; new DAB interval has no prior overlap. Previous23 complete chapter pages retained;5 previously read support pages rechecked but not counted as new."
   },
   "limits": [
     "DAB3: citation overlay hides central labels; only visible image text read. Excluded from fully read and integrated pages. Article DOI10.3390/pharmaceutics16091137 identified; not read in full, original figure not inspected independently.",
@@ -293,7 +309,12 @@
     "RANG951: body text read, embedded raster table not fully verified; conservatively counted as partial and excluded from integration.",
     "KATZ909 ends mid-word before PDF910; only completed mechanism text and complete figure43.3 used. KATZ907–908 and APP-II25 fully read as visible pages but not integrated. Continuations not inferred.",
     "Embedded figure credits (Tortora1989 and McGraw-Hill) recorded privately; underlying originals not independently inspected. No source image reproduced.",
-    "EUCAST manual selections and web introductions only; no numerical breakpoint tables, species correlation datasets, complete manual or September2026 linked MIC document read."
+    "EUCAST manual selections and web introductions only; no numerical breakpoint tables, species correlation datasets, complete manual or September2026 linked MIC document read.",
+    "DAB12: visible educational text inspected, historical report includes obscured metadata. Conservatively classified as partial; excluded from complete page count and integration. No patient data, report values, original image or case-specific reinterpretation published.",
+    "DAB11: schematic serial dilution and subculture illustration read; no concentrations, validated bactericidal endpoint or universal incubation duration inferred. Original diagram not reproduced.",
+    "DAB13 blood-concentration shorthand and DAB14 fixed tenfold definition are not current universal interpretive rules; reconciled with EUCAST exposure, ECOFF and breakpoint concepts.",
+    "KATZ1031–1032 and APP-II22–24 text rechecked from existing extractions; no newly read book pages or repeat full-figure inspections claimed. Other lecturers and course intervals remain to be reconciled.",
+    "EUCAST web introductions and specified sections only; no species MIC datasets, complete numerical tables, linked SOPs or articles independently reviewed."
   ],
   "officialSourceScopes": [
     {
@@ -349,8 +370,37 @@
       "title": "EUCAST · MIC:Zone diameter correlations",
       "url": "https://www.eucast.org/bacteria/development-of-clinical-breakpoints-and-ecoffs/mic-zone-diameter-correlations/",
       "detail": "Introduzione consultata il 27 novembre 2026: calibrazione dei criteri per diametro rispetto alla MIC. Dataset per specie e grafici collegati non letti; nessuna formula di conversione proposta."
+    },
+    {
+      "id": "EUCAST-ECOFF",
+      "title": "EUCAST · Distribuzioni MIC ed ECOFF",
+      "url": "https://mic.eucast.org/",
+      "detail": "Introduzione, sezioni su ECOFF/TECOFF e limiti consultate il27novembre2026. Nessun dataset per specie o grafico estratto; nessuna prevalenza di resistenza calcolata."
+    },
+    {
+      "id": "EUCAST-SET",
+      "title": "EUCAST · Setting breakpoints",
+      "url": "https://www.eucast.org/bacteria/development-of-clinical-breakpoints-and-ecoffs/setting-breakpoints/",
+      "detail": "Introduzione sul processo di definizione dei breakpoint consultata il27novembre2026. Documenti SOP e articoli collegati non letti integralmente."
+    },
+    {
+      "id": "EUCAST-VERS",
+      "title": "EUCAST · About Clinical Breakpoint Tables",
+      "url": "https://www.eucast.org/bacteria/development-of-clinical-breakpoints-and-ecoffs/about-clinical-breakpoints/",
+      "detail": "Introduzione e paragrafo su aggiornamenti, correzioni e addenda consultati il27novembre2026. Esempi numerici della pagina non trasferiti come criteri clinici."
     }
   ],
-  "newIntegratedPdfPages": 6,
-  "newVisualInspections": 11
+  "newIntegratedPdfPages": 4,
+  "newVisualInspections": 5,
+  "previouslyReadTextPagesRechecked": 5,
+  "officialSourceRechecks": [
+    {
+      "url": "https://www.eucast.org/bacteria/clinical-breakpoints-and-interpretation/definition-of-s-i-and-r/",
+      "scope": "Definitions, exposure, terminology and WT/ECOFF sections"
+    },
+    {
+      "url": "https://www.eucast.org/bacteria/clinical-breakpoints-and-interpretation/clinical-breakpoint-tables/",
+      "scope": "Current indexv16.1 valid24June–31December2026; numerical tables not read in full"
+    }
+  ]
 }

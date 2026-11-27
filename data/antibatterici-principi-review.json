@@ -1,11 +1,11 @@
 {
-  "batch": "theory-dab-006-010",
-  "reviewedAt": "2026-11-27T22:58:21.970974+00:00",
+  "batch": "theory-dab-011-015",
+  "reviewedAt": "2026-11-27T23:34:57.406360+00:00",
   "outcome": "pass",
-  "scope": "Editorial review of two original additions on bacterial envelopes and susceptibility-test measurements by the sole integrator",
+  "scope": "Sole-integrator editorial review: serial-dilution explanation, ECOFF versus clinical breakpoints and version-aware report interpretation",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "164e1acd5fcb69d7c7489297cd73d127348e0ebb5a06ee69e3ae2d4a4fec5fad",
+  "moduleSha256": "ae50cb9e0ee744a8c4904ed17111ec0f1fe45adf55fcefa812a1c36d86c8360d",
   "conflicts": [
     {
       "id": "dab3-obscured-labels",
@@ -96,6 +96,36 @@
       "id": "embedded-originals",
       "status": "unresolved_source_limit",
       "resolution": "Embedded figure credits (Tortora1989 and McGraw-Hill) recorded privately; underlying originals not independently inspected. No source image reproduced."
+    },
+    {
+      "id": "dab12-redacted-report",
+      "status": "unresolved_source_limit",
+      "resolution": "DAB12: visible educational text inspected, historical report includes obscured metadata. Conservatively classified as partial; excluded from complete page count and integration. No patient data, report values, original image or case-specific reinterpretation published."
+    },
+    {
+      "id": "dilution-not-bactericidal-proof",
+      "status": "resolved_for_scope",
+      "resolution": "DAB11: schematic serial dilution and subculture illustration read; no concentrations, validated bactericidal endpoint or universal incubation duration inferred. Original diagram not reproduced."
+    },
+    {
+      "id": "blood-level-not-breakpoint",
+      "status": "resolved_for_scope",
+      "resolution": "DAB13 reduced clinical susceptibility to a blood concentration threshold tied to therapeutic index. EUCAST setting process combines microbiology, exposure at infection site, PK/PD and clinical data; no simple universal ratio imported."
+    },
+    {
+      "id": "tenfold-not-ecoff",
+      "status": "resolved_for_scope",
+      "resolution": "DAB14 tenfold definition not imported as a rule. ECOFF describes the upper end of a species-agent wild-type MIC distribution; WT/non-WT is distinct from S/I/R."
+    },
+    {
+      "id": "historical-interpretation",
+      "status": "resolved_for_scope",
+      "resolution": "DAB15 and APP-II22–24 separated by date from current EUCAST definitions. Historical intermediate is not relabelled retroactively as increased exposure; no historical patient report reclassified."
+    },
+    {
+      "id": "aggregate-not-prevalence",
+      "status": "resolved_for_scope",
+      "resolution": "EUCAST aggregated distributions are not used to infer local resistance prevalence or comparisons across places or time."
     }
   ],
   "limits": [
@@ -106,6 +136,11 @@
     "RANG951: body text read, embedded raster table not fully verified; conservatively counted as partial and excluded from integration.",
     "KATZ909 ends mid-word before PDF910; only completed mechanism text and complete figure43.3 used. KATZ907–908 and APP-II25 fully read as visible pages but not integrated. Continuations not inferred.",
     "Embedded figure credits (Tortora1989 and McGraw-Hill) recorded privately; underlying originals not independently inspected. No source image reproduced.",
-    "EUCAST manual selections and web introductions only; no numerical breakpoint tables, species correlation datasets, complete manual or September2026 linked MIC document read."
+    "EUCAST manual selections and web introductions only; no numerical breakpoint tables, species correlation datasets, complete manual or September2026 linked MIC document read.",
+    "DAB12: visible educational text inspected, historical report includes obscured metadata. Conservatively classified as partial; excluded from complete page count and integration. No patient data, report values, original image or case-specific reinterpretation published.",
+    "DAB11: schematic serial dilution and subculture illustration read; no concentrations, validated bactericidal endpoint or universal incubation duration inferred. Original diagram not reproduced.",
+    "DAB13 blood-concentration shorthand and DAB14 fixed tenfold definition are not current universal interpretive rules; reconciled with EUCAST exposure, ECOFF and breakpoint concepts.",
+    "KATZ1031–1032 and APP-II22–24 text rechecked from existing extractions; no newly read book pages or repeat full-figure inspections claimed. Other lecturers and course intervals remain to be reconciled.",
+    "EUCAST web introductions and specified sections only; no species MIC datasets, complete numerical tables, linked SOPs or articles independently reviewed."
   ]
 }
