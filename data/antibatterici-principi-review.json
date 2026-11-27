@@ -1,0 +1,66 @@
+{
+  "batch": "theory-dab-001-005",
+  "reviewedAt": "2026-11-27T22:03:38.579986+00:00",
+  "outcome": "pass",
+  "scope": "Editorial review of the bounded introductory chapter by the sole integrator",
+  "independentClinicalReview": false,
+  "clinicalValidation": false,
+  "moduleSha256": "b99f618f6472d3f2273786ab5ab38911c95055611ee1c0ccd9f3fa36765d0c94",
+  "conflicts": [
+    {
+      "id": "dab3-obscured-labels",
+      "status": "unresolved_source_limit",
+      "resolution": "DAB3: citation overlay hides central labels; only visible image text read. Excluded from fully read and integrated pages. Article DOI10.3390/pharmaceutics16091137 identified; not read in full, original figure not inspected independently."
+    },
+    {
+      "id": "membrane-not-synthesis",
+      "status": "resolved_for_scope",
+      "resolution": "Membrane synthesis label not imported. EMA5.1 supports membrane binding/depolarisation for daptomycin, not a generic synthesis mechanism for all membrane-active drugs."
+    },
+    {
+      "id": "selective-not-risk-free",
+      "status": "resolved_for_scope",
+      "resolution": "APP-II21 and RANG general innocuity language not transferred as dose escalation or absence of adverse effects; selective toxicity separated from clinical safety."
+    },
+    {
+      "id": "sir-exposure-not-intermediate",
+      "status": "resolved_for_scope",
+      "resolution": "APP-II22–24: current EUCAST I is susceptible increased exposure, not uncertain intermediate or resistant. Exposure not reduced to larger dose; no dose instruction."
+    },
+    {
+      "id": "bactericidal-not-lysis",
+      "status": "resolved_for_scope",
+      "resolution": "APP-II24 lysis equivalence corrected using EMA daptomycin mechanism. Static/cidal not used to rank efficacy or declare immune defenses irrelevant."
+    },
+    {
+      "id": "broad-spectrum-not-universal",
+      "status": "resolved_for_scope",
+      "resolution": "APP-II22/24: broad spectrum not equal activity against every Gram positive/negative isolate. Scope, isolate, site and exposure distinguished."
+    },
+    {
+      "id": "mbc-never",
+      "status": "resolved_for_scope",
+      "resolution": "APP-II24 never-use wording replaced with common MIC versus distinct MBC measurement, consistent with KATZ1032; no routine MBC recommendation."
+    },
+    {
+      "id": "app-figure-targets",
+      "status": "excluded_from_new_scope",
+      "resolution": "APP-II21 places nitrofurans among30S inhibitors. This figure is not an independent authoritative target catalog; no such mechanism imported, no illustration republished."
+    },
+    {
+      "id": "rang-page-boundary",
+      "status": "unresolved_source_limit",
+      "resolution": "PDF935 final trimethoprim sentence continues936. Whole visible page read; continuation and quantitative selectivity not inferred. RANG ebook print-page labels not invented."
+    },
+    {
+      "id": "course-reconciliation",
+      "status": "unresolved_source_limit",
+      "resolution": "Only named intervals read. Other FarmacoI/II lessons and contributions from other lecturers not newly read for this introductory batch. Broader reconciliation remains open."
+    }
+  ],
+  "limits": [
+    "DAB3: citation overlay hides central labels; only visible image text read. Excluded from fully read and integrated pages. Article DOI10.3390/pharmaceutics16091137 identified; not read in full, original figure not inspected independently.",
+    "PDF935 final trimethoprim sentence continues936. Whole visible page read; continuation and quantitative selectivity not inferred. RANG ebook print-page labels not invented.",
+    "Only named intervals read. Other FarmacoI/II lessons and contributions from other lecturers not newly read for this introductory batch. Broader reconciliation remains open."
+  ]
+}

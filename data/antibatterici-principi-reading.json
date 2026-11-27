@@ -1,0 +1,233 @@
+{
+  "batch": "theory-dab-001-005",
+  "updatedAt": "2026-11-27T22:03:38.579986+00:00",
+  "chapterId": "antibiotico-resistenze",
+  "sources": [
+    {
+      "id": "DAB",
+      "sha256": "e42abac9e89ea4c51ad4bb45e8ef4888955bb511a5e7fb5fc1fcf4ca5882ebe2",
+      "pdfPagesRead": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "partiallyReadPdfPages": [
+        3
+      ],
+      "visuallyCheckedPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "integratedPdfPages": [
+        4,
+        5
+      ],
+      "metadataOnlyPages": [
+        1,
+        2
+      ],
+      "printedPageLabels": {
+        "1": "absent",
+        "2": "absent",
+        "3": "absent",
+        "4": "absent",
+        "5": "absent"
+      },
+      "edition": "2026-27",
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "newlyReadTextPages": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "reusedPreviouslyReadPages": [],
+      "readButNotIntegratedPdfPages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "KATZ",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "pdfPagesRead": [
+        1030,
+        1031,
+        1032
+      ],
+      "partiallyReadPdfPages": [],
+      "visuallyCheckedPdfPages": [
+        1030,
+        1031,
+        1032
+      ],
+      "integratedPdfPages": [
+        1030,
+        1031,
+        1032
+      ],
+      "metadataOnlyPages": [],
+      "printedPageLabels": {
+        "1030": "1010",
+        "1031": "1011",
+        "1032": "1012"
+      },
+      "edition": "IX italiana 2014 / XII originale 2012",
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "newlyReadTextPages": [
+        1030,
+        1031,
+        1032
+      ],
+      "reusedPreviouslyReadPages": [],
+      "readButNotIntegratedPdfPages": []
+    },
+    {
+      "id": "RANG",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "pdfPagesRead": [
+        933,
+        934,
+        935
+      ],
+      "partiallyReadPdfPages": [],
+      "visuallyCheckedPdfPages": [
+        933,
+        934,
+        935
+      ],
+      "integratedPdfPages": [
+        933,
+        934,
+        935
+      ],
+      "metadataOnlyPages": [],
+      "printedPageLabels": {
+        "933": "absent in ebook rendering",
+        "934": "absent in ebook rendering",
+        "935": "absent in ebook rendering"
+      },
+      "edition": "VIII italiana 2016 / originale 2015",
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "newlyReadTextPages": [
+        933,
+        934,
+        935
+      ],
+      "reusedPreviouslyReadPages": [],
+      "readButNotIntegratedPdfPages": []
+    },
+    {
+      "id": "FII-B",
+      "sha256": "507f96d4b65f15159c912ed9d9d666fcc60e560c42f205f8e48cf82963ce4f39",
+      "pdfPagesRead": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "partiallyReadPdfPages": [],
+      "visuallyCheckedPdfPages": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "integratedPdfPages": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "metadataOnlyPages": [],
+      "printedPageLabels": {
+        "21": "20",
+        "22": "21",
+        "23": "22",
+        "24": "23"
+      },
+      "edition": "AA2024–25",
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "newlyReadTextPages": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "reusedPreviouslyReadPages": [],
+      "readButNotIntegratedPdfPages": [],
+      "lesson": "3;14ottobre2024"
+    }
+  ],
+  "totalReadPdfPages": 14,
+  "newReadPdfPages": 14,
+  "reusedReadPdfPages": 0,
+  "newPartiallyReadPdfPages": 1,
+  "chapterReviewedPdfPages": 15,
+  "chapterIntegratedPdfPages": 12,
+  "metadataOnlyPdfPages": 2,
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "newTargetProfiles": 0,
+  "newChapters": 0,
+  "expandedExistingChapters": 1,
+  "deduplication": {
+    "registryFiles": 475,
+    "uniqueRegistryContents": 411,
+    "method": "Source SHA256 plus explicit page reading records; requested support intervals had no prior overlap."
+  },
+  "limits": [
+    "DAB3: citation overlay hides central labels; only visible image text read. Excluded from fully read and integrated pages. Article DOI10.3390/pharmaceutics16091137 identified; not read in full, original figure not inspected independently.",
+    "PDF935 final trimethoprim sentence continues936. Whole visible page read; continuation and quantitative selectivity not inferred. RANG ebook print-page labels not invented.",
+    "Only named intervals read. Other FarmacoI/II lessons and contributions from other lecturers not newly read for this introductory batch. Broader reconciliation remains open."
+  ],
+  "officialSourceScopes": [
+    {
+      "id": "EMA-DAP",
+      "title": "EMA · Cubicin, informazioni del prodotto",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/cubicin-epar-product-information_en.pdf",
+      "detail": "Consultazione27novembre2026:selezioni4.4(pneumonia) e5.1(meccanismo). Non intero RCP; nessuna dose o nuovo profilo."
+    },
+    {
+      "id": "EUCAST",
+      "title": "EUCAST · Definizioni S,I eR",
+      "url": "https://www.eucast.org/bacteria/clinical-breakpoints-and-interpretation/definition-of-s-i-and-r/",
+      "detail": "Consultazione27novembre2026: definizioni ed esposizione. Nessun algoritmo prescrittivo."
+    },
+    {
+      "id": "EUCAST-TABLES",
+      "title": "EUCAST · Indice delle tabelle cliniche",
+      "url": "https://www.eucast.org/bacteria/clinical-breakpoints-and-interpretation/clinical-breakpoint-tables/",
+      "detail": "Indice consultato27novembre2026:versione16.1,valida24giugno–31dicembre2026. Tabelle numeriche non lette integralmente né riprodotte."
+    },
+    {
+      "id": "WHO-AMR",
+      "title": "WHO · Antimicrobial resistance",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+      "detail": "Pagina16luglio2026,consultata27novembre2026: definizione e fattori di diffusione. Nessun dato epidemiologico numerico trasferito."
+    },
+    {
+      "id": "CDC-CDIFF",
+      "title": "CDC · C. difficile e microbiota",
+      "url": "https://www.cdc.gov/c-diff/about/index.html",
+      "detail": "Pagina13maggio2026,consultata27novembre2026: microbiota,rischio e distinzione dalla diagnosi. Nessun regime terapeutico."
+    },
+    {
+      "id": "CDC-ASP",
+      "title": "CDC · Hospital Antibiotic Stewardship",
+      "url": "https://www.cdc.gov/antibiotic-use/hcp/core-elements/hospital.html",
+      "detail": "Pagina16novembre2026,consultata27novembre2026. Quadro organizzativo2019 e priorità2022 distinti dalla data della pagina; selezioni introduttive e risorse,non intere linee guida."
+    }
+  ]
+}

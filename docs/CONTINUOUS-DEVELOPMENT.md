@@ -8,13 +8,13 @@ Usare appunti e diapositive del corso di Farmacologia, con anno, lezione, data e
 
 ## Lotto corrente
 
-theory-course-926-930, candidato 0.122.0. Ampliato «Rimodellamento osseo e osteoporosi» con 2 sezioni su prove di efficacia e continuità della cura, 4 quesiti e 2 schemi originali. Totale 36 sezioni, 10840 parole e 66 quesiti. Nessuna nuova identità, sintesi, profilo o laboratorio.
+theory-dab-001-005, candidato0.123.0. Ampliamento di un capitolo esistente: principi della terapia antibatterica,8 sezioni,2139 parole,8 quesiti,5 schemi originali e3 collegamenti a identità già presenti. Nessuna nuova identità,sintesi di farmaco,profilo o laboratorio.
 
-Ultima consegna verificata 0.121.0, commit 6678603bae8adb98017cbcc6e6b7a1ec7dcccde1. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
+Ultima pubblicazione verificata0.122.0,commit741d9bc05cbd2d56c406510a04264cab043481e4. La ricevuta successiva al deploy prevale sul checkpoint preparatorio. CFI931–935 chiuso come sola lettura,senza pubblicazione.
 
-Deduplicazione su 381 registri: 5 nuove pagine di testo visibile lette e ispezionate (CFI926–930, JAMA2025 E6–E10); selezioni da927 e930 integrate. Copertura cumulativa:79 testi completi,84 ispezioni,62 pagine integrate;74 pagine ereditate non rilette.5 pagine parziali pregresse escluse. Articolo e studi citati non letti integralmente.
+DAB1–5 e confronti circoscritti:14 pagine complete del testo visibile,di cui2 metadati;1 pagina parziale esclusa;15 ispezioni;12 pagine integrate. Katzung,Rang e appunti di Farmacologia II distinti per edizione,anno e pagine. Nessuna lettura integrale di libri,corsi o articolo. Revisione editoriale circoscritta. Superati53 validatori e8 configurazioni browser;8 immagini ispezionate. Navigazione,tastiera,ricerche,offline e aggiornamento reale0.122→0.123 verificati. Commit,CI,deploy e riscontro online da concludere.
 
-Revisione editoriale circoscritta completata. Superati52 validatori,8 configurazioni desktop/mobile,ricerche,collegamenti,tastiera eoffline;8 immagini ispezionate. Aggiornamento reale0.121.0→0.122.0 con dati conservati. Commit,CI,deploy e riscontro online da concludere. Prove private in ../../outputs/ELIX-course-926-930-2026-11-26/.
+Prove private in ../../outputs/ELIX-dab-001-005-2026-11-27/.
 
 ## Regole
 
@@ -26,4 +26,4 @@ Revisione editoriale circoscritta completata. Superati52 validatori,8 configuraz
 
 ## Prossimo intervallo
 
-Completare926–930; poi931–935,non iniziato. Riconciliazione complessiva incompleta. Farmaci,profili e laboratori restano nel backlog. Nessuna revisione clinica indipendente.
+Completare DAB1–5; poi DAB6–10,non iniziato. Riconciliazione complessiva incompleta; nessuna revisione clinica indipendente. Farmaci,profili e laboratori nel backlog.
