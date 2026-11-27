@@ -1,6 +1,6 @@
 {
-  "batch": "theory-dab-001-005",
-  "updatedAt": "2026-11-27T22:03:38.579986+00:00",
+  "batch": "theory-dab-006-010",
+  "updatedAt": "2026-11-27T22:58:21.970974+00:00",
   "chapterId": "antibiotico-resistenze",
   "sources": [
     {
@@ -10,21 +10,35 @@
         1,
         2,
         4,
-        5
+        5,
+        6,
+        7,
+        8,
+        9
       ],
       "partiallyReadPdfPages": [
-        3
+        3,
+        10
       ],
       "visuallyCheckedPdfPages": [
         1,
         2,
         3,
         4,
-        5
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
       ],
       "integratedPdfPages": [
         4,
-        5
+        5,
+        6,
+        7,
+        8,
+        9
       ],
       "metadataOnlyPages": [
         1,
@@ -35,38 +49,71 @@
         "2": "absent",
         "3": "absent",
         "4": "absent",
-        "5": "absent"
+        "5": "absent",
+        "6": "absent",
+        "7": "absent",
+        "8": "absent",
+        "9": "absent",
+        "10": "absent"
       },
       "edition": "2026-27",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "reusedPreviouslyReadPages": [
         1,
         2,
         4,
         5
       ],
-      "reusedPreviouslyReadPages": [],
       "readButNotIntegratedPdfPages": [
         1,
         2
+      ],
+      "newlyPartiallyReadPdfPages": [
+        10
+      ],
+      "newlyVisuallyCheckedPdfPages": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "newlyIntegratedPdfPages": [
+        6,
+        7,
+        8,
+        9
       ]
     },
     {
       "id": "KATZ",
       "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
       "pdfPagesRead": [
+        907,
+        908,
+        909,
         1030,
         1031,
         1032
       ],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
+        907,
+        908,
+        909,
         1030,
         1031,
         1032
       ],
       "integratedPdfPages": [
+        909,
         1030,
         1031,
         1032
@@ -75,18 +122,37 @@
       "printedPageLabels": {
         "1030": "1010",
         "1031": "1011",
-        "1032": "1012"
+        "1032": "1012",
+        "907": "887",
+        "908": "888",
+        "909": "889"
       },
       "edition": "IX italiana 2014 / XII originale 2012",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
+        907,
+        908,
+        909
+      ],
+      "reusedPreviouslyReadPages": [
         1030,
         1031,
         1032
       ],
-      "reusedPreviouslyReadPages": [],
-      "readButNotIntegratedPdfPages": []
+      "readButNotIntegratedPdfPages": [
+        907,
+        908
+      ],
+      "newlyPartiallyReadPdfPages": [],
+      "newlyVisuallyCheckedPdfPages": [
+        907,
+        908,
+        909
+      ],
+      "newlyIntegratedPdfPages": [
+        909
+      ]
     },
     {
       "id": "RANG",
@@ -94,35 +160,55 @@
       "pdfPagesRead": [
         933,
         934,
-        935
+        935,
+        952
       ],
-      "partiallyReadPdfPages": [],
+      "partiallyReadPdfPages": [
+        951
+      ],
       "visuallyCheckedPdfPages": [
         933,
         934,
-        935
+        935,
+        951,
+        952
       ],
       "integratedPdfPages": [
         933,
         934,
-        935
+        935,
+        952
       ],
       "metadataOnlyPages": [],
       "printedPageLabels": {
         "933": "absent in ebook rendering",
         "934": "absent in ebook rendering",
-        "935": "absent in ebook rendering"
+        "935": "absent in ebook rendering",
+        "952": "absent in ebook rendering",
+        "951": "absent in ebook rendering"
       },
       "edition": "VIII italiana 2016 / originale 2015",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
+        952
+      ],
+      "reusedPreviouslyReadPages": [
         933,
         934,
         935
       ],
-      "reusedPreviouslyReadPages": [],
-      "readButNotIntegratedPdfPages": []
+      "readButNotIntegratedPdfPages": [],
+      "newlyPartiallyReadPdfPages": [
+        951
+      ],
+      "newlyVisuallyCheckedPdfPages": [
+        951,
+        952
+      ],
+      "newlyIntegratedPdfPages": [
+        952
+      ]
     },
     {
       "id": "FII-B",
@@ -131,14 +217,16 @@
         21,
         22,
         23,
-        24
+        24,
+        25
       ],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
         21,
         22,
         23,
-        24
+        24,
+        25
       ],
       "integratedPdfPages": [
         21,
@@ -151,28 +239,38 @@
         "21": "20",
         "22": "21",
         "23": "22",
-        "24": "23"
+        "24": "23",
+        "25": "24"
       },
       "edition": "AA2024–25",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
+        25
+      ],
+      "reusedPreviouslyReadPages": [
         21,
         22,
         23,
         24
       ],
-      "reusedPreviouslyReadPages": [],
-      "readButNotIntegratedPdfPages": [],
-      "lesson": "3;14ottobre2024"
+      "readButNotIntegratedPdfPages": [
+        25
+      ],
+      "lesson": "3;14ottobre2024",
+      "newlyPartiallyReadPdfPages": [],
+      "newlyVisuallyCheckedPdfPages": [
+        25
+      ],
+      "newlyIntegratedPdfPages": []
     }
   ],
-  "totalReadPdfPages": 14,
-  "newReadPdfPages": 14,
-  "reusedReadPdfPages": 0,
-  "newPartiallyReadPdfPages": 1,
-  "chapterReviewedPdfPages": 15,
-  "chapterIntegratedPdfPages": 12,
+  "totalReadPdfPages": 23,
+  "newReadPdfPages": 9,
+  "reusedReadPdfPages": 14,
+  "newPartiallyReadPdfPages": 2,
+  "chapterReviewedPdfPages": 26,
+  "chapterIntegratedPdfPages": 18,
   "metadataOnlyPdfPages": 2,
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -183,14 +281,19 @@
   "newChapters": 0,
   "expandedExistingChapters": 1,
   "deduplication": {
-    "registryFiles": 475,
-    "uniqueRegistryContents": 411,
-    "method": "Source SHA256 plus explicit page reading records; requested support intervals had no prior overlap."
+    "registryFiles": 477,
+    "uniqueRegistryContents": 414,
+    "method": "Source SHA256 and explicit page records; no overlap in newly read requested intervals. Previous14 complete chapter pages reused, not counted as newly read."
   },
   "limits": [
     "DAB3: citation overlay hides central labels; only visible image text read. Excluded from fully read and integrated pages. Article DOI10.3390/pharmaceutics16091137 identified; not read in full, original figure not inspected independently.",
     "PDF935 final trimethoprim sentence continues936. Whole visible page read; continuation and quantitative selectivity not inferred. RANG ebook print-page labels not invented.",
-    "Only named intervals read. Other FarmacoI/II lessons and contributions from other lecturers not newly read for this introductory batch. Broader reconciliation remains open."
+    "Only named intervals read. Other FarmacoI/II lessons and contributions from other lecturers not newly read for this introductory batch. Broader reconciliation remains open.",
+    "DAB10: disk-diffusion plate photographs do not provide readable disk identities and ruler graduations or sufficient method metadata. Partial page excluded from complete reading and integration; no diameter or MIC inferred.",
+    "RANG951: body text read, embedded raster table not fully verified; conservatively counted as partial and excluded from integration.",
+    "KATZ909 ends mid-word before PDF910; only completed mechanism text and complete figure43.3 used. KATZ907–908 and APP-II25 fully read as visible pages but not integrated. Continuations not inferred.",
+    "Embedded figure credits (Tortora1989 and McGraw-Hill) recorded privately; underlying originals not independently inspected. No source image reproduced.",
+    "EUCAST manual selections and web introductions only; no numerical breakpoint tables, species correlation datasets, complete manual or September2026 linked MIC document read."
   ],
   "officialSourceScopes": [
     {
@@ -228,6 +331,26 @@
       "title": "CDC · Hospital Antibiotic Stewardship",
       "url": "https://www.cdc.gov/antibiotic-use/hcp/core-elements/hospital.html",
       "detail": "Pagina16novembre2026,consultata27novembre2026. Quadro organizzativo2019 e priorità2022 distinti dalla data della pagina; selezioni introduttive e risorse,non intere linee guida."
+    },
+    {
+      "id": "EUCAST-DD",
+      "title": "EUCAST · Disk diffusion method, versione 13.0",
+      "url": "https://www.eucast.org/fileadmin/eucast/pdf/disk_test_documents/2025/Manual_v_13.0_EUCAST_Disk_Test_2025.pdf",
+      "detail": "Gennaio 2025; indice corrente e selezioni del manuale consultati il 27 novembre 2026: PDF 5 (introduzione), 8 (§3.3), 15 (§8.5–8.6). Standardizzazione, diametro e calibrazione. Non intero manuale; nessun protocollo operativo o valore numerico trasferito."
+    },
+    {
+      "id": "EUCAST-MIC",
+      "title": "EUCAST · MIC determination",
+      "url": "https://www.eucast.org/bacteria/methodology-and-instructions/mic-determination/",
+      "detail": "Introduzione e sezioni sul metodo di riferimento e sui metodi commerciali consultate il 27 novembre 2026. Raccomandazione di settembre 2026 identificata nell’indice, ma documento collegato non letto."
+    },
+    {
+      "id": "EUCAST-CORR",
+      "title": "EUCAST · MIC:Zone diameter correlations",
+      "url": "https://www.eucast.org/bacteria/development-of-clinical-breakpoints-and-ecoffs/mic-zone-diameter-correlations/",
+      "detail": "Introduzione consultata il 27 novembre 2026: calibrazione dei criteri per diametro rispetto alla MIC. Dataset per specie e grafici collegati non letti; nessuna formula di conversione proposta."
     }
-  ]
+  ],
+  "newIntegratedPdfPages": 6,
+  "newVisualInspections": 11
 }

@@ -8,13 +8,13 @@ Usare appunti e diapositive del corso di Farmacologia, con anno, lezione, data e
 
 ## Lotto corrente
 
-theory-dab-001-005, candidato0.123.0. Ampliamento di un capitolo esistente: principi della terapia antibatterica,8 sezioni,2139 parole,8 quesiti,5 schemi originali e3 collegamenti a identità già presenti. Nessuna nuova identità,sintesi di farmaco,profilo o laboratorio.
+theory-dab-006-010, candidato 0.124.0. Due nuove sezioni originali nel capitolo antibatterici: involucro e accesso al bersaglio; diametro dell’alone e MIC. Totale 10 sezioni, 2875 parole, 11 quesiti e 7 schemi. Le 8 sezioni precedenti sono conservate. Nessuna nuova identità, sintesi di farmaco, profilo o laboratorio.
 
-Ultima pubblicazione verificata0.122.0,commit741d9bc05cbd2d56c406510a04264cab043481e4. La ricevuta successiva al deploy prevale sul checkpoint preparatorio. CFI931–935 chiuso come sola lettura,senza pubblicazione.
+Ultima pubblicazione verificata 0.123.0, commit 15e109cedeab49d479eae55b6d0156e9cc1e589c. La ricevuta successiva al deploy prevale sul checkpoint preparatorio. CFI931–935 chiuso come sola lettura.
 
-DAB1–5 e confronti circoscritti:14 pagine complete del testo visibile,di cui2 metadati;1 pagina parziale esclusa;15 ispezioni;12 pagine integrate. Katzung,Rang e appunti di Farmacologia II distinti per edizione,anno e pagine. Nessuna lettura integrale di libri,corsi o articolo. Revisione editoriale circoscritta. Superati53 validatori e8 configurazioni browser;8 immagini ispezionate. Navigazione,tastiera,ricerche,offline e aggiornamento reale0.122→0.123 verificati. Commit,CI,deploy e riscontro online da concludere.
+DAB6–10 e confronti circoscritti: 9 nuove pagine complete del testo visibile, 2 parziali escluse, 11 ispezioni; 6 pagine integrate. Copertura cumulativa del capitolo: 23 complete (2 metadati), 3 parziali, 26 ispezioni e 18 integrate. DAB10 e la tabella RANG951 restano parziali. Katzung907–908 e appuntiII25 letti ma non integrati. Nessuna lettura integrale di libri, corsi o manuali; nessuna revisione clinica indipendente. Superati 53 validatori, 8 configurazioni browser e controllo visivo di 8 immagini; navigazione, tastiera, ricerche, collegamenti e offline verificati. Aggiornamento reale 0.123→0.124 con dati e tema conservati. 66 altri capitoli e 8 sezioni precedenti invariati. Commit, CI, deploy e riscontro online da concludere.
 
-Prove private in ../../outputs/ELIX-dab-001-005-2026-11-27/.
+Prove private in ../../outputs/ELIX-dab-006-010-2026-11-27/.
 
 ## Regole
 
@@ -26,4 +26,4 @@ Prove private in ../../outputs/ELIX-dab-001-005-2026-11-27/.
 
 ## Prossimo intervallo
 
-Completare DAB1–5; poi DAB6–10,non iniziato. Riconciliazione complessiva incompleta; nessuna revisione clinica indipendente. Farmaci,profili e laboratori nel backlog.
+Completare DAB6–10; poi DAB11–15, non iniziato. Riconciliazione complessiva incompleta; nessuna revisione clinica indipendente. Farmaci,profili e laboratori nel backlog.

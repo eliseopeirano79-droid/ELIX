@@ -1,11 +1,11 @@
 {
-  "batch": "theory-dab-001-005",
-  "reviewedAt": "2026-11-27T22:03:38.579986+00:00",
+  "batch": "theory-dab-006-010",
+  "reviewedAt": "2026-11-27T22:58:21.970974+00:00",
   "outcome": "pass",
-  "scope": "Editorial review of the bounded introductory chapter by the sole integrator",
+  "scope": "Editorial review of two original additions on bacterial envelopes and susceptibility-test measurements by the sole integrator",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "b99f618f6472d3f2273786ab5ab38911c95055611ee1c0ccd9f3fa36765d0c94",
+  "moduleSha256": "164e1acd5fcb69d7c7489297cd73d127348e0ebb5a06ee69e3ae2d4a4fec5fad",
   "conflicts": [
     {
       "id": "dab3-obscured-labels",
@@ -56,11 +56,56 @@
       "id": "course-reconciliation",
       "status": "unresolved_source_limit",
       "resolution": "Only named intervals read. Other FarmacoI/II lessons and contributions from other lecturers not newly read for this introductory batch. Broader reconciliation remains open."
+    },
+    {
+      "id": "gram-morphology",
+      "status": "resolved_for_scope",
+      "resolution": "Gram stain and morphology separated; example photographs do not establish that every coccus is Gram positive or every rod Gram negative."
+    },
+    {
+      "id": "envelope-compartments",
+      "status": "resolved_for_scope",
+      "resolution": "DAB8 three-layer shorthand reconciled with KATZ909 and RANG952: outer membrane, periplasm containing peptidoglycan, cytoplasmic membrane distinguished. Porins are compound-dependent channels, not unrestricted access for every hydrophilic antibiotic."
+    },
+    {
+      "id": "disk-zone-not-mic",
+      "status": "resolved_for_scope",
+      "resolution": "DAB10 MIC heading does not turn a disk diffusion photograph into a direct MIC measurement. EUCAST selected method and calibration passages support diameter in mm versus concentration and combination-specific interpretation."
+    },
+    {
+      "id": "dab10-incomplete-image",
+      "status": "unresolved_source_limit",
+      "resolution": "DAB10: disk-diffusion plate photographs do not provide readable disk identities and ruler graduations or sufficient method metadata. Partial page excluded from complete reading and integration; no diameter or MIC inferred."
+    },
+    {
+      "id": "rang951-raster-table",
+      "status": "unresolved_source_limit",
+      "resolution": "RANG951: body text read, embedded raster table not fully verified; conservatively counted as partial and excluded from integration."
+    },
+    {
+      "id": "historical-out-of-scope",
+      "status": "excluded_from_new_scope",
+      "resolution": "KATZ908 generalized carbapenem beta-lactamase resistance caption, historical units/regimens, RANG952 sulfonamide-use list and prasugrel classification not imported or independently validated. APP-II25 PK/PD targets, guaranteed cure wording and historical TDM availability claims excluded from this envelope/test-method scope."
+    },
+    {
+      "id": "support-page-boundaries",
+      "status": "unresolved_source_limit",
+      "resolution": "KATZ909 ends mid-word before PDF910; only completed mechanism text and complete figure43.3 used. KATZ907–908 and APP-II25 fully read as visible pages but not integrated. Continuations not inferred."
+    },
+    {
+      "id": "embedded-originals",
+      "status": "unresolved_source_limit",
+      "resolution": "Embedded figure credits (Tortora1989 and McGraw-Hill) recorded privately; underlying originals not independently inspected. No source image reproduced."
     }
   ],
   "limits": [
     "DAB3: citation overlay hides central labels; only visible image text read. Excluded from fully read and integrated pages. Article DOI10.3390/pharmaceutics16091137 identified; not read in full, original figure not inspected independently.",
     "PDF935 final trimethoprim sentence continues936. Whole visible page read; continuation and quantitative selectivity not inferred. RANG ebook print-page labels not invented.",
-    "Only named intervals read. Other FarmacoI/II lessons and contributions from other lecturers not newly read for this introductory batch. Broader reconciliation remains open."
+    "Only named intervals read. Other FarmacoI/II lessons and contributions from other lecturers not newly read for this introductory batch. Broader reconciliation remains open.",
+    "DAB10: disk-diffusion plate photographs do not provide readable disk identities and ruler graduations or sufficient method metadata. Partial page excluded from complete reading and integration; no diameter or MIC inferred.",
+    "RANG951: body text read, embedded raster table not fully verified; conservatively counted as partial and excluded from integration.",
+    "KATZ909 ends mid-word before PDF910; only completed mechanism text and complete figure43.3 used. KATZ907–908 and APP-II25 fully read as visible pages but not integrated. Continuations not inferred.",
+    "Embedded figure credits (Tortora1989 and McGraw-Hill) recorded privately; underlying originals not independently inspected. No source image reproduced.",
+    "EUCAST manual selections and web introductions only; no numerical breakpoint tables, species correlation datasets, complete manual or September2026 linked MIC document read."
   ]
 }
