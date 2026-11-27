@@ -1,26 +1,27 @@
 {
-  "updatedAt": "2026-11-27T23:00:03.304669+00:00",
-  "batch": "theory-dab-006-010",
-  "status": "locally_verified_pending_publication",
-  "release": "0.124.0",
-  "branch": "feat/theory-dab-006-010",
-  "baseCommit": "15e109cedeab49d479eae55b6d0156e9cc1e589c",
+  "updatedAt": "2026-11-27T23:39:51.465536+00:00",
+  "batch": "theory-dab-011-015",
+  "status": "local_verified_pending_publication",
+  "release": "0.125.0",
+  "branch": "feat/theory-dab-011-015",
+  "baseCommit": "d0cd234a401740537f15564240a02c78183a5ee5",
   "previousBatch": {
-    "batch": "theory-dab-001-005",
-    "release": "0.123.0",
-    "commit": "15e109cedeab49d479eae55b6d0156e9cc1e589c",
+    "batch": "theory-dab-006-010",
+    "release": "0.124.0",
+    "commit": "d0cd234a401740537f15564240a02c78183a5ee5",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Due sezioni originali sull’involucro batterico e sulla distinzione fra alone di inibizione e MIC."
+    "Approfondimento della misura MIC; due sezioni originali su ECOFF/breakpoint clinico e lettura dei referti nel tempo."
   ],
   "completed": [
-    "Capitolo ampliato a10 sezioni,2875 parole,11 quesiti e7 schemi originali. Le8 sezioni precedenti conservate.",
-    "9 nuove pagine complete del testo visibile,2 parziali,11 ispezioni e6 pagine integrate. Deduplicazione per fonte e pagina.",
-    "53 validatori superati;8 configurazioni browser,tastiera,ricerche,collegamenti e offline;8 immagini ispezionate. Aggiornamento reale0.123→0.124 con preferiti,progressi e tema conservati.66 altri capitoli e8 sezioni precedenti invariati."
+    "Capitolo ampliato a 12 sezioni, 3706 parole, 15 quesiti e 9 schemi originali: 2 sezioni aggiunte, 1 ampliata.",
+    "4 nuove pagine complete, 1 parziale esclusa, 5 ispezioni e 4 pagine integrate; ricontrollato il testo di 5 pagine di supporto già lette.",
+    "53 controlli dati superati; navigazione, tastiera, ricerca e offline verificati in 8 configurazioni. Ispezionate 10 schermate desktop/mobile.",
+    "Aggiornamento reale 0.124.0 → 0.125.0 verificato con preferiti, progressi e tema conservati; 66 altri capitoli invariati."
   ],
   "remaining": [
-    "Commit,CI,deploy concluso e verifica online."
+    "Commit, CI, deploy e verifica online."
   ],
   "counts": {
     "identities": 4225,
@@ -43,10 +44,10 @@
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
     "newSections": 2,
-    "expandedSections": 0,
+    "expandedSections": 1,
     "newLinksToExistingIdentities": 0,
     "newStaticOriginalSchemas": 2,
-    "newSelfChecks": 3,
+    "newSelfChecks": 4,
     "unchangedExistingChapters": 66
   },
   "readingManifests": [
@@ -60,9 +61,14 @@
     "RANG951: body text read, embedded raster table not fully verified; conservatively counted as partial and excluded from integration.",
     "KATZ909 ends mid-word before PDF910; only completed mechanism text and complete figure43.3 used. KATZ907–908 and APP-II25 fully read as visible pages but not integrated. Continuations not inferred.",
     "Embedded figure credits (Tortora1989 and McGraw-Hill) recorded privately; underlying originals not independently inspected. No source image reproduced.",
-    "EUCAST manual selections and web introductions only; no numerical breakpoint tables, species correlation datasets, complete manual or September2026 linked MIC document read."
+    "EUCAST manual selections and web introductions only; no numerical breakpoint tables, species correlation datasets, complete manual or September2026 linked MIC document read.",
+    "DAB12: visible educational text inspected, historical report includes obscured metadata. Conservatively classified as partial; excluded from complete page count and integration. No patient data, report values, original image or case-specific reinterpretation published.",
+    "DAB11: schematic serial dilution and subculture illustration read; no concentrations, validated bactericidal endpoint or universal incubation duration inferred. Original diagram not reproduced.",
+    "DAB13 blood-concentration shorthand and DAB14 fixed tenfold definition are not current universal interpretive rules; reconciled with EUCAST exposure, ECOFF and breakpoint concepts.",
+    "KATZ1031–1032 and APP-II22–24 text rechecked from existing extractions; no newly read book pages or repeat full-figure inspections claimed. Other lecturers and course intervals remain to be reconciled.",
+    "EUCAST web introductions and specified sections only; no species MIC datasets, complete numerical tables, linked SOPs or articles independently reviewed."
   ],
-  "nextBatch": "Completare DAB6–10; poi DAB11–15,non iniziato. Farmaci,profili e laboratori nel backlog.",
+  "nextBatch": "Completare la pubblicazione di DAB 11–15; poi DAB 16–20, non iniziato. Farmaci, profili e laboratori nel backlog.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",

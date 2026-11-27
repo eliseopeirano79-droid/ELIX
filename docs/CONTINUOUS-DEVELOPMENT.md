@@ -8,13 +8,13 @@ Usare appunti e diapositive del corso di Farmacologia, con anno, lezione, data e
 
 ## Lotto corrente
 
-theory-dab-006-010, candidato 0.124.0. Due nuove sezioni originali nel capitolo antibatterici: involucro e accesso al bersaglio; diametro dell’alone e MIC. Totale 10 sezioni, 2875 parole, 11 quesiti e 7 schemi. Le 8 sezioni precedenti sono conservate. Nessuna nuova identità, sintesi di farmaco, profilo o laboratorio.
+theory-dab-011-015, candidato 0.125.0. Ampliamento della spiegazione della MIC e due nuove sezioni originali: ECOFF e breakpoint clinico; lettura dei referti e versione dei criteri. Totale 12 sezioni, 3706 parole, 15 quesiti e 9 schemi. Nessuna nuova identità, sintesi di farmaco, profilo o laboratorio.
 
-Ultima pubblicazione verificata 0.123.0, commit 15e109cedeab49d479eae55b6d0156e9cc1e589c. La ricevuta successiva al deploy prevale sul checkpoint preparatorio. CFI931–935 chiuso come sola lettura.
+Ultima pubblicazione verificata 0.124.0, commit d0cd234a401740537f15564240a02c78183a5ee5. La ricevuta post-deploy prevale sul checkpoint preparatorio. CFI931–935 chiuso come sola lettura.
 
-DAB6–10 e confronti circoscritti: 9 nuove pagine complete del testo visibile, 2 parziali escluse, 11 ispezioni; 6 pagine integrate. Copertura cumulativa del capitolo: 23 complete (2 metadati), 3 parziali, 26 ispezioni e 18 integrate. DAB10 e la tabella RANG951 restano parziali. Katzung907–908 e appuntiII25 letti ma non integrati. Nessuna lettura integrale di libri, corsi o manuali; nessuna revisione clinica indipendente. Superati 53 validatori, 8 configurazioni browser e controllo visivo di 8 immagini; navigazione, tastiera, ricerche, collegamenti e offline verificati. Aggiornamento reale 0.123→0.124 con dati e tema conservati. 66 altri capitoli e 8 sezioni precedenti invariati. Commit, CI, deploy e riscontro online da concludere.
+DAB 11–15: 4 nuove pagine complete del testo visibile,1 parziale esclusa, 5 ispezioni e 4 pagine integrate. PDF12 con metadati oscurati nel referto storico resta escluso; nessun dato personale, valore del referto o figura pubblicati. Ricontrollato il testo di 5 pagine già lette di Katzung e appunti di Farmacologia II, senza nuova copertura o nuova ispezione delle figure. Copertura cumulativa 27 complete (2 metadati),4 parziali,31 ispezioni e22 integrate. Definizioni storiche riconciliate con EUCAST corrente nei passaggi registrati. Nessun intero libro, corso o manuale letto; nessuna revisione clinica indipendente. Verifiche locali superate: 53 controlli, 8 configurazioni browser, 10 schermate ispezionate e aggiornamento reale 0.124.0 → 0.125.0 con dati conservati. Restano commit, CI, deploy e verifica online.
 
-Prove private in ../../outputs/ELIX-dab-006-010-2026-11-27/.
+Prove private in ../../outputs/ELIX-dab-011-015-2026-11-27/.
 
 ## Regole
 
@@ -26,4 +26,4 @@ Prove private in ../../outputs/ELIX-dab-006-010-2026-11-27/.
 
 ## Prossimo intervallo
 
-Completare DAB6–10; poi DAB11–15, non iniziato. Riconciliazione complessiva incompleta; nessuna revisione clinica indipendente. Farmaci,profili e laboratori nel backlog.
+Completare DAB11–15; poi DAB16–20, non iniziato. Riconciliazione complessiva incompleta; nessuna revisione clinica indipendente. Farmaci, profili e laboratori nel backlog.
