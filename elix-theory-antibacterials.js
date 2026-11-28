@@ -273,6 +273,30 @@ export const THEORY_ANTIBACTERIALS = {
       "formula": "Accesso ridotto → meno farmaco al bersaglio. Efflusso → maggiore allontanamento. Inattivazione → farmaco alterato. Modifica del bersaglio o del precursore → interazione meno efficace."
     },
     {
+      "id": "resistenza-e-prevenzione",
+      "title": "Prevenire la resistenza: uso, trasmissione e lettura dei dati",
+      "refs": [
+        "DAB-PREVENZIONE",
+        "APP-II-PREVENZIONE",
+        "WHO-ONEHEALTH",
+        "SUN2012"
+      ],
+      "text": "La selezione di batteri resistenti e la loro diffusione sono processi collegati, sui quali si può intervenire in modi diversi. Ridurre un’esposizione antibiotica non necessaria limita una pressione selettiva evitabile; impedire il passaggio di un microrganismo fra persone limita la trasmissione anche quando la resistenza è già presente. Una prescrizione appropriata e una buona prevenzione delle infezioni rispondono dunque a problemi complementari. La comparsa di un’infezione resistente non dimostra, da sola, che il paziente abbia assunto male un antibiotico: il ceppo può essere stato acquisito già resistente.\n\nLa prospettiva One Health considera insieme salute umana, animale e ambiente. Ospedale, territorio, allevamenti, produzione alimentare e sistemi idrici non sono compartimenti senza contatti. Il coordinamento fra questi settori serve a ridurre infezioni, uso inappropriato e circolazione dei microrganismi. Nella sintesi WHO del 2026, prevenzione, igiene, vaccinazioni raccomandate, diagnosi e accesso a trattamenti efficaci concorrono allo stesso obiettivo. Una rappresentazione didattica dei collegamenti non permette però di attribuire una quota numerica del problema a ciascun settore: percentuali e quantità richiedono una fonte, un anno, un territorio e una definizione della misura.\n\nIl rapporto fra consumo e resistenza si può studiare anche nel tempo. Sun e colleghi analizzarono serie statunitensi del 1999–2007 e riscontrarono, per alcune classi, una correlazione fra prescrizioni e resistenza osservata con un ritardo di un mese. È un risultato riferito a serie aggregate e a specifiche coppie farmaco–microrganismo. Non stabilisce che dopo un mese di terapia ogni paziente, reparto o ambulatorio sviluppi inevitabilmente resistenza. Né una correlazione temporale, da sola, separa tutti i contributi di selezione, trasmissione e cambiamenti nella popolazione osservata.\n\nLa lettura di un grafico viene prima della conclusione. Una curva di variazione stagionale può assumere valori negativi perché rappresenta scostamenti da un riferimento: non significa che esistano prescrizioni o prevalenze negative. Due assi con unità diverse non consentono di confrontare direttamente le altezze delle curve. Per interpretare una percentuale di resistenza bisogna inoltre identificare quali isolati entrano nel denominatore, quali campioni sono stati raccolti e con quali criteri viene definita la resistenza. Questo controllo collega la sorveglianza alle sezioni su antibiogramma e versione dei criteri interpretativi, senza trasformare un andamento di popolazione nella prognosi del singolo malato.\n\nSul piano farmacologico, usare bene un antibatterico richiede di raccordare indicazione, attività sul patogeno ed esposizione nella sede interessata. La dose o il monitoraggio delle concentrazioni non correggono automaticamente una scelta priva di indicazione; il TDM mantiene gli scopi e i limiti già discussi nel capitolo. Ricerca di nuove molecole e modifiche strutturali possono ampliare le possibilità terapeutiche, ma non sostituiscono prevenzione e rivalutazione dell’uso. Il risultato da cercare è l’efficacia della cura appropriata insieme alla riduzione delle esposizioni e delle trasmissioni evitabili, non il semplice aumento o azzeramento del consumo.",
+      "formula": "Serve trattare? → L’esposizione è appropriata? → Come si limita la diffusione? — Schema originale qualitativo: indicazione, farmacologia e prevenzione agiscono su passaggi differenti. Non è un algoritmo prescrittivo né una previsione numerica della resistenza."
+    },
+    {
+      "id": "associazioni-antibatteriche",
+      "title": "Associazioni: copertura, sinergia e barriera alla resistenza",
+      "refs": [
+        "DAB-ASSOCIAZIONI",
+        "APP-II-ASSOCIAZIONI",
+        "KATZ-ASSOCIAZIONI",
+        "IDSA2026-ASSOCIAZIONI"
+      ],
+      "text": "Associare due antibatterici significa modificare più di una variabile: spettro, bersagli, distribuzione, interazioni e rischi. Il numero di farmaci non misura quindi la qualità della terapia. Prima di discutere un’associazione occorre definirne lo scopo. Aumentare la probabilità di coprire un patogeno ancora sconosciuto, trattare più patogeni documentati e ottenere un’interazione favorevole sullo stesso batterio sono obiettivi diversi. Anche un singolo agente può coprire più specie: la presenza di un’infezione polimicrobica non dimostra automaticamente la necessità di più antibiotici.\n\nLa sinergia riguarda l’effetto congiunto rispetto a un riferimento che descrive l’effetto atteso dei componenti; l’antagonismo indica un effetto inferiore a quello atteso. Una copertura più ampia non basta a dimostrare sinergia: può semplicemente aggiungere specie sensibili a uno dei due farmaci. Il risultato di una prova in vitro dipende da metodo, concentrazioni, microrganismo ed esito misurato. Un’interazione osservata sulla crescita o sulla sopravvivenza batterica non dimostra da sola un vantaggio clinico, perché nel paziente devono risultare adeguati anche accesso alla sede, esposizione e tollerabilità.\n\nI meccanismi aiutano a capire perché alcune combinazioni siano plausibili. Sulfametossazolo e trimetoprim interferiscono con passaggi successivi del metabolismo dei folati: i bersagli sono enzimi di una via biosintetica, non recettori umani. Un inibitore di β-lattamasi può invece proteggere il componente β-lattamico dall’inattivazione, purché agisca sull’enzima coinvolto; non ripristina necessariamente l’attività contro ogni meccanismo resistente. Un terzo modello è l’aumento dell’accesso di un farmaco quando un altro altera la parete. Sono spiegazioni farmacologiche: non autorizzano a ricavare un regime terapeutico dal solo diagramma del bersaglio.\n\nLa barriera alla resistenza riguarda quanto sia difficile per una popolazione acquisire o selezionare caratteristiche capaci di compromettere l’attività del trattamento. L’impiego di più componenti può contribuire a tale barriera in contesti specifici, ma non rende impossibile l’evoluzione della resistenza. Servono attività effettiva ed esposizione adeguata dei componenti rilevanti; la presenza di due nomi nella prescrizione non garantisce due ostacoli efficaci. Analogamente, una diversa distribuzione tissutale pone una domanda sulla copertura della sede: non dimostra che tutte le infezioni sistemiche richiedano farmaci destinati a compartimenti differenti. I ragionamenti sulle diverse fasi di un ciclo infettivo vanno verificati per il patogeno considerato, senza trasferire automaticamente schemi antivirali agli antibatterici.\n\nUn esempio dei limiti clinici viene dalla guida IDSA 2026 sulle infezioni da Pseudomonas aeruginosa con resistenza difficile da trattare. Quando è confermata la sensibilità a uno dei β-lattamici specificati nella guida, il gruppo non suggerisce di proseguire di routine l’associazione con un ulteriore antibiotico: manca un beneficio clinico dimostrato e aumentano i possibili eventi avversi. Mancano inoltre dati clinici che dimostrino in questo contesto la prevenzione della resistenza mediante l’associazione. Il caso illustra perché il razionale empirico iniziale debba essere rivalutato alla luce dei risultati microbiologici; non è una regola estendibile a ogni patogeno o sindrome.\n\nIl confronto finale include dunque benefici attesi, tossicità sovrapposte, interazioni, esposizione del microbiota e possibilità di semplificare quando cambiano le informazioni. Le associazioni si studiano collegando il bersaglio alla malattia e alla qualità delle prove, mantenendo separati plausibilità biologica, effetto di laboratorio e risultato clinico.",
+      "formula": "Copertura più ampia ≠ sinergia dimostrata ≠ beneficio clinico garantito — Schema originale: ogni passaggio richiede prove pertinenti. Più componenti non assicurano una barriera assoluta alla resistenza né una migliore tollerabilità."
+    },
+    {
       "id": "risposta-insufficiente",
       "title": "Risposta insufficiente: ricostruire la causa prima di attribuirla alla resistenza",
       "refs": [
@@ -468,6 +492,22 @@ export const THEORY_ANTIBACTERIALS = {
     {
       "question": "Il passaggio da D-Ala–D-Ala a D-Ala–D-Lac equivale alla modifica di una PBP?",
       "answer": "No. Nell’esempio associato a VanA cambia la terminazione del precursore riconosciuta dalla vancomicina. È distinto dal cambiamento di affinità di un enzima PBP."
+    },
+    {
+      "question": "Una correlazione fra prescrizioni e resistenza con un ritardo di un mese dimostra che il singolo paziente svilupperà resistenza dopo un mese?",
+      "answer": "No. Descrive una relazione fra serie aggregate in un determinato contesto. Non stabilisce un tempo inevitabile individuale né dimostra da sola tutti i passaggi causali."
+    },
+    {
+      "question": "Perché prevenzione delle infezioni e uso appropriato degli antibiotici sono complementari?",
+      "answer": "La prima limita infezioni e trasmissione, il secondo riduce esposizioni non necessarie e rende appropriata la cura. Un ceppo resistente può essere trasmesso anche a chi non ha assunto l’antibiotico."
+    },
+    {
+      "question": "Due farmaci che coprono specie diverse sono necessariamente sinergici?",
+      "answer": "No. L’ampliamento dello spettro riguarda la copertura; la sinergia confronta l’effetto congiunto sul microrganismo con un effetto atteso secondo il metodo usato. Nessuno dei due concetti garantisce da solo un beneficio clinico."
+    },
+    {
+      "question": "Perché associare antibiotici non garantisce la prevenzione della resistenza?",
+      "answer": "Il risultato dipende da patogeno, meccanismi, attività ed esposizione dei componenti e prove cliniche. Il razionale biologico deve essere verificato nel contesto; più farmaci possono anche aggiungere tossicità e interazioni."
     }
   ],
   "references": [
@@ -778,6 +818,49 @@ export const THEORY_ANTIBACTERIALS = {
       "title": "Arthur e collaboratori · D-lattato nei precursori degli enterococchi resistenti",
       "url": "https://journals.asm.org/doi/10.1128/aac.36.4.867",
       "detail": "Antimicrobial Agents and Chemotherapy 1992, 36:867–869. Abstract letto integralmente il 28 novembre 2026 sulla pagina dell’editore; determinante plasmidico e substrato di VanA. Non articolo completo né prova di efficacia clinica; il record PubMed non ha reso l’abstract."
+    },
+    {
+      "id": "DAB-PREVENZIONE",
+      "title": "Farmacologia II, materiale didattico 2026–27 — PDF 51–53",
+      "detail": "Lettura completa del contenuto visibile e controllo delle figure; solo sintesi qualitativa. Quote e quantità non validate escluse."
+    },
+    {
+      "id": "APP-II-PREVENZIONE",
+      "title": "Farmacologia II, appunti 2024–25, lezione 3 — PDF 32, pagina 31",
+      "detail": "Grafico già presente nelle slide: non costituisce prova indipendente. Corretto il passaggio da correlazione aggregata a inevitabilità individuale."
+    },
+    {
+      "id": "WHO-ONEHEALTH",
+      "url": "https://www.who.int/europe/news-room/questions-and-answers/item/understanding-antimicrobial-resistance-(amr)",
+      "title": "WHO Europe — Understanding antimicrobial resistance, 15 settembre 2026",
+      "detail": "Passaggi circoscritti su prevenzione, uso appropriato e One Health consultati il 28 novembre 2026; stime epidemiologiche non importate."
+    },
+    {
+      "id": "SUN2012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22752512/",
+      "title": "Sun, Klein, Laxminarayan — Seasonality and temporal correlation, 2012",
+      "detail": "Abstract completo consultato il 28 novembre 2026. Serie statunitensi 1999–2007; DOI 10.1093/cid/cis509. Non letto l’articolo completo né verificati indipendentemente figure e dataset."
+    },
+    {
+      "id": "DAB-ASSOCIAZIONI",
+      "title": "Farmacologia II, materiale didattico 2026–27 — PDF 55",
+      "detail": "Ragioni farmacologiche delle associazioni distinte da indicazioni e benefici dimostrati."
+    },
+    {
+      "id": "APP-II-ASSOCIAZIONI",
+      "title": "Farmacologia II, appunti 2024–25, lezione 3 — PDF 33, pagina 32",
+      "detail": "Generalizzazioni sul successo delle associazioni non importate. Esempio antivirale e promessa di barriera assoluta esclusi."
+    },
+    {
+      "id": "KATZ-ASSOCIAZIONI",
+      "title": "Katzung, Farmacologia generale e clinica, IX ed. italiana 2014 / XII originale 2012 — cap. 51",
+      "detail": "PDF 1039–1040, pagine 1019–1020: ragioni delle associazioni e meccanismi di sinergia. Tabelle, regimi e raccomandazioni storiche non adottati; continuazione 1041 non letta."
+    },
+    {
+      "id": "IDSA2026-ASSOCIAZIONI",
+      "url": "https://www.idsociety.org/practice-guideline/amr-guidance/",
+      "title": "IDSA 2026 — AMR Guidance, quesito 4.6",
+      "detail": "Versione pubblicata il 30 luglio 2026; quesito 4.6 e motivazione consultati il 28 novembre. Ambito DTR P. aeruginosa; non revisione completa della guida o dei suoi studi."
     }
   ],
   "drugs": [],
@@ -786,7 +869,7 @@ export const THEORY_ANTIBACTERIALS = {
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-28",
   "readingManifest": "./data/antibatterici-principi-reading.json",
-  "coverage": "Copertura cumulativa circoscritta: 74 posizioni PDF lette integralmente come pagine visibili (2 metadati), 7 parziali escluse, 81 ispezioni e 57 pagine con passaggi integrati. Questo lotto: 8 nuove letture complete e ispezioni, 6 nuove integrazioni; due precedenti pagine ricontrollate solo nel testo. I titoli estraibili identici di due diapositive non rendono identici i rispettivi contenuti visivi. Le figure ripetute fra slide e appunti non sono prove indipendenti. Nessun intero libro o corso letto; nessuna revisione clinica indipendente.",
+  "coverage": "Copertura cumulativa circoscritta: 83 posizioni PDF lette integralmente come pagine visibili (2 metadati), 7 parziali escluse, 90 ispezioni e 65 pagine con passaggi integrati. Questo lotto: 9 nuove letture complete e ispezioni, 8 nuove integrazioni. Le figure ripetute fra slide e appunti non sono prove indipendenti. Nessun intero libro o corso letto; nessuna revisione clinica indipendente.",
   "moleculeLinks": [
     {
       "id": "CHEMBL1082",
@@ -807,5 +890,5 @@ export const THEORY_ANTIBACTERIALS = {
     "formulazioni-sali-bioequivalenza",
     "clearance-biliare-renale"
   ],
-  "wordCount": 8844
+  "wordCount": 9793
 };

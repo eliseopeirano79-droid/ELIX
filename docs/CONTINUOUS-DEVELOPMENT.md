@@ -8,13 +8,13 @@ Usare appunti e diapositive del corso di Farmacologia, con anno, lezione, data e
 
 ## Lotto corrente
 
-theory-dab-046-050, candidato 0.132.0. Due nuove sezioni su origine, trasmissione e meccanismi della resistenza. Totale 24 sezioni, 8844 parole, 43 quesiti, 22 schemi originali. Nessuna nuova identità, sintesi di farmaco, profilo, laboratorio o collegamento.
+theory-dab-051-055, candidato 0.133.0. Due nuove sezioni su prevenzione della resistenza e associazioni antibatteriche. Totale 26 sezioni, 9793 parole, 47 quesiti, 24 schemi originali. Nessuna nuova identità, sintesi di farmaco, profilo, laboratorio o collegamento.
 
-Ultima pubblicazione verificata 0.131.0, commit ce434385eaff5ba658ac0e3f9c5f1942a88e4cf5. La ricevuta post-deploy prevale sul checkpoint preparatorio.
+Ultima pubblicazione verificata 0.132.0, commit 7c3989e92a2071bdf2d81a4f578a58e96c9a4499. La ricevuta post-deploy prevale sul checkpoint preparatorio.
 
-DAB 46–50, Katzung PDF 1037–1038 e appunti PDF 31: otto nuove pagine complete e ispezionate, sei integrate. Cumulativo: 74 posizioni complete (2 metadati), 7 parziali, 81 ispezioni, 57 integrate. Katzung PDF 907 e 909 ricontrollati solo nel testo. Confronti circoscritti con CDC, EUCAST, FDA luglio2026 e abstract di studi primari su VanA. Percentuali generiche, affermazioni alimentari e regimi storici esclusi. Riconciliazione generale e revisione clinica indipendente aperte.
+DAB 51–55, Katzung PDF 1039–1040 e appunti PDF 32–33: nove nuove pagine complete e ispezionate, otto integrate. Cumulativo: 83 posizioni complete (2 metadati), 7 parziali, 90 ispezioni, 65 integrate. Confronti circoscritti con WHO settembre2026, IDSA luglio2026 quesito4.6 e abstract primario Sun2012. Correlazione aggregata distinta da causalità individuale; associazioni non presentate come universalmente superiori. Regimi storici, percentuali generiche e promesse di resistenza impossibile esclusi. Riconciliazione generale e revisione clinica indipendente aperte.
 
-Verifica locale conclusa: 53 controlli, otto configurazioni browser e otto immagini ispezionate; aggiornamento reale 0.131.0→0.132.0 con dati salvati e offline conservati. Le 22 sezioni precedenti e gli altri 66 capitoli sono invariati. Restano commit, CI, deploy e verifica online. Prove private in ../../outputs/ELIX-dab-046-050-2026-11-28/.
+Controlli locali superati: 53 verifiche, 8 configurazioni browser, ricerca e navigazione, offline, 8 immagini direttamente ispezionate. Aggiornamento reale da 0.132.0 verificato con preferiti, progressi e tema conservati. Restano commit, CI, deploy e verifica online. Prove private in ../../outputs/ELIX-dab-051-055-2026-11-28/.
 
 ## Regole
 
@@ -26,4 +26,4 @@ Verifica locale conclusa: 53 controlli, otto configurazioni browser e otto immag
 
 ## Prossimo intervallo
 
-Completare DAB 46–50; poi DAB 51–55, non iniziato. Riconciliazione complessiva incompleta; nessuna revisione clinica indipendente. Farmaci, profili e laboratori nel backlog.
+Completare DAB 51–55; poi DAB 56–60, non iniziato. Riconciliazione complessiva incompleta; nessuna revisione clinica indipendente. Farmaci, profili e laboratori nel backlog.

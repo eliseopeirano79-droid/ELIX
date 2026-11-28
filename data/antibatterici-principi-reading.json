@@ -1,6 +1,6 @@
 {
-  "batch": "theory-dab-046-050",
-  "updatedAt": "2026-11-28T03:55:53.264336+00:00",
+  "batch": "theory-dab-051-055",
+  "updatedAt": "2026-11-28T04:34:39.707400+00:00",
   "chapterId": "antibiotico-resistenze",
   "sources": [
     {
@@ -50,7 +50,12 @@
         47,
         48,
         49,
-        50
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
       ],
       "partiallyReadPdfPages": [
         3,
@@ -110,7 +115,12 @@
         47,
         48,
         49,
-        50
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
       ],
       "integratedPdfPages": [
         4,
@@ -148,7 +158,11 @@
         47,
         48,
         49,
-        50
+        50,
+        51,
+        52,
+        53,
+        55
       ],
       "metadataOnlyPages": [
         1,
@@ -204,17 +218,22 @@
         "47": "absent",
         "48": "absent",
         "49": "absent",
-        "50": "absent"
+        "50": "absent",
+        "51": "absent",
+        "52": "absent",
+        "53": "absent",
+        "54": "absent",
+        "55": "absent"
       },
       "edition": "2026-27",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        46,
-        47,
-        48,
-        49,
-        50
+        51,
+        52,
+        53,
+        54,
+        55
       ],
       "reusedPreviouslyReadPages": [
         1,
@@ -255,7 +274,12 @@
         42,
         43,
         44,
-        45
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
       ],
       "readButNotIntegratedPdfPages": [
         1,
@@ -265,22 +289,22 @@
         24,
         31,
         36,
-        44
+        44,
+        54
       ],
       "newlyPartiallyReadPdfPages": [],
       "newlyVisuallyCheckedPdfPages": [
-        46,
-        47,
-        48,
-        49,
-        50
+        51,
+        52,
+        53,
+        54,
+        55
       ],
       "newlyIntegratedPdfPages": [
-        46,
-        47,
-        48,
-        49,
-        50
+        51,
+        52,
+        53,
+        55
       ],
       "recheckedTextPagesThisBatch": [],
       "duplicateTextGroups": [
@@ -294,8 +318,7 @@
       ],
       "emptyTextExtractionPagesThisBatch": [],
       "directVisualTextReadPagesThisBatch": [
-        49,
-        50
+        52
       ],
       "newlyIntegratedPreviouslyReadPdfPages": [],
       "headingOnlyDuplicateGroups": [
@@ -326,7 +349,9 @@
         1035,
         1036,
         1037,
-        1038
+        1038,
+        1039,
+        1040
       ],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
@@ -344,7 +369,9 @@
         1035,
         1036,
         1037,
-        1038
+        1038,
+        1039,
+        1040
       ],
       "integratedPdfPages": [
         909,
@@ -353,7 +380,9 @@
         1030,
         1031,
         1032,
-        1036
+        1036,
+        1039,
+        1040
       ],
       "metadataOnlyPages": [],
       "printedPageLabels": {
@@ -371,14 +400,16 @@
         "1035": "1015",
         "1036": "1016",
         "1037": "1017",
-        "1038": "1018"
+        "1038": "1018",
+        "1039": "1019",
+        "1040": "1020"
       },
       "edition": "IX italiana 2014 / XII originale 2012",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        1037,
-        1038
+        1039,
+        1040
       ],
       "reusedPreviouslyReadPages": [
         907,
@@ -393,7 +424,9 @@
         1033,
         1034,
         1035,
-        1036
+        1036,
+        1037,
+        1038
       ],
       "readButNotIntegratedPdfPages": [
         907,
@@ -407,14 +440,14 @@
       ],
       "newlyPartiallyReadPdfPages": [],
       "newlyVisuallyCheckedPdfPages": [
-        1037,
-        1038
+        1039,
+        1040
       ],
-      "newlyIntegratedPdfPages": [],
-      "recheckedTextPagesThisBatch": [
-        907,
-        909
+      "newlyIntegratedPdfPages": [
+        1039,
+        1040
       ],
+      "recheckedTextPagesThisBatch": [],
       "emptyTextExtractionPagesThisBatch": [],
       "directVisualTextReadPagesThisBatch": [],
       "newlyIntegratedPreviouslyReadPdfPages": []
@@ -485,7 +518,9 @@
         28,
         29,
         30,
-        31
+        31,
+        32,
+        33
       ],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
@@ -499,7 +534,9 @@
         28,
         29,
         30,
-        31
+        31,
+        32,
+        33
       ],
       "integratedPdfPages": [
         21,
@@ -511,7 +548,9 @@
         28,
         29,
         30,
-        31
+        31,
+        32,
+        33
       ],
       "metadataOnlyPages": [],
       "printedPageLabels": {
@@ -525,13 +564,16 @@
         "28": "27",
         "29": "28",
         "30": "29",
-        "31": "30"
+        "31": "30",
+        "32": "31",
+        "33": "32"
       },
       "edition": "AA2024–25",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        31
+        32,
+        33
       ],
       "reusedPreviouslyReadPages": [
         21,
@@ -543,7 +585,8 @@
         27,
         28,
         29,
-        30
+        30,
+        31
       ],
       "readButNotIntegratedPdfPages": [
         25
@@ -551,10 +594,12 @@
       "lesson": "3;14ottobre2024",
       "newlyPartiallyReadPdfPages": [],
       "newlyVisuallyCheckedPdfPages": [
-        31
+        32,
+        33
       ],
       "newlyIntegratedPdfPages": [
-        31
+        32,
+        33
       ],
       "recheckedTextPagesThisBatch": [],
       "emptyTextExtractionPagesThisBatch": [],
@@ -562,12 +607,12 @@
       "newlyIntegratedPreviouslyReadPdfPages": []
     }
   ],
-  "totalReadPdfPages": 74,
-  "newReadPdfPages": 8,
-  "reusedReadPdfPages": 66,
+  "totalReadPdfPages": 83,
+  "newReadPdfPages": 9,
+  "reusedReadPdfPages": 74,
   "newPartiallyReadPdfPages": 0,
-  "chapterReviewedPdfPages": 81,
-  "chapterIntegratedPdfPages": 57,
+  "chapterReviewedPdfPages": 90,
+  "chapterIntegratedPdfPages": 65,
   "metadataOnlyPdfPages": 2,
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -578,9 +623,9 @@
   "newChapters": 0,
   "expandedExistingChapters": 1,
   "deduplication": {
-    "registryFiles": 3800,
-    "uniqueRegistryContents": 495,
-    "method": "Source hashes and explicit pages checked before extraction: no prior full-page overlap in eight requested positions. DAB49/50 match only in their extracted heading; distinct full image texts read. Eight distinct complete visible pages. APP-II31 repeats DAB49 graphic, not independent evidence. Two old book pages rechecked only in text, not recounted."
+    "registryFiles": 3842,
+    "uniqueRegistryContents": 498,
+    "method": "Source hashes and explicit pages checked before extraction: no prior full-page overlap in nine requested positions. Nine distinct complete visible pages. Repeated graph DAB52/APP-II32 and causes graphic DAB51/earlier APP-II31 are not independent evidence. DAB54 outline already covered, not newly integrated."
   },
   "limits": [
     "DAB3: citation overlay hides central labels; only visible image text read. Excluded from fully read and integrated pages. Article DOI10.3390/pharmaceutics16091137 identified; not read in full, original figure not inspected independently.",
@@ -663,6 +708,18 @@
     "EUCAST current expected-phenotype index plus introduction/definitions pages1–2 of v1.2January2023 consulted; numerical species tables not reviewed or imported. CDC one-page transfer sheet text and diagrams inspected; no original artwork reproduced.",
     "FDA AUGMENTIN July2026 section12.4 mechanism/resistance paragraphs only, not full product review, dose, regimen or clinical recommendation. Inhibitor activity against certain enzymes does not establish universal reversal of resistance.",
     "Roper2000 and Arthur1992 abstracts read in full, not complete papers, figures or datasets. Arthur PubMed record failed to render abstract; publisher page succeeded. Bugg1991 abstract read for background, not used as a full-paper claim or numerical affinity source.",
+    "Sole-integrator original educational/editorial synthesis; no independent clinical review or complete source reconciliation.",
+    "DAB51: complete visible diagram read. Same causes graphic as APP-II31; not independent evidence. Unsupported50%/50% and200000tons/year excluded; only qualitative selection/transmission and One Health framing integrated.",
+    "DAB52 and APP-II32, printed31: all visible graph axes, month labels, legends and callouts inspected. Extracted slide text omits the graph labels, read directly. Seasonal deviations are not negative prescription counts/prevalence. Repeated figure is not independent evidence; no universal one-month individual or hospital emergence rule.",
+    "DAB53: full text read; prevention, appropriate use and research reconciled with selected WHO2026 passages. No blanket TDM mandate, animal-feed legal rule, numerical funding claim or unverified regulatory interpretation imported.",
+    "DAB54: full visible outline read, not newly integrated because site, pathogen, drug and patient assessment are already covered.",
+    "DAB55 and APP-II33, printed32: full text read. Wider spectrum, synergy, genetic barrier, tissue access and pathogen life-cycle considerations distinguished. Universal superiority of combinations, guaranteed resistance prevention, interferon example and classwide genetic-barrier ranking excluded.",
+    "KATZ1039, printed1019: full visible text and table51.6 cells inspected. Only completed combination rationale integrated. Historical CSF ratios, allergy cross-reactivity percentages, continuation/desensitization and dosing recommendations not adopted or validated.",
+    "KATZ1040, printed1020: full visible text and footnote read. Qualitative combination mechanisms integrated. Historical fourfold-MIC criterion not treated as universal; clinical regimens, nephrotoxicity mitigation, endocarditis/meningitis outcome numbers and fungal recommendations excluded. Final antagonism heading continues1041, not read or inferred.",
+    "Sun2012 DOI10.1093/cid/cis509: PubMed abstract read completely; US time-series1999–2007 and one-month lag concern aggregate observational relationships. No full paper, original figure or dataset independently inspected; no causal or patient-level inevitability inferred.",
+    "WHO Europe15September2026 Q&A: selected prevention, appropriate-use and One Health passages consulted28November2026. Epidemiologic totals/projections and detailed legal guidance excluded.",
+    "IDSA2026 AMR guidance published30July2026: question4.6 and rationale read. DTR P.aeruginosa context and confirmed susceptibility to specified beta-lactams retained; no routine additional antibiotic benefit or resistance-prevention guarantee inferred. Whole guidance, linked studies and rescue-regimen evidence not independently reviewed.",
+    "Nine new complete visible PDF positions and visual inspections, eight integrated. No old page newly integrated or recounted; no text-only recheck this batch. Other books, lecturers and intervals remain open.",
     "Sole-integrator original educational/editorial synthesis; no independent clinical review or complete source reconciliation."
   ],
   "officialSourceScopes": [
@@ -863,17 +920,33 @@
       "title": "Arthur e collaboratori · D-lattato nei precursori degli enterococchi resistenti",
       "url": "https://journals.asm.org/doi/10.1128/aac.36.4.867",
       "detail": "Antimicrobial Agents and Chemotherapy 1992, 36:867–869. Abstract letto integralmente il 28 novembre 2026 sulla pagina dell’editore; determinante plasmidico e substrato di VanA. Non articolo completo né prova di efficacia clinica; il record PubMed non ha reso l’abstract."
+    },
+    {
+      "id": "WHO-ONEHEALTH",
+      "url": "https://www.who.int/europe/news-room/questions-and-answers/item/understanding-antimicrobial-resistance-(amr)",
+      "title": "WHO Europe — Understanding antimicrobial resistance, 15 settembre 2026",
+      "detail": "Passaggi circoscritti su prevenzione, uso appropriato e One Health consultati il 28 novembre 2026; stime epidemiologiche non importate."
+    },
+    {
+      "id": "SUN2012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22752512/",
+      "title": "Sun, Klein, Laxminarayan — Seasonality and temporal correlation, 2012",
+      "detail": "Abstract completo consultato il 28 novembre 2026. Serie statunitensi 1999–2007; DOI 10.1093/cid/cis509. Non letto l’articolo completo né verificati indipendentemente figure e dataset."
+    },
+    {
+      "id": "IDSA2026-ASSOCIAZIONI",
+      "url": "https://www.idsociety.org/practice-guideline/amr-guidance/",
+      "title": "IDSA 2026 — AMR Guidance, quesito 4.6",
+      "detail": "Versione pubblicata il 30 luglio 2026; quesito 4.6 e motivazione consultati il 28 novembre. Ambito DTR P. aeruginosa; non revisione completa della guida o dei suoi studi."
     }
   ],
-  "newIntegratedPdfPages": 6,
-  "newVisualInspections": 8,
-  "previouslyReadTextPagesRechecked": 2,
-  "officialSourceRechecks": [
-    "EUCAST-FENOTIPI"
-  ],
-  "newDistinctReadTexts": 8,
+  "newIntegratedPdfPages": 8,
+  "newVisualInspections": 9,
+  "previouslyReadTextPagesRechecked": 0,
+  "officialSourceRechecks": [],
+  "newDistinctReadTexts": 9,
   "newRepeatedTextPagePositions": 0,
-  "automaticallyExtractedNonemptyTextPages": 8,
-  "directVisualTextReadPages": 2,
+  "automaticallyExtractedNonemptyTextPages": 9,
+  "directVisualTextReadPages": 1,
   "newlyIntegratedPreviouslyReadPdfPages": 0
 }
