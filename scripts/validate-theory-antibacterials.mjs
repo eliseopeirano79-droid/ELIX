@@ -7,7 +7,7 @@ const read=f=>readFileSync(new URL('../'+f,import.meta.url),'utf8');
 const l=JSON.parse(read('data/antibatterici-principi-reading.json')),r=JSON.parse(read('data/antibatterici-principi-review.json'));
 assert.deepEqual(ELIX_CHAPTERS.find(x=>x.id===c.id),c);
 assert.equal(ELIX_CHAPTERS.length,67);assert.equal(new Set(ELIX_CHAPTERS.map(x=>x.id)).size,67);
-assert.equal(ELIX_CHAPTERS.filter(x=>x.format==='extended').length,25);
+assert.equal(ELIX_CHAPTERS.filter(x=>x.format==='extended').length,26);
 assert.equal(c.wordCount,c.sections.map(x=>x.text).join(' ').split(/\s+/).length);assert.ok(c.wordCount>=2000);
 assert.equal(new Set(c.sections.map(x=>x.id)).size,26);assert.equal(c.checks.length,47);
 for(const s of c.sections){assert.ok(s.text&&s.refs.length);for(const id of s.refs)assert.ok(c.references.some(r=>r.id===id));}
@@ -43,6 +43,6 @@ for(const f of ['elix-theory-antibacterials.js','data/antibatterici-principi-rea
  assert.ok(read('sw.js').includes('./'+f));assert.doesNotMatch(read(f),/\/Users\/|Collino|D['’]Avolio|Serpe|sbobin/i);
 }
 const p=JSON.parse(read('data/development-progress.json'));
-assert.equal(p.counts.extendedChapters,25);assert.equal(p.counts.briefChapters,42);
+assert.equal(p.counts.extendedChapters,26);assert.equal(p.counts.briefChapters,41);
 if(p.batch===l.batch){assert.equal(p.changes.newIdentities,0);assert.equal(p.changes.newChapters,0);assert.equal(p.changes.expandedChapters,1);}
 console.log('Antibacterial principles PASS: 83 full PDF positions (2 metadata), 7 partial excluded; 65 integrated; no clinical validation claimed.');

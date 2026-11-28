@@ -1,0 +1,313 @@
+{
+  "batch": "theory-dab-056-060",
+  "updatedAt": "2026-11-28T05:16:49.770758+00:00",
+  "chapterId": "antibiotici-beta-lattamici",
+  "sources": [
+    {
+      "id": "DAB",
+      "sha256": "e42abac9e89ea4c51ad4bb45e8ef4888955bb511a5e7fb5fc1fcf4ca5882ebe2",
+      "edition": "2026-27",
+      "pdfPagesRead": [
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "partiallyReadPdfPages": [],
+      "visuallyCheckedPdfPages": [
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "integratedPdfPages": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "metadataOnlyPages": [
+        56
+      ],
+      "printedPageLabels": {},
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "newlyReadTextPages": [
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "reusedPreviouslyReadPages": [],
+      "readButNotIntegratedPdfPages": [
+        56
+      ],
+      "newlyVisuallyCheckedPdfPages": [
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "newlyIntegratedPdfPages": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "recheckedTextPagesThisBatch": [],
+      "duplicateExtractedTextGroups": [
+        {
+          "pages": [
+            59,
+            60
+          ],
+          "sameCompleteVisibleText": false,
+          "reason": "Drug annotations differ in the raster; same underlying pathway is not independent evidence."
+        }
+      ],
+      "directVisualTextReadPagesThisBatch": [
+        57,
+        59,
+        60
+      ]
+    },
+    {
+      "id": "KATZ",
+      "sha256": "f3d12192119c4bf1cb79af2a55b139424b2ba2e24dbd0969dcc573702a8ab98d",
+      "edition": "IX italiana 2014 / XII originale 2012",
+      "pdfPagesRead": [
+        909,
+        921,
+        924,
+        925
+      ],
+      "partiallyReadPdfPages": [],
+      "visuallyCheckedPdfPages": [
+        909,
+        921,
+        924,
+        925
+      ],
+      "integratedPdfPages": [
+        909,
+        921,
+        924,
+        925
+      ],
+      "metadataOnlyPages": [],
+      "printedPageLabels": {
+        "909": "889",
+        "921": "901",
+        "924": "904",
+        "925": "905"
+      },
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "newlyReadTextPages": [
+        921,
+        924,
+        925
+      ],
+      "reusedPreviouslyReadPages": [
+        909
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "newlyVisuallyCheckedPdfPages": [
+        921,
+        924,
+        925
+      ],
+      "newlyIntegratedPdfPages": [
+        921,
+        924,
+        925
+      ],
+      "recheckedTextPagesThisBatch": [
+        909
+      ]
+    },
+    {
+      "id": "RANG",
+      "sha256": "18d77f5ddf4cb1f4eb37463fc21dcd48264c19c5df6616bb10032909f79afc04",
+      "edition": "VIII italiana 2016 / originale 2015",
+      "pdfPagesRead": [
+        952
+      ],
+      "partiallyReadPdfPages": [],
+      "visuallyCheckedPdfPages": [
+        952
+      ],
+      "integratedPdfPages": [
+        952
+      ],
+      "metadataOnlyPages": [],
+      "printedPageLabels": {},
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "newlyReadTextPages": [],
+      "reusedPreviouslyReadPages": [
+        952
+      ],
+      "readButNotIntegratedPdfPages": [],
+      "newlyVisuallyCheckedPdfPages": [],
+      "newlyIntegratedPdfPages": [],
+      "recheckedTextPagesThisBatch": [
+        952
+      ]
+    },
+    {
+      "id": "FII-B",
+      "sha256": "507f96d4b65f15159c912ed9d9d666fcc60e560c42f205f8e48cf82963ce4f39",
+      "edition": "AA2024–25",
+      "pdfPagesRead": [
+        34,
+        35
+      ],
+      "partiallyReadPdfPages": [],
+      "visuallyCheckedPdfPages": [
+        34,
+        35
+      ],
+      "integratedPdfPages": [
+        34,
+        35
+      ],
+      "metadataOnlyPages": [],
+      "printedPageLabels": {
+        "34": "33",
+        "35": "34"
+      },
+      "sourceUnchanged": true,
+      "allContentsRead": false,
+      "newlyReadTextPages": [
+        34,
+        35
+      ],
+      "reusedPreviouslyReadPages": [],
+      "readButNotIntegratedPdfPages": [],
+      "newlyVisuallyCheckedPdfPages": [
+        34,
+        35
+      ],
+      "newlyIntegratedPdfPages": [
+        34,
+        35
+      ],
+      "recheckedTextPagesThisBatch": [],
+      "lesson": "3,14October2024"
+    }
+  ],
+  "totalReadPdfPages": 12,
+  "newReadPdfPages": 10,
+  "reusedReadPdfPages": 2,
+  "newPartiallyReadPdfPages": 0,
+  "chapterReviewedPdfPages": 12,
+  "chapterIntegratedPdfPages": 11,
+  "metadataOnlyPdfPages": 1,
+  "newVisualInspections": 10,
+  "newIntegratedPdfPages": 9,
+  "newlyIntegratedPreviouslyReadPdfPages": 0,
+  "previouslyIntegratedPagesReusedInChapter": 2,
+  "newDistinctReadTexts": 10,
+  "newRepeatedTextPagePositions": 0,
+  "automaticallyExtractedNonemptyTextPages": 10,
+  "previouslyReadTextPagesRechecked": 4,
+  "textOnlyBackgroundRechecks": {
+    "KATZ": [
+      907,
+      908
+    ]
+  },
+  "fullCorpusRead": false,
+  "clinicalValidation": false,
+  "newIdentities": 0,
+  "newDrugSummaries": 0,
+  "newPKProfiles": 0,
+  "newTargetProfiles": 0,
+  "newChapters": 0,
+  "expandedExistingChapters": 1,
+  "globalAntibacterialSourceUnion": {
+    "fullyReadPositions": 93,
+    "partiallyReadPositions": 7,
+    "visuallyInspectedPositions": 100,
+    "integratedPositions": 74,
+    "overlapBetweenChapters": [
+      {
+        "source": "KATZ",
+        "page": 909
+      },
+      {
+        "source": "RANG",
+        "page": 952
+      }
+    ]
+  },
+  "limits": [
+    "DAB56 is a title-only metadata page, fully read but not integrated. DAB57 taxonomy is historical and not a current complete catalog; imipenem/cilastatin asterisk has no visible explanatory footnote. No absent footnote reconstructed.",
+    "DAB59 and60 have identical normalized extracted text but different visible drug annotations. Shared pathway artwork and repeated APP-II34 graphics are not independent evidence. All visible labels read; drug arrows do not establish exact enzyme specificity. Tunicamycin and ramoplanin details excluded.",
+    "Pentaglycine diagram is not a universal peptidoglycan structure. Species variation reconciled with Monteiro2019 abstract; no full article or experimental images independently read.",
+    "APP-II34 printed33 catabolizza wording corrected to catalysis of formation, not cleavage of the crosslink. APP-II35 printed34 PBP numbering/abundance and automatic carbapenem use in sepsis not generalized. Tiny schematic labels inspected but no quantitative structural measurement inferred.",
+    "KATZ921 printed901 full visible page read; final vancomycin sentence continues922, not read. Only completed cilastatin/substrate mechanism used. Historic regimens, classwide CSF penetration and treatment choices excluded.",
+    "KATZ924–925 printed904–905 full visible text, figure43.9 and summary-table part inspected. Only wall-target mechanisms integrated. Historical fosfomycin formulations, pregnancy reassurance, bacitracin irrigation, cycloserine safe-dose claim and clinical regimens excluded.",
+    "KATZ907–909 and RANG952 prior extracted texts rechecked, not new full-page readings or new visual inspections. Only909 and952 reused in this chapter;907–908 not integrated. KATZ909 interrupted continuation not inferred; RANG ebook print-page numbers not invented.",
+    "New chapter ledger has12 fully read PDF positions (10 new,2 reused),1 title-only page and11 integrated positions (9 new,2 already integrated elsewhere). Global source union across both antibacterial chapters is93 full,7 partial,100 visual positions,74 integrated; repeated chapter use is not new corpus reading.",
+    "DailyMed selected mechanism/metabolism/limitations/warnings and EMA2020 selected fosfomycin mechanism/referral passages only. No full product review, dose, regimen or complete current national indication reconciliation.",
+    "deChiara2020 and Monteiro2019 abstracts fully read, not full papers or figures. Bacitracin Loll2013 indexed abstract located but direct PubMed/PMC pages failed; not relied on for a new claim or counted as full reading.",
+    "EMA PK/PD selected sections4.2.1/4.2.3 inherited from verified earlier reading today; no new full guideline read. EUCAST definitions/exposure rechecked; no numerical table imported.",
+    "Only sole-integrator educational/editorial review. Other authorized books, FarmacoI/II intervals and other lecturers’ contributions remain unreconciled for this chapter; no independent clinical review or full-course claim."
+  ],
+  "deduplication": {
+    "beforeReading": true,
+    "newPageOverlap": false,
+    "fileContentsDeduplicated": true,
+    "publicLedgerDoesNotCountRepeatUseAsNewReading": true
+  },
+  "officialSourceScopes": [
+    {
+      "id": "MONTEIRO",
+      "title": "Monteiro e collaboratori · Pentaglicina e integrità di S. aureus, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30899062/",
+      "detail": "Abstract completo consultato il 28 novembre 2026; DOI 10.1038/s41598-019-41461-1. Non intero articolo, figure o dati indipendentemente revisionati."
+    },
+    {
+      "id": "EMA-FOS-MOA",
+      "title": "EMA · Fosfomicina, assessment report del 26 marzo 2020",
+      "url": "https://www.ema.europa.eu/en/documents/referral/fosfomycin-article-31-referral-assessment-report_en.pdf",
+      "detail": "Introduzione, PDF 3: meccanismo MurA consultato il 28 novembre 2026. Non intera relazione di 75 pagine."
+    },
+    {
+      "id": "DCS",
+      "title": "de Chiara e collaboratori · D-cicloserina e alanina racemasi, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32203411/",
+      "detail": "Abstract completo consultato il 28 novembre 2026; DOI 10.1038/s41589-020-0498-9. Due bersagli distinti; nessuna irreversibilità universale inferita. Non articolo completo o indicazioni terapeutiche."
+    },
+    {
+      "id": "DM-IMIPENEM",
+      "title": "DailyMed · Imipenem/cilastatin, WG Critical Care",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=46f54df9-5afe-430c-aa19-0d84c2044b0b",
+      "detail": "Scheda aggiornata il 16 gennaio 2025, consultata il 28 novembre 2026: meccanismo, metabolismo, limiti d’uso e avvertenze selezionate. Non revisione integrale."
+    },
+    {
+      "id": "EMA-FOS-USO",
+      "title": "EMA · Referral dei medicinali contenenti fosfomicina, 2020",
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/fosfomycin-containing-medicinal-products",
+      "detail": "Passaggi su formulazioni e ambiti d’impiego consultati il 28 novembre 2026. Distinta la decisione del 2020 dai singoli prodotti nazionali attuali; nessun regime trasferito."
+    },
+    {
+      "id": "EUCAST",
+      "title": "EUCAST · Definizioni S, I e R",
+      "url": "https://www.eucast.org/bacteria/clinical-breakpoints-and-interpretation/definition-of-s-i-and-r/",
+      "detail": "Definizioni ed esposizione riconsultate il 28 novembre 2026; nessuna tabella numerica o algoritmo terapeutico."
+    },
+    {
+      "id": "EMA-PKPD",
+      "title": "EMA · Uso di farmacocinetica e farmacodinamica nello sviluppo degli antimicrobici",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-use-pharmacokinetics-and-pharmacodynamics-development-antimicrobial-medicinal-products_en.pdf",
+      "detail": "EMA/CHMP/594085/2015, 2016, efficace dal 1 febbraio 2017; indice EMA consultato il 28 novembre 2026: versione corrente. Selezioni §4.2.1 e §4.2.3, PDF 7 e 9: indice, obiettivo e concentrazione libera. Non intero documento; guida allo sviluppo, non protocollo terapeutico."
+    }
+  ]
+}
