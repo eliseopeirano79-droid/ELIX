@@ -1,57 +1,57 @@
 {
-  "batch": "theory-dab-061-065",
-  "reviewedAt": "2026-11-28T06:04:26.997481+00:00",
+  "batch": "theory-dab-066-070",
+  "reviewedAt": "2026-11-28T06:44:11.525857+00:00",
   "outcome": "pass",
-  "scope": "Editorial reconciliation of PBP classes and species context, wall remodeling and mechanisms connecting target inhibition to cell damage. Existing ten section texts preserved.",
+  "scope": "Structure and roles; qualitative penicillin pharmacokinetics; hypersensitivity distinctions. Twelve existing section texts retained, one extended; two new sections.",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "130310ca50fde5dbe8059754eac6ddebd92985b2680cecdaf216d4eb58a8c2e3",
-  "previousBatch": "theory-dab-056-060",
+  "moduleSha256": "a185785d74e6753fc3d336938f5f3f5e052d7553ac711810c886a8f27f825ed0",
+  "previousBatch": "theory-dab-061-065",
   "conflicts": [
     {
       "id": "1",
       "status": "resolved_for_scope",
-      "resolution": "DAB61–65 full visible text and diagrams read. DAB63/64 artwork and PBP table repeat APP-II35; repeated artwork is not independent evidence. Species is not identified in DAB64 visible table; abundance and numbering are not universal pharmacodynamic properties."
+      "resolution": "DAB66–70 full visible text and diagrams read. DAB66 extraction contains only a title, but both diagrams were inspected and labels read: it is not a metadata-only page. Repeated transpeptidation/PBP artwork is not independent evidence; pentaglycine and the PBP2 example are not universal."
     },
     {
       "id": "2",
       "status": "resolved_for_scope",
-      "resolution": "DAB64 PBP3 glycosyltransferase/transpeptidase attribution is not transferred. Class A versus class B/SEDS activities reconciled with Taguchi2019 abstract and first introductory paragraph; not full article, methods or figures."
+      "resolution": "DAB67–69 structures and captions inspected for family architecture and roles; no independent atom-by-atom or stereochemical validation, and no identification of the unlabeled portrait. DAB68 inhibitor category is functional: avibactam is a non-beta-lactam counterexample from the selected current product information."
     },
     {
       "id": "3",
       "status": "resolved_for_scope",
-      "resolution": "DAB65 gray question-mark hypothesis is not a demonstrated universal mechanism. KATZ910 printed890 and figure43-4 read fully; preceding909 text rechecked without new count. Resistance continuation911 not read; historical resistance/clinical generalizations excluded."
+      "resolution": "DAB70 classwide numerical PK ranges excluded. APP-II36 printed35 now read completely, including embedded slide, lower table8.II and footnotes; previous partial status closed. Only qualitative variability integrated. Its slide repeats DAB70; repeated graphics are not independent evidence."
     },
     {
       "id": "4",
       "status": "documented_scope_limit",
-      "resolution": "RANG956–957 fully read and figure51.3 checked; ebook printed-page labels not invented. Historical clinical box, intermittent-exposure advantage, classwide PK/BBB claims, frequencies of risk and regimens excluded. Footnote markers4/5 visible but absent note text not reconstructed."
+      "resolution": "APP-II36 body/slide half-life ranges disagree; oral bioavailability for amoxicillin in its table differs from the selected current SmPC. Formulation/route labeling is ambiguous for benzathine. These values remain unvalidated and are not published or converted into PK profiles."
     },
     {
       "id": "5",
       "status": "resolved_for_scope",
-      "resolution": "RANG957 universal autolysin-inhibitor account qualified against KATZ and experimental Cho2014 abstract. Cho full paper and figures not read; direct PMC access failed. Neither one regulatory chain nor experimental futile cycling is asserted as a universal clinical mechanism."
+      "resolution": "KATZ911 printed891 full text, caption and figure43-5 inspected. Legend item5 says beta-lactamase whereas caption identifies beta-lactam antibiotics; the erroneous legend is not transferred. Resistance continuation completes910; pharmacokinetic sentence continues912, not read."
     },
     {
       "id": "6",
-      "status": "documented_scope_limit",
-      "resolution": "APP-II35 printed34 reread with visual check, not new reading. APP-II36 printed35 body and embedded slide read, lower PK table not fully read: partial only, no integration. Differing half-life ranges and classwide PK statements unresolved and excluded."
+      "status": "resolved_for_scope",
+      "resolution": "KATZ909 and RANG956–957 reread and visually rechecked without new counts. Rang figure51.3 gives historical blanket stability claims, not universal resistance guarantees. Historical clinical box, regimens, risk frequencies, intermittent-exposure advantage and classwide BBB/PK claims excluded; footnote text4/5 not reconstructed."
     },
     {
       "id": "7",
       "status": "resolved_for_scope",
-      "resolution": "This batch adds8 full readings,1 partial reading and9 first visual inspections. Cumulative chapter ledger:20 full,1 partial,21 visually checked,19 integrated. Source union across both antibacterial chapters:101 full,8 partial,109 visual,82 integrated; repeated use is not new corpus reading."
+      "resolution": "Seven pages newly completed: six new positions plus APP-II36 promoted from partial. Six first visual inspections; four visual rechecks. Cumulative chapter27 full,0 partial,27 visual,26 integrated; global antibacterial union108 full,7 partial,115 visual,89 integrated. Metadata-only DAB56 remains excluded from integration."
     },
     {
       "id": "8",
-      "status": "resolved_for_scope",
-      "resolution": "DailyMed selected PBP species profiles (12.4), mechanism/metabolism and warnings/limitations; EUCAST definitions/exposure and EMA2020 fosfomycin referral passages rechecked. No new prescribing regimen, numeric susceptibility threshold or complete current national indication review."
+      "status": "documented_scope_limit",
+      "resolution": "Sandoz amoxicillin UK SmPC selected4.3–4.4 and5.2, Pfizer Zavicefta selected5.1, CDC allergy page and selected cross-reactivity passage checked on2026-11-28. No new dose, contraindication algorithm, allergy testing protocol or numeric PK field. Current Italian product indications not comprehensively reviewed."
     },
     {
       "id": "9",
       "status": "documented_scope_limit",
-      "resolution": "KATZ921 continuation922 remains unread; DAB56 title-only remains metadata; prior boundaries for wall precursors, glycopeptides and formulation examples remain in force."
+      "resolution": "EMA Zavicefta product-information PDF returned429 and was not read in this check; selected manufacturer SmPC used and identified as UK. Amoxicillin SmPC contains an older EUCAST breakpoint table; no breakpoint imported."
     },
     {
       "id": "10",

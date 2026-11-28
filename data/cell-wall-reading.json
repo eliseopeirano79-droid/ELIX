@@ -1,6 +1,6 @@
 {
-  "batch": "theory-dab-061-065",
-  "updatedAt": "2026-11-28T06:04:26.997481+00:00",
+  "batch": "theory-dab-066-070",
+  "updatedAt": "2026-11-28T06:44:11.525857+00:00",
   "chapterId": "antibiotici-beta-lattamici",
   "sources": [
     {
@@ -17,7 +17,12 @@
         62,
         63,
         64,
-        65
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
       ],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
@@ -30,7 +35,12 @@
         62,
         63,
         64,
-        65
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
       ],
       "integratedPdfPages": [
         57,
@@ -41,7 +51,12 @@
         62,
         63,
         64,
-        65
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
       ],
       "metadataOnlyPages": [
         56
@@ -50,41 +65,52 @@
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        61,
-        62,
-        63,
-        64,
-        65
+        66,
+        67,
+        68,
+        69,
+        70
       ],
       "reusedPreviouslyReadPages": [
         56,
         57,
         58,
         59,
-        60
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
       ],
       "readButNotIntegratedPdfPages": [
         56
       ],
       "newlyVisuallyCheckedPdfPages": [
-        61,
-        62,
-        63,
-        64,
-        65
+        66,
+        67,
+        68,
+        69,
+        70
       ],
       "newlyIntegratedPdfPages": [
-        61,
-        62,
-        63,
-        64,
-        65
+        66,
+        67,
+        68,
+        69,
+        70
       ],
       "recheckedTextPagesThisBatch": [],
       "directVisualTextReadPagesThisBatch": [
-        63,
-        64
-      ]
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "newlyPartiallyReadPdfPages": [],
+      "recheckedVisualPagesThisBatch": [],
+      "completedPreviouslyPartialPdfPages": []
     },
     {
       "id": "KATZ",
@@ -93,6 +119,7 @@
       "pdfPagesRead": [
         909,
         910,
+        911,
         921,
         924,
         925
@@ -101,6 +128,7 @@
       "visuallyCheckedPdfPages": [
         909,
         910,
+        911,
         921,
         924,
         925
@@ -108,6 +136,7 @@
       "integratedPdfPages": [
         909,
         910,
+        911,
         921,
         924,
         925
@@ -118,29 +147,39 @@
         "921": "901",
         "924": "904",
         "925": "905",
-        "910": "890"
+        "910": "890",
+        "911": "891"
       },
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        910
+        911
       ],
       "reusedPreviouslyReadPages": [
         909,
+        910,
         921,
         924,
         925
       ],
       "readButNotIntegratedPdfPages": [],
       "newlyVisuallyCheckedPdfPages": [
-        910
+        911
       ],
       "newlyIntegratedPdfPages": [
-        910
+        911
       ],
       "recheckedTextPagesThisBatch": [
         909
-      ]
+      ],
+      "newlyPartiallyReadPdfPages": [],
+      "recheckedVisualPagesThisBatch": [
+        909
+      ],
+      "directVisualTextReadPagesThisBatch": [
+        911
+      ],
+      "completedPreviouslyPartialPdfPages": []
     },
     {
       "id": "RANG",
@@ -166,23 +205,26 @@
       "printedPageLabels": {},
       "sourceUnchanged": true,
       "allContentsRead": false,
-      "newlyReadTextPages": [
+      "newlyReadTextPages": [],
+      "reusedPreviouslyReadPages": [
+        952,
         956,
         957
-      ],
-      "reusedPreviouslyReadPages": [
-        952
       ],
       "readButNotIntegratedPdfPages": [],
-      "newlyVisuallyCheckedPdfPages": [
+      "newlyVisuallyCheckedPdfPages": [],
+      "newlyIntegratedPdfPages": [],
+      "recheckedTextPagesThisBatch": [
         956,
         957
       ],
-      "newlyIntegratedPdfPages": [
+      "newlyPartiallyReadPdfPages": [],
+      "recheckedVisualPagesThisBatch": [
         956,
         957
       ],
-      "recheckedTextPagesThisBatch": []
+      "directVisualTextReadPagesThisBatch": [],
+      "completedPreviouslyPartialPdfPages": []
     },
     {
       "id": "FII-B",
@@ -190,11 +232,10 @@
       "edition": "AA2024–25",
       "pdfPagesRead": [
         34,
-        35
-      ],
-      "partiallyReadPdfPages": [
+        35,
         36
       ],
+      "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
         34,
         35,
@@ -202,7 +243,8 @@
       ],
       "integratedPdfPages": [
         34,
-        35
+        35,
+        36
       ],
       "metadataOnlyPages": [],
       "printedPageLabels": {
@@ -212,51 +254,46 @@
       },
       "sourceUnchanged": true,
       "allContentsRead": false,
-      "newlyReadTextPages": [],
+      "newlyReadTextPages": [
+        36
+      ],
       "reusedPreviouslyReadPages": [
         34,
         35
       ],
       "readButNotIntegratedPdfPages": [],
-      "newlyVisuallyCheckedPdfPages": [
+      "newlyVisuallyCheckedPdfPages": [],
+      "newlyIntegratedPdfPages": [
         36
       ],
-      "newlyIntegratedPdfPages": [],
-      "recheckedTextPagesThisBatch": [
-        35
-      ],
+      "recheckedTextPagesThisBatch": [],
       "lesson": "3,14October2024",
-      "newlyPartiallyReadPdfPages": [
+      "newlyPartiallyReadPdfPages": [],
+      "recheckedVisualPagesThisBatch": [
         36
       ],
-      "recheckedVisualPagesThisBatch": [
-        35
+      "directVisualTextReadPagesThisBatch": [
+        36
       ],
-      "partialReadingLimits": {
-        "36": "Body and embedded slide read; lower numerical PK table not fully read. No content integrated; body/slide half-life ranges remain unresolved and excluded."
-      }
+      "completedPreviouslyPartialPdfPages": [
+        36
+      ]
     }
   ],
-  "totalReadPdfPages": 20,
-  "newReadPdfPages": 8,
-  "reusedReadPdfPages": 12,
-  "newPartiallyReadPdfPages": 1,
-  "chapterReviewedPdfPages": 20,
-  "chapterIntegratedPdfPages": 19,
+  "totalReadPdfPages": 27,
+  "newReadPdfPages": 7,
+  "reusedReadPdfPages": 20,
+  "newPartiallyReadPdfPages": 0,
+  "chapterReviewedPdfPages": 27,
+  "chapterIntegratedPdfPages": 26,
   "metadataOnlyPdfPages": 1,
-  "newVisualInspections": 9,
-  "newIntegratedPdfPages": 8,
+  "newVisualInspections": 6,
+  "newIntegratedPdfPages": 7,
   "newlyIntegratedPreviouslyReadPdfPages": 0,
-  "previouslyIntegratedPagesReusedInChapter": 11,
-  "newDistinctReadTexts": 8,
-  "newRepeatedTextPagePositions": 0,
+  "previouslyIntegratedPagesReusedInChapter": 19,
   "automaticallyExtractedNonemptyTextPages": 10,
-  "previouslyReadTextPagesRechecked": 2,
-  "textOnlyBackgroundRechecks": {
-    "KATZ": [
-      909
-    ]
-  },
+  "previouslyReadTextPagesRechecked": 3,
+  "textOnlyBackgroundRechecks": {},
   "fullCorpusRead": false,
   "clinicalValidation": false,
   "newIdentities": 0,
@@ -266,10 +303,10 @@
   "newChapters": 0,
   "expandedExistingChapters": 1,
   "globalAntibacterialSourceUnion": {
-    "fullyReadPositions": 101,
-    "partiallyReadPositions": 8,
-    "visuallyInspectedPositions": 109,
-    "integratedPositions": 82,
+    "fullyReadPositions": 108,
+    "partiallyReadPositions": 7,
+    "visuallyInspectedPositions": 115,
+    "integratedPositions": 89,
     "overlapBetweenChapters": [
       {
         "source": "KATZ",
@@ -282,15 +319,15 @@
     ]
   },
   "limits": [
-    "DAB61–65 full visible text and diagrams read. DAB63/64 artwork and PBP table repeat APP-II35; repeated artwork is not independent evidence. Species is not identified in DAB64 visible table; abundance and numbering are not universal pharmacodynamic properties.",
-    "DAB64 PBP3 glycosyltransferase/transpeptidase attribution is not transferred. Class A versus class B/SEDS activities reconciled with Taguchi2019 abstract and first introductory paragraph; not full article, methods or figures.",
-    "DAB65 gray question-mark hypothesis is not a demonstrated universal mechanism. KATZ910 printed890 and figure43-4 read fully; preceding909 text rechecked without new count. Resistance continuation911 not read; historical resistance/clinical generalizations excluded.",
-    "RANG956–957 fully read and figure51.3 checked; ebook printed-page labels not invented. Historical clinical box, intermittent-exposure advantage, classwide PK/BBB claims, frequencies of risk and regimens excluded. Footnote markers4/5 visible but absent note text not reconstructed.",
-    "RANG957 universal autolysin-inhibitor account qualified against KATZ and experimental Cho2014 abstract. Cho full paper and figures not read; direct PMC access failed. Neither one regulatory chain nor experimental futile cycling is asserted as a universal clinical mechanism.",
-    "APP-II35 printed34 reread with visual check, not new reading. APP-II36 printed35 body and embedded slide read, lower PK table not fully read: partial only, no integration. Differing half-life ranges and classwide PK statements unresolved and excluded.",
-    "This batch adds8 full readings,1 partial reading and9 first visual inspections. Cumulative chapter ledger:20 full,1 partial,21 visually checked,19 integrated. Source union across both antibacterial chapters:101 full,8 partial,109 visual,82 integrated; repeated use is not new corpus reading.",
-    "DailyMed selected PBP species profiles (12.4), mechanism/metabolism and warnings/limitations; EUCAST definitions/exposure and EMA2020 fosfomycin referral passages rechecked. No new prescribing regimen, numeric susceptibility threshold or complete current national indication review.",
-    "KATZ921 continuation922 remains unread; DAB56 title-only remains metadata; prior boundaries for wall precursors, glycopeptides and formulation examples remain in force.",
+    "DAB66–70 full visible text and diagrams read. DAB66 extraction contains only a title, but both diagrams were inspected and labels read: it is not a metadata-only page. Repeated transpeptidation/PBP artwork is not independent evidence; pentaglycine and the PBP2 example are not universal.",
+    "DAB67–69 structures and captions inspected for family architecture and roles; no independent atom-by-atom or stereochemical validation, and no identification of the unlabeled portrait. DAB68 inhibitor category is functional: avibactam is a non-beta-lactam counterexample from the selected current product information.",
+    "DAB70 classwide numerical PK ranges excluded. APP-II36 printed35 now read completely, including embedded slide, lower table8.II and footnotes; previous partial status closed. Only qualitative variability integrated. Its slide repeats DAB70; repeated graphics are not independent evidence.",
+    "APP-II36 body/slide half-life ranges disagree; oral bioavailability for amoxicillin in its table differs from the selected current SmPC. Formulation/route labeling is ambiguous for benzathine. These values remain unvalidated and are not published or converted into PK profiles.",
+    "KATZ911 printed891 full text, caption and figure43-5 inspected. Legend item5 says beta-lactamase whereas caption identifies beta-lactam antibiotics; the erroneous legend is not transferred. Resistance continuation completes910; pharmacokinetic sentence continues912, not read.",
+    "KATZ909 and RANG956–957 reread and visually rechecked without new counts. Rang figure51.3 gives historical blanket stability claims, not universal resistance guarantees. Historical clinical box, regimens, risk frequencies, intermittent-exposure advantage and classwide BBB/PK claims excluded; footnote text4/5 not reconstructed.",
+    "Seven pages newly completed: six new positions plus APP-II36 promoted from partial. Six first visual inspections; four visual rechecks. Cumulative chapter27 full,0 partial,27 visual,26 integrated; global antibacterial union108 full,7 partial,115 visual,89 integrated. Metadata-only DAB56 remains excluded from integration.",
+    "Sandoz amoxicillin UK SmPC selected4.3–4.4 and5.2, Pfizer Zavicefta selected5.1, CDC allergy page and selected cross-reactivity passage checked on2026-11-28. No new dose, contraindication algorithm, allergy testing protocol or numeric PK field. Current Italian product indications not comprehensively reviewed.",
+    "EMA Zavicefta product-information PDF returned429 and was not read in this check; selected manufacturer SmPC used and identified as UK. Amoxicillin SmPC contains an older EUCAST breakpoint table; no breakpoint imported.",
     "Only sole-integrator educational/editorial review. Other authorized books, Farmaco I/II intervals and other lecturers remain unreconciled; no independent clinical review or full-course claim.",
     "DAB56 is a title-only metadata page, fully read but not integrated. DAB57 taxonomy is historical and not a current complete catalog; imipenem/cilastatin asterisk has no visible explanatory footnote. No absent footnote reconstructed.",
     "DAB59 and60 have identical normalized extracted text but different visible drug annotations. Shared pathway artwork and repeated APP-II34 graphics are not independent evidence. All visible labels read; drug arrows do not establish exact enzyme specificity. Tunicamycin and ramoplanin details excluded.",
@@ -308,8 +345,8 @@
     "publicLedgerDoesNotCountRepeatUseAsNewReading": true,
     "sourcePageIdentity": "source SHA-256 plus PDF page position",
     "repeatedArtworkCountedAsIndependentEvidence": false,
-    "registryFilesExamined": 3666,
-    "uniqueRegistryContents": 281
+    "registryFilesExamined": 3708,
+    "uniqueRegistryContents": 283
   },
   "officialSourceScopes": [
     {
@@ -365,9 +402,35 @@
       "title": "Cho, Uehara e Bernhardt · Conseguenze del blocco delle PBP, 2014",
       "url": "https://pubmed.ncbi.nlm.nih.gov/25480295/",
       "detail": "DOI 10.1016/j.cell.2014.11.017. Abstract completo letto il 28 novembre 2026; modello sperimentale di sintesi e degradazione improduttiva. Non articolo o figure integralmente revisionati; accesso diretto PMC non riuscito."
+    },
+    {
+      "id": "AMOX-SMPC",
+      "title": "Amoxicillin 500 mg hard capsules · Sandoz, SmPC UK",
+      "url": "https://www.medicines.org.uk/emc/product/15728/smpc",
+      "detail": "Testo revisionato il 13 marzo 2026, pubblicato su emc il 26 marzo; consultato il 28 novembre 2026. Selezioni §4.3–4.4 e §5.2; non revisione integrale né indicazione nazionale italiana. Nessuna dose o soglia microbiologica importata."
+    },
+    {
+      "id": "ZAV-SMPC",
+      "title": "Zavicefta · Pfizer, SmPC UK",
+      "url": "https://www.medicines.org.uk/emc/product/2465/smpc",
+      "detail": "emc aggiornato il 26 agosto 2025, consultato il 28 novembre 2026. §5.1: ceftazidima e avibactam, natura non β-lattamica dell’inibitore e limiti enzimatici. Nessuna indicazione o posologia trasferita; PDF EMA non accessibile in questo controllo."
+    },
+    {
+      "id": "CDC-ALLERGIA",
+      "title": "CDC · Clinical Features of Penicillin Allergy",
+      "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-signs/",
+      "detail": "Pagina aggiornata il 25 agosto 2025, letta il 28 novembre 2026: etichetta, anamnesi e distinzione delle reazioni. Nessun percorso diagnostico autonomo."
+    },
+    {
+      "id": "CDC-CROSS",
+      "title": "CDC · STI Treatment Guidelines, Penicillin Allergy",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/penicillin-allergy.htm",
+      "detail": "Guida 2021, passaggio sulla reattività crociata consultato il 28 novembre 2026. Usato per evitare un rischio uniforme di classe; nessuna percentuale, prescrizione o algoritmo trasferito."
     }
   ],
-  "totalPartiallyReadPdfPages": 1,
-  "newAutomaticallyExtractedPagePositions": 9,
-  "previousBatch": "theory-dab-056-060"
+  "totalPartiallyReadPdfPages": 0,
+  "newAutomaticallyExtractedPagePositions": 6,
+  "previousBatch": "theory-dab-061-065",
+  "newDistinctPagePositions": 6,
+  "completedPreviouslyPartialPdfPages": 1
 }
