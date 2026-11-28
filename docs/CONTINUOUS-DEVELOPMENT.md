@@ -8,13 +8,13 @@ Usare appunti e diapositive del corso di Farmacologia, con anno, lezione, data e
 
 ## Lotto corrente
 
-theory-dab-021-025, candidato 0.127.0. Nuova sezione su formulazione, via e aderenza; approfonditi spettro e lettura delle curve di batteri vitali. Totale 14 sezioni, 4796 parole, 23 quesiti, 12 schemi originali; un collegamento aggiuntivo al capitolo sulle formulazioni. Nessuna nuova identità, sintesi di farmaco, profilo o laboratorio.
+theory-dab-026-030, candidato 0.128.0. Due nuove sezioni su indici PK/PD ed effetto post-antibiotico, con limiti degli obiettivi e confronto mirato sulla vancomicina. Totale 16 sezioni, 5486 parole, 27 quesiti, 14 schemi originali. Nessuna nuova identità, sintesi di farmaco, profilo o laboratorio.
 
-Ultima pubblicazione verificata 0.126.0, commit 4d9a86e08a8f6f6eb544f6b8a83a1c43372ebb9f. La ricevuta post-deploy prevale sul checkpoint preparatorio.
+Ultima pubblicazione verificata 0.127.0, commit fc1516d8083a581f345b5508fb91e8d3667e4211. La ricevuta post-deploy prevale sul checkpoint preparatorio.
 
-DAB 21–25: cinque pagine lette e ispezionate; 25 non ha testo estraibile ed è stata letta nell’immagine. Integrate 21–23 e 25; 24 ripete concetti già coperti. Ricontrollati nel testo Katzung PDF 1031–1032, appunti PDF 24 e Rang PDF 934; nessuna nuova pagina di libro o nuova ispezione delle figure di supporto. Cumulativo: 35 posizioni complete (2 metadati), 6 parziali, 41 ispezioni, 27 integrate. La soglia numerica di 23 non è validata come regola universale e non è importata. UKHSA e DailyMed consultati nelle sole selezioni dichiarate; nessun protocollo clinico o istruzione di ricostituzione pubblicati. Riconciliazione generale e revisione clinica indipendente aperte.
+DAB 26–30, Katzung PDF 942–944 e appunti PDF 26: nove nuove pagine lette e ispezionate; otto integrate (Katzung 942 esclusa). DAB 26 ha testo quasi interamente raster; le figure ripetute negli appunti non costituiscono prove indipendenti. Cumulativo: 44 posizioni complete (2 metadati), 6 parziali, 50 ispezioni, 35 integrate. Tre precedenti pagine ricontrollate solo nel testo. Obiettivi numerici, dosi e generalizzazioni di classe esclusi; effetto post-antibiotico distinto dall’eliminazione. EMA e IDSA confrontati nelle selezioni dichiarate. Riconciliazione generale e revisione clinica indipendente aperte.
 
-Verifiche locali superate: 53 controlli, 8 configurazioni browser, 10 schermate ispezionate e aggiornamento reale 0.126.0 → 0.127.0 con dati conservati. Restano commit, CI, deploy e verifica online. Prove private in ../../outputs/ELIX-dab-021-025-2026-11-28/.
+Verifica locale conclusa: 53 controlli, otto configurazioni browser e otto immagini ispezionate; aggiornamento reale 0.127.0→0.128.0 con dati salvati e offline conservati. Le 14 sezioni precedenti e gli altri 66 capitoli sono invariati. Restano commit, CI, deploy e verifica online. Prove private in ../../outputs/ELIX-dab-026-030-2026-11-28/.
 
 ## Regole
 
@@ -26,4 +26,4 @@ Verifiche locali superate: 53 controlli, 8 configurazioni browser, 10 schermate 
 
 ## Prossimo intervallo
 
-Completare DAB 21–25; poi DAB 26–30, non iniziato. Riconciliazione complessiva incompleta; nessuna revisione clinica indipendente. Farmaci, profili e laboratori nel backlog.
+Completare DAB 26–30; poi DAB 31–35, non iniziato. Riconciliazione complessiva incompleta; nessuna revisione clinica indipendente. Farmaci, profili e laboratori nel backlog.

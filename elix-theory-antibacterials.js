@@ -125,6 +125,30 @@ export const THEORY_ANTIBACTERIALS = {
       "formula": "Regime somministrato → percorso farmacocinetico → esposizione alla sede; beneficio e rischio dipendono dal contesto."
     },
     {
+      "id": "indici-pkpd-esposizione",
+      "title": "Tre indici per collegare esposizione e sensibilità",
+      "refs": [
+        "DAB-PKPD",
+        "APP-PKPD",
+        "EMA-PKPD"
+      ],
+      "text": "La MIC descrive il risultato di una prova microbiologica; la concentrazione del farmaco nell’organismo cambia invece nel tempo. Per mettere in relazione queste informazioni si usano gli indici farmacocinetici e farmacodinamici, o PK/PD. Il grafico di partenza ha il tempo sull’asse orizzontale e la concentrazione sull’asse verticale. Una linea alla quota della MIC permette di confrontare l’esposizione con la sensibilità dell’isolato. Questo disegno descrive concentrazioni, mentre la curva di vitalità discussa prima descrive batteri: i due assi verticali non sono intercambiabili.\n\nCmax/MIC confronta il picco di concentrazione con la MIC. È un rapporto fra due concentrazioni espresse nelle stesse unità, non la loro differenza. Se si alza il picco mantenendo invariata la MIC, il rapporto aumenta; se aumenta la MIC a parità di picco, il rapporto diminuisce. L’indice mette a fuoco l’altezza dell’esposizione rispetto alla sensibilità, senza descrivere da solo quanto a lungo quella concentrazione persista.\n\nAUC/MIC mette invece in relazione la MIC con l’area sotto la curva concentrazione-tempo, calcolata in un intervallo dichiarato. L’AUC combina altezza e durata dell’esposizione: non coincide con la dose somministrata né con una quantità di farmaco espressa in milligrammi. Due curve possono avere un’area simile e picchi diversi. Cambiare l’intervallo dell’AUC cambia la domanda; per questo un valore non è interpretabile senza sapere a quale periodo si riferisce.\n\nIl tempo sopra la MIC considera la porzione dell’intervallo in cui la curva supera quella quota. La notazione percentuale richiede di dividere tale durata per l’intero intervallo fra le dosi. Un picco molto alto e breve può quindi accompagnarsi a poco tempo sopra MIC. Per i beta-lattamici, come l’amoxicillina già collegata al catalogo, questa prospettiva aiuta a comprendere perché la forma temporale dell’esposizione conti, oltre alla quantità somministrata.\n\nOccorre infine precisare se si utilizzino concentrazioni libere o totali. Il prefisso f indica la quota non legata alle proteine; un rapporto definito sulla quota libera non può essere confrontato automaticamente con un obiettivo ricavato dalla concentrazione totale. La guida EMA distingue inoltre l’indice dal suo obiettivo quantitativo: quest’ultimo richiede prove riferite a farmaco, microrganismo, modello e risposta considerata. Una tabella generale per classi non sostituisce questi elementi.",
+      "formula": "Picco/MIC → altezza relativa; AUC nell’intervallo/MIC → esposizione integrata; %fT>MIC → frazione dell’intervallo con concentrazione libera sopra MIC."
+    },
+    {
+      "id": "effetto-persistente-e-obiettivi",
+      "title": "Persistenza dell’effetto e limiti degli obiettivi PK/PD",
+      "refs": [
+        "DAB-PKPD",
+        "KATZ-AG",
+        "APP-PKPD",
+        "EMA-PKPD",
+        "IDSA-VAN"
+      ],
+      "text": "Dire che un antibatterico ha un’attività concentrazione-dipendente descrive una relazione osservata fra esposizione ed effetto. Non significa che ogni aumento di dose produca un beneficio proporzionale, né che il picco debba essere il più alto possibile. L’esposizione incontra anche i limiti della tollerabilità, mentre distribuzione, funzione renale e sensibilità dell’isolato possono cambiare il risultato. Allo stesso modo, l’etichetta tempo-dipendente non rende automaticamente appropriata un’infusione continua per qualsiasi medicinale o infezione.\n\nGli aminoglicosidi collegano il ragionamento al bersaglio batterico. Interferiscono con la funzione della subunità ribosomiale 30S e con la produzione corretta delle proteine. Negli esperimenti, l’inibizione della ricrescita può persistere dopo che l’esposizione efficace è cessata: è l’effetto post-antibiotico. La diminuzione della concentrazione extracellulare e il recupero della popolazione batterica sono processi distinti. Questa persistenza farmacodinamica non va definita come una lenta eliminazione del farmaco dall’organismo, che è invece un fenomeno farmacocinetico.\n\nUn ragionamento utile consiste nell’immaginare la rimozione del farmaco da una coltura dopo un’esposizione controllata. Se la ricrescita riprende con ritardo rispetto al controllo, si descrive una persistenza dell’effetto; non si è dimostrato che il farmaco rimanga a lungo nel plasma di una persona. Il confronto chiarisce il concetto, ma non assegna una durata universale al fenomeno e non permette di ricavare da solo un intervallo terapeutico. Il regime deve essere valutato per il singolo farmaco e contesto.\n\nLa vancomicina mostra un altro limite delle classificazioni troppo rigide. Il consenso ASHP/IDSA/PIDS/SIDP del 2020, indicato come corrente sul sito IDSA alla consultazione, privilegia la valutazione dell’AUC per il monitoraggio nelle infezioni gravi da MRSA. Una concentrazione minima prima della dose successiva è un singolo punto della curva e non coincide con l’area. Le prove considerate derivano soprattutto da infezioni invasive, in particolare del sangue: non vanno estese automaticamente a infezioni lievi o ad altre specie. Qui non sono riportati dosaggi, soglie o algoritmi di monitoraggio.\n\nGli indici aiutano dunque a formulare una domanda verificabile sull’esposizione. L’obiettivo microbiologico, la sicurezza e l’esito clinico restano piani collegati ma distinti: raggiungere un valore previsto dal modello non garantisce, da solo, la guarigione.",
+      "formula": "Eliminazione del farmaco → andamento della concentrazione; recupero del batterio → andamento dell’effetto. Indice PK/PD + obiettivo documentato + contesto clinico → interpretazione."
+    },
+    {
       "id": "allergia-e-reazione-avversa",
       "title": "Allergia, reazione avversa e resistenza: riconoscere la differenza",
       "refs": [
@@ -263,6 +287,22 @@ export const THEORY_ANTIBACTERIALS = {
     {
       "question": "Le istruzioni di conservazione di una sospensione di amoxicillina valgono automaticamente per ogni preparazione dello stesso principio attivo?",
       "answer": "No. Preparazione e conservazione vanno riferite al prodotto preciso; l’identità della molecola non rende intercambiabili tutte le formulazioni."
+    },
+    {
+      "question": "Una curva concentrazione-tempo e una curva del numero di batteri vitali mostrano la stessa grandezza?",
+      "answer": "No. La prima descrive l’esposizione al farmaco; la seconda descrive la popolazione batterica. Gli indici PK/PD collegano esposizione e sensibilità, senza rendere equivalenti le due misure."
+    },
+    {
+      "question": "Un picco più alto implica necessariamente un tempo sopra MIC più lungo?",
+      "answer": "No. Una curva alta ma breve può superare la MIC per meno tempo di una curva più bassa e prolungata. Picco, area e durata descrivono aspetti diversi."
+    },
+    {
+      "question": "L’effetto post-antibiotico coincide con una lenta eliminazione del farmaco?",
+      "answer": "No. È una persistenza dell’effetto sulla ricrescita batterica dopo l’esposizione; l’eliminazione descrive invece la rimozione del farmaco dall’organismo."
+    },
+    {
+      "question": "Un indice AUC/MIC e il suo obiettivo sono la stessa informazione?",
+      "answer": "No. L’indice definisce il confronto; l’obiettivo specifica un valore associato a una risposta in un contesto documentato. Occorrono intervallo, tipo di concentrazione, farmaco, microrganismo e prove pertinenti."
     }
   ],
   "references": [
@@ -411,6 +451,33 @@ export const THEORY_ANTIBACTERIALS = {
       "title": "DailyMed · Amoxicillina in polvere per sospensione orale",
       "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=756545f1-77af-49a0-a697-4cced31711d4",
       "detail": "Etichetta USA riconfezionata da Proficient Rx LP, revisione giugno 2022, consultata il 28 novembre 2026: selezione §2.5 sulla gestione della sospensione ricostituita. Esempio di istruzioni specifiche del prodotto; nessuna dose, concentrazione, temperatura o durata di conservazione trasferita come regola generale. Non intera scheda né aggiornamento delle indicazioni terapeutiche."
+    },
+    {
+      "id": "DAB-PKPD",
+      "title": "Diapositive del corso di Farmacologia II · AA 2026–27 · Relazioni PK/PD",
+      "detail": "PDF 26–30: testo e figure visibili letti e confrontati. Pagina 26 contiene prevalentemente testo raster. Sintesi concettuale originale; nessuna tabella di obiettivi numerici, schema prescrittivo o immagine originale trasferiti. Generalizzazioni su classi ed effetto post-antibiotico riconciliate nei limiti dichiarati."
+    },
+    {
+      "id": "KATZ-AG",
+      "title": "Katzung · Farmacologia generale e clinica · Amminoglicosidi",
+      "detail": "IX edizione italiana 2014, dalla XII originale 2012, capitolo 45: PDF 942–944, pagine di stampa 923–924 visibili su 943–944; 942 non reca numero visibile. Testo e figure 45.1–45.3 controllati. Integrati soltanto principi di 943–944; caso clinico, dosaggi e soglie storiche esclusi."
+    },
+    {
+      "id": "APP-PKPD",
+      "title": "Appunti del corso di Farmacologia II · AA 2024–25 · Lezione 3, 14 ottobre 2024",
+      "detail": "PDF 26, pagina stampata 25: lettura completa di testo e immagini; riprende anche figure delle diapositive, non conteggiate come prove indipendenti. PDF 25, pagina stampata 24, ricontrollato nel testo. Nessuna trascrizione o indicazione posologica importata."
+    },
+    {
+      "id": "EMA-PKPD",
+      "title": "EMA · Uso di farmacocinetica e farmacodinamica nello sviluppo degli antimicrobici",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-use-pharmacokinetics-and-pharmacodynamics-development-antimicrobial-medicinal-products_en.pdf",
+      "detail": "EMA/CHMP/594085/2015, 2016, efficace dal 1 febbraio 2017; indice EMA consultato il 28 novembre 2026: versione corrente. Selezioni §4.2.1 e §4.2.3, PDF 7 e 9: indice, obiettivo e concentrazione libera. Non intero documento; guida allo sviluppo, non protocollo terapeutico."
+    },
+    {
+      "id": "IDSA-VAN",
+      "title": "ASHP/IDSA/PIDS/SIDP · Monitoraggio della vancomicina nelle infezioni gravi da MRSA",
+      "url": "https://www.idsociety.org/practice-guideline/vancomycin/",
+      "detail": "Consenso 19 marzo 2020, indicato CURRENT sul sito IDSA consultato il 28 novembre 2026. Abstract e sintesi esecutiva: AUC, sicurezza e limiti di estrapolazione. Articolo integrale e tabelle collegate non letti; nessun dosaggio, soglia numerica o calendario di monitoraggio trasferiti."
     }
   ],
   "drugs": [],
@@ -419,7 +486,7 @@ export const THEORY_ANTIBACTERIALS = {
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-28",
   "readingManifest": "./data/antibatterici-principi-reading.json",
-  "coverage": "Copertura cumulativa circoscritta: 35 posizioni PDF con testo visibile letto (2 metadati), 6 parziali escluse, 41 ispezioni e 27 pagine con passaggi integrati. Questo lotto: 5 pagine lette e ispezionate; il testo di pagina 25 è stato letto nell’immagine, perché assente dall’estrazione. Integrate 21–23 e 25; 24 riprende concetti già trattati. Quattro pagine già lette ricontrollate nel testo. Nessun intero libro o corso letto; nessuna revisione clinica indipendente.",
+  "coverage": "Copertura cumulativa circoscritta: 44 posizioni PDF lette integralmente come pagine visibili (2 metadati), 6 parziali escluse, 50 ispezioni e 35 pagine con passaggi integrati. Questo lotto: 9 pagine nuove lette e ispezionate, 8 integrate; una pagina con testo prevalentemente raster. Tre pagine precedenti ricontrollate solo nel testo. Figure ripetute fra slide e appunti non considerate prove indipendenti. Nessun intero libro o corso letto; nessuna revisione clinica indipendente.",
   "moleculeLinks": [
     {
       "id": "CHEMBL1082",
@@ -439,5 +506,5 @@ export const THEORY_ANTIBACTERIALS = {
     "metabolismo-trasportatori",
     "formulazioni-sali-bioequivalenza"
   ],
-  "wordCount": 4796
+  "wordCount": 5486
 };

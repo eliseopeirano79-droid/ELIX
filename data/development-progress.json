@@ -1,24 +1,25 @@
 {
-  "updatedAt": "2026-11-28T00:47:31.727396+00:00",
-  "batch": "theory-dab-021-025",
+  "updatedAt": "2026-11-28T01:22:46.483358+00:00",
+  "batch": "theory-dab-026-030",
   "status": "local_verified_pending_publication",
-  "release": "0.127.0",
-  "branch": "feat/theory-dab-021-025",
-  "baseCommit": "4d9a86e08a8f6f6eb544f6b8a83a1c43372ebb9f",
+  "release": "0.128.0",
+  "branch": "feat/theory-dab-026-030",
+  "baseCommit": "fc1516d8083a581f345b5508fb91e8d3667e4211",
   "previousBatch": {
-    "batch": "theory-dab-016-020",
-    "release": "0.126.0",
-    "commit": "4d9a86e08a8f6f6eb544f6b8a83a1c43372ebb9f",
+    "batch": "theory-dab-021-025",
+    "release": "0.127.0",
+    "commit": "fc1516d8083a581f345b5508fb91e8d3667e4211",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Spettro, lettura delle curve di vitalità e uso concreto della formulazione."
+    "Indici PK/PD, concentrazione libera, effetto post-antibiotico e limiti degli obiettivi."
   ],
   "completed": [
-    "Una nuova sezione e due ampliate: 14 sezioni, 4796 parole, 23 quesiti, 12 schemi originali.",
-    "Cinque pagine lette e ispezionate, quattro integrate; testo di pagina 25 letto nell’immagine; pagina 24 ripetitiva. Quattro precedenti pagine ricontrollate nel testo.",
-    "53 controlli superati; 8 configurazioni browser, 10 schermate ispezionate. Navigazione, ricerca, tastiera e offline verificati.",
-    "Aggiornamento reale 0.126.0 → 0.127.0 superato con preferiti, progressi e tema conservati. Altri 66 capitoli, 11 sezioni precedenti e 19 quesiti precedenti invariati; paragrafi delle due sezioni ampliate conservati."
+    "Due nuove sezioni: 16 sezioni, 5486 parole, 27 quesiti, 14 schemi originali.",
+    "Nove nuove pagine lette e ispezionate, otto integrate; tre precedenti pagine ricontrollate nel testo.",
+    "53 controlli automatici e otto configurazioni browser superati; otto immagini ispezionate.",
+    "Aggiornamento reale 0.127.0→0.128.0 verificato: preferiti, progressi, tema e offline conservati.",
+    "66 altri capitoli e le 14 sezioni precedenti invariati."
   ],
   "remaining": [
     "Commit, CI, deploy e verifica online."
@@ -41,12 +42,12 @@
     "newPKFields": 0,
     "newTargetProfiles": 0,
     "newChapters": 0,
-    "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 1,
-    "expandedSections": 2,
+    "expandedSections": 0,
     "newLinksToExistingIdentities": 0,
-    "newRelatedChapterLinks": 1,
+    "newRelatedChapterLinks": 0,
+    "expandedChapters": 1,
+    "newSections": 2,
     "newStaticOriginalSchemas": 2,
     "newSelfChecks": 4,
     "unchangedExistingChapters": 66
@@ -79,9 +80,19 @@
     "KATZ1031–1032, APP-II24 and RANG934 existing text extractions rechecked; no new book pages or repeat full-figure checks. Other lecturers and source intervals remain open.",
     "UKHSA adult inpatient IVOS selections only; no complete decision aid or linked studies read, no schedule, cutoff, pediatric extrapolation or automatic switch instruction.",
     "DailyMed selected section2.5 of a US repackaged label revisedJune2022; current served record consulted, not a complete product review or validation of historical indications. No preparation recipe, dose, concentration, storage duration or temperature generalized.",
-    "CDC stewardship page recheck returned timeout this cycle; prior verified citation retained without claiming a fresh successful read. New clinical route discussion relies on directly consulted UKHSA."
+    "CDC stewardship page recheck returned timeout this cycle; prior verified citation retained without claiming a fresh successful read. New clinical route discussion relies on directly consulted UKHSA.",
+    "DAB26: automated text contains only the Andes2004 attribution; all diagram labels read in the image. Underlying article and original figure not independently reviewed; AUC is not drug mass and peak/MIC is not a concentration difference.",
+    "DAB27–28: numerical class targets and overlapping drug lists are not validated universal prescriptions. No numeric targets, antifungal regimens or class-wide monitoring rules imported.",
+    "DAB29 and APP-II26: post-antibiotic effect distinguished from slow systemic elimination. Low cell penetration, protein binding and once-daily administration not generalized across concentration-dependent agents.",
+    "DAB30 and APP-II25–26: time dependence does not guarantee cure or automatically justify continuous infusion. No infusion protocol, dose or regimen imported.",
+    "KATZ942–944 fully read and figures45.1–45.3 inspected;942 clinical vignette and historical numeric PK/toxicity data excluded. Only943–944 integrated. Figure45.3 credits McGraw-Hill2002; underlying original not independently inspected.",
+    "APP-II26 embeds versions of DAB28–29: separate PDF page and surrounding prose read, repeated figures not independent evidence. Prior APP-II25 rechecked in text but still not separately integrated.",
+    "KATZ1032, APP-II25 and RANG952 existing text extractions rechecked; no new full reading of those pages or repeated figure inspection claimed. Other books, lecturers and course intervals remain open.",
+    "EMA current index and selected sections4.2.1/4.2.3 only, not complete17-page guideline or clinical protocol. Initial obsolete URL/access attempts failed before the canonical PDF and current index were successfully consulted.",
+    "IDSA current-marked2020 consensus: abstract and executive summary only; full article and linked tables not read. MRSA invasive-infection evidence not extrapolated to all infections; no numerical target or monitoring schedule transferred.",
+    "Sole-integrator educational/editorial synthesis; no independent clinical review or full source reconciliation."
   ],
-  "nextBatch": "Completare DAB 21–25; poi DAB 26–30, non iniziato. Farmaci, profili e laboratori nel backlog.",
+  "nextBatch": "Completare DAB 26–30; poi DAB 31–35. Farmaci, profili e laboratori nel backlog.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",
