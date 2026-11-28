@@ -1,6 +1,6 @@
 {
-  "batch": "theory-dab-026-030",
-  "updatedAt": "2026-11-28T01:18:44.520016+00:00",
+  "batch": "theory-dab-031-035",
+  "updatedAt": "2026-11-28T02:01:24.266505+00:00",
   "chapterId": "antibiotico-resistenze",
   "sources": [
     {
@@ -31,7 +31,12 @@
         27,
         28,
         29,
-        30
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
       ],
       "partiallyReadPdfPages": [
         3,
@@ -70,7 +75,12 @@
         27,
         28,
         29,
-        30
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
       ],
       "integratedPdfPages": [
         4,
@@ -92,7 +102,11 @@
         27,
         28,
         29,
-        30
+        30,
+        32,
+        33,
+        34,
+        35
       ],
       "metadataOnlyPages": [
         1,
@@ -128,17 +142,22 @@
         "27": "absent",
         "28": "absent",
         "29": "absent",
-        "30": "absent"
+        "30": "absent",
+        "31": "absent",
+        "32": "absent",
+        "33": "absent",
+        "34": "absent",
+        "35": "absent"
       },
       "edition": "2026-27",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        26,
-        27,
-        28,
-        29,
-        30
+        31,
+        32,
+        33,
+        34,
+        35
       ],
       "reusedPreviouslyReadPages": [
         1,
@@ -160,29 +179,34 @@
         22,
         23,
         24,
-        25
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
       ],
       "readButNotIntegratedPdfPages": [
         1,
         2,
         18,
         20,
-        24
+        24,
+        31
       ],
       "newlyPartiallyReadPdfPages": [],
       "newlyVisuallyCheckedPdfPages": [
-        26,
-        27,
-        28,
-        29,
-        30
+        31,
+        32,
+        33,
+        34,
+        35
       ],
       "newlyIntegratedPdfPages": [
-        26,
-        27,
-        28,
-        29,
-        30
+        32,
+        33,
+        34,
+        35
       ],
       "recheckedTextPagesThisBatch": [],
       "duplicateTextGroups": [
@@ -196,7 +220,8 @@
       ],
       "emptyTextExtractionPagesThisBatch": [],
       "directVisualTextReadPagesThisBatch": [
-        26
+        31,
+        33
       ]
     },
     {
@@ -211,7 +236,8 @@
         944,
         1030,
         1031,
-        1032
+        1032,
+        1033
       ],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
@@ -223,7 +249,8 @@
         944,
         1030,
         1031,
-        1032
+        1032,
+        1033
       ],
       "integratedPdfPages": [
         909,
@@ -243,20 +270,22 @@
         "909": "889",
         "942": "absent; chapter opening indexed at922",
         "943": "923",
-        "944": "924"
+        "944": "924",
+        "1033": "1013"
       },
       "edition": "IX italiana 2014 / XII originale 2012",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        942,
-        943,
-        944
+        1033
       ],
       "reusedPreviouslyReadPages": [
         907,
         908,
         909,
+        942,
+        943,
+        944,
         1030,
         1031,
         1032
@@ -264,23 +293,22 @@
       "readButNotIntegratedPdfPages": [
         907,
         908,
-        942
+        942,
+        1033
       ],
       "newlyPartiallyReadPdfPages": [],
       "newlyVisuallyCheckedPdfPages": [
-        942,
-        943,
-        944
+        1033
       ],
-      "newlyIntegratedPdfPages": [
-        943,
-        944
-      ],
+      "newlyIntegratedPdfPages": [],
       "recheckedTextPagesThisBatch": [
-        1032
+        1032,
+        944
       ],
       "emptyTextExtractionPagesThisBatch": [],
-      "directVisualTextReadPagesThisBatch": []
+      "directVisualTextReadPagesThisBatch": [
+        1033
+      ]
     },
     {
       "id": "RANG",
@@ -329,9 +357,7 @@
       "newlyPartiallyReadPdfPages": [],
       "newlyVisuallyCheckedPdfPages": [],
       "newlyIntegratedPdfPages": [],
-      "recheckedTextPagesThisBatch": [
-        952
-      ],
+      "recheckedTextPagesThisBatch": [],
       "emptyTextExtractionPagesThisBatch": [],
       "directVisualTextReadPagesThisBatch": []
     },
@@ -344,7 +370,9 @@
         23,
         24,
         25,
-        26
+        26,
+        27,
+        28
       ],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
@@ -353,14 +381,17 @@
         23,
         24,
         25,
-        26
+        26,
+        27,
+        28
       ],
       "integratedPdfPages": [
         21,
         22,
         23,
         24,
-        26
+        26,
+        27
       ],
       "metadataOnlyPages": [],
       "printedPageLabels": {
@@ -369,45 +400,49 @@
         "23": "22",
         "24": "23",
         "25": "24",
-        "26": "25"
+        "26": "25",
+        "27": "26",
+        "28": "27"
       },
       "edition": "AA2024–25",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        26
+        27,
+        28
       ],
       "reusedPreviouslyReadPages": [
         21,
         22,
         23,
         24,
-        25
+        25,
+        26
       ],
       "readButNotIntegratedPdfPages": [
-        25
+        25,
+        28
       ],
       "lesson": "3;14ottobre2024",
       "newlyPartiallyReadPdfPages": [],
       "newlyVisuallyCheckedPdfPages": [
-        26
+        27,
+        28
       ],
       "newlyIntegratedPdfPages": [
-        26
+        27
       ],
-      "recheckedTextPagesThisBatch": [
-        25
-      ],
+      "recheckedTextPagesThisBatch": [],
       "emptyTextExtractionPagesThisBatch": [],
       "directVisualTextReadPagesThisBatch": []
     }
   ],
-  "totalReadPdfPages": 44,
-  "newReadPdfPages": 9,
-  "reusedReadPdfPages": 35,
+  "totalReadPdfPages": 52,
+  "newReadPdfPages": 8,
+  "reusedReadPdfPages": 44,
   "newPartiallyReadPdfPages": 0,
-  "chapterReviewedPdfPages": 50,
-  "chapterIntegratedPdfPages": 35,
+  "chapterReviewedPdfPages": 58,
+  "chapterIntegratedPdfPages": 40,
   "metadataOnlyPdfPages": 2,
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -418,9 +453,9 @@
   "newChapters": 0,
   "expandedExistingChapters": 1,
   "deduplication": {
-    "registryFiles": 3632,
-    "uniqueRegistryContents": 483,
-    "method": "Source hashes and explicit pages checked before extraction: no prior full-page overlap. No exact normalized prior DAB text matches. Nine distinct page texts; DAB26 only attribution extracted, raster labels read directly. APP-II26 repeats DAB28–29 figures, not independent evidence."
+    "registryFiles": 3674,
+    "uniqueRegistryContents": 486,
+    "method": "Source hashes and explicit pages checked before extraction: no prior full-page overlap in requested intervals. No exact normalized prior DAB text matches. Eight distinct page texts; missing or misleading text layers checked directly against images. APP-II27 repeats DAB30/32 figures, not independent evidence."
   },
   "limits": [
     "DAB3: citation overlay hides central labels; only visible image text read. Excluded from fully read and integrated pages. Article DOI10.3390/pharmaceutics16091137 identified; not read in full, original figure not inspected independently.",
@@ -457,6 +492,17 @@
     "KATZ1032, APP-II25 and RANG952 existing text extractions rechecked; no new full reading of those pages or repeated figure inspection claimed. Other books, lecturers and course intervals remain open.",
     "EMA current index and selected sections4.2.1/4.2.3 only, not complete17-page guideline or clinical protocol. Initial obsolete URL/access attempts failed before the canonical PDF and current index were successfully consulted.",
     "IDSA current-marked2020 consensus: abstract and executive summary only; full article and linked tables not read. MRSA invasive-infection evidence not extrapolated to all infections; no numerical target or monitoring schedule transferred.",
+    "Sole-integrator educational/editorial synthesis; no independent clinical review or full source reconciliation.",
+    "DAB31: full visible diagram read directly; text layer omits the pharmacodynamics arrow. Triad already covered; no new integration counted.",
+    "DAB32 and APP-II27: numerical age-related renal decline and mandatory dosing interval for amoxicillin/clavulanate are not imported. Administration frequency does not establish a PK/PD category; changing input in a linear model does not itself change clearance.",
+    "DAB33: extracted text includes cycling/pre-emptive strategies absent from the visible table. All eight visible table rows and footer read directly; hidden list not used as clinical recommendations. Table footer credits Current Opinion in Critical Care18(5),October2012; article and original table not independently identified or read. Only qualitative PK concepts integrated.",
+    "DAB34–35: TDM efficacy, safety and resistance suppression are aims, not universal proven outcomes. Historical intermediate terminology reconciled with current EUCAST I; measured exposure does not change MIC or reclassify R.",
+    "KATZ1033, printed1013: entire visible portion of table51.1 read in image, including cells missing in extraction. Historical empirical regimens excluded from integration. Table continues on1034; continuation and footnotes not read or inferred.",
+    "APP-II27–28, printed26–27: complete visible pages and graphics read. Page27 integrates only corrected PK variability; repeated DAB30/32 figures are not independent evidence. Page28 not integrated: prophylaxis/pre-emptive/suppressive terminology, epidemiologic forecasts and urgency claims not independently validated; duration discussion continues29, not inferred.",
+    "KATZ1032 and944 rechecked from existing text extractions only. No repeat full-figure inspection claimed. Other books, lecturers and intervals remain open.",
+    "ESICM/ESCMID/IATDMCT/ISAC2020 position paper: selected methods, PK changes and basic TDM passages only; underlying search predates July2019. Not full article, drug tables, linked studies or protocols. Population and evidence approach differ from SSC2026; no universal monitoring mandate imported.",
+    "SSC2026 official page: selected adult sepsis/septic-shock TDM recommendation consulted; conditional, very-low-certainty evidence. Full guideline and linked evidence tables not reviewed, no extrapolation to all patients or antibiotics.",
+    "NHS SPS2024 safe-TDM page: selected clinical decisions, risks, contributing factors and mitigation/roles passages consulted; no drug-specific target, sampling schedule or monitoring tool reviewed. EUCAST current S/I/R definitions rechecked.",
     "Sole-integrator educational/editorial synthesis; no independent clinical review or full source reconciliation."
   ],
   "officialSourceScopes": [
@@ -567,14 +613,34 @@
       "title": "ASHP/IDSA/PIDS/SIDP · Monitoraggio della vancomicina nelle infezioni gravi da MRSA",
       "url": "https://www.idsociety.org/practice-guideline/vancomycin/",
       "detail": "Consenso 19 marzo 2020, indicato CURRENT sul sito IDSA consultato il 28 novembre 2026. Abstract e sintesi esecutiva: AUC, sicurezza e limiti di estrapolazione. Articolo integrale e tabelle collegate non letti; nessun dosaggio, soglia numerica o calendario di monitoraggio trasferiti."
+    },
+    {
+      "id": "ESICM-TDM",
+      "title": "ESICM / ESCMID / IATDMCT / ISAC · Monitoraggio degli antimicrobici nel paziente critico adulto",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7223855/",
+      "detail": "Position paper 2020, DOI 10.1007/s00134-020-06050-1; letteratura ricercata prima di luglio 2019. Consultate selezioni su metodi, distribuzione, clearance e principi del TDM il 28 novembre 2026. Non intero articolo, tabelle o protocolli; ambito distinto dalle raccomandazioni SSC 2026."
+    },
+    {
+      "id": "SPS-TDM",
+      "title": "NHS Specialist Pharmacy Service · Gestione sicura del monitoraggio terapeutico",
+      "url": "https://sps.nhs.uk/articles/safe-management-of-therapeutic-drug-monitoring/",
+      "detail": "Pagina aggiornata il 17 ottobre 2024, consultata il 28 novembre 2026. Selezioni su decisioni, rischi, fattori contributivi e misure organizzative: documentazione, tempi e responsabilità. Nessun obiettivo o protocollo specifico di farmaco trasferito."
+    },
+    {
+      "id": "SSC-TDM",
+      "title": "SCCM / ESICM · Surviving Sepsis Campaign 2026",
+      "url": "https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026",
+      "detail": "Pagina ufficiale consultata il 28 novembre 2026: raccomandazione sul TDM in adulti selezionati con sepsi o shock settico, condizionale e con certezza molto bassa. Non letta l’intera linea guida o le tabelle di evidenza collegate; nessuna estensione automatica ad altre popolazioni."
     }
   ],
-  "newIntegratedPdfPages": 8,
-  "newVisualInspections": 9,
-  "previouslyReadTextPagesRechecked": 3,
-  "officialSourceRechecks": [],
-  "newDistinctReadTexts": 9,
+  "newIntegratedPdfPages": 5,
+  "newVisualInspections": 8,
+  "previouslyReadTextPagesRechecked": 2,
+  "officialSourceRechecks": [
+    "EUCAST"
+  ],
+  "newDistinctReadTexts": 8,
   "newRepeatedTextPagePositions": 0,
-  "automaticallyExtractedNonemptyTextPages": 9,
-  "directVisualTextReadPages": 1
+  "automaticallyExtractedNonemptyTextPages": 8,
+  "directVisualTextReadPages": 3
 }
