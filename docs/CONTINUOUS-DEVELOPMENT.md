@@ -8,15 +8,15 @@ Usare appunti e diapositive del corso di Farmacologia, con anno, lezione, data e
 
 ## Lotto corrente
 
-theory-dab-056-060, candidato 0.134.0. Ampliato il capitolo breve esistente «Antibatterici β-lattamici e parete cellulare»: 10 sezioni, 2436 parole, 8 quesiti, 6 schemi originali, 6 collegamenti a identità già presenti e 3 capitoli correlati. Conservati i quattro paragrafi precedenti; gli altri 66 capitoli invariati. Ora 26 capitoli estesi e 41 brevi, sempre 67 totali. Nessuna nuova identità, sintesi di farmaco, profilo o laboratorio.
+theory-dab-061-065, candidato 0.135.0. Due nuove sezioni nel capitolo «Antibatterici β-lattamici e parete cellulare»: funzioni delle PBP e passaggio dall’inibizione alla morte cellulare. Totale 12 sezioni, 3110 parole, 11 quesiti e 8 schemi originali. I dieci testi precedenti e gli altri 66 capitoli sono conservati. Sempre 67 capitoli, 26 estesi e 41 brevi; nessuna nuova identità, sintesi di farmaco, profilo o laboratorio.
 
-Ultima pubblicazione verificata 0.133.0, commit d0887ba9c6cbd1a8a08c6abbbccc7457cef54626. La ricevuta post-deploy prevale sul checkpoint preparatorio.
+Ultima pubblicazione verificata 0.134.0, commit b18ebe5313d050aa8512878a11db2636726e2857. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
 
-DAB56–60, Katzung PDF921/924–925 e appunti PDF34–35: dieci nuove pagine complete e ispezionate, nove integrate;56 contiene solo il titolo. Riutilizzati Katzung909 e Rang952, già letti, senza nuovo conteggio. Registro del capitolo:12 posizioni complete,11 integrate. Unione deduplicata dei due capitoli antibatterici:93 complete,7 parziali,100 ispezioni e74 integrate. DAB59/60 condividono il testo estratto, ma hanno annotazioni visive diverse. Figure ripetute non sono prove indipendenti.
+DAB61–65, Katzung PDF910 e Rang PDF956–957: otto nuove pagine complete, ispezionate e integrate. Appunti PDF35 ricontrollati senza ricontarli; PDF36 letto solo in parte, tabella PK incompleta e contenuto escluso. Registro del capitolo:20 complete,1 parziale,21 ispezionate,19 integrate. Unione dei capitoli antibatterici:101 complete,8 parziali,109 ispezionate,82 integrate.
 
-Distinti PBP, substrato dei glicopeptidi, MurA, racemasi/ligasi, trasporto e riciclo. Confronti circoscritti con EMA, DailyMed, EUCAST e abstract primari; cilastatina distinta dagli inibitori delle β-lattamasi. Regimi e rassicurazioni storiche non trasferiti. Altri libri/corsi e revisione clinica indipendente ancora aperti.
+Classi A/B e SEDS riconciliate con abstract e introduzione selezionata di Taguchi2019; autolisi e ciclo improduttivo con Katzung, Rang e abstract di Cho2014. Figure ripetute non considerate prove indipendenti. Attribuzione enzimatica della tabella PBP e ipotesi universale sull’inibitore delle autolisine non trasferite. Regimi clinici e PK storica esclusi; fonti ufficiali ricontrollate nei passaggi pertinenti. Altri libri/corsi e revisione clinica indipendente aperti.
 
-Controlli locali superati:54 verifiche,8 configurazioni browser,ricerca e navigazione,offline,8 immagini ispezionate. Aggiornamento reale0.133.0→0.134.0 con dati salvati conservati. Restano commit,CI,deploy e verifica online. Prove private in ../../outputs/ELIX-dab-056-060-2026-11-28/.
+Controlli locali superati:54 verifiche,8 configurazioni browser,ricerca,tastiera e offline. Aggiornamento reale0.134.0→0.135.0 con dati salvati conservati. Restano commit,CI,deploy e verifica online. Prove private in ../../outputs/ELIX-dab-061-065-2026-11-28/.
 
 ## Regole
 
@@ -28,4 +28,4 @@ Controlli locali superati:54 verifiche,8 configurazioni browser,ricerca e naviga
 
 ## Prossimo intervallo
 
-Completare DAB56–60; poi DAB61–65, non iniziato. Farmaci, profili e laboratori nel backlog.
+Completare DAB61–65; poi DAB66–70, non iniziato. Farmaci, profili e laboratori nel backlog.
