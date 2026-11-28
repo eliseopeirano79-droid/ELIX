@@ -72,6 +72,32 @@ export const THEORY_CELL_WALL = {
       "formula": "β-lattamico → PBP, bersaglio enzimatico. Vancomicina → terminazione del precursore, substrato della via. Esito comune sulla parete, riconoscimento differente."
     },
     {
+      "id": "pbp-funzioni",
+      "title": "PBP diverse, funzioni diverse: leggere il bersaglio nel suo contesto",
+      "refs": [
+        "DAB-PBP",
+        "APP-PARETE",
+        "TAGUCHI",
+        "DM-IMIPENEM",
+        "EUCAST"
+      ],
+      "text": "La suddivisione della sintesi in tre fasi orienta nello spazio: preparazione nel citoplasma, trasferimento attraverso la membrana e assemblaggio sul suo lato esterno. Non è però una classificazione degli enzimi in tre categorie equivalenti. Nella fase finale collaborano proteine con attività differenti; attribuire a tutte le PBP ogni reazione di assemblaggio cancellerebbe proprio le distinzioni necessarie per capire il bersaglio.\n\nLe PBP di classe A possiedono un dominio che polimerizza la componente zuccherina e un dominio transpeptidasico. Le PBP di classe B hanno attività transpeptidasica e lavorano con proteine della famiglia SEDS, che forniscono l’attività di polimerizzazione. Lo studio sperimentale di Taguchi e collaboratori identifica FtsW come polimerasi del peptidoglicano settale, funzionale in complesso con la propria PBP di classe B. La stessa macchina può dunque riunire attività distribuite su proteine diverse: una PBP non deve necessariamente possedere entrambe le attività per partecipare alla costruzione della parete.\n\nAllungamento della cellula e formazione del setto richiedono una costruzione coordinata nello spazio. Interferire con l’organizzazione della parete laterale può alterare la forma; interferire con la divisione può impedire la separazione corretta delle cellule. Questi esiti morfologici aiutano a comprendere la funzione, ma non sono una scala universale della potenza dell’antibiotico. Numeri, abbondanza e denominazioni delle PBP vanno sempre riferiti alla specie e al sistema studiato.\n\nAnche l’affinità del farmaco deve essere descritta in modo specifico. La scheda di imipenem distingue il profilo di legame alle PBP di Escherichia coli da quello di Pseudomonas aeruginosa: non propone un’unica PBP bersaglio valida per tutti i batteri. Il collegamento con la scheda della molecola è utile proprio per passare dalla famiglia chimica al singolo composto.\n\nInfine, riconoscere una PBP in una cellula non equivale a dimostrare la sensibilità clinica dell’isolato. Contano l’interazione con il farmaco, la funzione che rimane disponibile, l’accesso e l’esposizione. Le categorie dell’antibiogramma richiedono il loro contesto interpretativo; non possono essere assegnate contando le PBP in una figura.",
+      "formula": "Funzione enzimatica → ruolo nella crescita o nella divisione → interazione con il farmaco. La sigla PBP, da sola, non definisce né tutte le attività né la sensibilità."
+    },
+    {
+      "id": "lisi-e-rimodellamento",
+      "title": "Dall’inibizione alla morte: rimodellamento della parete e autolisi",
+      "refs": [
+        "DAB-PBP",
+        "APP-PARETE",
+        "KATZ-LISI",
+        "RANG-LISI",
+        "CHO"
+      ],
+      "text": "Una parete batterica in crescita non è un involucro già completato al quale si aggiungono soltanto nuove unità. Deve essere costruita e rimodellata in modo coordinato. Enzimi capaci di tagliare legami del peptidoglicano partecipano a questo rinnovamento; quando la loro attività contribuisce alla distruzione della cellula, viene richiamato il concetto di autolisi. Il taglio della parete non è quindi, in ogni situazione, un evento anomalo: il problema è il rapporto fra costruzione, riorganizzazione e integrità della rete.\n\nL’inibizione delle PBP transpeptidasiche ostacola la corretta reticolazione. Se la costruzione della parete diventa insufficiente rispetto alle esigenze della crescita e al rimodellamento, la rete può perdere integrità e la cellula può andare incontro a lisi. Il β-lattamico non va descritto come un enzima che digerisce direttamente il peptidoglicano: il primo evento farmacologico riguarda il bersaglio, mentre il danno cellulare deriva dalle conseguenze del suo blocco.\n\nKatzung distingue l’inibizione della transpeptidazione dalla spiegazione completa della morte batterica, richiamando autolisine e morfogenesi. Una formulazione storica presente in Rang attribuisce invece l’esito finale all’inattivazione di un inibitore degli enzimi autolitici. Questa seconda descrizione non va elevata a regola unica per tutte le specie e tutti i β-lattamici. Il coinvolgimento del rimodellamento è un principio utile; la sequenza regolatoria precisa richiede prove riferite al sistema studiato.\n\nGli esperimenti descritti da Cho e collaboratori aggiungono un esempio di conseguenza del blocco: la produzione di materiale di parete non adeguatamente assemblato può alimentare un ciclo improduttivo di sintesi e degradazione, consumando risorse cellulari e contribuendo all’attività letale. È un modello sperimentale che amplia il ragionamento oltre il semplice arresto di un enzima, non una spiegazione clinica universale o un nuovo bersaglio terapeutico già validato.\n\nPer interpretare un esperimento occorre infine separare tre osservazioni: arresto della crescita, perdita di vitalità e lisi. La morfologia e la torbidità della coltura non misurano da sole tutte e tre. L’assenza di una lisi evidente non dimostra automaticamente che il farmaco sia inattivo, né permette di attribuire una resistenza. Il capitolo generale sugli antibatterici approfondisce la distinzione fra MIC e uccisione; qui il punto è seguire il passaggio dal bersaglio alla risposta cellulare senza confondere il meccanismo con la misura dell’effetto.",
+      "formula": "PBP inibite → reticolazione compromessa → squilibrio nella costruzione e nel rimodellamento → danno cellulare. Crescita, vitalità e lisi restano osservazioni distinte."
+    },
+    {
       "id": "famiglie-e-associazioni",
       "title": "Classi chimiche e associazioni: riconoscere il ruolo di ogni componente",
       "refs": [
@@ -148,6 +174,18 @@ export const THEORY_CELL_WALL = {
     {
       "question": "Il bersaglio e la MIC permettono da soli di scegliere un trattamento?",
       "answer": "No. Occorrono anche sede, esposizione, formulazione, condizioni dell’ospite e prove cliniche pertinenti. Un indice PK/PD non è una dose."
+    },
+    {
+      "question": "Ogni PBP polimerizza gli zuccheri e collega i peptidi?",
+      "answer": "No. Le PBP di classe A possiedono entrambe le attività; le PBP di classe B hanno attività transpeptidasica e collaborano con polimerasi SEDS. Il complesso e la singola proteina non sono la stessa cosa."
+    },
+    {
+      "question": "La stessa numerazione delle PBP permette di confrontare direttamente specie diverse?",
+      "answer": "No. Numero, quantità, funzione e affinità vanno riferiti alla specie e al sistema studiato; una tabella non assegna automaticamente la sensibilità."
+    },
+    {
+      "question": "La mancata lisi visibile dimostra resistenza a un β-lattamico?",
+      "answer": "No. Crescita, vitalità e lisi richiedono osservazioni distinte. Il bersaglio e la morfologia non sostituiscono una prova di sensibilità interpretata correttamente."
     }
   ],
   "references": [
@@ -164,7 +202,7 @@ export const THEORY_CELL_WALL = {
     {
       "id": "KATZ-PARETE",
       "title": "Katzung · Farmacologia generale e clinica, IX italiana 2014 / XII originale 2012",
-      "detail": "Capitolo 43, PDF 909, stampa 889, già letto e ispezionato nel lotto 6–10, ricontrollato nel testo. Usato solo il meccanismo completo prima della frase interrotta; PDF 910 non letto."
+      "detail": "IX italiana 2014 / XII originale 2012. PDF 909, stampa 889: lettura completa già registrata e testo ricontrollato; la continuazione PDF 910 è ora letta, come documentato in KATZ-LISI. Nessuna nuova lettura conteggiata per 909."
     },
     {
       "id": "KATZ-VANCO",
@@ -222,13 +260,40 @@ export const THEORY_CELL_WALL = {
       "title": "EMA · Uso di farmacocinetica e farmacodinamica nello sviluppo degli antimicrobici",
       "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-use-pharmacokinetics-and-pharmacodynamics-development-antimicrobial-medicinal-products_en.pdf",
       "detail": "EMA/CHMP/594085/2015, 2016, efficace dal 1 febbraio 2017; indice EMA consultato il 28 novembre 2026: versione corrente. Selezioni §4.2.1 e §4.2.3, PDF 7 e 9: indice, obiettivo e concentrazione libera. Non intero documento; guida allo sviluppo, non protocollo terapeutico."
+    },
+    {
+      "id": "DAB-PBP",
+      "title": "Farmacologia II · Diapositive AA 2026–27, PBP e risposta cellulare",
+      "detail": "PDF 61–65: testo completo e figure controllati. La tabella di 64 e gli schemi di 63 ricompaiono negli appunti PDF 35: non sono prove indipendenti. Quantità delle PBP e attribuzioni enzimatiche della tabella non generalizzate; l’ipotesi con punto interrogativo in 65 non trasformata in certezza."
+    },
+    {
+      "id": "KATZ-LISI",
+      "title": "Katzung · Capitolo 43, transpeptidazione, autolisine e resistenza",
+      "detail": "IX italiana 2014 / XII originale 2012. PDF 910, stampa 890, letto integralmente e figura 43-4 controllata; completa il passaggio avviato in PDF 909, ricontrollato senza ricontarlo. Sintesi limitata al meccanismo; continuazione della resistenza in PDF 911 non letta."
+    },
+    {
+      "id": "RANG-LISI",
+      "title": "Rang & Dale · Capitolo 51, meccanismo dei β-lattamici",
+      "detail": "VIII italiana 2016 / originale 2015. PDF ebook 956–957 letti integralmente, figura 51.3 e testi controllati; nessuna pagina a stampa attribuita. Ipotesi storica sull’autolisi discussa con limiti. Regimi clinici, superiorità dell’esposizione intermittente, frequenze di rischio e generalizzazioni PK non trasferiti."
+    },
+    {
+      "id": "TAGUCHI",
+      "title": "Taguchi e collaboratori · FtsW e PBP di classe B, 2019",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6430707/",
+      "detail": "DOI 10.1038/s41564-018-0345-x. Abstract e primo paragrafo introduttivo letti il 28 novembre 2026: classi A/B e polimerizzazione tramite FtsW. Non lettura integrale di metodi, risultati o figure; nessuna validazione clinica."
+    },
+    {
+      "id": "CHO",
+      "title": "Cho, Uehara e Bernhardt · Conseguenze del blocco delle PBP, 2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25480295/",
+      "detail": "DOI 10.1016/j.cell.2014.11.017. Abstract completo letto il 28 novembre 2026; modello sperimentale di sintesi e degradazione improduttiva. Non articolo o figure integralmente revisionati; accesso diretto PMC non riuscito."
     }
   ],
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-28",
   "readingManifest": "./data/cell-wall-reading.json",
-  "coverage": "Intervallo circoscritto: 12 posizioni PDF complete (10 nuove e 2 già lette), di cui una pagina di solo titolo; 11 con passaggi integrati. Testo e figure distinti; nessun intero libro o corso letto. Riconciliazione complessiva e revisione clinica indipendente aperte.",
+  "coverage": "Intervallo circoscritto: 20 posizioni PDF complete, 8 nuove in questo lotto e 12 già registrate; 19 con passaggi integrati e una di solo titolo. Una ulteriore pagina è letta solo in parte e non integrata. Testo e figure distinti; nessun intero libro o corso letto. Riconciliazione complessiva e revisione clinica indipendente aperte.",
   "moleculeLinks": [
     {
       "id": "CHEMBL1082",
@@ -260,5 +325,5 @@ export const THEORY_CELL_WALL = {
     "formulazioni-sali-bioequivalenza",
     "clearance-biliare-renale"
   ],
-  "wordCount": 2436
+  "wordCount": 3110
 };
