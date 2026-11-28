@@ -9,8 +9,8 @@ assert.deepEqual(ELIX_CHAPTERS.find(x=>x.id===c.id),c);
 assert.equal(new Set(ELIX_CHAPTERS.map(x=>x.id)).size,67);
 assert.equal(ELIX_CHAPTERS.filter(x=>x.format==='extended').length,26);
 assert.equal(c.wordCount,c.sections.map(x=>x.text).join(' ').split(/\s+/).length);
-assert.ok(c.wordCount>=2000);assert.equal(c.sections.length,14);
-assert.equal(new Set(c.sections.map(x=>x.id )).size,14);assert.equal(c.checks.length,14);
+assert.ok(c.wordCount>=2000);assert.equal(c.sections.length,16);
+assert.equal(new Set(c.sections.map(x=>x.id  )).size,16);assert.equal(c.checks.length,17);
 for(const s of c.sections){assert.ok(s.text&&s.refs.length);for(const id of s.refs)assert.ok(c.references.some(r=>r.id===id));}
 for(const ref of c.references){assert.ok(c.sections.some(s=>s.refs.includes(ref.id)));if(ref.url)assert.equal(new URL(ref.url).protocol,'https:');}
 const catalog=JSON.parse(read('data/catalog.json')).molecules;
@@ -25,9 +25,9 @@ for(const s of l.sources){
  for(const p of s.pdfPagesRead){const key=s.sha256+':'+p;assert.ok(!seen.has(key));seen.add(key);}
  full+=s.pdfPagesRead.length;integrated+=s.integratedPdfPages.length;newRead+=s.newlyReadTextPages.length;newVisual+=s.newlyVisuallyCheckedPdfPages.length;
 }
-assert.deepEqual([full,integrated,newRead,newVisual],[27,26,7,6]);
+assert.deepEqual([full,integrated,newRead,newVisual],[34,33,7,7]);
 assert.deepEqual([l.totalReadPdfPages,l.chapterIntegratedPdfPages,l.newReadPdfPages,l.newVisualInspections],[full,integrated,newRead,newVisual]);
-assert.equal(l.globalAntibacterialSourceUnion.fullyReadPositions,108);
+assert.equal(l.globalAntibacterialSourceUnion.fullyReadPositions,115);
 assert.equal(l.sources.reduce((n,s)=>n+s.partiallyReadPdfPages.length,0),0);
 assert.equal(l.newPartiallyReadPdfPages,0);
 assert.equal(l.fullCorpusRead,false);assert.equal(l.clinicalValidation,false);assert.equal(r.independentClinicalReview,false);
@@ -36,4 +36,4 @@ for(const f of ['elix-theory-cell-wall.js','data/cell-wall-reading.json','data/c
 const p=JSON.parse(read('data/development-progress.json'));
 assert.equal(p.counts.extendedChapters,26);assert.equal(p.counts.briefChapters,41);
 if(p.batch===l.batch){assert.equal(p.changes.newChapters,0);assert.equal(p.changes.expandedChapters,1);}
-console.log('Cell wall PASS: existing chapter expanded; 27 full source positions, 7 newly completed readings including 1 prior partial, 26 integrated, no independent clinical review claimed.');
+console.log('Cell wall PASS: existing chapter expanded; 34 full source positions, 7 new full readings and visual checks, 33 integrated, no independent clinical review claimed.');
