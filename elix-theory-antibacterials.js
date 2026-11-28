@@ -1,3 +1,4 @@
+// Original educational synthesis; bounded provenance in the reading ledger.
 export const THEORY_ANTIBACTERIALS = {
   "id": "antibiotico-resistenze",
   "volume": 12,
@@ -44,9 +45,11 @@ export const THEORY_ANTIBACTERIALS = {
         "DAB",
         "APP-II",
         "KATZ",
-        "EMA-DAP"
+        "EMA-DAP",
+        "DAB-DRUG"
       ],
-      "text": "L’identificazione del microrganismo restringe il campo delle ipotesi, ma un risultato microbiologico deve essere interpretato insieme alla provenienza del campione e al quadro clinico. Un microrganismo presente su una superficie o in un campione contaminato non ha automaticamente lo stesso significato di un isolato pertinente a un’infezione documentata. La qualità della raccolta e la domanda posta al laboratorio fanno parte della qualità dell’informazione ottenuta.\n\nIn assenza di identificazione, epidemiologia, sede e condizioni dell’ospite aiutano a formulare un’ipotesi eziologica. Dopo l’identificazione, la sensibilità dell’isolato aggiunge un livello ulteriore. Specie e ceppo non sono sinonimi: appartenere alla stessa specie non garantisce un identico comportamento verso tutti gli antibiotici. Per questo la conoscenza delle classi non sostituisce l’interpretazione microbiologica del caso.\n\nLo spettro indica l’insieme dei microrganismi sui quali un farmaco può esercitare attività. Ampio e ristretto sono descrizioni comparative, non graduatorie di potenza o qualità. La distinzione fra Gram positivi e Gram negativi è utile perché richiama differenze dell’involucro, compresa la membrana esterna dei Gram negativi, ma non esaurisce lo spettro. Un farmaco definito ad ampio spettro non copre ogni specie, né necessariamente con la stessa attività.\n\nLa sede aggiunge un vincolo autonomo. Daptomicina costituisce un esempio concreto: l’informazione europea del prodotto ne descrive l’attività sui Gram positivi, ma ne esclude l’indicazione nella polmonite per inefficacia dimostrata negli studi clinici. Un risultato di sensibilità favorevole non permette quindi di trasferire automaticamente un medicinale a qualsiasi infezione sostenuta dal medesimo batterio.\n\nQuando si collega un farmaco a una patologia occorre mantenere distinti tre livelli: plausibilità del meccanismo, attività contro il microrganismo ed efficacia nel contesto clinico. Confonderli trasforma un’informazione corretta sul bersaglio in una conclusione terapeutica non dimostrata."
+      "text": "L’identificazione del microrganismo restringe il campo delle ipotesi, ma un risultato microbiologico deve essere interpretato insieme alla provenienza del campione e al quadro clinico. Un microrganismo presente su una superficie o in un campione contaminato non ha automaticamente lo stesso significato di un isolato pertinente a un’infezione documentata. La qualità della raccolta e la domanda posta al laboratorio fanno parte della qualità dell’informazione ottenuta.\n\nIn assenza di identificazione, epidemiologia, sede e condizioni dell’ospite aiutano a formulare un’ipotesi eziologica. Dopo l’identificazione, la sensibilità dell’isolato aggiunge un livello ulteriore. Specie e ceppo non sono sinonimi: appartenere alla stessa specie non garantisce un identico comportamento verso tutti gli antibiotici. Per questo la conoscenza delle classi non sostituisce l’interpretazione microbiologica del caso.\n\nLo spettro indica l’insieme dei microrganismi sui quali un farmaco può esercitare attività. Ampio e ristretto sono descrizioni comparative, non graduatorie di potenza o qualità. La distinzione fra Gram positivi e Gram negativi è utile perché richiama differenze dell’involucro, compresa la membrana esterna dei Gram negativi, ma non esaurisce lo spettro. Un farmaco definito ad ampio spettro non copre ogni specie, né necessariamente con la stessa attività.\n\nLa classificazione in spettro ampio, medio o ristretto è una mappa introduttiva. Non basta contare se un farmaco agisca su qualche Gram positivo e qualche Gram negativo: due molecole che attraversano questa distinzione possono coprire insiemi differenti di specie. Per studiarle conviene chiedere quali gruppi rientrino nello spettro e quali restino esclusi, poi distinguere questa informazione dalla sensibilità del singolo isolato. Uno spettro ristretto non implica necessariamente attività su tutti i membri di una delle due categorie di Gram. Viceversa, la resistenza di un ceppo non riscrive da sola l’intero spettro della molecola: segnala un problema specifico da interpretare con metodo, esposizione e contesto.\n\nLa sede aggiunge un vincolo autonomo. Daptomicina costituisce un esempio concreto: l’informazione europea del prodotto ne descrive l’attività sui Gram positivi, ma ne esclude l’indicazione nella polmonite per inefficacia dimostrata negli studi clinici. Un risultato di sensibilità favorevole non permette quindi di trasferire automaticamente un medicinale a qualsiasi infezione sostenuta dal medesimo batterio.\n\nQuando si collega un farmaco a una patologia occorre mantenere distinti tre livelli: plausibilità del meccanismo, attività contro il microrganismo ed efficacia nel contesto clinico. Confonderli trasforma un’informazione corretta sul bersaglio in una conclusione terapeutica non dimostrata.",
+      "formula": "Spettro della molecola → insieme di specie; sensibilità dell’isolato → risposta nel test; sede ed esposizione → pertinenza clinica."
     },
     {
       "id": "mic-effetto-misurato",
@@ -55,9 +58,10 @@ export const THEORY_ANTIBACTERIALS = {
         "APP-II",
         "KATZ",
         "EMA-DAP",
-        "DAB-DIAG"
+        "DAB-DIAG",
+        "DAB-DRUG"
       ],
-      "text": "La concentrazione minima inibente, o MIC, è la più bassa concentrazione che impedisce la crescita visibile del microrganismo nelle condizioni definite dal test. Il risultato appartiene quindi a una coppia isolato–farmaco e a un metodo standardizzato. Non è una dose da somministrare e non descrive direttamente la quantità di farmaco presente nel sangue o nel tessuto infetto.\n\nIl termine «visibile» è importante. Non osservare crescita non equivale a dimostrare che ogni cellula sia stata uccisa. La concentrazione minima battericida, o MBC, riguarda invece un criterio di uccisione verificato con una procedura distinta. Nella pratica ordinaria la MIC è il riferimento più comune; ciò non autorizza a definire la MBC inesistente o priva di qualsiasi impiego. Il manuale distingue infatti la routine microbiologica dalle valutazioni particolari.\n\nIl principio delle diluizioni in serie chiarisce che cosa si osserva. Si confronta la crescita del medesimo isolato in condizioni controllate, in presenza di concentrazioni note e crescenti di antibiotico. Se la prova e i suoi controlli sono validi, la prima concentrazione della serie senza crescita visibile identifica la MIC nelle condizioni del test. Le provette sono una rappresentazione didattica: il formato del dispositivo non cambia la distinzione fra concentrazione saggiata e risposta osservata.\n\nL’assenza di torbidità, tuttavia, non dimostra da sola l’eliminazione dei batteri. Una valutazione distinta della sopravvivenza può mostrare che cellule non cresciute durante l’esposizione sono ancora vitali. Il confronto con una successiva subcoltura aiuta a capire il concetto di attività battericida, ma non autorizza a dedurre una MBC quantitativa da un disegno privo di criteri di lettura. Tempi, controlli ed endpoint appartengono al metodo specifico; uno schema non è un protocollo universale.\n\nBatteriostatico e battericida descrivono effetti osservati sulla crescita o sulla sopravvivenza. Non sono sinonimi rispettivamente di debole e forte. Anche l’equivalenza fra battericidia e lisi è scorretta: una cellula può morire senza una rottura rilevante, come illustra il meccanismo riportato per daptomicina. La mappa dei bersagli e la classificazione dell’effetto rispondono dunque a domande differenti.\n\nIl passaggio al paziente richiede informazioni aggiuntive. Una misura in vitro non rappresenta le difese immunitarie, l’accessibilità di un focolaio o l’andamento temporale delle concentrazioni. L’etichetta di attività non basta per stabilire la superiorità clinica di un trattamento o per decidere che il contributo dell’ospite sia diventato irrilevante.\n\nUn esercizio utile consiste nel leggere due risultati separatamente: «la crescita è inibita nel test» e «l’infezione si risolve nella persona». Il primo può sostenere il secondo, ma non lo contiene. Fra i due si collocano esposizione, sede, sicurezza, controllo del focolaio e prove cliniche.",
+      "text": "La concentrazione minima inibente, o MIC, è la più bassa concentrazione che impedisce la crescita visibile del microrganismo nelle condizioni definite dal test. Il risultato appartiene quindi a una coppia isolato–farmaco e a un metodo standardizzato. Non è una dose da somministrare e non descrive direttamente la quantità di farmaco presente nel sangue o nel tessuto infetto.\n\nIl termine «visibile» è importante. Non osservare crescita non equivale a dimostrare che ogni cellula sia stata uccisa. La concentrazione minima battericida, o MBC, riguarda invece un criterio di uccisione verificato con una procedura distinta. Nella pratica ordinaria la MIC è il riferimento più comune; ciò non autorizza a definire la MBC inesistente o priva di qualsiasi impiego. Il manuale distingue infatti la routine microbiologica dalle valutazioni particolari.\n\nIl principio delle diluizioni in serie chiarisce che cosa si osserva. Si confronta la crescita del medesimo isolato in condizioni controllate, in presenza di concentrazioni note e crescenti di antibiotico. Se la prova e i suoi controlli sono validi, la prima concentrazione della serie senza crescita visibile identifica la MIC nelle condizioni del test. Le provette sono una rappresentazione didattica: il formato del dispositivo non cambia la distinzione fra concentrazione saggiata e risposta osservata.\n\nL’assenza di torbidità, tuttavia, non dimostra da sola l’eliminazione dei batteri. Una valutazione distinta della sopravvivenza può mostrare che cellule non cresciute durante l’esposizione sono ancora vitali. Il confronto con una successiva subcoltura aiuta a capire il concetto di attività battericida, ma non autorizza a dedurre una MBC quantitativa da un disegno privo di criteri di lettura. Tempi, controlli ed endpoint appartengono al metodo specifico; uno schema non è un protocollo universale.\n\nBatteriostatico e battericida descrivono effetti osservati sulla crescita o sulla sopravvivenza. Non sono sinonimi rispettivamente di debole e forte. Anche l’equivalenza fra battericidia e lisi è scorretta: una cellula può morire senza una rottura rilevante, come illustra il meccanismo riportato per daptomicina. La mappa dei bersagli e la classificazione dell’effetto rispondono dunque a domande differenti.\n\nUn grafico del numero di batteri vitali nel tempo aggiunge una prospettiva diversa dalla MIC. Nel modello didattico, il controllo senza farmaco continua a crescere; dopo l’esposizione, una curva che si appiattisce rappresenta l’arresto dell’aumento della popolazione, mentre una curva discendente rappresenta una riduzione dei batteri vitali. Se l’asse verticale è logaritmico, distanze uguali corrispondono a rapporti uguali, non a sottrazioni uguali. La forma della curva aiuta a distinguere i fenomeni, ma non fornisce da sola una dose, un tempo di guarigione o un endpoint battericida validato. Anche il meccanismo va tenuto distinto dalla misura: descrivere il bersaglio non equivale ad avere documentato l’entità e la velocità dell’uccisione in una determinata prova.\n\nIl passaggio al paziente richiede informazioni aggiuntive. Una misura in vitro non rappresenta le difese immunitarie, l’accessibilità di un focolaio o l’andamento temporale delle concentrazioni. L’etichetta di attività non basta per stabilire la superiorità clinica di un trattamento o per decidere che il contributo dell’ospite sia diventato irrilevante.\n\nUn esercizio utile consiste nel leggere due risultati separatamente: «la crescita è inibita nel test» e «l’infezione si risolve nella persona». Il primo può sostenere il secondo, ma non lo contiene. Fra i due si collocano esposizione, sede, sicurezza, controllo del focolaio e prove cliniche.",
       "formula": "MIC → inibizione della crescita nel test. MBC → criterio di uccisione. Esito clinico → integrazione di più fattori."
     },
     {
@@ -131,6 +135,19 @@ export const THEORY_ANTIBACTERIALS = {
       ],
       "text": "La resistenza riguarda il rapporto fra microrganismo e antibatterico; l’allergia riguarda la risposta della persona al medicinale. Un isolato può risultare sensibile a un farmaco che presenta un rischio allergologico per l’ospite. Viceversa, l’assenza di allergia non dimostra che quel composto sia attivo contro il patogeno. Questi due giudizi occupano punti diversi del triangolo patogeno–ospite–farmaco e devono rimanere distinti anche nel linguaggio dello studio.\n\nAnche «reazione avversa» e «allergia» non sono sinonimi. La prima espressione comprende effetti indesiderati con meccanismi differenti; la seconda implica una risposta immunologica. Per le penicilline, CDC distingue reazioni immediate e reazioni ritardate, alcune delle quali possono essere gravi. Il solo intervallo temporale, tuttavia, non basta a formulare una diagnosi: occorre ricostruire il quadro e le altre possibili spiegazioni.\n\nLa qualità dell’informazione conta quanto l’etichetta. Scrivere soltanto «allergico» lascia senza risposta domande essenziali: quale medicinale, quale manifestazione, quale gravità e quando? NICE richiede una documentazione che mantenga questi elementi e distingua lo stato allergologico dalle altre reazioni avverse. Una descrizione precisa rende possibile una valutazione successiva; una parola generica può invece essere copiata nel tempo senza che il suo significato venga chiarito.\n\nUn disturbo gastrointestinale isolato non dimostra da solo un’allergia: NICE lo considera un elemento che la rende meno probabile. Questo orientamento non autorizza a cancellare una segnalazione senza valutarla. Dall’altro lato, CDC ricorda che un’etichetta inesatta di allergia alla penicillina può spostare la scelta verso alternative ad ampio spettro, con conseguenze sulla qualità della terapia e sulla stewardship. Evitare il rischio allergico e verificare la qualità della storia sono esigenze complementari.\n\nLa rivalutazione richiede un percorso appropriato al rischio. Non equivale a riprovare autonomamente il farmaco. In particolare, una storia di reazione ritardata grave richiede competenza specialistica e non va trattata come un semplice dubbio risolvibile con un’assunzione di prova. Il collegamento con amoxicillina, già presente nel catalogo, serve a riconoscere questa dimensione della scelta dei β-lattamici: il bersaglio batterico spiega l’azione, mentre la storia della persona contribuisce a stabilire se quell’azione possa essere impiegata in sicurezza.",
       "formula": "Resistenza → microrganismo e farmaco. Allergia → risposta immunologica dell’ospite. Reazione avversa → categoria più ampia da descrivere e valutare."
+    },
+    {
+      "id": "formulazione-via-aderenza",
+      "title": "Dal principio attivo al trattamento utilizzabile",
+      "refs": [
+        "DAB-DRUG",
+        "APP-II",
+        "KATZ",
+        "UKHSA-IVOS",
+        "DM-AMOX-FORM"
+      ],
+      "text": "Un antibiotico attivo in laboratorio deve anche poter essere somministrato in una forma adatta alla persona e alla situazione. La scelta della molecola e quella del medicinale concreto sono quindi passaggi collegati. Vie disponibili, formulazione, intervalli di somministrazione, accettabilità e conservazione determinano se il trattamento progettato è realmente utilizzabile. Questi aspetti si aggiungono a bersaglio, spettro ed esposizione; non li sostituiscono.\n\nLa via endovenosa e quella orale rispondono a condizioni diverse. La prima evita la fase di assorbimento gastrointestinale; per la seconda occorrono un’opzione appropriata e un assorbimento affidabile. Il passaggio dall’una all’altra non è una semplice conversione fra confezioni con lo stesso nome. I criteri UKHSA per adulti ospedalizzati considerano il miglioramento clinico, la funzione gastrointestinale, la possibilità di somministrare il medicinale in sicurezza, la biodisponibilità, le interazioni e l’aderenza. Sono un esempio di valutazione strutturata, non una regola applicabile automaticamente a ogni infezione.\n\nPer UKHSA, endocardite, meningite e focolai non drenati richiedono considerazioni specifiche. La possibilità di deglutire descrive dunque soltanto una condizione della somministrazione: resta da stabilire se il trattamento scelto sia adeguato alla sede e all’obiettivo clinico.\n\nLa formulazione introduce problemi ulteriori. Una sospensione deve mantenere le caratteristiche previste dopo la ricostituzione; le istruzioni di preparazione e conservazione appartengono al prodotto preciso. La scheda statunitense di amoxicillina in sospensione consultata distingue infatti il preparato ricostituito e ne specifica gestione e durata di conservazione. L’esempio non permette di trasferire tempi o temperature ad altre confezioni, concentrazioni o preparazioni. Il collegamento al capitolo sulle formulazioni aiuta a separare identità chimica e prestazione del medicinale.\n\nInfine, frequenza delle assunzioni, gusto e possibilità di seguire le istruzioni fanno parte dell’accettabilità del trattamento. Una semplificazione del regime va valutata attraverso farmacocinetica ed efficacia, senza dedurla dalla sola comodità. Anche il costo entra nel confronto fra opzioni appropriate: non rende adeguato un farmaco inattivo o inadatto alla sede. La domanda conclusiva è se quel trattamento possa essere assunto correttamente e produrre l’esposizione richiesta con rischi accettabili.",
+      "formula": "Attività sul patogeno + esposizione alla sede + formulazione utilizzabile + assunzione corretta → trattamento valutabile nel contesto clinico."
     },
     {
       "id": "resistenza-e-microbiota",
@@ -230,6 +247,22 @@ export const THEORY_ANTIBACTERIALS = {
     {
       "question": "L’assenza di dati clinici in gravidanza equivale a sicurezza dimostrata?",
       "answer": "No. È una lacuna delle prove; il giudizio richiede informazioni specifiche del medicinale e valutazione del beneficio rispetto al rischio."
+    },
+    {
+      "question": "Due antibiotici attivi su alcuni Gram positivi e Gram negativi hanno necessariamente lo stesso spettro?",
+      "answer": "No. La distinzione di Gram è una prima mappa: bisogna confrontare le specie comprese ed escluse e, separatamente, la sensibilità dell’isolato."
+    },
+    {
+      "question": "In un grafico con asse verticale logaritmico, intervalli uguali indicano la stessa diminuzione assoluta di batteri?",
+      "answer": "No. Indicano rapporti uguali. Inoltre, una curva schematica non stabilisce da sola un endpoint battericida quantitativo o un esito clinico."
+    },
+    {
+      "question": "Poter deglutire basta per passare da un antibiotico endovenoso a uno orale?",
+      "answer": "No. Occorrono una valutazione clinica, un’opzione appropriata, assorbimento affidabile, attenzione a sede, biodisponibilità, interazioni e aderenza. Alcune infezioni richiedono considerazioni specifiche."
+    },
+    {
+      "question": "Le istruzioni di conservazione di una sospensione di amoxicillina valgono automaticamente per ogni preparazione dello stesso principio attivo?",
+      "answer": "No. Preparazione e conservazione vanno riferite al prodotto preciso; l’identità della molecola non rende intercambiabili tutte le formulazioni."
     }
   ],
   "references": [
@@ -361,6 +394,23 @@ export const THEORY_ANTIBACTERIALS = {
       "title": "CDC · Clinical Features of Penicillin Allergy",
       "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-signs/index.html",
       "detail": "Pagina del 25 agosto 2025, consultata il 28 novembre 2026: etichette allergologiche, anamnesi, reazioni ritardate gravi e limiti della rivalutazione. Nessuna percentuale o procedura di test trasferita."
+    },
+    {
+      "id": "DAB-DRUG",
+      "title": "Diapositive del corso di Farmacologia II · AA 2026–27 · Farmaco, spettro ed effetto",
+      "detail": "PDF 21–25: testo visibile e grafico controllati. Integrati 21–23 e 25 mediante sintesi originale; 24 riprende definizioni già trattate. Pagina 25 priva di testo estraibile: etichette lette direttamente nell’immagine. Soglia numerica di pagina 23 non validata come universale e non trasferita; grafico 25 usato solo qualitativamente, senza riprodurlo."
+    },
+    {
+      "id": "UKHSA-IVOS",
+      "title": "UKHSA · Criteri di passaggio dalla via endovenosa alla via orale negli adulti",
+      "url": "https://www.gov.uk/government/publications/antimicrobial-intravenous-to-oral-switch-criteria-for-early-switch/national-antimicrobial-intravenous-to-oral-switch-ivos-criteria-for-early-switch",
+      "detail": "Pagina aggiornata il 25 ottobre 2024, consultata il 28 novembre 2026: sezioni su miglioramento clinico, via enterale e situazioni particolari. Ambito: adulti ospedalizzati. Nessun algoritmo operativo, soglia numerica o tempistica trasferiti; documenti collegati non letti integralmente."
+    },
+    {
+      "id": "DM-AMOX-FORM",
+      "title": "DailyMed · Amoxicillina in polvere per sospensione orale",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=756545f1-77af-49a0-a697-4cced31711d4",
+      "detail": "Etichetta USA riconfezionata da Proficient Rx LP, revisione giugno 2022, consultata il 28 novembre 2026: selezione §2.5 sulla gestione della sospensione ricostituita. Esempio di istruzioni specifiche del prodotto; nessuna dose, concentrazione, temperatura o durata di conservazione trasferita come regola generale. Non intera scheda né aggiornamento delle indicazioni terapeutiche."
     }
   ],
   "drugs": [],
@@ -369,7 +419,7 @@ export const THEORY_ANTIBACTERIALS = {
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-28",
   "readingManifest": "./data/antibatterici-principi-reading.json",
-  "coverage": "Copertura cumulativa circoscritta: 30 posizioni PDF con testo visibile letto (2 metadati), 6 parziali escluse, 36 ispezioni e 23 pagine con passaggi integrati. Questo lotto comprende 3 posizioni leggibili ma 2 testi distinti: 18 e 20 ripetono lo stesso testo con enfasi grafica diversa. Integrata soltanto pagina 19; 3 pagine già lette ricontrollate nel testo. Nessun intero libro o corso letto; nessuna revisione clinica indipendente.",
+  "coverage": "Copertura cumulativa circoscritta: 35 posizioni PDF con testo visibile letto (2 metadati), 6 parziali escluse, 41 ispezioni e 27 pagine con passaggi integrati. Questo lotto: 5 pagine lette e ispezionate; il testo di pagina 25 è stato letto nell’immagine, perché assente dall’estrazione. Integrate 21–23 e 25; 24 riprende concetti già trattati. Quattro pagine già lette ricontrollate nel testo. Nessun intero libro o corso letto; nessuna revisione clinica indipendente.",
   "moleculeLinks": [
     {
       "id": "CHEMBL1082",
@@ -386,7 +436,8 @@ export const THEORY_ANTIBACTERIALS = {
   ],
   "relatedExistingChapterIds": [
     "antibiotici-beta-lattamici",
-    "metabolismo-trasportatori"
+    "metabolismo-trasportatori",
+    "formulazioni-sali-bioequivalenza"
   ],
-  "wordCount": 4256
+  "wordCount": 4796
 };

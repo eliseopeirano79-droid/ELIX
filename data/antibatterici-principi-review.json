@@ -1,11 +1,11 @@
 {
-  "batch": "theory-dab-016-020",
-  "reviewedAt": "2026-11-28T00:12:11.265454+00:00",
+  "batch": "theory-dab-021-025",
+  "reviewedAt": "2026-11-28T00:45:07.807857+00:00",
   "outcome": "pass",
-  "scope": "Sole-integrator editorial review: host factors, renal elimination and overlapping risks; allergy versus adverse reaction and bacterial resistance.",
+  "scope": "Sole-integrator editorial review: spectrum versus isolate susceptibility; qualitative growth/survival curves; formulation, route, adherence and product-specific storage.",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "0290bc0b37274a3696ae9fa5091908e2c1f9374bf46eb754db382d1903dff86a",
+  "moduleSha256": "77d01d1378e39a6616ec168f06a63ff96c161734d2b639bce2eb8a08a6f3b840",
   "conflicts": [
     {
       "id": "dab3-obscured-labels",
@@ -151,6 +151,31 @@
       "id": "cyp-not-all-interactions",
       "status": "resolved_for_scope",
       "resolution": "EMA renal/myopathy passages illustrate overlapping organ risk despite minimal CYP involvement; pregnancy evidence gap not presented as demonstrated safety."
+    },
+    {
+      "id": "dab23-numeric-endpoint",
+      "status": "unresolved_source_limit",
+      "resolution": "DAB23: numeric survival threshold and24h duration not validated as a universal bactericidal definition; excluded. Static/cidal effects and molecular targets are not treated as interchangeable classifications."
+    },
+    {
+      "id": "dab25-raster-and-origin",
+      "status": "unresolved_source_limit",
+      "resolution": "DAB25: text layer empty; visible labels read directly in the raster diagram. Underlying original and dataset unidentified; only qualitative educational meaning used, no numeric kinetics or efficacy inference."
+    },
+    {
+      "id": "spectrum-gram-shorthand",
+      "status": "resolved_for_scope",
+      "resolution": "DAB22 and APP-II24 Gram-only spectrum shorthand expanded: species coverage and isolate susceptibility remain distinct."
+    },
+    {
+      "id": "route-not-potency",
+      "status": "resolved_for_scope",
+      "resolution": "DAB21 and APP-II24 read with KATZ1032 and selected current UKHSA guidance; oral feasibility is not automatic suitability. No uniform IVOS protocol."
+    },
+    {
+      "id": "cost-and-storage",
+      "status": "resolved_for_scope",
+      "resolution": "Cost compares appropriate options; historical cheapest-first wording not imported. Product-specific storage example does not generalize instructions to other formulations."
     }
   ],
   "limits": [
@@ -171,6 +196,13 @@
     "DAB18 and DAB20 have identical normalized extracted text but different visual emphasis (host versus drug). Both PDF positions inspected; one repeated text, no distinct new synthesis or integration. The general triad was already covered.",
     "NICE CG183 selected official indexed recommendation text consulted; direct HTML/PDF fetches returned 403. Full current page and complete guideline not verified; limitation retained. CDC and EMA pages directly consulted for the relevant claims.",
     "KATZ1032, APP-II25 and DAB4 existing text extractions rechecked; no new book pages or repeat full-figure inspections claimed. APP-II25 remains excluded from integration; quantitative PK/PD generalizations and incomplete continuation not used.",
-    "EMA Cubicin selected renal function, myopathy, interactions and pregnancy passages only; no dose, numerical threshold, monitoring schedule or full product review. Clinical synthesis is educational and not independently validated."
+    "EMA Cubicin selected renal function, myopathy, interactions and pregnancy passages only; no dose, numerical threshold, monitoring schedule or full product review. Clinical synthesis is educational and not independently validated.",
+    "DAB23: numeric survival threshold and24h duration not validated as a universal bactericidal definition; excluded. Static/cidal effects and molecular targets are not treated as interchangeable classifications.",
+    "DAB25: text layer empty; visible labels read directly in the raster diagram. Underlying original and dataset unidentified; only qualitative educational meaning used, no numeric kinetics or efficacy inference.",
+    "DAB24 repeats previously covered MIC/MBC concepts; fully read but not a separate integration. Four current nonempty text extractions have no exact normalized match in earlier DAB extraction files.",
+    "KATZ1031–1032, APP-II24 and RANG934 existing text extractions rechecked; no new book pages or repeat full-figure checks. Other lecturers and source intervals remain open.",
+    "UKHSA adult inpatient IVOS selections only; no complete decision aid or linked studies read, no schedule, cutoff, pediatric extrapolation or automatic switch instruction.",
+    "DailyMed selected section2.5 of a US repackaged label revisedJune2022; current served record consulted, not a complete product review or validation of historical indications. No preparation recipe, dose, concentration, storage duration or temperature generalized.",
+    "CDC stewardship page recheck returned timeout this cycle; prior verified citation retained without claiming a fresh successful read. New clinical route discussion relies on directly consulted UKHSA."
   ]
 }
