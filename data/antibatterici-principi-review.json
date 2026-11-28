@@ -1,11 +1,11 @@
 {
-  "batch": "theory-dab-026-030",
-  "reviewedAt": "2026-11-28T01:18:44.520016+00:00",
+  "batch": "theory-dab-031-035",
+  "reviewedAt": "2026-11-28T02:01:24.266505+00:00",
   "outcome": "pass",
-  "scope": "Sole-integrator editorial review: PK/PD indices, free concentration, index versus target, post-antibiotic effect and bounded vancomycin example.",
+  "scope": "Sole-integrator editorial review: input versus PK parameters, variable distribution and clearance, interpretation and limits of TDM, current EUCAST and selected adult sepsis2026 recommendation.",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "993c542bbb0465c028790b85bb262249a158d966600a1613c4ff065881fc35f3",
+  "moduleSha256": "32ae891da0a86c13da5c8ce299cac1e9b47d8580fe36eec9b5431a95c1df5547",
   "conflicts": [
     {
       "id": "dab3-obscured-labels",
@@ -201,6 +201,31 @@
       "id": "repeated-course-figures",
       "status": "resolved_for_scope",
       "resolution": "APP-II26 embeds versions of DAB28–29: separate PDF page and surrounding prose read, repeated figures not independent evidence. Prior APP-II25 rechecked in text but still not separately integrated."
+    },
+    {
+      "id": "regimen-not-clearance",
+      "status": "resolved_for_scope",
+      "resolution": "DAB32 and APP-II27: numerical age-related renal decline and mandatory dosing interval for amoxicillin/clavulanate are not imported. Administration frequency does not establish a PK/PD category; changing input in a linear model does not itself change clearance."
+    },
+    {
+      "id": "dab33-text-image-mismatch",
+      "status": "unresolved_source_limit",
+      "resolution": "DAB33: extracted text includes cycling/pre-emptive strategies absent from the visible table. All eight visible table rows and footer read directly; hidden list not used as clinical recommendations. Table footer credits Current Opinion in Critical Care18(5),October2012; article and original table not independently identified or read. Only qualitative PK concepts integrated."
+    },
+    {
+      "id": "tdm-not-guaranteed-outcome",
+      "status": "resolved_for_scope",
+      "resolution": "DAB34–35: TDM efficacy, safety and resistance suppression are aims, not universal proven outcomes. Historical intermediate terminology reconciled with current EUCAST I; measured exposure does not change MIC or reclassify R."
+    },
+    {
+      "id": "katz-historical-table-excluded",
+      "status": "resolved_for_scope",
+      "resolution": "KATZ1033, printed1013: entire visible portion of table51.1 read in image, including cells missing in extraction. Historical empirical regimens excluded from integration. Table continues on1034; continuation and footnotes not read or inferred."
+    },
+    {
+      "id": "ssc2026-scope",
+      "status": "resolved_for_scope",
+      "resolution": "SSC2026 official page: selected adult sepsis/septic-shock TDM recommendation consulted; conditional, very-low-certainty evidence. Full guideline and linked evidence tables not reviewed, no extrapolation to all patients or antibiotics."
     }
   ],
   "limits": [
@@ -238,6 +263,17 @@
     "KATZ1032, APP-II25 and RANG952 existing text extractions rechecked; no new full reading of those pages or repeated figure inspection claimed. Other books, lecturers and course intervals remain open.",
     "EMA current index and selected sections4.2.1/4.2.3 only, not complete17-page guideline or clinical protocol. Initial obsolete URL/access attempts failed before the canonical PDF and current index were successfully consulted.",
     "IDSA current-marked2020 consensus: abstract and executive summary only; full article and linked tables not read. MRSA invasive-infection evidence not extrapolated to all infections; no numerical target or monitoring schedule transferred.",
+    "Sole-integrator educational/editorial synthesis; no independent clinical review or full source reconciliation.",
+    "DAB31: full visible diagram read directly; text layer omits the pharmacodynamics arrow. Triad already covered; no new integration counted.",
+    "DAB32 and APP-II27: numerical age-related renal decline and mandatory dosing interval for amoxicillin/clavulanate are not imported. Administration frequency does not establish a PK/PD category; changing input in a linear model does not itself change clearance.",
+    "DAB33: extracted text includes cycling/pre-emptive strategies absent from the visible table. All eight visible table rows and footer read directly; hidden list not used as clinical recommendations. Table footer credits Current Opinion in Critical Care18(5),October2012; article and original table not independently identified or read. Only qualitative PK concepts integrated.",
+    "DAB34–35: TDM efficacy, safety and resistance suppression are aims, not universal proven outcomes. Historical intermediate terminology reconciled with current EUCAST I; measured exposure does not change MIC or reclassify R.",
+    "KATZ1033, printed1013: entire visible portion of table51.1 read in image, including cells missing in extraction. Historical empirical regimens excluded from integration. Table continues on1034; continuation and footnotes not read or inferred.",
+    "APP-II27–28, printed26–27: complete visible pages and graphics read. Page27 integrates only corrected PK variability; repeated DAB30/32 figures are not independent evidence. Page28 not integrated: prophylaxis/pre-emptive/suppressive terminology, epidemiologic forecasts and urgency claims not independently validated; duration discussion continues29, not inferred.",
+    "KATZ1032 and944 rechecked from existing text extractions only. No repeat full-figure inspection claimed. Other books, lecturers and intervals remain open.",
+    "ESICM/ESCMID/IATDMCT/ISAC2020 position paper: selected methods, PK changes and basic TDM passages only; underlying search predates July2019. Not full article, drug tables, linked studies or protocols. Population and evidence approach differ from SSC2026; no universal monitoring mandate imported.",
+    "SSC2026 official page: selected adult sepsis/septic-shock TDM recommendation consulted; conditional, very-low-certainty evidence. Full guideline and linked evidence tables not reviewed, no extrapolation to all patients or antibiotics.",
+    "NHS SPS2024 safe-TDM page: selected clinical decisions, risks, contributing factors and mitigation/roles passages consulted; no drug-specific target, sampling schedule or monitoring tool reviewed. EUCAST current S/I/R definitions rechecked.",
     "Sole-integrator educational/editorial synthesis; no independent clinical review or full source reconciliation."
   ]
 }

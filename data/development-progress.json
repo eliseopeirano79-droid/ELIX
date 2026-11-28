@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-11-28T01:22:46.483358+00:00",
-  "batch": "theory-dab-026-030",
+  "updatedAt": "2026-11-28T02:03:01.838155+00:00",
+  "batch": "theory-dab-031-035",
   "status": "local_verified_pending_publication",
-  "release": "0.128.0",
-  "branch": "feat/theory-dab-026-030",
-  "baseCommit": "fc1516d8083a581f345b5508fb91e8d3667e4211",
+  "release": "0.129.0",
+  "branch": "feat/theory-dab-031-035",
+  "baseCommit": "f391cb9c9d0426d8bfcef6a5f442c6dad848e955",
   "previousBatch": {
-    "batch": "theory-dab-021-025",
-    "release": "0.127.0",
-    "commit": "fc1516d8083a581f345b5508fb91e8d3667e4211",
+    "batch": "theory-dab-026-030",
+    "release": "0.128.0",
+    "commit": "f391cb9c9d0426d8bfcef6a5f442c6dad848e955",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Indici PK/PD, concentrazione libera, effetto post-antibiotico e limiti degli obiettivi."
+    "Variabilità farmacocinetica e interpretazione del monitoraggio terapeutico."
   ],
   "completed": [
-    "Due nuove sezioni: 16 sezioni, 5486 parole, 27 quesiti, 14 schemi originali.",
-    "Nove nuove pagine lette e ispezionate, otto integrate; tre precedenti pagine ricontrollate nel testo.",
+    "Due nuove sezioni: 18 sezioni, 6221 parole, 31 quesiti, 16 schemi originali.",
+    "Otto nuove pagine lette e ispezionate, cinque integrate; due precedenti pagine ricontrollate nel testo.",
     "53 controlli automatici e otto configurazioni browser superati; otto immagini ispezionate.",
-    "Aggiornamento reale 0.127.0→0.128.0 verificato: preferiti, progressi, tema e offline conservati.",
-    "66 altri capitoli e le 14 sezioni precedenti invariati."
+    "Aggiornamento reale 0.128.0→0.129.0 verificato: preferiti, progressi, tema e offline conservati.",
+    "66 altri capitoli e le 16 sezioni precedenti invariati."
   ],
   "remaining": [
     "Commit, CI, deploy e verifica online."
@@ -45,7 +45,7 @@
     "newInteractiveLabs": 0,
     "expandedSections": 0,
     "newLinksToExistingIdentities": 0,
-    "newRelatedChapterLinks": 0,
+    "newRelatedChapterLinks": 1,
     "expandedChapters": 1,
     "newSections": 2,
     "newStaticOriginalSchemas": 2,
@@ -90,9 +90,20 @@
     "KATZ1032, APP-II25 and RANG952 existing text extractions rechecked; no new full reading of those pages or repeated figure inspection claimed. Other books, lecturers and course intervals remain open.",
     "EMA current index and selected sections4.2.1/4.2.3 only, not complete17-page guideline or clinical protocol. Initial obsolete URL/access attempts failed before the canonical PDF and current index were successfully consulted.",
     "IDSA current-marked2020 consensus: abstract and executive summary only; full article and linked tables not read. MRSA invasive-infection evidence not extrapolated to all infections; no numerical target or monitoring schedule transferred.",
+    "Sole-integrator educational/editorial synthesis; no independent clinical review or full source reconciliation.",
+    "DAB31: full visible diagram read directly; text layer omits the pharmacodynamics arrow. Triad already covered; no new integration counted.",
+    "DAB32 and APP-II27: numerical age-related renal decline and mandatory dosing interval for amoxicillin/clavulanate are not imported. Administration frequency does not establish a PK/PD category; changing input in a linear model does not itself change clearance.",
+    "DAB33: extracted text includes cycling/pre-emptive strategies absent from the visible table. All eight visible table rows and footer read directly; hidden list not used as clinical recommendations. Table footer credits Current Opinion in Critical Care18(5),October2012; article and original table not independently identified or read. Only qualitative PK concepts integrated.",
+    "DAB34–35: TDM efficacy, safety and resistance suppression are aims, not universal proven outcomes. Historical intermediate terminology reconciled with current EUCAST I; measured exposure does not change MIC or reclassify R.",
+    "KATZ1033, printed1013: entire visible portion of table51.1 read in image, including cells missing in extraction. Historical empirical regimens excluded from integration. Table continues on1034; continuation and footnotes not read or inferred.",
+    "APP-II27–28, printed26–27: complete visible pages and graphics read. Page27 integrates only corrected PK variability; repeated DAB30/32 figures are not independent evidence. Page28 not integrated: prophylaxis/pre-emptive/suppressive terminology, epidemiologic forecasts and urgency claims not independently validated; duration discussion continues29, not inferred.",
+    "KATZ1032 and944 rechecked from existing text extractions only. No repeat full-figure inspection claimed. Other books, lecturers and intervals remain open.",
+    "ESICM/ESCMID/IATDMCT/ISAC2020 position paper: selected methods, PK changes and basic TDM passages only; underlying search predates July2019. Not full article, drug tables, linked studies or protocols. Population and evidence approach differ from SSC2026; no universal monitoring mandate imported.",
+    "SSC2026 official page: selected adult sepsis/septic-shock TDM recommendation consulted; conditional, very-low-certainty evidence. Full guideline and linked evidence tables not reviewed, no extrapolation to all patients or antibiotics.",
+    "NHS SPS2024 safe-TDM page: selected clinical decisions, risks, contributing factors and mitigation/roles passages consulted; no drug-specific target, sampling schedule or monitoring tool reviewed. EUCAST current S/I/R definitions rechecked.",
     "Sole-integrator educational/editorial synthesis; no independent clinical review or full source reconciliation."
   ],
-  "nextBatch": "Completare DAB 26–30; poi DAB 31–35. Farmaci, profili e laboratori nel backlog.",
+  "nextBatch": "Completare DAB 31–35; poi DAB 36–40. Farmaci, profili e laboratori nel backlog.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",

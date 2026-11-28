@@ -125,6 +125,18 @@ export const THEORY_ANTIBACTERIALS = {
       "formula": "Regime somministrato → percorso farmacocinetico → esposizione alla sede; beneficio e rischio dipendono dal contesto."
     },
     {
+      "id": "variabilita-pk-paziente",
+      "title": "Perché la stessa dose può produrre esposizioni diverse",
+      "refs": [
+        "DAB-TDM",
+        "APP-VAR",
+        "KATZ",
+        "ESICM-TDM"
+      ],
+      "text": "La relazione fra dose ed esposizione dipende sia dal medicinale sia dal paziente. Il regime descrive ciò che viene somministrato: quantità, via, intervallo e durata dell’infusione. La farmacocinetica descrive invece come l’organismo assorbe, distribuisce ed elimina quel farmaco. Cambiare l’intervallo modifica l’ingresso nel sistema; in un modello lineare non implica, di per sé, che siano cambiati la clearance o il volume di distribuzione. Confondere questi due livelli rende difficile capire perché una concentrazione risulti diversa da quella prevista.\n\nIl volume di distribuzione è un parametro apparente che collega la quantità presente nell’organismo alla concentrazione plasmatica; non è la misura diretta di uno spazio anatomico. La clearance esprime invece la capacità di rimuovere il farmaco dal plasma, come volume depurato per unità di tempo. Una variazione della distribuzione e una variazione dell’eliminazione possono entrambe modificare la curva, ma attraverso processi diversi. Il confronto con il capitolo sulla clearance aiuta a separare questi meccanismi prima di ragionare sull’esposizione antibatterica.\n\nNel paziente critico, permeabilità capillare e bilancio dei liquidi possono ampliare la distribuzione degli antibatterici idrofili, fra cui i beta-lattamici e gli aminoglicosidi. La funzione renale può ridursi oppure aumentare l’eliminazione: non esiste un’unica direzione del cambiamento valida per tutti i pazienti in terapia intensiva. Anche i trattamenti extracorporei introducono variabili ulteriori. Questi esempi spiegano l’incertezza dell’esposizione, senza fornire una regola automatica per correggere una dose.\n\nIl legame proteico richiede la stessa cautela. Una riduzione dell’albumina può aumentare la frazione libera di un farmaco molto legato, ma distribuzione ed eliminazione possono cambiare insieme. Una concentrazione totale più bassa non dimostra da sola una minore esposizione libera; una frazione libera maggiore non equivale automaticamente a un aumento proporzionale e persistente dell’effetto. Il riferimento deve rimanere il singolo farmaco e il tipo di misura.\n\nEtà, composizione corporea, funzione degli organi e interazioni sono quindi informazioni da interpretare, non formule universali. La frequenza con cui viene somministrata una preparazione non permette di dedurne da sola la categoria PK/PD. Per l’amoxicillina collegata al catalogo, per esempio, il ragionamento sul tempo sopra MIC deve restare distinto dalla scelta di un particolare prodotto o intervallo. Anche nello stesso paziente l’esposizione può cambiare nel corso della malattia: una valutazione iniziale non descrive necessariamente tutte le fasi successive.",
+      "formula": "Regime → ingresso del farmaco; distribuzione → rapporto quantità/concentrazione; clearance → eliminazione. Paziente e momento clinico determinano il contesto."
+    },
+    {
       "id": "indici-pkpd-esposizione",
       "title": "Tre indici per collegare esposizione e sensibilità",
       "refs": [
@@ -147,6 +159,18 @@ export const THEORY_ANTIBACTERIALS = {
       ],
       "text": "Dire che un antibatterico ha un’attività concentrazione-dipendente descrive una relazione osservata fra esposizione ed effetto. Non significa che ogni aumento di dose produca un beneficio proporzionale, né che il picco debba essere il più alto possibile. L’esposizione incontra anche i limiti della tollerabilità, mentre distribuzione, funzione renale e sensibilità dell’isolato possono cambiare il risultato. Allo stesso modo, l’etichetta tempo-dipendente non rende automaticamente appropriata un’infusione continua per qualsiasi medicinale o infezione.\n\nGli aminoglicosidi collegano il ragionamento al bersaglio batterico. Interferiscono con la funzione della subunità ribosomiale 30S e con la produzione corretta delle proteine. Negli esperimenti, l’inibizione della ricrescita può persistere dopo che l’esposizione efficace è cessata: è l’effetto post-antibiotico. La diminuzione della concentrazione extracellulare e il recupero della popolazione batterica sono processi distinti. Questa persistenza farmacodinamica non va definita come una lenta eliminazione del farmaco dall’organismo, che è invece un fenomeno farmacocinetico.\n\nUn ragionamento utile consiste nell’immaginare la rimozione del farmaco da una coltura dopo un’esposizione controllata. Se la ricrescita riprende con ritardo rispetto al controllo, si descrive una persistenza dell’effetto; non si è dimostrato che il farmaco rimanga a lungo nel plasma di una persona. Il confronto chiarisce il concetto, ma non assegna una durata universale al fenomeno e non permette di ricavare da solo un intervallo terapeutico. Il regime deve essere valutato per il singolo farmaco e contesto.\n\nLa vancomicina mostra un altro limite delle classificazioni troppo rigide. Il consenso ASHP/IDSA/PIDS/SIDP del 2020, indicato come corrente sul sito IDSA alla consultazione, privilegia la valutazione dell’AUC per il monitoraggio nelle infezioni gravi da MRSA. Una concentrazione minima prima della dose successiva è un singolo punto della curva e non coincide con l’area. Le prove considerate derivano soprattutto da infezioni invasive, in particolare del sangue: non vanno estese automaticamente a infezioni lievi o ad altre specie. Qui non sono riportati dosaggi, soglie o algoritmi di monitoraggio.\n\nGli indici aiutano dunque a formulare una domanda verificabile sull’esposizione. L’obiettivo microbiologico, la sicurezza e l’esito clinico restano piani collegati ma distinti: raggiungere un valore previsto dal modello non garantisce, da solo, la guarigione.",
       "formula": "Eliminazione del farmaco → andamento della concentrazione; recupero del batterio → andamento dell’effetto. Indice PK/PD + obiettivo documentato + contesto clinico → interpretazione."
+    },
+    {
+      "id": "tdm-misura-interpretazione",
+      "title": "Monitoraggio terapeutico: dal campione a una decisione motivata",
+      "refs": [
+        "DAB-TDM",
+        "SPS-TDM",
+        "SSC-TDM",
+        "EUCAST"
+      ],
+      "text": "Il monitoraggio terapeutico del farmaco, indicato con TDM, collega una misura di concentrazione a una domanda clinica. Il suo scopo è comprendere l’esposizione individuale e contribuire a una terapia efficace e tollerabile. Non coincide con la semplice disponibilità di un esame di laboratorio: il dato acquista significato quando viene interpretato insieme al farmaco, al regime effettivamente ricevuto e alle condizioni del paziente.\n\nLa prima domanda riguarda il campione: quale medicinale è stato misurato e quando, rispetto alle somministrazioni reali? Orari, eventuali omissioni e modalità di somministrazione devono essere documentati. Un risultato privo di questa storia può essere confrontato con il riferimento sbagliato. Il processo deve inoltre chiarire chi riceve il risultato, chi lo interpreta e come vengono attuate e ricontrollate le decisioni. Un numero corretto, lasciato senza seguito, non completa il monitoraggio.\n\nOccorre poi distinguere la misura dall’informazione che si vuole ricavare. Una concentrazione in un singolo istante non è l’intera curva e non coincide con l’AUC; per ricostruire l’esposizione servono metodi appropriati al farmaco e al contesto. Il monitoraggio non sostituisce neppure l’identificazione del patogeno, la valutazione della sede d’infezione o l’osservazione della risposta. Sono domande diverse che devono convergere nell’interpretazione.\n\nLa MIC appartiene alla prova microbiologica, mentre il TDM riguarda l’esposizione del paziente. Misurare il farmaco non modifica la MIC dell’isolato. Nella terminologia EUCAST, I significa sensibile con esposizione aumentata: non una generica sensibilità intermedia e non un’indicazione automatica al TDM. La categoria R non diventa sensibile per il solo fatto di aumentare arbitrariamente l’esposizione.\n\nLe indicazioni al monitoraggio dipendono dalle prove disponibili. La Surviving Sepsis Campaign 2026 suggerisce di considerarlo caso per caso in pazienti adulti selezionati con sepsi o shock settico, tenendo conto del contesto e delle risorse disponibili. La raccomandazione è condizionale e la certezza delle prove è molto bassa. Questo ambito non autorizza a estenderla indistintamente a ogni antibatterico, infezione o popolazione.\n\nRidurre tossicità e insuccessi costituisce dunque una finalità del TDM, non un risultato garantito da qualsiasi misurazione. Il ciclo si chiude verificando se il dato abbia chiarito la domanda iniziale e se la decisione resti appropriata mentre cambia il paziente. Qui il percorso è descritto per comprendere il ragionamento farmacologico; obiettivi numerici, tempi di prelievo e algoritmi richiedono riferimenti specifici.",
+      "formula": "Domanda → somministrazioni documentate → campione interpretabile → confronto pertinente → decisione e rivalutazione. Concentrazione, MIC ed esito restano misure distinte."
     },
     {
       "id": "allergia-e-reazione-avversa",
@@ -303,6 +327,22 @@ export const THEORY_ANTIBACTERIALS = {
     {
       "question": "Un indice AUC/MIC e il suo obiettivo sono la stessa informazione?",
       "answer": "No. L’indice definisce il confronto; l’obiettivo specifica un valore associato a una risposta in un contesto documentato. Occorrono intervallo, tipo di concentrazione, farmaco, microrganismo e prove pertinenti."
+    },
+    {
+      "question": "Cambiare l’intervallo fra le dosi significa necessariamente cambiare la clearance?",
+      "answer": "No. L’intervallo modifica il regime di ingresso. Nel modello lineare, questo non modifica di per sé il parametro che descrive l’eliminazione."
+    },
+    {
+      "question": "La malattia critica modifica sempre l’esposizione agli antibatterici nella stessa direzione?",
+      "answer": "No. Distribuzione, funzione renale e altri fattori possono cambiare in modo diverso. Occorre riferire il ragionamento al farmaco, al paziente e al momento clinico."
+    },
+    {
+      "question": "Una concentrazione senza l’orario del prelievo e delle somministrazioni è sufficiente per il TDM?",
+      "answer": "No. La relazione temporale è necessaria per interpretare il dato; devono essere definiti anche il riferimento pertinente e la responsabilità di dare seguito al risultato."
+    },
+    {
+      "question": "Il TDM modifica la MIC o rende automaticamente trattabile un isolato classificato R?",
+      "answer": "No. Misura l’esposizione nel paziente e non cambia il risultato microbiologico. I e R restano categorie distinte; le indicazioni al monitoraggio dipendono dal contesto e dalle prove."
     }
   ],
   "references": [
@@ -478,6 +518,34 @@ export const THEORY_ANTIBACTERIALS = {
       "title": "ASHP/IDSA/PIDS/SIDP · Monitoraggio della vancomicina nelle infezioni gravi da MRSA",
       "url": "https://www.idsociety.org/practice-guideline/vancomycin/",
       "detail": "Consenso 19 marzo 2020, indicato CURRENT sul sito IDSA consultato il 28 novembre 2026. Abstract e sintesi esecutiva: AUC, sicurezza e limiti di estrapolazione. Articolo integrale e tabelle collegate non letti; nessun dosaggio, soglia numerica o calendario di monitoraggio trasferiti."
+    },
+    {
+      "id": "DAB-TDM",
+      "title": "Diapositive del corso di Farmacologia II · AA 2026–27 · Variabilità e TDM",
+      "detail": "PDF 31–35 letti nel testo e nelle immagini; integrati 32–35. Pagina 31 riprende concetti già presenti. Nella 33 il testo estratto non coincide con la tabella visibile, controllata direttamente; citazione grafica del 2012 non verificata nell’originale. Nessun dosaggio o immagine trasferiti."
+    },
+    {
+      "id": "APP-VAR",
+      "title": "Appunti del corso di Farmacologia II · AA 2024–25 · Lezione 3, 14 ottobre 2024",
+      "detail": "PDF 27–28, stampa 26–27, letti integralmente come pagine visibili. Integrata soltanto la variabilità farmacocinetica di PDF 27; figure ripetute non costituiscono prove indipendenti. Frequenza di somministrazione e categorie PK/PD non equiparate. PDF 28 escluso dalla sintesi."
+    },
+    {
+      "id": "ESICM-TDM",
+      "title": "ESICM / ESCMID / IATDMCT / ISAC · Monitoraggio degli antimicrobici nel paziente critico adulto",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7223855/",
+      "detail": "Position paper 2020, DOI 10.1007/s00134-020-06050-1; letteratura ricercata prima di luglio 2019. Consultate selezioni su metodi, distribuzione, clearance e principi del TDM il 28 novembre 2026. Non intero articolo, tabelle o protocolli; ambito distinto dalle raccomandazioni SSC 2026."
+    },
+    {
+      "id": "SPS-TDM",
+      "title": "NHS Specialist Pharmacy Service · Gestione sicura del monitoraggio terapeutico",
+      "url": "https://sps.nhs.uk/articles/safe-management-of-therapeutic-drug-monitoring/",
+      "detail": "Pagina aggiornata il 17 ottobre 2024, consultata il 28 novembre 2026. Selezioni su decisioni, rischi, fattori contributivi e misure organizzative: documentazione, tempi e responsabilità. Nessun obiettivo o protocollo specifico di farmaco trasferito."
+    },
+    {
+      "id": "SSC-TDM",
+      "title": "SCCM / ESICM · Surviving Sepsis Campaign 2026",
+      "url": "https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026",
+      "detail": "Pagina ufficiale consultata il 28 novembre 2026: raccomandazione sul TDM in adulti selezionati con sepsi o shock settico, condizionale e con certezza molto bassa. Non letta l’intera linea guida o le tabelle di evidenza collegate; nessuna estensione automatica ad altre popolazioni."
     }
   ],
   "drugs": [],
@@ -486,7 +554,7 @@ export const THEORY_ANTIBACTERIALS = {
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-28",
   "readingManifest": "./data/antibatterici-principi-reading.json",
-  "coverage": "Copertura cumulativa circoscritta: 44 posizioni PDF lette integralmente come pagine visibili (2 metadati), 6 parziali escluse, 50 ispezioni e 35 pagine con passaggi integrati. Questo lotto: 9 pagine nuove lette e ispezionate, 8 integrate; una pagina con testo prevalentemente raster. Tre pagine precedenti ricontrollate solo nel testo. Figure ripetute fra slide e appunti non considerate prove indipendenti. Nessun intero libro o corso letto; nessuna revisione clinica indipendente.",
+  "coverage": "Copertura cumulativa circoscritta: 52 posizioni PDF lette integralmente come pagine visibili (2 metadati), 6 parziali escluse, 58 ispezioni e 40 pagine con passaggi integrati. Questo lotto: 8 pagine nuove lette e ispezionate, 5 integrate. Testo raster e difformità fra estrazione e pagina controllati direttamente. Due pagine precedenti ricontrollate solo nel testo. Figure ripetute fra slide e appunti non sono prove indipendenti. Nessun intero libro o corso letto; nessuna revisione clinica indipendente.",
   "moleculeLinks": [
     {
       "id": "CHEMBL1082",
@@ -504,7 +572,8 @@ export const THEORY_ANTIBACTERIALS = {
   "relatedExistingChapterIds": [
     "antibiotici-beta-lattamici",
     "metabolismo-trasportatori",
-    "formulazioni-sali-bioequivalenza"
+    "formulazioni-sali-bioequivalenza",
+    "clearance-biliare-renale"
   ],
-  "wordCount": 5486
+  "wordCount": 6221
 };
