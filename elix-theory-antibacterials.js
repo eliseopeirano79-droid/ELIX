@@ -248,6 +248,31 @@ export const THEORY_ANTIBACTERIALS = {
       "formula": "Origine della variante → caratteristica del batterio. Selezione → cambiamento della sua frequenza. MIC → inibizione nel test; MSC → competizione nelle condizioni studiate."
     },
     {
+      "id": "origine-e-trasmissione",
+      "title": "Origine e trasmissione: classificare la resistenza senza confondere i livelli",
+      "refs": [
+        "DAB-GENETICA",
+        "CDC-TRASFERIMENTO",
+        "EUCAST-FENOTIPI"
+      ],
+      "text": "Per descrivere una resistenza occorre precisare quale domanda si sta ponendo. La distinzione fra intrinseca e acquisita riguarda il rapporto con le caratteristiche abituali del microrganismo; quella fra cromosomica ed extracromosomica riguarda la sede del materiale genetico; quella fra mutazione e acquisizione di DNA riguarda l’origine di una variazione. Il meccanismo biochimico, invece, spiega quale passaggio dell’azione antibatterica viene ostacolato. Sono coordinate complementari: chiamare una resistenza «cromosomica» non dice ancora quale farmaco coinvolga né quale proteina sia cambiata.\n\nNel linguaggio biologico, la resistenza intrinseca richiama proprietà normalmente associate a un gruppo batterico, come una barriera all’accesso del farmaco o l’assenza di un bersaglio utile. La resistenza acquisita indica una differenza comparsa in una popolazione rispetto al comportamento abituale: può dipendere da una mutazione oppure dall’acquisizione di materiale genetico. Queste categorie non descrivono due soli meccanismi. Una minore permeabilità, per esempio, può essere parte dell’organizzazione ordinaria dell’involucro oppure derivare da una modifica successiva. Per studiare il fenomeno bisogna quindi collegare il termine al microrganismo, all’antibiotico e alla caratteristica effettivamente osservata.\n\nPer l’interpretazione di laboratorio serve una terminologia più operativa. EUCAST ha sostituito il precedente documento sulla resistenza intrinseca con quelli sui fenotipi resistenti e sensibili attesi, organizzati per specie. Questi documenti aiutano a valutare la coerenza fra identificazione e risultato di sensibilità. Un risultato inatteso richiede verifica, anziché essere accettato come eccezione certa o corretto arbitrariamente. «Atteso» descrive il comportamento documentato della grande maggioranza degli isolati nella combinazione considerata; non identifica automaticamente un singolo gene. Il concetto biologico e lo strumento di validazione del referto vanno dunque tenuti distinti.\n\nLa trasmissione verticale accompagna il passaggio dell’informazione genetica alle cellule discendenti; quella orizzontale implica un passaggio fra batteri. Tre vie aiutano a orientarsi: nella coniugazione il trasferimento richiede contatto cellulare, nella trasformazione viene acquisito DNA presente nell’ambiente e nella trasduzione intervengono batteriofagi. I plasmidi possono veicolare geni di resistenza, mentre i trasposoni possono spostare sequenze fra plasmide e cromosoma. La posizione di un determinante non è quindi una descrizione completa della sua storia o della sua mobilità.\n\nNe deriva che «acquisita» non significa necessariamente «plasmidica», né «cromosomica» significa resistenza a un solo antibiotico. Uno stesso cambiamento può influire su più molecole; più determinanti possono inoltre coesistere nello stesso batterio. Le percentuali generiche attribuite alle due sedi genetiche nelle diapositive non vengono adottate come una distribuzione universale. Nel ragionamento su un’infezione è più utile distinguere la proprietà osservata, il suo possibile meccanismo e la modalità di diffusione. La selezione descritta nella sezione precedente può favorire i portatori di queste caratteristiche, ma non sostituisce la spiegazione di come esse siano nate o siano state trasferite.",
+      "formula": "Caratteristica abituale o acquisita → origine biologica. Cromosoma o plasmide → sede genetica. Trasmissione verticale o orizzontale → diffusione. Fenotipo atteso → coerenza del risultato di laboratorio."
+    },
+    {
+      "id": "meccanismi-di-resistenza",
+      "title": "Dal gene al bersaglio: quattro modi di ostacolare l’antibiotico",
+      "refs": [
+        "DAB-GENETICA",
+        "APP-MECCANISMI",
+        "KATZ-INV",
+        "FDA-AUGMENTIN-MECCANISMI",
+        "ROPER-VANA",
+        "ARTHUR-VANA"
+      ],
+      "text": "Il confronto fra antibiotico e batterio può essere seguito come una sequenza: il farmaco deve raggiungere una struttura pertinente, conservarsi in forma attiva e interagire con essa abbastanza da compromettere una funzione. La resistenza può interrompere passaggi differenti. Questa mappa rende più comprensibili le classificazioni delle diapositive e impedisce di chiamare ogni bersaglio «recettore»: una proteina enzimatica, un RNA ribosomiale e un precursore della parete sono entità diverse, pur potendo partecipare all’effetto farmacologico.\n\nIl primo ostacolo è un accesso ridotto. Nei Gram-negativi la membrana esterna e le porine contribuiscono a determinare quali molecole raggiungano lo spazio periplasmico o proseguano verso l’interno. Una variazione dell’ingresso può ridurre la quantità disponibile dove serve. Il secondo è l’efflusso: sistemi di trasporto allontanano il farmaco e possono abbassarne la concentrazione nel compartimento pertinente. Ingresso ed espulsione concorrono al bilancio locale, ma non sono lo stesso processo. Non si deve inoltre immaginare che tutti gli antibiotici debbano entrare nel citoplasma: i beta-lattamici agiscono sulle PBP associate alla membrana, coinvolte nella costruzione della parete.\n\nIl terzo meccanismo è l’inattivazione del farmaco. Le beta-lattamasi possono idrolizzare l’anello beta-lattamico, facendo perdere alla molecola l’attività utile prima che raggiunga il bersaglio. La distinzione fra PBP e beta-lattamasi è essenziale: le prime partecipano alla sintesi del peptidoglicano e sono bersagli dell’antibiotico; le seconde possono distruggerlo. Nell’associazione amoxicillina–acido clavulanico, l’amoxicillina agisce sulle PBP e il clavulanato inattiva alcune beta-lattamasi. Il documento FDA del 2026 specifica questa limitazione. L’immagine didattica del componente che si «sacrifica» non va intesa come una semplice precedenza nella degradazione: il punto è l’inattivazione dell’enzima. Da ciò non segue che l’associazione superi qualunque resistenza. Un bersaglio modificato o un accesso insufficiente pongono problemi diversi; anche le beta-lattamasi non sono tutte ugualmente sensibili allo stesso inibitore.\n\nIl quarto meccanismo modifica l’interazione con il bersaglio. PBP con minore affinità possono ridurre l’effetto di un beta-lattamico; modificazioni dell’RNA ribosomiale possono ostacolare il legame di altri antibiotici. L’esempio della vancomicina chiarisce perché non sia sufficiente parlare di «recettore alterato». La molecola riconosce una terminazione dei precursori del peptidoglicano. In sistemi di resistenza come quello associato a VanA, la produzione di precursori terminanti in D-alanina–D-lattato al posto di D-alanina–D-alanina riduce il riconoscimento da parte del farmaco. È una modifica del substrato della costruzione della parete, distinta dall’alterazione di una PBP. Gli studi su VanA documentano enzimi e determinanti genetici specifici: la formula «una serie di mutazioni» non basta a descrivere ogni caso e non esaurisce i diversi meccanismi di resistenza alla vancomicina.\n\nQuesti processi possono combinarsi nello stesso microrganismo. Riconoscerne uno aiuta a spiegare il fenotipo, ma non ricostruisce da solo tutte le sensibilità né determina automaticamente la terapia di un’infezione. Il collegamento con la patologia richiede ancora identificazione, sede, esposizione e condizioni dell’ospite. La mappa serve a formulare domande precise: il farmaco arriva, resta attivo, viene espulso oppure incontra una struttura diversa?",
+      "formula": "Accesso ridotto → meno farmaco al bersaglio. Efflusso → maggiore allontanamento. Inattivazione → farmaco alterato. Modifica del bersaglio o del precursore → interazione meno efficace."
+    },
+    {
       "id": "risposta-insufficiente",
       "title": "Risposta insufficiente: ricostruire la causa prima di attribuirla alla resistenza",
       "refs": [
@@ -427,6 +452,22 @@ export const THEORY_ANTIBACTERIALS = {
     {
       "question": "Ampliare lo spettro risolve necessariamente un’infezione sostenuta da un’ostruzione?",
       "answer": "No. L’attività sul batterio e il controllo della fonte affrontano aspetti complementari. La modifica del farmaco non rimuove di per sé l’ostacolo anatomico."
+    },
+    {
+      "question": "Una resistenza acquisita deve essere necessariamente plasmidica?",
+      "answer": "No. Acquisita descrive una variazione rispetto alle caratteristiche abituali; cromosomica o plasmidica indica la sede genetica. Mutazione, trasferimento e meccanismo biochimico sono livelli distinti."
+    },
+    {
+      "question": "Un fenotipo inatteso prova da solo la presenza di un nuovo gene di resistenza?",
+      "answer": "No. EUCAST lo considera un motivo per verificare identificazione e risultato di sensibilità. Il fenotipo non identifica automaticamente un determinante genetico."
+    },
+    {
+      "question": "PBP e beta-lattamasi svolgono lo stesso ruolo?",
+      "answer": "No. Le PBP partecipano alla costruzione della parete e sono bersagli dei beta-lattamici; le beta-lattamasi possono inattivare il farmaco. Il clavulanato agisce soltanto su alcune di queste ultime."
+    },
+    {
+      "question": "Il passaggio da D-Ala–D-Ala a D-Ala–D-Lac equivale alla modifica di una PBP?",
+      "answer": "No. Nell’esempio associato a VanA cambia la terminazione del precursore riconosciuta dalla vancomicina. È distinto dal cambiamento di affinità di un enzima PBP."
     }
   ],
   "references": [
@@ -697,6 +738,46 @@ export const THEORY_ANTIBACTERIALS = {
       "title": "Gullberg e collaboratori · Selection of Resistant Bacteria at Very Low Antibiotic Concentrations",
       "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1002158",
       "detail": "PLoS Pathogens 2011, DOI 10.1371/journal.ppat.1002158. Abstract, introduzione e risultati selezionati sulla competizione e sulla definizione di MSC consultati il 28 novembre 2026. Non intero articolo, supplementi o figure originali ispezionati indipendentemente; nessuna concentrazione sperimentale trasferita alla pratica clinica."
+    },
+    {
+      "id": "DAB-GENETICA",
+      "title": "Diapositive del corso di Farmacologia II · AA 2026–27 · Genetica e meccanismi della resistenza",
+      "detail": "PDF 46–50: testo visibile e figure letti integralmente, con integrazione qualitativa. PDF 49–50 hanno soltanto il titolo nel testo estraibile: contenuti differenti letti direttamente nelle immagini. Escluse percentuali generiche, velocità enzimatiche e sovrapposizioni con antifungini; classificazioni genetiche e bersagli riconciliati. Nessuna figura riprodotta."
+    },
+    {
+      "id": "APP-MECCANISMI",
+      "title": "Appunti del corso di Farmacologia II · AA 2024–25 · Lezione 3, 14 ottobre 2024",
+      "detail": "PDF 31, stampa 30, letto e ispezionato integralmente. Integrato il confronto fra inattivazione, efflusso e associazione con inibitore, correggendo la spiegazione del clavulanato. Figure ripetute non sono prove indipendenti. Percentuali epidemiologiche e affermazioni alimentari non verificate escluse."
+    },
+    {
+      "id": "CDC-TRASFERIMENTO",
+      "title": "CDC · How Antibiotic Resistance Moves Directly Germ to Germ",
+      "url": "https://www.cdc.gov/antimicrobial-resistance/media/pdfs/How-AR-Moves-508.pdf",
+      "detail": "Scheda di una pagina: testo e diagrammi consultati il 28 novembre 2026. Trasmissione verticale, elementi mobili e tre vie di trasferimento orizzontale; sintesi originale, senza riproduzione dei diagrammi."
+    },
+    {
+      "id": "EUCAST-FENOTIPI",
+      "title": "EUCAST · Expected Resistant Phenotypes, versione 1.2, gennaio 2023",
+      "url": "https://www.eucast.org/fileadmin/eucast/pdf/expert_rules/Expected_Resistant_Phenotypes_v1.2_20230113.pdf",
+      "detail": "Introduzione e definizioni delle pagine 1–2, con indice ufficiale corrente, consultati il 28 novembre 2026. Distinzione dalla precedente terminologia e verifica dei risultati inattesi; non revisione completa delle tabelle per specie, nessuna soglia numerica trasferita."
+    },
+    {
+      "id": "FDA-AUGMENTIN-MECCANISMI",
+      "title": "FDA · AUGMENTIN · Prescribing Information, luglio 2026",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/050725s037lbl.pdf",
+      "detail": "Sezione 12.4, paragrafi Mechanism of Action e Resistance, pagina 33, consultati il 28 novembre 2026. Distinti bersaglio PBP, inattivazione da beta-lattamasi e limite dell’inibitore. Nessun dosaggio, indicazione o algoritmo clinico trasferito; non intera scheda revisionata."
+    },
+    {
+      "id": "ROPER-VANA",
+      "title": "Roper e collaboratori · Struttura della ligasi VanA",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10908650/",
+      "detail": "PNAS 2000, DOI 10.1073/pnas.150116497. Abstract letto integralmente il 28 novembre 2026 per la biosintesi dei precursori alternativi. Non articolo completo, figure strutturali o dati sperimentali indipendentemente revisionati."
+    },
+    {
+      "id": "ARTHUR-VANA",
+      "title": "Arthur e collaboratori · D-lattato nei precursori degli enterococchi resistenti",
+      "url": "https://journals.asm.org/doi/10.1128/aac.36.4.867",
+      "detail": "Antimicrobial Agents and Chemotherapy 1992, 36:867–869. Abstract letto integralmente il 28 novembre 2026 sulla pagina dell’editore; determinante plasmidico e substrato di VanA. Non articolo completo né prova di efficacia clinica; il record PubMed non ha reso l’abstract."
     }
   ],
   "drugs": [],
@@ -705,7 +786,7 @@ export const THEORY_ANTIBACTERIALS = {
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-28",
   "readingManifest": "./data/antibatterici-principi-reading.json",
-  "coverage": "Copertura cumulativa circoscritta: 66 posizioni PDF lette integralmente come pagine visibili (2 metadati), 7 parziali escluse, 73 ispezioni e 51 pagine con passaggi integrati. Questo lotto: 6 nuove letture complete, una parziale, 7 ispezioni e 5 nuove integrazioni. Una pagina precedente ricontrollata solo nel testo. Figure ripetute fra slide e appunti non sono prove indipendenti; il diagramma sulla selezione è stato ricondotto alla sua citazione primaria. Nessun intero libro o corso letto; nessuna revisione clinica indipendente.",
+  "coverage": "Copertura cumulativa circoscritta: 74 posizioni PDF lette integralmente come pagine visibili (2 metadati), 7 parziali escluse, 81 ispezioni e 57 pagine con passaggi integrati. Questo lotto: 8 nuove letture complete e ispezioni, 6 nuove integrazioni; due precedenti pagine ricontrollate solo nel testo. I titoli estraibili identici di due diapositive non rendono identici i rispettivi contenuti visivi. Le figure ripetute fra slide e appunti non sono prove indipendenti. Nessun intero libro o corso letto; nessuna revisione clinica indipendente.",
   "moleculeLinks": [
     {
       "id": "CHEMBL1082",
@@ -726,5 +807,5 @@ export const THEORY_ANTIBACTERIALS = {
     "formulazioni-sali-bioequivalenza",
     "clearance-biliare-renale"
   ],
-  "wordCount": 7943
+  "wordCount": 8844
 };

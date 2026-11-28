@@ -1,11 +1,11 @@
 {
-  "batch": "theory-dab-041-045",
-  "reviewedAt": "2026-11-28T03:17:04.242105+00:00",
+  "batch": "theory-dab-046-050",
+  "reviewedAt": "2026-11-28T03:55:53.264336+00:00",
   "outcome": "pass",
-  "scope": "Sole-integrator editorial review: variant origin versus selection, competition and MIC/MSC; clinical response versus susceptibility, exposure, diagnosis, host and source control. Primary experimental passages and bounded official guidance reconciled.",
+  "scope": "Sole-integrator editorial review: biological origin, genetic location, transfer, expected phenotypes and biochemical resistance mechanisms; PBP, beta-lactamase, inhibitor and vancomycin precursor distinguished.",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "b596427f56e9fbbf4555e57bab6b55785b324e730ff637446ca8d0e72e2883da",
+  "moduleSha256": "f35a4c5976a573ae8efff6302435490f0391cb917ffd342cce16ec06b6b629e2",
   "conflicts": [
     {
       "id": "dab3-obscured-labels",
@@ -281,6 +281,36 @@
       "id": "katz1036-historical-duration",
       "status": "resolved_for_scope",
       "resolution": "KATZ1036, printed1016: all visible text and table51.3 inspected. Selected qualitative failure analysis integrated. Historical7–10days after fever rule, blanket repeated culture/TDM instructions and classwide static/cidal generalizations excluded; not current clinical guidance."
+    },
+    {
+      "id": "genetic-classifications-not-equivalent",
+      "status": "resolved_for_scope",
+      "resolution": "DAB46–47: complete visible text and diagrams read. Biological origin, genetic location, transfer and biochemical mechanism separated. Unsupported10%/90% proportions and chromosome=single-drug/plasmid=multidrug generalizations excluded; horizontal transfer not restricted to extrachromosomal material."
+    },
+    {
+      "id": "mixed-fungal-bacterial-examples",
+      "status": "resolved_for_scope",
+      "resolution": "DAB48: full visible list read; mixed bacterial/fungal examples separated. Flucytosine, polyenes, unsupported autolysin generalization and universal receptor terminology excluded."
+    },
+    {
+      "id": "heading-only-extraction",
+      "status": "resolved_for_scope",
+      "resolution": "DAB49–50: extracted text consists only of the same heading; complete distinct diagram labels/captions read directly. This heading match is not a duplicate complete page. No source artwork reproduced. Unspecified1000-molecules-per-second enzyme rate excluded."
+    },
+    {
+      "id": "vana-not-pbp",
+      "status": "resolved_for_scope",
+      "resolution": "DAB50: PBP alteration distinguished from the D-Ala–D-Lac precursor change associated with VanA. Generic series-of-mutations wording not treated as a complete genetic explanation or universal mechanism of vancomycin resistance."
+    },
+    {
+      "id": "clavulanate-and-unverified-epidemiology",
+      "status": "resolved_for_scope",
+      "resolution": "APP-II31, printed30: all text and both graphics inspected. Repeated DAB49 graphic is not independent evidence. Clavulanate explanation corrected using FDA mechanism/inhibition limits; unsupported50% epidemiologic split and food/adulteration assertions excluded."
+    },
+    {
+      "id": "historical-pk-monitoring-tables",
+      "status": "resolved_for_scope",
+      "resolution": "KATZ1037–1038, printed1017–1018: full text and tables51.4/51.5 including visible footnotes read. Not integrated: historical regimens, renal/hepatic adjustment tables, drug-level cutoffs and older vancomycin monitoring evidence not adopted as current guidance. Prior2020 consensus comparison retained, not newly re-read."
     }
   ],
   "limits": [
@@ -353,6 +383,17 @@
     "Gullberg2011 abstract, introduction and selected results including definitionMSC read. Captions read but original figures, full methods, supplements and dataset not independently reviewed. Experimental competition findings are not patient-level dosing or outcome evidence.",
     "Sandegren2014 abstract, captionFigure1 and reference5 consulted for provenance, not relied on as independent primary clinical evidence. No full review or new corpus page count claimed.",
     "CDC official page mechanisms/selection/gene transfer; EUCAST S/I/R and exposure definitions; SSC2026 selected adult reassessment, source-control and case-specific TDM statements rechecked28November2026. No full guidelines, regimens or dosing algorithms reviewed.",
-    "Sole-integrator original educational/editorial synthesis; full source reconciliation and independent clinical review remain open."
+    "Sole-integrator original educational/editorial synthesis; full source reconciliation and independent clinical review remain open.",
+    "DAB46–47: complete visible text and diagrams read. Biological origin, genetic location, transfer and biochemical mechanism separated. Unsupported10%/90% proportions and chromosome=single-drug/plasmid=multidrug generalizations excluded; horizontal transfer not restricted to extrachromosomal material.",
+    "DAB48: full visible list read; mixed bacterial/fungal examples separated. Flucytosine, polyenes, unsupported autolysin generalization and universal receptor terminology excluded.",
+    "DAB49–50: extracted text consists only of the same heading; complete distinct diagram labels/captions read directly. This heading match is not a duplicate complete page. No source artwork reproduced. Unspecified1000-molecules-per-second enzyme rate excluded.",
+    "DAB50: PBP alteration distinguished from the D-Ala–D-Lac precursor change associated with VanA. Generic series-of-mutations wording not treated as a complete genetic explanation or universal mechanism of vancomycin resistance.",
+    "APP-II31, printed30: all text and both graphics inspected. Repeated DAB49 graphic is not independent evidence. Clavulanate explanation corrected using FDA mechanism/inhibition limits; unsupported50% epidemiologic split and food/adulteration assertions excluded.",
+    "KATZ1037–1038, printed1017–1018: full text and tables51.4/51.5 including visible footnotes read. Not integrated: historical regimens, renal/hepatic adjustment tables, drug-level cutoffs and older vancomycin monitoring evidence not adopted as current guidance. Prior2020 consensus comparison retained, not newly re-read.",
+    "KATZ907 and909 existing extractions rechecked in text only; no new complete reading, visual inspection or integration counted. Page907 remains not integrated. Completed909 mechanism text only; interrupted continuation not inferred. Other books, other lecturers and course intervals remain open.",
+    "EUCAST current expected-phenotype index plus introduction/definitions pages1–2 of v1.2January2023 consulted; numerical species tables not reviewed or imported. CDC one-page transfer sheet text and diagrams inspected; no original artwork reproduced.",
+    "FDA AUGMENTIN July2026 section12.4 mechanism/resistance paragraphs only, not full product review, dose, regimen or clinical recommendation. Inhibitor activity against certain enzymes does not establish universal reversal of resistance.",
+    "Roper2000 and Arthur1992 abstracts read in full, not complete papers, figures or datasets. Arthur PubMed record failed to render abstract; publisher page succeeded. Bugg1991 abstract read for background, not used as a full-paper claim or numerical affinity source.",
+    "Sole-integrator original educational/editorial synthesis; no independent clinical review or complete source reconciliation."
   ]
 }
