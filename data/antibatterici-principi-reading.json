@@ -1,6 +1,6 @@
 {
-  "batch": "theory-dab-036-040",
-  "updatedAt": "2026-11-28T02:38:28.177313+00:00",
+  "batch": "theory-dab-041-045",
+  "updatedAt": "2026-11-28T03:17:04.242105+00:00",
   "chapterId": "antibiotico-resistenze",
   "sources": [
     {
@@ -41,14 +41,19 @@
         37,
         38,
         39,
-        40
+        40,
+        42,
+        43,
+        44,
+        45
       ],
       "partiallyReadPdfPages": [
         3,
         10,
         12,
         16,
-        17
+        17,
+        41
       ],
       "visuallyCheckedPdfPages": [
         1,
@@ -90,7 +95,12 @@
         37,
         38,
         39,
-        40
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
       ],
       "integratedPdfPages": [
         4,
@@ -120,7 +130,10 @@
         37,
         38,
         39,
-        40
+        40,
+        42,
+        43,
+        45
       ],
       "metadataOnlyPages": [
         1,
@@ -166,17 +179,21 @@
         "37": "absent",
         "38": "absent",
         "39": "absent",
-        "40": "absent"
+        "40": "absent",
+        "41": "absent",
+        "42": "absent",
+        "43": "absent",
+        "44": "absent",
+        "45": "absent"
       },
       "edition": "2026-27",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        36,
-        37,
-        38,
-        39,
-        40
+        42,
+        43,
+        44,
+        45
       ],
       "reusedPreviouslyReadPages": [
         1,
@@ -208,7 +225,12 @@
         32,
         33,
         34,
-        35
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
       ],
       "readButNotIntegratedPdfPages": [
         1,
@@ -217,21 +239,23 @@
         20,
         24,
         31,
-        36
-      ],
-      "newlyPartiallyReadPdfPages": [],
-      "newlyVisuallyCheckedPdfPages": [
         36,
-        37,
-        38,
-        39,
-        40
+        44
+      ],
+      "newlyPartiallyReadPdfPages": [
+        41
+      ],
+      "newlyVisuallyCheckedPdfPages": [
+        41,
+        42,
+        43,
+        44,
+        45
       ],
       "newlyIntegratedPdfPages": [
-        37,
-        38,
-        39,
-        40
+        42,
+        43,
+        45
       ],
       "recheckedTextPagesThisBatch": [],
       "duplicateTextGroups": [
@@ -244,12 +268,11 @@
         }
       ],
       "emptyTextExtractionPagesThisBatch": [
-        38
+        41,
+        43
       ],
       "directVisualTextReadPagesThisBatch": [
-        36,
-        38,
-        39
+        43
       ],
       "newlyIntegratedPreviouslyReadPdfPages": []
     },
@@ -268,7 +291,8 @@
         1032,
         1033,
         1034,
-        1035
+        1035,
+        1036
       ],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
@@ -283,7 +307,8 @@
         1032,
         1033,
         1034,
-        1035
+        1035,
+        1036
       ],
       "integratedPdfPages": [
         909,
@@ -291,7 +316,8 @@
         944,
         1030,
         1031,
-        1032
+        1032,
+        1036
       ],
       "metadataOnlyPages": [],
       "printedPageLabels": {
@@ -306,14 +332,14 @@
         "944": "924",
         "1033": "1013",
         "1034": "1014",
-        "1035": "1015"
+        "1035": "1015",
+        "1036": "1016"
       },
       "edition": "IX italiana 2014 / XII originale 2012",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        1034,
-        1035
+        1036
       ],
       "reusedPreviouslyReadPages": [
         907,
@@ -325,7 +351,9 @@
         1030,
         1031,
         1032,
-        1033
+        1033,
+        1034,
+        1035
       ],
       "readButNotIntegratedPdfPages": [
         907,
@@ -337,13 +365,12 @@
       ],
       "newlyPartiallyReadPdfPages": [],
       "newlyVisuallyCheckedPdfPages": [
-        1034,
-        1035
+        1036
       ],
-      "newlyIntegratedPdfPages": [],
-      "recheckedTextPagesThisBatch": [
-        1032
+      "newlyIntegratedPdfPages": [
+        1036
       ],
+      "recheckedTextPagesThisBatch": [],
       "emptyTextExtractionPagesThisBatch": [],
       "directVisualTextReadPagesThisBatch": [],
       "newlyIntegratedPreviouslyReadPdfPages": []
@@ -412,7 +439,8 @@
         26,
         27,
         28,
-        29
+        29,
+        30
       ],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
@@ -424,7 +452,8 @@
         26,
         27,
         28,
-        29
+        29,
+        30
       ],
       "integratedPdfPages": [
         21,
@@ -434,7 +463,8 @@
         26,
         27,
         28,
-        29
+        29,
+        30
       ],
       "metadataOnlyPages": [],
       "printedPageLabels": {
@@ -446,13 +476,14 @@
         "26": "25",
         "27": "26",
         "28": "27",
-        "29": "28"
+        "29": "28",
+        "30": "29"
       },
       "edition": "AA2024–25",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        29
+        30
       ],
       "reusedPreviouslyReadPages": [
         21,
@@ -462,7 +493,8 @@
         25,
         26,
         27,
-        28
+        28,
+        29
       ],
       "readButNotIntegratedPdfPages": [
         25
@@ -470,28 +502,25 @@
       "lesson": "3;14ottobre2024",
       "newlyPartiallyReadPdfPages": [],
       "newlyVisuallyCheckedPdfPages": [
-        29
+        30
       ],
       "newlyIntegratedPdfPages": [
-        28,
-        29
+        30
       ],
       "recheckedTextPagesThisBatch": [
-        28
+        29
       ],
       "emptyTextExtractionPagesThisBatch": [],
       "directVisualTextReadPagesThisBatch": [],
-      "newlyIntegratedPreviouslyReadPdfPages": [
-        28
-      ]
+      "newlyIntegratedPreviouslyReadPdfPages": []
     }
   ],
-  "totalReadPdfPages": 60,
-  "newReadPdfPages": 8,
-  "reusedReadPdfPages": 52,
-  "newPartiallyReadPdfPages": 0,
-  "chapterReviewedPdfPages": 66,
-  "chapterIntegratedPdfPages": 46,
+  "totalReadPdfPages": 66,
+  "newReadPdfPages": 6,
+  "reusedReadPdfPages": 60,
+  "newPartiallyReadPdfPages": 1,
+  "chapterReviewedPdfPages": 73,
+  "chapterIntegratedPdfPages": 51,
   "metadataOnlyPdfPages": 2,
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -502,9 +531,9 @@
   "newChapters": 0,
   "expandedExistingChapters": 1,
   "deduplication": {
-    "registryFiles": 3716,
-    "uniqueRegistryContents": 489,
-    "method": "Source hashes and explicit pages checked before extraction: no prior full-page overlap in eight requested positions. Four nonempty DAB extractions have no exact normalized prior text match. Eight distinct visible page texts, including raster-only38. Repeated timeline in APP-II28 is not independent evidence. One previously read page newly integrated; two previous page texts rechecked without recounting full readings."
+    "registryFiles": 3758,
+    "uniqueRegistryContents": 492,
+    "method": "Source hashes and explicit pages checked before extraction: no prior full-page overlap in seven requested positions. Three nonempty DAB extractions have no exact normalized prior text match. Six distinct complete visible page texts, including raster-only43; page41 partial. Repeated graphics in APP-II29 are not independent evidence. One prior page text rechecked without recounting full reading, visual inspection or integration."
   },
   "limits": [
     "DAB3: citation overlay hides central labels; only visible image text read. Excluded from fully read and integrated pages. Article DOI10.3390/pharmaceutics16091137 identified; not read in full, original figure not inspected independently.",
@@ -565,6 +594,17 @@
     "SIS2024 abstract and selected duration recommendations only: adult intra-abdominal infections, adequate source control and population distinctions. No one fixed duration or automatic prolonged abscess course, no full guideline or primary trial review.",
     "Alam2018 PHANTASi abstract read in full; randomized prehospital strategy and28-day mortality differ from Kumar2006 retrospective hypotension cohort and Liu2017 ED-registration cohort. Used for private conflict reconciliation, not a new prescribing recommendation.",
     "PITSTOP-Antibiotics2026 abstract, Key Points and introduction read; published24November2026. No full article, protocol, figures or supplements independently reviewed. Lack of demonstrated benefit for the studied prehospital strategy is not proof that treatment delay is harmless; no universal guideline reversal.",
+    "Sole-integrator original educational/editorial synthesis; full source reconciliation and independent clinical review remain open.",
+    "DAB41: raster news headline and visible legend inspected, text layer empty; chart lower axis/units and notes cut off. Partial page excluded. Historical 2018 reference is not current epidemiology; underlying Lancet study not read.",
+    "DAB42: full text and slide read. Distinguish origin of variants, selection and horizontal transfer; no purposeful mutation or universal denial of exposure effects on variability. Repeats embedded slide previously inspected in APP-II29, not independent evidence.",
+    "DAB43: empty text layer, full visible diagram and caption read directly. Sandegren2014 figure1 schematic traced through caption/reference5 to Gullberg2011. Resolves earlier APP-II29 attribution gap; source article figures not independently inspected. MSC is not MIC, a clinical breakpoint or dosing target; no numerical window imported.",
+    "DAB44: full text and image read but excluded from new integration as repeated PK/target-access material. No universal plasma/tissue conversion, no equivalence between human P-glycoprotein and bacterial efflux proteins.",
+    "DAB45 and APP-II30 (printed29): full text and page inspected. Failure causes separated from susceptibility classification. An initial antibiogram does not exclude later resistance, new infection, delivery, exposure, host or source-control problems. No automatic escalation or testing algorithm.",
+    "KATZ1036, printed1016: all visible text and table51.3 inspected. Selected qualitative failure analysis integrated. Historical7–10days after fever rule, blanket repeated culture/TDM instructions and classwide static/cidal generalizations excluded; not current clinical guidance.",
+    "APP-II29 previously fully read/visually inspected, text rechecked without recounting full reading, visual inspection or integration. Other books, other lecturers and course intervals remain open.",
+    "Gullberg2011 abstract, introduction and selected results including definitionMSC read. Captions read but original figures, full methods, supplements and dataset not independently reviewed. Experimental competition findings are not patient-level dosing or outcome evidence.",
+    "Sandegren2014 abstract, captionFigure1 and reference5 consulted for provenance, not relied on as independent primary clinical evidence. No full review or new corpus page count claimed.",
+    "CDC official page mechanisms/selection/gene transfer; EUCAST S/I/R and exposure definitions; SSC2026 selected adult reassessment, source-control and case-specific TDM statements rechecked28November2026. No full guidelines, regimens or dosing algorithms reviewed.",
     "Sole-integrator original educational/editorial synthesis; full source reconciliation and independent clinical review remain open."
   ],
   "officialSourceScopes": [
@@ -723,15 +763,31 @@
       "title": "Scales e collaboratori · PITSTOP-Antibiotics, JAMA 2026",
       "url": "https://jamanetwork.com/journals/jama/fullarticle/2857281",
       "detail": "Pubblicato il 24 novembre 2026, DOI 10.1001/jama.2026.25627. Abstract, Key Points e introduzione consultati il 28 novembre 2026. Confronto preospedaliero randomizzato in adulti con sospetta infezione, febbre e ipotensione; non intero articolo, protocollo, figure o supplementi. Risultato non esteso a ogni strategia o popolazione con sepsi."
+    },
+    {
+      "id": "CDC-SELEZIONE",
+      "title": "CDC · About Antimicrobial Resistance",
+      "url": "https://www.cdc.gov/antimicrobial-resistance/about/",
+      "detail": "Pagina aggiornata il 25 ottobre 2026, sezioni sui meccanismi, selezione e diffusione genetica consultate il 28 novembre 2026. Usata per il quadro biologico; nessun dato epidemiologico trasferito e nessuna revisione dei documenti collegati dichiarata."
+    },
+    {
+      "id": "GULLBERG-2011",
+      "title": "Gullberg e collaboratori · Selection of Resistant Bacteria at Very Low Antibiotic Concentrations",
+      "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1002158",
+      "detail": "PLoS Pathogens 2011, DOI 10.1371/journal.ppat.1002158. Abstract, introduzione e risultati selezionati sulla competizione e sulla definizione di MSC consultati il 28 novembre 2026. Non intero articolo, supplementi o figure originali ispezionati indipendentemente; nessuna concentrazione sperimentale trasferita alla pratica clinica."
     }
   ],
-  "newIntegratedPdfPages": 6,
-  "newVisualInspections": 8,
-  "previouslyReadTextPagesRechecked": 2,
-  "officialSourceRechecks": [],
-  "newDistinctReadTexts": 8,
+  "newIntegratedPdfPages": 5,
+  "newVisualInspections": 7,
+  "previouslyReadTextPagesRechecked": 1,
+  "officialSourceRechecks": [
+    "CDC-SELEZIONE",
+    "EUCAST",
+    "SSC-TEMPI"
+  ],
+  "newDistinctReadTexts": 6,
   "newRepeatedTextPagePositions": 0,
-  "automaticallyExtractedNonemptyTextPages": 7,
-  "directVisualTextReadPages": 3,
-  "newlyIntegratedPreviouslyReadPdfPages": 1
+  "automaticallyExtractedNonemptyTextPages": 5,
+  "directVisualTextReadPages": 1,
+  "newlyIntegratedPreviouslyReadPdfPages": 0
 }

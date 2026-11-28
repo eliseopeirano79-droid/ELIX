@@ -236,6 +236,31 @@ export const THEORY_ANTIBACTERIALS = {
       "formula": "Inizio: urgenza + probabilità di infezione. Prosecuzione: diagnosi + risposta + controllo della fonte. Una misura isolata non decide l’intero percorso."
     },
     {
+      "id": "selezione-e-competizione",
+      "title": "Selezione della resistenza: conta anche la competizione",
+      "refs": [
+        "DAB-SELEZIONE",
+        "APP-RISPOSTA",
+        "CDC-SELEZIONE",
+        "GULLBERG-2011"
+      ],
+      "text": "L’emergere della resistenza contiene almeno due domande: come compare una caratteristica che modifica la risposta al farmaco e perché i batteri che la possiedono diventano più frequenti. Una mutazione o l’acquisizione di materiale genetico riguarda la prima domanda; la selezione riguarda la seconda. Separarle evita di descrivere il batterio come se decidesse di costruire una difesa perché gli serve. La presenza dell’antibiotico modifica le condizioni nelle quali varianti diverse sopravvivono e si moltiplicano.\n\nLa selezione può favorire una variante già presente senza trasformare ogni batterio sensibile in uno resistente. Se i concorrenti sono maggiormente ostacolati, i portatori della caratteristica vantaggiosa possono aumentare la propria quota nella popolazione. Quota e numero assoluto sono misure differenti: dire che i resistenti diventano più frequenti non significa, da solo, che il numero totale dei batteri stia crescendo. Analogamente, un cambiamento della composizione di una popolazione non è la prova che sia comparsa una nuova mutazione durante il trattamento. La frase didattica «le mutazioni sono selezionate» va quindi riferita al destino delle varianti, senza farne un’affermazione universale sull’assenza di effetti dell’esposizione sui processi che generano variabilità.\n\nAnche concentrazioni inferiori alla MIC possono modificare la competizione. Negli esperimenti di Gullberg e collaboratori, coppie di ceppi sensibili e resistenti venivano confrontate per osservare come cambiasse il loro rapporto. Una concentrazione che lasciava ancora crescere il ceppo sensibile poteva rallentarlo abbastanza da favorire il concorrente resistente. La MIC e la minima concentrazione selettiva, MSC, rispondono dunque a domande diverse: inibizione della crescita osservabile nella prova di sensibilità e bilancio competitivo fra ceppi nelle condizioni studiate. La MSC dipende anche dal costo biologico della resistenza. Non è un nuovo breakpoint clinico né una concentrazione da raggiungere nel paziente. Questi risultati sperimentali non definiscono una dose o una soglia universale di sicurezza.\n\nIl collegamento con i bersagli farmacologici completa il ragionamento. Una modifica delle proteine leganti le penicilline, PBP, può cambiare l’interazione con un beta-lattamico; altri meccanismi possono ridurre l’accesso del farmaco, espellerlo o inattivarlo. Il meccanismo spiega come cambia la risposta del batterio, mentre la selezione spiega come cambia la frequenza dei suoi portatori. Inoltre, la diffusione di materiale genetico fra batteri consente il passaggio di caratteristiche di resistenza anche a destinatari che non erano stati direttamente esposti all’antibiotico. Selezione, trasferimento e diffusione dei microrganismi possono quindi concorrere allo stesso problema, senza essere sinonimi. La stewardship deve considerare questa dimensione di popolazione insieme all’efficacia della terapia nel singolo paziente.",
+      "formula": "Origine della variante → caratteristica del batterio. Selezione → cambiamento della sua frequenza. MIC → inibizione nel test; MSC → competizione nelle condizioni studiate."
+    },
+    {
+      "id": "risposta-insufficiente",
+      "title": "Risposta insufficiente: ricostruire la causa prima di attribuirla alla resistenza",
+      "refs": [
+        "DAB-SELEZIONE",
+        "APP-RISPOSTA",
+        "KATZ-RISPOSTA",
+        "EUCAST",
+        "SSC-TEMPI"
+      ],
+      "text": "Un esito clinico sfavorevole e un risultato di resistenza in laboratorio non descrivono lo stesso evento. Il primo riguarda una persona e l’evoluzione della sua malattia; il secondo riguarda un microrganismo, un farmaco e un’interpretazione standardizzata della sensibilità. La resistenza può contribuire all’insuccesso, ma non è l’unica spiegazione. Per lo stesso motivo, un antibiogramma favorevole non certifica che ogni altro elemento necessario alla risposta sia presente. EUCAST parla di probabilità di successo in relazione all’esposizione, non di una garanzia individuale di guarigione.\n\nIl primo livello del ragionamento riguarda la diagnosi. Il quadro osservato è ancora compatibile con l’ipotesi iniziale? Il microrganismo identificato spiega la malattia in quella sede, oppure il risultato richiede un’interpretazione diversa? Una causa non infettiva può imitare parte delle manifestazioni attribuite a un’infezione. Nell’adulto con sospetta sepsi e infezione non confermata, SSC 2026 richiede una rivalutazione continua delle diagnosi alternative. Questa indicazione non autorizza a sospendere autonomamente un trattamento: chiarisce che modificare un antibiotico non corregge necessariamente un’ipotesi diagnostica errata.\n\nIl secondo livello collega il risultato microbiologico all’esposizione realmente ottenuta. Il farmaco deve essere somministrato, assorbito quando necessario e distribuito nella sede pertinente, secondo caratteristiche che dipendono dalla molecola e dal paziente. La prescrizione registrata non coincide automaticamente con l’esposizione raggiunta. Difficoltà di assunzione, problemi di somministrazione o variazioni farmacocinetiche possono interrompere questa relazione. Non basta perciò classificare il paziente come «poco aderente»: occorre comprendere quale passaggio abbia impedito l’impiego previsto. Il monitoraggio delle concentrazioni, quando appropriato, risponde a una domanda definita; non costituisce una verifica universale per qualsiasi antibiotico.\n\nIl terzo livello riguarda il focolaio e l’ospite. Un ascesso, un’ostruzione o materiale estraneo possono mantenere condizioni favorevoli alla persistenza dell’infezione, mentre un’alterazione delle difese può modificare la capacità di risposta. Nelle infezioni che richiedono controllo della fonte, l’attività del farmaco e la gestione del problema anatomico sono complementari. L’esempio di un’infezione associata a un’ostruzione aiuta a separare il bersaglio batterico dalla condizione che sostiene il focolaio: aumentare lo spettro non rimuove l’ostacolo anatomico. Le raccomandazioni SSC collegano esplicitamente la valutazione della fonte al percorso della sepsi.\n\nInfine, il quadro può cambiare nel tempo: un altro microrganismo può contribuire a una nuova infezione oppure può emergere una popolazione con diversa sensibilità. Il risultato iniziale rimane un dato riferito al campione e al momento in cui è stato ottenuto. La conclusione didattica non è ripetere indiscriminatamente esami o ampliare sempre la terapia, ma distinguere le ipotesi che una rivalutazione clinica deve risolvere. Diagnosi, microrganismo, esposizione, focolaio e difese dell’ospite formano una spiegazione articolata della risposta; nessuno di questi elementi, isolato, sostituisce gli altri.",
+      "formula": "Risposta insufficiente → riesaminare diagnosi, pertinenza microbiologica, esposizione, focolaio e ospite. Esito clinico e categoria di sensibilità restano informazioni distinte."
+    },
+    {
       "id": "stewardship-rivalutazione",
       "title": "Stewardship: rendere la scelta verificabile e rivederla",
       "refs": [
@@ -386,6 +411,22 @@ export const THEORY_ANTIBACTERIALS = {
     {
       "question": "La scomparsa della febbre o il prolungamento del trattamento garantiscono da soli l’eradicazione?",
       "answer": "No. La durata richiede un piano e una rivalutazione clinica riferiti a diagnosi, ospite, risposta e controllo della fonte; nessun singolo indicatore equivale a guarigione microbiologica."
+    },
+    {
+      "question": "L’aumento della quota di batteri resistenti dimostra una nuova mutazione durante il trattamento?",
+      "answer": "No. Può riflettere la selezione di varianti già presenti. Frequenza relativa, numero assoluto e comparsa di una variante sono informazioni differenti."
+    },
+    {
+      "question": "Una concentrazione inferiore alla MIC è necessariamente priva di effetti selettivi?",
+      "answer": "No. In condizioni sperimentali può modificare la competizione fra ceppi. La MSC descrive quel confronto e non è una soglia clinica o un obiettivo di dosaggio."
+    },
+    {
+      "question": "Una risposta clinica insufficiente equivale a un antibiogramma resistente?",
+      "answer": "No. Vanno distinti esito clinico, sensibilità, diagnosi, esposizione ottenuta, focolaio e condizioni dell’ospite. Un risultato favorevole non garantisce da solo il successo."
+    },
+    {
+      "question": "Ampliare lo spettro risolve necessariamente un’infezione sostenuta da un’ostruzione?",
+      "answer": "No. L’attività sul batterio e il controllo della fonte affrontano aspetti complementari. La modifica del farmaco non rimuove di per sé l’ostacolo anatomico."
     }
   ],
   "references": [
@@ -629,6 +670,33 @@ export const THEORY_ANTIBACTERIALS = {
       "title": "Scales e collaboratori · PITSTOP-Antibiotics, JAMA 2026",
       "url": "https://jamanetwork.com/journals/jama/fullarticle/2857281",
       "detail": "Pubblicato il 24 novembre 2026, DOI 10.1001/jama.2026.25627. Abstract, Key Points e introduzione consultati il 28 novembre 2026. Confronto preospedaliero randomizzato in adulti con sospetta infezione, febbre e ipotensione; non intero articolo, protocollo, figure o supplementi. Risultato non esteso a ogni strategia o popolazione con sepsi."
+    },
+    {
+      "id": "DAB-SELEZIONE",
+      "title": "Diapositive del corso di Farmacologia II · AA 2026–27 · Selezione e risposta",
+      "detail": "PDF 42–45 letti integralmente come pagine visibili; integrati 42, 43 e 45. PDF 41 solo parziale: grafico tagliato e dati epidemiologici esclusi. PDF 43 privo di testo estraibile, letto nell’immagine; schema ricondotto a Sandegren 2014 e al lavoro primario di Gullberg 2011. Nessuna figura riprodotta; ripetizioni negli appunti non contate come prove indipendenti."
+    },
+    {
+      "id": "APP-RISPOSTA",
+      "title": "Appunti del corso di Farmacologia II · AA 2024–25 · Lezione 3, 14 ottobre 2024",
+      "detail": "PDF 30, stampa 29, letto e ispezionato integralmente; passaggi selezionati su cause di risposta insufficiente e meccanismi. PDF 29, stampa 28, già letto, ricontrollato solo nel testo senza nuova integrazione di pagina. Escluse equivalenze universali fra plasma e tessuti e fra disponibilità dell’antibiogramma e assenza di resistenza."
+    },
+    {
+      "id": "KATZ-RISPOSTA",
+      "title": "Katzung · Farmacologia generale e clinica · Risposta terapeutica",
+      "detail": "IX edizione italiana 2014, dalla XII originale 2012, capitolo 51: PDF 1036, stampa 1016, letto nel testo e nella tabella 51.3. Integrata la distinzione delle possibili cause di insuccesso. Regola storica sulla durata dopo la febbre, prescrizioni di controlli indiscriminati e generalizzazioni di classe della tabella esclusi."
+    },
+    {
+      "id": "CDC-SELEZIONE",
+      "title": "CDC · About Antimicrobial Resistance",
+      "url": "https://www.cdc.gov/antimicrobial-resistance/about/",
+      "detail": "Pagina aggiornata il 25 ottobre 2026, sezioni sui meccanismi, selezione e diffusione genetica consultate il 28 novembre 2026. Usata per il quadro biologico; nessun dato epidemiologico trasferito e nessuna revisione dei documenti collegati dichiarata."
+    },
+    {
+      "id": "GULLBERG-2011",
+      "title": "Gullberg e collaboratori · Selection of Resistant Bacteria at Very Low Antibiotic Concentrations",
+      "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1002158",
+      "detail": "PLoS Pathogens 2011, DOI 10.1371/journal.ppat.1002158. Abstract, introduzione e risultati selezionati sulla competizione e sulla definizione di MSC consultati il 28 novembre 2026. Non intero articolo, supplementi o figure originali ispezionati indipendentemente; nessuna concentrazione sperimentale trasferita alla pratica clinica."
     }
   ],
   "drugs": [],
@@ -637,7 +705,7 @@ export const THEORY_ANTIBACTERIALS = {
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-28",
   "readingManifest": "./data/antibatterici-principi-reading.json",
-  "coverage": "Copertura cumulativa circoscritta: 60 posizioni PDF lette integralmente come pagine visibili (2 metadati), 6 parziali escluse, 66 ispezioni e 46 pagine con passaggi integrati. Questo lotto: 8 nuove pagine lette e ispezionate; 6 nuove integrazioni di pagina, di cui una già letta nel lotto precedente. Due pagine precedenti ricontrollate solo nel testo. Figure ripetute fra slide e appunti non sono prove indipendenti. Regimi storici e generalizzazioni quantitative esclusi. Nessun intero libro o corso letto; nessuna revisione clinica indipendente.",
+  "coverage": "Copertura cumulativa circoscritta: 66 posizioni PDF lette integralmente come pagine visibili (2 metadati), 7 parziali escluse, 73 ispezioni e 51 pagine con passaggi integrati. Questo lotto: 6 nuove letture complete, una parziale, 7 ispezioni e 5 nuove integrazioni. Una pagina precedente ricontrollata solo nel testo. Figure ripetute fra slide e appunti non sono prove indipendenti; il diagramma sulla selezione è stato ricondotto alla sua citazione primaria. Nessun intero libro o corso letto; nessuna revisione clinica indipendente.",
   "moleculeLinks": [
     {
       "id": "CHEMBL1082",
@@ -658,5 +726,5 @@ export const THEORY_ANTIBACTERIALS = {
     "formulazioni-sali-bioequivalenza",
     "clearance-biliare-renale"
   ],
-  "wordCount": 7118
+  "wordCount": 7943
 };
