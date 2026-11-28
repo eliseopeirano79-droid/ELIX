@@ -1,6 +1,6 @@
 {
-  "batch": "theory-dab-011-015",
-  "updatedAt": "2026-11-27T23:34:57.406360+00:00",
+  "batch": "theory-dab-016-020",
+  "updatedAt": "2026-11-28T00:12:11.265454+00:00",
   "chapterId": "antibiotico-resistenze",
   "sources": [
     {
@@ -18,12 +18,17 @@
         11,
         13,
         14,
-        15
+        15,
+        18,
+        19,
+        20
       ],
       "partiallyReadPdfPages": [
         3,
         10,
-        12
+        12,
+        16,
+        17
       ],
       "visuallyCheckedPdfPages": [
         1,
@@ -40,7 +45,12 @@
         12,
         13,
         14,
-        15
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
       ],
       "integratedPdfPages": [
         4,
@@ -52,7 +62,8 @@
         11,
         13,
         14,
-        15
+        15,
+        19
       ],
       "metadataOnlyPages": [
         1,
@@ -73,16 +84,20 @@
         "13": "absent",
         "14": "absent",
         "15": "absent",
-        "12": "absent"
+        "12": "absent",
+        "16": "absent",
+        "17": "absent",
+        "18": "absent",
+        "19": "absent",
+        "20": "absent"
       },
       "edition": "2026-27",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        11,
-        13,
-        14,
-        15
+        18,
+        19,
+        20
       ],
       "reusedPreviouslyReadPages": [
         1,
@@ -92,29 +107,44 @@
         6,
         7,
         8,
-        9
+        9,
+        11,
+        13,
+        14,
+        15
       ],
       "readButNotIntegratedPdfPages": [
         1,
-        2
+        2,
+        18,
+        20
       ],
       "newlyPartiallyReadPdfPages": [
-        12
+        16,
+        17
       ],
       "newlyVisuallyCheckedPdfPages": [
-        11,
-        12,
-        13,
-        14,
-        15
+        16,
+        17,
+        18,
+        19,
+        20
       ],
       "newlyIntegratedPdfPages": [
-        11,
-        13,
-        14,
-        15
+        19
       ],
-      "recheckedTextPagesThisBatch": []
+      "recheckedTextPagesThisBatch": [
+        4
+      ],
+      "duplicateTextGroups": [
+        {
+          "pages": [
+            18,
+            20
+          ],
+          "visualEmphasisDiffers": true
+        }
+      ]
     },
     {
       "id": "KATZ",
@@ -171,7 +201,6 @@
       "newlyVisuallyCheckedPdfPages": [],
       "newlyIntegratedPdfPages": [],
       "recheckedTextPagesThisBatch": [
-        1031,
         1032
       ]
     },
@@ -275,18 +304,16 @@
       "newlyVisuallyCheckedPdfPages": [],
       "newlyIntegratedPdfPages": [],
       "recheckedTextPagesThisBatch": [
-        22,
-        23,
-        24
+        25
       ]
     }
   ],
-  "totalReadPdfPages": 27,
-  "newReadPdfPages": 4,
-  "reusedReadPdfPages": 23,
-  "newPartiallyReadPdfPages": 1,
-  "chapterReviewedPdfPages": 31,
-  "chapterIntegratedPdfPages": 22,
+  "totalReadPdfPages": 30,
+  "newReadPdfPages": 3,
+  "reusedReadPdfPages": 27,
+  "newPartiallyReadPdfPages": 2,
+  "chapterReviewedPdfPages": 36,
+  "chapterIntegratedPdfPages": 23,
   "metadataOnlyPdfPages": 2,
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -297,9 +324,9 @@
   "newChapters": 0,
   "expandedExistingChapters": 1,
   "deduplication": {
-    "registryFiles": 478,
-    "uniqueRegistryContents": 415,
-    "method": "Source SHA256 and explicit page records; new DAB interval has no prior overlap. Previous23 complete chapter pages retained;5 previously read support pages rechecked but not counted as new."
+    "registryFiles": 3548,
+    "uniqueRegistryContents": 477,
+    "method": "Source hashes and explicit page positions; no prior overlap16–20. Normalized extracted text18=20; different highlighted topic recorded. Three full PDF positions but two distinct texts; only19 newly integrated. Prior27 full page positions retained."
   },
   "limits": [
     "DAB3: citation overlay hides central labels; only visible image text read. Excluded from fully read and integrated pages. Article DOI10.3390/pharmaceutics16091137 identified; not read in full, original figure not inspected independently.",
@@ -314,20 +341,25 @@
     "DAB11: schematic serial dilution and subculture illustration read; no concentrations, validated bactericidal endpoint or universal incubation duration inferred. Original diagram not reproduced.",
     "DAB13 blood-concentration shorthand and DAB14 fixed tenfold definition are not current universal interpretive rules; reconciled with EUCAST exposure, ECOFF and breakpoint concepts.",
     "KATZ1031–1032 and APP-II22–24 text rechecked from existing extractions; no newly read book pages or repeat full-figure inspections claimed. Other lecturers and course intervals remain to be reconciled.",
-    "EUCAST web introductions and specified sections only; no species MIC datasets, complete numerical tables, linked SOPs or articles independently reviewed."
+    "EUCAST web introductions and specified sections only; no species MIC datasets, complete numerical tables, linked SOPs or articles independently reviewed.",
+    "DAB16–17: historical S/I/R diagrams have overlaid callouts obscuring chart details. Visible headings and text inspected, but pages classified as partial and excluded from complete reading and integration. No historic numerical breakpoint or underlying dataset reproduced.",
+    "DAB18 and DAB20 have identical normalized extracted text but different visual emphasis (host versus drug). Both PDF positions inspected; one repeated text, no distinct new synthesis or integration. The general triad was already covered.",
+    "NICE CG183 selected official indexed recommendation text consulted; direct HTML/PDF fetches returned 403. Full current page and complete guideline not verified; limitation retained. CDC and EMA pages directly consulted for the relevant claims.",
+    "KATZ1032, APP-II25 and DAB4 existing text extractions rechecked; no new book pages or repeat full-figure inspections claimed. APP-II25 remains excluded from integration; quantitative PK/PD generalizations and incomplete continuation not used.",
+    "EMA Cubicin selected renal function, myopathy, interactions and pregnancy passages only; no dose, numerical threshold, monitoring schedule or full product review. Clinical synthesis is educational and not independently validated."
   ],
   "officialSourceScopes": [
     {
       "id": "EMA-DAP",
       "title": "EMA · Cubicin, informazioni del prodotto",
       "url": "https://www.ema.europa.eu/en/documents/product-information/cubicin-epar-product-information_en.pdf",
-      "detail": "Consultazione27novembre2026:selezioni4.4(pneumonia) e5.1(meccanismo). Non intero RCP; nessuna dose o nuovo profilo."
+      "detail": "Consultazione27novembre2026:selezioni4.4(pneumonia) e5.1(meccanismo). Non intero RCP; nessuna dose o nuovo profilo. Selezioni su eliminazione renale (§4.2), miopatia e funzione renale (§4.4), interazioni (§4.5) e gravidanza (§4.6) consultate il 28 novembre 2026. Nessun dosaggio o calendario di monitoraggio trasferito."
     },
     {
       "id": "EUCAST",
       "title": "EUCAST · Definizioni S,I eR",
       "url": "https://www.eucast.org/bacteria/clinical-breakpoints-and-interpretation/definition-of-s-i-and-r/",
-      "detail": "Consultazione27novembre2026: definizioni ed esposizione. Nessun algoritmo prescrittivo."
+      "detail": "Consultazione27novembre2026: definizioni ed esposizione. Nessun algoritmo prescrittivo. Riconsultate anche le sezioni wild type/ECOFF e terminologia il27novembre2026."
     },
     {
       "id": "EUCAST-TABLES",
@@ -388,19 +420,29 @@
       "title": "EUCAST · About Clinical Breakpoint Tables",
       "url": "https://www.eucast.org/bacteria/development-of-clinical-breakpoints-and-ecoffs/about-clinical-breakpoints/",
       "detail": "Introduzione e paragrafo su aggiornamenti, correzioni e addenda consultati il27novembre2026. Esempi numerici della pagina non trasferiti come criteri clinici."
-    }
-  ],
-  "newIntegratedPdfPages": 4,
-  "newVisualInspections": 5,
-  "previouslyReadTextPagesRechecked": 5,
-  "officialSourceRechecks": [
-    {
-      "url": "https://www.eucast.org/bacteria/clinical-breakpoints-and-interpretation/definition-of-s-i-and-r/",
-      "scope": "Definitions, exposure, terminology and WT/ECOFF sections"
     },
     {
-      "url": "https://www.eucast.org/bacteria/clinical-breakpoints-and-interpretation/clinical-breakpoint-tables/",
-      "scope": "Current indexv16.1 valid24June–31December2026; numerical tables not read in full"
+      "id": "NICE-ALL",
+      "title": "NICE · Drug allergy: diagnosis and management, CG183",
+      "url": "https://www.nice.org.uk/guidance/cg183/chapter/Recommendations",
+      "detail": "Raccomandazioni 1.1.2–1.1.3 e 1.2.1–1.2.6 consultate in estratti indicizzati ufficiali il 28 novembre 2026. Linea guida pubblicata nel 2014; accesso diretto alla pagina non riuscito (403). Nessuna lettura integrale o verifica indipendente dell’intero percorso dichiarata."
+    },
+    {
+      "id": "CDC-ALL",
+      "title": "CDC · Clinical Features of Penicillin Allergy",
+      "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-signs/index.html",
+      "detail": "Pagina del 25 agosto 2025, consultata il 28 novembre 2026: etichette allergologiche, anamnesi, reazioni ritardate gravi e limiti della rivalutazione. Nessuna percentuale o procedura di test trasferita."
     }
-  ]
+  ],
+  "newIntegratedPdfPages": 1,
+  "newVisualInspections": 5,
+  "previouslyReadTextPagesRechecked": 3,
+  "officialSourceRechecks": [
+    {
+      "url": "https://www.ema.europa.eu/en/documents/product-information/cubicin-epar-product-information_en.pdf",
+      "scope": "Selected4.2,4.4,4.5,4.6 host factors; not whole SmPC."
+    }
+  ],
+  "newDistinctReadTexts": 2,
+  "newRepeatedTextPagePositions": 1
 }
