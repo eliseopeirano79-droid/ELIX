@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-28T03:19:18.648405+00:00",
-  "batch": "theory-dab-041-045",
+  "updatedAt": "2026-11-28T03:58:12.419148+00:00",
+  "batch": "theory-dab-046-050",
   "status": "local_verified_pending_publication",
-  "release": "0.131.0",
-  "branch": "feat/theory-dab-041-045",
-  "baseCommit": "0ced6655f596d984188766bf6f0e1a896699bdcd",
+  "release": "0.132.0",
+  "branch": "feat/theory-dab-046-050",
+  "baseCommit": "ce434385eaff5ba658ac0e3f9c5f1942a88e4cf5",
   "previousBatch": {
-    "batch": "theory-dab-036-040",
-    "release": "0.130.0",
-    "commit": "0ced6655f596d984188766bf6f0e1a896699bdcd",
+    "batch": "theory-dab-041-045",
+    "release": "0.131.0",
+    "commit": "ce434385eaff5ba658ac0e3f9c5f1942a88e4cf5",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Selezione, competizione e MSC; risposta insufficiente, diagnosi, esposizione, focolaio e ospite."
+    "Origine, trasmissione e meccanismi della resistenza: genetica, fenotipi attesi, accesso, efflusso, inattivazione e bersagli."
   ],
   "completed": [
-    "Due nuove sezioni: 22 sezioni, 7943 parole, 39 quesiti, 20 schemi originali.",
-    "Sei nuove pagine lette completamente, una parziale, sette ispezionate e cinque integrate. Una precedente pagina ricontrollata nel testo.",
+    "Due nuove sezioni: 24 sezioni, 8844 parole, 43 quesiti, 22 schemi originali.",
+    "Otto nuove pagine lette completamente e ispezionate; sei integrate. Due precedenti pagine ricontrollate nel testo.",
     "53 controlli locali e otto configurazioni browser superati; otto immagini ispezionate.",
-    "Aggiornamento reale0.130.0→0.131.0 con dati salvati, tema e offline conservati;20 sezioni precedenti e66 altri capitoli invariati."
+    "Aggiornamento reale0.131.0→0.132.0 con dati salvati, tema e offline conservati;22 sezioni precedenti e66 altri capitoli invariati."
   ],
   "remaining": [
     "Commit, CI, deploy e verifica online."
@@ -124,9 +124,20 @@
     "Gullberg2011 abstract, introduction and selected results including definitionMSC read. Captions read but original figures, full methods, supplements and dataset not independently reviewed. Experimental competition findings are not patient-level dosing or outcome evidence.",
     "Sandegren2014 abstract, captionFigure1 and reference5 consulted for provenance, not relied on as independent primary clinical evidence. No full review or new corpus page count claimed.",
     "CDC official page mechanisms/selection/gene transfer; EUCAST S/I/R and exposure definitions; SSC2026 selected adult reassessment, source-control and case-specific TDM statements rechecked28November2026. No full guidelines, regimens or dosing algorithms reviewed.",
-    "Sole-integrator original educational/editorial synthesis; full source reconciliation and independent clinical review remain open."
+    "Sole-integrator original educational/editorial synthesis; full source reconciliation and independent clinical review remain open.",
+    "DAB46–47: complete visible text and diagrams read. Biological origin, genetic location, transfer and biochemical mechanism separated. Unsupported10%/90% proportions and chromosome=single-drug/plasmid=multidrug generalizations excluded; horizontal transfer not restricted to extrachromosomal material.",
+    "DAB48: full visible list read; mixed bacterial/fungal examples separated. Flucytosine, polyenes, unsupported autolysin generalization and universal receptor terminology excluded.",
+    "DAB49–50: extracted text consists only of the same heading; complete distinct diagram labels/captions read directly. This heading match is not a duplicate complete page. No source artwork reproduced. Unspecified1000-molecules-per-second enzyme rate excluded.",
+    "DAB50: PBP alteration distinguished from the D-Ala–D-Lac precursor change associated with VanA. Generic series-of-mutations wording not treated as a complete genetic explanation or universal mechanism of vancomycin resistance.",
+    "APP-II31, printed30: all text and both graphics inspected. Repeated DAB49 graphic is not independent evidence. Clavulanate explanation corrected using FDA mechanism/inhibition limits; unsupported50% epidemiologic split and food/adulteration assertions excluded.",
+    "KATZ1037–1038, printed1017–1018: full text and tables51.4/51.5 including visible footnotes read. Not integrated: historical regimens, renal/hepatic adjustment tables, drug-level cutoffs and older vancomycin monitoring evidence not adopted as current guidance. Prior2020 consensus comparison retained, not newly re-read.",
+    "KATZ907 and909 existing extractions rechecked in text only; no new complete reading, visual inspection or integration counted. Page907 remains not integrated. Completed909 mechanism text only; interrupted continuation not inferred. Other books, other lecturers and course intervals remain open.",
+    "EUCAST current expected-phenotype index plus introduction/definitions pages1–2 of v1.2January2023 consulted; numerical species tables not reviewed or imported. CDC one-page transfer sheet text and diagrams inspected; no original artwork reproduced.",
+    "FDA AUGMENTIN July2026 section12.4 mechanism/resistance paragraphs only, not full product review, dose, regimen or clinical recommendation. Inhibitor activity against certain enzymes does not establish universal reversal of resistance.",
+    "Roper2000 and Arthur1992 abstracts read in full, not complete papers, figures or datasets. Arthur PubMed record failed to render abstract; publisher page succeeded. Bugg1991 abstract read for background, not used as a full-paper claim or numerical affinity source.",
+    "Sole-integrator original educational/editorial synthesis; no independent clinical review or complete source reconciliation."
   ],
-  "nextBatch": "Completare DAB 41–45; poi DAB 46–50. Farmaci, profili e laboratori nel backlog.",
+  "nextBatch": "Completare DAB 46–50; poi DAB 51–55. Farmaci, profili e laboratori nel backlog.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",

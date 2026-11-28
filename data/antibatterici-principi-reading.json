@@ -1,6 +1,6 @@
 {
-  "batch": "theory-dab-041-045",
-  "updatedAt": "2026-11-28T03:17:04.242105+00:00",
+  "batch": "theory-dab-046-050",
+  "updatedAt": "2026-11-28T03:55:53.264336+00:00",
   "chapterId": "antibiotico-resistenze",
   "sources": [
     {
@@ -45,7 +45,12 @@
         42,
         43,
         44,
-        45
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
       ],
       "partiallyReadPdfPages": [
         3,
@@ -100,7 +105,12 @@
         42,
         43,
         44,
-        45
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
       ],
       "integratedPdfPages": [
         4,
@@ -133,7 +143,12 @@
         40,
         42,
         43,
-        45
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
       ],
       "metadataOnlyPages": [
         1,
@@ -184,16 +199,22 @@
         "42": "absent",
         "43": "absent",
         "44": "absent",
-        "45": "absent"
+        "45": "absent",
+        "46": "absent",
+        "47": "absent",
+        "48": "absent",
+        "49": "absent",
+        "50": "absent"
       },
       "edition": "2026-27",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        42,
-        43,
-        44,
-        45
+        46,
+        47,
+        48,
+        49,
+        50
       ],
       "reusedPreviouslyReadPages": [
         1,
@@ -230,7 +251,11 @@
         37,
         38,
         39,
-        40
+        40,
+        42,
+        43,
+        44,
+        45
       ],
       "readButNotIntegratedPdfPages": [
         1,
@@ -242,20 +267,20 @@
         36,
         44
       ],
-      "newlyPartiallyReadPdfPages": [
-        41
-      ],
+      "newlyPartiallyReadPdfPages": [],
       "newlyVisuallyCheckedPdfPages": [
-        41,
-        42,
-        43,
-        44,
-        45
+        46,
+        47,
+        48,
+        49,
+        50
       ],
       "newlyIntegratedPdfPages": [
-        42,
-        43,
-        45
+        46,
+        47,
+        48,
+        49,
+        50
       ],
       "recheckedTextPagesThisBatch": [],
       "duplicateTextGroups": [
@@ -267,14 +292,21 @@
           "visualEmphasisDiffers": true
         }
       ],
-      "emptyTextExtractionPagesThisBatch": [
-        41,
-        43
-      ],
+      "emptyTextExtractionPagesThisBatch": [],
       "directVisualTextReadPagesThisBatch": [
-        43
+        49,
+        50
       ],
-      "newlyIntegratedPreviouslyReadPdfPages": []
+      "newlyIntegratedPreviouslyReadPdfPages": [],
+      "headingOnlyDuplicateGroups": [
+        {
+          "pages": [
+            49,
+            50
+          ],
+          "completeVisibleTextDuplicate": false
+        }
+      ]
     },
     {
       "id": "KATZ",
@@ -292,7 +324,9 @@
         1033,
         1034,
         1035,
-        1036
+        1036,
+        1037,
+        1038
       ],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
@@ -308,7 +342,9 @@
         1033,
         1034,
         1035,
-        1036
+        1036,
+        1037,
+        1038
       ],
       "integratedPdfPages": [
         909,
@@ -333,13 +369,16 @@
         "1033": "1013",
         "1034": "1014",
         "1035": "1015",
-        "1036": "1016"
+        "1036": "1016",
+        "1037": "1017",
+        "1038": "1018"
       },
       "edition": "IX italiana 2014 / XII originale 2012",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        1036
+        1037,
+        1038
       ],
       "reusedPreviouslyReadPages": [
         907,
@@ -353,7 +392,8 @@
         1032,
         1033,
         1034,
-        1035
+        1035,
+        1036
       ],
       "readButNotIntegratedPdfPages": [
         907,
@@ -361,16 +401,20 @@
         942,
         1033,
         1034,
-        1035
+        1035,
+        1037,
+        1038
       ],
       "newlyPartiallyReadPdfPages": [],
       "newlyVisuallyCheckedPdfPages": [
-        1036
+        1037,
+        1038
       ],
-      "newlyIntegratedPdfPages": [
-        1036
+      "newlyIntegratedPdfPages": [],
+      "recheckedTextPagesThisBatch": [
+        907,
+        909
       ],
-      "recheckedTextPagesThisBatch": [],
       "emptyTextExtractionPagesThisBatch": [],
       "directVisualTextReadPagesThisBatch": [],
       "newlyIntegratedPreviouslyReadPdfPages": []
@@ -440,7 +484,8 @@
         27,
         28,
         29,
-        30
+        30,
+        31
       ],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
@@ -453,7 +498,8 @@
         27,
         28,
         29,
-        30
+        30,
+        31
       ],
       "integratedPdfPages": [
         21,
@@ -464,7 +510,8 @@
         27,
         28,
         29,
-        30
+        30,
+        31
       ],
       "metadataOnlyPages": [],
       "printedPageLabels": {
@@ -477,13 +524,14 @@
         "27": "26",
         "28": "27",
         "29": "28",
-        "30": "29"
+        "30": "29",
+        "31": "30"
       },
       "edition": "AA2024–25",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        30
+        31
       ],
       "reusedPreviouslyReadPages": [
         21,
@@ -494,7 +542,8 @@
         26,
         27,
         28,
-        29
+        29,
+        30
       ],
       "readButNotIntegratedPdfPages": [
         25
@@ -502,25 +551,23 @@
       "lesson": "3;14ottobre2024",
       "newlyPartiallyReadPdfPages": [],
       "newlyVisuallyCheckedPdfPages": [
-        30
+        31
       ],
       "newlyIntegratedPdfPages": [
-        30
+        31
       ],
-      "recheckedTextPagesThisBatch": [
-        29
-      ],
+      "recheckedTextPagesThisBatch": [],
       "emptyTextExtractionPagesThisBatch": [],
       "directVisualTextReadPagesThisBatch": [],
       "newlyIntegratedPreviouslyReadPdfPages": []
     }
   ],
-  "totalReadPdfPages": 66,
-  "newReadPdfPages": 6,
-  "reusedReadPdfPages": 60,
-  "newPartiallyReadPdfPages": 1,
-  "chapterReviewedPdfPages": 73,
-  "chapterIntegratedPdfPages": 51,
+  "totalReadPdfPages": 74,
+  "newReadPdfPages": 8,
+  "reusedReadPdfPages": 66,
+  "newPartiallyReadPdfPages": 0,
+  "chapterReviewedPdfPages": 81,
+  "chapterIntegratedPdfPages": 57,
   "metadataOnlyPdfPages": 2,
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -531,9 +578,9 @@
   "newChapters": 0,
   "expandedExistingChapters": 1,
   "deduplication": {
-    "registryFiles": 3758,
-    "uniqueRegistryContents": 492,
-    "method": "Source hashes and explicit pages checked before extraction: no prior full-page overlap in seven requested positions. Three nonempty DAB extractions have no exact normalized prior text match. Six distinct complete visible page texts, including raster-only43; page41 partial. Repeated graphics in APP-II29 are not independent evidence. One prior page text rechecked without recounting full reading, visual inspection or integration."
+    "registryFiles": 3800,
+    "uniqueRegistryContents": 495,
+    "method": "Source hashes and explicit pages checked before extraction: no prior full-page overlap in eight requested positions. DAB49/50 match only in their extracted heading; distinct full image texts read. Eight distinct complete visible pages. APP-II31 repeats DAB49 graphic, not independent evidence. Two old book pages rechecked only in text, not recounted."
   },
   "limits": [
     "DAB3: citation overlay hides central labels; only visible image text read. Excluded from fully read and integrated pages. Article DOI10.3390/pharmaceutics16091137 identified; not read in full, original figure not inspected independently.",
@@ -605,7 +652,18 @@
     "Gullberg2011 abstract, introduction and selected results including definitionMSC read. Captions read but original figures, full methods, supplements and dataset not independently reviewed. Experimental competition findings are not patient-level dosing or outcome evidence.",
     "Sandegren2014 abstract, captionFigure1 and reference5 consulted for provenance, not relied on as independent primary clinical evidence. No full review or new corpus page count claimed.",
     "CDC official page mechanisms/selection/gene transfer; EUCAST S/I/R and exposure definitions; SSC2026 selected adult reassessment, source-control and case-specific TDM statements rechecked28November2026. No full guidelines, regimens or dosing algorithms reviewed.",
-    "Sole-integrator original educational/editorial synthesis; full source reconciliation and independent clinical review remain open."
+    "Sole-integrator original educational/editorial synthesis; full source reconciliation and independent clinical review remain open.",
+    "DAB46–47: complete visible text and diagrams read. Biological origin, genetic location, transfer and biochemical mechanism separated. Unsupported10%/90% proportions and chromosome=single-drug/plasmid=multidrug generalizations excluded; horizontal transfer not restricted to extrachromosomal material.",
+    "DAB48: full visible list read; mixed bacterial/fungal examples separated. Flucytosine, polyenes, unsupported autolysin generalization and universal receptor terminology excluded.",
+    "DAB49–50: extracted text consists only of the same heading; complete distinct diagram labels/captions read directly. This heading match is not a duplicate complete page. No source artwork reproduced. Unspecified1000-molecules-per-second enzyme rate excluded.",
+    "DAB50: PBP alteration distinguished from the D-Ala–D-Lac precursor change associated with VanA. Generic series-of-mutations wording not treated as a complete genetic explanation or universal mechanism of vancomycin resistance.",
+    "APP-II31, printed30: all text and both graphics inspected. Repeated DAB49 graphic is not independent evidence. Clavulanate explanation corrected using FDA mechanism/inhibition limits; unsupported50% epidemiologic split and food/adulteration assertions excluded.",
+    "KATZ1037–1038, printed1017–1018: full text and tables51.4/51.5 including visible footnotes read. Not integrated: historical regimens, renal/hepatic adjustment tables, drug-level cutoffs and older vancomycin monitoring evidence not adopted as current guidance. Prior2020 consensus comparison retained, not newly re-read.",
+    "KATZ907 and909 existing extractions rechecked in text only; no new complete reading, visual inspection or integration counted. Page907 remains not integrated. Completed909 mechanism text only; interrupted continuation not inferred. Other books, other lecturers and course intervals remain open.",
+    "EUCAST current expected-phenotype index plus introduction/definitions pages1–2 of v1.2January2023 consulted; numerical species tables not reviewed or imported. CDC one-page transfer sheet text and diagrams inspected; no original artwork reproduced.",
+    "FDA AUGMENTIN July2026 section12.4 mechanism/resistance paragraphs only, not full product review, dose, regimen or clinical recommendation. Inhibitor activity against certain enzymes does not establish universal reversal of resistance.",
+    "Roper2000 and Arthur1992 abstracts read in full, not complete papers, figures or datasets. Arthur PubMed record failed to render abstract; publisher page succeeded. Bugg1991 abstract read for background, not used as a full-paper claim or numerical affinity source.",
+    "Sole-integrator original educational/editorial synthesis; no independent clinical review or complete source reconciliation."
   ],
   "officialSourceScopes": [
     {
@@ -775,19 +833,47 @@
       "title": "Gullberg e collaboratori · Selection of Resistant Bacteria at Very Low Antibiotic Concentrations",
       "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1002158",
       "detail": "PLoS Pathogens 2011, DOI 10.1371/journal.ppat.1002158. Abstract, introduzione e risultati selezionati sulla competizione e sulla definizione di MSC consultati il 28 novembre 2026. Non intero articolo, supplementi o figure originali ispezionati indipendentemente; nessuna concentrazione sperimentale trasferita alla pratica clinica."
+    },
+    {
+      "id": "CDC-TRASFERIMENTO",
+      "title": "CDC · How Antibiotic Resistance Moves Directly Germ to Germ",
+      "url": "https://www.cdc.gov/antimicrobial-resistance/media/pdfs/How-AR-Moves-508.pdf",
+      "detail": "Scheda di una pagina: testo e diagrammi consultati il 28 novembre 2026. Trasmissione verticale, elementi mobili e tre vie di trasferimento orizzontale; sintesi originale, senza riproduzione dei diagrammi."
+    },
+    {
+      "id": "EUCAST-FENOTIPI",
+      "title": "EUCAST · Expected Resistant Phenotypes, versione 1.2, gennaio 2023",
+      "url": "https://www.eucast.org/fileadmin/eucast/pdf/expert_rules/Expected_Resistant_Phenotypes_v1.2_20230113.pdf",
+      "detail": "Introduzione e definizioni delle pagine 1–2, con indice ufficiale corrente, consultati il 28 novembre 2026. Distinzione dalla precedente terminologia e verifica dei risultati inattesi; non revisione completa delle tabelle per specie, nessuna soglia numerica trasferita."
+    },
+    {
+      "id": "FDA-AUGMENTIN-MECCANISMI",
+      "title": "FDA · AUGMENTIN · Prescribing Information, luglio 2026",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/050725s037lbl.pdf",
+      "detail": "Sezione 12.4, paragrafi Mechanism of Action e Resistance, pagina 33, consultati il 28 novembre 2026. Distinti bersaglio PBP, inattivazione da beta-lattamasi e limite dell’inibitore. Nessun dosaggio, indicazione o algoritmo clinico trasferito; non intera scheda revisionata."
+    },
+    {
+      "id": "ROPER-VANA",
+      "title": "Roper e collaboratori · Struttura della ligasi VanA",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10908650/",
+      "detail": "PNAS 2000, DOI 10.1073/pnas.150116497. Abstract letto integralmente il 28 novembre 2026 per la biosintesi dei precursori alternativi. Non articolo completo, figure strutturali o dati sperimentali indipendentemente revisionati."
+    },
+    {
+      "id": "ARTHUR-VANA",
+      "title": "Arthur e collaboratori · D-lattato nei precursori degli enterococchi resistenti",
+      "url": "https://journals.asm.org/doi/10.1128/aac.36.4.867",
+      "detail": "Antimicrobial Agents and Chemotherapy 1992, 36:867–869. Abstract letto integralmente il 28 novembre 2026 sulla pagina dell’editore; determinante plasmidico e substrato di VanA. Non articolo completo né prova di efficacia clinica; il record PubMed non ha reso l’abstract."
     }
   ],
-  "newIntegratedPdfPages": 5,
-  "newVisualInspections": 7,
-  "previouslyReadTextPagesRechecked": 1,
+  "newIntegratedPdfPages": 6,
+  "newVisualInspections": 8,
+  "previouslyReadTextPagesRechecked": 2,
   "officialSourceRechecks": [
-    "CDC-SELEZIONE",
-    "EUCAST",
-    "SSC-TEMPI"
+    "EUCAST-FENOTIPI"
   ],
-  "newDistinctReadTexts": 6,
+  "newDistinctReadTexts": 8,
   "newRepeatedTextPagePositions": 0,
-  "automaticallyExtractedNonemptyTextPages": 5,
-  "directVisualTextReadPages": 1,
+  "automaticallyExtractedNonemptyTextPages": 8,
+  "directVisualTextReadPages": 2,
   "newlyIntegratedPreviouslyReadPdfPages": 0
 }
