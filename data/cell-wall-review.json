@@ -1,0 +1,71 @@
+{
+  "batch": "theory-dab-056-060",
+  "reviewedAt": "2026-11-28T05:16:49.770758+00:00",
+  "outcome": "pass",
+  "scope": "Editorial reconciliation: cell-wall synthesis, compartment, substrate versus enzyme, species-specific diagrams, pharmacokinetic partner and bounded clinical examples.",
+  "independentClinicalReview": false,
+  "clinicalValidation": false,
+  "moduleSha256": "8f5d332753e639b9355ad91381de98c324b9677a58082aec143e88eef774c1ce",
+  "conflicts": [
+    {
+      "id": "1",
+      "status": "documented_scope_limit",
+      "resolution": "DAB56 is a title-only metadata page, fully read but not integrated. DAB57 taxonomy is historical and not a current complete catalog; imipenem/cilastatin asterisk has no visible explanatory footnote. No absent footnote reconstructed."
+    },
+    {
+      "id": "2",
+      "status": "resolved_for_scope",
+      "resolution": "DAB59 and60 have identical normalized extracted text but different visible drug annotations. Shared pathway artwork and repeated APP-II34 graphics are not independent evidence. All visible labels read; drug arrows do not establish exact enzyme specificity. Tunicamycin and ramoplanin details excluded."
+    },
+    {
+      "id": "3",
+      "status": "resolved_for_scope",
+      "resolution": "Pentaglycine diagram is not a universal peptidoglycan structure. Species variation reconciled with Monteiro2019 abstract; no full article or experimental images independently read."
+    },
+    {
+      "id": "4",
+      "status": "resolved_for_scope",
+      "resolution": "APP-II34 printed33 catabolizza wording corrected to catalysis of formation, not cleavage of the crosslink. APP-II35 printed34 PBP numbering/abundance and automatic carbapenem use in sepsis not generalized. Tiny schematic labels inspected but no quantitative structural measurement inferred."
+    },
+    {
+      "id": "5",
+      "status": "documented_scope_limit",
+      "resolution": "KATZ921 printed901 full visible page read; final vancomycin sentence continues922, not read. Only completed cilastatin/substrate mechanism used. Historic regimens, classwide CSF penetration and treatment choices excluded."
+    },
+    {
+      "id": "6",
+      "status": "resolved_for_scope",
+      "resolution": "KATZ924–925 printed904–905 full visible text, figure43.9 and summary-table part inspected. Only wall-target mechanisms integrated. Historical fosfomycin formulations, pregnancy reassurance, bacitracin irrigation, cycloserine safe-dose claim and clinical regimens excluded."
+    },
+    {
+      "id": "7",
+      "status": "resolved_for_scope",
+      "resolution": "KATZ907–909 and RANG952 prior extracted texts rechecked, not new full-page readings or new visual inspections. Only909 and952 reused in this chapter;907–908 not integrated. KATZ909 interrupted continuation not inferred; RANG ebook print-page numbers not invented."
+    },
+    {
+      "id": "8",
+      "status": "resolved_for_scope",
+      "resolution": "New chapter ledger has12 fully read PDF positions (10 new,2 reused),1 title-only page and11 integrated positions (9 new,2 already integrated elsewhere). Global source union across both antibacterial chapters is93 full,7 partial,100 visual positions,74 integrated; repeated chapter use is not new corpus reading."
+    },
+    {
+      "id": "9",
+      "status": "resolved_for_scope",
+      "resolution": "DailyMed selected mechanism/metabolism/limitations/warnings and EMA2020 selected fosfomycin mechanism/referral passages only. No full product review, dose, regimen or complete current national indication reconciliation."
+    },
+    {
+      "id": "10",
+      "status": "documented_scope_limit",
+      "resolution": "deChiara2020 and Monteiro2019 abstracts fully read, not full papers or figures. Bacitracin Loll2013 indexed abstract located but direct PubMed/PMC pages failed; not relied on for a new claim or counted as full reading."
+    },
+    {
+      "id": "11",
+      "status": "resolved_for_scope",
+      "resolution": "EMA PK/PD selected sections4.2.1/4.2.3 inherited from verified earlier reading today; no new full guideline read. EUCAST definitions/exposure rechecked; no numerical table imported."
+    },
+    {
+      "id": "12",
+      "status": "documented_scope_limit",
+      "resolution": "Only sole-integrator educational/editorial review. Other authorized books, FarmacoI/II intervals and other lecturers’ contributions remain unreconciled for this chapter; no independent clinical review or full-course claim."
+    }
+  ]
+}

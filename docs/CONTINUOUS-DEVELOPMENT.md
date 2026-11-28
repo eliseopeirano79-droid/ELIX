@@ -8,13 +8,15 @@ Usare appunti e diapositive del corso di Farmacologia, con anno, lezione, data e
 
 ## Lotto corrente
 
-theory-dab-051-055, candidato 0.133.0. Due nuove sezioni su prevenzione della resistenza e associazioni antibatteriche. Totale 26 sezioni, 9793 parole, 47 quesiti, 24 schemi originali. Nessuna nuova identità, sintesi di farmaco, profilo, laboratorio o collegamento.
+theory-dab-056-060, candidato 0.134.0. Ampliato il capitolo breve esistente «Antibatterici β-lattamici e parete cellulare»: 10 sezioni, 2436 parole, 8 quesiti, 6 schemi originali, 6 collegamenti a identità già presenti e 3 capitoli correlati. Conservati i quattro paragrafi precedenti; gli altri 66 capitoli invariati. Ora 26 capitoli estesi e 41 brevi, sempre 67 totali. Nessuna nuova identità, sintesi di farmaco, profilo o laboratorio.
 
-Ultima pubblicazione verificata 0.132.0, commit 7c3989e92a2071bdf2d81a4f578a58e96c9a4499. La ricevuta post-deploy prevale sul checkpoint preparatorio.
+Ultima pubblicazione verificata 0.133.0, commit d0887ba9c6cbd1a8a08c6abbbccc7457cef54626. La ricevuta post-deploy prevale sul checkpoint preparatorio.
 
-DAB 51–55, Katzung PDF 1039–1040 e appunti PDF 32–33: nove nuove pagine complete e ispezionate, otto integrate. Cumulativo: 83 posizioni complete (2 metadati), 7 parziali, 90 ispezioni, 65 integrate. Confronti circoscritti con WHO settembre2026, IDSA luglio2026 quesito4.6 e abstract primario Sun2012. Correlazione aggregata distinta da causalità individuale; associazioni non presentate come universalmente superiori. Regimi storici, percentuali generiche e promesse di resistenza impossibile esclusi. Riconciliazione generale e revisione clinica indipendente aperte.
+DAB56–60, Katzung PDF921/924–925 e appunti PDF34–35: dieci nuove pagine complete e ispezionate, nove integrate;56 contiene solo il titolo. Riutilizzati Katzung909 e Rang952, già letti, senza nuovo conteggio. Registro del capitolo:12 posizioni complete,11 integrate. Unione deduplicata dei due capitoli antibatterici:93 complete,7 parziali,100 ispezioni e74 integrate. DAB59/60 condividono il testo estratto, ma hanno annotazioni visive diverse. Figure ripetute non sono prove indipendenti.
 
-Controlli locali superati: 53 verifiche, 8 configurazioni browser, ricerca e navigazione, offline, 8 immagini direttamente ispezionate. Aggiornamento reale da 0.132.0 verificato con preferiti, progressi e tema conservati. Restano commit, CI, deploy e verifica online. Prove private in ../../outputs/ELIX-dab-051-055-2026-11-28/.
+Distinti PBP, substrato dei glicopeptidi, MurA, racemasi/ligasi, trasporto e riciclo. Confronti circoscritti con EMA, DailyMed, EUCAST e abstract primari; cilastatina distinta dagli inibitori delle β-lattamasi. Regimi e rassicurazioni storiche non trasferiti. Altri libri/corsi e revisione clinica indipendente ancora aperti.
+
+Controlli locali superati:54 verifiche,8 configurazioni browser,ricerca e navigazione,offline,8 immagini ispezionate. Aggiornamento reale0.133.0→0.134.0 con dati salvati conservati. Restano commit,CI,deploy e verifica online. Prove private in ../../outputs/ELIX-dab-056-060-2026-11-28/.
 
 ## Regole
 
@@ -26,4 +28,4 @@ Controlli locali superati: 53 verifiche, 8 configurazioni browser, ricerca e nav
 
 ## Prossimo intervallo
 
-Completare DAB 51–55; poi DAB 56–60, non iniziato. Riconciliazione complessiva incompleta; nessuna revisione clinica indipendente. Farmaci, profili e laboratori nel backlog.
+Completare DAB56–60; poi DAB61–65, non iniziato. Farmaci, profili e laboratori nel backlog.
