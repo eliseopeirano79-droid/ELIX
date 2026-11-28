@@ -3,7 +3,7 @@ export const THEORY_CELL_WALL = {
   "id": "antibiotici-beta-lattamici",
   "volume": 12,
   "title": "Antibatterici β-lattamici e parete cellulare",
-  "lead": "Come si costruisce il peptidoglicano e dove si interrompe la sequenza: precursori citoplasmatici, trasporto di membrana, PBP e reticolazione. Il confronto fra β-lattamici, glicopeptidi, fosfomicina e cicloserina collega bersagli, accesso ed esposizione.",
+  "lead": "Come si costruisce il peptidoglicano e dove si interrompe la sequenza: precursori citoplasmatici, trasporto di membrana, PBP e reticolazione. Il confronto fra β-lattamici, glicopeptidi, fosfomicina e cicloserina collega bersagli, accesso ed esposizione. Strutture, farmacocinetica delle penicilline e ipersensibilità distinguono proprietà di famiglia e singolo medicinale.",
   "sections": [
     {
       "id": "peptidoglicano",
@@ -104,10 +104,27 @@ export const THEORY_CELL_WALL = {
         "DAB-PARETE",
         "APP-PARETE",
         "KATZ-VANCO",
-        "DM-IMIPENEM"
+        "DM-IMIPENEM",
+        "DAB-STRUTTURA-PK",
+        "RANG-PK",
+        "ZAV-SMPC"
       ],
-      "text": "Penicilline, cefalosporine, carbapenemi e monobattami sono quattro famiglie di antibatterici β-lattamici. Condividono l’anello che dà nome alla classe, ma differiscono per altre parti della struttura e per proprietà farmacologiche e microbiologiche. La classificazione chimica e la collocazione nella via della parete rispondono quindi a domande diverse: quale struttura caratterizza il composto e quale processo viene interferito?\n\nAmoxicillina e imipenem sono esempi utili per ritrovare, rispettivamente, una penicillina e un carbapeneme già presenti nel catalogo. La parentela chimica non autorizza a trasferire da una molecola all’altra spettro, sensibilità alle β-lattamasi, distribuzione o indicazioni. Analogamente, glicopeptidi e fosfomicina appartengono al gruppo funzionale degli inibitori della parete senza diventare per questo β-lattamici.\n\nUn’associazione richiede inoltre di identificare la funzione di ciascun componente. In imipenem/cilastatina, il primo è l’antibatterico che interferisce con la sintesi della parete; la seconda inibisce la deidropeptidasi renale I dell’ospite, limitando il metabolismo renale di imipenem. Il nome associato non indica due carbapenemi e non dimostra che la cilastatina neutralizzi una β-lattamasi batterica.\n\nIl confronto con le associazioni che contengono un inibitore delle β-lattamasi deve dunque partire dal luogo e dall’enzima interessati. Proteggere un antibiotico da una via metabolica dell’ospite e proteggerlo da un meccanismo batterico di inattivazione sono due finalità differenti. La parola «inibitore» è incompleta finché non viene specificato che cosa venga inibito.",
+      "text": "Penicilline, cefalosporine, carbapenemi e monobattami sono quattro famiglie di antibatterici β-lattamici. Condividono l’anello che dà nome alla classe, ma differiscono per altre parti della struttura e per proprietà farmacologiche e microbiologiche. La classificazione chimica e la collocazione nella via della parete rispondono quindi a domande diverse: quale struttura caratterizza il composto e quale processo viene interferito?\n\nAmoxicillina e imipenem sono esempi utili per ritrovare, rispettivamente, una penicillina e un carbapeneme già presenti nel catalogo. La parentela chimica non autorizza a trasferire da una molecola all’altra spettro, sensibilità alle β-lattamasi, distribuzione o indicazioni. Analogamente, glicopeptidi e fosfomicina appartengono al gruppo funzionale degli inibitori della parete senza diventare per questo β-lattamici.\n\nUn’associazione richiede inoltre di identificare la funzione di ciascun componente. In imipenem/cilastatina, il primo è l’antibatterico che interferisce con la sintesi della parete; la seconda inibisce la deidropeptidasi renale I dell’ospite, limitando il metabolismo renale di imipenem. Il nome associato non indica due carbapenemi e non dimostra che la cilastatina neutralizzi una β-lattamasi batterica.\n\nIl confronto con le associazioni che contengono un inibitore delle β-lattamasi deve dunque partire dal luogo e dall’enzima interessati. Proteggere un antibiotico da una via metabolica dell’ospite e proteggerlo da un meccanismo batterico di inattivazione sono due finalità differenti. La parola «inibitore» è incompleta finché non viene specificato che cosa venga inibito.\n\nL’anello β-lattamico è un’ammide ciclica a quattro atomi. Nelle penicilline è fuso a un anello tiazolidinico a cinque termini; nelle cefalosporine a un anello diidrotiazinico a sei. I carbapenemi hanno un diverso sistema biciclico, mentre nei monobattami l’anello β-lattamico non è fuso a un secondo anello. Queste differenze descrivono l’architettura di base, non una graduatoria automatica di efficacia.\n\nAnche le catene laterali contano: modificare i sostituenti può cambiare stabilità chimica, interazione con proteine e accesso al bersaglio. Due molecole con lo stesso nucleo possono quindi comportarsi diversamente. L’apertura dell’anello da parte di una β-lattamasi e una trasformazione della catena laterale sono reazioni distinte; nel disegno bisogna riconoscere quale legame viene interessato.\n\nInfine, «inibitore delle β-lattamasi» è una definizione funzionale, non una quinta famiglia strutturale omogenea. Clavulanato possiede un anello β-lattamico; avibactam, associato a ceftazidima, è invece un inibitore non β-lattamico. La sua scheda descrive un’attività su determinati gruppi enzimatici, senza coprire tutte le β-lattamasi. Né la presenza dell’inibitore né la parentela chimica dimostrano, da sole, che un’associazione superi ogni resistenza.",
       "formula": "Imipenem → sintesi della parete batterica. Cilastatina → deidropeptidasi renale dell’ospite → minore metabolismo renale di imipenem."
+    },
+    {
+      "id": "penicilline-farmacocinetica",
+      "title": "Penicilline: dalla formulazione alla concentrazione nel sito d’infezione",
+      "refs": [
+        "DAB-STRUTTURA-PK",
+        "KATZ-PK",
+        "RANG-PK",
+        "APP-PK",
+        "AMOX-SMPC",
+        "EMA-PKPD"
+      ],
+      "text": "Conoscere la PBP bersaglio chiarisce che cosa può fare una penicillina quando arriva al batterio. La farmacocinetica chiarisce invece quanta molecola raggiunge i diversi compartimenti e per quanto tempo rimane disponibile. L’anello comune non assegna a tutte le penicilline la stessa biodisponibilità, lo stesso legame proteico o la stessa emivita: questi dati appartengono a un composto e a condizioni di misurazione definite.\n\nL’assorbimento orale dipende anche dalla stabilità nell’ambiente gastrointestinale. Una molecola può essere attiva sul batterio in laboratorio e risultare poco adatta a quella via di somministrazione. Inoltre, il comportamento della sostanza e quello della preparazione farmaceutica vanno distinti. Una formulazione che rilascia lentamente il principio attivo può prolungarne l’ingresso nel sangue senza rendere necessariamente più lenta l’eliminazione della molecola già assorbita. Durata dell’assorbimento ed emivita di eliminazione non sono sinonimi.\n\nAmoxicillina offre un esempio concreto: la scheda delle capsule consultata descrive un buon assorbimento orale, non ridotto dall’assunzione contemporanea di cibo. Descrive anche un’eliminazione prevalentemente renale e una clearance che diminuisce al ridursi della funzione renale. Queste proprietà aiutano a collegare esposizione e condizioni dell’ospite; non autorizzano a estendere automaticamente le stesse istruzioni alle altre penicilline o ad altre formulazioni.\n\nLa distribuzione aggiunge un’altra distinzione. Trovare il farmaco nel plasma non dimostra una concentrazione efficace in ogni sede. La stessa scheda di amoxicillina segnala una distribuzione non adeguata nel liquido cerebrospinale: «ampiamente distribuito» non equivale dunque a «adatto a qualsiasi infezione». Il confronto fra infezione urinaria, polmonare e meningea richiede di considerare il compartimento interessato, oltre alla sensibilità del microrganismo.\n\nIl legame alle proteine plasmatiche distingue infine concentrazione totale e quota libera. Nel ragionamento PK/PD sui β-lattamici è quest’ultima a essere confrontata con la MIC nel tempo. Una percentuale di legame, isolata dal resto della farmacocinetica, non basta a prevedere l’efficacia. Per leggere correttamente una tabella occorre quindi identificare molecola, formulazione, via, popolazione studiata e parametro: una fascia numerica attribuita all’intera famiglia non sostituisce il dato pertinente.",
+      "formula": "Formulazione e via → assorbimento; distribuzione e legame proteico → esposizione nei compartimenti; eliminazione → andamento nel tempo. Nessuno di questi passaggi è determinato dal solo anello β-lattamico."
     },
     {
       "id": "esposizione-parete",
@@ -125,9 +142,23 @@ export const THEORY_CELL_WALL = {
         "KATZ-PARETE",
         "KATZ-VANCO",
         "RANG-ACCESSO",
-        "EUCAST"
+        "EUCAST",
+        "DAB-STRUTTURA-PK",
+        "KATZ-PK"
       ],
       "text": "β-lattamasi, modifica delle PBP, variazioni di permeabilità ed efflusso possono ridurre sensibilità. La MIC ha significato solo in relazione a specie, metodo e breakpoint pertinenti; non equivale da sola a una dose prescrivibile.\n\nQuesti meccanismi possono essere ordinati lungo il percorso del farmaco. Una barriera di ingresso limita l’accesso; un sistema di efflusso può ridurre la disponibilità locale; un enzima inattivante modifica la molecola; un bersaglio alterato riduce l’interazione utile. Il fatto che due isolati presentino ridotta sensibilità non dimostra che condividano lo stesso meccanismo.\n\nPer un β-lattamico, distinguere PBP e β-lattamasi è essenziale. Inibire una β-lattamasi può proteggere il farmaco da un determinato processo di inattivazione, ma non implica la correzione di una PBP poco affine o di ogni problema di permeabilità. La presenza della parola «inibitore» nel nome di un’associazione non equivale quindi a una garanzia di sensibilità.\n\nPer vancomicina, la modificazione della terminazione del precursore mette in evidenza un’altra possibilità: la cellula può conservare la costruzione della parete cambiando un elemento riconosciuto dall’antibiotico. Lo studio del bersaglio deve comprendere la struttura effettivamente riconosciuta, non soltanto il nome generale della via biosintetica.\n\nLe proprietà dell’involucro spiegano infine perché lo spessore della parete non sia una graduatoria di sensibilità. Una rete più sottile nei Gram negativi si accompagna a una membrana esterna che può limitare l’accesso. Quantità di peptidoglicano, presenza del bersaglio e sensibilità del singolo isolato sono informazioni collegate, ma non intercambiabili."
+    },
+    {
+      "id": "ipersensibilita-beta-lattamici",
+      "title": "Ipersensibilità: distinguere struttura chimica, reazione e anamnesi",
+      "refs": [
+        "DAB-STRUTTURA-PK",
+        "RANG-PK",
+        "CDC-ALLERGIA",
+        "CDC-CROSS"
+      ],
+      "text": "La selettività per la parete batterica non impedisce reazioni immunitarie nell’ospite. I prodotti derivati dalle penicilline possono legarsi a proteine dell’organismo e formare strutture riconoscibili dal sistema immunitario. Il bersaglio antibatterico e il determinante antigenico appartengono quindi a due livelli diversi: spiegare l’interazione con una PBP non spiega da solo l’ipersensibilità.\n\nLa parola «allergia» deve essere collegata a una storia precisa. Il CDC distingue reazioni immediate, anche mediate da IgE, da reazioni ritardate che possono interessare cute o organi. Un disturbo gastrointestinale isolato, una familiarità o un’eruzione comparsa durante un’infezione non dimostrano automaticamente un’allergia alla penicillina. Sono essenziali il medicinale assunto, il tempo trascorso prima dei sintomi e la natura della reazione.\n\nLa parentela strutturale rende pertinente il problema della reattività crociata, ma non consente di assegnare un unico rischio a tutti i β-lattamici. Le indicazioni CDC distinguono situazioni e composti: una precedente reazione non si interpreta soltanto leggendo il nome della famiglia. La valutazione non può essere sostituita né da un divieto indiscriminato né da una rassicurazione basata sul solo cambio di antibiotico.\n\nL’eventuale verifica dell’etichetta di allergia è un percorso clinico. Le reazioni ritardate gravi richiedono una gestione specialistica e non rientrano nei normali percorsi di provocazione orale. Il punto didattico è separare evento avverso, sospetto immunologico e diagnosi documentata; questo schema non è un protocollo per scegliere o provare un farmaco.",
+      "formula": "Evento riferito → identificare farmaco, tempi e manifestazioni → valutazione clinica pertinente. Etichetta di allergia, intolleranza e reattività crociata non sono sinonimi."
     },
     {
       "id": "meccanismo-e-patologie",
@@ -186,6 +217,18 @@ export const THEORY_CELL_WALL = {
     {
       "question": "La mancata lisi visibile dimostra resistenza a un β-lattamico?",
       "answer": "No. Crescita, vitalità e lisi richiedono osservazioni distinte. Il bersaglio e la morfologia non sostituiscono una prova di sensibilità interpretata correttamente."
+    },
+    {
+      "question": "Tutti gli inibitori delle β-lattamasi hanno un anello β-lattamico?",
+      "answer": "No. La definizione indica la funzione: clavulanato possiede l’anello, avibactam no. La copertura dipende dalle β-lattamasi interessate."
+    },
+    {
+      "question": "Una formulazione a rilascio lento prolunga necessariamente l’emivita di eliminazione?",
+      "answer": "No. Può prolungare l’ingresso del farmaco nel sangue. Assorbimento ed eliminazione sono processi distinti."
+    },
+    {
+      "question": "La dicitura «allergia alla penicillina» descrive da sola il rischio di un altro β-lattamico?",
+      "answer": "No. Occorrono medicinale, tempi, manifestazioni e valutazione clinica; un’etichetta non equivale a una diagnosi né a un rischio uniforme per tutta la classe."
     }
   ],
   "references": [
@@ -269,7 +312,7 @@ export const THEORY_CELL_WALL = {
     {
       "id": "KATZ-LISI",
       "title": "Katzung · Capitolo 43, transpeptidazione, autolisine e resistenza",
-      "detail": "IX italiana 2014 / XII originale 2012. PDF 910, stampa 890, letto integralmente e figura 43-4 controllata; completa il passaggio avviato in PDF 909, ricontrollato senza ricontarlo. Sintesi limitata al meccanismo; continuazione della resistenza in PDF 911 non letta."
+      "detail": "IX italiana 2014 / XII originale 2012. PDF 910, stampa 890, letto integralmente e figura 43-4 controllata; completa il passaggio avviato in PDF 909, ricontrollato senza ricontarlo. Sintesi limitata al meccanismo; continuazione PDF 911 ora letta, documentata in KATZ-PK."
     },
     {
       "id": "RANG-LISI",
@@ -287,13 +330,57 @@ export const THEORY_CELL_WALL = {
       "title": "Cho, Uehara e Bernhardt · Conseguenze del blocco delle PBP, 2014",
       "url": "https://pubmed.ncbi.nlm.nih.gov/25480295/",
       "detail": "DOI 10.1016/j.cell.2014.11.017. Abstract completo letto il 28 novembre 2026; modello sperimentale di sintesi e degradazione improduttiva. Non articolo o figure integralmente revisionati; accesso diretto PMC non riuscito."
+    },
+    {
+      "id": "DAB-STRUTTURA-PK",
+      "title": "Farmacologia II · Diapositive AA 2026–27, strutture e penicilline",
+      "detail": "PDF 66–70: testo visibile e figure letti. PDF 66 contiene grafici, non solo il titolo estratto; gli schemi ripetuti non sono prove indipendenti. Intervalli PK di classe e allergia crociata generalizzata non trasferiti; nessuna verifica stereochimica indipendente."
+    },
+    {
+      "id": "KATZ-PK",
+      "title": "Katzung · Capitolo 43, resistenza e inizio della farmacocinetica",
+      "detail": "IX italiana 2014 / XII originale 2012. PDF 911, stampa 891: testo completo e figura 43-5 controllati; PDF 909 ricontrollato. La legenda «β-lattamasi» al punto 5 contrasta con la didascalia «antibiotici β-lattamici»: non trasferita. Continuazione PDF 912 non letta."
+    },
+    {
+      "id": "RANG-PK",
+      "title": "Rang & Dale · Capitolo 51, strutture, farmacocinetica e ipersensibilità",
+      "detail": "VIII italiana 2016 / originale 2015. PDF ebook 956–957 e figura 51.3 ricontrollati, senza nuova lettura conteggiata. Integrati concetti qualitativi; esclusi usi storici, frequenze, valori PK di classe e garanzie universali sulle β-lattamasi. Testi delle note 4/5 assenti non ricostruiti."
+    },
+    {
+      "id": "APP-PK",
+      "title": "Farmacologia II · Appunti AA 2024–25, lezione 3 del 14 ottobre 2024",
+      "detail": "PDF 36, stampa 35: completata la precedente lettura parziale, inclusi diapositiva, tabella inferiore e note. Integrata soltanto la variabilità fra composti; valori numerici discordanti e ambiguità di formulazione non trasferiti. La diapositiva ripete PDF 70 del corso."
+    },
+    {
+      "id": "AMOX-SMPC",
+      "title": "Amoxicillin 500 mg hard capsules · Sandoz, SmPC UK",
+      "url": "https://www.medicines.org.uk/emc/product/15728/smpc",
+      "detail": "Testo revisionato il 13 marzo 2026, pubblicato su emc il 26 marzo; consultato il 28 novembre 2026. Selezioni §4.3–4.4 e §5.2; non revisione integrale né indicazione nazionale italiana. Nessuna dose o soglia microbiologica importata."
+    },
+    {
+      "id": "ZAV-SMPC",
+      "title": "Zavicefta · Pfizer, SmPC UK",
+      "url": "https://www.medicines.org.uk/emc/product/2465/smpc",
+      "detail": "emc aggiornato il 26 agosto 2025, consultato il 28 novembre 2026. §5.1: ceftazidima e avibactam, natura non β-lattamica dell’inibitore e limiti enzimatici. Nessuna indicazione o posologia trasferita; PDF EMA non accessibile in questo controllo."
+    },
+    {
+      "id": "CDC-ALLERGIA",
+      "title": "CDC · Clinical Features of Penicillin Allergy",
+      "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-signs/",
+      "detail": "Pagina aggiornata il 25 agosto 2025, letta il 28 novembre 2026: etichetta, anamnesi e distinzione delle reazioni. Nessun percorso diagnostico autonomo."
+    },
+    {
+      "id": "CDC-CROSS",
+      "title": "CDC · STI Treatment Guidelines, Penicillin Allergy",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/penicillin-allergy.htm",
+      "detail": "Guida 2021, passaggio sulla reattività crociata consultato il 28 novembre 2026. Usato per evitare un rischio uniforme di classe; nessuna percentuale, prescrizione o algoritmo trasferito."
     }
   ],
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-28",
   "readingManifest": "./data/cell-wall-reading.json",
-  "coverage": "Intervallo circoscritto: 20 posizioni PDF complete, 8 nuove in questo lotto e 12 già registrate; 19 con passaggi integrati e una di solo titolo. Una ulteriore pagina è letta solo in parte e non integrata. Testo e figure distinti; nessun intero libro o corso letto. Riconciliazione complessiva e revisione clinica indipendente aperte.",
+  "coverage": "Intervallo circoscritto: 27 posizioni PDF complete, 7 completate in questo lotto (6 nuove e una prima parziale) e 20 già registrate; 26 con passaggi integrati e una di solo titolo. Sei nuove ispezioni visive; nessun intero libro o corso letto. Riconciliazione complessiva e revisione clinica indipendente aperte.",
   "moleculeLinks": [
     {
       "id": "CHEMBL1082",
@@ -325,5 +412,5 @@ export const THEORY_CELL_WALL = {
     "formulazioni-sali-bioequivalenza",
     "clearance-biliare-renale"
   ],
-  "wordCount": 3110
+  "wordCount": 3823
 };

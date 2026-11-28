@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-28T06:06:07.239575+00:00",
-  "batch": "theory-dab-061-065",
+  "updatedAt": "2026-11-28T06:46:57.805542+00:00",
+  "batch": "theory-dab-066-070",
   "status": "local_verified_pending_publication",
-  "release": "0.135.0",
-  "branch": "feat/theory-dab-061-065",
-  "baseCommit": "b18ebe5313d050aa8512878a11db2636726e2857",
+  "release": "0.136.0",
+  "branch": "feat/theory-dab-066-070",
+  "baseCommit": "2d99f37176262db3c17681a82f88613e6d85401f",
   "previousBatch": {
-    "batch": "theory-dab-056-060",
-    "release": "0.134.0",
-    "commit": "b18ebe5313d050aa8512878a11db2636726e2857",
+    "batch": "theory-dab-061-065",
+    "release": "0.135.0",
+    "commit": "2d99f37176262db3c17681a82f88613e6d85401f",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Ampliare il capitolo esistente sulla parete con funzioni delle PBP e passaggio dall’inibizione al danno cellulare."
+    "Ampliare struttura delle famiglie e aggiungere farmacocinetica delle penicilline e ipersensibilità al capitolo esistente."
   ],
   "completed": [
-    "Due nuove sezioni: 674 parole, tre quesiti e due schemi originali. Dieci testi precedenti conservati.",
-    "Otto nuove pagine complete integrate; una parziale esclusa. Deduplicazione e riconciliazione mirata registrate.",
+    "Due nuove sezioni e una ampliata: 713 parole aggiunte, tre quesiti e due schemi originali; testi precedenti conservati.",
+    "Sette letture completate, di cui una prima parziale; sei nuove posizioni. Deduplicazione, figure e riconciliazione mirata registrate.",
     "54 controlli dati e contenuti superati; navigazione in8 configurazioni, ricerca, tastiera e offline verificati.",
-    "Aggiornamento reale0.134.0→0.135.0 riuscito con preferiti, progressi e tema conservati;66 altri capitoli e10 testi precedenti invariati."
+    "Aggiornamento reale0.135.0→0.136.0 riuscito con preferiti, progressi e tema conservati;66 altri capitoli invariati e12 testi precedenti conservati, uno ampliato."
   ],
   "remaining": [
     "Commit e CI della proposta, integrazione, deploy e verifica online."
@@ -43,28 +43,29 @@
     "newChapters": 0,
     "newInteractiveLabs": 0,
     "expandedChapters": 1,
-    "expandedSections": 0,
+    "expandedSections": 1,
     "newSections": 2,
     "newLinksToExistingIdentities": 0,
     "newRelatedChapterLinks": 0,
     "newStaticOriginalSchemas": 2,
     "newSelfChecks": 3,
     "unchangedExistingChapters": 66,
-    "unchangedExistingSectionTexts": 10
+    "unchangedExistingSectionTexts": 11,
+    "retainedExistingSectionTexts": 12
   },
   "readingManifests": [
     "data/cell-wall-reading.json"
   ],
   "limits": [
-    "DAB61–65 full visible text and diagrams read. DAB63/64 artwork and PBP table repeat APP-II35; repeated artwork is not independent evidence. Species is not identified in DAB64 visible table; abundance and numbering are not universal pharmacodynamic properties.",
-    "DAB64 PBP3 glycosyltransferase/transpeptidase attribution is not transferred. Class A versus class B/SEDS activities reconciled with Taguchi2019 abstract and first introductory paragraph; not full article, methods or figures.",
-    "DAB65 gray question-mark hypothesis is not a demonstrated universal mechanism. KATZ910 printed890 and figure43-4 read fully; preceding909 text rechecked without new count. Resistance continuation911 not read; historical resistance/clinical generalizations excluded.",
-    "RANG956–957 fully read and figure51.3 checked; ebook printed-page labels not invented. Historical clinical box, intermittent-exposure advantage, classwide PK/BBB claims, frequencies of risk and regimens excluded. Footnote markers4/5 visible but absent note text not reconstructed.",
-    "RANG957 universal autolysin-inhibitor account qualified against KATZ and experimental Cho2014 abstract. Cho full paper and figures not read; direct PMC access failed. Neither one regulatory chain nor experimental futile cycling is asserted as a universal clinical mechanism.",
-    "APP-II35 printed34 reread with visual check, not new reading. APP-II36 printed35 body and embedded slide read, lower PK table not fully read: partial only, no integration. Differing half-life ranges and classwide PK statements unresolved and excluded.",
-    "This batch adds8 full readings,1 partial reading and9 first visual inspections. Cumulative chapter ledger:20 full,1 partial,21 visually checked,19 integrated. Source union across both antibacterial chapters:101 full,8 partial,109 visual,82 integrated; repeated use is not new corpus reading.",
-    "DailyMed selected PBP species profiles (12.4), mechanism/metabolism and warnings/limitations; EUCAST definitions/exposure and EMA2020 fosfomycin referral passages rechecked. No new prescribing regimen, numeric susceptibility threshold or complete current national indication review.",
-    "KATZ921 continuation922 remains unread; DAB56 title-only remains metadata; prior boundaries for wall precursors, glycopeptides and formulation examples remain in force.",
+    "DAB66–70 full visible text and diagrams read. DAB66 extraction contains only a title, but both diagrams were inspected and labels read: it is not a metadata-only page. Repeated transpeptidation/PBP artwork is not independent evidence; pentaglycine and the PBP2 example are not universal.",
+    "DAB67–69 structures and captions inspected for family architecture and roles; no independent atom-by-atom or stereochemical validation, and no identification of the unlabeled portrait. DAB68 inhibitor category is functional: avibactam is a non-beta-lactam counterexample from the selected current product information.",
+    "DAB70 classwide numerical PK ranges excluded. APP-II36 printed35 now read completely, including embedded slide, lower table8.II and footnotes; previous partial status closed. Only qualitative variability integrated. Its slide repeats DAB70; repeated graphics are not independent evidence.",
+    "APP-II36 body/slide half-life ranges disagree; oral bioavailability for amoxicillin in its table differs from the selected current SmPC. Formulation/route labeling is ambiguous for benzathine. These values remain unvalidated and are not published or converted into PK profiles.",
+    "KATZ911 printed891 full text, caption and figure43-5 inspected. Legend item5 says beta-lactamase whereas caption identifies beta-lactam antibiotics; the erroneous legend is not transferred. Resistance continuation completes910; pharmacokinetic sentence continues912, not read.",
+    "KATZ909 and RANG956–957 reread and visually rechecked without new counts. Rang figure51.3 gives historical blanket stability claims, not universal resistance guarantees. Historical clinical box, regimens, risk frequencies, intermittent-exposure advantage and classwide BBB/PK claims excluded; footnote text4/5 not reconstructed.",
+    "Seven pages newly completed: six new positions plus APP-II36 promoted from partial. Six first visual inspections; four visual rechecks. Cumulative chapter27 full,0 partial,27 visual,26 integrated; global antibacterial union108 full,7 partial,115 visual,89 integrated. Metadata-only DAB56 remains excluded from integration.",
+    "Sandoz amoxicillin UK SmPC selected4.3–4.4 and5.2, Pfizer Zavicefta selected5.1, CDC allergy page and selected cross-reactivity passage checked on2026-11-28. No new dose, contraindication algorithm, allergy testing protocol or numeric PK field. Current Italian product indications not comprehensively reviewed.",
+    "EMA Zavicefta product-information PDF returned429 and was not read in this check; selected manufacturer SmPC used and identified as UK. Amoxicillin SmPC contains an older EUCAST breakpoint table; no breakpoint imported.",
     "Only sole-integrator educational/editorial review. Other authorized books, Farmaco I/II intervals and other lecturers remain unreconciled; no independent clinical review or full-course claim.",
     "DAB56 is a title-only metadata page, fully read but not integrated. DAB57 taxonomy is historical and not a current complete catalog; imipenem/cilastatin asterisk has no visible explanatory footnote. No absent footnote reconstructed.",
     "DAB59 and60 have identical normalized extracted text but different visible drug annotations. Shared pathway artwork and repeated APP-II34 graphics are not independent evidence. All visible labels read; drug arrows do not establish exact enzyme specificity. Tunicamycin and ramoplanin details excluded.",
@@ -75,7 +76,7 @@
     "deChiara2020 and Monteiro2019 abstracts fully read, not full papers or figures. Bacitracin Loll2013 indexed abstract located but direct PubMed/PMC pages failed; not relied on for a new claim or counted as full reading.",
     "EMA PK/PD selected sections4.2.1/4.2.3 inherited from verified earlier reading today; no new full guideline read. EUCAST definitions/exposure rechecked; no numerical table imported."
   ],
-  "nextBatch": "Completare DAB61–65; poi DAB66–70, non iniziato. Farmaci, profili e laboratori nel backlog.",
+  "nextBatch": "Completare DAB66–70; poi DAB71–75, non iniziato. Farmaci, profili e laboratori nel backlog.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",

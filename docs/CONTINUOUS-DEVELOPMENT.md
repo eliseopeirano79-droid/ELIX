@@ -8,15 +8,15 @@ Usare appunti e diapositive del corso di Farmacologia, con anno, lezione, data e
 
 ## Lotto corrente
 
-theory-dab-061-065, candidato 0.135.0. Due nuove sezioni nel capitolo «Antibatterici β-lattamici e parete cellulare»: funzioni delle PBP e passaggio dall’inibizione alla morte cellulare. Totale 12 sezioni, 3110 parole, 11 quesiti e 8 schemi originali. I dieci testi precedenti e gli altri 66 capitoli sono conservati. Sempre 67 capitoli, 26 estesi e 41 brevi; nessuna nuova identità, sintesi di farmaco, profilo o laboratorio.
+theory-dab-066-070, candidato 0.136.0. Ampliata la struttura delle famiglie e aggiunte due sezioni su farmacocinetica delle penicilline e ipersensibilità nel capitolo «Antibatterici β-lattamici e parete cellulare»: 14 sezioni, 3823 parole, 14 quesiti e 10 schemi originali. Conservati i dodici testi precedenti (uno ampliato) e gli altri 66 capitoli. Sempre 67 capitoli, 26 estesi e 41 brevi; nessuna nuova identità, sintesi di farmaco, profilo o laboratorio.
 
-Ultima pubblicazione verificata 0.134.0, commit b18ebe5313d050aa8512878a11db2636726e2857. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
+Ultima pubblicazione verificata 0.135.0, commit 2d99f37176262db3c17681a82f88613e6d85401f. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
 
-DAB61–65, Katzung PDF910 e Rang PDF956–957: otto nuove pagine complete, ispezionate e integrate. Appunti PDF35 ricontrollati senza ricontarli; PDF36 letto solo in parte, tabella PK incompleta e contenuto escluso. Registro del capitolo:20 complete,1 parziale,21 ispezionate,19 integrate. Unione dei capitoli antibatterici:101 complete,8 parziali,109 ispezionate,82 integrate.
+Sette letture completate: DAB66–70, Katzung PDF911 e completamento degli appunti PDF36. Sei nuove posizioni, una precedentemente parziale; sei prime ispezioni visive. Katzung909 e Rang956–957 ricontrollati senza ricontarli. Registro del capitolo:27 complete,0 parziali,27 ispezionate,26 integrate. Unione dei capitoli antibatterici:108 complete,7 parziali,115 ispezionate,89 integrate.
 
-Classi A/B e SEDS riconciliate con abstract e introduzione selezionata di Taguchi2019; autolisi e ciclo improduttivo con Katzung, Rang e abstract di Cho2014. Figure ripetute non considerate prove indipendenti. Attribuzione enzimatica della tabella PBP e ipotesi universale sull’inibitore delle autolisine non trasferite. Regimi clinici e PK storica esclusi; fonti ufficiali ricontrollate nei passaggi pertinenti. Altri libri/corsi e revisione clinica indipendente aperti.
+Famiglie e inibitori distinti con il controesempio avibactam; PK solo qualitativa e specifica del composto; ipersensibilità distinta da etichette e intolleranze. Confrontati passaggi selezionati degli SmPC UK di amoxicillina e Zavicefta e delle pagine CDC. Valori PK discordanti, regimi storici, garanzie di resistenza e rischio uniforme di allergia esclusi. Figura43-5 Katzung: la voce beta-lattamasi al punto5 contrasta con la didascalia e non è trasferita. PDF EMA di Zavicefta non accessibile; non dichiarato letto. Altri libri/corsi e revisione clinica indipendente aperti.
 
-Controlli locali superati:54 verifiche,8 configurazioni browser,ricerca,tastiera e offline. Aggiornamento reale0.134.0→0.135.0 con dati salvati conservati. Restano commit,CI,deploy e verifica online. Prove private in ../../outputs/ELIX-dab-061-065-2026-11-28/.
+Controlli locali superati:54 verifiche,8 configurazioni browser,ricerca,tastiera e offline. Aggiornamento reale0.135.0→0.136.0 con dati salvati conservati. Restano commit,CI,deploy e verifica online. Prove private in ../../outputs/ELIX-dab-066-070-2026-11-28/.
 
 ## Regole
 
@@ -28,4 +28,4 @@ Controlli locali superati:54 verifiche,8 configurazioni browser,ricerca,tastiera
 
 ## Prossimo intervallo
 
-Completare DAB61–65; poi DAB66–70, non iniziato. Farmaci, profili e laboratori nel backlog.
+Completare DAB66–70; poi DAB71–75, non iniziato. Farmaci, profili e laboratori nel backlog.
