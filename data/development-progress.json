@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-27T23:39:51.465536+00:00",
-  "batch": "theory-dab-011-015",
+  "updatedAt": "2026-11-28T00:15:03.644464+00:00",
+  "batch": "theory-dab-016-020",
   "status": "local_verified_pending_publication",
-  "release": "0.125.0",
-  "branch": "feat/theory-dab-011-015",
-  "baseCommit": "d0cd234a401740537f15564240a02c78183a5ee5",
+  "release": "0.126.0",
+  "branch": "feat/theory-dab-016-020",
+  "baseCommit": "fcf85b1d525aeaf0bf8756fd5fdaa521c7059218",
   "previousBatch": {
-    "batch": "theory-dab-006-010",
-    "release": "0.124.0",
-    "commit": "d0cd234a401740537f15564240a02c78183a5ee5",
+    "batch": "theory-dab-011-015",
+    "release": "0.125.0",
+    "commit": "fcf85b1d525aeaf0bf8756fd5fdaa521c7059218",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Approfondimento della misura MIC; due sezioni originali su ECOFF/breakpoint clinico e lettura dei referti nel tempo."
+    "Fattori dell’ospite e distinzione fra allergia, reazione avversa e resistenza."
   ],
   "completed": [
-    "Capitolo ampliato a 12 sezioni, 3706 parole, 15 quesiti e 9 schemi originali: 2 sezioni aggiunte, 1 ampliata.",
-    "4 nuove pagine complete, 1 parziale esclusa, 5 ispezioni e 4 pagine integrate; ricontrollato il testo di 5 pagine di supporto già lette.",
-    "53 controlli dati superati; navigazione, tastiera, ricerca e offline verificati in 8 configurazioni. Ispezionate 10 schermate desktop/mobile.",
-    "Aggiornamento reale 0.124.0 → 0.125.0 verificato con preferiti, progressi e tema conservati; 66 altri capitoli invariati."
+    "Capitolo ampliato a 13 sezioni, 4256 parole e 19 quesiti: una sezione aggiunta e una ampliata.",
+    "Tre posizioni PDF complete, due testi distinti; due pagine parziali escluse, cinque ispezioni e una pagina integrata. Tre pagine già lette ricontrollate.",
+    "53 controlli dati superati; 8 configurazioni browser e 8 schermate ispezionate. Navigazione, ricerca, tastiera e offline verificati.",
+    "Aggiornamento reale 0.125.0 → 0.126.0 superato con preferiti, progressi e tema conservati. Altri 66 capitoli, 11 sezioni precedenti e 15 quesiti precedenti invariati."
   ],
   "remaining": [
     "Commit, CI, deploy e verifica online."
@@ -43,10 +43,10 @@
     "newChapters": 0,
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
-    "newSections": 2,
+    "newSections": 1,
     "expandedSections": 1,
     "newLinksToExistingIdentities": 0,
-    "newStaticOriginalSchemas": 2,
+    "newStaticOriginalSchemas": 1,
     "newSelfChecks": 4,
     "unchangedExistingChapters": 66
   },
@@ -66,9 +66,14 @@
     "DAB11: schematic serial dilution and subculture illustration read; no concentrations, validated bactericidal endpoint or universal incubation duration inferred. Original diagram not reproduced.",
     "DAB13 blood-concentration shorthand and DAB14 fixed tenfold definition are not current universal interpretive rules; reconciled with EUCAST exposure, ECOFF and breakpoint concepts.",
     "KATZ1031–1032 and APP-II22–24 text rechecked from existing extractions; no newly read book pages or repeat full-figure inspections claimed. Other lecturers and course intervals remain to be reconciled.",
-    "EUCAST web introductions and specified sections only; no species MIC datasets, complete numerical tables, linked SOPs or articles independently reviewed."
+    "EUCAST web introductions and specified sections only; no species MIC datasets, complete numerical tables, linked SOPs or articles independently reviewed.",
+    "DAB16–17: historical S/I/R diagrams have overlaid callouts obscuring chart details. Visible headings and text inspected, but pages classified as partial and excluded from complete reading and integration. No historic numerical breakpoint or underlying dataset reproduced.",
+    "DAB18 and DAB20 have identical normalized extracted text but different visual emphasis (host versus drug). Both PDF positions inspected; one repeated text, no distinct new synthesis or integration. The general triad was already covered.",
+    "NICE CG183 selected official indexed recommendation text consulted; direct HTML/PDF fetches returned 403. Full current page and complete guideline not verified; limitation retained. CDC and EMA pages directly consulted for the relevant claims.",
+    "KATZ1032, APP-II25 and DAB4 existing text extractions rechecked; no new book pages or repeat full-figure inspections claimed. APP-II25 remains excluded from integration; quantitative PK/PD generalizations and incomplete continuation not used.",
+    "EMA Cubicin selected renal function, myopathy, interactions and pregnancy passages only; no dose, numerical threshold, monitoring schedule or full product review. Clinical synthesis is educational and not independently validated."
   ],
-  "nextBatch": "Completare la pubblicazione di DAB 11–15; poi DAB 16–20, non iniziato. Farmaci, profili e laboratori nel backlog.",
+  "nextBatch": "Completare DAB 16–20; poi DAB 21–25, non iniziato. Farmaci, profili e laboratori nel backlog.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",

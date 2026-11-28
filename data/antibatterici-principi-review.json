@@ -1,11 +1,11 @@
 {
-  "batch": "theory-dab-011-015",
-  "reviewedAt": "2026-11-27T23:34:57.406360+00:00",
+  "batch": "theory-dab-016-020",
+  "reviewedAt": "2026-11-28T00:12:11.265454+00:00",
   "outcome": "pass",
-  "scope": "Sole-integrator editorial review: serial-dilution explanation, ECOFF versus clinical breakpoints and version-aware report interpretation",
+  "scope": "Sole-integrator editorial review: host factors, renal elimination and overlapping risks; allergy versus adverse reaction and bacterial resistance.",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "ae50cb9e0ee744a8c4904ed17111ec0f1fe45adf55fcefa812a1c36d86c8360d",
+  "moduleSha256": "0290bc0b37274a3696ae9fa5091908e2c1f9374bf46eb754db382d1903dff86a",
   "conflicts": [
     {
       "id": "dab3-obscured-labels",
@@ -126,6 +126,31 @@
       "id": "aggregate-not-prevalence",
       "status": "resolved_for_scope",
       "resolution": "EUCAST aggregated distributions are not used to infer local resistance prevalence or comparisons across places or time."
+    },
+    {
+      "id": "dab16-17-covered-graphs",
+      "status": "unresolved_source_limit",
+      "resolution": "DAB16–17: historical S/I/R diagrams have overlaid callouts obscuring chart details. Visible headings and text inspected, but pages classified as partial and excluded from complete reading and integration. No historic numerical breakpoint or underlying dataset reproduced."
+    },
+    {
+      "id": "dab18-20-repeated-outline",
+      "status": "resolved_for_scope",
+      "resolution": "DAB18 and DAB20 have identical normalized extracted text but different visual emphasis (host versus drug). Both PDF positions inspected; one repeated text, no distinct new synthesis or integration. The general triad was already covered."
+    },
+    {
+      "id": "nice-direct-access",
+      "status": "unresolved_source_limit",
+      "resolution": "NICE CG183 selected official indexed recommendation text consulted; direct HTML/PDF fetches returned 403. Full current page and complete guideline not verified; limitation retained. CDC and EMA pages directly consulted for the relevant claims."
+    },
+    {
+      "id": "allergy-not-any-adverse-event",
+      "status": "resolved_for_scope",
+      "resolution": "Resistance, allergy and other adverse reactions separated. Historical label neither accepted as a complete diagnosis nor removed without assessment. No home challenge or dose advice."
+    },
+    {
+      "id": "cyp-not-all-interactions",
+      "status": "resolved_for_scope",
+      "resolution": "EMA renal/myopathy passages illustrate overlapping organ risk despite minimal CYP involvement; pregnancy evidence gap not presented as demonstrated safety."
     }
   ],
   "limits": [
@@ -141,6 +166,11 @@
     "DAB11: schematic serial dilution and subculture illustration read; no concentrations, validated bactericidal endpoint or universal incubation duration inferred. Original diagram not reproduced.",
     "DAB13 blood-concentration shorthand and DAB14 fixed tenfold definition are not current universal interpretive rules; reconciled with EUCAST exposure, ECOFF and breakpoint concepts.",
     "KATZ1031–1032 and APP-II22–24 text rechecked from existing extractions; no newly read book pages or repeat full-figure inspections claimed. Other lecturers and course intervals remain to be reconciled.",
-    "EUCAST web introductions and specified sections only; no species MIC datasets, complete numerical tables, linked SOPs or articles independently reviewed."
+    "EUCAST web introductions and specified sections only; no species MIC datasets, complete numerical tables, linked SOPs or articles independently reviewed.",
+    "DAB16–17: historical S/I/R diagrams have overlaid callouts obscuring chart details. Visible headings and text inspected, but pages classified as partial and excluded from complete reading and integration. No historic numerical breakpoint or underlying dataset reproduced.",
+    "DAB18 and DAB20 have identical normalized extracted text but different visual emphasis (host versus drug). Both PDF positions inspected; one repeated text, no distinct new synthesis or integration. The general triad was already covered.",
+    "NICE CG183 selected official indexed recommendation text consulted; direct HTML/PDF fetches returned 403. Full current page and complete guideline not verified; limitation retained. CDC and EMA pages directly consulted for the relevant claims.",
+    "KATZ1032, APP-II25 and DAB4 existing text extractions rechecked; no new book pages or repeat full-figure inspections claimed. APP-II25 remains excluded from integration; quantitative PK/PD generalizations and incomplete continuation not used.",
+    "EMA Cubicin selected renal function, myopathy, interactions and pregnancy passages only; no dose, numerical threshold, monitoring schedule or full product review. Clinical synthesis is educational and not independently validated."
   ]
 }

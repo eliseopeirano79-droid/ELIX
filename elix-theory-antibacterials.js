@@ -113,10 +113,24 @@ export const THEORY_ANTIBACTERIALS = {
       "refs": [
         "DAB",
         "APP-II",
-        "KATZ"
+        "KATZ",
+        "DAB-HOST",
+        "EMA-DAP"
       ],
-      "text": "Una dose è un ingresso nel sistema, mentre l’esposizione è il risultato del suo percorso nell’organismo. Assorbimento, distribuzione, metabolismo ed escrezione determinano quali concentrazioni si sviluppano e per quanto tempo. Due persone che ricevono lo stesso regime possono non avere lo stesso profilo di concentrazione, soprattutto se cambiano funzione renale, funzione epatica, assorbimento o terapie concomitanti.\n\nIl sito dell’infezione non coincide necessariamente con il plasma. La concentrazione circolante è un’informazione importante, ma l’effetto richiede che il farmaco raggiunga il compartimento rilevante in condizioni utili. La barriera da attraversare e le caratteristiche del tessuto possono modificare questo passaggio. Anche la disponibilità di una formulazione orale o endovenosa deve essere collegata al problema concreto che quella via consente di affrontare.\n\nL’eliminazione mette in relazione efficacia e sicurezza. Se la rimozione del farmaco rallenta, l’esposizione può aumentare; questo non significa automaticamente maggiore beneficio, perché possono aumentare anche gli effetti indesiderati. Se l’esposizione è insufficiente, una sensibilità favorevole in laboratorio può non tradursi nell’effetto atteso. La valutazione farmacocinetica serve a riconoscere entrambe le possibilità, non soltanto a cercare concentrazioni maggiori.\n\nLe difese dell’ospite costituiscono un altro elemento. Immunodepressione, condizioni generali e integrità delle barriere influenzano il rapporto con il patogeno. L’azione farmacologica si inserisce in questo ambiente biologico e non lo sostituisce integralmente. È riduttivo pensare che un’attività battericida renda superflua ogni altra componente del controllo dell’infezione.\n\nInfine, il farmaco incontra anche gli altri trattamenti della persona. Le interazioni possono modificare l’esposizione o sommare effetti sullo stesso organo. La storia delle reazioni avverse, l’età e la gravidanza aggiungono vincoli specifici. Questi fattori spiegano perché un antibiogramma sia una parte essenziale della decisione senza costituire, da solo, una prescrizione.",
+      "text": "Una dose è un ingresso nel sistema, mentre l’esposizione è il risultato del suo percorso nell’organismo. Assorbimento, distribuzione, metabolismo ed escrezione determinano quali concentrazioni si sviluppano e per quanto tempo. Due persone che ricevono lo stesso regime possono non avere lo stesso profilo di concentrazione, soprattutto se cambiano funzione renale, funzione epatica, assorbimento o terapie concomitanti.\n\nIl sito dell’infezione non coincide necessariamente con il plasma. La concentrazione circolante è un’informazione importante, ma l’effetto richiede che il farmaco raggiunga il compartimento rilevante in condizioni utili. La barriera da attraversare e le caratteristiche del tessuto possono modificare questo passaggio. Anche la disponibilità di una formulazione orale o endovenosa deve essere collegata al problema concreto che quella via consente di affrontare.\n\nLa funzione digerente rende concreto il tema dell’assorbimento. Per una somministrazione orale occorre che la dose raggiunga l’organismo in modo adeguato; cambiare via modifica questo passaggio, ma non risolve automaticamente gli ostacoli alla distribuzione nella sede d’infezione. La distinzione utile è fra ingresso del farmaco, concentrazione circolante e accesso al compartimento interessato. La via di somministrazione va interpretata attraverso queste tappe, non come un giudizio generale di maggiore o minore potenza.\n\nL’eliminazione mette in relazione efficacia e sicurezza. Se la rimozione del farmaco rallenta, l’esposizione può aumentare; questo non significa automaticamente maggiore beneficio, perché possono aumentare anche gli effetti indesiderati. Se l’esposizione è insufficiente, una sensibilità favorevole in laboratorio può non tradursi nell’effetto atteso. La valutazione farmacocinetica serve a riconoscere entrambe le possibilità, non soltanto a cercare concentrazioni maggiori.\n\nLe difese dell’ospite costituiscono un altro elemento. Immunodepressione, condizioni generali e integrità delle barriere influenzano il rapporto con il patogeno. L’azione farmacologica si inserisce in questo ambiente biologico e non lo sostituisce integralmente. È riduttivo pensare che un’attività battericida renda superflua ogni altra componente del controllo dell’infezione.\n\nInfine, il farmaco incontra anche gli altri trattamenti della persona. Le interazioni possono modificare l’esposizione o sommare effetti sullo stesso organo. La storia delle reazioni avverse, l’età e la gravidanza aggiungono vincoli specifici. Questi fattori spiegano perché un antibiogramma sia una parte essenziale della decisione senza costituire, da solo, una prescrizione.\n\nLa daptomicina offre un esempio già collegato al catalogo. Il RCP di Cubicin descrive un’eliminazione prevalentemente renale e richiama l’attenzione sul danno muscolare, sulla funzione renale e sui trattamenti concomitanti associati a miopatia, come le statine. Uno scarso coinvolgimento del citocromo P450 non equivale quindi ad assenza di interazioni: due medicinali possono condividere un rischio sullo stesso organo anche senza competere per quel sistema metabolico. L’esempio chiarisce il problema; le decisioni sul regime e sul monitoraggio restano specifiche del medicinale e del contesto.\n\nLa gravidanza introduce inoltre una questione di qualità delle prove. Per daptomicina il RCP segnala l’assenza di dati clinici sulle gravidanze e limita l’impiego alle situazioni di chiara necessità, dopo valutazione del beneficio rispetto al rischio possibile. Dati animali rassicuranti e mancanza di dati clinici non sono equivalenti a una sicurezza dimostrata nella persona. Una categoria microbiologica favorevole non può colmare questa lacuna.",
       "formula": "Regime somministrato → percorso farmacocinetico → esposizione alla sede; beneficio e rischio dipendono dal contesto."
+    },
+    {
+      "id": "allergia-e-reazione-avversa",
+      "title": "Allergia, reazione avversa e resistenza: riconoscere la differenza",
+      "refs": [
+        "DAB-HOST",
+        "KATZ",
+        "NICE-ALL",
+        "CDC-ALL"
+      ],
+      "text": "La resistenza riguarda il rapporto fra microrganismo e antibatterico; l’allergia riguarda la risposta della persona al medicinale. Un isolato può risultare sensibile a un farmaco che presenta un rischio allergologico per l’ospite. Viceversa, l’assenza di allergia non dimostra che quel composto sia attivo contro il patogeno. Questi due giudizi occupano punti diversi del triangolo patogeno–ospite–farmaco e devono rimanere distinti anche nel linguaggio dello studio.\n\nAnche «reazione avversa» e «allergia» non sono sinonimi. La prima espressione comprende effetti indesiderati con meccanismi differenti; la seconda implica una risposta immunologica. Per le penicilline, CDC distingue reazioni immediate e reazioni ritardate, alcune delle quali possono essere gravi. Il solo intervallo temporale, tuttavia, non basta a formulare una diagnosi: occorre ricostruire il quadro e le altre possibili spiegazioni.\n\nLa qualità dell’informazione conta quanto l’etichetta. Scrivere soltanto «allergico» lascia senza risposta domande essenziali: quale medicinale, quale manifestazione, quale gravità e quando? NICE richiede una documentazione che mantenga questi elementi e distingua lo stato allergologico dalle altre reazioni avverse. Una descrizione precisa rende possibile una valutazione successiva; una parola generica può invece essere copiata nel tempo senza che il suo significato venga chiarito.\n\nUn disturbo gastrointestinale isolato non dimostra da solo un’allergia: NICE lo considera un elemento che la rende meno probabile. Questo orientamento non autorizza a cancellare una segnalazione senza valutarla. Dall’altro lato, CDC ricorda che un’etichetta inesatta di allergia alla penicillina può spostare la scelta verso alternative ad ampio spettro, con conseguenze sulla qualità della terapia e sulla stewardship. Evitare il rischio allergico e verificare la qualità della storia sono esigenze complementari.\n\nLa rivalutazione richiede un percorso appropriato al rischio. Non equivale a riprovare autonomamente il farmaco. In particolare, una storia di reazione ritardata grave richiede competenza specialistica e non va trattata come un semplice dubbio risolvibile con un’assunzione di prova. Il collegamento con amoxicillina, già presente nel catalogo, serve a riconoscere questa dimensione della scelta dei β-lattamici: il bersaglio batterico spiega l’azione, mentre la storia della persona contribuisce a stabilire se quell’azione possa essere impiegata in sicurezza.",
+      "formula": "Resistenza → microrganismo e farmaco. Allergia → risposta immunologica dell’ospite. Reazione avversa → categoria più ampia da descrivere e valutare."
     },
     {
       "id": "resistenza-e-microbiota",
@@ -200,6 +214,22 @@ export const THEORY_ANTIBACTERIALS = {
     {
       "question": "Una diversa categoria in due referti prova da sola che il batterio abbia acquisito una mutazione?",
       "answer": "No. Occorre confrontare isolato, misura, metodo e versione dei criteri. Un cambiamento del breakpoint può modificare l’interpretazione anche a MIC invariata."
+    },
+    {
+      "question": "Un antibiogramma favorevole esclude il rischio di allergia?",
+      "answer": "No. La sensibilità descrive il rapporto isolato–farmaco; il rischio allergologico riguarda l’ospite e richiede informazioni distinte."
+    },
+    {
+      "question": "La sola diarrea dopo un antibiotico dimostra un’allergia?",
+      "answer": "No. Un disturbo gastrointestinale isolato non basta per la diagnosi; occorre valutare e documentare il quadro, senza cancellare autonomamente una segnalazione."
+    },
+    {
+      "question": "Un farmaco poco metabolizzato dal CYP450 è privo di interazioni?",
+      "answer": "No. Possono esserci modificazioni dell’eliminazione o rischi condivisi sullo stesso organo, come mostra l’attenzione alla miopatia con daptomicina e altri medicinali."
+    },
+    {
+      "question": "L’assenza di dati clinici in gravidanza equivale a sicurezza dimostrata?",
+      "answer": "No. È una lacuna delle prove; il giudizio richiede informazioni specifiche del medicinale e valutazione del beneficio rispetto al rischio."
     }
   ],
   "references": [
@@ -227,7 +257,7 @@ export const THEORY_ANTIBACTERIALS = {
       "id": "EMA-DAP",
       "title": "EMA · Cubicin, informazioni del prodotto",
       "url": "https://www.ema.europa.eu/en/documents/product-information/cubicin-epar-product-information_en.pdf",
-      "detail": "Consultazione27novembre2026:selezioni4.4(pneumonia) e5.1(meccanismo). Non intero RCP; nessuna dose o nuovo profilo."
+      "detail": "Consultazione27novembre2026:selezioni4.4(pneumonia) e5.1(meccanismo). Non intero RCP; nessuna dose o nuovo profilo. Selezioni su eliminazione renale (§4.2), miopatia e funzione renale (§4.4), interazioni (§4.5) e gravidanza (§4.6) consultate il 28 novembre 2026. Nessun dosaggio o calendario di monitoraggio trasferito."
     },
     {
       "id": "EUCAST",
@@ -314,15 +344,32 @@ export const THEORY_ANTIBACTERIALS = {
       "title": "EUCAST · About Clinical Breakpoint Tables",
       "url": "https://www.eucast.org/bacteria/development-of-clinical-breakpoints-and-ecoffs/about-clinical-breakpoints/",
       "detail": "Introduzione e paragrafo su aggiornamenti, correzioni e addenda consultati il27novembre2026. Esempi numerici della pagina non trasferiti come criteri clinici."
+    },
+    {
+      "id": "DAB-HOST",
+      "title": "Diapositive del corso di Farmacologia II · AA 2026–27 · Fattori dell’ospite",
+      "detail": "PDF 16–20 esaminati. PDF 18–20 leggibili; 18 e 20 ripetono lo stesso testo con enfasi grafica diversa e non aggiungono una sintesi distinta. Integrata pagina 19. PDF 16–17 parziali per sovrapposizioni sul grafico storico: esclusi dalla lettura completa e dall’integrazione; nessun valore o figura trasferiti."
+    },
+    {
+      "id": "NICE-ALL",
+      "title": "NICE · Drug allergy: diagnosis and management, CG183",
+      "url": "https://www.nice.org.uk/guidance/cg183/chapter/Recommendations",
+      "detail": "Raccomandazioni 1.1.2–1.1.3 e 1.2.1–1.2.6 consultate in estratti indicizzati ufficiali il 28 novembre 2026. Linea guida pubblicata nel 2014; accesso diretto alla pagina non riuscito (403). Nessuna lettura integrale o verifica indipendente dell’intero percorso dichiarata."
+    },
+    {
+      "id": "CDC-ALL",
+      "title": "CDC · Clinical Features of Penicillin Allergy",
+      "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-signs/index.html",
+      "detail": "Pagina del 25 agosto 2025, consultata il 28 novembre 2026: etichette allergologiche, anamnesi, reazioni ritardate gravi e limiti della rivalutazione. Nessuna percentuale o procedura di test trasferita."
     }
   ],
   "drugs": [],
   "targets": [],
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
-  "reviewedAt": "2026-11-27T23:34:57.406360+00:00",
+  "reviewedAt": "2026-11-28",
   "readingManifest": "./data/antibatterici-principi-reading.json",
-  "coverage": "Copertura cumulativa circoscritta:27 pagine complete del testo visibile (2 metadati),4 parziali escluse,31 ispezioni visive e22 pagine con passaggi integrati. Questo lotto aggiunge4 pagine complete,1 parziale,5 ispezioni e4 pagine integrate;5 pagine già lette sono state ricontrollate nel testo. Nessun intero libro o corso letto; nessuna revisione clinica indipendente.",
+  "coverage": "Copertura cumulativa circoscritta: 30 posizioni PDF con testo visibile letto (2 metadati), 6 parziali escluse, 36 ispezioni e 23 pagine con passaggi integrati. Questo lotto comprende 3 posizioni leggibili ma 2 testi distinti: 18 e 20 ripetono lo stesso testo con enfasi grafica diversa. Integrata soltanto pagina 19; 3 pagine già lette ricontrollate nel testo. Nessun intero libro o corso letto; nessuna revisione clinica indipendente.",
   "moleculeLinks": [
     {
       "id": "CHEMBL1082",
@@ -341,5 +388,5 @@ export const THEORY_ANTIBACTERIALS = {
     "antibiotici-beta-lattamici",
     "metabolismo-trasportatori"
   ],
-  "wordCount": 3706
+  "wordCount": 4256
 };

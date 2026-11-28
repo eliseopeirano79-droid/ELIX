@@ -8,13 +8,13 @@ Usare appunti e diapositive del corso di Farmacologia, con anno, lezione, data e
 
 ## Lotto corrente
 
-theory-dab-011-015, candidato 0.125.0. Ampliamento della spiegazione della MIC e due nuove sezioni originali: ECOFF e breakpoint clinico; lettura dei referti e versione dei criteri. Totale 12 sezioni, 3706 parole, 15 quesiti e 9 schemi. Nessuna nuova identità, sintesi di farmaco, profilo o laboratorio.
+theory-dab-016-020, candidato 0.126.0. Fattori dell’ospite approfonditi e nuova sezione su allergia, reazione avversa e resistenza. Totale 13 sezioni, 4256 parole, 19 quesiti e 10 schemi originali. Nessuna nuova identità, sintesi di farmaco, profilo o laboratorio.
 
-Ultima pubblicazione verificata 0.124.0, commit d0cd234a401740537f15564240a02c78183a5ee5. La ricevuta post-deploy prevale sul checkpoint preparatorio. CFI931–935 chiuso come sola lettura.
+Ultima pubblicazione verificata 0.125.0, commit fcf85b1d525aeaf0bf8756fd5fdaa521c7059218. La ricevuta post-deploy prevale sul checkpoint preparatorio.
 
-DAB 11–15: 4 nuove pagine complete del testo visibile,1 parziale esclusa, 5 ispezioni e 4 pagine integrate. PDF12 con metadati oscurati nel referto storico resta escluso; nessun dato personale, valore del referto o figura pubblicati. Ricontrollato il testo di 5 pagine già lette di Katzung e appunti di Farmacologia II, senza nuova copertura o nuova ispezione delle figure. Copertura cumulativa 27 complete (2 metadati),4 parziali,31 ispezioni e22 integrate. Definizioni storiche riconciliate con EUCAST corrente nei passaggi registrati. Nessun intero libro, corso o manuale letto; nessuna revisione clinica indipendente. Verifiche locali superate: 53 controlli, 8 configurazioni browser, 10 schermate ispezionate e aggiornamento reale 0.124.0 → 0.125.0 con dati conservati. Restano commit, CI, deploy e verifica online.
+DAB 16–20: tre posizioni PDF con testo visibile letto, ma due testi distinti; 18 e 20 ripetono il testo con enfasi grafica diversa. Cinque ispezioni, due pagine parziali escluse (16–17), sola pagina 19 integrata. Ricontrollati nel testo DAB 4, Katzung PDF 1032 e appunti PDF 25; nessuna nuova lettura di libri o figure di supporto. Copertura cumulativa: 30 posizioni complete (2 metadati), 6 parziali, 36 ispezioni e 23 integrate. Riconciliazione generale e revisione clinica indipendente aperte. NICE consultato soltanto negli estratti ufficiali indicizzati, accesso diretto 403; CDC e EMA consultati direttamente. Verifiche locali superate: 53 controlli, 8 configurazioni browser, 8 schermate ispezionate e aggiornamento reale 0.125.0 → 0.126.0 con dati conservati. Restano commit, CI, deploy e verifica online.
 
-Prove private in ../../outputs/ELIX-dab-011-015-2026-11-27/.
+Prove private in ../../outputs/ELIX-dab-016-020-2026-11-28/.
 
 ## Regole
 
@@ -26,4 +26,4 @@ Prove private in ../../outputs/ELIX-dab-011-015-2026-11-27/.
 
 ## Prossimo intervallo
 
-Completare DAB11–15; poi DAB16–20, non iniziato. Riconciliazione complessiva incompleta; nessuna revisione clinica indipendente. Farmaci, profili e laboratori nel backlog.
+Completare DAB 16–20; poi DAB 21–25, non iniziato. Riconciliazione complessiva incompleta; nessuna revisione clinica indipendente. Farmaci, profili e laboratori nel backlog.
