@@ -209,6 +209,33 @@ export const THEORY_ANTIBACTERIALS = {
       "text": "La resistenza riguarda il rapporto fra microrganismo e agente antimicrobico. Non è il corpo del paziente a diventare «resistente all’antibiotico» nel significato microbiologico del termine. Una specie può possedere caratteristiche che limitano naturalmente l’attività di un farmaco; un isolato può inoltre differire da altri della stessa specie. Il principio è già visibile nella necessità di distinguere identità del patogeno e sensibilità.\n\nLa resistenza intrinseca appartiene alle caratteristiche di base di un microrganismo, mentre quella acquisita implica un cambiamento rispetto alla sensibilità attesa. Le modalità molecolari e la diffusione dei determinanti di resistenza richiedono una trattazione dedicata: questa introduzione non sostituisce l’analisi di β-lattamasi, modificazioni dei bersagli, permeabilità ed efflusso. Il collegamento al capitolo sui β-lattamici permette di ritrovare un primo esempio concreto.\n\nL’esposizione modifica le condizioni di sopravvivenza delle popolazioni microbiche. WHO identifica uso inappropriato ed eccessivo degli antimicrobici fra i fattori che favoriscono l’emergere e la diffusione della resistenza. Il problema riguarda sia il trattamento dell’infezione presente sia le possibilità terapeutiche future. Prevenzione delle infezioni, diagnosi e accesso a cure appropriate partecipano alla stessa strategia.\n\nL’effetto ecologico non si limita al focolaio. Un antibiotico può ridurre anche componenti utili del microbiota intestinale. CDC collega questa alterazione alla possibilità che Clostridioides difficile proliferi e provochi infezione. Il rischio non implica che ogni diarrea durante una terapia sia causata da questo batterio: causa, esposizione e diagnosi restano distinte.\n\nPer studiare un antibiotico occorre dunque affiancare alla domanda «quale bersaglio colpisce?» quella «quali popolazioni espone?». Il beneficio cercato e gli effetti collaterali possono riguardare compartimenti e microrganismi differenti. Questo amplia la valutazione senza trasformarla in una regola secondo cui tutti i farmaci avrebbero gli stessi rischi."
     },
     {
+      "id": "intento-della-terapia",
+      "title": "Profilassi, terapia empirica e terapia mirata: domande diverse",
+      "refs": [
+        "DAB-INTENTO",
+        "APP-DURATA",
+        "KATZ",
+        "NICE-PROF",
+        "SSC-TEMPI"
+      ],
+      "text": "Lo scopo dell’impiego di un antibatterico e il suo bersaglio molecolare descrivono due aspetti diversi. Un beta-lattamico continua a interferire con la sintesi della parete batterica, ma il motivo per cui viene considerato può essere la prevenzione di una particolare infezione oppure il trattamento di un’infezione sospetta o documentata. Per comprendere la scelta occorre esplicitare la domanda clinica prima di confrontare spettro, sensibilità e concentrazioni. L’etichetta «antibiotico» non contiene già l’indicazione.\n\nLa profilassi mira a ridurre un rischio infettivo definito in una situazione per la quale esiste un’indicazione preventiva. Non è una copertura indistinta contro qualsiasi evento futuro. La profilassi chirurgica offre un esempio: NICE distingue le procedure nelle quali è indicata da quelle pulite, non protesiche e non complicate, nelle quali non è raccomandata di routine. Se è già presente una ferita infetta, la necessità di trattamento costituisce una questione ulteriore. Queste distinzioni chiariscono il fine dell’intervento senza trasformare una categoria didattica in una prescrizione.\n\nLa terapia empirica affronta invece un’infezione ritenuta possibile o probabile prima che siano disponibili tutte le informazioni sul microrganismo responsabile e sulla sua sensibilità. «Empirica» non significa casuale: il ragionamento combina sede, quadro clinico, condizioni dell’ospite ed epidemiologia pertinente. Lo spettro necessario dipende da questa ipotesi, non da una graduatoria astratta di antibiotici più potenti. Una sintomatologia compatibile con infezione non identifica da sola un batterio; l’incertezza diagnostica deve rimanere riconoscibile mentre si raccolgono nuove informazioni.\n\nLa terapia mirata utilizza dati microbiologici pertinenti per rendere più specifica la scelta. La pertinenza è essenziale: il risultato deve essere interpretato rispetto al campione, alla sede e alla malattia osservata. Anche una sensibilità in vitro favorevole deve incontrare un’esposizione adeguata e un contesto clinico compatibile. Per l’amoxicillina già collegata al catalogo, il bersaglio di parete resta lo stesso quando aumenta la conoscenza del patogeno; cambia la giustificazione della scelta, non il meccanismo della molecola. «Mirata» non significa che l’infezione sia già risolta.\n\nQueste categorie non formano una sequenza obbligatoria che ogni paziente debba attraversare. Una profilassi può concludersi senza che compaia un’infezione; una diagnosi alternativa può far venire meno la ragione di una terapia empirica. Viceversa, l’assenza di isolamento microbiologico non dimostra da sola l’assenza di infezione: qualità del campione, trattamenti precedenti e limiti dei metodi possono influire sul risultato. La rivalutazione ricostruisce il significato dei dati, anziché applicare automaticamente l’ultimo nome di una sequenza. Nella sepsi, le raccomandazioni SSC collegano esplicitamente i nuovi risultati alla rivalutazione diagnostica e alla de-escalation, conservando la distinzione fra indicazione, scelta del farmaco e risposta del paziente.",
+      "formula": "Scopo preventivo → rischio definito; terapia empirica → ipotesi clinica esplicita; terapia mirata → dati pertinenti. Nessuna delle tre etichette dimostra da sola la guarigione."
+    },
+    {
+      "id": "tempi-durata-terapia",
+      "title": "Quando iniziare e quanto proseguire: urgenza, prove e rivalutazione",
+      "refs": [
+        "DAB-INTENTO",
+        "APP-DURATA",
+        "SSC-TEMPI",
+        "SIS-DURATA",
+        "LIU-TEMPI",
+        "PITSTOP-2026"
+      ],
+      "text": "Il tempo dell’inizio e la durata complessiva rispondono a problemi differenti. Il primo riguarda il rischio di lasciare un’infezione pericolosa senza trattamento efficace; la seconda riguarda quanto a lungo mantenere un’esposizione utile nel quadro che evolve. Entrambi richiedono una diagnosi ragionata, ma non si ricavano dalla sola MIC o dalla scomparsa della febbre. Neppure la classificazione batteriostatica o battericida stabilisce, da sola, quanto debba durare una terapia.\n\nNella sepsi il contesto modifica l’urgenza. Le raccomandazioni SSC 2026 distinguono shock settico e sepsi probabile o definita dalle situazioni senza shock in cui l’infezione è soltanto possibile o poco probabile. La rapida valutazione delle alternative e la sorveglianza clinica fanno parte di queste distinzioni; non sono equivalenti a un rinvio indiscriminato. Il punto didattico è comprendere perché gravità e probabilità diagnostica entrino insieme nel ragionamento. Le finestre operative richiedono i percorsi clinici pertinenti e non sono riprodotte qui come un algoritmo universale.\n\nAnche la lettura delle prove sul tempo richiede attenzione. In uno studio osservazionale, «inizio del ritardo» può significare registrazione in pronto soccorso oppure comparsa di ipotensione: sono riferimenti diversi. Liu e collaboratori hanno osservato un’associazione fra ritardo dalla registrazione e mortalità ospedaliera in una coorte di pazienti con sepsi. Un’associazione aggiustata per fattori misurati non rende però ogni ora una perdita causale identica di sopravvivenza per ogni paziente. Occorre distinguere popolazione, confronto, punto di partenza dell’orologio ed esito.\n\nUna sperimentazione randomizzata pone una domanda più circoscritta. Nel PITSTOP-Antibiotics, pubblicato nel novembre 2026, la ceftriaxone preospedaliera è stata confrontata con placebo in adulti con sospetta infezione, febbre e ipotensione; le cure ospedaliere restavano disponibili in entrambi i gruppi. Non è stata dimostrata una riduzione della mortalità ospedaliera. Questo risultato riguarda quella strategia e quella popolazione: non dimostra che sia innocuo ritardare un trattamento efficace nello shock settico. Qui sono stati confrontati l’abstract e i punti essenziali dello studio, non svolta una revisione indipendente dell’intero dossier.\n\nLa durata richiede a sua volta un piano riferito alla sindrome infettiva, all’ospite, all’andamento clinico e al controllo della fonte. Il miglioramento iniziale non misura direttamente quanti batteri siano rimasti; non esiste una percentuale universale di eliminazione che trasformi automaticamente il benessere in guarigione. D’altra parte, prolungare sempre il trattamento non garantisce l’eradicazione. Le linee guida SIS sulle infezioni intra-addominali distinguono situazioni e popolazioni dopo un adeguato controllo della fonte: la presenza di un ascesso non implica da sola una durata indefinitamente lunga. La disponibilità di un farmaco attivo e il controllo del focolaio restano aspetti complementari.\n\nPer lo studio, la distinzione utile è quindi fra durata pianificata e rivalutazione motivata. Una decisione clinica di abbreviare, proseguire, modificare o interrompere il trattamento deve avere una ragione documentabile; non coincide con una modifica autonoma basata su un solo sintomo. Sintomi, dati microbiologici e andamento degli esami contribuiscono al quadro, senza diventare singolarmente un certificato di eradicazione. La stewardship collega questi passaggi, mantenendo espliciti obiettivo e criteri di riesame.",
+      "formula": "Inizio: urgenza + probabilità di infezione. Prosecuzione: diagnosi + risposta + controllo della fonte. Una misura isolata non decide l’intero percorso."
+    },
+    {
       "id": "stewardship-rivalutazione",
       "title": "Stewardship: rendere la scelta verificabile e rivederla",
       "refs": [
@@ -343,6 +370,22 @@ export const THEORY_ANTIBACTERIALS = {
     {
       "question": "Il TDM modifica la MIC o rende automaticamente trattabile un isolato classificato R?",
       "answer": "No. Misura l’esposizione nel paziente e non cambia il risultato microbiologico. I e R restano categorie distinte; le indicazioni al monitoraggio dipendono dal contesto e dalle prove."
+    },
+    {
+      "question": "Profilassi, terapia empirica e terapia mirata sono fasi obbligatorie della stessa sequenza?",
+      "answer": "No. Descrivono scopi e livelli di informazione differenti. Il percorso dipende dal problema clinico; una profilassi può concludersi senza infezione e una diagnosi alternativa può modificare l’indicazione empirica."
+    },
+    {
+      "question": "Una terapia mirata modifica il bersaglio molecolare dell’antibiotico?",
+      "answer": "No. Cambia la giustificazione della scelta sulla base di informazioni pertinenti. Meccanismo, sensibilità, esposizione e risposta clinica rimangono piani distinti."
+    },
+    {
+      "question": "Un’associazione fra ritardo e mortalità permette di attribuire a ogni ora la stessa perdita di sopravvivenza?",
+      "answer": "No. Bisogna conoscere disegno dello studio, popolazione, riferimento temporale ed esito. Un’associazione osservazionale non dimostra un effetto causale uniforme per ogni paziente."
+    },
+    {
+      "question": "La scomparsa della febbre o il prolungamento del trattamento garantiscono da soli l’eradicazione?",
+      "answer": "No. La durata richiede un piano e una rivalutazione clinica riferiti a diagnosi, ospite, risposta e controllo della fonte; nessun singolo indicatore equivale a guarigione microbiologica."
     }
   ],
   "references": [
@@ -527,7 +570,7 @@ export const THEORY_ANTIBACTERIALS = {
     {
       "id": "APP-VAR",
       "title": "Appunti del corso di Farmacologia II · AA 2024–25 · Lezione 3, 14 ottobre 2024",
-      "detail": "PDF 27–28, stampa 26–27, letti integralmente come pagine visibili. Integrata soltanto la variabilità farmacocinetica di PDF 27; figure ripetute non costituiscono prove indipendenti. Frequenza di somministrazione e categorie PK/PD non equiparate. PDF 28 escluso dalla sintesi."
+      "detail": "PDF 27–28, stampa 26–27, letti integralmente come pagine visibili. Integrata soltanto la variabilità farmacocinetica di PDF 27; figure ripetute non costituiscono prove indipendenti. Frequenza di somministrazione e categorie PK/PD non equiparate. PDF 28 escluso dal lotto sulla variabilità; suoi passaggi sono stati successivamente riconciliati nell’ampliamento su scopo e durata (APP-DURATA)."
     },
     {
       "id": "ESICM-TDM",
@@ -546,6 +589,46 @@ export const THEORY_ANTIBACTERIALS = {
       "title": "SCCM / ESICM · Surviving Sepsis Campaign 2026",
       "url": "https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026",
       "detail": "Pagina ufficiale consultata il 28 novembre 2026: raccomandazione sul TDM in adulti selezionati con sepsi o shock settico, condizionale e con certezza molto bassa. Non letta l’intera linea guida o le tabelle di evidenza collegate; nessuna estensione automatica ad altre popolazioni."
+    },
+    {
+      "id": "DAB-INTENTO",
+      "title": "Diapositive del corso di Farmacologia II · AA 2026–27 · Scopo e tempi della terapia",
+      "detail": "PDF 36–40 letti integralmente come pagine visibili; integrati selettivamente 37–40. PDF 38 privo di testo estraibile, letto nell’immagine. Risparmio economico, sequenza automatica delle strategie e percentuali universali non trasferiti. La citazione temporale di PDF 39 è stata confrontata con gli abstract originali; nessuna figura riprodotta."
+    },
+    {
+      "id": "APP-DURATA",
+      "title": "Appunti del corso di Farmacologia II · AA 2024–25 · Lezione 3, 14 ottobre 2024",
+      "detail": "PDF 29, stampa 28, letto nel testo e nelle immagini; PDF 28, stampa 27, già letto nel lotto precedente e ricontrollato nel testo. Integrati passaggi selezionati di entrambe le pagine su finalità e durata. Percentuali di eradicazione, garanzie di guarigione e dati epidemiologici non validati esclusi; figure ripetute non sono prove indipendenti."
+    },
+    {
+      "id": "NICE-PROF",
+      "title": "NICE · Surgical site infections: prevention and treatment, NG125",
+      "url": "https://www.nice.org.uk/guidance/ng125/chapter/recommendations",
+      "detail": "Raccomandazioni 1.2.12–1.2.17 consultate in estratti indicizzati ufficiali il 28 novembre 2026. Accesso diretto non riuscito (403): nessuna lettura integrale della pagina o del documento dichiarata. Usata solo la distinzione fra indicazione preventiva e trattamento; nessun regime o calendario trasferito."
+    },
+    {
+      "id": "SSC-TEMPI",
+      "title": "SCCM / ESICM · Surviving Sepsis Campaign 2026: avvio e rivalutazione",
+      "url": "https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026",
+      "detail": "Selezioni ufficiali su probabilità di infezione, shock, avvio, controllo della fonte, diagnosi alternativa, de-escalation e durata consultate il 28 novembre 2026. Certezza molto bassa per le raccomandazioni temporali citate; forza delle raccomandazioni distinta dalla certezza. Non intera linea guida, tabelle di evidenza o protocollo operativo."
+    },
+    {
+      "id": "SIS-DURATA",
+      "title": "Surgical Infection Society · Infezioni intra-addominali, aggiornamento 2024",
+      "url": "https://journals.sagepub.com/doi/10.1089/sur.2024.137",
+      "detail": "Abstract e selezioni della sezione Duration of Antimicrobial Therapy consultati il 28 novembre 2026. Ambito adulto, con distinzioni di popolazione e controllo della fonte. Nessuna durata numerica trasferita; non intera linea guida né revisione degli studi sottostanti."
+    },
+    {
+      "id": "LIU-TEMPI",
+      "title": "Liu e collaboratori · Tempi degli antibiotici e mortalità nella sepsi, 2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28345952/",
+      "detail": "Abstract e didascalia della figura 2 consultati il 28 novembre 2026. Coorte retrospettiva, tempo dalla registrazione in pronto soccorso, mortalità ospedaliera aggiustata. Articolo integrale, dati originali e figura originale non ispezionati indipendentemente; nessuna percentuale generalizzata."
+    },
+    {
+      "id": "PITSTOP-2026",
+      "title": "Scales e collaboratori · PITSTOP-Antibiotics, JAMA 2026",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2857281",
+      "detail": "Pubblicato il 24 novembre 2026, DOI 10.1001/jama.2026.25627. Abstract, Key Points e introduzione consultati il 28 novembre 2026. Confronto preospedaliero randomizzato in adulti con sospetta infezione, febbre e ipotensione; non intero articolo, protocollo, figure o supplementi. Risultato non esteso a ogni strategia o popolazione con sepsi."
     }
   ],
   "drugs": [],
@@ -554,7 +637,7 @@ export const THEORY_ANTIBACTERIALS = {
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-28",
   "readingManifest": "./data/antibatterici-principi-reading.json",
-  "coverage": "Copertura cumulativa circoscritta: 52 posizioni PDF lette integralmente come pagine visibili (2 metadati), 6 parziali escluse, 58 ispezioni e 40 pagine con passaggi integrati. Questo lotto: 8 pagine nuove lette e ispezionate, 5 integrate. Testo raster e difformità fra estrazione e pagina controllati direttamente. Due pagine precedenti ricontrollate solo nel testo. Figure ripetute fra slide e appunti non sono prove indipendenti. Nessun intero libro o corso letto; nessuna revisione clinica indipendente.",
+  "coverage": "Copertura cumulativa circoscritta: 60 posizioni PDF lette integralmente come pagine visibili (2 metadati), 6 parziali escluse, 66 ispezioni e 46 pagine con passaggi integrati. Questo lotto: 8 nuove pagine lette e ispezionate; 6 nuove integrazioni di pagina, di cui una già letta nel lotto precedente. Due pagine precedenti ricontrollate solo nel testo. Figure ripetute fra slide e appunti non sono prove indipendenti. Regimi storici e generalizzazioni quantitative esclusi. Nessun intero libro o corso letto; nessuna revisione clinica indipendente.",
   "moleculeLinks": [
     {
       "id": "CHEMBL1082",
@@ -575,5 +658,5 @@ export const THEORY_ANTIBACTERIALS = {
     "formulazioni-sali-bioequivalenza",
     "clearance-biliare-renale"
   ],
-  "wordCount": 6221
+  "wordCount": 7118
 };
