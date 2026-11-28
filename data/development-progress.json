@@ -1,25 +1,24 @@
 {
-  "updatedAt": "2026-11-28T02:40:31.445492+00:00",
-  "batch": "theory-dab-036-040",
+  "updatedAt": "2026-11-28T03:19:18.648405+00:00",
+  "batch": "theory-dab-041-045",
   "status": "local_verified_pending_publication",
-  "release": "0.130.0",
-  "branch": "feat/theory-dab-036-040",
-  "baseCommit": "4d6e67467736fcd320dcff4c9d262089b58f9dfa",
+  "release": "0.131.0",
+  "branch": "feat/theory-dab-041-045",
+  "baseCommit": "0ced6655f596d984188766bf6f0e1a896699bdcd",
   "previousBatch": {
-    "batch": "theory-dab-031-035",
-    "release": "0.129.0",
-    "commit": "4d6e67467736fcd320dcff4c9d262089b58f9dfa",
+    "batch": "theory-dab-036-040",
+    "release": "0.130.0",
+    "commit": "0ced6655f596d984188766bf6f0e1a896699bdcd",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Profilassi, terapia empirica e mirata; urgenza, lettura delle prove, durata e controllo della fonte."
+    "Selezione, competizione e MSC; risposta insufficiente, diagnosi, esposizione, focolaio e ospite."
   ],
   "completed": [
-    "Due nuove sezioni: 20 sezioni, 7118 parole, 35 quesiti, 18 schemi originali.",
-    "Otto nuove pagine lette e ispezionate; sei nuove integrazioni, una da pagina già letta. Due precedenti pagine ricontrollate nel testo.",
-    "53 controlli automatici e otto configurazioni browser superati; otto immagini ispezionate.",
-    "Aggiornamento reale 0.129.0→0.130.0 verificato: preferiti, progressi, tema e offline conservati.",
-    "66 altri capitoli e le 18 sezioni precedenti invariati."
+    "Due nuove sezioni: 22 sezioni, 7943 parole, 39 quesiti, 20 schemi originali.",
+    "Sei nuove pagine lette completamente, una parziale, sette ispezionate e cinque integrate. Una precedente pagina ricontrollata nel testo.",
+    "53 controlli locali e otto configurazioni browser superati; otto immagini ispezionate.",
+    "Aggiornamento reale0.130.0→0.131.0 con dati salvati, tema e offline conservati;20 sezioni precedenti e66 altri capitoli invariati."
   ],
   "remaining": [
     "Commit, CI, deploy e verifica online."
@@ -114,9 +113,20 @@
     "SIS2024 abstract and selected duration recommendations only: adult intra-abdominal infections, adequate source control and population distinctions. No one fixed duration or automatic prolonged abscess course, no full guideline or primary trial review.",
     "Alam2018 PHANTASi abstract read in full; randomized prehospital strategy and28-day mortality differ from Kumar2006 retrospective hypotension cohort and Liu2017 ED-registration cohort. Used for private conflict reconciliation, not a new prescribing recommendation.",
     "PITSTOP-Antibiotics2026 abstract, Key Points and introduction read; published24November2026. No full article, protocol, figures or supplements independently reviewed. Lack of demonstrated benefit for the studied prehospital strategy is not proof that treatment delay is harmless; no universal guideline reversal.",
+    "Sole-integrator original educational/editorial synthesis; full source reconciliation and independent clinical review remain open.",
+    "DAB41: raster news headline and visible legend inspected, text layer empty; chart lower axis/units and notes cut off. Partial page excluded. Historical 2018 reference is not current epidemiology; underlying Lancet study not read.",
+    "DAB42: full text and slide read. Distinguish origin of variants, selection and horizontal transfer; no purposeful mutation or universal denial of exposure effects on variability. Repeats embedded slide previously inspected in APP-II29, not independent evidence.",
+    "DAB43: empty text layer, full visible diagram and caption read directly. Sandegren2014 figure1 schematic traced through caption/reference5 to Gullberg2011. Resolves earlier APP-II29 attribution gap; source article figures not independently inspected. MSC is not MIC, a clinical breakpoint or dosing target; no numerical window imported.",
+    "DAB44: full text and image read but excluded from new integration as repeated PK/target-access material. No universal plasma/tissue conversion, no equivalence between human P-glycoprotein and bacterial efflux proteins.",
+    "DAB45 and APP-II30 (printed29): full text and page inspected. Failure causes separated from susceptibility classification. An initial antibiogram does not exclude later resistance, new infection, delivery, exposure, host or source-control problems. No automatic escalation or testing algorithm.",
+    "KATZ1036, printed1016: all visible text and table51.3 inspected. Selected qualitative failure analysis integrated. Historical7–10days after fever rule, blanket repeated culture/TDM instructions and classwide static/cidal generalizations excluded; not current clinical guidance.",
+    "APP-II29 previously fully read/visually inspected, text rechecked without recounting full reading, visual inspection or integration. Other books, other lecturers and course intervals remain open.",
+    "Gullberg2011 abstract, introduction and selected results including definitionMSC read. Captions read but original figures, full methods, supplements and dataset not independently reviewed. Experimental competition findings are not patient-level dosing or outcome evidence.",
+    "Sandegren2014 abstract, captionFigure1 and reference5 consulted for provenance, not relied on as independent primary clinical evidence. No full review or new corpus page count claimed.",
+    "CDC official page mechanisms/selection/gene transfer; EUCAST S/I/R and exposure definitions; SSC2026 selected adult reassessment, source-control and case-specific TDM statements rechecked28November2026. No full guidelines, regimens or dosing algorithms reviewed.",
     "Sole-integrator original educational/editorial synthesis; full source reconciliation and independent clinical review remain open."
   ],
-  "nextBatch": "Completare DAB 36–40; poi DAB 41–45. Farmaci, profili e laboratori nel backlog.",
+  "nextBatch": "Completare DAB 41–45; poi DAB 46–50. Farmaci, profili e laboratori nel backlog.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",

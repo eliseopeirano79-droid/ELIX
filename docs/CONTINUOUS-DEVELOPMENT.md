@@ -8,13 +8,13 @@ Usare appunti e diapositive del corso di Farmacologia, con anno, lezione, data e
 
 ## Lotto corrente
 
-theory-dab-036-040, candidato 0.130.0. Due nuove sezioni su scopo, urgenza e durata della terapia. Totale 20 sezioni, 7118 parole, 35 quesiti, 18 schemi originali. Nessuna nuova identità, sintesi di farmaco, profilo, laboratorio o collegamento.
+theory-dab-041-045, candidato 0.131.0. Due nuove sezioni su selezione della resistenza e risposta insufficiente. Totale 22 sezioni, 7943 parole, 39 quesiti, 20 schemi originali. Nessuna nuova identità, sintesi di farmaco, profilo, laboratorio o collegamento.
 
-Ultima pubblicazione verificata 0.129.0, commit 4d6e67467736fcd320dcff4c9d262089b58f9dfa. La ricevuta post-deploy prevale sul checkpoint preparatorio.
+Ultima pubblicazione verificata 0.130.0, commit 0ced6655f596d984188766bf6f0e1a896699bdcd. La ricevuta post-deploy prevale sul checkpoint preparatorio.
 
-DAB 36–40, Katzung PDF 1034–1035 e appunti PDF 29: otto nuove pagine lette e ispezionate. Sei nuove integrazioni (DAB 37–40 e appunti 28–29), una da pagina già letta. Cumulativo: 60 posizioni complete (2 metadati), 6 parziali, 66 ispezioni, 46 integrate. Due precedenti pagine ricontrollate solo nel testo. Confronti mirati con NICE, SSC 2026, SIS 2024 e studi primari. Citazione temporale della slide riconciliata; regimi storici, percentuali universali e garanzie di eradicazione esclusi. Nessun dosaggio o algoritmo importato; riconciliazione generale e revisione clinica indipendente aperte.
+DAB 41–45, Katzung PDF 1036 e appunti PDF 30: sei nuove pagine complete, una parziale, sette ispezionate, cinque integrate. Cumulativo: 66 posizioni complete (2 metadati), 7 parziali, 73 ispezioni, 51 integrate. Appunti PDF 29 ricontrollato solo nel testo. Il diagramma di selezione è ricondotto a Sandegren 2014 e alla citazione primaria Gullberg 2011. Confronti circoscritti con CDC, EUCAST e SSC 2026. Grafico epidemiologico tagliato e indicazioni storiche esclusi; MSC non convertita in obiettivo clinico. Riconciliazione generale e revisione clinica indipendente aperte.
 
-Verifica locale conclusa: 53 controlli, otto configurazioni browser e otto immagini ispezionate; aggiornamento reale 0.129.0→0.130.0 con dati salvati e offline conservati. Le 18 sezioni precedenti e gli altri 66 capitoli sono invariati. Restano commit, CI, deploy e verifica online. Prove private in ../../outputs/ELIX-dab-036-040-2026-11-28/.
+Verifica locale conclusa: 53 controlli, otto configurazioni browser e otto immagini ispezionate; aggiornamento reale 0.130.0→0.131.0 con dati salvati e offline conservati. Le 20 sezioni precedenti e gli altri 66 capitoli sono invariati. Restano commit, CI, deploy e verifica online. Prove private in ../../outputs/ELIX-dab-041-045-2026-11-28/.
 
 ## Regole
 
@@ -26,4 +26,4 @@ Verifica locale conclusa: 53 controlli, otto configurazioni browser e otto immag
 
 ## Prossimo intervallo
 
-Completare DAB 36–40; poi DAB 41–45, non iniziato. Riconciliazione complessiva incompleta; nessuna revisione clinica indipendente. Farmaci, profili e laboratori nel backlog.
+Completare DAB 41–45; poi DAB 46–50, non iniziato. Riconciliazione complessiva incompleta; nessuna revisione clinica indipendente. Farmaci, profili e laboratori nel backlog.

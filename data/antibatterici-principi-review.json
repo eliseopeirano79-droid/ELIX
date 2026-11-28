@@ -1,11 +1,11 @@
 {
-  "batch": "theory-dab-036-040",
-  "reviewedAt": "2026-11-28T02:38:28.177313+00:00",
+  "batch": "theory-dab-041-045",
+  "reviewedAt": "2026-11-28T03:17:04.242105+00:00",
   "outcome": "pass",
-  "scope": "Sole-integrator editorial review: preventive versus empirical versus targeted purpose; clinical urgency and evidence design; duration, reassessment and source control. Historical regimen tables excluded; bounded official recommendations and primary abstracts reconciled.",
+  "scope": "Sole-integrator editorial review: variant origin versus selection, competition and MIC/MSC; clinical response versus susceptibility, exposure, diagnosis, host and source control. Primary experimental passages and bounded official guidance reconciled.",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "782a02a897db1caf25ebf3b7f31452cf89ef9f357cfdff7a85f12dc8d0d62505",
+  "moduleSha256": "b596427f56e9fbbf4555e57bab6b55785b324e730ff637446ca8d0e72e2883da",
   "conflicts": [
     {
       "id": "dab3-obscured-labels",
@@ -249,13 +249,38 @@
     },
     {
       "id": "app29-unidentified-diagram",
-      "status": "unresolved_source_limit",
-      "resolution": "APP-II29, printed28: full text, embedded slide and growth/concentration diagram read. MSC, MICsusc and MICres labels visible, but no numerical dataset or independently identified original; no quantitative window inferred. Final plasma-concentration heading continues30, not read or inferred. Epidemiologic ranking excluded."
+      "status": "resolved_for_scope",
+      "resolution": "DAB43: empty text layer, full visible diagram and caption read directly. Sandegren2014 figure1 schematic traced through caption/reference5 to Gullberg2011. Resolves earlier APP-II29 attribution gap; source article figures not independently inspected. MSC is not MIC, a clinical breakpoint or dosing target; no numerical window imported."
     },
     {
       "id": "new-prehospital-trial-scope",
       "status": "resolved_for_scope",
       "resolution": "PITSTOP-Antibiotics2026 abstract, Key Points and introduction read; published24November2026. No full article, protocol, figures or supplements independently reviewed. Lack of demonstrated benefit for the studied prehospital strategy is not proof that treatment delay is harmless; no universal guideline reversal."
+    },
+    {
+      "id": "dab41-cropped-chart",
+      "status": "unresolved_source_limit",
+      "resolution": "DAB41: raster news headline and visible legend inspected, text layer empty; chart lower axis/units and notes cut off. Partial page excluded. Historical 2018 reference is not current epidemiology; underlying Lancet study not read."
+    },
+    {
+      "id": "selection-not-directed-mutation",
+      "status": "resolved_for_scope",
+      "resolution": "DAB42: full text and slide read. Distinguish origin of variants, selection and horizontal transfer; no purposeful mutation or universal denial of exposure effects on variability. Repeats embedded slide previously inspected in APP-II29, not independent evidence."
+    },
+    {
+      "id": "msc-not-clinical-target",
+      "status": "resolved_for_scope",
+      "resolution": "DAB43: empty text layer, full visible diagram and caption read directly. Sandegren2014 figure1 schematic traced through caption/reference5 to Gullberg2011. Resolves earlier APP-II29 attribution gap; source article figures not independently inspected. MSC is not MIC, a clinical breakpoint or dosing target; no numerical window imported."
+    },
+    {
+      "id": "failure-not-equivalent-to-resistance",
+      "status": "resolved_for_scope",
+      "resolution": "DAB45 and APP-II30 (printed29): full text and page inspected. Failure causes separated from susceptibility classification. An initial antibiogram does not exclude later resistance, new infection, delivery, exposure, host or source-control problems. No automatic escalation or testing algorithm."
+    },
+    {
+      "id": "katz1036-historical-duration",
+      "status": "resolved_for_scope",
+      "resolution": "KATZ1036, printed1016: all visible text and table51.3 inspected. Selected qualitative failure analysis integrated. Historical7–10days after fever rule, blanket repeated culture/TDM instructions and classwide static/cidal generalizations excluded; not current clinical guidance."
     }
   ],
   "limits": [
@@ -317,6 +342,17 @@
     "SIS2024 abstract and selected duration recommendations only: adult intra-abdominal infections, adequate source control and population distinctions. No one fixed duration or automatic prolonged abscess course, no full guideline or primary trial review.",
     "Alam2018 PHANTASi abstract read in full; randomized prehospital strategy and28-day mortality differ from Kumar2006 retrospective hypotension cohort and Liu2017 ED-registration cohort. Used for private conflict reconciliation, not a new prescribing recommendation.",
     "PITSTOP-Antibiotics2026 abstract, Key Points and introduction read; published24November2026. No full article, protocol, figures or supplements independently reviewed. Lack of demonstrated benefit for the studied prehospital strategy is not proof that treatment delay is harmless; no universal guideline reversal.",
+    "Sole-integrator original educational/editorial synthesis; full source reconciliation and independent clinical review remain open.",
+    "DAB41: raster news headline and visible legend inspected, text layer empty; chart lower axis/units and notes cut off. Partial page excluded. Historical 2018 reference is not current epidemiology; underlying Lancet study not read.",
+    "DAB42: full text and slide read. Distinguish origin of variants, selection and horizontal transfer; no purposeful mutation or universal denial of exposure effects on variability. Repeats embedded slide previously inspected in APP-II29, not independent evidence.",
+    "DAB43: empty text layer, full visible diagram and caption read directly. Sandegren2014 figure1 schematic traced through caption/reference5 to Gullberg2011. Resolves earlier APP-II29 attribution gap; source article figures not independently inspected. MSC is not MIC, a clinical breakpoint or dosing target; no numerical window imported.",
+    "DAB44: full text and image read but excluded from new integration as repeated PK/target-access material. No universal plasma/tissue conversion, no equivalence between human P-glycoprotein and bacterial efflux proteins.",
+    "DAB45 and APP-II30 (printed29): full text and page inspected. Failure causes separated from susceptibility classification. An initial antibiogram does not exclude later resistance, new infection, delivery, exposure, host or source-control problems. No automatic escalation or testing algorithm.",
+    "KATZ1036, printed1016: all visible text and table51.3 inspected. Selected qualitative failure analysis integrated. Historical7–10days after fever rule, blanket repeated culture/TDM instructions and classwide static/cidal generalizations excluded; not current clinical guidance.",
+    "APP-II29 previously fully read/visually inspected, text rechecked without recounting full reading, visual inspection or integration. Other books, other lecturers and course intervals remain open.",
+    "Gullberg2011 abstract, introduction and selected results including definitionMSC read. Captions read but original figures, full methods, supplements and dataset not independently reviewed. Experimental competition findings are not patient-level dosing or outcome evidence.",
+    "Sandegren2014 abstract, captionFigure1 and reference5 consulted for provenance, not relied on as independent primary clinical evidence. No full review or new corpus page count claimed.",
+    "CDC official page mechanisms/selection/gene transfer; EUCAST S/I/R and exposure definitions; SSC2026 selected adult reassessment, source-control and case-specific TDM statements rechecked28November2026. No full guidelines, regimens or dosing algorithms reviewed.",
     "Sole-integrator original educational/editorial synthesis; full source reconciliation and independent clinical review remain open."
   ]
 }
