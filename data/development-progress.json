@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-28T03:58:12.419148+00:00",
-  "batch": "theory-dab-046-050",
+  "updatedAt": "2026-11-28T04:37:08.310318+00:00",
+  "batch": "theory-dab-051-055",
   "status": "local_verified_pending_publication",
-  "release": "0.132.0",
-  "branch": "feat/theory-dab-046-050",
-  "baseCommit": "ce434385eaff5ba658ac0e3f9c5f1942a88e4cf5",
+  "release": "0.133.0",
+  "branch": "feat/theory-dab-051-055",
+  "baseCommit": "7c3989e92a2071bdf2d81a4f578a58e96c9a4499",
   "previousBatch": {
-    "batch": "theory-dab-041-045",
-    "release": "0.131.0",
-    "commit": "ce434385eaff5ba658ac0e3f9c5f1942a88e4cf5",
+    "batch": "theory-dab-046-050",
+    "release": "0.132.0",
+    "commit": "7c3989e92a2071bdf2d81a4f578a58e96c9a4499",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Origine, trasmissione e meccanismi della resistenza: genetica, fenotipi attesi, accesso, efflusso, inattivazione e bersagli."
+    "Prevenzione della resistenza e associazioni antibatteriche: One Health, dati aggregati, sinergia, copertura e limiti clinici."
   ],
   "completed": [
-    "Due nuove sezioni: 24 sezioni, 8844 parole, 43 quesiti, 22 schemi originali.",
-    "Otto nuove pagine lette completamente e ispezionate; sei integrate. Due precedenti pagine ricontrollate nel testo.",
-    "53 controlli locali e otto configurazioni browser superati; otto immagini ispezionate.",
-    "Aggiornamento reale0.131.0→0.132.0 con dati salvati, tema e offline conservati;22 sezioni precedenti e66 altri capitoli invariati."
+    "Due nuove sezioni: 26 sezioni, 9793 parole, 47 quesiti, 24 schemi originali.",
+    "Nove nuove pagine lette completamente e ispezionate; otto integrate.",
+    "53 controlli locali superati; navigazione e ricerca in 8 configurazioni, offline e 8 immagini ispezionate.",
+    "Aggiornamento reale 0.132.0→0.133.0 superato, con preferiti, progressi e tema conservati."
   ],
   "remaining": [
-    "Commit, CI, deploy e verifica online."
+    "Commit e CI della proposta, integrazione, deploy e verifica online."
   ],
   "counts": {
     "identities": 4225,
@@ -135,9 +135,21 @@
     "EUCAST current expected-phenotype index plus introduction/definitions pages1–2 of v1.2January2023 consulted; numerical species tables not reviewed or imported. CDC one-page transfer sheet text and diagrams inspected; no original artwork reproduced.",
     "FDA AUGMENTIN July2026 section12.4 mechanism/resistance paragraphs only, not full product review, dose, regimen or clinical recommendation. Inhibitor activity against certain enzymes does not establish universal reversal of resistance.",
     "Roper2000 and Arthur1992 abstracts read in full, not complete papers, figures or datasets. Arthur PubMed record failed to render abstract; publisher page succeeded. Bugg1991 abstract read for background, not used as a full-paper claim or numerical affinity source.",
+    "Sole-integrator original educational/editorial synthesis; no independent clinical review or complete source reconciliation.",
+    "DAB51: complete visible diagram read. Same causes graphic as APP-II31; not independent evidence. Unsupported50%/50% and200000tons/year excluded; only qualitative selection/transmission and One Health framing integrated.",
+    "DAB52 and APP-II32, printed31: all visible graph axes, month labels, legends and callouts inspected. Extracted slide text omits the graph labels, read directly. Seasonal deviations are not negative prescription counts/prevalence. Repeated figure is not independent evidence; no universal one-month individual or hospital emergence rule.",
+    "DAB53: full text read; prevention, appropriate use and research reconciled with selected WHO2026 passages. No blanket TDM mandate, animal-feed legal rule, numerical funding claim or unverified regulatory interpretation imported.",
+    "DAB54: full visible outline read, not newly integrated because site, pathogen, drug and patient assessment are already covered.",
+    "DAB55 and APP-II33, printed32: full text read. Wider spectrum, synergy, genetic barrier, tissue access and pathogen life-cycle considerations distinguished. Universal superiority of combinations, guaranteed resistance prevention, interferon example and classwide genetic-barrier ranking excluded.",
+    "KATZ1039, printed1019: full visible text and table51.6 cells inspected. Only completed combination rationale integrated. Historical CSF ratios, allergy cross-reactivity percentages, continuation/desensitization and dosing recommendations not adopted or validated.",
+    "KATZ1040, printed1020: full visible text and footnote read. Qualitative combination mechanisms integrated. Historical fourfold-MIC criterion not treated as universal; clinical regimens, nephrotoxicity mitigation, endocarditis/meningitis outcome numbers and fungal recommendations excluded. Final antagonism heading continues1041, not read or inferred.",
+    "Sun2012 DOI10.1093/cid/cis509: PubMed abstract read completely; US time-series1999–2007 and one-month lag concern aggregate observational relationships. No full paper, original figure or dataset independently inspected; no causal or patient-level inevitability inferred.",
+    "WHO Europe15September2026 Q&A: selected prevention, appropriate-use and One Health passages consulted28November2026. Epidemiologic totals/projections and detailed legal guidance excluded.",
+    "IDSA2026 AMR guidance published30July2026: question4.6 and rationale read. DTR P.aeruginosa context and confirmed susceptibility to specified beta-lactams retained; no routine additional antibiotic benefit or resistance-prevention guarantee inferred. Whole guidance, linked studies and rescue-regimen evidence not independently reviewed.",
+    "Nine new complete visible PDF positions and visual inspections, eight integrated. No old page newly integrated or recounted; no text-only recheck this batch. Other books, lecturers and intervals remain open.",
     "Sole-integrator original educational/editorial synthesis; no independent clinical review or complete source reconciliation."
   ],
-  "nextBatch": "Completare DAB 46–50; poi DAB 51–55. Farmaci, profili e laboratori nel backlog.",
+  "nextBatch": "Completare DAB 51–55; poi DAB 56–60. Farmaci, profili e laboratori nel backlog.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",
