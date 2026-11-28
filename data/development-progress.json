@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-28T00:15:03.644464+00:00",
-  "batch": "theory-dab-016-020",
+  "updatedAt": "2026-11-28T00:47:31.727396+00:00",
+  "batch": "theory-dab-021-025",
   "status": "local_verified_pending_publication",
-  "release": "0.126.0",
-  "branch": "feat/theory-dab-016-020",
-  "baseCommit": "fcf85b1d525aeaf0bf8756fd5fdaa521c7059218",
+  "release": "0.127.0",
+  "branch": "feat/theory-dab-021-025",
+  "baseCommit": "4d9a86e08a8f6f6eb544f6b8a83a1c43372ebb9f",
   "previousBatch": {
-    "batch": "theory-dab-011-015",
-    "release": "0.125.0",
-    "commit": "fcf85b1d525aeaf0bf8756fd5fdaa521c7059218",
+    "batch": "theory-dab-016-020",
+    "release": "0.126.0",
+    "commit": "4d9a86e08a8f6f6eb544f6b8a83a1c43372ebb9f",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Fattori dell’ospite e distinzione fra allergia, reazione avversa e resistenza."
+    "Spettro, lettura delle curve di vitalità e uso concreto della formulazione."
   ],
   "completed": [
-    "Capitolo ampliato a 13 sezioni, 4256 parole e 19 quesiti: una sezione aggiunta e una ampliata.",
-    "Tre posizioni PDF complete, due testi distinti; due pagine parziali escluse, cinque ispezioni e una pagina integrata. Tre pagine già lette ricontrollate.",
-    "53 controlli dati superati; 8 configurazioni browser e 8 schermate ispezionate. Navigazione, ricerca, tastiera e offline verificati.",
-    "Aggiornamento reale 0.125.0 → 0.126.0 superato con preferiti, progressi e tema conservati. Altri 66 capitoli, 11 sezioni precedenti e 15 quesiti precedenti invariati."
+    "Una nuova sezione e due ampliate: 14 sezioni, 4796 parole, 23 quesiti, 12 schemi originali.",
+    "Cinque pagine lette e ispezionate, quattro integrate; testo di pagina 25 letto nell’immagine; pagina 24 ripetitiva. Quattro precedenti pagine ricontrollate nel testo.",
+    "53 controlli superati; 8 configurazioni browser, 10 schermate ispezionate. Navigazione, ricerca, tastiera e offline verificati.",
+    "Aggiornamento reale 0.126.0 → 0.127.0 superato con preferiti, progressi e tema conservati. Altri 66 capitoli, 11 sezioni precedenti e 19 quesiti precedenti invariati; paragrafi delle due sezioni ampliate conservati."
   ],
   "remaining": [
     "Commit, CI, deploy e verifica online."
@@ -44,9 +44,10 @@
     "expandedChapters": 1,
     "newInteractiveLabs": 0,
     "newSections": 1,
-    "expandedSections": 1,
+    "expandedSections": 2,
     "newLinksToExistingIdentities": 0,
-    "newStaticOriginalSchemas": 1,
+    "newRelatedChapterLinks": 1,
+    "newStaticOriginalSchemas": 2,
     "newSelfChecks": 4,
     "unchangedExistingChapters": 66
   },
@@ -71,9 +72,16 @@
     "DAB18 and DAB20 have identical normalized extracted text but different visual emphasis (host versus drug). Both PDF positions inspected; one repeated text, no distinct new synthesis or integration. The general triad was already covered.",
     "NICE CG183 selected official indexed recommendation text consulted; direct HTML/PDF fetches returned 403. Full current page and complete guideline not verified; limitation retained. CDC and EMA pages directly consulted for the relevant claims.",
     "KATZ1032, APP-II25 and DAB4 existing text extractions rechecked; no new book pages or repeat full-figure inspections claimed. APP-II25 remains excluded from integration; quantitative PK/PD generalizations and incomplete continuation not used.",
-    "EMA Cubicin selected renal function, myopathy, interactions and pregnancy passages only; no dose, numerical threshold, monitoring schedule or full product review. Clinical synthesis is educational and not independently validated."
+    "EMA Cubicin selected renal function, myopathy, interactions and pregnancy passages only; no dose, numerical threshold, monitoring schedule or full product review. Clinical synthesis is educational and not independently validated.",
+    "DAB23: numeric survival threshold and24h duration not validated as a universal bactericidal definition; excluded. Static/cidal effects and molecular targets are not treated as interchangeable classifications.",
+    "DAB25: text layer empty; visible labels read directly in the raster diagram. Underlying original and dataset unidentified; only qualitative educational meaning used, no numeric kinetics or efficacy inference.",
+    "DAB24 repeats previously covered MIC/MBC concepts; fully read but not a separate integration. Four current nonempty text extractions have no exact normalized match in earlier DAB extraction files.",
+    "KATZ1031–1032, APP-II24 and RANG934 existing text extractions rechecked; no new book pages or repeat full-figure checks. Other lecturers and source intervals remain open.",
+    "UKHSA adult inpatient IVOS selections only; no complete decision aid or linked studies read, no schedule, cutoff, pediatric extrapolation or automatic switch instruction.",
+    "DailyMed selected section2.5 of a US repackaged label revisedJune2022; current served record consulted, not a complete product review or validation of historical indications. No preparation recipe, dose, concentration, storage duration or temperature generalized.",
+    "CDC stewardship page recheck returned timeout this cycle; prior verified citation retained without claiming a fresh successful read. New clinical route discussion relies on directly consulted UKHSA."
   ],
-  "nextBatch": "Completare DAB 16–20; poi DAB 21–25, non iniziato. Farmaci, profili e laboratori nel backlog.",
+  "nextBatch": "Completare DAB 21–25; poi DAB 26–30, non iniziato. Farmaci, profili e laboratori nel backlog.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",
