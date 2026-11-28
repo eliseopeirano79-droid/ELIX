@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-11-28T02:03:01.838155+00:00",
-  "batch": "theory-dab-031-035",
+  "updatedAt": "2026-11-28T02:40:31.445492+00:00",
+  "batch": "theory-dab-036-040",
   "status": "local_verified_pending_publication",
-  "release": "0.129.0",
-  "branch": "feat/theory-dab-031-035",
-  "baseCommit": "f391cb9c9d0426d8bfcef6a5f442c6dad848e955",
+  "release": "0.130.0",
+  "branch": "feat/theory-dab-036-040",
+  "baseCommit": "4d6e67467736fcd320dcff4c9d262089b58f9dfa",
   "previousBatch": {
-    "batch": "theory-dab-026-030",
-    "release": "0.128.0",
-    "commit": "f391cb9c9d0426d8bfcef6a5f442c6dad848e955",
+    "batch": "theory-dab-031-035",
+    "release": "0.129.0",
+    "commit": "4d6e67467736fcd320dcff4c9d262089b58f9dfa",
     "status": "published_and_live_verified"
   },
   "scope": [
-    "Variabilità farmacocinetica e interpretazione del monitoraggio terapeutico."
+    "Profilassi, terapia empirica e mirata; urgenza, lettura delle prove, durata e controllo della fonte."
   ],
   "completed": [
-    "Due nuove sezioni: 18 sezioni, 6221 parole, 31 quesiti, 16 schemi originali.",
-    "Otto nuove pagine lette e ispezionate, cinque integrate; due precedenti pagine ricontrollate nel testo.",
+    "Due nuove sezioni: 20 sezioni, 7118 parole, 35 quesiti, 18 schemi originali.",
+    "Otto nuove pagine lette e ispezionate; sei nuove integrazioni, una da pagina già letta. Due precedenti pagine ricontrollate nel testo.",
     "53 controlli automatici e otto configurazioni browser superati; otto immagini ispezionate.",
-    "Aggiornamento reale 0.128.0→0.129.0 verificato: preferiti, progressi, tema e offline conservati.",
-    "66 altri capitoli e le 16 sezioni precedenti invariati."
+    "Aggiornamento reale 0.129.0→0.130.0 verificato: preferiti, progressi, tema e offline conservati.",
+    "66 altri capitoli e le 18 sezioni precedenti invariati."
   ],
   "remaining": [
     "Commit, CI, deploy e verifica online."
@@ -45,7 +45,7 @@
     "newInteractiveLabs": 0,
     "expandedSections": 0,
     "newLinksToExistingIdentities": 0,
-    "newRelatedChapterLinks": 1,
+    "newRelatedChapterLinks": 0,
     "expandedChapters": 1,
     "newSections": 2,
     "newStaticOriginalSchemas": 2,
@@ -101,9 +101,22 @@
     "ESICM/ESCMID/IATDMCT/ISAC2020 position paper: selected methods, PK changes and basic TDM passages only; underlying search predates July2019. Not full article, drug tables, linked studies or protocols. Population and evidence approach differ from SSC2026; no universal monitoring mandate imported.",
     "SSC2026 official page: selected adult sepsis/septic-shock TDM recommendation consulted; conditional, very-low-certainty evidence. Full guideline and linked evidence tables not reviewed, no extrapolation to all patients or antibiotics.",
     "NHS SPS2024 safe-TDM page: selected clinical decisions, risks, contributing factors and mitigation/roles passages consulted; no drug-specific target, sampling schedule or monitoring tool reviewed. EUCAST current S/I/R definitions rechecked.",
-    "Sole-integrator educational/editorial synthesis; no independent clinical review or full source reconciliation."
+    "Sole-integrator educational/editorial synthesis; no independent clinical review or full source reconciliation.",
+    "DAB36: visible article headers and slide claim read; underlying Sick2013 and Roberts2009 articles not read. Titles do not establish universal savings from TDM. Page fully read, excluded from integration.",
+    "DAB37–38 and APP-II28: prevention, empirical and targeted treatment separated. Raster timeline is not a mandatory clinical sequence; suppressive therapy is not equated with resolution. Pre-emptive/suppressive protocols and unvalidated empirical regimens excluded. DAB38 has an empty text layer and repeats a figure already seen in APP-II28; not independent evidence.",
+    "DAB39: full visible graph and caption read. Liu2017 abstract and original caption consulted, not full paper, source figure or dataset independently inspected. The 7.6% statement matches indexed Kumar2006 abstract, not the Alam2018 randomized trial cited on the slide. Direct Kumar page did not render the abstract; official indexed abstract used. No universal hourly causal percentage imported.",
+    "DAB40 and APP-II29: duration linked to syndrome, host, clinical reassessment and source control. Unvalidated 90–95%/5% elimination claims, guaranteed eradication and universally prolonged abscess treatment excluded. APP-II29 states mental status where DAB40 states immune status; neither treated as a substitute for contextual assessment.",
+    "KATZ1034–1035, printed1014–1015: all visible table51.1 continuation and footnotes1–11, and table51.2 with footnotes1–6 read. Historical drug choices and regimens excluded, including outdated sepsis adjunct discussion; no new book integration. Prior KATZ1032 rechecked in text only.",
+    "APP-II29, printed28: full text, embedded slide and growth/concentration diagram read. MSC, MICsusc and MICres labels visible, but no numerical dataset or independently identified original; no quantitative window inferred. Final plasma-concentration heading continues30, not read or inferred. Epidemiologic ranking excluded.",
+    "APP-II28 already fully read and visually inspected in the prior batch; text rechecked here and selected purpose/duration material newly integrated. Counts distinguish this newly integrated old page from eight new full-page readings. Other books, lecturers and course intervals remain open.",
+    "NICE NG125 selected official indexed recommendations1.2.12–1.2.17 only; direct access403. No full current page or whole guideline verified, no regimen or timing schedule imported.",
+    "SSC2026 selected adult recommendations on timing, likelihood, reassessment, de-escalation and source control/duration only; timing evidence very low, recommendation strength distinct. No numeric windows or complete guideline/evidence tables reviewed.",
+    "SIS2024 abstract and selected duration recommendations only: adult intra-abdominal infections, adequate source control and population distinctions. No one fixed duration or automatic prolonged abscess course, no full guideline or primary trial review.",
+    "Alam2018 PHANTASi abstract read in full; randomized prehospital strategy and28-day mortality differ from Kumar2006 retrospective hypotension cohort and Liu2017 ED-registration cohort. Used for private conflict reconciliation, not a new prescribing recommendation.",
+    "PITSTOP-Antibiotics2026 abstract, Key Points and introduction read; published24November2026. No full article, protocol, figures or supplements independently reviewed. Lack of demonstrated benefit for the studied prehospital strategy is not proof that treatment delay is harmless; no universal guideline reversal.",
+    "Sole-integrator original educational/editorial synthesis; full source reconciliation and independent clinical review remain open."
   ],
-  "nextBatch": "Completare DAB 31–35; poi DAB 36–40. Farmaci, profili e laboratori nel backlog.",
+  "nextBatch": "Completare DAB 36–40; poi DAB 41–45. Farmaci, profili e laboratori nel backlog.",
   "previousSourceOnlyBatches": [
     "theory-course-746-750",
     "theory-course-751-755",

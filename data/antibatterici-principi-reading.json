@@ -1,6 +1,6 @@
 {
-  "batch": "theory-dab-031-035",
-  "updatedAt": "2026-11-28T02:01:24.266505+00:00",
+  "batch": "theory-dab-036-040",
+  "updatedAt": "2026-11-28T02:38:28.177313+00:00",
   "chapterId": "antibiotico-resistenze",
   "sources": [
     {
@@ -36,7 +36,12 @@
         32,
         33,
         34,
-        35
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
       ],
       "partiallyReadPdfPages": [
         3,
@@ -80,7 +85,12 @@
         32,
         33,
         34,
-        35
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
       ],
       "integratedPdfPages": [
         4,
@@ -106,7 +116,11 @@
         32,
         33,
         34,
-        35
+        35,
+        37,
+        38,
+        39,
+        40
       ],
       "metadataOnlyPages": [
         1,
@@ -147,17 +161,22 @@
         "32": "absent",
         "33": "absent",
         "34": "absent",
-        "35": "absent"
+        "35": "absent",
+        "36": "absent",
+        "37": "absent",
+        "38": "absent",
+        "39": "absent",
+        "40": "absent"
       },
       "edition": "2026-27",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        31,
-        32,
-        33,
-        34,
-        35
+        36,
+        37,
+        38,
+        39,
+        40
       ],
       "reusedPreviouslyReadPages": [
         1,
@@ -184,7 +203,12 @@
         27,
         28,
         29,
-        30
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
       ],
       "readButNotIntegratedPdfPages": [
         1,
@@ -192,21 +216,22 @@
         18,
         20,
         24,
-        31
+        31,
+        36
       ],
       "newlyPartiallyReadPdfPages": [],
       "newlyVisuallyCheckedPdfPages": [
-        31,
-        32,
-        33,
-        34,
-        35
+        36,
+        37,
+        38,
+        39,
+        40
       ],
       "newlyIntegratedPdfPages": [
-        32,
-        33,
-        34,
-        35
+        37,
+        38,
+        39,
+        40
       ],
       "recheckedTextPagesThisBatch": [],
       "duplicateTextGroups": [
@@ -218,11 +243,15 @@
           "visualEmphasisDiffers": true
         }
       ],
-      "emptyTextExtractionPagesThisBatch": [],
+      "emptyTextExtractionPagesThisBatch": [
+        38
+      ],
       "directVisualTextReadPagesThisBatch": [
-        31,
-        33
-      ]
+        36,
+        38,
+        39
+      ],
+      "newlyIntegratedPreviouslyReadPdfPages": []
     },
     {
       "id": "KATZ",
@@ -237,7 +266,9 @@
         1030,
         1031,
         1032,
-        1033
+        1033,
+        1034,
+        1035
       ],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
@@ -250,7 +281,9 @@
         1030,
         1031,
         1032,
-        1033
+        1033,
+        1034,
+        1035
       ],
       "integratedPdfPages": [
         909,
@@ -271,13 +304,16 @@
         "942": "absent; chapter opening indexed at922",
         "943": "923",
         "944": "924",
-        "1033": "1013"
+        "1033": "1013",
+        "1034": "1014",
+        "1035": "1015"
       },
       "edition": "IX italiana 2014 / XII originale 2012",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        1033
+        1034,
+        1035
       ],
       "reusedPreviouslyReadPages": [
         907,
@@ -288,27 +324,29 @@
         944,
         1030,
         1031,
-        1032
+        1032,
+        1033
       ],
       "readButNotIntegratedPdfPages": [
         907,
         908,
         942,
-        1033
+        1033,
+        1034,
+        1035
       ],
       "newlyPartiallyReadPdfPages": [],
       "newlyVisuallyCheckedPdfPages": [
-        1033
+        1034,
+        1035
       ],
       "newlyIntegratedPdfPages": [],
       "recheckedTextPagesThisBatch": [
-        1032,
-        944
+        1032
       ],
       "emptyTextExtractionPagesThisBatch": [],
-      "directVisualTextReadPagesThisBatch": [
-        1033
-      ]
+      "directVisualTextReadPagesThisBatch": [],
+      "newlyIntegratedPreviouslyReadPdfPages": []
     },
     {
       "id": "RANG",
@@ -359,7 +397,8 @@
       "newlyIntegratedPdfPages": [],
       "recheckedTextPagesThisBatch": [],
       "emptyTextExtractionPagesThisBatch": [],
-      "directVisualTextReadPagesThisBatch": []
+      "directVisualTextReadPagesThisBatch": [],
+      "newlyIntegratedPreviouslyReadPdfPages": []
     },
     {
       "id": "FII-B",
@@ -372,7 +411,8 @@
         25,
         26,
         27,
-        28
+        28,
+        29
       ],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
@@ -383,7 +423,8 @@
         25,
         26,
         27,
-        28
+        28,
+        29
       ],
       "integratedPdfPages": [
         21,
@@ -391,7 +432,9 @@
         23,
         24,
         26,
-        27
+        27,
+        28,
+        29
       ],
       "metadataOnlyPages": [],
       "printedPageLabels": {
@@ -402,14 +445,14 @@
         "25": "24",
         "26": "25",
         "27": "26",
-        "28": "27"
+        "28": "27",
+        "29": "28"
       },
       "edition": "AA2024–25",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        27,
-        28
+        29
       ],
       "reusedPreviouslyReadPages": [
         21,
@@ -417,32 +460,38 @@
         23,
         24,
         25,
-        26
+        26,
+        27,
+        28
       ],
       "readButNotIntegratedPdfPages": [
-        25,
-        28
+        25
       ],
       "lesson": "3;14ottobre2024",
       "newlyPartiallyReadPdfPages": [],
       "newlyVisuallyCheckedPdfPages": [
-        27,
-        28
+        29
       ],
       "newlyIntegratedPdfPages": [
-        27
+        28,
+        29
       ],
-      "recheckedTextPagesThisBatch": [],
+      "recheckedTextPagesThisBatch": [
+        28
+      ],
       "emptyTextExtractionPagesThisBatch": [],
-      "directVisualTextReadPagesThisBatch": []
+      "directVisualTextReadPagesThisBatch": [],
+      "newlyIntegratedPreviouslyReadPdfPages": [
+        28
+      ]
     }
   ],
-  "totalReadPdfPages": 52,
+  "totalReadPdfPages": 60,
   "newReadPdfPages": 8,
-  "reusedReadPdfPages": 44,
+  "reusedReadPdfPages": 52,
   "newPartiallyReadPdfPages": 0,
-  "chapterReviewedPdfPages": 58,
-  "chapterIntegratedPdfPages": 40,
+  "chapterReviewedPdfPages": 66,
+  "chapterIntegratedPdfPages": 46,
   "metadataOnlyPdfPages": 2,
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -453,9 +502,9 @@
   "newChapters": 0,
   "expandedExistingChapters": 1,
   "deduplication": {
-    "registryFiles": 3674,
-    "uniqueRegistryContents": 486,
-    "method": "Source hashes and explicit pages checked before extraction: no prior full-page overlap in requested intervals. No exact normalized prior DAB text matches. Eight distinct page texts; missing or misleading text layers checked directly against images. APP-II27 repeats DAB30/32 figures, not independent evidence."
+    "registryFiles": 3716,
+    "uniqueRegistryContents": 489,
+    "method": "Source hashes and explicit pages checked before extraction: no prior full-page overlap in eight requested positions. Four nonempty DAB extractions have no exact normalized prior text match. Eight distinct visible page texts, including raster-only38. Repeated timeline in APP-II28 is not independent evidence. One previously read page newly integrated; two previous page texts rechecked without recounting full readings."
   },
   "limits": [
     "DAB3: citation overlay hides central labels; only visible image text read. Excluded from fully read and integrated pages. Article DOI10.3390/pharmaceutics16091137 identified; not read in full, original figure not inspected independently.",
@@ -503,7 +552,20 @@
     "ESICM/ESCMID/IATDMCT/ISAC2020 position paper: selected methods, PK changes and basic TDM passages only; underlying search predates July2019. Not full article, drug tables, linked studies or protocols. Population and evidence approach differ from SSC2026; no universal monitoring mandate imported.",
     "SSC2026 official page: selected adult sepsis/septic-shock TDM recommendation consulted; conditional, very-low-certainty evidence. Full guideline and linked evidence tables not reviewed, no extrapolation to all patients or antibiotics.",
     "NHS SPS2024 safe-TDM page: selected clinical decisions, risks, contributing factors and mitigation/roles passages consulted; no drug-specific target, sampling schedule or monitoring tool reviewed. EUCAST current S/I/R definitions rechecked.",
-    "Sole-integrator educational/editorial synthesis; no independent clinical review or full source reconciliation."
+    "Sole-integrator educational/editorial synthesis; no independent clinical review or full source reconciliation.",
+    "DAB36: visible article headers and slide claim read; underlying Sick2013 and Roberts2009 articles not read. Titles do not establish universal savings from TDM. Page fully read, excluded from integration.",
+    "DAB37–38 and APP-II28: prevention, empirical and targeted treatment separated. Raster timeline is not a mandatory clinical sequence; suppressive therapy is not equated with resolution. Pre-emptive/suppressive protocols and unvalidated empirical regimens excluded. DAB38 has an empty text layer and repeats a figure already seen in APP-II28; not independent evidence.",
+    "DAB39: full visible graph and caption read. Liu2017 abstract and original caption consulted, not full paper, source figure or dataset independently inspected. The 7.6% statement matches indexed Kumar2006 abstract, not the Alam2018 randomized trial cited on the slide. Direct Kumar page did not render the abstract; official indexed abstract used. No universal hourly causal percentage imported.",
+    "DAB40 and APP-II29: duration linked to syndrome, host, clinical reassessment and source control. Unvalidated 90–95%/5% elimination claims, guaranteed eradication and universally prolonged abscess treatment excluded. APP-II29 states mental status where DAB40 states immune status; neither treated as a substitute for contextual assessment.",
+    "KATZ1034–1035, printed1014–1015: all visible table51.1 continuation and footnotes1–11, and table51.2 with footnotes1–6 read. Historical drug choices and regimens excluded, including outdated sepsis adjunct discussion; no new book integration. Prior KATZ1032 rechecked in text only.",
+    "APP-II29, printed28: full text, embedded slide and growth/concentration diagram read. MSC, MICsusc and MICres labels visible, but no numerical dataset or independently identified original; no quantitative window inferred. Final plasma-concentration heading continues30, not read or inferred. Epidemiologic ranking excluded.",
+    "APP-II28 already fully read and visually inspected in the prior batch; text rechecked here and selected purpose/duration material newly integrated. Counts distinguish this newly integrated old page from eight new full-page readings. Other books, lecturers and course intervals remain open.",
+    "NICE NG125 selected official indexed recommendations1.2.12–1.2.17 only; direct access403. No full current page or whole guideline verified, no regimen or timing schedule imported.",
+    "SSC2026 selected adult recommendations on timing, likelihood, reassessment, de-escalation and source control/duration only; timing evidence very low, recommendation strength distinct. No numeric windows or complete guideline/evidence tables reviewed.",
+    "SIS2024 abstract and selected duration recommendations only: adult intra-abdominal infections, adequate source control and population distinctions. No one fixed duration or automatic prolonged abscess course, no full guideline or primary trial review.",
+    "Alam2018 PHANTASi abstract read in full; randomized prehospital strategy and28-day mortality differ from Kumar2006 retrospective hypotension cohort and Liu2017 ED-registration cohort. Used for private conflict reconciliation, not a new prescribing recommendation.",
+    "PITSTOP-Antibiotics2026 abstract, Key Points and introduction read; published24November2026. No full article, protocol, figures or supplements independently reviewed. Lack of demonstrated benefit for the studied prehospital strategy is not proof that treatment delay is harmless; no universal guideline reversal.",
+    "Sole-integrator original educational/editorial synthesis; full source reconciliation and independent clinical review remain open."
   ],
   "officialSourceScopes": [
     {
@@ -631,16 +693,45 @@
       "title": "SCCM / ESICM · Surviving Sepsis Campaign 2026",
       "url": "https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026",
       "detail": "Pagina ufficiale consultata il 28 novembre 2026: raccomandazione sul TDM in adulti selezionati con sepsi o shock settico, condizionale e con certezza molto bassa. Non letta l’intera linea guida o le tabelle di evidenza collegate; nessuna estensione automatica ad altre popolazioni."
+    },
+    {
+      "id": "NICE-PROF",
+      "title": "NICE · Surgical site infections: prevention and treatment, NG125",
+      "url": "https://www.nice.org.uk/guidance/ng125/chapter/recommendations",
+      "detail": "Raccomandazioni 1.2.12–1.2.17 consultate in estratti indicizzati ufficiali il 28 novembre 2026. Accesso diretto non riuscito (403): nessuna lettura integrale della pagina o del documento dichiarata. Usata solo la distinzione fra indicazione preventiva e trattamento; nessun regime o calendario trasferito."
+    },
+    {
+      "id": "SSC-TEMPI",
+      "title": "SCCM / ESICM · Surviving Sepsis Campaign 2026: avvio e rivalutazione",
+      "url": "https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026",
+      "detail": "Selezioni ufficiali su probabilità di infezione, shock, avvio, controllo della fonte, diagnosi alternativa, de-escalation e durata consultate il 28 novembre 2026. Certezza molto bassa per le raccomandazioni temporali citate; forza delle raccomandazioni distinta dalla certezza. Non intera linea guida, tabelle di evidenza o protocollo operativo."
+    },
+    {
+      "id": "SIS-DURATA",
+      "title": "Surgical Infection Society · Infezioni intra-addominali, aggiornamento 2024",
+      "url": "https://journals.sagepub.com/doi/10.1089/sur.2024.137",
+      "detail": "Abstract e selezioni della sezione Duration of Antimicrobial Therapy consultati il 28 novembre 2026. Ambito adulto, con distinzioni di popolazione e controllo della fonte. Nessuna durata numerica trasferita; non intera linea guida né revisione degli studi sottostanti."
+    },
+    {
+      "id": "LIU-TEMPI",
+      "title": "Liu e collaboratori · Tempi degli antibiotici e mortalità nella sepsi, 2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28345952/",
+      "detail": "Abstract e didascalia della figura 2 consultati il 28 novembre 2026. Coorte retrospettiva, tempo dalla registrazione in pronto soccorso, mortalità ospedaliera aggiustata. Articolo integrale, dati originali e figura originale non ispezionati indipendentemente; nessuna percentuale generalizzata."
+    },
+    {
+      "id": "PITSTOP-2026",
+      "title": "Scales e collaboratori · PITSTOP-Antibiotics, JAMA 2026",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2857281",
+      "detail": "Pubblicato il 24 novembre 2026, DOI 10.1001/jama.2026.25627. Abstract, Key Points e introduzione consultati il 28 novembre 2026. Confronto preospedaliero randomizzato in adulti con sospetta infezione, febbre e ipotensione; non intero articolo, protocollo, figure o supplementi. Risultato non esteso a ogni strategia o popolazione con sepsi."
     }
   ],
-  "newIntegratedPdfPages": 5,
+  "newIntegratedPdfPages": 6,
   "newVisualInspections": 8,
   "previouslyReadTextPagesRechecked": 2,
-  "officialSourceRechecks": [
-    "EUCAST"
-  ],
+  "officialSourceRechecks": [],
   "newDistinctReadTexts": 8,
   "newRepeatedTextPagePositions": 0,
-  "automaticallyExtractedNonemptyTextPages": 8,
-  "directVisualTextReadPages": 3
+  "automaticallyExtractedNonemptyTextPages": 7,
+  "directVisualTextReadPages": 3,
+  "newlyIntegratedPreviouslyReadPdfPages": 1
 }
