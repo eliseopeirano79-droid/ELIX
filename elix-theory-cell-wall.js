@@ -3,7 +3,7 @@ export const THEORY_CELL_WALL = {
   "id": "antibiotici-beta-lattamici",
   "volume": 12,
   "title": "Antibatterici β-lattamici e parete cellulare",
-  "lead": "Come si costruisce il peptidoglicano e dove si interrompe la sequenza: precursori citoplasmatici, trasporto di membrana, PBP e reticolazione. Il confronto fra β-lattamici, glicopeptidi, fosfomicina e cicloserina collega bersagli, accesso ed esposizione. Strutture, farmacocinetica delle penicilline e ipersensibilità distinguono proprietà di famiglia e singolo medicinale.",
+  "lead": "Come si costruisce il peptidoglicano e dove si interrompe la sequenza: precursori citoplasmatici, trasporto di membrana, PBP e reticolazione. Il confronto fra β-lattamici, glicopeptidi, fosfomicina e cicloserina collega bersagli, accesso ed esposizione. Strutture, farmacocinetica delle penicilline e ipersensibilità distinguono proprietà di famiglia e singolo medicinale. Distribuzione, misure nei compartimenti e limiti degli impieghi di classe completano il raccordo con le patologie.",
   "sections": [
     {
       "id": "peptidoglicano",
@@ -127,6 +127,29 @@ export const THEORY_CELL_WALL = {
       "formula": "Formulazione e via → assorbimento; distribuzione e legame proteico → esposizione nei compartimenti; eliminazione → andamento nel tempo. Nessuno di questi passaggi è determinato dal solo anello β-lattamico."
     },
     {
+      "id": "distribuzione-volume-esposizione",
+      "title": "Distribuzione dei β-lattamici: volume apparente e forma della curva",
+      "refs": [
+        "DAB-DISTRIBUZIONE",
+        "KATZ-DISTRIBUZIONE",
+        "PK-ELIX"
+      ],
+      "text": "La distribuzione risponde a una domanda diversa dall’eliminazione: dove si trova il farmaco già entrato nell’organismo? Per molte penicilline la polarità favorisce una distribuzione prevalentemente extracellulare e limita l’accumulo nelle cellule. Ciò aiuta a leggere gli schemi con sangue, interstizio e spazio intracellulare, ma non autorizza a trattare le membrane come barriere assolute. Per raggiungere la parete batterica contano sia il passaggio nei compartimenti dell’ospite sia l’accesso al batterio: attraversare una cellula umana e attraversare la membrana esterna di un Gram-negativo sono problemi distinti.\n\nIl volume apparente di distribuzione, V, è il rapporto fra quantità di farmaco nell’organismo e concentrazione plasmatica. Non è una misura anatomica e non dice in quale organo si trovi la molecola. Una concentrazione plasmatica relativamente bassa può accompagnare una maggiore distribuzione fuori dal plasma; da questo dato, però, non si ricava automaticamente la concentrazione libera nel focolaio infettivo. Anche la categoria «lipofilo» descrive una tendenza fisicochimica, non garantisce attività contro un patogeno intracellulare né impone un’eliminazione epatica.\n\nPer capire perché «volume maggiore» non significhi sempre «esposizione minore», si può usare un modello dichiaratamente semplice: dose endovenosa istantanea, un solo compartimento, distribuzione immediata ed eliminazione lineare con clearance costante. La concentrazione iniziale è D/V, mentre l’area plasmatica totale sotto la curva è D/CL. A parità di dose e clearance, aumentare V abbassa la concentrazione iniziale e rallenta il decadimento, senza ridurre quell’area. È una conseguenza del modello, non il risultato di uno studio su una penicillina e non una proposta di dose.\n\nNella realtà, distribuzione, legame proteico e clearance possono cambiare insieme; inoltre una somministrazione orale o un’infusione introducono un ingresso nel tempo. Per questo bisogna specificare se si sta discutendo un picco, un’area plasmatica, una concentrazione tissutale o il tempo libero sopra MIC. Due curve con la stessa area possono trascorrere tempi differenti sopra la MIC. Il collegamento con le PBP rimane quindi temporale e locale: l’area da sola non sostituisce l’indice PK/PD pertinente né dimostra un’esposizione adeguata nel sito d’infezione.",
+      "formula": "Modello monocompartimentale, bolo EV, CL costante: Cp(t) = (D/V) × exp[−(CL/V)t]; AUC₀–∞ = D/CL. V maggiore, con D e CL invariati: picco iniziale minore e decadimento più lento; area invariata."
+    },
+    {
+      "id": "compartimenti-rapporti-penetrazione",
+      "title": "Leggere la penetrazione: plasma, interstizio, cellule e liquidi biologici",
+      "refs": [
+        "DAB-DISTRIBUZIONE",
+        "KATZ-DISTRIBUZIONE",
+        "APP-DISTRIBUZIONE",
+        "AMOX-SMPC"
+      ],
+      "text": "Dire che un antibiotico «penetra nel tessuto» lascia aperte molte domande. Una misura nel plasma, nel liquido interstiziale, nelle cellule o nel liquido che riveste l’epitelio polmonare non descrive lo stesso compartimento. Quest’ultimo è indicato come ELF, epithelial lining fluid: non coincide con la concentrazione dentro i macrofagi. Anche una misura complessiva del tessuto può mescolare spazi differenti. Prima di collegare il dato a una polmonite bisogna quindi chiarire quale sede è stata campionata e dove si trova il patogeno.\n\nUn rapporto tra concentrazione in un liquido biologico e concentrazione sierica è un confronto fra due misure, non una percentuale della dose che ha raggiunto quella sede. Il rapporto può dipendere dal momento del prelievo, dal ritardo della distribuzione e dal confronto fra quantità libera o totale. Un rapporto di concentrazioni misurato in un istante non equivale neppure al rapporto fra le rispettive aree sotto le curve. Senza queste informazioni, una tabella non consente di classificare gli antibiotici dal «migliore» al «peggiore».\n\nLiquor, bile, latte e umor acqueo aggiungono condizioni specifiche. Per il liquor, lo stato delle meningi può modificare la penetrazione: il dato ottenuto con infiammazione non va trasferito a meningi integre. Per il latte, rilevare una molecola non basta a definire beneficio o rischio per il lattante; la scheda del prodotto richiede una valutazione distinta. Per la bile, una concentrazione elevata non prova da sola che quella sia la principale via di eliminazione dell’intera dose. Concentrazione, quantità eliminata e sicurezza rispondono a domande diverse.\n\nL’amoxicillina offre un controllo concreto: lo SmPC UK consultato descrive la presenza in più tessuti e liquidi, ma segnala una distribuzione non adeguata nel liquido cerebrospinale. Questa informazione specifica impedisce di trasformare la generica diffusione delle penicilline nei liquidi corporei in una garanzia per il sistema nervoso centrale. I valori delle vecchie tabelle restano contesto didattico; per valutare un impiego servono preparazione, popolazione, metodo di misura, sensibilità del patogeno e prove cliniche riferite alla stessa situazione.",
+      "formula": "Dato di penetrazione → identificare matrice, quota libera/totale, tempo e stato della barriera → confrontare l’esposizione pertinente al bersaglio. Un rapporto liquido/siero non è una quota della dose né una prova di efficacia."
+    },
+    {
       "id": "esposizione-parete",
       "title": "PK/PD e concentrazioni",
       "refs": [
@@ -165,9 +188,14 @@ export const THEORY_CELL_WALL = {
       "title": "Dal meccanismo alle patologie: mantenere distinte le domande",
       "refs": [
         "EMA-FOS-USO",
-        "DM-IMIPENEM"
+        "DM-IMIPENEM",
+        "DAB-DISTRIBUZIONE",
+        "APP-DISTRIBUZIONE",
+        "CDC-GONORREA",
+        "NIH-SIFILIDE",
+        "AMOX-SMPC"
       ],
-      "text": "Le infezioni urinarie, polmonari e del sistema nervoso centrale consentono di mettere alla prova il ragionamento senza trasformare la classificazione in una lista di prescrizioni. Il batterio può possedere la stessa via di sintesi della parete in sedi differenti, mentre cambiano il compartimento da raggiungere, la formulazione utilizzabile e le prove cliniche pertinenti.\n\nLa revisione europea della fosfomicina del 2020 distingue gli impieghi delle preparazioni orali da quelli endovenosi. Fra gli impieghi orali compare la cistite acuta non complicata in donne e adolescenti; per la via endovenosa l’ambito riguarda determinate infezioni gravi quando altri trattamenti non sono adatti. L’esempio mostra perché il nome del principio attivo e il bersaglio MurA non bastino a rendere equivalenti vie di somministrazione e situazioni cliniche. Non è una revisione completa delle indicazioni attuali di ogni prodotto nazionale.\n\nAnche un dato di distribuzione deve essere interpretato con cautela. La scheda statunitense consultata di imipenem/cilastatina non ne indica l’impiego nella meningite, perché sicurezza ed efficacia non sono state stabilite. Rilevare un farmaco nel liquor e disporre di un’indicazione clinica sono due livelli di evidenza differenti: non si può dedurre il secondo dal primo.\n\nPer collegare una scheda di molecola a un capitolo di patologia, la sequenza utile è quindi: identificare il bersaglio, verificare l’attività sul patogeno, considerare sede ed esposizione, poi controllare indicazioni, sicurezza e raccomandazioni specifiche. Questo capitolo sviluppa i primi collegamenti farmacologici; le fonti cliniche sono state confrontate soltanto nei passaggi dichiarati e la sintesi non costituisce una revisione clinica indipendente."
+      "text": "Le infezioni urinarie, polmonari e del sistema nervoso centrale consentono di mettere alla prova il ragionamento senza trasformare la classificazione in una lista di prescrizioni. Il batterio può possedere la stessa via di sintesi della parete in sedi differenti, mentre cambiano il compartimento da raggiungere, la formulazione utilizzabile e le prove cliniche pertinenti.\n\nLa revisione europea della fosfomicina del 2020 distingue gli impieghi delle preparazioni orali da quelli endovenosi. Fra gli impieghi orali compare la cistite acuta non complicata in donne e adolescenti; per la via endovenosa l’ambito riguarda determinate infezioni gravi quando altri trattamenti non sono adatti. L’esempio mostra perché il nome del principio attivo e il bersaglio MurA non bastino a rendere equivalenti vie di somministrazione e situazioni cliniche. Non è una revisione completa delle indicazioni attuali di ogni prodotto nazionale.\n\nAnche un dato di distribuzione deve essere interpretato con cautela. La scheda statunitense consultata di imipenem/cilastatina non ne indica l’impiego nella meningite, perché sicurezza ed efficacia non sono state stabilite. Rilevare un farmaco nel liquor e disporre di un’indicazione clinica sono due livelli di evidenza differenti: non si può dedurre il secondo dal primo.\n\nPer collegare una scheda di molecola a un capitolo di patologia, la sequenza utile è quindi: identificare il bersaglio, verificare l’attività sul patogeno, considerare sede ed esposizione, poi controllare indicazioni, sicurezza e raccomandazioni specifiche. Questo capitolo sviluppa i primi collegamenti farmacologici; le fonti cliniche sono state confrontate soltanto nei passaggi dichiarati e la sintesi non costituisce una revisione clinica indipendente.\n\nAnche gli elenchi storici di impiego delle penicilline richiedono questa distinzione. La gonorrea è un esempio netto: i CDC non raccomandano penicillina per i ceppi circolanti negli Stati Uniti, per insufficiente sensibilità. La pagina clinica CDC indica ceftriaxone per la gonorrea non complicata; il fatto che entrambi appartengano ai β-lattamici non li rende intercambiabili. Qui il confronto serve a correggere l’attribuzione generica alla classe, senza introdurre uno schema terapeutico.\n\nPer la sifilide, le raccomandazioni NIH consultate per adulti e adolescenti con HIV sottolineano invece la scelta della preparazione di penicillina in rapporto a stadio e sedi interessate, compreso il sistema nervoso centrale. Per Staphylococcus aureus, lo SmPC dell’amoxicillina distingue la resistenza dovuta a penicillinasi e quella associata alla meticillino-resistenza: il solo nome della specie non predice sensibilità ad amoxicillina, e resistenza e virulenza non sono sinonimi. Infine, l’etichetta «polmonite pneumococcica» identifica agente e sede, ma non rende equivalenti tutte le penicilline. In ciascun esempio occorre tornare dal nome della classe al composto, alla formulazione e al contesto clinico."
     }
   ],
   "drugs": [],
@@ -229,6 +257,18 @@ export const THEORY_CELL_WALL = {
     {
       "question": "La dicitura «allergia alla penicillina» descrive da sola il rischio di un altro β-lattamico?",
       "answer": "No. Occorrono medicinale, tempi, manifestazioni e valutazione clinica; un’etichetta non equivale a una diagnosi né a un rischio uniforme per tutta la classe."
+    },
+    {
+      "question": "Un aumento del volume apparente riduce necessariamente l’AUC plasmatica?",
+      "answer": "No. Nel modello lineare a dose EV e clearance invariate, AUC = D/CL: il volume modifica picco e andamento, mentre l’area resta uguale. Non è una regola di adeguamento della dose."
+    },
+    {
+      "question": "Un rapporto liquor/siero del farmaco rappresenta la percentuale della dose entrata nel liquor?",
+      "answer": "No. Confronta concentrazioni in matrici definite, con tempi e condizioni di misura da specificare. Non misura la quota della dose né dimostra efficacia."
+    },
+    {
+      "question": "Perché il nome «penicilline» non basta per collegare un trattamento a una patologia?",
+      "answer": "Perché sensibilità del patogeno, molecola, formulazione e accesso alla sede cambiano. La gonorrea e la sifilide mostrano problemi diversi; un elenco storico non equivale a una raccomandazione attuale."
     }
   ],
   "references": [
@@ -339,7 +379,7 @@ export const THEORY_CELL_WALL = {
     {
       "id": "KATZ-PK",
       "title": "Katzung · Capitolo 43, resistenza e inizio della farmacocinetica",
-      "detail": "IX italiana 2014 / XII originale 2012. PDF 911, stampa 891: testo completo e figura 43-5 controllati; PDF 909 ricontrollato. La legenda «β-lattamasi» al punto 5 contrasta con la didascalia «antibiotici β-lattamici»: non trasferita. Continuazione PDF 912 non letta."
+      "detail": "IX italiana 2014 / XII originale 2012. PDF 911, stampa 891: testo completo e figura 43-5 controllati; PDF 909 ricontrollato. La legenda «β-lattamasi» al punto 5 contrasta con la didascalia «antibiotici β-lattamici»: non trasferita. Continuazione PDF 912 ora letta, documentata in KATZ-DISTRIBUZIONE."
     },
     {
       "id": "RANG-PK",
@@ -355,7 +395,7 @@ export const THEORY_CELL_WALL = {
       "id": "AMOX-SMPC",
       "title": "Amoxicillin 500 mg hard capsules · Sandoz, SmPC UK",
       "url": "https://www.medicines.org.uk/emc/product/15728/smpc",
-      "detail": "Testo revisionato il 13 marzo 2026, pubblicato su emc il 26 marzo; consultato il 28 novembre 2026. Selezioni §4.3–4.4 e §5.2; non revisione integrale né indicazione nazionale italiana. Nessuna dose o soglia microbiologica importata."
+      "detail": "Testo revisionato il 13 marzo 2026, pubblicato su emc il 26 marzo; consultato il 28 novembre 2026. Selezioni §4.3–4.4 e §5.2; non revisione integrale né indicazione nazionale italiana. Nessuna dose o soglia microbiologica importata. Ricontrollati §4.6, §5.1 (meccanismi, senza breakpoint) e §5.2 per distribuzione e limiti di sensibilità."
     },
     {
       "id": "ZAV-SMPC",
@@ -374,13 +414,45 @@ export const THEORY_CELL_WALL = {
       "title": "CDC · STI Treatment Guidelines, Penicillin Allergy",
       "url": "https://www.cdc.gov/std/treatment-guidelines/penicillin-allergy.htm",
       "detail": "Guida 2021, passaggio sulla reattività crociata consultato il 28 novembre 2026. Usato per evitare un rischio uniforme di classe; nessuna percentuale, prescrizione o algoritmo trasferito."
+    },
+    {
+      "id": "DAB-DISTRIBUZIONE",
+      "title": "Farmacologia II · Diapositive antibatterici AA 2026–27",
+      "detail": "PDF 71–75: testo visibile, schemi e tabelle letti e ispezionati. PDF 73–74 riproducono tabelle attribuite a Rossi, Cuomo, Riccardi, Farmacologia III edizione: opera originale non consultata. Nessuna tabella o figura riprodotta; valori quantitativi e indicazioni di classe non trasferiti."
+    },
+    {
+      "id": "KATZ-DISTRIBUZIONE",
+      "title": "Katzung · Capitolo 43, distribuzione ed eliminazione delle penicilline",
+      "detail": "IX italiana 2014 / XII originale 2012. PDF 912, stampa 892: pagina completa letta e controllata, con continuazione della frase in PDF 911. Integrati soltanto concetti di distribuzione e differenze fra composti; dosi, soglie, equivalenze tissutali e regimi storici esclusi."
+    },
+    {
+      "id": "APP-DISTRIBUZIONE",
+      "title": "Farmacologia II · Appunti AA 2024–25, lezione 3 del 14 ottobre 2024",
+      "detail": "PDF 37, stampa 36: testo, due tabelle e diapositiva inferiore letti; tabella posologica ingrandita per la lettura. Tabella di penetrazione ripetuta in PDF 74 del corso. La tabella posologica cita Katzung XIII edizione 2015, distinta dal libro IX italiano consultato. Posologie e generalizzazioni inesatte non integrate."
+    },
+    {
+      "id": "PK-ELIX",
+      "title": "ELIX · Modelli farmacocinetici",
+      "detail": "Raccordo con il capitolo già verificato e il suo registro: V apparente, clearance e AUC in cinetica lineare. Derivazione editoriale del modello monocompartimentale; nessuna nuova lettura di libro conteggiata per questo riuso."
+    },
+    {
+      "id": "CDC-GONORREA",
+      "title": "CDC · Gonococcal Infections e Clinical Treatment of Gonorrhea",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm",
+      "detail": "Guida 2021: passaggio sulla sensibilità insufficiente a penicillina letto direttamente il 28 novembre 2026. Confrontata la pagina Clinical Treatment of Gonorrhea dell’11 luglio 2024, che rimanda alla guida. Ambito USA; nessuna dose o algoritmo trasferito."
+    },
+    {
+      "id": "NIH-SIFILIDE",
+      "title": "NIH · Syphilis, adulti e adolescenti con HIV",
+      "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/syphilis",
+      "detail": "Aggiornamento 27 maggio 2026, revisione 18 novembre 2026; consultato il 28 novembre. Selezione General Considerations for Treating Syphilis: preparazione, stadio e sedi. Guida non letta integralmente; nessuna posologia o estensione automatica ad altre popolazioni."
     }
   ],
   "format": "extended",
   "reviewStatus": "revisione_editoriale_mirata_eseguita_non_validazione_clinica",
   "reviewedAt": "2026-11-28",
   "readingManifest": "./data/cell-wall-reading.json",
-  "coverage": "Intervallo circoscritto: 27 posizioni PDF complete, 7 completate in questo lotto (6 nuove e una prima parziale) e 20 già registrate; 26 con passaggi integrati e una di solo titolo. Sei nuove ispezioni visive; nessun intero libro o corso letto. Riconciliazione complessiva e revisione clinica indipendente aperte.",
+  "coverage": "Intervallo circoscritto: 34 posizioni PDF complete, 7 nuove letture e ispezioni in questo lotto e 27 già registrate; 33 con passaggi integrati e una di solo titolo. Le tabelle ripetute non sono evidenze indipendenti. Nessun intero libro o corso letto; riconciliazione complessiva e revisione clinica indipendente aperte.",
   "moleculeLinks": [
     {
       "id": "CHEMBL1082",
@@ -410,7 +482,8 @@ export const THEORY_CELL_WALL = {
   "relatedExistingChapterIds": [
     "antibiotico-resistenze",
     "formulazioni-sali-bioequivalenza",
-    "clearance-biliare-renale"
+    "clearance-biliare-renale",
+    "modelli-pk"
   ],
-  "wordCount": 3823
+  "wordCount": 4639
 };

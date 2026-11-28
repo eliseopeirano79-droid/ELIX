@@ -1,62 +1,67 @@
 {
-  "batch": "theory-dab-066-070",
-  "reviewedAt": "2026-11-28T06:44:11.525857+00:00",
+  "batch": "theory-dab-071-075",
+  "reviewedAt": "2026-11-28T07:34:23.316312+00:00",
   "outcome": "pass",
-  "scope": "Structure and roles; qualitative penicillin pharmacokinetics; hypersensitivity distinctions. Twelve existing section texts retained, one extended; two new sections.",
+  "scope": "Compartmental distribution, V versus AUC, interpretation of fluid ratios and selected historical indication conflicts. Fourteen section texts retained, one extended; two new sections.",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "a185785d74e6753fc3d336938f5f3f5e052d7553ac711810c886a8f27f825ed0",
-  "previousBatch": "theory-dab-061-065",
+  "moduleSha256": "9be799eefd009afe2624d5eb010a1ea0f1184abfda49aac3224318d29572574d",
+  "previousBatch": "theory-dab-066-070",
   "conflicts": [
     {
       "id": "1",
       "status": "resolved_for_scope",
-      "resolution": "DAB66–70 full visible text and diagrams read. DAB66 extraction contains only a title, but both diagrams were inspected and labels read: it is not a metadata-only page. Repeated transpeptidation/PBP artwork is not independent evidence; pentaglycine and the PBP2 example are not universal."
+      "resolution": "DAB71–75 read in full: extracted text plus all visible labels, table cells and notes. Seven new PDF positions including KATZ912 and APP-II37; seven first visual inspections. No partial page counted as complete."
     },
     {
       "id": "2",
       "status": "resolved_for_scope",
-      "resolution": "DAB67–69 structures and captions inspected for family architecture and roles; no independent atom-by-atom or stereochemical validation, and no identification of the unlabeled portrait. DAB68 inhibitor category is functional: avibactam is a non-beta-lactam counterexample from the selected current product information."
+      "resolution": "DAB71 conceptual compartments are not measured concentration data. Nix1991 is an attribution in the slide, not an independently read paper. Higher apparent volume does not necessarily reduce plasma AUC: original one-compartment linear derivation makes fixed dose and clearance explicit."
     },
     {
       "id": "3",
       "status": "resolved_for_scope",
-      "resolution": "DAB70 classwide numerical PK ranges excluded. APP-II36 printed35 now read completely, including embedded slide, lower table8.II and footnotes; previous partial status closed. Only qualitative variability integrated. Its slide repeats DAB70; repeated graphics are not independent evidence."
+      "resolution": "DAB72 hydrophilic/lipophilic classification retained only as a heuristic. Blanket intracellular efficacy, hepatic/renal elimination and ELF guarantees excluded. Host-cell entry, bacterial-envelope entry and ELF are separate concepts."
     },
     {
       "id": "4",
-      "status": "documented_scope_limit",
-      "resolution": "APP-II36 body/slide half-life ranges disagree; oral bioavailability for amoxicillin in its table differs from the selected current SmPC. Formulation/route labeling is ambiguous for benzathine. These values remain unvalidated and are not published or converted into PK profiles."
+      "status": "resolved_for_scope",
+      "resolution": "DAB73 table8.II repeats the table already inspected in APP-II36. DAB74 table8.IV repeats APP-II37. Separate PDF positions counted, never independent scientific evidence; Rossi-Cuomo-Riccardi III edition known only from slide attribution, original book not read."
     },
     {
       "id": "5",
-      "status": "resolved_for_scope",
-      "resolution": "KATZ911 printed891 full text, caption and figure43-5 inspected. Legend item5 says beta-lactamase whereas caption identifies beta-lactam antibiotics; the erroneous legend is not transferred. Resistance continuation completes910; pharmacokinetic sentence continues912, not read."
+      "status": "documented_scope_limit",
+      "resolution": "DAB73 oral amoxicillin bioavailability90 differs from the selected current UK product information70; benzathine route/formulation labeling is ambiguous. Numeric table cells and fixed PK ranges not validated or published. DAB74 ratios do not identify sampling time or free/total fraction; no numeric penetration, milk-safety or dose inference."
     },
     {
       "id": "6",
       "status": "resolved_for_scope",
-      "resolution": "KATZ909 and RANG956–957 reread and visually rechecked without new counts. Rang figure51.3 gives historical blanket stability claims, not universal resistance guarantees. Historical clinical box, regimens, risk frequencies, intermittent-exposure advantage and classwide BBB/PK claims excluded; footnote text4/5 not reconstructed."
+      "resolution": "KATZ912 printed892 fully read and visually checked. Completes preceding PK sentence from911. Qualitative polarity, distribution and compound differences used. Historical doses, renal adjustment fractions, a95% binding significance threshold, tissue-serum equivalence and classwide clinical recommendations excluded."
     },
     {
       "id": "7",
       "status": "resolved_for_scope",
-      "resolution": "Seven pages newly completed: six new positions plus APP-II36 promoted from partial. Six first visual inspections; four visual rechecks. Cumulative chapter27 full,0 partial,27 visual,26 integrated; global antibacterial union108 full,7 partial,115 visual,89 integrated. Metadata-only DAB56 remains excluded from integration."
+      "resolution": "APP-II37 printed36 fully read, including both upper tables (dose table enlarged) and lower slide. Dose table attributed to Katzung XIII2015 is not the IX Italian2014 book used here. No dose or renal-adjustment table transferred. General food/CSF claims, amino-group explanation for all listed penicillins, piperazine classification and resistance/virulence conflation excluded or corrected within scope."
     },
     {
       "id": "8",
       "status": "documented_scope_limit",
-      "resolution": "Sandoz amoxicillin UK SmPC selected4.3–4.4 and5.2, Pfizer Zavicefta selected5.1, CDC allergy page and selected cross-reactivity passage checked on2026-11-28. No new dose, contraindication algorithm, allergy testing protocol or numeric PK field. Current Italian product indications not comprehensively reviewed."
+      "resolution": "DAB75 historical indication list reconciled selectively: CDC gonorrhea passage and2024 clinical page; NIH syphilis general considerations updatedMay2026/reviewedNovember2026 for adults/adolescents with HIV; Sandoz amoxicillin UK SmPC selected4.6,5.1 mechanisms and5.2. No new regimen, dose, current Italian indication review or independent clinical review."
     },
     {
       "id": "9",
       "status": "documented_scope_limit",
-      "resolution": "EMA Zavicefta product-information PDF returned429 and was not read in this check; selected manufacturer SmPC used and identified as UK. Amoxicillin SmPC contains an older EUCAST breakpoint table; no breakpoint imported."
+      "resolution": "Direct CDC syphilis page timed out in web and direct retrieval; not declared fully read. Indexed passage located, NIH primary guidance used for the public formulation statement. NICE NG250 indexed adult table screened; direct page403. No recommendation or dose from that table integrated."
     },
     {
       "id": "10",
+      "status": "resolved_for_scope",
+      "resolution": "V and AUC model is an original mathematical derivation reconciled with the already verified ELIX modelli-pk chapter and its reading/formula audit. No additional textbook page credited for this reuse. Rang956–957 reconciliation from the verified preceding batch retained, not declared newly reread."
+    },
+    {
+      "id": "11",
       "status": "documented_scope_limit",
-      "resolution": "Only sole-integrator educational/editorial review. Other authorized books, Farmaco I/II intervals and other lecturers remain unreconciled; no independent clinical review or full-course claim."
+      "resolution": "Only a sole-integrator educational/editorial review. Remaining books, Farmaco I/II intervals and other lecturers remain unreconciled. New identities, summaries, PK fields/profiles, target profiles and interactive labs all zero."
     }
   ]
 }

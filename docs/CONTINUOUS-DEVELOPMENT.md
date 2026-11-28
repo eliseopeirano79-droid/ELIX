@@ -8,15 +8,15 @@ Usare appunti e diapositive del corso di Farmacologia, con anno, lezione, data e
 
 ## Lotto corrente
 
-theory-dab-066-070, candidato 0.136.0. Ampliata la struttura delle famiglie e aggiunte due sezioni su farmacocinetica delle penicilline e ipersensibilità nel capitolo «Antibatterici β-lattamici e parete cellulare»: 14 sezioni, 3823 parole, 14 quesiti e 10 schemi originali. Conservati i dodici testi precedenti (uno ampliato) e gli altri 66 capitoli. Sempre 67 capitoli, 26 estesi e 41 brevi; nessuna nuova identità, sintesi di farmaco, profilo o laboratorio.
+theory-dab-071-075, candidato 0.137.0. Due nuove sezioni su distribuzione, volume apparente/AUC e rapporti di penetrazione; ampliato il raccordo con le patologie nel capitolo «Antibatterici β-lattamici e parete cellulare». Ora16 sezioni,4639 parole,17 quesiti e12 schemi originali. Conservati i14 testi precedenti (uno ampliato) e gli altri66 capitoli. Sempre67 capitoli,26 estesi e41 brevi; nessuna nuova identità, sintesi di farmaco, profilo o laboratorio.
 
-Ultima pubblicazione verificata 0.135.0, commit 2d99f37176262db3c17681a82f88613e6d85401f. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
+Ultima pubblicazione verificata0.136.0, commit4272de50a9d345bbfbf846c28dd19c0798997cac. La ricevuta successiva al deploy prevale sul checkpoint preparatorio.
 
-Sette letture completate: DAB66–70, Katzung PDF911 e completamento degli appunti PDF36. Sei nuove posizioni, una precedentemente parziale; sei prime ispezioni visive. Katzung909 e Rang956–957 ricontrollati senza ricontarli. Registro del capitolo:27 complete,0 parziali,27 ispezionate,26 integrate. Unione dei capitoli antibatterici:108 complete,7 parziali,115 ispezionate,89 integrate.
+Sette nuove letture e ispezioni: DAB71–75,Katzung PDF912 e appunti PDF37. Registro del capitolo:34 complete,0 parziali,34 ispezionate,33 integrate. Unione dei capitoli antibatterici:115 complete,7 parziali,122 ispezionate,96 integrate. Tabelle ripetute deduplicate come evidenza; il riuso del capitolo modelli PK non aggiunge letture.
 
-Famiglie e inibitori distinti con il controesempio avibactam; PK solo qualitativa e specifica del composto; ipersensibilità distinta da etichette e intolleranze. Confrontati passaggi selezionati degli SmPC UK di amoxicillina e Zavicefta e delle pagine CDC. Valori PK discordanti, regimi storici, garanzie di resistenza e rischio uniforme di allergia esclusi. Figura43-5 Katzung: la voce beta-lattamasi al punto5 contrasta con la didascalia e non è trasferita. PDF EMA di Zavicefta non accessibile; non dichiarato letto. Altri libri/corsi e revisione clinica indipendente aperti.
+Derivazione originale V/AUC con ipotesi esplicite; distinzione fra concentrazione e quota della dose; confronto selettivo CDC,NIH e SmPC UK. Nessuna dose, tabella quantitativa o immagine di fonte pubblicata. Pagina CDC sifilide non accessibile; usato il passaggio NIH con popolazione e aggiornamento dichiarati. Revisione clinica indipendente e riconciliazione complessiva aperte.
 
-Controlli locali superati:54 verifiche,8 configurazioni browser,ricerca,tastiera e offline. Aggiornamento reale0.135.0→0.136.0 con dati salvati conservati. Restano commit,CI,deploy e verifica online. Prove private in ../../outputs/ELIX-dab-066-070-2026-11-28/.
+Controlli locali superati:54 verifiche,8 configurazioni browser,ricerca,tastiera,collegamenti e offline. Otto immagini ispezionate. Aggiornamento reale0.136.0→0.137.0 con preferiti,progressi e tema conservati. Restano commit,CI,deploy e verifica online. Prove private in ../../outputs/ELIX-dab-071-075-2026-11-28/.
 
 ## Regole
 
@@ -28,4 +28,4 @@ Controlli locali superati:54 verifiche,8 configurazioni browser,ricerca,tastiera
 
 ## Prossimo intervallo
 
-Completare DAB66–70; poi DAB71–75, non iniziato. Farmaci, profili e laboratori nel backlog.
+Completare DAB71–75; poi DAB76–80, non iniziato. Farmaci, profili e laboratori nel backlog.
