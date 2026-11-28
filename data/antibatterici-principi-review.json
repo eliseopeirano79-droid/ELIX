@@ -1,11 +1,11 @@
 {
-  "batch": "theory-dab-021-025",
-  "reviewedAt": "2026-11-28T00:45:07.807857+00:00",
+  "batch": "theory-dab-026-030",
+  "reviewedAt": "2026-11-28T01:18:44.520016+00:00",
   "outcome": "pass",
-  "scope": "Sole-integrator editorial review: spectrum versus isolate susceptibility; qualitative growth/survival curves; formulation, route, adherence and product-specific storage.",
+  "scope": "Sole-integrator editorial review: PK/PD indices, free concentration, index versus target, post-antibiotic effect and bounded vancomycin example.",
   "independentClinicalReview": false,
   "clinicalValidation": false,
-  "moduleSha256": "77d01d1378e39a6616ec168f06a63ff96c161734d2b639bce2eb8a08a6f3b840",
+  "moduleSha256": "993c542bbb0465c028790b85bb262249a158d966600a1613c4ff065881fc35f3",
   "conflicts": [
     {
       "id": "dab3-obscured-labels",
@@ -176,6 +176,31 @@
       "id": "cost-and-storage",
       "status": "resolved_for_scope",
       "resolution": "Cost compares appropriate options; historical cheapest-first wording not imported. Product-specific storage example does not generalize instructions to other formulations."
+    },
+    {
+      "id": "pkpd-raster-and-source",
+      "status": "unresolved_source_limit",
+      "resolution": "DAB26: automated text contains only the Andes2004 attribution; all diagram labels read in the image. Underlying article and original figure not independently reviewed; AUC is not drug mass and peak/MIC is not a concentration difference."
+    },
+    {
+      "id": "class-targets-not-universal",
+      "status": "resolved_for_scope",
+      "resolution": "DAB27–28: numerical class targets and overlapping drug lists are not validated universal prescriptions. No numeric targets, antifungal regimens or class-wide monitoring rules imported."
+    },
+    {
+      "id": "pae-not-elimination",
+      "status": "resolved_for_scope",
+      "resolution": "DAB29 and APP-II26: post-antibiotic effect distinguished from slow systemic elimination. Low cell penetration, protein binding and once-daily administration not generalized across concentration-dependent agents."
+    },
+    {
+      "id": "time-dependence-not-cure",
+      "status": "resolved_for_scope",
+      "resolution": "DAB30 and APP-II25–26: time dependence does not guarantee cure or automatically justify continuous infusion. No infusion protocol, dose or regimen imported."
+    },
+    {
+      "id": "repeated-course-figures",
+      "status": "resolved_for_scope",
+      "resolution": "APP-II26 embeds versions of DAB28–29: separate PDF page and surrounding prose read, repeated figures not independent evidence. Prior APP-II25 rechecked in text but still not separately integrated."
     }
   ],
   "limits": [
@@ -203,6 +228,16 @@
     "KATZ1031–1032, APP-II24 and RANG934 existing text extractions rechecked; no new book pages or repeat full-figure checks. Other lecturers and source intervals remain open.",
     "UKHSA adult inpatient IVOS selections only; no complete decision aid or linked studies read, no schedule, cutoff, pediatric extrapolation or automatic switch instruction.",
     "DailyMed selected section2.5 of a US repackaged label revisedJune2022; current served record consulted, not a complete product review or validation of historical indications. No preparation recipe, dose, concentration, storage duration or temperature generalized.",
-    "CDC stewardship page recheck returned timeout this cycle; prior verified citation retained without claiming a fresh successful read. New clinical route discussion relies on directly consulted UKHSA."
+    "CDC stewardship page recheck returned timeout this cycle; prior verified citation retained without claiming a fresh successful read. New clinical route discussion relies on directly consulted UKHSA.",
+    "DAB26: automated text contains only the Andes2004 attribution; all diagram labels read in the image. Underlying article and original figure not independently reviewed; AUC is not drug mass and peak/MIC is not a concentration difference.",
+    "DAB27–28: numerical class targets and overlapping drug lists are not validated universal prescriptions. No numeric targets, antifungal regimens or class-wide monitoring rules imported.",
+    "DAB29 and APP-II26: post-antibiotic effect distinguished from slow systemic elimination. Low cell penetration, protein binding and once-daily administration not generalized across concentration-dependent agents.",
+    "DAB30 and APP-II25–26: time dependence does not guarantee cure or automatically justify continuous infusion. No infusion protocol, dose or regimen imported.",
+    "KATZ942–944 fully read and figures45.1–45.3 inspected;942 clinical vignette and historical numeric PK/toxicity data excluded. Only943–944 integrated. Figure45.3 credits McGraw-Hill2002; underlying original not independently inspected.",
+    "APP-II26 embeds versions of DAB28–29: separate PDF page and surrounding prose read, repeated figures not independent evidence. Prior APP-II25 rechecked in text but still not separately integrated.",
+    "KATZ1032, APP-II25 and RANG952 existing text extractions rechecked; no new full reading of those pages or repeated figure inspection claimed. Other books, lecturers and course intervals remain open.",
+    "EMA current index and selected sections4.2.1/4.2.3 only, not complete17-page guideline or clinical protocol. Initial obsolete URL/access attempts failed before the canonical PDF and current index were successfully consulted.",
+    "IDSA current-marked2020 consensus: abstract and executive summary only; full article and linked tables not read. MRSA invasive-infection evidence not extrapolated to all infections; no numerical target or monitoring schedule transferred.",
+    "Sole-integrator educational/editorial synthesis; no independent clinical review or full source reconciliation."
   ]
 }

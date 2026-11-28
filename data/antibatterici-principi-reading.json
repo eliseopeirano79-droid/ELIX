@@ -1,6 +1,6 @@
 {
-  "batch": "theory-dab-021-025",
-  "updatedAt": "2026-11-28T00:45:07.807857+00:00",
+  "batch": "theory-dab-026-030",
+  "updatedAt": "2026-11-28T01:18:44.520016+00:00",
   "chapterId": "antibiotico-resistenze",
   "sources": [
     {
@@ -26,7 +26,12 @@
         22,
         23,
         24,
-        25
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
       ],
       "partiallyReadPdfPages": [
         3,
@@ -60,7 +65,12 @@
         22,
         23,
         24,
-        25
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
       ],
       "integratedPdfPages": [
         4,
@@ -77,7 +87,12 @@
         21,
         22,
         23,
-        25
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
       ],
       "metadataOnlyPages": [
         1,
@@ -108,17 +123,22 @@
         "22": "absent",
         "23": "absent",
         "24": "absent",
-        "25": "absent"
+        "25": "absent",
+        "26": "absent",
+        "27": "absent",
+        "28": "absent",
+        "29": "absent",
+        "30": "absent"
       },
       "edition": "2026-27",
       "sourceUnchanged": true,
       "allContentsRead": false,
       "newlyReadTextPages": [
-        21,
-        22,
-        23,
-        24,
-        25
+        26,
+        27,
+        28,
+        29,
+        30
       ],
       "reusedPreviouslyReadPages": [
         1,
@@ -135,7 +155,12 @@
         15,
         18,
         19,
-        20
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
       ],
       "readButNotIntegratedPdfPages": [
         1,
@@ -146,17 +171,18 @@
       ],
       "newlyPartiallyReadPdfPages": [],
       "newlyVisuallyCheckedPdfPages": [
-        21,
-        22,
-        23,
-        24,
-        25
+        26,
+        27,
+        28,
+        29,
+        30
       ],
       "newlyIntegratedPdfPages": [
-        21,
-        22,
-        23,
-        25
+        26,
+        27,
+        28,
+        29,
+        30
       ],
       "recheckedTextPagesThisBatch": [],
       "duplicateTextGroups": [
@@ -168,11 +194,9 @@
           "visualEmphasisDiffers": true
         }
       ],
-      "emptyTextExtractionPagesThisBatch": [
-        25
-      ],
+      "emptyTextExtractionPagesThisBatch": [],
       "directVisualTextReadPagesThisBatch": [
-        25
+        26
       ]
     },
     {
@@ -182,6 +206,9 @@
         907,
         908,
         909,
+        942,
+        943,
+        944,
         1030,
         1031,
         1032
@@ -191,12 +218,17 @@
         907,
         908,
         909,
+        942,
+        943,
+        944,
         1030,
         1031,
         1032
       ],
       "integratedPdfPages": [
         909,
+        943,
+        944,
         1030,
         1031,
         1032
@@ -208,12 +240,19 @@
         "1032": "1012",
         "907": "887",
         "908": "888",
-        "909": "889"
+        "909": "889",
+        "942": "absent; chapter opening indexed at922",
+        "943": "923",
+        "944": "924"
       },
       "edition": "IX italiana 2014 / XII originale 2012",
       "sourceUnchanged": true,
       "allContentsRead": false,
-      "newlyReadTextPages": [],
+      "newlyReadTextPages": [
+        942,
+        943,
+        944
+      ],
       "reusedPreviouslyReadPages": [
         907,
         908,
@@ -224,15 +263,24 @@
       ],
       "readButNotIntegratedPdfPages": [
         907,
-        908
+        908,
+        942
       ],
       "newlyPartiallyReadPdfPages": [],
-      "newlyVisuallyCheckedPdfPages": [],
-      "newlyIntegratedPdfPages": [],
+      "newlyVisuallyCheckedPdfPages": [
+        942,
+        943,
+        944
+      ],
+      "newlyIntegratedPdfPages": [
+        943,
+        944
+      ],
       "recheckedTextPagesThisBatch": [
-        1031,
         1032
-      ]
+      ],
+      "emptyTextExtractionPagesThisBatch": [],
+      "directVisualTextReadPagesThisBatch": []
     },
     {
       "id": "RANG",
@@ -282,8 +330,10 @@
       "newlyVisuallyCheckedPdfPages": [],
       "newlyIntegratedPdfPages": [],
       "recheckedTextPagesThisBatch": [
-        934
-      ]
+        952
+      ],
+      "emptyTextExtractionPagesThisBatch": [],
+      "directVisualTextReadPagesThisBatch": []
     },
     {
       "id": "FII-B",
@@ -293,7 +343,8 @@
         22,
         23,
         24,
-        25
+        25,
+        26
       ],
       "partiallyReadPdfPages": [],
       "visuallyCheckedPdfPages": [
@@ -301,13 +352,15 @@
         22,
         23,
         24,
-        25
+        25,
+        26
       ],
       "integratedPdfPages": [
         21,
         22,
         23,
-        24
+        24,
+        26
       ],
       "metadataOnlyPages": [],
       "printedPageLabels": {
@@ -315,12 +368,15 @@
         "22": "21",
         "23": "22",
         "24": "23",
-        "25": "24"
+        "25": "24",
+        "26": "25"
       },
       "edition": "AA2024–25",
       "sourceUnchanged": true,
       "allContentsRead": false,
-      "newlyReadTextPages": [],
+      "newlyReadTextPages": [
+        26
+      ],
       "reusedPreviouslyReadPages": [
         21,
         22,
@@ -333,19 +389,25 @@
       ],
       "lesson": "3;14ottobre2024",
       "newlyPartiallyReadPdfPages": [],
-      "newlyVisuallyCheckedPdfPages": [],
-      "newlyIntegratedPdfPages": [],
+      "newlyVisuallyCheckedPdfPages": [
+        26
+      ],
+      "newlyIntegratedPdfPages": [
+        26
+      ],
       "recheckedTextPagesThisBatch": [
-        24
-      ]
+        25
+      ],
+      "emptyTextExtractionPagesThisBatch": [],
+      "directVisualTextReadPagesThisBatch": []
     }
   ],
-  "totalReadPdfPages": 35,
-  "newReadPdfPages": 5,
-  "reusedReadPdfPages": 30,
+  "totalReadPdfPages": 44,
+  "newReadPdfPages": 9,
+  "reusedReadPdfPages": 35,
   "newPartiallyReadPdfPages": 0,
-  "chapterReviewedPdfPages": 41,
-  "chapterIntegratedPdfPages": 27,
+  "chapterReviewedPdfPages": 50,
+  "chapterIntegratedPdfPages": 35,
   "metadataOnlyPdfPages": 2,
   "fullCorpusRead": false,
   "clinicalValidation": false,
@@ -356,9 +418,9 @@
   "newChapters": 0,
   "expandedExistingChapters": 1,
   "deduplication": {
-    "registryFiles": 3590,
-    "uniqueRegistryContents": 480,
-    "method": "Source hashes and explicit PDF positions checked before extraction; no prior21–25 overlap. Four nonempty extracted texts have no exact normalized prior DAB match;25 read visually.24 is conceptual repetition and not newly integrated. Earlier18/20 duplicate group retained."
+    "registryFiles": 3632,
+    "uniqueRegistryContents": 483,
+    "method": "Source hashes and explicit pages checked before extraction: no prior full-page overlap. No exact normalized prior DAB text matches. Nine distinct page texts; DAB26 only attribution extracted, raster labels read directly. APP-II26 repeats DAB28–29 figures, not independent evidence."
   },
   "limits": [
     "DAB3: citation overlay hides central labels; only visible image text read. Excluded from fully read and integrated pages. Article DOI10.3390/pharmaceutics16091137 identified; not read in full, original figure not inspected independently.",
@@ -385,7 +447,17 @@
     "KATZ1031–1032, APP-II24 and RANG934 existing text extractions rechecked; no new book pages or repeat full-figure checks. Other lecturers and source intervals remain open.",
     "UKHSA adult inpatient IVOS selections only; no complete decision aid or linked studies read, no schedule, cutoff, pediatric extrapolation or automatic switch instruction.",
     "DailyMed selected section2.5 of a US repackaged label revisedJune2022; current served record consulted, not a complete product review or validation of historical indications. No preparation recipe, dose, concentration, storage duration or temperature generalized.",
-    "CDC stewardship page recheck returned timeout this cycle; prior verified citation retained without claiming a fresh successful read. New clinical route discussion relies on directly consulted UKHSA."
+    "CDC stewardship page recheck returned timeout this cycle; prior verified citation retained without claiming a fresh successful read. New clinical route discussion relies on directly consulted UKHSA.",
+    "DAB26: automated text contains only the Andes2004 attribution; all diagram labels read in the image. Underlying article and original figure not independently reviewed; AUC is not drug mass and peak/MIC is not a concentration difference.",
+    "DAB27–28: numerical class targets and overlapping drug lists are not validated universal prescriptions. No numeric targets, antifungal regimens or class-wide monitoring rules imported.",
+    "DAB29 and APP-II26: post-antibiotic effect distinguished from slow systemic elimination. Low cell penetration, protein binding and once-daily administration not generalized across concentration-dependent agents.",
+    "DAB30 and APP-II25–26: time dependence does not guarantee cure or automatically justify continuous infusion. No infusion protocol, dose or regimen imported.",
+    "KATZ942–944 fully read and figures45.1–45.3 inspected;942 clinical vignette and historical numeric PK/toxicity data excluded. Only943–944 integrated. Figure45.3 credits McGraw-Hill2002; underlying original not independently inspected.",
+    "APP-II26 embeds versions of DAB28–29: separate PDF page and surrounding prose read, repeated figures not independent evidence. Prior APP-II25 rechecked in text but still not separately integrated.",
+    "KATZ1032, APP-II25 and RANG952 existing text extractions rechecked; no new full reading of those pages or repeated figure inspection claimed. Other books, lecturers and course intervals remain open.",
+    "EMA current index and selected sections4.2.1/4.2.3 only, not complete17-page guideline or clinical protocol. Initial obsolete URL/access attempts failed before the canonical PDF and current index were successfully consulted.",
+    "IDSA current-marked2020 consensus: abstract and executive summary only; full article and linked tables not read. MRSA invasive-infection evidence not extrapolated to all infections; no numerical target or monitoring schedule transferred.",
+    "Sole-integrator educational/editorial synthesis; no independent clinical review or full source reconciliation."
   ],
   "officialSourceScopes": [
     {
@@ -483,14 +555,26 @@
       "title": "DailyMed · Amoxicillina in polvere per sospensione orale",
       "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=756545f1-77af-49a0-a697-4cced31711d4",
       "detail": "Etichetta USA riconfezionata da Proficient Rx LP, revisione giugno 2022, consultata il 28 novembre 2026: selezione §2.5 sulla gestione della sospensione ricostituita. Esempio di istruzioni specifiche del prodotto; nessuna dose, concentrazione, temperatura o durata di conservazione trasferita come regola generale. Non intera scheda né aggiornamento delle indicazioni terapeutiche."
+    },
+    {
+      "id": "EMA-PKPD",
+      "title": "EMA · Uso di farmacocinetica e farmacodinamica nello sviluppo degli antimicrobici",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-use-pharmacokinetics-and-pharmacodynamics-development-antimicrobial-medicinal-products_en.pdf",
+      "detail": "EMA/CHMP/594085/2015, 2016, efficace dal 1 febbraio 2017; indice EMA consultato il 28 novembre 2026: versione corrente. Selezioni §4.2.1 e §4.2.3, PDF 7 e 9: indice, obiettivo e concentrazione libera. Non intero documento; guida allo sviluppo, non protocollo terapeutico."
+    },
+    {
+      "id": "IDSA-VAN",
+      "title": "ASHP/IDSA/PIDS/SIDP · Monitoraggio della vancomicina nelle infezioni gravi da MRSA",
+      "url": "https://www.idsociety.org/practice-guideline/vancomycin/",
+      "detail": "Consenso 19 marzo 2020, indicato CURRENT sul sito IDSA consultato il 28 novembre 2026. Abstract e sintesi esecutiva: AUC, sicurezza e limiti di estrapolazione. Articolo integrale e tabelle collegate non letti; nessun dosaggio, soglia numerica o calendario di monitoraggio trasferiti."
     }
   ],
-  "newIntegratedPdfPages": 4,
-  "newVisualInspections": 5,
-  "previouslyReadTextPagesRechecked": 4,
+  "newIntegratedPdfPages": 8,
+  "newVisualInspections": 9,
+  "previouslyReadTextPagesRechecked": 3,
   "officialSourceRechecks": [],
-  "newDistinctReadTexts": 5,
+  "newDistinctReadTexts": 9,
   "newRepeatedTextPagePositions": 0,
-  "automaticallyExtractedNonemptyTextPages": 4,
+  "automaticallyExtractedNonemptyTextPages": 9,
   "directVisualTextReadPages": 1
 }
